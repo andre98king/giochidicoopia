@@ -29,6 +29,10 @@ const TRANSLATIONS = {
     cat_roguelike: "🎲 Roguelike",
     cat_sport: "⚽ Sport",
     cat_strategy: "♟️ Strategy",
+    cat_indie: "🎮 Indie",
+    cat_free: "🆓 Gratis",
+    // Featured
+    featured_label: "🌟 GIOCO INDIE DELLA SETTIMANA",
     // Results
     results_found: (n, total) => `Trovati <span>${n}</span> giochi su ${total}`,
     // Empty state
@@ -99,6 +103,10 @@ const TRANSLATIONS = {
     cat_roguelike: "🎲 Roguelike",
     cat_sport: "⚽ Sport",
     cat_strategy: "♟️ Strategy",
+    cat_indie: "🎮 Indie",
+    cat_free: "🆓 Free",
+    // Featured
+    featured_label: "🌟 INDIE GAME OF THE WEEK",
     // Results
     results_found: (n, total) => `Found <span>${n}</span> games out of ${total}`,
     // Empty state
@@ -164,6 +172,7 @@ function setLang(lang) {
   renderFilters();
   renderGames();
   updateStats();
+  if (typeof renderFeatured === 'function') renderFeatured();
 }
 
 // ===== APPLY STATIC TRANSLATIONS =====

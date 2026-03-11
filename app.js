@@ -1,6 +1,12 @@
 // ===== ADMIN CONFIG =====
-// Cambia questa password come vuoi
-const ADMIN_PASSWORD = "coop2024";
+// SHA-256 della password admin (la password vera NON è nel codice)
+// Per cambiarla: python3 -c "import hashlib; print(hashlib.sha256(b'NUOVA_PASSWORD').hexdigest())"
+const ADMIN_HASH = "5f4d142bf532ae9f1bf0fe956dca03ecf85d16b47b3c8391b53d574eb9b289f2";
+
+async function hashPassword(str) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
+}
 
 // ===== STATE =====
 let activeFilters = new Set();
@@ -23,6 +29,8 @@ const categories = [
   { id: 'roguelike'  },
   { id: 'sport'      },
   { id: 'strategy'   },
+  { id: 'indie'      },
+  { id: 'free'       },
 ];
 
 // ===== LOCALSTORAGE: carica override admin =====
@@ -44,16 +52,62 @@ function saveOverride(id, personalNote, played) {
   if (g) { g.personalNote = personalNote; g.played = played; }
 }
 
+// ===== FEATURED INDIE OF THE WEEK =====
+function renderFeatured() {
+  const section = document.getElementById('featuredSection');
+  if (!section) return;
+  if (typeof featuredIndieId === 'undefined' || !featuredIndieId) {
+    section.innerHTML = '';
+    return;
+  }
+  const game = games.find(g => g.id === featuredIndieId);
+  if (!game) { section.innerHTML = ''; return; }
+  const desc = (currentLang === 'en' && game.description_en) ? game.description_en : game.description;
+  const storeLinks = [
+    game.steamUrl ? `<a class="btn-store btn-steam" href="${game.steamUrl}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Steam ↗</a>` : '',
+    game.epicUrl  ? `<a class="btn-store btn-epic"  href="${game.epicUrl}"  target="_blank" rel="noopener" onclick="event.stopPropagation()">Epic ↗</a>`  : '',
+    game.itchUrl  ? `<a class="btn-store btn-itch"  href="${game.itchUrl}" target="_blank" rel="noopener" onclick="event.stopPropagation()">itch.io ↗</a>` : '',
+  ].join('');
+  section.innerHTML = `
+    <div class="featured-section">
+      <div class="featured-banner" onclick="openModal(${game.id})">
+        ${game.image ? `<img class="featured-img" src="${game.image}" alt="${game.title}" onerror="this.style.display='none'">` : ''}
+        <div class="featured-info">
+          <div class="featured-label">${t('featured_label')}</div>
+          <div class="featured-title">${game.title}</div>
+          <div class="featured-desc">${desc}</div>
+          <div class="featured-meta">
+            ${game.rating > 0 ? `<span class="rating-badge rating-${ratingTier(game.rating)}">${ratingIcon(game.rating)} ${game.rating}%</span>` : ''}
+            ${storeLinks}
+          </div>
+        </div>
+      </div>
+    </div>`;
+}
+
 // ===== INIT =====
 document.addEventListener('DOMContentLoaded', () => {
   loadOverrides();
   applyStaticTranslations();
   updateStats();
   renderFilters();
+  renderFeatured();
   renderGames();
 
-  document.getElementById('searchInput').addEventListener('input', e => {
+  const searchInput = document.getElementById('searchInput');
+  const searchClear = document.getElementById('searchClear');
+
+  searchInput.addEventListener('input', e => {
     searchQuery = e.target.value.toLowerCase().trim();
+    searchClear.style.display = e.target.value ? 'block' : 'none';
+    renderGames();
+  });
+
+  searchClear.addEventListener('click', () => {
+    searchInput.value = '';
+    searchQuery = '';
+    searchClear.style.display = 'none';
+    searchInput.focus();
     renderGames();
   });
 
@@ -194,6 +248,7 @@ function createCard(game) {
   const storeButtons = [
     game.steamUrl ? `<a class="btn-store btn-steam" href="${game.steamUrl}" target="_blank" rel="noopener">Steam ↗</a>` : '',
     game.epicUrl  ? `<a class="btn-store btn-epic"  href="${game.epicUrl}"  target="_blank" rel="noopener">Epic ↗</a>`  : '',
+    game.itchUrl  ? `<a class="btn-store btn-itch"  href="${game.itchUrl}" target="_blank" rel="noopener">itch.io ↗</a>` : '',
   ].join('');
 
   const adminBtn = isAdmin
@@ -290,6 +345,7 @@ function openModal(id) {
   const storeLinks = [
     game.steamUrl ? `<a class="btn-primary" href="${game.steamUrl}" target="_blank" rel="noopener">Steam ↗</a>` : '',
     game.epicUrl  ? `<a class="btn-primary btn-epic-lg" href="${game.epicUrl}"  target="_blank" rel="noopener">Epic Games ↗</a>` : '',
+    game.itchUrl  ? `<a class="btn-store btn-itch" href="${game.itchUrl}" target="_blank" rel="noopener" style="padding:10px 20px;font-size:0.9rem">itch.io ↗</a>` : '',
   ].join('');
 
   const adminEdit = isAdmin
@@ -342,7 +398,7 @@ function closeModal() {
 }
 
 // ===== ADMIN TOGGLE =====
-function toggleAdmin() {
+async function toggleAdmin() {
   if (isAdmin) {
     isAdmin = false;
     document.getElementById('adminBtn').textContent = t('btn_admin');
@@ -352,7 +408,8 @@ function toggleAdmin() {
   }
   const pwd = prompt(t('admin_pwd_prompt'));
   if (pwd === null) return;
-  if (pwd === ADMIN_PASSWORD) {
+  const hash = await hashPassword(pwd);
+  if (hash === ADMIN_HASH) {
     isAdmin = true;
     document.getElementById('adminBtn').textContent = t('btn_admin_on');
     document.getElementById('adminBtn').classList.add('admin-active');

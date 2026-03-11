@@ -1,3 +1,5 @@
+const featuredIndieId = 16;
+
 const games = [
   {
     id: 1,
@@ -11,6 +13,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/2622380/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 163599,
     trending: true,
     rating: 74
@@ -18,7 +21,7 @@ const games = [
   {
     id: 2,
     title: "Rust",
-    categories: ["survival", "action"],
+    categories: ["survival", "action", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg",
     description: "In Rust, l'unico obiettivo è sopravvivere. L'isola è contro di te: la natura, gli animali, gli abitanti, gli altri sopravvissuti... Tutti vogliono la tua morte. Ogni notte è una sfida e dovrai lottare con ogni mezzo per arrivare fino all'alba.",
@@ -27,6 +30,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/252490/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 143870,
     trending: true,
     rating: 87
@@ -43,6 +47,7 @@ const games = [
     played: true,
     steamUrl: "https://store.steampowered.com/app/553850/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 53399,
     trending: true,
     rating: 76
@@ -59,6 +64,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/359550/",
     epicUrl: "https://store.epicgames.com/en-US/p/rainbow-six-siege",
+    itchUrl: "",
     ccu: 51847,
     trending: true,
     rating: 84
@@ -75,6 +81,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/381210/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 44886,
     trending: true,
     rating: 79
@@ -82,7 +89,7 @@ const games = [
   {
     id: 7,
     title: "Team Fortress 2",
-    categories: ["action"],
+    categories: ["action", "free"],
     players: "2+",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/440/header.jpg",
     description: "Nove diverse classi forniscono un'ampia scelta di capacità tattiche e di personalità. Costantemente aggiornato con nuove modalità di gioco, mappe, equipaggiamento e, soprattutto, cappelli!",
@@ -91,6 +98,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/440/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 43819,
     trending: true,
     rating: 90
@@ -107,6 +115,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/3240220/",
     epicUrl: "https://store.epicgames.com/en-US/p/grand-theft-auto-v",
+    itchUrl: "",
     ccu: 39502,
     trending: true,
     rating: 69
@@ -114,7 +123,7 @@ const games = [
   {
     id: 9,
     title: "DayZ",
-    categories: ["survival", "horror", "action"],
+    categories: ["survival", "horror", "action", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/221100/header.jpg",
     description: "Quanto sopravviverai in un mondo post-apocalittico invaso da zombi infetti, lottando contro altri sopravvissuti per risorse limitate? Farai squadra con giocatori sconosciuti e vi darete man forte? Oppure sarai un lupo solitario per evitare colpi bassi? Questo è DayZ. Questa è la tua storia.",
@@ -123,6 +132,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/221100/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 37066,
     trending: true,
     rating: 77
@@ -130,7 +140,7 @@ const games = [
   {
     id: 10,
     title: "Warframe",
-    categories: ["rpg", "action"],
+    categories: ["rpg", "action", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/230410/header.jpg",
     description: "Risvegliati come un guerriero inarrestabile e combatti al fianco dei tuoi amici in questo gioco d'azione online free-to-play con storie coinvolgenti.",
@@ -139,6 +149,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/230410/",
     epicUrl: "https://store.epicgames.com/en-US/p/warframe",
+    itchUrl: "",
     ccu: 36195,
     trending: true,
     rating: 87
@@ -155,6 +166,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/3241660/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 32349,
     trending: true,
     rating: 97
@@ -162,7 +174,7 @@ const games = [
   {
     id: 12,
     title: "Don't Starve Together",
-    categories: ["survival", "horror", "strategy"],
+    categories: ["survival", "horror", "strategy", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/322330/header.jpg",
     description: "Don't Starve Together è l’espansione multigiocatore autonoma di Don’t Starve, il gioco di sopravvivenza estrema.",
@@ -171,6 +183,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/322330/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 30542,
     trending: true,
     rating: 95
@@ -187,6 +200,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/218620/",
     epicUrl: "https://store.epicgames.com/en-US/p/payday-2",
+    itchUrl: "",
     ccu: 27254,
     trending: true,
     rating: 90
@@ -203,6 +217,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/550/",
     epicUrl: "https://store.epicgames.com/en-US/p/left-4-dead-2",
+    itchUrl: "",
     ccu: 25122,
     trending: true,
     rating: 98
@@ -210,7 +225,7 @@ const games = [
   {
     id: 15,
     title: "Destiny 2",
-    categories: ["action"],
+    categories: ["action", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1085660/header.jpg",
     description: "Destiny 2 è un MMO d'azione con un unico mondo in continua evoluzione, accessibile ovunque, gratuitamente e in qualsiasi momento con gli amici.",
@@ -219,6 +234,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1085660/",
     epicUrl: "https://store.epicgames.com/en-US/p/destiny-2",
+    itchUrl: "",
     ccu: 24619,
     trending: true,
     rating: 80
@@ -226,7 +242,7 @@ const games = [
   {
     id: 16,
     title: "Terraria",
-    categories: ["survival", "action", "rpg"],
+    categories: ["survival", "action", "rpg", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg",
     description: "Scava, combatti, esplora, costruisci! Niente è impossibile in questo gioco d'avventura pieno di azione. Anche disponibile nel Pacchetto da Quattro!",
@@ -235,6 +251,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/105600/",
     epicUrl: "https://store.epicgames.com/en-US/p/terraria",
+    itchUrl: "",
     ccu: 24580,
     trending: true,
     rating: 97
@@ -242,7 +259,7 @@ const games = [
   {
     id: 17,
     title: "Project Zomboid",
-    categories: ["survival", "horror", "rpg"],
+    categories: ["survival", "horror", "rpg", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
     description: "Project Zomboid è il definitivo simulatore di sopravvivenza zombie. Da soli o in multiplayer: saccheggia, costruisci, crafta, combatti, coltiva e pesca per sopravvivere. Una vasta mappa, sandbox personalizzabile e un sistema RPG hardcore. Come morirai? Basta un morso.",
@@ -251,6 +268,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/108600/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 22864,
     trending: true,
     rating: 94
@@ -258,7 +276,7 @@ const games = [
   {
     id: 18,
     title: "ARK: Survival Evolved",
-    categories: ["survival", "action", "rpg"],
+    categories: ["survival", "action", "rpg", "indie", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/346110/header.jpg",
     description: "Sei naufragato nudo, affamato e congelato su un'isola misteriosa, dovrai cacciare, raccogliere, creare oggetti, coltivare e costruire ripari per sopravvivere. Usa abilità e ingegno per uccidere, addomesticare e cavalcare Dinosauri e creature primitive che vivono su ARK. Alleati con centinaia di giocatori oppure gioca l",
@@ -267,6 +285,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/346110/",
     epicUrl: "https://store.epicgames.com/en-US/p/ark",
+    itchUrl: "",
     ccu: 22170,
     trending: true,
     rating: 84
@@ -274,7 +293,7 @@ const games = [
   {
     id: 19,
     title: "Rocket League",
-    categories: ["sport", "action", "splitscreen"],
+    categories: ["sport", "action", "splitscreen", "indie", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/252950/header.jpg",
     description: "Il calcio incontra ancora una volta le corse automobilistiche nel tanto atteso seguito dell'amato gioco in arena basato sulle leggi della fisica, battle-car acrobatiche supersoniche a razzi!",
@@ -283,6 +302,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/252950/",
     epicUrl: "https://store.epicgames.com/en-US/p/rocket-league",
+    itchUrl: "",
     ccu: 21106,
     trending: true,
     rating: 87
@@ -290,7 +310,7 @@ const games = [
   {
     id: 20,
     title: "Garry's Mod",
-    categories: ["action"],
+    categories: ["action", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/4000/header.jpg",
     description: "Garry's Mod è una sandbox fisica. Non ci sono obiettivi predefiniti né scopi da raggiungere. Ti diamo gli strumenti e ti lasciamo giocare: costruisci, sperimentaci e crea qualsiasi cosa con gli amici.",
@@ -299,6 +319,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/4000/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 18400,
     trending: true,
     rating: 97
@@ -306,7 +327,7 @@ const games = [
   {
     id: 21,
     title: "Palworld",
-    categories: ["survival", "action", "factory"],
+    categories: ["survival", "action", "factory", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
     description: "Cattura le misteriose creature di questo vasto mondo note come Pal, e usale per combattere, edificare e coltivare i campi! Puoi persino farle lavorare in fabbrica! Una nuova esperienza multiplayer open world, con elementi di survival e produzione oggetti.",
@@ -315,6 +336,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1623730/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 18028,
     trending: true,
     rating: 94
@@ -322,7 +344,7 @@ const games = [
   {
     id: 22,
     title: "7 Days to Die",
-    categories: ["survival", "horror", "action"],
+    categories: ["survival", "horror", "action", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/251570/header.jpg",
     description: "7 Days to Die è un gioco open world e un mix originale di sparatutto in prima persona, survival horror, tower defense e gioco di ruolo. Gioca al GDR sandbox survival zombie definitivo nato per primo. Navezgane ti aspetta!",
@@ -331,6 +353,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/251570/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 17045,
     trending: true,
     rating: 89
@@ -347,6 +370,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1142710/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 16842,
     trending: true,
     rating: 73
@@ -354,7 +378,7 @@ const games = [
   {
     id: 24,
     title: "Factorio",
-    categories: ["factory", "strategy", "survival"],
+    categories: ["factory", "strategy", "survival", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/427520/header.jpg",
     description: "Factorio è un gioco di costruzione e creazione di fabbriche automatizzate per la produzione di elementi di complessità crescente all'interno di un mondo infinito 2D - Usa la tua immaginazione per progettare la tua fabbrica, parti da oggetti semplici e infine proteggila da creature malvagie.",
@@ -363,6 +387,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/427520/",
     epicUrl: "https://store.epicgames.com/en-US/p/factorio",
+    itchUrl: "",
     ccu: 16426,
     trending: true,
     rating: 97
@@ -370,7 +395,7 @@ const games = [
   {
     id: 25,
     title: "The Binding of Isaac: Rebirth",
-    categories: ["rpg", "splitscreen", "action"],
+    categories: ["rpg", "splitscreen", "action", "indie"],
     players: "1-4 (locale)",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/250900/header.jpg",
     description: "The Binding of Isaac: Rebirth è un RPG shooter roguelike generato casualmente dove segui Isaac in una discesa negli inferi. Colleziona tesori bizzarri che trasformano il tuo personaggio, sblocca segreti oscuri e combatti mostri misteriosi in modalità co-op locale fino a 4 giocatori.",
@@ -379,6 +404,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/250900/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 14904,
     trending: true,
     rating: 97
@@ -386,7 +412,7 @@ const games = [
   {
     id: 26,
     title: "Valheim",
-    categories: ["survival", "action"],
+    categories: ["survival", "action", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/892970/header.jpg",
     description: "Un gioco di sopravvivenza ed esplorazione ambientato in un mondo fantastico ispirato alla mitologia norrena e alla cultura vichinga.",
@@ -395,6 +421,7 @@ const games = [
     played: true,
     steamUrl: "https://store.steampowered.com/app/892970/",
     epicUrl: "https://store.epicgames.com/en-US/p/valheim",
+    itchUrl: "",
     ccu: 14439,
     trending: true,
     rating: 94
@@ -402,7 +429,7 @@ const games = [
   {
     id: 27,
     title: "Black Desert",
-    categories: ["rpg", "action", "strategy"],
+    categories: ["rpg", "action", "strategy", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/582660/header.jpg",
     description: "Giocato da oltre 20 milioni di avventurieri - Black Desert Online è un MMORPG action in mondo aperto. Vivi combattimenti intensi, sconfiggi enormi boss mondiali, assedia castelli con gli amici e coltiva professioni come pesca, commercio, crafting e cucina.",
@@ -411,6 +438,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/582660/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 14345,
     trending: true,
     rating: 74
@@ -418,7 +446,7 @@ const games = [
   {
     id: 28,
     title: "Brawlhalla",
-    categories: ["splitscreen", "action"],
+    categories: ["splitscreen", "action", "indie", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/291550/header.jpg",
     description: "Un epico picchiaduro platform fino a 8 giocatori online o in locale. Gioca partite casual, ranked o in stanza privata con gli amici. Completamente gratuito! Multipiattaforma con PlayStation, Xbox, Nintendo Switch, iOS, Android e Steam. Oltre sessanta Leggende.",
@@ -427,6 +455,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/291550/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 14169,
     trending: true,
     rating: 81
@@ -443,6 +472,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/813780/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 13465,
     trending: true,
     rating: 95
@@ -450,7 +480,7 @@ const games = [
   {
     id: 30,
     title: "Satisfactory",
-    categories: ["factory", "survival", "strategy"],
+    categories: ["factory", "survival", "strategy", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/526870/header.jpg",
     description: "Satisfactory è un gioco in prima persona sulla costruzione di fabbriche in un mondo aperto, con un pizzico di esplorazione e combattimenti. Gioca da solo o con i tuoi amici, esplora un pianeta alieno, crea fabbriche multilivello e ascendi all'olimpo dei nastri trasportatori!",
@@ -459,6 +489,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/526870/",
     epicUrl: "https://store.epicgames.com/en-US/p/satisfactory",
+    itchUrl: "",
     ccu: 12596,
     trending: true,
     rating: 97
@@ -475,6 +506,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/2246340/",
     epicUrl: "https://store.epicgames.com/en-US/p/monster-hunter-wilds",
+    itchUrl: "",
     ccu: 12494,
     trending: true,
     rating: 58
@@ -491,6 +523,7 @@ const games = [
     played: true,
     steamUrl: "https://store.steampowered.com/app/582010/",
     epicUrl: "https://store.epicgames.com/en-US/p/monster-hunter-world",
+    itchUrl: "",
     ccu: 11923,
     trending: true,
     rating: 88
@@ -507,6 +540,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1604030/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 10961,
     trending: true,
     rating: 89
@@ -514,7 +548,7 @@ const games = [
   {
     id: 34,
     title: "Phasmophobia",
-    categories: ["horror", "action"],
+    categories: ["horror", "action", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/739630/header.jpg",
     description: "Phasmophobia è un horror psicologico co-op online per 4 giocatori. L’attività paranormale è in aumento e spetta a te e alla tua squadra usare tutta l’attrezzatura per la caccia ai fantasmi per raccogliere più prove possibili.",
@@ -523,6 +557,7 @@ const games = [
     played: true,
     steamUrl: "https://store.steampowered.com/app/739630/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 9978,
     trending: true,
     rating: 96
@@ -539,6 +574,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1237950/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 9213,
     trending: true,
     rating: 88
@@ -546,7 +582,7 @@ const games = [
   {
     id: 36,
     title: "Squad",
-    categories: ["action", "strategy"],
+    categories: ["action", "strategy", "indie", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/393380/header.jpg",
     description: "Squad è un FPS tattico che offre esperienze di combattimento autentiche attraverso il lavoro di squadra, la comunicazione e il combattimento realistico. Colma il divario tra shooter arcade e realismo militare con battaglie a 100 giocatori, guerra con armi combinate e costruzione di basi.",
@@ -555,6 +591,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/393380/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 9116,
     trending: true,
     rating: 83
@@ -571,6 +608,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/2344520/",
     epicUrl: "https://store.epicgames.com/en-US/p/diablo-iv",
+    itchUrl: "",
     ccu: 8835,
     trending: true,
     rating: 66
@@ -587,6 +625,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1151340/",
     epicUrl: "https://store.epicgames.com/en-US/p/fallout-76",
+    itchUrl: "",
     ccu: 8796,
     trending: true,
     rating: 73
@@ -603,6 +642,7 @@ const games = [
     played: true,
     steamUrl: "https://store.steampowered.com/app/49520/",
     epicUrl: "https://store.epicgames.com/en-US/p/borderlands-2",
+    itchUrl: "",
     ccu: 8551,
     trending: true,
     rating: 92
@@ -610,7 +650,7 @@ const games = [
   {
     id: 40,
     title: "Risk of Rain 2",
-    categories: ["action", "survival"],
+    categories: ["action", "survival", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/632360/header.jpg",
     description: "Fuggi da un caotico pianeta alieno combattendo orde di mostri infuriati - con i tuoi amici o da solo. Combina il bottino in maniere sorprendenti e padroneggia ogni personaggio finché non diventerai quel che ti faceva tremare quando sei atterrato per la prima volta.",
@@ -619,6 +659,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/632360/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 7902,
     trending: true,
     rating: 93
@@ -635,6 +676,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/2479810/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 7543,
     trending: true,
     rating: 68
@@ -642,7 +684,7 @@ const games = [
   {
     id: 42,
     title: "Bloons TD 6",
-    categories: ["strategy", "survival", "action"],
+    categories: ["strategy", "survival", "action", "indie", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/960090/header.jpg",
     description: "Il gioco in stile tower defense che tutti aspettavano",
@@ -651,6 +693,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/960090/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 7489,
     trending: true,
     rating: 97
@@ -667,6 +710,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1284190/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 7330,
     trending: true,
     rating: 96
@@ -683,6 +727,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1361210/",
     epicUrl: "https://store.epicgames.com/en-US/p/warhammer-40000-darktide",
+    itchUrl: "",
     ccu: 7267,
     trending: true,
     rating: 71
@@ -699,6 +744,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/107410/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 7181,
     trending: true,
     rating: 90
@@ -715,6 +761,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1466860/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 7084,
     trending: true,
     rating: 86
@@ -731,6 +778,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/2183900/",
     epicUrl: "https://store.epicgames.com/en-US/p/warhammer-40000-space-marine-2",
+    itchUrl: "",
     ccu: 6851,
     trending: true,
     rating: 83
@@ -747,6 +795,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1942280/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 6389,
     trending: true,
     rating: 97
@@ -754,7 +803,7 @@ const games = [
   {
     id: 49,
     title: "Hunt: Showdown 1896",
-    categories: ["action", "horror"],
+    categories: ["action", "horror", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/594650/header.jpg",
     description: "Dai la caccia ai corrotti nelle lagune perse nella storia. Combatti contro una malvagità senza tempo che ti costringe ad affrontare mostri distorti e altri Cacciatori disperati, in solitaria o in multiplayer, in uno sparatutto in prima persona tattico PvPvE ad alto rischio. Qui non ci sono eroi.",
@@ -763,6 +812,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/594650/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 6300,
     trending: true,
     rating: 73
@@ -779,6 +829,7 @@ const games = [
     played: true,
     steamUrl: "https://store.steampowered.com/app/1966720/",
     epicUrl: "https://store.epicgames.com/en-US/p/lethal-company",
+    itchUrl: "",
     ccu: 6199,
     trending: true,
     rating: 97
@@ -786,7 +837,7 @@ const games = [
   {
     id: 51,
     title: "The Isle",
-    categories: ["survival", "action", "horror"],
+    categories: ["survival", "action", "horror", "indie", "free"],
     players: "1-4 (locale)",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/376210/header.jpg",
     description: "Vivi un'intensa esperienza di sopravvivenza in mondo aperto mentre cerchi di restare in vita su un'isola spietata abitata da dinosauri! Caccia, cresci ed evolvi il tuo dinosauro per dominare l'ecosistema.",
@@ -795,6 +846,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/376210/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 5946,
     trending: true,
     rating: 81
@@ -802,7 +854,7 @@ const games = [
   {
     id: 52,
     title: "Last Epoch",
-    categories: ["rpg", "action"],
+    categories: ["rpg", "action", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/899770/header.jpg",
     description: "Scopri il Passato, Riforgia il Futuro. Ascendi in una delle 15 classi maestria, esplora dungeon pericolosi, caccia loot epico, crafta armi leggendarie e padroneggia oltre cento alberi delle abilità trasformativi in questo apprezzato Action RPG.",
@@ -811,6 +863,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/899770/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 5831,
     trending: true,
     rating: 80
@@ -827,6 +880,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/440900/",
     epicUrl: "https://store.epicgames.com/en-US/p/conan-exiles",
+    itchUrl: "",
     ccu: 5677,
     trending: true,
     rating: 79
@@ -843,6 +897,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1063730/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 5583,
     trending: true,
     rating: 69
@@ -859,6 +914,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/2001120/",
     epicUrl: "https://store.epicgames.com/en-US/p/split-fiction",
+    itchUrl: "",
     ccu: 5476,
     trending: true,
     rating: 98
@@ -875,6 +931,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1172620/",
     epicUrl: "https://store.epicgames.com/en-US/p/sea-of-thieves",
+    itchUrl: "",
     ccu: 5437,
     trending: true,
     rating: 89
@@ -891,6 +948,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/311210/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 5414,
     trending: true,
     rating: 84
@@ -898,7 +956,7 @@ const games = [
   {
     id: 58,
     title: "Deep Rock Galactic",
-    categories: ["action", "survival", "horror"],
+    categories: ["action", "survival", "horror", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/548430/header.jpg",
     description: "Deep Rock Galactic è un FPS fantascientifico cooperativo per 1-4 giocatori con tostissimi nani spaziali, ambienti distruttibili al 100%, grotte generate proceduralmente e orde infinite di mostri alieni.",
@@ -907,6 +965,7 @@ const games = [
     played: true,
     steamUrl: "https://store.steampowered.com/app/548430/",
     epicUrl: "https://store.epicgames.com/en-US/p/deep-rock-galactic",
+    itchUrl: "",
     ccu: 5216,
     trending: true,
     rating: 97
@@ -923,6 +982,7 @@ const games = [
     played: true,
     steamUrl: "https://store.steampowered.com/app/1426210/",
     epicUrl: "https://store.epicgames.com/en-US/p/it-takes-two",
+    itchUrl: "",
     ccu: 5018,
     trending: true,
     rating: 95
@@ -939,6 +999,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/239140/",
     epicUrl: "https://store.epicgames.com/en-US/p/dying-light",
+    itchUrl: "",
     ccu: 4953,
     trending: true,
     rating: 95
@@ -946,7 +1007,7 @@ const games = [
   {
     id: 61,
     title: "Hollow Knight",
-    categories: ["action"],
+    categories: ["action", "indie"],
     players: "2+",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/367520/header.jpg",
     description: "Forgia la tua strada in Hollow Knight! Un epico gioco d’azione e avventura sullo sfondo di un vasto regno in rovina popolato da insetti ed eroi. Esplora le caverne tortuose, combatti contro sudicie creature e fai amicizia con insetti bizzarri, il tutto disegnato a mano secondo il classico stile 2D.",
@@ -955,6 +1016,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/367520/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 4912,
     trending: true,
     rating: 97
@@ -962,7 +1024,7 @@ const games = [
   {
     id: 62,
     title: "Raft",
-    categories: ["survival", "action", "strategy"],
+    categories: ["survival", "action", "strategy", "indie", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg",
     description: "Raft ti lancia con i tuoi amici in un'epica avventura oceanica! Da soli o in squadra, i giocatori combattono per sopravvivere a un pericoloso viaggio attraverso il vasto mare. Raccogli detriti, saccheggia le barriere coralline e costruisci la tua casa galleggiante, ma attento agli squali!",
@@ -971,6 +1033,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/648800/",
     epicUrl: "https://store.epicgames.com/en-US/p/raft",
+    itchUrl: "",
     ccu: 4701,
     trending: true,
     rating: 93
@@ -978,7 +1041,7 @@ const games = [
   {
     id: 63,
     title: "SCP: Secret Laboratory",
-    categories: ["horror", "action", "survival"],
+    categories: ["horror", "action", "survival", "indie", "free"],
     players: "1-4 (locale)",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/700330/header.jpg",
     description: "Durante una falla di contenimento nella fondazione SCP, parte delle anomalie hanno eluso la sicurezza e sono fuggite dalle loro camere di contenimento – e non hanno buone intezioni. Diventa parte del personale della struttura, un agente con il ruolo di riportare l'ordine o un anomalia e decidi le sorti della partita!",
@@ -987,6 +1050,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/700330/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 4696,
     trending: true,
     rating: 91
@@ -994,7 +1058,7 @@ const games = [
   {
     id: 64,
     title: "Path of Exile",
-    categories: ["rpg", "action", "horror"],
+    categories: ["rpg", "action", "horror", "indie", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/238960/header.jpg",
     description: "Sei un Esule che lotta per sopravvivere sul dark continent di Wraeclast, combattendo per guadagnare potere e vendicarti di chi ti ha fatto del male. Path of Exile è un Action RPG online in un mondo fantasy oscuro, completamente gratuito e mai pay-to-win.",
@@ -1003,6 +1067,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/238960/",
     epicUrl: "https://store.epicgames.com/en-US/p/path-of-exile",
+    itchUrl: "",
     ccu: 4694,
     trending: true,
     rating: 89
@@ -1010,7 +1075,7 @@ const games = [
   {
     id: 65,
     title: "Killing Floor 2",
-    categories: ["horror", "action", "survival"],
+    categories: ["horror", "action", "survival", "indie", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/232090/header.jpg",
     description: "In KILLING FLOOR 2, i giocatori scendono nell'Europa continentale dopo che è stata invasa da orripilanti cloni assassini chiamati Zed, creati da elementi ribelli della Horzine Corporation. Co-Op fino a 6 giocatori e modalità VS fino a 12 giocatori.",
@@ -1019,6 +1084,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/232090/",
     epicUrl: "https://store.epicgames.com/en-US/p/killing-floor-2",
+    itchUrl: "",
     ccu: 4508,
     trending: true,
     rating: 88
@@ -1035,6 +1101,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1326470/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 4450,
     trending: true,
     rating: 88
@@ -1051,6 +1118,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1144200/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 4296,
     trending: true,
     rating: 89
@@ -1067,6 +1135,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/534380/",
     epicUrl: "https://store.epicgames.com/en-US/p/dying-light-2",
+    itchUrl: "",
     ccu: 4223,
     trending: true,
     rating: 79
@@ -1074,7 +1143,7 @@ const games = [
   {
     id: 69,
     title: "Space Engineers",
-    categories: ["survival", "action", "strategy"],
+    categories: ["survival", "action", "strategy", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/244850/header.jpg",
     description: "Space Engineers è un sandbox spaziale dove puoi progettare e costruire astronavi, stazioni e basi planetarie in un universo completamente distruttibile. Esplora i pianeti e lo spazio, raccogli risorse, sopravvivi ai pericoli e combatti da solo o con gli amici nei modi Creativa o Sopravvivenza.",
@@ -1083,6 +1152,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/244850/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 4201,
     trending: true,
     rating: 89
@@ -1090,7 +1160,7 @@ const games = [
   {
     id: 70,
     title: "Among Us",
-    categories: ["survival", "splitscreen", "action"],
+    categories: ["survival", "splitscreen", "action", "indie", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/945360/header.jpg",
     description: "Uno spaziale party game di collaborazione e tradimenti per 4-15 giocatori, da giocare in locale oppure online.",
@@ -1099,6 +1169,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/945360/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 3832,
     trending: true,
     rating: 92
@@ -1115,6 +1186,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1304930/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 3743,
     trending: true,
     rating: 93
@@ -1131,6 +1203,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1446780/",
     epicUrl: "https://store.epicgames.com/en-US/p/monster-hunter-rise",
+    itchUrl: "",
     ccu: 3658,
     trending: true,
     rating: 82
@@ -1147,6 +1220,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/2186680/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 3582,
     trending: true,
     rating: 86
@@ -1154,7 +1228,7 @@ const games = [
   {
     id: 74,
     title: "Divinity: Original Sin 2 - Definitive Edition",
-    categories: ["rpg", "splitscreen", "strategy"],
+    categories: ["rpg", "splitscreen", "strategy", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/435150/header.jpg",
     description: "L'RPG pluripremiato che ha alzato l'asticella, dai creatori di Baldur's Gate 3. Raduna il tuo gruppo. Padroneggia un combattimento tattico profondo. Avventurati in quattro giocatori, ma sappi che solo uno di voi avrà la possibilità di diventare un Dio.",
@@ -1163,6 +1237,7 @@ const games = [
     played: true,
     steamUrl: "https://store.steampowered.com/app/435150/",
     epicUrl: "https://store.epicgames.com/en-US/p/divinity-original-sin-2",
+    itchUrl: "",
     ccu: 3510,
     trending: true,
     rating: 96
@@ -1179,6 +1254,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/976730/",
     epicUrl: "https://store.epicgames.com/en-US/p/halo-the-master-chief-collection",
+    itchUrl: "",
     ccu: 3362,
     trending: true,
     rating: 92
@@ -1195,6 +1271,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/397540/",
     epicUrl: "https://store.epicgames.com/en-US/p/borderlands-3",
+    itchUrl: "",
     ccu: 3164,
     trending: true,
     rating: 84
@@ -1211,6 +1288,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/268500/",
     epicUrl: "https://store.epicgames.com/en-US/p/xcom-2",
+    itchUrl: "",
     ccu: 3123,
     trending: true,
     rating: 85
@@ -1218,7 +1296,7 @@ const games = [
   {
     id: 78,
     title: "Party Animals",
-    categories: ["action", "splitscreen"],
+    categories: ["action", "splitscreen", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1260320/header.jpg",
     description: "Combatti contro i tuoi amici nei panni di cuccioli, gattini e altre creature soffici in Party Animals! Sfidatevi online o in locale sullo stesso schermo in un caos di fisica ragdoll assolutamente esilarante. Il motore fisico realistico trasforma ogni piccolo scontro in una scena comica indimenticabile.",
@@ -1227,6 +1305,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1260320/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 3070,
     trending: true,
     rating: 78
@@ -1234,7 +1313,7 @@ const games = [
   {
     id: 79,
     title: "Age of Empires III: Definitive Edition",
-    categories: ["strategy"],
+    categories: ["strategy", "free"],
     players: "1-4 (locale)",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/933110/header.jpg",
     description: "Age of Empires III: Definitive Edition offre ai giocatori una prova di questo strategico storico in tempo reale sia in modalità giocatore singolo sia in multigiocatore. *Nota: per sbloccare tutte le funzionalità del gioco, consulta il prodotto “Gioco completo”.",
@@ -1243,6 +1322,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/933110/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 3016,
     trending: true,
     rating: 85
@@ -1250,7 +1330,7 @@ const games = [
   {
     id: 80,
     title: "Foxhole",
-    categories: ["strategy", "action", "rpg"],
+    categories: ["strategy", "action", "rpg", "indie", "free"],
     players: "1-4 (locale)",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/505460/header.jpg",
     description: "Foxhole è un gioco massivamente multiplayer dove migliaia di giocatori determinano l'esito di una guerra online persistente. Ogni singolo soldato è un giocatore che contribuisce allo sforzo bellico attraverso logistica, costruzione di basi, ricognizione e combattimento.",
@@ -1259,6 +1339,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/505460/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 2821,
     trending: true,
     rating: 84
@@ -1275,6 +1356,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/32470/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 2818,
     trending: true,
     rating: 98
@@ -1291,6 +1373,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/916440/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 2784,
     trending: true,
     rating: 81
@@ -1298,7 +1381,7 @@ const games = [
   {
     id: 84,
     title: "Dinkum",
-    categories: ["survival", "rpg"],
+    categories: ["survival", "rpg", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1062520/header.jpg",
     description: "Dinkum è un gioco di simulazione e sopravvivenza ambientato su un’isola ispirata all’aspro outback australiano. Coltiva, caccia, estrai, pesca e raccogli risorse, espandi la tua città e scopri cosa rende Dinkum così speciale, in modalità singolo giocatore o con gli amici.",
@@ -1307,6 +1390,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1062520/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 2422,
     trending: true,
     rating: 92
@@ -1314,7 +1398,7 @@ const games = [
   {
     id: 85,
     title: "Grounded",
-    categories: ["survival", "horror", "action"],
+    categories: ["survival", "horror", "action", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/962130/header.jpg",
     description: "Il mondo è un luogo vasto, bellissimo e pericoloso — specialmente quando sei stato rimpicciolito alle dimensioni di una formica. Riesci a prosperare accanto alle orde di insetti giganti, combattendo per sopravvivere ai pericoli del cortile? Co-op fino a 4 giocatori.",
@@ -1323,6 +1407,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/962130/",
     epicUrl: "https://store.epicgames.com/en-US/p/grounded",
+    itchUrl: "",
     ccu: 2394,
     trending: true,
     rating: 89
@@ -1330,7 +1415,7 @@ const games = [
   {
     id: 86,
     title: "Grim Dawn",
-    categories: ["rpg", "action"],
+    categories: ["rpg", "action", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/219990/header.jpg",
     description: "Entra in un mondo fantasy apocalittico dove l'umanità è sull'orlo dell'estinzione, il ferro vale più dell'oro e la fiducia si guadagna con fatica. Questo ARPG presenta sviluppo del personaggio complesso, centinaia di oggetti unici, crafting e missioni con scelte e conseguenze.",
@@ -1339,6 +1424,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/219990/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 2376,
     trending: true,
     rating: 94
@@ -1346,7 +1432,7 @@ const games = [
   {
     id: 87,
     title: "Barotrauma",
-    categories: ["survival", "horror", "strategy"],
+    categories: ["survival", "horror", "strategy", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/602960/header.jpg",
     description: "Barotrauma è un simulatore di sottomarino co-op 2D, ambientato nello spazio e con elementi survival horror e GDR. Guida il sottomarino, completa le missioni, combatti i mostri, ripara le perdite, aziona i macchinari, posiziona le armi, fabbrica oggetti e stai sempre all'erta!",
@@ -1355,6 +1441,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/602960/",
     epicUrl: "https://store.epicgames.com/en-US/p/barotrauma",
+    itchUrl: "",
     ccu: 2371,
     trending: true,
     rating: 94
@@ -1362,7 +1449,7 @@ const games = [
   {
     id: 88,
     title: "Halo Infinite",
-    categories: ["action"],
+    categories: ["action", "free"],
     players: "1-4 (locale)",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1240440/header.jpg",
     description: "Halo, una delle saghe più iconiche nella storia dei videogiochi, ora è più grande che mai, con una vasta Campagna open world e un'esperienza multiplayer dinamica e gratuita.",
@@ -1371,6 +1458,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1240440/",
     epicUrl: "https://store.epicgames.com/en-US/p/halo-infinite",
+    itchUrl: "",
     ccu: 2275,
     trending: true,
     rating: 70
@@ -1378,7 +1466,7 @@ const games = [
   {
     id: 89,
     title: "Crossout",
-    categories: ["action"],
+    categories: ["action", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/386180/header.jpg",
     description: "Crossout - Tuffati nel mondo di CROSSOUT, il gioco MMO d'azione post-apocalittico! Costruisci le tue speciali macchine da combattimento partendo da decine di componenti intercambiabili, usale in battaglia e annienta i nemici in esplosive battaglie PvP online!",
@@ -1387,6 +1475,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/386180/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 2231,
     trending: true,
     rating: 75
@@ -1394,7 +1483,7 @@ const games = [
   {
     id: 90,
     title: "theHunter: Call of the Wild",
-    categories: ["action", "survival", "sport"],
+    categories: ["action", "survival", "sport", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/518790/header.jpg",
     description: "Tuffati in un mondo estremamente realistico e ricco di paesaggi mozzafiato e scopri un gioco di caccia senza eguali. Immergiti nella suggestiva campagna a giocatore singolo o vivi l'esperienza di caccia definitiva in compagnia dei tuoi amici.",
@@ -1403,6 +1492,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/518790/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 2207,
     trending: true,
     rating: 89
@@ -1419,6 +1509,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/304390/",
     epicUrl: "https://store.epicgames.com/en-US/p/for-honor",
+    itchUrl: "",
     ccu: 2146,
     trending: true,
     rating: 70
@@ -1435,6 +1526,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/392160/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 2141,
     trending: true,
     rating: 79
@@ -1442,7 +1534,7 @@ const games = [
   {
     id: 93,
     title: "Warhammer: Vermintide 2",
-    categories: ["action", "rpg"],
+    categories: ["action", "rpg", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/552500/header.jpg",
     description: "Il sequel del successo di critica Vermintide è un gioco d’azione corpo a corpo visivamente sbalorditivo e innovativo che supera i confini della modalità co-op in prima persona. Unisciti alla battaglia ora!",
@@ -1451,6 +1543,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/552500/",
     epicUrl: "https://store.epicgames.com/en-US/p/warhammer-vermintide-2",
+    itchUrl: "",
     ccu: 2124,
     trending: true,
     rating: 85
@@ -1467,6 +1560,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/12210/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 2122,
     trending: true,
     rating: 82
@@ -1474,7 +1568,7 @@ const games = [
   {
     id: 95,
     title: "Overcooked! 2",
-    categories: ["splitscreen", "action", "strategy"],
+    categories: ["splitscreen", "action", "strategy", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/728880/header.jpg",
     description: "Overcooked ritorna con una nuova esperienza di cucina caotica! Immergiti di nuovo nel Regno delle Cipolle e crea la tua squadra di chef nella versione classica in cooperativa oppure online fino a quattro giocatori. Lega bene il grembiule... è ora di salvare il mondo (di nuovo!)",
@@ -1483,6 +1577,7 @@ const games = [
     played: true,
     steamUrl: "https://store.steampowered.com/app/728880/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 2107,
     trending: true,
     rating: 91
@@ -1490,7 +1585,7 @@ const games = [
   {
     id: 96,
     title: "Cuphead",
-    categories: ["action", "splitscreen"],
+    categories: ["action", "splitscreen", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/268910/header.jpg",
     description: "Cuphead è un classico action \"run and gun\" fortemente incentrato sulle battaglie contro i boss. Ispirato ai cartoni animati degli anni '30, può vantare grafiche ed effetti audio accuratamente ricreati con le tecniche di quell'epoca (animazione tradizionale a mano, sfondi ad acquerello e registrazioni jazz originali).",
@@ -1499,6 +1594,7 @@ const games = [
     played: true,
     steamUrl: "https://store.steampowered.com/app/268910/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 2080,
     trending: true,
     rating: 96
@@ -1515,6 +1611,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1371580/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 2060,
     trending: true,
     rating: 68
@@ -1531,6 +1628,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/2215430/",
     epicUrl: "https://store.epicgames.com/en-US/p/ghost-of-tsushima-directors-cut",
+    itchUrl: "",
     ccu: 2025,
     trending: true,
     rating: 94
@@ -1547,6 +1645,7 @@ const games = [
     played: true,
     steamUrl: "https://store.steampowered.com/app/620/",
     epicUrl: "https://store.epicgames.com/en-US/p/portal-2",
+    itchUrl: "",
     ccu: 1959,
     trending: true,
     rating: 99
@@ -1554,7 +1653,7 @@ const games = [
   {
     id: 100,
     title: "Insurgency: Sandstorm",
-    categories: ["action"],
+    categories: ["action", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/581320/header.jpg",
     description: "Insurgency: Sandstorm è un FPS tattico a squadre basato su letali combattimenti ravvicinati e un'esperienza multiplayer a obiettivi. Prova tutta l’intensità dei combattimenti moderni dove l'abilità viene premiata e il lavoro di squadra è essenziale per conquistare la vittoria.",
@@ -1563,6 +1662,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/581320/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 1826,
     trending: true,
     rating: 85
@@ -1570,7 +1670,7 @@ const games = [
   {
     id: 101,
     title: "Escape the Backrooms",
-    categories: ["horror", "puzzle", "action"],
+    categories: ["horror", "puzzle", "action", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1943950/header.jpg",
     description: "Escape the Backrooms è un gioco horror di esplorazione in co-op da 1 a 4 giocatori. Attraversa oltre 30 livelli di backroom evitando entità e altri pericoli. Prova a scappare, ma ricorda: la sopravvivenza non è garantita.",
@@ -1579,6 +1679,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1943950/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 1756,
     trending: true,
     rating: 91
@@ -1595,6 +1696,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/699130/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 1663,
     trending: true,
     rating: 83
@@ -1602,7 +1704,7 @@ const games = [
   {
     id: 104,
     title: "Green Hell",
-    categories: ["survival", "action", "horror"],
+    categories: ["survival", "action", "horror", "indie", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/815370/header.jpg",
     description: "Immergiti nella simulazione di sopravvivenza in un mondo aperto ambientato nell’implacabile foresta amazzonica. Sopravvivi con le tue forze o in squadra servendoti di tecniche di sopravvivenza realistiche, creando strumenti, costruendo rifugi o erigendo fortezze, cacciando e accumulando risorse.",
@@ -1611,6 +1713,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/815370/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 1656,
     trending: true,
     rating: 86
@@ -1618,7 +1721,7 @@ const games = [
   {
     id: 105,
     title: "Wartales",
-    categories: ["rpg", "strategy", "survival"],
+    categories: ["rpg", "strategy", "survival", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1527950/header.jpg",
     description: "Wartales è un RPG in mondo aperto in cui guidi un gruppo di mercenari alla ricerca di ricchezza in un vasto universo medievale. Esplora il mondo, recluta compagni, raccogli taglie e svela i segreti delle tombe degli antichi con gli amici in co-op.",
@@ -1627,6 +1730,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1527950/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 1632,
     trending: true,
     rating: 90
@@ -1643,6 +1747,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1282100/",
     epicUrl: "https://store.epicgames.com/en-US/p/remnant-2",
+    itchUrl: "",
     ccu: 1573,
     trending: true,
     rating: 83
@@ -1659,6 +1764,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1934680/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 1559,
     trending: true,
     rating: 90
@@ -1666,7 +1772,7 @@ const games = [
   {
     id: 109,
     title: "Tinkerlands",
-    categories: ["survival", "rpg", "action"],
+    categories: ["survival", "rpg", "action", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2617700/header.jpg",
     description: "Esplora, crafta e combatti attraverso isole inesplorate — da solo o con fino a 4 giocatori in co-op! Tinkerlands è un'emozionante avventura survival dove costruirai il tuo insediamento, creerai strumenti utili per sopravvivere e userai persino la magia!",
@@ -1675,6 +1781,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/2617700/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 1543,
     trending: true,
     rating: 85
@@ -1691,6 +1798,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1149460/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 1492,
     trending: true,
     rating: 72
@@ -1698,7 +1806,7 @@ const games = [
   {
     id: 111,
     title: "Stormworks: Build and Rescue",
-    categories: ["factory", "survival"],
+    categories: ["factory", "survival", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/573090/header.jpg",
     description: "Entra in un mondo dove progetti, costruisci e piloti il tuo servizio di soccorso aereo-marittimo. Libera l'eroe che è in te mentre affronti tempeste violente in mare per salvare chi ha bisogno di aiuto, da solo o con gli amici.",
@@ -1707,6 +1815,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/573090/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 1488,
     trending: true,
     rating: 90
@@ -1723,6 +1832,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/460930/",
     epicUrl: "https://store.epicgames.com/en-US/p/tom-clancys-ghost-recon-wildlands",
+    itchUrl: "",
     ccu: 1441,
     trending: true,
     rating: 80
@@ -1739,6 +1849,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1325200/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 1441,
     trending: true,
     rating: 88
@@ -1755,6 +1866,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/2231380/",
     epicUrl: "https://store.epicgames.com/en-US/p/tom-clancys-ghost-recon-breakpoint",
+    itchUrl: "",
     ccu: 1430,
     trending: true,
     rating: 73
@@ -1762,7 +1874,7 @@ const games = [
   {
     id: 115,
     title: "Gunfire Reborn",
-    categories: ["action", "rpg"],
+    categories: ["action", "rpg", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1217060/header.jpg",
     description: "Gunfire Reborn è un gioco d'avventura su livelli con caratteristiche FPS, roguelike e GDR. I giocatori controllano eroi con diverse abilità per provare gameplay con build diverse, usando le armi cadute in modo casuale per avventurarsi in livelli casuali.",
@@ -1771,6 +1883,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1217060/",
     epicUrl: "https://store.epicgames.com/en-US/p/gunfire-reborn",
+    itchUrl: "",
     ccu: 1428,
     trending: true,
     rating: 93
@@ -1778,7 +1891,7 @@ const games = [
   {
     id: 117,
     title: "Medieval Dynasty",
-    categories: ["survival", "rpg"],
+    categories: ["survival", "rpg", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1129580/header.jpg",
     description: "Vai a caccia, sopravvivi, costruisci e governa nell'ostile Medioevo: crea una dinastia medievale e sacrificati per garantire la sua lunga prosperità! Gioca in solitaria o fai squadra con gli amici per vivere l'esperienza medievale definitiva.",
@@ -1787,6 +1900,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1129580/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 1366,
     trending: true,
     rating: 91
@@ -1794,7 +1908,7 @@ const games = [
   {
     id: 118,
     title: "Ultimate Chicken Horse",
-    categories: ["splitscreen", "puzzle", "action"],
+    categories: ["splitscreen", "puzzle", "action", "indie", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/386940/header.jpg",
     description: "Ultimate Chicken Horse è un gioco platform a costruzione di livelli per feste dove costruisci il percorso e poi ci giochi. Aggiungi trappole e piattaforme per rendere il livello superabile per te ma impossibile per i tuoi amici!",
@@ -1803,6 +1917,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/386940/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 350,
     trending: false,
     rating: 96
@@ -1810,7 +1925,7 @@ const games = [
   {
     id: 119,
     title: "Gang Beasts",
-    categories: ["splitscreen", "action"],
+    categories: ["splitscreen", "action", "indie", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/285900/header.jpg",
     description: "Gang Beasts è un gioco multiplayer locale demenziale con personaggi gelatinosi, controlli corporei fisici goffi e livelli ambientali pericolosi. Combatti in arene assurde e butta fuori gli avversari nel modo più caotico possibile.",
@@ -1819,6 +1934,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/285900/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 376,
     trending: false,
     rating: 85
@@ -1826,7 +1942,7 @@ const games = [
   {
     id: 120,
     title: "Stick Fight: The Game",
-    categories: ["splitscreen", "action"],
+    categories: ["splitscreen", "action", "indie", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/674940/header.jpg",
     description: "Stick Fight è un gioco di combattimento fisico frenetico dove combatti come personaggi stickman attraverso una serie di livelli folli. Con armi, gravità e fisica caotici, ogni round è imprevedibile e esilarante.",
@@ -1835,6 +1951,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/674940/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 265,
     trending: false,
     rating: 94
@@ -1842,7 +1959,7 @@ const games = [
   {
     id: 121,
     title: "Human: Fall Flat",
-    categories: ["splitscreen", "puzzle"],
+    categories: ["splitscreen", "puzzle", "indie", "free"],
     players: "1-8",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/477160/header.jpg",
     description: "Human: Fall Flat è un gioco open-ended di fisica e puzzle in cui controlli Bob, un umano goffo privo di qualsiasi abilità speciale. Scala, spingi e crea il tuo percorso attraverso livelli surreali da solo o con gli amici.",
@@ -1851,6 +1968,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/477160/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 950,
     trending: true,
     rating: 95
@@ -1858,7 +1976,7 @@ const games = [
   {
     id: 122,
     title: "Lovers in a Dangerous Spacetime",
-    categories: ["splitscreen", "action", "roguelike"],
+    categories: ["splitscreen", "action", "roguelike", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/252110/header.jpg",
     description: "Lovers in a Dangerous Spacetime è un frenetico gioco di sparatutto spaziale co-op per 1-4 giocatori. Pilota una navicella colorata attraverso galassie neon, gestisci scudi, armi e motori con i tuoi compagni per salvare esseri spaziali dall'Anti-Amore.",
@@ -1867,6 +1985,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/252110/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 7,
     trending: false,
     rating: 93
@@ -1874,7 +1993,7 @@ const games = [
   {
     id: 123,
     title: "Streets of Rage 4",
-    categories: ["splitscreen", "action"],
+    categories: ["splitscreen", "action", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/985890/header.jpg",
     description: "Streets of Rage 4 è il ritorno dell'amata serie beat 'em up, con grafica disegnata a mano, un roster di personaggi iconici e nuovi, colonna sonora epica e fino a 4 giocatori in co-op locale o online.",
@@ -1883,6 +2002,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/985890/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 72,
     trending: false,
     rating: 93
@@ -1890,7 +2010,7 @@ const games = [
   {
     id: 124,
     title: "Teenage Mutant Ninja Turtles: Shredder's Revenge",
-    categories: ["splitscreen", "action"],
+    categories: ["splitscreen", "action", "indie"],
     players: "1-6",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1361510/header.jpg",
     description: "TMNT: Shredder's Revenge porta le Tartarughe Ninja in un entusiasmante beat 'em up in stile anni '80 con grafica pixel art vibrante. Fino a 6 giocatori in co-op possono combattere insieme contro le forze del Clan del Piede.",
@@ -1899,6 +2019,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1361510/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 50,
     trending: false,
     rating: 94
@@ -1906,7 +2027,7 @@ const games = [
   {
     id: 125,
     title: "Broforce",
-    categories: ["splitscreen", "action"],
+    categories: ["splitscreen", "action", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/274190/header.jpg",
     description: "Broforce è un gioco d'azione platform ultra-violento dove incarni eroi d'azione ispirati ai film degli anni '80 e '90. Distruggi tutto con fuoco, esplosioni e caos totale in co-op fino a 4 giocatori.",
@@ -1915,6 +2036,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/274190/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 283,
     trending: false,
     rating: 97
@@ -1922,7 +2044,7 @@ const games = [
   {
     id: 126,
     title: "A Way Out",
-    categories: ["splitscreen", "action"],
+    categories: ["splitscreen", "action", "indie"],
     players: "1-2",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1222700/header.jpg",
     description: "A Way Out è un gioco d'avventura e azione esclusivamente co-op per due giocatori. Interpreta Leo o Vincent, due prigionieri che devono collaborare per evadere di prigione e sopravvivere in fuga dalla legge.",
@@ -1931,6 +2053,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1222700/",
     epicUrl: "https://store.epicgames.com/en-US/p/a-way-out",
+    itchUrl: "",
     ccu: 262,
     trending: false,
     rating: 88
@@ -1938,7 +2061,7 @@ const games = [
   {
     id: 127,
     title: "Moving Out",
-    categories: ["splitscreen", "puzzle", "action"],
+    categories: ["splitscreen", "puzzle", "action", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/996770/header.jpg",
     description: "Moving Out è un gioco di traslochi fisico e assurdamente divertente. Lavora con gli amici per caricare mobili su un camion nel minor tempo possibile, con fisica caotica, livelli assurdi e modalità co-op per 1-4 giocatori.",
@@ -1947,6 +2070,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/996770/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 14,
     trending: false,
     rating: 79
@@ -1954,7 +2078,7 @@ const games = [
   {
     id: 128,
     title: "Pummel Party",
-    categories: ["splitscreen", "action"],
+    categories: ["splitscreen", "action", "indie"],
     players: "1-8",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/880940/header.jpg",
     description: "Pummel Party è un party game frenetico per 1-8 giocatori che combina un tabellone in stile Mario Party con minigiochi brutali. Raccogli oggetti, sabota gli avversari e vinci i minigiochi per prevalere.",
@@ -1963,6 +2087,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/880940/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 1096,
     trending: true,
     rating: 89
@@ -1970,7 +2095,7 @@ const games = [
   {
     id: 129,
     title: "TowerFall Ascension",
-    categories: ["splitscreen", "action"],
+    categories: ["splitscreen", "action", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/251470/header.jpg",
     description: "TowerFall Ascension è un gioco d'azione archer multiplayer in pixel art. Combatti in arene frenetiche con arco e frecce, raccogli power-up e sconfiggi i tuoi avversari in battaglie intense e veloci.",
@@ -1979,6 +2104,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/251470/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 10,
     trending: false,
     rating: 95
@@ -1986,7 +2112,7 @@ const games = [
   {
     id: 130,
     title: "Spelunky 2",
-    categories: ["splitscreen", "roguelike", "action"],
+    categories: ["splitscreen", "roguelike", "action", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/418530/header.jpg",
     description: "Spelunky 2 porta l'esplorazione di grotte roguelike a nuovi livelli con più personaggi, livelli interconnessi, fisica avanzata e co-op per 4 giocatori. Ogni run è unica, ogni morte è epica.",
@@ -1995,6 +2121,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/418530/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 313,
     trending: false,
     rating: 93
@@ -2002,7 +2129,7 @@ const games = [
   {
     id: 131,
     title: "Trine 4: The Nightmare Prince",
-    categories: ["splitscreen", "puzzle", "action"],
+    categories: ["splitscreen", "puzzle", "action", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1057090/header.jpg",
     description: "Trine 4 è un magico gioco di puzzle-platform in co-op fino a 4 giocatori. Usa le abilità uniche del Mago, del Guerriero e della Ladra per risolvere enigmi ambientali in un mondo fiabesco mozzafiato.",
@@ -2011,6 +2138,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1057090/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 0,
     trending: false,
     rating: 97
@@ -2027,6 +2155,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/242550/",
     epicUrl: "https://store.epicgames.com/en-US/p/rayman-legends",
+    itchUrl: "",
     ccu: 71,
     trending: false,
     rating: 90
@@ -2034,7 +2163,7 @@ const games = [
   {
     id: 133,
     title: "Nidhogg 2",
-    categories: ["splitscreen", "action"],
+    categories: ["splitscreen", "action", "indie"],
     players: "1-2",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/532270/header.jpg",
     description: "Nidhogg 2 è un frenetico gioco di duello multiplayer in pixel art dove devi sconfiggere il tuo avversario e correre verso il bordo del livello per essere divorato dal Nidhogg. Armi nuove, arene grottesche e azione pura.",
@@ -2043,6 +2172,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/532270/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 0,
     trending: false,
     rating: 79
@@ -2050,7 +2180,7 @@ const games = [
   {
     id: 134,
     title: "Jackbox Party Pack",
-    categories: ["splitscreen", "puzzle"],
+    categories: ["splitscreen", "puzzle", "indie"],
     players: "1-8",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/331670/header.jpg",
     description: "The Jackbox Party Pack è una collezione di giochi da festa originali giocabili da smartphone come controller. Perfetto per serate con amici, include quiz, giochi creativi e sfide assurde per intrattenere tutti.",
@@ -2059,6 +2189,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/331670/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 17,
     trending: false,
     rating: 91
@@ -2066,7 +2197,7 @@ const games = [
   {
     id: 135,
     title: "Move or Die",
-    categories: ["splitscreen", "action"],
+    categories: ["splitscreen", "action", "indie", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/323850/header.jpg",
     description: "Move or Die è un gioco multiplayer frenetico dove la regola è semplice: muoviti o mori. Ogni pochi secondi la regola del minigioco cambia, costringendoti ad adattarti continuamente in partite caotiche per 1-4 giocatori.",
@@ -2075,6 +2206,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/323850/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 21,
     trending: false,
     rating: 90
@@ -2091,6 +2223,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1073980/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 0,
     trending: false,
     rating: 76
@@ -2107,6 +2240,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1599600/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 832,
     trending: true,
     rating: 95
@@ -2123,6 +2257,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1210750/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 0,
     trending: false,
     rating: 0
@@ -2130,7 +2265,7 @@ const games = [
   {
     id: 139,
     title: "Full Metal Furies",
-    categories: ["splitscreen", "action", "rpg"],
+    categories: ["splitscreen", "action", "rpg", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/416200/header.jpg",
     description: "Full Metal Furies è un action RPG co-op per 1-4 giocatori con combattimenti strategici a scorrimento laterale. Scegli la tua classe tra Guerriero, Cecchino, Ingegnere e Battitore e lavora in squadra per vincere battaglie impegnative.",
@@ -2139,6 +2274,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/416200/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 0,
     trending: false,
     rating: 53
@@ -2146,7 +2282,7 @@ const games = [
   {
     id: 140,
     title: "Phogs!",
-    categories: ["splitscreen", "puzzle"],
+    categories: ["splitscreen", "puzzle", "indie"],
     players: "1-2",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/850320/header.jpg",
     description: "Phogs! è un puzzle-platformer co-op dove controlli Red e Blue, due teste di cane unite da un unico corpo allungabile. Risolvi enigmi creativi nei mondi del Cibo, del Sonno e della Paura coordinandoti con il tuo compagno.",
@@ -2155,6 +2291,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/850320/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 27,
     trending: false,
     rating: 82
@@ -2162,7 +2299,7 @@ const games = [
   {
     id: 141,
     title: "Unravel Two",
-    categories: ["splitscreen", "puzzle", "action"],
+    categories: ["splitscreen", "puzzle", "action", "indie"],
     players: "1-2",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1225570/header.jpg",
     description: "Unravel Two è un platform co-op emozionante dove incarni due creature fatte di filo. Lavora con il tuo compagno per superare ostacoli, proteggerti a vicenda e scoprire una storia toccante ambientata nella natura.",
@@ -2171,6 +2308,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1225570/",
     epicUrl: "https://store.epicgames.com/en-US/p/unravel-2",
+    itchUrl: "",
     ccu: 46,
     trending: false,
     rating: 79
@@ -2187,6 +2325,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1318440/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 0,
     trending: false,
     rating: 0
@@ -2203,6 +2342,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/924970/",
     epicUrl: "https://store.epicgames.com/en-US/p/back-4-blood",
+    itchUrl: "",
     ccu: 1288,
     trending: true,
     rating: 68
@@ -2219,6 +2359,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1549970/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 281,
     trending: false,
     rating: 80
@@ -2235,6 +2376,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/2881650/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 722,
     trending: false,
     rating: 95
@@ -2242,7 +2384,7 @@ const games = [
   {
     id: 146,
     title: "Vampire Survivors",
-    categories: ["roguelike", "action"],
+    categories: ["roguelike", "action", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1794680/header.jpg",
     description: "Un fenomeno indie che ha ridefinito il genere bullet heaven: il personaggio attacca automaticamente mentre ti concentri su movimento ed evoluzione degli oggetti. La modalità co-op locale permette a più giocatori di sopravvivere insieme su schermate invase da migliaia di nemici. Con un costo irrisorio e aggiornamenti costanti, è una delle esperienze co-op più accessibili.",
@@ -2251,6 +2393,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1794680/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 2966,
     trending: true,
     rating: 98
@@ -2258,7 +2401,7 @@ const games = [
   {
     id: 147,
     title: "Abiotic Factor",
-    categories: ["survival", "horror"],
+    categories: ["survival", "horror", "indie"],
     players: "1-6",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1189490/header.jpg",
     description: "Un survival cooperativo ambientato in un complesso scientifico segreto invaso da entità interdimensionali, dove fino a sei scienziati sopravvivono usando ingegno e risorse trovate nell'ambiente. Fortemente ispirato a Half-Life, il gioco coniuga esplorazione, crafting e combattimento in modo originale. Uno dei migliori survival co-op del 2024.",
@@ -2267,6 +2410,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1189490/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 0,
     trending: false,
     rating: 93
@@ -2283,6 +2427,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1621690/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 3688,
     trending: true,
     rating: 93
@@ -2290,7 +2435,7 @@ const games = [
   {
     id: 149,
     title: "Stardew Valley",
-    categories: ["survival", "rpg"],
+    categories: ["survival", "rpg", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg",
     description: "Un capolavoro indie di simulazione agricola che ha conquistato milioni di giocatori, con modalità co-op online per fino a quattro persone. I giocatori gestiscono insieme una fattoria, coltivano, allevano animali, esplorano le miniere e interagiscono con i personaggi del villaggio in un'atmosfera rilassante. Uno dei giochi più amati di sempre.",
@@ -2299,6 +2444,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/413150/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 50662,
     trending: true,
     rating: 98
@@ -2306,7 +2452,7 @@ const games = [
   {
     id: 150,
     title: "Keep Talking and Nobody Explodes",
-    categories: ["puzzle"],
+    categories: ["puzzle", "indie"],
     players: "1-6",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/341800/header.jpg",
     description: "Un gioco cooperativo unico dove un giocatore deve disinnescare una bomba seguendo le istruzioni verbali degli altri che leggono un manuale. La comunicazione sotto pressione è la vera meccanica di gioco, creando sessioni frenetiche e esilaranti. Perfetto per gruppi di amici che vogliono un'esperienza diversa dal solito.",
@@ -2315,6 +2461,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/341800/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 148,
     trending: false,
     rating: 97
@@ -2322,7 +2469,7 @@ const games = [
   {
     id: 151,
     title: "PICO PARK",
-    categories: ["puzzle", "splitscreen"],
+    categories: ["puzzle", "splitscreen", "indie"],
     players: "2-8",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1509960/header.jpg",
     description: "Un platform puzzle cooperativo minimalista per 2-8 giocatori che richiede stretta collaborazione per superare livelli sempre più elaborati. I puzzle sono costruiti attorno alla cooperazione obbligatoria: è impossibile procedere da soli. Economico, accessibile e incredibilmente divertente, ideale per sessioni sia locali che online.",
@@ -2331,6 +2478,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1509960/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 124,
     trending: false,
     rating: 91
@@ -2338,7 +2486,7 @@ const games = [
   {
     id: 152,
     title: "Overcooked! All You Can Eat",
-    categories: ["puzzle", "splitscreen"],
+    categories: ["puzzle", "splitscreen", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1243830/header.jpg",
     description: "La raccolta definitiva della serie Overcooked comprende entrambi i capitoli con tutti i DLC, offrendo decine di ore di caos culinario cooperativo per 1-4 giocatori. I livelli progressivamente più complessi richiedono coordinazione e rapidità, trasformando una cucina in un campo di battaglia. Perfetto per serate in famiglia o con amici, con split-screen locale e online.",
@@ -2347,6 +2495,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1243830/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 325,
     trending: false,
     rating: 73
@@ -2363,6 +2512,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1272080/",
     epicUrl: "https://store.epicgames.com/en-US/p/payday-3",
+    itchUrl: "",
     ccu: 644,
     trending: false,
     rating: 43
@@ -2370,7 +2520,7 @@ const games = [
   {
     id: 154,
     title: "Magicka 2",
-    categories: ["action", "rpg"],
+    categories: ["action", "rpg", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/238370/header.jpg",
     description: "Il sequel del cult action-RPG cooperativo dove quattro maghi combinano otto elementi diversi per creare migliaia di incantesimi e sconfiggere le forze del male. Il fuoco amico sempre attivo e l'ironia onnipresente trasformano ogni sessione in un mix di tattica e caos assoluto. Un classico del co-op su PC con umorismo scandinavo inimitabile.",
@@ -2379,6 +2529,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/238370/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 26,
     trending: false,
     rating: 83
@@ -2386,7 +2537,7 @@ const games = [
   {
     id: 155,
     title: "We Were Here Together",
-    categories: ["puzzle"],
+    categories: ["puzzle", "indie", "free"],
     players: "1-2",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/865360/header.jpg",
     description: "Il terzo capitolo della popolare serie cooperativa dove due esploratori intrappolati in un mondo ghiacciato comunicano tramite radio per risolvere complessi puzzle ambientali. I giocatori si trovano spesso in stanze diverse e devono descriversi a vicenda gli indizi per progredire. Un'esperienza unica per le coppie o gli amici che amano i puzzle.",
@@ -2395,6 +2546,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/865360/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 178,
     trending: false,
     rating: 84
@@ -2406,11 +2558,12 @@ const games = [
     players: "1-2",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1703880/header.jpg",
     description: "Il quarto e più ambizioso capitolo della serie We Were Here, dove due giocatori comunicano tramite walkie-talkie per risolvere puzzle ambientali in un castello gotico misterioso. Enigmi intelligenti e atmosfera coinvolgente in una delle esperienze cooperative basate sulla comunicazione più riuscite su PC.",
-    description_en: "About This is a shoot em up game , In this game the player combats a large number of enemies by shooting at them Player control a fighter shoot down all the enemies fighter and all the enemy Navy Cruiser\\\\Battleship\\\\Aircraft Carrier to win the game Feature The DLC include mission pack 071",
+    description_en: "About This is a shoot em up game , In this game the player combats a large number of enemies by shooting at them Player control a fighter shoot down all the enemies fighter and all the enemy Navy Cruiser\\\\\\\\Battleship\\\\\\\\Aircraft Carrier to win the game Feature The DLC include mission pack 071",
     personalNote: "",
     played: false,
     steamUrl: "https://store.steampowered.com/app/1703880/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 0,
     trending: false,
     rating: 0
@@ -2418,7 +2571,7 @@ const games = [
   {
     id: 157,
     title: "Crab Game",
-    categories: ["action", "splitscreen"],
+    categories: ["action", "splitscreen", "free"],
     players: "1-35",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1782210/header.jpg",
     description: "Un gioco multiplayer online gratuito ispirato alle sfide di sopravvivenza della popolare serie TV, dove decine di giocatori si affrontano in minigiochi frenetici. Creato da un singolo sviluppatore indie, è diventato virale su Twitch e YouTube per la sua immediata accessibilità e il caos che genera. Ideale per grandi gruppi di amici online.",
@@ -2427,6 +2580,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1782210/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 0,
     trending: false,
     rating: 92
@@ -2443,6 +2597,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1812090/",
     epicUrl: "https://store.epicgames.com/en-US/p/escape-academy",
+    itchUrl: "",
     ccu: 36,
     trending: false,
     rating: 88
@@ -2459,6 +2614,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1286680/",
     epicUrl: "https://store.epicgames.com/en-US/p/tiny-tinas-wonderlands",
+    itchUrl: "",
     ccu: 866,
     trending: true,
     rating: 72
@@ -2475,6 +2631,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1599660/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 46,
     trending: false,
     rating: 85
@@ -2482,7 +2639,7 @@ const games = [
   {
     id: 161,
     title: "Roboquest",
-    categories: ["roguelike", "action"],
+    categories: ["roguelike", "action", "indie"],
     players: "1-2",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/692890/header.jpg",
     description: "Un roguelike sparatutto in prima persona fulmineo e adrenalinico, ambientato in un futuro post-apocalittico dove robot combattono in arene colorate. La campagna co-op per due giocatori offre run sempre diverse grazie a combinazioni casuali di armi e potenziamenti. La velocità del gameplay e la fluidità dei controlli lo rendono una gemma del genere.",
@@ -2491,6 +2648,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/692890/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 429,
     trending: false,
     rating: 95
@@ -2498,7 +2656,7 @@ const games = [
   {
     id: 162,
     title: "No Man's Sky",
-    categories: ["survival", "rpg"],
+    categories: ["survival", "rpg", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/275850/header.jpg",
     description: "Esplora un universo infinito con miliardi di pianeti unici generati proceduralmente, da solo o con fino a quattro amici in co-op online. Costruisci basi, commercia, combatti creature aliene e scopri civiltà sconosciute in uno dei giochi sandbox più aggiornati e migliorati della storia recente. Un'esperienza co-op senza confini.",
@@ -2507,6 +2665,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/275850/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 0,
     trending: false,
     rating: 83
@@ -2514,7 +2673,7 @@ const games = [
   {
     id: 163,
     title: "Castle Crashers Remastered",
-    categories: ["action", "splitscreen"],
+    categories: ["action", "splitscreen", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/204360/header.jpg",
     description: "Un classico beat 'em up cooperativo per 1-4 giocatori con grafica cartoon coloratissima, dove impersoni cavalieri in missione per salvare le principesse e sconfiggere il mago oscuro. Con meccaniche RPG, armi segrete e un gameplay semplice ma profondo, è uno dei titoli co-op più amati di sempre. Ora in versione remastered con 60fps.",
@@ -2523,6 +2682,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/204360/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 443,
     trending: false,
     rating: 96
@@ -2530,7 +2690,7 @@ const games = [
   {
     id: 164,
     title: "Astroneer",
-    categories: ["survival", "factory"],
+    categories: ["survival", "factory", "indie", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/361420/header.jpg",
     description: "Un gioco di esplorazione spaziale e sopravvivenza co-op fino a 4 giocatori, dove esplori pianeti alieni colorati, estrai risorse e costruisci basi e veicoli. La terraformazione del terreno con lo zaino multitool è la meccanica centrale, rendendo ogni sessione con gli amici creativa e rilassante. Uno dei sandbox cooperativi più bellissimi visivamente.",
@@ -2539,6 +2699,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/361420/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 988,
     trending: true,
     rating: 92
@@ -2555,6 +2716,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/680420/",
     epicUrl: "https://store.epicgames.com/en-US/p/outriders",
+    itchUrl: "",
     ccu: 178,
     trending: false,
     rating: 67
@@ -2571,6 +2733,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/2527950/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 0,
     trending: false,
     rating: 0
@@ -2578,7 +2741,7 @@ const games = [
   {
     id: 167,
     title: "Divinity: Original Sin",
-    categories: ["rpg", "strategy"],
+    categories: ["rpg", "strategy", "indie"],
     players: "1-2",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/230230/header.jpg",
     description: "Il predecessore del celebre Divinity OS2, con modalità co-op completa per due giocatori e sistema a turni ricco di scelte narrative. I due protagonisti possono avere opinioni divergenti durante le scelte della storia, aggiungendo un livello unico di interazione cooperativa. Un RPG profondo e impegnativo, ideale per chi ama le avventure co-op lunghe.",
@@ -2587,6 +2750,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/230230/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 13,
     trending: false,
     rating: 92
@@ -2594,7 +2758,7 @@ const games = [
   {
     id: 168,
     title: "Hades",
-    categories: ["roguelike", "action"],
+    categories: ["roguelike", "action", "indie"],
     players: "1-2",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1145360/header.jpg",
     description: "Considerato uno dei migliori giochi degli ultimi anni, Hades è un roguelike d'azione mitologico dove Zagreus cerca di fuggire dagli Inferi. Ogni run si arricchisce di dialoghi, potenziamenti e combinazioni di armi in un loop ipnotico. La modalità co-op è disponibile e il gioco è un riferimento assoluto del genere.",
@@ -2603,6 +2767,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1145360/",
     epicUrl: "https://store.epicgames.com/en-US/p/hades",
+    itchUrl: "",
     ccu: 0,
     trending: false,
     rating: 98
@@ -2610,7 +2775,7 @@ const games = [
   {
     id: 169,
     title: "Warhammer: End Times - Vermintide",
-    categories: ["action", "horror"],
+    categories: ["action", "horror", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/235540/header.jpg",
     description: "Il predecessore di Vermintide 2, un co-op melee in prima persona per quattro giocatori ambientato durante l'apocalisse fantasy di Warhammer. Cinque eroi con stili di gioco diversi combattono orde di ratti mutanti Skaven attraverso la città di Ubersreik. Un classico del co-op che ha dato vita alla serie.",
@@ -2619,6 +2784,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/235540/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 54,
     trending: false,
     rating: 80
@@ -2635,6 +2801,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1272790/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 0,
     trending: false,
     rating: 0
@@ -2642,7 +2809,7 @@ const games = [
   {
     id: 171,
     title: "Bloons TD 6",
-    categories: ["strategy"],
+    categories: ["strategy", "indie", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/960090/header.jpg",
     description: "Il tower defense cooperativo più popolare su PC, con modalità co-op online per due o quattro giocatori e centinaia di mappe, torri e sfide. Il sistema di aggiornamenti ramificati per ogni torre offre profondità strategica sorprendente, con nuovi contenuti aggiunti regolarmente. Dall'apparenza casual ma con complessità tattica che sorprenderà i più esigenti.",
@@ -2651,6 +2818,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/960090/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 7489,
     trending: true,
     rating: 97
@@ -2667,6 +2835,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/271590/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 67851,
     trending: true,
     rating: 87
@@ -2683,6 +2852,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1086940/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 54771,
     trending: true,
     rating: 97
@@ -2690,7 +2860,7 @@ const games = [
   {
     id: 174,
     title: "War Thunder",
-    categories: ["action"],
+    categories: ["action", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/236390/header.jpg",
     description: "War Thunder è il più completo MMO cross-platform gratuito dedicato all’aviazione militare, ai veicoli corazzati e ai mezzi navali, dall’inizio del XX secolo alle moderne unità di combattimento avanzate. Gioca subito e partecipa a grandi battaglie a terra, in aria e sul mare.",
@@ -2699,6 +2869,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/236390/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 50478,
     trending: true,
     rating: 64
@@ -2706,7 +2877,7 @@ const games = [
   {
     id: 175,
     title: "EA SPORTS FC 25",
-    categories: ["sport", "strategy", "splitscreen"],
+    categories: ["sport", "strategy", "splitscreen", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2669320/header.jpg",
     description: "EA SPORTS FC™ 25 offre nuovi modi di vincere per il club. Fai squadra con gli amici nelle tue modalità preferite con l'inedita Rush 5 vs 5 e porta il club alla vittoria con un controllo tattico più avanzato che mai grazie a FC IQ.",
@@ -2715,6 +2886,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/2669320/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 42032,
     trending: true,
     rating: 50
@@ -2722,7 +2894,7 @@ const games = [
   {
     id: 176,
     title: "Hearts of Iron IV",
-    categories: ["strategy", "rpg", "action"],
+    categories: ["strategy", "rpg", "action", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/394360/header.jpg",
     description: "Victory is at your fingertips! Your ability to lead your nation is your supreme weapon, the strategy game Hearts of Iron IV lets you take command of any nation in World War II; the most engaging conflict in world history.",
@@ -2731,6 +2903,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/394360/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 32112,
     trending: true,
     rating: 89
@@ -2747,6 +2920,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/2878980/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 27486,
     trending: true,
     rating: 59
@@ -2763,6 +2937,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/3164500/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 22757,
     trending: true,
     rating: 98
@@ -2770,7 +2945,7 @@ const games = [
   {
     id: 179,
     title: "FINAL FANTASY XIV Online",
-    categories: ["rpg", "action", "survival"],
+    categories: ["rpg", "action", "survival", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/39210/header.jpg",
     description: "Unisciti a più di 30 milioni di avventurieri di tutto il mondo e partecipa a un FINAL FANTASY epico e in costante mutamento. Scopri una storia indimenticabile, battaglie esaltanti e tantissimi affascinanti scenari da esplorare.",
@@ -2779,6 +2954,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/39210/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 19824,
     trending: true,
     rating: 88
@@ -2795,6 +2971,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/2993780/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 19498,
     trending: true,
     rating: 92
@@ -2802,7 +2979,7 @@ const games = [
   {
     id: 181,
     title: "Lost Ark",
-    categories: ["rpg", "action", "horror"],
+    categories: ["rpg", "action", "horror", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1599340/header.jpg",
     description: "Embark on an odyssey for the Lost Ark in a vast, vibrant world: explore new lands, seek out lost treasures, and test yourself in thrilling action combat in this action-packed free-to-play RPG.",
@@ -2811,6 +2988,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1599340/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 17355,
     trending: true,
     rating: 71
@@ -2818,7 +2996,7 @@ const games = [
   {
     id: 182,
     title: "Path of Exile 2",
-    categories: ["action", "rpg", "horror"],
+    categories: ["action", "rpg", "horror", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2694490/header.jpg",
     description: "Path of Exile 2 is a next generation Action RPG from Grinding Gear Games, featuring co-op for up to six players. Set years after the original Path of Exile, you will return to the dark world of Wraeclast and seek to end the corruption that is spreading.",
@@ -2827,6 +3005,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/2694490/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 16727,
     trending: true,
     rating: 70
@@ -2843,6 +3022,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/306130/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 15987,
     trending: true,
     rating: 81
@@ -2859,6 +3039,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/2300320/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 13431,
     trending: true,
     rating: 84
@@ -2866,7 +3047,7 @@ const games = [
   {
     id: 185,
     title: "eFootball",
-    categories: ["sport", "strategy", "splitscreen"],
+    categories: ["sport", "strategy", "splitscreen", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1665460/header.jpg",
     description: "Fatti avanti e prova l'emozionante gioco di calcio che ha ormai superato gli 950 milioni di download! Le star di oggi, le leggende del passato e gli utenti di tutto il mondo ti stanno aspettando!",
@@ -2875,6 +3056,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1665460/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 13404,
     trending: true,
     rating: 48
@@ -2891,6 +3073,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/236850/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 12445,
     trending: true,
     rating: 87
@@ -2898,7 +3081,7 @@ const games = [
   {
     id: 187,
     title: "Enshrouded",
-    categories: ["survival", "factory", "rpg"],
+    categories: ["survival", "factory", "rpg", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1203620/header.jpg",
     description: "Tu, figlia del fuoco, ultima speranza di una razza in estinzione. Risvegliati, sopravvivi alla nebbia e riporta la bellezza nel regno. Avventurati in un mondo vasto, sconfiggi nemici, costruisci edifici grandiosi e sii artefice del tuo destino in questo GdR di azione cooperativo per 16 giocatori.",
@@ -2907,6 +3090,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1203620/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 10654,
     trending: true,
     rating: 86
@@ -2914,7 +3098,7 @@ const games = [
   {
     id: 188,
     title: "Unturned",
-    categories: ["survival", "action", "rpg"],
+    categories: ["survival", "action", "rpg", "indie", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/304930/header.jpg",
     description: "Sei un sopravvissuto tra le rovine della società ormai infestata dagli zombi, e devi collaborare con i tuoi amici per stringere delle alleanze e rimanere tra i vivi.",
@@ -2923,6 +3107,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/304930/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 10408,
     trending: true,
     rating: 91
@@ -2939,6 +3124,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1551360/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 10009,
     trending: true,
     rating: 89
@@ -2955,6 +3141,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/2221490/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 9481,
     trending: true,
     rating: 76
@@ -2962,7 +3149,7 @@ const games = [
   {
     id: 191,
     title: "World of Warships",
-    categories: ["action", "strategy"],
+    categories: ["action", "strategy", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/552990/header.jpg",
     description: "Immergiti in emozionanti battaglie navali e raduna un'armata composta da più di 600 navi della prima metà del XX secolo, dai furtivi cacciatorpediniere alle enormi corazzate. Cambia l'aspetto delle tue navi, scegli i potenziamenti che preferisci e scendi in battaglia con altri giocatori!",
@@ -2971,6 +3158,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/552990/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 8518,
     trending: true,
     rating: 77
@@ -2987,6 +3175,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/2104890/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 8156,
     trending: true,
     rating: 75
@@ -2994,7 +3183,7 @@ const games = [
   {
     id: 193,
     title: "MapleStory",
-    categories: ["rpg"],
+    categories: ["rpg", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/216150/header.jpg",
     description: "Unisciti ad altri 260 milioni di giocatori di MapleStory, la più grande avventura MMORPG 2D! Gioca gratis subito!",
@@ -3003,6 +3192,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/216150/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 8092,
     trending: true,
     rating: 63
@@ -3010,7 +3200,7 @@ const games = [
   {
     id: 194,
     title: "World of Tanks Blitz",
-    categories: ["action", "strategy"],
+    categories: ["action", "strategy", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/444200/header.jpg",
     description: "Scarica la tensione in uno sparatutto online free-to-play 7 contro 7! Guida centinaia di carri armati, dai classici da museo a modelli rimasti solo su carta, in rapide battaglie da 5 a 7 minuti di puro caos metallico. Gioca da solo o con un amico e goditi un'azione fluida anche su hardware modesti!",
@@ -3019,6 +3209,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/444200/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 5707,
     trending: true,
     rating: 79
@@ -3035,6 +3226,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1248130/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 5419,
     trending: true,
     rating: 92
@@ -3051,6 +3243,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/3059520/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 5272,
     trending: true,
     rating: 89
@@ -3067,6 +3260,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/2195250/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 5110,
     trending: true,
     rating: 58
@@ -3074,7 +3268,7 @@ const games = [
   {
     id: 198,
     title: "Tabletop Simulator",
-    categories: ["strategy", "rpg"],
+    categories: ["strategy", "rpg", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/286160/header.jpg",
     description: "Tabletop Simulator is the only simulator where you can let your aggression out by flipping the table! There are no rules to follow: just you, a physics sandbox, and your friends. Make your own online board games or play the thousands of community created mods. Unlimited gaming possibilities!",
@@ -3083,6 +3277,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/286160/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 5021,
     trending: true,
     rating: 94
@@ -3099,6 +3294,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/2437170/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 4975,
     trending: true,
     rating: 58
@@ -3106,7 +3302,7 @@ const games = [
   {
     id: 200,
     title: "Forza Horizon 4",
-    categories: ["sport", "action", "strategy"],
+    categories: ["sport", "action", "strategy", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1293830/header.jpg",
     description: "Le stagioni dinamiche cambiano tutto nel festival automobilistico più grande del mondo. Gareggia in solitaria o fai squadra per esplorare la bellissima e storica Gran Bretagna in un mondo aperto e condiviso.",
@@ -3115,6 +3311,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1293830/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 4864,
     trending: true,
     rating: 91
@@ -3131,6 +3328,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/359320/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 4845,
     trending: true,
     rating: 77
@@ -3138,7 +3336,7 @@ const games = [
   {
     id: 202,
     title: "Supermarket Together",
-    categories: ["factory"],
+    categories: ["indie", "factory", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2709570/header.jpg",
     description: "Il supermercato multigiocatore è arrivato nel tuo quartiere gratuitamente! Rifornisci il tuo spazio di vendita, sblocca vantaggi e franchising, assumi dipendenti o dai la caccia a quei fastidiosi ladri di negozi. Più giocatori, più azione!",
@@ -3147,6 +3345,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/2709570/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 4704,
     trending: true,
     rating: 95
@@ -3163,6 +3362,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/779340/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 4507,
     trending: true,
     rating: 72
@@ -3179,6 +3379,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/374320/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 4381,
     trending: true,
     rating: 94
@@ -3195,6 +3396,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/2543180/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 4352,
     trending: true,
     rating: 88
@@ -3211,6 +3413,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/214950/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 3901,
     trending: true,
     rating: 83
@@ -3218,7 +3421,7 @@ const games = [
   {
     id: 207,
     title: "The Spell Brigade",
-    categories: ["action", "roguelike", "horror"],
+    categories: ["indie", "action", "roguelike", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2904000/header.jpg",
     description: "Gioco survivors con COOP ONLINE (1-4 giocatori). Unisciti ai maghi contro orde oscure. Obiettivi di squadra, potenziamenti e potenti sinergie di incantesimi. Inferno di proiettili con fuoco amico: nessuno è al sicuro! Azione frenetica in stile roguelite.",
@@ -3227,6 +3430,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/2904000/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 3580,
     trending: true,
     rating: 86
@@ -3234,7 +3438,7 @@ const games = [
   {
     id: 208,
     title: "Drive Beyond Horizons",
-    categories: ["action", "survival", "sport"],
+    categories: ["indie", "action", "survival"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2625420/header.jpg",
     description: "Accendi i motori e avventurati nell'ignoto con Drive Beyond Horizons! Conquista paesaggi dinamici, personalizza il tuo veicolo e scopri tesori nascosti. Preparatevi a sfide al cardiopalma e ad emozioni senza fine. La tua avventura inizia ora!",
@@ -3243,6 +3447,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/2625420/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 3366,
     trending: true,
     rating: 81
@@ -3250,7 +3455,7 @@ const games = [
   {
     id: 209,
     title: "Shop Titans",
-    categories: ["survival", "factory", "rpg"],
+    categories: ["survival", "factory", "rpg", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1258080/header.jpg",
     description: "Shop Titans è il gioco di ruolo definitivo per chi vuole vestire i panni di un negoziante. Produci potenti oggetti, esibiscili nel tuo negozio e vendili ad aspiranti eroi... a un prezzo maggiorato! Ingaggia eroi e vai in missione per raccogliere preziosi materiali di produzione.",
@@ -3259,6 +3464,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1258080/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 3279,
     trending: true,
     rating: 78
@@ -3266,7 +3472,7 @@ const games = [
   {
     id: 210,
     title: "Guild Wars 2",
-    categories: ["rpg", "strategy", "survival"],
+    categories: ["rpg", "strategy", "survival", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1284210/header.jpg",
     description: "Guild Wars 2 is an award-winning online roleplaying game with fast-paced action combat, deep character customization, and no subscription fee required. Choose from an arsenal of professions and weapons, explore a vast open world, compete in PVP modes and more. Join over 16 million players now!",
@@ -3275,6 +3481,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/1284210/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 3277,
     trending: true,
     rating: 89
@@ -3291,6 +3498,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/2338770/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 2932,
     trending: true,
     rating: 31
@@ -3298,7 +3506,7 @@ const games = [
   {
     id: 212,
     title: "Fishing Planet",
-    categories: ["sport", "strategy", "action"],
+    categories: ["sport", "strategy", "action", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/380600/header.jpg",
     description: "Grazie ad una grafica stupenda, la fisica ultra-realistica dei danni, idro- e aerodinamica, e, soprattutto, all'intelligenza artificiale dei pesci, sulla base del comportamento effettivo, voi letteralmente vi trovate al corpo d’acqua.",
@@ -3307,6 +3515,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/380600/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 2781,
     trending: true,
     rating: 87
@@ -3314,7 +3523,7 @@ const games = [
   {
     id: 213,
     title: "DDraceNetwork",
-    categories: ["puzzle", "action", "sport"],
+    categories: ["indie", "puzzle", "action", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/412220/header.jpg",
     description: "Want to play the hardest cooperative 2D platformer ever? Want to finish no map ever? Want to be in pain for hours and cry, getting nothing in return? Come play DDNet with a large community of other sufferers!",
@@ -3323,6 +3532,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/412220/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 2679,
     trending: true,
     rating: 89
@@ -3339,6 +3549,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/3183280/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 2634,
     trending: true,
     rating: 62
@@ -3346,7 +3557,7 @@ const games = [
   {
     id: 215,
     title: "Ravenswatch",
-    categories: ["action", "roguelike", "rpg"],
+    categories: ["action", "roguelike", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2071280/header.jpg",
     description: "Insieme agli eroi caduti delle leggende popolari, ti ritrovi a un passo dal combattimento cruciale contro l'Incubo che vuole invadere il mondo. Un gioco d'azione roguelike dai creatori di Curse of the Dead Gods©, giocabile da soli o in co-op online.",
@@ -3355,6 +3566,7 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/2071280/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 2578,
     trending: true,
     rating: 80
@@ -3362,7 +3574,7 @@ const games = [
   {
     id: 216,
     title: "Enlisted: Reinforced",
-    categories: ["action", "horror"],
+    categories: ["action", "horror", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2051620/header.jpg",
     description: "In Enlisted non comandi un solo soldato, ma un'intera squadra! Questo sparatutto MMO basato sulle squadre ricrea le battaglie chiave della guerra più sanguinosa del XX secolo. A ogni battaglia prendono parte centinaia di soldati, carri armati e aerei.",
@@ -3371,8 +3583,264 @@ const games = [
     played: false,
     steamUrl: "https://store.steampowered.com/app/2051620/",
     epicUrl: "",
+    itchUrl: "",
     ccu: 2569,
     trending: true,
     rating: 80
+  },
+  {
+    id: 217,
+    title: "PowerWash Simulator",
+    categories: ["indie", "free"],
+    players: "1-4",
+    image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1290000/header.jpg",
+    description: "Allenta la pressione con PowerWash Simulator! Lascia che il rilassante suono dell'acqua si porti via le tue preoccupazioni e lava via ogni traccia di sporco con la tua idropulitrice. Alla fine sarà tutto così pulito che ti ci potrai specchiare.",
+    description_en: "Release the Pressure with PowerWash Simulator! Wash away your worries with the soothing sounds of high-pressure water. Fire up your power washer and blast away every speck of dirt and grime you can find, all with the simple satisfaction of power-washing to a sparkling finish.",
+    personalNote: "",
+    played: false,
+    steamUrl: "https://store.steampowered.com/app/1290000/",
+    epicUrl: "",
+    itchUrl: "",
+    ccu: 2547,
+    trending: true,
+    rating: 97
+  },
+  {
+    id: 218,
+    title: "House Flipper 2",
+    categories: ["indie", "factory"],
+    players: "1-4",
+    image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1190970/header.jpg",
+    description: "Libera la mente con questo rilassante simulatore di ristrutturazioni! Compra, rinnova, rivendi o costruisci da zero con gli amici (2-4 giocatori online) in modalità storia o sandbox. Libera la tua creatività!",
+    description_en: "Clean your worries away with this relaxing renovation simulator! Buy, fix, sell, and become a local legend. Or grab your power tools and build anything from scratch! With the online 2-4 players co-op mode, you can play both in sandbox and story mode together.",
+    personalNote: "",
+    played: false,
+    steamUrl: "https://store.steampowered.com/app/1190970/",
+    epicUrl: "",
+    itchUrl: "",
+    ccu: 2543,
+    trending: true,
+    rating: 85
+  },
+  {
+    id: 219,
+    title: "Supermarket Simulator",
+    categories: ["indie", "factory"],
+    players: "1-4",
+    image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2670630/header.jpg",
+    description: "Gestisci il tuo supermercato! Rifornisci gli scaffali, fissa i prezzi, accetta i pagamenti, assumi personale, espandi il negozio, gestisci i taccheggiatori e progetta la disposizione. Acquista prodotti online o nei mercati locali della città e consegna personalmente gli ordini online ai tuoi clienti",
+    description_en: "Run your own supermarket! Stock shelves, set your prices, take payments, hire staff, expand your store, handle shoplifters, and design your layout. Purchase goods from online or local markets around town, and personally deliver online orders to your customers.",
+    personalNote: "",
+    played: false,
+    steamUrl: "https://store.steampowered.com/app/2670630/",
+    epicUrl: "",
+    itchUrl: "",
+    ccu: 2464,
+    trending: true,
+    rating: 94
+  },
+  {
+    id: 220,
+    title: "Company of Heroes 2",
+    categories: ["strategy", "factory", "action"],
+    players: "1-4",
+    image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/231430/header.jpg",
+    description: "Prova l’ultima piattaforma RTS della 2ª guerra mondiale con COH 2 e le sue espansioni. Questo pacchetto include il gioco di base, che puoi aggiornare in seguito acquistando The Western Front Armies, Ardennes Assault e/o The British Forces. Qui sotto trovi altre informazioni.",
+    description_en: "Experience the ultimate WWII RTS platform with COH2 and its standalone expansions. This package includes the base game, which you can then upgrade by purchasing The Western Front Armies, Ardennes Assault and/or The British Forces. More info in the \"About This Game\" section below.",
+    personalNote: "",
+    played: false,
+    steamUrl: "https://store.steampowered.com/app/231430/",
+    epicUrl: "",
+    itchUrl: "",
+    ccu: 2330,
+    trending: true,
+    rating: 79
+  },
+  {
+    id: 221,
+    title: "Devil May Cry 5",
+    categories: ["action", "horror"],
+    players: "1-4",
+    image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/601150/header.jpg",
+    description: "Il cacciatore di demoni definitivo torna con stile nell'azione di gioco che i fan stavano aspettando.",
+    description_en: "The ultimate Devil Hunter is back in style, in the game action fans have been waiting for.",
+    personalNote: "",
+    played: false,
+    steamUrl: "https://store.steampowered.com/app/601150/",
+    epicUrl: "",
+    itchUrl: "",
+    ccu: 2248,
+    trending: true,
+    rating: 96
+  },
+  {
+    id: 222,
+    title: "Call to Arms - Gates of Hell: Ostfront",
+    categories: ["strategy", "action"],
+    players: "1-4",
+    image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/400750/header.jpg",
+    description: "Call to Arms - Gates of Hell is a realistic RTS/ RTT game that offers endless replay value. Command all types of troops in historical singleplayer, dynamic campaign, PvP and PvE battles. Are you ready for some serious immersion in World War 2?",
+    description_en: "Call to Arms - Gates of Hell is a realistic RTS/ RTT game that offers endless replay value. Command all types of troops in historical singleplayer, dynamic campaign, PvP and PvE battles. Are you ready for some serious immersion in World War 2?",
+    personalNote: "",
+    played: false,
+    steamUrl: "https://store.steampowered.com/app/400750/",
+    epicUrl: "",
+    itchUrl: "",
+    ccu: 2216,
+    trending: true,
+    rating: 83
+  },
+  {
+    id: 223,
+    title: "Red Dead Online",
+    categories: ["action", "rpg", "horror", "free"],
+    players: "1-4",
+    image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1404210/header.jpg",
+    description: "Dai la caccia ai ricercati, combatti contro bande di fuorilegge e altri giocatori, caccia, pesca e commercia, cerca tesori esotici, gestisci la tua distilleria di moonshine illecita e molto altro, in un mondo dall'incredibile profondità e dettaglio.",
+    description_en: "Step into the vibrant, ever-evolving world of Red Dead Online and experience life in frontier America. Chase down bounties, battle outlaw gangs and other players, hunt, fish and trade, search for exotic treasures, run Moonshine, and much more to discover in a world of astounding depth and detail.",
+    personalNote: "",
+    played: false,
+    steamUrl: "https://store.steampowered.com/app/1404210/",
+    epicUrl: "",
+    itchUrl: "",
+    ccu: 2207,
+    trending: true,
+    rating: 83
+  },
+  {
+    id: 224,
+    title: "Company of Heroes 3",
+    categories: ["strategy", "action"],
+    players: "1-4",
+    image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1677280/header.jpg",
+    description: "Company of Heroes 3 è il capitolo più grande e migliore della serie, con emozionanti combattimenti e profonde scelte strategiche da compiere sull'affascinante palcoscenico di guerra del Mediterraneo. In Company of Heroes 3 ogni battaglia racconta una storia... qual è la tua?",
+    description_en: "Company of Heroes 3 combines heart-pounding combat with deeper strategic choices in a stunning Mediterranean theatre of war. In Company of Heroes 3, every battle tells a story...what's yours?",
+    personalNote: "",
+    played: false,
+    steamUrl: "https://store.steampowered.com/app/1677280/",
+    epicUrl: "",
+    itchUrl: "",
+    ccu: 2183,
+    trending: true,
+    rating: 57
+  },
+  {
+    id: 225,
+    title: "F1 24",
+    categories: ["sport", "strategy", "action"],
+    players: "1-4",
+    image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2488620/header.jpg",
+    description: "Scendi in pista ed entra a far parte dei 20. Guida come le leggende in EA SPORTS™ F1® 24, il videogioco ufficiale del 2024 FIA Formula One World Championship™.",
+    description_en: "Join the grid and Be One of the 20. Drive like the greatest in EA SPORTS™ F1® 24, the official video game of the 2024 FIA Formula One World Championship™.",
+    personalNote: "",
+    played: false,
+    steamUrl: "https://store.steampowered.com/app/2488620/",
+    epicUrl: "",
+    itchUrl: "",
+    ccu: 2067,
+    trending: true,
+    rating: 73
+  },
+  {
+    id: 226,
+    title: "Realm of the Mad God Exalt",
+    categories: ["indie", "rpg", "action", "free"],
+    players: "1-4",
+    image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/200210/header.jpg",
+    description: "Embark on an exhilarating journey into the pixelated Realm of the Mad God! Join, an action-packed, free-to-play MMO bullet hell game. Discover a world with danger, challenges, and hidden treasures as you battle through waves of enemies. Team up with players and conquer dungeons to become a legend!",
+    description_en: "Embark on an exhilarating journey into the pixelated Realm of the Mad God! Join, an action-packed, free-to-play MMO bullet hell game. Discover a world with danger, challenges, and hidden treasures as you battle through waves of enemies. Team up with players and conquer dungeons to become a legend!",
+    personalNote: "",
+    played: false,
+    steamUrl: "https://store.steampowered.com/app/200210/",
+    epicUrl: "",
+    itchUrl: "",
+    ccu: 1853,
+    trending: true,
+    rating: 83
+  },
+  {
+    id: 227,
+    title: "Predecessor",
+    categories: ["indie", "action", "strategy", "free"],
+    players: "1-4",
+    image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/961200/header.jpg",
+    description: "Ispirato all'eredità di Paragon, costruito con amore dalla comunità e alimentato da Unreal Engine 5, Predecessor è la fusione definitiva di azione sparatutto e strategia MOBA. Unisciti a più di 2.000.000 giocatori e gioca subito GRATIS!",
+    description_en: "Inspired by the legacy of Paragon, built with love by the community, and powered by Unreal Engine 5, Predecessor is the ultimate fusion of shooter action and MOBA strategy. Join more than 2,000,000 players and play for FREE now!",
+    personalNote: "",
+    played: false,
+    steamUrl: "https://store.steampowered.com/app/961200/",
+    epicUrl: "",
+    itchUrl: "",
+    ccu: 1816,
+    trending: true,
+    rating: 73
+  },
+  {
+    id: 228,
+    title: "Total War: SHOGUN 2",
+    categories: ["strategy", "action"],
+    players: "1-4",
+    image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/34330/header.jpg",
+    description: "Total War: SHOGUN 2 is the perfect mix of real-time and turn-based strategy gaming for newcomers and veterans alike.",
+    description_en: "Total War: SHOGUN 2 is the perfect mix of real-time and turn-based strategy gaming for newcomers and veterans alike.",
+    personalNote: "",
+    played: false,
+    steamUrl: "https://store.steampowered.com/app/34330/",
+    epicUrl: "",
+    itchUrl: "",
+    ccu: 1807,
+    trending: true,
+    rating: 91
+  },
+  {
+    id: 229,
+    title: "PGA TOUR 2K25",
+    categories: ["sport", "strategy", "rpg"],
+    players: "1-4",
+    image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2385530/header.jpg",
+    description: "Diventa la leggenda del golf in PGA TOUR 2K25! Tre Major da vincere, tutti insieme per la prima volta in 2K. Scopri la vasta gamma di personalizzazione per il tuo MyPLAYER, MyCAREER e Progettista di campi. Sfida gli amici in modalità classificata, casual e cross-platform.",
+    description_en: "Take your best shot at glory in PGA TOUR 2K25! In a 2K-first, compete in three prestigious major tournaments. Personalize your game with expanded MyCAREER, MyPLAYER and Course Designer options. Challenge friends across ranked, casual, and cross-platform multiplayer.",
+    personalNote: "",
+    played: false,
+    steamUrl: "https://store.steampowered.com/app/2385530/",
+    epicUrl: "",
+    itchUrl: "",
+    ccu: 1789,
+    trending: true,
+    rating: 66
+  },
+  {
+    id: 230,
+    title: "Mechabellum",
+    categories: ["indie", "strategy", "action"],
+    players: "1-4",
+    image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/669330/header.jpg",
+    description: "Mechabellum è un auto-battler epico. Sei a capo di un esercito di robot che si affrontano in enormi battaglie PvP. Personalizza e fai salire di livello le tue unità prima del combattimento, posizionale in modo strategico sul campo di battaglia e guardale mentre annientano i tuoi nemici senza pietà.",
+    description_en: "Command massive armies in this epic mech auto-battler. Draft your troops, customize your units, master your formations, and crush enemies in spectacular 3D battles. All strategy, no clickfest. Outsmart opponents in 1v1, 2v2, free-for-all, or Survival Mode.",
+    personalNote: "",
+    played: false,
+    steamUrl: "https://store.steampowered.com/app/669330/",
+    epicUrl: "",
+    itchUrl: "",
+    ccu: 1748,
+    trending: true,
+    rating: 86
+  },
+  {
+    id: 231,
+    title: "Age of Wonders 4",
+    categories: ["strategy", "rpg"],
+    players: "1-4",
+    image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1669000/header.jpg",
+    description: "Governa un regno fantasy creato da te! Esplora magici mondi tutti nuovi nel celeberrimo mix di strategia 4X e combattimento tattico a turni di Age of Wonders. Controlla una fazione che cresce e si evolve mentre espandi il tuo impero a ogni turno!",
+    description_en: "Rule a fantasy realm of your own design! Explore new magical realms in Age of Wonders’ signature blend of 4X strategy and turn-based tactical combat. Control a faction that grows and changes as you expand your empire with each turn!",
+    personalNote: "",
+    played: false,
+    steamUrl: "https://store.steampowered.com/app/1669000/",
+    epicUrl: "",
+    itchUrl: "",
+    ccu: 1707,
+    trending: true,
+    rating: 82
   },
 ];

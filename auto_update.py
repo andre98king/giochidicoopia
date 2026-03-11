@@ -7,19 +7,25 @@ Aggiorna automaticamente games.js con:
   - Descrizioni italiane da Steam API (nuovi giochi)
   - Descrizioni inglesi da Steam API (nuovi giochi + giochi esistenti senza)
   - Nuovi giochi co-op trending da SteamSpy
+  - Tag "indie" e "free" per i giochi appropriati
+  - Gioco indie della settimana (featuredIndieId)
+  - [Opzionale] Giochi da itch.io (richiede ITCH_IO_KEY env var)
 
 Uso locale : python3 auto_update.py
 CI (GitHub): eseguito automaticamente da .github/workflows/update.yml
+Per itch.io: export ITCH_IO_KEY=tuachiave  (da https://itch.io/user/settings/api-keys)
 """
 
-import urllib.request, json, time, re, html as html_mod, os
+import urllib.request, json, time, re, html as html_mod, os, datetime
 
 # ──────────────────────────────── CONFIG ────────────────────────────────
 DELAY               = 1.5    # secondi tra richieste API
 MAX_NEW_GAMES       = 15     # max nuovi giochi per run
 MAX_EN_FETCH        = 30     # max giochi esistenti a cui aggiungere desc EN per run
 MIN_CCU_TRENDING    = 800    # CCU minimo per badge 🔥 Trending
+MAX_ITCH_GAMES      = 10     # max giochi itch.io per run
 OUTPUT              = os.path.join(os.path.dirname(os.path.abspath(__file__)), "games.js")
+ITCH_IO_KEY         = os.environ.get('ITCH_IO_KEY', '')
 
 # Tag Steam → categoria sito
 TAG_MAP = {
@@ -40,6 +46,7 @@ TAG_MAP = {
     'Sports': 'sport', 'Racing': 'sport', 'Soccer': 'sport', 'Football': 'sport',
     'Strategy': 'strategy', 'Turn-Based Strategy': 'strategy', 'RTS': 'strategy',
     'Tower Defense': 'strategy', 'Grand Strategy': 'strategy', 'Tactical': 'strategy',
+    'Indie': 'indie',
 }
 
 BLACKLIST_APPIDS = {
@@ -153,6 +160,7 @@ for b in blocks:
         'played':         ef(b, 'played') or False,
         'steamUrl':       ef(b, 'steamUrl') or '',
         'epicUrl':        ef(b, 'epicUrl') or '',
+        'itchUrl':        ef(b, 'itchUrl') or '',
         'ccu':            ef(b, 'ccu') or 0,
         'trending':       ef(b, 'trending') or False,
         'rating':         ef(b, 'rating') or 0,
@@ -185,8 +193,16 @@ for tag in ['Co-op', 'Online+Co-Op', 'Local+Co-Op', 'Co-op+Campaign']:
     print(f"  Tag '{tag}': {len(data)} giochi  (totale unici: {len(coop_games)})")
 
 
+# ─────────────────── Fetch set appid indie e free ────────────────────────
+print("\n🏷️  Fetch tag Indie e Free to Play da SteamSpy...")
+indie_appids = set((fetch("https://steamspy.com/api.php?request=tag&tag=Indie") or {}).keys())
+free_appids  = set((fetch("https://steamspy.com/api.php?request=tag&tag=Free+to+Play") or {}).keys())
+print(f"  Indie appids trovati: {len(indie_appids)}")
+print(f"  Free  appids trovati: {len(free_appids)}")
+
+
 # ─────────────────── Aggiorna CCU + rating giochi esistenti ──────────────
-print("\n🔄 Aggiornamento CCU e rating giochi esistenti...")
+print("\n🔄 Aggiornamento CCU, rating e tag indie/free...")
 updated_ccu = 0
 updated_rating = 0
 for g in existing_games:
@@ -204,6 +220,11 @@ for g in existing_games:
     if pos + neg >= 10:
         g['rating'] = calc_rating(pos, neg)
         updated_rating += 1
+    # Aggiorna tag indie/free
+    if aid in indie_appids and 'indie' not in g['categories']:
+        g['categories'].append('indie')
+    if aid in free_appids and 'free' not in g['categories']:
+        g['categories'].append('free')
 
 print(f"  CCU aggiornati   : {updated_ccu}")
 print(f"  Rating aggiornati: {updated_rating}")
@@ -312,6 +333,11 @@ for candidate in new_candidates:
             break
     if not categories:
         categories = ['action']
+    # Aggiungi indie/free in base ai set SteamSpy
+    if aid in indie_appids and 'indie' not in categories:
+        categories.append('indie')
+    if aid in free_appids and 'free' not in categories:
+        categories.append('free')
 
     # Numero giocatori
     players = '1-4'
@@ -330,7 +356,7 @@ for candidate in new_candidates:
     new_game = {
         'id':             next_id,
         'title':          name,
-        'categories':     categories[:3],
+        'categories':     categories[:4],
         'players':        players,
         'image':          f"https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/{aid}/header.jpg",
         'description':    desc_it,
@@ -339,6 +365,7 @@ for candidate in new_candidates:
         'played':         False,
         'steamUrl':       f"https://store.steampowered.com/app/{aid}/",
         'epicUrl':        '',
+        'itchUrl':        '',
         'ccu':            ccu,
         'trending':       ccu >= MIN_CCU_TRENDING,
         'rating':         rating,
@@ -352,9 +379,86 @@ for candidate in new_candidates:
 print(f"\n  Nuovi giochi aggiunti: {added}")
 
 
+# ─────────────────────── itch.io (opzionale) ─────────────────────────────
+if ITCH_IO_KEY:
+    print(f"\n🎲 Fetch giochi co-op da itch.io (query multiple)...")
+    itch_queries = ['co-op', 'cooperative multiplayer', 'local co-op', 'online co-op', 'multiplayer indie']
+    itch_games_all = {}
+    for q in itch_queries:
+        url = f"https://itch.io/api/1/{ITCH_IO_KEY}/search/games?query={q.replace(' ', '+')}"
+        data = fetch(url) or {}
+        for g in data.get('games', []):
+            gid = g.get('id')
+            if gid and gid not in itch_games_all:
+                itch_games_all[gid] = g
+    itch_games = list(itch_games_all.values())
+    # Ordina per priorità: giochi con più info disponibili
+    itch_games.sort(key=lambda g: (len(g.get('short_text') or ''), g.get('id', 0)), reverse=True)
+    print(f"  Trovati: {len(itch_games)} giochi")
+    existing_itch_urls = {g.get('itchUrl', '') for g in existing_games if g.get('itchUrl')}
+    itch_added = 0
+    for ig in itch_games:
+        if itch_added >= MAX_ITCH_GAMES:
+            break
+        game_url = ig.get('url', '')
+        if not game_url or game_url in existing_itch_urls:
+            continue
+        short_text = ig.get('short_text', '') or ''
+        if len(short_text) < 20:
+            continue
+        cover = ig.get('cover_url') or ig.get('cover') or ''
+        title = ig.get('title', '')
+        if not title:
+            continue
+        is_free = (ig.get('min_price', 1) == 0)
+        cats = ['indie']
+        if is_free:
+            cats.append('free')
+        new_game = {
+            'id':             next_id,
+            'title':          title,
+            'categories':     cats,
+            'players':        '2-4',
+            'image':          cover,
+            'description':    short_text,
+            'description_en': short_text,
+            'personalNote':   '',
+            'played':         False,
+            'steamUrl':       '',
+            'epicUrl':        '',
+            'itchUrl':        game_url,
+            'ccu':            0,
+            'trending':       False,
+            'rating':         0,
+        }
+        existing_games.append(new_game)
+        existing_itch_urls.add(game_url)
+        next_id  += 1
+        itch_added += 1
+        print(f"  + {title} ({game_url})")
+    print(f"  Aggiunti da itch.io: {itch_added}")
+else:
+    print("\n🎲 itch.io: saltato (nessun ITCH_IO_KEY — vedi README)")
+
+
+# ─────────────────────── Gioco Indie della Settimana ─────────────────────
+print("\n🌟 Selezione gioco indie della settimana...")
+indie_rated = [g for g in existing_games if 'indie' in g.get('categories', []) and g.get('rating', 0) >= 75]
+if indie_rated:
+    indie_sorted  = sorted(indie_rated, key=lambda x: x.get('rating', 0), reverse=True)
+    top_indie     = indie_sorted[:12]   # top 12 giochi indie per rating
+    iso           = datetime.datetime.now().isocalendar()
+    week_idx      = (iso[0] * 52 + iso[1]) % len(top_indie)
+    featured_id   = top_indie[week_idx]['id']
+    print(f"  Featured: {top_indie[week_idx]['title']} (id {featured_id}, rating {top_indie[week_idx]['rating']}%)")
+else:
+    featured_id = 0
+    print("  Nessun gioco indie con rating >= 75%")
+
+
 # ─────────────────────── Scrivi games.js ─────────────────────────────────
 print(f"\n💾 Scrittura games.js ({len(existing_games)} giochi)...")
-lines = ['const games = [\n']
+lines = [f'const featuredIndieId = {featured_id};\n\n', 'const games = [\n']
 for g in existing_games:
     cats_js = json.dumps(g['categories'], ensure_ascii=False)
     block = (
@@ -370,6 +474,7 @@ for g in existing_games:
         f"    played: {'true' if g['played'] else 'false'},\n"
         f"    steamUrl: \"{js_esc(g['steamUrl'])}\",\n"
         f"    epicUrl: \"{js_esc(g['epicUrl'])}\",\n"
+        f"    itchUrl: \"{js_esc(g.get('itchUrl', ''))}\",\n"
         f"    ccu: {g.get('ccu') or 0},\n"
         f"    trending: {'true' if g.get('trending') else 'false'},\n"
         f"    rating: {g.get('rating') or 0}\n"
@@ -384,9 +489,14 @@ with open(OUTPUT, 'w', encoding='utf-8') as f:
 trending_count = sum(1 for g in existing_games if g.get('trending'))
 rated_count    = sum(1 for g in existing_games if g.get('rating', 0) > 0)
 en_count       = sum(1 for g in existing_games if g.get('description_en'))
+indie_count    = sum(1 for g in existing_games if 'indie' in g.get('categories', []))
+free_count     = sum(1 for g in existing_games if 'free'  in g.get('categories', []))
 print(f"\n✅ Done!")
 print(f"   Giochi totali    : {len(existing_games)}")
 print(f"   Trending 🔥      : {trending_count}")
 print(f"   Con rating ⭐    : {rated_count}")
 print(f"   Con desc EN 🌍   : {en_count}")
+print(f"   Indie 🎮         : {indie_count}")
+print(f"   Free 🆓          : {free_count}")
+print(f"   Featured ID 🌟   : {featured_id}")
 print(f"   Nuovi aggiunti   : {added}")
