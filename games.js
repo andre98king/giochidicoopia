@@ -21,7 +21,7 @@ const games = [
   {
     id: 2,
     title: "Rust",
-    categories: ["survival", "action", "indie"],
+    categories: ["survival", "action"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg",
     description: "In Rust, l'unico obiettivo è sopravvivere. L'isola è contro di te: la natura, gli animali, gli abitanti, gli altri sopravvissuti... Tutti vogliono la tua morte. Ogni notte è una sfida e dovrai lottare con ogni mezzo per arrivare fino all'alba.",
@@ -123,7 +123,7 @@ const games = [
   {
     id: 9,
     title: "DayZ",
-    categories: ["survival", "horror", "action", "indie"],
+    categories: ["survival", "horror", "action"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/221100/header.jpg",
     description: "Quanto sopravviverai in un mondo post-apocalittico invaso da zombi infetti, lottando contro altri sopravvissuti per risorse limitate? Farai squadra con giocatori sconosciuti e vi darete man forte? Oppure sarai un lupo solitario per evitare colpi bassi? Questo è DayZ. Questa è la tua storia.",
@@ -276,7 +276,7 @@ const games = [
   {
     id: 18,
     title: "ARK: Survival Evolved",
-    categories: ["survival", "action", "rpg", "indie", "free"],
+    categories: ["survival", "action", "rpg", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/346110/header.jpg",
     description: "Sei naufragato nudo, affamato e congelato su un'isola misteriosa, dovrai cacciare, raccogliere, creare oggetti, coltivare e costruire ripari per sopravvivere. Usa abilità e ingegno per uccidere, addomesticare e cavalcare Dinosauri e creature primitive che vivono su ARK. Alleati con centinaia di giocatori oppure gioca l",
@@ -293,7 +293,7 @@ const games = [
   {
     id: 19,
     title: "Rocket League",
-    categories: ["sport", "action", "splitscreen", "indie", "free"],
+    categories: ["sport", "action", "splitscreen", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/252950/header.jpg",
     description: "Il calcio incontra ancora una volta le corse automobilistiche nel tanto atteso seguito dell'amato gioco in arena basato sulle leggi della fisica, battle-car acrobatiche supersoniche a razzi!",
@@ -310,7 +310,7 @@ const games = [
   {
     id: 20,
     title: "Garry's Mod",
-    categories: ["action", "indie"],
+    categories: ["action"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/4000/header.jpg",
     description: "Garry's Mod è una sandbox fisica. Non ci sono obiettivi predefiniti né scopi da raggiungere. Ti diamo gli strumenti e ti lasciamo giocare: costruisci, sperimentaci e crea qualsiasi cosa con gli amici.",
@@ -327,7 +327,7 @@ const games = [
   {
     id: 21,
     title: "Palworld",
-    categories: ["survival", "action", "factory", "indie"],
+    categories: ["survival", "action", "factory"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
     description: "Cattura le misteriose creature di questo vasto mondo note come Pal, e usale per combattere, edificare e coltivare i campi! Puoi persino farle lavorare in fabbrica! Una nuova esperienza multiplayer open world, con elementi di survival e produzione oggetti.",
@@ -344,7 +344,7 @@ const games = [
   {
     id: 22,
     title: "7 Days to Die",
-    categories: ["survival", "horror", "action", "indie"],
+    categories: ["survival", "horror", "action"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/251570/header.jpg",
     description: "7 Days to Die è un gioco open world e un mix originale di sparatutto in prima persona, survival horror, tower defense e gioco di ruolo. Gioca al GDR sandbox survival zombie definitivo nato per primo. Navezgane ti aspetta!",
@@ -446,7 +446,7 @@ const games = [
   {
     id: 28,
     title: "Brawlhalla",
-    categories: ["splitscreen", "action", "indie", "free"],
+    categories: ["splitscreen", "action", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/291550/header.jpg",
     description: "Un epico picchiaduro platform fino a 8 giocatori online o in locale. Gioca partite casual, ranked o in stanza privata con gli amici. Completamente gratuito! Multipiattaforma con PlayStation, Xbox, Nintendo Switch, iOS, Android e Steam. Oltre sessanta Leggende.",
@@ -480,7 +480,7 @@ const games = [
   {
     id: 30,
     title: "Satisfactory",
-    categories: ["factory", "survival", "strategy", "indie"],
+    categories: ["factory", "survival", "strategy"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/526870/header.jpg",
     description: "Satisfactory è un gioco in prima persona sulla costruzione di fabbriche in un mondo aperto, con un pizzico di esplorazione e combattimenti. Gioca da solo o con i tuoi amici, esplora un pianeta alieno, crea fabbriche multilivello e ascendi all'olimpo dei nastri trasportatori!",
@@ -582,7 +582,7 @@ const games = [
   {
     id: 36,
     title: "Squad",
-    categories: ["action", "strategy", "indie", "free"],
+    categories: ["action", "strategy", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/393380/header.jpg",
     description: "Squad è un FPS tattico che offre esperienze di combattimento autentiche attraverso il lavoro di squadra, la comunicazione e il combattimento realistico. Colma il divario tra shooter arcade e realismo militare con battaglie a 100 giocatori, guerra con armi combinate e costruzione di basi.",
@@ -684,7 +684,7 @@ const games = [
   {
     id: 42,
     title: "Bloons TD 6",
-    categories: ["strategy", "survival", "action", "indie", "free"],
+    categories: ["strategy", "survival", "action", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/960090/header.jpg",
     description: "Il gioco in stile tower defense che tutti aspettavano",
@@ -854,7 +854,7 @@ const games = [
   {
     id: 52,
     title: "Last Epoch",
-    categories: ["rpg", "action", "indie"],
+    categories: ["rpg", "action"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/899770/header.jpg",
     description: "Scopri il Passato, Riforgia il Futuro. Ascendi in una delle 15 classi maestria, esplora dungeon pericolosi, caccia loot epico, crafta armi leggendarie e padroneggia oltre cento alberi delle abilità trasformativi in questo apprezzato Action RPG.",
@@ -1058,7 +1058,7 @@ const games = [
   {
     id: 64,
     title: "Path of Exile",
-    categories: ["rpg", "action", "horror", "indie", "free"],
+    categories: ["rpg", "action", "horror", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/238960/header.jpg",
     description: "Sei un Esule che lotta per sopravvivere sul dark continent di Wraeclast, combattendo per guadagnare potere e vendicarti di chi ti ha fatto del male. Path of Exile è un Action RPG online in un mondo fantasy oscuro, completamente gratuito e mai pay-to-win.",
@@ -1075,7 +1075,7 @@ const games = [
   {
     id: 65,
     title: "Killing Floor 2",
-    categories: ["horror", "action", "survival", "indie", "free"],
+    categories: ["horror", "action", "survival", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/232090/header.jpg",
     description: "In KILLING FLOOR 2, i giocatori scendono nell'Europa continentale dopo che è stata invasa da orripilanti cloni assassini chiamati Zed, creati da elementi ribelli della Horzine Corporation. Co-Op fino a 6 giocatori e modalità VS fino a 12 giocatori.",
@@ -1143,7 +1143,7 @@ const games = [
   {
     id: 69,
     title: "Space Engineers",
-    categories: ["survival", "action", "strategy", "indie"],
+    categories: ["survival", "action", "strategy"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/244850/header.jpg",
     description: "Space Engineers è un sandbox spaziale dove puoi progettare e costruire astronavi, stazioni e basi planetarie in un universo completamente distruttibile. Esplora i pianeti e lo spazio, raccogli risorse, sopravvivi ai pericoli e combatti da solo o con gli amici nei modi Creativa o Sopravvivenza.",
@@ -1160,7 +1160,7 @@ const games = [
   {
     id: 70,
     title: "Among Us",
-    categories: ["survival", "splitscreen", "action", "indie", "free"],
+    categories: ["survival", "splitscreen", "action", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/945360/header.jpg",
     description: "Uno spaziale party game di collaborazione e tradimenti per 4-15 giocatori, da giocare in locale oppure online.",
@@ -1228,7 +1228,7 @@ const games = [
   {
     id: 74,
     title: "Divinity: Original Sin 2 - Definitive Edition",
-    categories: ["rpg", "splitscreen", "strategy", "indie"],
+    categories: ["rpg", "splitscreen", "strategy"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/435150/header.jpg",
     description: "L'RPG pluripremiato che ha alzato l'asticella, dai creatori di Baldur's Gate 3. Raduna il tuo gruppo. Padroneggia un combattimento tattico profondo. Avventurati in quattro giocatori, ma sappi che solo uno di voi avrà la possibilità di diventare un Dio.",
@@ -1296,7 +1296,7 @@ const games = [
   {
     id: 78,
     title: "Party Animals",
-    categories: ["action", "splitscreen", "indie"],
+    categories: ["action", "splitscreen"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1260320/header.jpg",
     description: "Combatti contro i tuoi amici nei panni di cuccioli, gattini e altre creature soffici in Party Animals! Sfidatevi online o in locale sullo stesso schermo in un caos di fisica ragdoll assolutamente esilarante. Il motore fisico realistico trasforma ogni piccolo scontro in una scena comica indimenticabile.",
@@ -1330,7 +1330,7 @@ const games = [
   {
     id: 80,
     title: "Foxhole",
-    categories: ["strategy", "action", "rpg", "indie", "free"],
+    categories: ["strategy", "action", "rpg", "free"],
     players: "1-4 (locale)",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/505460/header.jpg",
     description: "Foxhole è un gioco massivamente multiplayer dove migliaia di giocatori determinano l'esito di una guerra online persistente. Ogni singolo soldato è un giocatore che contribuisce allo sforzo bellico attraverso logistica, costruzione di basi, ricognizione e combattimento.",
@@ -1415,7 +1415,7 @@ const games = [
   {
     id: 86,
     title: "Grim Dawn",
-    categories: ["rpg", "action", "indie"],
+    categories: ["rpg", "action"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/219990/header.jpg",
     description: "Entra in un mondo fantasy apocalittico dove l'umanità è sull'orlo dell'estinzione, il ferro vale più dell'oro e la fiducia si guadagna con fatica. Questo ARPG presenta sviluppo del personaggio complesso, centinaia di oggetti unici, crafting e missioni con scelte e conseguenze.",
@@ -1534,7 +1534,7 @@ const games = [
   {
     id: 93,
     title: "Warhammer: Vermintide 2",
-    categories: ["action", "rpg", "indie"],
+    categories: ["action", "rpg"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/552500/header.jpg",
     description: "Il sequel del successo di critica Vermintide è un gioco d’azione corpo a corpo visivamente sbalorditivo e innovativo che supera i confini della modalità co-op in prima persona. Unisciti alla battaglia ora!",
@@ -1653,7 +1653,7 @@ const games = [
   {
     id: 100,
     title: "Insurgency: Sandstorm",
-    categories: ["action", "indie"],
+    categories: ["action"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/581320/header.jpg",
     description: "Insurgency: Sandstorm è un FPS tattico a squadre basato su letali combattimenti ravvicinati e un'esperienza multiplayer a obiettivi. Prova tutta l’intensità dei combattimenti moderni dove l'abilità viene premiata e il lavoro di squadra è essenziale per conquistare la vittoria.",
@@ -1704,7 +1704,7 @@ const games = [
   {
     id: 104,
     title: "Green Hell",
-    categories: ["survival", "action", "horror", "indie", "free"],
+    categories: ["survival", "action", "horror", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/815370/header.jpg",
     description: "Immergiti nella simulazione di sopravvivenza in un mondo aperto ambientato nell’implacabile foresta amazzonica. Sopravvivi con le tue forze o in squadra servendoti di tecniche di sopravvivenza realistiche, creando strumenti, costruendo rifugi o erigendo fortezze, cacciando e accumulando risorse.",
@@ -1891,7 +1891,7 @@ const games = [
   {
     id: 117,
     title: "Medieval Dynasty",
-    categories: ["survival", "rpg", "indie"],
+    categories: ["survival", "rpg"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1129580/header.jpg",
     description: "Vai a caccia, sopravvivi, costruisci e governa nell'ostile Medioevo: crea una dinastia medievale e sacrificati per garantire la sua lunga prosperità! Gioca in solitaria o fai squadra con gli amici per vivere l'esperienza medievale definitiva.",
@@ -1925,7 +1925,7 @@ const games = [
   {
     id: 119,
     title: "Gang Beasts",
-    categories: ["splitscreen", "action", "indie", "free"],
+    categories: ["splitscreen", "action", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/285900/header.jpg",
     description: "Gang Beasts è un gioco multiplayer locale demenziale con personaggi gelatinosi, controlli corporei fisici goffi e livelli ambientali pericolosi. Combatti in arene assurde e butta fuori gli avversari nel modo più caotico possibile.",
@@ -1993,7 +1993,7 @@ const games = [
   {
     id: 123,
     title: "Streets of Rage 4",
-    categories: ["splitscreen", "action", "indie"],
+    categories: ["splitscreen", "action"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/985890/header.jpg",
     description: "Streets of Rage 4 è il ritorno dell'amata serie beat 'em up, con grafica disegnata a mano, un roster di personaggi iconici e nuovi, colonna sonora epica e fino a 4 giocatori in co-op locale o online.",
@@ -2010,7 +2010,7 @@ const games = [
   {
     id: 124,
     title: "Teenage Mutant Ninja Turtles: Shredder's Revenge",
-    categories: ["splitscreen", "action", "indie"],
+    categories: ["splitscreen", "action"],
     players: "1-6",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1361510/header.jpg",
     description: "TMNT: Shredder's Revenge porta le Tartarughe Ninja in un entusiasmante beat 'em up in stile anni '80 con grafica pixel art vibrante. Fino a 6 giocatori in co-op possono combattere insieme contro le forze del Clan del Piede.",
@@ -2044,7 +2044,7 @@ const games = [
   {
     id: 126,
     title: "A Way Out",
-    categories: ["splitscreen", "action", "indie"],
+    categories: ["splitscreen", "action"],
     players: "1-2",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1222700/header.jpg",
     description: "A Way Out è un gioco d'avventura e azione esclusivamente co-op per due giocatori. Interpreta Leo o Vincent, due prigionieri che devono collaborare per evadere di prigione e sopravvivere in fuga dalla legge.",
@@ -2129,7 +2129,7 @@ const games = [
   {
     id: 131,
     title: "Trine 4: The Nightmare Prince",
-    categories: ["splitscreen", "puzzle", "action", "indie"],
+    categories: ["splitscreen", "puzzle", "action"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1057090/header.jpg",
     description: "Trine 4 è un magico gioco di puzzle-platform in co-op fino a 4 giocatori. Usa le abilità uniche del Mago, del Guerriero e della Ladra per risolvere enigmi ambientali in un mondo fiabesco mozzafiato.",
@@ -2299,7 +2299,7 @@ const games = [
   {
     id: 141,
     title: "Unravel Two",
-    categories: ["splitscreen", "puzzle", "action", "indie"],
+    categories: ["splitscreen", "puzzle", "action"],
     players: "1-2",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1225570/header.jpg",
     description: "Unravel Two è un platform co-op emozionante dove incarni due creature fatte di filo. Lavora con il tuo compagno per superare ostacoli, proteggerti a vicenda e scoprire una storia toccante ambientata nella natura.",
@@ -2656,7 +2656,7 @@ const games = [
   {
     id: 162,
     title: "No Man's Sky",
-    categories: ["survival", "rpg", "indie"],
+    categories: ["survival", "rpg"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/275850/header.jpg",
     description: "Esplora un universo infinito con miliardi di pianeti unici generati proceduralmente, da solo o con fino a quattro amici in co-op online. Costruisci basi, commercia, combatti creature aliene e scopri civiltà sconosciute in uno dei giochi sandbox più aggiornati e migliorati della storia recente. Un'esperienza co-op senza confini.",
@@ -2690,7 +2690,7 @@ const games = [
   {
     id: 164,
     title: "Astroneer",
-    categories: ["survival", "factory", "indie", "free"],
+    categories: ["survival", "factory", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/361420/header.jpg",
     description: "Un gioco di esplorazione spaziale e sopravvivenza co-op fino a 4 giocatori, dove esplori pianeti alieni colorati, estrai risorse e costruisci basi e veicoli. La terraformazione del terreno con lo zaino multitool è la meccanica centrale, rendendo ogni sessione con gli amici creativa e rilassante. Uno dei sandbox cooperativi più bellissimi visivamente.",
@@ -2741,7 +2741,7 @@ const games = [
   {
     id: 167,
     title: "Divinity: Original Sin",
-    categories: ["rpg", "strategy", "indie"],
+    categories: ["rpg", "strategy"],
     players: "1-2",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/230230/header.jpg",
     description: "Il predecessore del celebre Divinity OS2, con modalità co-op completa per due giocatori e sistema a turni ricco di scelte narrative. I due protagonisti possono avere opinioni divergenti durante le scelte della storia, aggiungendo un livello unico di interazione cooperativa. Un RPG profondo e impegnativo, ideale per chi ama le avventure co-op lunghe.",
@@ -2775,7 +2775,7 @@ const games = [
   {
     id: 169,
     title: "Warhammer: End Times - Vermintide",
-    categories: ["action", "horror", "indie"],
+    categories: ["action", "horror"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/235540/header.jpg",
     description: "Il predecessore di Vermintide 2, un co-op melee in prima persona per quattro giocatori ambientato durante l'apocalisse fantasy di Warhammer. Cinque eroi con stili di gioco diversi combattono orde di ratti mutanti Skaven attraverso la città di Ubersreik. Un classico del co-op che ha dato vita alla serie.",
@@ -2809,7 +2809,7 @@ const games = [
   {
     id: 171,
     title: "Bloons TD 6",
-    categories: ["strategy", "indie", "free"],
+    categories: ["strategy", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/960090/header.jpg",
     description: "Il tower defense cooperativo più popolare su PC, con modalità co-op online per due o quattro giocatori e centinaia di mappe, torri e sfide. Il sistema di aggiornamenti ramificati per ogni torre offre profondità strategica sorprendente, con nuovi contenuti aggiunti regolarmente. Dall'apparenza casual ma con complessità tattica che sorprenderà i più esigenti.",
@@ -3081,7 +3081,7 @@ const games = [
   {
     id: 187,
     title: "Enshrouded",
-    categories: ["survival", "factory", "rpg", "indie"],
+    categories: ["survival", "factory", "rpg"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1203620/header.jpg",
     description: "Tu, figlia del fuoco, ultima speranza di una razza in estinzione. Risvegliati, sopravvivi alla nebbia e riporta la bellezza nel regno. Avventurati in un mondo vasto, sconfiggi nemici, costruisci edifici grandiosi e sii artefice del tuo destino in questo GdR di azione cooperativo per 16 giocatori.",
@@ -3268,7 +3268,7 @@ const games = [
   {
     id: 198,
     title: "Tabletop Simulator",
-    categories: ["strategy", "rpg", "indie"],
+    categories: ["strategy", "rpg"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/286160/header.jpg",
     description: "Tabletop Simulator is the only simulator where you can let your aggression out by flipping the table! There are no rules to follow: just you, a physics sandbox, and your friends. Make your own online board games or play the thousands of community created mods. Unlimited gaming possibilities!",
@@ -3761,7 +3761,7 @@ const games = [
   {
     id: 227,
     title: "Predecessor",
-    categories: ["indie", "action", "strategy", "free"],
+    categories: ["action", "strategy", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/961200/header.jpg",
     description: "Ispirato all'eredità di Paragon, costruito con amore dalla comunità e alimentato da Unreal Engine 5, Predecessor è la fusione definitiva di azione sparatutto e strategia MOBA. Unisciti a più di 2.000.000 giocatori e gioca subito GRATIS!",

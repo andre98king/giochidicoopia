@@ -65,6 +65,48 @@ SKIP_WORDS = [
     'beta', 'prologue', 'upgrade pack', 'season pass',
     'content pack', 'expansion', 'bundle',
 ]
+
+# Giochi che Steam/SteamSpy tagga come "Indie" ma NON sono indie
+# (studi AA/AAA, publisher grossi, IP di grandi aziende)
+NOT_INDIE_APPIDS = {
+    '251570',   # 7 Days to Die
+    '436150',   # A Way Out
+    '346110',   # ARK: Survival Evolved
+    '945360',   # Among Us
+    '361420',   # Astroneer
+    '960090',   # Bloons TD 6
+    '291550',   # Brawlhalla
+    '221100',   # DayZ
+    '435150',   # Divinity: Original Sin 2
+    '373420',   # Divinity: Original Sin Enhanced Edition
+    '1203620',  # Enshrouded
+    '505460',   # Foxhole
+    '467710',   # Gang Beasts
+    '4000',     # Garry's Mod
+    '815370',   # Green Hell
+    '219990',   # Grim Dawn
+    '581320',   # Insurgency: Sandstorm
+    '232090',   # Killing Floor 2
+    '899770',   # Last Epoch
+    '1129580',  # Medieval Dynasty
+    '275850',   # No Man's Sky
+    '1623730',  # Palworld
+    '1260320',  # Party Animals
+    '238960',   # Path of Exile
+    '1042710',  # Predecessor
+    '252950',   # Rocket League
+    '252490',   # Rust
+    '526870',   # Satisfactory
+    '244850',   # Space Engineers
+    '393380',   # Squad
+    '985890',   # Streets of Rage 4
+    '286160',   # Tabletop Simulator
+    '1361510',  # TMNT: Shredder's Revenge
+    '690640',   # Trine 4
+    '1225560',  # Unravel Two
+    '235540',   # Warhammer: End Times - Vermintide
+    '552500',   # Warhammer: Vermintide 2
+}
 # ─────────────────────────────────────────────────────────────────────────
 
 
@@ -220,9 +262,11 @@ for g in existing_games:
     if pos + neg >= 10:
         g['rating'] = calc_rating(pos, neg)
         updated_rating += 1
-    # Aggiorna tag indie/free
-    if aid in indie_appids and 'indie' not in g['categories']:
+    # Aggiorna tag indie/free (escludi NOT_INDIE_APPIDS)
+    if aid in indie_appids and aid not in NOT_INDIE_APPIDS and 'indie' not in g['categories']:
         g['categories'].append('indie')
+    if aid in NOT_INDIE_APPIDS and 'indie' in g['categories']:
+        g['categories'].remove('indie')
     if aid in free_appids and 'free' not in g['categories']:
         g['categories'].append('free')
 
@@ -334,7 +378,7 @@ for candidate in new_candidates:
     if not categories:
         categories = ['action']
     # Aggiungi indie/free in base ai set SteamSpy
-    if aid in indie_appids and 'indie' not in categories:
+    if aid in indie_appids and aid not in NOT_INDIE_APPIDS and 'indie' not in categories:
         categories.append('indie')
     if aid in free_appids and 'free' not in categories:
         categories.append('free')
