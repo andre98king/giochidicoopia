@@ -1,0 +1,508 @@
+// ===== ADMIN CONFIG =====
+// Cambia questa password come vuoi
+const ADMIN_PASSWORD = "coop2024";
+
+// ===== STATE =====
+let activeFilters = new Set();
+let searchQuery = '';
+let sortMode = 'default'; // 'default' | 'trending' | 'rating' | 'az'
+let wheelSpinning = false;
+let isAdmin = false;
+
+// ===== CATEGORIES CONFIG =====
+const categories = [
+  { id: 'all'         },
+  { id: 'trending'   },
+  { id: 'horror'     },
+  { id: 'action'     },
+  { id: 'puzzle'     },
+  { id: 'splitscreen'},
+  { id: 'rpg'        },
+  { id: 'survival'   },
+  { id: 'factory'    },
+  { id: 'roguelike'  },
+  { id: 'sport'      },
+  { id: 'strategy'   },
+];
+
+// ===== LOCALSTORAGE: carica override admin =====
+function loadOverrides() {
+  const stored = JSON.parse(localStorage.getItem('coopAdminData') || '{}');
+  games.forEach(g => {
+    const ov = stored[g.id];
+    if (!ov) return;
+    if (ov.personalNote !== undefined) g.personalNote = ov.personalNote;
+    if (ov.played      !== undefined) g.played       = ov.played;
+  });
+}
+
+function saveOverride(id, personalNote, played) {
+  const stored = JSON.parse(localStorage.getItem('coopAdminData') || '{}');
+  stored[id] = { personalNote, played };
+  localStorage.setItem('coopAdminData', JSON.stringify(stored));
+  const g = games.find(x => x.id === id);
+  if (g) { g.personalNote = personalNote; g.played = played; }
+}
+
+// ===== INIT =====
+document.addEventListener('DOMContentLoaded', () => {
+  loadOverrides();
+  applyStaticTranslations();
+  updateStats();
+  renderFilters();
+  renderGames();
+
+  document.getElementById('searchInput').addEventListener('input', e => {
+    searchQuery = e.target.value.toLowerCase().trim();
+    renderGames();
+  });
+
+  document.getElementById('sortSelect').addEventListener('change', e => {
+    sortMode = e.target.value;
+    renderGames();
+  });
+
+  document.getElementById('wheelBtn').addEventListener('click', openWheel);
+
+  document.getElementById('modalOverlay').addEventListener('click', e => {
+    if (e.target === document.getElementById('modalOverlay')) closeModal();
+  });
+  document.getElementById('wheelOverlay').addEventListener('click', e => {
+    if (e.target === document.getElementById('wheelOverlay')) closeWheelModal();
+  });
+  document.getElementById('adminOverlay').addEventListener('click', e => {
+    if (e.target === document.getElementById('adminOverlay')) closeAdminModal();
+  });
+
+  document.getElementById('adminBtn').addEventListener('click', toggleAdmin);
+});
+
+// ===== STATS =====
+function updateStats() {
+  document.getElementById('totalGames').textContent = games.length;
+  document.getElementById('playedGames').textContent = games.filter(g => g.played).length;
+  const cats = new Set(games.flatMap(g => g.categories).filter(c => c !== 'trending'));
+  document.getElementById('totalCats').textContent = cats.size;
+}
+
+// ===== FILTERS =====
+function renderFilters() {
+  const container = document.getElementById('filterContainer');
+  container.innerHTML = categories.map(cat => `
+    <button class="filter-btn ${cat.id === 'all' ? 'active' : ''}" data-cat="${cat.id}">
+      ${t('cat_' + cat.id)}
+    </button>
+  `).join('');
+
+  container.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const cat = btn.dataset.cat;
+      if (cat === 'all') {
+        activeFilters.clear();
+        container.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+      } else {
+        container.querySelector('[data-cat="all"]').classList.remove('active');
+        if (activeFilters.has(cat)) {
+          activeFilters.delete(cat);
+          btn.classList.remove('active');
+        } else {
+          activeFilters.add(cat);
+          btn.classList.add('active');
+        }
+        if (activeFilters.size === 0)
+          container.querySelector('[data-cat="all"]').classList.add('active');
+      }
+      renderGames();
+    });
+  });
+}
+
+// ===== FILTER + SORT LOGIC =====
+function getFilteredGames() {
+  let filtered = games.filter(game => {
+    if (activeFilters.has('trending') && !game.trending) return false;
+    const normalFilters = [...activeFilters].filter(f => f !== 'trending');
+    const matchesCat = normalFilters.length === 0 || game.categories.some(c => normalFilters.includes(c));
+    const matchesSearch = !searchQuery ||
+      game.title.toLowerCase().includes(searchQuery) ||
+      game.description.toLowerCase().includes(searchQuery) ||
+      game.categories.some(c => c.includes(searchQuery));
+    return matchesCat && matchesSearch;
+  });
+
+  if (sortMode === 'trending') {
+    filtered = [...filtered].sort((a, b) => (b.ccu || 0) - (a.ccu || 0));
+  } else if (sortMode === 'rating') {
+    filtered = [...filtered].sort((a, b) => (b.rating || 0) - (a.rating || 0));
+  } else if (sortMode === 'az') {
+    filtered = [...filtered].sort((a, b) => a.title.localeCompare(b.title));
+  }
+
+  return filtered;
+}
+
+// ===== RENDER GAMES =====
+function renderGames() {
+  const filtered = getFilteredGames();
+  const grid = document.getElementById('gamesGrid');
+  const info = document.getElementById('resultsInfo');
+
+  info.innerHTML = t('results_found', filtered.length, games.length);
+
+  if (filtered.length === 0) {
+    grid.innerHTML = `
+      <div class="empty-state">
+        <svg width="64" height="64" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+            d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+        </svg>
+        <h3>${t('empty_title')}</h3>
+        <p>${t('empty_sub')}</p>
+      </div>`;
+    return;
+  }
+
+  grid.innerHTML = filtered.map(game => createCard(game)).join('');
+
+  grid.querySelectorAll('.card').forEach(card => {
+    const id = parseInt(card.dataset.id);
+    card.addEventListener('click', e => {
+      if (e.target.closest('a') || e.target.closest('.btn-admin-edit')) return;
+      openModal(id);
+    });
+    const editBtn = card.querySelector('.btn-admin-edit');
+    if (editBtn) editBtn.addEventListener('click', e => { e.stopPropagation(); openAdminModal(id); });
+  });
+}
+
+// ===== CREATE CARD =====
+function createCard(game) {
+  const tags = game.categories.map(c =>
+    `<span class="tag tag-${c}">${c}</span>`
+  ).join('');
+
+  const imgHtml = game.image
+    ? `<img class="card-img" src="${game.image}" alt="${game.title}" loading="lazy"
+         onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+       <div class="card-img-placeholder" style="display:none">🎮</div>`
+    : `<div class="card-img-placeholder">🎮</div>`;
+
+  const noteHtml = game.played && game.personalNote
+    ? `<div class="personal-note-preview">${game.personalNote}</div>` : '';
+
+  const storeButtons = [
+    game.steamUrl ? `<a class="btn-store btn-steam" href="${game.steamUrl}" target="_blank" rel="noopener">Steam ↗</a>` : '',
+    game.epicUrl  ? `<a class="btn-store btn-epic"  href="${game.epicUrl}"  target="_blank" rel="noopener">Epic ↗</a>`  : '',
+  ].join('');
+
+  const adminBtn = isAdmin
+    ? `<button class="btn-admin-edit" title="Modifica nota">✏️</button>` : '';
+
+  const trendingBadge = game.trending
+    ? `<div class="trending-badge">${t('trending_badge')}</div>` : '';
+
+  const ccuHtml = game.ccu > 0
+    ? `<span class="ccu-badge" title="${t('ccu_title')}">👥 ${formatCCU(game.ccu)}</span>` : '';
+
+  const ratingHtml = game.rating > 0
+    ? `<span class="rating-badge rating-${ratingTier(game.rating)}" title="${game.rating}% ${t('modal_reviews')}">
+        ${ratingIcon(game.rating)} ${game.rating}%
+      </span>` : '';
+
+  return `
+    <div class="card ${isAdmin ? 'admin-mode' : ''} ${game.trending ? 'is-trending' : ''}" data-id="${game.id}">
+      ${adminBtn}
+      ${trendingBadge}
+      ${imgHtml}
+      <div class="card-body">
+        <div class="card-header">
+          <div class="card-title">${game.title}</div>
+          <div class="card-badges">
+            ${game.played ? `<span class="played-badge">${t('played_badge')}</span>` : ''}
+            ${ratingHtml}
+            ${ccuHtml}
+          </div>
+        </div>
+        <div class="card-tags">${tags}</div>
+        <div class="players-info">
+          <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0"/>
+          </svg>
+          ${game.players} ${t('card_players')}
+        </div>
+        <div class="card-desc">${(currentLang === 'en' && game.description_en) ? game.description_en : game.description}</div>
+        ${noteHtml}
+      </div>
+      <div class="card-footer">
+        <button class="btn-details">${t('btn_details')}</button>
+        <div class="store-btns">${storeButtons}</div>
+      </div>
+    </div>`;
+}
+
+function formatCCU(n) {
+  if (n >= 1000) return (n / 1000).toFixed(1) + 'k';
+  return n.toString();
+}
+
+function ratingTier(r) {
+  if (r >= 95) return 'acclaimed';
+  if (r >= 85) return 'verypos';
+  if (r >= 70) return 'positive';
+  if (r >= 55) return 'mixed';
+  return 'negative';
+}
+
+function ratingIcon(r) {
+  if (r >= 95) return '🏆';
+  if (r >= 85) return '😊';
+  if (r >= 70) return '👍';
+  if (r >= 55) return '😐';
+  return '👎';
+}
+
+function ratingLabel(r) {
+  if (r >= 95) return t('rating_acclaimed');
+  if (r >= 85) return t('rating_verypos');
+  if (r >= 70) return t('rating_positive');
+  if (r >= 55) return t('rating_mixed');
+  if (r >= 40) return t('rating_mediocre');
+  return t('rating_negative');
+}
+
+// ===== MODAL DETTAGLIO =====
+function openModal(id) {
+  const game = games.find(g => g.id === id);
+  if (!game) return;
+
+  const tags = game.categories.map(c =>
+    `<span class="tag tag-${c}">${c}</span>`
+  ).join('');
+
+  const noteHtml = game.played && game.personalNote ? `
+    <div class="modal-personal-note">
+      <div class="modal-section-title">${t('modal_experience')}</div>
+      <p>${game.personalNote}</p>
+    </div>` : '';
+
+  const storeLinks = [
+    game.steamUrl ? `<a class="btn-primary" href="${game.steamUrl}" target="_blank" rel="noopener">Steam ↗</a>` : '',
+    game.epicUrl  ? `<a class="btn-primary btn-epic-lg" href="${game.epicUrl}"  target="_blank" rel="noopener">Epic Games ↗</a>` : '',
+  ].join('');
+
+  const adminEdit = isAdmin
+    ? `<button class="btn-details" onclick="closeModal();openAdminModal(${id})" style="padding:10px 20px">${t('btn_edit')}</button>` : '';
+
+  document.getElementById('modalContent').innerHTML = `
+    ${game.image ? `<img class="modal-img" src="${game.image}" alt="${game.title}">` : ''}
+    <div class="modal-body">
+      <div class="modal-header">
+        <div class="modal-title">${game.title} ${game.played ? `<span class="played-badge">${t('played_badge')}</span>` : ''}</div>
+        <button class="modal-close" onclick="closeModal()">✕</button>
+      </div>
+      <div class="modal-tags">${tags}</div>
+      ${game.rating > 0 ? `
+      <div>
+        <div class="modal-section-title">${t('modal_reviews')}</div>
+        <div class="modal-rating-row">
+          <span class="modal-rating-badge rating-${ratingTier(game.rating)}">
+            ${ratingIcon(game.rating)} ${game.rating}% — ${ratingLabel(game.rating)}
+          </span>
+        </div>
+      </div>` : ''}
+      <div>
+        <div class="modal-section-title">${t('modal_players')}</div>
+        <div class="modal-desc">
+          ${game.players} ${t('card_players')}
+          ${game.ccu > 0 ? `<span class="modal-ccu">— <strong>${formatCCU(game.ccu)}</strong> ${t('modal_online')}</span>` : ''}
+          ${game.trending ? `<span class="modal-trending-label">${t('modal_trending')}</span>` : ''}
+        </div>
+      </div>
+      <div>
+        <div class="modal-section-title">${t('modal_desc')}</div>
+        <div class="modal-desc">${(currentLang === 'en' && game.description_en) ? game.description_en : game.description}</div>
+      </div>
+      ${noteHtml}
+      <div class="modal-actions">
+        ${storeLinks}
+        ${adminEdit}
+        <button class="btn-details" onclick="closeModal()" style="padding:10px 20px">${t('btn_close')}</button>
+      </div>
+    </div>`;
+
+  document.getElementById('modalOverlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+  document.getElementById('modalOverlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+// ===== ADMIN TOGGLE =====
+function toggleAdmin() {
+  if (isAdmin) {
+    isAdmin = false;
+    document.getElementById('adminBtn').textContent = t('btn_admin');
+    document.getElementById('adminBtn').classList.remove('admin-active');
+    renderGames();
+    return;
+  }
+  const pwd = prompt(t('admin_pwd_prompt'));
+  if (pwd === null) return;
+  if (pwd === ADMIN_PASSWORD) {
+    isAdmin = true;
+    document.getElementById('adminBtn').textContent = t('btn_admin_on');
+    document.getElementById('adminBtn').classList.add('admin-active');
+    renderGames();
+  } else {
+    alert(t('admin_pwd_wrong'));
+  }
+}
+
+// ===== ADMIN MODAL (modifica nota/played) =====
+function openAdminModal(id) {
+  const game = games.find(g => g.id === id);
+  if (!game || !isAdmin) return;
+
+  document.getElementById('adminGameTitle').textContent = game.title;
+  document.getElementById('adminNoteInput').value = game.personalNote || '';
+  document.getElementById('adminPlayedInput').checked = game.played || false;
+  document.getElementById('adminGameId').value = id;
+
+  document.getElementById('adminOverlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeAdminModal() {
+  document.getElementById('adminOverlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function saveAdminEdit() {
+  const id       = parseInt(document.getElementById('adminGameId').value);
+  const note     = document.getElementById('adminNoteInput').value.trim();
+  const played   = document.getElementById('adminPlayedInput').checked;
+  saveOverride(id, note, played);
+  closeAdminModal();
+  updateStats();
+  renderGames();
+}
+
+// ===== WHEEL =====
+const WHEEL_COLORS = [
+  '#6c63ff','#ff6584','#43e97b','#f7971e','#21d4fd',
+  '#a18cd1','#fda085','#84fab0','#f093fb','#4facfe',
+  '#43e97b','#fa709a','#fee140','#30cfd0','#667eea'
+];
+
+function openWheel() {
+  const filtered = getFilteredGames();
+  if (filtered.length === 0) return;
+  const overlay = document.getElementById('wheelOverlay');
+  overlay.classList.add('open');
+  document.body.style.overflow = 'hidden';
+  document.getElementById('wheelResult').classList.remove('show');
+  document.getElementById('spinBtn').disabled = false;
+  drawWheel(filtered, 0);
+}
+
+function closeWheelModal() {
+  document.getElementById('wheelOverlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function drawWheel(gameList, rotation) {
+  const canvas = document.getElementById('wheelCanvas');
+  const dpr = window.devicePixelRatio || 1;
+  const size = canvas.offsetWidth || 320;
+  canvas.width = size * dpr;
+  canvas.height = size * dpr;
+  const ctx = canvas.getContext('2d');
+  ctx.scale(dpr, dpr);
+
+  const cx = size / 2, cy = size / 2, r = size / 2 - 4;
+  const n = gameList.length;
+  const arc = (2 * Math.PI) / n;
+
+  for (let i = 0; i < n; i++) {
+    const start = rotation + i * arc - Math.PI / 2;
+    const end = start + arc;
+    ctx.beginPath();
+    ctx.moveTo(cx, cy);
+    ctx.arc(cx, cy, r, start, end);
+    ctx.closePath();
+    ctx.fillStyle = WHEEL_COLORS[i % WHEEL_COLORS.length];
+    ctx.fill();
+    ctx.strokeStyle = 'rgba(0,0,0,0.3)';
+    ctx.lineWidth = 2;
+    ctx.stroke();
+
+    ctx.save();
+    ctx.translate(cx, cy);
+    ctx.rotate(start + arc / 2);
+    ctx.textAlign = 'right';
+    ctx.fillStyle = '#fff';
+    ctx.font = `bold ${Math.max(10, Math.min(13, 180 / n))}px sans-serif`;
+    ctx.shadowColor = 'rgba(0,0,0,0.5)';
+    ctx.shadowBlur = 3;
+    const label = gameList[i].title.length > 14
+      ? gameList[i].title.slice(0, 13) + '…'
+      : gameList[i].title;
+    ctx.fillText(label, r - 10, 5);
+    ctx.restore();
+  }
+
+  ctx.beginPath();
+  ctx.arc(cx, cy, 22, 0, Math.PI * 2);
+  ctx.fillStyle = '#0d0f14';
+  ctx.fill();
+  ctx.strokeStyle = '#fff';
+  ctx.lineWidth = 2;
+  ctx.stroke();
+}
+
+function spinWheel() {
+  if (wheelSpinning) return;
+  const filtered = getFilteredGames();
+  if (filtered.length === 0) return;
+
+  wheelSpinning = true;
+  document.getElementById('spinBtn').disabled = true;
+  document.getElementById('wheelResult').classList.remove('show');
+
+  const extraSpins = 6 + Math.random() * 6;
+  const winIndex = Math.floor(Math.random() * filtered.length);
+  const arc = (2 * Math.PI) / filtered.length;
+  const targetAngle = 2 * Math.PI * extraSpins - (winIndex * arc) - arc / 2;
+  let start = null, currentRot = 0;
+  const duration = 4000 + Math.random() * 1500;
+
+  function easeOut(t_) { return 1 - Math.pow(1 - t_, 4); }
+
+  function animate(ts) {
+    if (!start) start = ts;
+    const progress = Math.min((ts - start) / duration, 1);
+    currentRot = easeOut(progress) * targetAngle;
+    drawWheel(filtered, currentRot);
+    if (progress < 1) {
+      requestAnimationFrame(animate);
+    } else {
+      wheelSpinning = false;
+      document.getElementById('spinBtn').disabled = false;
+      const winner = filtered[winIndex];
+      document.getElementById('wheelResultTitle').textContent = winner.title;
+      document.getElementById('wheelResultSub').textContent =
+        winner.categories.join(', ') + ' · ' + winner.players + ' ' + t('wheel_players');
+      document.getElementById('wheelResult').classList.add('show');
+    }
+  }
+  requestAnimationFrame(animate);
+}
+
+// Close on ESC
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') { closeModal(); closeWheelModal(); closeAdminModal(); }
+});

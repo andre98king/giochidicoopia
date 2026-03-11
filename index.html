@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Co-op Games Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HERO -->
+  <header class="hero">
+    <h1>Co-op Games Hub</h1>
+    <p id="heroSub">Tutti i migliori giochi cooperativi per PC, categorizzati e commentati</p>
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-number" id="totalGames">0</span>
+        <span class="stat-label">Giochi</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number" id="playedGames">0</span>
+        <span class="stat-label">Giocati da me</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number" id="totalCats">0</span>
+        <span class="stat-label">Categorie</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- TOOLBAR -->
+  <div class="toolbar">
+    <div class="toolbar-inner">
+      <!-- Ricerca -->
+      <div class="search-box">
+        <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+        </svg>
+        <input type="text" id="searchInput" placeholder="Cerca un gioco...">
+      </div>
+
+      <!-- Filtri categorie -->
+      <div class="filters" id="filterContainer"></div>
+
+      <!-- Ordinamento -->
+      <select class="sort-select" id="sortSelect" title="Ordina giochi">
+        <option value="default">📋 Default</option>
+        <option value="rating">⭐ Meglio recensiti</option>
+        <option value="trending">🔥 Più giocati ora</option>
+        <option value="az">🔤 A → Z</option>
+      </select>
+
+      <!-- Ruota random -->
+      <button class="btn-wheel" id="wheelBtn">🎡 Gioco Random</button>
+      <!-- Lingua -->
+      <button class="btn-lang" id="langBtn" onclick="setLang(currentLang === 'it' ? 'en' : 'it')">🇬🇧 EN</button>
+      <!-- Admin -->
+      <button class="btn-admin" id="adminBtn">🔒 Admin</button>
+    </div>
+  </div>
+
+  <!-- MAIN -->
+  <main class="main">
+    <div class="results-info" id="resultsInfo"></div>
+    <div class="games-grid" id="gamesGrid"></div>
+  </main>
+
+  <!-- MODAL DETTAGLIO GIOCO -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal" id="modalContent"></div>
+  </div>
+
+  <!-- MODAL ADMIN EDIT -->
+  <div class="modal-overlay" id="adminOverlay">
+    <div class="modal" style="max-width:480px">
+      <div class="modal-body">
+        <div class="modal-header">
+          <div class="modal-title" id="adminGameTitle"></div>
+          <button class="modal-close" onclick="closeAdminModal()">✕</button>
+        </div>
+        <input type="hidden" id="adminGameId">
+        <div>
+          <div class="modal-section-title" id="adminPlayedTitle">✓ Hai giocato questo gioco?</div>
+          <label class="admin-toggle">
+            <input type="checkbox" id="adminPlayedInput">
+            <span class="admin-toggle-label" id="adminPlayedLabel">Segna come giocato</span>
+          </label>
+        </div>
+        <div>
+          <div class="modal-section-title" id="adminNoteTitle">📝 La tua nota personale</div>
+          <textarea id="adminNoteInput" class="admin-textarea"
+            placeholder="Scrivi la tua esperienza personale con questo gioco..."></textarea>
+        </div>
+        <div class="modal-actions">
+          <button class="btn-primary" id="adminSaveBtn" onclick="saveAdminEdit()">💾 Salva</button>
+          <button class="btn-details" id="adminCancelBtn" onclick="closeAdminModal()" style="padding:10px 20px">Annulla</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL RUOTA -->
+  <div class="modal-overlay" id="wheelOverlay">
+    <div class="modal wheel-modal">
+      <div class="modal-body">
+        <div class="modal-header" style="justify-content:center; position:relative">
+          <div class="modal-title" id="wheelTitle">🎡 Ruota Gioco Random</div>
+          <button class="modal-close" onclick="closeWheelModal()" style="position:absolute;right:0;top:0">✕</button>
+        </div>
+
+        <div class="wheel-wrapper">
+          <canvas id="wheelCanvas" width="320" height="320"></canvas>
+          <div class="wheel-pointer"></div>
+        </div>
+
+        <button class="btn-spin" id="spinBtn" onclick="spinWheel()">🎰 Gira la Ruota!</button>
+
+        <div class="wheel-result" id="wheelResult">
+          <div class="wheel-result-title" id="wheelResultTitle"></div>
+          <div class="wheel-result-sub" id="wheelResultSub"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="games.js"></script>
+  <script src="i18n.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
