@@ -276,7 +276,7 @@ const games = [
   {
     id: 18,
     title: "ARK: Survival Evolved",
-    categories: ["survival", "action", "rpg", "free"],
+    categories: ["survival", "action", "rpg"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/346110/header.jpg",
     description: "Sei naufragato nudo, affamato e congelato su un'isola misteriosa, dovrai cacciare, raccogliere, creare oggetti, coltivare e costruire ripari per sopravvivere. Usa abilità e ingegno per uccidere, addomesticare e cavalcare Dinosauri e creature primitive che vivono su ARK. Alleati con centinaia di giocatori oppure gioca l",
@@ -429,7 +429,7 @@ const games = [
   {
     id: 27,
     title: "Black Desert",
-    categories: ["rpg", "action", "strategy", "free"],
+    categories: ["rpg", "action", "strategy"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/582660/header.jpg",
     description: "Giocato da oltre 20 milioni di avventurieri - Black Desert Online è un MMORPG action in mondo aperto. Vivi combattimenti intensi, sconfiggi enormi boss mondiali, assedia castelli con gli amici e coltiva professioni come pesca, commercio, crafting e cucina.",
@@ -582,7 +582,7 @@ const games = [
   {
     id: 36,
     title: "Squad",
-    categories: ["action", "strategy", "free"],
+    categories: ["action", "strategy"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/393380/header.jpg",
     description: "Squad è un FPS tattico che offre esperienze di combattimento autentiche attraverso il lavoro di squadra, la comunicazione e il combattimento realistico. Colma il divario tra shooter arcade e realismo militare con battaglie a 100 giocatori, guerra con armi combinate e costruzione di basi.",
@@ -684,7 +684,7 @@ const games = [
   {
     id: 42,
     title: "Bloons TD 6",
-    categories: ["strategy", "survival", "action", "free"],
+    categories: ["strategy", "survival", "action"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/960090/header.jpg",
     description: "Il gioco in stile tower defense che tutti aspettavano",
@@ -803,7 +803,7 @@ const games = [
   {
     id: 49,
     title: "Hunt: Showdown 1896",
-    categories: ["action", "horror", "free"],
+    categories: ["action", "horror"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/594650/header.jpg",
     description: "Dai la caccia ai corrotti nelle lagune perse nella storia. Combatti contro una malvagità senza tempo che ti costringe ad affrontare mostri distorti e altri Cacciatori disperati, in solitaria o in multiplayer, in uno sparatutto in prima persona tattico PvPvE ad alto rischio. Qui non ci sono eroi.",
@@ -837,7 +837,7 @@ const games = [
   {
     id: 51,
     title: "The Isle",
-    categories: ["survival", "action", "horror", "indie", "free"],
+    categories: ["survival", "action", "horror", "indie"],
     players: "1-4 (locale)",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/376210/header.jpg",
     description: "Vivi un'intensa esperienza di sopravvivenza in mondo aperto mentre cerchi di restare in vita su un'isola spietata abitata da dinosauri! Caccia, cresci ed evolvi il tuo dinosauro per dominare l'ecosistema.",
@@ -1024,7 +1024,7 @@ const games = [
   {
     id: 62,
     title: "Raft",
-    categories: ["survival", "action", "strategy", "indie", "free"],
+    categories: ["survival", "action", "strategy", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg",
     description: "Raft ti lancia con i tuoi amici in un'epica avventura oceanica! Da soli o in squadra, i giocatori combattono per sopravvivere a un pericoloso viaggio attraverso il vasto mare. Raccogli detriti, saccheggia le barriere coralline e costruisci la tua casa galleggiante, ma attento agli squali!",
@@ -1075,7 +1075,7 @@ const games = [
   {
     id: 65,
     title: "Killing Floor 2",
-    categories: ["horror", "action", "survival", "free"],
+    categories: ["horror", "action", "survival"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/232090/header.jpg",
     description: "In KILLING FLOOR 2, i giocatori scendono nell'Europa continentale dopo che è stata invasa da orripilanti cloni assassini chiamati Zed, creati da elementi ribelli della Horzine Corporation. Co-Op fino a 6 giocatori e modalità VS fino a 12 giocatori.",
@@ -1160,7 +1160,7 @@ const games = [
   {
     id: 70,
     title: "Among Us",
-    categories: ["survival", "splitscreen", "action", "free"],
+    categories: ["survival", "splitscreen", "action"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/945360/header.jpg",
     description: "Uno spaziale party game di collaborazione e tradimenti per 4-15 giocatori, da giocare in locale oppure online.",
@@ -1313,7 +1313,7 @@ const games = [
   {
     id: 79,
     title: "Age of Empires III: Definitive Edition",
-    categories: ["strategy", "free"],
+    categories: ["strategy"],
     players: "1-4 (locale)",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/933110/header.jpg",
     description: "Age of Empires III: Definitive Edition offre ai giocatori una prova di questo strategico storico in tempo reale sia in modalità giocatore singolo sia in multigiocatore. *Nota: per sbloccare tutte le funzionalità del gioco, consulta il prodotto “Gioco completo”.",
@@ -1330,7 +1330,7 @@ const games = [
   {
     id: 80,
     title: "Foxhole",
-    categories: ["strategy", "action", "rpg", "free"],
+    categories: ["strategy", "action", "rpg"],
     players: "1-4 (locale)",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/505460/header.jpg",
     description: "Foxhole è un gioco massivamente multiplayer dove migliaia di giocatori determinano l'esito di una guerra online persistente. Ogni singolo soldato è un giocatore che contribuisce allo sforzo bellico attraverso logistica, costruzione di basi, ricognizione e combattimento.",
@@ -1398,7 +1398,7 @@ const games = [
   {
     id: 85,
     title: "Grounded",
-    categories: ["survival", "horror", "action", "free"],
+    categories: ["survival", "horror", "action"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/962130/header.jpg",
     description: "Il mondo è un luogo vasto, bellissimo e pericoloso — specialmente quando sei stato rimpicciolito alle dimensioni di una formica. Riesci a prosperare accanto alle orde di insetti giganti, combattendo per sopravvivere ai pericoli del cortile? Co-op fino a 4 giocatori.",
@@ -1483,7 +1483,7 @@ const games = [
   {
     id: 90,
     title: "theHunter: Call of the Wild",
-    categories: ["action", "survival", "sport", "free"],
+    categories: ["action", "survival", "sport"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/518790/header.jpg",
     description: "Tuffati in un mondo estremamente realistico e ricco di paesaggi mozzafiato e scopri un gioco di caccia senza eguali. Immergiti nella suggestiva campagna a giocatore singolo o vivi l'esperienza di caccia definitiva in compagnia dei tuoi amici.",
@@ -1704,7 +1704,7 @@ const games = [
   {
     id: 104,
     title: "Green Hell",
-    categories: ["survival", "action", "horror", "free"],
+    categories: ["survival", "action", "horror"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/815370/header.jpg",
     description: "Immergiti nella simulazione di sopravvivenza in un mondo aperto ambientato nell’implacabile foresta amazzonica. Sopravvivi con le tue forze o in squadra servendoti di tecniche di sopravvivenza realistiche, creando strumenti, costruendo rifugi o erigendo fortezze, cacciando e accumulando risorse.",
@@ -1806,7 +1806,7 @@ const games = [
   {
     id: 111,
     title: "Stormworks: Build and Rescue",
-    categories: ["factory", "survival", "free"],
+    categories: ["factory", "survival"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/573090/header.jpg",
     description: "Entra in un mondo dove progetti, costruisci e piloti il tuo servizio di soccorso aereo-marittimo. Libera l'eroe che è in te mentre affronti tempeste violente in mare per salvare chi ha bisogno di aiuto, da solo o con gli amici.",
@@ -1908,7 +1908,7 @@ const games = [
   {
     id: 118,
     title: "Ultimate Chicken Horse",
-    categories: ["splitscreen", "puzzle", "action", "indie", "free"],
+    categories: ["splitscreen", "puzzle", "action", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/386940/header.jpg",
     description: "Ultimate Chicken Horse è un gioco platform a costruzione di livelli per feste dove costruisci il percorso e poi ci giochi. Aggiungi trappole e piattaforme per rendere il livello superabile per te ma impossibile per i tuoi amici!",
@@ -1925,7 +1925,7 @@ const games = [
   {
     id: 119,
     title: "Gang Beasts",
-    categories: ["splitscreen", "action", "free"],
+    categories: ["splitscreen", "action"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/285900/header.jpg",
     description: "Gang Beasts è un gioco multiplayer locale demenziale con personaggi gelatinosi, controlli corporei fisici goffi e livelli ambientali pericolosi. Combatti in arene assurde e butta fuori gli avversari nel modo più caotico possibile.",
@@ -1942,7 +1942,7 @@ const games = [
   {
     id: 120,
     title: "Stick Fight: The Game",
-    categories: ["splitscreen", "action", "indie", "free"],
+    categories: ["splitscreen", "action", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/674940/header.jpg",
     description: "Stick Fight è un gioco di combattimento fisico frenetico dove combatti come personaggi stickman attraverso una serie di livelli folli. Con armi, gravità e fisica caotici, ogni round è imprevedibile e esilarante.",
@@ -1959,7 +1959,7 @@ const games = [
   {
     id: 121,
     title: "Human: Fall Flat",
-    categories: ["splitscreen", "puzzle", "indie", "free"],
+    categories: ["splitscreen", "puzzle", "indie"],
     players: "1-8",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/477160/header.jpg",
     description: "Human: Fall Flat è un gioco open-ended di fisica e puzzle in cui controlli Bob, un umano goffo privo di qualsiasi abilità speciale. Scala, spingi e crea il tuo percorso attraverso livelli surreali da solo o con gli amici.",
@@ -2197,7 +2197,7 @@ const games = [
   {
     id: 135,
     title: "Move or Die",
-    categories: ["splitscreen", "action", "indie", "free"],
+    categories: ["splitscreen", "action", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/323850/header.jpg",
     description: "Move or Die è un gioco multiplayer frenetico dove la regola è semplice: muoviti o mori. Ogni pochi secondi la regola del minigioco cambia, costringendoti ad adattarti continuamente in partite caotiche per 1-4 giocatori.",
@@ -2520,7 +2520,7 @@ const games = [
   {
     id: 154,
     title: "Magicka 2",
-    categories: ["action", "rpg", "free"],
+    categories: ["action", "rpg"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/238370/header.jpg",
     description: "Il sequel del cult action-RPG cooperativo dove quattro maghi combinano otto elementi diversi per creare migliaia di incantesimi e sconfiggere le forze del male. Il fuoco amico sempre attivo e l'ironia onnipresente trasformano ogni sessione in un mix di tattica e caos assoluto. Un classico del co-op su PC con umorismo scandinavo inimitabile.",
@@ -2537,7 +2537,7 @@ const games = [
   {
     id: 155,
     title: "We Were Here Together",
-    categories: ["puzzle", "indie", "free"],
+    categories: ["puzzle", "indie"],
     players: "1-2",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/865360/header.jpg",
     description: "Il terzo capitolo della popolare serie cooperativa dove due esploratori intrappolati in un mondo ghiacciato comunicano tramite radio per risolvere complessi puzzle ambientali. I giocatori si trovano spesso in stanze diverse e devono descriversi a vicenda gli indizi per progredire. Un'esperienza unica per le coppie o gli amici che amano i puzzle.",
@@ -2690,7 +2690,7 @@ const games = [
   {
     id: 164,
     title: "Astroneer",
-    categories: ["survival", "factory", "free"],
+    categories: ["survival", "factory"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/361420/header.jpg",
     description: "Un gioco di esplorazione spaziale e sopravvivenza co-op fino a 4 giocatori, dove esplori pianeti alieni colorati, estrai risorse e costruisci basi e veicoli. La terraformazione del terreno con lo zaino multitool è la meccanica centrale, rendendo ogni sessione con gli amici creativa e rilassante. Uno dei sandbox cooperativi più bellissimi visivamente.",
@@ -2809,7 +2809,7 @@ const games = [
   {
     id: 171,
     title: "Bloons TD 6",
-    categories: ["strategy", "free"],
+    categories: ["strategy"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/960090/header.jpg",
     description: "Il tower defense cooperativo più popolare su PC, con modalità co-op online per due o quattro giocatori e centinaia di mappe, torri e sfide. Il sistema di aggiornamenti ramificati per ogni torre offre profondità strategica sorprendente, con nuovi contenuti aggiunti regolarmente. Dall'apparenza casual ma con complessità tattica che sorprenderà i più esigenti.",
@@ -2877,7 +2877,7 @@ const games = [
   {
     id: 175,
     title: "EA SPORTS FC 25",
-    categories: ["sport", "strategy", "splitscreen", "free"],
+    categories: ["sport", "strategy", "splitscreen"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2669320/header.jpg",
     description: "EA SPORTS FC™ 25 offre nuovi modi di vincere per il club. Fai squadra con gli amici nelle tue modalità preferite con l'inedita Rush 5 vs 5 e porta il club alla vittoria con un controllo tattico più avanzato che mai grazie a FC IQ.",
@@ -2894,7 +2894,7 @@ const games = [
   {
     id: 176,
     title: "Hearts of Iron IV",
-    categories: ["strategy", "rpg", "action", "free"],
+    categories: ["strategy", "rpg", "action"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/394360/header.jpg",
     description: "Victory is at your fingertips! Your ability to lead your nation is your supreme weapon, the strategy game Hearts of Iron IV lets you take command of any nation in World War II; the most engaging conflict in world history.",
@@ -2945,7 +2945,7 @@ const games = [
   {
     id: 179,
     title: "FINAL FANTASY XIV Online",
-    categories: ["rpg", "action", "survival", "free"],
+    categories: ["rpg", "action", "survival"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/39210/header.jpg",
     description: "Unisciti a più di 30 milioni di avventurieri di tutto il mondo e partecipa a un FINAL FANTASY epico e in costante mutamento. Scopri una storia indimenticabile, battaglie esaltanti e tantissimi affascinanti scenari da esplorare.",
@@ -3506,7 +3506,7 @@ const games = [
   {
     id: 212,
     title: "Fishing Planet",
-    categories: ["sport", "strategy", "action", "free"],
+    categories: ["sport", "strategy", "action"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/380600/header.jpg",
     description: "Grazie ad una grafica stupenda, la fisica ultra-realistica dei danni, idro- e aerodinamica, e, soprattutto, all'intelligenza artificiale dei pesci, sulla base del comportamento effettivo, voi letteralmente vi trovate al corpo d’acqua.",
@@ -3591,7 +3591,7 @@ const games = [
   {
     id: 217,
     title: "PowerWash Simulator",
-    categories: ["indie", "free"],
+    categories: ["indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1290000/header.jpg",
     description: "Allenta la pressione con PowerWash Simulator! Lascia che il rilassante suono dell'acqua si porti via le tue preoccupazioni e lava via ogni traccia di sporco con la tua idropulitrice. Alla fine sarà tutto così pulito che ti ci potrai specchiare.",
@@ -3693,7 +3693,7 @@ const games = [
   {
     id: 223,
     title: "Red Dead Online",
-    categories: ["action", "rpg", "horror", "free"],
+    categories: ["action", "rpg", "horror"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1404210/header.jpg",
     description: "Dai la caccia ai ricercati, combatti contro bande di fuorilegge e altri giocatori, caccia, pesca e commercia, cerca tesori esotici, gestisci la tua distilleria di moonshine illecita e molto altro, in un mondo dall'incredibile profondità e dettaglio.",

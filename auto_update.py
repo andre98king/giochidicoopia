@@ -107,6 +107,40 @@ NOT_INDIE_APPIDS = {
     '235540',   # Warhammer: End Times - Vermintide
     '552500',   # Warhammer: Vermintide 2
 }
+
+# Giochi che SteamSpy tagga come "Free to Play" ma NON sono gratis
+# (hanno avuto weekend gratuiti o versioni trial temporanee)
+NOT_FREE_APPIDS = {
+    '346110',   # ARK: Survival Evolved
+    '906850',   # Age of Empires III: Definitive Edition
+    '945360',   # Among Us
+    '361420',   # Astroneer
+    '960090',   # Bloons TD 6
+    '1240440',  # EA SPORTS FC 25
+    '39210',    # FINAL FANTASY XIV Online
+    '654310',   # Fishing Planet
+    '1293830',  # Forza Horizon 4 — NOTA: è nella lista free perché diventato F2P
+    '505460',   # Foxhole
+    '467710',   # Gang Beasts
+    '815370',   # Green Hell
+    '962130',   # Grounded
+    '394360',   # Hearts of Iron IV
+    '477160',   # Human: Fall Flat
+    '594650',   # Hunt: Showdown 1896
+    '232090',   # Killing Floor 2
+    '238210',   # Magicka 2
+    '274190',   # Move or Die
+    '1290000',  # PowerWash Simulator
+    '648800',   # Raft
+    '1174180',  # Red Dead Online
+    '393380',   # Squad
+    '674940',   # Stick Fight: The Game
+    '573090',   # Stormworks: Build and Rescue
+    '376210',   # The Isle
+    '386940',   # Ultimate Chicken Horse
+    '865360',   # We Were Here Together
+    '253710',   # theHunter: Call of the Wild
+}
 # ─────────────────────────────────────────────────────────────────────────
 
 
@@ -267,8 +301,10 @@ for g in existing_games:
         g['categories'].append('indie')
     if aid in NOT_INDIE_APPIDS and 'indie' in g['categories']:
         g['categories'].remove('indie')
-    if aid in free_appids and 'free' not in g['categories']:
+    if aid in free_appids and aid not in NOT_FREE_APPIDS and 'free' not in g['categories']:
         g['categories'].append('free')
+    if aid in NOT_FREE_APPIDS and 'free' in g['categories']:
+        g['categories'].remove('free')
 
 print(f"  CCU aggiornati   : {updated_ccu}")
 print(f"  Rating aggiornati: {updated_rating}")
