@@ -73,6 +73,7 @@ const TRANSLATIONS = {
     wheel_title: "🎡 Ruota Gioco Random",
     btn_spin: "🎰 Gira la Ruota!",
     wheel_players: "giocatori",
+    footer_sub: "Scopri il tuo prossimo gioco co-op",
   },
   en: {
     // Hero
@@ -147,6 +148,7 @@ const TRANSLATIONS = {
     wheel_title: "🎡 Random Game Wheel",
     btn_spin: "🎰 Spin the Wheel!",
     wheel_players: "players",
+    footer_sub: "Find your next co-op game",
   }
 };
 
@@ -225,4 +227,8 @@ function applyStaticTranslations() {
   if (adminSaveBtn) adminSaveBtn.textContent = t('btn_save');
   const adminCancelBtn = document.getElementById('adminCancelBtn');
   if (adminCancelBtn) adminCancelBtn.textContent = t('btn_cancel');
+
+  // Footer
+  const footerSub = document.getElementById('footerSub');
+  if (footerSub) footerSub.textContent = t('footer_sub');
 }

@@ -32,7 +32,6 @@ ITCH_IO_KEY         = os.environ.get('ITCH_IO_KEY', '')
 # Tag Steam → categoria sito
 TAG_MAP = {
     'Horror': 'horror', 'Psychological Horror': 'horror', 'Survival Horror': 'horror',
-    'Gore': 'horror', 'Dark': 'horror',
     'Action': 'action', 'Shooter': 'action', 'FPS': 'action',
     'Third-Person Shooter': 'action', "Beat 'em up": 'action', 'Fighting': 'action',
     'Puzzle': 'puzzle', 'Puzzle Platformer': 'puzzle', 'Logic': 'puzzle',
@@ -40,11 +39,9 @@ TAG_MAP = {
     'Local Multiplayer': 'splitscreen', 'Couch Co-Op': 'splitscreen',
     'RPG': 'rpg', 'Action RPG': 'rpg', 'JRPG': 'rpg', 'Dungeon Crawler': 'rpg', 'Loot': 'rpg',
     'Survival': 'survival', 'Open World Survival Craft': 'survival',
-    'Crafting': 'survival', 'Base Building': 'survival',
     'Building': 'factory', 'Automation': 'factory', 'Colony Sim': 'factory',
     'Factory': 'factory', 'Resource Management': 'factory',
     'Roguelike': 'roguelike', 'Roguelite': 'roguelike', 'Rogue-lite': 'roguelike',
-    'Permadeath': 'roguelike', 'Run and Gun': 'roguelike',
     'Sports': 'sport', 'Racing': 'sport', 'Soccer': 'sport', 'Football': 'sport',
     'Strategy': 'strategy', 'Turn-Based Strategy': 'strategy', 'RTS': 'strategy',
     'Tower Defense': 'strategy', 'Grand Strategy': 'strategy', 'Tactical': 'strategy',

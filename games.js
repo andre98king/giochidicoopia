@@ -38,7 +38,7 @@ const games = [
   {
     id: 4,
     title: "HELLDIVERS 2",
-    categories: ["action", "horror"],
+    categories: ["action", "survival"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/553850/header.jpg",
     description: "L'ultima linea di attacco della galassia. Unisciti agli Helldiver per combattere in nome della libertà in una galassia ostile in questo frenetico e feroce sparatutto in terza persona.",
@@ -106,7 +106,7 @@ const games = [
   {
     id: 8,
     title: "Grand Theft Auto V Enhanced",
-    categories: ["action", "sport"],
+    categories: ["action", "survival"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
     description: "Goditi Grand Theft Auto V e GTA Online, due successi incredibili, ora migliorati per la nuova generazione con una definizione mozzafiato, tempi di caricamento più brevi, audio 3D e altro. In più, contenuti esclusivi per i giocatori di GTA Online.",
@@ -684,7 +684,7 @@ const games = [
   {
     id: 42,
     title: "Bloons TD 6",
-    categories: ["strategy", "survival", "action"],
+    categories: ["strategy"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/960090/header.jpg",
     description: "Il gioco in stile tower defense che tutti aspettavano",
@@ -718,7 +718,7 @@ const games = [
   {
     id: 44,
     title: "Warhammer 40,000: Darktide",
-    categories: ["horror", "action"],
+    categories: ["action", "survival"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1361210/header.jpg",
     description: "Riconquista la città di Tertium dalle orde di nemici assetati di sangue in questo brutale e intenso sparatutto d'azione. Warhammer 40.000: Darktide è la nuova esperienza co-op dai premiati creatori della serie Vermintide. Quando Tertium cadrà, i reietti saliranno al potere.",
@@ -820,7 +820,7 @@ const games = [
   {
     id: 50,
     title: "Lethal Company",
-    categories: ["horror", "rpg", "action"],
+    categories: ["horror", "action", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1966720/header.jpg",
     description: "Un horror co-op ambientato nel saccheggio di lune abbandonate per vendere rottami alla Compagnia. Esplora ambienti buii e pericolosi con i tuoi amici, raccogli refurtiva e sopravvivi alle creature che si celano nell'oscurità.",
@@ -939,7 +939,7 @@ const games = [
   {
     id: 57,
     title: "Call of Duty: Black Ops III",
-    categories: ["horror", "action", "splitscreen"],
+    categories: ["action", "splitscreen"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/311210/header.jpg",
     description: "Call of Duty®: Black Ops III Zombies Chronicles Edition include il gioco base completo e l'espansione Zombies Chronicles.",
@@ -956,7 +956,7 @@ const games = [
   {
     id: 58,
     title: "Deep Rock Galactic",
-    categories: ["action", "survival", "horror"],
+    categories: ["action", "survival", "roguelike"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/548430/header.jpg",
     description: "Deep Rock Galactic è un FPS fantascientifico cooperativo per 1-4 giocatori con tostissimi nani spaziali, ambienti distruttibili al 100%, grotte generate proceduralmente e orde infinite di mostri alieni.",
@@ -1092,7 +1092,7 @@ const games = [
   {
     id: 67,
     title: "Ready or Not",
-    categories: ["action", "horror"],
+    categories: ["action", "strategy"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1144200/header.jpg",
     description: "Los Sueños - L'LSPD segnala un aumento della criminalità nell'area di Los Sueños. Le squadre SWAT sono state inviate ad affrontare vari scenari ad alto rischio, come situazioni con ostaggi, minacce di bombe, sospetti barricati e altro ancora. Si consiglia ai cittadini di restare a casa.",
@@ -1228,7 +1228,7 @@ const games = [
   {
     id: 75,
     title: "Halo: The Master Chief Collection",
-    categories: ["action", "horror"],
+    categories: ["action", "splitscreen"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/976730/header.jpg",
     description: "L'avventura leggendaria di Master Chief include sei titoli, sviluppati per PC e raccolti in un'unica esperienza integrata. Se sei un fan di lunga data o se incontri lo Spartan 117 per la prima volta, The Master Chief Collection è l'esperienza definitiva di Halo.",
@@ -1313,7 +1313,7 @@ const games = [
   {
     id: 80,
     title: "Foxhole",
-    categories: ["strategy", "action", "rpg"],
+    categories: ["strategy", "action", "survival"],
     players: "1-4 (locale)",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/505460/header.jpg",
     description: "Foxhole è un gioco massivamente multiplayer dove migliaia di giocatori determinano l'esito di una guerra online persistente. Ogni singolo soldato è un giocatore che contribuisce allo sforzo bellico attraverso logistica, costruzione di basi, ricognizione e combattimento.",
@@ -1721,7 +1721,7 @@ const games = [
   {
     id: 107,
     title: "REMNANT II",
-    categories: ["action", "rpg", "horror"],
+    categories: ["action", "rpg", "survival"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1282100/header.jpg",
     description: "In Remnant II®, sequel del gioco best-seller Remnant: From the Ashes, gli ultimi sopravvissuti dell'umanità devono affrontare una schiera di nuovi boss sovrumani e creature letali, esplorando mondi terrificanti.",
@@ -2382,23 +2382,6 @@ const games = [
     rating: 98
   },
   {
-    id: 147,
-    title: "Abiotic Factor",
-    categories: ["survival", "horror", "indie"],
-    players: "1-6",
-    image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1189490/header.jpg",
-    description: "Un survival cooperativo ambientato in un complesso scientifico segreto invaso da entità interdimensionali, dove fino a sei scienziati sopravvivono usando ingegno e risorse trovate nell'ambiente. Fortemente ispirato a Half-Life, il gioco coniuga esplorazione, crafting e combattimento in modo originale. Uno dei migliori survival co-op del 2024.",
-    description_en: "《觅长生》是一款想要还原真实修仙世界的开放世界角色扮演游戏。 在这里，你可以体验到从零开始一步步积攒修为突破境界的逆天修仙之旅，也可以体验到那些充满修仙味的故事和剧情。当然也少不了寻求奇遇、探索秘境，更可以和游戏中的角色互动，与人为善或是杀人夺宝全都由你自己抉择。",
-    personalNote: "",
-    played: false,
-    steamUrl: "https://store.steampowered.com/app/1189490/",
-    epicUrl: "",
-    itchUrl: "",
-    ccu: 0,
-    trending: false,
-    rating: 93
-  },
-  {
     id: 148,
     title: "Core Keeper",
     categories: ["survival", "roguelike"],
@@ -2790,26 +2773,9 @@ const games = [
     rating: 0
   },
   {
-    id: 171,
-    title: "Bloons TD 6",
-    categories: ["strategy"],
-    players: "1-4",
-    image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/960090/header.jpg",
-    description: "Il tower defense cooperativo più popolare su PC, con modalità co-op online per due o quattro giocatori e centinaia di mappe, torri e sfide. Il sistema di aggiornamenti ramificati per ogni torre offre profondità strategica sorprendente, con nuovi contenuti aggiunti regolarmente. Dall'apparenza casual ma con complessità tattica che sorprenderà i più esigenti.",
-    description_en: "The Bloons are back and better than ever! Get ready for a massive 3D tower defense game designed to give you hours and hours of the best strategy gaming available.",
-    personalNote: "",
-    played: false,
-    steamUrl: "https://store.steampowered.com/app/960090/",
-    epicUrl: "",
-    itchUrl: "",
-    ccu: 7489,
-    trending: true,
-    rating: 97
-  },
-  {
     id: 172,
     title: "Grand Theft Auto V Legacy",
-    categories: ["action", "sport"],
+    categories: ["action", "survival"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/271590/header.jpg",
     description: "Grand Theft Auto V per PC offre ai giocatori la possibilità di esplorare il pluripremiato mondo di Los Santos e Blaine County in risoluzioni fino a 4k e oltre, e di giocare a 60 frame al secondo.",
@@ -2826,7 +2792,7 @@ const games = [
   {
     id: 173,
     title: "Baldur's Gate 3",
-    categories: ["rpg", "strategy", "horror"],
+    categories: ["rpg", "strategy"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1086940/header.jpg",
     description: "Gather your party, and return to the Forgotten Realms in a tale of fellowship and betrayal, sacrifice and survival, and the lure of absolute power.",
@@ -2877,7 +2843,7 @@ const games = [
   {
     id: 176,
     title: "Hearts of Iron IV",
-    categories: ["strategy", "rpg", "action"],
+    categories: ["strategy"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/394360/header.jpg",
     description: "Victory is at your fingertips! Your ability to lead your nation is your supreme weapon, the strategy game Hearts of Iron IV lets you take command of any nation in World War II; the most engaging conflict in world history.",
@@ -2928,7 +2894,7 @@ const games = [
   {
     id: 179,
     title: "FINAL FANTASY XIV Online",
-    categories: ["rpg", "action", "survival"],
+    categories: ["rpg", "action"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/39210/header.jpg",
     description: "Unisciti a più di 30 milioni di avventurieri di tutto il mondo e partecipa a un FINAL FANTASY epico e in costante mutamento. Scopri una storia indimenticabile, battaglie esaltanti e tantissimi affascinanti scenari da esplorare.",
@@ -2945,7 +2911,7 @@ const games = [
   {
     id: 180,
     title: "FANTASY LIFE i: The Girl Who Steals Time",
-    categories: ["rpg", "action", "survival"],
+    categories: ["rpg", "action", "indie"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2993780/header.jpg",
     description: "Tuffati in questo nuovo rilassante GDR in cui potrai scegliere tra 14 professioni uniche, i cosiddetti \"Mestieri,\" e goditi una vita spensierata in questo mondo fantastico. Pesca, cucina, personalizza l'isola o fai squadra con gli amici per affrontare i mostri che popolano questo vasto mondo.",
@@ -2962,7 +2928,7 @@ const games = [
   {
     id: 181,
     title: "Lost Ark",
-    categories: ["rpg", "action", "horror", "free"],
+    categories: ["rpg", "action", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1599340/header.jpg",
     description: "Embark on an odyssey for the Lost Ark in a vast, vibrant world: explore new lands, seek out lost treasures, and test yourself in thrilling action combat in this action-packed free-to-play RPG.",
@@ -2979,7 +2945,7 @@ const games = [
   {
     id: 182,
     title: "Path of Exile 2",
-    categories: ["action", "rpg", "horror"],
+    categories: ["action", "rpg"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2694490/header.jpg",
     description: "Path of Exile 2 is a next generation Action RPG from Grinding Gear Games, featuring co-op for up to six players. Set years after the original Path of Exile, you will return to the dark world of Wraeclast and seek to end the corruption that is spreading.",
@@ -3098,7 +3064,7 @@ const games = [
   {
     id: 189,
     title: "Forza Horizon 5",
-    categories: ["sport", "strategy", "action"],
+    categories: ["sport", "action"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg",
     description: "Esplora i vivaci paesaggi del Messico sconfinato alla guida di auto straordinarie.",
@@ -3200,7 +3166,7 @@ const games = [
   {
     id: 195,
     title: "Farming Simulator 22",
-    categories: ["action"],
+    categories: ["factory"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1248130/header.jpg",
     description: "Inizia a coltivare e fai crescere il divertimento! Raccogli le colture, alleva gli animali, gestisci la produzione e affronta le sfide stagionali.",
@@ -3285,7 +3251,7 @@ const games = [
   {
     id: 200,
     title: "Forza Horizon 4",
-    categories: ["sport", "action", "strategy"],
+    categories: ["sport", "action"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1293830/header.jpg",
     description: "Le stagioni dinamiche cambiano tutto nel festival automobilistico più grande del mondo. Gareggia in solitaria o fai squadra per esplorare la bellissima e storica Gran Bretagna in un mondo aperto e condiviso.",
@@ -3455,7 +3421,7 @@ const games = [
   {
     id: 210,
     title: "Guild Wars 2",
-    categories: ["rpg", "strategy", "survival", "free"],
+    categories: ["rpg", "action", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1284210/header.jpg",
     description: "Guild Wars 2 is an award-winning online roleplaying game with fast-paced action combat, deep character customization, and no subscription fee required. Choose from an arsenal of professions and weapons, explore a vast open world, compete in PVP modes and more. Join over 16 million players now!",
@@ -3523,7 +3489,7 @@ const games = [
   {
     id: 214,
     title: "Game of Thrones: Kingsroad",
-    categories: ["action", "rpg", "horror"],
+    categories: ["action", "rpg"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3183280/header.jpg",
     description: "Un action-RPG d'avventura con una componente narrativa di grande successo, dove il mondo di Westeros prende vita grazie a un livello di dettaglio straordinario e a una vastità senza precedenti.",
@@ -3557,7 +3523,7 @@ const games = [
   {
     id: 216,
     title: "Enlisted: Reinforced",
-    categories: ["action", "horror", "free"],
+    categories: ["action", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2051620/header.jpg",
     description: "In Enlisted non comandi un solo soldato, ma un'intera squadra! Questo sparatutto MMO basato sulle squadre ricrea le battaglie chiave della guerra più sanguinosa del XX secolo. A ogni battaglia prendono parte centinaia di soldati, carri armati e aerei.",
@@ -3574,7 +3540,7 @@ const games = [
   {
     id: 217,
     title: "PowerWash Simulator",
-    categories: [],
+    categories: ["indie", "splitscreen"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1290000/header.jpg",
     description: "Allenta la pressione con PowerWash Simulator! Lascia che il rilassante suono dell'acqua si porti via le tue preoccupazioni e lava via ogni traccia di sporco con la tua idropulitrice. Alla fine sarà tutto così pulito che ti ci potrai specchiare.",
@@ -3625,7 +3591,7 @@ const games = [
   {
     id: 220,
     title: "Company of Heroes 2",
-    categories: ["strategy", "factory", "action"],
+    categories: ["strategy", "action"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/231430/header.jpg",
     description: "Prova l’ultima piattaforma RTS della 2ª guerra mondiale con COH 2 e le sue espansioni. Questo pacchetto include il gioco di base, che puoi aggiornare in seguito acquistando The Western Front Armies, Ardennes Assault e/o The British Forces. Qui sotto trovi altre informazioni.",
@@ -3642,7 +3608,7 @@ const games = [
   {
     id: 221,
     title: "Devil May Cry 5",
-    categories: ["action", "horror"],
+    categories: ["action", "roguelike"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/601150/header.jpg",
     description: "Il cacciatore di demoni definitivo torna con stile nell'azione di gioco che i fan stavano aspettando.",
@@ -3676,7 +3642,7 @@ const games = [
   {
     id: 223,
     title: "Red Dead Online",
-    categories: ["action", "rpg", "horror"],
+    categories: ["action", "rpg", "survival"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1404210/header.jpg",
     description: "Dai la caccia ai ricercati, combatti contro bande di fuorilegge e altri giocatori, caccia, pesca e commercia, cerca tesori esotici, gestisci la tua distilleria di moonshine illecita e molto altro, in un mondo dall'incredibile profondità e dettaglio.",
@@ -3778,7 +3744,7 @@ const games = [
   {
     id: 229,
     title: "PGA TOUR 2K25",
-    categories: ["sport", "strategy", "rpg"],
+    categories: ["sport"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2385530/header.jpg",
     description: "Diventa la leggenda del golf in PGA TOUR 2K25! Tre Major da vincere, tutti insieme per la prima volta in 2K. Scopri la vasta gamma di personalizzazione per il tuo MyPLAYER, MyCAREER e Progettista di campi. Sfida gli amici in modalità classificata, casual e cross-platform.",
@@ -4305,7 +4271,7 @@ const games = [
   {
     id: 260,
     title: "Tower Unite",
-    categories: ["free", "indie", "splitscreen"],
+    categories: ["indie", "splitscreen"],
     players: "1-64",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/394690/header.jpg",
     description: "PLAY, CREATE, PARTY! Tower Unite is a community-based virtual world party game with online games, entertainment, activities, and absolutely NO microtransactions.",
@@ -4849,7 +4815,7 @@ const games = [
   {
     id: 292,
     title: "DOOM",
-    categories: ["action", "horror"],
+    categories: ["action"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/379720/header.jpg",
     description: "Include tutti i DLC premium (Unto the Evil, Hell Followed e Bloodfall), le mappe, le modalità e le armi, nonché tutti gli aggiornamenti pubblicati, tra cui la modalità Arcade, la Modalità foto e l'ultimo aggiornamento 6.66, che include ulteriori miglioramenti per il multigiocatore e il rinnovamento della progressione m",
@@ -4866,7 +4832,7 @@ const games = [
   {
     id: 293,
     title: "Sniper Elite 5",
-    categories: ["action", "horror"],
+    categories: ["action", "strategy"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1029690/header.jpg",
     description: "La pluripremiata serie ritorna con Karl Fairburne che lotta nella Francia del 1944 per portare allo scoperto il Progetto Kraken. L'autentico cecchinaggio che definisce il genere, sarà spettacolare mentre combatti su avvincenti mappe per fermare la macchina da guerra nazista.",
@@ -4883,7 +4849,7 @@ const games = [
   {
     id: 294,
     title: "Rec Room",
-    categories: ["sport", "strategy", "horror"],
+    categories: ["action", "splitscreen", "free"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/471710/header.jpg",
     description: "Rec Room è il miglior luogo dove costruire e giocare insieme. Raduna amici da ogni parte del mondo per chattare, passare del tempo insieme, esplorare MILIONI di stanze create dai giocatori o costruire qualcosa di nuovo e fantastico da condividere con tutti noi.",
@@ -4951,7 +4917,7 @@ const games = [
   {
     id: 298,
     title: "Total War: WARHAMMER II",
-    categories: ["strategy", "action", "horror"],
+    categories: ["strategy", "action"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/594570/header.jpg",
     description: "Total War: WARHAMMER II, sequel del pluripremiato Total War: WARHAMMER, introduce una campagna mozzafiato ricca di esplorazioni, espansioni e conquiste nel Nuovo Mondo.",
@@ -4985,7 +4951,7 @@ const games = [
   {
     id: 300,
     title: "Total War: ATTILA",
-    categories: ["strategy", "action", "survival"],
+    categories: ["strategy", "action"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/325610/header.jpg",
     description: "Against a darkening background of famine, disease and war, a new power is rising in the great steppes of the East. With a million horsemen at his back, the ultimate warrior king approaches, and his sights are set on Rome… The next instalment in the multi award-winning PC series that combines turn-based strategy with re",
@@ -5002,7 +4968,7 @@ const games = [
   {
     id: 301,
     title: "Need for Speed Heat",
-    categories: ["sport", "action", "strategy"],
+    categories: ["sport", "action"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1222680/header.jpg",
     description: "Corri di giorno e rischia tutto di notte in Need for Speed™ Heat Deluxe Edition, uno spericolato street racer dove i limiti della legge svaniscono al tramonto.",
@@ -5121,7 +5087,7 @@ const games = [
   {
     id: 308,
     title: "Deadzone: Rogue",
-    categories: ["action", "roguelike", "horror"],
+    categories: ["action", "roguelike"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3228590/header.jpg",
     description: "Deadzone: Rogue è un roguelite FPS ambientato nello spazio. Stermina orde di macchine ostili, combina potenti potenziamenti ed elementi per forgiare la tua build e diventa più forte a ogni partita — da solo o in cooperativa.",
@@ -5308,7 +5274,7 @@ const games = [
   {
     id: 319,
     title: "Sniper Elite: Resistance",
-    categories: ["action", "horror"],
+    categories: ["action", "strategy"],
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2169200/header.jpg",
     description: "Il celebre franchise di Sniper Elite torna con un nuovo protagonista. Infiltrati nella Francia occupata e unisciti alla Resistenza per impedire ai nazisti di sviluppare una nuova, insidiosa arma che potrebbe stravolgere le sorti della guerra.",

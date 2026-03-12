@@ -4,9 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Co-op Games Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Animated background particles -->
+  <canvas id="bgCanvas" class="bg-canvas"></canvas>
 
   <!-- HERO -->
   <header class="hero">
@@ -127,6 +132,23 @@
       </div>
     </div>
   </div>
+
+  <!-- Scroll to top -->
+  <button class="scroll-top" id="scrollTopBtn" aria-label="Torna su">
+    <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 15l7-7 7 7"/>
+    </svg>
+  </button>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">Co-op Games Hub</div>
+      <div class="footer-sub" id="footerSub">Scopri il tuo prossimo gioco co-op</div>
+      <div class="footer-divider"></div>
+      <div class="footer-copy">&copy; 2025 — Dati da Steam &amp; SteamSpy</div>
+    </div>
+  </footer>
 
   <script src="games.js"></script>
   <script src="i18n.js"></script>
