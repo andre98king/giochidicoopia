@@ -60,12 +60,74 @@ BLACKLIST_APPIDS = {
     '1245620',  # Elden Ring (NIGHTREIGN è già nel DB)
     '1817070',  # Marvel's Spider-Man
     '2358720',  # Black Myth: Wukong
+    # Giochi senza co-op che SteamSpy tagga erroneamente come co-op
+    '578080',   # PUBG (battle royale PvP)
+    '289070',   # Civilization VI (multiplayer competitivo)
+    '8930',     # Civilization V
+    '629520',   # Soundpad (tool)
+    '1325860',  # VTube Studio (tool)
+    '761890',   # Albion Online (MMO PvP)
+    '949230',   # Cities: Skylines II (single)
+    '1407200',  # World of Tanks (PvP)
+    '570940',   # Dark Souls Remastered
+    '305620',   # The Long Dark (single)
+    '703080',   # Planet Zoo (single)
+    '363970',   # Clicker Heroes (idle)
+    '1677740',  # Stumble Guys (PvP)
+    '386360',   # SMITE (PvP/MOBA)
+    '1013320',  # Firestone Idle RPG
+    '3070070',  # TCG Card Shop Simulator
+    '977950',   # A Dance of Fire and Ice (rhythm)
+    '601510',   # Yu-Gi-Oh! Duel Links (card PvP)
+    '582160',   # AC Origins (single)
+    '1850570',  # Death Stranding (single)
+    '805550',   # Assetto Corsa Competizione (racing sim)
+    '1244460',  # Jurassic World Evolution 2 (single)
+    '203770',   # Crusader Kings II (grand strategy)
+    '2651280',  # Spider-Man 2 (single)
+    '613100',   # House Flipper 1 (single)
+    '1971870',  # Mortal Kombat 1 (fighting PvP)
+    '1888160',  # Armored Core VI (single mostly)
+    '1066780',  # Transport Fever 2 (single)
+    '766570',   # Russian Fishing 4
+    '367520',   # Hollow Knight (single player)
+    '221380',   # Age of Empires II Retired
+    '1128810',  # RISK: Global Domination
+    '1645820',  # SurrounDead
+    '3400930',  # Guilty as Sock
+    '719890',   # Beasts of Bermuda
+    '433850',   # Z1 Battle Royale
+    '1046930',  # Dota Underlords
+    '444090',   # Paladins
+    '286690',   # Metro 2033 Redux
+    '1237970',  # Titanfall 2
+    '311690',   # Enter the Gungeon (no co-op on Steam)
+    '883710',   # Resident Evil 2 (single)
+    '1196590',  # Resident Evil Village (single mostly)
+    '335240',   # Transformice
+    '767560',   # War Robots
+    '297000',   # Heroes of M&M III HD
+    '2688950',  # Planet Coaster 2
+    '1238860',  # Battlefield 4
 }
+
+# Filtro qualità minima per nuovi giochi
+MIN_RATING_NEW   = 65    # rating minimo per aggiungere un nuovo gioco
+MIN_CCU_NEW      = 500   # CCU minimo per candidati
 
 SKIP_WORDS = [
     'demo', ' dlc', 'soundtrack', 'artbook', 'playtest',
     'beta', 'prologue', 'upgrade pack', 'season pass',
-    'content pack', 'expansion', 'bundle',
+    'content pack', 'expansion', 'bundle', 'test server',
+    'dedicated server', 'editor', 'modding', 'toolkit',
+]
+
+# Pattern per edizioni vecchie (FIFA 23 quando c'è FC 25, NBA 2K23 quando c'è 2K25, ecc.)
+OLD_EDITION_PATTERNS = [
+    (r'FIFA \d+', r'FC \d+'),           # vecchia FIFA → nuova FC
+    (r'NBA 2K(\d+)', lambda m: int(m.group(1)) < 25),  # NBA 2K con anno < 25
+    (r'F1 (\d+)', lambda m: int(m.group(1)) < 24),     # F1 con anno < 24
+    (r'Football Manager (\d+)', lambda m: int(m.group(1)) < 25),
 ]
 
 # Giochi che Steam/SteamSpy tagga come "Indie" ma NON sono indie
@@ -367,6 +429,19 @@ for aid, gdata in coop_games.items():
     if any(w in name.lower() for w in SKIP_WORDS):
         continue
     ccu = ccu_map.get(aid, gdata.get('ccu', 0) or 0)
+    if ccu < MIN_CCU_NEW:
+        continue
+    # Salta edizioni vecchie (FIFA 23, NBA 2K23, ecc.)
+    is_old = False
+    if re.search(r'FIFA \d+', name):
+        is_old = True
+    for pat_name, check in OLD_EDITION_PATTERNS[1:]:
+        m = re.search(pat_name, name)
+        if m and callable(check) and check(m):
+            is_old = True
+            break
+    if is_old:
+        continue
     new_candidates.append({'appid': aid, 'name': name, 'ccu': ccu})
 
 new_candidates.sort(key=lambda x: x['ccu'], reverse=True)
@@ -457,6 +532,11 @@ for candidate in new_candidates:
     pos    = spy_data.get('positive', 0) or 0
     neg    = spy_data.get('negative', 0) or 0
     rating = calc_rating(pos, neg)
+
+    # Filtro qualità: scarta giochi con rating troppo basso
+    if rating > 0 and rating < MIN_RATING_NEW:
+        print(f"    ✗ Rating troppo basso: {rating}%")
+        continue
 
     new_game = {
         'id':             next_id,
@@ -554,9 +634,15 @@ v_fixed_indie  = 0
 v_fixed_title  = 0
 v_removed_nocoop = 0
 v_checked      = 0
-MAX_VERIFY     = 60   # max giochi da verificare via API per run (rate limit)
+MAX_VERIFY     = 80   # max giochi da verificare via API per run (rate limit)
 
-for g in existing_games:
+# Rotazione: ad ogni run verifica un blocco diverso di giochi
+# Così in ~4 run copriamo tutto il DB
+iso_week = datetime.datetime.now().isocalendar()
+verify_offset = ((iso_week[0] * 52 + iso_week[1]) * 7 + iso_week[2]) % max(len(existing_games), 1)
+rotated_games = existing_games[verify_offset:] + existing_games[:verify_offset]
+
+for g in rotated_games:
     if v_checked >= MAX_VERIFY:
         break
 
@@ -573,6 +659,21 @@ for g in existing_games:
     if not info.get('success'):
         continue
     sd = info.get('data', {})
+
+    # ── 0. Sanity check: verifica che l'API abbia restituito il gioco giusto ──
+    # Steam API sotto rate limit può restituire dati di un altro gioco!
+    api_name = sd.get('name', '')
+    db_name = g['title']
+    if api_name:
+        # Confronto: almeno 30% delle parole significative in comune
+        api_words = set(re.findall(r'[a-zA-Z]{3,}', api_name.lower()))
+        db_words = set(re.findall(r'[a-zA-Z]{3,}', db_name.lower()))
+        common = api_words & db_words
+        total = max(len(api_words | db_words), 1)
+        similarity = len(common) / total
+        if similarity < 0.25 and len(api_words) > 0 and len(db_words) > 0:
+            print(f"  ⛔ {db_name}: API ha restituito '{api_name}' (sim={similarity:.0%}) — scartato")
+            continue
 
     # ── 1. Verifica FREE: usa is_free + price_overview + genere F2P ──
     steam_is_free = sd.get('is_free', False)
@@ -616,15 +717,15 @@ for g in existing_games:
         print(f"  ⚠️  {g['title']}: NESSUNA categoria co-op su Steam!")
         # Non rimuoviamo, ma logghiamo per revisione manuale
 
-    # ── 4. Verifica TITOLO: correggi se diverso da Steam ──
+    # ── 4. Verifica TITOLO: solo log, non modifica automaticamente ──
+    # Il rinominamento automatico è troppo rischioso con i rate limit di Steam
     steam_name = sd.get('name', '')
     if steam_name and steam_name != g['title'] and len(steam_name) > 2:
-        # Solo se la differenza è significativa (non solo encoding)
-        if steam_name.lower().replace('™', '').replace('®', '') != g['title'].lower().replace('™', '').replace('®', ''):
-            old = g['title']
-            g['title'] = steam_name
+        clean_api = steam_name.lower().replace('™', '').replace('®', '').replace(':', '').strip()
+        clean_db = g['title'].lower().replace('™', '').replace('®', '').replace(':', '').strip()
+        if clean_api != clean_db:
             v_fixed_title += 1
-            print(f"  📝 Titolo: '{old}' → '{steam_name}'")
+            print(f"  📝 Titolo diverso (solo log): '{g['title']}' vs Steam '{steam_name}'")
 
 print(f"\n  Verificati: {v_checked} giochi")
 print(f"  Fix free  : {v_fixed_free}")
