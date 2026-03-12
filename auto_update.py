@@ -110,8 +110,6 @@ NOT_INDIE_APPIDS = {
     '552500',   # Warhammer: Vermintide 2
 }
 
-# Giochi che SteamSpy tagga come "Free to Play" ma NON sono gratis
-# (hanno avuto weekend gratuiti o versioni trial temporanee)
 # Publisher/developer noti come NON indie (match parziale, lowercase)
 NOT_INDIE_PUBLISHERS = {
     'electronic arts', 'ea ', 'ubisoft', 'activision', 'blizzard',
@@ -132,6 +130,7 @@ NOT_INDIE_PUBLISHERS = {
     'gaijin', 'wargaming', 'coffee stain',
 }
 
+# Giochi che SteamSpy tagga come "Free to Play" ma NON sono gratis
 NOT_FREE_APPIDS = {
     '346110',   # ARK: Survival Evolved
     '906850',   # Age of Empires III: Definitive Edition
