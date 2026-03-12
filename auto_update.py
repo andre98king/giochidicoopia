@@ -10,6 +10,8 @@ Aggiorna automaticamente games.js con:
   - Tag "indie" e "free" per i giochi appropriati
   - Gioco indie della settimana (featuredIndieId)
   - [Opzionale] Giochi da itch.io (richiede ITCH_IO_KEY env var)
+  - VERIFICA INTEGRITÀ: controlla free (prezzo reale), indie (publisher),
+    co-op (categorie Steam), titoli (nome ufficiale Steam)
 
 Uso locale : python3 auto_update.py
 CI (GitHub): eseguito automaticamente da .github/workflows/update.yml
@@ -110,6 +112,26 @@ NOT_INDIE_APPIDS = {
 
 # Giochi che SteamSpy tagga come "Free to Play" ma NON sono gratis
 # (hanno avuto weekend gratuiti o versioni trial temporanee)
+# Publisher/developer noti come NON indie (match parziale, lowercase)
+NOT_INDIE_PUBLISHERS = {
+    'electronic arts', 'ea ', 'ubisoft', 'activision', 'blizzard',
+    'bethesda', 'square enix', 'capcom', 'bandai namco', 'sega',
+    'warner bros', 'take-two', '2k games', '2k ', 'rockstar',
+    'epic games', 'riot games', 'valve', 'microsoft', 'xbox game studios',
+    'sony', 'playstation', 'tencent', 'netease', 'nexon',
+    'level infinite', 'amazon games', 'focus entertainment',
+    'deep silver', 'thq nordic', 'embracer', 'gearbox',
+    'curve games', 'curve digital', 'paradox interactive',
+    'hi-rez', 'hi rez', 'grinding gear', 'digital extremes',
+    'psyonix', 'respawn', 'innersloth', 'facepunch',
+    'funcom', 'techland', 'keen software', 'new world interactive',
+    'offworld industries', 'stunlock', 'fatshark',
+    'iron gate', 'hopoo', 'behaviour interactive',
+    'daybreak', 'jagex', 'ncsoft', 'smilegate', 'pearl abyss',
+    'krafton', 'pubg', 'supercell', 'mihoyo', 'hoyoverse',
+    'gaijin', 'wargaming', 'coffee stain',
+}
+
 NOT_FREE_APPIDS = {
     '346110',   # ARK: Survival Evolved
     '906850',   # Age of Empires III: Definitive Edition
@@ -296,13 +318,10 @@ for g in existing_games:
     if pos + neg >= 10:
         g['rating'] = calc_rating(pos, neg)
         updated_rating += 1
-    # Aggiorna tag indie/free (escludi NOT_INDIE_APPIDS)
-    if aid in indie_appids and aid not in NOT_INDIE_APPIDS and 'indie' not in g['categories']:
-        g['categories'].append('indie')
+    # Aggiorna tag indie/free (la verifica approfondita avviene dopo nella fase VERIFICA)
+    # Qui usiamo solo le blacklist note per rimuovere tag sicuramente sbagliati
     if aid in NOT_INDIE_APPIDS and 'indie' in g['categories']:
         g['categories'].remove('indie')
-    if aid in free_appids and aid not in NOT_FREE_APPIDS and 'free' not in g['categories']:
-        g['categories'].append('free')
     if aid in NOT_FREE_APPIDS and 'free' in g['categories']:
         g['categories'].remove('free')
 
@@ -413,10 +432,17 @@ for candidate in new_candidates:
             break
     if not categories:
         categories = ['action']
-    # Aggiungi indie/free in base ai set SteamSpy
-    if aid in indie_appids and aid not in NOT_INDIE_APPIDS and 'indie' not in categories:
+    # Verifica indie: controlla publisher/developer (non fidarsi dei tag)
+    new_pub = sd.get('publishers', []) or []
+    new_dev = sd.get('developers', []) or []
+    new_publishers = [p.lower() for p in new_pub + new_dev if isinstance(p, str)]
+    new_is_big = any(known in pub for pub in new_publishers for known in NOT_INDIE_PUBLISHERS)
+    if aid in indie_appids and aid not in NOT_INDIE_APPIDS and not new_is_big and 'indie' not in categories:
         categories.append('indie')
-    if aid in free_appids and 'free' not in categories:
+    # Verifica free: usa is_free + genere F2P (non fidarsi dei tag)
+    new_genres = [gr2.get('description', '').lower() for gr2 in sd.get('genres', [])]
+    new_is_free = sd.get('is_free', False) and 'free to play' in new_genres
+    if new_is_free and aid not in NOT_FREE_APPIDS and 'free' not in categories:
         categories.append('free')
 
     # Numero giocatori
@@ -521,6 +547,93 @@ else:
     print("\n🎲 itch.io: saltato (nessun ITCH_IO_KEY — vedi README)")
 
 
+# ─────────────────── VERIFICA INTEGRITÀ DATABASE ──────────────────────────
+print("\n🔍 Verifica integrità database...")
+
+v_fixed_free   = 0
+v_fixed_indie  = 0
+v_fixed_title  = 0
+v_removed_nocoop = 0
+v_checked      = 0
+MAX_VERIFY     = 60   # max giochi da verificare via API per run (rate limit)
+
+for g in existing_games:
+    if v_checked >= MAX_VERIFY:
+        break
+
+    aid = appid_from_url(g['steamUrl'])
+    if not aid:
+        continue
+
+    v_checked += 1
+    cc_url = f"https://store.steampowered.com/api/appdetails?appids={aid}&l=english&cc=us"
+    data = fetch(cc_url)
+    if not data:
+        continue
+    info = data.get(str(aid), {})
+    if not info.get('success'):
+        continue
+    sd = info.get('data', {})
+
+    # ── 1. Verifica FREE: usa is_free + price_overview + genere F2P ──
+    steam_is_free = sd.get('is_free', False)
+    price = sd.get('price_overview', {})
+    price_cents = price.get('final', 0) if price else 0
+    genres_list = [gr.get('description', '').lower() for gr in sd.get('genres', [])]
+    has_f2p_genre = 'free to play' in genres_list
+    # Veramente free = Steam dice is_free E (nessun prezzo O prezzo = 0) E genere F2P
+    actually_free = steam_is_free and price_cents == 0 and has_f2p_genre
+
+    if 'free' in g['categories'] and not actually_free:
+        g['categories'].remove('free')
+        v_fixed_free += 1
+        fmt = price.get('final_formatted', 'N/A')
+        print(f"  💰 {g['title']}: rimosso tag 'free' (is_free={steam_is_free}, prezzo={fmt}, genere_f2p={has_f2p_genre})")
+
+    if actually_free and 'free' not in g['categories'] and aid not in NOT_FREE_APPIDS:
+        g['categories'].append('free')
+        v_fixed_free += 1
+        print(f"  🆓 {g['title']}: aggiunto tag 'free' (verificato: is_free + genere F2P)")
+
+    # ── 2. Verifica INDIE: controlla publisher/developer ──
+    pub_names = sd.get('publishers', []) or []
+    dev_names = sd.get('developers', []) or []
+    publishers = [p.lower() for p in pub_names + dev_names if isinstance(p, str)]
+
+    is_big_studio = any(
+        known in pub for pub in publishers for known in NOT_INDIE_PUBLISHERS
+    )
+
+    if 'indie' in g['categories'] and (is_big_studio or aid in NOT_INDIE_APPIDS):
+        g['categories'].remove('indie')
+        v_fixed_indie += 1
+        print(f"  🏢 {g['title']}: rimosso tag 'indie' (publisher: {publishers})")
+
+    # ── 3. Verifica CO-OP: il gioco ha davvero co-op? ──
+    steam_cats = [c.get('description', '').lower() for c in sd.get('categories', [])]
+    has_coop = any('co-op' in c or 'multiplayer' in c or 'multi-player' in c for c in steam_cats)
+    if not has_coop:
+        v_removed_nocoop += 1
+        print(f"  ⚠️  {g['title']}: NESSUNA categoria co-op su Steam!")
+        # Non rimuoviamo, ma logghiamo per revisione manuale
+
+    # ── 4. Verifica TITOLO: correggi se diverso da Steam ──
+    steam_name = sd.get('name', '')
+    if steam_name and steam_name != g['title'] and len(steam_name) > 2:
+        # Solo se la differenza è significativa (non solo encoding)
+        if steam_name.lower().replace('™', '').replace('®', '') != g['title'].lower().replace('™', '').replace('®', ''):
+            old = g['title']
+            g['title'] = steam_name
+            v_fixed_title += 1
+            print(f"  📝 Titolo: '{old}' → '{steam_name}'")
+
+print(f"\n  Verificati: {v_checked} giochi")
+print(f"  Fix free  : {v_fixed_free}")
+print(f"  Fix indie : {v_fixed_indie}")
+print(f"  Fix titoli: {v_fixed_title}")
+print(f"  Senza co-op (warning): {v_removed_nocoop}")
+
+
 # ─────────────────────── Gioco Indie della Settimana ─────────────────────
 print("\n🌟 Selezione gioco indie della settimana...")
 indie_rated = [g for g in existing_games if 'indie' in g.get('categories', []) and g.get('rating', 0) >= 75]
@@ -580,3 +693,4 @@ print(f"   Indie 🎮         : {indie_count}")
 print(f"   Free 🆓          : {free_count}")
 print(f"   Featured ID 🌟   : {featured_id}")
 print(f"   Nuovi aggiunti   : {added}")
+print(f"   Verifiche        : {v_checked} controllati, {v_fixed_free + v_fixed_indie + v_fixed_title} corretti, {v_removed_nocoop} warning co-op")
