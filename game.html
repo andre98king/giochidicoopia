@@ -3,19 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-  <title>Co-op Games Hub</title>
-  <meta name="description" content="Dettagli, recensioni Steam e modalità co-op su Co-op Games Hub — il catalogo dei migliori giochi cooperativi per PC.">
+  <title>Pagina gioco — Coophubs</title>
+  <meta name="description" content="Scheda gioco con dettagli, recensioni Steam e modalità co-op su Coophubs.">
   <meta name="theme-color" content="#7c6aff">
   <meta name="color-scheme" content="dark">
+  <meta name="robots" content="noindex,follow">
 
-  <!-- Canonical (updated by JS when game ID is valid) -->
-  <link rel="canonical" href="https://coophubs.net/">
+  <!-- Legacy fallback page: canonical points to static games/<id>.html when possible -->
+  <link rel="canonical" href="https://coophubs.net/game.html">
 
-  <!-- Open Graph (set dynamically by JS — not visible to social crawlers) -->
+  <!-- Open Graph fallback for the legacy page -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Co-op Games Hub">
-  <meta property="og:description" content="">
-  <meta property="og:image" content="">
+  <meta property="og:site_name" content="Coophubs">
+  <meta property="og:title" content="Pagina gioco — Coophubs">
+  <meta property="og:description" content="Scheda gioco con dettagli, recensioni Steam e modalità co-op su Coophubs.">
+  <meta property="og:url" content="https://coophubs.net/game.html">
+  <meta property="og:image" content="https://coophubs.net/og-image.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Pagina gioco — Coophubs">
+  <meta name="twitter:description" content="Scheda gioco con dettagli, recensioni Steam e modalità co-op su Coophubs.">
+  <meta name="twitter:image" content="https://coophubs.net/og-image.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
@@ -62,9 +70,11 @@
   <footer class="site-footer">
     <div class="footer-inner">
       <div class="footer-brand">Co-op Games Hub</div>
-      <div class="footer-sub">Scopri il tuo prossimo gioco co-op</div>
+      <div class="footer-sub" id="footerSub">Coophubs è un progetto indipendente dedicato alla scoperta di giochi cooperativi per PC.</div>
       <div class="footer-links">
-        <a href="privacy.html">Privacy Policy</a>
+        <a href="about.html" id="footerAbout">Sul progetto</a>
+        <a href="contact.html" id="footerContact">Contatti</a>
+        <a href="privacy.html" id="footerPrivacy">Privacy Policy</a>
       </div>
       <div class="footer-divider"></div>
       <div class="footer-copy">&copy; 2025 — Dati da Steam &amp; SteamSpy</div>
@@ -113,6 +123,8 @@
     }
 
     document.addEventListener('DOMContentLoaded', () => {
+    document.documentElement.lang = currentLang;
+    if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
     // Parse game ID from URL
     const params = new URLSearchParams(window.location.search);
     const gameId = parseInt(params.get('id'));
@@ -120,6 +132,15 @@
     const page = document.getElementById('gamePage');
 
     if (!game) {
+      document.title = 'Gioco non trovato — Coophubs';
+      document.querySelector('meta[name="description"]').content = 'La scheda gioco richiesta non è disponibile su Coophubs.';
+      document.querySelector('meta[name="robots"]').content = 'noindex,follow';
+      document.querySelector('link[rel="canonical"]').href = 'https://coophubs.net/game.html';
+      document.querySelector('meta[property="og:title"]').content = 'Gioco non trovato — Coophubs';
+      document.querySelector('meta[property="og:description"]').content = 'La scheda gioco richiesta non è disponibile su Coophubs.';
+      document.querySelector('meta[property="og:url"]').content = 'https://coophubs.net/game.html';
+      document.querySelector('meta[name="twitter:title"]').content = 'Gioco non trovato — Coophubs';
+      document.querySelector('meta[name="twitter:description"]').content = 'La scheda gioco richiesta non è disponibile su Coophubs.';
       document.getElementById('notFound').style.display = 'block';
       return;
     }
@@ -129,12 +150,17 @@
       const safeDesc = esc(desc);
 
       // Update page metadata
-      document.title = `${game.title} — Co-op Games Hub`;
+      document.title = `${game.title} — Coophubs`;
       document.querySelector('meta[name="description"]').content = desc;
-      document.querySelector('link[rel="canonical"]').href = `https://coophubs.net/game.html?id=${game.id}`;
-      document.querySelector('meta[property="og:title"]').content = `${game.title} — Co-op Games Hub`;
+      document.querySelector('meta[name="robots"]').content = 'noindex,follow';
+      document.querySelector('link[rel="canonical"]').href = `https://coophubs.net/games/${game.id}.html`;
+      document.querySelector('meta[property="og:title"]').content = `${game.title} — Coophubs`;
       document.querySelector('meta[property="og:description"]').content = desc;
+      document.querySelector('meta[property="og:url"]').content = `https://coophubs.net/games/${game.id}.html`;
+      document.querySelector('meta[name="twitter:title"]').content = `${game.title} — Coophubs`;
+      document.querySelector('meta[name="twitter:description"]').content = desc;
       if (game.image) document.querySelector('meta[property="og:image"]').content = game.image;
+      if (game.image) document.querySelector('meta[name="twitter:image"]').content = game.image;
 
       const tags = game.categories.map(c => `<span class="tag tag-${c}">${c}</span>`).join('');
 

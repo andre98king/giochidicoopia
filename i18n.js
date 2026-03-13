@@ -87,7 +87,9 @@ const TRANSLATIONS = {
     wheel_title: "🎡 Ruota Gioco Random",
     btn_spin: "🎰 Gira la Ruota!",
     wheel_players: "giocatori",
-    footer_sub: "Scopri il tuo prossimo gioco co-op",
+    footer_sub: "Coophubs è un progetto indipendente dedicato alla scoperta di giochi cooperativi per PC.",
+    footer_about: "Sul progetto",
+    footer_contact: "Contatti",
     footer_privacy: "Privacy Policy",
   },
   en: {
@@ -177,7 +179,9 @@ const TRANSLATIONS = {
     wheel_title: "🎡 Random Game Wheel",
     btn_spin: "🎰 Spin the Wheel!",
     wheel_players: "players",
-    footer_sub: "Find your next co-op game",
+    footer_sub: "Coophubs is an independent project dedicated to discovering co-op games for PC.",
+    footer_about: "About",
+    footer_contact: "Contact",
     footer_privacy: "Privacy Policy",
   }
 };
@@ -261,6 +265,10 @@ function applyStaticTranslations() {
   // Footer
   const footerSub = document.getElementById('footerSub');
   if (footerSub) footerSub.textContent = t('footer_sub');
+  const footerAbout = document.getElementById('footerAbout');
+  if (footerAbout) footerAbout.textContent = t('footer_about');
+  const footerContact = document.getElementById('footerContact');
+  if (footerContact) footerContact.textContent = t('footer_contact');
   const footerPrivacy = document.getElementById('footerPrivacy');
   if (footerPrivacy) footerPrivacy.textContent = t('footer_privacy');
 }

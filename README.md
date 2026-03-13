@@ -6,7 +6,7 @@ A static website cataloguing the best PC co-op games, with automatic weekly upda
 
 ## Features
 
-- **196+ co-op games** organized by category (Horror, Action, Puzzle, Splitscreen, RPG, Survival, Factory, Roguelike, Sport, Strategy)
+- **300+ co-op games** organized by category (Horror, Action, Puzzle, Splitscreen, RPG, Survival, Factory, Roguelike, Sport, Strategy)
 - **Bilingual UI** — switch between Italian and English
 - **Steam ratings** — color-coded review scores (Overwhelmingly Positive → Negative)
 - **Live player counts** — trending badge for games with active communities
@@ -16,11 +16,13 @@ A static website cataloguing the best PC co-op games, with automatic weekly upda
 
 ## Auto-update
 
-Every Monday, a GitHub Actions workflow runs `auto_update.py` which:
+Every Monday, a GitHub Actions workflow runs `auto_update.py` and `build_static_pages.py`, which:
 1. Updates player counts (CCU) and trending status
 2. Refreshes Steam review ratings
 3. Adds up to 15 new trending co-op games (with IT + EN descriptions)
-4. Commits the updated `games.js` automatically
+4. Regenerates static SEO-friendly game pages in `games/`
+5. Updates `sitemap.xml`
+6. Commits the updated files automatically
 
 ## Tech stack
 
@@ -42,4 +44,5 @@ python3 -m http.server 8080
 
 ```bash
 python3 auto_update.py
+python3 build_static_pages.py
 ```

@@ -383,7 +383,7 @@ function createCard(game) {
         ${noteHtml}
       </div>
       <div class="card-footer">
-        <a class="btn-details" href="game.html?id=${game.id}">${t('btn_details')}</a>
+        <a class="btn-details" href="games/${game.id}.html">${t('btn_details')}</a>
         <div class="store-btns">${storeButtons}</div>
       </div>
     </div>`;
@@ -479,7 +479,7 @@ function openModal(id) {
       ${noteHtml}
       <div class="modal-actions">
         ${storeLinks}
-        <a class="btn-details" href="game.html?id=${id}" style="padding:10px 20px;text-decoration:none">🔗 ${currentLang === 'en' ? 'Game page' : 'Pagina gioco'}</a>
+        <a class="btn-details" href="games/${id}.html" style="padding:10px 20px;text-decoration:none">🔗 ${currentLang === 'en' ? 'Game page' : 'Pagina gioco'}</a>
         ${adminEdit}
         <button class="btn-details" onclick="closeModal()" style="padding:10px 20px">${t('btn_close')}</button>
       </div>
