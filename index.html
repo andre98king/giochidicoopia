@@ -2,16 +2,76 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Co-op Games Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Co-op Games Hub — I Migliori Giochi Cooperativi per PC</title>
+  <meta name="description" content="Scopri oltre 300 giochi cooperativi per PC: horror, action, puzzle, survival e molto altro. Filtri per categoria, recensioni Steam e ruota random per scegliere il prossimo gioco co-op.">
+  <meta name="keywords" content="giochi co-op, giochi cooperativi PC, co-op games, multiplayer, split screen, giochi coppia">
+  <meta name="author" content="Co-op Games Hub">
+  <meta name="theme-color" content="#7c6aff">
+  <meta name="color-scheme" content="dark">
+
+  <!--
+    SITE_URL: https://coophubs.net
+    Quando passi a dominio custom, cerca e sostituisci questo URL in:
+      - index.html (canonical, og:url, og:image, structured data)
+      - sitemap.xml (<loc>)
+      - robots.txt (Sitemap:)
+  -->
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://coophubs.net/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Co-op Games Hub — I Migliori Giochi Cooperativi per PC">
+  <meta property="og:description" content="Scopri oltre 300 giochi cooperativi per PC, categorizzati e recensiti. Trova il tuo prossimo gioco co-op!">
+  <meta property="og:image" content="https://coophubs.net/og-image.png">
+  <meta property="og:url" content="https://coophubs.net/">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:locale:alternate" content="en_US">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Co-op Games Hub">
+  <meta name="twitter:description" content="Oltre 300 giochi cooperativi per PC, categorizzati e recensiti.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
+
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Co-op Games Hub",
+    "url": "https://coophubs.net/",
+    "description": "Catalogo dei migliori giochi cooperativi per PC",
+    "inLanguage": ["it", "en"],
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://coophubs.net/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
 </head>
 <body>
   <!-- Animated background particles -->
-  <canvas id="bgCanvas" class="bg-canvas"></canvas>
+  <canvas id="bgCanvas" class="bg-canvas" aria-hidden="true"></canvas>
+
+  <!-- Skip to main content (accessibility) -->
+  <a href="#gamesGrid" class="skip-link">Vai al contenuto principale</a>
 
   <!-- HERO -->
   <header class="hero">
@@ -34,23 +94,26 @@
   </header>
 
   <!-- TOOLBAR -->
-  <div class="toolbar">
+  <nav class="toolbar" role="navigation" aria-label="Filtri e ricerca">
     <div class="toolbar-inner">
       <!-- Ricerca -->
-      <div class="search-box">
-        <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <div class="search-box" role="search">
+        <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
             d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
         </svg>
-        <input type="text" id="searchInput" placeholder="Cerca un gioco...">
+        <input type="text" id="searchInput" placeholder="Cerca un gioco..." aria-label="Cerca un gioco">
         <button class="search-clear" id="searchClear" style="display:none" aria-label="Cancella ricerca">✕</button>
       </div>
 
       <!-- Filtri categorie -->
-      <div class="filters" id="filterContainer"></div>
+      <div class="filters" id="filterContainer" role="group" aria-label="Filtri per categoria"></div>
+
+      <!-- Filtri modalità co-op -->
+      <div class="filters filters-mode" id="modeFilterContainer" role="group" aria-label="Filtri per modalità"></div>
 
       <!-- Ordinamento -->
-      <select class="sort-select" id="sortSelect" title="Ordina giochi">
+      <select class="sort-select" id="sortSelect" aria-label="Ordina giochi">
         <option value="default">📋 Default</option>
         <option value="rating">⭐ Meglio recensiti</option>
         <option value="trending">🔥 Più giocati ora</option>
@@ -58,35 +121,35 @@
       </select>
 
       <!-- Ruota random -->
-      <button class="btn-wheel" id="wheelBtn">🎡 Gioco Random</button>
+      <button class="btn-wheel" id="wheelBtn" aria-label="Gioco random">🎡 Gioco Random</button>
       <!-- Lingua -->
-      <button class="btn-lang" id="langBtn" onclick="setLang(currentLang === 'it' ? 'en' : 'it')">🇬🇧 EN</button>
+      <button class="btn-lang" id="langBtn" onclick="setLang(currentLang === 'it' ? 'en' : 'it')" aria-label="Cambia lingua">🇬🇧 EN</button>
       <!-- Admin -->
-      <button class="btn-admin" id="adminBtn">🔒 Admin</button>
+      <button class="btn-admin" id="adminBtn" aria-label="Modalità admin">🔒 Admin</button>
     </div>
-  </div>
+  </nav>
 
   <!-- FEATURED INDIE OF THE WEEK -->
-  <section id="featuredSection"></section>
+  <section id="featuredSection" aria-label="Gioco indie della settimana"></section>
 
   <!-- MAIN -->
-  <main class="main">
-    <div class="results-info" id="resultsInfo"></div>
-    <div class="games-grid" id="gamesGrid"></div>
+  <main class="main" id="mainContent">
+    <div class="results-info" id="resultsInfo" aria-live="polite"></div>
+    <div class="games-grid" id="gamesGrid" role="list"></div>
   </main>
 
   <!-- MODAL DETTAGLIO GIOCO -->
-  <div class="modal-overlay" id="modalOverlay">
+  <div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" aria-label="Dettaglio gioco">
     <div class="modal" id="modalContent"></div>
   </div>
 
   <!-- MODAL ADMIN EDIT -->
-  <div class="modal-overlay" id="adminOverlay">
+  <div class="modal-overlay" id="adminOverlay" role="dialog" aria-modal="true" aria-label="Modifica gioco">
     <div class="modal" style="max-width:480px">
       <div class="modal-body">
         <div class="modal-header">
           <div class="modal-title" id="adminGameTitle"></div>
-          <button class="modal-close" onclick="closeAdminModal()">✕</button>
+          <button class="modal-close" onclick="closeAdminModal()" aria-label="Chiudi">✕</button>
         </div>
         <input type="hidden" id="adminGameId">
         <div>
@@ -99,7 +162,7 @@
         <div>
           <div class="modal-section-title" id="adminNoteTitle">📝 La tua nota personale</div>
           <textarea id="adminNoteInput" class="admin-textarea"
-            placeholder="Scrivi la tua esperienza personale con questo gioco..."></textarea>
+            placeholder="Scrivi la tua esperienza personale con questo gioco..." maxlength="1000"></textarea>
         </div>
         <div class="modal-actions">
           <button class="btn-primary" id="adminSaveBtn" onclick="saveAdminEdit()">💾 Salva</button>
@@ -110,22 +173,22 @@
   </div>
 
   <!-- MODAL RUOTA -->
-  <div class="modal-overlay" id="wheelOverlay">
+  <div class="modal-overlay" id="wheelOverlay" role="dialog" aria-modal="true" aria-label="Ruota gioco random">
     <div class="modal wheel-modal">
       <div class="modal-body">
         <div class="modal-header" style="justify-content:center; position:relative">
           <div class="modal-title" id="wheelTitle">🎡 Ruota Gioco Random</div>
-          <button class="modal-close" onclick="closeWheelModal()" style="position:absolute;right:0;top:0">✕</button>
+          <button class="modal-close" onclick="closeWheelModal()" style="position:absolute;right:0;top:0" aria-label="Chiudi">✕</button>
         </div>
 
         <div class="wheel-wrapper">
-          <canvas id="wheelCanvas" width="320" height="320"></canvas>
-          <div class="wheel-pointer"></div>
+          <canvas id="wheelCanvas" width="320" height="320" aria-label="Ruota della fortuna"></canvas>
+          <div class="wheel-pointer" aria-hidden="true"></div>
         </div>
 
         <button class="btn-spin" id="spinBtn" onclick="spinWheel()">🎰 Gira la Ruota!</button>
 
-        <div class="wheel-result" id="wheelResult">
+        <div class="wheel-result" id="wheelResult" aria-live="assertive">
           <div class="wheel-result-title" id="wheelResultTitle"></div>
           <div class="wheel-result-sub" id="wheelResultSub"></div>
         </div>
@@ -135,7 +198,7 @@
 
   <!-- Scroll to top -->
   <button class="scroll-top" id="scrollTopBtn" aria-label="Torna su">
-    <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 15l7-7 7 7"/>
     </svg>
   </button>
@@ -145,13 +208,17 @@
     <div class="footer-inner">
       <div class="footer-brand">Co-op Games Hub</div>
       <div class="footer-sub" id="footerSub">Scopri il tuo prossimo gioco co-op</div>
+      <div class="footer-links">
+        <a href="privacy.html" id="footerPrivacy">Privacy Policy</a>
+      </div>
       <div class="footer-divider"></div>
       <div class="footer-copy">&copy; 2025 — Dati da Steam &amp; SteamSpy</div>
     </div>
   </footer>
 
-  <script src="games.js"></script>
-  <script src="i18n.js"></script>
-  <script src="app.js"></script>
+  <script src="games.js" defer></script>
+  <script src="i18n.js" defer></script>
+  <script src="app.js" defer></script>
+  <script src="particles.js" defer></script>
 </body>
 </html>

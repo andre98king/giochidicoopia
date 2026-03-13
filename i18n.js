@@ -31,6 +31,20 @@ const TRANSLATIONS = {
     cat_strategy: "♟️ Strategy",
     cat_indie: "🎮 Indie",
     cat_free: "🆓 Gratis",
+    // Co-op mode filters
+    mode_online: "🌐 Online Co-op",
+    mode_local: "🛋️ Local Co-op",
+    mode_split: "🖥️ Splitscreen",
+    mode_crossplay: "🔄 Crossplay",
+    // Player count filters
+    players_2: "👫 Per 2",
+    players_4: "👥 Per 4+",
+    // Filter group labels
+    filter_genre: "Genere",
+    filter_mode: "Modalità",
+    filter_other: "Altro",
+    // Game page
+    max_players: "Max giocatori",
     // Featured
     featured_label: "🌟 GIOCO INDIE DELLA SETTIMANA",
     // Results
@@ -74,6 +88,7 @@ const TRANSLATIONS = {
     btn_spin: "🎰 Gira la Ruota!",
     wheel_players: "giocatori",
     footer_sub: "Scopri il tuo prossimo gioco co-op",
+    footer_privacy: "Privacy Policy",
   },
   en: {
     // Hero
@@ -106,6 +121,20 @@ const TRANSLATIONS = {
     cat_strategy: "♟️ Strategy",
     cat_indie: "🎮 Indie",
     cat_free: "🆓 Free",
+    // Co-op mode filters
+    mode_online: "🌐 Online Co-op",
+    mode_local: "🛋️ Local Co-op",
+    mode_split: "🖥️ Splitscreen",
+    mode_crossplay: "🔄 Crossplay",
+    // Player count filters
+    players_2: "👫 For 2",
+    players_4: "👥 For 4+",
+    // Filter group labels
+    filter_genre: "Genre",
+    filter_mode: "Mode",
+    filter_other: "Other",
+    // Game page
+    max_players: "Max players",
     // Featured
     featured_label: "🌟 INDIE GAME OF THE WEEK",
     // Results
@@ -149,6 +178,7 @@ const TRANSLATIONS = {
     btn_spin: "🎰 Spin the Wheel!",
     wheel_players: "players",
     footer_sub: "Find your next co-op game",
+    footer_privacy: "Privacy Policy",
   }
 };
 
@@ -231,4 +261,6 @@ function applyStaticTranslations() {
   // Footer
   const footerSub = document.getElementById('footerSub');
   if (footerSub) footerSub.textContent = t('footer_sub');
+  const footerPrivacy = document.getElementById('footerPrivacy');
+  if (footerPrivacy) footerPrivacy.textContent = t('footer_privacy');
 }

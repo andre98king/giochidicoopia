@@ -276,6 +276,42 @@ def calc_rating(positive, negative):
     return round((positive or 0) / total * 100)
 
 
+GENRE_CATS = {'horror', 'action', 'puzzle', 'rpg', 'survival', 'factory', 'roguelike', 'sport', 'strategy'}
+
+
+def derive_genres(categories):
+    """Estrae solo i generi reali dalle categorie."""
+    return [c for c in categories if c in GENRE_CATS]
+
+
+def derive_coop_modes(steam_cats_list):
+    """Deriva coopMode dalle categorie Steam (lista di stringhe lowercase)."""
+    modes = []
+    has_online = any('online' in c and ('co-op' in c or 'multi' in c) for c in steam_cats_list)
+    has_local = any(('local' in c and ('co-op' in c or 'multi' in c)) or 'couch' in c for c in steam_cats_list)
+    has_split = any('split' in c for c in steam_cats_list)
+    if has_online or (not has_local and not has_split):
+        modes.append('online')
+    if has_local or has_split:
+        modes.append('local')
+    if has_split:
+        modes.append('split')
+    return modes if modes else ['online']
+
+
+def derive_crossplay(steam_cats_list):
+    """Controlla se il gioco supporta crossplay dalle categorie Steam."""
+    return any('cross-platform' in c for c in steam_cats_list)
+
+
+def parse_max_players(players_str):
+    """Estrae il numero massimo di giocatori dalla stringa players."""
+    if not players_str:
+        return 4
+    numbers = re.findall(r'\d+', players_str)
+    return max(int(n) for n in numbers) if numbers else 4
+
+
 def fetch_steam_desc(appid, lang):
     """Fetches short_description from Steam in the given language ('italian' or 'english')."""
     cc = 'it' if lang == 'italian' else 'us'
@@ -308,6 +344,10 @@ for b in blocks:
         'id':             ef(b, 'id'),
         'title':          ef(b, 'title') or '',
         'categories':     ef(b, 'categories') or [],
+        'genres':         ef(b, 'genres') or [],
+        'coopMode':       ef(b, 'coopMode') or ['online'],
+        'maxPlayers':     ef(b, 'maxPlayers') or 4,
+        'crossplay':      ef(b, 'crossplay') or False,
         'players':        ef(b, 'players') or '1-4',
         'image':          ef(b, 'image') or '',
         'description':    ef(b, 'description') or '',
@@ -535,10 +575,20 @@ for candidate in new_candidates:
         print(f"    ✗ Rating troppo basso: {rating}%")
         continue
 
+    # Nuovi campi strutturali
+    steam_cats_lower = [c.lower() for c in steam_cats]
+    new_coop_modes = derive_coop_modes(steam_cats_lower)
+    new_crossplay = derive_crossplay(steam_cats_lower)
+    new_max_players = parse_max_players(players)
+
     new_game = {
         'id':             next_id,
         'title':          name,
         'categories':     categories[:4],
+        'genres':         derive_genres(categories[:4]),
+        'coopMode':       new_coop_modes,
+        'maxPlayers':     new_max_players,
+        'crossplay':      new_crossplay,
         'players':        players,
         'image':          f"https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/{aid}/header.jpg",
         'description':    desc_it,
@@ -600,6 +650,10 @@ if ITCH_IO_KEY:
             'id':             next_id,
             'title':          title,
             'categories':     cats,
+            'genres':         derive_genres(cats),
+            'coopMode':       ['online'],
+            'maxPlayers':     4,
+            'crossplay':      False,
             'players':        '2-4',
             'image':          cover,
             'description':    short_text,
@@ -706,13 +760,19 @@ for g in rotated_games:
         v_fixed_indie += 1
         print(f"  🏢 {g['title']}: rimosso tag 'indie' (publisher: {publishers})")
 
-    # ── 3. Verifica CO-OP: il gioco ha davvero co-op? ──
+    # ── 3. Verifica CO-OP + aggiorna coopMode/crossplay ──
     steam_cats = [c.get('description', '').lower() for c in sd.get('categories', [])]
     has_coop = any('co-op' in c or 'multiplayer' in c or 'multi-player' in c for c in steam_cats)
     if not has_coop:
         v_removed_nocoop += 1
         print(f"  ⚠️  {g['title']}: NESSUNA categoria co-op su Steam!")
         # Non rimuoviamo, ma logghiamo per revisione manuale
+
+    # Aggiorna coopMode e crossplay dai dati Steam reali
+    g['coopMode'] = derive_coop_modes(steam_cats)
+    g['crossplay'] = derive_crossplay(steam_cats)
+    g['genres'] = derive_genres(g['categories'])
+    g['maxPlayers'] = parse_max_players(g['players'])
 
     # ── 4. Verifica TITOLO: solo log, non modifica automaticamente ──
     # Il rinominamento automatico è troppo rischioso con i rate limit di Steam
@@ -751,11 +811,17 @@ print(f"\n💾 Scrittura games.js ({len(existing_games)} giochi)...")
 lines = [f'const featuredIndieId = {featured_id};\n\n', 'const games = [\n']
 for g in existing_games:
     cats_js = json.dumps(g['categories'], ensure_ascii=False)
+    genres_js = json.dumps(g.get('genres', []), ensure_ascii=False)
+    coop_js = json.dumps(g.get('coopMode', ['online']), ensure_ascii=False)
     block = (
         f"  {{\n"
         f"    id: {g['id']},\n"
         f"    title: \"{js_esc(g['title'])}\",\n"
         f"    categories: {cats_js},\n"
+        f"    genres: {genres_js},\n"
+        f"    coopMode: {coop_js},\n"
+        f"    maxPlayers: {g.get('maxPlayers', 4)},\n"
+        f"    crossplay: {'true' if g.get('crossplay') else 'false'},\n"
         f"    players: \"{js_esc(g['players'])}\",\n"
         f"    image: \"{js_esc(g['image'])}\",\n"
         f"    description: \"{js_esc(g['description'])}\",\n"
@@ -773,8 +839,18 @@ for g in existing_games:
     lines.append(block)
 lines.append('];\n')
 
-with open(OUTPUT, 'w', encoding='utf-8') as f:
-    f.writelines(lines)
+# Validazione: verifica che il JS generato sia sintatticamente corretto
+full_js = ''.join(lines)
+open_braces = full_js.count('{')
+close_braces = full_js.count('}')
+if open_braces != close_braces:
+    print(f"  ⛔ ERRORE SINTASSI: {{ = {open_braces}, }} = {close_braces} — file NON scritto!")
+elif len(existing_games) < 50:
+    print(f"  ⛔ ERRORE: solo {len(existing_games)} giochi — troppo pochi, file NON scritto!")
+else:
+    with open(OUTPUT, 'w', encoding='utf-8') as f:
+        f.writelines(lines)
+    print(f"  ✅ games.js scritto con successo ({len(existing_games)} giochi)")
 
 trending_count = sum(1 for g in existing_games if g.get('trending'))
 rated_count    = sum(1 for g in existing_games if g.get('rating', 0) > 0)

@@ -1,6 +1,12 @@
+// ===== SECURITY: HTML sanitizer =====
+function esc(str) {
+  if (!str) return '';
+  const d = document.createElement('div');
+  d.textContent = str;
+  return d.innerHTML;
+}
+
 // ===== ADMIN CONFIG =====
-// SHA-256 della password admin (la password vera NON è nel codice)
-// Per cambiarla: python3 -c "import hashlib; print(hashlib.sha256(b'NUOVA_PASSWORD').hexdigest())"
 const ADMIN_HASH = "5f4d142bf532ae9f1bf0fe956dca03ecf85d16b47b3c8391b53d574eb9b289f2";
 
 async function hashPassword(str) {
@@ -9,29 +15,40 @@ async function hashPassword(str) {
 }
 
 // ===== STATE =====
-let activeFilters = new Set();
+let activeFilters = new Set();    // genre/category filters (horror, action, etc.)
+let activeModeFilters = new Set(); // mode filters (mode_online, mode_local, players_2, etc.)
 let searchQuery = '';
 let sortMode = 'default'; // 'default' | 'trending' | 'rating' | 'az'
 let wheelSpinning = false;
 let isAdmin = false;
 
-// ===== CATEGORIES CONFIG =====
-const categories = [
-  { id: 'all'         },
-  { id: 'trending'   },
-  { id: 'horror'     },
-  { id: 'action'     },
-  { id: 'puzzle'     },
-  { id: 'splitscreen'},
-  { id: 'rpg'        },
-  { id: 'survival'   },
-  { id: 'factory'    },
-  { id: 'roguelike'  },
-  { id: 'sport'      },
-  { id: 'strategy'   },
-  { id: 'indie'      },
-  { id: 'free'       },
+// ===== FILTER CONFIG =====
+const genreFilters = [
+  { id: 'all' },
+  { id: 'trending' },
+  { id: 'horror' },
+  { id: 'action' },
+  { id: 'puzzle' },
+  { id: 'rpg' },
+  { id: 'survival' },
+  { id: 'factory' },
+  { id: 'roguelike' },
+  { id: 'sport' },
+  { id: 'strategy' },
+  { id: 'indie' },
+  { id: 'free' },
 ];
+
+const modeFilters = [
+  { id: 'mode_online',    field: 'coopMode',  value: 'online' },
+  { id: 'mode_local',     field: 'coopMode',  value: 'local' },
+  { id: 'mode_split',     field: 'coopMode',  value: 'split' },
+  { id: 'players_2',      field: 'maxPlayers', value: 2 },
+  { id: 'players_4',      field: 'maxPlayers', value: 4 },
+];
+
+// Legacy alias for backward compat
+const categories = genreFilters;
 
 // ===== LOCALSTORAGE: carica override admin =====
 function loadOverrides() {
@@ -62,20 +79,21 @@ function renderFeatured() {
   }
   const game = games.find(g => g.id === featuredIndieId);
   if (!game) { section.innerHTML = ''; return; }
-  const desc = (currentLang === 'en' && game.description_en) ? game.description_en : game.description;
+  const safeTitle = esc(game.title);
+  const safeDesc = esc((currentLang === 'en' && game.description_en) ? game.description_en : game.description);
   const storeLinks = [
-    game.steamUrl ? `<a class="btn-store btn-steam" href="${game.steamUrl}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Steam ↗</a>` : '',
-    game.epicUrl  ? `<a class="btn-store btn-epic"  href="${game.epicUrl}"  target="_blank" rel="noopener" onclick="event.stopPropagation()">Epic ↗</a>`  : '',
-    game.itchUrl  ? `<a class="btn-store btn-itch"  href="${game.itchUrl}" target="_blank" rel="noopener" onclick="event.stopPropagation()">itch.io ↗</a>` : '',
+    game.steamUrl ? `<a class="btn-store btn-steam" href="${esc(game.steamUrl)}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Steam ↗</a>` : '',
+    game.epicUrl  ? `<a class="btn-store btn-epic"  href="${esc(game.epicUrl)}"  target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Epic ↗</a>`  : '',
+    game.itchUrl  ? `<a class="btn-store btn-itch"  href="${esc(game.itchUrl)}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">itch.io ↗</a>` : '',
   ].join('');
   section.innerHTML = `
     <div class="featured-section">
       <div class="featured-banner" onclick="openModal(${game.id})">
-        ${game.image ? `<img class="featured-img" src="${game.image}" alt="${game.title}" onerror="this.style.display='none'">` : ''}
+        ${game.image ? `<img class="featured-img" src="${esc(game.image)}" alt="${safeTitle}" onerror="this.style.display='none'" loading="lazy">` : ''}
         <div class="featured-info">
           <div class="featured-label">${t('featured_label')}</div>
-          <div class="featured-title">${game.title}</div>
-          <div class="featured-desc">${desc}</div>
+          <div class="featured-title">${safeTitle}</div>
+          <div class="featured-desc">${safeDesc}</div>
           <div class="featured-meta">
             ${game.rating > 0 ? `<span class="rating-badge rating-${ratingTier(game.rating)}">${ratingIcon(game.rating)} ${game.rating}%</span>` : ''}
             ${storeLinks}
@@ -142,7 +160,10 @@ function updateStats() {
 // ===== FILTERS =====
 function renderFilters() {
   const container = document.getElementById('filterContainer');
-  container.innerHTML = categories.map(cat => `
+  const modeContainer = document.getElementById('modeFilterContainer');
+
+  // Genre filters
+  container.innerHTML = genreFilters.map(cat => `
     <button class="filter-btn ${cat.id === 'all' ? 'active' : ''}" data-cat="${cat.id}">
       ${t('cat_' + cat.id)}
     </button>
@@ -170,19 +191,64 @@ function renderFilters() {
       renderGames();
     });
   });
+
+  // Mode / player filters
+  if (modeContainer) {
+    modeContainer.innerHTML = modeFilters.map(f => `
+      <button class="filter-btn filter-mode-btn" data-mode="${f.id}">
+        ${t(f.id)}
+      </button>
+    `).join('');
+
+    modeContainer.querySelectorAll('.filter-mode-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const mode = btn.dataset.mode;
+        if (activeModeFilters.has(mode)) {
+          activeModeFilters.delete(mode);
+          btn.classList.remove('active');
+        } else {
+          activeModeFilters.add(mode);
+          btn.classList.add('active');
+        }
+        renderGames();
+      });
+    });
+  }
 }
 
 // ===== FILTER + SORT LOGIC =====
+function matchesModeFilters(game) {
+  if (activeModeFilters.size === 0) return true;
+  for (const modeId of activeModeFilters) {
+    const filterDef = modeFilters.find(f => f.id === modeId);
+    if (!filterDef) continue;
+    if (filterDef.field === 'coopMode') {
+      if (!game.coopMode || !game.coopMode.includes(filterDef.value)) return false;
+    } else if (filterDef.field === 'maxPlayers') {
+      if (filterDef.value === 2) {
+        if (game.maxPlayers !== 2) return false;
+      } else if (filterDef.value === 4) {
+        if ((game.maxPlayers || 0) < 4) return false;
+      }
+    }
+  }
+  return true;
+}
+
 function getFilteredGames() {
   let filtered = games.filter(game => {
+    // Genre/category filters
     if (activeFilters.has('trending') && !game.trending) return false;
     const normalFilters = [...activeFilters].filter(f => f !== 'trending');
     const matchesCat = normalFilters.length === 0 || game.categories.some(c => normalFilters.includes(c));
+    // Mode/player filters (AND logic — must match ALL active mode filters)
+    const matchesMode = matchesModeFilters(game);
+    // Search
     const matchesSearch = !searchQuery ||
       game.title.toLowerCase().includes(searchQuery) ||
       game.description.toLowerCase().includes(searchQuery) ||
       game.categories.some(c => c.includes(searchQuery));
-    return matchesCat && matchesSearch;
+    return matchesCat && matchesMode && matchesSearch;
   });
 
   if (sortMode === 'trending') {
@@ -236,19 +302,23 @@ function createCard(game) {
     `<span class="tag tag-${c}">${c}</span>`
   ).join('');
 
+  const safeTitle = esc(game.title);
+  const safeDesc = esc((currentLang === 'en' && game.description_en) ? game.description_en : game.description);
+  const safeNote = esc(game.personalNote);
+
   const imgHtml = game.image
-    ? `<div class="card-img-wrapper"><img class="card-img" src="${game.image}" alt="${game.title}" loading="lazy"
+    ? `<div class="card-img-wrapper"><img class="card-img" src="${esc(game.image)}" alt="${safeTitle}" loading="lazy"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
        <div class="card-img-placeholder" style="display:none">🎮</div></div>`
     : `<div class="card-img-placeholder">🎮</div>`;
 
   const noteHtml = game.played && game.personalNote
-    ? `<div class="personal-note-preview">${game.personalNote}</div>` : '';
+    ? `<div class="personal-note-preview">${safeNote}</div>` : '';
 
   const storeButtons = [
-    game.steamUrl ? `<a class="btn-store btn-steam" href="${game.steamUrl}" target="_blank" rel="noopener">Steam ↗</a>` : '',
-    game.epicUrl  ? `<a class="btn-store btn-epic"  href="${game.epicUrl}"  target="_blank" rel="noopener">Epic ↗</a>`  : '',
-    game.itchUrl  ? `<a class="btn-store btn-itch"  href="${game.itchUrl}" target="_blank" rel="noopener">itch.io ↗</a>` : '',
+    game.steamUrl ? `<a class="btn-store btn-steam" href="${esc(game.steamUrl)}" target="_blank" rel="noopener noreferrer">Steam ↗</a>` : '',
+    game.epicUrl  ? `<a class="btn-store btn-epic"  href="${esc(game.epicUrl)}"  target="_blank" rel="noopener noreferrer">Epic ↗</a>`  : '',
+    game.itchUrl  ? `<a class="btn-store btn-itch"  href="${esc(game.itchUrl)}" target="_blank" rel="noopener noreferrer">itch.io ↗</a>` : '',
   ].join('');
 
   const adminBtn = isAdmin
@@ -272,7 +342,7 @@ function createCard(game) {
       ${imgHtml}
       <div class="card-body">
         <div class="card-header">
-          <div class="card-title">${game.title}</div>
+          <div class="card-title">${safeTitle}</div>
           <div class="card-badges">
             ${game.played ? `<span class="played-badge">${t('played_badge')}</span>` : ''}
             ${ratingHtml}
@@ -287,7 +357,7 @@ function createCard(game) {
           </svg>
           ${game.players} ${t('card_players')}
         </div>
-        <div class="card-desc">${(currentLang === 'en' && game.description_en) ? game.description_en : game.description}</div>
+        <div class="card-desc">${safeDesc}</div>
         ${noteHtml}
       </div>
       <div class="card-footer">
@@ -332,6 +402,10 @@ function openModal(id) {
   const game = games.find(g => g.id === id);
   if (!game) return;
 
+  const safeTitle = esc(game.title);
+  const safeDesc = esc((currentLang === 'en' && game.description_en) ? game.description_en : game.description);
+  const safeNote = esc(game.personalNote);
+
   const tags = game.categories.map(c =>
     `<span class="tag tag-${c}">${c}</span>`
   ).join('');
@@ -339,24 +413,24 @@ function openModal(id) {
   const noteHtml = game.played && game.personalNote ? `
     <div class="modal-personal-note">
       <div class="modal-section-title">${t('modal_experience')}</div>
-      <p>${game.personalNote}</p>
+      <p>${safeNote}</p>
     </div>` : '';
 
   const storeLinks = [
-    game.steamUrl ? `<a class="btn-primary" href="${game.steamUrl}" target="_blank" rel="noopener">Steam ↗</a>` : '',
-    game.epicUrl  ? `<a class="btn-primary btn-epic-lg" href="${game.epicUrl}"  target="_blank" rel="noopener">Epic Games ↗</a>` : '',
-    game.itchUrl  ? `<a class="btn-store btn-itch" href="${game.itchUrl}" target="_blank" rel="noopener" style="padding:10px 20px;font-size:0.9rem">itch.io ↗</a>` : '',
+    game.steamUrl ? `<a class="btn-primary" href="${esc(game.steamUrl)}" target="_blank" rel="noopener noreferrer">Steam ↗</a>` : '',
+    game.epicUrl  ? `<a class="btn-primary btn-epic-lg" href="${esc(game.epicUrl)}"  target="_blank" rel="noopener noreferrer">Epic Games ↗</a>` : '',
+    game.itchUrl  ? `<a class="btn-store btn-itch" href="${esc(game.itchUrl)}" target="_blank" rel="noopener noreferrer" style="padding:10px 20px;font-size:0.9rem">itch.io ↗</a>` : '',
   ].join('');
 
   const adminEdit = isAdmin
     ? `<button class="btn-details" onclick="closeModal();openAdminModal(${id})" style="padding:10px 20px">${t('btn_edit')}</button>` : '';
 
   document.getElementById('modalContent').innerHTML = `
-    ${game.image ? `<img class="modal-img" src="${game.image}" alt="${game.title}">` : ''}
+    ${game.image ? `<img class="modal-img" src="${esc(game.image)}" alt="${safeTitle}">` : ''}
     <div class="modal-body">
       <div class="modal-header">
-        <div class="modal-title">${game.title} ${game.played ? `<span class="played-badge">${t('played_badge')}</span>` : ''}</div>
-        <button class="modal-close" onclick="closeModal()">✕</button>
+        <div class="modal-title">${safeTitle} ${game.played ? `<span class="played-badge">${t('played_badge')}</span>` : ''}</div>
+        <button class="modal-close" onclick="closeModal()" aria-label="Chiudi">✕</button>
       </div>
       <div class="modal-tags">${tags}</div>
       ${game.rating > 0 ? `
@@ -371,18 +445,19 @@ function openModal(id) {
       <div>
         <div class="modal-section-title">${t('modal_players')}</div>
         <div class="modal-desc">
-          ${game.players} ${t('card_players')}
+          ${esc(game.players)} ${t('card_players')}
           ${game.ccu > 0 ? `<span class="modal-ccu">— <strong>${formatCCU(game.ccu)}</strong> ${t('modal_online')}</span>` : ''}
           ${game.trending ? `<span class="modal-trending-label">${t('modal_trending')}</span>` : ''}
         </div>
       </div>
       <div>
         <div class="modal-section-title">${t('modal_desc')}</div>
-        <div class="modal-desc">${(currentLang === 'en' && game.description_en) ? game.description_en : game.description}</div>
+        <div class="modal-desc">${safeDesc}</div>
       </div>
       ${noteHtml}
       <div class="modal-actions">
         ${storeLinks}
+        <a class="btn-details" href="game.html?id=${id}" style="padding:10px 20px;text-decoration:none">🔗 ${currentLang === 'en' ? 'Game page' : 'Pagina gioco'}</a>
         ${adminEdit}
         <button class="btn-details" onclick="closeModal()" style="padding:10px 20px">${t('btn_close')}</button>
       </div>
@@ -607,64 +682,4 @@ document.addEventListener('keydown', e => {
   };
 })();
 
-// ===== ANIMATED BACKGROUND PARTICLES =====
-(function() {
-  const canvas = document.getElementById('bgCanvas');
-  if (!canvas) return;
-  const ctx = canvas.getContext('2d');
-  let w, h, particles = [];
-  const PARTICLE_COUNT = 50;
-
-  function resize() {
-    w = canvas.width = window.innerWidth;
-    h = canvas.height = window.innerHeight;
-  }
-  resize();
-  window.addEventListener('resize', resize);
-
-  for (let i = 0; i < PARTICLE_COUNT; i++) {
-    particles.push({
-      x: Math.random() * w,
-      y: Math.random() * h,
-      r: Math.random() * 1.5 + 0.5,
-      dx: (Math.random() - 0.5) * 0.3,
-      dy: (Math.random() - 0.5) * 0.3,
-      alpha: Math.random() * 0.5 + 0.1,
-    });
-  }
-
-  function draw() {
-    ctx.clearRect(0, 0, w, h);
-    particles.forEach(p => {
-      p.x += p.dx;
-      p.y += p.dy;
-      if (p.x < 0) p.x = w;
-      if (p.x > w) p.x = 0;
-      if (p.y < 0) p.y = h;
-      if (p.y > h) p.y = 0;
-      ctx.beginPath();
-      ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
-      ctx.fillStyle = `rgba(124,106,255,${p.alpha})`;
-      ctx.fill();
-    });
-
-    // Draw connections
-    for (let i = 0; i < particles.length; i++) {
-      for (let j = i + 1; j < particles.length; j++) {
-        const dx = particles[i].x - particles[j].x;
-        const dy = particles[i].y - particles[j].y;
-        const dist = Math.sqrt(dx * dx + dy * dy);
-        if (dist < 150) {
-          ctx.beginPath();
-          ctx.moveTo(particles[i].x, particles[i].y);
-          ctx.lineTo(particles[j].x, particles[j].y);
-          ctx.strokeStyle = `rgba(124,106,255,${0.06 * (1 - dist / 150)})`;
-          ctx.lineWidth = 0.5;
-          ctx.stroke();
-        }
-      }
-    }
-    requestAnimationFrame(draw);
-  }
-  draw();
-})();
+// Particles are now loaded from particles.js

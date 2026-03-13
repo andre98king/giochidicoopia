@@ -2,7 +2,7 @@
 
 A static website cataloguing the best PC co-op games, with automatic weekly updates.
 
-**[→ Visit the site](https://andre98king.github.io/giochidicoopia)**
+**[→ Visit the site](https://coophubs.net)**
 
 ## Features
 

@@ -1,0 +1,19 @@
+{
+  "name": "Co-op Games Hub",
+  "short_name": "Co-op Hub",
+  "description": "Catalogo dei migliori giochi cooperativi per PC",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#08090d",
+  "theme_color": "#7c6aff",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["games", "entertainment"],
+  "lang": "it",
+  "dir": "ltr"
+}

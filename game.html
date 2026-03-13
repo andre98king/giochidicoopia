@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Co-op Games Hub</title>
+  <meta name="description" content="">
+  <meta name="theme-color" content="#7c6aff">
+  <meta name="color-scheme" content="dark">
+
+  <!-- Open Graph (set dynamically by JS — not visible to social crawlers) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Co-op Games Hub">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .game-page { max-width: 800px; margin: 0 auto; padding: 30px 20px 60px; position: relative; z-index: 1; }
+    .game-back { display: inline-flex; align-items: center; gap: 6px; color: var(--accent); text-decoration: none; font-weight: 600; margin-bottom: 24px; transition: color 0.25s; }
+    .game-back:hover { color: #a78bfa; }
+    .game-hero-img { width: 100%; max-height: 360px; object-fit: cover; border-radius: var(--radius); margin-bottom: 24px; display: block; }
+    .game-title { font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 800; letter-spacing: -1px; margin-bottom: 12px; }
+    .game-meta { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 20px; }
+    .game-section { margin-bottom: 24px; }
+    .game-section-title { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1.5px; color: var(--text2); margin-bottom: 8px; font-weight: 600; }
+    .game-desc { color: var(--text2); font-size: 1rem; line-height: 1.7; }
+    .game-note { background: rgba(124,106,255,0.08); border: 1px solid rgba(124,106,255,0.2); border-radius: var(--radius); padding: 16px; }
+    .game-note p { color: #b0b8e8; font-style: italic; line-height: 1.65; }
+    .game-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 24px; }
+    .game-info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; }
+    .game-info-card { background: var(--bg3); border: 1px solid var(--border); border-radius: 12px; padding: 14px; text-align: center; }
+    .game-info-value { font-family: 'JetBrains Mono', monospace; font-size: 1.1rem; font-weight: 700; color: var(--accent); }
+    .game-info-label { font-size: 0.72rem; color: var(--text2); text-transform: uppercase; letter-spacing: 1px; margin-top: 4px; }
+    .game-not-found { text-align: center; padding: 80px 20px; color: var(--text2); }
+    .game-not-found h2 { color: var(--text); margin-bottom: 12px; }
+  </style>
+</head>
+<body>
+  <canvas id="bgCanvas" class="bg-canvas" aria-hidden="true"></canvas>
+
+  <div class="game-page" id="gamePage">
+    <div class="game-not-found" id="notFound" style="display:none">
+      <h2>Gioco non trovato</h2>
+      <p>Il gioco richiesto non esiste nel database.</p>
+      <a href="./" class="game-back" style="margin-top:20px;display:inline-flex">← Torna al catalogo</a>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">Co-op Games Hub</div>
+      <div class="footer-sub">Scopri il tuo prossimo gioco co-op</div>
+      <div class="footer-links">
+        <a href="privacy.html">Privacy Policy</a>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="footer-copy">&copy; 2025 — Dati da Steam &amp; SteamSpy</div>
+    </div>
+  </footer>
+
+  <script src="games.js" defer></script>
+  <script src="i18n.js" defer></script>
+  <script src="particles.js" defer></script>
+  <script>
+    function esc(str) {
+      if (!str) return '';
+      const d = document.createElement('div');
+      d.textContent = str;
+      return d.innerHTML;
+    }
+
+    function ratingTier(r) {
+      if (r >= 95) return 'acclaimed';
+      if (r >= 85) return 'verypos';
+      if (r >= 70) return 'positive';
+      if (r >= 55) return 'mixed';
+      return 'negative';
+    }
+
+    function ratingIcon(r) {
+      if (r >= 95) return '🏆';
+      if (r >= 85) return '😊';
+      if (r >= 70) return '👍';
+      if (r >= 55) return '😐';
+      return '👎';
+    }
+
+    function ratingLabel(r) {
+      if (r >= 95) return t('rating_acclaimed');
+      if (r >= 85) return t('rating_verypos');
+      if (r >= 70) return t('rating_positive');
+      if (r >= 55) return t('rating_mixed');
+      if (r >= 40) return t('rating_mediocre');
+      return t('rating_negative');
+    }
+
+    function formatCCU(n) {
+      if (n >= 1000) return (n / 1000).toFixed(1) + 'k';
+      return n.toString();
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+    // Parse game ID from URL
+    const params = new URLSearchParams(window.location.search);
+    const gameId = parseInt(params.get('id'));
+    const game = games.find(g => g.id === gameId);
+    const page = document.getElementById('gamePage');
+
+    if (!game) {
+      document.getElementById('notFound').style.display = 'block';
+      return;
+    }
+
+    const safeTitle = esc(game.title);
+      const desc = (currentLang === 'en' && game.description_en) ? game.description_en : game.description;
+      const safeDesc = esc(desc);
+
+      // Update page metadata
+      document.title = `${game.title} — Co-op Games Hub`;
+      document.querySelector('meta[name="description"]').content = desc;
+      document.querySelector('meta[property="og:title"]').content = `${game.title} — Co-op Games Hub`;
+      document.querySelector('meta[property="og:description"]').content = desc;
+      if (game.image) document.querySelector('meta[property="og:image"]').content = game.image;
+
+      const tags = game.categories.map(c => `<span class="tag tag-${c}">${c}</span>`).join('');
+
+      const coopModes = (game.coopMode || []).map(m => {
+        const labels = { online: '🌐 Online', local: '🛋️ Local', split: '🖥️ Split' };
+        return `<span class="tag" style="background:rgba(0,137,123,0.15);color:#80cbc4;border:1px solid rgba(0,137,123,0.25)">${labels[m] || m}</span>`;
+      }).join('');
+
+      const crossplayBadge = game.crossplay
+        ? '<span class="tag" style="background:rgba(92,107,192,0.15);color:#9fa8da;border:1px solid rgba(92,107,192,0.25)">🔄 Crossplay</span>' : '';
+
+      const storeLinks = [
+        game.steamUrl ? `<a class="btn-primary" href="${esc(game.steamUrl)}" target="_blank" rel="noopener noreferrer">Steam ↗</a>` : '',
+        game.epicUrl ? `<a class="btn-primary btn-epic-lg" href="${esc(game.epicUrl)}" target="_blank" rel="noopener noreferrer">Epic Games ↗</a>` : '',
+        game.itchUrl ? `<a class="btn-store btn-itch" href="${esc(game.itchUrl)}" target="_blank" rel="noopener noreferrer" style="padding:10px 20px;font-size:0.9rem">itch.io ↗</a>` : '',
+      ].join('');
+
+      const noteHtml = game.played && game.personalNote ? `
+        <div class="game-section game-note">
+          <div class="game-section-title">${t('modal_experience')}</div>
+          <p>${esc(game.personalNote)}</p>
+        </div>` : '';
+
+      page.innerHTML = `
+        <a href="./" class="game-back">← ${currentLang === 'en' ? 'Back to catalog' : 'Torna al catalogo'}</a>
+
+        ${game.image ? `<img class="game-hero-img" src="${esc(game.image)}" alt="${safeTitle}" onerror="this.style.display='none'">` : ''}
+
+        <h1 class="game-title">
+          ${safeTitle}
+          ${game.played ? `<span class="played-badge">${t('played_badge')}</span>` : ''}
+          ${game.trending ? `<span class="trending-badge" style="position:static;display:inline-block;vertical-align:middle;margin-left:8px">${t('trending_badge')}</span>` : ''}
+        </h1>
+
+        <div class="game-meta">
+          ${tags} ${coopModes} ${crossplayBadge}
+        </div>
+
+        <div class="game-info-grid">
+          <div class="game-info-card">
+            <div class="game-info-value">${esc(game.players)}</div>
+            <div class="game-info-label">${t('modal_players')}</div>
+          </div>
+          ${game.rating > 0 ? `<div class="game-info-card">
+            <div class="game-info-value"><span class="rating-badge rating-${ratingTier(game.rating)}" style="font-size:1rem;padding:4px 12px">${ratingIcon(game.rating)} ${game.rating}%</span></div>
+            <div class="game-info-label">${ratingLabel(game.rating)}</div>
+          </div>` : ''}
+          ${game.ccu > 0 ? `<div class="game-info-card">
+            <div class="game-info-value" style="color:var(--accent3)">${formatCCU(game.ccu)}</div>
+            <div class="game-info-label">${t('modal_online')}</div>
+          </div>` : ''}
+          <div class="game-info-card">
+            <div class="game-info-value">${game.maxPlayers || '?'}</div>
+            <div class="game-info-label">${t('max_players')}</div>
+          </div>
+        </div>
+
+        <div class="game-section" style="margin-top:24px">
+          <div class="game-section-title">${t('modal_desc')}</div>
+          <div class="game-desc">${safeDesc}</div>
+        </div>
+
+        ${noteHtml}
+
+        <div class="game-actions">
+          ${storeLinks}
+        </div>
+      `;
+    }); // end DOMContentLoaded
+  </script>
+</body>
+</html>

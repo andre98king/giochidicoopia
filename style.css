@@ -29,6 +29,22 @@
 
 html { scroll-behavior: smooth; }
 
+/* ===== SKIP LINK (accessibility) ===== */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 16px;
+  z-index: 9999;
+  background: var(--accent);
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 0 0 var(--radius) var(--radius);
+  font-weight: 700;
+  text-decoration: none;
+  transition: top 0.2s;
+}
+.skip-link:focus { top: 0; }
+
 body {
   background: var(--bg);
   color: var(--text);
@@ -231,6 +247,11 @@ body {
   flex-wrap: wrap;
 }
 
+.filters-mode {
+  border-left: 2px solid var(--border);
+  padding-left: 12px;
+}
+
 .filter-btn {
   padding: 7px 16px;
   border-radius: 30px;
@@ -269,6 +290,11 @@ body {
 .filter-btn[data-cat="sport"].active     { background: var(--sport); border-color: var(--sport); box-shadow: 0 2px 12px rgba(3,155,229,0.35); }
 .filter-btn[data-cat="strategy"].active  { background: #546e7a; border-color: #546e7a; box-shadow: 0 2px 12px rgba(84,110,122,0.35); }
 .filter-btn[data-cat="trending"].active  { background: #ff6b35; border-color: #ff6b35; box-shadow: 0 2px 12px rgba(255,107,53,0.35); }
+
+/* Mode filter active states */
+.filter-mode-btn.active { background: #00897b; border-color: #00897b; color: #fff; box-shadow: 0 2px 12px rgba(0,137,123,0.35); }
+.filter-mode-btn[data-mode="players_2"].active,
+.filter-mode-btn[data-mode="players_4"].active { background: #7b1fa2; border-color: #7b1fa2; box-shadow: 0 2px 12px rgba(123,31,162,0.35); }
 
 /* ===== SORT SELECT ===== */
 .sort-select {
@@ -1076,6 +1102,21 @@ body {
   border-radius: 2px;
 }
 
+.footer-links {
+  margin-bottom: 16px;
+}
+
+.footer-links a {
+  color: var(--text2);
+  text-decoration: none;
+  font-size: 0.82rem;
+  transition: color 0.25s;
+}
+
+.footer-links a:hover {
+  color: var(--accent);
+}
+
 .footer-copy {
   color: #555a78;
   font-size: 0.78rem;
@@ -1097,6 +1138,7 @@ body {
   .hero { padding: 60px 16px 36px; }
   .toolbar-inner { gap: 10px; }
   .btn-wheel { margin-left: 0; }
+  .filters-mode { border-left: none; padding-left: 0; border-top: 1px solid var(--border); padding-top: 8px; width: 100%; }
   .wheel-wrapper { width: 260px; height: 260px; }
   #wheelCanvas { width: 260px; height: 260px; }
   .games-grid { grid-template-columns: 1fr; gap: 18px; }
