@@ -194,11 +194,33 @@ function renderFilters() {
 
   // Mode / player filters
   if (modeContainer) {
+    const isMobile = window.innerWidth <= 600;
+
     modeContainer.innerHTML = modeFilters.map(f => `
       <button class="filter-btn filter-mode-btn" data-mode="${f.id}">
         ${t(f.id)}
       </button>
     `).join('');
+
+    // On mobile, collapse mode filters behind a toggle
+    if (isMobile) {
+      modeContainer.classList.add('collapsed');
+      let toggleBtn = modeContainer.parentElement.querySelector('.btn-toggle-filters');
+      if (!toggleBtn) {
+        toggleBtn = document.createElement('button');
+        toggleBtn.className = 'btn-toggle-filters';
+        toggleBtn.textContent = '⚙ ' + (currentLang === 'en' ? 'Mode filters' : 'Filtri modalità');
+        modeContainer.parentElement.insertBefore(toggleBtn, modeContainer);
+      }
+      toggleBtn.addEventListener('click', () => {
+        const collapsed = modeContainer.classList.toggle('collapsed');
+        toggleBtn.classList.toggle('active', !collapsed);
+      });
+    } else {
+      modeContainer.classList.remove('collapsed');
+      const toggleBtn = modeContainer.parentElement.querySelector('.btn-toggle-filters');
+      if (toggleBtn) toggleBtn.remove();
+    }
 
     modeContainer.querySelectorAll('.filter-mode-btn').forEach(btn => {
       btn.addEventListener('click', () => {

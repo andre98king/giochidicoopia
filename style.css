@@ -305,6 +305,9 @@ body {
 .filter-mode-btn[data-mode="players_2"].active,
 .filter-mode-btn[data-mode="players_4"].active { background: #7b1fa2; border-color: #7b1fa2; box-shadow: 0 2px 12px rgba(123,31,162,0.35); }
 
+/* ===== MOBILE FILTER TOGGLE ===== */
+.btn-toggle-filters { display: none; }
+
 /* ===== SORT SELECT ===== */
 .sort-select {
   padding: 8px 14px;
@@ -1146,9 +1149,62 @@ body {
 
 @media (max-width: 600px) {
   .hero { padding: 60px 16px 36px; }
-  .toolbar-inner { gap: 10px; }
+  .toolbar { padding: 10px 12px; }
+  .toolbar-inner { gap: 8px; }
   .btn-wheel { margin-left: 0; }
-  .filters-mode { border-left: none; padding-left: 0; border-top: 1px solid var(--border); padding-top: 8px; width: 100%; }
+
+  /* Genre filters: horizontal scroll */
+  .filters {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 2px;
+  }
+  .filters::-webkit-scrollbar { display: none; }
+
+  /* Mode filters: collapsed by default */
+  .filters-mode {
+    border-left: none;
+    padding-left: 0;
+    border-top: 1px solid var(--border);
+    padding-top: 8px;
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .filters-mode::-webkit-scrollbar { display: none; }
+  .filters-mode.collapsed { display: none; }
+  .filters-mode.collapsed + .btn-toggle-filters { display: none; }
+
+  /* Toggle button for mode filters */
+  .btn-toggle-filters {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 5px 12px;
+    background: var(--bg3);
+    border: 1px solid var(--border);
+    border-radius: 30px;
+    color: var(--text2);
+    font-size: 0.75rem;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    font-family: inherit;
+    transition: border-color 0.25s, color 0.25s;
+  }
+  .btn-toggle-filters:hover { border-color: var(--accent); color: var(--accent); }
+  .btn-toggle-filters.active { border-color: var(--accent); color: var(--accent); }
+
+  /* Compact chips */
+  .filter-btn { padding: 5px 12px; font-size: 0.75rem; }
+  .sort-select { padding: 6px 10px; font-size: 0.75rem; }
+  .btn-wheel { padding: 7px 16px; font-size: 0.8rem; }
+  .btn-admin, .btn-lang { padding: 6px 10px; font-size: 0.75rem; }
+
   .wheel-wrapper { width: 260px; height: 260px; }
   #wheelCanvas { width: 260px; height: 260px; }
   .games-grid { grid-template-columns: 1fr; gap: 18px; }
