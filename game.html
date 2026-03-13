@@ -4,9 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
   <title>Co-op Games Hub</title>
-  <meta name="description" content="">
+  <meta name="description" content="Dettagli, recensioni Steam e modalità co-op su Co-op Games Hub — il catalogo dei migliori giochi cooperativi per PC.">
   <meta name="theme-color" content="#7c6aff">
   <meta name="color-scheme" content="dark">
+
+  <!-- Canonical (updated by JS when game ID is valid) -->
+  <link rel="canonical" href="https://coophubs.net/">
 
   <!-- Open Graph (set dynamically by JS — not visible to social crawlers) -->
   <meta property="og:type" content="website">
@@ -128,6 +131,7 @@
       // Update page metadata
       document.title = `${game.title} — Co-op Games Hub`;
       document.querySelector('meta[name="description"]').content = desc;
+      document.querySelector('link[rel="canonical"]').href = `https://coophubs.net/game.html?id=${game.id}`;
       document.querySelector('meta[property="og:title"]').content = `${game.title} — Co-op Games Hub`;
       document.querySelector('meta[property="og:description"]').content = desc;
       if (game.image) document.querySelector('meta[property="og:image"]').content = game.image;

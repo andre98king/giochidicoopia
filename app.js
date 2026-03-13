@@ -361,7 +361,7 @@ function createCard(game) {
         ${noteHtml}
       </div>
       <div class="card-footer">
-        <button class="btn-details">${t('btn_details')}</button>
+        <a class="btn-details" href="game.html?id=${game.id}">${t('btn_details')}</a>
         <div class="store-btns">${storeButtons}</div>
       </div>
     </div>`;
