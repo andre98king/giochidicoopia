@@ -31,6 +31,11 @@ OUTPUT = ROOT / "free_games.js"
 USER_AGENT = "Coophubs Free Games Bot/1.0 (+https://coophubs.net)"
 TIMEOUT = 20
 NOW = dt.datetime.now(dt.timezone.utc)
+MAX_STEAM_PROMO_DURATION = dt.timedelta(days=21)
+DISABLED_STORES = {
+    "humble": "disabled until a more reliable public source is available",
+}
+STEAM_DETAILS_CACHE: dict[int, dict[str, Any]] = {}
 
 
 class FetchError(RuntimeError):
@@ -265,30 +270,33 @@ def fetch_steam_offers(session) -> list[dict[str, str]]:
         if not isinstance(item, dict):
             continue
 
-        if int(item.get("discount_percent") or 0) != 100:
-            continue
-
         discount_expiration = item.get("discount_expiration")
         if not discount_expiration:
             continue
 
-        end_at = dt.datetime.fromtimestamp(int(discount_expiration), tz=dt.timezone.utc)
-        if end_at <= NOW:
+        try:
+            end_at = dt.datetime.fromtimestamp(int(discount_expiration), tz=dt.timezone.utc)
+        except (TypeError, ValueError, OSError):
             continue
 
-        original_price = int(item.get("original_price") or 0)
-        if original_price <= 0:
+        if not is_steam_claimable_promo(item, end_at):
             continue
 
         app_id = item.get("id")
         if not app_id:
             continue
 
+        details = fetch_steam_app_details(session, int(app_id))
+        app_type = (details.get("type") or "").lower()
+        if app_type != "game":
+            continue
+
         offer = normalize_offer(
             {
-                "title": item.get("name") or f"Steam App {app_id}",
+                "title": details.get("name") or item.get("name") or f"Steam App {app_id}",
                 "store": "steam",
-                "imageUrl": item.get("large_capsule_image")
+                "imageUrl": details.get("header_image")
+                or item.get("large_capsule_image")
                 or item.get("header_image")
                 or item.get("small_capsule_image")
                 or "",
@@ -386,6 +394,47 @@ def fetch_humble_offers(session) -> list[dict[str, str]]:
     return [offer] if offer else []
 
 
+def is_steam_claimable_promo(item: dict[str, Any], end_at: dt.datetime) -> bool:
+    discount_percent = int(item.get("discount_percent") or 0)
+    original_price = int(item.get("original_price") or 0)
+    final_price = int(item.get("final_price") or 0)
+
+    if discount_percent != 100:
+        return False
+    if original_price <= 0 or final_price != 0:
+        return False
+    if end_at <= NOW:
+        return False
+    if (end_at - NOW) > MAX_STEAM_PROMO_DURATION:
+        return False
+    return True
+
+
+def fetch_steam_app_details(session, app_id: int) -> dict[str, Any]:
+    cached = STEAM_DETAILS_CACHE.get(app_id)
+    if cached is not None:
+        return cached
+
+    url = (
+        "https://store.steampowered.com/api/appdetails"
+        f"?appids={app_id}&cc=us&l=en&filters=basic"
+    )
+    response = session.get(url, timeout=TIMEOUT)
+    response.raise_for_status()
+    payload = response.json()
+
+    app_payload = payload.get(str(app_id))
+    if not isinstance(app_payload, dict) or not app_payload.get("success"):
+        raise FetchError(f"Steam appdetails lookup failed for app {app_id}")
+
+    details = app_payload.get("data")
+    if not isinstance(details, dict):
+        raise FetchError(f"Steam appdetails returned invalid data for app {app_id}")
+
+    STEAM_DETAILS_CACHE[app_id] = details
+    return details
+
+
 def main() -> int:
     previous_offers = load_previous_offers()
     previous_by_store: dict[str, list[dict[str, str]]] = defaultdict(list)
@@ -395,13 +444,17 @@ def main() -> int:
     session = get_session()
     fetchers = {
         "epic": fetch_epic_offers,
-        "steam": fetch_steam_offers,
         "gog": fetch_gog_offers,
-        "humble": fetch_humble_offers,
+        "steam": fetch_steam_offers,
     }
 
     merged_by_store: dict[str, list[dict[str, str]]] = {}
     successful_stores = 0
+
+    for store, reason in DISABLED_STORES.items():
+        merged_by_store[store] = []
+        previous_count = len(previous_by_store.get(store, []))
+        print(f"[{store}] disabled: {reason} ({previous_count} previous offers ignored)")
 
     for store, fetcher in fetchers.items():
         try:

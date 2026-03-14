@@ -645,3 +645,44 @@ Questo file serve come punto di handoff condiviso tra Codex e Claude Code.
 - Nota:
   - se una macchina ha ancora il documento HTML principale estremamente incollato in cache, potrebbe servire un ultimo refresh forte per vedere subito il nuovo HTML
   - ma da questo commit in poi la situazione dovrebbe essere molto piu resiliente ai futuri aggiornamenti
+
+### 2026-03-14 - Codex - Revisione fonti feed giochi gratis
+
+- Nuovo follow-up preso in carico in autonomia per aumentare l'affidabilita del feed `free_games.js`, senza cambiare la UI.
+- Obiettivo:
+  - mantenere il focus su fonti ad alta qualita (`Epic`, `GOG`, `Steam`)
+  - rendere `Steam` piu selettivo, evitando risultati ambigui
+  - spegnere temporaneamente `Humble` finche non esiste una fonte pubblica piu affidabile
+- Modifiche implementate in `fetch_free_games.py`:
+  - `Steam`
+    - introdotta funzione `is_steam_claimable_promo(...)`
+    - ora una promo Steam viene accettata solo se:
+      - sconto `100%`
+      - `original_price > 0`
+      - `final_price == 0`
+      - ha `discount_expiration`
+      - la scadenza non e troppo lontana (`<= 21 giorni`)
+    - per ogni candidato viene interrogato `appdetails?filters=basic`
+    - vengono mantenuti solo risultati con `type == "game"`
+    - questo riduce il rischio di includere DLC, demo o elementi non realmente assimilabili a giveaway
+  - `Humble`
+    - il codice di scraping e stato lasciato nel file, ma lo store e stato rimosso dal piano attivo di fetch
+    - aggiunta policy esplicita:
+      - `disabled until a more reliable public source is available`
+    - al run il workflow logga lo store come disattivato e ignora eventuali vecchie offerte Humble
+  - ordine fonti attive riallineato alla priorita qualitativa:
+    - `epic`
+    - `gog`
+    - `steam`
+- Scelta intenzionale:
+  - non e stato ancora introdotto `Prime Gaming`
+  - resta una possibile fase 2, ma avrebbe bisogno di una decisione di prodotto chiara perche non e "gratis puro" come Epic/GOG
+- Verifiche eseguite da Codex:
+  - `python3 -m py_compile fetch_free_games.py validate_free_games.py validate_catalog.py build_static_pages.py auto_update.py`
+  - `python3 validate_free_games.py`
+- Risultato verifiche:
+  - sintassi Python ok
+  - il feed reale attuale resta valido (`2` offerte)
+- Limite noto:
+  - anche in questo step `fetch_free_games.py` non e stato eseguito live da Codex per via delle restrizioni di rete del sandbox
+  - il comportamento live di `Steam`/`GOG` con i criteri nuovi andra osservato ai prossimi run reali
