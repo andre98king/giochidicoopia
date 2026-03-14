@@ -686,3 +686,39 @@ Questo file serve come punto di handoff condiviso tra Codex e Claude Code.
 - Limite noto:
   - anche in questo step `fetch_free_games.py` non e stato eseguito live da Codex per via delle restrizioni di rete del sandbox
   - il comportamento live di `Steam`/`GOG` con i criteri nuovi andra osservato ai prossimi run reali
+
+### 2026-03-14 - Codex - SteamDB fallback per promo Steam mancanti
+
+- Nuovo follow-up preso in carico dopo aver verificato un caso concreto: SteamDB mostrava una promo `Free to Keep` su Steam (`Deponia`) che il nostro feed non vedeva.
+- Diagnosi:
+  - il fetcher Steam usava solo `store.steampowered.com/api/featuredcategories`
+  - quell'endpoint non copre in modo completo tutte le promo `free to keep`
+  - quindi alcune offerte reali confermate sulla pagina Steam ufficiale possono non apparire nel feed candidato iniziale
+- Modifiche implementate in `fetch_free_games.py`:
+  - separata la logica Steam in due fasi:
+    - **discovery**
+    - **validation**
+  - discovery attuale:
+    - `fetch_steam_featured_candidates(session)` da `featuredcategories`
+    - `fetch_steamdb_candidates(session)` da `https://steamdb.info/upcoming/free/`
+  - validazione finale:
+    - `build_steam_offer(...)` costruisce l'offerta solo dopo conferma su dati Steam ufficiali
+    - `fetch_steam_app_details(..., filters="basic,price_overview")`
+    - `steam_offer_is_confirmed(...)`
+    - fallback ulteriore su pagina Steam ufficiale tramite `steam_store_page_confirms_claimable_offer(...)`
+  - criterio chiave:
+    - SteamDB serve solo come **fallback discovery**
+    - un'offerta Steam viene scritta nel feed solo se la pagina/API ufficiale Steam la conferma come claimabile
+  - aggiunti cache e logging dedicati:
+    - cache `appdetails`
+    - cache HTML pagina store
+    - log candidati `featuredcategories` vs `SteamDB fallback`
+- Effetto atteso:
+  - se una promo `free to keep` manca da `featuredcategories` ma e visibile su SteamDB e confermata dalla pagina Steam ufficiale, ora puo entrare nel feed
+  - riduce i falsi negativi senza fidarsi ciecamente di una fonte terza
+- Verifiche eseguite da Codex:
+  - `python3 -m py_compile fetch_free_games.py validate_free_games.py validate_catalog.py build_static_pages.py auto_update.py`
+  - `python3 validate_free_games.py`
+- Limite noto:
+  - anche questo step non e stato provato live da Codex per via delle restrizioni di rete del sandbox
+  - il primo run reale del workflow sara il punto giusto per confermare se promo come `Deponia` entrano correttamente nel feed

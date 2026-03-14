@@ -35,7 +35,8 @@ MAX_STEAM_PROMO_DURATION = dt.timedelta(days=21)
 DISABLED_STORES = {
     "humble": "disabled until a more reliable public source is available",
 }
-STEAM_DETAILS_CACHE: dict[int, dict[str, Any]] = {}
+STEAM_APPDETAILS_CACHE: dict[tuple[int, str], dict[str, Any]] = {}
+STEAM_STORE_PAGE_CACHE: dict[int, str] = {}
 
 
 class FetchError(RuntimeError):
@@ -57,6 +58,19 @@ def parse_iso_datetime(value: str | None) -> dt.datetime | None:
     if parsed.tzinfo is None:
         parsed = parsed.replace(tzinfo=dt.timezone.utc)
     return parsed.astimezone(dt.timezone.utc)
+
+
+def parse_steamdb_datetime(value: str | None) -> dt.datetime | None:
+    if not value:
+        return None
+    text = value.strip().replace("UTC", "").replace("–", "-").strip()
+    for fmt in ("%d %B %Y - %H:%M:%S", "%d %b %Y - %H:%M:%S"):
+        try:
+            parsed = dt.datetime.strptime(text, fmt)
+        except ValueError:
+            continue
+        return parsed.replace(tzinfo=dt.timezone.utc)
+    return None
 
 
 def to_iso_z(value: dt.datetime) -> str:
@@ -256,6 +270,32 @@ def fetch_epic_offers(session) -> list[dict[str, str]]:
 
 
 def fetch_steam_offers(session) -> list[dict[str, str]]:
+    candidates: dict[int, dict[str, Any]] = {}
+
+    featured_candidates = fetch_steam_featured_candidates(session)
+    steamdb_candidates = fetch_steamdb_candidates(session)
+
+    print(
+        f"[steam] discovered {len(featured_candidates)} featured candidates and "
+        f"{len(steamdb_candidates)} SteamDB fallback candidates"
+    )
+
+    for candidate in featured_candidates:
+        candidates[candidate["app_id"]] = candidate
+
+    for candidate in steamdb_candidates:
+        candidates.setdefault(candidate["app_id"], candidate)
+
+    offers = []
+    for candidate in candidates.values():
+        offer = build_steam_offer(session, candidate)
+        if offer:
+            offers.append(offer)
+
+    return dedupe_offers(offers)
+
+
+def fetch_steam_featured_candidates(session) -> list[dict[str, Any]]:
     url = "https://store.steampowered.com/api/featuredcategories?cc=us&l=en"
     response = session.get(url, timeout=TIMEOUT)
     response.raise_for_status()
@@ -265,7 +305,7 @@ def fetch_steam_offers(session) -> list[dict[str, str]]:
     if not isinstance(items, list):
         raise FetchError("Steam response schema changed")
 
-    offers = []
+    candidates = []
     for item in items:
         if not isinstance(item, dict):
             continue
@@ -286,28 +326,77 @@ def fetch_steam_offers(session) -> list[dict[str, str]]:
         if not app_id:
             continue
 
-        details = fetch_steam_app_details(session, int(app_id))
-        app_type = (details.get("type") or "").lower()
-        if app_type != "game":
-            continue
-
-        offer = normalize_offer(
+        candidates.append(
             {
-                "title": details.get("name") or item.get("name") or f"Steam App {app_id}",
-                "store": "steam",
-                "imageUrl": details.get("header_image")
-                or item.get("large_capsule_image")
+                "app_id": int(app_id),
+                "title": item.get("name") or f"Steam App {app_id}",
+                "imageUrl": item.get("large_capsule_image")
                 or item.get("header_image")
                 or item.get("small_capsule_image")
                 or "",
-                "storeUrl": f"https://store.steampowered.com/app/{app_id}/",
-                "freeUntil": to_iso_z(end_at),
+                "end_at": end_at,
+                "source": "steam_featuredcategories",
             }
         )
-        if offer:
-            offers.append(offer)
 
-    return dedupe_offers(offers)
+    return candidates
+
+
+def fetch_steamdb_candidates(session) -> list[dict[str, Any]]:
+    url = "https://steamdb.info/upcoming/free/"
+    response = session.get(url, timeout=TIMEOUT)
+    response.raise_for_status()
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    text_lines = [line.strip() for line in soup.get_text("\n").splitlines() if line.strip()]
+    text_blob = "\n".join(text_lines)
+    block_pattern = re.compile(
+        r"View Store\s+Install\s+(?P<title>.+?)\s+Free to Keep\s+Started:\s+(?P<start>.+?)\s+Expires:\s+(?P<end>.+?)(?=\s+View Store\s+Install\s+|\s+Potentially Upcoming Free Promotions|\Z)",
+        re.DOTALL,
+    )
+    text_blocks = []
+    for match in block_pattern.finditer(text_blob):
+        title = " ".join(match.group("title").split())
+        if not title or "steamdb.info" in title.lower() or title.startswith("http"):
+            continue
+        expires_at = parse_steamdb_datetime(match.group("end"))
+        if not expires_at or expires_at <= NOW:
+            continue
+        text_blocks.append(
+            {
+                "title": title,
+                "end_at": expires_at,
+            }
+        )
+
+    store_links = []
+    for link in soup.select('a[href*="store.steampowered.com/app/"]'):
+        href = (link.get("href") or "").strip()
+        match = re.search(r"/app/(\d+)/", href)
+        if not match:
+            match = re.search(r"/app/(\d+)", href)
+        if not match:
+            continue
+        store_links.append(
+            {
+                "app_id": int(match.group(1)),
+                "storeUrl": href,
+            }
+        )
+
+    candidates = []
+    for link_data, text_block in zip(store_links, text_blocks):
+        candidates.append(
+            {
+                "app_id": link_data["app_id"],
+                "title": text_block["title"],
+                "imageUrl": "",
+                "end_at": text_block["end_at"],
+                "source": "steamdb",
+            }
+        )
+
+    return candidates
 
 
 def fetch_gog_offers(session) -> list[dict[str, str]]:
@@ -410,14 +499,72 @@ def is_steam_claimable_promo(item: dict[str, Any], end_at: dt.datetime) -> bool:
     return True
 
 
-def fetch_steam_app_details(session, app_id: int) -> dict[str, Any]:
-    cached = STEAM_DETAILS_CACHE.get(app_id)
+def build_steam_offer(session, candidate: dict[str, Any]) -> dict[str, str] | None:
+    app_id = int(candidate["app_id"])
+    end_at = candidate["end_at"]
+
+    if end_at <= NOW or (end_at - NOW) > MAX_STEAM_PROMO_DURATION:
+        return None
+
+    details = fetch_steam_app_details(session, app_id, filters="basic,price_overview")
+    app_type = (details.get("type") or "").lower()
+    if app_type != "game":
+        return None
+
+    if not steam_offer_is_confirmed(session, app_id, details):
+        return None
+
+    offer = normalize_offer(
+        {
+            "title": details.get("name") or candidate.get("title") or f"Steam App {app_id}",
+            "store": "steam",
+            "imageUrl": details.get("header_image") or candidate.get("imageUrl") or "",
+            "storeUrl": f"https://store.steampowered.com/app/{app_id}/",
+            "freeUntil": to_iso_z(end_at),
+        }
+    )
+    return offer
+
+
+def steam_offer_is_confirmed(session, app_id: int, details: dict[str, Any]) -> bool:
+    price = details.get("price_overview") or {}
+    if (
+        int(price.get("discount_percent") or 0) == 100
+        and int(price.get("initial") or 0) > 0
+        and int(price.get("final") or 0) == 0
+    ):
+        return True
+    return steam_store_page_confirms_claimable_offer(session, app_id)
+
+
+def steam_store_page_confirms_claimable_offer(session, app_id: int) -> bool:
+    html = fetch_steam_store_page_html(session, app_id)
+    text = " ".join(BeautifulSoup(html, "html.parser").get_text(" ", strip=True).split()).lower()
+    return "add to account" in text
+
+
+def fetch_steam_store_page_html(session, app_id: int) -> str:
+    cached = STEAM_STORE_PAGE_CACHE.get(app_id)
+    if cached is not None:
+        return cached
+
+    url = f"https://store.steampowered.com/app/{app_id}/?cc=us&l=en"
+    response = session.get(url, timeout=TIMEOUT)
+    response.raise_for_status()
+    html = response.text
+    STEAM_STORE_PAGE_CACHE[app_id] = html
+    return html
+
+
+def fetch_steam_app_details(session, app_id: int, filters: str = "basic") -> dict[str, Any]:
+    cache_key = (app_id, filters)
+    cached = STEAM_APPDETAILS_CACHE.get(cache_key)
     if cached is not None:
         return cached
 
     url = (
         "https://store.steampowered.com/api/appdetails"
-        f"?appids={app_id}&cc=us&l=en&filters=basic"
+        f"?appids={app_id}&cc=us&l=en&filters={filters}"
     )
     response = session.get(url, timeout=TIMEOUT)
     response.raise_for_status()
@@ -431,7 +578,7 @@ def fetch_steam_app_details(session, app_id: int) -> dict[str, Any]:
     if not isinstance(details, dict):
         raise FetchError(f"Steam appdetails returned invalid data for app {app_id}")
 
-    STEAM_DETAILS_CACHE[app_id] = details
+    STEAM_APPDETAILS_CACHE[cache_key] = details
     return details
 
 
