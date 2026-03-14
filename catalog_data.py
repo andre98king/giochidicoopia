@@ -22,7 +22,15 @@ ROOT = pathlib.Path(__file__).resolve().parent
 GAMES_JS = ROOT / "games.js"
 DATA_DIR = ROOT / "data"
 CATALOG_JSON = DATA_DIR / "catalog.games.v1.json"
+PUBLIC_CATALOG_JSON = DATA_DIR / "catalog.public.v1.json"
 SCHEMA_VERSION = 1
+
+
+def source_generated_at() -> str:
+    return dt.datetime.fromtimestamp(
+        GAMES_JS.stat().st_mtime,
+        tz=dt.timezone.utc,
+    ).replace(microsecond=0).isoformat()
 
 
 def ef(block: str, field: str):
@@ -161,7 +169,6 @@ def normalize_game(raw_game: dict[str, Any], featured_indie_id: int | None) -> d
         "sourceMeta": {
             "ingestSource": "games.js",
             "schemaVersion": SCHEMA_VERSION,
-            "normalizedAt": dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat(),
         },
     }
 
@@ -214,7 +221,7 @@ def build_catalog_artifact(games: list[dict[str, Any]]) -> dict[str, Any]:
 
     return {
         "schemaVersion": SCHEMA_VERSION,
-        "generatedAt": dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat(),
+        "generatedAt": source_generated_at(),
         "source": {
             "type": "legacy-runtime-import",
             "path": GAMES_JS.name,
@@ -232,6 +239,44 @@ def build_catalog_artifact(games: list[dict[str, Any]]) -> dict[str, Any]:
     }
 
 
+def build_public_catalog_export(games: list[dict[str, Any]]) -> dict[str, Any]:
+    featured_indie_id = next((game["id"] for game in games if game["isFeaturedIndie"]), None)
+    public_games = []
+
+    for game in games:
+        public_games.append(
+            {
+                "id": game["id"],
+                "slug": game["slug"],
+                "title": game["title"],
+                "categories": list(game["categories"]),
+                "genres": list(game["genres"]),
+                "coopMode": list(game["coopMode"]),
+                "maxPlayers": game["maxPlayers"],
+                "crossplay": bool(game["crossplay"]),
+                "players": game["players"],
+                "image": game["image"],
+                "description": game["description"],
+                "description_en": game["description_en"],
+                "personalNote": game["personalNote"],
+                "played": bool(game["played"]),
+                "steamUrl": game["steamUrl"],
+                "epicUrl": game["epicUrl"],
+                "itchUrl": game["itchUrl"],
+                "ccu": game["ccu"],
+                "trending": bool(game["trending"]),
+                "rating": game["rating"],
+            }
+        )
+
+    return {
+        "schemaVersion": SCHEMA_VERSION,
+        "generatedAt": source_generated_at(),
+        "featuredIndieId": featured_indie_id,
+        "games": public_games,
+    }
+
+
 def write_catalog_artifact(games: list[dict[str, Any]] | None = None) -> pathlib.Path:
     if games is None:
         games = load_games()
@@ -240,3 +285,14 @@ def write_catalog_artifact(games: list[dict[str, Any]] | None = None) -> pathlib
     CATALOG_JSON.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return CATALOG_JSON
 
+
+def write_public_catalog_export(games: list[dict[str, Any]] | None = None) -> pathlib.Path:
+    if games is None:
+        games = load_games()
+    DATA_DIR.mkdir(exist_ok=True)
+    payload = build_public_catalog_export(games)
+    PUBLIC_CATALOG_JSON.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    return PUBLIC_CATALOG_JSON

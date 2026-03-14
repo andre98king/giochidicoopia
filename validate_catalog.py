@@ -163,6 +163,38 @@ def main() -> int:
                     f"Canonical catalog artifact references missing featuredIndieId: {featured_indie_id}"
                 )
 
+    if not catalog_data.PUBLIC_CATALOG_JSON.is_file():
+        errors.append(f"Missing public catalog export: {catalog_data.PUBLIC_CATALOG_JSON.name}")
+    else:
+        try:
+            public_export = json.loads(catalog_data.PUBLIC_CATALOG_JSON.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as exc:
+            errors.append(f"Public catalog export is not valid JSON: {exc}")
+            public_export = None
+
+        if isinstance(public_export, dict):
+            if public_export.get("schemaVersion") != catalog_data.SCHEMA_VERSION:
+                errors.append(
+                    "Public catalog export schemaVersion mismatch: "
+                    f"{public_export.get('schemaVersion')} != {catalog_data.SCHEMA_VERSION}"
+                )
+
+            public_games = public_export.get("games")
+            if not isinstance(public_games, list):
+                errors.append("Public catalog export is missing the games array")
+            else:
+                if len(public_games) != len(games):
+                    errors.append(
+                        "Public catalog export game count mismatch: "
+                        f"{len(public_games)} != {len(games)}"
+                    )
+
+            featured_indie_id = public_export.get("featuredIndieId")
+            if featured_indie_id is not None and featured_indie_id not in set(ids):
+                errors.append(
+                    f"Public catalog export references missing featuredIndieId: {featured_indie_id}"
+                )
+
     try:
         tree = ET.parse(build_static_pages.SITEMAP)
     except ET.ParseError as exc:

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-14T17:40:21+00:00",
+  "generatedAt": "2026-03-14T14:17:55+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
@@ -109,8 +109,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -187,8 +186,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -265,8 +263,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -351,8 +348,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -433,8 +429,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -509,8 +504,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -593,8 +587,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -675,8 +668,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -761,8 +753,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -843,8 +834,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -927,8 +917,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -1011,8 +1000,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -1099,8 +1087,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -1181,8 +1168,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -1271,8 +1257,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -1355,8 +1340,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -1443,8 +1427,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -1531,8 +1514,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -1605,8 +1587,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -1687,8 +1668,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -1769,8 +1749,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -1847,8 +1826,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -1937,8 +1915,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -2021,8 +1998,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -2105,8 +2081,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -2187,8 +2162,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -2267,8 +2241,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -2345,8 +2318,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -2433,8 +2405,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -2517,8 +2488,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -2601,8 +2571,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -2679,8 +2648,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -2759,8 +2727,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -2833,8 +2800,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -2911,8 +2877,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -2995,8 +2960,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -3083,8 +3047,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -3167,8 +3130,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -3245,8 +3207,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -3323,8 +3284,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -3397,8 +3357,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -3475,8 +3434,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -3559,8 +3517,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -3637,8 +3594,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -3711,8 +3667,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -3791,8 +3746,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -3873,8 +3827,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -3951,8 +3904,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -4037,8 +3989,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -4119,8 +4070,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -4197,8 +4147,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -4285,8 +4234,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -4367,8 +4315,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -4451,8 +4398,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -4531,8 +4477,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -4609,8 +4554,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -4697,8 +4641,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -4785,8 +4728,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -4873,8 +4815,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -4961,8 +4902,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -5047,8 +4987,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -5137,8 +5076,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -5225,8 +5163,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -5307,8 +5244,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -5385,8 +5321,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -5473,8 +5408,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -5555,8 +5489,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -5637,8 +5570,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -5719,8 +5651,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -5803,8 +5734,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -5885,8 +5815,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -5973,8 +5902,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -6057,8 +5985,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -6141,8 +6068,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -6225,8 +6151,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -6303,8 +6228,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -6377,8 +6301,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -6459,8 +6382,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -6537,8 +6459,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -6611,8 +6532,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -6691,8 +6611,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -6779,8 +6698,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -6857,8 +6775,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -6947,8 +6864,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -7027,8 +6943,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -7103,8 +7018,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -7185,8 +7099,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -7273,8 +7186,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -7347,8 +7259,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -7431,8 +7342,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -7505,8 +7415,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -7589,8 +7498,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -7669,8 +7577,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -7751,8 +7658,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -7835,8 +7741,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -7919,8 +7824,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -7993,8 +7897,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -8077,8 +7980,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -8155,8 +8057,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -8237,8 +8138,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -8321,8 +8221,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -8409,8 +8308,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -8483,8 +8381,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -8567,8 +8464,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -8641,8 +8537,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -8719,8 +8614,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -8807,8 +8701,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -8885,8 +8778,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -8965,8 +8857,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -9051,8 +8942,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -9129,8 +9019,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -9213,8 +9102,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -9291,8 +9179,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -9371,8 +9258,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -9449,8 +9335,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -9533,8 +9418,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -9611,8 +9495,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -9689,8 +9572,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -9769,8 +9651,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -9853,8 +9734,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -9937,8 +9817,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -10017,8 +9896,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -10097,8 +9975,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -10181,8 +10058,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -10263,8 +10139,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -10351,8 +10226,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -10431,8 +10305,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -10509,8 +10382,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -10589,8 +10461,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -10667,8 +10538,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -10749,8 +10619,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -10827,8 +10696,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -10911,8 +10779,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -10991,8 +10858,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -11079,8 +10945,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -11157,8 +11022,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -11241,8 +11105,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -11319,8 +11182,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -11397,8 +11259,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -11477,8 +11338,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -11555,8 +11415,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -11635,8 +11494,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -11711,8 +11569,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -11791,8 +11648,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -11871,8 +11727,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -11951,8 +11806,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -12029,8 +11883,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -12105,8 +11958,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -12179,8 +12031,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -12259,8 +12110,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -12339,8 +12189,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -12423,8 +12272,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -12501,8 +12349,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -12581,8 +12428,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -12659,8 +12505,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -12739,8 +12584,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -12817,8 +12661,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -12901,8 +12744,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -12979,8 +12821,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -13057,8 +12898,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -13141,8 +12981,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -13219,8 +13058,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -13293,8 +13131,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -13371,8 +13208,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -13449,8 +13285,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -13525,8 +13360,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -13607,8 +13441,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -13681,8 +13514,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -13763,8 +13595,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -13845,8 +13676,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -13923,8 +13753,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -14003,8 +13832,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -14083,8 +13911,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -14161,8 +13988,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -14239,8 +14065,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -14313,8 +14138,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -14397,8 +14221,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -14471,8 +14294,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -14553,8 +14375,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -14639,8 +14460,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -14717,8 +14537,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -14799,8 +14618,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -14879,8 +14697,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -14953,8 +14770,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -15029,8 +14845,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -15109,8 +14924,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -15183,8 +14997,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -15261,8 +15074,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -15343,8 +15155,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -15421,8 +15232,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -15505,8 +15315,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -15583,8 +15392,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -15665,8 +15473,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -15743,8 +15550,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -15821,8 +15627,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -15903,8 +15708,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -15985,8 +15789,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -16063,8 +15866,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -16145,8 +15947,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -16225,8 +16026,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -16309,8 +16109,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -16389,8 +16188,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -16471,8 +16269,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -16553,8 +16350,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -16635,8 +16431,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -16713,8 +16508,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -16793,8 +16587,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -16869,8 +16662,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -16949,8 +16741,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -17025,8 +16816,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -17101,8 +16891,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -17179,8 +16968,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -17257,8 +17045,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -17335,8 +17122,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -17417,8 +17203,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -17495,8 +17280,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -17577,8 +17361,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -17657,8 +17440,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -17737,8 +17519,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -17815,8 +17596,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -17889,8 +17669,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -17969,8 +17748,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -18047,8 +17825,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -18123,8 +17900,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -18203,8 +17979,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -18283,8 +18058,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -18363,8 +18137,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -18443,8 +18216,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -18523,8 +18295,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -18603,8 +18374,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -18679,8 +18449,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -18755,8 +18524,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -18835,8 +18603,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -18915,8 +18682,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -18995,8 +18761,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -19075,8 +18840,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -19153,8 +18917,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -19233,8 +18996,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -19313,8 +19075,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -19393,8 +19154,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -19473,8 +19233,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -19553,8 +19312,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -19633,8 +19391,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -19713,8 +19470,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -19789,8 +19545,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -19869,8 +19624,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -19949,8 +19703,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -20029,8 +19782,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -20107,8 +19859,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -20183,8 +19934,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -20259,8 +20009,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -20339,8 +20088,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -20415,8 +20163,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -20491,8 +20238,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -20571,8 +20317,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -20647,8 +20392,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -20727,8 +20471,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -20807,8 +20550,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -20885,8 +20627,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -20965,8 +20706,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -21045,8 +20785,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -21125,8 +20864,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -21203,8 +20941,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -21285,8 +21022,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -21367,8 +21103,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -21447,8 +21182,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -21527,8 +21261,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -21603,8 +21336,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -21685,8 +21417,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -21765,8 +21496,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -21843,8 +21573,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -21923,8 +21652,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -21999,8 +21727,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -22079,8 +21806,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -22159,8 +21885,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -22239,8 +21964,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -22319,8 +22043,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -22397,8 +22120,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -22477,8 +22199,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -22557,8 +22278,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -22637,8 +22357,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -22719,8 +22438,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -22801,8 +22519,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -22875,8 +22592,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -22953,8 +22669,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -23033,8 +22748,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -23113,8 +22827,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -23189,8 +22902,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -23263,8 +22975,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -23341,8 +23052,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -23423,8 +23133,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -23501,8 +23210,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -23579,8 +23287,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -23657,8 +23364,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -23731,8 +23437,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -23813,8 +23518,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -23893,8 +23597,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -23971,8 +23674,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -24053,8 +23755,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -24131,8 +23832,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -24211,8 +23911,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -24291,8 +23990,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -24367,8 +24065,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -24449,8 +24146,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -24531,8 +24227,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -24609,8 +24304,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -24689,8 +24383,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -24771,8 +24464,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -24849,8 +24541,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -24931,8 +24622,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     },
     {
@@ -25009,8 +24699,7 @@
       },
       "sourceMeta": {
         "ingestSource": "games.js",
-        "schemaVersion": 1,
-        "normalizedAt": "2026-03-14T17:40:21+00:00"
+        "schemaVersion": 1
       }
     }
   ]

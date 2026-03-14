@@ -21,6 +21,8 @@ let searchQuery = '';
 let sortMode = 'default'; // 'default' | 'trending' | 'rating' | 'az'
 let wheelSpinning = false;
 let isAdmin = false;
+let catalogGames = [];
+let featuredIndieGameId = null;
 
 // ===== FILTER CONFIG =====
 const genreFilters = [
@@ -50,10 +52,46 @@ const modeFilters = [
 // Legacy alias for backward compat
 const categories = genreFilters;
 
+function getLegacyCatalogFallback() {
+  return {
+    games: Array.isArray(window.games) ? window.games : [],
+    featuredIndieId: Number.isInteger(window.featuredIndieId) ? window.featuredIndieId : null,
+  };
+}
+
+async function loadCatalogData() {
+  const fallback = getLegacyCatalogFallback();
+  catalogGames = fallback.games;
+  featuredIndieGameId = fallback.featuredIndieId;
+  window.catalogGames = catalogGames;
+
+  const cacheBucket = Math.floor(Date.now() / 300000);
+
+  try {
+    const response = await fetch(`data/catalog.public.v1.json?v=${cacheBucket}`, {
+      cache: 'no-store',
+    });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+    const payload = await response.json();
+    if (!payload || !Array.isArray(payload.games)) {
+      throw new Error('Invalid public catalog payload');
+    }
+
+    catalogGames = payload.games;
+    featuredIndieGameId = Number.isInteger(payload.featuredIndieId) ? payload.featuredIndieId : null;
+    window.catalogGames = catalogGames;
+    window.dispatchEvent(new Event('catalogloaded'));
+  } catch (error) {
+    console.warn('Catalog export unavailable, using legacy games.js fallback.', error);
+    window.dispatchEvent(new Event('catalogfallback'));
+  }
+}
+
 // ===== LOCALSTORAGE: carica override admin =====
 function loadOverrides() {
   const stored = JSON.parse(localStorage.getItem('coopAdminData') || '{}');
-  games.forEach(g => {
+  catalogGames.forEach(g => {
     const ov = stored[g.id];
     if (!ov) return;
     if (ov.personalNote !== undefined) g.personalNote = ov.personalNote;
@@ -65,7 +103,7 @@ function saveOverride(id, personalNote, played) {
   const stored = JSON.parse(localStorage.getItem('coopAdminData') || '{}');
   stored[id] = { personalNote, played };
   localStorage.setItem('coopAdminData', JSON.stringify(stored));
-  const g = games.find(x => x.id === id);
+  const g = catalogGames.find(x => x.id === id);
   if (g) { g.personalNote = personalNote; g.played = played; }
 }
 
@@ -212,11 +250,11 @@ function renderFreeGamesSection() {
 function renderFeatured() {
   const section = document.getElementById('featuredSection');
   if (!section) return;
-  if (typeof featuredIndieId === 'undefined' || !featuredIndieId) {
+  if (!featuredIndieGameId) {
     section.innerHTML = '';
     return;
   }
-  const game = games.find(g => g.id === featuredIndieId);
+  const game = catalogGames.find(g => g.id === featuredIndieGameId);
   if (!game) { section.innerHTML = ''; return; }
   const safeTitle = esc(game.title);
   const safeDesc = esc((currentLang === 'en' && game.description_en) ? game.description_en : game.description);
@@ -253,7 +291,7 @@ async function waitForFreeGamesReady() {
 
 // ===== INIT =====
 document.addEventListener('DOMContentLoaded', async () => {
-  await waitForFreeGamesReady();
+  await Promise.all([waitForFreeGamesReady(), loadCatalogData()]);
   loadOverrides();
   updateStats();
   renderFilters();
@@ -304,9 +342,9 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 // ===== STATS =====
 function updateStats() {
-  document.getElementById('totalGames').textContent = games.length;
-  document.getElementById('playedGames').textContent = games.filter(g => g.played).length;
-  const cats = new Set(games.flatMap(g => g.categories).filter(c => c !== 'trending'));
+  document.getElementById('totalGames').textContent = catalogGames.length;
+  document.getElementById('playedGames').textContent = catalogGames.filter(g => g.played).length;
+  const cats = new Set(catalogGames.flatMap(g => g.categories).filter(c => c !== 'trending'));
   document.getElementById('totalCats').textContent = cats.size;
 }
 
@@ -412,7 +450,7 @@ function matchesModeFilters(game) {
 }
 
 function getFilteredGames() {
-  let filtered = games.filter(game => {
+  let filtered = catalogGames.filter(game => {
     // Genre/category filters
     if (activeFilters.has('trending') && !game.trending) return false;
     const normalFilters = [...activeFilters].filter(f => f !== 'trending');
@@ -448,7 +486,7 @@ function renderGames() {
   const info = document.getElementById('resultsInfo');
   const freeLookup = buildFreeGameLookup();
 
-  info.innerHTML = t('results_found', filtered.length, games.length);
+  info.innerHTML = t('results_found', filtered.length, catalogGames.length);
 
   if (filtered.length === 0) {
     grid.innerHTML = `
@@ -583,7 +621,7 @@ function ratingLabel(r) {
 
 // ===== MODAL DETTAGLIO =====
 function openModal(id) {
-  const game = games.find(g => g.id === id);
+  const game = catalogGames.find(g => g.id === id);
   if (!game) return;
 
   const safeTitle = esc(game.title);
@@ -682,7 +720,7 @@ async function toggleAdmin() {
 
 // ===== ADMIN MODAL (modifica nota/played) =====
 function openAdminModal(id) {
-  const game = games.find(g => g.id === id);
+  const game = catalogGames.find(g => g.id === id);
   if (!game || !isAdmin) return;
 
   document.getElementById('adminGameTitle').textContent = game.title;

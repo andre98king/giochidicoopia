@@ -135,14 +135,35 @@
       return n.toString();
     }
 
-    document.addEventListener('DOMContentLoaded', () => {
+    async function loadGameCatalogData() {
+      const fallbackGames = Array.isArray(window.games) ? window.games : [];
+      const cacheBucket = Math.floor(Date.now() / 300000);
+
+      try {
+        const response = await fetch(`data/catalog.public.v1.json?v=${cacheBucket}`, {
+          cache: 'no-store'
+        });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const payload = await response.json();
+        if (!payload || !Array.isArray(payload.games)) {
+          throw new Error('Invalid public catalog payload');
+        }
+        return payload.games;
+      } catch (error) {
+        console.warn('Public catalog export unavailable for game fallback page, using games.js.', error);
+        return fallbackGames;
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', async () => {
       document.documentElement.lang = currentLang;
       if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
 
       // Parse game ID from URL
+      const catalogGames = await loadGameCatalogData();
       const params = new URLSearchParams(window.location.search);
       const gameId = parseInt(params.get('id'));
-      const game = games.find(g => g.id === gameId);
+      const game = catalogGames.find(g => g.id === gameId);
       const page = document.getElementById('gamePage');
       const notFound = document.getElementById('notFound');
 

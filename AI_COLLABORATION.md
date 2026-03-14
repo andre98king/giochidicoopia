@@ -814,3 +814,68 @@ Questo file serve come punto di handoff condiviso tra Codex e Claude Code.
   - validazione passata
 - Prossimo passo naturale:
   - estrarre il runtime search/filter verso lettura da `games.json` o da un export pubblico derivato dal nuovo layer canonico
+
+### 2026-03-14 - Codex - Export pubblico catalogo + migrazione runtime progressiva
+
+- Continuazione naturale del layer canonico appena introdotto: aggiunto un export pubblico stabile per il frontend e iniziata la migrazione graduale via fallback, senza rimuovere ancora `games.js`.
+- Obiettivo:
+  - far consumare alla UI un payload pubblico versionato derivato dal layer canonico
+  - ridurre la dipendenza diretta del runtime dal formato legacy `games.js`
+  - mantenere compatibilita immediata tramite fallback trasparente
+- Modifiche implementate:
+  - `catalog_data.py`
+    - aggiunta costante:
+      - `data/catalog.public.v1.json`
+    - aggiunta funzione:
+      - `build_public_catalog_export(...)`
+      - `write_public_catalog_export(...)`
+    - l'export pubblico contiene:
+      - `schemaVersion`
+      - `generatedAt`
+      - `featuredIndieId`
+      - `games[]` con il subset di campi runtime utili alla UI
+    - miglioramento di stabilita:
+      - `generatedAt` ora deriva dal `mtime` di `games.js`
+      - rimosso `normalizedAt` per-record dal layer canonico, cosi gli artifact restano piu deterministici e i diff meno rumorosi
+  - `build_static_pages.py`
+    - oltre all'artifact canonico scrive anche:
+      - `data/catalog.public.v1.json`
+  - `validate_catalog.py`
+    - aggiunti controlli su:
+      - esistenza di `data/catalog.public.v1.json`
+      - `schemaVersion`
+      - conteggio giochi
+      - `featuredIndieId`
+  - `.github/workflows/update.yml`
+    - il commit automatico include anche:
+      - `data/catalog.public.v1.json`
+  - `app.js`
+    - introdotti stato runtime:
+      - `catalogGames`
+      - `featuredIndieGameId`
+    - aggiunta `loadCatalogData()`
+      - tenta prima il fetch di `data/catalog.public.v1.json`
+      - in caso di errore usa fallback su:
+        - `window.games`
+        - `window.featuredIndieId`
+    - homepage e modali ora leggono da `catalogGames` invece che dal globale legacy `games`
+    - ricerca, filtri, stats, featured indie, admin override e render card ora passano dal nuovo stato runtime
+  - `game.html`
+    - anche la fallback page legacy ora prova a leggere `data/catalog.public.v1.json`
+    - se il fetch fallisce, torna automaticamente a `games.js`
+- Scelta intenzionale:
+  - `games.js` resta ancora caricato e disponibile come fallback
+  - questo step non rompe il sito se l'export pubblico non si carica o se una cache/CDN serve HTML vecchio
+  - la migrazione e quindi progressiva e reversibile
+- Verifiche eseguite da Codex:
+  - `python3 build_static_pages.py`
+  - `python3 validate_catalog.py`
+  - `python3 -m py_compile build_static_pages.py auto_update.py validate_catalog.py fetch_free_games.py validate_free_games.py catalog_data.py`
+- Risultato verifiche:
+  - `311` pagine statiche rigenerate correttamente
+  - `data/catalog.games.v1.json` e `data/catalog.public.v1.json` generati correttamente
+  - validazione passata
+- Limite noto:
+  - in questo ambiente non c'e `node`, quindi il sanity check sul JS e stato statico/manuale e non tramite parser/test browser
+- Prossimo passo naturale:
+  - quando il nuovo export pubblico sara stabile live, valutare la rimozione graduale del caricamento obbligatorio di `games.js` dalla home

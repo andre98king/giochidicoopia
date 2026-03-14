@@ -445,11 +445,13 @@ def write_sitemap(games):
 def main():
     games = load_games()
     artifact_path = catalog_data.write_catalog_artifact(games)
+    public_export_path = catalog_data.write_public_catalog_export(games)
     write_pages(games)
     write_sitemap(games)
     print(f"Built {len(games)} static game pages in {GAMES_DIR}")
     print(f"Updated sitemap: {SITEMAP}")
     print(f"Wrote canonical catalog artifact: {artifact_path}")
+    print(f"Wrote public catalog export: {public_export_path}")
 
 
 if __name__ == "__main__":
