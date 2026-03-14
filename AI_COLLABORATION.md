@@ -761,3 +761,56 @@ Questo file serve come punto di handoff condiviso tra Codex e Claude Code.
   - `fetch_steam_offers(...)` ha restituito `1` offerta Steam attiva
 - Effetto atteso:
   - le promo `free to keep` mancanti da `featuredcategories` possono ora entrare nel feed senza dipendere da fonti terze bloccate da Cloudflare
+
+### 2026-03-14 - Codex - Introduzione layer dati canonico interno
+
+- Nuovo step architetturale implementato per iniziare a separare il dataset interno del progetto dal file legacy `games.js`, senza rompere il sito statico esistente.
+- Obiettivo:
+  - mantenere il frontend attuale invariato
+  - introdurre un primo modello canonico riusabile da build, validazione e future pipeline multi-source
+  - preparare la migrazione graduale verso un catalogo normalizzato/versionato
+- Modifiche implementate:
+  - `catalog_data.py` (nuovo)
+    - parser condiviso di `games.js`
+    - normalizzazione leggera del catalogo
+    - aggiunta di campi canonici per ogni gioco:
+      - `slug`
+      - `descriptions`
+      - `taxonomy`
+      - `capabilities`
+      - `storefronts`
+      - `externalIds`
+      - `signals`
+      - `editorial`
+      - `sourceMeta`
+    - esportazione artifact JSON versionato:
+      - `data/catalog.games.v1.json`
+  - `build_static_pages.py`
+    - non esegue piu un parsing locale duplicato di `games.js`
+    - usa `catalog_data.load_games()`
+    - durante il rebuild scrive anche `data/catalog.games.v1.json`
+  - `validate_catalog.py`
+    - validazione spostata sul layer comune `catalog_data`
+    - aggiunto controllo sui `slug` canonici duplicati
+    - aggiunto controllo su esistenza/coerenza di `data/catalog.games.v1.json`
+      - `schemaVersion`
+      - conteggio giochi
+      - `stats.games`
+      - `featuredIndieId`
+  - `.github/workflows/update.yml`
+    - il commit automatico ora include anche:
+      - `data/catalog.games.v1.json`
+- Scelta intenzionale:
+  - il runtime del sito continua a usare `games.js`
+  - il nuovo artifact canonico e interno e preparatorio, non ancora consumato dal frontend
+  - questo riduce il rischio mentre apre la strada a future integrazioni IGDB/RAWG/Steam/Co-Optimus
+- Verifiche eseguite da Codex:
+  - `python3 build_static_pages.py`
+  - `python3 validate_catalog.py`
+  - `python3 -m py_compile build_static_pages.py auto_update.py validate_catalog.py fetch_free_games.py validate_free_games.py catalog_data.py`
+- Risultato verifiche:
+  - `311` pagine statiche rigenerate correttamente
+  - `data/catalog.games.v1.json` generato correttamente con `schemaVersion = 1`, `311` giochi, `featuredIndieId = 24`
+  - validazione passata
+- Prossimo passo naturale:
+  - estrarre il runtime search/filter verso lettura da `games.json` o da un export pubblico derivato dal nuovo layer canonico

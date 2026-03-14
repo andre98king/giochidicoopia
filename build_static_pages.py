@@ -11,12 +11,10 @@ from __future__ import annotations
 import datetime
 import html
 import json
-import pathlib
-import re
 
+import catalog_data
 
-ROOT = pathlib.Path(__file__).resolve().parent
-GAMES_JS = ROOT / "games.js"
+ROOT = catalog_data.ROOT
 GAMES_DIR = ROOT / "games"
 SITEMAP = ROOT / "sitemap.xml"
 SITE_URL = "https://coophubs.net"
@@ -25,26 +23,6 @@ CURRENT_YEAR = datetime.date.today().year
 ASSET_VERSION = "20260314-cachefix1"
 # Crossplay data is still collected internally, but the UI stays hidden until the source is trustworthy.
 CROSSPLAY_UI_ENABLED = False
-
-
-def ef(block: str, field: str):
-    match = re.search(
-        rf'{field}:\s*("(?:[^"\\]|\\.)*"|\[.*?\]|true|false|-?\d+)',
-        block,
-        re.DOTALL,
-    )
-    if not match:
-        return None
-    value = match.group(1)
-    if value == "true":
-        return True
-    if value == "false":
-        return False
-    if re.fullmatch(r"-?\d+", value):
-        return int(value)
-    if value.startswith("["):
-        return re.findall(r'"([^"]+)"', value)
-    return value.strip('"').replace('\\"', '"')
 
 
 def esc(value) -> str:
@@ -110,35 +88,7 @@ def rating_label_en(rating: int) -> str:
 
 
 def load_games():
-    content = GAMES_JS.read_text(encoding="utf-8")
-    blocks = re.findall(r"\{[^{}]*\}", content, re.DOTALL)
-    games = []
-    for block in blocks:
-        game = {
-            "id": ef(block, "id"),
-            "title": ef(block, "title") or "",
-            "categories": ef(block, "categories") or [],
-            "genres": ef(block, "genres") or [],
-            "coopMode": ef(block, "coopMode") or ["online"],
-            "maxPlayers": ef(block, "maxPlayers") or 4,
-            "crossplay": ef(block, "crossplay") or False,
-            "players": ef(block, "players") or "1-4",
-            "image": ef(block, "image") or "",
-            "description": ef(block, "description") or "",
-            "description_en": ef(block, "description_en") or "",
-            "personalNote": ef(block, "personalNote") or "",
-            "played": ef(block, "played") or False,
-            "steamUrl": ef(block, "steamUrl") or "",
-            "epicUrl": ef(block, "epicUrl") or "",
-            "itchUrl": ef(block, "itchUrl") or "",
-            "ccu": ef(block, "ccu") or 0,
-            "trending": ef(block, "trending") or False,
-            "rating": ef(block, "rating") or 0,
-        }
-        if game["id"] is not None:
-            games.append(game)
-    games.sort(key=lambda item: item["id"])
-    return games
+    return catalog_data.load_games()
 
 
 def page_url(game: dict) -> str:
@@ -494,10 +444,12 @@ def write_sitemap(games):
 
 def main():
     games = load_games()
+    artifact_path = catalog_data.write_catalog_artifact(games)
     write_pages(games)
     write_sitemap(games)
     print(f"Built {len(games)} static game pages in {GAMES_DIR}")
     print(f"Updated sitemap: {SITEMAP}")
+    print(f"Wrote canonical catalog artifact: {artifact_path}")
 
 
 if __name__ == "__main__":

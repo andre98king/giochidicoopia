@@ -9,9 +9,11 @@ plus the Python standard library so it can run in CI without extra setup.
 from __future__ import annotations
 
 import collections
+import json
 import xml.etree.ElementTree as ET
 
 import build_static_pages
+import catalog_data
 
 
 INFO_PAGES = ("index.html", "about.html", "contact.html", "free.html", "privacy.html", "game.html")
@@ -48,7 +50,7 @@ def main() -> int:
         if not (build_static_pages.ROOT / page).is_file():
             errors.append(f"Missing required page: {page}")
 
-    games = build_static_pages.load_games()
+    games = catalog_data.load_games()
     if len(games) < 50:
         errors.append(f"Suspiciously low catalog size: {len(games)} games")
 
@@ -58,6 +60,12 @@ def main() -> int:
     )
     if duplicate_ids:
         errors.append(f"Duplicate game ids: {short_list(duplicate_ids)}")
+
+    duplicate_slugs = sorted(
+        slug for slug, count in collections.Counter(game["slug"] for game in games).items() if count > 1
+    )
+    if duplicate_slugs:
+        errors.append(f"Duplicate canonical slugs: {short_list(duplicate_slugs)}")
 
     missing_required = []
     invalid_store_urls = []
@@ -119,6 +127,42 @@ def main() -> int:
     if page_errors:
         errors.append(f"Static page validation errors: {short_list(page_errors)}")
 
+    if not catalog_data.CATALOG_JSON.is_file():
+        errors.append(f"Missing canonical catalog artifact: {catalog_data.CATALOG_JSON.name}")
+    else:
+        try:
+            artifact = json.loads(catalog_data.CATALOG_JSON.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as exc:
+            errors.append(f"Canonical catalog artifact is not valid JSON: {exc}")
+            artifact = None
+
+        if isinstance(artifact, dict):
+            if artifact.get("schemaVersion") != catalog_data.SCHEMA_VERSION:
+                errors.append(
+                    "Canonical catalog artifact schemaVersion mismatch: "
+                    f"{artifact.get('schemaVersion')} != {catalog_data.SCHEMA_VERSION}"
+                )
+
+            artifact_games = artifact.get("games")
+            if not isinstance(artifact_games, list):
+                errors.append("Canonical catalog artifact is missing the games array")
+            else:
+                if len(artifact_games) != len(games):
+                    errors.append(
+                        "Canonical catalog artifact game count mismatch: "
+                        f"{len(artifact_games)} != {len(games)}"
+                    )
+
+            stats = artifact.get("stats")
+            if not isinstance(stats, dict) or stats.get("games") != len(games):
+                errors.append("Canonical catalog artifact stats.games does not match the catalog size")
+
+            featured_indie_id = artifact.get("featuredIndieId")
+            if featured_indie_id is not None and featured_indie_id not in set(ids):
+                errors.append(
+                    f"Canonical catalog artifact references missing featuredIndieId: {featured_indie_id}"
+                )
+
     try:
         tree = ET.parse(build_static_pages.SITEMAP)
     except ET.ParseError as exc:
@@ -156,7 +200,10 @@ def main() -> int:
             f"{crossplay_count} games are flagged as crossplay internally, but the UI remains intentionally hidden pending manual validation of the source."
         )
 
-    print(f"Validated catalog: {len(games)} games, {len(generated_pages)} static pages")
+    print(
+        f"Validated catalog: {len(games)} games, {len(generated_pages)} static pages, "
+        f"artifact {catalog_data.CATALOG_JSON.name}"
+    )
 
     for warning in warnings:
         print(f"WARNING: {warning}")
