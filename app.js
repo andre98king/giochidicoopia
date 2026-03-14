@@ -23,6 +23,7 @@ let wheelSpinning = false;
 let isAdmin = false;
 let catalogGames = [];
 let featuredIndieGameId = null;
+let legacyCatalogScriptPromise = null;
 
 // ===== FILTER CONFIG =====
 const genreFilters = [
@@ -59,6 +60,28 @@ function getLegacyCatalogFallback() {
   };
 }
 
+async function loadLegacyCatalogScript() {
+  const existing = getLegacyCatalogFallback();
+  if (existing.games.length) return existing;
+  if (legacyCatalogScriptPromise) {
+    await legacyCatalogScriptPromise;
+    return getLegacyCatalogFallback();
+  }
+
+  const cacheBucket = Math.floor(Date.now() / 300000);
+  legacyCatalogScriptPromise = new Promise(resolve => {
+    const script = document.createElement('script');
+    script.src = `games.js?v=${cacheBucket}`;
+    script.async = true;
+    script.onload = resolve;
+    script.onerror = resolve;
+    document.head.appendChild(script);
+  });
+
+  await legacyCatalogScriptPromise;
+  return getLegacyCatalogFallback();
+}
+
 async function loadCatalogData() {
   const fallback = getLegacyCatalogFallback();
   catalogGames = fallback.games;
@@ -66,10 +89,13 @@ async function loadCatalogData() {
   window.catalogGames = catalogGames;
 
   const cacheBucket = Math.floor(Date.now() / 300000);
+  const controller = new AbortController();
+  const timeoutId = window.setTimeout(() => controller.abort(), 4000);
 
   try {
     const response = await fetch(`data/catalog.public.v1.json?v=${cacheBucket}`, {
       cache: 'no-store',
+      signal: controller.signal,
     });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
@@ -83,8 +109,14 @@ async function loadCatalogData() {
     window.catalogGames = catalogGames;
     window.dispatchEvent(new Event('catalogloaded'));
   } catch (error) {
+    const legacy = await loadLegacyCatalogScript();
+    catalogGames = legacy.games;
+    featuredIndieGameId = legacy.featuredIndieId;
+    window.catalogGames = catalogGames;
     console.warn('Catalog export unavailable, using legacy games.js fallback.', error);
     window.dispatchEvent(new Event('catalogfallback'));
+  } finally {
+    window.clearTimeout(timeoutId);
   }
 }
 

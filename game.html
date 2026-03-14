@@ -92,11 +92,11 @@
     </div>
   </footer>
 
-  <script src="games.js?v=20260314-cachefix1" defer></script>
   <script src="i18n.js?v=20260314-cachefix1" defer></script>
   <script src="particles.js?v=20260314-cachefix1" defer></script>
   <script>
     const CROSSPLAY_UI_ENABLED = false;
+    let legacyGameCatalogPromise = null;
 
     function esc(str) {
       if (!str) return '';
@@ -135,13 +135,38 @@
       return n.toString();
     }
 
-    async function loadGameCatalogData() {
-      const fallbackGames = Array.isArray(window.games) ? window.games : [];
+    async function loadLegacyGameCatalogScript() {
+      if (Array.isArray(window.games) && window.games.length) {
+        return window.games;
+      }
+      if (legacyGameCatalogPromise) {
+        await legacyGameCatalogPromise;
+        return Array.isArray(window.games) ? window.games : [];
+      }
+
       const cacheBucket = Math.floor(Date.now() / 300000);
+      legacyGameCatalogPromise = new Promise(resolve => {
+        const script = document.createElement('script');
+        script.src = `games.js?v=${cacheBucket}`;
+        script.async = true;
+        script.onload = resolve;
+        script.onerror = resolve;
+        document.head.appendChild(script);
+      });
+
+      await legacyGameCatalogPromise;
+      return Array.isArray(window.games) ? window.games : [];
+    }
+
+    async function loadGameCatalogData() {
+      const cacheBucket = Math.floor(Date.now() / 300000);
+      const controller = new AbortController();
+      const timeoutId = window.setTimeout(() => controller.abort(), 4000);
 
       try {
         const response = await fetch(`data/catalog.public.v1.json?v=${cacheBucket}`, {
-          cache: 'no-store'
+          cache: 'no-store',
+          signal: controller.signal
         });
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const payload = await response.json();
@@ -150,8 +175,11 @@
         }
         return payload.games;
       } catch (error) {
+        const fallbackGames = await loadLegacyGameCatalogScript();
         console.warn('Public catalog export unavailable for game fallback page, using games.js.', error);
         return fallbackGames;
+      } finally {
+        window.clearTimeout(timeoutId);
       }
     }
 

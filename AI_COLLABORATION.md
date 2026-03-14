@@ -879,3 +879,46 @@ Questo file serve come punto di handoff condiviso tra Codex e Claude Code.
   - in questo ambiente non c'e `node`, quindi il sanity check sul JS e stato statico/manuale e non tramite parser/test browser
 - Prossimo passo naturale:
   - quando il nuovo export pubblico sara stabile live, valutare la rimozione graduale del caricamento obbligatorio di `games.js` dalla home
+
+### 2026-03-14 - Codex - Rimozione dipendenza obbligatoria da games.js sul percorso normale
+
+- Follow-up sul blocco runtime precedente: la home e la fallback page non caricano piu `games.js` in modo statico sul percorso normale.
+- Obiettivo:
+  - usare `data/catalog.public.v1.json` come sorgente primaria reale lato runtime
+  - lasciare `games.js` solo come fallback di emergenza
+  - evitare che la home scarichi sempre il bundle legacy da ~300 KB quando l'export pubblico e disponibile
+- Modifiche implementate:
+  - `index.html`
+    - rimosso il tag script statico:
+      - `games.js?v=...`
+  - `app.js`
+    - aggiunta `loadLegacyCatalogScript()`
+      - carica `games.js` dinamicamente solo se serve davvero
+    - `loadCatalogData()`
+      - prova prima `data/catalog.public.v1.json`
+      - se fallisce o va in timeout (`4s`), carica dinamicamente `games.js`
+      - poi aggiorna:
+        - `catalogGames`
+        - `featuredIndieGameId`
+  - `game.html`
+    - rimosso il tag script statico:
+      - `games.js?v=...`
+    - aggiunta `loadLegacyGameCatalogScript()`
+    - `loadGameCatalogData()`
+      - timeout `4s` sul fetch del catalogo pubblico
+      - fallback dinamico a `games.js` solo se necessario
+- Effetto pratico atteso:
+  - percorso normale:
+    - `catalog.public.v1.json`
+  - percorso di emergenza:
+    - `games.js`
+  - la migrazione dal formato legacy e ora piu reale, non solo concettuale
+- Verifiche eseguite da Codex:
+  - `python3 validate_catalog.py`
+  - `python3 -m py_compile build_static_pages.py auto_update.py validate_catalog.py fetch_free_games.py validate_free_games.py catalog_data.py`
+- Risultato verifiche:
+  - validazione catalogo ok
+  - nessuna regressione Python
+- Limite noto:
+  - in questo ambiente non sono disponibili test browser automatici o parse JS con `node`
+  - serve QA manuale mirato su homepage e `game.html` per confermare il fallback runtime
