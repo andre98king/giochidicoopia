@@ -37,6 +37,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "Nessuna modifica da committare."
           else
-            git commit -m "🤖 Auto-update database giochi [skip ci]"
+            git commit -m "🤖 Auto-update database giochi"
             git push
           fi
