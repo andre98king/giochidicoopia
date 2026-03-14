@@ -116,10 +116,7 @@
   <script>
     const GAME_DATA = {"description": "Gang Beasts è un gioco multiplayer locale demenziale con personaggi gelatinosi, controlli corporei fisici goffi e livelli ambientali pericolosi. Combatti in arene assurde e butta fuori gli avversari nel modo più caotico possibile.", "description_en": "Gang Beasts is a silly multiplayer party game with surly gelatinous characters, brutal slapstick fight sequences, and absurd hazardous environments, set in the mean streets of Beef City."};
 
-    document.addEventListener('DOMContentLoaded', () => {
-      document.documentElement.lang = currentLang;
-      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
-
+    function applyGameTranslations() {
       const isEn = currentLang === 'en';
       const desc = isEn && GAME_DATA.description_en ? GAME_DATA.description_en : GAME_DATA.description;
       const metaDesc = desc.slice(0, 320);
@@ -158,7 +155,15 @@
       document.querySelector('meta[name="description"]').content = metaDesc;
       document.querySelector('meta[property="og:description"]').content = metaDesc;
       document.querySelector('meta[name="twitter:description"]').content = metaDesc;
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.documentElement.lang = currentLang;
+      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
+      applyGameTranslations();
     });
+
+    window.addEventListener('langchange', applyGameTranslations);
   </script>
 </body>
 </html>

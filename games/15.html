@@ -116,10 +116,7 @@
   <script>
     const GAME_DATA = {"description": "Destiny 2 è un MMO d'azione con un unico mondo in continua evoluzione, accessibile ovunque, gratuitamente e in qualsiasi momento con gli amici.", "description_en": "Destiny 2 is an action MMO with a single evolving world that you and your friends can join anytime, anywhere, absolutely free."};
 
-    document.addEventListener('DOMContentLoaded', () => {
-      document.documentElement.lang = currentLang;
-      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
-
+    function applyGameTranslations() {
       const isEn = currentLang === 'en';
       const desc = isEn && GAME_DATA.description_en ? GAME_DATA.description_en : GAME_DATA.description;
       const metaDesc = desc.slice(0, 320);
@@ -158,7 +155,15 @@
       document.querySelector('meta[name="description"]').content = metaDesc;
       document.querySelector('meta[property="og:description"]').content = metaDesc;
       document.querySelector('meta[name="twitter:description"]').content = metaDesc;
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.documentElement.lang = currentLang;
+      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
+      applyGameTranslations();
     });
+
+    window.addEventListener('langchange', applyGameTranslations);
   </script>
 </body>
 </html>

@@ -116,10 +116,7 @@
   <script>
     const GAME_DATA = {"description": "Il Nuovo Mondo ti attende! \"Monster Hunter: World\", il capitolo più recente di questa epica saga, offre un'esperienza ancora più ricca e immersiva. Dai la caccia a una schiera di mostri in un nuovo mondo pieno di emozionanti sorprese.", "description_en": "Welcome to a new world! In Monster Hunter: World, the latest installment in the series, you can enjoy the ultimate hunting experience, using everything at your disposal to hunt monsters in a new world teeming with surprises and excitement."};
 
-    document.addEventListener('DOMContentLoaded', () => {
-      document.documentElement.lang = currentLang;
-      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
-
+    function applyGameTranslations() {
       const isEn = currentLang === 'en';
       const desc = isEn && GAME_DATA.description_en ? GAME_DATA.description_en : GAME_DATA.description;
       const metaDesc = desc.slice(0, 320);
@@ -158,7 +155,15 @@
       document.querySelector('meta[name="description"]').content = metaDesc;
       document.querySelector('meta[property="og:description"]').content = metaDesc;
       document.querySelector('meta[name="twitter:description"]').content = metaDesc;
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.documentElement.lang = currentLang;
+      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
+      applyGameTranslations();
     });
+
+    window.addEventListener('langchange', applyGameTranslations);
   </script>
 </body>
 </html>

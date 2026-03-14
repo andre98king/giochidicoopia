@@ -116,10 +116,7 @@
   <script>
     const GAME_DATA = {"description": "Le stagioni dinamiche cambiano tutto nel festival automobilistico più grande del mondo. Gareggia in solitaria o fai squadra per esplorare la bellissima e storica Gran Bretagna in un mondo aperto e condiviso.", "description_en": "Dynamic seasons change everything at the world’s greatest automotive festival. Go it alone or team up with others to explore beautiful and historic Britain in a shared open world."};
 
-    document.addEventListener('DOMContentLoaded', () => {
-      document.documentElement.lang = currentLang;
-      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
-
+    function applyGameTranslations() {
       const isEn = currentLang === 'en';
       const desc = isEn && GAME_DATA.description_en ? GAME_DATA.description_en : GAME_DATA.description;
       const metaDesc = desc.slice(0, 320);
@@ -158,7 +155,15 @@
       document.querySelector('meta[name="description"]').content = metaDesc;
       document.querySelector('meta[property="og:description"]').content = metaDesc;
       document.querySelector('meta[name="twitter:description"]').content = metaDesc;
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.documentElement.lang = currentLang;
+      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
+      applyGameTranslations();
     });
+
+    window.addEventListener('langchange', applyGameTranslations);
   </script>
 </body>
 </html>

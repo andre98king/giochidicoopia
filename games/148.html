@@ -116,10 +116,7 @@
   <script>
     const GAME_DATA = {"description": "Un sandbox di sopravvivenza in stile Terraria visto dall'alto, ambientato in un vasto sistema di grotte dove fino a otto giocatori esplorano, minano e costruiscono per scoprire i segreti di un antico nucleo. Boss da sconfiggere, risorse da raccogliere e un gameplay progressivo che mantiene alta la motivazione. Perfetto per sessioni co-op rilassanti e profonde.", "description_en": "Explore a vast cavern of creatures, relics and resources in a mining sandbox adventure for 1-8 players. Mine, build, fight, craft and farm to unravel the mystery of the ancient Core."};
 
-    document.addEventListener('DOMContentLoaded', () => {
-      document.documentElement.lang = currentLang;
-      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
-
+    function applyGameTranslations() {
       const isEn = currentLang === 'en';
       const desc = isEn && GAME_DATA.description_en ? GAME_DATA.description_en : GAME_DATA.description;
       const metaDesc = desc.slice(0, 320);
@@ -158,7 +155,15 @@
       document.querySelector('meta[name="description"]').content = metaDesc;
       document.querySelector('meta[property="og:description"]').content = metaDesc;
       document.querySelector('meta[name="twitter:description"]').content = metaDesc;
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.documentElement.lang = currentLang;
+      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
+      applyGameTranslations();
     });
+
+    window.addEventListener('langchange', applyGameTranslations);
   </script>
 </body>
 </html>

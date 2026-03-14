@@ -116,10 +116,7 @@
   <script>
     const GAME_DATA = {"description": "In questo innovativo action RPG dai creatori di Guacamelee, potrai trasformarti da un nessuno privo di segni particolari in una LUMACA, un FANTASMA e perfino un DRAGO! Scopri oltre 15 Aspetti unici, mescola le loro abilità, supera le segrete in continua evoluzione e... SALVA IL MONDO!", "description_en": "Transform from a featureless nobody into a SLUG, a GHOST and a DRAGON in this new take on Action RPGs from the creators of Guacamelee! Discover 15+ distinct Forms, mix-and-match their abilities, clear evolving dungeons and... SAVE THE WORLD!?"};
 
-    document.addEventListener('DOMContentLoaded', () => {
-      document.documentElement.lang = currentLang;
-      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
-
+    function applyGameTranslations() {
       const isEn = currentLang === 'en';
       const desc = isEn && GAME_DATA.description_en ? GAME_DATA.description_en : GAME_DATA.description;
       const metaDesc = desc.slice(0, 320);
@@ -158,7 +155,15 @@
       document.querySelector('meta[name="description"]').content = metaDesc;
       document.querySelector('meta[property="og:description"]').content = metaDesc;
       document.querySelector('meta[name="twitter:description"]').content = metaDesc;
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.documentElement.lang = currentLang;
+      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
+      applyGameTranslations();
     });
+
+    window.addEventListener('langchange', applyGameTranslations);
   </script>
 </body>
 </html>

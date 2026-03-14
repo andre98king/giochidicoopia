@@ -116,10 +116,7 @@
   <script>
     const GAME_DATA = {"description": "Boomerang Fu è un gioco party frenetico in cui fino a 6 giocatori si sfidano lanciando boomerang in arene colorate. Rimbalza i tuoi boomerang sulle pareti, combina power-up folli e domina il campo di battaglia.", "description_en": "Explore a beautiful open world, full of horses and other animals. Or just enjoy the beautiful view while riding. In the world of Horse Riding Deluxe you and your horses have no limits. But train and care for your horses well because the various races will demand everything from you!"};
 
-    document.addEventListener('DOMContentLoaded', () => {
-      document.documentElement.lang = currentLang;
-      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
-
+    function applyGameTranslations() {
       const isEn = currentLang === 'en';
       const desc = isEn && GAME_DATA.description_en ? GAME_DATA.description_en : GAME_DATA.description;
       const metaDesc = desc.slice(0, 320);
@@ -158,7 +155,15 @@
       document.querySelector('meta[name="description"]').content = metaDesc;
       document.querySelector('meta[property="og:description"]').content = metaDesc;
       document.querySelector('meta[name="twitter:description"]').content = metaDesc;
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.documentElement.lang = currentLang;
+      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
+      applyGameTranslations();
     });
+
+    window.addEventListener('langchange', applyGameTranslations);
   </script>
 </body>
 </html>

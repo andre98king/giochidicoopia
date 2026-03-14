@@ -116,10 +116,7 @@
   <script>
     const GAME_DATA = {"description": "Costruttore. Agricoltore. Cacciatore. Commerciante. Occuparsi di un ranch non è certo il tuo lavoro abituale. Pensi di essere in grado di trasformare la fattoria in rovina della tua famiglia nel migliore ranch della valle?", "description_en": "Builder. Farmer. Hunter. Trader. Ranching certainly isn’t your average job. Think you have the skills to turn your family’s rundown homestead into the most prosperous ranch in the valley? Then it’s time to head out into the wilderness in this captivating single and multiplayer open-world simulator."};
 
-    document.addEventListener('DOMContentLoaded', () => {
-      document.documentElement.lang = currentLang;
-      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
-
+    function applyGameTranslations() {
       const isEn = currentLang === 'en';
       const desc = isEn && GAME_DATA.description_en ? GAME_DATA.description_en : GAME_DATA.description;
       const metaDesc = desc.slice(0, 320);
@@ -158,7 +155,15 @@
       document.querySelector('meta[name="description"]').content = metaDesc;
       document.querySelector('meta[property="og:description"]').content = metaDesc;
       document.querySelector('meta[name="twitter:description"]').content = metaDesc;
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.documentElement.lang = currentLang;
+      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
+      applyGameTranslations();
     });
+
+    window.addEventListener('langchange', applyGameTranslations);
   </script>
 </body>
 </html>

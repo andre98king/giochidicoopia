@@ -116,10 +116,7 @@
   <script>
     const GAME_DATA = {"description": "Vivi un'intensa esperienza di sopravvivenza in mondo aperto mentre cerchi di restare in vita su un'isola spietata abitata da dinosauri! Caccia, cresci ed evolvi il tuo dinosauro per dominare l'ecosistema.", "description_en": "Experience fierce open world survival gameplay as you attempt to stay alive on an unforgiving island inhabited by dinosaurs! Hunt. Grow. Survive."};
 
-    document.addEventListener('DOMContentLoaded', () => {
-      document.documentElement.lang = currentLang;
-      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
-
+    function applyGameTranslations() {
       const isEn = currentLang === 'en';
       const desc = isEn && GAME_DATA.description_en ? GAME_DATA.description_en : GAME_DATA.description;
       const metaDesc = desc.slice(0, 320);
@@ -158,7 +155,15 @@
       document.querySelector('meta[name="description"]').content = metaDesc;
       document.querySelector('meta[property="og:description"]').content = metaDesc;
       document.querySelector('meta[name="twitter:description"]').content = metaDesc;
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.documentElement.lang = currentLang;
+      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
+      applyGameTranslations();
     });
+
+    window.addEventListener('langchange', applyGameTranslations);
   </script>
 </body>
 </html>

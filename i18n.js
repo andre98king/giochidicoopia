@@ -534,6 +534,7 @@ function setLang(lang) {
   if (typeof renderGames === "function") renderGames();
   if (typeof updateStats === "function") updateStats();
   if (typeof renderFeatured === "function") renderFeatured();
+  window.dispatchEvent(new Event("langchange"));
 }
 
 // ===== APPLY STATIC TRANSLATIONS =====

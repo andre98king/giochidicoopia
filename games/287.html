@@ -116,10 +116,7 @@
   <script>
     const GAME_DATA = {"description": "Children of Morta è un gioco di ruolo d'azione basato sulla trama di una straordinaria famiglia di eroi. Guida i Bergson, con tutte le loro colpe e virtù, contro l'imminente Corruzione. Sarai in grado di sacrificare tutto per salvare le persone a cui tieni?", "description_en": "Children of Morta is a story-driven action RPG game about an extraordinary family of heroes. Lead the Bergsons, with all their flaws and virtues, against the forthcoming Corruption. Will you be able to sacrifice everything to save the ones you care for?"};
 
-    document.addEventListener('DOMContentLoaded', () => {
-      document.documentElement.lang = currentLang;
-      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
-
+    function applyGameTranslations() {
       const isEn = currentLang === 'en';
       const desc = isEn && GAME_DATA.description_en ? GAME_DATA.description_en : GAME_DATA.description;
       const metaDesc = desc.slice(0, 320);
@@ -158,7 +155,15 @@
       document.querySelector('meta[name="description"]').content = metaDesc;
       document.querySelector('meta[property="og:description"]').content = metaDesc;
       document.querySelector('meta[name="twitter:description"]').content = metaDesc;
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.documentElement.lang = currentLang;
+      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
+      applyGameTranslations();
     });
+
+    window.addEventListener('langchange', applyGameTranslations);
   </script>
 </body>
 </html>

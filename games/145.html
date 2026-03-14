@@ -116,10 +116,7 @@
   <script>
     const GAME_DATA = {"description": "Un gioco cooperativo horror per quattro giocatori dove bisogna registrare filmati spaventosi di mostri sotterranei e caricarli su 'SpookTube' per guadagnare visualizzazioni. La premessa originale unisce l'horror al concetto dei social media, creando momenti esilaranti e terrificanti. Fenomeno co-op del 2024, distribuito inizialmente gratis.", "description_en": "Film your friends doing scary things to become SpöökTube famous! (strongly advised to not go alone)"};
 
-    document.addEventListener('DOMContentLoaded', () => {
-      document.documentElement.lang = currentLang;
-      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
-
+    function applyGameTranslations() {
       const isEn = currentLang === 'en';
       const desc = isEn && GAME_DATA.description_en ? GAME_DATA.description_en : GAME_DATA.description;
       const metaDesc = desc.slice(0, 320);
@@ -158,7 +155,15 @@
       document.querySelector('meta[name="description"]').content = metaDesc;
       document.querySelector('meta[property="og:description"]').content = metaDesc;
       document.querySelector('meta[name="twitter:description"]').content = metaDesc;
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.documentElement.lang = currentLang;
+      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
+      applyGameTranslations();
     });
+
+    window.addEventListener('langchange', applyGameTranslations);
   </script>
 </body>
 </html>

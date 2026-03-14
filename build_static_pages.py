@@ -378,10 +378,7 @@ def render_static_page(game: dict) -> str:
   <script>
     const GAME_DATA = {json_for_script(script_data)};
 
-    document.addEventListener('DOMContentLoaded', () => {{
-      document.documentElement.lang = currentLang;
-      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
-
+    function applyGameTranslations() {{
       const isEn = currentLang === 'en';
       const desc = isEn && GAME_DATA.description_en ? GAME_DATA.description_en : GAME_DATA.description;
       const metaDesc = desc.slice(0, 320);
@@ -420,7 +417,15 @@ def render_static_page(game: dict) -> str:
       document.querySelector('meta[name="description"]').content = metaDesc;
       document.querySelector('meta[property="og:description"]').content = metaDesc;
       document.querySelector('meta[name="twitter:description"]').content = metaDesc;
+    }}
+
+    document.addEventListener('DOMContentLoaded', () => {{
+      document.documentElement.lang = currentLang;
+      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
+      applyGameTranslations();
     }});
+
+    window.addEventListener('langchange', applyGameTranslations);
   </script>
 </body>
 </html>

@@ -116,10 +116,7 @@
   <script>
     const GAME_DATA = {"description": "Phogs! è un puzzle-platformer co-op dove controlli Red e Blue, due teste di cane unite da un unico corpo allungabile. Risolvi enigmi creativi nei mondi del Cibo, del Sonno e della Paura coordinandoti con il tuo compagno.", "description_en": "In PHOGS! you play as a duo of dogs on a captivating, puzzle-filled adventure. Linked by a stretchy belly, you’ll need to bark, bite and bounce your way through obstacles set across the themed worlds of Food, Sleep and Play, in co-op or single-player."};
 
-    document.addEventListener('DOMContentLoaded', () => {
-      document.documentElement.lang = currentLang;
-      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
-
+    function applyGameTranslations() {
       const isEn = currentLang === 'en';
       const desc = isEn && GAME_DATA.description_en ? GAME_DATA.description_en : GAME_DATA.description;
       const metaDesc = desc.slice(0, 320);
@@ -158,7 +155,15 @@
       document.querySelector('meta[name="description"]').content = metaDesc;
       document.querySelector('meta[property="og:description"]').content = metaDesc;
       document.querySelector('meta[name="twitter:description"]').content = metaDesc;
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.documentElement.lang = currentLang;
+      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
+      applyGameTranslations();
     });
+
+    window.addEventListener('langchange', applyGameTranslations);
   </script>
 </body>
 </html>

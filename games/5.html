@@ -116,10 +116,7 @@
   <script>
     const GAME_DATA = {"description": "Rainbow Six® Siege è lo sparatutto tattico a squadre per eccellenza, in cui strategia ed esecuzione di alto livello fanno la differenza. Accedi gratuitamente alle modalità di gioco Partita veloce, Non classificata e Dual Front con una selezione di operatori.", "description_en": "Rainbow Six® Siege is the reference in tactical team shooters, where elite strategy and execution triumph. Enjoy free access to Quick Match, Unranked, and Dual Front game modes with a selection of operators."};
 
-    document.addEventListener('DOMContentLoaded', () => {
-      document.documentElement.lang = currentLang;
-      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
-
+    function applyGameTranslations() {
       const isEn = currentLang === 'en';
       const desc = isEn && GAME_DATA.description_en ? GAME_DATA.description_en : GAME_DATA.description;
       const metaDesc = desc.slice(0, 320);
@@ -158,7 +155,15 @@
       document.querySelector('meta[name="description"]').content = metaDesc;
       document.querySelector('meta[property="og:description"]').content = metaDesc;
       document.querySelector('meta[name="twitter:description"]').content = metaDesc;
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.documentElement.lang = currentLang;
+      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
+      applyGameTranslations();
     });
+
+    window.addEventListener('langchange', applyGameTranslations);
   </script>
 </body>
 </html>

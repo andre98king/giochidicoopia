@@ -116,10 +116,7 @@
   <script>
     const GAME_DATA = {"description": "Uno sparatutto cooperativo in terza persona nell'universo di Alien, dove un gruppo di marines deve resistere a ondate di Xenomorfi letali. Cinque classi distinte con abilità uniche, un sistema di progressione profondo e un'atmosfera horror fedele ai film originali. Ideale per i fan della saga e per chi ama gli sparatutto co-op.", "description_en": "Aliens: Fireteam Elite is a cooperative third-person survival game set in the iconic Alien Universe. Battle through hordes of different types of Xenomorph, customize your character and gear, and level-up as you try to contain this ever-growing threat."};
 
-    document.addEventListener('DOMContentLoaded', () => {
-      document.documentElement.lang = currentLang;
-      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
-
+    function applyGameTranslations() {
       const isEn = currentLang === 'en';
       const desc = isEn && GAME_DATA.description_en ? GAME_DATA.description_en : GAME_DATA.description;
       const metaDesc = desc.slice(0, 320);
@@ -158,7 +155,15 @@
       document.querySelector('meta[name="description"]').content = metaDesc;
       document.querySelector('meta[property="og:description"]').content = metaDesc;
       document.querySelector('meta[name="twitter:description"]').content = metaDesc;
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.documentElement.lang = currentLang;
+      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
+      applyGameTranslations();
     });
+
+    window.addEventListener('langchange', applyGameTranslations);
   </script>
 </body>
 </html>

@@ -116,10 +116,7 @@
   <script>
     const GAME_DATA = {"description": "Il celebre franchise di Sniper Elite torna con un nuovo protagonista. Infiltrati nella Francia occupata e unisciti alla Resistenza per impedire ai nazisti di sviluppare una nuova, insidiosa arma che potrebbe stravolgere le sorti della guerra.", "description_en": "Offering unparalleled sniping mechanics, stealth and tactical third-person combat, Sniper Elite: Resistance turns the attention of the award-winning series towards a hidden war, far from the front lines, deep within the heart of occupied France."};
 
-    document.addEventListener('DOMContentLoaded', () => {
-      document.documentElement.lang = currentLang;
-      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
-
+    function applyGameTranslations() {
       const isEn = currentLang === 'en';
       const desc = isEn && GAME_DATA.description_en ? GAME_DATA.description_en : GAME_DATA.description;
       const metaDesc = desc.slice(0, 320);
@@ -158,7 +155,15 @@
       document.querySelector('meta[name="description"]').content = metaDesc;
       document.querySelector('meta[property="og:description"]').content = metaDesc;
       document.querySelector('meta[name="twitter:description"]').content = metaDesc;
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.documentElement.lang = currentLang;
+      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
+      applyGameTranslations();
     });
+
+    window.addEventListener('langchange', applyGameTranslations);
   </script>
 </body>
 </html>

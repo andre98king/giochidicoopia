@@ -116,10 +116,7 @@
   <script>
     const GAME_DATA = {"description": "Patch Quest è uno sparatutto con elementi rogue-like, bullet-hell, metroidvania e collezionismo di mostri unico nel suo genere. Prendi il tuo lazo e preparati ad acciuffare mostri e a combatterne altri mentre esplori un labirinto patchwork sempre nuovo.", "description_en": "In a labyrinth surrounded by vicious monsters, Explorers must rely on their Lasso to survive! Capture and tame ANY monster to leap, glide, surf, tunnel and websling through a treacherous, patchwork maze. This roguelike/metroidvania seems cute, but it’s a deceptively difficult bullet-hell challenge!"};
 
-    document.addEventListener('DOMContentLoaded', () => {
-      document.documentElement.lang = currentLang;
-      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
-
+    function applyGameTranslations() {
       const isEn = currentLang === 'en';
       const desc = isEn && GAME_DATA.description_en ? GAME_DATA.description_en : GAME_DATA.description;
       const metaDesc = desc.slice(0, 320);
@@ -158,7 +155,15 @@
       document.querySelector('meta[name="description"]').content = metaDesc;
       document.querySelector('meta[property="og:description"]').content = metaDesc;
       document.querySelector('meta[name="twitter:description"]').content = metaDesc;
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.documentElement.lang = currentLang;
+      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
+      applyGameTranslations();
     });
+
+    window.addEventListener('langchange', applyGameTranslations);
   </script>
 </body>
 </html>

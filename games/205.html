@@ -116,10 +116,7 @@
   <script>
     const GAME_DATA = {"description": "Avventurati con gli amici su un pianeta sconosciuto. Usa lo scambio di colore, lo sparo match-3 e i poteri dei manufatti per superare le sfide e continuare ad avanzare. Ti attende un'avventura ricca di meraviglia, speranza e molto altro da scoprire!", "description_en": "Venture together with your friends on an unknown planet. Use color switching, match-3 shooting, and artifact powers to overcome challenges and keep advancing. What lies ahead of you is an adventure filled with wonder, hope, and much more to discover!"};
 
-    document.addEventListener('DOMContentLoaded', () => {
-      document.documentElement.lang = currentLang;
-      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
-
+    function applyGameTranslations() {
       const isEn = currentLang === 'en';
       const desc = isEn && GAME_DATA.description_en ? GAME_DATA.description_en : GAME_DATA.description;
       const metaDesc = desc.slice(0, 320);
@@ -158,7 +155,15 @@
       document.querySelector('meta[name="description"]').content = metaDesc;
       document.querySelector('meta[property="og:description"]').content = metaDesc;
       document.querySelector('meta[name="twitter:description"]').content = metaDesc;
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.documentElement.lang = currentLang;
+      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
+      applyGameTranslations();
     });
+
+    window.addEventListener('langchange', applyGameTranslations);
   </script>
 </body>
 </html>

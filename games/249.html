@@ -116,10 +116,7 @@
   <script>
     const GAME_DATA = {"description": "Un gioco da divano/online dove combatti con i tuoi amici con uniche e folli abilità. Ci sono molte scelte come un raggio restringente, creare un buco nero, fermare il tempo e attaccare un razzo alla mappa per farla volare. Scegli una combinazione che sinergizza bene e vinci il round!", "description_en": "A couch/online game where you battle your friends with unique and wild abilities. There are many choices such as a shrink ray, creating black holes, stopping time and attaching a rocket engine to the stage to send it flying. Choose a combination that synergizes well to win the round!"};
 
-    document.addEventListener('DOMContentLoaded', () => {
-      document.documentElement.lang = currentLang;
-      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
-
+    function applyGameTranslations() {
       const isEn = currentLang === 'en';
       const desc = isEn && GAME_DATA.description_en ? GAME_DATA.description_en : GAME_DATA.description;
       const metaDesc = desc.slice(0, 320);
@@ -158,7 +155,15 @@
       document.querySelector('meta[name="description"]').content = metaDesc;
       document.querySelector('meta[property="og:description"]').content = metaDesc;
       document.querySelector('meta[name="twitter:description"]').content = metaDesc;
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.documentElement.lang = currentLang;
+      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
+      applyGameTranslations();
     });
+
+    window.addEventListener('langchange', applyGameTranslations);
   </script>
 </body>
 </html>

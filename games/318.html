@@ -116,10 +116,7 @@
   <script>
     const GAME_DATA = {"description": "Rendi omaggio a The Bloodline in Showcase. Gareggia online in Il mio GM. Il gameplay esteso include wrestling intergender, mosse concatenate, tuffi dalle barricate, il ritorno di Promo e tanto altro!", "description_en": "Celebrate The Bloodline in Showcase. Compete online in MyGM. Expanded gameplay includes intergender wrestling, chain wrestling, barricade diving, the return of Promos + much more!"};
 
-    document.addEventListener('DOMContentLoaded', () => {
-      document.documentElement.lang = currentLang;
-      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
-
+    function applyGameTranslations() {
       const isEn = currentLang === 'en';
       const desc = isEn && GAME_DATA.description_en ? GAME_DATA.description_en : GAME_DATA.description;
       const metaDesc = desc.slice(0, 320);
@@ -158,7 +155,15 @@
       document.querySelector('meta[name="description"]').content = metaDesc;
       document.querySelector('meta[property="og:description"]').content = metaDesc;
       document.querySelector('meta[name="twitter:description"]').content = metaDesc;
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.documentElement.lang = currentLang;
+      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
+      applyGameTranslations();
     });
+
+    window.addEventListener('langchange', applyGameTranslations);
   </script>
 </body>
 </html>

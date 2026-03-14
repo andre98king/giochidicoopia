@@ -116,10 +116,7 @@
   <script>
     const GAME_DATA = {"description": "Scarica la tensione in uno sparatutto online free-to-play 7 contro 7! Guida centinaia di carri armati, dai classici da museo a modelli rimasti solo su carta, in rapide battaglie da 5 a 7 minuti di puro caos metallico. Gioca da solo o con un amico e goditi un'azione fluida anche su hardware modesti!", "description_en": "Blow off steam and tank turrets in a free-to-play online 7v7 tank shooter! Drive hundreds of tanks, from museum classics to &quot;did-that-ever-exist?&quot; specials, in quick 5 to 7-minute brawls packed with metal mayhem. Play solo or team up with a friend and enjoy smooth action even on modest hardware!"};
 
-    document.addEventListener('DOMContentLoaded', () => {
-      document.documentElement.lang = currentLang;
-      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
-
+    function applyGameTranslations() {
       const isEn = currentLang === 'en';
       const desc = isEn && GAME_DATA.description_en ? GAME_DATA.description_en : GAME_DATA.description;
       const metaDesc = desc.slice(0, 320);
@@ -158,7 +155,15 @@
       document.querySelector('meta[name="description"]').content = metaDesc;
       document.querySelector('meta[property="og:description"]').content = metaDesc;
       document.querySelector('meta[name="twitter:description"]').content = metaDesc;
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.documentElement.lang = currentLang;
+      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
+      applyGameTranslations();
     });
+
+    window.addEventListener('langchange', applyGameTranslations);
   </script>
 </body>
 </html>

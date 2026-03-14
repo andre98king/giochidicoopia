@@ -116,10 +116,7 @@
   <script>
     const GAME_DATA = {"description": "Un gioco multiplayer online gratuito ispirato alle sfide di sopravvivenza della popolare serie TV, dove decine di giocatori si affrontano in minigiochi frenetici. Creato da un singolo sviluppatore indie, è diventato virale su Twitch e YouTube per la sua immediata accessibilità e il caos che genera. Ideale per grandi gruppi di amici online.", "description_en": "Crab Game is a First-Person Multiplayer game where you play through several different minigames based on children's games, until only one player stands victorious."};
 
-    document.addEventListener('DOMContentLoaded', () => {
-      document.documentElement.lang = currentLang;
-      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
-
+    function applyGameTranslations() {
       const isEn = currentLang === 'en';
       const desc = isEn && GAME_DATA.description_en ? GAME_DATA.description_en : GAME_DATA.description;
       const metaDesc = desc.slice(0, 320);
@@ -158,7 +155,15 @@
       document.querySelector('meta[name="description"]').content = metaDesc;
       document.querySelector('meta[property="og:description"]').content = metaDesc;
       document.querySelector('meta[name="twitter:description"]').content = metaDesc;
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.documentElement.lang = currentLang;
+      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
+      applyGameTranslations();
     });
+
+    window.addEventListener('langchange', applyGameTranslations);
   </script>
 </body>
 </html>

@@ -116,10 +116,7 @@
   <script>
     const GAME_DATA = {"description": "Diventa la leggenda del golf in PGA TOUR 2K25! Tre Major da vincere, tutti insieme per la prima volta in 2K. Scopri la vasta gamma di personalizzazione per il tuo MyPLAYER, MyCAREER e Progettista di campi. Sfida gli amici in modalità classificata, casual e cross-platform.", "description_en": "Take your best shot at glory in PGA TOUR 2K25! In a 2K-first, compete in three prestigious major tournaments. Personalize your game with expanded MyCAREER, MyPLAYER and Course Designer options. Challenge friends across ranked, casual, and cross-platform multiplayer."};
 
-    document.addEventListener('DOMContentLoaded', () => {
-      document.documentElement.lang = currentLang;
-      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
-
+    function applyGameTranslations() {
       const isEn = currentLang === 'en';
       const desc = isEn && GAME_DATA.description_en ? GAME_DATA.description_en : GAME_DATA.description;
       const metaDesc = desc.slice(0, 320);
@@ -158,7 +155,15 @@
       document.querySelector('meta[name="description"]').content = metaDesc;
       document.querySelector('meta[property="og:description"]').content = metaDesc;
       document.querySelector('meta[name="twitter:description"]').content = metaDesc;
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.documentElement.lang = currentLang;
+      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
+      applyGameTranslations();
     });
+
+    window.addEventListener('langchange', applyGameTranslations);
   </script>
 </body>
 </html>

@@ -116,10 +116,7 @@
   <script>
     const GAME_DATA = {"description": "TowerFall Ascension è un gioco d'azione archer multiplayer in pixel art. Combatti in arene frenetiche con arco e frecce, raccogli power-up e sconfiggi i tuoi avversari in battaglie intense e veloci.", "description_en": "TowerFall Ascension is the definitive version of the hit archery combat game. Inspired by classics from the golden age of couch multiplayer, it's a 4-player local party game centering around hilarious, intense versus matches. The core mechanics are simple and accessible, but hard to master and combat is fierce."};
 
-    document.addEventListener('DOMContentLoaded', () => {
-      document.documentElement.lang = currentLang;
-      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
-
+    function applyGameTranslations() {
       const isEn = currentLang === 'en';
       const desc = isEn && GAME_DATA.description_en ? GAME_DATA.description_en : GAME_DATA.description;
       const metaDesc = desc.slice(0, 320);
@@ -158,7 +155,15 @@
       document.querySelector('meta[name="description"]').content = metaDesc;
       document.querySelector('meta[property="og:description"]').content = metaDesc;
       document.querySelector('meta[name="twitter:description"]').content = metaDesc;
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.documentElement.lang = currentLang;
+      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
+      applyGameTranslations();
     });
+
+    window.addEventListener('langchange', applyGameTranslations);
   </script>
 </body>
 </html>

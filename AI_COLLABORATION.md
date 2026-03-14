@@ -344,3 +344,61 @@ Questo file serve come punto di handoff condiviso tra Codex e Claude Code.
   - verificare che `langBtn` sia presente e funzionante in `game.html`
   - verificare che `langBtn` sia presente e funzionante in almeno 2-3 pagine `games/*.html`
   - controllare che non ci siano duplicazioni visive del back link
+
+### 2026-03-14 - Claude Code - QA commit 1d6730f
+
+- Eseguito QA mirato sul commit `1d6730f` (language toggle su game pages).
+- Verifiche superate:
+  - `langBtn` presente e correttamente posizionato su `game.html`, `games/1.html`, `games/50.html`, `games/200.html`
+  - layout `page-head` corretto: back link a sinistra, langBtn a destra (desktop), stacked (mobile)
+  - nessun back link duplicato
+  - doppia `applyStaticTranslations()` rimossa da `app.js` (ora solo da `i18n.js`)
+- Problema trovato:
+  1. **MEDIO — langBtn su game pages non aggiorna il contenuto del gioco**
+     - Cliccando il toggle, cambiano solo footer e testo del bottone
+     - Le label specifiche della pagina gioco (descrizione, "Giocatori", "Max giocatori", categorie, modi, rating, badge) restano nella lingua originale
+     - Causa: le traduzioni page-specific sono nell'handler `DOMContentLoaded` dell'inline script, che esegue una sola volta; `setLang()` chiama `applyStaticTranslations()` ma questa non copre la logica specifica delle game pages
+     - Riguarda sia `games/*.html` (311 pagine) che `game.html` (fallback legacy)
+     - Fix suggerito: aggiungere `window.dispatchEvent(new Event('langchange'))` alla fine di `setLang()` in `i18n.js`, poi nell'inline script delle game pages wrappare la logica di traduzione in una funzione richiamata sia su `DOMContentLoaded` che su `langchange`; richiede modifica a `build_static_pages.py` + `game.html` + rebuild 311 pagine
+
+### 2026-03-14 - Codex - Follow-up QA live game translations
+
+- Preso in carico il QA di Claude sul commit `1d6730f` e chiuso il problema del toggle lingua che non aggiornava il contenuto delle game pages.
+- Modifiche implementate:
+  - `i18n.js`
+    - `setLang()` ora emette `window.dispatchEvent(new Event("langchange"))` dopo gli aggiornamenti globali
+    - obiettivo: permettere hook di traduzione specifici per pagina senza duplicare la logica dentro `applyStaticTranslations()`
+  - `build_static_pages.py`
+    - aggiunta `applyGameTranslations()` nelle pagine statiche `games/*.html`
+    - la funzione aggiorna:
+      - descrizione
+      - label info (`Giocatori`, `Max giocatori`, `Descrizione`)
+      - categorie e modalita via `data-cat` / `data-mode`
+      - badge `played` / `trending`
+      - rating label
+      - meta description OG/Twitter
+    - la funzione viene richiamata:
+      - su `DOMContentLoaded`
+      - su evento `langchange`
+    - rigenerate tutte le 311 pagine statiche
+  - `game.html`
+    - estratta la logica di rendering in `renderGamePage()`
+    - il rendering viene eseguito:
+      - al load iniziale
+      - su `langchange`
+    - coperti sia stato normale che fallback `game not found`
+- Eseguito dopo le modifiche:
+  - `python3 build_static_pages.py`
+  - `python3 validate_catalog.py`
+  - `python3 -m py_compile build_static_pages.py auto_update.py validate_catalog.py`
+- Risultato verifiche:
+  - validazione passata con `311` giochi e `311` pagine statiche
+  - warning crossplay invariato e atteso
+- QA consigliato per Claude Code su questo follow-up:
+  - verificare su `game.html` che il cambio lingua aggiorni davvero contenuto e metadati, non solo footer/bottone
+  - verificare su 2-3 pagine in `games/` che il cambio lingua aggiorni:
+    - descrizione
+    - label info
+    - categorie / modalita
+    - rating label / badge
+    - meta description
