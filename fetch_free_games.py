@@ -17,6 +17,7 @@ import re
 from collections import defaultdict
 from typing import Any
 from urllib.parse import urljoin
+from zoneinfo import ZoneInfo
 
 try:
     import requests
@@ -32,6 +33,7 @@ USER_AGENT = "Coophubs Free Games Bot/1.0 (+https://coophubs.net)"
 TIMEOUT = 20
 NOW = dt.datetime.now(dt.timezone.utc)
 MAX_STEAM_PROMO_DURATION = dt.timedelta(days=21)
+STEAM_PROMO_TZ = ZoneInfo("America/Los_Angeles")
 DISABLED_STORES = {
     "humble": "disabled until a more reliable public source is available",
 }
@@ -58,19 +60,6 @@ def parse_iso_datetime(value: str | None) -> dt.datetime | None:
     if parsed.tzinfo is None:
         parsed = parsed.replace(tzinfo=dt.timezone.utc)
     return parsed.astimezone(dt.timezone.utc)
-
-
-def parse_steamdb_datetime(value: str | None) -> dt.datetime | None:
-    if not value:
-        return None
-    text = value.strip().replace("UTC", "").replace("–", "-").strip()
-    for fmt in ("%d %B %Y - %H:%M:%S", "%d %b %Y - %H:%M:%S"):
-        try:
-            parsed = dt.datetime.strptime(text, fmt)
-        except ValueError:
-            continue
-        return parsed.replace(tzinfo=dt.timezone.utc)
-    return None
 
 
 def to_iso_z(value: dt.datetime) -> str:
@@ -273,17 +262,17 @@ def fetch_steam_offers(session) -> list[dict[str, str]]:
     candidates: dict[int, dict[str, Any]] = {}
 
     featured_candidates = fetch_steam_featured_candidates(session)
-    steamdb_candidates = fetch_steamdb_candidates(session)
+    search_candidates = fetch_steam_search_candidates(session)
 
     print(
         f"[steam] discovered {len(featured_candidates)} featured candidates and "
-        f"{len(steamdb_candidates)} SteamDB fallback candidates"
+        f"{len(search_candidates)} search fallback candidates"
     )
 
     for candidate in featured_candidates:
         candidates[candidate["app_id"]] = candidate
 
-    for candidate in steamdb_candidates:
+    for candidate in search_candidates:
         candidates.setdefault(candidate["app_id"], candidate)
 
     offers = []
@@ -342,57 +331,47 @@ def fetch_steam_featured_candidates(session) -> list[dict[str, Any]]:
     return candidates
 
 
-def fetch_steamdb_candidates(session) -> list[dict[str, Any]]:
-    url = "https://steamdb.info/upcoming/free/"
+def fetch_steam_search_candidates(session) -> list[dict[str, Any]]:
+    url = (
+        "https://store.steampowered.com/search/results/"
+        "?query=&start=0&count=50&dynamic_data=&force_infinite=1"
+        "&specials=1&maxprice=free&supportedlang=english"
+        "&infinite=1&cc=us&l=en"
+    )
     response = session.get(url, timeout=TIMEOUT)
     response.raise_for_status()
-    soup = BeautifulSoup(response.text, "html.parser")
+    payload = response.json()
+    results_html = payload.get("results_html")
+    if not isinstance(results_html, str):
+        raise FetchError("Steam search response schema changed")
 
-    text_lines = [line.strip() for line in soup.get_text("\n").splitlines() if line.strip()]
-    text_blob = "\n".join(text_lines)
-    block_pattern = re.compile(
-        r"View Store\s+Install\s+(?P<title>.+?)\s+Free to Keep\s+Started:\s+(?P<start>.+?)\s+Expires:\s+(?P<end>.+?)(?=\s+View Store\s+Install\s+|\s+Potentially Upcoming Free Promotions|\Z)",
-        re.DOTALL,
-    )
-    text_blocks = []
-    for match in block_pattern.finditer(text_blob):
-        title = " ".join(match.group("title").split())
-        if not title or "steamdb.info" in title.lower() or title.startswith("http"):
-            continue
-        expires_at = parse_steamdb_datetime(match.group("end"))
-        if not expires_at or expires_at <= NOW:
-            continue
-        text_blocks.append(
-            {
-                "title": title,
-                "end_at": expires_at,
-            }
-        )
-
-    store_links = []
-    for link in soup.select('a[href*="store.steampowered.com/app/"]'):
-        href = (link.get("href") or "").strip()
-        match = re.search(r"/app/(\d+)/", href)
-        if not match:
-            match = re.search(r"/app/(\d+)", href)
-        if not match:
-            continue
-        store_links.append(
-            {
-                "app_id": int(match.group(1)),
-                "storeUrl": href,
-            }
-        )
-
+    soup = BeautifulSoup(results_html, "html.parser")
     candidates = []
-    for link_data, text_block in zip(store_links, text_blocks):
+    for row in soup.select("a.search_result_row[data-ds-appid]"):
+        app_id_raw = (row.get("data-ds-appid") or "").strip()
+        if not app_id_raw.isdigit():
+            continue
+        discount_block = row.select_one(".discount_block[data-discount]")
+        if discount_block is None:
+            continue
+        if int(discount_block.get("data-discount") or 0) != 100:
+            continue
+        if int(discount_block.get("data-price-final") or 0) != 0:
+            continue
+        title = " ".join(row.select_one(".title").get_text(" ", strip=True).split()) if row.select_one(".title") else ""
+        if not title:
+            continue
+        image = ""
+        image_tag = row.select_one("img")
+        if image_tag:
+            image = (image_tag.get("src") or "").strip()
         candidates.append(
             {
-                "app_id": link_data["app_id"],
-                "title": text_block["title"],
-                "imageUrl": "",
-                "end_at": text_block["end_at"],
-                "source": "steamdb",
+                "app_id": int(app_id_raw),
+                "title": title,
+                "imageUrl": image,
+                "end_at": None,
+                "source": "steam_search",
             }
         )
 
@@ -501,17 +480,19 @@ def is_steam_claimable_promo(item: dict[str, Any], end_at: dt.datetime) -> bool:
 
 def build_steam_offer(session, candidate: dict[str, Any]) -> dict[str, str] | None:
     app_id = int(candidate["app_id"])
-    end_at = candidate["end_at"]
-
-    if end_at <= NOW or (end_at - NOW) > MAX_STEAM_PROMO_DURATION:
-        return None
 
     details = fetch_steam_app_details(session, app_id, filters="basic,price_overview")
     app_type = (details.get("type") or "").lower()
     if app_type != "game":
         return None
 
-    if not steam_offer_is_confirmed(session, app_id, details):
+    store_claim_data = fetch_steam_store_claim_data(session, app_id)
+    end_at = candidate.get("end_at") or store_claim_data["end_at"]
+
+    if not end_at or end_at <= NOW or (end_at - NOW) > MAX_STEAM_PROMO_DURATION:
+        return None
+
+    if not steam_offer_is_confirmed(details, store_claim_data["is_claimable"]):
         return None
 
     offer = normalize_offer(
@@ -526,7 +507,7 @@ def build_steam_offer(session, candidate: dict[str, Any]) -> dict[str, str] | No
     return offer
 
 
-def steam_offer_is_confirmed(session, app_id: int, details: dict[str, Any]) -> bool:
+def steam_offer_is_confirmed(details: dict[str, Any], store_page_is_claimable: bool) -> bool:
     price = details.get("price_overview") or {}
     if (
         int(price.get("discount_percent") or 0) == 100
@@ -534,13 +515,104 @@ def steam_offer_is_confirmed(session, app_id: int, details: dict[str, Any]) -> b
         and int(price.get("final") or 0) == 0
     ):
         return True
-    return steam_store_page_confirms_claimable_offer(session, app_id)
+    return store_page_is_claimable
 
 
-def steam_store_page_confirms_claimable_offer(session, app_id: int) -> bool:
+def fetch_steam_store_claim_data(session, app_id: int) -> dict[str, Any]:
     html = fetch_steam_store_page_html(session, app_id)
-    text = " ".join(BeautifulSoup(html, "html.parser").get_text(" ", strip=True).split()).lower()
-    return "add to account" in text
+    soup = BeautifulSoup(html, "html.parser")
+
+    for wrapper in soup.select(".game_area_purchase_game_wrapper"):
+        wrapper_text = " ".join(wrapper.get_text(" ", strip=True).split())
+        if "add to account" not in wrapper_text.lower():
+            continue
+        return {
+            "is_claimable": True,
+            "end_at": parse_steam_store_deadline(wrapper_text),
+        }
+
+    page_text = " ".join(soup.get_text(" ", strip=True).split())
+    return {
+        "is_claimable": "add to account" in page_text.lower(),
+        "end_at": parse_steam_store_deadline(page_text),
+    }
+
+
+def parse_steam_store_deadline(text: str) -> dt.datetime | None:
+    patterns = (
+        r"Free to keep when you get it before (?P<deadline>.+?)(?:\.| Some limitations apply)",
+        r"SPECIAL PROMOTION!\s+Offer ends (?P<deadline>.+?)(?:\.| Add to Account| Purchase| View info)",
+    )
+    for pattern in patterns:
+        match = re.search(pattern, text, flags=re.IGNORECASE)
+        if not match:
+            continue
+        parsed = parse_steam_store_deadline_value(match.group("deadline"))
+        if parsed:
+            return parsed
+    return None
+
+
+def parse_steam_store_deadline_value(value: str) -> dt.datetime | None:
+    if not value:
+        return None
+    text = " ".join(value.replace(" at ", " @ ").replace(" before ", " ").split()).strip(" .")
+    current_year = NOW.astimezone(STEAM_PROMO_TZ).year
+
+    for fmt in ("%b %d, %Y @ %I:%M%p", "%B %d, %Y @ %I:%M%p", "%b %d @ %I:%M%p", "%B %d @ %I:%M%p"):
+        candidates = []
+        if "%Y" in fmt:
+            try:
+                parsed = dt.datetime.strptime(text, fmt)
+            except ValueError:
+                continue
+            candidates.append(parsed)
+        else:
+            for year in (current_year, current_year + 1):
+                try:
+                    parsed = dt.datetime.strptime(f"{text} {year}", f"{fmt} %Y")
+                except ValueError:
+                    continue
+                candidates.append(parsed)
+        deadline = choose_steam_deadline_candidate(candidates, has_time=True)
+        if deadline:
+            return deadline
+
+    for fmt in ("%b %d, %Y", "%B %d, %Y", "%b %d", "%B %d"):
+        candidates = []
+        if "%Y" in fmt:
+            try:
+                parsed = dt.datetime.strptime(text, fmt)
+            except ValueError:
+                continue
+            candidates.append(parsed)
+        else:
+            for year in (current_year, current_year + 1):
+                try:
+                    parsed = dt.datetime.strptime(f"{text} {year}", f"{fmt} %Y")
+                except ValueError:
+                    continue
+                candidates.append(parsed)
+        deadline = choose_steam_deadline_candidate(candidates, has_time=False)
+        if deadline:
+            return deadline
+
+    return None
+
+
+def choose_steam_deadline_candidate(candidates: list[dt.datetime], has_time: bool) -> dt.datetime | None:
+    localized = []
+    for candidate in candidates:
+        if not has_time:
+            candidate = candidate.replace(hour=10, minute=0)
+        localized.append(candidate.replace(tzinfo=STEAM_PROMO_TZ).astimezone(dt.timezone.utc))
+    if not localized:
+        return None
+
+    futureish = [candidate for candidate in localized if candidate >= NOW - dt.timedelta(days=1)]
+    if futureish:
+        return min(futureish)
+    return min(localized)
 
 
 def fetch_steam_store_page_html(session, app_id: int) -> str:

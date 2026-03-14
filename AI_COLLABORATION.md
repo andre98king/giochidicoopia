@@ -722,3 +722,42 @@ Questo file serve come punto di handoff condiviso tra Codex e Claude Code.
 - Limite noto:
   - anche questo step non e stato provato live da Codex per via delle restrizioni di rete del sandbox
   - il primo run reale del workflow sara il punto giusto per confermare se promo come `Deponia` entrano correttamente nel feed
+
+### 2026-03-14 - Codex - Sostituzione fallback SteamDB con discovery ufficiale Steam
+
+- Nuovo follow-up preso in carico subito dopo il test live del workflow `Update Free Games`.
+- Esito del test live precedente:
+  - il workflow ha girato sul commit `2b00bb0`
+  - `SteamDB` non era utilizzabile in GitHub Actions per via di `403` Cloudflare challenge su `https://steamdb.info/upcoming/free/`
+  - quindi il fallback introdotto nel commit precedente non era affidabile in automazione reale
+- Decisione tecnica:
+  - eliminata la dipendenza live da `SteamDB`
+  - il fallback discovery Steam ora usa solo endpoint ufficiali Steam
+- Modifiche implementate in `fetch_free_games.py`:
+  - rimosso parser `SteamDB`
+  - aggiunta `fetch_steam_search_candidates(session)` che usa:
+    - `https://store.steampowered.com/search/results/...&specials=1&maxprice=free...`
+  - il fallback discovery ufficiale:
+    - intercetta giochi con `discount = 100`
+    - `final price = 0`
+    - prende `app_id`, titolo e immagine dal markup ufficiale Steam
+  - aggiunta estrazione scadenza dalla pagina ufficiale Steam:
+    - `fetch_steam_store_claim_data(...)`
+    - parsing del testo tipo:
+      - `Free to keep when you get it before Mar 16 @ 10:00am`
+    - conversione in UTC assumendo timezone promo Steam `America/Los_Angeles`
+  - `build_steam_offer(...)` ora:
+    - usa `featuredcategories` quando disponibile
+    - altrimenti recupera la scadenza dalla store page ufficiale
+    - conferma l'offerta con:
+      - `price_overview` quando coerente
+      - oppure presenza reale di `Add to Account` sulla pagina ufficiale
+- Validazione live eseguita da Codex dal terminale:
+  - `fetch_steam_search_candidates(...)` ha visto `Deponia`
+  - `build_steam_offer(...)` ha prodotto correttamente:
+    - store `steam`
+    - titolo `Deponia`
+    - scadenza `2026-03-16T17:00:00Z`
+  - `fetch_steam_offers(...)` ha restituito `1` offerta Steam attiva
+- Effetto atteso:
+  - le promo `free to keep` mancanti da `featuredcategories` possono ora entrare nel feed senza dipendere da fonti terze bloccate da Cloudflare
