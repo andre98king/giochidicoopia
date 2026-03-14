@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
   <title>Giochi Gratis — Coophubs</title>
   <meta name="description" content="Offerte gratuite attive su Epic Games, Steam, GOG e Humble Bundle con countdown in tempo reale e link diretti per riscattarle.">
   <meta name="theme-color" content="#7c6aff">
@@ -27,7 +30,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=20260314-cachefix1">
   <script id="pageJsonLd" type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -87,9 +90,29 @@
     </div>
   </footer>
 
-  <script src="free_games.js" defer></script>
-  <script src="i18n.js" defer></script>
-  <script src="particles.js" defer></script>
+  <script>
+    window.freeGamesReady = new Promise((resolve) => {
+      const script = document.createElement('script');
+      const cacheBucket = Math.floor(Date.now() / 300000);
+      let settled = false;
+      const finish = () => {
+        if (settled) return;
+        settled = true;
+        clearTimeout(timeoutId);
+        resolve();
+      };
+      const timeoutId = window.setTimeout(finish, 4000);
+      script.src = `free_games.js?v=${cacheBucket}`;
+      script.onload = () => {
+        finish();
+        window.dispatchEvent(new Event('freegamesloaded'));
+      };
+      script.onerror = finish;
+      document.head.appendChild(script);
+    });
+  </script>
+  <script src="i18n.js?v=20260314-cachefix1" defer></script>
+  <script src="particles.js?v=20260314-cachefix1" defer></script>
   <script>
     const FREE_STORE_LABELS = {
       epic: 'Epic Games',
@@ -193,10 +216,18 @@
       scheduleFreePageRefresh(activeGames);
     }
 
-    document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('DOMContentLoaded', async () => {
+      if (window.freeGamesReady && typeof window.freeGamesReady.then === 'function') {
+        try {
+          await window.freeGamesReady;
+        } catch (_) {
+          // Fall back to empty state if the feed script cannot be loaded.
+        }
+      }
       document.documentElement.lang = currentLang;
       if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
       renderFreePage();
+      window.addEventListener('freegamesloaded', renderFreePage);
     });
 
     window.addEventListener('langchange', renderFreePage);

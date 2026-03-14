@@ -242,8 +242,18 @@ function renderFeatured() {
     </div>`;
 }
 
+async function waitForFreeGamesReady() {
+  if (!window.freeGamesReady || typeof window.freeGamesReady.then !== 'function') return;
+  try {
+    await window.freeGamesReady;
+  } catch (_) {
+    // Fall back to an empty feed if the script fails to load.
+  }
+}
+
 // ===== INIT =====
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
+  await waitForFreeGamesReady();
   loadOverrides();
   updateStats();
   renderFilters();
@@ -286,6 +296,10 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   document.getElementById('adminBtn').addEventListener('click', toggleAdmin);
+  window.addEventListener('freegamesloaded', () => {
+    renderFreeGamesSection();
+    renderGames();
+  });
 });
 
 // ===== STATS =====

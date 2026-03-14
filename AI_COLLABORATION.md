@@ -598,3 +598,50 @@ Questo file serve come punto di handoff condiviso tra Codex e Claude Code.
 - QA per Claude Code:
   - non urgente
   - quando torna disponibile, puo limitarsi a verificare che il workflow `Update Free Games` includa il nuovo step di validazione e che non ci siano regressioni operative
+
+### 2026-03-14 - Codex - Mitigazione cache aggressiva browser/CDN
+
+- Nuovo follow-up preso in carico dopo segnalazione utente: su PC la versione aggiornata del sito continuava a restare indietro anche molte ore dopo il deploy.
+- Analisi:
+  - il problema non riguardava solo `free_games.js`
+  - il feed gratuito era particolarmente sensibile perche cambiava spesso senza modificare l'HTML
+  - in piu CSS/JS statici potevano restare appesi a cache browser/CDN su alcune macchine
+- Modifiche implementate:
+  - `index.html`
+    - aggiunti meta anti-cache (`Cache-Control`, `Pragma`, `Expires`)
+    - aggiunti query param versionati a `manifest.json`, `style.css`, `games.js`, `i18n.js`, `app.js`, `particles.js`
+    - rimosso il caricamento statico di `free_games.js`
+    - introdotto loader dinamico per `free_games.js?v=<bucket-5-minuti>`
+    - il loader emette evento `freegamesloaded` quando il feed arriva
+  - `free.html`
+    - stessi meta anti-cache
+    - `style.css` e script principali caricati con query param versionato
+    - `free_games.js` ora viene caricato con loader dinamico a bucket di 5 minuti
+    - la pagina attende `freeGamesReady` al boot e si ri-renderizza anche su `freegamesloaded`
+  - `app.js`
+    - aggiunta `waitForFreeGamesReady()`
+    - l'init homepage aspetta il feed gratuito prima del primo render
+    - se il feed arriva in ritardo, listener `freegamesloaded` ri-renderizza strip e catalogo
+  - `about.html`, `contact.html`, `privacy.html`, `game.html`
+    - aggiunti meta anti-cache
+    - `style.css` / JS principali caricati con query param versionato
+  - `build_static_pages.py`
+    - aggiunta costante `ASSET_VERSION = "20260314-cachefix1"`
+    - pagine `games/*.html` rigenerate con:
+      - meta anti-cache
+      - `style.css`, `i18n.js`, `particles.js` versionati
+- Obiettivo pratico:
+  - i feed gratuiti ora possono aggiornarsi anche se l'HTML e vecchio, grazie al bucket query dinamico
+  - gli asset core del sito cambiano URL quando facciamo questo fix, riducendo molto la probabilita di restare su CSS/JS vecchi
+- Verifiche eseguite da Codex:
+  - `python3 build_static_pages.py`
+  - `python3 validate_catalog.py`
+  - `python3 validate_free_games.py`
+  - `python3 -m py_compile build_static_pages.py auto_update.py validate_catalog.py fetch_free_games.py validate_free_games.py`
+- Risultato verifiche:
+  - `311` pagine statiche rigenerate correttamente
+  - catalog validator ok
+  - free games validator ok sul feed reale attuale (`2` offerte)
+- Nota:
+  - se una macchina ha ancora il documento HTML principale estremamente incollato in cache, potrebbe servire un ultimo refresh forte per vedere subito il nuovo HTML
+  - ma da questo commit in poi la situazione dovrebbe essere molto piu resiliente ai futuri aggiornamenti

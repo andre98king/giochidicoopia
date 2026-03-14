@@ -22,6 +22,7 @@ SITEMAP = ROOT / "sitemap.xml"
 SITE_URL = "https://coophubs.net"
 TODAY = datetime.date.today().isoformat()
 CURRENT_YEAR = datetime.date.today().year
+ASSET_VERSION = "20260314-cachefix1"
 # Crossplay data is still collected internally, but the UI stays hidden until the source is trustworthy.
 CROSSPLAY_UI_ENABLED = False
 
@@ -267,6 +268,9 @@ def render_static_page(game: dict) -> str:
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
   <title>{esc(title)}</title>
   <meta name="description" content="{esc(description_it)}">
   <meta name="theme-color" content="#7c6aff">
@@ -289,7 +293,7 @@ def render_static_page(game: dict) -> str:
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../style.css?v={ASSET_VERSION}">
   <script type="application/ld+json">
   {json.dumps(video_game_json, ensure_ascii=False)}
   </script>
@@ -376,8 +380,8 @@ def render_static_page(game: dict) -> str:
     </div>
   </footer>
 
-  <script src="../i18n.js" defer></script>
-  <script src="../particles.js" defer></script>
+  <script src="../i18n.js?v={ASSET_VERSION}" defer></script>
+  <script src="../particles.js?v={ASSET_VERSION}" defer></script>
   <script>
     const GAME_DATA = {json_for_script(script_data)};
 

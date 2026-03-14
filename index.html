@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
   <title>Co-op Games Hub — I Migliori Giochi Cooperativi per PC</title>
   <meta name="description" content="Scopri oltre 300 giochi cooperativi per PC: horror, action, puzzle, survival e molto altro. Filtri per categoria, recensioni Steam e ruota random per scegliere il prossimo gioco co-op.">
   <meta name="keywords" content="giochi co-op, giochi cooperativi PC, co-op games, multiplayer, split screen, giochi coppia">
@@ -39,7 +42,7 @@
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
 
   <!-- PWA Manifest -->
-  <link rel="manifest" href="manifest.json">
+  <link rel="manifest" href="manifest.json?v=20260314-cachefix1">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,7 +50,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@600&display=swap" rel="stylesheet">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=20260314-cachefix1">
 
   <!-- Structured Data -->
   <script id="pageJsonLd" type="application/ld+json">
@@ -222,10 +225,30 @@
     </div>
   </footer>
 
-  <script src="games.js" defer></script>
-  <script src="free_games.js" defer></script>
-  <script src="i18n.js" defer></script>
-  <script src="app.js" defer></script>
-  <script src="particles.js" defer></script>
+  <script src="games.js?v=20260314-cachefix1" defer></script>
+  <script>
+    window.freeGamesReady = new Promise((resolve) => {
+      const script = document.createElement('script');
+      const cacheBucket = Math.floor(Date.now() / 300000);
+      let settled = false;
+      const finish = () => {
+        if (settled) return;
+        settled = true;
+        clearTimeout(timeoutId);
+        resolve();
+      };
+      const timeoutId = window.setTimeout(finish, 4000);
+      script.src = `free_games.js?v=${cacheBucket}`;
+      script.onload = () => {
+        finish();
+        window.dispatchEvent(new Event('freegamesloaded'));
+      };
+      script.onerror = finish;
+      document.head.appendChild(script);
+    });
+  </script>
+  <script src="i18n.js?v=20260314-cachefix1" defer></script>
+  <script src="app.js?v=20260314-cachefix1" defer></script>
+  <script src="particles.js?v=20260314-cachefix1" defer></script>
 </body>
 </html>
