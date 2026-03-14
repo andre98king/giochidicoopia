@@ -25,7 +25,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <script type="application/ld+json">
+  <script id="pageJsonLd" type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "AboutPage",
@@ -54,37 +54,43 @@
     }
   </style>
 </head>
-<body>
+<body data-page="about">
   <div class="legal-page">
-    <a href="./" class="back-link">&larr; Torna al catalogo</a>
-    <h1>Sul progetto</h1>
-    <p class="subtitle">Un progetto indipendente dedicato alla scoperta di videogiochi cooperativi per PC.</p>
+    <div class="page-head">
+      <a href="./" class="back-link" data-i18n="page_back_catalog">&larr; Torna al catalogo</a>
+      <div class="page-head-actions">
+        <button class="btn-lang" id="langBtn" onclick="setLang(currentLang === 'it' ? 'en' : 'it')" aria-label="Cambia lingua" data-i18n-aria-label="btn_lang_aria">🇬🇧 EN</button>
+      </div>
+    </div>
+    <h1 data-i18n="about_title">Sul progetto</h1>
+    <p class="subtitle" data-i18n="about_subtitle">Un progetto indipendente dedicato alla scoperta di videogiochi cooperativi per PC.</p>
 
     <div class="content-card">
-      <p>Coophubs è un progetto indipendente dedicato alla scoperta di videogiochi cooperativi per PC. L'obiettivo è semplice: rendere più facile trovare giochi co-op adatti ai propri gusti, con informazioni chiare su modalità di gioco, numero di giocatori, generi e altri dettagli utili.</p>
+      <p data-i18n="about_p1">Coophubs è un progetto indipendente dedicato alla scoperta di videogiochi cooperativi per PC. L'obiettivo è semplice: rendere più facile trovare giochi co-op adatti ai propri gusti, con informazioni chiare su modalità di gioco, numero di giocatori, generi e altri dettagli utili.</p>
 
-      <p>Il sito nasce dall'idea che trovare buoni giochi cooperativi non dovrebbe essere complicato. Spesso le informazioni sono sparse, incomplete o poco immediate da consultare. Coophubs prova a raccoglierle in un unico posto, con un'interfaccia semplice, veloce e pensata per aiutare chi vuole scegliere cosa giocare insieme ad altri.</p>
+      <p data-i18n="about_p2">Il sito nasce dall'idea che trovare buoni giochi cooperativi non dovrebbe essere complicato. Spesso le informazioni sono sparse, incomplete o poco immediate da consultare. Coophubs prova a raccoglierle in un unico posto, con un'interfaccia semplice, veloce e pensata per aiutare chi vuole scegliere cosa giocare insieme ad altri.</p>
 
-      <p>Il database viene aggiornato nel tempo e può evolversi con nuovi giochi, correzioni ai dati esistenti e miglioramenti alle funzionalità del sito. L'obiettivo non è solo mostrare un elenco di titoli, ma costruire uno strumento realmente utile per chi cerca nuove esperienze cooperative da giocare con amici, partner o gruppi.</p>
+      <p data-i18n="about_p3">Il database viene aggiornato nel tempo e può evolversi con nuovi giochi, correzioni ai dati esistenti e miglioramenti alle funzionalità del sito. L'obiettivo non è solo mostrare un elenco di titoli, ma costruire uno strumento realmente utile per chi cerca nuove esperienze cooperative da giocare con amici, partner o gruppi.</p>
 
-      <p>Coophubs è un progetto in crescita e continuerà a migliorare progressivamente. Alcune informazioni possono cambiare nel tempo, ma l'idea di fondo resta la stessa: offrire un punto di riferimento semplice e utile per chi ama i giochi co-op.</p>
+      <p data-i18n="about_p4">Coophubs è un progetto in crescita e continuerà a migliorare progressivamente. Alcune informazioni possono cambiare nel tempo, ma l'idea di fondo resta la stessa: offrire un punto di riferimento semplice e utile per chi ama i giochi co-op.</p>
 
-      <p>Se vuoi segnalare un errore, suggerire un gioco o proporre un miglioramento, puoi contattare il progetto tramite la <a href="contact.html">pagina Contatti</a>.</p>
+      <p data-i18n-html="about_p5_html">Se vuoi segnalare un errore, suggerire un gioco o proporre un miglioramento, puoi contattare il progetto tramite la <a href="contact.html">pagina Contatti</a>.</p>
     </div>
   </div>
 
   <footer class="site-footer">
     <div class="footer-inner">
       <div class="footer-brand">Co-op Games Hub</div>
-      <div class="footer-sub">Coophubs è un progetto indipendente dedicato alla scoperta di giochi cooperativi per PC.</div>
+      <div class="footer-sub" id="footerSub">Coophubs è un progetto indipendente dedicato alla scoperta di giochi cooperativi per PC.</div>
       <div class="footer-links">
-        <a href="about.html">Sul progetto</a>
-        <a href="contact.html">Contatti</a>
-        <a href="privacy.html">Privacy Policy</a>
+        <a href="about.html" id="footerAbout">Sul progetto</a>
+        <a href="contact.html" id="footerContact">Contatti</a>
+        <a href="privacy.html" id="footerPrivacy">Privacy Policy</a>
       </div>
       <div class="footer-divider"></div>
       <div class="footer-copy">&copy; 2026 — Dati da Steam &amp; SteamSpy</div>
     </div>
   </footer>
+  <script src="i18n.js" defer></script>
 </body>
 </html>

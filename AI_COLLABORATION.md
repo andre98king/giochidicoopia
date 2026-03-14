@@ -236,3 +236,54 @@ Questo file serve come punto di handoff condiviso tra Codex e Claude Code.
 - Azione immediata consigliata:
   - aggiungere `validate_catalog.py` al repository con commit dedicato di hotfix
   - rieseguire `python3 validate_catalog.py` e `python3 -m py_compile build_static_pages.py auto_update.py validate_catalog.py` prima del push
+
+### 2026-03-14 - Codex - Step roadmap 3
+
+- Chiusa una prima vera tornata di internazionalizzazione lato UI e pagine informative.
+- Modifiche implementate:
+  - `i18n.js`
+    - esteso il dizionario IT/EN con:
+      - metadati pagina per `home`, `about`, `contact`, `privacy`
+      - testi completi per `about.html`, `contact.html`, `privacy.html`
+      - label accessibili e microcopy condiviso
+      - CTA e testi residui usati in card, modal e fallback
+    - aggiunti helper per:
+      - traduzioni dichiarative via `data-i18n`, `data-i18n-html`, `data-i18n-placeholder`, `data-i18n-aria-label`
+      - aggiornamento `title`, meta description, Open Graph, Twitter e JSON-LD in base alla lingua corrente
+    - `setLang()` ora richiama in sicurezza i renderer solo se esistono nella pagina corrente
+  - `about.html`, `contact.html`, `privacy.html`
+    - aggiunto switch lingua
+    - convertiti titoli, testi e footer al sistema traduzioni
+    - aggiunto `data-page` e `pageJsonLd` per consentire aggiornamento dinamico dei metadati
+    - importato `i18n.js`
+  - `index.html`
+    - aggiunti hook dichiarativi per testi accessibili e aria-label principali
+    - aggiunto `data-page="home"` e `id="pageJsonLd"`
+  - `app.js`
+    - ricerca ora controlla sia `description` che `description_en`
+    - badge categoria in card e modal ora usano label tradotte
+    - sistemati alcuni hardcoded residui in modal e admin UI
+    - i filtri mantengono lo stato visivo corretto anche dopo cambio lingua
+    - il toggle mobile dei filtri modalita usa testo tradotto e non accumula listener duplicati
+  - `game.html`
+    - tradotti stato "gioco non trovato", badge categoria/modalita e CTA principali del fallback dinamico
+  - `build_static_pages.py`
+    - le pagine statiche gioco ora includono marker `data-cat` / `data-mode`
+    - al load sostituiscono le label con le traduzioni corrette della lingua corrente
+    - rigenerate tutte le pagine in `games/`
+  - `style.css`
+    - aggiunto layout condiviso `page-head` per back link + switch lingua nelle pagine informative
+- Verifiche eseguite:
+  - `python3 build_static_pages.py`
+  - `python3 validate_catalog.py`
+  - `python3 -m py_compile build_static_pages.py auto_update.py validate_catalog.py`
+- Nota importante:
+  - non lanciare build e validazione in parallelo in locale: durante il rebuild `games/` viene svuotata e riscritta, quindi `validate_catalog.py` puo vedere solo un sottoinsieme delle pagine e fallire falsamente
+- QA consigliato per Claude Code su questo blocco:
+  - verificare switch lingua su `about.html`, `contact.html`, `privacy.html`
+  - verificare che cambino davvero anche `title` e meta description
+  - verificare in home che:
+    - ricerca EN trovi giochi anche tramite `description_en`
+    - cambio lingua non faccia perdere lo stato visivo dei filtri attivi
+    - card e modal mostrino categorie tradotte
+  - verificare su 2-3 pagine in `games/` che categorie/modalita si traducano correttamente in base a `coopLang`

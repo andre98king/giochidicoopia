@@ -69,6 +69,10 @@ function saveOverride(id, personalNote, played) {
   if (g) { g.personalNote = personalNote; g.played = played; }
 }
 
+function categoryLabel(category) {
+  return t('cat_' + category);
+}
+
 // ===== FEATURED INDIE OF THE WEEK =====
 function renderFeatured() {
   const section = document.getElementById('featuredSection');
@@ -161,10 +165,11 @@ function updateStats() {
 function renderFilters() {
   const container = document.getElementById('filterContainer');
   const modeContainer = document.getElementById('modeFilterContainer');
+  const allFiltersActive = activeFilters.size === 0;
 
   // Genre filters
   container.innerHTML = genreFilters.map(cat => `
-    <button class="filter-btn ${cat.id === 'all' ? 'active' : ''}" data-cat="${cat.id}">
+    <button class="filter-btn ${(cat.id === 'all' && allFiltersActive) || activeFilters.has(cat.id) ? 'active' : ''}" data-cat="${cat.id}">
       ${t('cat_' + cat.id)}
     </button>
   `).join('');
@@ -197,7 +202,7 @@ function renderFilters() {
     const isMobile = window.innerWidth <= 600;
 
     modeContainer.innerHTML = modeFilters.map(f => `
-      <button class="filter-btn filter-mode-btn" data-mode="${f.id}">
+      <button class="filter-btn filter-mode-btn ${activeModeFilters.has(f.id) ? 'active' : ''}" data-mode="${f.id}">
         ${t(f.id)}
       </button>
     `).join('');
@@ -209,13 +214,13 @@ function renderFilters() {
       if (!toggleBtn) {
         toggleBtn = document.createElement('button');
         toggleBtn.className = 'btn-toggle-filters';
-        toggleBtn.textContent = '⚙ ' + (currentLang === 'en' ? 'Mode filters' : 'Filtri modalità');
         modeContainer.parentElement.insertBefore(toggleBtn, modeContainer);
       }
-      toggleBtn.addEventListener('click', () => {
+      toggleBtn.textContent = t('mode_filters_toggle');
+      toggleBtn.onclick = () => {
         const collapsed = modeContainer.classList.toggle('collapsed');
         toggleBtn.classList.toggle('active', !collapsed);
-      });
+      };
     } else {
       modeContainer.classList.remove('collapsed');
       const toggleBtn = modeContainer.parentElement.querySelector('.btn-toggle-filters');
@@ -266,9 +271,12 @@ function getFilteredGames() {
     // Mode/player filters (AND logic — must match ALL active mode filters)
     const matchesMode = matchesModeFilters(game);
     // Search
+    const descriptions = [game.description, game.description_en]
+      .filter(Boolean)
+      .map(text => text.toLowerCase());
     const matchesSearch = !searchQuery ||
       game.title.toLowerCase().includes(searchQuery) ||
-      game.description.toLowerCase().includes(searchQuery) ||
+      descriptions.some(text => text.includes(searchQuery)) ||
       game.categories.some(c => c.includes(searchQuery));
     return matchesCat && matchesMode && matchesSearch;
   });
@@ -321,7 +329,7 @@ function renderGames() {
 // ===== CREATE CARD =====
 function createCard(game) {
   const tags = game.categories.map(c =>
-    `<span class="tag tag-${c}">${c}</span>`
+    `<span class="tag tag-${c}">${categoryLabel(c)}</span>`
   ).join('');
 
   const safeTitle = esc(game.title);
@@ -344,7 +352,7 @@ function createCard(game) {
   ].join('');
 
   const adminBtn = isAdmin
-    ? `<button class="btn-admin-edit" title="Modifica nota">✏️</button>` : '';
+    ? `<button class="btn-admin-edit" title="${t('admin_edit_title')}">✏️</button>` : '';
 
   const trendingBadge = game.trending
     ? `<div class="trending-badge">${t('trending_badge')}</div>` : '';
@@ -429,7 +437,7 @@ function openModal(id) {
   const safeNote = esc(game.personalNote);
 
   const tags = game.categories.map(c =>
-    `<span class="tag tag-${c}">${c}</span>`
+    `<span class="tag tag-${c}">${categoryLabel(c)}</span>`
   ).join('');
 
   const noteHtml = game.played && game.personalNote ? `
@@ -452,7 +460,7 @@ function openModal(id) {
     <div class="modal-body">
       <div class="modal-header">
         <div class="modal-title">${safeTitle} ${game.played ? `<span class="played-badge">${t('played_badge')}</span>` : ''}</div>
-        <button class="modal-close" onclick="closeModal()" aria-label="Chiudi">✕</button>
+        <button class="modal-close" onclick="closeModal()" aria-label="${t('btn_close_aria')}">✕</button>
       </div>
       <div class="modal-tags">${tags}</div>
       ${game.rating > 0 ? `
@@ -479,7 +487,7 @@ function openModal(id) {
       ${noteHtml}
       <div class="modal-actions">
         ${storeLinks}
-        <a class="btn-details" href="games/${id}.html" style="padding:10px 20px;text-decoration:none">🔗 ${currentLang === 'en' ? 'Game page' : 'Pagina gioco'}</a>
+        <a class="btn-details" href="games/${id}.html" style="padding:10px 20px;text-decoration:none">${t('btn_game_page')}</a>
         ${adminEdit}
         <button class="btn-details" onclick="closeModal()" style="padding:10px 20px">${t('btn_close')}</button>
       </div>

@@ -61,9 +61,9 @@
 
   <div class="game-page" id="gamePage">
     <div class="game-not-found" id="notFound" style="display:none">
-      <h2>Gioco non trovato</h2>
-      <p>Il gioco richiesto non esiste nel database.</p>
-      <a href="./" class="game-back" style="margin-top:20px;display:inline-flex">← Torna al catalogo</a>
+      <h2 data-i18n="game_not_found_title">Gioco non trovato</h2>
+      <p data-i18n="game_not_found_desc">Il gioco richiesto non esiste nel database.</p>
+      <a href="./" class="game-back" style="margin-top:20px;display:inline-flex" data-i18n="page_back_catalog">← Torna al catalogo</a>
     </div>
   </div>
 
@@ -123,29 +123,33 @@
     }
 
     document.addEventListener('DOMContentLoaded', () => {
-    document.documentElement.lang = currentLang;
-    if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
-    // Parse game ID from URL
-    const params = new URLSearchParams(window.location.search);
-    const gameId = parseInt(params.get('id'));
-    const game = games.find(g => g.id === gameId);
-    const page = document.getElementById('gamePage');
+      document.documentElement.lang = currentLang;
+      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
 
-    if (!game) {
-      document.title = 'Gioco non trovato — Coophubs';
-      document.querySelector('meta[name="description"]').content = 'La scheda gioco richiesta non è disponibile su Coophubs.';
-      document.querySelector('meta[name="robots"]').content = 'noindex,follow';
-      document.querySelector('link[rel="canonical"]').href = 'https://coophubs.net/game.html';
-      document.querySelector('meta[property="og:title"]').content = 'Gioco non trovato — Coophubs';
-      document.querySelector('meta[property="og:description"]').content = 'La scheda gioco richiesta non è disponibile su Coophubs.';
-      document.querySelector('meta[property="og:url"]').content = 'https://coophubs.net/game.html';
-      document.querySelector('meta[name="twitter:title"]').content = 'Gioco non trovato — Coophubs';
-      document.querySelector('meta[name="twitter:description"]').content = 'La scheda gioco richiesta non è disponibile su Coophubs.';
-      document.getElementById('notFound').style.display = 'block';
-      return;
-    }
+      // Parse game ID from URL
+      const params = new URLSearchParams(window.location.search);
+      const gameId = parseInt(params.get('id'));
+      const game = games.find(g => g.id === gameId);
+      const page = document.getElementById('gamePage');
 
-    const safeTitle = esc(game.title);
+      if (!game) {
+        document.title = t('game_not_found_page_title');
+        document.querySelector('meta[name="description"]').content = t('game_not_found_meta_desc');
+        document.querySelector('meta[name="robots"]').content = 'noindex,follow';
+        document.querySelector('link[rel="canonical"]').href = 'https://coophubs.net/game.html';
+        document.querySelector('meta[property="og:title"]').content = t('game_not_found_page_title');
+        document.querySelector('meta[property="og:description"]').content = t('game_not_found_meta_desc');
+        document.querySelector('meta[property="og:url"]').content = 'https://coophubs.net/game.html';
+        document.querySelector('meta[name="twitter:title"]').content = t('game_not_found_page_title');
+        document.querySelector('meta[name="twitter:description"]').content = t('game_not_found_meta_desc');
+        document.querySelector('#notFound [data-i18n="game_not_found_title"]').textContent = t('game_not_found_title');
+        document.querySelector('#notFound [data-i18n="game_not_found_desc"]').textContent = t('game_not_found_desc');
+        document.querySelector('#notFound [data-i18n="page_back_catalog"]').textContent = t('page_back_catalog');
+        document.getElementById('notFound').style.display = 'block';
+        return;
+      }
+
+      const safeTitle = esc(game.title);
       const desc = (currentLang === 'en' && game.description_en) ? game.description_en : game.description;
       const safeDesc = esc(desc);
 
@@ -162,15 +166,14 @@
       if (game.image) document.querySelector('meta[property="og:image"]').content = game.image;
       if (game.image) document.querySelector('meta[name="twitter:image"]').content = game.image;
 
-      const tags = game.categories.map(c => `<span class="tag tag-${c}">${c}</span>`).join('');
+      const tags = game.categories.map(c => `<span class="tag tag-${c}">${t('cat_' + c)}</span>`).join('');
 
       const coopModes = (game.coopMode || []).map(m => {
-        const labels = { online: '🌐 Online', local: '🛋️ Local', split: '🖥️ Split' };
-        return `<span class="tag" style="background:rgba(0,137,123,0.15);color:#80cbc4;border:1px solid rgba(0,137,123,0.25)">${labels[m] || m}</span>`;
+        return `<span class="tag" style="background:rgba(0,137,123,0.15);color:#80cbc4;border:1px solid rgba(0,137,123,0.25)">${t('mode_' + m)}</span>`;
       }).join('');
 
       const crossplayBadge = game.crossplay
-        ? '<span class="tag" style="background:rgba(92,107,192,0.15);color:#9fa8da;border:1px solid rgba(92,107,192,0.25)">🔄 Crossplay</span>' : '';
+        ? `<span class="tag" style="background:rgba(92,107,192,0.15);color:#9fa8da;border:1px solid rgba(92,107,192,0.25)">${t('mode_crossplay')}</span>` : '';
 
       const storeLinks = [
         game.steamUrl ? `<a class="btn-primary" href="${esc(game.steamUrl)}" target="_blank" rel="noopener noreferrer">Steam ↗</a>` : '',
@@ -185,7 +188,7 @@
         </div>` : '';
 
       page.innerHTML = `
-        <a href="./" class="game-back">← ${currentLang === 'en' ? 'Back to catalog' : 'Torna al catalogo'}</a>
+        <a href="./" class="game-back">${t('page_back_catalog')}</a>
 
         ${game.image ? `<img class="game-hero-img" src="${esc(game.image)}" alt="${safeTitle}" onerror="this.style.display='none'">` : ''}
 

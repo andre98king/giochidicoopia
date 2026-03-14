@@ -394,6 +394,25 @@ body {
 }
 .btn-lang:hover { border-color: var(--accent3); color: var(--accent3); }
 
+.page-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.page-head .back-link {
+  margin-bottom: 0;
+}
+
+.page-head-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
 /* ===== MAIN CONTENT ===== */
 .main {
   position: relative;
@@ -1204,6 +1223,13 @@ body {
   .sort-select { padding: 6px 10px; font-size: 0.75rem; }
   .btn-wheel { padding: 7px 16px; font-size: 0.8rem; }
   .btn-admin, .btn-lang { padding: 6px 10px; font-size: 0.75rem; }
+  .page-head {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .page-head-actions {
+    justify-content: flex-start;
+  }
 
   .wheel-wrapper { width: 260px; height: 260px; }
   #wheelCanvas { width: 260px; height: 260px; }

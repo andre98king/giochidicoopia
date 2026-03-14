@@ -63,7 +63,7 @@
     </h1>
 
     <div class="game-meta">
-      <span class="tag tag-splitscreen">splitscreen</span><span class="tag tag-action">action</span><span class="tag tag-rpg">rpg</span><span class="tag tag-indie">indie</span> <span class="tag" style="background:rgba(0,137,123,0.15);color:#80cbc4;border:1px solid rgba(0,137,123,0.25)">🌐 Online</span><span class="tag" style="background:rgba(0,137,123,0.15);color:#80cbc4;border:1px solid rgba(0,137,123,0.25)">🛋️ Local</span><span class="tag" style="background:rgba(0,137,123,0.15);color:#80cbc4;border:1px solid rgba(0,137,123,0.25)">🖥️ Split</span> 
+      <span class="tag tag-splitscreen" data-cat="splitscreen">splitscreen</span><span class="tag tag-action" data-cat="action">action</span><span class="tag tag-rpg" data-cat="rpg">rpg</span><span class="tag tag-indie" data-cat="indie">indie</span> <span class="tag" data-mode="online" style="background:rgba(0,137,123,0.15);color:#80cbc4;border:1px solid rgba(0,137,123,0.25)">🌐 Online</span><span class="tag" data-mode="local" style="background:rgba(0,137,123,0.15);color:#80cbc4;border:1px solid rgba(0,137,123,0.25)">🛋️ Local</span><span class="tag" data-mode="split" style="background:rgba(0,137,123,0.15);color:#80cbc4;border:1px solid rgba(0,137,123,0.25)">🖥️ Split</span> 
     </div>
 
     <div class="game-info-grid">
@@ -118,11 +118,19 @@
       const desc = isEn && GAME_DATA.description_en ? GAME_DATA.description_en : GAME_DATA.description;
       const metaDesc = desc.slice(0, 320);
 
-      document.getElementById('backLink').textContent = isEn ? '← Back to catalog' : '← Torna al catalogo';
+      document.getElementById('backLink').textContent = t('page_back_catalog');
       document.getElementById('descTitle').textContent = t('modal_desc');
       document.getElementById('playersLabel').textContent = t('modal_players');
       document.getElementById('maxPlayersLabel').textContent = t('max_players');
       document.getElementById('gameDesc').textContent = desc;
+
+      document.querySelectorAll('[data-cat]').forEach((el) => {
+        el.textContent = t('cat_' + el.dataset.cat);
+      });
+
+      document.querySelectorAll('[data-mode]').forEach((el) => {
+        el.textContent = t('mode_' + el.dataset.mode);
+      });
 
       const onlineLabel = document.getElementById('onlineLabel');
       if (onlineLabel) onlineLabel.textContent = t('modal_online');

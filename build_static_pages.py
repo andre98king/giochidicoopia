@@ -168,7 +168,7 @@ def render_store_links(game: dict) -> str:
 
 def render_tags(game: dict) -> str:
     return "".join(
-        f'<span class="tag tag-{esc(category)}">{esc(category)}</span>'
+        f'<span class="tag tag-{esc(category)}" data-cat="{esc(category)}">{esc(category)}</span>'
         for category in game["categories"]
     )
 
@@ -176,7 +176,8 @@ def render_tags(game: dict) -> str:
 def render_modes(game: dict) -> str:
     labels = {"online": "🌐 Online", "local": "🛋️ Local", "split": "🖥️ Split"}
     return "".join(
-        '<span class="tag" style="background:rgba(0,137,123,0.15);color:#80cbc4;'
+        '<span class="tag" data-mode="'
+        f'{esc(mode)}" style="background:rgba(0,137,123,0.15);color:#80cbc4;'
         f'border:1px solid rgba(0,137,123,0.25)">{esc(labels.get(mode, mode))}</span>'
         for mode in game["coopMode"]
     )
@@ -231,7 +232,7 @@ def render_static_page(game: dict) -> str:
     crossplay_badge = ""
     if game["crossplay"]:
         crossplay_badge = (
-            '<span class="tag" style="background:rgba(92,107,192,0.15);color:#9fa8da;'
+            '<span class="tag" data-i18n="mode_crossplay" style="background:rgba(92,107,192,0.15);color:#9fa8da;'
             'border:1px solid rgba(92,107,192,0.25)">🔄 Crossplay</span>'
         )
 
@@ -379,11 +380,19 @@ def render_static_page(game: dict) -> str:
       const desc = isEn && GAME_DATA.description_en ? GAME_DATA.description_en : GAME_DATA.description;
       const metaDesc = desc.slice(0, 320);
 
-      document.getElementById('backLink').textContent = isEn ? '← Back to catalog' : '← Torna al catalogo';
+      document.getElementById('backLink').textContent = t('page_back_catalog');
       document.getElementById('descTitle').textContent = t('modal_desc');
       document.getElementById('playersLabel').textContent = t('modal_players');
       document.getElementById('maxPlayersLabel').textContent = t('max_players');
       document.getElementById('gameDesc').textContent = desc;
+
+      document.querySelectorAll('[data-cat]').forEach((el) => {{
+        el.textContent = t('cat_' + el.dataset.cat);
+      }});
+
+      document.querySelectorAll('[data-mode]').forEach((el) => {{
+        el.textContent = t('mode_' + el.dataset.mode);
+      }});
 
       const onlineLabel = document.getElementById('onlineLabel');
       if (onlineLabel) onlineLabel.textContent = t('modal_online');

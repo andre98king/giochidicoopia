@@ -50,7 +50,7 @@
   <link rel="stylesheet" href="style.css">
 
   <!-- Structured Data -->
-  <script type="application/ld+json">
+  <script id="pageJsonLd" type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
@@ -66,12 +66,12 @@
   }
   </script>
 </head>
-<body>
+<body data-page="home">
   <!-- Animated background particles -->
   <canvas id="bgCanvas" class="bg-canvas" aria-hidden="true"></canvas>
 
   <!-- Skip to main content (accessibility) -->
-  <a href="#gamesGrid" class="skip-link">Vai al contenuto principale</a>
+  <a href="#gamesGrid" class="skip-link" data-i18n="skip_to_content">Vai al contenuto principale</a>
 
   <!-- HERO -->
   <header class="hero">
@@ -94,7 +94,7 @@
   </header>
 
   <!-- TOOLBAR -->
-  <nav class="toolbar" role="navigation" aria-label="Filtri e ricerca">
+  <nav class="toolbar" role="navigation" aria-label="Filtri e ricerca" data-i18n-aria-label="toolbar_aria">
     <div class="toolbar-inner">
       <!-- Ricerca -->
       <div class="search-box" role="search">
@@ -102,18 +102,18 @@
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
             d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
         </svg>
-        <input type="text" id="searchInput" placeholder="Cerca un gioco..." aria-label="Cerca un gioco">
-        <button class="search-clear" id="searchClear" style="display:none" aria-label="Cancella ricerca">✕</button>
+        <input type="text" id="searchInput" placeholder="Cerca un gioco..." aria-label="Cerca un gioco" data-i18n-placeholder="search_placeholder" data-i18n-aria-label="search_aria">
+        <button class="search-clear" id="searchClear" style="display:none" aria-label="Cancella ricerca" data-i18n-aria-label="clear_search_aria">✕</button>
       </div>
 
       <!-- Filtri categorie -->
-      <div class="filters" id="filterContainer" role="group" aria-label="Filtri per categoria"></div>
+      <div class="filters" id="filterContainer" role="group" aria-label="Filtri per categoria" data-i18n-aria-label="filters_category_aria"></div>
 
       <!-- Filtri modalità co-op -->
-      <div class="filters filters-mode" id="modeFilterContainer" role="group" aria-label="Filtri per modalità"></div>
+      <div class="filters filters-mode" id="modeFilterContainer" role="group" aria-label="Filtri per modalità" data-i18n-aria-label="filters_mode_aria"></div>
 
       <!-- Ordinamento -->
-      <select class="sort-select" id="sortSelect" aria-label="Ordina giochi">
+      <select class="sort-select" id="sortSelect" aria-label="Ordina giochi" data-i18n-aria-label="sort_aria">
         <option value="default">📋 Default</option>
         <option value="rating">⭐ Meglio recensiti</option>
         <option value="trending">🔥 Più giocati ora</option>
@@ -121,16 +121,16 @@
       </select>
 
       <!-- Ruota random -->
-      <button class="btn-wheel" id="wheelBtn" aria-label="Gioco random">🎡 Gioco Random</button>
+      <button class="btn-wheel" id="wheelBtn" aria-label="Gioco random" data-i18n-aria-label="btn_wheel_aria">🎡 Gioco Random</button>
       <!-- Lingua -->
-      <button class="btn-lang" id="langBtn" onclick="setLang(currentLang === 'it' ? 'en' : 'it')" aria-label="Cambia lingua">🇬🇧 EN</button>
+      <button class="btn-lang" id="langBtn" onclick="setLang(currentLang === 'it' ? 'en' : 'it')" aria-label="Cambia lingua" data-i18n-aria-label="btn_lang_aria">🇬🇧 EN</button>
       <!-- Admin -->
-      <button class="btn-admin" id="adminBtn" aria-label="Modalità admin">🔒 Admin</button>
+      <button class="btn-admin" id="adminBtn" aria-label="Modalità admin" data-i18n-aria-label="btn_admin_aria">🔒 Admin</button>
     </div>
   </nav>
 
   <!-- FEATURED INDIE OF THE WEEK -->
-  <section id="featuredSection" aria-label="Gioco indie della settimana"></section>
+  <section id="featuredSection" aria-label="Gioco indie della settimana" data-i18n-aria-label="featured_section_aria"></section>
 
   <!-- MAIN -->
   <main class="main" id="mainContent">
@@ -139,17 +139,17 @@
   </main>
 
   <!-- MODAL DETTAGLIO GIOCO -->
-  <div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" aria-label="Dettaglio gioco">
+  <div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" aria-label="Dettaglio gioco" data-i18n-aria-label="modal_game_aria">
     <div class="modal" id="modalContent"></div>
   </div>
 
   <!-- MODAL ADMIN EDIT -->
-  <div class="modal-overlay" id="adminOverlay" role="dialog" aria-modal="true" aria-label="Modifica gioco">
+  <div class="modal-overlay" id="adminOverlay" role="dialog" aria-modal="true" aria-label="Modifica gioco" data-i18n-aria-label="modal_edit_aria">
     <div class="modal" style="max-width:480px">
       <div class="modal-body">
         <div class="modal-header">
           <div class="modal-title" id="adminGameTitle"></div>
-          <button class="modal-close" onclick="closeAdminModal()" aria-label="Chiudi">✕</button>
+          <button class="modal-close" onclick="closeAdminModal()" aria-label="Chiudi" data-i18n-aria-label="btn_close_aria">✕</button>
         </div>
         <input type="hidden" id="adminGameId">
         <div>
@@ -173,16 +173,16 @@
   </div>
 
   <!-- MODAL RUOTA -->
-  <div class="modal-overlay" id="wheelOverlay" role="dialog" aria-modal="true" aria-label="Ruota gioco random">
+  <div class="modal-overlay" id="wheelOverlay" role="dialog" aria-modal="true" aria-label="Ruota gioco random" data-i18n-aria-label="modal_random_aria">
     <div class="modal wheel-modal">
       <div class="modal-body">
         <div class="modal-header" style="justify-content:center; position:relative">
           <div class="modal-title" id="wheelTitle">🎡 Ruota Gioco Random</div>
-          <button class="modal-close" onclick="closeWheelModal()" style="position:absolute;right:0;top:0" aria-label="Chiudi">✕</button>
+          <button class="modal-close" onclick="closeWheelModal()" style="position:absolute;right:0;top:0" aria-label="Chiudi" data-i18n-aria-label="btn_close_aria">✕</button>
         </div>
 
         <div class="wheel-wrapper">
-          <canvas id="wheelCanvas" width="320" height="320" aria-label="Ruota della fortuna"></canvas>
+          <canvas id="wheelCanvas" width="320" height="320" aria-label="Ruota della fortuna" data-i18n-aria-label="wheel_canvas_aria"></canvas>
           <div class="wheel-pointer" aria-hidden="true"></div>
         </div>
 
@@ -197,7 +197,7 @@
   </div>
 
   <!-- Scroll to top -->
-  <button class="scroll-top" id="scrollTopBtn" aria-label="Torna su">
+  <button class="scroll-top" id="scrollTopBtn" aria-label="Torna su" data-i18n-aria-label="scroll_top_aria">
     <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 15l7-7 7 7"/>
     </svg>
