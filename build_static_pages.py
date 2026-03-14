@@ -21,6 +21,7 @@ GAMES_DIR = ROOT / "games"
 SITEMAP = ROOT / "sitemap.xml"
 SITE_URL = "https://coophubs.net"
 TODAY = datetime.date.today().isoformat()
+CURRENT_YEAR = datetime.date.today().year
 
 
 def ef(block: str, field: str):
@@ -361,7 +362,7 @@ def render_static_page(game: dict) -> str:
         <a href="../privacy.html" id="footerPrivacy">Privacy Policy</a>
       </div>
       <div class="footer-divider"></div>
-      <div class="footer-copy">&copy; 2025 — Dati da Steam &amp; SteamSpy</div>
+      <div class="footer-copy">&copy; {CURRENT_YEAR} — Dati da Steam &amp; SteamSpy</div>
     </div>
   </footer>
 

@@ -3330,7 +3330,7 @@ const games = [
     players: "1-4",
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2527950/header.jpg",
     description: "Il sequel del caos di trasloco torna con ancora più livelli assurdi, nuovi mondi e ancora più fisica distruttiva. Lavora con gli amici per trasportare mobili attraverso scenari sempre più folli, dall'ufficio alla luna, in co-op locale o online. Divertimento garantito ad ogni sessione.",
-    description_en: "",
+    description_en: "The chaotic moving sequel returns with stranger levels, new worlds, and even more slapstick physics. Team up with friends to carry furniture through increasingly absurd locations, from office buildings to the moon, in local or online co-op.",
     personalNote: "",
     played: false,
     steamUrl: "https://store.steampowered.com/app/2527950/",
