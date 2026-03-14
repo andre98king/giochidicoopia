@@ -559,3 +559,42 @@ Questo file serve come punto di handoff condiviso tra Codex e Claude Code.
   - verificare homepage, `game.html` e 2-3 pagine `games/*.html`
   - controllare che non compaiano badge/label/stati crossplay visibili
   - controllare che il cleanup non abbia introdotto regressioni nei meta tag o nel layout delle game pages
+
+### 2026-03-14 - Codex - Hardening workflow free games
+
+- Continuato in autonomia mentre Claude non era disponibile, scegliendo un follow-up tecnico verificabile senza QA manuale: aggiungere guardrail al workflow `Update Free Games`.
+- Problema affrontato:
+  - il workflow giornaliero `free_games.yml` eseguiva `fetch_free_games.py` e poi committava direttamente `free_games.js`
+  - mancava pero una validazione dedicata del payload finale del feed gratuito
+  - questo lasciava aperto il rischio di committare dati malformati, URL sbagliati o offerte duplicate/scadute in caso di parsing parziale o cambi schema lato store
+- Modifiche implementate:
+  - `validate_free_games.py` (nuovo)
+    - parser standalone di `free_games.js` senza dipendenze di rete
+    - controlla che il file esponga `const freeGames = [...]`
+    - valida struttura array + oggetti
+    - valida campi principali:
+      - `title`
+      - `store`
+      - `storeUrl`
+      - `freeUntil`
+    - valida che `store` sia uno tra `epic`, `steam`, `gog`, `humble`
+    - valida URL HTTPS per `storeUrl` e `imageUrl` (se presente)
+    - segnala host store incoerenti come warning
+    - fallisce su offerte duplicate per store/titolo
+    - fallisce su offerte chiaramente gia scadute
+    - accetta correttamente anche feed vuoto, ma lo segnala come warning informativo
+  - `.github/workflows/free_games.yml`
+    - aggiunto step `Validate free games feed`
+    - il workflow ora esegue `python3 validate_free_games.py` prima del commit automatico
+- Verifiche eseguite da Codex:
+  - `python3 validate_free_games.py`
+  - `python3 -m py_compile fetch_free_games.py validate_free_games.py validate_catalog.py build_static_pages.py auto_update.py`
+- Risultato verifiche:
+  - validazione passata sul feed reale attuale con `2` offerte
+  - nessun errore di sintassi Python
+- Stato:
+  - il workflow free games ora ha un guardrail minimo ma utile prima del commit
+  - nessuna modifica UI in questo step
+- QA per Claude Code:
+  - non urgente
+  - quando torna disponibile, puo limitarsi a verificare che il workflow `Update Free Games` includa il nuovo step di validazione e che non ci siano regressioni operative

@@ -26,6 +26,9 @@ jobs:
       - name: Fetch free games
         run: python3 fetch_free_games.py
 
+      - name: Validate free games feed
+        run: python3 validate_free_games.py
+
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
