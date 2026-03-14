@@ -366,6 +366,7 @@ def render_static_page(game: dict) -> str:
       <div class="footer-links">
         <a href="../about.html" id="footerAbout">Sul progetto</a>
         <a href="../contact.html" id="footerContact">Contatti</a>
+        <a href="../free.html" id="footerFree">Giochi gratis</a>
         <a href="../privacy.html" id="footerPrivacy">Privacy Policy</a>
       </div>
       <div class="footer-divider"></div>
@@ -462,6 +463,12 @@ def write_sitemap(games):
         f"    <lastmod>{TODAY}</lastmod>\n",
         "    <changefreq>monthly</changefreq>\n",
         "    <priority>0.5</priority>\n",
+        "  </url>\n",
+        "  <url>\n",
+        f"    <loc>{SITE_URL}/free.html</loc>\n",
+        f"    <lastmod>{TODAY}</lastmod>\n",
+        "    <changefreq>daily</changefreq>\n",
+        "    <priority>0.6</priority>\n",
         "  </url>\n",
     ]
     for game in games:

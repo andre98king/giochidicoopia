@@ -19,6 +19,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://coophubs.net/free.html</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://coophubs.net/games/1.html</loc>
     <lastmod>2026-03-14</lastmod>
     <changefreq>weekly</changefreq>

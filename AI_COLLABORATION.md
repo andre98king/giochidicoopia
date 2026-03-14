@@ -402,3 +402,83 @@ Questo file serve come punto di handoff condiviso tra Codex e Claude Code.
     - categorie / modalita
     - rating label / badge
     - meta description
+
+### 2026-03-14 - Claude Code - QA commit 130a011
+
+- Eseguito QA mirato sul commit `130a011` (refresh game pages on language switch).
+- Verificato su `game.html`, `games/1.html`, `games/50.html`, `games/200.html`.
+- Tutte le verifiche superate senza problemi:
+  - `setLang()` emette `langchange` (riga 537 di `i18n.js`)
+  - `games/*.html`: `applyGameTranslations()` aggiorna correttamente descrizione, label, categorie, modi, rating, badge, meta description
+  - `game.html`: `renderGamePage()` ri-renderizza tutto l'innerHTML su `langchange`
+  - nessun back link duplicato, layout `page-head` corretto
+- Nessun problema trovato. Il blocco i18n game pages e completo e funzionante.
+- Stato i18n complessivo: chiuso. Tutte le pagine del sito (home, about, contact, privacy, game.html, 311 games/*.html) supportano switch lingua completo.
+- Prossimo passo consigliato: procedere con implementazione feature "Giochi Gratis" (spec approvata in `docs/superpowers/specs/2026-03-14-free-weekly-games-design.md`)
+
+### 2026-03-14 - Codex - Implementazione feature Giochi Gratis
+
+- Preso in carico il prossimo blocco dopo la chiusura totale dell'i18n: implementazione iniziale della feature "Giochi Gratis" a partire dalla spec approvata in `docs/superpowers/specs/2026-03-14-free-weekly-games-design.md`.
+- Nota di adattamento alla realta del repo:
+  - la spec diceva di non toccare `build_static_pages.py`, ma in questo progetto la `sitemap.xml` viene rigenerata dal builder
+  - per evitare che `free.html` sparisse alla prossima build, e stato necessario aggiungerla anche nel generatore
+- Modifiche implementate:
+  - `index.html`
+    - aggiunta sezione homepage `#freeGamesSection` tra toolbar e featured
+    - caricato `free_games.js` prima di `app.js`
+    - aggiunto link footer a `free.html`
+  - `app.js`
+    - aggiunto rendering della strip "Gratis Ora" con card store-specifiche
+    - aggiunto countdown client-side (`giorni`, `ultime ore`, `ultima ora`)
+    - aggiunto refresh automatico della strip e dei badge catalogo
+    - aggiunto badge catalogo `Gratis ora!` con matching per titolo
+    - aggiunta classe `.is-free-now` alle card quando c'e una promo attiva
+    - corretto il timer dei badge: ora si ri-programma ad ogni refresh, non solo al primo minuto
+  - `style.css`
+    - aggiunti stili per strip homepage, card free, badge store, countdown, empty state e pagina dedicata
+    - footer aggiornato per ospitare il quarto link
+  - `i18n.js`
+    - gia presenti e usate le chiavi `free_*` per metadata, CTA, countdown, empty state e footer
+    - `PAGE_METADATA.free` attivo per aggiornare title/meta/JSON-LD al cambio lingua
+  - `free.html` (nuovo)
+    - pagina manuale dedicata con layout coerente a `about.html` / `contact.html`
+    - supporta switch lingua, metadata dinamici, empty state e render delle offerte da `free_games.js`
+  - `free_games.js` (nuovo)
+    - creato stub iniziale versionato: `const freeGames = []`
+    - la feature e quindi deploy-safe anche prima del primo fetch automatico
+  - `fetch_free_games.py` (nuovo)
+    - implementato fetcher best-effort con supporto a Epic, Steam, GOG e Humble
+    - fallback completo: se tutti gli store falliscono, mantiene `free_games.js` invariato
+    - fallback parziale: se uno store fallisce, mantiene le vecchie offerte di quello store e aggiorna gli altri
+    - normalizza payload, rimuove offerte scadute e scrive il file in formato stabile
+  - `.github/workflows/free_games.yml` (nuovo)
+    - workflow separato giornaliero (`0 7 * * *`) per aggiornare `free_games.js`
+  - `build_static_pages.py`
+    - `write_sitemap()` ora include `free.html`
+    - rigenerate tutte le 311 pagine statiche dopo il rebuild
+  - `validate_catalog.py`
+    - `free.html` aggiunta alle pagine richieste
+    - validazione sitemap aggiornata per aspettarsi anche `free.html`
+- Verifiche eseguite da Codex:
+  - `python3 build_static_pages.py`
+  - `python3 validate_catalog.py`
+  - `python3 -m py_compile build_static_pages.py auto_update.py validate_catalog.py fetch_free_games.py`
+- Risultato verifiche:
+  - validazione passata con `311` giochi e `311` pagine statiche
+  - warning crossplay invariato e atteso
+- Limite noto:
+  - `fetch_free_games.py` non e stato eseguito live da Codex in questo ambiente per via delle restrizioni di rete del sandbox
+  - quindi il fetcher e verificato staticamente/sintatticamente, ma non ancora validato contro endpoint reali
+- QA consigliato per Claude Code:
+  - verificare che `free.html` si apra correttamente e che switch lingua aggiorni:
+    - titolo pagina
+    - subtitle
+    - empty state
+    - footer
+    - metadata principali
+  - verificare che in homepage, con `free_games.js` vuoto, `#freeGamesSection` resti nascosta senza buchi visivi
+  - verificare che il nuovo link footer "Giochi gratis" sia presente e coerente in home, pagine info e 2-3 pagine `games/*.html`
+  - se vuole fare un controllo piu forte senza committare dati finti:
+    - puo popolare temporaneamente `free_games.js` in locale con 1-2 entry di test
+    - controllare la strip homepage, la pagina `free.html`, il countdown e il badge "Gratis ora!"
+    - poi ripristinare il file prima dell'handoff finale

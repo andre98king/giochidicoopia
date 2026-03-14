@@ -8,6 +8,8 @@ const TRANSLATIONS = {
     about_meta_description: "Coophubs è un progetto indipendente dedicato alla scoperta di videogiochi cooperativi per PC, con informazioni chiare e un catalogo in continuo aggiornamento.",
     contact_meta_title: "Contatti — Coophubs",
     contact_meta_description: "Contatti di Coophubs per segnalazioni, suggerimenti di giochi cooperativi e proposte di miglioramento del sito.",
+    free_meta_title: "Giochi Gratis — Coophubs",
+    free_meta_description: "Offerte gratuite attive su Epic Games, Steam, GOG e Humble Bundle con countdown in tempo reale e link diretti per riscattarle.",
     privacy_meta_title: "Privacy Policy — Coophubs",
     privacy_meta_description: "Informativa privacy di Coophubs: preferenze salvate in locale, nessun analytics attivo e link esterni verso store di terze parti.",
 
@@ -40,6 +42,7 @@ const TRANSLATIONS = {
     btn_lang_aria: "Cambia lingua",
     btn_close_aria: "Chiudi",
     featured_section_aria: "Gioco indie della settimana",
+    free_section_aria: "Offerte gratuite attive",
     modal_game_aria: "Dettaglio gioco",
     modal_edit_aria: "Modifica gioco",
     modal_random_aria: "Ruota gioco random",
@@ -90,6 +93,16 @@ const TRANSLATIONS = {
 
     // Featured
     featured_label: "🌟 GIOCO INDIE DELLA SETTIMANA",
+    free_now: "Gratis Ora",
+    free_title: "Giochi Gratis",
+    free_subtitle: "Offerte attive su Epic Games, Steam, GOG e Humble Bundle con scadenza aggiornata in tempo reale.",
+    expires_in_days: (n) => `Scade tra ${n} giorni`,
+    last_hours: (n) => `Ultime ${n}h!`,
+    last_hour: "Ultima ora!",
+    claim_free: "Riscatta gratis",
+    see_all_offers: "Vedi tutte le offerte",
+    no_free_games: "Nessuna offerta gratuita al momento. Torna domani!",
+    free_now_badge: "Gratis ora!",
 
     // Results
     results_found: (n, total) => `Trovati <span>${n}</span> giochi su ${total}`,
@@ -144,6 +157,7 @@ const TRANSLATIONS = {
     footer_sub: "Coophubs è un progetto indipendente dedicato alla scoperta di giochi cooperativi per PC.",
     footer_about: "Sul progetto",
     footer_contact: "Contatti",
+    footer_free: "Giochi gratis",
     footer_privacy: "Privacy Policy",
 
     // About page
@@ -205,6 +219,8 @@ const TRANSLATIONS = {
     about_meta_description: "Coophubs is an independent project focused on discovering co-op PC games, with clear information and a catalog that keeps improving over time.",
     contact_meta_title: "Contact — Coophubs",
     contact_meta_description: "Contact Coophubs for bug reports, co-op game suggestions, and ideas to improve the site.",
+    free_meta_title: "Free Games — Coophubs",
+    free_meta_description: "Active free offers on Epic Games, Steam, GOG, and Humble Bundle with live countdowns and direct claim links.",
     privacy_meta_title: "Privacy Policy — Coophubs",
     privacy_meta_description: "Coophubs privacy policy: local browser preferences, no active analytics, and outbound links to third-party game stores.",
 
@@ -237,6 +253,7 @@ const TRANSLATIONS = {
     btn_lang_aria: "Change language",
     btn_close_aria: "Close",
     featured_section_aria: "Indie game of the week",
+    free_section_aria: "Active free offers",
     modal_game_aria: "Game details",
     modal_edit_aria: "Edit game",
     modal_random_aria: "Random game wheel",
@@ -287,6 +304,16 @@ const TRANSLATIONS = {
 
     // Featured
     featured_label: "🌟 INDIE GAME OF THE WEEK",
+    free_now: "Free Now",
+    free_title: "Free Games",
+    free_subtitle: "Active offers on Epic Games, Steam, GOG, and Humble Bundle with live expiry countdowns.",
+    expires_in_days: (n) => `Expires in ${n} days`,
+    last_hours: (n) => `Last ${n}h!`,
+    last_hour: "Last hour!",
+    claim_free: "Claim free",
+    see_all_offers: "See all offers",
+    no_free_games: "No free offers right now. Check back tomorrow!",
+    free_now_badge: "Free now!",
 
     // Results
     results_found: (n, total) => `Found <span>${n}</span> games out of ${total}`,
@@ -341,6 +368,7 @@ const TRANSLATIONS = {
     footer_sub: "Coophubs is an independent project dedicated to discovering co-op games for PC.",
     footer_about: "About",
     footer_contact: "Contact",
+    footer_free: "Free games",
     footer_privacy: "Privacy Policy",
 
     // About page
@@ -437,6 +465,18 @@ const PAGE_METADATA = {
       url: "https://coophubs.net/contact.html",
       description,
       email: "coophubs@gmail.com",
+    }),
+  },
+  free: {
+    url: "https://coophubs.net/free.html",
+    titleKey: "free_meta_title",
+    descriptionKey: "free_meta_description",
+    schemaBuilder: (title, description) => ({
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      name: title,
+      url: "https://coophubs.net/free.html",
+      description,
     }),
   },
   privacy: {
@@ -622,6 +662,9 @@ function applyStaticTranslations() {
 
   const footerContact = document.getElementById("footerContact");
   if (footerContact) footerContact.textContent = t("footer_contact");
+
+  const footerFree = document.getElementById("footerFree");
+  if (footerFree) footerFree.textContent = t("footer_free");
 
   const footerPrivacy = document.getElementById("footerPrivacy");
   if (footerPrivacy) footerPrivacy.textContent = t("footer_privacy");

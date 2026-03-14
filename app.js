@@ -73,6 +73,141 @@ function categoryLabel(category) {
   return t('cat_' + category);
 }
 
+const FREE_STORE_LABELS = {
+  epic: 'Epic Games',
+  steam: 'Steam',
+  gog: 'GOG',
+  humble: 'Humble Bundle',
+};
+
+let freeSectionTimer = null;
+let freeBadgeTimer = null;
+
+function normalizeTitle(title) {
+  return (title || '').toLowerCase().trim().replace(/\s+/g, ' ');
+}
+
+function getFreeGamesData() {
+  return typeof freeGames !== 'undefined' && Array.isArray(freeGames) ? freeGames : [];
+}
+
+function parseFreeUntil(value) {
+  const date = new Date(value);
+  return Number.isNaN(date.getTime()) ? null : date;
+}
+
+function getActiveFreeGames(now = new Date()) {
+  return getFreeGamesData()
+    .map(entry => {
+      const expiresAt = parseFreeUntil(entry.freeUntil);
+      return expiresAt ? { ...entry, expiresAt } : null;
+    })
+    .filter(entry =>
+      entry &&
+      entry.title &&
+      entry.store &&
+      entry.storeUrl &&
+      entry.expiresAt.getTime() > now.getTime()
+    )
+    .sort((a, b) => a.expiresAt - b.expiresAt);
+}
+
+function getFreeCountdownState(expiresAt, now = new Date()) {
+  const diff = expiresAt.getTime() - now.getTime();
+  if (diff <= 0) return null;
+  if (diff < 60 * 60 * 1000) {
+    return { text: t('last_hour'), tone: 'last-hour' };
+  }
+  if (diff < 24 * 60 * 60 * 1000) {
+    const hoursLeft = Math.max(1, Math.ceil(diff / (60 * 60 * 1000)));
+    return { text: t('last_hours', hoursLeft), tone: 'urgent' };
+  }
+  const daysLeft = Math.max(1, Math.ceil(diff / (24 * 60 * 60 * 1000)));
+  return { text: t('expires_in_days', daysLeft), tone: 'normal' };
+}
+
+function buildFreeGameLookup(now = new Date()) {
+  const lookup = new Map();
+  getActiveFreeGames(now).forEach(entry => {
+    const key = normalizeTitle(entry.title);
+    if (!lookup.has(key)) lookup.set(key, entry);
+  });
+  return lookup;
+}
+
+function renderFreeGameCard(entry) {
+  const countdown = getFreeCountdownState(entry.expiresAt);
+  if (!countdown) return '';
+  const safeTitle = esc(entry.title);
+  const safeStoreUrl = esc(entry.storeUrl);
+  const safeImage = esc(entry.imageUrl || '');
+  const storeKey = esc(entry.store);
+  const storeLabel = FREE_STORE_LABELS[entry.store] || entry.store;
+
+  return `
+    <article class="free-card" data-store="${storeKey}">
+      <div class="free-card-media">
+        ${entry.imageUrl ? `<img class="free-card-img" src="${safeImage}" alt="${safeTitle}" loading="lazy" onerror="this.style.display='none'">` : '<div class="free-card-placeholder">🎁</div>'}
+        <span class="free-store-badge store-${storeKey}">${storeLabel}</span>
+      </div>
+      <div class="free-card-body">
+        <h3 class="free-card-title">${safeTitle}</h3>
+        <p class="free-countdown ${countdown.tone}" aria-live="polite">${countdown.text}</p>
+        <a class="btn-primary free-claim-btn" href="${safeStoreUrl}" target="_blank" rel="noopener noreferrer">${t('claim_free')}</a>
+      </div>
+    </article>`;
+}
+
+function scheduleFreeSectionRefresh(activeGames) {
+  if (freeSectionTimer) clearTimeout(freeSectionTimer);
+  if (!activeGames.length) return;
+  const urgent = activeGames.some(entry => (entry.expiresAt.getTime() - Date.now()) < 60 * 60 * 1000);
+  freeSectionTimer = window.setTimeout(() => renderFreeGamesSection(), urgent ? 1000 : 60000);
+}
+
+function scheduleFreeBadgeRefresh(activeGames) {
+  if (freeBadgeTimer) clearTimeout(freeBadgeTimer);
+  if (!activeGames.length) return;
+  const msToNextMinute = 60000 - (Date.now() % 60000);
+  freeBadgeTimer = window.setTimeout(() => {
+    const refreshedGames = getActiveFreeGames();
+    renderGames();
+    scheduleFreeBadgeRefresh(refreshedGames);
+  }, msToNextMinute);
+}
+
+function renderFreeGamesSection() {
+  const section = document.getElementById('freeGamesSection');
+  if (!section) return;
+
+  const activeGames = getActiveFreeGames();
+  if (!activeGames.length) {
+    section.hidden = true;
+    section.innerHTML = '';
+    if (freeSectionTimer) clearTimeout(freeSectionTimer);
+    if (freeBadgeTimer) clearTimeout(freeBadgeTimer);
+    return;
+  }
+
+  section.hidden = false;
+  section.innerHTML = `
+    <div class="free-strip">
+      <div class="free-strip-head">
+        <div>
+          <div class="free-strip-kicker">${t('free_now')}</div>
+          <h2 class="free-strip-title">${t('free_now')}</h2>
+        </div>
+        <a class="free-strip-link" href="free.html">${t('see_all_offers')}</a>
+      </div>
+      <div class="free-rail" role="list">
+        ${activeGames.map(renderFreeGameCard).join('')}
+      </div>
+    </div>`;
+
+  scheduleFreeSectionRefresh(activeGames);
+  scheduleFreeBadgeRefresh(activeGames);
+}
+
 // ===== FEATURED INDIE OF THE WEEK =====
 function renderFeatured() {
   const section = document.getElementById('featuredSection');
@@ -112,6 +247,7 @@ document.addEventListener('DOMContentLoaded', () => {
   loadOverrides();
   updateStats();
   renderFilters();
+  renderFreeGamesSection();
   renderFeatured();
   renderGames();
 
@@ -296,6 +432,7 @@ function renderGames() {
   const filtered = getFilteredGames();
   const grid = document.getElementById('gamesGrid');
   const info = document.getElementById('resultsInfo');
+  const freeLookup = buildFreeGameLookup();
 
   info.innerHTML = t('results_found', filtered.length, games.length);
 
@@ -312,7 +449,7 @@ function renderGames() {
     return;
   }
 
-  grid.innerHTML = filtered.map(game => createCard(game)).join('');
+  grid.innerHTML = filtered.map(game => createCard(game, freeLookup.get(normalizeTitle(game.title)))).join('');
 
   grid.querySelectorAll('.card').forEach(card => {
     const id = parseInt(card.dataset.id);
@@ -326,7 +463,7 @@ function renderGames() {
 }
 
 // ===== CREATE CARD =====
-function createCard(game) {
+function createCard(game, freeEntry = null) {
   const tags = game.categories.map(c =>
     `<span class="tag tag-${c}">${categoryLabel(c)}</span>`
   ).join('');
@@ -352,6 +489,9 @@ function createCard(game) {
 
   const adminBtn = isAdmin
     ? `<button class="btn-admin-edit" title="${t('admin_edit_title')}">✏️</button>` : '';
+  const freeBadge = freeEntry
+    ? `<div class="free-now-badge ${isAdmin ? 'with-admin' : ''}">${t('free_now_badge')}</div>`
+    : '';
 
   const trendingBadge = game.trending
     ? `<div class="trending-badge">${t('trending_badge')}</div>` : '';
@@ -365,8 +505,9 @@ function createCard(game) {
       </span>` : '';
 
   return `
-    <div class="card ${isAdmin ? 'admin-mode' : ''} ${game.trending ? 'is-trending' : ''}" data-id="${game.id}">
+    <div class="card ${isAdmin ? 'admin-mode' : ''} ${game.trending ? 'is-trending' : ''} ${freeEntry ? 'is-free-now' : ''}" data-id="${game.id}">
       ${adminBtn}
+      ${freeBadge}
       ${trendingBadge}
       ${imgHtml}
       <div class="card-body">
@@ -500,6 +641,8 @@ function closeModal() {
   document.getElementById('modalOverlay').classList.remove('open');
   document.body.style.overflow = '';
 }
+
+window.addEventListener('langchange', renderFreeGamesSection);
 
 // ===== ADMIN TOGGLE =====
 async function toggleAdmin() {

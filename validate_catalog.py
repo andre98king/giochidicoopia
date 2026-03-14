@@ -14,7 +14,7 @@ import xml.etree.ElementTree as ET
 import build_static_pages
 
 
-INFO_PAGES = ("index.html", "about.html", "contact.html", "privacy.html", "game.html")
+INFO_PAGES = ("index.html", "about.html", "contact.html", "free.html", "privacy.html", "game.html")
 ALLOWED_CATEGORIES = {
     "trending",
     "horror",
@@ -135,6 +135,7 @@ def main() -> int:
             f"{build_static_pages.SITE_URL}/",
             f"{build_static_pages.SITE_URL}/about.html",
             f"{build_static_pages.SITE_URL}/contact.html",
+            f"{build_static_pages.SITE_URL}/free.html",
         }
         expected_locs.update(build_static_pages.page_url(game) for game in games)
         missing_locs = sorted(expected_locs - locs)
