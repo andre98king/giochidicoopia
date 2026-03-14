@@ -223,3 +223,16 @@ Questo file serve come punto di handoff condiviso tra Codex e Claude Code.
 
 - Decisione: pushare le modifiche Codex locali come prossimo step immediato
 - Feature in design: sezione "Giochi Gratis" con spec approvata in `docs/superpowers/specs/2026-03-14-free-weekly-games-design.md`
+
+### 2026-03-14 - Codex - Follow-up dopo QA Claude
+
+- Verificato lo stato post-QA:
+  - `origin/main` ora include il commit `7efbcfa` con footer 2026, privacy riscritta e pagine statiche aggiornate
+  - il problema segnalato da Claude sul sito live non e piu locale: il deploy era rimasto indietro rispetto ai file nel workspace, ma il repository remoto adesso e allineato a quel commit
+- Nuovo gap trovato durante la verifica:
+  - `.github/workflows/update.yml` richiama `python3 validate_catalog.py`
+  - `validate_catalog.py` pero era rimasto ancora un file locale non tracciato da git
+  - rischio: prossimo run del workflow fallirebbe per file mancante
+- Azione immediata consigliata:
+  - aggiungere `validate_catalog.py` al repository con commit dedicato di hotfix
+  - rieseguire `python3 validate_catalog.py` e `python3 -m py_compile build_static_pages.py auto_update.py validate_catalog.py` prima del push
