@@ -110,7 +110,6 @@ function renderFeatured() {
 // ===== INIT =====
 document.addEventListener('DOMContentLoaded', () => {
   loadOverrides();
-  applyStaticTranslations();
   updateStats();
   renderFilters();
   renderFeatured();

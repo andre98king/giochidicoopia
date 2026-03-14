@@ -287,3 +287,60 @@ Questo file serve come punto di handoff condiviso tra Codex e Claude Code.
     - cambio lingua non faccia perdere lo stato visivo dei filtri attivi
     - card e modal mostrino categorie tradotte
   - verificare su 2-3 pagine in `games/` che categorie/modalita si traducano correttamente in base a `coopLang`
+
+### 2026-03-14 - Claude Code - QA commit 905a5c0
+
+- Eseguito QA completo del commit `905a5c0` (i18n expansion by Codex).
+- Tutte le verifiche richieste da Codex superate:
+  - switch lingua funziona su `about.html`, `contact.html`, `privacy.html`
+  - `title`, meta description, OG, Twitter, canonical e JSON-LD si aggiornano correttamente al cambio lingua tramite `applyPageMetadata()`
+  - ricerca in homepage cerca sia `description` che `description_en`
+  - filtri mantengono stato visivo corretto dopo cambio lingua
+  - card, modal, pagine `games/*.html`: categorie e modalita tradotte correttamente via `data-cat`/`data-mode` + `t()`
+  - footer tradotto su tutte le pagine (ID `footerSub`, `footerAbout`, `footerContact`, `footerPrivacy`)
+  - accessibilita: `aria-label` aggiornati via `data-i18n-aria-label`
+  - nessun rischio XSS nelle stringhe `data-i18n-html` (tutte hardcoded)
+- Problemi trovati:
+  1. **MEDIO — Pagine `games/*.html` e `game.html` senza toggle lingua**
+     - L'utente che arriva direttamente su una pagina gioco non puo cambiare lingua
+     - La lingua viene letta da `localStorage` (funziona se gia impostata), ma non c'e modo di cambiarla dalla pagina
+     - Fix richiede modifica a `build_static_pages.py` + rigenerazione di 311 pagine
+  2. **BASSO — Doppia chiamata `applyStaticTranslations()` su homepage**
+     - `i18n.js` e `app.js` la chiamano entrambi su DOMContentLoaded
+     - Idempotente, nessun impatto visivo
+  3. **BASSO — FOUC su game pages**
+     - Categorie/modi mostrano testo raw per un istante prima che JS li traduca
+     - Normale per pattern statico + JS
+- Nessun fix applicato: il lavoro di Codex e solido e non richiede interventi immediati.
+- Prossimo passo consigliato:
+  - aggiungere toggle lingua alle pagine `games/*.html` via `build_static_pages.py`
+  - procedere con implementazione feature "Giochi Gratis" (spec approvata in `docs/superpowers/specs/2026-03-14-free-weekly-games-design.md`)
+
+### 2026-03-14 - Codex - Follow-up QA static game pages
+
+- Preso in carico il QA di Claude e chiusi i due fix a basso rischio emersi dal commit `905a5c0`.
+- Modifiche implementate:
+  - `build_static_pages.py`
+    - aggiunto `page-head` con back link + `langBtn` alle pagine `games/*.html`
+    - il toggle lingua ora e disponibile anche per chi atterra direttamente su una scheda gioco statica
+    - mantenuto il wiring esistente con `i18n.js` e `setLang(...)`
+  - `game.html`
+    - aggiunto `page-head` stabile con back link + `langBtn`
+    - il toggle lingua ora esiste anche nel fallback legacy / stato `game not found`
+    - rimosso il back link duplicato dal contenuto dinamico
+  - `app.js`
+    - rimossa la chiamata duplicata a `applyStaticTranslations()` su homepage
+    - la traduzione iniziale resta gestita da `i18n.js`, che viene caricato prima
+- Eseguito dopo le modifiche:
+  - `python3 build_static_pages.py`
+  - `python3 validate_catalog.py`
+  - `python3 -m py_compile build_static_pages.py auto_update.py validate_catalog.py`
+- Risultato verifiche:
+  - validazione passata con `311` giochi e `311` pagine statiche
+  - warning crossplay invariato e atteso
+- Nota aperta:
+  - il piccolo FOUC sulle pagine gioco resta atteso nel pattern statico + JS e non e stato trattato in questo step
+- QA consigliato per Claude Code su questo follow-up:
+  - verificare che `langBtn` sia presente e funzionante in `game.html`
+  - verificare che `langBtn` sia presente e funzionante in almeno 2-3 pagine `games/*.html`
+  - controllare che non ci siano duplicazioni visive del back link

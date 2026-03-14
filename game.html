@@ -39,6 +39,7 @@
     .game-page { max-width: 800px; margin: 0 auto; padding: 30px 20px 60px; position: relative; z-index: 1; }
     .game-back { display: inline-flex; align-items: center; gap: 6px; color: var(--accent); text-decoration: none; font-weight: 600; margin-bottom: 24px; transition: color 0.25s; }
     .game-back:hover { color: #a78bfa; }
+    .page-head .game-back { margin-bottom: 0; }
     .game-hero-img { width: 100%; max-height: 360px; object-fit: cover; border-radius: var(--radius); margin-bottom: 24px; display: block; }
     .game-title { font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 800; letter-spacing: -1px; margin-bottom: 12px; }
     .game-meta { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 20px; }
@@ -59,11 +60,17 @@
 <body>
   <canvas id="bgCanvas" class="bg-canvas" aria-hidden="true"></canvas>
 
-  <div class="game-page" id="gamePage">
+  <div class="game-page">
+    <div class="page-head">
+      <a href="./" class="game-back" id="backLink" data-i18n="page_back_catalog">← Torna al catalogo</a>
+      <div class="page-head-actions">
+        <button class="btn-lang" id="langBtn" onclick="setLang(currentLang === 'it' ? 'en' : 'it')" aria-label="Cambia lingua" data-i18n-aria-label="btn_lang_aria">🇬🇧 EN</button>
+      </div>
+    </div>
+    <div id="gamePage"></div>
     <div class="game-not-found" id="notFound" style="display:none">
       <h2 data-i18n="game_not_found_title">Gioco non trovato</h2>
       <p data-i18n="game_not_found_desc">Il gioco richiesto non esiste nel database.</p>
-      <a href="./" class="game-back" style="margin-top:20px;display:inline-flex" data-i18n="page_back_catalog">← Torna al catalogo</a>
     </div>
   </div>
 
@@ -144,7 +151,6 @@
         document.querySelector('meta[name="twitter:description"]').content = t('game_not_found_meta_desc');
         document.querySelector('#notFound [data-i18n="game_not_found_title"]').textContent = t('game_not_found_title');
         document.querySelector('#notFound [data-i18n="game_not_found_desc"]').textContent = t('game_not_found_desc');
-        document.querySelector('#notFound [data-i18n="page_back_catalog"]').textContent = t('page_back_catalog');
         document.getElementById('notFound').style.display = 'block';
         return;
       }
@@ -188,8 +194,6 @@
         </div>` : '';
 
       page.innerHTML = `
-        <a href="./" class="game-back">${t('page_back_catalog')}</a>
-
         ${game.image ? `<img class="game-hero-img" src="${esc(game.image)}" alt="${safeTitle}" onerror="this.style.display='none'">` : ''}
 
         <h1 class="game-title">

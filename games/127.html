@@ -33,6 +33,7 @@
     .game-page { max-width: 800px; margin: 0 auto; padding: 30px 20px 60px; position: relative; z-index: 1; }
     .game-back { display: inline-flex; align-items: center; gap: 6px; color: var(--accent); text-decoration: none; font-weight: 600; margin-bottom: 24px; transition: color 0.25s; }
     .game-back:hover { color: #a78bfa; }
+    .page-head .game-back { margin-bottom: 0; }
     .game-hero-img { width: 100%; max-height: 360px; object-fit: cover; border-radius: var(--radius); margin-bottom: 24px; display: block; }
     .game-title { font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 800; letter-spacing: -1px; margin-bottom: 12px; }
     .game-meta { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 20px; }
@@ -52,7 +53,12 @@
   <canvas id="bgCanvas" class="bg-canvas" aria-hidden="true"></canvas>
 
   <div class="game-page">
-    <a href="../" class="game-back" id="backLink">← Torna al catalogo</a>
+    <div class="page-head">
+      <a href="../" class="game-back" id="backLink">← Torna al catalogo</a>
+      <div class="page-head-actions">
+        <button class="btn-lang" id="langBtn" onclick="setLang(currentLang === 'it' ? 'en' : 'it')" aria-label="Cambia lingua" data-i18n-aria-label="btn_lang_aria">🇬🇧 EN</button>
+      </div>
+    </div>
 
     <img class="game-hero-img" src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/996770/header.jpg" alt="Moving Out" onerror="this.style.display='none'">
 
