@@ -922,3 +922,57 @@ Questo file serve come punto di handoff condiviso tra Codex e Claude Code.
 - Limite noto:
   - in questo ambiente non sono disponibili test browser automatici o parse JS con `node`
   - serve QA manuale mirato su homepage e `game.html` per confermare il fallback runtime
+
+### 2026-03-14 - Codex - Centralizzazione I/O legacy di games.js in catalog_data.py
+
+- Contesto:
+  - dopo aver introdotto il layer canonico e l'export pubblico runtime, `auto_update.py` duplicava ancora la logica di parse e serializzazione di `games.js`
+  - questo teneva in vita due implementazioni separate del formato legacy, aumentando il rischio di drift
+  - Claude al momento non e disponibile, quindi il lavoro e stato portato avanti in modo conservativo con verifiche locali
+- Obiettivo:
+  - fare di `catalog_data.py` l'unico punto condiviso per leggere e scrivere `games.js`
+  - ridurre il legacy a formato di compatibilita/output, non a logica replicata
+  - preparare meglio la prossima fase multi-source senza toccare l'algoritmo di aggiornamento
+- Modifiche implementate:
+  - `catalog_data.py`
+    - aggiunti helper legacy condivisi:
+      - `js_esc(...)`
+      - `load_legacy_catalog_bundle()`
+      - `write_legacy_games_js(...)`
+    - lo scrittore centralizzato:
+      - ordina i giochi per `id`
+      - serializza solo i campi runtime legacy
+      - mantiene le guardie:
+        - brace count coerente
+        - blocco scrittura se il catalogo scende sotto soglia
+  - `auto_update.py`
+    - aggiunto `import catalog_data`
+    - rimossa la lettura manuale di `games.js` via regex/`ef(...)`
+    - rimossa la serializzazione manuale tramite `lines = [...]`
+    - il caricamento iniziale ora usa:
+      - `featured_id_existing, existing_games = catalog_data.load_legacy_catalog_bundle()`
+    - la scrittura finale ora usa:
+      - `catalog_data.write_legacy_games_js(existing_games, featured_indie_id=...)`
+    - rimossi helper duplicati non piu necessari:
+      - `ef(...)`
+      - `js_esc(...)`
+- Scelta intenzionale:
+  - non ho cambiato la logica di discovery/verifica/aggiornamento di `auto_update.py`
+  - il refactor tocca solo l'I/O del catalogo, per minimizzare il rischio
+  - `games.js` resta ancora il formato legacy pubblicato dal workflow, ma ora e governato da un solo serializer condiviso
+- Verifiche eseguite da Codex:
+  - `python3 -m py_compile build_static_pages.py auto_update.py validate_catalog.py fetch_free_games.py validate_free_games.py catalog_data.py`
+  - `python3 validate_catalog.py`
+  - roundtrip locale del serializer legacy su file temporaneo:
+    - featured id invariato
+    - conteggio giochi invariato (`311`)
+- Risultato verifiche:
+  - validazione catalogo passata
+  - `311` giochi / `311` pagine statiche ancora coerenti
+  - roundtrip legacy confermato senza perdita dati strutturali principali
+- Limite noto:
+  - non ho eseguito `python3 auto_update.py` end-to-end in questo ambiente, perche dipende dalla rete esterna
+  - quando Claude torna disponibile, serve comunque QA mirato sul runtime homepage/fallback page per i passaggi introdotti nei commit precedenti
+- Prossimo passo naturale:
+  - iniziare a separare gli adapter sorgente da `auto_update.py` invece di far crescere ancora lo script monolitico
+  - in parallelo, valutare un artifact intermedio pronto per ingest multi-source (IGDB/Steam/RAWG/Co-Optimus)

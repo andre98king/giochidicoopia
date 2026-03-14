@@ -24,6 +24,27 @@ DATA_DIR = ROOT / "data"
 CATALOG_JSON = DATA_DIR / "catalog.games.v1.json"
 PUBLIC_CATALOG_JSON = DATA_DIR / "catalog.public.v1.json"
 SCHEMA_VERSION = 1
+LEGACY_RUNTIME_FIELDS = (
+    "id",
+    "title",
+    "categories",
+    "genres",
+    "coopMode",
+    "maxPlayers",
+    "crossplay",
+    "players",
+    "image",
+    "description",
+    "description_en",
+    "personalNote",
+    "played",
+    "steamUrl",
+    "epicUrl",
+    "itchUrl",
+    "ccu",
+    "trending",
+    "rating",
+)
 
 
 def source_generated_at() -> str:
@@ -78,6 +99,12 @@ def parse_featured_indie_id(content: str) -> int | None:
     if not match:
         return None
     return int(match.group(1))
+
+
+def js_esc(value: Any) -> str:
+    if value is None:
+        return ""
+    return str(value).replace("\\", "\\\\").replace('"', '\\"')
 
 
 def appid_from_steam_url(url: str) -> str | None:
@@ -208,6 +235,11 @@ def load_games() -> list[dict[str, Any]]:
     return games
 
 
+def load_legacy_catalog_bundle() -> tuple[int | None, list[dict[str, Any]]]:
+    content = GAMES_JS.read_text(encoding="utf-8")
+    return parse_featured_indie_id(content), load_games()
+
+
 def build_catalog_artifact(games: list[dict[str, Any]]) -> dict[str, Any]:
     category_counts = collections.Counter()
     store_counts = collections.Counter()
@@ -296,3 +328,51 @@ def write_public_catalog_export(games: list[dict[str, Any]] | None = None) -> pa
         encoding="utf-8",
     )
     return PUBLIC_CATALOG_JSON
+
+
+def write_legacy_games_js(
+    games: list[dict[str, Any]],
+    featured_indie_id: int | None = None,
+    output_path: pathlib.Path | None = None,
+) -> pathlib.Path:
+    path = output_path or GAMES_JS
+    ordered_games = sorted(games, key=lambda item: item.get("id", 0))
+    lines = [f"const featuredIndieId = {featured_indie_id or 0};\n\n", "const games = [\n"]
+
+    for game in ordered_games:
+        categories_json = json.dumps(game.get("categories") or [], ensure_ascii=False)
+        genres_json = json.dumps(game.get("genres") or [], ensure_ascii=False)
+        coop_json = json.dumps(game.get("coopMode") or ["online"], ensure_ascii=False)
+        lines.append(
+            "  {\n"
+            f"    id: {game['id']},\n"
+            f"    title: \"{js_esc(game.get('title', ''))}\",\n"
+            f"    categories: {categories_json},\n"
+            f"    genres: {genres_json},\n"
+            f"    coopMode: {coop_json},\n"
+            f"    maxPlayers: {game.get('maxPlayers', 4)},\n"
+            f"    crossplay: {'true' if game.get('crossplay') else 'false'},\n"
+            f"    players: \"{js_esc(game.get('players', '1-4'))}\",\n"
+            f"    image: \"{js_esc(game.get('image', ''))}\",\n"
+            f"    description: \"{js_esc(game.get('description', ''))}\",\n"
+            f"    description_en: \"{js_esc(game.get('description_en', ''))}\",\n"
+            f"    personalNote: \"{js_esc(game.get('personalNote', ''))}\",\n"
+            f"    played: {'true' if game.get('played') else 'false'},\n"
+            f"    steamUrl: \"{js_esc(game.get('steamUrl', ''))}\",\n"
+            f"    epicUrl: \"{js_esc(game.get('epicUrl', ''))}\",\n"
+            f"    itchUrl: \"{js_esc(game.get('itchUrl', ''))}\",\n"
+            f"    ccu: {game.get('ccu') or 0},\n"
+            f"    trending: {'true' if game.get('trending') else 'false'},\n"
+            f"    rating: {game.get('rating') or 0}\n"
+            "  },\n"
+        )
+
+    lines.append("];\n")
+    full_js = "".join(lines)
+    if full_js.count("{") != full_js.count("}"):
+        raise ValueError("Brace count mismatch while serializing legacy games.js")
+    if len(ordered_games) < 50:
+        raise ValueError(f"Refusing to write suspiciously small catalog: {len(ordered_games)} games")
+
+    path.write_text(full_js, encoding="utf-8")
+    return path

@@ -20,13 +20,14 @@ Per itch.io: export ITCH_IO_KEY=tuachiave  (da https://itch.io/user/settings/api
 
 import urllib.request, json, time, re, html as html_mod, os, datetime
 
+import catalog_data
+
 # ──────────────────────────────── CONFIG ────────────────────────────────
 DELAY               = 1.5    # secondi tra richieste API
 MAX_NEW_GAMES       = 15     # max nuovi giochi per run
 MAX_EN_FETCH        = 30     # max giochi esistenti a cui aggiungere desc EN per run
 MIN_CCU_TRENDING    = 800    # CCU minimo per badge 🔥 Trending
 MAX_ITCH_GAMES      = 10     # max giochi itch.io per run
-OUTPUT              = os.path.join(os.path.dirname(os.path.abspath(__file__)), "games.js")
 ITCH_IO_KEY         = os.environ.get('ITCH_IO_KEY', '')
 
 # Tag Steam → categoria sito
@@ -249,26 +250,6 @@ def appid_from_url(url):
     return m.group(1) if m else ''
 
 
-def ef(block, field):
-    m = re.search(
-        rf'{field}:\s*("(?:[^"\\]|\\.)*"|\[.*?\]|true|false|-?\d+)',
-        block, re.DOTALL
-    )
-    if not m:
-        return None
-    v = m.group(1)
-    if v == 'true':  return True
-    if v == 'false': return False
-    if re.fullmatch(r'-?\d+', v): return int(v)
-    if v.startswith('['): return re.findall(r'"([^"]+)"', v)
-    return v.strip('"').replace('\\"', '"')
-
-
-def js_esc(s):
-    if s is None: return ''
-    return str(s).replace('\\', '\\\\').replace('"', '\\"')
-
-
 def calc_rating(positive, negative):
     total = (positive or 0) + (negative or 0)
     if total < 10:
@@ -331,42 +312,15 @@ def fetch_steam_desc(appid, lang):
 
 # ─────────────────────── Leggi games.js esistente ────────────────────────
 print("📖 Lettura games.js...")
-with open(OUTPUT, "r", encoding="utf-8") as f:
-    content = f.read()
-
-blocks = re.findall(r'\{[^{}]*\}', content, re.DOTALL)
-existing_games = []
+featured_id_existing, existing_games = catalog_data.load_legacy_catalog_bundle()
 existing_appids = set()
 max_id = 0
 
-for b in blocks:
-    g = {
-        'id':             ef(b, 'id'),
-        'title':          ef(b, 'title') or '',
-        'categories':     ef(b, 'categories') or [],
-        'genres':         ef(b, 'genres') or [],
-        'coopMode':       ef(b, 'coopMode') or ['online'],
-        'maxPlayers':     ef(b, 'maxPlayers') or 4,
-        'crossplay':      ef(b, 'crossplay') or False,
-        'players':        ef(b, 'players') or '1-4',
-        'image':          ef(b, 'image') or '',
-        'description':    ef(b, 'description') or '',
-        'description_en': ef(b, 'description_en') or '',
-        'personalNote':   ef(b, 'personalNote') or '',
-        'played':         ef(b, 'played') or False,
-        'steamUrl':       ef(b, 'steamUrl') or '',
-        'epicUrl':        ef(b, 'epicUrl') or '',
-        'itchUrl':        ef(b, 'itchUrl') or '',
-        'ccu':            ef(b, 'ccu') or 0,
-        'trending':       ef(b, 'trending') or False,
-        'rating':         ef(b, 'rating') or 0,
-    }
-    if g['id'] is not None:
-        existing_games.append(g)
-        max_id = max(max_id, g['id'])
-        aid = appid_from_url(g['steamUrl'])
-        if aid:
-            existing_appids.add(aid)
+for g in existing_games:
+    max_id = max(max_id, g['id'])
+    aid = appid_from_url(g['steamUrl'])
+    if aid:
+        existing_appids.add(aid)
 
 print(f"  Giochi nel DB: {len(existing_games)}  |  ID max: {max_id}")
 
@@ -808,48 +762,14 @@ else:
 
 # ─────────────────────── Scrivi games.js ─────────────────────────────────
 print(f"\n💾 Scrittura games.js ({len(existing_games)} giochi)...")
-lines = [f'const featuredIndieId = {featured_id};\n\n', 'const games = [\n']
-for g in existing_games:
-    cats_js = json.dumps(g['categories'], ensure_ascii=False)
-    genres_js = json.dumps(g.get('genres', []), ensure_ascii=False)
-    coop_js = json.dumps(g.get('coopMode', ['online']), ensure_ascii=False)
-    block = (
-        f"  {{\n"
-        f"    id: {g['id']},\n"
-        f"    title: \"{js_esc(g['title'])}\",\n"
-        f"    categories: {cats_js},\n"
-        f"    genres: {genres_js},\n"
-        f"    coopMode: {coop_js},\n"
-        f"    maxPlayers: {g.get('maxPlayers', 4)},\n"
-        f"    crossplay: {'true' if g.get('crossplay') else 'false'},\n"
-        f"    players: \"{js_esc(g['players'])}\",\n"
-        f"    image: \"{js_esc(g['image'])}\",\n"
-        f"    description: \"{js_esc(g['description'])}\",\n"
-        f"    description_en: \"{js_esc(g.get('description_en', ''))}\",\n"
-        f"    personalNote: \"{js_esc(g['personalNote'])}\",\n"
-        f"    played: {'true' if g['played'] else 'false'},\n"
-        f"    steamUrl: \"{js_esc(g['steamUrl'])}\",\n"
-        f"    epicUrl: \"{js_esc(g['epicUrl'])}\",\n"
-        f"    itchUrl: \"{js_esc(g.get('itchUrl', ''))}\",\n"
-        f"    ccu: {g.get('ccu') or 0},\n"
-        f"    trending: {'true' if g.get('trending') else 'false'},\n"
-        f"    rating: {g.get('rating') or 0}\n"
-        f"  }},\n"
+try:
+    catalog_data.write_legacy_games_js(
+        existing_games,
+        featured_indie_id=featured_id or featured_id_existing,
     )
-    lines.append(block)
-lines.append('];\n')
-
-# Validazione: verifica che il JS generato sia sintatticamente corretto
-full_js = ''.join(lines)
-open_braces = full_js.count('{')
-close_braces = full_js.count('}')
-if open_braces != close_braces:
-    print(f"  ⛔ ERRORE SINTASSI: {{ = {open_braces}, }} = {close_braces} — file NON scritto!")
-elif len(existing_games) < 50:
-    print(f"  ⛔ ERRORE: solo {len(existing_games)} giochi — troppo pochi, file NON scritto!")
+except ValueError as exc:
+    print(f"  ⛔ ERRORE: {exc} — file NON scritto!")
 else:
-    with open(OUTPUT, 'w', encoding='utf-8') as f:
-        f.writelines(lines)
     print(f"  ✅ games.js scritto con successo ({len(existing_games)} giochi)")
 
 trending_count = sum(1 for g in existing_games if g.get('trending'))
