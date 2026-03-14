@@ -22,6 +22,8 @@ SITEMAP = ROOT / "sitemap.xml"
 SITE_URL = "https://coophubs.net"
 TODAY = datetime.date.today().isoformat()
 CURRENT_YEAR = datetime.date.today().year
+# Crossplay data is still collected internally, but the UI stays hidden until the source is trustworthy.
+CROSSPLAY_UI_ENABLED = False
 
 
 def ef(block: str, field: str):
@@ -230,7 +232,7 @@ def render_static_page(game: dict) -> str:
         )
 
     crossplay_badge = ""
-    if game["crossplay"]:
+    if CROSSPLAY_UI_ENABLED and game["crossplay"]:
         crossplay_badge = (
             '<span class="tag" data-i18n="mode_crossplay" style="background:rgba(92,107,192,0.15);color:#9fa8da;'
             'border:1px solid rgba(92,107,192,0.25)">🔄 Crossplay</span>'

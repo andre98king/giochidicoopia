@@ -93,6 +93,8 @@
   <script src="i18n.js" defer></script>
   <script src="particles.js" defer></script>
   <script>
+    const CROSSPLAY_UI_ENABLED = false;
+
     function esc(str) {
       if (!str) return '';
       const d = document.createElement('div');
@@ -184,7 +186,7 @@
           return `<span class="tag" style="background:rgba(0,137,123,0.15);color:#80cbc4;border:1px solid rgba(0,137,123,0.25)">${t('mode_' + m)}</span>`;
         }).join('');
 
-        const crossplayBadge = game.crossplay
+        const crossplayBadge = CROSSPLAY_UI_ENABLED && game.crossplay
           ? `<span class="tag" style="background:rgba(92,107,192,0.15);color:#9fa8da;border:1px solid rgba(92,107,192,0.25)">${t('mode_crossplay')}</span>` : '';
 
         const storeLinks = [

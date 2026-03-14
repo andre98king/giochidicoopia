@@ -15,6 +15,7 @@ import build_static_pages
 
 
 INFO_PAGES = ("index.html", "about.html", "contact.html", "free.html", "privacy.html", "game.html")
+CROSSPLAY_UI_ENABLED = False
 ALLOWED_CATEGORIES = {
     "trending",
     "horror",
@@ -145,9 +146,14 @@ def main() -> int:
         if unexpected_locs:
             warnings.append(f"Unexpected sitemap URLs: {short_list(unexpected_locs)}")
 
-    if all(not game.get("crossplay") for game in games):
+    crossplay_count = sum(1 for game in games if game.get("crossplay"))
+    if crossplay_count == 0:
         warnings.append(
-            "No games are currently flagged as crossplay. Keep the UI filter disabled until the data source is reliable."
+            "Crossplay data is currently empty. The UI stays intentionally hidden until the source is reliable."
+        )
+    elif not CROSSPLAY_UI_ENABLED:
+        warnings.append(
+            f"{crossplay_count} games are flagged as crossplay internally, but the UI remains intentionally hidden pending manual validation of the source."
         )
 
     print(f"Validated catalog: {len(games)} games, {len(generated_pages)} static pages")

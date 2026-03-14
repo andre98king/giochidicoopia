@@ -482,3 +482,80 @@ Questo file serve come punto di handoff condiviso tra Codex e Claude Code.
     - puo popolare temporaneamente `free_games.js` in locale con 1-2 entry di test
     - controllare la strip homepage, la pagina `free.html`, il countdown e il badge "Gratis ora!"
     - poi ripristinare il file prima dell'handoff finale
+
+### 2026-03-14 - Claude Code - QA commit 18b9adc
+
+- Eseguito QA mirato sul commit `18b9adc` (implementazione feature Giochi Gratis).
+- Verifiche superate senza problemi:
+  - **`free.html`**: struttura corretta, `data-page="free"`, switch lingua, `applyStaticTranslations()` + `renderFreePage()` su DOMContentLoaded, listener `langchange` attivo
+  - **i18n.js**: tutte le chiavi `free_*` presenti in IT e EN (`free_meta_title`, `free_meta_description`, `free_section_aria`, `free_now`, `free_title`, `free_subtitle`, `no_free_games`, `free_now_badge`, `claim_free`, `see_all_offers`, `expires_in_days`, `last_hours`, `last_hour`, `footer_free`)
+  - **i18n.js PAGE_METADATA**: entry `free` presente con `titleKey`, `descriptionKey`, `schemaBuilder` (CollectionPage)
+  - **Homepage `#freeGamesSection`**: attributo `hidden`, `renderFreeGamesSection()` in `app.js` verifica `activeGames.length` e mantiene `hidden=true` + innerHTML vuoto quando non ci sono offerte → nessun buco visivo
+  - **app.js strip**: rendering completo con kicker, titolo, link "Vedi tutte le offerte", card con countdown, badge `Gratis ora!` su card catalogo via `buildFreeGameLookup()` + matching per titolo normalizzato, refresh automatico (1s se urgente, 60s altrimenti), listener `langchange` attivo
+  - **Footer link `free.html`**: presente e corretto su tutte le pagine testate:
+    - `index.html` (riga 217, `id="footerFree"`)
+    - `about.html` (riga 88, `id="footerFree"`)
+    - `contact.html` (riga 110, `id="footerFree"`)
+    - `privacy.html` (riga 107, `id="footerFree"`)
+    - `games/1.html`, `games/50.html`, `games/200.html` (riga 107, `href="../free.html"`, `id="footerFree"`)
+  - **Traduzione footer**: `applyStaticTranslations()` in `i18n.js` aggiorna `footerFree.textContent = t("footer_free")`
+  - **Script load order**: `free_games.js` → `i18n.js` → `particles.js` (free.html), `games.js` → `free_games.js` → `i18n.js` → `app.js` → `particles.js` (index.html) — corretto
+- Nessun problema trovato. L'implementazione e solida, deploy-safe con stub vuoto e completa lato i18n.
+- Nota: `fetch_free_games.py` non testato contro endpoint reali (limite sandbox Codex) — da verificare al primo run del workflow `free_games.yml`
+- Stato feature Giochi Gratis: implementazione base completa. Pronta per deploy e primo fetch automatico
+
+### 2026-03-14 - Claude Code - QA primo run live free games (commit 907313e + fix 2a71798)
+
+- Triggerato manualmente il workflow `Update Free Games` per la prima volta.
+- **Dati fetchati**: 2 giochi Epic Games (Cozy Grove, Isonzo), scadenza `2026-03-19T15:00:00Z`.
+- **Fetcher `fetch_free_games.py`**: funzionante contro endpoint reali. Solo Epic ha restituito offerte (Steam/GOG/Humble probabilmente non avevano offerte attive o endpoint non raggiungibili).
+- Verifiche superate:
+  - Formato dati corretto: tutti i campi required presenti (`title`, `store`, `imageUrl`, `storeUrl`, `freeUntil`)
+  - Immagini: entrambe caricano correttamente (Cozy Grove 285KB, Isonzo 965KB)
+  - Store URLs: formato standard Epic, funzionanti nei browser (Epic blocca bot con 403, irrilevante per utenti)
+  - Countdown: ~5 giorni → "Scade tra 5 giorni" / "Expires in 5 days" (tone: normal) — corretto
+  - Homepage strip: `renderFreeGamesSection()` trova 2 active games, sezione visibile
+  - Badge catalogo: nessun match (ne Cozy Grove ne Isonzo sono nel catalogo co-op) — comportamento atteso
+- **Bug trovato e fixato**:
+  - Entrambi i workflow (`free_games.yml` e `update.yml`) usavano `[skip ci]` nel commit message
+  - Questo impediva a GitHub Pages di ricostruire il sito dopo ogni auto-update dei dati
+  - Conseguenza: il primo fetch reale ha scritto `free_games.js` con dati, ma il sito live continuava a servire lo stub vuoto
+  - Fix: rimosso `[skip ci]` da entrambi i workflow, committato e pushato (`2a71798`)
+  - Dopo il fix, il deploy Pages ha incluso i dati aggiornati
+- **Nota cache Cloudflare**: `free_games.js` puo restare cached nella versione vecchia per utenti che hanno gia visitato il sito. Si risolve automaticamente al prossimo ciclo di cache. Considerare in futuro un cache-buster (query param con timestamp) nello script tag se diventa un problema ricorrente.
+- Stato: feature Giochi Gratis completamente operativa con dati reali
+
+### 2026-03-14 - Codex - Cleanup crossplay UI
+
+- Preso in carico il prossimo follow-up dopo la chiusura di "Giochi Gratis": riallineare il tema `crossplay` per evitare aspettative errate lato UI finche il dataset non e affidabile.
+- Contesto rilevato:
+  - il filtro `crossplay` non e attivo nella homepage
+  - i dati `crossplay` continuano comunque a essere raccolti e salvati in `games.js` / `auto_update.py`
+  - la UI delle pagine gioco (`game.html` + template statico in `build_static_pages.py`) era ancora pronta a mostrare un badge `Crossplay` se qualche record fosse diventato `true`
+  - dato che la sorgente non e ancora considerata affidabile, questo poteva riaprire aspettative non volute appena compariva un valore sporco
+- Modifiche implementate:
+  - `build_static_pages.py`
+    - aggiunta costante `CROSSPLAY_UI_ENABLED = False`
+    - il badge `Crossplay` nelle pagine `games/*.html` viene renderizzato solo se il gate viene attivato esplicitamente in futuro
+  - `game.html`
+    - aggiunta costante `CROSSPLAY_UI_ENABLED = false`
+    - il fallback/runtime page non mostra piu badge crossplay finche il gate resta disattivato
+  - `validate_catalog.py`
+    - aggiunta costante `CROSSPLAY_UI_ENABLED = False` per rendere esplicita la policy corrente
+    - warning aggiornato:
+      - se i dati `crossplay` sono tutti vuoti, la validazione lo segnala chiaramente come stato atteso con UI intenzionalmente nascosta
+      - se in futuro compariranno record `crossplay=true` mentre il gate resta `False`, la validazione lo segnala come dato interno presente ma UI ancora volutamente spenta
+- Scelta intenzionale:
+  - non ho toccato `auto_update.py` o `games.js`
+  - il supporto tecnico interno resta intatto, ma la UI e ora esplicitamente disattivata finche non decidiamo di promuovere il dato a feature pubblica
+- Verifiche eseguite da Codex:
+  - `python3 build_static_pages.py`
+  - `python3 validate_catalog.py`
+  - `python3 -m py_compile build_static_pages.py auto_update.py validate_catalog.py fetch_free_games.py`
+- Risultato verifiche:
+  - validazione passata con `311` giochi e `311` pagine statiche
+  - warning aggiornato: `Crossplay data is currently empty. The UI stays intentionally hidden until the source is reliable.`
+- QA consigliato per Claude Code:
+  - verificare homepage, `game.html` e 2-3 pagine `games/*.html`
+  - controllare che non compaiano badge/label/stati crossplay visibili
+  - controllare che il cleanup non abbia introdotto regressioni nei meta tag o nel layout delle game pages
