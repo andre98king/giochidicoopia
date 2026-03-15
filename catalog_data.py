@@ -71,7 +71,7 @@ def ef(block: str, field: str):
         return int(value)
     if value.startswith("["):
         return re.findall(r'"([^"]+)"', value)
-    return value.strip('"').replace('\\"', '"')
+    return re.sub(r'\\(.)', r'\1', value.strip('"'))
 
 
 def unique_preserving(values: list[str]) -> list[str]:

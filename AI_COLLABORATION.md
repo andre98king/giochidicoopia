@@ -976,3 +976,23 @@ Questo file serve come punto di handoff condiviso tra Codex e Claude Code.
 - Prossimo passo naturale:
   - iniziare a separare gli adapter sorgente da `auto_update.py` invece di far crescere ancora lo script monolitico
   - in parallelo, valutare un artifact intermedio pronto per ingest multi-source (IGDB/Steam/RAWG/Co-Optimus)
+
+### 2026-03-15 - Claude Code - QA commit d28d75c (centralizzazione I/O legacy)
+
+- Eseguito QA del commit `d28d75c` che centralizza parse/scrittura di `games.js` nel layer condiviso `catalog_data.py`.
+- **Bug trovato e fixato — escape roundtrip**:
+  - `ef()` in `catalog_data.py` usava `.replace('\\"', '"')` per de-escapare le stringhe JS, ma non de-escapava `\\` → `\`
+  - `js_esc()` invece re-escapava correttamente `\` → `\\` in scrittura
+  - risultato: ad ogni roundtrip `load → write` i backslash nei campi stringa si raddoppiavano
+  - impatto concreto: game ID 156 "We Were Here Forever" ha un `description_en` con 128 backslash che sarebbero diventati 256 al prossimo run del workflow
+  - fix: sostituito con `re.sub(r'\\(.)', r'\1', value.strip('"'))` per proper JS string unescaping
+  - dopo il fix, roundtrip di `games.js` produce output identico byte per byte
+- **Dato sporco pre-esistente**:
+  - game ID 156 "We Were Here Forever" ha `description_en` completamente sbagliato (testo di uno shoot-em-up, non del gioco reale)
+  - sara corretto automaticamente dal prossimo run di `auto_update.py` che ri-fetcha la descrizione EN da Steam
+- Verifiche superate:
+  - `python3 -m py_compile catalog_data.py` ok
+  - `python3 validate_catalog.py` ok (311 giochi, 311 pagine)
+  - `python3 validate_free_games.py` ok (3 offerte: Deponia Steam, Cozy Grove Epic, Isonzo Epic)
+- Nota: il fix all'escaping in `catalog_data.py` e stato applicato localmente e va committato/pushato
+- Stato: refactor I/O legacy funzionante e sicuro dopo il fix. Il workflow `Update Games` puo girare senza rischi di drift nei dati
