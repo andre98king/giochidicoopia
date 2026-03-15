@@ -18,9 +18,19 @@ CI (GitHub): eseguito automaticamente da .github/workflows/update.yml
 Per itch.io: export ITCH_IO_KEY=tuachiave  (da https://itch.io/user/settings/api-keys)
 """
 
-import urllib.request, json, time, re, html as html_mod, os, datetime
+import os, datetime, re
 
 import catalog_data
+from steam_catalog_source import (
+    SteamCatalogSource,
+    appid_from_url,
+    calc_rating,
+    derive_coop_modes,
+    derive_crossplay,
+    derive_genres,
+    derive_players_label,
+    parse_max_players,
+)
 
 # ──────────────────────────────── CONFIG ────────────────────────────────
 DELAY               = 1.5    # secondi tra richieste API
@@ -225,89 +235,7 @@ NOT_FREE_APPIDS = {
 # ─────────────────────────────────────────────────────────────────────────
 
 
-def fetch(url):
-    time.sleep(DELAY)
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    try:
-        with urllib.request.urlopen(req, timeout=15) as r:
-            return json.loads(r.read().decode("utf-8", errors="replace"))
-    except Exception as e:
-        print(f"    ⚠ ERR {url[:70]}: {e}")
-        return None
-
-
-def clean(text):
-    if not text:
-        return ""
-    text = re.sub(r"<[^>]+>", "", text)
-    text = html_mod.unescape(text)
-    text = re.sub(r"\s+", " ", text).strip()
-    return text[:320]
-
-
-def appid_from_url(url):
-    m = re.search(r'/app/(\d+)', url or '')
-    return m.group(1) if m else ''
-
-
-def calc_rating(positive, negative):
-    total = (positive or 0) + (negative or 0)
-    if total < 10:
-        return 0
-    return round((positive or 0) / total * 100)
-
-
-GENRE_CATS = {'horror', 'action', 'puzzle', 'rpg', 'survival', 'factory', 'roguelike', 'sport', 'strategy'}
-
-
-def derive_genres(categories):
-    """Estrae solo i generi reali dalle categorie."""
-    return [c for c in categories if c in GENRE_CATS]
-
-
-def derive_coop_modes(steam_cats_list):
-    """Deriva coopMode dalle categorie Steam (lista di stringhe lowercase)."""
-    modes = []
-    has_online = any('online' in c and ('co-op' in c or 'multi' in c) for c in steam_cats_list)
-    has_local = any(('local' in c and ('co-op' in c or 'multi' in c)) or 'couch' in c for c in steam_cats_list)
-    has_split = any('split' in c for c in steam_cats_list)
-    if has_online or (not has_local and not has_split):
-        modes.append('online')
-    if has_local or has_split:
-        modes.append('local')
-    if has_split:
-        modes.append('split')
-    return modes if modes else ['online']
-
-
-def derive_crossplay(steam_cats_list):
-    """Controlla se il gioco supporta crossplay dalle categorie Steam."""
-    return any('cross-platform' in c for c in steam_cats_list)
-
-
-def parse_max_players(players_str):
-    """Estrae il numero massimo di giocatori dalla stringa players."""
-    if not players_str:
-        return 4
-    numbers = re.findall(r'\d+', players_str)
-    return max(int(n) for n in numbers) if numbers else 4
-
-
-def fetch_steam_desc(appid, lang):
-    """Fetches short_description from Steam in the given language ('italian' or 'english')."""
-    cc = 'it' if lang == 'italian' else 'us'
-    url = f"https://store.steampowered.com/api/appdetails?appids={appid}&l={lang}&cc={cc}"
-    data = fetch(url)
-    if not data:
-        return None, None
-    info = data.get(str(appid), {})
-    if not info.get('success'):
-        return None, None
-    sd = info.get('data', {})
-    desc = clean(sd.get('short_description', ''))
-    if not desc or len(desc) < 25:
-        desc = clean(sd.get('detailed_description', ''))[:320]
-    return sd, desc if len(desc) >= 25 else None
+steam_source = SteamCatalogSource(delay=DELAY)
 
 
 # ─────────────────────── Leggi games.js esistente ────────────────────────
@@ -327,7 +255,7 @@ print(f"  Giochi nel DB: {len(existing_games)}  |  ID max: {max_id}")
 
 # ─────────────────────── Fetch trending da SteamSpy ──────────────────────
 print("\n🔥 Fetch top giochi per giocatori recenti (SteamSpy)...")
-top_recent = fetch("https://steamspy.com/api.php?request=top100in2weeks") or {}
+top_recent = steam_source.fetch_json("https://steamspy.com/api.php?request=top100in2weeks") or {}
 ccu_map = {aid: d.get('ccu', 0) for aid, d in top_recent.items()}
 print(f"  Top recenti trovati: {len(ccu_map)}")
 
@@ -336,7 +264,7 @@ print(f"  Top recenti trovati: {len(ccu_map)}")
 print("\n🎮 Fetch giochi co-op da SteamSpy (tag multipli)...")
 coop_games = {}
 for tag in ['Co-op', 'Online+Co-Op', 'Local+Co-Op', 'Co-op+Campaign']:
-    data = fetch(f"https://steamspy.com/api.php?request=tag&tag={tag}") or {}
+    data = steam_source.fetch_json(f"https://steamspy.com/api.php?request=tag&tag={tag}") or {}
     for aid, gdata in data.items():
         if aid not in coop_games:
             coop_games[aid] = gdata
@@ -345,8 +273,8 @@ for tag in ['Co-op', 'Online+Co-Op', 'Local+Co-Op', 'Co-op+Campaign']:
 
 # ─────────────────── Fetch set appid indie e free ────────────────────────
 print("\n🏷️  Fetch tag Indie e Free to Play da SteamSpy...")
-indie_appids = set((fetch("https://steamspy.com/api.php?request=tag&tag=Indie") or {}).keys())
-free_appids  = set((fetch("https://steamspy.com/api.php?request=tag&tag=Free+to+Play") or {}).keys())
+indie_appids = set((steam_source.fetch_json("https://steamspy.com/api.php?request=tag&tag=Indie") or {}).keys())
+free_appids  = set((steam_source.fetch_json("https://steamspy.com/api.php?request=tag&tag=Free+to+Play") or {}).keys())
 print(f"  Indie appids trovati: {len(indie_appids)}")
 print(f"  Free  appids trovati: {len(free_appids)}")
 
@@ -395,7 +323,7 @@ for g in existing_games:
     if not aid:
         continue
     print(f"  EN: {g['title']} ({aid})...", end=' ', flush=True)
-    _, en_desc = fetch_steam_desc(aid, 'english')
+    _, en_desc = steam_source.fetch_steam_desc(aid, 'english')
     if en_desc:
         g['description_en'] = en_desc
         print(f"OK ({len(en_desc)} chars)")
@@ -458,7 +386,7 @@ for candidate in new_candidates:
     print(f"\n  [{added+1}/{MAX_NEW_GAMES}] {name} (app {aid}, CCU: {ccu})")
 
     # Descrizione italiana
-    sd, desc_it = fetch_steam_desc(aid, 'italian')
+    sd, desc_it = steam_source.fetch_steam_desc(aid, 'italian')
     if sd is None:
         print("    ✗ Nessun dato Steam")
         continue
@@ -477,11 +405,11 @@ for candidate in new_candidates:
         continue
 
     # Descrizione inglese
-    _, desc_en = fetch_steam_desc(aid, 'english')
+    _, desc_en = steam_source.fetch_steam_desc(aid, 'english')
     desc_en = desc_en or ''
 
     # Categorizzazione da tag SteamSpy
-    spy_data = fetch(f"https://steamspy.com/api.php?request=appdetails&appid={aid}") or {}
+    spy_data = steam_source.fetch_json(f"https://steamspy.com/api.php?request=appdetails&appid={aid}") or {}
     spy_tags = list((spy_data.get('tags') or {}).keys())
     genres   = [g.get('description', '') for g in sd.get('genres', [])]
     all_labels = genres + steam_cats + spy_tags
@@ -511,13 +439,7 @@ for candidate in new_candidates:
         categories.append('free')
 
     # Numero giocatori
-    players = '1-4'
-    for c in steam_cats:
-        m = re.search(r'(\d+)', c)
-        if m and 'player' in c.lower():
-            n = int(m.group(1))
-            players = f'1-{n}' if n > 1 else '1-2'
-            break
+    players = derive_players_label(steam_cats)
 
     # Rating
     pos    = spy_data.get('positive', 0) or 0
@@ -572,7 +494,7 @@ if ITCH_IO_KEY:
     itch_games_all = {}
     for q in itch_queries:
         url = f"https://itch.io/api/1/{ITCH_IO_KEY}/search/games?query={q.replace(' ', '+')}"
-        data = fetch(url) or {}
+        data = steam_source.fetch_json(url) or {}
         for g in data.get('games', []):
             gid = g.get('id')
             if gid and gid not in itch_games_all:
@@ -657,7 +579,7 @@ for g in rotated_games:
 
     v_checked += 1
     cc_url = f"https://store.steampowered.com/api/appdetails?appids={aid}&l=english&cc=us"
-    data = fetch(cc_url)
+    data = steam_source.fetch_json(cc_url)
     if not data:
         continue
     info = data.get(str(aid), {})

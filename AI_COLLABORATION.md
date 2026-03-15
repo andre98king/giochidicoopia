@@ -996,3 +996,68 @@ Questo file serve come punto di handoff condiviso tra Codex e Claude Code.
   - `python3 validate_free_games.py` ok (3 offerte: Deponia Steam, Cozy Grove Epic, Isonzo Epic)
 - Nota: il fix all'escaping in `catalog_data.py` e stato applicato localmente e va committato/pushato
 - Stato: refactor I/O legacy funzionante e sicuro dopo il fix. Il workflow `Update Games` puo girare senza rischi di drift nei dati
+
+### 2026-03-15 - Codex - Primo adapter Steam estratto da auto_update.py
+
+- Contesto:
+  - dopo la stabilizzazione del parser legacy, il punto piu debole rimasto lato architettura era `auto_update.py`, ancora troppo monolitico
+  - il prossimo obiettivo del progetto e arrivare a piu sorgenti dati; quindi serviva iniziare a separare almeno il layer Steam/SteamSpy
+- Obiettivo:
+  - introdurre un primo modulo sorgente riusabile senza cambiare la logica editoriale del workflow
+  - togliere da `auto_update.py` i helper di rete/parsing piu generici legati a Steam
+  - preparare il terreno per adapter futuri (`IGDB`, `RAWG`, `Co-Optimus`) senza riscrivere tutto insieme
+- Modifiche implementate:
+  - aggiunto nuovo file `steam_catalog_source.py`
+    - contiene:
+      - `SteamCatalogSource`
+      - `fetch_json(...)`
+      - `fetch_steam_desc(...)`
+      - helper puri:
+        - `appid_from_url(...)`
+        - `calc_rating(...)`
+        - `derive_genres(...)`
+        - `derive_coop_modes(...)`
+        - `derive_crossplay(...)`
+        - `derive_players_label(...)`
+        - `parse_max_players(...)`
+    - il modulo centralizza la logica di fetch/parse legata a Steam e SteamSpy
+  - `auto_update.py`
+    - ora importa il nuovo adapter:
+      - `from steam_catalog_source import ...`
+    - istanzia:
+      - `steam_source = SteamCatalogSource(delay=DELAY)`
+    - non contiene piu:
+      - `fetch(...)`
+      - `clean(...)`
+      - `fetch_steam_desc(...)`
+      - helper generici duplicati per rating/coop modes/crossplay/max players
+    - tutte le chiamate Steam/SteamSpy passano ora dal nuovo adapter
+    - la logica di business e rimasta invariata:
+      - blacklist
+      - policy indie/free
+      - selezione candidati
+      - verifica integrita
+- Scelta intenzionale:
+  - non ho ancora estratto le policy editoriali o le blacklist, per non mischiare refactor strutturale e decisioni prodotto
+  - questo e un primo passo per ridurre il monolite, non ancora una riscrittura completa a plugin
+- Verifiche eseguite da Codex:
+  - `python3 -m py_compile auto_update.py steam_catalog_source.py catalog_data.py validate_catalog.py fetch_free_games.py validate_free_games.py build_static_pages.py`
+  - `python3 validate_catalog.py`
+  - smoke test locale dei helper del nuovo modulo:
+    - `appid_from_url`
+    - `derive_coop_modes`
+    - `derive_crossplay`
+    - `derive_genres`
+    - `derive_players_label`
+    - `parse_max_players`
+    - `calc_rating`
+- Risultato verifiche:
+  - compile ok
+  - validazione catalogo ok (`311` giochi / `311` pagine)
+  - helper del modulo nuovi funzionanti nei casi base provati
+- Limite noto:
+  - non ho eseguito `python3 auto_update.py` end-to-end in questo ambiente, perche richiede rete esterna
+  - il refactor e stato quindi verificato staticamente e con smoke test locali, non con run live completo
+- Prossimo passo naturale:
+  - estrarre anche il blocco `itch.io` in un modulo dedicato oppure
+  - fare il passo piu utile architetturalmente: introdurre un orchestratore che chiami adapter separati invece di tenere tutta la pipeline dentro `auto_update.py`
