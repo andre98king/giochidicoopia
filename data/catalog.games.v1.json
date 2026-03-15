@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-14T14:17:55+00:00",
+  "generatedAt": "2026-03-15T11:01:56+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
@@ -11976,12 +11976,12 @@
       "maxPlayers": 2,
       "crossplay": false,
       "players": "1-2",
-      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1703880/header.jpg",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1341290/header.jpg",
       "description": "Il quarto e più ambizioso capitolo della serie We Were Here, dove due giocatori comunicano tramite walkie-talkie per risolvere puzzle ambientali in un castello gotico misterioso. Enigmi intelligenti e atmosfera coinvolgente in una delle esperienze cooperative basate sulla comunicazione più riuscite su PC.",
-      "description_en": "About This is a shoot em up game , In this game the player combats a large number of enemies by shooting at them Player control a fighter shoot down all the enemies fighter and all the enemy Navy Cruiser\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\Battleship\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\Aircraft Carrier to win the game Feature The DLC include mission pack 071",
+      "description_en": "You both awaken imprisoned inside the sinister Castle Rock - were you betrayed, or simply not that clever? Find out in the greatest co-op puzzle adventure in the We Were Here Series! Do you and your partner have what it takes to face the dark forces of this realm or will you be trapped… forever?",
       "personalNote": "",
       "played": false,
-      "steamUrl": "https://store.steampowered.com/app/1703880/",
+      "steamUrl": "https://store.steampowered.com/app/1341290/",
       "epicUrl": "",
       "itchUrl": "",
       "ccu": 0,
@@ -11991,7 +11991,7 @@
       "isFeaturedIndie": false,
       "descriptions": {
         "it": "Il quarto e più ambizioso capitolo della serie We Were Here, dove due giocatori comunicano tramite walkie-talkie per risolvere puzzle ambientali in un castello gotico misterioso. Enigmi intelligenti e atmosfera coinvolgente in una delle esperienze cooperative basate sulla comunicazione più riuscite su PC.",
-        "en": "About This is a shoot em up game , In this game the player combats a large number of enemies by shooting at them Player control a fighter shoot down all the enemies fighter and all the enemy Navy Cruiser\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\Battleship\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\Aircraft Carrier to win the game Feature The DLC include mission pack 071"
+        "en": "You both awaken imprisoned inside the sinister Castle Rock - were you betrayed, or simply not that clever? Find out in the greatest co-op puzzle adventure in the We Were Here Series! Do you and your partner have what it takes to face the dark forces of this realm or will you be trapped… forever?"
       },
       "taxonomy": {
         "categories": [
@@ -12013,12 +12013,12 @@
       "storefronts": [
         {
           "store": "steam",
-          "url": "https://store.steampowered.com/app/1703880/",
-          "externalId": "1703880"
+          "url": "https://store.steampowered.com/app/1341290/",
+          "externalId": "1341290"
         }
       ],
       "externalIds": {
-        "steamAppId": "1703880"
+        "steamAppId": "1341290"
       },
       "signals": {
         "ccu": 0,

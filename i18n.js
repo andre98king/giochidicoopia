@@ -159,6 +159,7 @@ const TRANSLATIONS = {
     footer_contact: "Contatti",
     footer_free: "Giochi gratis",
     footer_privacy: "Privacy Policy",
+    footer_copy: "© 2026 — Dati da Steam & SteamSpy",
 
     // About page
     about_title: "Sul progetto",
@@ -370,6 +371,7 @@ const TRANSLATIONS = {
     footer_contact: "Contact",
     footer_free: "Free games",
     footer_privacy: "Privacy Policy",
+    footer_copy: "© 2026 — Data from Steam & SteamSpy",
 
     // About page
     about_title: "About the project",
@@ -653,21 +655,6 @@ function applyStaticTranslations() {
 
   const adminCancelBtn = document.getElementById("adminCancelBtn");
   if (adminCancelBtn) adminCancelBtn.textContent = t("btn_cancel");
-
-  const footerSub = document.getElementById("footerSub");
-  if (footerSub) footerSub.textContent = t("footer_sub");
-
-  const footerAbout = document.getElementById("footerAbout");
-  if (footerAbout) footerAbout.textContent = t("footer_about");
-
-  const footerContact = document.getElementById("footerContact");
-  if (footerContact) footerContact.textContent = t("footer_contact");
-
-  const footerFree = document.getElementById("footerFree");
-  if (footerFree) footerFree.textContent = t("footer_free");
-
-  const footerPrivacy = document.getElementById("footerPrivacy");
-  if (footerPrivacy) footerPrivacy.textContent = t("footer_privacy");
 }
 
 document.addEventListener("DOMContentLoaded", () => {

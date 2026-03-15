@@ -557,7 +557,7 @@ function createCard(game, freeEntry = null) {
   const safeNote = esc(game.personalNote);
 
   const imgHtml = game.image
-    ? `<div class="card-img-wrapper"><img class="card-img" src="${esc(game.image)}" alt="${safeTitle}" loading="lazy"
+    ? `<div class="card-img-wrapper"><img class="card-img" src="${esc(game.image)}" alt="${safeTitle}" loading="lazy" width="460" height="215" decoding="async"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
        <div class="card-img-placeholder" style="display:none">🎮</div></div>`
     : `<div class="card-img-placeholder">🎮</div>`;
@@ -589,7 +589,7 @@ function createCard(game, freeEntry = null) {
       </span>` : '';
 
   return `
-    <div class="card ${isAdmin ? 'admin-mode' : ''} ${game.trending ? 'is-trending' : ''} ${freeEntry ? 'is-free-now' : ''}" data-id="${game.id}">
+    <div class="card ${isAdmin ? 'admin-mode' : ''} ${game.trending ? 'is-trending' : ''} ${freeEntry ? 'is-free-now' : ''}" data-id="${game.id}" role="listitem">
       ${adminBtn}
       ${freeBadge}
       ${trendingBadge}
@@ -680,7 +680,7 @@ function openModal(id) {
     ? `<button class="btn-details" onclick="closeModal();openAdminModal(${id})" style="padding:10px 20px">${t('btn_edit')}</button>` : '';
 
   document.getElementById('modalContent').innerHTML = `
-    ${game.image ? `<img class="modal-img" src="${esc(game.image)}" alt="${safeTitle}">` : ''}
+    ${game.image ? `<img class="modal-img" src="${esc(game.image)}" alt="${safeTitle}" width="460" height="215" decoding="async">` : ''}
     <div class="modal-body">
       <div class="modal-header">
         <div class="modal-title">${safeTitle} ${game.played ? `<span class="played-badge">${t('played_badge')}</span>` : ''}</div>

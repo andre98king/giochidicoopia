@@ -9,7 +9,7 @@
   --accent2: #ff5c8a;
   --accent3: #3dffa2;
   --text: #eceef8;
-  --text2: #8a90b0;
+  --text2: #9ba1c0;
   --border: #1e2338;
   --card-bg: #111422;
   --glass: rgba(17,20,34,0.75);
@@ -451,6 +451,8 @@ body {
   position: relative;
   opacity: 0;
   animation: card-enter 0.5s ease forwards;
+  will-change: transform, opacity;
+  contain: layout style paint;
 }
 
 @keyframes card-enter {
@@ -515,10 +517,11 @@ body {
   letter-spacing: 0.5px;
   box-shadow: 0 2px 12px rgba(255,107,53,0.5);
   animation: pulse-trending 2.5s ease-in-out infinite;
+  will-change: opacity;
 }
 @keyframes pulse-trending {
-  0%, 100% { box-shadow: 0 2px 12px rgba(255,107,53,0.5); }
-  50%       { box-shadow: 0 4px 20px rgba(255,107,53,0.8); }
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.7; }
 }
 
 .card.is-trending { border-color: rgba(255,107,53,0.25); }
@@ -1381,7 +1384,7 @@ body {
 }
 
 .footer-copy {
-  color: #555a78;
+  color: #757a98;
   font-size: 0.78rem;
 }
 
