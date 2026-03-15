@@ -1234,3 +1234,21 @@ ai-continuity --project "/path/to/project" --once             # esegui una volta
 - 311 pagine statiche in `games/` (rigenerate)
 
 **Settings Claude Code aggiornati:** modalità auto-approve completa (`Bash(*)`, `Read(*)`, etc.)
+
+### 2026-03-15 - PageSpeed round 2: contrasto + cache
+
+**Fix aggiuntivi:**
+- Colore accent scurito (#7c6aff → #6b5ce0) per contrasto 4.5:1+ con testo bianco
+- Rating badges, tag, CCU badge, store badges: tutti i colori testo alzati per contrasto
+- Meta tag `no-cache` rimossi da tutte le 317 pagine (permettono browser caching)
+- `role="listitem"` aggiunto anche ai free-card
+
+**Risultati PageSpeed finali (Mobile):**
+- Performance: 82 → **93** (+11)
+- LCP: 3.4s → **2.6s** (-24%)
+- Speed Index: 4.8s → **2.6s** (-46%)
+- TBT: 180ms → **0ms**
+- Long tasks: 20 → **1**
+- Accessibility: 92, Best Practices: 100, SEO: 100
+
+**Non risolvibile:** "image delivery -1,418 KiB" — immagini servite da Steam CDN, non possiamo convertirle in WebP/AVIF.
