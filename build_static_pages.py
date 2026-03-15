@@ -218,9 +218,6 @@ def render_static_page(game: dict) -> str:
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Expires" content="0">
   <title>{esc(title)}</title>
   <meta name="description" content="{esc(description_it)}">
   <meta name="theme-color" content="#7c6aff">

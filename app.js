@@ -215,7 +215,7 @@ function renderFreeGameCard(entry) {
   const storeLabel = FREE_STORE_LABELS[entry.store] || entry.store;
 
   return `
-    <article class="free-card" data-store="${storeKey}">
+    <article class="free-card" data-store="${storeKey}" role="listitem">
       <div class="free-card-media">
         ${entry.imageUrl ? `<img class="free-card-img" src="${safeImage}" alt="${safeTitle}" loading="lazy" onerror="this.style.display='none'">` : '<div class="free-card-placeholder">🎁</div>'}
         <span class="free-store-badge store-${storeKey}">${storeLabel}</span>

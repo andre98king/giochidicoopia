@@ -5,7 +5,7 @@
   --bg: #08090d;
   --bg2: #0e1018;
   --bg3: #151823;
-  --accent: #7c6aff;
+  --accent: #6b5ce0;
   --accent2: #ff5c8a;
   --accent3: #3dffa2;
   --text: #eceef8;
@@ -536,11 +536,11 @@ body {
   font-family: 'JetBrains Mono', monospace;
   letter-spacing: -0.3px;
 }
-.rating-acclaimed { background: rgba(255,215,0,0.18); color: #ffd700; border: 1px solid rgba(255,215,0,0.3); }
-.rating-verypos   { background: rgba(61,255,162,0.12); color: var(--accent3); border: 1px solid rgba(61,255,162,0.22); }
-.rating-positive  { background: rgba(33,212,253,0.12); color: #21d4fd; border: 1px solid rgba(33,212,253,0.2); }
-.rating-mixed     { background: rgba(247,151,30,0.15); color: #f7971e; border: 1px solid rgba(247,151,30,0.25); }
-.rating-negative  { background: rgba(229,57,53,0.15);  color: #e53935; border: 1px solid rgba(229,57,53,0.2); }
+.rating-acclaimed { background: rgba(255,215,0,0.18); color: #ffe680; border: 1px solid rgba(255,215,0,0.3); }
+.rating-verypos   { background: rgba(61,255,162,0.12); color: #a8ffd4; border: 1px solid rgba(61,255,162,0.22); }
+.rating-positive  { background: rgba(33,212,253,0.12); color: #8ae8ff; border: 1px solid rgba(33,212,253,0.2); }
+.rating-mixed     { background: rgba(247,151,30,0.15); color: #ffbf6b; border: 1px solid rgba(247,151,30,0.25); }
+.rating-negative  { background: rgba(229,57,53,0.15);  color: #ff8a87; border: 1px solid rgba(229,57,53,0.2); }
 
 /* Rating nel modal */
 .modal-rating-row { margin: 4px 0 8px; }
@@ -555,7 +555,7 @@ body {
 /* ===== CCU BADGE ===== */
 .ccu-badge {
   background: rgba(61,255,162,0.1);
-  color: var(--accent3);
+  color: #a8ffd4;
   font-size: 0.68rem;
   font-weight: 700;
   padding: 3px 9px;
@@ -626,16 +626,16 @@ body {
   letter-spacing: 0.5px;
 }
 
-.tag-horror    { background: rgba(229,57,53,0.15);   color: #ef9a9a; border: 1px solid rgba(229,57,53,0.25); }
-.tag-action    { background: rgba(251,140,0,0.15);   color: #ffcc80; border: 1px solid rgba(251,140,0,0.25); }
-.tag-puzzle    { background: rgba(67,160,71,0.15);   color: #a5d6a7; border: 1px solid rgba(67,160,71,0.25); }
-.tag-splitscreen { background: rgba(30,136,229,0.15); color: #90caf9; border: 1px solid rgba(30,136,229,0.25); }
-.tag-rpg       { background: rgba(142,36,170,0.15);  color: #ce93d8; border: 1px solid rgba(142,36,170,0.25); }
-.tag-survival  { background: rgba(109,76,65,0.15);   color: #bcaaa4; border: 1px solid rgba(109,76,65,0.25); }
-.tag-factory   { background: rgba(0,137,123,0.15);   color: #80cbc4; border: 1px solid rgba(0,137,123,0.25); }
-.tag-roguelike { background: rgba(244,81,30,0.15);   color: #ffab91; border: 1px solid rgba(244,81,30,0.25); }
-.tag-sport     { background: rgba(3,155,229,0.15);   color: #81d4fa; border: 1px solid rgba(3,155,229,0.25); }
-.tag-strategy  { background: rgba(84,110,122,0.15);  color: #b0bec5; border: 1px solid rgba(84,110,122,0.25); }
+.tag-horror    { background: rgba(229,57,53,0.15);   color: #f5b8b8; border: 1px solid rgba(229,57,53,0.25); }
+.tag-action    { background: rgba(251,140,0,0.15);   color: #ffddb3; border: 1px solid rgba(251,140,0,0.25); }
+.tag-puzzle    { background: rgba(67,160,71,0.15);   color: #c1e8c3; border: 1px solid rgba(67,160,71,0.25); }
+.tag-splitscreen { background: rgba(30,136,229,0.15); color: #b3d9fc; border: 1px solid rgba(30,136,229,0.25); }
+.tag-rpg       { background: rgba(142,36,170,0.15);  color: #dfb8e8; border: 1px solid rgba(142,36,170,0.25); }
+.tag-survival  { background: rgba(109,76,65,0.15);   color: #d4c4bc; border: 1px solid rgba(109,76,65,0.25); }
+.tag-factory   { background: rgba(0,137,123,0.15);   color: #a8ddd6; border: 1px solid rgba(0,137,123,0.25); }
+.tag-roguelike { background: rgba(244,81,30,0.15);   color: #ffc4ad; border: 1px solid rgba(244,81,30,0.25); }
+.tag-sport     { background: rgba(3,155,229,0.15);   color: #a8e0fc; border: 1px solid rgba(3,155,229,0.25); }
+.tag-strategy  { background: rgba(84,110,122,0.15);  color: #cdd3d8; border: 1px solid rgba(84,110,122,0.25); }
 
 .players-info {
   font-size: 0.82rem;
@@ -970,8 +970,8 @@ body {
 .btn-spin:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
 
 /* ===== INDIE & FREE TAGS ===== */
-.tag-indie { background: rgba(233,30,99,0.12); color: #f48fb1; border: 1px solid rgba(233,30,99,0.25); }
-.tag-free  { background: rgba(61,255,162,0.1);  color: #69f0ae; border: 1px solid rgba(61,255,162,0.2); }
+.tag-indie { background: rgba(233,30,99,0.12); color: #f8b4cc; border: 1px solid rgba(233,30,99,0.25); }
+.tag-free  { background: rgba(61,255,162,0.1);  color: #a8ffd4; border: 1px solid rgba(61,255,162,0.2); }
 
 /* ===== ITCH.IO BUTTON ===== */
 .btn-itch { background: #2b1621; border: 1px solid #fa5c5c; color: #fa5c5c; }
@@ -1177,7 +1177,7 @@ body {
 
 .store-epic {
   background: rgba(43,112,246,0.16);
-  color: #aecdff;
+  color: #d0e2ff;
   border-color: rgba(43,112,246,0.35);
 }
 
