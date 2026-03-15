@@ -533,17 +533,46 @@ function renderGames() {
     return;
   }
 
-  grid.innerHTML = filtered.map(game => createCard(game, freeLookup.get(normalizeTitle(game.title)))).join('');
+  const BATCH_SIZE = 30;
+  const cards = filtered.map(game => createCard(game, freeLookup.get(normalizeTitle(game.title))));
 
-  grid.querySelectorAll('.card').forEach(card => {
-    const id = parseInt(card.dataset.id);
-    card.addEventListener('click', e => {
-      if (e.target.closest('a') || e.target.closest('.btn-admin-edit')) return;
-      openModal(id);
-    });
-    const editBtn = card.querySelector('.btn-admin-edit');
-    if (editBtn) editBtn.addEventListener('click', e => { e.stopPropagation(); openAdminModal(id); });
+  // Render first batch immediately
+  grid.innerHTML = cards.slice(0, BATCH_SIZE).join('');
+  attachCardListeners(grid);
+
+  // Render remaining cards in batches via requestIdleCallback
+  let offset = BATCH_SIZE;
+  function renderNextBatch() {
+    if (offset >= cards.length) return;
+    const batch = cards.slice(offset, offset + BATCH_SIZE);
+    grid.insertAdjacentHTML('beforeend', batch.join(''));
+    // Attach listeners only to new cards
+    const allCards = grid.querySelectorAll('.card');
+    for (let i = offset; i < Math.min(offset + BATCH_SIZE, allCards.length); i++) {
+      attachSingleCardListener(allCards[i]);
+    }
+    offset += BATCH_SIZE;
+    if (offset < cards.length) {
+      (window.requestIdleCallback || requestAnimationFrame)(renderNextBatch);
+    }
+  }
+  if (offset < cards.length) {
+    (window.requestIdleCallback || requestAnimationFrame)(renderNextBatch);
+  }
+}
+
+function attachSingleCardListener(card) {
+  const id = parseInt(card.dataset.id);
+  card.addEventListener('click', e => {
+    if (e.target.closest('a') || e.target.closest('.btn-admin-edit')) return;
+    openModal(id);
   });
+  const editBtn = card.querySelector('.btn-admin-edit');
+  if (editBtn) editBtn.addEventListener('click', e => { e.stopPropagation(); openAdminModal(id); });
+}
+
+function attachCardListeners(grid) {
+  grid.querySelectorAll('.card').forEach(attachSingleCardListener);
 }
 
 // ===== CREATE CARD =====
