@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-15T11:01:56+00:00",
+  "generatedAt": "2026-03-16T07:27:21+00:00",
   "featuredIndieId": 24,
   "games": [
     {
@@ -4281,7 +4281,7 @@
         "online"
       ],
       "maxPlayers": 3,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-3",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1549970/header.jpg",
       "description": "Uno sparatutto cooperativo in terza persona nell'universo di Alien, dove un gruppo di marines deve resistere a ondate di Xenomorfi letali. Cinque classi distinte con abilità uniche, un sistema di progressione profondo e un'atmosfera horror fedele ai film originali. Ideale per i fan della saga e per chi ama gli sparatutto co-op.",
@@ -4400,7 +4400,9 @@
         "rpg"
       ],
       "coopMode": [
-        "online"
+        "online",
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -4429,7 +4431,8 @@
         "puzzle"
       ],
       "coopMode": [
-        "online"
+        "local",
+        "split"
       ],
       "maxPlayers": 6,
       "crossplay": false,
@@ -4496,7 +4499,7 @@
         "split"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-4",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1243830/header.jpg",
       "description": "La raccolta definitiva della serie Overcooked comprende entrambi i capitoli con tutti i DLC, offrendo decine di ore di caos culinario cooperativo per 1-4 giocatori. I livelli progressivamente più complessi richiedono coordinazione e rapidità, trasformando una cucina in un campo di battaglia. Perfetto per serate in famiglia o con amici, con split-screen locale e online.",
@@ -4524,7 +4527,7 @@
         "online"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-4",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1272080/header.jpg",
       "description": "Il seguito di PayDay 2 porta la serie delle rapine cooperative nel mondo moderno con grafica aggiornata e meccaniche stealth/azione rifinite. Fino a quattro giocatori pianificano ed eseguono colpi elaborati in diverse città, scegliendo tra approcci silenziosi o sparatorie caotiche. Aggiornamenti sostanziali lo hanno reso un'esperienza cooperativa completa.",
@@ -4551,7 +4554,8 @@
         "rpg"
       ],
       "coopMode": [
-        "online"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -4583,7 +4587,7 @@
         "online"
       ],
       "maxPlayers": 2,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-2",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/865360/header.jpg",
       "description": "Il terzo capitolo della popolare serie cooperativa dove due esploratori intrappolati in un mondo ghiacciato comunicano tramite radio per risolvere complessi puzzle ambientali. I giocatori si trovano spesso in stanze diverse e devono descriversi a vicenda gli indizi per progredire. Un'esperienza unica per le coppie o gli amici che amano i puzzle.",
@@ -4611,7 +4615,7 @@
         "online"
       ],
       "maxPlayers": 2,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-2",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1341290/header.jpg",
       "description": "Il quarto e più ambizioso capitolo della serie We Were Here, dove due giocatori comunicano tramite walkie-talkie per risolvere puzzle ambientali in un castello gotico misterioso. Enigmi intelligenti e atmosfera coinvolgente in una delle esperienze cooperative basate sulla comunicazione più riuscite su PC.",
@@ -4621,9 +4625,9 @@
       "steamUrl": "https://store.steampowered.com/app/1341290/",
       "epicUrl": "",
       "itchUrl": "",
-      "ccu": 0,
+      "ccu": 183,
       "trending": false,
-      "rating": 0
+      "rating": 91
     },
     {
       "id": 157,
@@ -4638,9 +4642,7 @@
         "action"
       ],
       "coopMode": [
-        "online",
-        "local",
-        "split"
+        "online"
       ],
       "maxPlayers": 35,
       "crossplay": false,
@@ -4668,10 +4670,12 @@
         "puzzle"
       ],
       "coopMode": [
-        "online"
+        "online",
+        "local",
+        "split"
       ],
       "maxPlayers": 2,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-2",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1812090/header.jpg",
       "description": "Un gioco di escape room cooperativo dove due giocatori frequentano un'accademia dedicata all'arte della fuga, affrontando stanze sempre più elaborate e creative. I puzzle richiedono genuina collaborazione sia in locale che online. Una delle esperienze puzzle co-op più originali degli ultimi anni, con ottimo rapporto qualità-prezzo.",
@@ -4763,7 +4767,7 @@
         "online"
       ],
       "maxPlayers": 2,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-2",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/692890/header.jpg",
       "description": "Un roguelike sparatutto in prima persona fulmineo e adrenalinico, ambientato in un futuro post-apocalittico dove robot combattono in arene colorate. La campagna co-op per due giocatori offre run sempre diverse grazie a combinazioni casuali di armi e potenziamenti. La velocità del gameplay e la fluidità dei controlli lo rendono una gemma del genere.",
@@ -4793,7 +4797,7 @@
         "online"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-4",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/275850/header.jpg",
       "description": "Esplora un universo infinito con miliardi di pianeti unici generati proceduralmente, da solo o con fino a quattro amici in co-op online. Costruisci basi, commercia, combatti creature aliene e scopri civiltà sconosciute in uno dei giochi sandbox più aggiornati e migliorati della storia recente. Un'esperienza co-op senza confini.",
@@ -4885,7 +4889,7 @@
         "online"
       ],
       "maxPlayers": 3,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-3",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/680420/header.jpg",
       "description": "Uno sparatutto cooperativo in terza persona con forti elementi RPG, dove fino a tre giocatori scelgono tra quattro classi con poteri elementali devastanti per sopravvivere su un pianeta ostile. Il loop di combattimento aggressivo, dove recuperare salute significa attaccare senza sosta, differenzia Outriders dagli altri looter-shooter. Campagna co-op completa e appagante.",
@@ -4946,7 +4950,7 @@
         "online"
       ],
       "maxPlayers": 2,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-2",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/230230/header.jpg",
       "description": "Il predecessore del celebre Divinity OS2, con modalità co-op completa per due giocatori e sistema a turni ricco di scelte narrative. I due protagonisti possono avere opinioni divergenti durante le scelte della storia, aggiungendo un livello unico di interazione cooperativa. Un RPG profondo e impegnativo, ideale per chi ama le avventure co-op lunghe.",
@@ -5094,7 +5098,7 @@
         "online"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-4",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1086940/header.jpg",
       "description": "Gather your party, and return to the Forgotten Realms in a tale of fellowship and betrayal, sacrifice and survival, and the lure of absolute power.",
@@ -5123,7 +5127,7 @@
         "online"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-4",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/236390/header.jpg",
       "description": "War Thunder è il più completo MMO cross-platform gratuito dedicato all’aviazione militare, ai veicoli corazzati e ai mezzi navali, dall’inizio del XX secolo alle moderne unità di combattimento avanzate. Gioca subito e partecipa a grandi battaglie a terra, in aria e sul mare.",
@@ -5156,7 +5160,7 @@
         "split"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-4",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2669320/header.jpg",
       "description": "EA SPORTS FC™ 25 offre nuovi modi di vincere per il club. Fai squadra con gli amici nelle tue modalità preferite con l'inedita Rush 5 vs 5 e porta il club alla vittoria con un controllo tattico più avanzato che mai grazie a FC IQ.",
@@ -5184,7 +5188,7 @@
         "online"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-4",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/394360/header.jpg",
       "description": "Victory is at your fingertips! Your ability to lead your nation is your supreme weapon, the strategy game Hearts of Iron IV lets you take command of any nation in World War II; the most engaging conflict in world history.",
@@ -5279,7 +5283,7 @@
         "online"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-4",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/39210/header.jpg",
       "description": "Unisciti a più di 30 milioni di avventurieri di tutto il mondo e partecipa a un FINAL FANTASY epico e in costante mutamento. Scopri una storia indimenticabile, battaglie esaltanti e tantissimi affascinanti scenari da esplorare.",
@@ -5310,7 +5314,7 @@
         "online"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-4",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2993780/header.jpg",
       "description": "Tuffati in questo nuovo rilassante GDR in cui potrai scegliere tra 14 professioni uniche, i cosiddetti \"Mestieri,\" e goditi una vita spensierata in questo mondo fantastico. Pesca, cucina, personalizza l'isola o fai squadra con gli amici per affrontare i mostri che popolano questo vasto mondo.",
@@ -5463,7 +5467,7 @@
         "split"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-4",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1665460/header.jpg",
       "description": "Fatti avanti e prova l'emozionante gioco di calcio che ha ormai superato gli 950 milioni di download! Le star di oggi, le leggende del passato e gli utenti di tutto il mondo ti stanno aspettando!",
@@ -5491,7 +5495,7 @@
         "online"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-4",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/236850/header.jpg",
       "description": "Governa la tua terra e domina il mondo con una libertà, una profondità e un'accuratezza storica senza pari. Scrivi una nuova storia del mondo e costruisci un impero che duri nei secoli.",
@@ -5587,7 +5591,7 @@
         "online"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-4",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg",
       "description": "Esplora i vivaci paesaggi del Messico sconfinato alla guida di auto straordinarie.",
@@ -5678,7 +5682,7 @@
         "online"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-4",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2104890/header.jpg",
       "description": "Come leader di un'azienda specializzata nel ripristinare siti devastati dai disastri naturali, utilizza i tuoi macchinari da costruzione per far ripartire l'industria locale. Rimuovi i detriti, ricostruisci strade e ponti, e molto altro!",
@@ -5738,7 +5742,7 @@
         "online"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-4",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/444200/header.jpg",
       "description": "Scarica la tensione in uno sparatutto online free-to-play 7 contro 7! Guida centinaia di carri armati, dai classici da museo a modelli rimasti solo su carta, in rapide battaglie da 5 a 7 minuti di puro caos metallico. Gioca da solo o con un amico e goditi un'azione fluida anche su hardware modesti!",
@@ -5766,7 +5770,7 @@
         "online"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-4",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1248130/header.jpg",
       "description": "Inizia a coltivare e fai crescere il divertimento! Raccogli le colture, alleva gli animali, gestisci la produzione e affronta le sfide stagionali.",
@@ -5793,10 +5797,12 @@
         "strategy"
       ],
       "coopMode": [
-        "online"
+        "online",
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-4",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3059520/header.jpg",
       "description": "Lascia il segno nel mondo delle corse in F1® 25, il videogioco ufficiale del 2025 FIA Formula One World Championship™, che include una rinnovata modalità Carriera scuderia, l'emozionante terzo capitolo di Braking Point e molto altro!",
@@ -5829,7 +5835,7 @@
         "split"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-4",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2195250/header.jpg",
       "description": "EA SPORTS FC™ 24 ti dà il benvenuto nel gioco più bello del mondo: l'esperienza calcistica più autentica di sempre con HyperMotionV, stili di gioco ottimizzati da Opta e un motore Frostbite™ migliorato.",
@@ -5856,10 +5862,12 @@
         "rpg"
       ],
       "coopMode": [
-        "online"
+        "online",
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-4",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/286160/header.jpg",
       "description": "Tabletop Simulator is the only simulator where you can let your aggression out by flipping the table! There are no rules to follow: just you, a physics sandbox, and your friends. Make your own online board games or play the thousands of community created mods. Unlimited gaming possibilities!",
@@ -5892,7 +5900,7 @@
         "online"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-4",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2437170/header.jpg",
       "description": "Become a god and wage war in SMITE 2, the free-to-play Unreal Engine 5-powered sequel to the legendary third-person action MOBA. If you love challenging competition, intense action, ability-driven combat, rewarding teamwork, or godly mythology, you’ll see why 40+ million players love SMITE.",
@@ -5922,7 +5930,7 @@
         "online"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-4",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1293830/header.jpg",
       "description": "Le stagioni dinamiche cambiano tutto nel festival automobilistico più grande del mondo. Gareggia in solitaria o fai squadra per esplorare la bellissima e storica Gran Bretagna in un mondo aperto e condiviso.",
@@ -6130,8 +6138,7 @@
       "categories": [
         "indie",
         "action",
-        "roguelike",
-        "free"
+        "roguelike"
       ],
       "genres": [
         "action",
@@ -6205,7 +6212,7 @@
         "online"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-4",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1258080/header.jpg",
       "description": "Shop Titans è il gioco di ruolo definitivo per chi vuole vestire i panni di un negoziante. Produci potenti oggetti, esibiscili nel tuo negozio e vendili ad aspiranti eroi... a un prezzo maggiorato! Ingaggia eroi e vai in missione per raccogliere preziosi materiali di produzione.",
@@ -6290,7 +6297,8 @@
       "categories": [
         "sport",
         "strategy",
-        "action"
+        "action",
+        "free"
       ],
       "genres": [
         "sport",
@@ -6353,7 +6361,8 @@
       "title": "Game of Thrones: Kingsroad",
       "categories": [
         "action",
-        "rpg"
+        "rpg",
+        "free"
       ],
       "genres": [
         "action",
@@ -6423,7 +6432,7 @@
         "online"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-4",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2051620/header.jpg",
       "description": "In Enlisted non comandi un solo soldato, ma un'intera squadra! Questo sparatutto MMO basato sulle squadre ricrea le battaglie chiave della guerra più sanguinosa del XX secolo. A ogni battaglia prendono parte centinaia di soldati, carri armati e aerei.",
@@ -6442,7 +6451,6 @@
       "slug": "powerwash-simulator",
       "title": "PowerWash Simulator",
       "categories": [
-        "indie",
         "splitscreen",
         "puzzle"
       ],
@@ -6450,12 +6458,10 @@
         "puzzle"
       ],
       "coopMode": [
-        "online",
-        "local",
-        "split"
+        "online"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-4",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1290000/header.jpg",
       "description": "Allenta la pressione con PowerWash Simulator! Lascia che il rilassante suono dell'acqua si porti via le tue preoccupazioni e lava via ogni traccia di sporco con la tua idropulitrice. Alla fine sarà tutto così pulito che ti ci potrai specchiare.",
@@ -6484,7 +6490,7 @@
         "online"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-4",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1190970/header.jpg",
       "description": "Libera la mente con questo rilassante simulatore di ristrutturazioni! Compra, rinnova, rivendi o costruisci da zero con gli amici (2-4 giocatori online) in modalità storia o sandbox. Libera la tua creatività!",
@@ -6694,7 +6700,9 @@
         "action"
       ],
       "coopMode": [
-        "online"
+        "online",
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -9603,6 +9611,467 @@
       "ccu": 957,
       "trending": true,
       "rating": 71
+    },
+    {
+      "id": 320,
+      "slug": "foundry",
+      "title": "FOUNDRY",
+      "categories": [
+        "indie",
+        "factory",
+        "strategy"
+      ],
+      "genres": [
+        "factory",
+        "strategy"
+      ],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/983870/header.jpg",
+      "description": "Costruisci una fabbrica ottimizzata alla perfezione o un capolavoro artistico in un mondo voxel infinito. Estrai e raccogli risorse, automatizza le tue linee di produzione in continua crescita e gestisci sistemi complessi mentre studi le tecnologie per raggiungere la maestria meccanica in FOUNDRY.",
+      "description_en": "Build a sophisticated robot factory optimized to perfection in an infinite voxel world. Mine and harvest resources, automate your production lines and manage complex systems while researching your way to become the galaxy’s leading robotics megacorp.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/983870/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 925,
+      "trending": true,
+      "rating": 79
+    },
+    {
+      "id": 321,
+      "slug": "eldegarde",
+      "title": "Eldegarde",
+      "categories": [
+        "action",
+        "rpg",
+        "survival"
+      ],
+      "genres": [
+        "action",
+        "rpg",
+        "survival"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2344320/header.jpg",
+      "description": "Eldegarde is a mini-MMO Action RPG with PvE, PvPvE and Arena modes. Explore vast outdoor zones, craft powerful gear, and fight to survive in a living fantasy world.",
+      "description_en": "Eldegarde is a mini-MMO Action RPG with PvE, PvPvE and Arena modes. Explore vast outdoor zones, craft powerful gear, and fight to survive in a living fantasy world.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2344320/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 913,
+      "trending": true,
+      "rating": 66
+    },
+    {
+      "id": 322,
+      "slug": "scrap-mechanic",
+      "title": "Scrap Mechanic",
+      "categories": [
+        "indie",
+        "factory",
+        "survival"
+      ],
+      "genres": [
+        "factory",
+        "survival"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/387990/header.jpg",
+      "description": "Enter the creative paradise of Scrap Mechanic! Build fantastic machines, go on adventures with your friends and defend against waves of evil Farmbots in this imaginative multiplayer survival sandbox. With Scrap Mechanic’s powerful creation tools you can engineer your own adventures!",
+      "description_en": "Enter the creative paradise of Scrap Mechanic! Build fantastic machines, go on adventures with your friends and defend against waves of evil Farmbots in this imaginative multiplayer survival sandbox. With Scrap Mechanic’s powerful creation tools you can engineer your own adventures!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/387990/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 909,
+      "trending": true,
+      "rating": 92
+    },
+    {
+      "id": 323,
+      "slug": "trailmakers",
+      "title": "Trailmakers",
+      "categories": [
+        "indie",
+        "action",
+        "factory"
+      ],
+      "genres": [
+        "action",
+        "factory"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/585420/header.jpg",
+      "description": "Crea e scatenati nel mondo aperto di Trailmakers. Sblocca le tue abilità di creazione e innovazione in Trailmakers. Un gioco sandbox ingegneristico mai visto prima, supportato dalla community videoludica più creativa del mondo.",
+      "description_en": "Build the ultimate vehicle and explore a vast open world filled with challenges and adventure. Play solo or team up with friends in multiplayer to conquer the toughest obstacles. With a thrilling campaign mode and endless creative possibilities, Trailmakers is the ultimate sandbox for adventurers.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/585420/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 903,
+      "trending": true,
+      "rating": 92
+    },
+    {
+      "id": 324,
+      "slug": "starbound",
+      "title": "Starbound",
+      "categories": [
+        "indie",
+        "survival",
+        "action"
+      ],
+      "genres": [
+        "survival",
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/211820/header.jpg",
+      "description": "You’ve fled your home, only to find yourself lost in space with a damaged ship. Your only option is to beam down to the planet below, repair your ship and set off to explore the universe...",
+      "description_en": "You’ve fled your home, only to find yourself lost in space with a damaged ship. Your only option is to beam down to the planet below, repair your ship and set off to explore the universe...",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/211820/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 894,
+      "trending": true,
+      "rating": 92
+    },
+    {
+      "id": 325,
+      "slug": "pantheon-rise-of-the-fallen",
+      "title": "Pantheon: Rise of the Fallen",
+      "categories": [
+        "indie",
+        "rpg",
+        "action"
+      ],
+      "genres": [
+        "rpg",
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3107230/header.jpg",
+      "description": "Pantheon: Rise of the Fallen is a deeply social high fantasy MMORPG that challenges its players and rewards effort. Join the denizens of Terminus to uncover the mysteries of a world divided by Celestial loyalty… and betrayal.",
+      "description_en": "Pantheon: Rise of the Fallen is a deeply social high fantasy MMORPG that challenges its players and rewards effort. Join the denizens of Terminus to uncover the mysteries of a world divided by Celestial loyalty… and betrayal.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3107230/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 876,
+      "trending": true,
+      "rating": 76
+    },
+    {
+      "id": 326,
+      "slug": "the-crew-2",
+      "title": "The Crew 2",
+      "categories": [
+        "sport",
+        "action",
+        "strategy"
+      ],
+      "genres": [
+        "sport",
+        "action",
+        "strategy"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/646910/header.jpg",
+      "description": "Scopri la scena dei motorsport americani, esplorando e sfidando terra, aria e cielo in giro per tutti gli Stati Uniti. Novità: gioca a The Crew 2 offline oppure online con la nuova modalità ibrida, adesso disponibile!",
+      "description_en": "Take on the American motorsports scene as you explore and dominate the land, air, and sea across the entire USA. New: play The Crew 2 offline or online with the new Hybrid mode, available now!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/646910/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 873,
+      "trending": true,
+      "rating": 77
+    },
+    {
+      "id": 327,
+      "slug": "warno",
+      "title": "WARNO",
+      "categories": [
+        "indie",
+        "strategy"
+      ],
+      "genres": [
+        "strategy"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1611600/header.jpg",
+      "description": "Realistic, immersive, breathtaking. WARNO is the ultimate World War III battle simulator from the masters of strategy, Eugen Systems. A Cold War turns decisively hot as you command hundreds of units on a beautiful and brutal battlefield. Outsmart, outfight, and lead your forces to total victory.",
+      "description_en": "Realistic, immersive, breathtaking. WARNO is the ultimate World War III battle simulator from the masters of strategy, Eugen Systems. A Cold War turns decisively hot as you command hundreds of units on a beautiful and brutal battlefield. Outsmart, outfight, and lead your forces to total victory.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1611600/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 873,
+      "trending": true,
+      "rating": 81
+    },
+    {
+      "id": 328,
+      "slug": "wolfquest-anniversary-edition",
+      "title": "WolfQuest: Anniversary Edition",
+      "categories": [
+        "survival",
+        "rpg",
+        "action",
+        "indie"
+      ],
+      "genres": [
+        "survival",
+        "rpg",
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/926990/header.jpg",
+      "description": "Live the life of a wild wolf in a realistic ecological simulation set in Yellowstone National Park.",
+      "description_en": "Live the life of a wild wolf in a realistic ecological simulation set in Yellowstone National Park.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/926990/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 869,
+      "trending": true,
+      "rating": 98
+    },
+    {
+      "id": 329,
+      "slug": "watch-dogs-2",
+      "title": "Watch_Dogs 2",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/447040/header.jpg",
+      "description": "Benvenuto a San Francisco. Gioca nei panni di Marcus, un giovane e geniale hacker, membro del più famoso gruppo di hacker del mondo, il DedSec. Il tuo obiettivo: completare l'hack più grande della storia.",
+      "description_en": "Welcome to San Francisco. Play as Marcus, a brilliant young hacker, and join the most notorious hacker group, DedSec. Your objective: execute the biggest hack of history.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/447040/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 863,
+      "trending": true,
+      "rating": 83
+    },
+    {
+      "id": 330,
+      "slug": "plants-vs-zombies-garden-warfare-2-deluxe-edition",
+      "title": "Plants vs. Zombies Garden Warfare 2: Deluxe Edition",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1922560/header.jpg",
+      "description": "Carica le sparasemi e preparati per lo sparatutto più pazzo e spassoso dell'universo: Plants vs. Zombies Garden Warfare 2.",
+      "description_en": "Ready the Peashooters and prepare for the craziest, funniest shooter in the universe: Plants vs. Zombies Garden Warfare 2.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1922560/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 855,
+      "trending": true,
+      "rating": 90
+    },
+    {
+      "id": 331,
+      "slug": "runescape-dragonwilds",
+      "title": "RuneScape: Dragonwilds",
+      "categories": [
+        "survival",
+        "factory",
+        "action"
+      ],
+      "genres": [
+        "survival",
+        "factory",
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1374490/header.jpg",
+      "description": "Su Ashenfall, continente dimenticato di RuneScape, i draghi si sono risvegliati. Raccogli, costruisci e sopravvivi in questo gioco cooperativo (1-4). Solo scoprendo antichi segreti potrai affrontare la Regina dei Draghi, da solo o con alleati.",
+      "description_en": "On RuneScape’s forgotten continent of Ashenfall, dragons have awoken. Gather, build, skill and craft to survive in this co-operative (1-4) survival crafting game. Only by mastering survival and uncovering ancient secrets can they hope to slay the Dragon Queen—alone or with allies.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1374490/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 851,
+      "trending": true,
+      "rating": 84
+    },
+    {
+      "id": 332,
+      "slug": "call-of-duty-modern-warfare",
+      "title": "Call of Duty: Modern Warfare",
+      "categories": [
+        "action",
+        "strategy"
+      ],
+      "genres": [
+        "action",
+        "strategy"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2000950/header.jpg",
+      "description": "Vivi una Campagna avvincente o crea una squadra in questa esperienza di gioco online definitiva, con varie sfide di Operazioni Speciali e un mix di mappe e modalità del Multigiocatore.",
+      "description_en": "Experience a visceral Campaign or assemble your team in the ultimate online playground with multiple Special Ops challenges and a mix of Multiplayer maps and modes.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2000950/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 847,
+      "trending": true,
+      "rating": 79
+    },
+    {
+      "id": 333,
+      "slug": "lords-of-the-fallen",
+      "title": "Lords of the Fallen",
+      "categories": [
+        "action",
+        "rpg"
+      ],
+      "genres": [
+        "action",
+        "rpg"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1501750/header.jpg",
+      "description": "Un vasto mondo ti attende nel GdR d'azione dark fantasy medievale Lords of the Fallen. Sei un crociato nero che deve affrontare un'epica missione per sconfiggere il Dio demoniaco Adyr. È disponibile la versione 2.5, con co-op con progressione condivisa e Pass Amici Gratuito.",
+      "description_en": "A vast world awaits in the medieval, dark fantasy action-RPG, Lords of the Fallen. As a fabled Dark Crusader, embark on an epic quest to overthrow Adyr, the demon God. The final major update Version 2.5 is out now: features deadlier boss battles and all-new Veteran Mode.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1501750/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 827,
+      "trending": true,
+      "rating": 66
+    },
+    {
+      "id": 334,
+      "slug": "oddsparks-an-automation-adventure",
+      "title": "Oddsparks: An Automation Adventure",
+      "categories": [
+        "indie",
+        "factory",
+        "puzzle"
+      ],
+      "genres": [
+        "factory",
+        "puzzle"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1817800/header.jpg",
+      "description": "Oddsparks è un mix di automazione e strategia in tempo reale, per i fan sfegatati del genere automazione e per chi ne è incuriosito. Esplora uno strano mondo fantasy, svela i misteri del passato, automatizza le tue officine e parti all'avventura con le tue strane e adorabili Spark!",
+      "description_en": "Oddsparks is a blend of automation and real-time strategy for both the die-hard fans of the automation genre and the automation-curious. Explore a strange fantasy world, uncover the mysteries of the past, automate your workshops, and go on adventures with your odd & adorable Sparks!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1817800/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 808,
+      "trending": true,
+      "rating": 87
     }
   ]
 }
