@@ -46,6 +46,7 @@ const modeFilters = [
   { id: 'mode_online',    field: 'coopMode',  value: 'online' },
   { id: 'mode_local',     field: 'coopMode',  value: 'local' },
   { id: 'mode_split',     field: 'coopMode',  value: 'split' },
+  { id: 'mode_crossplay', field: 'crossplay', value: true },
   { id: 'players_2',      field: 'maxPlayers', value: 2 },
   { id: 'players_4',      field: 'maxPlayers', value: 4 },
 ];
@@ -470,6 +471,8 @@ function matchesModeFilters(game) {
     if (!filterDef) continue;
     if (filterDef.field === 'coopMode') {
       if (!game.coopMode || !game.coopMode.includes(filterDef.value)) return false;
+    } else if (filterDef.field === 'crossplay') {
+      if (!game.crossplay) return false;
     } else if (filterDef.field === 'maxPlayers') {
       if (filterDef.value === 2) {
         if (game.maxPlayers !== 2) return false;
@@ -617,6 +620,9 @@ function createCard(game, freeEntry = null) {
         ${ratingIcon(game.rating)} ${game.rating}%
       </span>` : '';
 
+  const crossplayHtml = game.crossplay
+    ? `<span class="crossplay-badge" title="${t('mode_crossplay')}">🔄</span>` : '';
+
   return `
     <div class="card ${isAdmin ? 'admin-mode' : ''} ${game.trending ? 'is-trending' : ''} ${freeEntry ? 'is-free-now' : ''}" data-id="${game.id}" role="listitem">
       ${adminBtn}
@@ -630,6 +636,7 @@ function createCard(game, freeEntry = null) {
             ${game.played ? `<span class="played-badge">${t('played_badge')}</span>` : ''}
             ${ratingHtml}
             ${ccuHtml}
+            ${crossplayHtml}
           </div>
         </div>
         <div class="card-tags">${tags}</div>
@@ -730,6 +737,7 @@ function openModal(id) {
         <div class="modal-desc">
           ${esc(game.players)} ${t('card_players')}
           ${game.ccu > 0 ? `<span class="modal-ccu">— <strong>${formatCCU(game.ccu)}</strong> ${t('modal_online')}</span>` : ''}
+          ${game.crossplay ? `<span class="modal-crossplay-badge">🔄 ${t('mode_crossplay')}</span>` : ''}
           ${game.trending ? `<span class="modal-trending-label">${t('modal_trending')}</span>` : ''}
         </div>
       </div>

@@ -304,6 +304,7 @@ body {
 .filter-mode-btn.active { background: #00897b; border-color: #00897b; color: #fff; box-shadow: 0 2px 12px rgba(0,137,123,0.35); }
 .filter-mode-btn[data-mode="players_2"].active,
 .filter-mode-btn[data-mode="players_4"].active { background: #7b1fa2; border-color: #7b1fa2; box-shadow: 0 2px 12px rgba(123,31,162,0.35); }
+.filter-mode-btn[data-mode="mode_crossplay"].active { background: #1565c0; border-color: #1565c0; box-shadow: 0 2px 12px rgba(21,101,192,0.35); }
 
 /* ===== MOBILE FILTER TOGGLE ===== */
 .btn-toggle-filters { display: none; }
@@ -573,8 +574,26 @@ body {
   flex-shrink: 0;
 }
 
-/* Modal CCU / Trending */
+/* Crossplay badge (card) */
+.crossplay-badge {
+  font-size: 0.75rem;
+  opacity: 0.75;
+  cursor: default;
+}
+
+/* Modal CCU / Trending / Crossplay */
 .modal-ccu { color: var(--accent3); font-size: 0.9rem; margin-left: 6px; }
+.modal-crossplay-badge {
+  display: inline-block;
+  background: rgba(21,101,192,0.15);
+  color: #90caf9;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 2px 10px;
+  border-radius: 20px;
+  border: 1px solid rgba(21,101,192,0.3);
+  margin-left: 8px;
+}
 .modal-trending-label {
   display: inline-block;
   background: linear-gradient(135deg, #ff6b35, #ff3d00);
