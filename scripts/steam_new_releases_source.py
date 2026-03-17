@@ -2,15 +2,14 @@
 """
 Steam New Releases source adapter.
 
-Usa la Steam Web API ufficiale per trovare giochi co-op usciti di recente,
+Usa la Steam Store search API per trovare giochi co-op usciti di recente,
 bypassando il lag di SteamSpy (che impiega settimane ad indicizzare nuovi titoli).
 
 Flusso:
-1. IStoreService/GetAppList con last_time_modified → tutti gli app recenti
-2. Batch appdetails → filtra per categorie co-op
-3. Qualità: positive reviews + rating % (no CCU — giochi nuovi non l'hanno)
-
-Richiede: STEAM_API_KEY env var (https://steamcommunity.com/dev/apikey)
+1. Steam Store search API (sort_by=Released_DESC + category co-op)
+   → restituisce direttamente giochi co-op ordinati per data uscita, no API key
+2. appdetails per qualità + metadati completi
+3. Qualità: positive reviews + metacritic (no CCU — giochi nuovi non l'hanno)
 """
 
 from __future__ import annotations
@@ -23,17 +22,20 @@ import urllib.parse
 from typing import Any
 
 
-STEAM_API_BASE = "https://api.steampowered.com"
-APPDETAILS_URL = "https://store.steampowered.com/api/appdetails"
+APPDETAILS_URL   = "https://store.steampowered.com/api/appdetails"
+STORE_SEARCH_URL = "https://store.steampowered.com/search/results/"
 
-REQUEST_DELAY = 1.2          # secondi tra chiamate
-APPDETAILS_BATCH = 1         # appdetails non supporta batch reali → 1 per volta
-NEW_RELEASES_DAYS = 90       # finestra temporale giochi recenti
-MAX_APPLIST_RESULTS = 5000   # max app da IStoreService (filtriamo dopo)
-MAX_CANDIDATES = 200         # max candidati da esaminare per run
+REQUEST_DELAY    = 1.2     # secondi tra chiamate appdetails
+NEW_RELEASES_DAYS = 90     # finestra temporale giochi recenti
+MAX_SEARCH_COUNT = 50      # risultati per query Steam Store search
+MAX_CANDIDATES   = 120     # max candidati totali da esaminare per run
 
-# Steam category IDs che indicano co-op
-COOP_CATEGORY_IDS = {9, 38, 39}   # Co-op, Online Co-op, Local Co-op
+# Steam category IDs per la search (categoria2 nell'URL)
+# 9=Co-op, 38=Online Co-op, 39=Local Co-op
+COOP_SEARCH_CATEGORIES = [9, 38, 39]
+
+# Steam category IDs che indicano co-op nei metadati appdetails
+COOP_CATEGORY_IDS = {9, 38, 39}
 
 # Soglie qualità per giochi senza CCU (nuovi)
 MIN_REVIEWS_NEW_RELEASE = 30   # recensioni positive minime
@@ -41,7 +43,7 @@ MIN_RATING_NEW_RELEASE  = 70   # rating % minimo
 
 
 class SteamNewReleasesSource:
-    def __init__(self, api_key: str, delay: float = REQUEST_DELAY) -> None:
+    def __init__(self, api_key: str = "", delay: float = REQUEST_DELAY) -> None:
         self.api_key = api_key
         self.delay = delay
 
@@ -60,24 +62,52 @@ class SteamNewReleasesSource:
             print(f"    ⚠ Steam API {url[:70]}: {exc}")
             return None
 
-    def fetch_recent_appids(self, days: int = NEW_RELEASES_DAYS) -> list[int]:
-        """Usa IStoreService/GetAppList per ottenere app aggiunte/modificate di recente."""
-        cutoff_ts = int((datetime.datetime.now() - datetime.timedelta(days=days)).timestamp())
-        params = {
-            "key": self.api_key,
-            "include_games": "1",
-            "include_dlc": "0",
-            "include_software": "0",
-            "include_videos": "0",
-            "include_hardware": "0",
-            "last_time_modified": str(cutoff_ts),
-            "max_results": str(MAX_APPLIST_RESULTS),
-        }
-        data = self._get(f"{STEAM_API_BASE}/IStoreService/GetAppList/v1/", params)
-        if not data:
-            return []
-        apps = data.get("response", {}).get("apps", [])
-        return [a["appid"] for a in apps if "appid" in a]
+    def fetch_recent_coop_appids(self, days: int = NEW_RELEASES_DAYS) -> list[int]:
+        """
+        Usa la Steam Store search per trovare giochi co-op recenti.
+        Non richiede API key. Ordina per data uscita (più recente prima).
+        """
+        seen: set[int] = set()
+        appids: list[int] = []
+        cutoff = datetime.datetime.now() - datetime.timedelta(days=days)
+
+        for cat_id in COOP_SEARCH_CATEGORIES:
+            params = {
+                "sort_by":  "Released_DESC",
+                "category1": "998",       # 998 = Games
+                "category2": str(cat_id),
+                "json":      "1",
+                "count":     str(MAX_SEARCH_COUNT),
+                "start":     "0",
+            }
+            data = self._get(STORE_SEARCH_URL, params)
+            if not data:
+                continue
+            items = data.get("items") or []
+            page_stopped = False
+            for item in items:
+                appid = item.get("id")
+                if not appid or appid in seen:
+                    continue
+                # Controlla data se presente nel risultato search
+                # (spesso non c'è, quindi accettiamo e filtriamo dopo con appdetails)
+                seen.add(appid)
+                appids.append(appid)
+                # Se la release_string indica anno molto vecchio, smetti di cercare
+                release_str = item.get("release_date") or item.get("released") or ""
+                if release_str:
+                    for fmt in ("%d %b, %Y", "%b %d, %Y", "%d %B, %Y"):
+                        try:
+                            dt = datetime.datetime.strptime(str(release_str).strip(), fmt)
+                            if dt < cutoff:
+                                page_stopped = True
+                            break
+                        except ValueError:
+                            continue
+                if page_stopped:
+                    break
+
+        return appids
 
     def fetch_appdetails(self, appid: int) -> dict[str, Any] | None:
         """Fetch Steam appdetails per un singolo gioco."""
@@ -133,25 +163,17 @@ def fetch_steam_new_coop_games(
 ) -> list[dict[str, Any]]:
     """
     Trova giochi co-op usciti di recente su Steam non ancora nel catalogo.
-    Bypassa SteamSpy — usa l'API ufficiale Steam.
+    Usa Steam Store search (no API key richiesta) + appdetails per qualità.
     Restituisce candidati con dati completi pronti per auto_update.
     """
-    if not api_key:
-        print("  Steam New Releases: saltato (nessun STEAM_API_KEY)")
-        return []
-
     source = SteamNewReleasesSource(api_key)
 
-    print(f"  Fetch app recenti da Steam API (ultimi {NEW_RELEASES_DAYS} giorni)...")
-    appids = source.fetch_recent_appids(NEW_RELEASES_DAYS)
-    print(f"  App trovate: {len(appids)}")
+    print(f"  Ricerca giochi co-op recenti da Steam Store (ultimi {NEW_RELEASES_DAYS} giorni)...")
+    appids = source.fetch_recent_coop_appids(NEW_RELEASES_DAYS)
+    print(f"  App trovate dalla search: {len(appids)}")
 
     if not appids:
         return []
-
-    # Ordina per appid decrescente: Steam assegna ID sequenziali,
-    # quindi appid più alti = giochi più recenti (es. StS2 = 2868840)
-    appids.sort(reverse=True)
 
     # Filtra già noti e blacklist prima delle chiamate appdetails
     to_check = [
@@ -164,12 +186,8 @@ def fetch_steam_new_coop_games(
     candidates = []
     examined = 0
     none_count = 0
-    not_game_count = 0
     not_recent_count = 0
     not_coop_count = 0
-
-    # Debug: mostra primi 5 appid da esaminare
-    print(f"  Prime 5 appid da esaminare: {to_check[:5]}")
 
     for appid in to_check:
         if len(candidates) >= max_games:
@@ -183,7 +201,6 @@ def fetch_steam_new_coop_games(
 
         # Solo giochi, non DLC/software/video
         if sd.get("type") != "game":
-            not_game_count += 1
             continue
 
         name = sd.get("name", "")
@@ -199,7 +216,7 @@ def fetch_steam_new_coop_games(
         if name_lower.strip() in existing_titles:
             continue
 
-        # Deve essere uscito recentemente (filtra giochi vecchi con metadata aggiornato)
+        # Deve essere uscito recentemente
         if not source.is_recent(sd, NEW_RELEASES_DAYS):
             not_recent_count += 1
             if not_recent_count <= 3:
@@ -207,11 +224,9 @@ def fetch_steam_new_coop_games(
                 print(f"    ✗ non recente: {name} ({rel})")
             continue
 
-        # Deve avere co-op
+        # Deve avere co-op (conferma con appdetails, non solo search)
         if not source.is_coop(sd):
             not_coop_count += 1
-            if not_coop_count <= 3:
-                print(f"    ✗ no co-op: {name}")
             continue
 
         # Qualità
@@ -227,7 +242,7 @@ def fetch_steam_new_coop_games(
         # Immagine
         image = sd.get("header_image", "")
 
-        # Categorie co-op dal tipo
+        # Modalità co-op
         cat_ids = {c.get("id") for c in sd.get("categories", [])}
         coop_mode = []
         if 38 in cat_ids or 9 in cat_ids:
@@ -239,7 +254,6 @@ def fetch_steam_new_coop_games(
 
         # Descrizione
         desc_en = sd.get("short_description", "") or ""
-        # Strip HTML base
         import re
         desc_en = re.sub(r"<[^>]+>", " ", desc_en)
         desc_en = re.sub(r"\s+", " ", desc_en).strip()[:400]
@@ -248,16 +262,16 @@ def fetch_steam_new_coop_games(
         print(f"    ✓ {name} (appid {appid}, {release_date}, {recommendations} rec)")
 
         candidates.append({
-            "appid":        str(appid),
-            "name":         name,
-            "image":        image,
-            "description":  desc_en,
-            "description_en": desc_en,
-            "steamUrl":     f"https://store.steampowered.com/app/{appid}/",
-            "coopMode":     coop_mode,
-            "releaseDate":  release_date,
+            "appid":           str(appid),
+            "name":            name,
+            "image":           image,
+            "description":     desc_en,
+            "description_en":  desc_en,
+            "steamUrl":        f"https://store.steampowered.com/app/{appid}/",
+            "coopMode":        coop_mode,
+            "releaseDate":     release_date,
             "recommendations": recommendations,
         })
 
-    print(f"  Esaminati: {examined} | None: {none_count} | NonGame: {not_game_count} | NonRecent: {not_recent_count} | NonCoop: {not_coop_count} | Candidati: {len(candidates)}")
+    print(f"  Esaminati: {examined} | None: {none_count} | NonRecent: {not_recent_count} | NonCoop: {not_coop_count} | Candidati: {len(candidates)}")
     return candidates
