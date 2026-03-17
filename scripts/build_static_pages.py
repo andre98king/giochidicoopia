@@ -21,8 +21,7 @@ SITE_URL = "https://coophubs.net"
 TODAY = datetime.date.today().isoformat()
 CURRENT_YEAR = datetime.date.today().year
 ASSET_VERSION = "20260314-cachefix1"
-# Crossplay data is still collected internally, but the UI stays hidden until the source is trustworthy.
-CROSSPLAY_UI_ENABLED = False
+CROSSPLAY_UI_ENABLED = True
 
 
 def esc(value) -> str:
@@ -138,7 +137,7 @@ def render_modes(game: dict) -> str:
 
 def render_static_page(game: dict) -> str:
     title = f"{game['title']} — Coophubs"
-    image = game["image"] or f"{SITE_URL}/assets/og-image.png"
+    image = game["image"] or f"{SITE_URL}/assets/og-image.jpg"
     description_it = game["description"][:320]
 
     rating_html = ""
@@ -223,6 +222,9 @@ def render_static_page(game: dict) -> str:
   <meta name="theme-color" content="#7c6aff">
   <meta name="color-scheme" content="dark">
   <link rel="canonical" href="{esc(page_url(game))}">
+  <link rel="alternate" hreflang="it" href="{esc(page_url(game))}">
+  <link rel="alternate" hreflang="en" href="{esc(page_url(game))}">
+  <link rel="alternate" hreflang="x-default" href="{esc(page_url(game))}">
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Coophubs">
