@@ -19,7 +19,7 @@ from typing import Any
 
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-GAMES_JS = ROOT / "games.js"
+GAMES_JS = ROOT / "assets" / "games.js"
 DATA_DIR = ROOT / "data"
 CATALOG_JSON = DATA_DIR / "catalog.games.v1.json"
 PUBLIC_CATALOG_JSON = DATA_DIR / "catalog.public.v1.json"
