@@ -149,6 +149,10 @@ def fetch_steam_new_coop_games(
     if not appids:
         return []
 
+    # Ordina per appid decrescente: Steam assegna ID sequenziali,
+    # quindi appid più alti = giochi più recenti (es. StS2 = 2868840)
+    appids.sort(reverse=True)
+
     # Filtra già noti e blacklist prima delle chiamate appdetails
     to_check = [
         a for a in appids
