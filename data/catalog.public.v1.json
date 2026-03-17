@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-17T20:52:54+00:00",
+  "generatedAt": "2026-03-17T21:34:50+00:00",
   "featuredIndieId": 352,
   "games": [
     {
@@ -6736,7 +6736,7 @@
         "online"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-4",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/961200/header.jpg",
       "description": "Ispirato all'eredità di Paragon, costruito con amore dalla comunità e alimentato da Unreal Engine 5, Predecessor è la fusione definitiva di azione sparatutto e strategia MOBA. Unisciti a più di 2.000.000 giocatori e gioca subito GRATIS!",
@@ -6791,7 +6791,9 @@
         "sport"
       ],
       "coopMode": [
-        "online"
+        "online",
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -6855,7 +6857,7 @@
         "online"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-4",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1669000/header.jpg",
       "description": "Governa un regno fantasy creato da te! Esplora magici mondi tutti nuovi nel celeberrimo mix di strategia 4X e combattimento tattico a turni di Age of Wonders. Controlla una fazione che cresce e si evolve mentre espandi il tuo impero a ogni turno!",
@@ -12834,6 +12836,784 @@
       "image": "https://images.gog-statics.com/ff4b5fbdbb3541a38940f174f73ff2c4fb514831e30047fbf3876e1d51d18f87.png",
       "description": "Welcome to Empyreum , the video game that will transform your gaming experience into a fun-filled party for the whole family! This exciting cooperative party game for up to 4 players immerses you in the fascinating and wild universe of Hotel Empyreum . Imagine a place where action, strategy, and simulation intertwine in an amazing way. With characters like Tommy , the narcissistic influencer; M...",
       "description_en": "Welcome to Empyreum , the video game that will transform your gaming experience into a fun-filled party for the whole family! This exciting cooperative party game for up to 4 players immerses you in the fascinating and wild universe of Hotel Empyreum . Imagine a place where action, strategy, and simulation intertwine in an amazing way. With characters like Tommy , the narcissistic influencer; M...",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 435,
+      "slug": "the-dungenerator-die-in-a-dungeon",
+      "title": "The DUNGENERATOR: DIE in a Dungeon",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzE3MDcxNDAyLmpwZw==/315x250%23c/h6mwxJ.jpg",
+      "description": "A solo/cooperative, narrative dungeon-crawl that turns your dice into doomed heroes!",
+      "description_en": "A solo/cooperative, narrative dungeon-crawl that turns your dice into doomed heroes!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://rollinkunz.itch.io/die-in-a-dungeon",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 436,
+      "slug": "tanks-of-freedom",
+      "title": "Tanks of Freedom",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1hZ2UvMTc3MDUvOTE2NTkuZ2lm/original/%2BLsvL1.gif",
+      "description": "Indie Turn Based Strategy in Isometric Pixel Art",
+      "description_en": "Indie Turn Based Strategy in Isometric Pixel Art",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://w84death.itch.io/tanks-of-freedom",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 437,
+      "slug": "cro-mag-rally",
+      "title": "Cro-Mag Rally",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzkxNTcwOTcuanBn/315x250%23c/9aC50B.jpg",
+      "description": "The wildest racing game since man invented the wheel!",
+      "description_en": "The wildest racing game since man invented the wheel!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://jorio.itch.io/cromagrally",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 438,
+      "slug": "the-king-of-fighters-final-attack",
+      "title": "The King of Fighters: Final attack",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzE3NjE0Mjc4LnBuZw==/315x250%23c/ZPUqn4.png",
+      "description": "KOF 2002um Remade and updated with new characters and Boss Rush",
+      "description_en": "KOF 2002um Remade and updated with new characters and Boss Rush",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://united-by-games.itch.io/the-king-of-fighters-final-attack",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 439,
+      "slug": "tiger-claw",
+      "title": "Tiger Claw",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1hZ2UvNjQ0MTMvMjkxMTEzLnBuZw==/315x250%23c/6D0mbY.png",
+      "description": "A relentless beat &#039;em up game for the Commodore 64 and Commodore Amiga",
+      "description_en": "A relentless beat &#039;em up game for the Commodore 64 and Commodore Amiga",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://rgcddev.itch.io/tiger-claw",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 440,
+      "slug": "chair-up",
+      "title": "Chair Up!",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzI3OTIxOTAuanBn/315x250%23c/WtJ8U%2B.jpg",
+      "description": "Sit on a swivel chair, kick out, and push yourself back!",
+      "description_en": "Sit on a swivel chair, kick out, and push yourself back!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://williamsxue.itch.io/chair-up",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 441,
+      "slug": "generic-fighter-maybe",
+      "title": "Generic Fighter Maybe",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzIyNDUxMjYwLmdpZg==/original/EK%2FIZl.gif",
+      "description": "Get ready to commit a violence in this generic fighting game with silly animations.",
+      "description_en": "Get ready to commit a violence in this generic fighting game with silly animations.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://astrobardgames.itch.io/generic-fighter-maybe",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 442,
+      "slug": "fallacy-quiz",
+      "title": "Fallacy Quiz",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzE3OTQ4MzgyLnBuZw==/315x250%23c/flaCCY.png",
+      "description": "Sharpen your critical thinking skills in this quiz game that challenges you to spot rhetorical fallacies.",
+      "description_en": "Sharpen your critical thinking skills in this quiz game that challenges you to spot rhetorical fallacies.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://timkrief.itch.io/fallacy-quiz",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 443,
+      "slug": "hyper-gunsport",
+      "title": "Hyper Gunsport",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzEwNzk4Nzk4LnBuZw==/315x250%23c/VuIn3V.png",
+      "description": "Cyberpunk volleyball with guns.",
+      "description_en": "Cyberpunk volleyball with guns.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://necrosoftgames.itch.io/hypergunsport",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 444,
+      "slug": "hit-x",
+      "title": "Hit-X",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzE5MjE4Mjk2LmpwZw==/315x250%23c/EqUIZT.jpg",
+      "description": "Hit X is Simply The Male Depression Cure.",
+      "description_en": "Hit X is Simply The Male Depression Cure.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://alexdevilish.itch.io/hit-x",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 445,
+      "slug": "punch-pong",
+      "title": "Punch Pong",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzM1Nzg3NDMuZ2lm/original/dF7eiv.gif",
+      "description": "Ping pong meets street brawler",
+      "description_en": "Ping pong meets street brawler",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://nekomatata.itch.io/punch-pong",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 446,
+      "slug": "aichi-emperors-zero",
+      "title": "Aichi Emperors Zero",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1hZ2UvMjU3NTE1LzEzNTMzNDUucG5n/315x250%23c/6pMLD9.png",
+      "description": "A cooperative motorized beat&#039;em up set in a japanese megalopolis",
+      "description_en": "A cooperative motorized beat&#039;em up set in a japanese megalopolis",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://aich.itch.io/emperors-zero",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 447,
+      "slug": "narcissus",
+      "title": "NARCISSUS",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1hZ2UvMTAyNzcvNTM4Njk3LnBuZw==/315x250%23c/Ozf9%2Ff.png",
+      "description": "Fail in Love with Narcissus, a 2-player friendship tester or single player multitasking nightmare.",
+      "description_en": "Fail in Love with Narcissus, a 2-player friendship tester or single player multitasking nightmare.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://alexvscoding.itch.io/narcissus",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 448,
+      "slug": "starcrossed",
+      "title": "StarCrossed",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzM1NTM1MDkucG5n/315x250%23c/lQMBYh.png",
+      "description": "A 2-player cooperative action arcade game about magical girls in space!",
+      "description_en": "A 2-player cooperative action arcade game about magical girls in space!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://contigo-games.itch.io/starcrossed",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 449,
+      "slug": "caveman-warriors",
+      "title": "Caveman Warriors",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1hZ2UvMTE5NDEwLzU1MTY1MC5qcGc=/315x250%23c/%2BuwW%2FW.jpg",
+      "description": "Jump back in time and free your inner caveman. Smash heads in this cooperative platformer game. Now on #Kickstarter!",
+      "description_en": "Jump back in time and free your inner caveman. Smash heads in this cooperative platformer game. Now on #Kickstarter!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://jandusoft.itch.io/caveman-warriors",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 450,
+      "slug": "rakete",
+      "title": "Rakete",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzEwMzcyMTI1LnBuZw==/315x250%23c/Q4HqjF.png",
+      "description": "Each player controls one thruster of a rocket with the goal to land it safely.",
+      "description_en": "Each player controls one thruster of a rocket with the goal to land it safely.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://playables.itch.io/rakete",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 451,
+      "slug": "fizz-vic-20",
+      "title": "FiZZ (VIC-20)",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzE0NDk0MzI1LnBuZw==/315x250%23c/TYCe%2BF.png",
+      "description": "A Gravity-Defying Puzzle Plattform Game for Vic20",
+      "description_en": "A Gravity-Defying Puzzle Plattform Game for Vic20",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://fleischgemuese.itch.io/vic-fizz",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 452,
+      "slug": "marco-polo",
+      "title": "Marco Polo",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzE2MTA1ODE5LnBuZw==/315x250%23c/QSqlYN.png",
+      "description": "A small co-op game about two dots.",
+      "description_en": "A small co-op game about two dots.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://vfuzball.itch.io/marco-polo",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 453,
+      "slug": "scarecrow-coop",
+      "title": "Scarecrow COOP",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzMxNDI2MTEucG5n/315x250%23c/iRfAbs.png",
+      "description": "Multiplayer COOP Horror Adventure game",
+      "description_en": "Multiplayer COOP Horror Adventure game",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://vlowoid.itch.io/scarecrow-coop",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 454,
+      "slug": "fizz-commodore-64-c64",
+      "title": "FiZZ (Commodore 64, C64)",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzEzMzA2MzIxLnBuZw==/315x250%23c/%2BClXrK.png",
+      "description": "A Gravity-Defying Puzzle Plattform Game for C64",
+      "description_en": "A Gravity-Defying Puzzle Plattform Game for C64",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://fleischgemuese.itch.io/fizz",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 455,
+      "slug": "fixeight",
+      "title": "Fixeight",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://images.gog-statics.com/f5f43d92896f9741eb18cd39aaddf970934bdfa93723bdf122c7d43e40345a41.png",
+      "description": "TEAM UP FOR ONE HELLUVA CHALLENGE Head out on an unforgettable adventure in Toaplan's FixEight, the spiritual successor to Out Zone. Pick your favorite hero from eight exceptional super soldiers, personalize them for ultimate freedom, and brave seven different hells. Immerse yourself in the heightened excitement, immersive storytelling, and awe-inspiring explosions that redefined the run-'n-gun...",
+      "description_en": "TEAM UP FOR ONE HELLUVA CHALLENGE Head out on an unforgettable adventure in Toaplan's FixEight, the spiritual successor to Out Zone. Pick your favorite hero from eight exceptional super soldiers, personalize them for ultimate freedom, and brave seven different hells. Immerse yourself in the heightened excitement, immersive storytelling, and awe-inspiring explosions that redefined the run-'n-gun...",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 456,
+      "slug": "combat-mission-final-blitzkrieg",
+      "title": "Combat Mission Final Blitzkrieg",
+      "categories": [
+        "strategy"
+      ],
+      "genres": [
+        "strategy"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://images.gog-statics.com/7522b9b9ded8b2c5c7ceb05a2366937fe3920e570469168fe67f4ce1505d2d57.png",
+      "description": "Combat Mission Final Blitzkrieg (CMFB) follows the Western Allies through the battles along Germany's border and into the heart of the Reich itself. The game covers the October 1944 through January 1945 timeframe with a focus on the American sector of the Battle of the Bulge. Combat Mission Final Blitzkrieg allows you to revisit the famous battlefields along the German border, with the wintery ...",
+      "description_en": "Combat Mission Final Blitzkrieg (CMFB) follows the Western Allies through the battles along Germany's border and into the heart of the Reich itself. The game covers the October 1944 through January 1945 timeframe with a focus on the American sector of the Battle of the Bulge. Combat Mission Final Blitzkrieg allows you to revisit the famous battlefields along the German border, with the wintery ...",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 457,
+      "slug": "combat-mission-fortress-italy",
+      "title": "Combat Mission Fortress Italy",
+      "categories": [
+        "strategy"
+      ],
+      "genres": [
+        "strategy"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://images.gog-statics.com/dba508cb7f74b09eaddd98ccb7f4debcf714a8602e0568d7528960f9a89ee416.png",
+      "description": "Combat Mission Fortress Italy brings wargamers to the \"soft underbelly of Europe\", a place that was anything but. A very often neglected theater of war, Fortress Italy starts with the Sicilian campaign from July through August 1943. Sicily was the first test for the newly reorganized and improved American forces as they battled against grizzled vets of the Wehrmacht and Luftwaffe as well as a w...",
+      "description_en": "Combat Mission Fortress Italy brings wargamers to the \"soft underbelly of Europe\", a place that was anything but. A very often neglected theater of war, Fortress Italy starts with the Sicilian campaign from July through August 1943. Sicily was the first test for the newly reorganized and improved American forces as they battled against grizzled vets of the Wehrmacht and Luftwaffe as well as a w...",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 458,
+      "slug": "tavernacle",
+      "title": "Tavernacle!",
+      "categories": [
+        "action",
+        "indie",
+        "strategy"
+      ],
+      "genres": [
+        "action",
+        "strategy"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://images.gog-statics.com/76cf8bf8e24b9e107f4d14614707ab1460b8fdf3e69dee4a354cb2cfbdb9d7c1.png",
+      "description": "A shadow has fallen across Upper-Left-Earth and threatens the realm of Dwarves. Monsters gather on the horizon, ready to plunge the world into an era of sobriety. Ensure the dark hordes are driven back and the brewery keeps pumping out the lifeblood of the Dwarven people. So, grab a hammer, fill up that mug, and get crafting to protect the beer. Dwarves do not watch the fight from above. They'r...",
+      "description_en": "A shadow has fallen across Upper-Left-Earth and threatens the realm of Dwarves. Monsters gather on the horizon, ready to plunge the world into an era of sobriety. Ensure the dark hordes are driven back and the brewery keeps pumping out the lifeblood of the Dwarven people. So, grab a hammer, fill up that mug, and get crafting to protect the beer. Dwarves do not watch the fight from above. They'r...",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 459,
+      "slug": "fire-shark",
+      "title": "Fire Shark",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://images.gog-statics.com/0f6819571cab9e225bfbf5bea7cf7c00e2e2b83ea456951f7dbcc029ac6ec603.png",
+      "description": "Toaplan Arcade Shoot'em Ups 2 bundle Toaplan's 1989 vertical shmup classic Fire Shark rises from the ashes, armed to the teeth with a brand-new beginner mode, online leaderboards, quick saves and much more! In this sequel to Flying Shark/Sky Shark, you control the incredible power of homing missiles, rapid-fire machine guns, free-falling bombs, and high-tech lasers. In Japan, this game is known...",
+      "description_en": "Toaplan Arcade Shoot'em Ups 2 bundle Toaplan's 1989 vertical shmup classic Fire Shark rises from the ashes, armed to the teeth with a brand-new beginner mode, online leaderboards, quick saves and much more! In this sequel to Flying Shark/Sky Shark, you control the incredible power of homing missiles, rapid-fire machine guns, free-falling bombs, and high-tech lasers. In Japan, this game is known...",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 460,
+      "slug": "hellfire",
+      "title": "Hellfire",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://images.gog-statics.com/715d2354ca2ea7e66a402cadd49a8ca2c61fcba04aa84630242676e60c2c38ac.png",
+      "description": "Toaplan Arcade Shoot'em Ups 2 bundle ALIENS BLAST YOU FROM ALL DIRECTIONS! HELLFIRE is Toaplan's first side-scrolling shooter! This PC port of the celebrated 1989 arcade title features online leaderboards, arcade-accurate emulation, quick saves, and more. You'll face a blood-boiling trial of complex choices, blazing graphics, and aliens ambushing from every angle. Firepower alone won't cut it; ...",
+      "description_en": "Toaplan Arcade Shoot'em Ups 2 bundle ALIENS BLAST YOU FROM ALL DIRECTIONS! HELLFIRE is Toaplan's first side-scrolling shooter! This PC port of the celebrated 1989 arcade title features online leaderboards, arcade-accurate emulation, quick saves, and more. You'll face a blood-boiling trial of complex choices, blazing graphics, and aliens ambushing from every angle. Firepower alone won't cut it; ...",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 58
+    },
+    {
+      "id": 461,
+      "slug": "combat-mission-red-thunder",
+      "title": "Combat Mission Red Thunder",
+      "categories": [
+        "strategy"
+      ],
+      "genres": [
+        "strategy"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://images.gog-statics.com/32f810c523d61c9f1fe5eb1f65accfa22e7bbd14741879e197772f79bc8e6bc1.png",
+      "description": "Combat Mission Red Thunder focuses on the hard fought Eastern Front battles of Bagration and Poland, from the swamps of Belarus to the gates of Warsaw during the summer of 1944. Experience the most balanced period of tactical warfare on the Eastern Front, even as the Axis' strategic ability to wage war began to collapse. Play out historical battles and campaigns or create your own customized Qu...",
+      "description_en": "Combat Mission Red Thunder focuses on the hard fought Eastern Front battles of Bagration and Poland, from the swamps of Belarus to the gates of Warsaw during the summer of 1944. Experience the most balanced period of tactical warfare on the Eastern Front, even as the Axis' strategic ability to wage war began to collapse. Play out historical battles and campaigns or create your own customized Qu...",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 462,
+      "slug": "volley-pals",
+      "title": "Volley Pals",
+      "categories": [
+        "action",
+        "indie"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://images.gog-statics.com/ab03f4a3109a3f578e559f14d85abcc28995a78ddf7bc0beb8f9a44d1b6e902d.png",
+      "description": "Volley Pals is an adrenaline-packed modern style arcade volleyball game with different mechanics in each of its levels. We designed it as a local multiplayer party game that supports up to 4 people. Volley Pals is exactly the game you’re looking for if you want to be on the edge of your seat with friends, family, or anyone you can spend some super-fun time with. Gameplay Simplified arcade volle...",
+      "description_en": "Volley Pals is an adrenaline-packed modern style arcade volleyball game with different mechanics in each of its levels. We designed it as a local multiplayer party game that supports up to 4 people. Volley Pals is exactly the game you’re looking for if you want to be on the edge of your seat with friends, family, or anyone you can spend some super-fun time with. Gameplay Simplified arcade volle...",
       "personalNote": "",
       "played": false,
       "steamUrl": "",
