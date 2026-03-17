@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-17T22:00:04+00:00",
+  "generatedAt": "2026-03-17T22:12:26+00:00",
   "featuredIndieId": 352,
   "games": [
     {
@@ -6884,7 +6884,7 @@
         "online"
       ],
       "maxPlayers": 2,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-2",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1435790/header.jpg",
       "description": "Rompicapo in prima persona che puoi giocare da solo o in co-op online (2-3 giocatori consigliati). Esplora una serie di escape room altamente interattive. Sposta mobili, raccogli ed esamina di tutto, spacca vasi e rompi serrature! Supporta le stanze comunità tramite l'editor di livelli.",
@@ -6977,7 +6977,7 @@
         "local"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-4",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/307110/header.jpg",
       "description": "DIVE. DISCOVER. DIE. Crew a submarine with friends in We Need To Go Deeper - a 2-4-player cooperative submarine roguelike set in a Verne-inspired undersea universe.",
@@ -7126,7 +7126,9 @@
         "action"
       ],
       "coopMode": [
-        "online"
+        "online",
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -14794,6 +14796,344 @@
       "steamUrl": "",
       "epicUrl": "",
       "itchUrl": "https://jon-gear.itch.io/felonyfelines",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 505,
+      "slug": "black-ice-early-access",
+      "title": "Black Ice (Early Access)",
+      "categories": [
+        "indie"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1hZ2UvNDMyNS82MDkzNS5qcGc=/315x250%23c/E8CJna.jpg",
+      "description": "cyberPUNK open-world FPS / RPG",
+      "description_en": "cyberPUNK open-world FPS / RPG",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://superdupergc.itch.io/blackice",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 506,
+      "slug": "super-crate-box-together",
+      "title": "Super Crate Box Together",
+      "categories": [
+        "indie"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1hZ2UvMzcwODIvMTYxODA4LnBuZw==/315x250%23c/6W7StJ.png",
+      "description": "An online multiplayer mod for Super Crate Box",
+      "description_en": "An online multiplayer mod for Super Crate Box",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://yellowafterlife.itch.io/super-crate-box-together",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 507,
+      "slug": "nick-tower",
+      "title": "Nick Tower",
+      "categories": [
+        "indie"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzg3NDg3MzIucG5n/315x250%23c/LUw%2FLD.png",
+      "description": "Solve asymmetric-information puzzles with a friend",
+      "description_en": "Solve asymmetric-information puzzles with a friend",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://greeby.itch.io/nick-tower",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 508,
+      "slug": "tvo",
+      "title": "Tvö",
+      "categories": [
+        "indie"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzU2NjI0MTYucG5n/315x250%23c/hFGyYp.png",
+      "description": "Tvö is an online cooperative puzzle game where two players must communicate to progress to the heart of a labyrinth.",
+      "description_en": "Tvö is an online cooperative puzzle game where two players must communicate to progress to the heart of a labyrinth.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://stelvlen.itch.io/tvo",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 509,
+      "slug": "partners-in-uncertainty",
+      "title": "Partners In Uncertainty",
+      "categories": [
+        "indie"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzgzODAzMzIucG5n/315x250%23c/e%2FYycc.png",
+      "description": "Nothing is quite as it seems in this Co-op platformer. Figure out each level&#039;s trick to reach the end.",
+      "description_en": "Nothing is quite as it seems in this Co-op platformer. Figure out each level&#039;s trick to reach the end.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://indinin.itch.io/partners-in-uncertainty",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 510,
+      "slug": "never-breakup",
+      "title": "Never BreakUp",
+      "categories": [
+        "indie"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzQzMDIxNDEuanBn/315x250%23c/l4GXcw.jpg",
+      "description": "https://store.steampowered.com/app/1111650/_/",
+      "description_en": "https://store.steampowered.com/app/1111650/_/",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://thermitegames.itch.io/never-breakup",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 511,
+      "slug": "galoria-sandbox-online",
+      "title": "Galoria Sandbox: Online",
+      "categories": [
+        "indie"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzIzMjA0MjA2LmpwZw==/315x250%23c/dWWr7n.jpg",
+      "description": "Sandbox worlds: build, craft &amp; play online with friends — endless fun!",
+      "description_en": "Sandbox worlds: build, craft &amp; play online with friends — endless fun!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://didone-sandbox.itch.io/galoria-sandbox-online",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 512,
+      "slug": "crisis-at-r-w-p-inc",
+      "title": "Crisis At R.W.P. Inc.",
+      "categories": [
+        "indie"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzU3MDYxMDIucG5n/315x250%23c/B9WQNu.png",
+      "description": "2 Player Online Co-op Game - Ubisoft Gamelab Contest",
+      "description_en": "2 Player Online Co-op Game - Ubisoft Gamelab Contest",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://freshtoucan.itch.io/crisis-at-rwp-inc",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 513,
+      "slug": "wilds-of-the-realmwalker-public-playtest",
+      "title": "Wilds of the Realmwalker - Public Playtest",
+      "categories": [
+        "indie"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzE5OTIwMDEwLnBuZw==/315x250%23c/RJIrMa.png",
+      "description": "Playtest the up and coming coop survival adventure, Wilds of the Realmwalker",
+      "description_en": "Playtest the up and coming coop survival adventure, Wilds of the Realmwalker",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://wilds-of-the-realmwalkers.itch.io/wilds-of-the-realmwalker-public-playtest",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 514,
+      "slug": "keep-painting",
+      "title": "Keep Painting",
+      "categories": [
+        "indie"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzIzNzY2MzY1LnBuZw==/315x250%23c/ROOja%2B.png",
+      "description": "A painting game where you must renovate an abandoned worksite.",
+      "description_en": "A painting game where you must renovate an abandoned worksite.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://gorkagames.itch.io/keep-painting",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 515,
+      "slug": "thing-and-fist",
+      "title": "Thing & Fist",
+      "categories": [
+        "indie"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzE2MDc1OTA0LmpwZw==/315x250%23c/F5cz%2Be.jpg",
+      "description": "Team up with a friend and play as either the wizard Thing or the golem Fist to pull off the heist of the century!",
+      "description_en": "Team up with a friend and play as either the wizard Thing or the golem Fist to pull off the heist of the century!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://whimsyproductions.itch.io/thingandfist",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 516,
+      "slug": "im-lag",
+      "title": "I'm Lag",
+      "categories": [
+        "indie"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1hZ2UvMzA3Nzk5LzE1Mjg0NzMucG5n/315x250%23c/FtQlTd.png",
+      "description": "Do you have this friend complained because lags? play &quot;i&#039;m lag&quot;, 2 players, one robots, apocalyptic controls...",
+      "description_en": "Do you have this friend complained because lags? play &quot;i&#039;m lag&quot;, 2 players, one robots, apocalyptic controls...",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://casp3r974.itch.io/im-lag",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 517,
+      "slug": "speedy-golf",
+      "title": "Speedy Golf",
+      "categories": [
+        "indie"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzMxMTc1OTIucG5n/315x250%23c/pELjC5.png",
+      "description": "A footrace to complete 9 holes of golf",
+      "description_en": "A footrace to complete 9 holes of golf",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://offthedeck.itch.io/speedygolf",
       "ccu": 0,
       "trending": false,
       "rating": 0
