@@ -334,7 +334,11 @@ if IGDB_CLIENT_ID and IGDB_CLIENT_SECRET:
 
         if steam_appid:
             # Ha Steam → usa pipeline Steam per dati completi
-            if steam_appid in existing_appids or steam_appid in BLACKLIST_APPIDS:
+            if steam_appid in BLACKLIST_APPIDS:
+                print(f"  [IGDB→Steam] {title} → blacklisted")
+                continue
+            if steam_appid in existing_appids:
+                print(f"  [IGDB→Steam] {title} → già nel catalogo")
                 continue
             print(f"\n  [IGDB→Steam] {title} ({steam_appid})")
             sd, desc_it = steam_source.fetch_steam_desc(steam_appid, 'italian')
@@ -477,14 +481,15 @@ if IGDB_CLIENT_ID and IGDB_CLIENT_SECRET:
             print(f"    ✗ Ha anche Steam — gestito da pipeline Steam")
             continue
 
-        # Qualità: usa IGDB rating (unico segnale disponibile per GOG-only)
+        # Qualità: preferisce IGDB rating, accetta anche solo GOG rating
         igdb_rating = igdb_match.get('rating') or 0
         igdb_rating_count = igdb_match.get('rating_count') or 0
-        if igdb_rating > 0 and igdb_rating < MIN_IGDB_RATING:
-            print(f"    ✗ IGDB rating troppo basso: {igdb_rating:.0f}/100")
-            continue
-        if igdb_rating_count < 10:
-            print(f"    ✗ Troppo poche valutazioni IGDB: {igdb_rating_count}")
+        gog_rating = cand.get('rating_gog', 0) or 0  # 0-100 su GOG
+
+        quality_igdb = igdb_rating >= MIN_IGDB_RATING and igdb_rating_count >= 5
+        quality_gog = gog_rating >= 70  # GOG rating su 100
+        if not quality_igdb and not quality_gog:
+            print(f"    ✗ Qualità insufficiente: IGDB={igdb_rating:.0f}({igdb_rating_count}), GOG={gog_rating}")
             continue
 
         # Dati multiplayer da IGDB

@@ -115,26 +115,21 @@ class IgdbCatalogSource:
         Tenta prima con uid come interi (non quotati), poi come stringhe.
         IGDB non è consistente sulla rappresentazione interna.
         """
-        for use_quotes in (False, True):
-            if use_quotes:
-                uid_values = ", ".join(f'"{aid}"' for aid in appids)
-            else:
-                uid_values = ", ".join(appids)
-            query = (
-                f"fields uid, game; "
-                f"where uid = ({uid_values}) & category = {IGDB_STEAM_CATEGORY}; "
-                f"limit {len(appids) * 2};"
-            )
-            results = self._post("external_games", query)
-            if results is None:
-                continue
-            if results:
-                return {
-                    str(item["uid"]): item["game"]
-                    for item in results
-                    if "uid" in item and "game" in item
-                }
-        return {}
+        # uid va come intero (non quotato) e senza filtro category:
+        # il campo category in IGDB external_games per Steam è spesso null/0,
+        # quindi category=1 esclude tutti i risultati.
+        uid_values = ", ".join(appids)
+        query = (
+            f"fields uid, game; "
+            f"where uid = ({uid_values}); "
+            f"limit {len(appids) * 3};"
+        )
+        results = self._post("external_games", query) or []
+        return {
+            str(item["uid"]): item["game"]
+            for item in results
+            if "uid" in item and "game" in item
+        }
 
     def fetch_multiplayer_modes(self, igdb_ids: list[int]) -> dict[int, list[dict]]:
         """Fetch multiplayer_modes for a list of IGDB game IDs."""
@@ -366,15 +361,6 @@ def enrich_games_with_igdb(
     except Exception as exc:
         print(f"  ⛔ Autenticazione IGDB fallita: {exc}")
         return 0
-
-    # Test diagnostico: verifica che l'API external_games risponda
-    print("  Test API external_games (Among Us appid 945360)...")
-    test_result_int = source._post("external_games", "fields uid, game; where uid = (945360) & category = 1; limit 1;")
-    test_result_str = source._post("external_games", 'fields uid, game; where uid = ("945360") & category = 1; limit 1;')
-    test_nocat = source._post("external_games", "fields uid, game, category; where uid = (945360); limit 5;")
-    print(f"    uid int:    {test_result_int}")
-    print(f"    uid string: {test_result_str}")
-    print(f"    no category filter: {test_nocat}")
 
     enrichment = source.enrich_catalog(games)
     if not enrichment:
