@@ -440,12 +440,50 @@ def write_sitemap(games):
     SITEMAP.write_text("".join(lines), encoding="utf-8")
 
 
+def update_game_counters(count: int) -> None:
+    """Keep the hardcoded game counters in index.html and i18n.js in sync with the real count."""
+    import re as _re
+
+    # Round down to nearest 100 for stable copy ("500+", not "534+")
+    floored = (count // 100) * 100
+    label = f"{floored}+"
+
+    targets = [
+        (
+            ROOT / "index.html",
+            [
+                (r"Scopri oltre \d+ giochi", f"Scopri oltre {floored} giochi"),
+                (r"Oltre \d+ giochi cooperativi", f"Oltre {floored} giochi cooperativi"),
+            ],
+        ),
+        (
+            ROOT / "assets" / "i18n.js",
+            [
+                (r"Scopri oltre \d+ giochi", f"Scopri oltre {floored} giochi"),
+                (r"Discover \d+\+ co-op games", f"Discover {label} co-op games"),
+            ],
+        ),
+    ]
+
+    for path, replacements in targets:
+        if not path.exists():
+            continue
+        text = path.read_text(encoding="utf-8")
+        original = text
+        for pattern, replacement in replacements:
+            text = _re.sub(pattern, replacement, text)
+        if text != original:
+            path.write_text(text, encoding="utf-8")
+            print(f"Updated game counter to {floored} in {path.name}")
+
+
 def main():
     games = load_games()
     artifact_path = catalog_data.write_catalog_artifact(games)
     public_export_path = catalog_data.write_public_catalog_export(games)
     write_pages(games)
     write_sitemap(games)
+    update_game_counters(len(games))
     print(f"Built {len(games)} static game pages in {GAMES_DIR}")
     print(f"Updated sitemap: {SITEMAP}")
     print(f"Wrote canonical catalog artifact: {artifact_path}")
