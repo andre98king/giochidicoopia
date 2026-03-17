@@ -27,6 +27,7 @@ from catalog_config import *          # noqa: F403 – tutte le costanti di prog
 from igdb_catalog_source import IgdbCatalogSource, enrich_games_with_igdb
 from gog_catalog_source import GogCatalogSource, fetch_gog_candidates
 from itch_catalog_source import ItchCatalogSource
+from steam_new_releases_source import fetch_steam_new_coop_games
 from steam_catalog_source import (
     SteamCatalogSource,
     appid_from_url,
@@ -312,6 +313,79 @@ if ITCH_IO_KEY:
     print(f"  Aggiunti da itch.io: {len(itch_new)}")
 else:
     print("\n🎲 itch.io: saltato (nessun ITCH_IO_KEY — vedi README)")
+
+
+# ──────────────── Steam New Releases (API ufficiale) ─────────────────────
+steam_new_added = 0
+if STEAM_API_KEY:
+    print(f"\n🆕 Steam New Releases: giochi co-op usciti negli ultimi 90 giorni...")
+    steam_new_candidates = fetch_steam_new_coop_games(
+        api_key=STEAM_API_KEY,
+        existing_appids=existing_appids,
+        existing_titles=existing_titles,
+        blacklist_appids=BLACKLIST_APPIDS,
+        skip_words=SKIP_WORDS,
+        max_games=MAX_STEAM_NEW,
+    )
+    for cand in steam_new_candidates:
+        appid = cand['appid']
+        title = cand['name']
+
+        # Fetch dati Steam completi per desc IT, categorie, generi
+        cc_url = f"https://store.steampowered.com/api/appdetails?appids={appid}&l=italian&cc=it"
+        it_data = steam_source.fetch_json(cc_url) or {}
+        it_info = it_data.get(str(appid), {})
+        it_sd = it_info.get('data', {}) if it_info.get('success') else {}
+
+        desc_it  = it_sd.get('short_description', '') or ''
+        desc_it  = re.sub(r'<[^>]+>', ' ', desc_it)
+        desc_it  = re.sub(r'\s+', ' ', desc_it).strip()[:400]
+        desc_en  = cand.get('description_en', '')
+
+        steam_cats = [c.get('description', '') for c in it_sd.get('categories', [])]
+        genres_raw = [g.get('description', '') for g in it_sd.get('genres', [])]
+        tags_raw   = list((it_sd.get('tags') or {}).keys()) if isinstance(it_sd.get('tags'), dict) else []
+
+        categories = derive_coop_modes(steam_cats, tags_raw)
+        if not categories:
+            categories = ['action']
+        genres = derive_genres(categories)
+
+        rating_label = ''
+        # Steam new releases: poche recensioni — lasciamo vuoto, si aggiornerà
+        new_game = {
+            'id':             next_id,
+            'igdbId':         0,
+            'title':          title,
+            'categories':     categories[:4],
+            'genres':         genres,
+            'coopMode':       cand['coopMode'],
+            'maxPlayers':     4,
+            'crossplay':      False,
+            'players':        '2-4',
+            'image':          cand.get('image', ''),
+            'description':    desc_it or desc_en,
+            'description_en': desc_en,
+            'personalNote':   '',
+            'played':         False,
+            'steamUrl':       cand['steamUrl'],
+            'gogUrl':         '',
+            'epicUrl':        '',
+            'itchUrl':        '',
+            'ccu':            0,
+            'trending':       False,
+            'rating':         0,
+        }
+        existing_games.append(new_game)
+        existing_appids.add(appid)
+        existing_titles.add(title.lower().strip())
+        next_id += 1
+        steam_new_added += 1
+        print(f"    ✓ {title} (new release, appid {appid})")
+
+    print(f"  Aggiunti da Steam New Releases: {steam_new_added}")
+else:
+    print("\n🆕 Steam New Releases: saltato (nessun STEAM_API_KEY)")
 
 
 # ─────────────── IGDB Discovery (nuovi giochi cross-platform) ─────────────
@@ -712,6 +786,6 @@ print(f"   Con desc EN 🌍   : {en_count}")
 print(f"   Indie 🎮         : {indie_count}")
 print(f"   Free 🆓          : {free_count}")
 print(f"   Featured ID 🌟   : {featured_id}")
-print(f"   Nuovi aggiunti   : {added} (SteamSpy) + {igdb_discovery_added} (IGDB) + {gog_added} (GOG)")
+print(f"   Nuovi aggiunti   : {added} (SteamSpy) + {steam_new_added} (Steam new) + {igdb_discovery_added} (IGDB) + {gog_added} (GOG)")
 print(f"   IGDB arricchiti  : {igdb_enriched}")
 print(f"   Verifiche        : {v_checked} controllati, {v_fixed_free + v_fixed_indie + v_fixed_title} corretti, {v_removed_nocoop} warning co-op")

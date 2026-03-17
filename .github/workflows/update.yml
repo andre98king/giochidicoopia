@@ -26,6 +26,7 @@ jobs:
           ITCH_IO_KEY: ${{ secrets.ITCH_IO_KEY }}
           IGDB_CLIENT_ID: ${{ secrets.IGDB_CLIENT_ID }}
           IGDB_CLIENT_SECRET: ${{ secrets.IGDB_CLIENT_SECRET }}
+          STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
 
       - name: Build static game pages
         run: python3 scripts/build_static_pages.py
