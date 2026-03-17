@@ -6,7 +6,7 @@ A static website cataloguing the best PC co-op games, with automatic weekly upda
 
 ## Features
 
-- **300+ co-op games** organized by category (Horror, Action, Puzzle, Splitscreen, RPG, Survival, Factory, Roguelike, Sport, Strategy)
+- **325+ co-op games** organized by category (Horror, Action, Puzzle, Splitscreen, RPG, Survival, Factory, Roguelike, Sport, Strategy)
 - **Bilingual UI** — switch between Italian and English
 - **Steam ratings** — color-coded review scores (Overwhelmingly Positive → Negative)
 - **Live player counts** — trending badge for games with active communities
