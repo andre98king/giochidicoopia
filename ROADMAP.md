@@ -20,6 +20,39 @@ Ultima analisi: 2026-03-17
 
 ---
 
+## Fonti dati disponibili
+
+Pipeline attuale: **SteamSpy → Steam Store API → itch.io**
+
+| Fonte | Uso attuale | Co-op? | Chiave | Limite free |
+|-------|------------|--------|--------|-------------|
+| Steam Store API | ✅ Descrizioni, immagini, categorie, is_free | Sì (categorie) | No | ~40 req/min |
+| SteamSpy | ✅ CCU, rating, tag co-op, top100 | Sì (tag) | No | ~1 req/sec |
+| itch.io | ✅ Giochi indie non-Steam | No (ricerca testo) | Sì (gratuita) | Permissivo |
+| **IGDB** (Twitch) | ❌ Da integrare | **Sì — strutturato** | Sì (Twitch OAuth) | 500 req/mese |
+| **RAWG** | ❌ Da valutare | Parziale (tag) | Sì (gratuita) | 20.000 req/mese |
+| IsThereAnyDeal | ❌ Feature futura | No | Sì (gratuita) | Permissivo |
+| OpenCritic | ❌ Opzionale | No | No | ~25 req/min |
+| Co-Optimus | ❌ No API (scraping bloccato da CF) | **Sì — autoritativo** | N/A | N/A |
+
+### Pipeline consigliata (con IGDB)
+
+```
+SteamSpy (candidati co-op, CCU, rating)
+  → Steam Store API (descrizione, immagini, categorie)
+    → IGDB (arricchimento: maxPlayers reale, coopMode preciso)
+      → games.js
+```
+
+### Priorità integrazione
+
+1. **IGDB** — unica fonte con `multiplayer_modes` strutturato (`onlinecoopmax`, `offlinecoopmax`, `splitscreen`). Risolve il problema crossplay e maxPlayers. Richiede registrazione Twitch (gratuita) + GitHub Secret.
+2. **RAWG** — fallback per giochi non-Steam (GOG-only, Epic-only). 20K req/mese molto generosi.
+3. **IsThereAnyDeal** — aggiunge badge "in offerta" / prezzo storico sulle card. Feature UX, non catalogo.
+4. **OpenCritic** — voto critica accanto al rating utenti Steam. Copertura parziale per indie.
+
+---
+
 ## Bug e fix urgenti
 
 ### 🔴 Fix già applicato (2026-03-17)
