@@ -42,6 +42,6 @@ jobs:
             echo "Nessuna modifica da committare."
           else
             git commit -m "🤖 Auto-update database giochi"
-            git pull --rebase origin main
+            git pull --rebase -X ours origin main
             git push
           fi
