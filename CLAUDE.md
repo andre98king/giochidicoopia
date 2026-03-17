@@ -130,6 +130,14 @@ Nessun backend. Nessun framework. Nessun runtime Node in produzione.
 | **Aider + Ollama** (qwen2.5-coder:14b, GPU Vulkan) | Task delegati — coding ripetitivo, refactoring meccanico, generazione dati |
 | Gemini CLI | Fallback — quota API limitata, usare Ollama come default |
 
+### Limiti operativi di Aider + qwen2.5-coder:14b
+
+- Contesto massimo: **32K token** (esteso a 65K con configurazione num_ctx)
+- `assets/games.js` (~94K token) è **troppo grande** — non passarlo mai direttamente ad aider
+- Per modifiche a `games.js` usare Claude Code oppure passare solo l'oggetto gioco specifico
+- File adatti ad aider: `app.js`, `style.css`, `i18n.js`, `particles.js`, script Python singoli
+- Aider usa il formato "whole file" con Ollama — riscrive l'intero file, usare su file piccoli/medi
+
 ### Regole di collaborazione
 
 - Leggere sempre `AI_COLLABORATION.md` prima di intervenire.
