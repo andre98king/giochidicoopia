@@ -88,6 +88,15 @@ BLACKLIST_APPIDS = {
     '297000',   # Heroes of M&M III HD
     '2688950',  # Planet Coaster 2
     '1238860',  # Battlefield 4
+    # Tool / emulatori
+    '1118310',  # RetroArch (emulatore, non un gioco)
+    # MMO prevalentemente PvP
+    '109600',   # Neverwinter (MMO PvP)
+    '24200',    # DC Universe Online (MMO)
+    # Simulatori con co-op marginale
+    '223750',   # DCS World Steam Edition (simulatore militare)
+    # Giochi prevalentemente PvP con modalità co-op secondaria
+    '1985810',  # Call of Duty: Black Ops Cold War (PvP principale)
 }
 
 # Filtro qualità minima per nuovi giochi — pipeline SteamSpy (trending)
