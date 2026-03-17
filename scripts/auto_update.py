@@ -346,7 +346,7 @@ if STEAM_API_KEY:
         genres_raw = [g.get('description', '') for g in it_sd.get('genres', [])]
         tags_raw   = list((it_sd.get('tags') or {}).keys()) if isinstance(it_sd.get('tags'), dict) else []
 
-        categories = derive_coop_modes(steam_cats, tags_raw)
+        categories = derive_coop_modes(steam_cats)
         if not categories:
             categories = ['action']
         genres = derive_genres(categories)
