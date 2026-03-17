@@ -342,16 +342,18 @@ if STEAM_API_KEY:
         desc_it  = re.sub(r'\s+', ' ', desc_it).strip()[:400]
         desc_en  = cand.get('description_en', '')
 
-        steam_cats = [c.get('description', '') for c in it_sd.get('categories', [])]
-        genres_raw = [g.get('description', '') for g in it_sd.get('genres', [])]
-        tags_raw   = list((it_sd.get('tags') or {}).keys()) if isinstance(it_sd.get('tags'), dict) else []
+        tags_raw = list((it_sd.get('tags') or {}).keys()) if isinstance(it_sd.get('tags'), dict) else []
 
-        categories = derive_coop_modes(steam_cats)
+        # Categorie dal TAG_MAP (stesso sistema pipeline SteamSpy)
+        categories = []
+        for tag in tags_raw:
+            cat = TAG_MAP.get(tag)
+            if cat and cat not in categories:
+                categories.append(cat)
         if not categories:
             categories = ['action']
         genres = derive_genres(categories)
 
-        rating_label = ''
         # Steam new releases: poche recensioni — lasciamo vuoto, si aggiornerà
         new_game = {
             'id':             next_id,

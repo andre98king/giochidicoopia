@@ -95,14 +95,29 @@ class SteamNewReleasesSource:
         cat_ids = {c.get("id") for c in sd.get("categories", [])}
         return bool(cat_ids & COOP_CATEGORY_IDS)
 
+    def is_recent(self, sd: dict[str, Any], days: int = NEW_RELEASES_DAYS) -> bool:
+        """Verifica che il gioco sia stato rilasciato entro il periodo specificato."""
+        release = sd.get("release_date") or {}
+        if release.get("coming_soon"):
+            return False
+        date_str = release.get("date", "")
+        if not date_str:
+            return False
+        # Steam usa formati come "5 Mar, 2026" o "Mar 5, 2026"
+        for fmt in ("%d %b, %Y", "%b %d, %Y", "%d %B, %Y", "%B %d, %Y"):
+            try:
+                release_dt = datetime.datetime.strptime(date_str.strip(), fmt)
+                cutoff = datetime.datetime.now() - datetime.timedelta(days=days)
+                return release_dt >= cutoff
+            except ValueError:
+                continue
+        return False
+
     def quality_ok(self, sd: dict[str, Any]) -> tuple[bool, str]:
         """Controlla qualità minima per un nuovo gioco senza CCU."""
         rec = sd.get("recommendations", {}) or {}
         positive = rec.get("total", 0) or 0
-        # Steam non espone pos/neg separati in appdetails, usa metacritic o reviews
-        # Usiamo il metacritic score se disponibile, altrimenti solo review count
         metacritic = (sd.get("metacritic") or {}).get("score", 0) or 0
-
         if positive < MIN_REVIEWS_NEW_RELEASE and metacritic < 70:
             return False, f"poche recensioni ({positive}) e metacritic basso ({metacritic})"
         return True, "ok"
@@ -169,6 +184,10 @@ def fetch_steam_new_coop_games(
 
         # Deduplicazione per titolo
         if name_lower.strip() in existing_titles:
+            continue
+
+        # Deve essere uscito recentemente (filtra giochi vecchi con metadata aggiornato)
+        if not source.is_recent(sd, NEW_RELEASES_DAYS):
             continue
 
         # Deve avere co-op
