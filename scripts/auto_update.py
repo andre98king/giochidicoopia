@@ -25,7 +25,7 @@ import datetime, re
 import catalog_data
 from catalog_config import *          # noqa: F403 – tutte le costanti di progetto
 from igdb_catalog_source import IgdbCatalogSource, enrich_games_with_igdb
-from gog_catalog_source import fetch_gog_candidates
+from gog_catalog_source import GogCatalogSource, fetch_gog_candidates
 from itch_catalog_source import ItchCatalogSource
 from steam_catalog_source import (
     SteamCatalogSource,
@@ -435,6 +435,7 @@ if IGDB_CLIENT_ID and IGDB_CLIENT_SECRET:
     print(f"  Candidati GOG trovati: {len(gog_candidates)}")
 
     igdb_source_gog = IgdbCatalogSource(IGDB_CLIENT_ID, IGDB_CLIENT_SECRET)
+    gog_source = GogCatalogSource()
 
     for cand in gog_candidates:
         title = cand['title']
@@ -481,21 +482,25 @@ if IGDB_CLIENT_ID and IGDB_CLIENT_SECRET:
             print(f"    ✗ Ha anche Steam — gestito da pipeline Steam")
             continue
 
-        # Qualità: preferisce IGDB rating, accetta anche solo GOG rating
+        # Qualità: essere nel catalogo co-op GOG + match IGDB è sufficiente.
+        # Rifiuta solo se IGDB ha un rating esplicitamente basso con molte recensioni.
         igdb_rating = igdb_match.get('rating') or 0
         igdb_rating_count = igdb_match.get('rating_count') or 0
-        gog_rating = cand.get('rating_gog', 0) or 0  # 0-100 su GOG
-
-        quality_igdb = igdb_rating >= MIN_IGDB_RATING and igdb_rating_count >= 5
-        quality_gog = gog_rating >= 70  # GOG rating su 100
-        if not quality_igdb and not quality_gog:
-            print(f"    ✗ Qualità insufficiente: IGDB={igdb_rating:.0f}({igdb_rating_count}), GOG={gog_rating}")
+        gog_rating = cand.get('rating_gog', 0) or 0
+        if igdb_rating > 0 and igdb_rating < MIN_IGDB_RATING and igdb_rating_count >= 20:
+            print(f"    ✗ Rating IGDB basso: {igdb_rating:.0f} ({igdb_rating_count} voti)")
             continue
+        print(f"    IGDB rating={igdb_rating:.0f}({igdb_rating_count}), GOG rating={gog_rating}")
 
         # Dati multiplayer da IGDB
         modes_list = igdb_match.get('multiplayer_modes') or []
         from igdb_catalog_source import _parse_multiplayer_modes
         mp = _parse_multiplayer_modes(modes_list) or {'coopMode': ['online'], 'maxPlayers': 4}
+
+        # Descrizione da GOG API
+        _, desc_en = gog_source.fetch_product_description(cand.get('gogProductId', ''))
+        if desc_en:
+            print(f"    Descrizione GOG: {desc_en[:60]}...")
 
         # Categorie dai tag GOG
         gog_tags = cand.get('tags', [])
@@ -519,8 +524,8 @@ if IGDB_CLIENT_ID and IGDB_CLIENT_SECRET:
             'crossplay':      False,
             'players':        f"1-{mp['maxPlayers'] or 4}",
             'image':          cand.get('image', ''),
-            'description':    '',
-            'description_en': '',
+            'description':    desc_en,
+            'description_en': desc_en,
             'personalNote':   '',
             'played':         False,
             'steamUrl':       '',

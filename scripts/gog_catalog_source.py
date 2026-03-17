@@ -23,6 +23,7 @@ from typing import Any
 GOG_CATALOG_URL = "https://catalog.gog.com/v1/catalog"
 GOG_PRODUCT_URL = "https://www.gog.com/en/game/{slug}"
 GOG_CDN_IMAGE = "https://images.gog-statics.com/{image_id}.jpg"
+GOG_API_PRODUCT_URL = "https://api.gog.com/products/{gog_id}?expand=description"
 
 REQUEST_DELAY = 1.2
 PAGE_LIMIT = 48     # GOG API max per pagina
@@ -102,14 +103,43 @@ class GogCatalogSource:
         # Tags per categorie
         tags = [t.get("slug", "") for t in (product.get("tags") or [])]
 
+        # ID numerico GOG (necessario per fetch descrizione)
+        gog_product_id = product.get("id", "")
+
         return {
             "title": title,
             "slug": slug,
             "gogUrl": gog_url,
+            "gogProductId": str(gog_product_id) if gog_product_id else "",
             "image": image_url,
             "rating_gog": rating_raw,
             "tags": tags,
         }
+
+    def fetch_product_description(self, gog_product_id: str) -> tuple[str, str]:
+        """Fetch short and full description for a GOG product.
+
+        Returns (description_it_placeholder, description_en) where description_en
+        is the English short text stripped of HTML. description_it_placeholder is
+        empty — translation happens via Steam/OpenAI in a later step.
+        """
+        if not gog_product_id:
+            return "", ""
+        url = GOG_API_PRODUCT_URL.format(gog_id=gog_product_id)
+        data = self._get(url)
+        if not data:
+            return "", ""
+        desc_block = data.get("description") or {}
+        full_html = desc_block.get("full") or desc_block.get("short") or ""
+        if not full_html:
+            return "", ""
+        # Strip HTML tags, collapse whitespace
+        text = re.sub(r"<[^>]+>", " ", full_html)
+        text = re.sub(r"\s+", " ", text).strip()
+        # Truncate to ~400 chars
+        if len(text) > 400:
+            text = text[:397] + "..."
+        return "", text
 
 
 def fetch_gog_candidates(
