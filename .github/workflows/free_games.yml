@@ -24,10 +24,10 @@ jobs:
         run: pip install requests beautifulsoup4
 
       - name: Fetch free games
-        run: python3 fetch_free_games.py
+        run: python3 scripts/fetch_free_games.py
 
       - name: Validate free games feed
-        run: python3 validate_free_games.py
+        run: python3 scripts/validate_free_games.py
 
       - name: Commit and push changes
         run: |

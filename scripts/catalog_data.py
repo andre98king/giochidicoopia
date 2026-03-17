@@ -18,7 +18,7 @@ import unicodedata
 from typing import Any
 
 
-ROOT = pathlib.Path(__file__).resolve().parent
+ROOT = pathlib.Path(__file__).resolve().parent.parent
 GAMES_JS = ROOT / "games.js"
 DATA_DIR = ROOT / "data"
 CATALOG_JSON = DATA_DIR / "catalog.games.v1.json"
