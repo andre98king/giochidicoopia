@@ -22,6 +22,7 @@ import datetime, re
 
 import catalog_data
 from catalog_config import *          # noqa: F403 – tutte le costanti di progetto
+from igdb_catalog_source import enrich_games_with_igdb
 from itch_catalog_source import ItchCatalogSource
 from steam_catalog_source import (
     SteamCatalogSource,
@@ -414,6 +415,16 @@ print(f"  Fix titoli: {v_fixed_title}")
 print(f"  Senza co-op (warning): {v_removed_nocoop}")
 
 
+# ─────────────────────── Arricchimento IGDB ──────────────────────────────
+igdb_enriched = 0
+if IGDB_CLIENT_ID and IGDB_CLIENT_SECRET:
+    print("\n🎯 Arricchimento multiplayer con IGDB...")
+    igdb_enriched = enrich_games_with_igdb(existing_games, IGDB_CLIENT_ID, IGDB_CLIENT_SECRET)
+    print(f"  ✅ IGDB: {igdb_enriched} giochi arricchiti (coopMode, maxPlayers)")
+else:
+    print("\n🎯 IGDB: saltato (nessun IGDB_CLIENT_ID/IGDB_CLIENT_SECRET)")
+
+
 # ─────────────────────── Gioco Indie della Settimana ─────────────────────
 print("\n🌟 Selezione gioco indie della settimana...")
 indie_rated = [g for g in existing_games if 'indie' in g.get('categories', []) and g.get('rating', 0) >= 75]
@@ -455,4 +466,5 @@ print(f"   Indie 🎮         : {indie_count}")
 print(f"   Free 🆓          : {free_count}")
 print(f"   Featured ID 🌟   : {featured_id}")
 print(f"   Nuovi aggiunti   : {added}")
+print(f"   IGDB arricchiti  : {igdb_enriched}")
 print(f"   Verifiche        : {v_checked} controllati, {v_fixed_free + v_fixed_indie + v_fixed_title} corretti, {v_removed_nocoop} warning co-op")

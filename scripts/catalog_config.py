@@ -6,6 +6,8 @@ MAX_EN_FETCH = 30     # max giochi esistenti a cui aggiungere desc EN per run
 MIN_CCU_TRENDING = 800    # CCU minimo per badge 🔥 Trending
 MAX_ITCH_GAMES = 10     # max giochi itch.io per run
 ITCH_IO_KEY = os.environ.get('ITCH_IO_KEY', '')
+IGDB_CLIENT_ID = os.environ.get('IGDB_CLIENT_ID', '')
+IGDB_CLIENT_SECRET = os.environ.get('IGDB_CLIENT_SECRET', '')
 
 # Tag Steam → categoria sito
 TAG_MAP = {
