@@ -1,0 +1,19 @@
+# Pipeline Python — dipendenze per auto_update.py e script correlati
+# Installazione: pip install -r scripts/requirements.txt
+
+# HTTP client robusto con session, connection pooling, retry adapter
+requests>=2.31.0
+
+# HTML/XML parsing (usato in fetch_free_games.py + futura integrazione in adapter)
+beautifulsoup4>=4.12.0
+lxml>=5.0.0           # backend veloce per BeautifulSoup
+
+# RSS/Atom feed parsing (usato in itch_catalog_source.py)
+feedparser>=6.0.0
+
+# Traduzione automatica — Google Translate gratuito senza API key
+# Usato per auto-tradurre descrizioni in italiano (GameName EN → IT)
+deep-translator>=1.11.0
+
+# Retry/backoff per gestire 429 e timeout dalle API Steam/IGDB/GOG
+tenacity>=9.0.0
