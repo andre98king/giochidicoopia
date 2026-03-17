@@ -130,13 +130,36 @@ Nessun backend. Nessun framework. Nessun runtime Node in produzione.
 | **Aider + Ollama** (qwen2.5-coder:14b, GPU Vulkan) | Task delegati — coding ripetitivo, refactoring meccanico, generazione dati |
 | Gemini CLI | Fallback — quota API limitata, usare Ollama come default |
 
-### Limiti operativi di Aider + qwen2.5-coder:14b
+### Setup locale Aider (config non in repo)
 
-- Contesto massimo: **32K token** (esteso a 65K con configurazione num_ctx)
-- `assets/games.js` (~94K token) è **troppo grande** — non passarlo mai direttamente ad aider
-- Per modifiche a `games.js` usare Claude Code oppure passare solo l'oggetto gioco specifico
-- File adatti ad aider: `app.js`, `style.css`, `i18n.js`, `particles.js`, script Python singoli
-- Aider usa il formato "whole file" con Ollama — riscrive l'intero file, usare su file piccoli/medi
+`.aider.conf.yml` e `.aider.model.settings.yml` sono gitignored — vanno creati in locale.
+Crea `.aider.conf.yml` nella root del progetto con questo contenuto:
+
+```yaml
+model: ollama/qwen2.5-coder:14b      # oppure deepseek-coder-v2:16b
+openai-api-base: http://localhost:11434/v1
+openai-api-key: ollama
+weak-model: ollama/qwen2.5-coder:7b
+read:
+  - CLAUDE.md
+  - AI_COLLABORATION.md
+auto-commits: false
+auto-lint: false
+pretty: true
+show-model-warnings: false
+```
+
+Hardware disponibile (RX 9070 XT 16GB VRAM + 16GB RAM):
+- `qwen2.5-coder:14b` — ~9GB VRAM, veloce, buono per file medi
+- `deepseek-coder-v2:16b` — ~9GB VRAM, più preciso nell'editing
+- `qwen3-coder:30b` — ~18GB VRAM+RAM, potente per task complessi
+
+### Limiti operativi di Aider con Ollama
+
+- `assets/games.js` (~94K token) è **troppo grande** — non passarlo mai ad aider, allucinaverifica i numeri
+- File adatti: `app.js`, `style.css`, `i18n.js`, `particles.js`, script Python singoli
+- Aider usa "whole file" format con Ollama — riscrive l'intero file, usare su file piccoli/medi
+- Verifica sempre l'output prima di accettare modifiche
 
 ### Regole di collaborazione
 

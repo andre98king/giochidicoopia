@@ -12,11 +12,13 @@ node_modules/
 package-lock.json
 npm-debug.log
 
-# Aider — file interni
+# Aider — file interni e config locale
 .aider.chat.history.md
 .aider.input.history
 .aider.tags.cache.v3/
 .aider.tags.cache.v4/
+.aider.conf.yml
+.aider.model.settings.yml
 
 # OS
 .DS_Store
