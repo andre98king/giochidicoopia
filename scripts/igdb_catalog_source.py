@@ -219,15 +219,16 @@ class IgdbCatalogSource:
             batch_size = min(DISCOVERY_BATCH_SIZE, DISCOVERY_LIMIT - offset)
             print(f"    IGDB discovery offset={offset}...", end=" ", flush=True)
 
-            # Query: co-op PC games, main game only, sorted by rating desc
+            # Query: co-op PC games sorted by rating desc
+            # Nota: category filter rimosso (molti giochi non hanno category set in IGDB)
             query = (
                 "fields id, name, rating, rating_count, "
-                "game_modes, platforms, category, "
+                "game_modes, platforms, "
                 "external_games.uid, external_games.category; "
                 f"where game_modes = ({IGDB_COOP_MODE}) "
                 f"& platforms = ({IGDB_PC_PLATFORM}) "
-                f"& category = ({','.join(str(c) for c in IGDB_MAIN_GAME_CATEGORIES)}) "
-                f"& rating_count > 10; "
+                f"& rating != null "
+                f"& rating_count > 5; "
                 f"sort rating desc; "
                 f"limit {batch_size}; "
                 f"offset {offset};"

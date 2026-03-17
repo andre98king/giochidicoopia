@@ -55,10 +55,11 @@ class GogCatalogSource:
 
     def fetch_coop_games(self, page: int = 1) -> list[dict[str, Any]]:
         """Fetch one page of co-op Windows games from GOG catalog."""
+        # Co-op su GOG è in features (slug: coop), non in tags o genres
         params = {
             "productType": "in:game",
             "systems": "in:windows",
-            "tags": "in:co-op",
+            "features": "in:coop",
             "order": "desc:rating",
             "limit": str(PAGE_LIMIT),
             "page": str(page),
