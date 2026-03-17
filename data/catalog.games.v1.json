@@ -1,34 +1,34 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-17T21:34:50+00:00",
+  "generatedAt": "2026-03-17T21:49:55+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 352,
   "stats": {
-    "games": 448,
+    "games": 470,
     "played": 12,
     "trending": 230,
-    "withEnglishDescription": 448,
+    "withEnglishDescription": 470,
     "categoryCounts": {
-      "action": 276,
+      "action": 277,
       "factory": 43,
       "free": 39,
       "horror": 43,
-      "indie": 192,
+      "indie": 213,
       "puzzle": 35,
       "roguelike": 26,
       "rpg": 92,
-      "splitscreen": 138,
-      "sport": 20,
+      "splitscreen": 158,
+      "sport": 21,
       "strategy": 95,
       "survival": 98
     },
     "storeCounts": {
       "epic": 54,
-      "gog": 17,
-      "itch": 60,
+      "gog": 19,
+      "itch": 80,
       "steam": 371
     }
   },
@@ -10083,7 +10083,6 @@
         "action"
       ],
       "coopMode": [
-        "online",
         "local",
         "split"
       ],
@@ -10119,7 +10118,7 @@
         ]
       },
       "capabilities": {
-        "onlineCoop": true,
+        "onlineCoop": false,
         "localCoop": true,
         "splitScreen": true,
         "sharedScreen": true,
@@ -10249,7 +10248,7 @@
         "local"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-4",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/418530/header.jpg",
       "description": "Spelunky 2 porta l'esplorazione di grotte roguelike a nuovi livelli con più personaggi, livelli interconnessi, fisica avanzata e co-op per 4 giocatori. Ogni run è unica, ogni morte è epica.",
@@ -10286,7 +10285,7 @@
         "localCoop": true,
         "splitScreen": false,
         "sharedScreen": false,
-        "crossplay": false,
+        "crossplay": true,
         "playersLabel": "1-4",
         "maxPlayers": 4
       },
@@ -35849,6 +35848,1634 @@
         {
           "store": "gog",
           "url": "https://www.gog.com/en/game/volley_pals",
+          "externalId": null
+        }
+      ],
+      "externalIds": {},
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 0
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 463,
+      "igdbId": 0,
+      "title": "Chut!",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzE3MDA3MTYuanBn/315x250%23c/hq9jXB.jpg",
+      "description": "Un jeu vidéo sur la liberté d&#039;expression",
+      "description_en": "Un jeu vidéo sur la liberté d&#039;expression",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://themgames.itch.io/chut",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "slug": "chut",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Un jeu vidéo sur la liberté d&#039;expression",
+        "en": "Un jeu vidéo sur la liberté d&#039;expression"
+      },
+      "taxonomy": {
+        "categories": [
+          "indie",
+          "splitscreen"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "itch",
+          "url": "https://themgames.itch.io/chut",
+          "externalId": "themgames.itch.io/chut"
+        }
+      ],
+      "externalIds": {
+        "itchSlug": "themgames.itch.io/chut"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 0
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 464,
+      "igdbId": 0,
+      "title": "Isolated Intelligence",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzIwNjc1NTMucG5n/315x250%23c/jwvndY.png",
+      "description": "Networked Asymmetrical Puzzle Platformer",
+      "description_en": "Networked Asymmetrical Puzzle Platformer",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://megaxis.itch.io/isolated-intelligence",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "slug": "isolated-intelligence",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Networked Asymmetrical Puzzle Platformer",
+        "en": "Networked Asymmetrical Puzzle Platformer"
+      },
+      "taxonomy": {
+        "categories": [
+          "indie",
+          "splitscreen"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "itch",
+          "url": "https://megaxis.itch.io/isolated-intelligence",
+          "externalId": "megaxis.itch.io/isolated-intelligence"
+        }
+      ],
+      "externalIds": {
+        "itchSlug": "megaxis.itch.io/isolated-intelligence"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 0
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 465,
+      "igdbId": 0,
+      "title": "Bar Keep",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzQxNjMzODgucG5n/315x250%23c/NGishf.png",
+      "description": "Two cowboys defending their precious bar. Save whiskey!",
+      "description_en": "Two cowboys defending their precious bar. Save whiskey!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://struct9.itch.io/bar-keep",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "slug": "bar-keep",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Two cowboys defending their precious bar. Save whiskey!",
+        "en": "Two cowboys defending their precious bar. Save whiskey!"
+      },
+      "taxonomy": {
+        "categories": [
+          "indie",
+          "splitscreen"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "itch",
+          "url": "https://struct9.itch.io/bar-keep",
+          "externalId": "struct9.itch.io/bar-keep"
+        }
+      ],
+      "externalIds": {
+        "itchSlug": "struct9.itch.io/bar-keep"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 0
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 466,
+      "igdbId": 0,
+      "title": "Shroom Bois",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzIwNjE5NjgucG5n/315x250%23c/KLDZQN.png",
+      "description": "Glowy shrooms exploring caves!",
+      "description_en": "Glowy shrooms exploring caves!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://torculus.itch.io/shroom-bois",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "slug": "shroom-bois",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Glowy shrooms exploring caves!",
+        "en": "Glowy shrooms exploring caves!"
+      },
+      "taxonomy": {
+        "categories": [
+          "indie",
+          "splitscreen"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "itch",
+          "url": "https://torculus.itch.io/shroom-bois",
+          "externalId": "torculus.itch.io/shroom-bois"
+        }
+      ],
+      "externalIds": {
+        "itchSlug": "torculus.itch.io/shroom-bois"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 0
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 467,
+      "igdbId": 0,
+      "title": "Malisse",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1hZ2UvNzA0My8xODYwOC5wbmc=/315x250%23c/Jb%2BG9C.png",
+      "description": "Help Malisse along, make sure her path stays clear so that she and her rabbit buddies may pass unscathed!",
+      "description_en": "Help Malisse along, make sure her path stays clear so that she and her rabbit buddies may pass unscathed!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://renaudbedard.itch.io/malisse",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "slug": "malisse",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Help Malisse along, make sure her path stays clear so that she and her rabbit buddies may pass unscathed!",
+        "en": "Help Malisse along, make sure her path stays clear so that she and her rabbit buddies may pass unscathed!"
+      },
+      "taxonomy": {
+        "categories": [
+          "indie",
+          "splitscreen"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "itch",
+          "url": "https://renaudbedard.itch.io/malisse",
+          "externalId": "renaudbedard.itch.io/malisse"
+        }
+      ],
+      "externalIds": {
+        "itchSlug": "renaudbedard.itch.io/malisse"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 0
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 468,
+      "igdbId": 0,
+      "title": "Octopounce",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzE5MDU2ODcucG5n/315x250%23c/iE9iDK.png",
+      "description": "A zero to four player octopus bouncing game",
+      "description_en": "A zero to four player octopus bouncing game",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://w.itch.io/octopounce",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "slug": "octopounce",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "A zero to four player octopus bouncing game",
+        "en": "A zero to four player octopus bouncing game"
+      },
+      "taxonomy": {
+        "categories": [
+          "indie",
+          "splitscreen"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "itch",
+          "url": "https://w.itch.io/octopounce",
+          "externalId": "w.itch.io/octopounce"
+        }
+      ],
+      "externalIds": {
+        "itchSlug": "w.itch.io/octopounce"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 0
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 469,
+      "igdbId": 0,
+      "title": "Ducktonic Adventures",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzgwMzA5MTEucG5n/315x250%23c/eSUStA.png",
+      "description": "Ducktonic Adventures is a cooperative multiplayer game, where two players have to collaborate in order to escape",
+      "description_en": "Ducktonic Adventures is a cooperative multiplayer game, where two players have to collaborate in order to escape",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://418studio.itch.io/ducktonicadventures",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "slug": "ducktonic-adventures",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Ducktonic Adventures is a cooperative multiplayer game, where two players have to collaborate in order to escape",
+        "en": "Ducktonic Adventures is a cooperative multiplayer game, where two players have to collaborate in order to escape"
+      },
+      "taxonomy": {
+        "categories": [
+          "indie",
+          "splitscreen"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "itch",
+          "url": "https://418studio.itch.io/ducktonicadventures",
+          "externalId": "418studio.itch.io/ducktonicadventures"
+        }
+      ],
+      "externalIds": {
+        "itchSlug": "418studio.itch.io/ducktonicadventures"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 0
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 470,
+      "igdbId": 0,
+      "title": "Hakros DRUGOD TV The Survival Games (Map for Doom 2)",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzExNDkyNzgwLnBuZw==/315x250%23c/0Z5bYl.png",
+      "description": "My seventh single wad/map for Doom 2",
+      "description_en": "My seventh single wad/map for Doom 2",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://hakros.itch.io/hakros-drugod-tv-the-survival-games",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "slug": "hakros-drugod-tv-the-survival-games-map-for-doom-2",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "My seventh single wad/map for Doom 2",
+        "en": "My seventh single wad/map for Doom 2"
+      },
+      "taxonomy": {
+        "categories": [
+          "indie",
+          "splitscreen"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "itch",
+          "url": "https://hakros.itch.io/hakros-drugod-tv-the-survival-games",
+          "externalId": "hakros.itch.io/hakros-drugod-tv-the-survival-games"
+        }
+      ],
+      "externalIds": {
+        "itchSlug": "hakros.itch.io/hakros-drugod-tv-the-survival-games"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 0
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 471,
+      "igdbId": 0,
+      "title": "Yakuzakura",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzMzODc2OTYucG5n/315x250%23c/0vClIP.png",
+      "description": "Small cooperative game about the red thread of fate!",
+      "description_en": "Small cooperative game about the red thread of fate!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://rocket-raw.itch.io/yakuzakura",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "slug": "yakuzakura",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Small cooperative game about the red thread of fate!",
+        "en": "Small cooperative game about the red thread of fate!"
+      },
+      "taxonomy": {
+        "categories": [
+          "indie",
+          "splitscreen"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "itch",
+          "url": "https://rocket-raw.itch.io/yakuzakura",
+          "externalId": "rocket-raw.itch.io/yakuzakura"
+        }
+      ],
+      "externalIds": {
+        "itchSlug": "rocket-raw.itch.io/yakuzakura"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 0
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 472,
+      "igdbId": 0,
+      "title": "Panique à Temple A-Steak",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzkwOTQ1OTcucG5n/315x250%23c/X%2B7Rbv.png",
+      "description": "​Jeu narratif en coopération pour deux joueurs à difficulté asymétrique. Coop",
+      "description_en": "​Jeu narratif en coopération pour deux joueurs à difficulté asymétrique. Coop",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://rollmopsinteractive.itch.io/panique-a-temple-a-steak",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "slug": "panique-a-temple-a-steak",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "​Jeu narratif en coopération pour deux joueurs à difficulté asymétrique. Coop",
+        "en": "​Jeu narratif en coopération pour deux joueurs à difficulté asymétrique. Coop"
+      },
+      "taxonomy": {
+        "categories": [
+          "indie",
+          "splitscreen"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "itch",
+          "url": "https://rollmopsinteractive.itch.io/panique-a-temple-a-steak",
+          "externalId": "rollmopsinteractive.itch.io/panique-a-temple-a-steak"
+        }
+      ],
+      "externalIds": {
+        "itchSlug": "rollmopsinteractive.itch.io/panique-a-temple-a-steak"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 0
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 473,
+      "igdbId": 0,
+      "title": "Project Socket",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzg4NjU4ODMucG5n/315x250%23c/8Pf6mS.png",
+      "description": "A small game where the cooperation is key.",
+      "description_en": "A small game where the cooperation is key.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://kanakstudio.itch.io/project-socket",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "slug": "project-socket",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "A small game where the cooperation is key.",
+        "en": "A small game where the cooperation is key."
+      },
+      "taxonomy": {
+        "categories": [
+          "indie",
+          "splitscreen"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "itch",
+          "url": "https://kanakstudio.itch.io/project-socket",
+          "externalId": "kanakstudio.itch.io/project-socket"
+        }
+      ],
+      "externalIds": {
+        "itchSlug": "kanakstudio.itch.io/project-socket"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 0
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 474,
+      "igdbId": 0,
+      "title": "Tower of Freedom",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1hZ2UvMTAwMDg0LzQ5NDIyNy5wbmc=/315x250%23c/C1djt5.png",
+      "description": "A platformer tower building and resource management game ... if you ignore the monsters.",
+      "description_en": "A platformer tower building and resource management game ... if you ignore the monsters.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://pandaqi.itch.io/tower-of-freedom",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "slug": "tower-of-freedom",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "A platformer tower building and resource management game ... if you ignore the monsters.",
+        "en": "A platformer tower building and resource management game ... if you ignore the monsters."
+      },
+      "taxonomy": {
+        "categories": [
+          "indie",
+          "splitscreen"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "itch",
+          "url": "https://pandaqi.itch.io/tower-of-freedom",
+          "externalId": "pandaqi.itch.io/tower-of-freedom"
+        }
+      ],
+      "externalIds": {
+        "itchSlug": "pandaqi.itch.io/tower-of-freedom"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 0
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 475,
+      "igdbId": 0,
+      "title": "Community Egg",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzM4NTkxNTcucG5n/315x250%23c/Ts%2FBjU.png",
+      "description": "If someone destroys the egg all the love will be lost and a new loveless egg will replace it",
+      "description_en": "If someone destroys the egg all the love will be lost and a new loveless egg will replace it",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://enzitoc.itch.io/community-egg",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "slug": "community-egg",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "If someone destroys the egg all the love will be lost and a new loveless egg will replace it",
+        "en": "If someone destroys the egg all the love will be lost and a new loveless egg will replace it"
+      },
+      "taxonomy": {
+        "categories": [
+          "indie",
+          "splitscreen"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "itch",
+          "url": "https://enzitoc.itch.io/community-egg",
+          "externalId": "enzitoc.itch.io/community-egg"
+        }
+      ],
+      "externalIds": {
+        "itchSlug": "enzitoc.itch.io/community-egg"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 0
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 476,
+      "igdbId": 0,
+      "title": "Safe Space",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1hZ2UvMjcxMzc0LzEzMTE5MjUucG5n/315x250%23c/%2F0oUdY.png",
+      "description": "a game of cooperation and community in outer space",
+      "description_en": "a game of cooperation and community in outer space",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://elana-makes-games.itch.io/safe-space",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "slug": "safe-space",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "a game of cooperation and community in outer space",
+        "en": "a game of cooperation and community in outer space"
+      },
+      "taxonomy": {
+        "categories": [
+          "indie",
+          "splitscreen"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "itch",
+          "url": "https://elana-makes-games.itch.io/safe-space",
+          "externalId": "elana-makes-games.itch.io/safe-space"
+        }
+      ],
+      "externalIds": {
+        "itchSlug": "elana-makes-games.itch.io/safe-space"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 0
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 477,
+      "igdbId": 0,
+      "title": "Pangman DEMO for Quest",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzUzMDM2MTEucG5n/315x250%23c/GA5pIX.png",
+      "description": "Experience the ultimate sphere-busting experience in VR",
+      "description_en": "Experience the ultimate sphere-busting experience in VR",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://ivanovichgames.itch.io/pangman-demo-for-quest",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "slug": "pangman-demo-for-quest",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Experience the ultimate sphere-busting experience in VR",
+        "en": "Experience the ultimate sphere-busting experience in VR"
+      },
+      "taxonomy": {
+        "categories": [
+          "indie",
+          "splitscreen"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "itch",
+          "url": "https://ivanovichgames.itch.io/pangman-demo-for-quest",
+          "externalId": "ivanovichgames.itch.io/pangman-demo-for-quest"
+        }
+      ],
+      "externalIds": {
+        "itchSlug": "ivanovichgames.itch.io/pangman-demo-for-quest"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 0
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 478,
+      "igdbId": 0,
+      "title": "A.L.F.I.E's GAME",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzU5OTMwMDUuanBn/315x250%23c/2tGW1j.jpg",
+      "description": "Distressing and obscure cooperative puzzle and FPS experience for 2-4 players",
+      "description_en": "Distressing and obscure cooperative puzzle and FPS experience for 2-4 players",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://raar-games.itch.io/alfies-game",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "slug": "a-l-f-i-es-game",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Distressing and obscure cooperative puzzle and FPS experience for 2-4 players",
+        "en": "Distressing and obscure cooperative puzzle and FPS experience for 2-4 players"
+      },
+      "taxonomy": {
+        "categories": [
+          "indie",
+          "splitscreen"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "itch",
+          "url": "https://raar-games.itch.io/alfies-game",
+          "externalId": "raar-games.itch.io/alfies-game"
+        }
+      ],
+      "externalIds": {
+        "itchSlug": "raar-games.itch.io/alfies-game"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 0
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 479,
+      "igdbId": 0,
+      "title": "Shackle",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1hZ2UvNjk5NzIvMzE5NDQxLmpwZw==/315x250%23c/5PxFm1.jpg",
+      "description": "Cooperative Horror Game for the Oculus Rift!",
+      "description_en": "Cooperative Horror Game for the Oculus Rift!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://purpleplattypus.itch.io/shacklegame",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "slug": "shackle",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Cooperative Horror Game for the Oculus Rift!",
+        "en": "Cooperative Horror Game for the Oculus Rift!"
+      },
+      "taxonomy": {
+        "categories": [
+          "indie",
+          "splitscreen"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "itch",
+          "url": "https://purpleplattypus.itch.io/shacklegame",
+          "externalId": "purpleplattypus.itch.io/shacklegame"
+        }
+      ],
+      "externalIds": {
+        "itchSlug": "purpleplattypus.itch.io/shacklegame"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 0
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 480,
+      "igdbId": 0,
+      "title": "Easy Delivery Co. Demo",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local",
+        "split"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzIwODcwODYwLnBuZw==/315x250%23c/1h9l%2BM.png",
+      "description": "Drive, deliver, discover, get paid barely enough to buy fuel.",
+      "description_en": "Drive, deliver, discover, get paid barely enough to buy fuel.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://sweaters.itch.io/easydeliveryco",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "slug": "easy-delivery-co-demo",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Drive, deliver, discover, get paid barely enough to buy fuel.",
+        "en": "Drive, deliver, discover, get paid barely enough to buy fuel."
+      },
+      "taxonomy": {
+        "categories": [
+          "indie",
+          "splitscreen"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": false,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "itch",
+          "url": "https://sweaters.itch.io/easydeliveryco",
+          "externalId": "sweaters.itch.io/easydeliveryco"
+        }
+      ],
+      "externalIds": {
+        "itchSlug": "sweaters.itch.io/easydeliveryco"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 0
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 481,
+      "igdbId": 0,
+      "title": "Ragdoll Runners",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local",
+        "split"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1hZ2UvNzQ3MzYvMzg1MDE2LmdpZg==/original/sIh9Cn.gif",
+      "description": "Physics-based Track &amp; Field game. 2 legs / 2 keys",
+      "description_en": "Physics-based Track &amp; Field game. 2 legs / 2 keys",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://sman.itch.io/ragdoll-runners",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "slug": "ragdoll-runners",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Physics-based Track &amp; Field game. 2 legs / 2 keys",
+        "en": "Physics-based Track &amp; Field game. 2 legs / 2 keys"
+      },
+      "taxonomy": {
+        "categories": [
+          "indie",
+          "splitscreen"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": false,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "itch",
+          "url": "https://sman.itch.io/ragdoll-runners",
+          "externalId": "sman.itch.io/ragdoll-runners"
+        }
+      ],
+      "externalIds": {
+        "itchSlug": "sman.itch.io/ragdoll-runners"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 0
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 482,
+      "igdbId": 0,
+      "title": "TORB",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local",
+        "split"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzE4MDIyODEucG5n/315x250%23c/V7XZ1U.png",
+      "description": "MASTER THE CRYSTAL BLADE! MASTER THE TORB!",
+      "description_en": "MASTER THE CRYSTAL BLADE! MASTER THE TORB!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://jasonrosenstock.itch.io/torb",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "slug": "torb",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "MASTER THE CRYSTAL BLADE! MASTER THE TORB!",
+        "en": "MASTER THE CRYSTAL BLADE! MASTER THE TORB!"
+      },
+      "taxonomy": {
+        "categories": [
+          "indie",
+          "splitscreen"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": false,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "itch",
+          "url": "https://jasonrosenstock.itch.io/torb",
+          "externalId": "jasonrosenstock.itch.io/torb"
+        }
+      ],
+      "externalIds": {
+        "itchSlug": "jasonrosenstock.itch.io/torb"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 0
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 483,
+      "igdbId": 8189,
+      "title": "Twin Cobra",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://images.gog-statics.com/253362ae75b4269087f9f622d70e4bef2871c8a6247d25fe7eefcf94ad5a9147.png",
+      "description": "“FIRST STRIKE… WITH TWIN COBRA!\" Twin Cobra (known as \"Kyukyoku Tiger\" in Japan) reaches new heights on PC with updated extras and quality-of-life bonuses like quick saves, online leaderboards, arcade-accurate emulation, and a brand-new beginner mode. In this vertical shmup classic, you'll have your hands full with fast-flying action and deadly opponents swarming the sea, land, and skies! You'r...",
+      "description_en": "“FIRST STRIKE… WITH TWIN COBRA!\" Twin Cobra (known as \"Kyukyoku Tiger\" in Japan) reaches new heights on PC with updated extras and quality-of-life bonuses like quick saves, online leaderboards, arcade-accurate emulation, and a brand-new beginner mode. In this vertical shmup classic, you'll have your hands full with fast-flying action and deadly opponents swarming the sea, land, and skies! You'r...",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "gogUrl": "https://www.gog.com/en/game/twin_cobra",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 76,
+      "slug": "twin-cobra",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "“FIRST STRIKE… WITH TWIN COBRA!\" Twin Cobra (known as \"Kyukyoku Tiger\" in Japan) reaches new heights on PC with updated extras and quality-of-life bonuses like quick saves, online leaderboards, arcade-accurate emulation, and a brand-new beginner mode. In this vertical shmup classic, you'll have your hands full with fast-flying action and deadly opponents swarming the sea, land, and skies! You'r...",
+        "en": "“FIRST STRIKE… WITH TWIN COBRA!\" Twin Cobra (known as \"Kyukyoku Tiger\" in Japan) reaches new heights on PC with updated extras and quality-of-life bonuses like quick saves, online leaderboards, arcade-accurate emulation, and a brand-new beginner mode. In this vertical shmup classic, you'll have your hands full with fast-flying action and deadly opponents swarming the sea, land, and skies! You'r..."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": [
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/en/game/twin_cobra",
+          "externalId": null
+        }
+      ],
+      "externalIds": {},
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 76
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 484,
+      "igdbId": 189847,
+      "title": "Funtasia",
+      "categories": [
+        "indie",
+        "sport"
+      ],
+      "genres": [
+        "sport"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://images.gog-statics.com/4ea8fcfb684f287d987ed8df760e05f15e8621d2cbd274f3c2009ef3e71c29f9.png",
+      "description": "It's time to take a drive on the Furry Road! Funtasia is a side-scrolling, 2D racing game where the goal is simple: Drive as fast as possible to reach the finish line. Help save the beautiful, ecologically sustainable world of Funtasia and its furry inhabitants from certain death beneath tons of garbage dumped on it from space by defeating the garbage monster at the end of the track. Simple to ...",
+      "description_en": "It's time to take a drive on the Furry Road! Funtasia is a side-scrolling, 2D racing game where the goal is simple: Drive as fast as possible to reach the finish line. Help save the beautiful, ecologically sustainable world of Funtasia and its furry inhabitants from certain death beneath tons of garbage dumped on it from space by defeating the garbage monster at the end of the track. Simple to ...",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "gogUrl": "https://www.gog.com/en/game/funtasia",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "slug": "funtasia",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "It's time to take a drive on the Furry Road! Funtasia is a side-scrolling, 2D racing game where the goal is simple: Drive as fast as possible to reach the finish line. Help save the beautiful, ecologically sustainable world of Funtasia and its furry inhabitants from certain death beneath tons of garbage dumped on it from space by defeating the garbage monster at the end of the track. Simple to ...",
+        "en": "It's time to take a drive on the Furry Road! Funtasia is a side-scrolling, 2D racing game where the goal is simple: Drive as fast as possible to reach the finish line. Help save the beautiful, ecologically sustainable world of Funtasia and its furry inhabitants from certain death beneath tons of garbage dumped on it from space by defeating the garbage monster at the end of the track. Simple to ..."
+      },
+      "taxonomy": {
+        "categories": [
+          "indie",
+          "sport"
+        ],
+        "genres": [
+          "sport"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/en/game/funtasia",
           "externalId": null
         }
       ],
