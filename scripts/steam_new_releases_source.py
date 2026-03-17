@@ -163,6 +163,13 @@ def fetch_steam_new_coop_games(
 
     candidates = []
     examined = 0
+    none_count = 0
+    not_game_count = 0
+    not_recent_count = 0
+    not_coop_count = 0
+
+    # Debug: mostra primi 5 appid da esaminare
+    print(f"  Prime 5 appid da esaminare: {to_check[:5]}")
 
     for appid in to_check:
         if len(candidates) >= max_games:
@@ -171,10 +178,12 @@ def fetch_steam_new_coop_games(
         examined += 1
         sd = source.fetch_appdetails(appid)
         if not sd:
+            none_count += 1
             continue
 
         # Solo giochi, non DLC/software/video
         if sd.get("type") != "game":
+            not_game_count += 1
             continue
 
         name = sd.get("name", "")
@@ -192,10 +201,17 @@ def fetch_steam_new_coop_games(
 
         # Deve essere uscito recentemente (filtra giochi vecchi con metadata aggiornato)
         if not source.is_recent(sd, NEW_RELEASES_DAYS):
+            not_recent_count += 1
+            if not_recent_count <= 3:
+                rel = (sd.get("release_date") or {}).get("date", "?")
+                print(f"    ✗ non recente: {name} ({rel})")
             continue
 
         # Deve avere co-op
         if not source.is_coop(sd):
+            not_coop_count += 1
+            if not_coop_count <= 3:
+                print(f"    ✗ no co-op: {name}")
             continue
 
         # Qualità
@@ -243,5 +259,5 @@ def fetch_steam_new_coop_games(
             "recommendations": recommendations,
         })
 
-    print(f"  Esaminati: {examined} | Candidati nuovi co-op: {len(candidates)}")
+    print(f"  Esaminati: {examined} | None: {none_count} | NonGame: {not_game_count} | NonRecent: {not_recent_count} | NonCoop: {not_coop_count} | Candidati: {len(candidates)}")
     return candidates
