@@ -52,7 +52,8 @@ REQUEST_DELAY = 0.35
 APPID_BATCH_SIZE = 20
 DISCOVERY_BATCH_SIZE = 10   # smaller for discovery (heavier queries)
 DISCOVERY_LIMIT = 500       # max IGDB games to scan per run
-DISCOVERY_MIN_RATING = 60   # IGDB rating (0-100), skip below this
+DISCOVERY_MIN_RATING = 55   # IGDB rating (0-100) minimo — soglia bassa perché
+                             # filtriamo ulteriormente con Steam reviews in auto_update
 
 
 class IgdbCatalogSource:

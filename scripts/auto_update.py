@@ -364,9 +364,16 @@ if IGDB_CLIENT_ID and IGDB_CLIENT_SECRET:
                 categories = ['action']
             pos = spy_data.get('positive', 0) or 0
             neg = spy_data.get('negative', 0) or 0
+            total_reviews = pos + neg
             rating = calc_rating(pos, neg)
-            if rating > 0 and rating < MIN_RATING_NEW:
-                print(f"    ✗ Rating troppo basso: {rating}%")
+            igdb_rating = cand.get('rating_igdb', 0) or 0
+
+            # Qualità: non usiamo CCU (penalizza co-op locale e indie di nicchia).
+            # Accettiamo se: recensioni sufficienti + rating ok, OPPURE IGDB rating alto.
+            quality_by_steam = total_reviews >= MIN_REVIEWS_QUALITY and rating >= MIN_RATING_QUALITY
+            quality_by_igdb = igdb_rating >= MIN_IGDB_RATING and total_reviews >= 10
+            if not quality_by_steam and not quality_by_igdb:
+                print(f"    ✗ Qualità insufficiente: {rating}% su {total_reviews} rec, IGDB={igdb_rating}")
                 continue
             players = derive_players_label([c.lower() for c in steam_cats])
             new_game = {
@@ -430,9 +437,10 @@ if IGDB_CLIENT_ID and IGDB_CLIENT_SECRET:
         gog_url = cand['gogUrl']
         print(f"\n  [GOG] {title}")
 
-        # Cerca su IGDB per dati multiplayer e verifica non è su Steam
+        # Cerca su IGDB per dati multiplayer, rating e verifica non è su Steam
         query = (
-            f"fields id, name, external_games.uid, external_games.category, "
+            f"fields id, name, rating, rating_count, "
+            f"external_games.uid, external_games.category, "
             f"multiplayer_modes.onlinecoop, multiplayer_modes.onlinecoopmax, "
             f"multiplayer_modes.offlinecoop, multiplayer_modes.offlinecoopmax, "
             f"multiplayer_modes.splitscreen, multiplayer_modes.lancoop; "
@@ -469,23 +477,44 @@ if IGDB_CLIENT_ID and IGDB_CLIENT_SECRET:
             print(f"    ✗ Ha anche Steam — gestito da pipeline Steam")
             continue
 
+        # Qualità: usa IGDB rating (unico segnale disponibile per GOG-only)
+        igdb_rating = igdb_match.get('rating') or 0
+        igdb_rating_count = igdb_match.get('rating_count') or 0
+        if igdb_rating > 0 and igdb_rating < MIN_IGDB_RATING:
+            print(f"    ✗ IGDB rating troppo basso: {igdb_rating:.0f}/100")
+            continue
+        if igdb_rating_count < 10:
+            print(f"    ✗ Troppo poche valutazioni IGDB: {igdb_rating_count}")
+            continue
+
         # Dati multiplayer da IGDB
         modes_list = igdb_match.get('multiplayer_modes') or []
         from igdb_catalog_source import _parse_multiplayer_modes
         mp = _parse_multiplayer_modes(modes_list) or {'coopMode': ['online'], 'maxPlayers': 4}
 
+        # Categorie dai tag GOG
+        gog_tags = cand.get('tags', [])
+        categories = []
+        for tag in gog_tags:
+            for key, cat in TAG_MAP.items():
+                if key.lower() in tag.lower() and cat not in categories:
+                    categories.append(cat)
+                    break
+        if not categories:
+            categories = ['action']
+
         new_game = {
             'id':             next_id,
             'igdbId':         igdb_id,
             'title':          title,
-            'categories':     ['action'],  # default — revisione manuale consigliata
-            'genres':         [],
+            'categories':     categories[:4],
+            'genres':         derive_genres(categories[:4]),
             'coopMode':       mp['coopMode'],
             'maxPlayers':     mp['maxPlayers'] or 4,
             'crossplay':      False,
             'players':        f"1-{mp['maxPlayers'] or 4}",
             'image':          cand.get('image', ''),
-            'description':    '',   # da aggiungere manualmente o con RAWG
+            'description':    '',
             'description_en': '',
             'personalNote':   '',
             'played':         False,
@@ -495,7 +524,7 @@ if IGDB_CLIENT_ID and IGDB_CLIENT_SECRET:
             'itchUrl':        '',
             'ccu':            0,
             'trending':       False,
-            'rating':         0,
+            'rating':         round(igdb_rating) if igdb_rating else 0,
         }
         existing_games.append(new_game)
         existing_igdb_ids.add(igdb_id)

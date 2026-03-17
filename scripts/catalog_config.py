@@ -90,9 +90,16 @@ BLACKLIST_APPIDS = {
     '1238860',  # Battlefield 4
 }
 
-# Filtro qualità minima per nuovi giochi
-MIN_RATING_NEW = 65    # rating minimo per aggiungere un nuovo gioco
-MIN_CCU_NEW = 500   # CCU minimo per candidati
+# Filtro qualità minima per nuovi giochi — pipeline SteamSpy (trending)
+MIN_RATING_NEW = 65    # rating minimo (%) per giochi SteamSpy
+MIN_CCU_NEW = 500      # CCU minimo per candidati SteamSpy
+
+# Filtro qualità per pipeline IGDB/GOG (giochi non necessariamente trending)
+# Qui non usiamo CCU perché penalizza: co-op locale, indie di nicchia, giochi vecchi.
+# Usiamo invece: recensioni totali Steam come prova di interesse + rating %
+MIN_RATING_QUALITY = 70   # rating % minimo (più alto perché non filtra CCU)
+MIN_REVIEWS_QUALITY = 50  # recensioni totali Steam minime (pos+neg)
+MIN_IGDB_RATING = 65      # IGDB rating (0-100) minimo per giochi senza dati Steam
 
 SKIP_WORDS = [
     'demo', ' dlc', 'soundtrack', 'artbook', 'playtest',
