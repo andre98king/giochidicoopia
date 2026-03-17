@@ -138,7 +138,7 @@ def render_modes(game: dict) -> str:
 
 def render_static_page(game: dict) -> str:
     title = f"{game['title']} — Coophubs"
-    image = game["image"] or f"{SITE_URL}/og-image.png"
+    image = game["image"] or f"{SITE_URL}/assets/og-image.png"
     description_it = game["description"][:320]
 
     rating_html = ""
@@ -241,7 +241,7 @@ def render_static_page(game: dict) -> str:
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@600&display=swap">
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="../style.css?v={ASSET_VERSION}">
+  <link rel="stylesheet" href="../assets/style.css?v={ASSET_VERSION}">
   <script type="application/ld+json">
   {json.dumps(video_game_json, ensure_ascii=False)}
   </script>
@@ -328,8 +328,8 @@ def render_static_page(game: dict) -> str:
     </div>
   </footer>
 
-  <script src="../i18n.js?v={ASSET_VERSION}" defer></script>
-  <script src="../particles.js?v={ASSET_VERSION}" defer></script>
+  <script src="../assets/i18n.js?v={ASSET_VERSION}" defer></script>
+  <script src="../assets/particles.js?v={ASSET_VERSION}" defer></script>
   <script>
     const GAME_DATA = {json_for_script(script_data)};
 
