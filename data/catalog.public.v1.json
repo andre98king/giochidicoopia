@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-17T18:42:55+00:00",
-  "featuredIndieId": 16,
+  "generatedAt": "2026-03-17T20:08:25+00:00",
+  "featuredIndieId": 352,
   "games": [
     {
       "id": 1,
@@ -3896,7 +3896,6 @@
         "puzzle"
       ],
       "coopMode": [
-        "online",
         "local",
         "split"
       ],
@@ -3959,7 +3958,6 @@
         "puzzle"
       ],
       "coopMode": [
-        "online",
         "local",
         "split"
       ],
@@ -4185,7 +4183,6 @@
         "action"
       ],
       "coopMode": [
-        "online",
         "local",
         "split"
       ],
@@ -10540,6 +10537,1489 @@
       "ccu": 698,
       "trending": false,
       "rating": 76
+    },
+    {
+      "id": 350,
+      "slug": "eco",
+      "title": "Eco",
+      "categories": [
+        "indie",
+        "factory",
+        "survival"
+      ],
+      "genres": [
+        "factory",
+        "survival"
+      ],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/382310/header.jpg",
+      "description": "Build a civilization of real people, working together to advance society and stop a meteor, all without destroying the ecosystem in the process.",
+      "description_en": "Build a civilization of real people, working together to advance society and stop a meteor, all without destroying the ecosystem in the process.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/382310/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 692,
+      "trending": false,
+      "rating": 81
+    },
+    {
+      "id": 351,
+      "slug": "legion-td-2-multiplayer-tower-defense",
+      "title": "Legion TD 2 - Multiplayer Tower Defense",
+      "categories": [
+        "indie",
+        "strategy",
+        "factory"
+      ],
+      "genres": [
+        "strategy",
+        "factory"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/469600/header.jpg",
+      "description": "Un tower defense per giocatore singolo e multigiocatore da rigiocare all'infinito. Difenditi da ondate di nemici e distruggi il re nemico prima che l'avversario distrugga il tuo. Legion TD 2 è un gioco unico di tattica, lavoro di squadra e intuito. Per 1-8 giocatori.",
+      "description_en": "An infinitely replayable multiplayer and single-player tower defense. Defend against waves of enemies and destroy the enemy's king before they destroy yours. Legion TD 2 is a one-of-a-kind game of tactics, teamwork, and prediction. Party as 1-8 players.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/469600/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 687,
+      "trending": false,
+      "rating": 86
+    },
+    {
+      "id": 352,
+      "slug": "webfishing",
+      "title": "WEBFISHING",
+      "categories": [
+        "indie",
+        "horror",
+        "puzzle"
+      ],
+      "genres": [
+        "horror",
+        "puzzle"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3146520/header.jpg",
+      "description": "WEBFISHING a multiplayer chatroom-focused fishing game! Relax and fish (on the web!)",
+      "description_en": "WEBFISHING a multiplayer chatroom-focused fishing game! Relax and fish (on the web!)",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3146520/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 686,
+      "trending": false,
+      "rating": 98
+    },
+    {
+      "id": 353,
+      "slug": "neverwinter",
+      "title": "Neverwinter",
+      "categories": [
+        "rpg",
+        "action"
+      ],
+      "genres": [
+        "rpg",
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/109600/header.jpg",
+      "description": "Neverwinter è un MMORPG action free2play, basato sull'acclamata saga di giochi di ruolo fantasy Dungeons & Dragons. Storie epiche, combattimento action e gioco di ruolo attendono i più coraggiosi tra gli eroi che avranno intenzione di entrare nel fantastico mondo di Neverwinter!",
+      "description_en": "Neverwinter is a free, action MMORPG based on the acclaimed Dungeons & Dragons fantasy roleplaying game. Epic stories, action combat and classic roleplaying await those heroes courageous enough to enter the fantastic world of Neverwinter!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/109600/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 665,
+      "trending": false,
+      "rating": 78
+    },
+    {
+      "id": 354,
+      "slug": "fall-guys-ultimate-knockout",
+      "title": "Fall Guys: Ultimate Knockout",
+      "categories": [
+        "indie",
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1097150/header.jpg",
+      "description": "Fall Guys è un gioco party royale multigiocatore di massa gratuito con funzionalità multi-piattaforma. Competi con goffaggine in assurdi percorsi a ostacoli insieme agli amici o crea il tuo personale percorso caotico da condividere con la community.",
+      "description_en": "Fall Guys is a free, cross-platform massively multiplayer party royale game. Clumsily compete in absurd obstacle courses with friends or build your very own chaotic course to share with the community.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1097150/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 664,
+      "trending": false,
+      "rating": 81
+    },
+    {
+      "id": 355,
+      "slug": "mindustry",
+      "title": "Mindustry",
+      "categories": [
+        "factory",
+        "strategy",
+        "survival",
+        "indie"
+      ],
+      "genres": [
+        "factory",
+        "strategy",
+        "survival"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1127400/header.jpg",
+      "description": "An open-ended factory management game with RTS and tower defense elements.",
+      "description_en": "An open-ended factory management game with RTS and tower defense elements.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1127400/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 658,
+      "trending": false,
+      "rating": 96
+    },
+    {
+      "id": 356,
+      "slug": "game-356",
+      "title": "封灵档案",
+      "categories": [
+        "horror",
+        "action",
+        "survival"
+      ],
+      "genres": [
+        "horror",
+        "action",
+        "survival"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1520470/header.jpg",
+      "description": "Soul Dossier is a multiplayer game based on Oriental culture (5vS1). The game is based on a variety of traditional Oriental cultures, including five elements, eight diagrams and folklore.",
+      "description_en": "Soul Dossier is a multiplayer game based on Oriental culture (5vS1). The game is based on a variety of traditional Oriental cultures, including five elements, eight diagrams and folklore.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1520470/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 656,
+      "trending": false,
+      "rating": 82
+    },
+    {
+      "id": 357,
+      "slug": "dragon-ball-xenoverse-2",
+      "title": "DRAGON BALL XENOVERSE 2",
+      "categories": [
+        "action",
+        "rpg"
+      ],
+      "genres": [
+        "action",
+        "rpg"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/454650/header.jpg",
+      "description": "Sulla scia del successo di DRAGON BALL XENOVERSE, sta per arrivare DRAGON BALL XENOVERSE 2, che con la sua grafica potenziata, ti permetterà di vivere un'avventura ancora più entusiasmante e dinamica.",
+      "description_en": "DRAGON BALL XENOVERSE 2 builds upon the highly popular DRAGON BALL XENOVERSE with enhanced graphics that will further immerse players into the largest and most detailed Dragon Ball world ever developed.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/454650/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 652,
+      "trending": false,
+      "rating": 90
+    },
+    {
+      "id": 358,
+      "slug": "dead-frontier-2",
+      "title": "Dead Frontier 2",
+      "categories": [
+        "indie",
+        "horror",
+        "survival"
+      ],
+      "genres": [
+        "horror",
+        "survival"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/744900/header.jpg",
+      "description": "Online survival horror dai toni cupi. Nei panni di uno dei pochi superstiti del contagio, dovrai lottare per sopravvivere tra le decadenti macerie della società. Cerca rifornimenti, migliora le tue abilità e commercia con altri giocatori.",
+      "description_en": "Survival horror MMO. As one of the few survivors of the outbreak, you must scratch a living out of the decaying ruins of society. Scavenge for supplies, improve your skills, and trade with other players. All the while, keeping your eyes peeled for the infected lurking around every corner.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/744900/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 647,
+      "trending": false,
+      "rating": 70
+    },
+    {
+      "id": 359,
+      "slug": "call-of-duty-black-ops-cold-war",
+      "title": "Call of Duty: Black Ops Cold War",
+      "categories": [
+        "action",
+        "strategy"
+      ],
+      "genres": [
+        "action",
+        "strategy"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1985810/header.jpg",
+      "description": "Black Ops Cold War, seguito diretto di Call of Duty®: Black Ops, immerge i giocatori nell'instabile conflitto geopolitico della Guerra Fredda, nei primi anni 80.",
+      "description_en": "Black Ops Cold War, the direct sequel to Call of Duty®: Black Ops, will drop fans into the depths of the Cold War’s volatile geopolitical battle of the early 1980s.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1985810/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 644,
+      "trending": false,
+      "rating": 80
+    },
+    {
+      "id": 360,
+      "slug": "dcs-world-steam-edition",
+      "title": "DCS World Steam Edition",
+      "categories": [
+        "action",
+        "strategy"
+      ],
+      "genres": [
+        "action",
+        "strategy"
+      ],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/223750/header.jpg",
+      "description": "Prova l’emozione di volare sul jet d’attacco Su-25T \"Frogfoot\" ed il TF-51D \"Mustang\" nel mondo free-to-play di Digital Combat Simulator!",
+      "description_en": "Feel the excitement of flying the Su-25T \"Frogfoot\" attack jet and the TF-51D \"Mustang\" in the free-to-play Digital Combat Simulator World!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/223750/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 636,
+      "trending": false,
+      "rating": 85
+    },
+    {
+      "id": 361,
+      "slug": "mechwarrior-5-mercenaries",
+      "title": "MechWarrior 5: Mercenaries",
+      "categories": [
+        "action",
+        "factory"
+      ],
+      "genres": [
+        "action",
+        "factory"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/784080/header.jpg",
+      "description": "The year is 3015. The battlefields are dominated by war machines known as BattleMechs. Level entire cities and decimate the enemy in your BattleMech. Follow a quest for glory and revenge. Manage an expanding mercenary company. Fight alongside your friends with a four-player PvE co-op.",
+      "description_en": "The year is 3015. The battlefields are dominated by war machines known as BattleMechs. Level entire cities and decimate the enemy in your BattleMech. Follow a quest for glory and revenge. Manage an expanding mercenary company. Fight alongside your friends with a four-player PvE co-op.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/784080/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 636,
+      "trending": false,
+      "rating": 85
+    },
+    {
+      "id": 362,
+      "slug": "far-cry-6",
+      "title": "Far Cry 6",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2369390/header.jpg",
+      "description": "Tuffati nell'adrenalinico mondo di una rivoluzione e della guerriglia dei nostri giorni. Panorami spettacolari, scontri a fuoco e una vasta gamma di esperienze di gioco: è il momento migliore per unirsi alla lotta.",
+      "description_en": "Enter the adrenaline-filled world of a modern-day guerrilla revolution. With stunning vistas, visceral gunplay, and a huge variety of gameplay experiences, there's never been a better time to join the fight.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2369390/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 627,
+      "trending": false,
+      "rating": 72
+    },
+    {
+      "id": 363,
+      "slug": "wobbly-life",
+      "title": "Wobbly Life",
+      "categories": [
+        "indie",
+        "action",
+        "splitscreen"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1211020/header.jpg",
+      "description": "Wobbly Life è un sandbox a mondo aperto basato sulla fisica. Gioca con i tuoi amici online o in modalità cooperativa locale completando incarichi, minigiochi e missioni della storia. Guadagna denaro da spendere per acquistare abbigliamento, veicoli e case. Il mondo di Wobbly è tutto da esplorare!",
+      "description_en": "Wobbly Life is a vibrant open-world physics sandbox. Play with your friends online or in local co-op, with exciting jobs, mini games and wacky story missions. Earn cash to spend in the world on clothes, vehicles and houses. There is a whole Wobbly World out there to explore!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1211020/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 625,
+      "trending": false,
+      "rating": 97
+    },
+    {
+      "id": 364,
+      "slug": "borderlands-game-of-the-year-enhanced",
+      "title": "Borderlands Game of the Year Enhanced",
+      "categories": [
+        "action",
+        "rpg"
+      ],
+      "genres": [
+        "action",
+        "rpg"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/729040/header.jpg",
+      "description": "Riscopri lo sparatutto in co-op, migliorato e più ricco di contenuti! Esplora i deserti di Pandora nei panni di un mercenario dal grilletto facile con abilità uniche... e fantastiliardi di armi.",
+      "description_en": "Discover the original co-op shooter-looter, crammed with new enhancements! As one of 4 trigger-happy mercenaries with RPG progression, equip bazillions of guns to take on the desert planet Pandora.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/729040/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 620,
+      "trending": false,
+      "rating": 83
+    },
+    {
+      "id": 365,
+      "slug": "retroarch",
+      "title": "RetroArch",
+      "categories": [
+        "splitscreen",
+        "rpg"
+      ],
+      "genres": [
+        "rpg"
+      ],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1118310/header.jpg",
+      "description": "RetroArch è un frontend/framework open-source e multipiattaforma per emulatori, motori grafici, videogiochi, lettori multimediali e altre applicazioni.",
+      "description_en": "RetroArch is an open source and cross platform frontend/framework for emulators, game engines, video games, media players and other applications",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1118310/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 619,
+      "trending": false,
+      "rating": 90
+    },
+    {
+      "id": 366,
+      "slug": "avorion",
+      "title": "Avorion",
+      "categories": [
+        "indie",
+        "factory",
+        "action"
+      ],
+      "genres": [
+        "factory",
+        "action"
+      ],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/445220/header.jpg",
+      "description": "A procedural co-op space sandbox where players can build their own space ships out of dynamically scalable blocks. Fight epic space battles, explore, mine, trade, wage wars and build your own empire to save your galaxy from being torn apart by an unknown enemy.",
+      "description_en": "A procedural co-op space sandbox where players can build their own space ships out of dynamically scalable blocks. Fight epic space battles, explore, mine, trade, wage wars and build your own empire to save your galaxy from being torn apart by an unknown enemy.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/445220/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 618,
+      "trending": false,
+      "rating": 90
+    },
+    {
+      "id": 367,
+      "slug": "liars-bar",
+      "title": "Liar's Bar",
+      "categories": [
+        "indie",
+        "action",
+        "puzzle"
+      ],
+      "genres": [
+        "action",
+        "puzzle"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3097560/header.jpg",
+      "description": "Dive into this multiplayer online experience set in a sketchy bar where the games are as dangerous as the patrons. Join a table of 4 and test your skills in Liar's Dice and Liar's Deck, where lying and bluffing are key to victory. Ready for a night at Liar's Bar?",
+      "description_en": "Dive into this multiplayer online experience set in a sketchy bar where the games are as dangerous as the patrons. Join a table of 4 and test your skills in Liar's Dice and Liar's Deck, where lying and bluffing are key to victory. Ready for a night at Liar's Bar?",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3097560/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 605,
+      "trending": false,
+      "rating": 91
+    },
+    {
+      "id": 368,
+      "slug": "titan-quest-anniversary-edition",
+      "title": "Titan Quest Anniversary Edition",
+      "categories": [
+        "rpg",
+        "action"
+      ],
+      "genres": [
+        "rpg",
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/475150/header.jpg",
+      "description": "Titan Quest torna a splendere di una nuova luce per il suo decimo anniversario. Titan Quest Anniversary Edition contiene Titan Quest e Titan Quest Immortal Throne in un solo gioco massicciamente rivisitato per fornire l'esperienza action-RPG definitiva.",
+      "description_en": "For its 10 year anniversary, Titan Quest will shine in new splendour. This Anniversary Edition combines both Titan Quest and Titan Quest Immortal Throne in one game, and has been given a massive overhaul for the ultimate ARPG experience.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/475150/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 599,
+      "trending": false,
+      "rating": 91
+    },
+    {
+      "id": 369,
+      "slug": "axis-and-allies-1942-online",
+      "title": "Axis & Allies 1942 Online",
+      "categories": [
+        "strategy",
+        "splitscreen"
+      ],
+      "genres": [
+        "strategy"
+      ],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/898920/header.jpg",
+      "description": "La 2ª edizione di Axis & Allies 1942 è disponibile su Steam! Gioca con gli amici, affronta i migliori giocatori del mondo o sfida l'IA. Si adatta ai tuoi impegni: ricevi notifiche quando è il tuo turno e comanda gli eserciti al tuo ritmo.",
+      "description_en": "Play the classic board game, Axis & Allies 1942 2nd Edition! Act as WWII powers in a turn-based strategy game that fits your screen and schedule— get notified on your turn and command armies at your own pace! Team up with friends, challenge the world’s top players, or go solo vs. A.I.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/898920/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 577,
+      "trending": false,
+      "rating": 78
+    },
+    {
+      "id": 370,
+      "slug": "tropico-6",
+      "title": "Tropico 6",
+      "categories": [
+        "strategy",
+        "factory",
+        "indie"
+      ],
+      "genres": [
+        "strategy",
+        "factory"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/492720/header.jpg",
+      "description": "El Presidente è tornato! Mettiti alla prova ancora una volta come dittatore temibile o come uno statista pacifista della nazione insulare di Tropico e plasma il destino della tua nazione attraverso quattro epoche distinte.",
+      "description_en": "El Presidente is back! Prove yourself once again as a feared dictator or peace-loving statesman on the island state of Tropico and shape the fate of your very own banana republic through four distinctive eras.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/492720/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 575,
+      "trending": false,
+      "rating": 87
+    },
+    {
+      "id": 371,
+      "slug": "wingspan",
+      "title": "Wingspan",
+      "categories": [
+        "indie",
+        "factory",
+        "strategy"
+      ],
+      "genres": [
+        "factory",
+        "strategy"
+      ],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1054490/header.jpg",
+      "description": "Wingspan è un rilassante e premiato gioco di strategia sugli uccelli per 1-5 giocatori. Ogni uccello giocato accresce la catena di combinazioni disponibili in uno dei propri tre habitat. L'obiettivo è scoprire e attirare i migliori uccelli nella propria rete di riserve naturali.",
+      "description_en": "Wingspan is a relaxing, award-winning strategy card game about birds for 1 to 5 players. Each bird you play extends a chain of powerful combinations in one of your three habitats. Your goal is to discover and attract the best birds to your network of wildlife preserves.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1054490/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 569,
+      "trending": false,
+      "rating": 94
+    },
+    {
+      "id": 372,
+      "slug": "apocalypse-party",
+      "title": "Apocalypse Party",
+      "categories": [
+        "indie",
+        "action",
+        "roguelike"
+      ],
+      "genres": [
+        "action",
+        "roguelike"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2351560/header.jpg",
+      "description": "Apocalypse Party is a 3D top-down action Roguelike game. In this game, you will embark on a new mission to traverse through the Middle Ages and gradually master abilities, and arm yourself to become the strongest survivor through numerous choices.",
+      "description_en": "Apocalypse Party is a 3D top-down action Roguelike game. In this game, you will embark on a new mission to traverse through the Middle Ages and gradually master abilities, and arm yourself to become the strongest survivor through numerous choices.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2351560/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 567,
+      "trending": false,
+      "rating": 73
+    },
+    {
+      "id": 373,
+      "slug": "resident-evil-5",
+      "title": "Resident Evil 5",
+      "categories": [
+        "action",
+        "horror",
+        "survival"
+      ],
+      "genres": [
+        "action",
+        "horror",
+        "survival"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/21690/header.jpg",
+      "description": "Questo titolo è la trasposizione della versione Games for Windows - Live rilasciata nel 2009. Se acquisti l'Untold Stories Bundle su Steam, sarà come aggiornare la tua versione a Resident Evil 5 Gold Edition.",
+      "description_en": "This game is a port of the Games for Windows - Live version that was released in 2009. If you buy the Untold Stories Bundle here on Steam, it will be the same as upgrading to Resident Evil 5 Gold Edition.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/21690/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 566,
+      "trending": false,
+      "rating": 87
+    },
+    {
+      "id": 374,
+      "slug": "far-cry-4",
+      "title": "Far Cry 4",
+      "categories": [
+        "action",
+        "survival",
+        "rpg"
+      ],
+      "genres": [
+        "action",
+        "survival",
+        "rpg"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/298110/header.jpg",
+      "description": "Nascosta tra le maestose vette dell’Himalaya si trova la regione del Kyrat, un paese ricco di tradizioni ma anche di violenza. Nei panni di Ajay Ghale hai raggiunto il Kyrat per esaudire l’ultimo desiderio di tua madre, ma presto sarai coinvolto in una spietata guerra civile per rovesciare il regime del dittatore Pagan",
+      "description_en": "Hidden in the towering Himalayas lies Kyrat, a country steeped in tradition and violence. You are Ajay Ghale. Traveling to Kyrat to fulfill your mother’s dying wish, you find yourself caught up in a civil war to overthrow the oppressive regime of dictator Pagan Min.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/298110/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 558,
+      "trending": false,
+      "rating": 84
+    },
+    {
+      "id": 375,
+      "slug": "dc-universe-online",
+      "title": "DC Universe Online",
+      "categories": [
+        "rpg",
+        "action"
+      ],
+      "genres": [
+        "rpg",
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/24200/header.jpg",
+      "description": "DC Universe Online is a Free-to-Play, massive multiplayer online action game set in the popular DC Universe. Become one of a new breed of Heroes or Villains and wield incredible powers as you go to war with legendary characters such as Batman, Superman, Lex Luthor and The Joker.",
+      "description_en": "DC Universe Online is a Free-to-Play, massive multiplayer online action game set in the popular DC Universe. Become one of a new breed of Heroes or Villains and wield incredible powers as you go to war with legendary characters such as Batman, Superman, Lex Luthor and The Joker.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/24200/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 546,
+      "trending": false,
+      "rating": 81
+    },
+    {
+      "id": 376,
+      "slug": "fast-food-simulator",
+      "title": "Fast Food Simulator",
+      "categories": [
+        "indie",
+        "horror",
+        "puzzle"
+      ],
+      "genres": [
+        "horror",
+        "puzzle"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2916430/header.jpg",
+      "description": "Benvenuti nel luogo più caotico del mondo! Gioca da solo o in cooperativa con un massimo di 6 giocatori. Gestisci un fast-food e collabora con i tuoi amici per espandere la tua attività. Prendete le ordinazioni, preparate gli hamburger e aumentate i vostri guadagni trattando con i clienti.",
+      "description_en": "Welcome to the world's most chaotic place! Play solo or co-op with up to 6 players. Run a fast-food restaurant, and work with your friends to expand your business. Take orders, make burgers, and increase your earnings by dealing with customers.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2916430/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 545,
+      "trending": false,
+      "rating": 94
+    },
+    {
+      "id": 377,
+      "slug": "sins-of-a-solar-empire-ii",
+      "title": "Sins of a Solar Empire II",
+      "categories": [
+        "strategy",
+        "factory"
+      ],
+      "genres": [
+        "strategy",
+        "factory"
+      ],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1575940/header.jpg",
+      "description": "Lotta per il dominio galattico in questo gioco di strategia 4X in tempo reale con una scala senza rivali! Esplorerai, espanderai, sfrutterai ed esterminerai attraverso la forza militare, la diplomazia, il commercio, la cultura, l'influenza e altre tattiche subdole.",
+      "description_en": "Battle for galactic dominance in this real-time 4X strategy game with unrivaled scale! You’ll explore, expand, exploit, and exterminate through military force, diplomacy, trade, culture, influence, and other underhanded tactics.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1575940/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 544,
+      "trending": false,
+      "rating": 86
+    },
+    {
+      "id": 378,
+      "slug": "sniper-elite-4",
+      "title": "Sniper Elite 4",
+      "categories": [
+        "action",
+        "strategy"
+      ],
+      "genres": [
+        "action",
+        "strategy"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/312660/header.jpg",
+      "description": "Ambientato tra gli splendidi panorami dell'Italia del 1943, Sniper Elite 4 unisce una balistica unica nel suo genere, azione stealth mozzafiato ed emozionanti dinamiche di gioco in terza persona... Il tutto, nella più vasta e variegata gamma di scenari mai vista nell'intera serie.",
+      "description_en": "Discover unrivalled sniping freedom in the largest and most advanced World War 2 shooter ever built. Experience tactical third-person combat, gameplay choice and epic longshots across gigantic levels as you liberate wartime Italy from the grip of Fascism.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/312660/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 541,
+      "trending": false,
+      "rating": 91
+    },
+    {
+      "id": 379,
+      "slug": "across-the-obelisk",
+      "title": "Across the Obelisk",
+      "categories": [
+        "indie",
+        "strategy",
+        "roguelike"
+      ],
+      "genres": [
+        "strategy",
+        "roguelike"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1385380/header.jpg",
+      "description": "Avventurati in un deckbuilder roguelite cooperativo in cui ogni scelta conta! Crea mazzi super potenti, viaggia in solitaria o con massimo tre amici, guida il gruppo verso la gloria, affronta potenti nemici in combattimenti tattici approfonditi e salva il regno di Senenthia in Across the Obelisk!",
+      "description_en": "Set forth in a co-op roguelite deckbuilder where every choice matters! Craft decks of breathtaking power. Journey alone or with up to three friends. Plot your party’s path to glory and face powerful enemies in deep tactical combat on your quest to save the kingdom of Senenthia in Across the Obelisk!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1385380/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 531,
+      "trending": false,
+      "rating": 82
+    },
+    {
+      "id": 380,
+      "slug": "my-rusty-submarine",
+      "title": "My Rusty Submarine",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzI5NDk3NzAucG5n/315x250%23c/LPrkFh.png",
+      "description": "Repair your submarine and try to get as far as possible.",
+      "description_en": "Repair your submarine and try to get as far as possible.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://soerbgames.itch.io/my-rusty-submarine",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 381,
+      "slug": "rhythm-doctor",
+      "title": "Rhythm Doctor",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzI0MzcxMTcuZ2lm/original/g2Pfza.gif",
+      "description": "Save patients with your rhythm mastery!",
+      "description_en": "Save patients with your rhythm mastery!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://fizzd.itch.io/rhythm-doctor",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 382,
+      "slug": "unheard-scream",
+      "title": "Unheard Scream",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzE5NzI5OTg2LnBuZw==/315x250%23c/N2wjhd.png",
+      "description": "A co-op survival horror where you must solve interconnected puzzles and hide from monster to escape the subway station.",
+      "description_en": "A co-op survival horror where you must solve interconnected puzzles and hide from monster to escape the subway station.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://limestudio.itch.io/unheard-scream",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 383,
+      "slug": "dyo",
+      "title": "DYO",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1hZ2UvNTE2MzQvMTAxNzE2NS5wbmc=/315x250%23c/E2TjWp.png",
+      "description": "Two Minotaurs trapped in a maze.",
+      "description_en": "Two Minotaurs trapped in a maze.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://josia-roncancio.itch.io/dyo",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 384,
+      "slug": "nuclear-throne-mobile",
+      "title": "Nuclear Throne Mobile",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzI0MzcxMTYucG5n/315x250%23c/DIByWc.png",
+      "description": "Unofficial complete Nuclear Throne recreation and Android port",
+      "description_en": "Unofficial complete Nuclear Throne recreation and Android port",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://toncho.itch.io/nuclear-throne-mobile",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 385,
+      "slug": "froggin-around-demo",
+      "title": "Froggin' Around Demo",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzIwNzMyMjU2LnBuZw==/315x250%23c/vAMS59.png",
+      "description": "Cute co-op game where you play frogs trying to escape a magical workshop",
+      "description_en": "Cute co-op game where you play frogs trying to escape a magical workshop",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://jeanne444.itch.io/froggin-around",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 386,
+      "slug": "hamsteria-demo",
+      "title": "Hamsteria! - Demo",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzI1MTQ3NDY5LnBuZw==/315x250%23c/Ea3Ors.png",
+      "description": "A short (~1-2 hour) difficult co-op game where you&#039;re both hamsters.",
+      "description_en": "A short (~1-2 hour) difficult co-op game where you&#039;re both hamsters.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://2wheelerdev.itch.io/hamsteria",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 387,
+      "slug": "specimen",
+      "title": "SPECIMEN",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzE4MDM2MTk3LnBuZw==/315x250%23c/uSPfVp.png",
+      "description": "First-person, co-op horror game about capturing an alien.",
+      "description_en": "First-person, co-op horror game about capturing an alien.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://gregs-games.itch.io/specimen",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 388,
+      "slug": "fear-channel",
+      "title": "Fear Channel",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzQ4NzEzOTMuZ2lm/original/lptinZ.gif",
+      "description": "2 player online community horror game meant for streamers.",
+      "description_en": "2 player online community horror game meant for streamers.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://sachajacquemin.itch.io/fearchannel",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 389,
+      "slug": "hub-os",
+      "title": "Hub OS",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzIxNzY3MDM0LnBuZw==/315x250%23c/q82Smd.png",
+      "description": "​Hub OS is an online Mega Man Battle Network fan project that takes place on interconnected servers, or Hubs.",
+      "description_en": "​Hub OS is an online Mega Man Battle Network fan project that takes place on interconnected servers, or Hubs.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://hub-os.itch.io/hub-os",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 390,
+      "slug": "joggernauts",
+      "title": "Joggernauts",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzE2OTY3MzQucG5n/315x250%23c/CJPiAx.png",
+      "description": "Deviously cooperative runner/puzzle platformer for 1-4 players.",
+      "description_en": "Deviously cooperative runner/puzzle platformer for 1-4 players.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://spacemace.itch.io/joggernauts",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 391,
+      "slug": "east-of-eden-right-of-conquest",
+      "title": "East of Eden: Right of Conquest",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzE2MzUyMzQ0LnBuZw==/315x250%23c/PiUwej.png",
+      "description": "A 1st/3rd person multiplayer shooter with up to 9 unique teams",
+      "description_en": "A 1st/3rd person multiplayer shooter with up to 9 unique teams",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://csaurageul.itch.io/eastofeden",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 392,
+      "slug": "micro-mages-nes-pc",
+      "title": "Micro Mages (NES / PC)",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzM2NDg3NjgucG5n/315x250%23c/nWTepk.png",
+      "description": "A platformer developed for the NES. Now available on PC! ROM included. Play solo or with up to 4 players simultaneously.",
+      "description_en": "A platformer developed for the NES. Now available on PC! ROM included. Play solo or with up to 4 players simultaneously.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://morphcatgames.itch.io/micromages",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 393,
+      "slug": "god-save-the-queen",
+      "title": "God Save The Queen",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1hZ2UvOTE4NjYvNDMxNDQzLmdpZg==/original/5l%2BWzo.gif",
+      "description": "Deceive your friends with your slick spy moves.",
+      "description_en": "Deceive your friends with your slick spy moves.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://loficacti.itch.io/god-save-the-queen",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 394,
+      "slug": "shagster-online-2",
+      "title": "Shagster Online 2",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzQ0OTI2NTYuanBn/315x250%23c/aGwnbY.jpg",
+      "description": "Set 100 years before the original game, Shagster 2 is a multiplayer MMORPG set in the wild west! Yeehaw!",
+      "description_en": "Set 100 years before the original game, Shagster 2 is a multiplayer MMORPG set in the wild west! Yeehaw!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://totally-fungal.itch.io/shagster-2",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 395,
+      "slug": "ducklings",
+      "title": "Ducklings",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzI1MDc0MzUuZ2lm/original/vGIg40.gif",
+      "description": "🦆 Quack, you&#039;re a duck. Swim around and rescue Ducklings. Upgrade your nest. Relax 🦆",
+      "description_en": "🦆 Quack, you&#039;re a duck. Swim around and rescue Ducklings. Upgrade your nest. Relax 🦆",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://pelicanparty.itch.io/ducklings",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 396,
+      "slug": "chernozem-prototype",
+      "title": "CHERNOZEM (PROTOTYPE)",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzE2MDg4ODA1LnBuZw==/315x250%23c/%2BiD7uw.png",
+      "description": "Co-op survival horror inspired by Resident Evil and Silent Hill",
+      "description_en": "Co-op survival horror inspired by Resident Evil and Silent Hill",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://deadkir.itch.io/chernozem",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 397,
+      "slug": "police-stories",
+      "title": "Police Stories",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzIyNjQ0MDEucG5n/315x250%23c/%2F3jnwt.png",
+      "description": "Shooting first is not an option",
+      "description_en": "Shooting first is not an option",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://hypetrain.itch.io/police-stories",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 398,
+      "slug": "towerfall-dark-world-expansion",
+      "title": "TowerFall Dark World Expansion",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1hZ2UvMjQ5NjIvOTk3ODgucG5n/315x250%23c/uWnGMP.png",
+      "description": "More ways to murder your friends",
+      "description_en": "More ways to murder your friends",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://maddymakesgamesinc.itch.io/towerfall-dark-world",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 399,
+      "slug": "widelands",
+      "title": "Widelands",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzIwODA2NzgucG5n/315x250%23c/Kzbz5p.png",
+      "description": "Free, cross-platform economy strategy game. Control the fate of a small tribe that can grow into a big empire",
+      "description_en": "Free, cross-platform economy strategy game. Control the fate of a small tribe that can grow into a big empire",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://widelands.itch.io/widelands",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
     }
   ]
 }
