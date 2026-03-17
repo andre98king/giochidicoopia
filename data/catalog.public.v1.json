@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-17T21:49:55+00:00",
+  "generatedAt": "2026-03-17T22:00:04+00:00",
   "featuredIndieId": 352,
   "games": [
     {
@@ -3464,7 +3464,7 @@
         "split"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-4",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/386940/header.jpg",
       "description": "Ultimate Chicken Horse è un gioco platform a costruzione di livelli per feste dove costruisci il percorso e poi ci giochi. Aggiungi trappole e piattaforme per rendere il livello superabile per te ma impossibile per i tuoi amici!",
@@ -3490,7 +3490,6 @@
         "action"
       ],
       "coopMode": [
-        "online",
         "local",
         "split"
       ],
@@ -14235,6 +14234,566 @@
       "steamUrl": "",
       "epicUrl": "",
       "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 485,
+      "slug": "epicshop",
+      "title": "EpicShop",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local",
+        "split"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzIxOTY2NTUuZ2lm/original/5QmQgf.gif",
+      "description": "Mastery Update out! Co-op Shopkeeping",
+      "description_en": "Mastery Update out! Co-op Shopkeeping",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://wackywizards.itch.io/epicshop",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 486,
+      "slug": "badblood",
+      "title": "BADBLOOD",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local",
+        "split"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1hZ2UvNDMyMTgvMTg3MDEyLmdpZg==/original/ZVVOuY.gif",
+      "description": "a deadly game of hide and seek",
+      "description_en": "a deadly game of hide and seek",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://wsong.itch.io/badblood",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 487,
+      "slug": "lurking-danger",
+      "title": "Lurking Danger",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local",
+        "split"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzE5NDgwNTk5LnBuZw==/315x250%23c/%2FeBK4O.png",
+      "description": "Elena and Regina, two diner waitresses, uncover a dark secret. Reality twists into a nightmare.",
+      "description_en": "Elena and Regina, two diner waitresses, uncover a dark secret. Reality twists into a nightmare.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://farelas.itch.io/lurking-danger",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 488,
+      "slug": "legacyclonk",
+      "title": "LegacyClonk",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local",
+        "split"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzU0ODQ4NTAucG5n/315x250%23c/Aww9E3.png",
+      "description": "A highly versatile multiplayer game of strategy, action, skill, and endless fun.",
+      "description_en": "A highly versatile multiplayer game of strategy, action, skill, and endless fun.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://fulgen.itch.io/legacyclonk",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 489,
+      "slug": "stick-veterans",
+      "title": "Stick Veterans",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local",
+        "split"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1hZ2UvODU5MjUvNDA0NzgwLnBuZw==/315x250%23c/4f24t5.png",
+      "description": "Fast-paced deathmatches of stick figures shooting and fragging each other.",
+      "description_en": "Fast-paced deathmatches of stick figures shooting and fragging each other.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://junkbytes.itch.io/stick-veterans",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 490,
+      "slug": "quest-of-graal-dx",
+      "title": "Quest Of Graal DX",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local",
+        "split"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzgxMjIwMTYuZ2lm/original/BMN9fE.gif",
+      "description": "Racing platformer with splitscreen multiplayer",
+      "description_en": "Racing platformer with splitscreen multiplayer",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://pixel-boy.itch.io/quest-of-graal-dx",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 491,
+      "slug": "garrison-archangel-demo",
+      "title": "Garrison: Archangel (DEMO)",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local",
+        "split"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1hZ2UvMTQ0MjQ4LzY3NDU2OS5naWY=/original/ezqfF0.gif",
+      "description": "Suit up and pilot your own Archangel today!",
+      "description_en": "Suit up and pilot your own Archangel today!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://indigogaming.itch.io/garrison-archangel",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 492,
+      "slug": "chambara",
+      "title": "Chambara",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local",
+        "split"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1hZ2UvMTg1MzA1LzkxNzg2Ny5wbmc=/315x250%23c/XqFMn8.png",
+      "description": "The award-winning stealth brawler comes to PC! Battle in a black and white world where foes can come from anywhere.",
+      "description_en": "The award-winning stealth brawler comes to PC! Battle in a black and white world where foes can come from anywhere.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://team-ok.itch.io/chambara",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 493,
+      "slug": "obnubilia",
+      "title": "Obnubilia",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local",
+        "split"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzE4NDA5Mzk2LmpwZw==/315x250%23c/c230tB.jpg",
+      "description": "A fast-paced shooter in a maze-like city full of furry villains.",
+      "description_en": "A fast-paced shooter in a maze-like city full of furry villains.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://malerouille.itch.io/obnubilia",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 494,
+      "slug": "beatercore",
+      "title": "beaterCore",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local",
+        "split"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzI0Mzk0ODA0LnBuZw==/315x250%23c/o3Kbjg.png",
+      "description": "Racing game focused on car repair and maintenance",
+      "description_en": "Racing game focused on car repair and maintenance",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://the-hellbox.itch.io/beatercore",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 495,
+      "slug": "escape-from-castle-matsumoto",
+      "title": "Escape From Castle Matsumoto",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local",
+        "split"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzE4ODYxNDY0LnBuZw==/315x250%23c/zu1Ig7.png",
+      "description": "Classic-inspired duel heist game",
+      "description_en": "Classic-inspired duel heist game",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://mausimus.itch.io/efcm",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 496,
+      "slug": "super-pilot",
+      "title": "Super Pilot",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local",
+        "split"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1hZ2UvNjcyMTgvNDEzNTYwLmdpZg==/original/6gWXr2.gif",
+      "description": "Futuristic arcade racing game with a track editor",
+      "description_en": "Futuristic arcade racing game with a track editor",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://dopagames.itch.io/superpilot",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 497,
+      "slug": "wacky-wheels-hd",
+      "title": "Wacky Wheels HD",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local",
+        "split"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1hZ2UvOTU1NDkvNDQ3NDM2LnBuZw==/315x250%23c/EbjtOh.png",
+      "description": "The road is a dangerous place, especially when overrun with wild animals in go-karts!",
+      "description_en": "The road is a dangerous place, especially when overrun with wild animals in go-karts!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://cascadiagames.itch.io/wacky-wheels-hd",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 498,
+      "slug": "classic-tagap",
+      "title": "Classic TAGAP",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local",
+        "split"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzEwMDM5OTk5LmpwZw==/315x250%23c/KT6Om%2F.jpg",
+      "description": "The original two games in the The Apocalyptic Game About Penguins series",
+      "description_en": "The original two games in the The Apocalyptic Game About Penguins series",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://penguindt.itch.io/classic-tagap",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 499,
+      "slug": "flotilla",
+      "title": "Flotilla",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local",
+        "split"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzIwMTU3MjUucG5n/315x250%23c/ag65I2.png",
+      "description": "Fight, trade, and explore new planets in your journey through the galaxy.",
+      "description_en": "Fight, trade, and explore new planets in your journey through the galaxy.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://blendogames.itch.io/flotilla",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 500,
+      "slug": "tomb-of-rooms",
+      "title": "Tomb of Rooms",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local",
+        "split"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1hZ2UvMTQ5MjkxLzkyODEyNi5qcGc=/315x250%23c/A2YwB2.jpg",
+      "description": "Randomly generated split-screen survival horror",
+      "description_en": "Randomly generated split-screen survival horror",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://idlecreations.itch.io/tomb-of-rooms",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 501,
+      "slug": "damaged-territory",
+      "title": "Damaged Territory",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local",
+        "split"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzE4OTM2NjU3LnBuZw==/315x250%23c/seOyd6.png",
+      "description": "Inspired by old classic war games",
+      "description_en": "Inspired by old classic war games",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://gadarts.itch.io/openfire",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 502,
+      "slug": "pretend-cars-racing",
+      "title": "Pretend Cars Racing",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local",
+        "split"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzQ5NDc3MzMucG5n/315x250%23c/4BQ8ZA.png",
+      "description": "An old school top-down racer with split-screen multiplayer",
+      "description_en": "An old school top-down racer with split-screen multiplayer",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://misterakuma.itch.io/pretend-cars",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 503,
+      "slug": "topplepop-demo",
+      "title": "TopplePOP Demo",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local",
+        "split"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzE4OTM5MjIxLnBuZw==/315x250%23c/2qazRr.png",
+      "description": "TopplePOP is a physics puzzle party with bendy animal acrobats on bungee cords for 1-4 players in solo, co-op &amp; PvP.",
+      "description_en": "TopplePOP is a physics puzzle party with bendy animal acrobats on bungee cords for 1-4 players in solo, co-op &amp; PvP.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://arkimagames.itch.io/topplepop-demo",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 504,
+      "slug": "felony-felines",
+      "title": "Felony Felines!",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local",
+        "split"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzIzMDkyNTk2LnBuZw==/315x250%23c/Dm6z6b.png",
+      "description": "At what wave will you and your brother fall?",
+      "description_en": "At what wave will you and your brother fall?",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://jon-gear.itch.io/felonyfelines",
       "ccu": 0,
       "trending": false,
       "rating": 0
