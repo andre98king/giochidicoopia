@@ -7,22 +7,25 @@ Aggiorna automaticamente games.js con:
   - Descrizioni italiane da Steam API (nuovi giochi)
   - Descrizioni inglesi da Steam API (nuovi giochi + giochi esistenti senza)
   - Nuovi giochi co-op trending da SteamSpy
+  - Nuovi giochi co-op da IGDB discovery (cross-platform: Steam, GOG, ecc.)
+  - Nuovi giochi co-op da GOG (giochi GOG-only non su Steam)
   - Tag "indie" e "free" per i giochi appropriati
   - Gioco indie della settimana (featuredIndieId)
   - [Opzionale] Giochi da itch.io (richiede ITCH_IO_KEY env var)
   - VERIFICA INTEGRITÀ: controlla free (prezzo reale), indie (publisher),
     co-op (categorie Steam), titoli (nome ufficiale Steam)
+  - DEDUPLICAZIONE: igdbId + Steam App ID + titolo esatto
 
 Uso locale : python3 auto_update.py
 CI (GitHub): eseguito automaticamente da .github/workflows/update.yml
-Per itch.io: export ITCH_IO_KEY=tuachiave  (da https://itch.io/user/settings/api-keys)
 """
 
 import datetime, re
 
 import catalog_data
 from catalog_config import *          # noqa: F403 – tutte le costanti di progetto
-from igdb_catalog_source import enrich_games_with_igdb
+from igdb_catalog_source import IgdbCatalogSource, enrich_games_with_igdb
+from gog_catalog_source import fetch_gog_candidates
 from itch_catalog_source import ItchCatalogSource
 from steam_catalog_source import (
     SteamCatalogSource,
@@ -42,13 +45,21 @@ steam_source = SteamCatalogSource(delay=DELAY)
 print("📖 Lettura games.js...")
 featured_id_existing, existing_games = catalog_data.load_legacy_catalog_bundle()
 existing_appids = set()
+existing_igdb_ids = set()
+existing_gog_urls = set()
+existing_titles = set()
 max_id = 0
 
 for g in existing_games:
     max_id = max(max_id, g['id'])
-    aid = appid_from_url(g['steamUrl'])
+    aid = appid_from_url(g.get('steamUrl', ''))
     if aid:
         existing_appids.add(aid)
+    if g.get('igdbId'):
+        existing_igdb_ids.add(g['igdbId'])
+    if g.get('gogUrl'):
+        existing_gog_urls.add(g['gogUrl'])
+    existing_titles.add(g.get('title', '').lower().strip())
 
 print(f"  Giochi nel DB: {len(existing_games)}  |  ID max: {max_id}")
 
@@ -295,11 +306,208 @@ if ITCH_IO_KEY:
     itch_new = itch_source.fetch_games(existing_itch_urls, next_id)
     for ng in itch_new:
         existing_games.append(ng)
+        existing_titles.add(ng.get('title', '').lower().strip())
         print(f"  + {ng['title']} ({ng['itchUrl']})")
     next_id += len(itch_new)
     print(f"  Aggiunti da itch.io: {len(itch_new)}")
 else:
     print("\n🎲 itch.io: saltato (nessun ITCH_IO_KEY — vedi README)")
+
+
+# ─────────────── IGDB Discovery (nuovi giochi cross-platform) ─────────────
+igdb_discovery_added = 0
+if IGDB_CLIENT_ID and IGDB_CLIENT_SECRET:
+    print(f"\n🌐 IGDB Discovery: ricerca nuovi giochi co-op PC...")
+    igdb_source = IgdbCatalogSource(IGDB_CLIENT_ID, IGDB_CLIENT_SECRET)
+    candidates = igdb_source.discover_coop_games(
+        existing_igdb_ids=existing_igdb_ids,
+        existing_steam_appids=existing_appids,
+        existing_titles=existing_titles,
+        max_games=MAX_IGDB_DISCOVERY,
+    )
+    print(f"  Candidati IGDB trovati: {len(candidates)}")
+
+    for cand in candidates:
+        steam_appid = cand.get('steamAppId')
+        gog_id = cand.get('gogId')
+        title = cand.get('title', '')
+
+        if steam_appid:
+            # Ha Steam → usa pipeline Steam per dati completi
+            if steam_appid in existing_appids or steam_appid in BLACKLIST_APPIDS:
+                continue
+            print(f"\n  [IGDB→Steam] {title} ({steam_appid})")
+            sd, desc_it = steam_source.fetch_steam_desc(steam_appid, 'italian')
+            if sd is None or sd.get('type', '') != 'game' or not desc_it:
+                print(f"    ✗ Dati Steam insufficienti")
+                continue
+            steam_cats = [c.get('description', '') for c in sd.get('categories', [])]
+            has_coop = any('co-op' in c.lower() or 'multiplayer' in c.lower() for c in steam_cats)
+            if not has_coop:
+                print(f"    ✗ Nessuna categoria co-op su Steam")
+                continue
+            _, desc_en = steam_source.fetch_steam_desc(steam_appid, 'english')
+            spy_data = steam_source.fetch_json(f"https://steamspy.com/api.php?request=appdetails&appid={steam_appid}") or {}
+            spy_tags = list((spy_data.get('tags') or {}).keys())
+            genres = [g2.get('description', '') for g2 in sd.get('genres', [])]
+            all_labels = genres + steam_cats + spy_tags
+            categories = []
+            for label in all_labels:
+                for tag, cat in TAG_MAP.items():
+                    if tag.lower() in label.lower() and cat not in categories:
+                        categories.append(cat)
+                        if len(categories) >= 3:
+                            break
+                if len(categories) >= 3:
+                    break
+            if not categories:
+                categories = ['action']
+            pos = spy_data.get('positive', 0) or 0
+            neg = spy_data.get('negative', 0) or 0
+            rating = calc_rating(pos, neg)
+            if rating > 0 and rating < MIN_RATING_NEW:
+                print(f"    ✗ Rating troppo basso: {rating}%")
+                continue
+            players = derive_players_label([c.lower() for c in steam_cats])
+            new_game = {
+                'id':             next_id,
+                'igdbId':         cand['igdbId'],
+                'title':          title,
+                'categories':     categories[:4],
+                'genres':         derive_genres(categories[:4]),
+                'coopMode':       derive_coop_modes([c.lower() for c in steam_cats]),
+                'maxPlayers':     parse_max_players(players),
+                'crossplay':      derive_crossplay([c.lower() for c in steam_cats]),
+                'players':        players,
+                'image':          f"https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/{steam_appid}/header.jpg",
+                'description':    desc_it,
+                'description_en': desc_en or '',
+                'personalNote':   '',
+                'played':         False,
+                'steamUrl':       f"https://store.steampowered.com/app/{steam_appid}/",
+                'gogUrl':         '',
+                'epicUrl':        '',
+                'itchUrl':        '',
+                'ccu':            ccu_map.get(steam_appid, 0),
+                'trending':       ccu_map.get(steam_appid, 0) >= MIN_CCU_TRENDING,
+                'rating':         rating,
+            }
+            existing_games.append(new_game)
+            existing_appids.add(steam_appid)
+            existing_igdb_ids.add(cand['igdbId'])
+            existing_titles.add(title.lower().strip())
+            next_id += 1
+            igdb_discovery_added += 1
+            print(f"    ✓ {title} | {categories[:3]} | {rating}%")
+
+        elif gog_id:
+            # GOG-only: aggiungiamo con dati base (nessuna CCU disponibile)
+            # Descrizioni verranno aggiunte manualmente o da RAWG in futuro
+            print(f"\n  [IGDB→GOG-only] {title} — da implementare con GOG adapter")
+            # TODO: fetch GOG product details per descrizione e immagine
+
+    print(f"  Aggiunti da IGDB discovery: {igdb_discovery_added}")
+else:
+    print("\n🌐 IGDB Discovery: saltato (nessun IGDB_CLIENT_ID)")
+
+
+# ─────────────────────── GOG (giochi GOG-only) ───────────────────────────
+gog_added = 0
+if IGDB_CLIENT_ID and IGDB_CLIENT_SECRET:
+    print(f"\n🎮 GOG: ricerca giochi co-op GOG-only...")
+    gog_candidates = fetch_gog_candidates(
+        existing_titles=existing_titles,
+        existing_gog_urls=existing_gog_urls,
+        existing_igdb_ids=existing_igdb_ids,
+        max_games=MAX_GOG_GAMES,
+    )
+    print(f"  Candidati GOG trovati: {len(gog_candidates)}")
+
+    igdb_source_gog = IgdbCatalogSource(IGDB_CLIENT_ID, IGDB_CLIENT_SECRET)
+
+    for cand in gog_candidates:
+        title = cand['title']
+        gog_url = cand['gogUrl']
+        print(f"\n  [GOG] {title}")
+
+        # Cerca su IGDB per dati multiplayer e verifica non è su Steam
+        query = (
+            f"fields id, name, external_games.uid, external_games.category, "
+            f"multiplayer_modes.onlinecoop, multiplayer_modes.onlinecoopmax, "
+            f"multiplayer_modes.offlinecoop, multiplayer_modes.offlinecoopmax, "
+            f"multiplayer_modes.splitscreen, multiplayer_modes.lancoop; "
+            f"search \"{title}\"; "
+            f"where platforms = (6) & game_modes = (3); "
+            f"limit 3;"
+        )
+        igdb_results = igdb_source_gog._post("games", query) or []
+
+        # Trova il match esatto per titolo
+        igdb_match = None
+        for r in igdb_results:
+            if r.get('name', '').lower().strip() == title.lower().strip():
+                igdb_match = r
+                break
+        if not igdb_match and igdb_results:
+            igdb_match = igdb_results[0]  # primo risultato come fallback
+
+        if not igdb_match:
+            print(f"    ✗ Nessun match IGDB per '{title}'")
+            continue
+
+        igdb_id = igdb_match.get('id', 0)
+        if igdb_id in existing_igdb_ids:
+            print(f"    ✗ igdbId {igdb_id} già nel catalogo")
+            continue
+
+        # Controlla se ha Steam → se sì, sarà aggiunto dalla pipeline Steam, skip
+        has_steam = any(
+            ext.get('category') == 1
+            for ext in (igdb_match.get('external_games') or [])
+        )
+        if has_steam:
+            print(f"    ✗ Ha anche Steam — gestito da pipeline Steam")
+            continue
+
+        # Dati multiplayer da IGDB
+        modes_list = igdb_match.get('multiplayer_modes') or []
+        from igdb_catalog_source import _parse_multiplayer_modes
+        mp = _parse_multiplayer_modes(modes_list) or {'coopMode': ['online'], 'maxPlayers': 4}
+
+        new_game = {
+            'id':             next_id,
+            'igdbId':         igdb_id,
+            'title':          title,
+            'categories':     ['action'],  # default — revisione manuale consigliata
+            'genres':         [],
+            'coopMode':       mp['coopMode'],
+            'maxPlayers':     mp['maxPlayers'] or 4,
+            'crossplay':      False,
+            'players':        f"1-{mp['maxPlayers'] or 4}",
+            'image':          cand.get('image', ''),
+            'description':    '',   # da aggiungere manualmente o con RAWG
+            'description_en': '',
+            'personalNote':   '',
+            'played':         False,
+            'steamUrl':       '',
+            'gogUrl':         gog_url,
+            'epicUrl':        '',
+            'itchUrl':        '',
+            'ccu':            0,
+            'trending':       False,
+            'rating':         0,
+        }
+        existing_games.append(new_game)
+        existing_igdb_ids.add(igdb_id)
+        existing_gog_urls.add(gog_url)
+        existing_titles.add(title.lower().strip())
+        next_id += 1
+        gog_added += 1
+        print(f"    ✓ {title} (GOG-only, igdbId={igdb_id})")
+
+    print(f"  Aggiunti da GOG: {gog_added}")
+else:
+    print("\n🎮 GOG: saltato (richiede IGDB_CLIENT_ID per verifica dedup)")
 
 
 # ─────────────────── VERIFICA INTEGRITÀ DATABASE ──────────────────────────
@@ -465,6 +673,6 @@ print(f"   Con desc EN 🌍   : {en_count}")
 print(f"   Indie 🎮         : {indie_count}")
 print(f"   Free 🆓          : {free_count}")
 print(f"   Featured ID 🌟   : {featured_id}")
-print(f"   Nuovi aggiunti   : {added}")
+print(f"   Nuovi aggiunti   : {added} (SteamSpy) + {igdb_discovery_added} (IGDB) + {gog_added} (GOG)")
 print(f"   IGDB arricchiti  : {igdb_enriched}")
 print(f"   Verifiche        : {v_checked} controllati, {v_fixed_free + v_fixed_indie + v_fixed_title} corretti, {v_removed_nocoop} warning co-op")

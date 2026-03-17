@@ -8,6 +8,8 @@ MAX_ITCH_GAMES = 10     # max giochi itch.io per run
 ITCH_IO_KEY = os.environ.get('ITCH_IO_KEY', '')
 IGDB_CLIENT_ID = os.environ.get('IGDB_CLIENT_ID', '')
 IGDB_CLIENT_SECRET = os.environ.get('IGDB_CLIENT_SECRET', '')
+MAX_IGDB_DISCOVERY = 30   # max nuovi giochi da IGDB discovery per run
+MAX_GOG_GAMES = 10        # max nuovi giochi GOG-only per run
 
 # Tag Steam → categoria sito
 TAG_MAP = {

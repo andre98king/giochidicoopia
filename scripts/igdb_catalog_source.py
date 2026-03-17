@@ -2,23 +2,25 @@
 """
 IGDB catalog source adapter.
 
-Uses the IGDB API (Twitch OAuth) to enrich the catalog with structured
-multiplayer data: onlinecoopmax, offlinecoopmax, splitscreen, lancoop.
+Funzioni:
+1. ENRICHMENT  — arricchisce i giochi esistenti con multiplayer_modes strutturati
+                 (onlinecoopmax, offlinecoopmax, splitscreen, lancoop) e salva igdbId.
+2. DISCOVERY   — trova nuovi giochi co-op PC non ancora nel catalogo.
 
-IGDB is the only public source with `multiplayer_modes` as structured fields,
-so it provides the ground truth for maxPlayers and coopMode.
+IGDB è la fonte canonica per deduplicazione cross-platform: ogni gioco ha un igdbId
+univoco che collega Steam, GOG, Epic e altri store.
 
-Requires env vars (or GitHub Secrets):
+Credenziali (env var / GitHub Secrets):
     IGDB_CLIENT_ID      — Twitch app Client ID
     IGDB_CLIENT_SECRET  — Twitch app Client Secret
 
-Register at: https://dev.twitch.tv/console → Register Your Application
-Then use the credentials here and as GitHub Secrets in the repo.
+Registrazione: https://dev.twitch.tv/console → Register Your Application
 """
 
 from __future__ import annotations
 
 import json
+import re
 import time
 import urllib.error
 import urllib.request
@@ -28,14 +30,29 @@ from typing import Any
 TWITCH_TOKEN_URL = "https://id.twitch.tv/oauth2/token"
 IGDB_BASE_URL = "https://api.igdb.com/v4"
 
-# external_games.category = 1 → Steam
+# external_games.category = 1 → Steam, 5 → GOG
 IGDB_STEAM_CATEGORY = 1
+IGDB_GOG_CATEGORY = 5
 
-# IGDB rate limit: 4 req/sec → 0.26s minimum; use 0.35 for safety
+# IGDB platform IDs
+IGDB_PC_PLATFORM = 6       # PC (Windows)
+IGDB_MAC_PLATFORM = 14
+IGDB_LINUX_PLATFORM = 3
+
+# IGDB game_modes: 1=Single player, 2=Multiplayer, 3=Co-operative, 4=Split screen, 5=MMO
+IGDB_COOP_MODE = 3
+
+# IGDB category: 0=main_game, 8=remake, 9=remaster (exclude DLC, expansion, etc.)
+IGDB_MAIN_GAME_CATEGORIES = (0, 8, 9)
+
+# Rate limit: 4 req/sec → 0.35s safe margin
 REQUEST_DELAY = 0.35
 
-# How many Steam App IDs to resolve per API call (max 500, keep low)
-BATCH_SIZE = 20
+# Batch sizes
+APPID_BATCH_SIZE = 20
+DISCOVERY_BATCH_SIZE = 10   # smaller for discovery (heavier queries)
+DISCOVERY_LIMIT = 500       # max IGDB games to scan per run
+DISCOVERY_MIN_RATING = 60   # IGDB rating (0-100), skip below this
 
 
 class IgdbCatalogSource:
@@ -89,10 +106,10 @@ class IgdbCatalogSource:
             print(f"    ⚠ IGDB {endpoint}: {exc}")
             return None
 
-    # ─────────────── API helpers ───────────────
+    # ─────────────── Enrichment queries ───────────────
 
     def fetch_appid_to_igdb_id(self, appids: list[str]) -> dict[str, int]:
-        """Resolve Steam App IDs → IGDB game IDs in one batch call."""
+        """Resolve Steam App IDs → IGDB game IDs."""
         quoted = ", ".join(f'"{aid}"' for aid in appids)
         query = (
             f"fields uid, game; "
@@ -125,67 +142,148 @@ class IgdbCatalogSource:
             if "id" in item
         }
 
-    # ─────────────── Public interface ───────────────
-
     def enrich_catalog(self, games: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
         """
-        Given the full list of game records, queries IGDB and returns:
-          {steam_appid: {"maxPlayers": int, "coopMode": list[str]}}
-
-        Only entries with actual IGDB multiplayer data are included.
-        crossplay is NOT included — IGDB doesn't have reliable crossplay data.
+        Returns {steam_appid: {maxPlayers, coopMode, igdbId}} for games with IGDB data.
         """
-        from steam_catalog_source import appid_from_url  # local import to avoid circular deps
+        from steam_catalog_source import appid_from_url
 
-        # Build index of appid → game
-        appid_list = []
-        for g in games:
-            aid = appid_from_url(g.get("steamUrl", ""))
-            if aid:
-                appid_list.append(aid)
-
-        if not appid_list:
-            return {}
+        appid_list = [
+            appid_from_url(g.get("steamUrl", ""))
+            for g in games
+            if appid_from_url(g.get("steamUrl", ""))
+        ]
 
         enrichment: dict[str, dict[str, Any]] = {}
 
-        for i in range(0, len(appid_list), BATCH_SIZE):
-            batch = appid_list[i : i + BATCH_SIZE]
-            batch_num = i // BATCH_SIZE + 1
-            total_batches = (len(appid_list) + BATCH_SIZE - 1) // BATCH_SIZE
-            print(f"    IGDB batch {batch_num}/{total_batches} ({len(batch)} app IDs)...", end=" ", flush=True)
+        for i in range(0, len(appid_list), APPID_BATCH_SIZE):
+            batch = appid_list[i : i + APPID_BATCH_SIZE]
+            batch_num = i // APPID_BATCH_SIZE + 1
+            total = (len(appid_list) + APPID_BATCH_SIZE - 1) // APPID_BATCH_SIZE
+            print(f"    IGDB enrichment {batch_num}/{total} ({len(batch)} IDs)...", end=" ", flush=True)
 
-            # Step 1: resolve Steam App IDs → IGDB game IDs
             appid_to_igdb = self.fetch_appid_to_igdb_id(batch)
             if not appid_to_igdb:
                 print("nessun match")
                 continue
 
-            # Step 2: fetch multiplayer_modes
             igdb_ids = list(set(appid_to_igdb.values()))
             igdb_to_modes = self.fetch_multiplayer_modes(igdb_ids)
 
-            # Step 3: build enrichment per appid
             found = 0
             for aid, igdb_id in appid_to_igdb.items():
                 modes_list = igdb_to_modes.get(igdb_id, [])
                 parsed = _parse_multiplayer_modes(modes_list)
+                entry: dict[str, Any] = {"igdbId": igdb_id}
                 if parsed:
-                    enrichment[aid] = parsed
+                    entry.update(parsed)
                     found += 1
+                enrichment[aid] = entry
 
-            print(f"{found}/{len(appid_to_igdb)} con dati multiplayer")
+            print(f"{found}/{len(appid_to_igdb)} con multiplayer_modes")
 
         return enrichment
+
+    # ─────────────── Discovery queries ───────────────
+
+    def discover_coop_games(
+        self,
+        existing_igdb_ids: set[int],
+        existing_steam_appids: set[str],
+        existing_titles: set[str],
+        max_games: int = 50,
+    ) -> list[dict[str, Any]]:
+        """
+        Query IGDB for co-op PC games not already in the catalog.
+        Returns a list of raw candidates ready for further enrichment.
+        Each candidate has: igdbId, title, steamAppId (if any), gogId (if any),
+        coopMode, maxPlayers, rating.
+        """
+        candidates: list[dict[str, Any]] = []
+        offset = 0
+
+        while len(candidates) < max_games and offset < DISCOVERY_LIMIT:
+            batch_size = min(DISCOVERY_BATCH_SIZE, DISCOVERY_LIMIT - offset)
+            print(f"    IGDB discovery offset={offset}...", end=" ", flush=True)
+
+            # Query: co-op PC games, main game only, sorted by rating desc
+            query = (
+                "fields id, name, rating, rating_count, "
+                "game_modes, platforms, category, "
+                "external_games.uid, external_games.category; "
+                f"where game_modes = ({IGDB_COOP_MODE}) "
+                f"& platforms = ({IGDB_PC_PLATFORM}) "
+                f"& category = ({','.join(str(c) for c in IGDB_MAIN_GAME_CATEGORIES)}) "
+                f"& rating_count > 10; "
+                f"sort rating desc; "
+                f"limit {batch_size}; "
+                f"offset {offset};"
+            )
+            results = self._post("games", query) or []
+
+            if not results:
+                print("fine risultati")
+                break
+
+            new_in_batch = 0
+            for item in results:
+                igdb_id = item.get("id")
+                title = item.get("name", "")
+                rating = item.get("rating") or 0
+
+                if not igdb_id or not title:
+                    continue
+
+                # Deduplication checks
+                if igdb_id in existing_igdb_ids:
+                    continue
+                if title.lower().strip() in existing_titles:
+                    continue
+
+                # Extract external IDs
+                steam_appid = None
+                gog_id = None
+                for ext in item.get("external_games") or []:
+                    cat = ext.get("category")
+                    uid = ext.get("uid", "")
+                    if cat == IGDB_STEAM_CATEGORY and uid.isdigit():
+                        steam_appid = uid
+                    elif cat == IGDB_GOG_CATEGORY and uid:
+                        gog_id = uid
+
+                # Skip if Steam App ID already in catalog
+                if steam_appid and steam_appid in existing_steam_appids:
+                    continue
+
+                # Quality filter
+                if rating > 0 and rating < DISCOVERY_MIN_RATING:
+                    continue
+
+                candidates.append({
+                    "igdbId": igdb_id,
+                    "title": title,
+                    "rating_igdb": round(rating),
+                    "steamAppId": steam_appid,
+                    "gogId": gog_id,
+                })
+                existing_igdb_ids.add(igdb_id)
+                new_in_batch += 1
+
+                if len(candidates) >= max_games:
+                    break
+
+            print(f"{new_in_batch} nuovi candidati (tot: {len(candidates)})")
+            offset += batch_size
+
+            if len(results) < batch_size:
+                break  # no more pages
+
+        return candidates
 
 
 # ─────────────── Parsing helpers ───────────────
 
 def _parse_multiplayer_modes(modes_list: list[dict[str, Any]]) -> dict[str, Any] | None:
-    """
-    Converts IGDB multiplayer_modes array into our catalog fields.
-    Returns None if there's no useful co-op data.
-    """
     if not modes_list:
         return None
 
@@ -225,7 +323,7 @@ def _parse_multiplayer_modes(modes_list: list[dict[str, Any]]) -> dict[str, Any]
 
     max_players = max(online_max, offline_max)
     if max_players <= 1:
-        max_players = 0  # 0 = unknown, let the existing value stay
+        max_players = 0
 
     return {
         "maxPlayers": max_players,
@@ -241,18 +339,13 @@ def enrich_games_with_igdb(
     client_secret: str,
 ) -> int:
     """
-    Enriches games in-place with IGDB multiplayer data.
-    Only overwrites maxPlayers when IGDB provides a value > 1.
-    Always overwrites coopMode when IGDB has data (it's the authoritative source).
-
-    Returns the number of games enriched.
+    Enriches games in-place: coopMode, maxPlayers, igdbId.
+    Returns number of games enriched.
     """
     from steam_catalog_source import appid_from_url
 
     print("  Autenticazione IGDB (Twitch OAuth)...")
     source = IgdbCatalogSource(client_id, client_secret)
-
-    # Verify credentials work before processing
     try:
         _ = source.token
         print("  ✓ Token ottenuto")
@@ -272,15 +365,18 @@ def enrich_games_with_igdb(
             continue
         data = enrichment[aid]
 
-        # coopMode: IGDB è la fonte più affidabile — sovrascriviamo sempre
+        # Salva igdbId per deduplicazione futura
+        if data.get("igdbId") and not g.get("igdbId"):
+            g["igdbId"] = data["igdbId"]
+
+        # coopMode: IGDB è la fonte più affidabile
         if data.get("coopMode"):
             g["coopMode"] = data["coopMode"]
 
-        # maxPlayers: sovrascriviamo solo se IGDB ha un valore reale (>1)
+        # maxPlayers: solo se IGDB ha un valore reale
         igdb_max = data.get("maxPlayers", 0)
         if igdb_max > 1:
             g["maxPlayers"] = igdb_max
-            # Aggiorna anche il label players se era il valore di default
             current_players = g.get("players", "1-4")
             if current_players in ("1-4", "2-4", "1-2", ""):
                 g["players"] = f"1-{igdb_max}"

@@ -26,6 +26,7 @@ PUBLIC_CATALOG_JSON = DATA_DIR / "catalog.public.v1.json"
 SCHEMA_VERSION = 1
 LEGACY_RUNTIME_FIELDS = (
     "id",
+    "igdbId",
     "title",
     "categories",
     "genres",
@@ -39,6 +40,7 @@ LEGACY_RUNTIME_FIELDS = (
     "personalNote",
     "played",
     "steamUrl",
+    "gogUrl",
     "epicUrl",
     "itchUrl",
     "ccu",
@@ -129,6 +131,7 @@ def normalize_game(raw_game: dict[str, Any], featured_indie_id: int | None) -> d
     genres = unique_preserving(raw_game.get("genres") or [])
     coop_modes = unique_preserving(raw_game.get("coopMode") or ["online"])
     steam_url = (raw_game.get("steamUrl") or "").strip()
+    gog_url = (raw_game.get("gogUrl") or "").strip()
     epic_url = (raw_game.get("epicUrl") or "").strip()
     itch_url = (raw_game.get("itchUrl") or "").strip()
 
@@ -148,6 +151,8 @@ def normalize_game(raw_game: dict[str, Any], featured_indie_id: int | None) -> d
     storefronts = []
     if steam_url:
         storefronts.append({"store": "steam", "url": steam_url, "externalId": steam_app_id})
+    if gog_url:
+        storefronts.append({"store": "gog", "url": gog_url, "externalId": None})
     if epic_url:
         storefronts.append({"store": "epic", "url": epic_url, "externalId": epic_slug})
     if itch_url:
@@ -209,6 +214,7 @@ def load_games() -> list[dict[str, Any]]:
     for block in blocks:
         game = {
             "id": ef(block, "id"),
+            "igdbId": ef(block, "igdbId") or 0,
             "title": ef(block, "title") or "",
             "categories": ef(block, "categories") or [],
             "genres": ef(block, "genres") or [],
@@ -222,6 +228,7 @@ def load_games() -> list[dict[str, Any]]:
             "personalNote": ef(block, "personalNote") or "",
             "played": ef(block, "played") or False,
             "steamUrl": ef(block, "steamUrl") or "",
+            "gogUrl": ef(block, "gogUrl") or "",
             "epicUrl": ef(block, "epicUrl") or "",
             "itchUrl": ef(block, "itchUrl") or "",
             "ccu": ef(block, "ccu") or 0,
@@ -346,6 +353,7 @@ def write_legacy_games_js(
         lines.append(
             "  {\n"
             f"    id: {game['id']},\n"
+            f"    igdbId: {game.get('igdbId') or 0},\n"
             f"    title: \"{js_esc(game.get('title', ''))}\",\n"
             f"    categories: {categories_json},\n"
             f"    genres: {genres_json},\n"
@@ -359,6 +367,7 @@ def write_legacy_games_js(
             f"    personalNote: \"{js_esc(game.get('personalNote', ''))}\",\n"
             f"    played: {'true' if game.get('played') else 'false'},\n"
             f"    steamUrl: \"{js_esc(game.get('steamUrl', ''))}\",\n"
+            f"    gogUrl: \"{js_esc(game.get('gogUrl', ''))}\",\n"
             f"    epicUrl: \"{js_esc(game.get('epicUrl', ''))}\",\n"
             f"    itchUrl: \"{js_esc(game.get('itchUrl', ''))}\",\n"
             f"    ccu: {game.get('ccu') or 0},\n"
