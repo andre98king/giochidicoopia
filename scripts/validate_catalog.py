@@ -86,8 +86,17 @@ def main() -> int:
             missing_required.append(f"{game_id}: missing description")
         if not categories:
             missing_required.append(f"{game_id}: missing categories")
-        if not steam_url.startswith("https://store.steampowered.com/app/"):
-            invalid_store_urls.append(f"{game_id}: {steam_url or 'empty steamUrl'}")
+        gog_url = (game.get("gogUrl") or "").strip()
+        epic_url = (game.get("epicUrl") or "").strip()
+        itch_url = (game.get("itchUrl") or "").strip()
+        has_any_store = (
+            steam_url.startswith("https://store.steampowered.com/app/")
+            or gog_url.startswith("https://www.gog.com/")
+            or epic_url.startswith("https://")
+            or itch_url.startswith("https://")
+        )
+        if not has_any_store:
+            invalid_store_urls.append(f"{game_id}: no valid store URL")
         unknown = sorted(set(categories) - ALLOWED_CATEGORIES)
         if unknown:
             unknown_categories.append(f"{game_id}: {', '.join(unknown)}")
