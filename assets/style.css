@@ -995,6 +995,8 @@ body {
 }
 
 .wheel-result.show { display: block; animation: card-enter 0.4s ease; }
+.wheel-result.show:hover { border-color: var(--accent2); background: var(--bg2); transform: translateY(-2px); transition: all 0.2s ease; }
+.wheel-result.show::after { content: "👆 " attr(data-tap-hint); display: block; font-size: 0.75rem; color: var(--text2); margin-top: 8px; opacity: 0.7; }
 
 .wheel-result-title {
   font-size: 1.2rem;

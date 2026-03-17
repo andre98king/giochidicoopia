@@ -152,6 +152,7 @@ const TRANSLATIONS = {
     wheel_title: "🎡 Ruota Gioco Random",
     btn_spin: "🎰 Gira la Ruota!",
     wheel_players: "giocatori",
+    wheel_tap_hint: "Tocca per vedere i dettagli",
 
     // Footer
     footer_sub: "Coophubs è un progetto indipendente dedicato alla scoperta di giochi cooperativi per PC.",
@@ -364,6 +365,7 @@ const TRANSLATIONS = {
     wheel_title: "🎡 Random Game Wheel",
     btn_spin: "🎰 Spin the Wheel!",
     wheel_players: "players",
+    wheel_tap_hint: "Tap to see details",
 
     // Footer
     footer_sub: "Coophubs is an independent project dedicated to discovering co-op games for PC.",

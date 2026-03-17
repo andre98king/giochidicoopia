@@ -918,10 +918,16 @@ function spinWheel() {
       wheelSpinning = false;
       document.getElementById('spinBtn').disabled = false;
       const winner = filtered[winIndex];
+      const resultEl = document.getElementById('wheelResult');
       document.getElementById('wheelResultTitle').textContent = winner.title;
       document.getElementById('wheelResultSub').textContent =
         winner.categories.join(', ') + ' · ' + winner.players + ' ' + t('wheel_players');
-      document.getElementById('wheelResult').classList.add('show');
+      resultEl.classList.add('show');
+      resultEl.style.cursor = 'pointer';
+      resultEl.dataset.tapHint = t('wheel_tap_hint');
+      const openWinner = () => { closeWheelModal(); openModal(winner.id); };
+      resultEl.onclick = openWinner;
+      resultEl.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') openWinner(); };
     }
   }
   requestAnimationFrame(animate);
