@@ -110,16 +110,22 @@ class IgdbCatalogSource:
     # ─────────────── Enrichment queries ───────────────
 
     def fetch_appid_to_igdb_id(self, appids: list[str]) -> dict[str, int]:
-        """Resolve Steam App IDs → IGDB game IDs."""
-        quoted = ", ".join(f'"{aid}"' for aid in appids)
+        """Resolve Steam App IDs → IGDB game IDs.
+
+        IGDB memorizza i Steam App ID come interi nel campo uid,
+        quindi NON vanno quotati nella query Apicalypse.
+        """
+        # uid senza virgolette: IGDB li tratta come interi
+        uid_values = ", ".join(appids)
         query = (
             f"fields uid, game; "
-            f"where uid = ({quoted}) & category = {IGDB_STEAM_CATEGORY}; "
-            f"limit {len(appids)};"
+            f"where uid = ({uid_values}) & category = {IGDB_STEAM_CATEGORY}; "
+            f"limit {len(appids) * 2};"  # *2 per eventuali entry duplicate per gioco
         )
         results = self._post("external_games", query) or []
+        # uid può arrivare come int o str — normalizziamo sempre a str
         return {
-            item["uid"]: item["game"]
+            str(item["uid"]): item["game"]
             for item in results
             if "uid" in item and "game" in item
         }
