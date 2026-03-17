@@ -1,89 +1,163 @@
-# Giochi di Co-op
+# Co-op Games Hub — Istruzioni per AI
 
-## Scopo del progetto
-Questo progetto è un sito statico dedicato alla scoperta di videogiochi cooperativi.
-Gli obiettivi sono:
-- aiutare gli utenti a trovare giochi co-op in modo rapido e chiaro
-- mantenere il sito veloce, semplice e facile da aggiornare
-- restare pienamente compatibile con GitHub Pages
-- preparare il progetto per dominio personalizzato, Cloudflare, SEO e monetizzazione leggera
+Questo file è letto automaticamente da Claude Code e da Aider (via `.aider.conf.yml`).
+Contiene tutto ciò che serve per lavorare correttamente su questo progetto.
 
-## Principi fondamentali
-- Mantieni il sito statico finché non esiste un motivo forte per fare il contrario.
-- Preferisci HTML, CSS e JavaScript semplici invece di aggiungere complessità inutile.
-- Non introdurre backend, database o dipendenze server-side se non richiesto esplicitamente.
-- Non rompere la compatibilità con GitHub Pages.
-- Migliora il design esistente senza rifare tutto da zero se non serve.
-- Dai priorità a chiarezza, velocità e manutenibilità.
+---
 
-## Stile di lavoro
-Quando lavori su questo progetto:
-1. Analizza prima la struttura esistente.
-2. Riusa ciò che funziona già.
-3. Fai modifiche mirate e con il minimo impatto possibile.
-4. Preserva il comportamento attuale, salvo chiari miglioramenti.
-5. Preferisci soluzioni pronte per un progetto reale, non demo o mockup.
+## Cos'è il progetto
 
-## Collaborazione tra agenti
-- Claude Code e il leader tecnico del progetto.
-- Ollama locale (qwen2.5-coder:14b su GPU Vulkan) e il secondo agente per task delegati.
-- Claude Code: decisioni architetturali, QA, review, fix mirati, pianificazione task.
-- Ollama: refactor meccanici, generazione bulk, task isolati delegati via `ai-delegate`.
-- Gemini CLI disponibile come fallback (quota API limitata).
-- Quando fai modifiche non banali, salvale sempre nei file del progetto.
-- Usa `AI_COLLABORATION.md` per lasciare handoff, decisioni, stato dei lavori e verifiche aperte.
-- Prima di intervenire, leggi `AI_COLLABORATION.md` se esiste gia e aggiornarlo dopo cambiamenti rilevanti.
+Sito statico **coophubs.net** — catalogo di videogiochi cooperativi per PC.
+Hosting: **GitHub Pages** + Cloudflare (DNS, proxy, HTTPS). Dominio già configurato e funzionante.
+
+Stack: HTML + CSS + JavaScript puro, Python per la pipeline dati automatica.
+Nessun backend. Nessun framework. Nessun runtime Node in produzione.
+
+---
+
+## File principali
+
+| File | Ruolo |
+|------|-------|
+| `index.html` | Homepage con catalogo e filtri |
+| `app.js` | Logica filtri, rendering card, routing verso pagine statiche |
+| `games.js` | Database giochi (~334 giochi), oggetti JS |
+| `i18n.js` | Sistema traduzioni IT/EN |
+| `style.css` | CSS unico del sito |
+| `game.html` | Fallback legacy (noindex + canonical verso pagina statica) |
+| `free.html` | Pagina giochi gratuiti |
+| `free_games.js` | Dati giochi gratuiti, aggiornati via workflow giornaliero |
+| `games/<id>.html` | 334 pagine statiche per ogni gioco (SEO) |
+
+## Pipeline Python
+
+| Script | Ruolo |
+|--------|-------|
+| `auto_update.py` | Aggiornamento automatico giochi (GitHub Actions, lunedì) |
+| `build_static_pages.py` | Genera `games/<id>.html` + `sitemap.xml` |
+| `validate_catalog.py` | Valida il catalogo dopo il build |
+| `fetch_free_games.py` | Aggiorna i giochi gratuiti (GitHub Actions, ogni giorno) |
+| `steam_catalog_source.py` | Adapter Steam |
+| `itch_catalog_source.py` | Adapter itch.io |
+| `catalog_data.py` | Layer I/O dati catalogo |
+| `catalog_config.py` | Configurazione pipeline |
+
+---
+
+## Regole obbligatorie
+
+1. **Nessun backend** — niente Express, Flask, FastAPI o qualsiasi server. Il sito è e resta statico.
+2. **Nessun npm/Node** — `package.json` non deve esistere. Nessuna dipendenza npm.
+3. **Compatibilità GitHub Pages** — tutto deve funzionare su hosting statico puro.
+4. **Modifiche mirate** — tocca solo i file necessari al task. Niente refactoring non richiesti.
+5. **Non fare commit o push autonomamente** — proponi le modifiche, aspetta conferma dell'utente.
+6. **Preserva gli ID giochi** — ogni gioco in `games.js` ha un ID numerico fisso. Non spostare, rinumerare o eliminare senza motivo esplicito.
+7. **Aggiorna `AI_COLLABORATION.md`** dopo modifiche non banali — aggiungi una voce nel log con data e descrizione.
+
+---
 
 ## Regole architetturali
-- Tratta questo progetto come un catalogo/directory statico.
-- Se i dati dei giochi sono in JSON o oggetti JS, mantieni una struttura pulita e scalabile.
-- Evita logica duplicata tra file diversi.
-- Rendi coerenti i componenti UI riutilizzabili.
-- Usa HTML semantico quando possibile.
-- Mantieni CSS leggibile e organizzato.
-- Mantieni JavaScript modulare, chiaro e prevedibile.
 
-## Vincoli GitHub Pages
-- Tutto deve funzionare su hosting statico.
-- Nessun rendering server-side.
-- Nessuna API server-only.
-- Nessuna assunzione di runtime Node in produzione.
-- Gestisci bene path relativi e assoluti in modo che il sito funzioni sia su github.io sia con un futuro dominio personalizzato.
+- Tratta il progetto come un catalogo/directory statico.
+- Evita logica duplicata tra file diversi.
+- Usa HTML semantico.
+- Mantieni CSS leggibile e organizzato in `style.css`.
+- Mantieni JavaScript modulare e prevedibile.
+- Se i dati sono in JSON o oggetti JS, mantieni struttura pulita e scalabile.
 
 ## Regole SEO
-- Ogni pagina importante deve avere title e meta description sensati.
-- Mantieni gerarchia corretta degli heading.
-- Aggiungi alt text alle immagini rilevanti.
-- Migliora la crawlability senza complicare il progetto.
-- Se servono file SEO, preferisci soluzioni statiche semplici come robots.txt e sitemap.xml.
+
+- Ogni pagina importante deve avere `title` e `meta description` sensati.
+- Mantieni gerarchia corretta degli heading (un solo `h1` per pagina).
+- Aggiungi `alt` text alle immagini rilevanti.
+- File SEO statici: `robots.txt` e `sitemap.xml` già presenti e configurati.
 
 ## Regole UX
-- Il mobile conta.
+
+- Il mobile è prioritario.
 - La navigazione deve restare chiara e immediata.
-- Evita popup invasivi, disordine e monetizzazione aggressiva.
+- Evita popup invasivi e monetizzazione aggressiva.
 - Dai priorità a leggibilità, fiducia e utilità.
 
 ## Regole monetizzazione
-- La monetizzazione deve essere leggera e non invasiva.
-- Preferisci CTA affiliate discrete, sezioni supporto/donazioni e blocchi utili.
-- Non aggiungere banner aggressivi, autoplay o pulsanti ingannevoli.
-- Se inserisci placeholder affiliati, etichettali chiaramente.
+
+- Monetizzazione leggera e non invasiva.
+- CTA affiliate discrete, sezioni supporto/donazioni, blocchi utili.
+- Niente banner aggressivi, autoplay o pulsanti ingannevoli.
 
 ## Tono del sito
-- Il sito deve sembrare indipendente, utile e affidabile.
-- I testi devono essere chiari, sintetici e orientati all'utente.
-- Evita linguaggio troppo pompato o marketing finto.
 
-## Controlli prima di modificare
-Chiediti sempre:
+- Indipendente, utile e affidabile.
+- Testi chiari, sintetici, orientati all'utente.
+- Niente linguaggio pompato o marketing finto.
+
+---
+
+## Struttura dati gioco (games.js)
+
+```js
+{
+  id: 1,                          // ID fisso, non cambiare
+  title: "Nome Gioco",
+  categories: ["action", "indie"],
+  genres: ["action"],
+  coopMode: ["online", "local"],  // online | local | sofa
+  maxPlayers: 4,
+  crossplay: false,               // true solo se verificato con certezza
+  players: "1-4",
+  image: "https://shared.cloudflare.steamstatic.com/...",
+  description: "...",             // italiano
+  description_en: "...",          // inglese
+  steamUrl: "https://store.steampowered.com/app/APPID/",
+  releaseYear: 2023,
+  rating: "molto positivo",
+  ccu: 12000,
+  tags: ["tag1", "tag2"],
+  isFree: false,
+  isIndie: false
+}
+```
+
+---
+
+## Collaborazione AI
+
+### Team
+
+| Agente | Ruolo |
+|--------|-------|
+| **Claude Code** | Leader tecnico — decisioni architetturali, QA, review, fix mirati |
+| **Aider + Ollama** (qwen2.5-coder:14b, GPU Vulkan) | Task delegati — coding ripetitivo, refactoring meccanico, generazione dati |
+| Gemini CLI | Fallback — quota API limitata, usare Ollama come default |
+
+### Regole di collaborazione
+
+- Leggere sempre `AI_COLLABORATION.md` prima di intervenire.
+- Aggiornare `AI_COLLABORATION.md` dopo modifiche rilevanti (sezione log con data).
+- Non sovrascrivere lavoro altrui senza prima leggere lo stato corrente.
+- Non lasciare decisioni importanti solo in chat — salvarle nei file del progetto.
+- Segnalare sempre se una conclusione è confermata o solo un'ipotesi.
+
+### Cosa NON deve mai fare nessuna AI
+
+- Creare `package.json`, `index.js`, `server.js` o qualsiasi file backend
+- Installare pacchetti npm o avviare un server locale come soluzione permanente
+- Fare commit o push senza conferma esplicita dell'utente
+- Creare file con nomi placeholder (es. `path/to/filename.js`)
+- Modificare `.github/workflows/` senza approvazione esplicita
+
+---
+
+## Checklist prima di modificare
+
 - Funziona ancora su GitHub Pages?
 - È più semplice o più manutenibile di prima?
-- Migliora davvero SEO, UX, struttura o preparazione alla monetizzazione?
+- Migliora davvero SEO, UX, struttura o monetizzazione?
 - Sto aggiungendo complessità inutile?
 
-## Output atteso
-Quando completi un task:
-- riassumi cosa hai cambiato
-- elenca i file toccati
-- segnala eventuali passaggi manuali rimasti
-- evidenzia tutto ciò che può influenzare deploy, SEO o dominio
+## Output atteso dopo un task
+
+- Riassumi cosa hai cambiato
+- Elenca i file toccati
+- Segnala passaggi manuali rimasti
+- Evidenzia tutto ciò che può influenzare deploy, SEO o dominio

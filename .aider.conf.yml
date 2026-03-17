@@ -1,0 +1,16 @@
+# Configurazione Aider — Co-op Games Hub
+# Documentazione: https://aider.chat/docs/config/aider_conf.html
+
+# File di contesto sempre caricati in sola lettura
+read:
+  - CLAUDE.md
+  - AI_COLLABORATION.md
+
+# Non fare commit automatici — aspetta conferma utente
+auto-commits: false
+
+# Niente push automatici
+auto-lint: false
+
+# Mostra diff prima di applicare modifiche
+pretty: true
