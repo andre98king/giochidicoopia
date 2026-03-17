@@ -14,7 +14,7 @@ class ItchCatalogSource:
         self.fetch_fn = fetch_fn
         self.max_games = max_games
 
-    def fetch_games(self, existing_itch_urls: set, next_id: int) -> list[dict]:
+    def fetch_games(self, existing_itch_urls: set, next_id: int, existing_titles: set | None = None) -> list[dict]:
         queries = [
             'co-op', 'cooperative multiplayer', 'local co-op',
             'online co-op', 'multiplayer indie',
@@ -48,6 +48,8 @@ class ItchCatalogSource:
             title = ig.get('title', '')
             if not title:
                 continue
+            if existing_titles and title.lower().strip() in existing_titles:
+                continue
 
             is_free = (ig.get('min_price', 1) == 0)
             cats = ['indie']
@@ -56,6 +58,7 @@ class ItchCatalogSource:
 
             added.append({
                 'id':             next_id,
+                'igdbId':         0,
                 'title':          title,
                 'categories':     cats,
                 'genres':         derive_genres(cats),
@@ -69,6 +72,7 @@ class ItchCatalogSource:
                 'personalNote':   '',
                 'played':         False,
                 'steamUrl':       '',
+                'gogUrl':         '',
                 'epicUrl':        '',
                 'itchUrl':        game_url,
                 'ccu':            0,

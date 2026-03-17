@@ -303,7 +303,7 @@ if ITCH_IO_KEY:
     print(f"\n🎲 Fetch giochi co-op da itch.io (query multiple)...")
     itch_source = ItchCatalogSource(ITCH_IO_KEY, steam_source.fetch_json, MAX_ITCH_GAMES)
     existing_itch_urls = {g.get('itchUrl', '') for g in existing_games if g.get('itchUrl')}
-    itch_new = itch_source.fetch_games(existing_itch_urls, next_id)
+    itch_new = itch_source.fetch_games(existing_itch_urls, next_id, existing_titles)
     for ng in itch_new:
         existing_games.append(ng)
         existing_titles.add(ng.get('title', '').lower().strip())
