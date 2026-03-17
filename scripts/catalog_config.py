@@ -1,7 +1,7 @@
 import os
 
 DELAY = 1.5    # secondi tra richieste API
-MAX_NEW_GAMES = 15     # max nuovi giochi per run
+MAX_NEW_GAMES = 30     # max nuovi giochi per run (SteamSpy)
 MAX_EN_FETCH = 30     # max giochi esistenti a cui aggiungere desc EN per run
 MIN_CCU_TRENDING = 800    # CCU minimo per badge 🔥 Trending
 MAX_ITCH_GAMES = 10     # max giochi itch.io per run
