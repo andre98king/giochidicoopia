@@ -233,18 +233,17 @@ function scheduleFreeSectionRefresh(activeGames) {
   if (freeSectionTimer) clearTimeout(freeSectionTimer);
   if (!activeGames.length) return;
   const urgent = activeGames.some(entry => (entry.expiresAt.getTime() - Date.now()) < 60 * 60 * 1000);
-  freeSectionTimer = window.setTimeout(() => renderFreeGamesSection(), urgent ? 1000 : 60000);
+  freeSectionTimer = window.setTimeout(() => renderFreeGamesSection(), urgent ? 30000 : 300000);
 }
 
 function scheduleFreeBadgeRefresh(activeGames) {
   if (freeBadgeTimer) clearTimeout(freeBadgeTimer);
   if (!activeGames.length) return;
-  const msToNextMinute = 60000 - (Date.now() % 60000);
   freeBadgeTimer = window.setTimeout(() => {
     const refreshedGames = getActiveFreeGames();
     renderGames();
     scheduleFreeBadgeRefresh(refreshedGames);
-  }, msToNextMinute);
+  }, 300000);
 }
 
 function renderFreeGamesSection() {
@@ -679,7 +678,7 @@ function createCard(game, freeEntry = null, cardIndex = 99) {
       </span>` : '';
 
   const crossplayHtml = game.crossplay
-    ? `<span class="crossplay-badge">🔄 ${t('mode_crossplay')}</span>` : '';
+    ? `<span class="crossplay-badge">${t('mode_crossplay')}</span>` : '';
 
   return `
     <div class="card ${isAdmin ? 'admin-mode' : ''} ${game.trending ? 'is-trending' : ''} ${freeEntry ? 'is-free-now' : ''}" data-id="${game.id}" role="listitem">
@@ -796,7 +795,7 @@ function openModal(id) {
         <div class="modal-desc">
           ${esc(game.players)} ${t('card_players')}
           ${game.ccu > 0 ? `<span class="modal-ccu">— <strong>${formatCCU(game.ccu)}</strong> ${t('modal_online')}</span>` : ''}
-          ${game.crossplay ? `<span class="modal-crossplay-badge">🔄 ${t('mode_crossplay')}</span>` : ''}
+          ${game.crossplay ? `<span class="modal-crossplay-badge">${t('mode_crossplay')}</span>` : ''}
           ${game.trending ? `<span class="modal-trending-label">${t('modal_trending')}</span>` : ''}
         </div>
       </div>
