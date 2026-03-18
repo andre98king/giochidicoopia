@@ -313,6 +313,10 @@ def build_public_catalog_export(games: list[dict[str, Any]]) -> dict[str, Any]:
                 "ccu": game["ccu"],
                 "trending": bool(game["trending"]),
                 "rating": game["rating"],
+                "igUrl": game.get("igUrl", ""),
+                "igDiscount": game.get("igDiscount") or 0,
+                "gbUrl": game.get("gbUrl", ""),
+                "gbDiscount": game.get("gbDiscount") or 0,
             }
         )
 
