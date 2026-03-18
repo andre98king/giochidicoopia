@@ -38,23 +38,14 @@ jobs:
         run: python3 scripts/validate_catalog.py
 
       - name: Commit and push changes
-        id: commit
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add assets/games.js games sitemap.xml data/catalog.games.v1.json data/catalog.public.v1.json index.html assets/i18n.js
           if git diff --staged --quiet; then
             echo "Nessuna modifica da committare."
-            echo "pushed=false" >> $GITHUB_OUTPUT
           else
             git commit -m "🤖 Auto-update database giochi"
             git pull --rebase -X ours origin main
             git push
-            echo "pushed=true" >> $GITHUB_OUTPUT
           fi
-
-      - name: Ping Google sitemap
-        if: steps.commit.outputs.pushed == 'true'
-        run: |
-          curl -s "https://www.google.com/ping?sitemap=https://coophubs.net/sitemap.xml"
-          echo "Sitemap notificata a Google."
