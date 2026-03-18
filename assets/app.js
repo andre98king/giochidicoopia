@@ -588,11 +588,12 @@ const AFFILIATE = {
   ig:   'gamer-ddc4a8',                          // Instant Gaming
   gb:   'fb308ca0-647e-4ce7-9e80-74c2c591eac1',  // GameBillet
   gmg:  'https://greenmangaming.sjv.io/qWzoQy',  // Green Man Gaming (Impact)
+  gameseal: 'https://www.dpbolvw.net/click-101708519-17170422', // Gameseal (CJ Affiliate)
 };
 
 // ===== UTM TRACKING + AFFILIATE =====
 function buildAffiliateBtns(game) {
-  if (!AFFILIATE.ig && !AFFILIATE.gb && !AFFILIATE.gmg) return '';
+  if (!AFFILIATE.ig && !AFFILIATE.gb && !AFFILIATE.gmg && !AFFILIATE.gameseal) return '';
   const q = encodeURIComponent(game.title);
   const btns = [];
 
@@ -621,6 +622,13 @@ function buildAffiliateBtns(game) {
     const gmgSearch = `https://www.greenmangaming.com/search/?query=${q}`;
     const gmgUrl = `${AFFILIATE.gmg}?u=${encodeURIComponent(gmgSearch)}`;
     btns.push(`<a class="btn-affiliate btn-gmg" href="${esc(gmgUrl)}" target="_blank" rel="noopener noreferrer sponsored"><span class="affiliate-store">Green Man Gaming</span></a>`);
+  }
+
+  // Gameseal: deep link via CJ Affiliate — search per titolo
+  if (AFFILIATE.gameseal && game.steamUrl) {
+    const gsSearch = `https://gameseal.com/search?search=${q}`;
+    const gsUrl = `${AFFILIATE.gameseal}?url=${encodeURIComponent(gsSearch)}`;
+    btns.push(`<a class="btn-affiliate btn-gameseal" href="${esc(gsUrl)}" target="_blank" rel="noopener noreferrer sponsored"><span class="affiliate-store">Gameseal</span></a>`);
   }
 
   return `<div class="affiliate-section"><div class="affiliate-title">💸 Prezzi alternativi</div><div class="affiliate-btns">${btns.join('')}</div></div>`;

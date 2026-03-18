@@ -20,7 +20,7 @@ SITEMAP = ROOT / "sitemap.xml"
 SITE_URL = "https://coophubs.net"
 TODAY = datetime.date.today().isoformat()
 CURRENT_YEAR = datetime.date.today().year
-ASSET_VERSION = "20260318-gmg"
+ASSET_VERSION = "20260318-gameseal"
 CROSSPLAY_UI_ENABLED = True
 
 
@@ -107,6 +107,7 @@ AFFILIATE_GOG  = ""
 AFFILIATE_IG  = "gamer-ddc4a8"
 AFFILIATE_GB  = "fb308ca0-647e-4ce7-9e80-74c2c591eac1"
 AFFILIATE_GMG = "https://greenmangaming.sjv.io/qWzoQy"  # Impact deep link base
+AFFILIATE_GAMESEAL = "https://www.dpbolvw.net/click-101708519-17170422"  # CJ Affiliate deep link
 
 
 def add_utm(url: str, campaign: str = "gamepage") -> str:
@@ -139,8 +140,8 @@ def render_store_links(game: dict) -> str:
             f'<a class="btn-store btn-itch" href="{esc(add_utm(game["itchUrl"]))}" target="_blank" '
             'rel="noopener noreferrer" style="padding:10px 20px;font-size:0.9rem">itch.io ↗</a>'
         )
-    # Prezzi alternativi — bottoni grandi con sconto IG/GB + GMG se disponibile
-    if game["steamUrl"] and (AFFILIATE_IG or AFFILIATE_GB or AFFILIATE_GMG):
+    # Prezzi alternativi — bottoni grandi con sconto IG/GB + GMG + Gameseal se disponibile
+    if game["steamUrl"] and (AFFILIATE_IG or AFFILIATE_GB or AFFILIATE_GMG or AFFILIATE_GAMESEAL):
         q = quote(game["title"])
         btns = []
         if AFFILIATE_IG:
@@ -169,6 +170,15 @@ def render_store_links(game: dict) -> str:
                 f'<a class="btn-affiliate btn-gmg" href="{esc(gmg_url)}" '
                 f'target="_blank" rel="noopener noreferrer sponsored">'
                 f'<span class="affiliate-store">Green Man Gaming</span></a>'
+            )
+        if AFFILIATE_GAMESEAL:
+            from urllib.parse import quote as _q
+            gs_search = f"https://gameseal.com/search?search={q}"
+            gs_url = f"{AFFILIATE_GAMESEAL}?url={_q(gs_search)}"
+            btns.append(
+                f'<a class="btn-affiliate btn-gameseal" href="{esc(gs_url)}" '
+                f'target="_blank" rel="noopener noreferrer sponsored">'
+                f'<span class="affiliate-store">Gameseal</span></a>'
             )
         links.append(
             '<div class="affiliate-section"><div class="affiliate-title">💸 Prezzi alternativi</div>'

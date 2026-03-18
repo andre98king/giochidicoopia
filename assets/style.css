@@ -1048,6 +1048,9 @@ body {
 /* Green Man Gaming button */
 .btn-gmg { background: linear-gradient(135deg, #1a2e1a 0%, #0f1f0f 100%); color: #4caf50; border: 1px solid rgba(76,175,80,0.35); }
 .btn-gmg:hover { filter: brightness(1.15); transform: translateY(-1px); }
+/* Gameseal button */
+.btn-gameseal { background: linear-gradient(135deg, #2e1a0a 0%, #1f0f05 100%); color: #ff8c42; border: 1px solid rgba(255,140,66,0.35); }
+.btn-gameseal:hover { filter: brightness(1.15); transform: translateY(-1px); }
 /* Affiliate buttons */
 .affiliate-section { margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--border); }
 .affiliate-title { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 1.5px; color: var(--text2); margin-bottom: 10px; font-weight: 600; }
