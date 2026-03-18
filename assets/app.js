@@ -654,13 +654,16 @@ function createCard(game, freeEntry = null, cardIndex = 99) {
   const noteHtml = game.played && game.personalNote
     ? `<div class="personal-note-preview">${safeNote}</div>` : '';
 
-  // Bottone principale: IG se disponibile, altrimenti Steam
+  // Bottone principale: IG → Steam → GOG come fallback
   let primaryBtn = '';
   if (game.igUrl && AFFILIATE.ig) {
     const discLabel = game.igDiscount > 0 ? ` -${game.igDiscount}%` : '';
     primaryBtn = `<a class="btn-store btn-ig-card" href="${esc(game.igUrl)}" target="_blank" rel="noopener noreferrer sponsored">Instant Gaming${discLabel} ↗</a>`;
   } else if (game.steamUrl) {
     primaryBtn = `<a class="btn-store btn-steam" href="${esc(addUtm(game.steamUrl))}" target="_blank" rel="noopener noreferrer">Steam ↗</a>`;
+  } else if (game.gogUrl) {
+    const gogHref = AFFILIATE.gog ? addUtm(game.gogUrl) + '&pp=' + AFFILIATE.gog : addUtm(game.gogUrl);
+    primaryBtn = `<a class="btn-store btn-gog" href="${esc(gogHref)}" target="_blank" rel="noopener noreferrer">GOG ↗</a>`;
   }
   const storeButtons = [
     primaryBtn,

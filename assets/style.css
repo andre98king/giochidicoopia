@@ -1038,6 +1038,9 @@ body {
 /* ===== ITCH.IO BUTTON ===== */
 .btn-itch { background: #2b1621; border: 1px solid #fa5c5c; color: #fa5c5c; }
 .btn-itch:hover { background: #3d1e2c; border-color: #ff8a80; }
+/* ===== GOG BUTTON ===== */
+.btn-gog { background: #1a1a1a; border: 1px solid #c6a84b; color: #c6a84b; }
+.btn-gog:hover { background: #2a2a2a; border-color: #e2c46e; }
 /* Bottone IG sulla card (sostituisce Steam) */
 .btn-ig-card { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #e2d96e; border: 1px solid rgba(226,217,110,0.3); font-weight: 700; }
 .btn-ig-card:hover { background: linear-gradient(135deg, #222244 0%, #1a2a50 100%); border-color: rgba(226,217,110,0.6); }
