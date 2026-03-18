@@ -1,0 +1,132 @@
+[    4200ms] [ERROR] Unexpected key "publisherSignup" found in preloadedState argument passed to createStore. Expected to find one of the known reducer keys instead: "content", "legal", "routing". Unexpected keys will be ignored. @ https://platform.cj.com/static/install-rum.js:0
+[    4207ms] [WARNING] Warning: componentWillReceiveProps has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://reactjs.org/link/derived-state
+* Rename componentWillReceiveProps to UNSAFE_componentWillReceiveProps to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s Connect(ContentLoaderPure), Provider @ https://members.cj.com/member/bundle/publisherSignupGating.js:24584
+[    4207ms] [WARNING] Warning: componentWillUpdate has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* Rename componentWillUpdate to UNSAFE_componentWillUpdate to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s Connect(ContentLoaderPure) @ https://members.cj.com/member/bundle/publisherSignupGating.js:24584
+[    4438ms] [ERROR] Warning: Failed %s type: %s%s prop Invalid prop `children` of type `array` supplied to `TopNav`, expected `object`. 
+    at TopNav (https://members.cj.com/member/bundle/publisherSignupGating.js:96292:25)
+    at DialogLayout (https://members.cj.com/member/bundle/publisherSignupGating.js:96084:25)
+    at PublisherSignupLegalDocumentsPure (https://members.cj.com/member/bundle/publisherSignupGating.js:95699:22)
+    at Connect (https://members.cj.com/member/bundle/publisherSignupGating.js:66854:10)
+    at <anonymous> (https://members.cj.com/member/bundle/publisherSignupGating.js:70319:38)
+    at <anonymous> (https://members.cj.com/member/bundle/publisherSignupGating.js:70319:38)
+    at exports.default (https://members.cj.com/member/bundle/publisherSignupGating.js:95567:23)
+    at ContentLoaderPure (https://members.cj.com/member/bundle/publisherSignupGating.js:77835:10)
+    at Connect (https://members.cj.com/member/bundle/publisherSignupGating.js:66854:10)
+    at Provider (https://members.cj.com/member/bundle/publisherSignupGating.js:66614:6) @ https://platform.cj.com/static/install-rum.js:0
+[    4444ms] [WARNING] Warning: componentWillReceiveProps has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://reactjs.org/link/derived-state
+* Rename componentWillReceiveProps to UNSAFE_componentWillReceiveProps to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s Connect(PublisherSignupLegalDocumentsPure) @ https://members.cj.com/member/bundle/publisherSignupGating.js:24584
+[    4444ms] [WARNING] Warning: componentWillUpdate has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* Rename componentWillUpdate to UNSAFE_componentWillUpdate to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s Connect(PublisherSignupLegalDocumentsPure) @ https://members.cj.com/member/bundle/publisherSignupGating.js:24584
+[  209594ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://iam.cj.com/api/users/9924e8b0-1731-446d-96e0-08094f7eb854/browser-preferences/widget_settings?company_id=7903980:0
+[  211673ms] [ERROR] Warning: React.createElement: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s%s undefined  You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `$s`. 
+    at $s (https://platform.cj.com/nav/v3/runtime/runtime.js:2:670055)
+    at X (https://platform.cj.com/nav/v3/runtime/runtime.js:2:447358)
+    at I (https://platform.cj.com/nav/v3/runtime/runtime.js:2:443248)
+    at Oa (https://platform.cj.com/nav/v3/runtime/runtime.js:2:539168)
+    at x (https://platform.cj.com/nav/v3/runtime/runtime.js:2:440669)
+    at Ds (https://platform.cj.com/nav/v3/runtime/runtime.js:2:632683)
+    at PlatformNav (https://platform.cj.com/nav/v3/runtime/runtime.js:2:704404)
+    at RenderedRoute (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:111410:30)
+    at RenderErrorBoundary (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:111341:8)
+    at DataRoutes (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:109508:25)
+    at Router (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:112073:33)
+    at RouterProvider (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:109226:33)
+    at ApplicationRoutes (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:108581:22)
+    at CompanyContextProvider (https://platform.cj.com/nav/v3/runtime/runtime.js:2:708892)
+    at CompanyContextProvider (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:98381:24)
+    at BreakpointContextProvider (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:78140:25)
+    at RuntimeContextProvider (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:98547:24)
+    at IntlProvider (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:107870:48)
+    at ReactIntlProvider (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:108292:30)
+    at RemoteTranslationProvider (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:108446:24)
+    at UserContextProvider (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:78952:24)
+    at ConfigContextProvider (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:78319:24)
+    at https://members.cj.com/member/bundle/pubOnboardingChecklist.js:74471:32 @ https://platform.cj.com/static/install-rum.js:0
+[  211673ms] [ERROR] Warning: React.createElement: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s%s undefined  You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `$s`. 
+    at $s (https://platform.cj.com/nav/v3/runtime/runtime.js:2:670055)
+    at X (https://platform.cj.com/nav/v3/runtime/runtime.js:2:447358)
+    at I (https://platform.cj.com/nav/v3/runtime/runtime.js:2:443248)
+    at Oa (https://platform.cj.com/nav/v3/runtime/runtime.js:2:539168)
+    at x (https://platform.cj.com/nav/v3/runtime/runtime.js:2:440669)
+    at Ds (https://platform.cj.com/nav/v3/runtime/runtime.js:2:632683)
+    at PlatformNav (https://platform.cj.com/nav/v3/runtime/runtime.js:2:704404)
+    at RenderedRoute (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:111410:30)
+    at RenderErrorBoundary (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:111341:8)
+    at DataRoutes (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:109508:25)
+    at Router (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:112073:33)
+    at RouterProvider (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:109226:33)
+    at ApplicationRoutes (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:108581:22)
+    at CompanyContextProvider (https://platform.cj.com/nav/v3/runtime/runtime.js:2:708892)
+    at CompanyContextProvider (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:98381:24)
+    at BreakpointContextProvider (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:78140:25)
+    at RuntimeContextProvider (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:98547:24)
+    at IntlProvider (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:107870:48)
+    at ReactIntlProvider (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:108292:30)
+    at RemoteTranslationProvider (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:108446:24)
+    at UserContextProvider (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:78952:24)
+    at ConfigContextProvider (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:78319:24)
+    at https://members.cj.com/member/bundle/pubOnboardingChecklist.js:74471:32 @ https://platform.cj.com/static/install-rum.js:0
+[  213388ms] [ERROR] Warning: React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element.%s singleClass singleclass 
+    at button
+    at Button (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:135300:10)
+    at div
+    at div
+    at div
+    at div
+    at div
+    at ChecklistItem (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:191945:10)
+    at div
+    at div
+    at SetupPagePure (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:190846:36)
+    at SetupPage (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:191334:10)
+    at Content
+    at https://members.cj.com/member/bundle/pubOnboardingChecklist.js:46811:23
+    at div
+    at main
+    at div
+    at $s (https://platform.cj.com/nav/v3/runtime/runtime.js:2:670055)
+    at X (https://platform.cj.com/nav/v3/runtime/runtime.js:2:447358)
+    at I (https://platform.cj.com/nav/v3/runtime/runtime.js:2:443248)
+    at Oa (https://platform.cj.com/nav/v3/runtime/runtime.js:2:539168)
+    at x (https://platform.cj.com/nav/v3/runtime/runtime.js:2:440669)
+    at Ds (https://platform.cj.com/nav/v3/runtime/runtime.js:2:632683)
+    at PlatformNav (https://platform.cj.com/nav/v3/runtime/runtime.js:2:704404)
+    at RenderedRoute (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:111410:30)
+    at RenderErrorBoundary (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:111341:8)
+    at DataRoutes (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:109508:25)
+    at Router (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:112073:33)
+    at RouterProvider (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:109226:33)
+    at ApplicationRoutes (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:108581:22)
+    at CompanyContextProvider (https://platform.cj.com/nav/v3/runtime/runtime.js:2:708892)
+    at CompanyContextProvider (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:98381:24)
+    at BreakpointContextProvider (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:78140:25)
+    at RuntimeContextProvider (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:98547:24)
+    at IntlProvider (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:107870:48)
+    at ReactIntlProvider (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:108292:30)
+    at RemoteTranslationProvider (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:108446:24)
+    at UserContextProvider (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:78952:24)
+    at ConfigContextProvider (https://members.cj.com/member/bundle/pubOnboardingChecklist.js:78319:24)
+    at https://members.cj.com/member/bundle/pubOnboardingChecklist.js:74471:32 @ https://platform.cj.com/static/install-rum.js:0

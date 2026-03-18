@@ -1,0 +1,94 @@
+[    1205ms] [WARNING] No available adapters. @ https://www.greenmangaming.com/affiliates/:0
+[    1205ms] [WARNING] No available adapters. @ https://www.greenmangaming.com/affiliates/:0
+[   17164ms] [WARNING] %cRactive.js: %cRactive already appears to be loaded while loading 1.3.2. color: rgb(114, 157, 52); color: rgb(85, 85, 85); @ https://app.impact.com/cp/uitk/scripts/ractive/ractive.min__va103155.js:2
+[   38807ms] [ERROR] ReferenceError: _imenvt_ is not defined
+    at window.fireGTMEvent (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:18:56719)
+    at s.fireGTMEvents (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:18:42519)
+    at s.doSubmit (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:18:40991)
+    at s.onViewChange (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:18:40067)
+    at Gt (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:6:20531)
+    at s.r (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:6:10831)
+    at Gt (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:6:20531)
+    at t.$emit (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:6:25134)
+    at s.onSignUpWithEmailClick (https://app.impact.com/apps/signup-publisher/dist/assets/Start-C49QzE21.js:1:1227)
+    at Gt (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:6:20531) @ https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:5
+[  153494ms] [ERROR] ReferenceError: _imenvt_ is not defined
+    at window.fireGTMEvent (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:18:56719)
+    at s.fireGTMEvents (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:18:42519)
+    at s.doSubmit (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:18:40991)
+    at s.onViewChange (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:18:40067)
+    at Gt (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:6:20531)
+    at s.r (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:6:10831)
+    at Gt (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:6:20531)
+    at t.$emit (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:6:25134)
+    at click (https://app.impact.com/apps/signup-publisher/dist/assets/ListMultiSelect-1-blEEcZ.js:1:1677)
+    at Gt (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:6:20531) @ https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:5
+[  153555ms] [ERROR] TypeError: Cannot set properties of undefined (setting 'showInfoPopup')
+    at s.closeInfoPopUp (https://app.impact.com/apps/signup-publisher/dist/assets/WhereDoYouPromote-BUsYLTay.js:1:5863)
+    at close (https://app.impact.com/apps/signup-publisher/dist/assets/WhereDoYouPromote-BUsYLTay.js:1:7594)
+    at Gt (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:6:20531)
+    at s.r (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:6:10831)
+    at Gt (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:6:20531)
+    at t.$emit (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:6:25134)
+    at s.handler (https://app.impact.com/apps/signup-publisher/dist/assets/ConfirmationPopup-Cj1oGEG5.js:1:569)
+    at Gt (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:6:20531)
+    at t.run (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:6:23537)
+    at Mu (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:6:28666) @ https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:5
+[  165501ms] [ERROR] ReferenceError: _imenvt_ is not defined
+    at window.fireGTMEvent (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:18:56719)
+    at s.fireGTMEvents (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:18:42519)
+    at s.doSubmit (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:18:40991)
+    at s.onViewChange (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:18:40067)
+    at Gt (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:6:20531)
+    at s.r (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:6:10831)
+    at Gt (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:6:20531)
+    at t.$emit (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:6:25134)
+    at https://app.impact.com/apps/signup-publisher/dist/assets/MediaPropertyOauthOrForm-0Wdrsyic.js:1:5010 @ https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:5
+[  165513ms] [ERROR] TypeError: Cannot set properties of undefined (setting 'showInfoPopup')
+    at s.closeInfoPopUp (https://app.impact.com/apps/signup-publisher/dist/assets/WhereDoYouPromote-BUsYLTay.js:1:5863)
+    at close (https://app.impact.com/apps/signup-publisher/dist/assets/WhereDoYouPromote-BUsYLTay.js:1:7594)
+    at Gt (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:6:20531)
+    at s.r (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:6:10831)
+    at Gt (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:6:20531)
+    at t.$emit (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:6:25134)
+    at s.handler (https://app.impact.com/apps/signup-publisher/dist/assets/ConfirmationPopup-Cj1oGEG5.js:1:569)
+    at Gt (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:6:20531)
+    at t.run (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:6:23537)
+    at Mu (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:6:28666) @ https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:5
+[  171215ms] [ERROR] ReferenceError: _imenvt_ is not defined
+    at window.fireGTMEvent (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:18:56719)
+    at s.fireGTMEvents (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:18:42519)
+    at s.doSubmit (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:18:40991)
+    at s.onViewChange (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:18:40067)
+    at Gt (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:6:20531)
+    at s.r (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:6:10831)
+    at Gt (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:6:20531)
+    at t.$emit (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:6:25134)
+    at click (https://app.impact.com/apps/signup-publisher/dist/assets/WhereDoYouPromote-BUsYLTay.js:1:7066)
+    at Gt (https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:6:20531) @ https://app.impact.com/apps/signup-publisher/dist/assets/main-DYhc2QJP.js:5
+[  234025ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://app.impact.com/secure/login.user:0
+[  234958ms] [ERROR] %c%d font-size:0;color:transparent NaN @ https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/jkese/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto:0
+[  234958ms] [ERROR] %c%d font-size:0;color:transparent NaN @ https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/jkese/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto:0
+[  234961ms] [WARNING] %c%d font-size:0;color:transparent NaN @ https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/jkese/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto:0
+[  234961ms] [WARNING] %c%d font-size:0;color:transparent NaN @ https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/jkese/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto:0
+[  235020ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/9de43f9e48b10e9b/1773837025283/ab6f8acadc3dab53d3cdb3c8924de15b9d3186eb0adc36d82f344b2ddf457686/ZZvrYcqxOL0bKjq:0
+[  235070ms] [ERROR] Permissions policy violation: xr-spatial-tracking is not allowed in this document. @ https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/jkese/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto:0
+[  235070ms] [ERROR] Permissions policy violation: xr-spatial-tracking is not allowed in this document. @ https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/jkese/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto:0
+[  235118ms] [WARNING] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently @ https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/jkese/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto:0
+[  235198ms] [WARNING] WebGL: INVALID_ENUM: renderbufferStorage: EXT_color_buffer_float/EXT_color_buffer_half_float not enabled @ https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/jkese/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto:0
+[  235198ms] [WARNING] WebGL: INVALID_ENUM: renderbufferStorage: EXT_color_buffer_float/EXT_color_buffer_half_float not enabled @ https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/jkese/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto:0
+[  235199ms] [WARNING] WebGL: INVALID_ENUM: renderbufferStorage: EXT_color_buffer_float/EXT_color_buffer_half_float not enabled @ https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/jkese/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto:0
+[  235199ms] [WARNING] WebGL: INVALID_ENUM: renderbufferStorage: EXT_color_buffer_float not enabled @ https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/jkese/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto:0
+[  235199ms] [WARNING] WebGL: INVALID_ENUM: renderbufferStorage: EXT_color_buffer_float not enabled @ https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/jkese/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto:0
+[  235200ms] [WARNING] WebGL: INVALID_ENUM: renderbufferStorage: EXT_color_buffer_float not enabled @ https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/jkese/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto:0
+[  235200ms] [WARNING] WebGL: INVALID_ENUM: renderbufferStorage: EXT_color_buffer_float not enabled @ https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/jkese/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto:0
+[  235237ms] [WARNING] No available adapters. @ https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/jkese/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto:0
+[  235326ms] [ERROR]  Note that 'script-src' was not explicitly set, so 'default-src' is used as a fallback. @ https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/jkese/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto:0
+[  239111ms] [WARNING] An import map rule for specifier 'vue' was removed, as it conflicted with an existing rule. @ https://app.impact.com/secure/mediapartner/checklist/checklist-instance.ihtml?id=___9XpvYq1Sf0-BHmwgf1a9MGkoPqM53Q0L:0
+[  239239ms] [WARNING] %cRactive.js: %cRactive already appears to be loaded while loading 1.3.2. color: rgb(114, 157, 52); color: rgb(85, 85, 85); @ https://app.impact.com/cp/uitk/scripts/ractive/ractive.min__va103155.js:2
+[  241628ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://svc.webspellchecker.net/spellcheck/script/ssrv.cgi:0
+[  241628ms] [WARNING] Subscription expired. Contact support at support@webspellchecker.net for assistance. @ https://us-assets.i.posthog.com/static/posthog-recorder.js?v=1.361.0:0
+[  398551ms] [WARNING] An import map rule for specifier 'vue' was removed, as it conflicted with an existing rule. @ https://app.impact.com/secure/mediapartner/checklist/checklist-instance.ihtml?id=___9XpvYq1Sf0-BHmwgf1a9MGkoPqM53Q0L:0
+[  398917ms] [WARNING] %cRactive.js: %cRactive already appears to be loaded while loading 1.3.2. color: rgb(114, 157, 52); color: rgb(85, 85, 85); @ https://us-assets.i.posthog.com/static/posthog-recorder.js?v=1.361.0:0
+[  400076ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://svc.webspellchecker.net/spellcheck/script/ssrv.cgi:0
+[  400076ms] [WARNING] Subscription expired. Contact support at support@webspellchecker.net for assistance. @ https://us-assets.i.posthog.com/static/posthog-recorder.js?v=1.361.0:0

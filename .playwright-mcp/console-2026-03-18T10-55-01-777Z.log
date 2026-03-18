@@ -1,0 +1,5 @@
+[     276ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.gog.com/en/affiliate_program:0
+[     532ms] [WARNING] EventBus is duplicated! @ https://www4-static.gog-statics.com/js/jsGlobal-32f4847ce53836d2fdf6.js:0
+[     554ms] [WARNING] Access Token Client is duplicated! @ https://www4-static.gog-statics.com/js/jsGlobal-32f4847ce53836d2fdf6.js:0
+[     569ms] [WARNING] EventBus is duplicated! @ https://www4-static.gog-statics.com/js/jsGlobal-32f4847ce53836d2fdf6.js:0
+[     645ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://api.gog.com/user/accessToken.json:0
