@@ -103,6 +103,9 @@ def json_for_script(value) -> str:
 # GOG:  gog.com/partner          → AFFILIATE_GOG  = '12345'
 AFFILIATE_EPIC = ""
 AFFILIATE_GOG  = ""
+# Attivi: link di ricerca per gioco (Instant Gaming + GameBillet)
+AFFILIATE_IG = "gamer-ddc4a8"
+AFFILIATE_GB = "fb308ca0-647e-4ce7-9e80-74c2c591eac1"
 
 
 def add_utm(url: str, campaign: str = "gamepage") -> str:
@@ -118,6 +121,7 @@ def add_utm(url: str, campaign: str = "gamepage") -> str:
 
 
 def render_store_links(game: dict) -> str:
+    from urllib.parse import quote
     links = []
     if game["steamUrl"]:
         links.append(
@@ -133,6 +137,24 @@ def render_store_links(game: dict) -> str:
         links.append(
             f'<a class="btn-store btn-itch" href="{esc(add_utm(game["itchUrl"]))}" target="_blank" '
             'rel="noopener noreferrer" style="padding:10px 20px;font-size:0.9rem">itch.io ↗</a>'
+        )
+    # Prezzi alternativi (link ricerca affiliato) — solo per giochi Steam
+    if game["steamUrl"] and (AFFILIATE_IG or AFFILIATE_GB):
+        q = quote(game["title"])
+        price_links = []
+        if AFFILIATE_IG:
+            price_links.append(
+                f'<a class="price-compare-link" href="https://www.instant-gaming.com/en/search/?gameName={q}&igr={AFFILIATE_IG}" '
+                'target="_blank" rel="noopener noreferrer sponsored">Instant Gaming ↗</a>'
+            )
+        if AFFILIATE_GB:
+            price_links.append(
+                f'<a class="price-compare-link" href="https://www.gamebillet.com/search?q={q}&affiliate={AFFILIATE_GB}" '
+                'target="_blank" rel="noopener noreferrer sponsored">GameBillet ↗</a>'
+            )
+        links.append(
+            '<div class="price-compare-row"><span class="price-compare-label">Prezzi alternativi:</span>'
+            + "".join(price_links) + "</div>"
         )
     return "".join(links)
 

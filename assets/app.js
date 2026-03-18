@@ -585,9 +585,21 @@ function attachCardListeners(grid) {
 const AFFILIATE = {
   epic: '',   // es. 'COOPHUBS' → aggiunge ?creator=COOPHUBS
   gog:  '',   // es. '12345'    → aggiunge ?pp=12345
+  // Attivi (link di ricerca per gioco):
+  ig:   'gamer-ddc4a8',                          // Instant Gaming
+  gb:   'fb308ca0-647e-4ce7-9e80-74c2c591eac1',  // GameBillet
 };
 
 // ===== UTM TRACKING + AFFILIATE =====
+function buildPriceCompare(title) {
+  if (!AFFILIATE.ig && !AFFILIATE.gb) return '';
+  const q = encodeURIComponent(title);
+  const links = [];
+  if (AFFILIATE.ig) links.push(`<a class="price-compare-link" href="https://www.instant-gaming.com/en/search/?gameName=${q}&igr=${AFFILIATE.ig}" target="_blank" rel="noopener noreferrer sponsored">Instant Gaming ↗</a>`);
+  if (AFFILIATE.gb) links.push(`<a class="price-compare-link" href="https://www.gamebillet.com/search?q=${q}&affiliate=${AFFILIATE.gb}" target="_blank" rel="noopener noreferrer sponsored">GameBillet ↗</a>`);
+  return `<div class="price-compare-row"><span class="price-compare-label">Prezzi alternativi:</span>${links.join('')}</div>`;
+}
+
 function addUtm(url, campaign = 'catalog') {
   if (!url) return '';
   const sep = url.includes('?') ? '&' : '?';
@@ -737,6 +749,7 @@ function openModal(id) {
     game.epicUrl  ? `<a class="btn-primary btn-epic-lg" href="${esc(addUtm(game.epicUrl, 'modal'))}"  target="_blank" rel="noopener noreferrer">Epic Games ↗</a>` : '',
     game.itchUrl  ? `<a class="btn-store btn-itch" href="${esc(addUtm(game.itchUrl, 'modal'))}" target="_blank" rel="noopener noreferrer" style="padding:10px 20px;font-size:0.9rem">itch.io ↗</a>` : '',
   ].join('');
+  const priceCompare = game.steamUrl ? buildPriceCompare(game.title) : '';
 
   const adminEdit = isAdmin
     ? `<button class="btn-details" onclick="closeModal();openAdminModal(${id})" style="padding:10px 20px">${t('btn_edit')}</button>` : '';
@@ -778,6 +791,7 @@ function openModal(id) {
         ${adminEdit}
         <button class="btn-details" onclick="closeModal()" style="padding:10px 20px">${t('btn_close')}</button>
       </div>
+      ${priceCompare}
     </div>`;
 
   document.getElementById('modalOverlay').classList.add('open');

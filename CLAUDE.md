@@ -85,6 +85,26 @@ Nessun backend. Nessun framework. Nessun runtime Node in produzione.
 - CTA affiliate discrete, sezioni supporto/donazioni, blocchi utili.
 - Niente banner aggressivi, autoplay o pulsanti ingannevoli.
 
+## Programmi affiliate attivi (stato 2026-03-18)
+
+| Store | Stato | Commissione | Note |
+|-------|-------|-------------|------|
+| **Instant Gaming** | Attivo | 3% | Link: `?igr=gamer-ddc4a8` — in `AFFILIATE.ig` (app.js) |
+| **GameBillet** | Attivo | 5% | Link: `?affiliate=fb308ca0-...` — in `AFFILIATE.gb` (app.js) |
+| **WinGameStore** | In review | 5% | Account creato, approvazione entro 5gg lavorativi |
+| **Green Man Gaming** | In review | 5%/2% | Impact.com username: coophubs |
+| **Epic Games** | Pending | varia | `AFFILIATE.epic` in app.js pronto, manca Creator Code |
+| **GOG** | Pending | varia | `AFFILIATE.gog` in app.js pronto, manca partner ID |
+| **CJ Affiliate** | 7 pending | varia | Fanatical, G2A, Gameseal, GAMIVO, GOG INT, K4G, Kinguin |
+
+### Architettura affiliate nel codice
+
+- **`assets/app.js`** → oggetto `AFFILIATE` (riga ~585) + funzione `buildPriceCompare()` + `addUtm()`
+- **`scripts/build_static_pages.py`** → costanti `AFFILIATE_*` (riga ~104) + `render_store_links()`
+- Link "Prezzi alternativi" (IG + GameBillet) appaiono nel modal e nelle pagine statiche solo se il gioco ha `steamUrl`
+- Epic/GOG: parametri già predisposti, attivabili riempiendo le costanti
+- I link usano `rel="sponsored"` come da best practice SEO
+
 ## Tono del sito
 
 - Indipendente, utile e affidabile.

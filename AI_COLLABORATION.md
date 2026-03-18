@@ -71,6 +71,14 @@ Anno footer 2025→2026, sezione giochi gratuiti (`free.html`, `fetch_free_games
 - Ripristinato repo locale a origin/main (`c241c03`), poi pull allineato a `69ca2e3`
 - Riorganizzazione file MD: `CLAUDE.md` unificato (era duplicato tra CLAUDE.md e AIDER_INSTRUCTIONS.md), `AI_COLLABORATION.md` trimmed, `SETUP_DOMAIN_CLOUDFLARE.md` rimosso (setup già completato), `.gitignore` migliorato, `.aider.conf.yml` creato
 
+### 2026-03-18 — parte 2 (Claude Code)
+- **Affiliate integrazione nel sito**: aggiunto blocco "Prezzi alternativi" nel modal (app.js) e nelle pagine statiche (build_static_pages.py)
+  - Instant Gaming: `?igr=gamer-ddc4a8` — link ricerca per titolo gioco
+  - GameBillet: `?affiliate=fb308ca0-647e-4ce7-9e80-74c2c591eac1` — link ricerca per titolo gioco
+  - Visibile solo per giochi con `steamUrl`, con `rel="sponsored"`, design discreto
+  - Epic/GOG: costanti predisposte in `AFFILIATE.epic` / `AFFILIATE.gog`, da riempire quando approvati
+- **CLAUDE.md**: aggiunta sezione "Programmi affiliate attivi" con tabella stato e architettura codice
+
 ### 2026-03-18 (Claude Code)
 - Analisi completa stato progetto: catalogo a 520 giochi, nuovi adapter IGDB/GOG/steam_new_releases
 - **CJ Affiliate**: completato onboarding (9/9 step), W-8BEN firmato, account attivo

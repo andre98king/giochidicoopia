@@ -1031,6 +1031,10 @@ body {
 /* ===== ITCH.IO BUTTON ===== */
 .btn-itch { background: #2b1621; border: 1px solid #fa5c5c; color: #fa5c5c; }
 .btn-itch:hover { background: #3d1e2c; border-color: #ff8a80; }
+.price-compare-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; padding: 8px 0 0; font-size: 0.82rem; }
+.price-compare-label { color: #888; white-space: nowrap; }
+.price-compare-link { color: var(--accent); text-decoration: none; opacity: 0.75; }
+.price-compare-link:hover { opacity: 1; text-decoration: underline; }
 
 /* ===== FEATURED INDIE BANNER ===== */
 .featured-section {
