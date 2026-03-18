@@ -80,6 +80,8 @@ Anno footer 2025→2026, sezione giochi gratuiti (`free.html`, `fetch_free_games
   - impact.com general marketplace: Declined (VPN + timing verifica) — non influenza GMG
   - Meta tag verifica aggiunto a index.html, sito verificato
 - **WinGameStore affiliate**: account creato (andrea900924@gmail.com), email confermata, in attesa approvazione (entro 5 giorni lavorativi)
+- **Instant Gaming affiliate**: già attivo — link `https://www.instant-gaming.com/?igr=gamer-ddc4a8` (3% commissione per vendita)
+- **GameBillet affiliate**: attivo — link `http://www.gamebillet.com/?affiliate=fb308ca0-647e-4ce7-9e80-74c2c591eac1` (5% commissione, pagamento il 15 del mese)
 - **Ko-fi support strip**: sezione sopra footer con pulsante grande visibile
 - **Crossplay**: filtro UI attivato, 86 giochi marcati, hreflang aggiunto alle pagine statiche
 - Fix SEO critico: sitemap re-inviata a Google (era ferma a 314 URL del 14/03, ora 524 URL)
@@ -93,8 +95,8 @@ Anno footer 2025→2026, sezione giochi gratuiti (`free.html`, `fetch_free_games
 - Attendere risposta GOG direct affiliate (affiliate@gog.com)
 - Attendere approvazione Green Man Gaming (Impact.com, 2 giorni lavorativi)
 - Attendere approvazione **WinGameStore** affiliate (email confermata, entro 5 giorni lavorativi)
-- Completare iscrizione **Instant Gaming** affiliate (richiede login Google manuale)
-- Completare iscrizione **GameBillet** affiliate (registrazione a metà)
+- **Instant Gaming affiliate**: attivo — link `https://www.instant-gaming.com/?igr=gamer-ddc4a8` (3% commissione)
+- **GameBillet affiliate**: attivo — link `http://www.gamebillet.com/?affiliate=fb308ca0-647e-4ce7-9e80-74c2c591eac1` (5% commissione, pagamento il 15 del mese)
 - Analytics: attivare Cloudflare Web Analytics (zero cookie, gratuito)
 - Paginazione/lazy loading: 520 giochi tutti in RAM è pesante su mobile
 - Verificare campi `isFree` e `isIndie` (risultano sempre false)
