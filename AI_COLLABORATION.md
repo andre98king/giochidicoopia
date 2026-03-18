@@ -31,13 +31,13 @@ Setup Ollama: v0.18.0, backend Vulkan, ~5s generazione codice, ~26s analisi file
 ## Stato corrente del progetto
 
 - **Sito**: online su https://coophubs.net (GitHub Pages + Cloudflare)
-- **Catalogo**: 520 giochi, pipeline modulare multi-source
-- **Pagine statiche**: 520 pagine in `games/` + sitemap aggiornata
+- **Catalogo**: 529 giochi, pipeline modulare multi-source
+- **Pagine statiche**: 529 pagine in `games/` + sitemap aggiornata
 - **i18n**: completo su tutte le pagine principali (IT/EN)
 - **Giochi gratuiti**: workflow giornaliero funzionante con dati reali
 - **PageSpeed Mobile**: Performance 93, Accessibility 92, Best Practices 100, SEO 100
 - **Architettura pipeline**: `auto_update.py` → `catalog_config.py` + `steam_catalog_source.py` + `itch_catalog_source.py` + `gog_catalog_source.py` + `igdb_catalog_source.py` + `steam_new_releases_source.py` + `catalog_data.py`
-- **Monetizzazione**: Ko-fi footer attivo, UTM tracking su link store, CJ Affiliate attivo (Fanatical in review), GOG affiliate in attesa risposta
+- **Monetizzazione**: Ko-fi footer attivo, IG/GB/GMG affiliate attivi con sconto %, CJ Affiliate pending (7 store), GOG/Epic/WinGameStore in attesa approvazione
 - **Crossplay**: 86 giochi marcati `true`, filtro UI attivato, hreflang aggiunto
 
 ### Decisioni architetturali confermate
@@ -95,15 +95,38 @@ Anno footer 2025→2026, sezione giochi gratuiti (`free.html`, `fetch_free_games
 - Fix SEO critico: sitemap re-inviata a Google (era ferma a 314 URL del 14/03, ora 524 URL)
 - Workflow `update.yml`: cron cambiato da settimanale a **giornaliero** (ogni giorno 6:00 UTC)
 
+### 2026-03-18 — parte 3 (Claude Code)
+
+- **UI Fix — CSS cache**: ASSET_VERSION bump `20260314-cachefix1` → `20260318-gmg` (forza Cloudflare a servire CSS aggiornato con classi `.btn-affiliate`)
+- **UI Fix — immagini nere above-fold**: prime 6 card usano `loading="eager"` via parametro `cardIndex` in `createCard()`
+- **UI Fix — crossplay doppio emoji**: rimosso `🔄 ` hardcoded dal template (era duplicato con stringa i18n)
+- **UI Fix — page flash**: timer `scheduleFreeSectionRefresh` da 1000ms → 30000ms; badge refresh da ogni minuto a ogni 5 minuti
+- **Card button IG-first**: sostituita priorità Steam con IG sulla card — bottone IG con badge sconto %; GOG fallback per giochi senza Steam/IG
+- **GameBillet su card**: aggiunto `btn-gb-card` con badge sconto % accanto al bottone primario
+- **Green Man Gaming**: integrato nel modal e pagine statiche via Impact deep link `sjv.io/qWzoQy?u=ENCODED_SEARCH_URL`; account GMG su Impact.com in review
+- **Gameseal approvato** su CJ Affiliate (members.cj.com)
+- **Fix critico catalog.public.v1.json**: `build_public_catalog_export()` in `catalog_data.py` non includeva `igUrl/igDiscount/gbUrl/gbDiscount` → app.js non riceveva mai i dati affiliate → Steam sempre mostrato. Fix applicato e 529 pagine rigenerate.
+- **Copertura affiliate**: IG 305/529 giochi (78.6% su Steam games), GB 3/529 (bassa — catalogo GB piccolo)
+- **Skill Claude installate**: theme-factory, brand-guidelines, mcp-builder, webapp-testing, slack-gif-creator, document-pdf/docx/xlsx/pptx
+
 ---
 
 ## Prossimi step consigliati
 
-- Attendere approvazione CJ (Fanatical, GOG, Kinguin, GAMIVO, K4G, Gameseal, G2A)
-- Attendere risposta GOG direct affiliate (affiliate@gog.com)
-- Attendere approvazione Green Man Gaming (Impact.com, 2 giorni lavorativi)
-- Attendere approvazione **WinGameStore** affiliate (email confermata, entro 5 giorni lavorativi)
-- **Instant Gaming affiliate**: attivo — link `https://www.instant-gaming.com/?igr=gamer-ddc4a8` (3% commissione)
-- **GameBillet affiliate**: attivo — link `http://www.gamebillet.com/?affiliate=fb308ca0-647e-4ce7-9e80-74c2c591eac1` (5% commissione, pagamento il 15 del mese)
-- Analytics: attivare Cloudflare Web Analytics (zero cookie, gratuito)
-- Paginazione/lazy loading: 520 giochi tutti in RAM è pesante su mobile
+### In attesa di approvazioni
+- WinGameStore: email supporto inviata per riconfermazione — attendere risposta
+- Green Man Gaming (Impact.com): account in review, ~2 giorni lavorativi
+- CJ Affiliate pending: Fanatical, G2A, GAMIVO, GOG.COM INT, K4G, Kinguin (Gameseal già approvato)
+- GOG direct: email inviata a affiliate@gog.com — attendere partner ID
+- Epic Games: Creator Code da richiedere in Epic Partner Portal
+
+### Tecnici prioritari
+- **GameBillet scraper**: copertura solo 3/529 giochi — investigare causa (WAF? catalogo piccolo? DELAY?)
+- **Cloudflare Web Analytics**: attivare dal dashboard (gratuito, zero cookie, GDPR-friendly)
+- **Error handling fetch**: aggiungere `.catch()` e timeout al fetch di `catalog.public.v1.json` in `app.js`
+
+### Quando le approvazioni arrivano
+- CJ stores: aggiungere link Gameseal/Fanatical nel modal (`buildAffiliateBtns()`)
+- GOG: compilare `AFFILIATE.gog` in `app.js` + `AFFILIATE_GOG` in `build_static_pages.py`
+- Epic: compilare `AFFILIATE.epic` in `app.js`
+- WinGameStore: aggiungere in `buildAffiliateBtns()` e `render_store_links()`
