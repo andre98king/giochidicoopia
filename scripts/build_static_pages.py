@@ -20,7 +20,7 @@ SITEMAP = ROOT / "sitemap.xml"
 SITE_URL = "https://coophubs.net"
 TODAY = datetime.date.today().isoformat()
 CURRENT_YEAR = datetime.date.today().year
-ASSET_VERSION = "20260318-gbcard"
+ASSET_VERSION = "20260318-gmg"
 CROSSPLAY_UI_ENABLED = True
 
 
@@ -103,9 +103,10 @@ def json_for_script(value) -> str:
 # GOG:  gog.com/partner          → AFFILIATE_GOG  = '12345'
 AFFILIATE_EPIC = ""
 AFFILIATE_GOG  = ""
-# Attivi: link di ricerca per gioco (Instant Gaming + GameBillet)
-AFFILIATE_IG = "gamer-ddc4a8"
-AFFILIATE_GB = "fb308ca0-647e-4ce7-9e80-74c2c591eac1"
+# Attivi: link di ricerca per gioco (Instant Gaming + GameBillet + Green Man Gaming)
+AFFILIATE_IG  = "gamer-ddc4a8"
+AFFILIATE_GB  = "fb308ca0-647e-4ce7-9e80-74c2c591eac1"
+AFFILIATE_GMG = "https://greenmangaming.sjv.io/qWzoQy"  # Impact deep link base
 
 
 def add_utm(url: str, campaign: str = "gamepage") -> str:
@@ -138,8 +139,8 @@ def render_store_links(game: dict) -> str:
             f'<a class="btn-store btn-itch" href="{esc(add_utm(game["itchUrl"]))}" target="_blank" '
             'rel="noopener noreferrer" style="padding:10px 20px;font-size:0.9rem">itch.io ↗</a>'
         )
-    # Prezzi alternativi — bottoni grandi con sconto IG se disponibile
-    if game["steamUrl"] and (AFFILIATE_IG or AFFILIATE_GB):
+    # Prezzi alternativi — bottoni grandi con sconto IG/GB + GMG se disponibile
+    if game["steamUrl"] and (AFFILIATE_IG or AFFILIATE_GB or AFFILIATE_GMG):
         q = quote(game["title"])
         btns = []
         if AFFILIATE_IG:
@@ -159,6 +160,15 @@ def render_store_links(game: dict) -> str:
                 f'<a class="btn-affiliate btn-gb" href="{esc(gb_url)}" '
                 f'target="_blank" rel="noopener noreferrer sponsored">'
                 f'<span class="affiliate-store">GameBillet</span>{gb_badge}</a>'
+            )
+        if AFFILIATE_GMG:
+            gmg_search = f"https://www.greenmangaming.com/search/?query={q}"
+            from urllib.parse import quote as _q
+            gmg_url = f"{AFFILIATE_GMG}?u={_q(gmg_search)}"
+            btns.append(
+                f'<a class="btn-affiliate btn-gmg" href="{esc(gmg_url)}" '
+                f'target="_blank" rel="noopener noreferrer sponsored">'
+                f'<span class="affiliate-store">Green Man Gaming</span></a>'
             )
         links.append(
             '<div class="affiliate-section"><div class="affiliate-title">💸 Prezzi alternativi</div>'

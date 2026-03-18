@@ -1045,6 +1045,9 @@ body {
 .btn-ig-card { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #e2d96e; border: 1px solid rgba(226,217,110,0.3); font-weight: 700; }
 .btn-gb-card { background: linear-gradient(135deg, #0f3460 0%, #0a2647 100%); color: #90caf9; border: 1px solid rgba(144,202,249,0.3); font-weight: 700; }
 .btn-ig-card:hover { background: linear-gradient(135deg, #222244 0%, #1a2a50 100%); border-color: rgba(226,217,110,0.6); }
+/* Green Man Gaming button */
+.btn-gmg { background: linear-gradient(135deg, #1a2e1a 0%, #0f1f0f 100%); color: #4caf50; border: 1px solid rgba(76,175,80,0.35); }
+.btn-gmg:hover { filter: brightness(1.15); transform: translateY(-1px); }
 /* Affiliate buttons */
 .affiliate-section { margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--border); }
 .affiliate-title { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 1.5px; color: var(--text2); margin-bottom: 10px; font-weight: 600; }
