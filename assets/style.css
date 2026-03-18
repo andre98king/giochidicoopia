@@ -1588,15 +1588,16 @@ body {
   .toolbar-inner { gap: 8px; }
   .btn-wheel { margin-left: 0; }
 
-  /* Genre filters: horizontal scroll */
-  .filters {
+  /* Genre filters: ogni gruppo scrolla orizzontalmente su mobile */
+  .filters { flex-direction: column; overflow: visible; }
+  .filter-group {
     flex-wrap: nowrap;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
     padding-bottom: 2px;
   }
-  .filters::-webkit-scrollbar { display: none; }
+  .filter-group::-webkit-scrollbar { display: none; }
 
   /* Mode filters: collapsed by default */
   .filters-mode {
@@ -1605,12 +1606,15 @@ body {
     border-top: 1px solid var(--border);
     padding-top: 8px;
     width: 100%;
+  }
+  .filters-mode .filter-group {
     flex-wrap: nowrap;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
+    width: 100%;
   }
-  .filters-mode::-webkit-scrollbar { display: none; }
+  .filters-mode .filter-group::-webkit-scrollbar { display: none; }
   .filters-mode.collapsed { display: none; }
   .filters-mode.collapsed + .btn-toggle-filters { display: none; }
 
