@@ -22,7 +22,11 @@ const games = [
     itchUrl: "",
     ccu: 163599,
     trending: true,
-    rating: 74
+    rating: 74,
+    igUrl: "https://www.instant-gaming.com/en/18729-buy-steam-elden-ring-nightreign-deluxe-edition-deluxe-edition-pc-game-steam-us-and-ca/?igr=gamer-ddc4a8",
+    igDiscount: 40,
+    gbUrl: "https://www.gamebillet.com/elden-ring-nightreign-z?affiliate=fb308ca0-647e-4ce7-9e80-74c2c591eac1",
+    gbDiscount: 18
   },
   {
     id: 2,
@@ -45,7 +49,11 @@ const games = [
     itchUrl: "",
     ccu: 143870,
     trending: true,
-    rating: 87
+    rating: 87,
+    igUrl: "https://www.instant-gaming.com/en/1230-buy-steam-rust-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 5,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 4,
@@ -68,7 +76,11 @@ const games = [
     itchUrl: "",
     ccu: 53399,
     trending: true,
-    rating: 76
+    rating: 76,
+    igUrl: "https://www.instant-gaming.com/en/9575-buy-steam-helldivers-2-pc-game-steam-europe-and-us-and-canada/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "https://www.gamebillet.com/helldivers-2-pre-purchase?affiliate=fb308ca0-647e-4ce7-9e80-74c2c591eac1",
+    gbDiscount: 18
   },
   {
     id: 5,
@@ -91,7 +103,11 @@ const games = [
     itchUrl: "",
     ccu: 51847,
     trending: true,
-    rating: 84
+    rating: 84,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 6,
@@ -114,7 +130,11 @@ const games = [
     itchUrl: "",
     ccu: 44886,
     trending: true,
-    rating: 79
+    rating: 79,
+    igUrl: "https://www.instant-gaming.com/en/19627-buy-steam-dead-by-daylight-five-nights-at-freddy-s-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "https://www.gamebillet.com/dead-by-daylight-alien-chapter-pack-z?affiliate=fb308ca0-647e-4ce7-9e80-74c2c591eac1",
+    gbDiscount: 50
   },
   {
     id: 7,
@@ -137,7 +157,11 @@ const games = [
     itchUrl: "",
     ccu: 43819,
     trending: true,
-    rating: 90
+    rating: 90,
+    igUrl: "https://www.instant-gaming.com/en/18886-download-steam-team-fortress-2-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 8,
@@ -160,7 +184,11 @@ const games = [
     itchUrl: "",
     ccu: 39502,
     trending: true,
-    rating: 69
+    rating: 69,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 9,
@@ -183,7 +211,11 @@ const games = [
     itchUrl: "",
     ccu: 37066,
     trending: true,
-    rating: 77
+    rating: 77,
+    igUrl: "https://www.instant-gaming.com/en/20949-buy-steam-dayz-deluxe-edition-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 41,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 10,
@@ -206,7 +238,11 @@ const games = [
     itchUrl: "",
     ccu: 36195,
     trending: true,
-    rating: 87
+    rating: 87,
+    igUrl: "https://www.instant-gaming.com/en/9466-download-steam-warframe-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 11,
@@ -229,7 +265,11 @@ const games = [
     itchUrl: "",
     ccu: 32349,
     trending: true,
-    rating: 97
+    rating: 97,
+    igUrl: "https://www.instant-gaming.com/en/18808-buy-steam-r-e-p-o-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 12,
@@ -252,7 +292,11 @@ const games = [
     itchUrl: "",
     ccu: 30542,
     trending: true,
-    rating: 95
+    rating: 95,
+    igUrl: "https://www.instant-gaming.com/en/14319-buy-steam-don-t-starve-together-starter-pack-2023-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 20,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 13,
@@ -275,7 +319,11 @@ const games = [
     itchUrl: "",
     ccu: 27254,
     trending: true,
-    rating: 90
+    rating: 90,
+    igUrl: "https://www.instant-gaming.com/en/223-buy-steam-payday-2-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 50,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 14,
@@ -298,7 +346,11 @@ const games = [
     itchUrl: "",
     ccu: 25122,
     trending: true,
-    rating: 98
+    rating: 98,
+    igUrl: "https://www.instant-gaming.com/en/733-buy-steam-left-4-dead-2-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 15,
@@ -321,7 +373,11 @@ const games = [
     itchUrl: "",
     ccu: 24619,
     trending: true,
-    rating: 80
+    rating: 80,
+    igUrl: "https://www.instant-gaming.com/en/17021-buy-steam-destiny-2-frontiers-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 16,
@@ -344,7 +400,11 @@ const games = [
     itchUrl: "",
     ccu: 24580,
     trending: true,
-    rating: 97
+    rating: 97,
+    igUrl: "https://www.instant-gaming.com/en/932-buy-steam-terraria-pc-mac-steam/?igr=gamer-ddc4a8",
+    igDiscount: 26,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 17,
@@ -367,7 +427,11 @@ const games = [
     itchUrl: "",
     ccu: 22864,
     trending: true,
-    rating: 94
+    rating: 94,
+    igUrl: "https://www.instant-gaming.com/en/953-buy-steam-project-zomboid-pc-mac-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 18,
@@ -390,7 +454,11 @@ const games = [
     itchUrl: "",
     ccu: 22170,
     trending: true,
-    rating: 84
+    rating: 84,
+    igUrl: "https://www.instant-gaming.com/en/904-buy-steam-ark-survival-evolved-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 19,
@@ -413,7 +481,11 @@ const games = [
     itchUrl: "",
     ccu: 21106,
     trending: true,
-    rating: 87
+    rating: 87,
+    igUrl: "https://www.instant-gaming.com/en/670-download-steam-rocket-league-pc-mac-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 20,
@@ -436,7 +508,11 @@ const games = [
     itchUrl: "",
     ccu: 18400,
     trending: true,
-    rating: 97
+    rating: 97,
+    igUrl: "https://www.instant-gaming.com/en/6401-buy-steam-garry-s-mod-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 21,
@@ -459,7 +535,11 @@ const games = [
     itchUrl: "",
     ccu: 18028,
     trending: true,
-    rating: 94
+    rating: 94,
+    igUrl: "https://www.instant-gaming.com/en/8982-buy-steam-palworld-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 22,
@@ -482,7 +562,11 @@ const games = [
     itchUrl: "",
     ccu: 17045,
     trending: true,
-    rating: 89
+    rating: 89,
+    igUrl: "https://www.instant-gaming.com/en/1028-buy-steam-7-days-to-die-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 67,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 23,
@@ -505,7 +589,11 @@ const games = [
     itchUrl: "",
     ccu: 16842,
     trending: true,
-    rating: 73
+    rating: 73,
+    igUrl: "https://www.instant-gaming.com/en/13368-buy-steam-total-war-warhammer-iii-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 82,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 24,
@@ -528,7 +616,11 @@ const games = [
     itchUrl: "",
     ccu: 16426,
     trending: true,
-    rating: 97
+    rating: 97,
+    igUrl: "https://www.instant-gaming.com/en/2157-buy-steam-game-steam-factorio/?igr=gamer-ddc4a8",
+    igDiscount: 9,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 25,
@@ -551,7 +643,11 @@ const games = [
     itchUrl: "",
     ccu: 14904,
     trending: true,
-    rating: 97
+    rating: 97,
+    igUrl: "https://www.instant-gaming.com/en/1027-buy-steam-game-steam-the-binding-of-isaac-rebirth/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 26,
@@ -574,7 +670,11 @@ const games = [
     itchUrl: "",
     ccu: 14439,
     trending: true,
-    rating: 94
+    rating: 94,
+    igUrl: "https://www.instant-gaming.com/en/7119-buy-steam-valheim-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 48,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 27,
@@ -597,7 +697,11 @@ const games = [
     itchUrl: "",
     ccu: 14345,
     trending: true,
-    rating: 74
+    rating: 74,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 28,
@@ -620,7 +724,11 @@ const games = [
     itchUrl: "",
     ccu: 14169,
     trending: true,
-    rating: 81
+    rating: 81,
+    igUrl: "https://www.instant-gaming.com/en/9463-download-steam-brawlhalla-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 29,
@@ -643,7 +751,11 @@ const games = [
     itchUrl: "",
     ccu: 13465,
     trending: true,
-    rating: 95
+    rating: 95,
+    igUrl: "https://www.instant-gaming.com/en/4820-buy-steam-age-of-empires-ii-definitive-edition-definitive-edition-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 30,
@@ -666,7 +778,11 @@ const games = [
     itchUrl: "",
     ccu: 12596,
     trending: true,
-    rating: 97
+    rating: 97,
+    igUrl: "https://www.instant-gaming.com/en/4229-buy-steam-satisfactory-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 26,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 31,
@@ -689,7 +805,11 @@ const games = [
     itchUrl: "",
     ccu: 12494,
     trending: true,
-    rating: 58
+    rating: 58,
+    igUrl: "https://www.instant-gaming.com/en/19230-buy-steam-monster-hunter-wilds-blossomdance-dlc-pack-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 32,
@@ -712,7 +832,11 @@ const games = [
     itchUrl: "",
     ccu: 11923,
     trending: true,
-    rating: 88
+    rating: 88,
+    igUrl: "https://www.instant-gaming.com/en/18053-buy-steam-monster-hunter-world-iceborne-master-edition-master-edition-pc-game-steam-us-and-ca/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 33,
@@ -735,7 +859,11 @@ const games = [
     itchUrl: "",
     ccu: 10961,
     trending: true,
-    rating: 89
+    rating: 89,
+    igUrl: "https://www.instant-gaming.com/en/11030-buy-steam-v-rising-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 82,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 34,
@@ -758,7 +886,11 @@ const games = [
     itchUrl: "",
     ccu: 9978,
     trending: true,
-    rating: 96
+    rating: 96,
+    igUrl: "https://www.instant-gaming.com/en/7677-buy-steam-phasmophobia-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 35,
@@ -781,7 +913,11 @@ const games = [
     itchUrl: "",
     ccu: 9213,
     trending: true,
-    rating: 88
+    rating: 88,
+    igUrl: "https://www.instant-gaming.com/en/13075-buy-steam-star-wars-battlefront-ii-celebration-edition-celebration-edition-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 36,
@@ -804,7 +940,11 @@ const games = [
     itchUrl: "",
     ccu: 9116,
     trending: true,
-    rating: 83
+    rating: 83,
+    igUrl: "https://www.instant-gaming.com/en/1309-buy-steam-game-steam-squad/?igr=gamer-ddc4a8",
+    igDiscount: 70,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 37,
@@ -827,7 +967,11 @@ const games = [
     itchUrl: "",
     ccu: 8835,
     trending: true,
-    rating: 66
+    rating: 66,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 38,
@@ -850,7 +994,11 @@ const games = [
     itchUrl: "",
     ccu: 8796,
     trending: true,
-    rating: 73
+    rating: 73,
+    igUrl: "https://www.instant-gaming.com/en/21456-buy-steam-fallout-76-burning-springs-starter-bundle-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 21,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 39,
@@ -873,7 +1021,11 @@ const games = [
     itchUrl: "",
     ccu: 8551,
     trending: true,
-    rating: 92
+    rating: 92,
+    igUrl: "https://www.instant-gaming.com/en/20895-buy-steam-borderlands-2-commander-lilith-and-the-fight-for-sanctuary-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 64,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 40,
@@ -896,7 +1048,11 @@ const games = [
     itchUrl: "",
     ccu: 7902,
     trending: true,
-    rating: 93
+    rating: 93,
+    igUrl: "https://www.instant-gaming.com/en/21313-buy-steam-risk-of-rain-2-alloyed-collective-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 2,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 41,
@@ -919,7 +1075,11 @@ const games = [
     itchUrl: "",
     ccu: 7543,
     trending: true,
-    rating: 68
+    rating: 68,
+    igUrl: "https://www.instant-gaming.com/en/17826-buy-steam-gray-zone-warfare-pc-game-steam-us-and-ca/?igr=gamer-ddc4a8",
+    igDiscount: 34,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 42,
@@ -942,7 +1102,11 @@ const games = [
     itchUrl: "",
     ccu: 7489,
     trending: true,
-    rating: 97
+    rating: 97,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 43,
@@ -965,7 +1129,11 @@ const games = [
     itchUrl: "",
     ccu: 7330,
     trending: true,
-    rating: 96
+    rating: 96,
+    igUrl: "https://www.instant-gaming.com/en/16626-buy-steam-the-planet-crafter-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 44,
@@ -988,7 +1156,11 @@ const games = [
     itchUrl: "",
     ccu: 7267,
     trending: true,
-    rating: 71
+    rating: 71,
+    igUrl: "https://www.instant-gaming.com/en/13355-buy-steam-warhammer-40-000-darktide-imperial-edition-imperial-edition-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 82,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 45,
@@ -1011,7 +1183,11 @@ const games = [
     itchUrl: "",
     ccu: 7181,
     trending: true,
-    rating: 90
+    rating: 90,
+    igUrl: "https://www.instant-gaming.com/en/4902-buy-steam-arma-3-apex-edition-apex-edition-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 33,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 46,
@@ -1034,7 +1210,11 @@ const games = [
     itchUrl: "",
     ccu: 7084,
     trending: true,
-    rating: 86
+    rating: 86,
+    igUrl: "https://www.instant-gaming.com/en/2244-buy-steam-age-of-empires-iv-anniversary-edition-anniversary-edition-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 47,
@@ -1057,7 +1237,11 @@ const games = [
     itchUrl: "",
     ccu: 6851,
     trending: true,
-    rating: 83
+    rating: 83,
+    igUrl: "https://www.instant-gaming.com/en/10140-buy-steam-warhammer-40-000-space-marine-2-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 71,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 48,
@@ -1080,7 +1264,11 @@ const games = [
     itchUrl: "",
     ccu: 6389,
     trending: true,
-    rating: 97
+    rating: 97,
+    igUrl: "https://www.instant-gaming.com/en/13013-buy-steam-brotato-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 49,
@@ -1103,7 +1291,11 @@ const games = [
     itchUrl: "",
     ccu: 6300,
     trending: true,
-    rating: 73
+    rating: 73,
+    igUrl: "https://www.instant-gaming.com/en/18340-buy-steam-hunt-showdown-1896-starter-edition-starter-edition-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 66,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 50,
@@ -1126,7 +1318,11 @@ const games = [
     itchUrl: "",
     ccu: 6199,
     trending: true,
-    rating: 97
+    rating: 97,
+    igUrl: "https://www.instant-gaming.com/en/15274-buy-steam-lethal-company-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 51,
@@ -1149,7 +1345,11 @@ const games = [
     itchUrl: "",
     ccu: 5946,
     trending: true,
-    rating: 81
+    rating: 81,
+    igUrl: "https://www.instant-gaming.com/en/6331-buy-steam-the-isle-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 52,
@@ -1172,7 +1372,11 @@ const games = [
     itchUrl: "",
     ccu: 5831,
     trending: true,
-    rating: 80
+    rating: 80,
+    igUrl: "https://www.instant-gaming.com/en/13747-buy-steam-last-epoch-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 53,
@@ -1195,7 +1399,11 @@ const games = [
     itchUrl: "",
     ccu: 5677,
     trending: true,
-    rating: 79
+    rating: 79,
+    igUrl: "https://www.instant-gaming.com/en/1258-buy-steam-conan-exiles-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 88,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 54,
@@ -1218,7 +1426,11 @@ const games = [
     itchUrl: "",
     ccu: 5583,
     trending: true,
-    rating: 69
+    rating: 69,
+    igUrl: "https://www.instant-gaming.com/en/5932-buy-steam-new-world-aeternum-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 55,
@@ -1241,7 +1453,11 @@ const games = [
     itchUrl: "",
     ccu: 5476,
     trending: true,
-    rating: 98
+    rating: 98,
+    igUrl: "https://www.instant-gaming.com/en/20591-buy-steam-s-p-l-i-t-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 56,
@@ -1264,7 +1480,11 @@ const games = [
     itchUrl: "",
     ccu: 5437,
     trending: true,
-    rating: 89
+    rating: 89,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 57,
@@ -1287,7 +1507,11 @@ const games = [
     itchUrl: "",
     ccu: 5414,
     trending: true,
-    rating: 84
+    rating: 84,
+    igUrl: "https://www.instant-gaming.com/en/7640-buy-steam-call-of-duty-black-ops-iii-zombies-deluxe-zombies-deluxe-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 58,
@@ -1310,7 +1534,11 @@ const games = [
     itchUrl: "",
     ccu: 5216,
     trending: true,
-    rating: 97
+    rating: 97,
+    igUrl: "https://www.instant-gaming.com/en/6323-buy-steam-deep-rock-galactic-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 73,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 59,
@@ -1333,7 +1561,11 @@ const games = [
     itchUrl: "",
     ccu: 5018,
     trending: true,
-    rating: 95
+    rating: 95,
+    igUrl: "https://www.instant-gaming.com/en/7154-buy-steam-it-takes-two-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 60,
@@ -1356,7 +1588,11 @@ const games = [
     itchUrl: "",
     ccu: 4953,
     trending: true,
-    rating: 95
+    rating: 95,
+    igUrl: "https://www.instant-gaming.com/en/15968-buy-steam-dying-light-2-stay-human-reloaded-edition-reloaded-edition-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 74,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 62,
@@ -1379,7 +1615,11 @@ const games = [
     itchUrl: "",
     ccu: 4701,
     trending: true,
-    rating: 93
+    rating: 93,
+    igUrl: "https://www.instant-gaming.com/en/2627-buy-steam-game-steam-raft/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 63,
@@ -1402,7 +1642,11 @@ const games = [
     itchUrl: "",
     ccu: 4696,
     trending: true,
-    rating: 91
+    rating: 91,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 64,
@@ -1425,7 +1669,11 @@ const games = [
     itchUrl: "",
     ccu: 4694,
     trending: true,
-    rating: 89
+    rating: 89,
+    igUrl: "https://www.instant-gaming.com/en/9457-download-steam-path-of-exile-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 65,
@@ -1448,7 +1696,11 @@ const games = [
     itchUrl: "",
     ccu: 4508,
     trending: true,
-    rating: 88
+    rating: 88,
+    igUrl: "https://www.instant-gaming.com/en/13311-buy-steam-killing-floor-2-ultimate-edition-ultimate-edition-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 77,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 66,
@@ -1471,7 +1723,11 @@ const games = [
     itchUrl: "",
     ccu: 4450,
     trending: true,
-    rating: 88
+    rating: 88,
+    igUrl: "https://www.instant-gaming.com/en/5953-buy-steam-sons-of-the-forest-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 67,
@@ -1494,7 +1750,11 @@ const games = [
     itchUrl: "",
     ccu: 4296,
     trending: true,
-    rating: 89
+    rating: 89,
+    igUrl: "https://www.instant-gaming.com/en/22104-buy-steam-ready-or-not-boiling-point-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 13,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 68,
@@ -1517,7 +1777,11 @@ const games = [
     itchUrl: "",
     ccu: 4223,
     trending: true,
-    rating: 79
+    rating: 79,
+    igUrl: "https://www.instant-gaming.com/en/15968-buy-steam-dying-light-2-stay-human-reloaded-edition-reloaded-edition-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 74,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 69,
@@ -1540,7 +1804,11 @@ const games = [
     itchUrl: "",
     ccu: 4201,
     trending: true,
-    rating: 89
+    rating: 89,
+    igUrl: "https://www.instant-gaming.com/en/3245-buy-steam-space-engineers-deluxe-edition-deluxe-edition-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 50,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 70,
@@ -1563,7 +1831,11 @@ const games = [
     itchUrl: "",
     ccu: 3832,
     trending: true,
-    rating: 92
+    rating: 92,
+    igUrl: "https://www.instant-gaming.com/en/7522-buy-steam-among-us-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 71,
@@ -1586,7 +1858,11 @@ const games = [
     itchUrl: "",
     ccu: 3743,
     trending: true,
-    rating: 93
+    rating: 93,
+    igUrl: "https://www.instant-gaming.com/en/5895-buy-steam-the-outlast-trials-pc-game-steam-europe-and-us/?igr=gamer-ddc4a8",
+    igDiscount: 67,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 72,
@@ -1609,7 +1885,11 @@ const games = [
     itchUrl: "",
     ccu: 3658,
     trending: true,
-    rating: 82
+    rating: 82,
+    igUrl: "https://www.instant-gaming.com/en/18044-buy-steam-monster-hunter-rise-pc-game-steam-us-and-ca/?igr=gamer-ddc4a8",
+    igDiscount: 80,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 73,
@@ -1632,7 +1912,11 @@ const games = [
     itchUrl: "",
     ccu: 3582,
     trending: true,
-    rating: 86
+    rating: 86,
+    igUrl: "https://www.instant-gaming.com/en/19387-buy-steam-warhammer-40-000-rogue-trader-season-pass-2-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 41,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 74,
@@ -1655,7 +1939,11 @@ const games = [
     itchUrl: "",
     ccu: 3510,
     trending: true,
-    rating: 96
+    rating: 96,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 75,
@@ -1678,7 +1966,11 @@ const games = [
     itchUrl: "",
     ccu: 3362,
     trending: true,
-    rating: 92
+    rating: 92,
+    igUrl: "https://www.instant-gaming.com/en/4204-buy-steam-halo-the-master-chief-collection-the-master-chief-collection-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 76,
@@ -1701,7 +1993,11 @@ const games = [
     itchUrl: "",
     ccu: 3164,
     trending: true,
-    rating: 84
+    rating: 84,
+    igUrl: "https://www.instant-gaming.com/en/8627-buy-steam-borderlands-3-director-s-cut-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 77,
@@ -1724,7 +2020,11 @@ const games = [
     itchUrl: "",
     ccu: 3123,
     trending: true,
-    rating: 85
+    rating: 85,
+    igUrl: "https://www.instant-gaming.com/en/5048-buy-steam-xcom-2-alien-hunters-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 96,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 78,
@@ -1747,7 +2047,11 @@ const games = [
     itchUrl: "",
     ccu: 3070,
     trending: true,
-    rating: 78
+    rating: 78,
+    igUrl: "https://www.instant-gaming.com/en/7829-buy-steam-party-animals-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 46,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 79,
@@ -1770,7 +2074,11 @@ const games = [
     itchUrl: "",
     ccu: 3016,
     trending: true,
-    rating: 85
+    rating: 85,
+    igUrl: "https://www.instant-gaming.com/en/6275-buy-steam-age-of-empires-iii-definitive-edition-definitive-edition-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 76,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 80,
@@ -1793,7 +2101,11 @@ const games = [
     itchUrl: "",
     ccu: 2821,
     trending: true,
-    rating: 84
+    rating: 84,
+    igUrl: "https://www.instant-gaming.com/en/5197-buy-steam-foxhole-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 23,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 81,
@@ -1816,7 +2128,11 @@ const games = [
     itchUrl: "",
     ccu: 2818,
     trending: true,
-    rating: 98
+    rating: 98,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 82,
@@ -1839,7 +2155,11 @@ const games = [
     itchUrl: "",
     ccu: 2784,
     trending: true,
-    rating: 81
+    rating: 81,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 84,
@@ -1862,7 +2182,11 @@ const games = [
     itchUrl: "",
     ccu: 2422,
     trending: true,
-    rating: 92
+    rating: 92,
+    igUrl: "https://www.instant-gaming.com/en/12296-buy-steam-dinkum-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 85,
@@ -1885,7 +2209,11 @@ const games = [
     itchUrl: "",
     ccu: 2394,
     trending: true,
-    rating: 89
+    rating: 89,
+    igUrl: "https://www.instant-gaming.com/en/6268-buy-steam-grounded-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 86,
@@ -1908,7 +2236,11 @@ const games = [
     itchUrl: "",
     ccu: 2376,
     trending: true,
-    rating: 94
+    rating: 94,
+    igUrl: "https://www.instant-gaming.com/en/1737-buy-steam-grim-dawn-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 6,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 87,
@@ -1931,7 +2263,11 @@ const games = [
     itchUrl: "",
     ccu: 2371,
     trending: true,
-    rating: 94
+    rating: 94,
+    igUrl: "https://www.instant-gaming.com/en/4793-buy-steam-barotrauma-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 71,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 88,
@@ -1954,7 +2290,11 @@ const games = [
     itchUrl: "",
     ccu: 2275,
     trending: true,
-    rating: 70
+    rating: 70,
+    igUrl: "https://www.instant-gaming.com/en/10080-download-steam-halo-infinite-season-1-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 89,
@@ -1977,7 +2317,11 @@ const games = [
     itchUrl: "",
     ccu: 2231,
     trending: true,
-    rating: 75
+    rating: 75,
+    igUrl: "https://www.instant-gaming.com/en/9465-download-steam-crossout-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 90,
@@ -2000,7 +2344,11 @@ const games = [
     itchUrl: "",
     ccu: 2207,
     trending: true,
-    rating: 89
+    rating: 89,
+    igUrl: "https://www.instant-gaming.com/en/21880-buy-steam-thehunter-call-of-the-wild-game-feeder-pack-2-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 19,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 91,
@@ -2023,7 +2371,11 @@ const games = [
     itchUrl: "",
     ccu: 2146,
     trending: true,
-    rating: 70
+    rating: 70,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 92,
@@ -2046,7 +2398,11 @@ const games = [
     itchUrl: "",
     ccu: 2141,
     trending: true,
-    rating: 79
+    rating: 79,
+    igUrl: "https://www.instant-gaming.com/en/3309-buy-steam-x4-foundations-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 87,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 93,
@@ -2069,7 +2425,11 @@ const games = [
     itchUrl: "",
     ccu: 2124,
     trending: true,
-    rating: 85
+    rating: 85,
+    igUrl: "https://www.instant-gaming.com/en/2754-buy-steam-warhammer-vermintide-2-collector-s-edition-collector-s-edition-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 85,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 94,
@@ -2092,7 +2452,11 @@ const games = [
     itchUrl: "",
     ccu: 2122,
     trending: true,
-    rating: 82
+    rating: 82,
+    igUrl: "https://www.instant-gaming.com/en/7717-buy-steam-grand-theft-auto-iv-the-complete-edition-complete-edition-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 95,
@@ -2115,7 +2479,11 @@ const games = [
     itchUrl: "",
     ccu: 2107,
     trending: true,
-    rating: 91
+    rating: 91,
+    igUrl: "https://www.instant-gaming.com/en/2705-buy-steam-overcooked-2-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 80,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 96,
@@ -2138,7 +2506,11 @@ const games = [
     itchUrl: "",
     ccu: 2080,
     trending: true,
-    rating: 96
+    rating: 96,
+    igUrl: "https://www.instant-gaming.com/en/2310-buy-steam-cuphead-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 34,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 97,
@@ -2161,7 +2533,11 @@ const games = [
     itchUrl: "",
     ccu: 2060,
     trending: true,
-    rating: 68
+    rating: 68,
+    igUrl: "https://www.instant-gaming.com/en/10005-buy-steam-myth-of-empires-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 67,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 98,
@@ -2184,7 +2560,11 @@ const games = [
     itchUrl: "",
     ccu: 2025,
     trending: true,
-    rating: 94
+    rating: 94,
+    igUrl: "https://www.instant-gaming.com/en/9093-buy-steam-ghost-of-tsushima-director-s-cut-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 52,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 99,
@@ -2207,7 +2587,11 @@ const games = [
     itchUrl: "",
     ccu: 1959,
     trending: true,
-    rating: 99
+    rating: 99,
+    igUrl: "https://www.instant-gaming.com/en/220-buy-steam-portal-2-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 100,
@@ -2230,7 +2614,11 @@ const games = [
     itchUrl: "",
     ccu: 1826,
     trending: true,
-    rating: 85
+    rating: 85,
+    igUrl: "https://www.instant-gaming.com/en/2160-buy-steam-insurgency-sandstorm-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 73,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 101,
@@ -2253,7 +2641,11 @@ const games = [
     itchUrl: "",
     ccu: 1756,
     trending: true,
-    rating: 91
+    rating: 91,
+    igUrl: "https://www.instant-gaming.com/en/16670-buy-steam-escape-the-backrooms-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 37,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 103,
@@ -2276,7 +2668,11 @@ const games = [
     itchUrl: "",
     ccu: 1663,
     trending: true,
-    rating: 83
+    rating: 83,
+    igUrl: "https://www.instant-gaming.com/en/9078-buy-steam-world-war-z-aftermath-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 74,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 104,
@@ -2299,7 +2695,11 @@ const games = [
     itchUrl: "",
     ccu: 1656,
     trending: true,
-    rating: 86
+    rating: 86,
+    igUrl: "https://www.instant-gaming.com/en/5639-buy-steam-green-hell-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 84,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 105,
@@ -2322,7 +2722,11 @@ const games = [
     itchUrl: "",
     ccu: 1632,
     trending: true,
-    rating: 90
+    rating: 90,
+    igUrl: "https://www.instant-gaming.com/en/9254-buy-steam-wartales-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 75,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 107,
@@ -2345,7 +2749,11 @@ const games = [
     itchUrl: "",
     ccu: 1573,
     trending: true,
-    rating: 83
+    rating: 83,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 108,
@@ -2368,7 +2776,11 @@ const games = [
     itchUrl: "",
     ccu: 1559,
     trending: true,
-    rating: 90
+    rating: 90,
+    igUrl: "https://www.instant-gaming.com/en/20672-buy-steam-age-of-mythology-retold-heavenly-spear-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 39,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 109,
@@ -2391,7 +2803,11 @@ const games = [
     itchUrl: "",
     ccu: 1543,
     trending: true,
-    rating: 85
+    rating: 85,
+    igUrl: "https://www.instant-gaming.com/en/16686-buy-steam-tinkerlands-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 63,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 110,
@@ -2414,7 +2830,11 @@ const games = [
     itchUrl: "",
     ccu: 1492,
     trending: true,
-    rating: 72
+    rating: 72,
+    igUrl: "https://www.instant-gaming.com/en/9082-buy-steam-icarus-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 111,
@@ -2437,7 +2857,11 @@ const games = [
     itchUrl: "",
     ccu: 1488,
     trending: true,
-    rating: 90
+    rating: 90,
+    igUrl: "https://www.instant-gaming.com/en/2131-buy-steam-stormworks-build-and-rescue-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 112,
@@ -2460,7 +2884,11 @@ const games = [
     itchUrl: "",
     ccu: 1441,
     trending: true,
-    rating: 80
+    rating: 80,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 113,
@@ -2483,7 +2911,11 @@ const games = [
     itchUrl: "",
     ccu: 1441,
     trending: true,
-    rating: 88
+    rating: 88,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 114,
@@ -2506,7 +2938,11 @@ const games = [
     itchUrl: "",
     ccu: 1430,
     trending: true,
-    rating: 73
+    rating: 73,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 115,
@@ -2529,7 +2965,11 @@ const games = [
     itchUrl: "",
     ccu: 1428,
     trending: true,
-    rating: 93
+    rating: 93,
+    igUrl: "https://www.instant-gaming.com/en/7330-buy-steam-gunfire-reborn-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 39,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 117,
@@ -2552,7 +2992,11 @@ const games = [
     itchUrl: "",
     ccu: 1366,
     trending: true,
-    rating: 91
+    rating: 91,
+    igUrl: "https://www.instant-gaming.com/en/7590-buy-steam-medieval-dynasty-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 52,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 118,
@@ -2575,7 +3019,11 @@ const games = [
     itchUrl: "",
     ccu: 350,
     trending: false,
-    rating: 96
+    rating: 96,
+    igUrl: "https://www.instant-gaming.com/en/4982-buy-steam-ultimate-chicken-horse-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 66,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 119,
@@ -2598,7 +3046,11 @@ const games = [
     itchUrl: "",
     ccu: 376,
     trending: false,
-    rating: 85
+    rating: 85,
+    igUrl: "https://www.instant-gaming.com/en/5204-buy-steam-gang-beasts-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 59,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 120,
@@ -2621,7 +3073,11 @@ const games = [
     itchUrl: "",
     ccu: 265,
     trending: false,
-    rating: 94
+    rating: 94,
+    igUrl: "https://www.instant-gaming.com/en/2312-buy-steam-stick-fight-the-game-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 58,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 121,
@@ -2644,7 +3100,11 @@ const games = [
     itchUrl: "",
     ccu: 950,
     trending: true,
-    rating: 95
+    rating: 95,
+    igUrl: "https://www.instant-gaming.com/en/9576-buy-steam-human-fall-flat-2-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 122,
@@ -2667,7 +3127,11 @@ const games = [
     itchUrl: "",
     ccu: 7,
     trending: false,
-    rating: 93
+    rating: 93,
+    igUrl: "https://www.instant-gaming.com/en/5228-buy-steam-lovers-in-a-dangerous-spacetime-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 123,
@@ -2690,7 +3154,11 @@ const games = [
     itchUrl: "",
     ccu: 72,
     trending: false,
-    rating: 93
+    rating: 93,
+    igUrl: "https://www.instant-gaming.com/en/5929-buy-steam-streets-of-rage-4-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 91,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 124,
@@ -2713,7 +3181,11 @@ const games = [
     itchUrl: "",
     ccu: 50,
     trending: false,
-    rating: 94
+    rating: 94,
+    igUrl: "https://www.instant-gaming.com/en/8441-buy-steam-teenage-mutant-ninja-turtles-shredder-s-revenge-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 55,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 125,
@@ -2736,7 +3208,11 @@ const games = [
     itchUrl: "",
     ccu: 283,
     trending: false,
-    rating: 97
+    rating: 97,
+    igUrl: "https://www.instant-gaming.com/en/1086-buy-steam-broforce-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 80,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 126,
@@ -2759,7 +3235,11 @@ const games = [
     itchUrl: "",
     ccu: 262,
     trending: false,
-    rating: 88
+    rating: 88,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 127,
@@ -2782,7 +3262,11 @@ const games = [
     itchUrl: "",
     ccu: 14,
     trending: false,
-    rating: 79
+    rating: 79,
+    igUrl: "https://www.instant-gaming.com/en/6621-buy-steam-moving-out-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 86,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 128,
@@ -2805,7 +3289,11 @@ const games = [
     itchUrl: "",
     ccu: 1096,
     trending: true,
-    rating: 89
+    rating: 89,
+    igUrl: "https://www.instant-gaming.com/en/4334-buy-steam-pummel-party-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 129,
@@ -2828,7 +3316,11 @@ const games = [
     itchUrl: "",
     ccu: 10,
     trending: false,
-    rating: 95
+    rating: 95,
+    igUrl: "https://www.instant-gaming.com/en/17535-buy-steam-towerfall-ascension-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 93,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 130,
@@ -2851,7 +3343,11 @@ const games = [
     itchUrl: "",
     ccu: 313,
     trending: false,
-    rating: 93
+    rating: 93,
+    igUrl: "https://www.instant-gaming.com/en/7438-buy-steam-spelunky-2-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 131,
@@ -2874,7 +3370,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 97
+    rating: 97,
+    igUrl: "https://www.instant-gaming.com/en/4527-buy-steam-trine-4-the-nightmare-prince-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 91,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 132,
@@ -2897,7 +3397,11 @@ const games = [
     itchUrl: "",
     ccu: 71,
     trending: false,
-    rating: 90
+    rating: 90,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 133,
@@ -2920,7 +3424,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 79
+    rating: 79,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 134,
@@ -2943,7 +3451,11 @@ const games = [
     itchUrl: "",
     ccu: 17,
     trending: false,
-    rating: 91
+    rating: 91,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 135,
@@ -2966,7 +3478,11 @@ const games = [
     itchUrl: "",
     ccu: 21,
     trending: false,
-    rating: 90
+    rating: 90,
+    igUrl: "https://www.instant-gaming.com/en/6181-buy-steam-move-or-die-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 86,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 136,
@@ -2989,7 +3505,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 76
+    rating: 76,
+    igUrl: "https://www.instant-gaming.com/en/7284-buy-steam-boomerang-fu-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 137,
@@ -3012,7 +3532,11 @@ const games = [
     itchUrl: "",
     ccu: 832,
     trending: true,
-    rating: 95
+    rating: 95,
+    igUrl: "https://www.instant-gaming.com/en/12605-buy-steam-plateup-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 87,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 138,
@@ -3035,7 +3559,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "https://www.instant-gaming.com/en/9450-buy-steam-keywe-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 94,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 139,
@@ -3058,7 +3586,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 53
+    rating: 53,
+    igUrl: "https://www.instant-gaming.com/en/4528-buy-steam-full-metal-furies-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 92,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 140,
@@ -3081,7 +3613,11 @@ const games = [
     itchUrl: "",
     ccu: 27,
     trending: false,
-    rating: 82
+    rating: 82,
+    igUrl: "https://www.instant-gaming.com/en/7936-buy-steam-phogs-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 20,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 141,
@@ -3104,7 +3640,11 @@ const games = [
     itchUrl: "",
     ccu: 46,
     trending: false,
-    rating: 79
+    rating: 79,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 142,
@@ -3127,7 +3667,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "https://www.instant-gaming.com/en/7224-buy-steam-worms-rumble-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 93,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 143,
@@ -3150,7 +3694,11 @@ const games = [
     itchUrl: "",
     ccu: 1288,
     trending: true,
-    rating: 68
+    rating: 68,
+    igUrl: "https://www.instant-gaming.com/en/17933-buy-steam-back-4-blood-pc-game-steam-us-and-ca/?igr=gamer-ddc4a8",
+    igDiscount: 98,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 144,
@@ -3173,7 +3721,11 @@ const games = [
     itchUrl: "",
     ccu: 281,
     trending: false,
-    rating: 80
+    rating: 80,
+    igUrl: "https://www.instant-gaming.com/en/13514-buy-steam-aliens-fireteam-elite-pathogen-expansion-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 67,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 145,
@@ -3196,7 +3748,11 @@ const games = [
     itchUrl: "",
     ccu: 722,
     trending: false,
-    rating: 95
+    rating: 95,
+    igUrl: "https://www.instant-gaming.com/en/16548-buy-steam-content-warning-pc-game-steam-europe-and-us-and-canada/?igr=gamer-ddc4a8",
+    igDiscount: 16,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 146,
@@ -3219,7 +3775,11 @@ const games = [
     itchUrl: "",
     ccu: 2966,
     trending: true,
-    rating: 98
+    rating: 98,
+    igUrl: "https://www.instant-gaming.com/en/10934-buy-steam-vampire-survivors-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 10,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 148,
@@ -3242,7 +3802,11 @@ const games = [
     itchUrl: "",
     ccu: 3688,
     trending: true,
-    rating: 93
+    rating: 93,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 149,
@@ -3265,7 +3829,11 @@ const games = [
     itchUrl: "",
     ccu: 50662,
     trending: true,
-    rating: 98
+    rating: 98,
+    igUrl: "https://www.instant-gaming.com/en/1767-buy-steam-stardew-valley-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 150,
@@ -3288,7 +3856,11 @@ const games = [
     itchUrl: "",
     ccu: 148,
     trending: false,
-    rating: 97
+    rating: 97,
+    igUrl: "https://www.instant-gaming.com/en/2062-buy-steam-keep-talking-and-nobody-explodes-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 52,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 151,
@@ -3311,7 +3883,11 @@ const games = [
     itchUrl: "",
     ccu: 124,
     trending: false,
-    rating: 91
+    rating: 91,
+    igUrl: "https://www.instant-gaming.com/en/14048-buy-steam-pico-park-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 13,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 152,
@@ -3334,7 +3910,11 @@ const games = [
     itchUrl: "",
     ccu: 325,
     trending: false,
-    rating: 73
+    rating: 73,
+    igUrl: "https://www.instant-gaming.com/en/8468-buy-steam-overcooked-all-you-can-eat-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 79,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 153,
@@ -3357,7 +3937,11 @@ const games = [
     itchUrl: "",
     ccu: 644,
     trending: false,
-    rating: 43
+    rating: 43,
+    igUrl: "https://www.instant-gaming.com/en/6442-buy-steam-payday-3-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 52,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 154,
@@ -3380,7 +3964,11 @@ const games = [
     itchUrl: "",
     ccu: 26,
     trending: false,
-    rating: 83
+    rating: 83,
+    igUrl: "https://www.instant-gaming.com/en/482-buy-steam-magicka-2-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 155,
@@ -3403,7 +3991,11 @@ const games = [
     itchUrl: "",
     ccu: 178,
     trending: false,
-    rating: 84
+    rating: 84,
+    igUrl: "https://www.instant-gaming.com/en/8307-buy-steam-we-were-here-together-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 56,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 156,
@@ -3426,7 +4018,11 @@ const games = [
     itchUrl: "",
     ccu: 183,
     trending: false,
-    rating: 91
+    rating: 91,
+    igUrl: "https://www.instant-gaming.com/en/11021-buy-steam-we-were-here-forever-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 157,
@@ -3449,7 +4045,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 92
+    rating: 92,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 158,
@@ -3472,7 +4072,11 @@ const games = [
     itchUrl: "",
     ccu: 36,
     trending: false,
-    rating: 88
+    rating: 88,
+    igUrl: "https://www.instant-gaming.com/en/10614-buy-steam-escape-academy-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 88,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 159,
@@ -3495,7 +4099,11 @@ const games = [
     itchUrl: "",
     ccu: 866,
     trending: true,
-    rating: 72
+    rating: 72,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 160,
@@ -3518,7 +4126,11 @@ const games = [
     itchUrl: "",
     ccu: 46,
     trending: false,
-    rating: 85
+    rating: 85,
+    igUrl: "https://www.instant-gaming.com/en/9667-buy-steam-sackboy-a-big-adventure-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 72,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 161,
@@ -3541,7 +4153,11 @@ const games = [
     itchUrl: "",
     ccu: 429,
     trending: false,
-    rating: 95
+    rating: 95,
+    igUrl: "https://www.instant-gaming.com/en/7990-buy-steam-roboquest-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 162,
@@ -3564,7 +4180,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 83
+    rating: 83,
+    igUrl: "https://www.instant-gaming.com/en/414-buy-steam-no-man-s-sky-pc-mac-steam/?igr=gamer-ddc4a8",
+    igDiscount: 72,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 163,
@@ -3587,7 +4207,11 @@ const games = [
     itchUrl: "",
     ccu: 443,
     trending: false,
-    rating: 96
+    rating: 96,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 164,
@@ -3610,7 +4234,11 @@ const games = [
     itchUrl: "",
     ccu: 988,
     trending: true,
-    rating: 92
+    rating: 92,
+    igUrl: "https://www.instant-gaming.com/en/3298-buy-steam-astroneer-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 165,
@@ -3633,7 +4261,11 @@ const games = [
     itchUrl: "",
     ccu: 178,
     trending: false,
-    rating: 67
+    rating: 67,
+    igUrl: "https://www.instant-gaming.com/en/4835-buy-steam-outriders-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 76,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 166,
@@ -3656,7 +4288,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 167,
@@ -3679,7 +4315,11 @@ const games = [
     itchUrl: "",
     ccu: 13,
     trending: false,
-    rating: 92
+    rating: 92,
+    igUrl: "https://www.instant-gaming.com/en/4098-buy-steam-divinity-original-sin-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 169,
@@ -3702,7 +4342,11 @@ const games = [
     itchUrl: "",
     ccu: 54,
     trending: false,
-    rating: 80
+    rating: 80,
+    igUrl: "https://www.instant-gaming.com/en/13094-buy-steam-warhammer-end-times-vermintide-collector-s-edition-collector-s-edition-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 96,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 170,
@@ -3725,7 +4369,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "https://www.instant-gaming.com/en/8688-buy-steam-devour-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 48,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 172,
@@ -3748,7 +4396,11 @@ const games = [
     itchUrl: "",
     ccu: 67851,
     trending: true,
-    rating: 87
+    rating: 87,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 173,
@@ -3771,7 +4423,11 @@ const games = [
     itchUrl: "",
     ccu: 54771,
     trending: true,
-    rating: 97
+    rating: 97,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 174,
@@ -3794,7 +4450,11 @@ const games = [
     itchUrl: "",
     ccu: 50478,
     trending: true,
-    rating: 64
+    rating: 64,
+    igUrl: "https://www.instant-gaming.com/en/9468-download-steam-war-thunder-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 175,
@@ -3817,7 +4477,11 @@ const games = [
     itchUrl: "",
     ccu: 42032,
     trending: true,
-    rating: 50
+    rating: 50,
+    igUrl: "https://www.instant-gaming.com/en/17147-buy-steam-ea-sports-fc-25-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 176,
@@ -3840,7 +4504,11 @@ const games = [
     itchUrl: "",
     ccu: 32112,
     trending: true,
-    rating: 89
+    rating: 89,
+    igUrl: "https://www.instant-gaming.com/en/22096-buy-steam-hearts-of-iron-iv-warships-of-the-pacific-pc-mac-steam/?igr=gamer-ddc4a8",
+    igDiscount: 90,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 177,
@@ -3863,7 +4531,11 @@ const games = [
     itchUrl: "",
     ccu: 27486,
     trending: true,
-    rating: 59
+    rating: 59,
+    igUrl: "https://www.instant-gaming.com/en/17565-buy-steam-nba-2k25-pc-game-steam-us-and-ca/?igr=gamer-ddc4a8",
+    igDiscount: 47,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 178,
@@ -3886,7 +4558,11 @@ const games = [
     itchUrl: "",
     ccu: 22757,
     trending: true,
-    rating: 98
+    rating: 98,
+    igUrl: "https://www.instant-gaming.com/en/18918-buy-steam-schedule-i-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 179,
@@ -3909,7 +4585,11 @@ const games = [
     itchUrl: "",
     ccu: 19824,
     trending: true,
-    rating: 88
+    rating: 88,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 180,
@@ -3932,7 +4612,11 @@ const games = [
     itchUrl: "",
     ccu: 19498,
     trending: true,
-    rating: 92
+    rating: 92,
+    igUrl: "https://www.instant-gaming.com/en/18752-buy-steam-fantasy-life-i-the-girl-who-steals-time-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 181,
@@ -3955,7 +4639,11 @@ const games = [
     itchUrl: "",
     ccu: 17355,
     trending: true,
-    rating: 71
+    rating: 71,
+    igUrl: "https://www.instant-gaming.com/en/645-download-steam-lost-ark-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 182,
@@ -3978,7 +4666,11 @@ const games = [
     itchUrl: "",
     ccu: 16727,
     trending: true,
-    rating: 70
+    rating: 70,
+    igUrl: "https://www.instant-gaming.com/en/5813-buy-steam-path-of-exile-2-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 183,
@@ -4001,7 +4693,11 @@ const games = [
     itchUrl: "",
     ccu: 15987,
     trending: true,
-    rating: 81
+    rating: 81,
+    igUrl: "https://www.instant-gaming.com/en/16964-buy-steam-the-elder-scrolls-online-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 72,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 184,
@@ -4024,7 +4720,11 @@ const games = [
     itchUrl: "",
     ccu: 13431,
     trending: true,
-    rating: 84
+    rating: 84,
+    igUrl: "https://www.instant-gaming.com/en/19725-buy-steam-farming-simulator-25-highlands-fishing-edition-pc-mac-steam/?igr=gamer-ddc4a8",
+    igDiscount: 52,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 185,
@@ -4047,7 +4747,11 @@ const games = [
     itchUrl: "",
     ccu: 13404,
     trending: true,
-    rating: 48
+    rating: 48,
+    igUrl: "https://www.instant-gaming.com/en/7551-buy-steam-efootball-pes-2021-season-update-bayern-munchen-edition-bayern-munchen-edition-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 186,
@@ -4070,7 +4774,11 @@ const games = [
     itchUrl: "",
     ccu: 12445,
     trending: true,
-    rating: 87
+    rating: 87,
+    igUrl: "https://www.instant-gaming.com/en/7089-buy-steam-europa-universalis-iv-emperor-content-pack-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 74,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 187,
@@ -4093,7 +4801,11 @@ const games = [
     itchUrl: "",
     ccu: 10654,
     trending: true,
-    rating: 86
+    rating: 86,
+    igUrl: "https://www.instant-gaming.com/en/14129-buy-steam-enshrouded-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 23,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 188,
@@ -4116,7 +4828,11 @@ const games = [
     itchUrl: "",
     ccu: 10408,
     trending: true,
-    rating: 91
+    rating: 91,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 189,
@@ -4139,7 +4855,11 @@ const games = [
     itchUrl: "",
     ccu: 10009,
     trending: true,
-    rating: 89
+    rating: 89,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 190,
@@ -4162,7 +4882,11 @@ const games = [
     itchUrl: "",
     ccu: 9481,
     trending: true,
-    rating: 76
+    rating: 76,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 191,
@@ -4185,7 +4909,11 @@ const games = [
     itchUrl: "",
     ccu: 8518,
     trending: true,
-    rating: 77
+    rating: 77,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 192,
@@ -4208,7 +4936,11 @@ const games = [
     itchUrl: "",
     ccu: 8156,
     trending: true,
-    rating: 75
+    rating: 75,
+    igUrl: "https://www.instant-gaming.com/en/17423-buy-steam-roadcraft-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 45,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 193,
@@ -4231,7 +4963,11 @@ const games = [
     itchUrl: "",
     ccu: 8092,
     trending: true,
-    rating: 63
+    rating: 63,
+    igUrl: "https://www.instant-gaming.com/en/561-buy-steam-maplestory-2-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 194,
@@ -4254,7 +4990,11 @@ const games = [
     itchUrl: "",
     ccu: 5707,
     trending: true,
-    rating: 79
+    rating: 79,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 195,
@@ -4277,7 +5017,11 @@ const games = [
     itchUrl: "",
     ccu: 5419,
     trending: true,
-    rating: 92
+    rating: 92,
+    igUrl: "https://www.instant-gaming.com/en/8676-buy-steam-farming-simulator-22-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 65,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 196,
@@ -4300,7 +5044,11 @@ const games = [
     itchUrl: "",
     ccu: 5272,
     trending: true,
-    rating: 89
+    rating: 89,
+    igUrl: "https://www.instant-gaming.com/en/18916-buy-ea-app-f1-25-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 47,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 197,
@@ -4323,7 +5071,11 @@ const games = [
     itchUrl: "",
     ccu: 5110,
     trending: true,
-    rating: 58
+    rating: 58,
+    igUrl: "https://www.instant-gaming.com/en/16046-buy-steam-ea-sports-fc-24-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 52,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 198,
@@ -4346,7 +5098,11 @@ const games = [
     itchUrl: "",
     ccu: 5021,
     trending: true,
-    rating: 94
+    rating: 94,
+    igUrl: "https://www.instant-gaming.com/en/1539-buy-steam-tabletop-simulator-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 199,
@@ -4369,7 +5125,11 @@ const games = [
     itchUrl: "",
     ccu: 4975,
     trending: true,
-    rating: 58
+    rating: 58,
+    igUrl: "https://www.instant-gaming.com/en/15700-download-steam-smite-2-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 200,
@@ -4392,7 +5152,11 @@ const games = [
     itchUrl: "",
     ccu: 4864,
     trending: true,
-    rating: 91
+    rating: 91,
+    igUrl: "https://www.instant-gaming.com/en/17111-buy-steam-forza-horizon-4-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 201,
@@ -4415,7 +5179,11 @@ const games = [
     itchUrl: "",
     ccu: 4845,
     trending: true,
-    rating: 77
+    rating: 77,
+    igUrl: "https://www.instant-gaming.com/en/6631-buy-steam-elite-dangerous-deluxe-edition-deluxe-edition-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 56,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 202,
@@ -4438,7 +5206,11 @@ const games = [
     itchUrl: "",
     ccu: 4704,
     trending: true,
-    rating: 95
+    rating: 95,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 203,
@@ -4461,7 +5233,11 @@ const games = [
     itchUrl: "",
     ccu: 4507,
     trending: true,
-    rating: 72
+    rating: 72,
+    igUrl: "https://www.instant-gaming.com/en/6120-buy-steam-total-war-three-kingdoms-mandate-of-heaven-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 64,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 204,
@@ -4484,7 +5260,11 @@ const games = [
     itchUrl: "",
     ccu: 4381,
     trending: true,
-    rating: 94
+    rating: 94,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 205,
@@ -4507,7 +5287,11 @@ const games = [
     itchUrl: "",
     ccu: 4352,
     trending: true,
-    rating: 88
+    rating: 88,
+    igUrl: "https://www.instant-gaming.com/en/19223-buy-steam-popucom-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 42,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 206,
@@ -4530,7 +5314,11 @@ const games = [
     itchUrl: "",
     ccu: 3901,
     trending: true,
-    rating: 83
+    rating: 83,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 207,
@@ -4553,7 +5341,11 @@ const games = [
     itchUrl: "",
     ccu: 3580,
     trending: true,
-    rating: 86
+    rating: 86,
+    igUrl: "https://www.instant-gaming.com/en/19167-buy-steam-the-spell-brigade-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 35,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 208,
@@ -4576,7 +5368,11 @@ const games = [
     itchUrl: "",
     ccu: 3366,
     trending: true,
-    rating: 81
+    rating: 81,
+    igUrl: "https://www.instant-gaming.com/en/20094-buy-steam-drive-beyond-horizons-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 209,
@@ -4599,7 +5395,11 @@ const games = [
     itchUrl: "",
     ccu: 3279,
     trending: true,
-    rating: 78
+    rating: 78,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 210,
@@ -4622,7 +5422,11 @@ const games = [
     itchUrl: "",
     ccu: 3277,
     trending: true,
-    rating: 89
+    rating: 89,
+    igUrl: "https://www.instant-gaming.com/en/21001-buy-steam-guild-wars-2-janthir-wilds-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 211,
@@ -4645,7 +5449,11 @@ const games = [
     itchUrl: "",
     ccu: 2932,
     trending: true,
-    rating: 31
+    rating: 31,
+    igUrl: "https://www.instant-gaming.com/en/14554-buy-steam-nba-2k24-kobe-bryant-edition-kobe-bryant-edition-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 80,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 212,
@@ -4668,7 +5476,11 @@ const games = [
     itchUrl: "",
     ccu: 2781,
     trending: true,
-    rating: 87
+    rating: 87,
+    igUrl: "https://www.instant-gaming.com/en/20989-download-steam-fishing-planet-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 213,
@@ -4691,7 +5503,11 @@ const games = [
     itchUrl: "",
     ccu: 2679,
     trending: true,
-    rating: 89
+    rating: 89,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 214,
@@ -4714,7 +5530,11 @@ const games = [
     itchUrl: "",
     ccu: 2634,
     trending: true,
-    rating: 62
+    rating: 62,
+    igUrl: "https://www.instant-gaming.com/en/16735-download-steam-game-of-thrones-kingsroad-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 215,
@@ -4737,7 +5557,11 @@ const games = [
     itchUrl: "",
     ccu: 2578,
     trending: true,
-    rating: 80
+    rating: 80,
+    igUrl: "https://www.instant-gaming.com/en/13615-buy-steam-ravenswatch-pc-game-steam-europe-and-us-and-canada/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 216,
@@ -4760,7 +5584,11 @@ const games = [
     itchUrl: "",
     ccu: 2569,
     trending: true,
-    rating: 80
+    rating: 80,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 217,
@@ -4783,7 +5611,11 @@ const games = [
     itchUrl: "",
     ccu: 2547,
     trending: true,
-    rating: 97
+    rating: 97,
+    igUrl: "https://www.instant-gaming.com/en/21460-buy-steam-powerwash-simulator-2-adventure-time-pack-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 218,
@@ -4806,7 +5638,11 @@ const games = [
     itchUrl: "",
     ccu: 2543,
     trending: true,
-    rating: 85
+    rating: 85,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 219,
@@ -4829,7 +5665,11 @@ const games = [
     itchUrl: "",
     ccu: 2464,
     trending: true,
-    rating: 94
+    rating: 94,
+    igUrl: "https://www.instant-gaming.com/en/16073-buy-steam-supermarket-simulator-pc-game-steam-europe-and-us-and-canada/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 220,
@@ -4852,7 +5692,11 @@ const games = [
     itchUrl: "",
     ccu: 2330,
     trending: true,
-    rating: 79
+    rating: 79,
+    igUrl: "https://www.instant-gaming.com/en/940-buy-steam-company-of-heroes-2-the-british-forces-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 86,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 221,
@@ -4875,7 +5719,11 @@ const games = [
     itchUrl: "",
     ccu: 2248,
     trending: true,
-    rating: 96
+    rating: 96,
+    igUrl: "https://www.instant-gaming.com/en/18043-buy-steam-devil-may-cry-5-vergil-pc-game-steam-us-and-ca/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 222,
@@ -4898,7 +5746,11 @@ const games = [
     itchUrl: "",
     ccu: 2216,
     trending: true,
-    rating: 83
+    rating: 83,
+    igUrl: "https://www.instant-gaming.com/en/8242-buy-steam-call-to-arms-gates-of-hell-ostfront-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 223,
@@ -4921,7 +5773,11 @@ const games = [
     itchUrl: "",
     ccu: 2207,
     trending: true,
-    rating: 83
+    rating: 83,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 224,
@@ -4944,7 +5800,11 @@ const games = [
     itchUrl: "",
     ccu: 2183,
     trending: true,
-    rating: 57
+    rating: 57,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 225,
@@ -4967,7 +5827,11 @@ const games = [
     itchUrl: "",
     ccu: 2067,
     trending: true,
-    rating: 73
+    rating: 73,
+    igUrl: "https://www.instant-gaming.com/en/16011-buy-steam-f1-24-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 226,
@@ -4990,7 +5854,11 @@ const games = [
     itchUrl: "",
     ccu: 1853,
     trending: true,
-    rating: 83
+    rating: 83,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 227,
@@ -5013,7 +5881,11 @@ const games = [
     itchUrl: "",
     ccu: 1816,
     trending: true,
-    rating: 73
+    rating: 73,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 228,
@@ -5036,7 +5908,11 @@ const games = [
     itchUrl: "",
     ccu: 1807,
     trending: true,
-    rating: 91
+    rating: 91,
+    igUrl: "https://www.instant-gaming.com/en/1506-buy-steam-total-war-shogun-2-collection-collection-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 91,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 229,
@@ -5059,7 +5935,11 @@ const games = [
     itchUrl: "",
     ccu: 1789,
     trending: true,
-    rating: 66
+    rating: 66,
+    igUrl: "https://www.instant-gaming.com/en/18563-buy-steam-pga-tour-2k25-deluxe-edition-deluxe-edition-pc-game-steam-us-and-ca/?igr=gamer-ddc4a8",
+    igDiscount: 29,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 230,
@@ -5082,7 +5962,11 @@ const games = [
     itchUrl: "",
     ccu: 1748,
     trending: true,
-    rating: 86
+    rating: 86,
+    igUrl: "https://www.instant-gaming.com/en/13700-buy-steam-mechabellum-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 57,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 231,
@@ -5105,7 +5989,11 @@ const games = [
     itchUrl: "",
     ccu: 1707,
     trending: true,
-    rating: 82
+    rating: 82,
+    igUrl: "https://www.instant-gaming.com/en/22025-buy-steam-age-of-wonders-4-rise-from-ruin-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 22,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 232,
@@ -5128,7 +6016,11 @@ const games = [
     itchUrl: "",
     ccu: 674,
     trending: false,
-    rating: 94
+    rating: 94,
+    igUrl: "https://www.instant-gaming.com/en/9706-buy-steam-escape-simulator-pc-mac-steam/?igr=gamer-ddc4a8",
+    igDiscount: 33,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 233,
@@ -5151,7 +6043,11 @@ const games = [
     itchUrl: "",
     ccu: 48,
     trending: false,
-    rating: 96
+    rating: 96,
+    igUrl: "https://www.instant-gaming.com/en/14977-buy-steam-pikuniku-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 71,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 234,
@@ -5174,7 +6070,11 @@ const games = [
     itchUrl: "",
     ccu: 307,
     trending: false,
-    rating: 84
+    rating: 84,
+    igUrl: "https://www.instant-gaming.com/en/21054-buy-steam-gtfo-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 235,
@@ -5197,7 +6097,11 @@ const games = [
     itchUrl: "",
     ccu: 14,
     trending: false,
-    rating: 87
+    rating: 87,
+    igUrl: "https://www.instant-gaming.com/en/14560-buy-steam-we-need-to-go-deeper-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 27,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 236,
@@ -5220,7 +6124,11 @@ const games = [
     itchUrl: "",
     ccu: 61,
     trending: false,
-    rating: 86
+    rating: 86,
+    igUrl: "https://www.instant-gaming.com/en/2532-buy-steam-dungeon-of-the-endless-pixel-edition-pixel-edition-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 82,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 237,
@@ -5243,7 +6151,11 @@ const games = [
     itchUrl: "",
     ccu: 12,
     trending: false,
-    rating: 91
+    rating: 91,
+    igUrl: "https://www.instant-gaming.com/en/14976-buy-steam-heave-ho-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 77,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 238,
@@ -5266,7 +6178,11 @@ const games = [
     itchUrl: "",
     ccu: 507,
     trending: false,
-    rating: 94
+    rating: 94,
+    igUrl: "https://www.instant-gaming.com/en/14649-buy-steam-necesse-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 44,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 239,
@@ -5289,7 +6205,11 @@ const games = [
     itchUrl: "",
     ccu: 95,
     trending: false,
-    rating: 86
+    rating: 86,
+    igUrl: "https://www.instant-gaming.com/en/12600-buy-steam-ghost-watchers-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 240,
@@ -5312,7 +6232,11 @@ const games = [
     itchUrl: "",
     ccu: 1154,
     trending: true,
-    rating: 91
+    rating: 91,
+    igUrl: "https://www.instant-gaming.com/en/17065-buy-steam-chained-together-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 241,
@@ -5335,7 +6259,11 @@ const games = [
     itchUrl: "",
     ccu: 243,
     trending: false,
-    rating: 95
+    rating: 95,
+    igUrl: "https://www.instant-gaming.com/en/2088-buy-steam-besiege-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 92,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 242,
@@ -5358,7 +6286,11 @@ const games = [
     itchUrl: "",
     ccu: 472,
     trending: false,
-    rating: 82
+    rating: 82,
+    igUrl: "https://www.instant-gaming.com/en/14828-buy-steam-sunkenland-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 243,
@@ -5381,7 +6313,11 @@ const games = [
     itchUrl: "",
     ccu: 569,
     trending: false,
-    rating: 87
+    rating: 87,
+    igUrl: "https://www.instant-gaming.com/en/17989-buy-steam-backrooms-escape-together-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 244,
@@ -5404,7 +6340,11 @@ const games = [
     itchUrl: "",
     ccu: 65,
     trending: false,
-    rating: 83
+    rating: 83,
+    igUrl: "https://www.instant-gaming.com/en/4339-buy-steam-volcanoids-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 28,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 245,
@@ -5427,7 +6367,11 @@ const games = [
     itchUrl: "",
     ccu: 142,
     trending: false,
-    rating: 90
+    rating: 90,
+    igUrl: "https://www.instant-gaming.com/en/8307-buy-steam-we-were-here-together-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 56,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 246,
@@ -5450,7 +6394,11 @@ const games = [
     itchUrl: "",
     ccu: 8,
     trending: false,
-    rating: 82
+    rating: 82,
+    igUrl: "https://www.instant-gaming.com/en/14806-buy-steam-totally-reliable-delivery-service-stunt-sets-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 77,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 247,
@@ -5473,7 +6421,11 @@ const games = [
     itchUrl: "",
     ccu: 428,
     trending: false,
-    rating: 88
+    rating: 88,
+    igUrl: "https://www.instant-gaming.com/en/2158-buy-steam-for-the-king-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 91,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 248,
@@ -5496,7 +6448,11 @@ const games = [
     itchUrl: "",
     ccu: 374,
     trending: false,
-    rating: 69
+    rating: 69,
+    igUrl: "https://www.instant-gaming.com/en/20411-buy-steam-for-the-king-ii-tinkerers-of-fate-character-pack-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 26,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 249,
@@ -5519,7 +6475,11 @@ const games = [
     itchUrl: "",
     ccu: 480,
     trending: false,
-    rating: 97
+    rating: 97,
+    igUrl: "https://www.instant-gaming.com/en/15430-buy-steam-bopl-battle-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 250,
@@ -5542,7 +6502,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 96
+    rating: 96,
+    igUrl: "https://www.instant-gaming.com/en/20252-buy-steam-cult-of-the-lamb-woolhaven-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 29,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 251,
@@ -5565,7 +6529,11 @@ const games = [
     itchUrl: "",
     ccu: 69,
     trending: false,
-    rating: 96
+    rating: 96,
+    igUrl: "https://www.instant-gaming.com/en/1898-buy-steam-shovel-knight-treasure-trove-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 63,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 252,
@@ -5588,7 +6556,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 81
+    rating: 81,
+    igUrl: "https://www.instant-gaming.com/en/16818-buy-steam-soulmask-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 41,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 253,
@@ -5611,7 +6583,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 93
+    rating: 93,
+    igUrl: "https://www.instant-gaming.com/en/6343-buy-steam-prodeus-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 93,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 254,
@@ -5634,7 +6610,11 @@ const games = [
     itchUrl: "",
     ccu: 61,
     trending: false,
-    rating: 80
+    rating: 80,
+    igUrl: "https://www.instant-gaming.com/en/14348-buy-steam-towerborne-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 24,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 255,
@@ -5657,7 +6637,11 @@ const games = [
     itchUrl: "",
     ccu: 67,
     trending: false,
-    rating: 82
+    rating: 82,
+    igUrl: "https://www.instant-gaming.com/en/11321-buy-steam-ship-of-fools-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 72,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 256,
@@ -5680,7 +6664,11 @@ const games = [
     itchUrl: "",
     ccu: 10,
     trending: false,
-    rating: 94
+    rating: 94,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 257,
@@ -5703,7 +6691,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "https://www.instant-gaming.com/en/9741-download-steam-goose-goose-duck-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 258,
@@ -5726,7 +6718,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "https://www.instant-gaming.com/en/21455-buy-steam-the-finals-year-1-deluxe-edition-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 27,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 259,
@@ -5749,7 +6745,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 80
+    rating: 80,
+    igUrl: "https://www.instant-gaming.com/en/16464-download-steam-marvel-rivals-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 260,
@@ -5772,7 +6772,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 90
+    rating: 90,
+    igUrl: "https://www.instant-gaming.com/en/4220-buy-steam-tower-unite-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 54,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 261,
@@ -5795,7 +6799,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "https://www.instant-gaming.com/en/9260-buy-steam-delta-force-xtreme-2-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 262,
@@ -5818,7 +6826,11 @@ const games = [
     itchUrl: "",
     ccu: 124262,
     trending: true,
-    rating: 67
+    rating: 67,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 263,
@@ -5841,7 +6853,11 @@ const games = [
     itchUrl: "",
     ccu: 1400,
     trending: true,
-    rating: 70
+    rating: 70,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 264,
@@ -5864,7 +6880,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "https://www.instant-gaming.com/en/19648-buy-steam-peak-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 18,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 265,
@@ -5887,7 +6907,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "https://www.instant-gaming.com/en/20197-buy-steam-absolum-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 14,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 266,
@@ -5910,7 +6934,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "https://www.instant-gaming.com/en/20702-buy-steam-rv-there-yet-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 267,
@@ -5933,7 +6961,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "https://www.instant-gaming.com/en/19680-buy-steam-borderlands-4-super-deluxe-edition-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 54,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 268,
@@ -5956,7 +6988,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 88
+    rating: 88,
+    igUrl: "https://www.instant-gaming.com/en/9101-buy-steam-coral-island-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 47,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 269,
@@ -5979,7 +7015,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "https://www.instant-gaming.com/en/20814-buy-steam-windswept-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 270,
@@ -6002,7 +7042,11 @@ const games = [
     itchUrl: "",
     ccu: 1252,
     trending: true,
-    rating: 81
+    rating: 81,
+    igUrl: "https://www.instant-gaming.com/en/15014-buy-steam-bellwright-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 271,
@@ -6025,7 +7069,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "https://www.instant-gaming.com/en/10142-buy-steam-arc-raiders-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 31,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 272,
@@ -6048,7 +7096,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 91
+    rating: 91,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 273,
@@ -6071,7 +7123,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "https://www.instant-gaming.com/en/21716-buy-steam-dune-awakening-raiders-of-the-broken-lands-dlc-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 18,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 274,
@@ -6094,7 +7150,11 @@ const games = [
     itchUrl: "",
     ccu: 161,
     trending: false,
-    rating: 86
+    rating: 86,
+    igUrl: "https://www.instant-gaming.com/en/9060-buy-steam-orcs-must-die-3-pc-game-steam-europe-and-us-and-canada/?igr=gamer-ddc4a8",
+    igDiscount: 84,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 275,
@@ -6117,7 +7177,11 @@ const games = [
     itchUrl: "",
     ccu: 702,
     trending: false,
-    rating: 95
+    rating: 95,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 276,
@@ -6140,7 +7204,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "https://www.instant-gaming.com/en/19832-buy-steam-abyssus-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 277,
@@ -6163,7 +7231,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 278,
@@ -6186,7 +7258,11 @@ const games = [
     itchUrl: "",
     ccu: 6,
     trending: false,
-    rating: 91
+    rating: 91,
+    igUrl: "https://www.instant-gaming.com/en/2897-buy-steam-monaco-what-s-yours-is-mine-pc-mac-steam/?igr=gamer-ddc4a8",
+    igDiscount: 93,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 279,
@@ -6209,7 +7285,11 @@ const games = [
     itchUrl: "",
     ccu: 719,
     trending: false,
-    rating: 91
+    rating: 91,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 280,
@@ -6232,7 +7312,11 @@ const games = [
     itchUrl: "",
     ccu: 100,
     trending: false,
-    rating: 96
+    rating: 96,
+    igUrl: "https://www.instant-gaming.com/en/3435-buy-steam-untitled-goose-game-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 281,
@@ -6255,7 +7339,11 @@ const games = [
     itchUrl: "",
     ccu: 30,
     trending: false,
-    rating: 87
+    rating: 87,
+    igUrl: "https://www.instant-gaming.com/en/9374-buy-steam-operation-tango-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 80,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 282,
@@ -6278,7 +7366,11 @@ const games = [
     itchUrl: "",
     ccu: 103,
     trending: false,
-    rating: 90
+    rating: 90,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 283,
@@ -6301,7 +7393,11 @@ const games = [
     itchUrl: "",
     ccu: 3,
     trending: false,
-    rating: 76
+    rating: 76,
+    igUrl: "https://www.instant-gaming.com/en/8611-buy-steam-tools-up-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 90,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 284,
@@ -6324,7 +7420,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "https://www.instant-gaming.com/en/20759-buy-steam-biped-2-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 46,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 285,
@@ -6347,7 +7447,11 @@ const games = [
     itchUrl: "",
     ccu: 27,
     trending: false,
-    rating: 91
+    rating: 91,
+    igUrl: "https://www.instant-gaming.com/en/10266-buy-steam-nobody-saves-the-world-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 83,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 286,
@@ -6370,7 +7474,11 @@ const games = [
     itchUrl: "",
     ccu: 29,
     trending: false,
-    rating: 82
+    rating: 82,
+    igUrl: "https://www.instant-gaming.com/en/4829-buy-steam-darksiders-genesis-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 82,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 287,
@@ -6393,7 +7501,11 @@ const games = [
     itchUrl: "",
     ccu: 69,
     trending: false,
-    rating: 89
+    rating: 89,
+    igUrl: "https://www.instant-gaming.com/en/11181-buy-steam-children-of-morta-complete-edition-complete-edition-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 88,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 288,
@@ -6416,7 +7528,11 @@ const games = [
     itchUrl: "",
     ccu: 42,
     trending: false,
-    rating: 92
+    rating: 92,
+    igUrl: "https://www.instant-gaming.com/en/13621-buy-steam-trine-5-a-clockwork-conspiracy-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 74,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 289,
@@ -6439,7 +7555,11 @@ const games = [
     itchUrl: "",
     ccu: 128,
     trending: false,
-    rating: 94
+    rating: 94,
+    igUrl: "https://www.instant-gaming.com/en/14588-buy-steam-ember-knights-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 62,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 290,
@@ -6462,7 +7582,11 @@ const games = [
     itchUrl: "",
     ccu: 1658,
     trending: true,
-    rating: 95
+    rating: 95,
+    igUrl: "https://www.instant-gaming.com/en/20722-buy-steam-carx-drift-racing-online-2-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 291,
@@ -6485,7 +7609,11 @@ const games = [
     itchUrl: "",
     ccu: 1612,
     trending: true,
-    rating: 84
+    rating: 84,
+    igUrl: "https://www.instant-gaming.com/en/697-buy-steam-dark-souls-ii-scholar-of-the-first-sin-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 64,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 292,
@@ -6508,7 +7636,11 @@ const games = [
     itchUrl: "",
     ccu: 1590,
     trending: true,
-    rating: 96
+    rating: 96,
+    igUrl: "https://www.instant-gaming.com/en/865-buy-steam-doom-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 80,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 293,
@@ -6531,7 +7663,11 @@ const games = [
     itchUrl: "",
     ccu: 1538,
     trending: true,
-    rating: 83
+    rating: 83,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 294,
@@ -6554,7 +7690,11 @@ const games = [
     itchUrl: "",
     ccu: 1510,
     trending: true,
-    rating: 90
+    rating: 90,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 295,
@@ -6577,7 +7717,11 @@ const games = [
     itchUrl: "",
     ccu: 1494,
     trending: true,
-    rating: 94
+    rating: 94,
+    igUrl: "https://www.instant-gaming.com/en/2083-buy-steam-plague-inc-evolved-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 45,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 296,
@@ -6600,7 +7744,11 @@ const games = [
     itchUrl: "",
     ccu: 1488,
     trending: true,
-    rating: 80
+    rating: 80,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 297,
@@ -6623,7 +7771,11 @@ const games = [
     itchUrl: "",
     ccu: 1469,
     trending: true,
-    rating: 67
+    rating: 67,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 298,
@@ -6646,7 +7798,11 @@ const games = [
     itchUrl: "",
     ccu: 1464,
     trending: true,
-    rating: 92
+    rating: 92,
+    igUrl: "https://www.instant-gaming.com/en/6731-buy-steam-total-war-warhammer-ii-the-shadow-and-the-blade-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 57,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 299,
@@ -6669,7 +7825,11 @@ const games = [
     itchUrl: "",
     ccu: 1458,
     trending: true,
-    rating: 96
+    rating: 96,
+    igUrl: "https://www.instant-gaming.com/en/16082-buy-steam-abiotic-factor-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 41,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 300,
@@ -6692,7 +7852,11 @@ const games = [
     itchUrl: "",
     ccu: 1422,
     trending: true,
-    rating: 82
+    rating: 82,
+    igUrl: "https://www.instant-gaming.com/en/570-buy-steam-total-war-attila-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 87,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 301,
@@ -6715,7 +7879,11 @@ const games = [
     itchUrl: "",
     ccu: 1385,
     trending: true,
-    rating: 84
+    rating: 84,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 302,
@@ -6738,7 +7906,11 @@ const games = [
     itchUrl: "",
     ccu: 1349,
     trending: true,
-    rating: 89
+    rating: 89,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 303,
@@ -6761,7 +7933,11 @@ const games = [
     itchUrl: "",
     ccu: 1326,
     trending: true,
-    rating: 81
+    rating: 81,
+    igUrl: "https://www.instant-gaming.com/en/5117-buy-steam-warhammer-40-000-gladius-relics-of-war-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 95,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 304,
@@ -6784,7 +7960,11 @@ const games = [
     itchUrl: "",
     ccu: 1319,
     trending: true,
-    rating: 80
+    rating: 80,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 305,
@@ -6807,7 +7987,11 @@ const games = [
     itchUrl: "",
     ccu: 1305,
     trending: true,
-    rating: 88
+    rating: 88,
+    igUrl: "https://www.instant-gaming.com/en/3347-buy-steam-kingdom-two-crowns-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 82,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 306,
@@ -6830,7 +8014,11 @@ const games = [
     itchUrl: "",
     ccu: 1297,
     trending: true,
-    rating: 81
+    rating: 81,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 307,
@@ -6853,7 +8041,11 @@ const games = [
     itchUrl: "",
     ccu: 1281,
     trending: true,
-    rating: 83
+    rating: 83,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 308,
@@ -6876,7 +8068,11 @@ const games = [
     itchUrl: "",
     ccu: 1261,
     trending: true,
-    rating: 83
+    rating: 83,
+    igUrl: "https://www.instant-gaming.com/en/19676-buy-steam-deadzone-rogue-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 309,
@@ -6899,7 +8095,11 @@ const games = [
     itchUrl: "",
     ccu: 1164,
     trending: true,
-    rating: 86
+    rating: 86,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 310,
@@ -6922,7 +8122,11 @@ const games = [
     itchUrl: "",
     ccu: 1121,
     trending: true,
-    rating: 78
+    rating: 78,
+    igUrl: "https://www.instant-gaming.com/en/20260-buy-steam-lost-castle-2-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 52,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 311,
@@ -6945,7 +8149,11 @@ const games = [
     itchUrl: "",
     ccu: 1080,
     trending: true,
-    rating: 93
+    rating: 93,
+    igUrl: "https://www.instant-gaming.com/en/16776-buy-steam-farm-together-2-pc-mac-steam/?igr=gamer-ddc4a8",
+    igDiscount: 32,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 312,
@@ -6968,7 +8176,11 @@ const games = [
     itchUrl: "",
     ccu: 1057,
     trending: true,
-    rating: 79
+    rating: 79,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 313,
@@ -6991,7 +8203,11 @@ const games = [
     itchUrl: "",
     ccu: 1023,
     trending: true,
-    rating: 78
+    rating: 78,
+    igUrl: "https://www.instant-gaming.com/en/16034-buy-steam-dead-island-2-ultimate-edition-ultimate-edition-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 85,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 314,
@@ -7014,7 +8230,11 @@ const games = [
     itchUrl: "",
     ccu: 996,
     trending: true,
-    rating: 90
+    rating: 90,
+    igUrl: "https://www.instant-gaming.com/en/21739-buy-steam-granblue-fantasy-relink-endless-ragnarok-upgrade-kit-standard-edition-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 315,
@@ -7037,7 +8257,11 @@ const games = [
     itchUrl: "",
     ccu: 990,
     trending: true,
-    rating: 79
+    rating: 79,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 316,
@@ -7060,7 +8284,11 @@ const games = [
     itchUrl: "",
     ccu: 989,
     trending: true,
-    rating: 77
+    rating: 77,
+    igUrl: "https://www.instant-gaming.com/en/7551-buy-steam-efootball-pes-2021-season-update-bayern-munchen-edition-bayern-munchen-edition-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 317,
@@ -7083,7 +8311,11 @@ const games = [
     itchUrl: "",
     ccu: 983,
     trending: true,
-    rating: 94
+    rating: 94,
+    igUrl: "https://www.instant-gaming.com/en/3066-buy-steam-farming-simulator-19-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 35,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 318,
@@ -7106,7 +8338,11 @@ const games = [
     itchUrl: "",
     ccu: 965,
     trending: true,
-    rating: 66
+    rating: 66,
+    igUrl: "https://www.instant-gaming.com/en/18770-buy-steam-wwe-2k25-deadman-edition-deadman-edition-pc-game-steam-us-and-ca/?igr=gamer-ddc4a8",
+    igDiscount: 60,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 319,
@@ -7129,7 +8365,11 @@ const games = [
     itchUrl: "",
     ccu: 957,
     trending: true,
-    rating: 71
+    rating: 71,
+    igUrl: "https://www.instant-gaming.com/en/17428-buy-steam-sniper-elite-resistance-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 48,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 320,
@@ -7152,7 +8392,11 @@ const games = [
     itchUrl: "",
     ccu: 925,
     trending: true,
-    rating: 79
+    rating: 79,
+    igUrl: "https://www.instant-gaming.com/en/15112-buy-steam-foundry-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 321,
@@ -7175,7 +8419,11 @@ const games = [
     itchUrl: "",
     ccu: 913,
     trending: true,
-    rating: 66
+    rating: 66,
+    igUrl: "https://www.instant-gaming.com/en/16984-buy-steam-eldegarde-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 322,
@@ -7198,7 +8446,11 @@ const games = [
     itchUrl: "",
     ccu: 909,
     trending: true,
-    rating: 92
+    rating: 92,
+    igUrl: "https://www.instant-gaming.com/en/5722-buy-steam-scrap-mechanic-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 323,
@@ -7221,7 +8473,11 @@ const games = [
     itchUrl: "",
     ccu: 903,
     trending: true,
-    rating: 92
+    rating: 92,
+    igUrl: "https://www.instant-gaming.com/en/6806-buy-steam-trailmakers-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 324,
@@ -7244,7 +8500,11 @@ const games = [
     itchUrl: "",
     ccu: 894,
     trending: true,
-    rating: 92
+    rating: 92,
+    igUrl: "https://www.instant-gaming.com/en/802-buy-steam-starbound-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 58,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 325,
@@ -7267,7 +8527,11 @@ const games = [
     itchUrl: "",
     ccu: 876,
     trending: true,
-    rating: 76
+    rating: 76,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 326,
@@ -7290,7 +8554,11 @@ const games = [
     itchUrl: "",
     ccu: 873,
     trending: true,
-    rating: 77
+    rating: 77,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 327,
@@ -7313,7 +8581,11 @@ const games = [
     itchUrl: "",
     ccu: 873,
     trending: true,
-    rating: 81
+    rating: 81,
+    igUrl: "https://www.instant-gaming.com/en/10272-buy-steam-warno-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 11,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 328,
@@ -7336,7 +8608,11 @@ const games = [
     itchUrl: "",
     ccu: 869,
     trending: true,
-    rating: 98
+    rating: 98,
+    igUrl: "https://www.instant-gaming.com/en/21765-buy-steam-wolfquest-anniversary-edition-mac-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 329,
@@ -7359,7 +8635,11 @@ const games = [
     itchUrl: "",
     ccu: 863,
     trending: true,
-    rating: 83
+    rating: 83,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 330,
@@ -7382,7 +8662,11 @@ const games = [
     itchUrl: "",
     ccu: 855,
     trending: true,
-    rating: 90
+    rating: 90,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 331,
@@ -7405,7 +8689,11 @@ const games = [
     itchUrl: "",
     ccu: 851,
     trending: true,
-    rating: 84
+    rating: 84,
+    igUrl: "https://www.instant-gaming.com/en/19005-buy-steam-runescape-dragonwilds-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 332,
@@ -7428,7 +8716,11 @@ const games = [
     itchUrl: "",
     ccu: 847,
     trending: true,
-    rating: 79
+    rating: 79,
+    igUrl: "https://www.instant-gaming.com/en/61-buy-steam-call-of-duty-modern-warfare-3-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 7,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 333,
@@ -7451,7 +8743,11 @@ const games = [
     itchUrl: "",
     ccu: 827,
     trending: true,
-    rating: 66
+    rating: 66,
+    igUrl: "https://www.instant-gaming.com/en/7268-buy-steam-lords-of-the-fallen-game-of-the-year-edition-2014-goty-edition-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 93,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 334,
@@ -7474,7 +8770,11 @@ const games = [
     itchUrl: "",
     ccu: 808,
     trending: true,
-    rating: 87
+    rating: 87,
+    igUrl: "https://www.instant-gaming.com/en/16619-buy-steam-oddsparks-an-automation-adventure-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 77,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 335,
@@ -7497,7 +8797,11 @@ const games = [
     itchUrl: "",
     ccu: 804,
     trending: true,
-    rating: 93
+    rating: 93,
+    igUrl: "https://www.instant-gaming.com/en/520-buy-steam-age-of-mythology-extended-edition-extended-edition-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 336,
@@ -7520,7 +8824,11 @@ const games = [
     itchUrl: "",
     ccu: 796,
     trending: false,
-    rating: 98
+    rating: 98,
+    igUrl: "https://www.instant-gaming.com/en/6785-buy-steam-crab-champions-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 337,
@@ -7543,7 +8851,11 @@ const games = [
     itchUrl: "",
     ccu: 793,
     trending: false,
-    rating: 81
+    rating: 81,
+    igUrl: "https://www.instant-gaming.com/en/9460-download-steam-the-lord-of-the-rings-online-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 338,
@@ -7566,7 +8878,11 @@ const games = [
     itchUrl: "",
     ccu: 786,
     trending: false,
-    rating: 91
+    rating: 91,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 339,
@@ -7589,7 +8905,11 @@ const games = [
     itchUrl: "",
     ccu: 774,
     trending: false,
-    rating: 96
+    rating: 96,
+    igUrl: "https://www.instant-gaming.com/en/733-buy-steam-left-4-dead-2-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 340,
@@ -7612,7 +8932,11 @@ const games = [
     itchUrl: "",
     ccu: 774,
     trending: false,
-    rating: 70
+    rating: 70,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 341,
@@ -7635,7 +8959,11 @@ const games = [
     itchUrl: "",
     ccu: 764,
     trending: false,
-    rating: 80
+    rating: 80,
+    igUrl: "https://www.instant-gaming.com/en/4495-buy-steam-mordhau-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 77,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 342,
@@ -7658,7 +8986,11 @@ const games = [
     itchUrl: "",
     ccu: 758,
     trending: false,
-    rating: 80
+    rating: 80,
+    igUrl: "https://www.instant-gaming.com/en/9467-download-steam-trove-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 343,
@@ -7681,7 +9013,11 @@ const games = [
     itchUrl: "",
     ccu: 753,
     trending: false,
-    rating: 90
+    rating: 90,
+    igUrl: "https://www.instant-gaming.com/en/3581-buy-steam-neverwinter-nights-enhanced-edition-pc-mac-steam/?igr=gamer-ddc4a8",
+    igDiscount: 83,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 344,
@@ -7704,7 +9040,11 @@ const games = [
     itchUrl: "",
     ccu: 740,
     trending: false,
-    rating: 75
+    rating: 75,
+    igUrl: "https://www.instant-gaming.com/en/15035-buy-steam-humanitz-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 64,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 345,
@@ -7727,7 +9067,11 @@ const games = [
     itchUrl: "",
     ccu: 732,
     trending: false,
-    rating: 88
+    rating: 88,
+    igUrl: "https://www.instant-gaming.com/en/12178-buy-steam-lightyear-frontier-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 346,
@@ -7750,7 +9094,11 @@ const games = [
     itchUrl: "",
     ccu: 712,
     trending: false,
-    rating: 82
+    rating: 82,
+    igUrl: "https://www.instant-gaming.com/en/17513-download-steam-wizard101-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 347,
@@ -7773,7 +9121,11 @@ const games = [
     itchUrl: "",
     ccu: 711,
     trending: false,
-    rating: 91
+    rating: 91,
+    igUrl: "https://www.instant-gaming.com/en/4092-buy-steam-men-of-war-assault-squad-2-war-chest-edition-war-chest-edition-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 88,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 348,
@@ -7796,7 +9148,11 @@ const games = [
     itchUrl: "",
     ccu: 701,
     trending: false,
-    rating: 80
+    rating: 80,
+    igUrl: "https://www.instant-gaming.com/en/16053-buy-steam-aska-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 57,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 349,
@@ -7819,7 +9175,11 @@ const games = [
     itchUrl: "",
     ccu: 698,
     trending: false,
-    rating: 76
+    rating: 76,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 350,
@@ -7842,7 +9202,11 @@ const games = [
     itchUrl: "",
     ccu: 692,
     trending: false,
-    rating: 81
+    rating: 81,
+    igUrl: "https://www.instant-gaming.com/en/9482-buy-steam-eco-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 351,
@@ -7865,7 +9229,11 @@ const games = [
     itchUrl: "",
     ccu: 687,
     trending: false,
-    rating: 86
+    rating: 86,
+    igUrl: "https://www.instant-gaming.com/en/9738-buy-steam-legion-td-2-multiplayer-tower-defense-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 352,
@@ -7888,7 +9256,11 @@ const games = [
     itchUrl: "",
     ccu: 686,
     trending: false,
-    rating: 98
+    rating: 98,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 354,
@@ -7911,7 +9283,11 @@ const games = [
     itchUrl: "",
     ccu: 664,
     trending: false,
-    rating: 81
+    rating: 81,
+    igUrl: "https://www.instant-gaming.com/en/7281-buy-steam-fall-guys-ultimate-knockout-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 4,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 355,
@@ -7934,7 +9310,11 @@ const games = [
     itchUrl: "",
     ccu: 658,
     trending: false,
-    rating: 96
+    rating: 96,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 356,
@@ -7957,7 +9337,11 @@ const games = [
     itchUrl: "",
     ccu: 656,
     trending: false,
-    rating: 82
+    rating: 82,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 357,
@@ -7980,7 +9364,11 @@ const games = [
     itchUrl: "",
     ccu: 652,
     trending: false,
-    rating: 90
+    rating: 90,
+    igUrl: "https://www.instant-gaming.com/en/1444-buy-steam-dragon-ball-xenoverse-2-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 75,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 358,
@@ -8003,7 +9391,11 @@ const games = [
     itchUrl: "",
     ccu: 647,
     trending: false,
-    rating: 70
+    rating: 70,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 361,
@@ -8026,7 +9418,11 @@ const games = [
     itchUrl: "",
     ccu: 636,
     trending: false,
-    rating: 85
+    rating: 85,
+    igUrl: "https://www.instant-gaming.com/en/9687-buy-steam-mechwarrior-5-mercenaries-legend-of-the-kestrel-lancers-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 10,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 362,
@@ -8049,7 +9445,11 @@ const games = [
     itchUrl: "",
     ccu: 627,
     trending: false,
-    rating: 72
+    rating: 72,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 363,
@@ -8072,7 +9472,11 @@ const games = [
     itchUrl: "",
     ccu: 625,
     trending: false,
-    rating: 97
+    rating: 97,
+    igUrl: "https://www.instant-gaming.com/en/19153-buy-steam-wobbly-life-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 364,
@@ -8095,7 +9499,11 @@ const games = [
     itchUrl: "",
     ccu: 620,
     trending: false,
-    rating: 83
+    rating: 83,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 366,
@@ -8118,7 +9526,11 @@ const games = [
     itchUrl: "",
     ccu: 618,
     trending: false,
-    rating: 90
+    rating: 90,
+    igUrl: "https://www.instant-gaming.com/en/8763-buy-steam-avorion-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 53,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 367,
@@ -8141,7 +9553,11 @@ const games = [
     itchUrl: "",
     ccu: 605,
     trending: false,
-    rating: 91
+    rating: 91,
+    igUrl: "https://www.instant-gaming.com/en/17884-buy-steam-liar-s-bar-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 368,
@@ -8164,7 +9580,11 @@ const games = [
     itchUrl: "",
     ccu: 599,
     trending: false,
-    rating: 91
+    rating: 91,
+    igUrl: "https://www.instant-gaming.com/en/1673-buy-steam-titan-quest-anniversary-edition-anniversary-edition-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 82,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 369,
@@ -8187,7 +9607,11 @@ const games = [
     itchUrl: "",
     ccu: 577,
     trending: false,
-    rating: 78
+    rating: 78,
+    igUrl: "https://www.instant-gaming.com/en/12685-buy-steam-axis-and-allies-1942-online-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 23,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 370,
@@ -8210,7 +9634,11 @@ const games = [
     itchUrl: "",
     ccu: 575,
     trending: false,
-    rating: 87
+    rating: 87,
+    igUrl: "https://www.instant-gaming.com/en/8009-buy-steam-tropico-6-caribbean-skies-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 90,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 371,
@@ -8233,7 +9661,11 @@ const games = [
     itchUrl: "",
     ccu: 569,
     trending: false,
-    rating: 94
+    rating: 94,
+    igUrl: "https://www.instant-gaming.com/en/7623-buy-steam-wingspan-pc-mac-steam/?igr=gamer-ddc4a8",
+    igDiscount: 78,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 372,
@@ -8256,7 +9688,11 @@ const games = [
     itchUrl: "",
     ccu: 567,
     trending: false,
-    rating: 73
+    rating: 73,
+    igUrl: "https://www.instant-gaming.com/en/15460-buy-steam-apocalypse-party-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 27,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 373,
@@ -8279,7 +9715,11 @@ const games = [
     itchUrl: "",
     ccu: 566,
     trending: false,
-    rating: 87
+    rating: 87,
+    igUrl: "https://www.instant-gaming.com/en/9264-buy-steam-resident-evil-5-untold-stories-bundle-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 374,
@@ -8302,7 +9742,11 @@ const games = [
     itchUrl: "",
     ccu: 558,
     trending: false,
-    rating: 84
+    rating: 84,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 376,
@@ -8325,7 +9769,11 @@ const games = [
     itchUrl: "",
     ccu: 545,
     trending: false,
-    rating: 94
+    rating: 94,
+    igUrl: "https://www.instant-gaming.com/en/19264-buy-steam-fast-food-simulator-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 377,
@@ -8348,7 +9796,11 @@ const games = [
     itchUrl: "",
     ccu: 544,
     trending: false,
-    rating: 86
+    rating: 86,
+    igUrl: "https://www.instant-gaming.com/en/17404-buy-steam-sins-of-a-solar-empire-ii-premium-edition-premium-edition-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 74,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 378,
@@ -8371,7 +9823,11 @@ const games = [
     itchUrl: "",
     ccu: 541,
     trending: false,
-    rating: 91
+    rating: 91,
+    igUrl: "https://www.instant-gaming.com/en/6136-buy-steam-sniper-elite-4-deluxe-edition-deluxe-edition-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 94,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 379,
@@ -8394,7 +9850,11 @@ const games = [
     itchUrl: "",
     ccu: 531,
     trending: false,
-    rating: 82
+    rating: 82,
+    igUrl: "https://www.instant-gaming.com/en/12782-buy-steam-across-the-obelisk-pc-mac-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 88,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 380,
@@ -8417,7 +9877,11 @@ const games = [
     itchUrl: "https://soerbgames.itch.io/my-rusty-submarine",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 381,
@@ -8440,7 +9904,11 @@ const games = [
     itchUrl: "https://fizzd.itch.io/rhythm-doctor",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 382,
@@ -8463,7 +9931,11 @@ const games = [
     itchUrl: "https://limestudio.itch.io/unheard-scream",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 383,
@@ -8486,7 +9958,11 @@ const games = [
     itchUrl: "https://josia-roncancio.itch.io/dyo",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 384,
@@ -8509,7 +9985,11 @@ const games = [
     itchUrl: "https://toncho.itch.io/nuclear-throne-mobile",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 385,
@@ -8532,7 +10012,11 @@ const games = [
     itchUrl: "https://jeanne444.itch.io/froggin-around",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 386,
@@ -8555,7 +10039,11 @@ const games = [
     itchUrl: "https://2wheelerdev.itch.io/hamsteria",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 387,
@@ -8578,7 +10066,11 @@ const games = [
     itchUrl: "https://gregs-games.itch.io/specimen",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 388,
@@ -8601,7 +10093,11 @@ const games = [
     itchUrl: "https://sachajacquemin.itch.io/fearchannel",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 389,
@@ -8624,7 +10120,11 @@ const games = [
     itchUrl: "https://hub-os.itch.io/hub-os",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 390,
@@ -8647,7 +10147,11 @@ const games = [
     itchUrl: "https://spacemace.itch.io/joggernauts",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 391,
@@ -8670,7 +10174,11 @@ const games = [
     itchUrl: "https://csaurageul.itch.io/eastofeden",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 392,
@@ -8693,7 +10201,11 @@ const games = [
     itchUrl: "https://morphcatgames.itch.io/micromages",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 393,
@@ -8716,7 +10228,11 @@ const games = [
     itchUrl: "https://loficacti.itch.io/god-save-the-queen",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 394,
@@ -8739,7 +10255,11 @@ const games = [
     itchUrl: "https://totally-fungal.itch.io/shagster-2",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 395,
@@ -8762,7 +10282,11 @@ const games = [
     itchUrl: "https://pelicanparty.itch.io/ducklings",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 396,
@@ -8785,7 +10309,11 @@ const games = [
     itchUrl: "https://deadkir.itch.io/chernozem",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 397,
@@ -8808,7 +10336,11 @@ const games = [
     itchUrl: "https://hypetrain.itch.io/police-stories",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 398,
@@ -8831,7 +10363,11 @@ const games = [
     itchUrl: "https://maddymakesgamesinc.itch.io/towerfall-dark-world",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 399,
@@ -8854,7 +10390,11 @@ const games = [
     itchUrl: "https://widelands.itch.io/widelands",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 400,
@@ -8877,7 +10417,11 @@ const games = [
     itchUrl: "",
     ccu: 527,
     trending: false,
-    rating: 91
+    rating: 91,
+    igUrl: "https://www.instant-gaming.com/en/95-buy-steam-call-of-duty-black-ops-ii-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 401,
@@ -8900,7 +10444,11 @@ const games = [
     itchUrl: "",
     ccu: 522,
     trending: false,
-    rating: 95
+    rating: 95,
+    igUrl: "https://www.instant-gaming.com/en/8619-buy-steam-rise-of-nations-extended-edition-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 402,
@@ -8923,7 +10471,11 @@ const games = [
     itchUrl: "",
     ccu: 515,
     trending: false,
-    rating: 79
+    rating: 79,
+    igUrl: "https://www.instant-gaming.com/en/17410-buy-steam-resident-evil-6-onslaught-mode-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 403,
@@ -8946,7 +10498,11 @@ const games = [
     itchUrl: "",
     ccu: 514,
     trending: false,
-    rating: 88
+    rating: 88,
+    igUrl: "https://www.instant-gaming.com/en/13811-buy-steam-void-crew-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 42,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 404,
@@ -8969,7 +10525,11 @@ const games = [
     itchUrl: "",
     ccu: 509,
     trending: false,
-    rating: 89
+    rating: 89,
+    igUrl: "https://www.instant-gaming.com/en/12451-buy-steam-sea-of-stars-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 64,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 405,
@@ -8992,7 +10552,11 @@ const games = [
     itchUrl: "",
     ccu: 505,
     trending: false,
-    rating: 96
+    rating: 96,
+    igUrl: "https://www.instant-gaming.com/en/6387-buy-steam-door-kickers-2-task-force-north-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 39,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 406,
@@ -9015,7 +10579,11 @@ const games = [
     itchUrl: "https://snowbat.itch.io/krisper-the-impostor",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 407,
@@ -9038,7 +10606,11 @@ const games = [
     itchUrl: "https://ironchestgames.itch.io/sneaky-stealy",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 408,
@@ -9061,7 +10633,11 @@ const games = [
     itchUrl: "https://schrolab.itch.io/totemori",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 409,
@@ -9084,7 +10660,11 @@ const games = [
     itchUrl: "https://tehrealsalt.itch.io/snap-the-sentinel",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 410,
@@ -9107,7 +10687,11 @@ const games = [
     itchUrl: "https://awesomegamesstudio.itch.io/fury-unleashed-prologue",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 411,
@@ -9130,7 +10714,11 @@ const games = [
     itchUrl: "https://scale1portal.itch.io/seps-diner",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 412,
@@ -9153,7 +10741,11 @@ const games = [
     itchUrl: "https://wildwoods.itch.io/wildwoods",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 413,
@@ -9176,7 +10768,11 @@ const games = [
     itchUrl: "https://madguy.itch.io/streets-of-rogue",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 414,
@@ -9199,7 +10795,11 @@ const games = [
     itchUrl: "https://dylza.itch.io/ancient-swarm",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 415,
@@ -9222,7 +10822,11 @@ const games = [
     itchUrl: "https://yeahmaybe.itch.io/the-choicer-voicer",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 416,
@@ -9245,7 +10849,11 @@ const games = [
     itchUrl: "https://cookiecrayon.itch.io/pikwip",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 417,
@@ -9268,7 +10876,11 @@ const games = [
     itchUrl: "https://dreamonstudios.itch.io/gladihoppers",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 418,
@@ -9291,7 +10903,11 @@ const games = [
     itchUrl: "https://starcutter.itch.io/among-us-arena",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 419,
@@ -9314,7 +10930,11 @@ const games = [
     itchUrl: "https://daves-retro-forge.itch.io/bubble-bobble-c64-remastered",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 420,
@@ -9337,7 +10957,11 @@ const games = [
     itchUrl: "https://maddymakesgamesinc.itch.io/towerfall-8-player",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 421,
@@ -9360,7 +10984,11 @@ const games = [
     itchUrl: "https://thebonesbrothers.itch.io/sticky-cats",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 422,
@@ -9383,7 +11011,11 @@ const games = [
     itchUrl: "https://play0ad.itch.io/0ad",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 423,
@@ -9406,7 +11038,11 @@ const games = [
     itchUrl: "https://madgarden.itch.io/eggnogg",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 424,
@@ -9429,7 +11065,11 @@ const games = [
     itchUrl: "https://puzzud.itch.io/mule-online",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 425,
@@ -9452,7 +11092,11 @@ const games = [
     itchUrl: "https://honkyhood11.itch.io/touhou-fumo-racing",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 426,
@@ -9475,7 +11119,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 427,
@@ -9498,7 +11146,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 428,
@@ -9521,7 +11173,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 429,
@@ -9544,7 +11200,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 430,
@@ -9567,7 +11227,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 431,
@@ -9590,7 +11254,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 432,
@@ -9613,7 +11281,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 433,
@@ -9636,7 +11308,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 434,
@@ -9659,7 +11335,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 435,
@@ -9682,7 +11362,11 @@ const games = [
     itchUrl: "https://rollinkunz.itch.io/die-in-a-dungeon",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 436,
@@ -9705,7 +11389,11 @@ const games = [
     itchUrl: "https://w84death.itch.io/tanks-of-freedom",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 437,
@@ -9728,7 +11416,11 @@ const games = [
     itchUrl: "https://jorio.itch.io/cromagrally",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 438,
@@ -9751,7 +11443,11 @@ const games = [
     itchUrl: "https://united-by-games.itch.io/the-king-of-fighters-final-attack",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 439,
@@ -9774,7 +11470,11 @@ const games = [
     itchUrl: "https://rgcddev.itch.io/tiger-claw",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 440,
@@ -9797,7 +11497,11 @@ const games = [
     itchUrl: "https://williamsxue.itch.io/chair-up",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 441,
@@ -9820,7 +11524,11 @@ const games = [
     itchUrl: "https://astrobardgames.itch.io/generic-fighter-maybe",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 442,
@@ -9843,7 +11551,11 @@ const games = [
     itchUrl: "https://timkrief.itch.io/fallacy-quiz",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 443,
@@ -9866,7 +11578,11 @@ const games = [
     itchUrl: "https://necrosoftgames.itch.io/hypergunsport",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 444,
@@ -9889,7 +11605,11 @@ const games = [
     itchUrl: "https://alexdevilish.itch.io/hit-x",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 445,
@@ -9912,7 +11632,11 @@ const games = [
     itchUrl: "https://nekomatata.itch.io/punch-pong",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 446,
@@ -9935,7 +11659,11 @@ const games = [
     itchUrl: "https://aich.itch.io/emperors-zero",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 447,
@@ -9958,7 +11686,11 @@ const games = [
     itchUrl: "https://alexvscoding.itch.io/narcissus",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 448,
@@ -9981,7 +11713,11 @@ const games = [
     itchUrl: "https://contigo-games.itch.io/starcrossed",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 449,
@@ -10004,7 +11740,11 @@ const games = [
     itchUrl: "https://jandusoft.itch.io/caveman-warriors",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 450,
@@ -10027,7 +11767,11 @@ const games = [
     itchUrl: "https://playables.itch.io/rakete",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 451,
@@ -10050,7 +11794,11 @@ const games = [
     itchUrl: "https://fleischgemuese.itch.io/vic-fizz",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 452,
@@ -10073,7 +11821,11 @@ const games = [
     itchUrl: "https://vfuzball.itch.io/marco-polo",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 453,
@@ -10096,7 +11848,11 @@ const games = [
     itchUrl: "https://vlowoid.itch.io/scarecrow-coop",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 454,
@@ -10119,7 +11875,11 @@ const games = [
     itchUrl: "https://fleischgemuese.itch.io/fizz",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 455,
@@ -10142,7 +11902,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 456,
@@ -10165,7 +11929,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 457,
@@ -10188,7 +11956,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 458,
@@ -10211,7 +11983,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 459,
@@ -10234,7 +12010,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 460,
@@ -10257,7 +12037,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 58
+    rating: 58,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 461,
@@ -10280,7 +12064,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 462,
@@ -10303,7 +12091,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 463,
@@ -10326,7 +12118,11 @@ const games = [
     itchUrl: "https://themgames.itch.io/chut",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 464,
@@ -10349,7 +12145,11 @@ const games = [
     itchUrl: "https://megaxis.itch.io/isolated-intelligence",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 465,
@@ -10372,7 +12172,11 @@ const games = [
     itchUrl: "https://struct9.itch.io/bar-keep",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 466,
@@ -10395,7 +12199,11 @@ const games = [
     itchUrl: "https://torculus.itch.io/shroom-bois",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 467,
@@ -10418,7 +12226,11 @@ const games = [
     itchUrl: "https://renaudbedard.itch.io/malisse",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 468,
@@ -10441,7 +12253,11 @@ const games = [
     itchUrl: "https://w.itch.io/octopounce",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 469,
@@ -10464,7 +12280,11 @@ const games = [
     itchUrl: "https://418studio.itch.io/ducktonicadventures",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 470,
@@ -10487,7 +12307,11 @@ const games = [
     itchUrl: "https://hakros.itch.io/hakros-drugod-tv-the-survival-games",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 471,
@@ -10510,7 +12334,11 @@ const games = [
     itchUrl: "https://rocket-raw.itch.io/yakuzakura",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 472,
@@ -10533,7 +12361,11 @@ const games = [
     itchUrl: "https://rollmopsinteractive.itch.io/panique-a-temple-a-steak",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 473,
@@ -10556,7 +12388,11 @@ const games = [
     itchUrl: "https://kanakstudio.itch.io/project-socket",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 474,
@@ -10579,7 +12415,11 @@ const games = [
     itchUrl: "https://pandaqi.itch.io/tower-of-freedom",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 475,
@@ -10602,7 +12442,11 @@ const games = [
     itchUrl: "https://enzitoc.itch.io/community-egg",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 476,
@@ -10625,7 +12469,11 @@ const games = [
     itchUrl: "https://elana-makes-games.itch.io/safe-space",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 477,
@@ -10648,7 +12496,11 @@ const games = [
     itchUrl: "https://ivanovichgames.itch.io/pangman-demo-for-quest",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 478,
@@ -10671,7 +12523,11 @@ const games = [
     itchUrl: "https://raar-games.itch.io/alfies-game",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 479,
@@ -10694,7 +12550,11 @@ const games = [
     itchUrl: "https://purpleplattypus.itch.io/shacklegame",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 480,
@@ -10717,7 +12577,11 @@ const games = [
     itchUrl: "https://sweaters.itch.io/easydeliveryco",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 481,
@@ -10740,7 +12604,11 @@ const games = [
     itchUrl: "https://sman.itch.io/ragdoll-runners",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 482,
@@ -10763,7 +12631,11 @@ const games = [
     itchUrl: "https://jasonrosenstock.itch.io/torb",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 483,
@@ -10786,7 +12658,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 76
+    rating: 76,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 484,
@@ -10809,7 +12685,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 485,
@@ -10832,7 +12712,11 @@ const games = [
     itchUrl: "https://wackywizards.itch.io/epicshop",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 486,
@@ -10855,7 +12739,11 @@ const games = [
     itchUrl: "https://wsong.itch.io/badblood",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 487,
@@ -10878,7 +12766,11 @@ const games = [
     itchUrl: "https://farelas.itch.io/lurking-danger",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 488,
@@ -10901,7 +12793,11 @@ const games = [
     itchUrl: "https://fulgen.itch.io/legacyclonk",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 489,
@@ -10924,7 +12820,11 @@ const games = [
     itchUrl: "https://junkbytes.itch.io/stick-veterans",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 490,
@@ -10947,7 +12847,11 @@ const games = [
     itchUrl: "https://pixel-boy.itch.io/quest-of-graal-dx",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 491,
@@ -10970,7 +12874,11 @@ const games = [
     itchUrl: "https://indigogaming.itch.io/garrison-archangel",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 492,
@@ -10993,7 +12901,11 @@ const games = [
     itchUrl: "https://team-ok.itch.io/chambara",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 493,
@@ -11016,7 +12928,11 @@ const games = [
     itchUrl: "https://malerouille.itch.io/obnubilia",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 494,
@@ -11039,7 +12955,11 @@ const games = [
     itchUrl: "https://the-hellbox.itch.io/beatercore",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 495,
@@ -11062,7 +12982,11 @@ const games = [
     itchUrl: "https://mausimus.itch.io/efcm",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 496,
@@ -11085,7 +13009,11 @@ const games = [
     itchUrl: "https://dopagames.itch.io/superpilot",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 497,
@@ -11108,7 +13036,11 @@ const games = [
     itchUrl: "https://cascadiagames.itch.io/wacky-wheels-hd",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 498,
@@ -11131,7 +13063,11 @@ const games = [
     itchUrl: "https://penguindt.itch.io/classic-tagap",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 499,
@@ -11154,7 +13090,11 @@ const games = [
     itchUrl: "https://blendogames.itch.io/flotilla",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 500,
@@ -11177,7 +13117,11 @@ const games = [
     itchUrl: "https://idlecreations.itch.io/tomb-of-rooms",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 501,
@@ -11200,7 +13144,11 @@ const games = [
     itchUrl: "https://gadarts.itch.io/openfire",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 502,
@@ -11223,7 +13171,11 @@ const games = [
     itchUrl: "https://misterakuma.itch.io/pretend-cars",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 503,
@@ -11246,7 +13198,11 @@ const games = [
     itchUrl: "https://arkimagames.itch.io/topplepop-demo",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 504,
@@ -11269,7 +13225,11 @@ const games = [
     itchUrl: "https://jon-gear.itch.io/felonyfelines",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 505,
@@ -11292,7 +13252,11 @@ const games = [
     itchUrl: "https://superdupergc.itch.io/blackice",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 506,
@@ -11315,7 +13279,11 @@ const games = [
     itchUrl: "https://yellowafterlife.itch.io/super-crate-box-together",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 507,
@@ -11338,7 +13306,11 @@ const games = [
     itchUrl: "https://greeby.itch.io/nick-tower",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 508,
@@ -11361,7 +13333,11 @@ const games = [
     itchUrl: "https://stelvlen.itch.io/tvo",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 509,
@@ -11384,7 +13360,11 @@ const games = [
     itchUrl: "https://indinin.itch.io/partners-in-uncertainty",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 510,
@@ -11407,7 +13387,11 @@ const games = [
     itchUrl: "https://thermitegames.itch.io/never-breakup",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 511,
@@ -11430,7 +13414,11 @@ const games = [
     itchUrl: "https://didone-sandbox.itch.io/galoria-sandbox-online",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 512,
@@ -11453,7 +13441,11 @@ const games = [
     itchUrl: "https://freshtoucan.itch.io/crisis-at-rwp-inc",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 513,
@@ -11476,7 +13468,11 @@ const games = [
     itchUrl: "https://wilds-of-the-realmwalkers.itch.io/wilds-of-the-realmwalker-public-playtest",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 514,
@@ -11499,7 +13495,11 @@ const games = [
     itchUrl: "https://gorkagames.itch.io/keep-painting",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 515,
@@ -11522,7 +13522,11 @@ const games = [
     itchUrl: "https://whimsyproductions.itch.io/thingandfist",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 516,
@@ -11545,7 +13549,11 @@ const games = [
     itchUrl: "https://casp3r974.itch.io/im-lag",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 517,
@@ -11568,7 +13576,11 @@ const games = [
     itchUrl: "https://offthedeck.itch.io/speedygolf",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 518,
@@ -11591,7 +13603,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "https://www.instant-gaming.com/en/20204-buy-steam-everwind-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 519,
@@ -11612,9 +13628,13 @@ const games = [
     gogUrl: "",
     epicUrl: "",
     itchUrl: "",
-    ccu: 0,
+    ccu: 57,
     trending: false,
-    rating: 0
+    rating: 69,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 520,
@@ -11637,7 +13657,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "https://www.instant-gaming.com/en/16057-buy-steam-dragonkin-the-banished-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 32,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 521,
@@ -11660,7 +13684,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 522,
@@ -11683,7 +13711,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "https://www.instant-gaming.com/en/22112-buy-steam-pizza-slice-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 34,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 523,
@@ -11706,7 +13738,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "https://www.instant-gaming.com/en/21710-buy-steam-wwe-2k26-king-of-kings-edition-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 33,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 524,
@@ -11729,7 +13765,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "https://www.instant-gaming.com/en/14331-buy-steam-john-carpenter-s-toxic-commando-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 22,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 525,
@@ -11752,7 +13792,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "https://www.instant-gaming.com/en/22138-buy-steam-mama-s-sleeping-angels-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 526,
@@ -11775,7 +13819,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 527,
@@ -11798,7 +13846,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "https://www.instant-gaming.com/en/22113-buy-steam-over-the-top-wwi-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 528,
@@ -11821,7 +13873,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 529,
@@ -11844,7 +13900,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "https://www.instant-gaming.com/en/16589-buy-steam-slay-the-spire-2-pc-mac-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 530,
@@ -11865,9 +13925,13 @@ const games = [
     gogUrl: "",
     epicUrl: "",
     itchUrl: "",
-    ccu: 0,
+    ccu: 75,
     trending: false,
-    rating: 0
+    rating: 83,
+    igUrl: "https://www.instant-gaming.com/en/14784-buy-steam-desynced-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 531,
@@ -11890,7 +13954,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 532,
@@ -11913,7 +13981,11 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "https://www.instant-gaming.com/en/14168-buy-steam-never-grave-the-witch-and-the-curse-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 533,
@@ -11934,9 +14006,13 @@ const games = [
     gogUrl: "",
     epicUrl: "",
     itchUrl: "",
-    ccu: 0,
+    ccu: 66,
     trending: false,
-    rating: 0
+    rating: 76,
+    igUrl: "https://www.instant-gaming.com/en/15068-buy-steam-rotwood-pc-game-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
   {
     id: 534,
@@ -11959,6 +14035,253 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0
+    rating: 0,
+    igUrl: "https://www.instant-gaming.com/en/19509-buy-steam-scott-pilgrim-ex-pc-steam/?igr=gamer-ddc4a8",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
+  },
+  {
+    id: 535,
+    igdbId: 0,
+    title: "Sundered: Eldritch Edition",
+    categories: ["indie", "splitscreen"],
+    genres: [],
+    coopMode: ["online", "local"],
+    maxPlayers: 4,
+    crossplay: false,
+    players: "2-4",
+    image: "https://img.itch.zone/aW1nLzM1ODkzNjUucG5n/315x250%23c/w5R%2B7d.png",
+    description: "A chaotic hand­-drawn metroidvania where you resist or embrace ancient eldritch powers",
+    description_en: "A chaotic hand­-drawn metroidvania where you resist or embrace ancient eldritch powers",
+    personalNote: "",
+    played: false,
+    steamUrl: "",
+    gogUrl: "",
+    epicUrl: "",
+    itchUrl: "https://thunderlotus.itch.io/sundered",
+    ccu: 0,
+    trending: false,
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
+  },
+  {
+    id: 536,
+    igdbId: 0,
+    title: "GuessMe!",
+    categories: ["indie", "splitscreen"],
+    genres: [],
+    coopMode: ["online", "local"],
+    maxPlayers: 4,
+    crossplay: false,
+    players: "2-4",
+    image: "https://img.itch.zone/aW1nLzYxMTkxNzcucG5n/315x250%23c/ZP40Zu.png",
+    description: "Guess about your favorite food or Pokemons!",
+    description_en: "Guess about your favorite food or Pokemons!",
+    personalNote: "",
+    played: false,
+    steamUrl: "",
+    gogUrl: "",
+    epicUrl: "",
+    itchUrl: "https://zetoman77.itch.io/guessme",
+    ccu: 0,
+    trending: false,
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
+  },
+  {
+    id: 537,
+    igdbId: 0,
+    title: "Dead Pixels II: Straight To Video",
+    categories: ["indie", "splitscreen"],
+    genres: [],
+    coopMode: ["online", "local"],
+    maxPlayers: 4,
+    crossplay: false,
+    players: "2-4",
+    image: "https://img.itch.zone/aW1nLzE1OTkyMTYucG5n/315x250%23c/CAlqPJ.png",
+    description: "When the dead start walking, there&#039;s no where to run.",
+    description_en: "When the dead start walking, there&#039;s no where to run.",
+    personalNote: "",
+    played: false,
+    steamUrl: "",
+    gogUrl: "",
+    epicUrl: "",
+    itchUrl: "https://csr-studios.itch.io/dead-pixels-2",
+    ccu: 0,
+    trending: false,
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
+  },
+  {
+    id: 538,
+    igdbId: 0,
+    title: "CROSSNIQ+",
+    categories: ["indie", "splitscreen"],
+    genres: [],
+    coopMode: ["local"],
+    maxPlayers: 4,
+    crossplay: false,
+    players: "2-4",
+    image: "https://img.itch.zone/aW1nLzIzMDI2MDUucG5n/315x250%23c/%2BwsY6U.png",
+    description: "A y2k aesthetic arcade puzzle game, inspired by puzzle games from the late 90&#039;s!",
+    description_en: "A y2k aesthetic arcade puzzle game, inspired by puzzle games from the late 90&#039;s!",
+    personalNote: "",
+    played: false,
+    steamUrl: "",
+    gogUrl: "",
+    epicUrl: "",
+    itchUrl: "https://maxkrieger.itch.io/crossniqplus",
+    ccu: 0,
+    trending: false,
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
+  },
+  {
+    id: 539,
+    igdbId: 0,
+    title: "PAPER TANKS (indie game, ink, doodle, unity, 2d, action, paper, tank, retro, ink, split sreen, beta, demo, dev)",
+    categories: ["indie", "splitscreen"],
+    genres: [],
+    coopMode: ["local", "split"],
+    maxPlayers: 4,
+    crossplay: false,
+    players: "2-4",
+    image: "https://img.itch.zone/aW1nLzM4MDY2NzUuZ2lm/original/5glYyG.gif",
+    description: "The drawings in the notebook turned into a battlefield! 2.5D tanks in the style of drawings in a notebook.",
+    description_en: "The drawings in the notebook turned into a battlefield! 2.5D tanks in the style of drawings in a notebook.",
+    personalNote: "",
+    played: false,
+    steamUrl: "",
+    gogUrl: "",
+    epicUrl: "",
+    itchUrl: "https://chillnplay.itch.io/paper-tanks",
+    ccu: 0,
+    trending: false,
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
+  },
+  {
+    id: 540,
+    igdbId: 0,
+    title: "MONUMENTAL FAILURE",
+    categories: ["indie", "splitscreen"],
+    genres: [],
+    coopMode: ["local", "split"],
+    maxPlayers: 4,
+    crossplay: false,
+    players: "2-4",
+    image: "https://img.itch.zone/aW1hZ2UvNzM0NDIvNDk4MTcxLmdpZg==/original/4L24ew.gif",
+    description: "A historically (in)accurate, physics-based, monument construction simulator!",
+    description_en: "A historically (in)accurate, physics-based, monument construction simulator!",
+    personalNote: "",
+    played: false,
+    steamUrl: "",
+    gogUrl: "",
+    epicUrl: "",
+    itchUrl: "https://scary-wizard.itch.io/monumental-failure",
+    ccu: 0,
+    trending: false,
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
+  },
+  {
+    id: 541,
+    igdbId: 138062,
+    title: "War Mongrels",
+    categories: ["strategy", "action"],
+    genres: ["strategy", "action"],
+    coopMode: ["online"],
+    maxPlayers: 2,
+    crossplay: false,
+    players: "1-2",
+    image: "https://images.gog-statics.com/d10572b91fafcd24a054c17160a8437bfc189cf4c91537c428c1e3921ce35683.png",
+    description: "Do you enjoy a good mix of tactical elements, adventure, and stealth, all tightly packed into a dark, fascinating story? We felt it was a rhetorical question, so that’s the experience we’ve crafted ;) Try different tactics in each mission. Distract the enemies or drop parts of destroyed buildings on their heads. The interactive environment opens up many tactical options for you to explore. Have...",
+    description_en: "Do you enjoy a good mix of tactical elements, adventure, and stealth, all tightly packed into a dark, fascinating story? We felt it was a rhetorical question, so that’s the experience we’ve crafted ;) Try different tactics in each mission. Distract the enemies or drop parts of destroyed buildings on their heads. The interactive environment opens up many tactical options for you to explore. Have...",
+    personalNote: "",
+    played: false,
+    steamUrl: "",
+    gogUrl: "https://www.gog.com/en/game/war_mongrels",
+    epicUrl: "",
+    itchUrl: "",
+    ccu: 0,
+    trending: false,
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
+  },
+  {
+    id: 542,
+    igdbId: 296541,
+    title: "63 Days",
+    categories: ["strategy"],
+    genres: ["strategy"],
+    coopMode: ["online"],
+    maxPlayers: 4,
+    crossplay: false,
+    players: "1-4",
+    image: "https://images.gog-statics.com/833a236331ef43162862ffdcbe7a165d26215817f3dad21cabcec0aa96f86f17.png",
+    description: "I'm part of the first generation born in a free Poland, after 123 years of foreign occupation. I grew up believing our freedom was safe, but the outbreak of World War II shattered that hope. We're angry and tired, but also determined. We're itching to do something, to reclaim our normal lives. My companions and I feel we have only one choice: to get revenge and win back independence for our cit...",
+    description_en: "I'm part of the first generation born in a free Poland, after 123 years of foreign occupation. I grew up believing our freedom was safe, but the outbreak of World War II shattered that hope. We're angry and tired, but also determined. We're itching to do something, to reclaim our normal lives. My companions and I feel we have only one choice: to get revenge and win back independence for our cit...",
+    personalNote: "",
+    played: false,
+    steamUrl: "",
+    gogUrl: "https://www.gog.com/en/game/63_days",
+    epicUrl: "",
+    itchUrl: "",
+    ccu: 0,
+    trending: false,
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
+  },
+  {
+    id: 543,
+    igdbId: 175662,
+    title: "Black Widow: Recharged",
+    categories: ["action"],
+    genres: ["action"],
+    coopMode: ["online"],
+    maxPlayers: 4,
+    crossplay: false,
+    players: "1-4",
+    image: "https://images.gog-statics.com/577497094fce699583d567ac2889ee0965ee03dd7378d3e407c84022d927158d.png",
+    description: "The original cult classic arachnid-starring, twin-stick shooter returns! Just in time for Halloween, Black Widow: Recharged has been reimagined for modern gameplay, with vibrant visuals, powerful new abilities, and another original soundtrack from award-winning video game composer Megan McDuffee. Aim for a high score in the old school arcade mode and earn bragging rights with your name at the t...",
+    description_en: "The original cult classic arachnid-starring, twin-stick shooter returns! Just in time for Halloween, Black Widow: Recharged has been reimagined for modern gameplay, with vibrant visuals, powerful new abilities, and another original soundtrack from award-winning video game composer Megan McDuffee. Aim for a high score in the old school arcade mode and earn bragging rights with your name at the t...",
+    personalNote: "",
+    played: false,
+    steamUrl: "",
+    gogUrl: "https://www.gog.com/en/game/black_widow_recharged",
+    epicUrl: "",
+    itchUrl: "",
+    ccu: 0,
+    trending: false,
+    rating: 58,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0
   },
 ];

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-17T22:46:06+00:00",
+  "generatedAt": "2026-03-18T16:02:32+00:00",
   "featuredIndieId": 352,
   "games": [
     {
@@ -15186,9 +15186,9 @@
       "steamUrl": "https://store.steampowered.com/app/1713350/",
       "epicUrl": "",
       "itchUrl": "",
-      "ccu": 0,
+      "ccu": 57,
       "trending": false,
-      "rating": 0
+      "rating": 69
     },
     {
       "id": 520,
@@ -15496,9 +15496,9 @@
       "steamUrl": "https://store.steampowered.com/app/1450900/",
       "epicUrl": "",
       "itchUrl": "",
-      "ccu": 0,
+      "ccu": 75,
       "trending": false,
-      "rating": 0
+      "rating": 83
     },
     {
       "id": 531,
@@ -15582,9 +15582,9 @@
       "steamUrl": "https://store.steampowered.com/app/2015270/",
       "epicUrl": "",
       "itchUrl": "",
-      "ccu": 0,
+      "ccu": 66,
       "trending": false,
-      "rating": 0
+      "rating": 76
     },
     {
       "id": 534,
@@ -15614,6 +15614,259 @@
       "ccu": 0,
       "trending": false,
       "rating": 0
+    },
+    {
+      "id": 535,
+      "slug": "sundered-eldritch-edition",
+      "title": "Sundered: Eldritch Edition",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzM1ODkzNjUucG5n/315x250%23c/w5R%2B7d.png",
+      "description": "A chaotic hand­-drawn metroidvania where you resist or embrace ancient eldritch powers",
+      "description_en": "A chaotic hand­-drawn metroidvania where you resist or embrace ancient eldritch powers",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://thunderlotus.itch.io/sundered",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 536,
+      "slug": "guessme",
+      "title": "GuessMe!",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzYxMTkxNzcucG5n/315x250%23c/ZP40Zu.png",
+      "description": "Guess about your favorite food or Pokemons!",
+      "description_en": "Guess about your favorite food or Pokemons!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://zetoman77.itch.io/guessme",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 537,
+      "slug": "dead-pixels-ii-straight-to-video",
+      "title": "Dead Pixels II: Straight To Video",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzE1OTkyMTYucG5n/315x250%23c/CAlqPJ.png",
+      "description": "When the dead start walking, there&#039;s no where to run.",
+      "description_en": "When the dead start walking, there&#039;s no where to run.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://csr-studios.itch.io/dead-pixels-2",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 538,
+      "slug": "crossniq",
+      "title": "CROSSNIQ+",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzIzMDI2MDUucG5n/315x250%23c/%2BwsY6U.png",
+      "description": "A y2k aesthetic arcade puzzle game, inspired by puzzle games from the late 90&#039;s!",
+      "description_en": "A y2k aesthetic arcade puzzle game, inspired by puzzle games from the late 90&#039;s!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://maxkrieger.itch.io/crossniqplus",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 539,
+      "slug": "paper-tanks-indie-game-ink-doodle-unity-2d-action-paper-tank-retro-ink-split-sreen-beta-demo-dev",
+      "title": "PAPER TANKS (indie game, ink, doodle, unity, 2d, action, paper, tank, retro, ink, split sreen, beta, demo, dev)",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local",
+        "split"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1nLzM4MDY2NzUuZ2lm/original/5glYyG.gif",
+      "description": "The drawings in the notebook turned into a battlefield! 2.5D tanks in the style of drawings in a notebook.",
+      "description_en": "The drawings in the notebook turned into a battlefield! 2.5D tanks in the style of drawings in a notebook.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://chillnplay.itch.io/paper-tanks",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 540,
+      "slug": "monumental-failure",
+      "title": "MONUMENTAL FAILURE",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local",
+        "split"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "image": "https://img.itch.zone/aW1hZ2UvNzM0NDIvNDk4MTcxLmdpZg==/original/4L24ew.gif",
+      "description": "A historically (in)accurate, physics-based, monument construction simulator!",
+      "description_en": "A historically (in)accurate, physics-based, monument construction simulator!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://scary-wizard.itch.io/monumental-failure",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 541,
+      "slug": "war-mongrels",
+      "title": "War Mongrels",
+      "categories": [
+        "strategy",
+        "action"
+      ],
+      "genres": [
+        "strategy",
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 2,
+      "crossplay": false,
+      "players": "1-2",
+      "image": "https://images.gog-statics.com/d10572b91fafcd24a054c17160a8437bfc189cf4c91537c428c1e3921ce35683.png",
+      "description": "Do you enjoy a good mix of tactical elements, adventure, and stealth, all tightly packed into a dark, fascinating story? We felt it was a rhetorical question, so that’s the experience we’ve crafted ;) Try different tactics in each mission. Distract the enemies or drop parts of destroyed buildings on their heads. The interactive environment opens up many tactical options for you to explore. Have...",
+      "description_en": "Do you enjoy a good mix of tactical elements, adventure, and stealth, all tightly packed into a dark, fascinating story? We felt it was a rhetorical question, so that’s the experience we’ve crafted ;) Try different tactics in each mission. Distract the enemies or drop parts of destroyed buildings on their heads. The interactive environment opens up many tactical options for you to explore. Have...",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 542,
+      "slug": "63-days",
+      "title": "63 Days",
+      "categories": [
+        "strategy"
+      ],
+      "genres": [
+        "strategy"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://images.gog-statics.com/833a236331ef43162862ffdcbe7a165d26215817f3dad21cabcec0aa96f86f17.png",
+      "description": "I'm part of the first generation born in a free Poland, after 123 years of foreign occupation. I grew up believing our freedom was safe, but the outbreak of World War II shattered that hope. We're angry and tired, but also determined. We're itching to do something, to reclaim our normal lives. My companions and I feel we have only one choice: to get revenge and win back independence for our cit...",
+      "description_en": "I'm part of the first generation born in a free Poland, after 123 years of foreign occupation. I grew up believing our freedom was safe, but the outbreak of World War II shattered that hope. We're angry and tired, but also determined. We're itching to do something, to reclaim our normal lives. My companions and I feel we have only one choice: to get revenge and win back independence for our cit...",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0
+    },
+    {
+      "id": 543,
+      "slug": "black-widow-recharged",
+      "title": "Black Widow: Recharged",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "image": "https://images.gog-statics.com/577497094fce699583d567ac2889ee0965ee03dd7378d3e407c84022d927158d.png",
+      "description": "The original cult classic arachnid-starring, twin-stick shooter returns! Just in time for Halloween, Black Widow: Recharged has been reimagined for modern gameplay, with vibrant visuals, powerful new abilities, and another original soundtrack from award-winning video game composer Megan McDuffee. Aim for a high score in the old school arcade mode and earn bragging rights with your name at the t...",
+      "description_en": "The original cult classic arachnid-starring, twin-stick shooter returns! Just in time for Halloween, Black Widow: Recharged has been reimagined for modern gameplay, with vibrant visuals, powerful new abilities, and another original soundtrack from award-winning video game composer Megan McDuffee. Aim for a high score in the old school arcade mode and earn bragging rights with your name at the t...",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 58
     }
   ]
 }
