@@ -31,19 +31,23 @@ Setup Ollama: v0.18.0, backend Vulkan, ~5s generazione codice, ~26s analisi file
 ## Stato corrente del progetto
 
 - **Sito**: online su https://coophubs.net (GitHub Pages + Cloudflare)
-- **Catalogo**: 334 giochi, pipeline modulare Steam + itch.io
-- **Pagine statiche**: 334 pagine in `games/` + sitemap aggiornata
+- **Catalogo**: 520 giochi, pipeline modulare multi-source
+- **Pagine statiche**: 520 pagine in `games/` + sitemap aggiornata
 - **i18n**: completo su tutte le pagine principali (IT/EN)
 - **Giochi gratuiti**: workflow giornaliero funzionante con dati reali
 - **PageSpeed Mobile**: Performance 93, Accessibility 92, Best Practices 100, SEO 100
-- **Architettura pipeline**: `auto_update.py` → `catalog_config.py` + `steam_catalog_source.py` + `itch_catalog_source.py` + `catalog_data.py`
+- **Architettura pipeline**: `auto_update.py` → `catalog_config.py` + `steam_catalog_source.py` + `itch_catalog_source.py` + `gog_catalog_source.py` + `igdb_catalog_source.py` + `steam_new_releases_source.py` + `catalog_data.py`
+- **Monetizzazione**: Ko-fi footer attivo, UTM tracking su link store, CJ Affiliate attivo (Fanatical in review), GOG affiliate in attesa risposta
+- **Crossplay**: 86 giochi marcati `true`, filtro UI attivato, hreflang aggiunto
 
 ### Decisioni architetturali confermate
 
-- **No orchestratore multi-source**: con solo 2 adapter (Steam + itch.io) sarebbe over-engineering. Rivalutare se arriva un terzo source.
+- **Multi-source pipeline**: IGDB e GOG adapter aggiunti — rivalutare orchestratore se si aggiunge un quinto source.
 - **game.html**: fallback legacy con `noindex` + canonical → pagina statica. Non rimuovere.
-- **crossplay**: campo presente ma quasi nessun gioco marcato `true` — dati non ancora verificati sistematicamente.
+- **crossplay**: 86 giochi marcati — dati provengono da IGDB/SteamSpy, non ancora verificati manualmente al 100%.
 - **PWA**: `manifest.json` presente ma nessun service worker — non prioritario.
+- **Font**: self-hosted (no dipendenza Google Fonts).
+- **Affiliate**: UTM tracking via `app.js`, parametri affiliato Epic/GOG pronti ma Creator Code/partner ID non ancora ottenuti.
 
 ---
 
@@ -67,10 +71,30 @@ Anno footer 2025→2026, sezione giochi gratuiti (`free.html`, `fetch_free_games
 - Ripristinato repo locale a origin/main (`c241c03`), poi pull allineato a `69ca2e3`
 - Riorganizzazione file MD: `CLAUDE.md` unificato (era duplicato tra CLAUDE.md e AIDER_INSTRUCTIONS.md), `AI_COLLABORATION.md` trimmed, `SETUP_DOMAIN_CLOUDFLARE.md` rimosso (setup già completato), `.gitignore` migliorato, `.aider.conf.yml` creato
 
+### 2026-03-18 (Claude Code)
+- Analisi completa stato progetto: catalogo a 520 giochi, nuovi adapter IGDB/GOG/steam_new_releases
+- **CJ Affiliate**: completato onboarding (9/9 step), W-8BEN firmato, account attivo
+- **CJ Pending applications (7)**: Fanatical, G2A, Gameseal, GAMIVO, GOG.COM INT, K4G, Kinguin
+- **GOG Affiliate**: email application inviata a affiliate@gog.com (+ GOG.COM INT su CJ in pending)
+- **Green Man Gaming (Impact.com)**: account creato (username: coophubs), applicazione inviata, In Review
+  - impact.com general marketplace: Declined (VPN + timing verifica) — non influenza GMG
+  - Meta tag verifica aggiunto a index.html, sito verificato
+- **WinGameStore affiliate**: account creato (andrea900924@gmail.com), email confermata, in attesa approvazione (entro 5 giorni lavorativi)
+- **Ko-fi support strip**: sezione sopra footer con pulsante grande visibile
+- **Crossplay**: filtro UI attivato, 86 giochi marcati, hreflang aggiunto alle pagine statiche
+- Fix SEO critico: sitemap re-inviata a Google (era ferma a 314 URL del 14/03, ora 524 URL)
+- Workflow `update.yml`: cron cambiato da settimanale a **giornaliero** (ogni giorno 6:00 UTC)
+
 ---
 
 ## Prossimi step consigliati
 
-- Verificare dati `crossplay: true` — attualmente pochi giochi marcati, campo quasi inutilizzato
-- Valutare analytics leggeri (es. Cloudflare Web Analytics, zero cookie) se si vuole capire il traffico
-- Test visuale periodico su mobile (home, pagina gioco, pagina free)
+- Attendere approvazione CJ (Fanatical, GOG, Kinguin, GAMIVO, K4G, Gameseal, G2A)
+- Attendere risposta GOG direct affiliate (affiliate@gog.com)
+- Attendere approvazione Green Man Gaming (Impact.com, 2 giorni lavorativi)
+- Attendere approvazione **WinGameStore** affiliate (email confermata, entro 5 giorni lavorativi)
+- Completare iscrizione **Instant Gaming** affiliate (richiede login Google manuale)
+- Completare iscrizione **GameBillet** affiliate (registrazione a metà)
+- Analytics: attivare Cloudflare Web Analytics (zero cookie, gratuito)
+- Paginazione/lazy loading: 520 giochi tutti in RAM è pesante su mobile
+- Verificare campi `isFree` e `isIndie` (risultano sempre false)
