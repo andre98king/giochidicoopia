@@ -20,7 +20,7 @@ SITEMAP = ROOT / "sitemap.xml"
 SITE_URL = "https://coophubs.net"
 TODAY = datetime.date.today().isoformat()
 CURRENT_YEAR = datetime.date.today().year
-ASSET_VERSION = "20260318-gs2"
+ASSET_VERSION = "20260318-v3"
 CROSSPLAY_UI_ENABLED = True
 
 
@@ -140,8 +140,9 @@ def render_store_links(game: dict) -> str:
             f'<a class="btn-store btn-itch" href="{esc(add_utm(game["itchUrl"]))}" target="_blank" '
             'rel="noopener noreferrer" style="padding:10px 20px;font-size:0.9rem">itch.io ↗</a>'
         )
-    # Prezzi alternativi — bottoni grandi con sconto IG/GB + GMG + Gameseal se disponibile
-    if game["steamUrl"] and (AFFILIATE_IG or AFFILIATE_GB or AFFILIATE_GMG or AFFILIATE_GAMESEAL):
+    # Prezzi alternativi — solo per giochi a pagamento (non free-to-play)
+    is_free = "free" in (game.get("categories") or [])
+    if not is_free and game["steamUrl"] and (AFFILIATE_IG or AFFILIATE_GB or AFFILIATE_GMG or AFFILIATE_GAMESEAL):
         q = quote(game["title"])
         btns = []
         if AFFILIATE_IG:

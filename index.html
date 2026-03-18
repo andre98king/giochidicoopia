@@ -85,7 +85,7 @@
       </div>
       <div class="stat">
         <span class="stat-number" id="playedGames">0</span>
-        <span class="stat-label">Giocati da me</span>
+        <span class="stat-label" data-i18n="stat_played">Giocati da me</span>
       </div>
       <div class="stat">
         <span class="stat-number" id="totalCats">0</span>
@@ -139,41 +139,13 @@
   <!-- MAIN -->
   <main class="main" id="mainContent">
     <div class="results-info" id="resultsInfo" aria-live="polite"></div>
+    <div class="played-badge-bar" id="playedBadge" style="display:none"></div>
     <div class="games-grid" id="gamesGrid" role="list"></div>
   </main>
 
   <!-- MODAL DETTAGLIO GIOCO -->
   <div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" aria-label="Dettaglio gioco" data-i18n-aria-label="modal_game_aria">
     <div class="modal" id="modalContent"></div>
-  </div>
-
-  <!-- MODAL ADMIN EDIT -->
-  <div class="modal-overlay" id="adminOverlay" role="dialog" aria-modal="true" aria-label="Modifica gioco" data-i18n-aria-label="modal_edit_aria">
-    <div class="modal" style="max-width:480px">
-      <div class="modal-body">
-        <div class="modal-header">
-          <div class="modal-title" id="adminGameTitle"></div>
-          <button class="modal-close" onclick="closeAdminModal()" aria-label="Chiudi" data-i18n-aria-label="btn_close_aria">✕</button>
-        </div>
-        <input type="hidden" id="adminGameId">
-        <div>
-          <div class="modal-section-title" id="adminPlayedTitle">✓ Hai giocato questo gioco?</div>
-          <label class="admin-toggle">
-            <input type="checkbox" id="adminPlayedInput">
-            <span class="admin-toggle-label" id="adminPlayedLabel">Segna come giocato</span>
-          </label>
-        </div>
-        <div>
-          <div class="modal-section-title" id="adminNoteTitle">📝 La tua nota personale</div>
-          <textarea id="adminNoteInput" class="admin-textarea"
-            placeholder="Scrivi la tua esperienza personale con questo gioco..." maxlength="1000"></textarea>
-        </div>
-        <div class="modal-actions">
-          <button class="btn-primary" id="adminSaveBtn" onclick="saveAdminEdit()">💾 Salva</button>
-          <button class="btn-details" id="adminCancelBtn" onclick="closeAdminModal()" style="padding:10px 20px">Annulla</button>
-        </div>
-      </div>
-    </div>
   </div>
 
   <!-- MODAL RUOTA -->

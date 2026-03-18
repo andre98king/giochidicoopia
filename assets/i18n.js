@@ -111,8 +111,17 @@ const TRANSLATIONS = {
     empty_title: "Nessun gioco trovato",
     empty_sub: "Prova a cambiare i filtri o la ricerca",
 
-    // Card
+    // Card — played feature
     played_badge: "✓ Giocato",
+    played_mark: "✓ Giocato",
+    played_unmark: "✕ Rimuovi dai giocati",
+    played_hidden: "nascosti",
+    played_show: "Mostra",
+    played_hide: "Nascondi giocati",
+    // Note personali (pubbliche)
+    note_title: "📝 La mia esperienza",
+    note_placeholder: "Scrivi la tua esperienza con questo gioco...",
+    note_save: "💾 Salva nota",
     card_players: "giocatori",
     btn_details: "Dettagli →",
     ccu_title: "Giocatori online ora",
@@ -326,8 +335,17 @@ const TRANSLATIONS = {
     empty_title: "No games found",
     empty_sub: "Try changing filters or search",
 
-    // Card
+    // Card — played feature
     played_badge: "✓ Played",
+    played_mark: "✓ Played",
+    played_unmark: "✕ Remove from played",
+    played_hidden: "hidden",
+    played_show: "Show",
+    played_hide: "Hide played",
+    // Personal notes (public)
+    note_title: "📝 My experience",
+    note_placeholder: "Write your experience with this game...",
+    note_save: "💾 Save note",
     card_players: "players",
     btn_details: "Details →",
     ccu_title: "Players online now",

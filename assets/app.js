@@ -25,22 +25,29 @@ let catalogGames = [];
 let featuredIndieGameId = null;
 let legacyCatalogScriptPromise = null;
 
+// ===== PLAYED GAMES + NOTE PERSONALI =====
+const PLAYED_KEY = 'coophubs_played';
+const NOTES_KEY  = 'coophubs_notes';
+let showPlayed = false;
+
+function getNotes() { return JSON.parse(localStorage.getItem(NOTES_KEY) || '{}'); }
+function getNote(id)  { return getNotes()[String(id)] || ''; }
+function saveNote(id, text) {
+  const notes = getNotes();
+  if (text.trim()) notes[String(id)] = text.trim(); else delete notes[String(id)];
+  localStorage.setItem(NOTES_KEY, JSON.stringify(notes));
+  renderGames();
+}
+
 // ===== FILTER CONFIG =====
-const genreFilters = [
-  { id: 'all' },
-  { id: 'trending' },
-  { id: 'horror' },
-  { id: 'action' },
-  { id: 'puzzle' },
-  { id: 'rpg' },
-  { id: 'survival' },
-  { id: 'factory' },
-  { id: 'roguelike' },
-  { id: 'sport' },
-  { id: 'strategy' },
-  { id: 'indie' },
-  { id: 'free' },
+const filterSpecial = [{ id: 'all' }, { id: 'trending' }];
+const filterGenres  = [
+  { id: 'horror' }, { id: 'action' }, { id: 'puzzle' }, { id: 'rpg' },
+  { id: 'survival' }, { id: 'factory' }, { id: 'roguelike' }, { id: 'sport' },
+  { id: 'strategy' }, { id: 'indie' },
 ];
+const filterFree    = [{ id: 'free' }];
+const genreFilters  = [...filterSpecial, ...filterGenres, ...filterFree]; // alias legacy
 
 const modeFilters = [
   { id: 'mode_online',    field: 'coopMode',  value: 'online' },
@@ -53,6 +60,34 @@ const modeFilters = [
 
 // Legacy alias for backward compat
 const categories = genreFilters;
+
+// ===== PLAYED HELPERS =====
+function getPlayed() { return new Set(JSON.parse(localStorage.getItem(PLAYED_KEY) || '[]')); }
+function isPlayed(id) { return getPlayed().has(id); }
+function togglePlayed(id) {
+  const p = getPlayed();
+  p.has(id) ? p.delete(id) : p.add(id);
+  localStorage.setItem(PLAYED_KEY, JSON.stringify([...p]));
+  renderGames();
+  updatePlayedBadge();
+}
+function toggleShowPlayed() {
+  showPlayed = !showPlayed;
+  renderGames();
+  updatePlayedBadge();
+}
+function updatePlayedBadge() {
+  const badge = document.getElementById('playedBadge');
+  if (!badge) return;
+  const count = getPlayed().size;
+  if (count === 0) { badge.style.display = 'none'; return; }
+  badge.style.display = '';
+  if (showPlayed) {
+    badge.innerHTML = `<button class="played-hide-btn" onclick="toggleShowPlayed()">${t('played_hide')}</button>`;
+  } else {
+    badge.innerHTML = `<span class="played-count">${count} ${t('played_hidden')}</span> <button class="played-hide-btn" onclick="toggleShowPlayed()">${t('played_show')}</button>`;
+  }
+}
 
 function getLegacyCatalogFallback() {
   return {
@@ -121,24 +156,8 @@ async function loadCatalogData() {
   }
 }
 
-// ===== LOCALSTORAGE: carica override admin =====
-function loadOverrides() {
-  const stored = JSON.parse(localStorage.getItem('coopAdminData') || '{}');
-  catalogGames.forEach(g => {
-    const ov = stored[g.id];
-    if (!ov) return;
-    if (ov.personalNote !== undefined) g.personalNote = ov.personalNote;
-    if (ov.played      !== undefined) g.played       = ov.played;
-  });
-}
-
-function saveOverride(id, personalNote, played) {
-  const stored = JSON.parse(localStorage.getItem('coopAdminData') || '{}');
-  stored[id] = { personalNote, played };
-  localStorage.setItem('coopAdminData', JSON.stringify(stored));
-  const g = catalogGames.find(x => x.id === id);
-  if (g) { g.personalNote = personalNote; g.played = played; }
-}
+// ===== LOCALSTORAGE: stub (sistema admin note/played rimosso) =====
+function loadOverrides() { /* note e giocati ora gestiti dal sistema pubblico */ }
 
 function categoryLabel(category) {
   return t('cat_' + category);
@@ -375,7 +394,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 // ===== STATS =====
 function updateStats() {
   document.getElementById('totalGames').textContent = catalogGames.length;
-  document.getElementById('playedGames').textContent = catalogGames.filter(g => g.played).length;
+  document.getElementById('playedGames').textContent = getPlayed().size;
   const cats = new Set(catalogGames.flatMap(g => g.categories).filter(c => c !== 'trending'));
   document.getElementById('totalCats').textContent = cats.size;
 }
@@ -386,12 +405,20 @@ function renderFilters() {
   const modeContainer = document.getElementById('modeFilterContainer');
   const allFiltersActive = activeFilters.size === 0;
 
-  // Genre filters
-  container.innerHTML = genreFilters.map(cat => `
-    <button class="filter-btn ${(cat.id === 'all' && allFiltersActive) || activeFilters.has(cat.id) ? 'active' : ''}" data-cat="${cat.id}">
-      ${t('cat_' + cat.id)}
-    </button>
-  `).join('');
+  // Genre filters — gruppi separati
+  const btnHtml = (cat) =>
+    `<button class="filter-btn ${(cat.id === 'all' && allFiltersActive) || activeFilters.has(cat.id) ? 'active' : ''}" data-cat="${cat.id}">${t('cat_' + cat.id)}</button>`;
+
+  container.innerHTML = `
+    <div class="filter-group filter-group-special">${filterSpecial.map(btnHtml).join('')}</div>
+    <div class="filter-group">
+      <span class="filter-group-label">${t('filter_genre')}</span>
+      ${filterGenres.map(btnHtml).join('')}
+    </div>
+    <div class="filter-group">
+      <span class="filter-group-label">${t('filter_other')}</span>
+      ${filterFree.map(btnHtml).join('')}
+    </div>`;
 
   container.querySelectorAll('.filter-btn').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -420,11 +447,11 @@ function renderFilters() {
   if (modeContainer) {
     const isMobile = window.innerWidth <= 600;
 
-    modeContainer.innerHTML = modeFilters.map(f => `
-      <button class="filter-btn filter-mode-btn ${activeModeFilters.has(f.id) ? 'active' : ''}" data-mode="${f.id}">
-        ${t(f.id)}
-      </button>
-    `).join('');
+    modeContainer.innerHTML = `
+      <div class="filter-group">
+        <span class="filter-group-label">${t('filter_mode')}</span>
+        ${modeFilters.map(f => `<button class="filter-btn filter-mode-btn ${activeModeFilters.has(f.id) ? 'active' : ''}" data-mode="${f.id}">${t(f.id)}</button>`).join('')}
+      </div>`;
 
     // On mobile, collapse mode filters behind a toggle
     if (isMobile) {
@@ -485,10 +512,13 @@ function matchesModeFilters(game) {
 
 function getFilteredGames() {
   let filtered = catalogGames.filter(game => {
+    // Nascondi giochi già giocati (a meno che showPlayed non sia attivo)
+    if (!showPlayed && isPlayed(game.id)) return false;
     // Genre/category filters
     if (activeFilters.has('trending') && !game.trending) return false;
     const normalFilters = [...activeFilters].filter(f => f !== 'trending');
-    const matchesCat = normalFilters.length === 0 || game.categories.some(c => normalFilters.includes(c));
+    // AND logic: il gioco deve avere TUTTE le categorie selezionate
+    const matchesCat = normalFilters.length === 0 || normalFilters.every(c => game.categories.includes(c));
     // Mode/player filters (AND logic — must match ALL active mode filters)
     const matchesMode = matchesModeFilters(game);
     // Search
@@ -521,6 +551,7 @@ function renderGames() {
   const freeLookup = buildFreeGameLookup();
 
   info.innerHTML = t('results_found', filtered.length, catalogGames.length);
+  updatePlayedBadge();
 
   if (filtered.length === 0) {
     grid.innerHTML = `
@@ -566,11 +597,11 @@ function renderGames() {
 function attachSingleCardListener(card) {
   const id = parseInt(card.dataset.id);
   card.addEventListener('click', e => {
-    if (e.target.closest('a') || e.target.closest('.btn-admin-edit')) return;
+    if (e.target.closest('a') || e.target.closest('.btn-admin-edit') || e.target.closest('.btn-played-toggle')) return;
     openModal(id);
   });
-  const editBtn = card.querySelector('.btn-admin-edit');
-  if (editBtn) editBtn.addEventListener('click', e => { e.stopPropagation(); openAdminModal(id); });
+  const playedBtn = card.querySelector('.btn-played-toggle');
+  if (playedBtn) playedBtn.addEventListener('click', e => { e.stopPropagation(); togglePlayed(id); });
 }
 
 function attachCardListeners(grid) {
@@ -594,6 +625,8 @@ const AFFILIATE = {
 // ===== UTM TRACKING + AFFILIATE =====
 function buildAffiliateBtns(game) {
   if (!AFFILIATE.ig && !AFFILIATE.gb && !AFFILIATE.gmg && !AFFILIATE.gameseal) return '';
+  // Giochi gratuiti: nessun link di acquisto affiliato
+  if (game.categories && game.categories.includes('free')) return '';
   const q = encodeURIComponent(game.title);
   const btns = [];
 
@@ -633,7 +666,7 @@ function buildAffiliateBtns(game) {
       const gsSearch = `https://gameseal.com/search?search=${q}`;
       gsUrl = `${AFFILIATE.gameseal}?url=${encodeURIComponent(gsSearch)}`;
     }
-    const gsBadge = game.gsDiscount ? `<span class="affiliate-badge">-${game.gsDiscount}%</span>` : '';
+    const gsBadge = game.gsDiscount ? `<span class="affiliate-discount">-${game.gsDiscount}%</span>` : '';
     btns.push(`<a class="btn-affiliate btn-gameseal" href="${esc(gsUrl)}" target="_blank" rel="noopener noreferrer sponsored"><span class="affiliate-store">Gameseal</span>${gsBadge}</a>`);
   }
 
@@ -664,7 +697,6 @@ function createCard(game, freeEntry = null, cardIndex = 99) {
 
   const safeTitle = esc(game.title);
   const safeDesc = esc((currentLang === 'en' && game.description_en) ? game.description_en : game.description);
-  const safeNote = esc(game.personalNote);
 
   const imgLoading = cardIndex < 6 ? 'eager' : 'lazy';
   const imgHtml = game.image
@@ -673,12 +705,14 @@ function createCard(game, freeEntry = null, cardIndex = 99) {
        <div class="card-img-placeholder" style="display:none">🎮</div></div>`
     : `<div class="card-img-placeholder">🎮</div>`;
 
-  const noteHtml = game.played && game.personalNote
-    ? `<div class="personal-note-preview">${safeNote}</div>` : '';
+  const publicNote = getNote(game.id);
+  const noteHtml = isPlayed(game.id) && publicNote
+    ? `<div class="personal-note-preview">${esc(publicNote)}</div>` : '';
 
   // Bottone principale: IG → Steam → GOG come fallback
+  const isFreeGame = game.categories && game.categories.includes('free');
   let primaryBtn = '';
-  if (game.igUrl && AFFILIATE.ig) {
+  if (!isFreeGame && game.igUrl && AFFILIATE.ig) {
     const discLabel = game.igDiscount > 0 ? ` -${game.igDiscount}%` : '';
     primaryBtn = `<a class="btn-store btn-ig-card" href="${esc(game.igUrl)}" target="_blank" rel="noopener noreferrer sponsored">Instant Gaming${discLabel} ↗</a>`;
   } else if (game.steamUrl) {
@@ -687,7 +721,7 @@ function createCard(game, freeEntry = null, cardIndex = 99) {
     const gogHref = AFFILIATE.gog ? addUtm(game.gogUrl) + '&pp=' + AFFILIATE.gog : addUtm(game.gogUrl);
     primaryBtn = `<a class="btn-store btn-gog" href="${esc(gogHref)}" target="_blank" rel="noopener noreferrer">GOG ↗</a>`;
   }
-  const gbBtn = (game.gbUrl && AFFILIATE.gb)
+  const gbBtn = (!isFreeGame && game.gbUrl && AFFILIATE.gb)
     ? `<a class="btn-store btn-gb-card" href="${esc(game.gbUrl)}" target="_blank" rel="noopener noreferrer sponsored">GameBillet${game.gbDiscount > 0 ? ` -${game.gbDiscount}%` : ''} ↗</a>`
     : '';
   const storeButtons = [
@@ -697,8 +731,9 @@ function createCard(game, freeEntry = null, cardIndex = 99) {
     game.itchUrl ? `<a class="btn-store btn-itch" href="${esc(addUtm(game.itchUrl))}" target="_blank" rel="noopener noreferrer">itch.io ↗</a>` : '',
   ].join('');
 
-  const adminBtn = isAdmin
-    ? `<button class="btn-admin-edit" title="${t('admin_edit_title')}">✏️</button>` : '';
+  const playedToggle = isPlayed(game.id)
+    ? `<button class="btn-played-toggle is-played" data-played-id="${game.id}" title="${t('played_unmark')}">✓</button>`
+    : `<button class="btn-played-toggle" data-played-id="${game.id}" title="${t('played_mark')}">✓</button>`;
   const freeBadge = freeEntry
     ? `<div class="free-now-badge ${isAdmin ? 'with-admin' : ''}">${t('free_now_badge')}</div>`
     : '';
@@ -718,8 +753,8 @@ function createCard(game, freeEntry = null, cardIndex = 99) {
     ? `<span class="crossplay-badge">${t('mode_crossplay')}</span>` : '';
 
   return `
-    <div class="card ${isAdmin ? 'admin-mode' : ''} ${game.trending ? 'is-trending' : ''} ${freeEntry ? 'is-free-now' : ''}" data-id="${game.id}" role="listitem">
-      ${adminBtn}
+    <div class="card ${game.trending ? 'is-trending' : ''} ${freeEntry ? 'is-free-now' : ''} ${showPlayed && isPlayed(game.id) ? 'is-played-card' : ''}" data-id="${game.id}" role="listitem">
+      ${playedToggle}
       ${freeBadge}
       ${trendingBadge}
       ${imgHtml}
@@ -727,7 +762,7 @@ function createCard(game, freeEntry = null, cardIndex = 99) {
         <div class="card-header">
           <div class="card-title">${safeTitle}</div>
           <div class="card-badges">
-            ${game.played ? `<span class="played-badge">${t('played_badge')}</span>` : ''}
+            ${isPlayed(game.id) ? `<span class="played-badge">${t('played_badge')}</span>` : ''}
             ${ratingHtml}
             ${ccuHtml}
             ${crossplayHtml}
@@ -788,16 +823,17 @@ function openModal(id) {
 
   const safeTitle = esc(game.title);
   const safeDesc = esc((currentLang === 'en' && game.description_en) ? game.description_en : game.description);
-  const safeNote = esc(game.personalNote);
 
   const tags = game.categories.map(c =>
     `<span class="tag tag-${c}">${categoryLabel(c)}</span>`
   ).join('');
 
-  const noteHtml = game.played && game.personalNote ? `
+  const publicNote = getNote(id);
+  const noteHtml = isPlayed(id) ? `
     <div class="modal-personal-note">
-      <div class="modal-section-title">${t('modal_experience')}</div>
-      <p>${safeNote}</p>
+      <div class="modal-section-title">${t('note_title')}</div>
+      <textarea class="admin-textarea note-public-textarea" id="noteTextarea${id}" placeholder="${t('note_placeholder')}" maxlength="1000">${esc(publicNote)}</textarea>
+      <button class="btn-details" onclick="saveNote(${id}, document.getElementById('noteTextarea${id}').value)" style="margin-top:8px;padding:8px 16px;font-size:0.82rem">${t('note_save')}</button>
     </div>` : '';
 
   const storeLinks = [
@@ -807,14 +843,12 @@ function openModal(id) {
   ].join('');
   const priceCompare = game.steamUrl ? buildAffiliateBtns(game) : '';
 
-  const adminEdit = isAdmin
-    ? `<button class="btn-details" onclick="closeModal();openAdminModal(${id})" style="padding:10px 20px">${t('btn_edit')}</button>` : '';
 
   document.getElementById('modalContent').innerHTML = `
     ${game.image ? `<img class="modal-img" src="${esc(game.image)}" alt="${safeTitle}" width="460" height="215" decoding="async">` : ''}
     <div class="modal-body">
       <div class="modal-header">
-        <div class="modal-title">${safeTitle} ${game.played ? `<span class="played-badge">${t('played_badge')}</span>` : ''}</div>
+        <div class="modal-title">${safeTitle} ${isPlayed(id) ? `<span class="played-badge">${t('played_badge')}</span>` : ''}</div>
         <button class="modal-close" onclick="closeModal()" aria-label="${t('btn_close_aria')}">✕</button>
       </div>
       <div class="modal-tags">${tags}</div>
@@ -844,7 +878,7 @@ function openModal(id) {
       <div class="modal-actions">
         ${storeLinks}
         <a class="btn-details" href="games/${id}.html" style="padding:10px 20px;text-decoration:none">${t('btn_game_page')}</a>
-        ${adminEdit}
+        <button class="btn-details btn-played-modal ${isPlayed(id) ? 'is-played' : ''}" onclick="togglePlayed(${id});closeModal()" style="padding:10px 20px">${isPlayed(id) ? t('played_unmark') : t('played_mark')}</button>
         <button class="btn-details" onclick="closeModal()" style="padding:10px 20px">${t('btn_close')}</button>
       </div>
       ${priceCompare}
@@ -883,34 +917,6 @@ async function toggleAdmin() {
   }
 }
 
-// ===== ADMIN MODAL (modifica nota/played) =====
-function openAdminModal(id) {
-  const game = catalogGames.find(g => g.id === id);
-  if (!game || !isAdmin) return;
-
-  document.getElementById('adminGameTitle').textContent = game.title;
-  document.getElementById('adminNoteInput').value = game.personalNote || '';
-  document.getElementById('adminPlayedInput').checked = game.played || false;
-  document.getElementById('adminGameId').value = id;
-
-  document.getElementById('adminOverlay').classList.add('open');
-  document.body.style.overflow = 'hidden';
-}
-
-function closeAdminModal() {
-  document.getElementById('adminOverlay').classList.remove('open');
-  document.body.style.overflow = '';
-}
-
-function saveAdminEdit() {
-  const id       = parseInt(document.getElementById('adminGameId').value);
-  const note     = document.getElementById('adminNoteInput').value.trim();
-  const played   = document.getElementById('adminPlayedInput').checked;
-  saveOverride(id, note, played);
-  closeAdminModal();
-  updateStats();
-  renderGames();
-}
 
 // ===== WHEEL =====
 const WHEEL_COLORS = [
