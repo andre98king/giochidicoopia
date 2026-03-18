@@ -20,3 +20,6 @@ deep-translator>=1.11.0
 
 # Retry/backoff per gestire 429 e timeout dalle API Steam/IGDB/GOG
 tenacity>=9.0.0
+
+# Browser automation per scraping siti con rendering Vue.js/React (es. Instant Gaming)
+playwright>=1.44.0

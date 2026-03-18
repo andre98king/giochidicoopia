@@ -1038,6 +1038,17 @@ body {
 /* ===== ITCH.IO BUTTON ===== */
 .btn-itch { background: #2b1621; border: 1px solid #fa5c5c; color: #fa5c5c; }
 .btn-itch:hover { background: #3d1e2c; border-color: #ff8a80; }
+/* Affiliate buttons */
+.affiliate-section { margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--border); }
+.affiliate-title { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 1.5px; color: var(--text2); margin-bottom: 10px; font-weight: 600; }
+.affiliate-btns { display: flex; gap: 10px; flex-wrap: wrap; }
+.btn-affiliate { display: inline-flex; align-items: center; gap: 8px; padding: 10px 16px; border-radius: 8px; font-weight: 700; font-size: 0.88rem; text-decoration: none; transition: filter 0.2s, transform 0.15s; white-space: nowrap; }
+.btn-affiliate:hover { filter: brightness(1.15); transform: translateY(-1px); }
+.btn-ig { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #e2d96e; border: 1px solid rgba(226,217,110,0.3); }
+.btn-gb { background: linear-gradient(135deg, #0f3460 0%, #0a2647 100%); color: #90caf9; border: 1px solid rgba(144,202,249,0.3); }
+.affiliate-store { font-size: 0.88rem; }
+.affiliate-discount { background: rgba(255,80,80,0.2); color: #ff6b6b; font-size: 0.78rem; font-weight: 800; padding: 2px 6px; border-radius: 4px; border: 1px solid rgba(255,80,80,0.35); }
+/* Legacy — compatibilità pagine statiche non ancora rigenerate */
 .price-compare-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; padding: 8px 0 0; font-size: 0.82rem; }
 .price-compare-label { color: #888; white-space: nowrap; }
 .price-compare-link { color: var(--accent); text-decoration: none; opacity: 0.75; }

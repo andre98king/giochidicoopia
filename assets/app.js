@@ -591,13 +591,28 @@ const AFFILIATE = {
 };
 
 // ===== UTM TRACKING + AFFILIATE =====
-function buildPriceCompare(title) {
+function buildAffiliateBtns(game) {
   if (!AFFILIATE.ig && !AFFILIATE.gb) return '';
-  const q = encodeURIComponent(title);
-  const links = [];
-  if (AFFILIATE.ig) links.push(`<a class="price-compare-link" href="https://www.instant-gaming.com/en/search/?gameName=${q}&igr=${AFFILIATE.ig}" target="_blank" rel="noopener noreferrer sponsored">Instant Gaming ↗</a>`);
-  if (AFFILIATE.gb) links.push(`<a class="price-compare-link" href="https://www.gamebillet.com/search?q=${q}&affiliate=${AFFILIATE.gb}" target="_blank" rel="noopener noreferrer sponsored">GameBillet ↗</a>`);
-  return `<div class="price-compare-row"><span class="price-compare-label">Prezzi alternativi:</span>${links.join('')}</div>`;
+  const q = encodeURIComponent(game.title);
+  const btns = [];
+
+  // Instant Gaming: usa link diretto se disponibile in games.js, altrimenti ricerca
+  if (AFFILIATE.ig) {
+    const igUrl = game.igUrl
+      ? game.igUrl
+      : `https://www.instant-gaming.com/en/search/?query=${q}&igr=${AFFILIATE.ig}`;
+    const discBadge = game.igDiscount > 0
+      ? `<span class="affiliate-discount">-${game.igDiscount}%</span>` : '';
+    btns.push(`<a class="btn-affiliate btn-ig" href="${esc(igUrl)}" target="_blank" rel="noopener noreferrer sponsored"><span class="affiliate-store">Instant Gaming</span>${discBadge}</a>`);
+  }
+
+  // GameBillet: link ricerca (ITAD da aggiungere in futuro)
+  if (AFFILIATE.gb) {
+    const gbUrl = `https://www.gamebillet.com/search?q=${q}&affiliate=${AFFILIATE.gb}`;
+    btns.push(`<a class="btn-affiliate btn-gb" href="${esc(gbUrl)}" target="_blank" rel="noopener noreferrer sponsored"><span class="affiliate-store">GameBillet</span></a>`);
+  }
+
+  return `<div class="affiliate-section"><div class="affiliate-title">💸 Prezzi alternativi</div><div class="affiliate-btns">${btns.join('')}</div></div>`;
 }
 
 function addUtm(url, campaign = 'catalog') {
@@ -749,7 +764,7 @@ function openModal(id) {
     game.epicUrl  ? `<a class="btn-primary btn-epic-lg" href="${esc(addUtm(game.epicUrl, 'modal'))}"  target="_blank" rel="noopener noreferrer">Epic Games ↗</a>` : '',
     game.itchUrl  ? `<a class="btn-store btn-itch" href="${esc(addUtm(game.itchUrl, 'modal'))}" target="_blank" rel="noopener noreferrer" style="padding:10px 20px;font-size:0.9rem">itch.io ↗</a>` : '',
   ].join('');
-  const priceCompare = game.steamUrl ? buildPriceCompare(game.title) : '';
+  const priceCompare = game.steamUrl ? buildAffiliateBtns(game) : '';
 
   const adminEdit = isAdmin
     ? `<button class="btn-details" onclick="closeModal();openAdminModal(${id})" style="padding:10px 20px">${t('btn_edit')}</button>` : '';

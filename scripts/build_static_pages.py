@@ -138,23 +138,29 @@ def render_store_links(game: dict) -> str:
             f'<a class="btn-store btn-itch" href="{esc(add_utm(game["itchUrl"]))}" target="_blank" '
             'rel="noopener noreferrer" style="padding:10px 20px;font-size:0.9rem">itch.io ↗</a>'
         )
-    # Prezzi alternativi (link ricerca affiliato) — solo per giochi Steam
+    # Prezzi alternativi — bottoni grandi con sconto IG se disponibile
     if game["steamUrl"] and (AFFILIATE_IG or AFFILIATE_GB):
         q = quote(game["title"])
-        price_links = []
+        btns = []
         if AFFILIATE_IG:
-            price_links.append(
-                f'<a class="price-compare-link" href="https://www.instant-gaming.com/en/search/?gameName={q}&igr={AFFILIATE_IG}" '
-                'target="_blank" rel="noopener noreferrer sponsored">Instant Gaming ↗</a>'
+            ig_url = game.get("igUrl") or f"https://www.instant-gaming.com/en/search/?query={q}&igr={AFFILIATE_IG}"
+            ig_discount = game.get("igDiscount") or 0
+            disc_badge = f'<span class="affiliate-discount">-{ig_discount}%</span>' if ig_discount > 0 else ""
+            btns.append(
+                f'<a class="btn-affiliate btn-ig" href="{esc(ig_url)}" '
+                f'target="_blank" rel="noopener noreferrer sponsored">'
+                f'<span class="affiliate-store">Instant Gaming</span>{disc_badge}</a>'
             )
         if AFFILIATE_GB:
-            price_links.append(
-                f'<a class="price-compare-link" href="https://www.gamebillet.com/search?q={q}&affiliate={AFFILIATE_GB}" '
-                'target="_blank" rel="noopener noreferrer sponsored">GameBillet ↗</a>'
+            gb_url = f"https://www.gamebillet.com/search?q={q}&affiliate={AFFILIATE_GB}"
+            btns.append(
+                f'<a class="btn-affiliate btn-gb" href="{esc(gb_url)}" '
+                f'target="_blank" rel="noopener noreferrer sponsored">'
+                f'<span class="affiliate-store">GameBillet</span></a>'
             )
         links.append(
-            '<div class="price-compare-row"><span class="price-compare-label">Prezzi alternativi:</span>'
-            + "".join(price_links) + "</div>"
+            '<div class="affiliate-section"><div class="affiliate-title">💸 Prezzi alternativi</div>'
+            '<div class="affiliate-btns">' + "".join(btns) + "</div></div>"
         )
     return "".join(links)
 
