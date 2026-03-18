@@ -160,6 +160,7 @@ const TRANSLATIONS = {
     footer_contact: "Contatti",
     footer_free: "Giochi gratis",
     footer_privacy: "Privacy Policy",
+    footer_kofi: "☕ Supporta il progetto",
     footer_copy: "© 2026 Co-op Games Hub — Immagini © rispettivi publisher — Dati da Steam & SteamSpy",
 
     // About page
@@ -373,6 +374,7 @@ const TRANSLATIONS = {
     footer_contact: "Contact",
     footer_free: "Free games",
     footer_privacy: "Privacy Policy",
+    footer_kofi: "☕ Support the project",
     footer_copy: "© 2026 Co-op Games Hub — Images © respective publishers — Data from Steam & SteamSpy",
 
     // About page

@@ -292,9 +292,9 @@ function renderFeatured() {
   const safeTitle = esc(game.title);
   const safeDesc = esc((currentLang === 'en' && game.description_en) ? game.description_en : game.description);
   const storeLinks = [
-    game.steamUrl ? `<a class="btn-store btn-steam" href="${esc(game.steamUrl)}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Steam ↗</a>` : '',
-    game.epicUrl  ? `<a class="btn-store btn-epic"  href="${esc(game.epicUrl)}"  target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Epic ↗</a>`  : '',
-    game.itchUrl  ? `<a class="btn-store btn-itch"  href="${esc(game.itchUrl)}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">itch.io ↗</a>` : '',
+    game.steamUrl ? `<a class="btn-store btn-steam" href="${esc(addUtm(game.steamUrl, 'featured'))}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Steam ↗</a>` : '',
+    game.epicUrl  ? `<a class="btn-store btn-epic"  href="${esc(addUtm(game.epicUrl, 'featured'))}"  target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Epic ↗</a>`  : '',
+    game.itchUrl  ? `<a class="btn-store btn-itch"  href="${esc(addUtm(game.itchUrl, 'featured'))}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">itch.io ↗</a>` : '',
   ].join('');
   section.innerHTML = `
     <div class="featured-section">
@@ -578,6 +578,13 @@ function attachCardListeners(grid) {
   grid.querySelectorAll('.card').forEach(attachSingleCardListener);
 }
 
+// ===== UTM TRACKING =====
+function addUtm(url, campaign = 'catalog') {
+  if (!url) return '';
+  const sep = url.includes('?') ? '&' : '?';
+  return url + sep + 'utm_source=coophubs&utm_medium=referral&utm_campaign=' + campaign;
+}
+
 // ===== CREATE CARD =====
 function createCard(game, freeEntry = null) {
   const tags = game.categories.map(c =>
@@ -598,9 +605,9 @@ function createCard(game, freeEntry = null) {
     ? `<div class="personal-note-preview">${safeNote}</div>` : '';
 
   const storeButtons = [
-    game.steamUrl ? `<a class="btn-store btn-steam" href="${esc(game.steamUrl)}" target="_blank" rel="noopener noreferrer">Steam ↗</a>` : '',
-    game.epicUrl  ? `<a class="btn-store btn-epic"  href="${esc(game.epicUrl)}"  target="_blank" rel="noopener noreferrer">Epic ↗</a>`  : '',
-    game.itchUrl  ? `<a class="btn-store btn-itch"  href="${esc(game.itchUrl)}" target="_blank" rel="noopener noreferrer">itch.io ↗</a>` : '',
+    game.steamUrl ? `<a class="btn-store btn-steam" href="${esc(addUtm(game.steamUrl))}" target="_blank" rel="noopener noreferrer">Steam ↗</a>` : '',
+    game.epicUrl  ? `<a class="btn-store btn-epic"  href="${esc(addUtm(game.epicUrl))}"  target="_blank" rel="noopener noreferrer">Epic ↗</a>`  : '',
+    game.itchUrl  ? `<a class="btn-store btn-itch"  href="${esc(addUtm(game.itchUrl))}" target="_blank" rel="noopener noreferrer">itch.io ↗</a>` : '',
   ].join('');
 
   const adminBtn = isAdmin
@@ -707,9 +714,9 @@ function openModal(id) {
     </div>` : '';
 
   const storeLinks = [
-    game.steamUrl ? `<a class="btn-primary" href="${esc(game.steamUrl)}" target="_blank" rel="noopener noreferrer">Steam ↗</a>` : '',
-    game.epicUrl  ? `<a class="btn-primary btn-epic-lg" href="${esc(game.epicUrl)}"  target="_blank" rel="noopener noreferrer">Epic Games ↗</a>` : '',
-    game.itchUrl  ? `<a class="btn-store btn-itch" href="${esc(game.itchUrl)}" target="_blank" rel="noopener noreferrer" style="padding:10px 20px;font-size:0.9rem">itch.io ↗</a>` : '',
+    game.steamUrl ? `<a class="btn-primary" href="${esc(addUtm(game.steamUrl, 'modal'))}" target="_blank" rel="noopener noreferrer">Steam ↗</a>` : '',
+    game.epicUrl  ? `<a class="btn-primary btn-epic-lg" href="${esc(addUtm(game.epicUrl, 'modal'))}"  target="_blank" rel="noopener noreferrer">Epic Games ↗</a>` : '',
+    game.itchUrl  ? `<a class="btn-store btn-itch" href="${esc(addUtm(game.itchUrl, 'modal'))}" target="_blank" rel="noopener noreferrer" style="padding:10px 20px;font-size:0.9rem">itch.io ↗</a>` : '',
   ].join('');
 
   const adminEdit = isAdmin
