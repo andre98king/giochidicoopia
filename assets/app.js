@@ -6,21 +6,12 @@ function esc(str) {
   return d.innerHTML;
 }
 
-// ===== ADMIN CONFIG =====
-const ADMIN_HASH = "5f4d142bf532ae9f1bf0fe956dca03ecf85d16b47b3c8391b53d574eb9b289f2";
-
-async function hashPassword(str) {
-  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
-  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
-}
-
 // ===== STATE =====
 let activeFilters = new Set();    // genre/category filters (horror, action, etc.)
 let activeModeFilters = new Set(); // mode filters (mode_online, mode_local, players_2, etc.)
 let searchQuery = '';
 let sortMode = 'default'; // 'default' | 'trending' | 'rating' | 'az'
 let wheelSpinning = false;
-let isAdmin = false;
 let catalogGames = [];
 let featuredIndieGameId = null;
 let legacyCatalogScriptPromise = null;
@@ -380,11 +371,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   document.getElementById('wheelOverlay').addEventListener('click', e => {
     if (e.target === document.getElementById('wheelOverlay')) closeWheelModal();
   });
-  document.getElementById('adminOverlay').addEventListener('click', e => {
-    if (e.target === document.getElementById('adminOverlay')) closeAdminModal();
-  });
-
-  document.getElementById('adminBtn').addEventListener('click', toggleAdmin);
   window.addEventListener('freegamesloaded', () => {
     renderFreeGamesSection();
     renderGames();
@@ -597,11 +583,14 @@ function renderGames() {
 function attachSingleCardListener(card) {
   const id = parseInt(card.dataset.id);
   card.addEventListener('click', e => {
-    if (e.target.closest('a') || e.target.closest('.btn-admin-edit') || e.target.closest('.btn-played-toggle')) return;
+    if (e.target.closest('a') || e.target.closest('.btn-played-toggle') || e.target.closest('.btn-note-card')) return;
     openModal(id);
   });
   const playedBtn = card.querySelector('.btn-played-toggle');
   if (playedBtn) playedBtn.addEventListener('click', e => { e.stopPropagation(); togglePlayed(id); });
+  card.querySelectorAll('.btn-note-card').forEach(btn => {
+    btn.addEventListener('click', e => { e.stopPropagation(); openModal(parseInt(btn.dataset.openModal)); });
+  });
 }
 
 function attachCardListeners(grid) {
@@ -708,6 +697,9 @@ function createCard(game, freeEntry = null, cardIndex = 99) {
   const publicNote = getNote(game.id);
   const noteHtml = isPlayed(game.id) && publicNote
     ? `<div class="personal-note-preview">${esc(publicNote)}</div>` : '';
+  const noteBtn = isPlayed(game.id)
+    ? `<button class="btn-note-card" data-open-modal="${game.id}" title="${t('note_title')}">✎ ${t('note_title')}</button>`
+    : '';
 
   // Bottone principale: IG → Steam → GOG come fallback
   const isFreeGame = game.categories && game.categories.includes('free');
@@ -735,7 +727,7 @@ function createCard(game, freeEntry = null, cardIndex = 99) {
     ? `<button class="btn-played-toggle is-played" data-played-id="${game.id}" title="${t('played_unmark')}">✓</button>`
     : `<button class="btn-played-toggle" data-played-id="${game.id}" title="${t('played_mark')}">✓</button>`;
   const freeBadge = freeEntry
-    ? `<div class="free-now-badge ${isAdmin ? 'with-admin' : ''}">${t('free_now_badge')}</div>`
+    ? `<div class="free-now-badge">${t('free_now_badge')}</div>`
     : '';
 
   const trendingBadge = game.trending
@@ -778,6 +770,7 @@ function createCard(game, freeEntry = null, cardIndex = 99) {
         </div>
         <div class="card-desc">${safeDesc}</div>
         ${noteHtml}
+        ${noteBtn}
       </div>
       <div class="card-footer">
         <a class="btn-details" href="games/${game.id}.html">${t('btn_details')}</a>
@@ -894,28 +887,6 @@ function closeModal() {
 }
 
 window.addEventListener('langchange', renderFreeGamesSection);
-
-// ===== ADMIN TOGGLE =====
-async function toggleAdmin() {
-  if (isAdmin) {
-    isAdmin = false;
-    document.getElementById('adminBtn').textContent = t('btn_admin');
-    document.getElementById('adminBtn').classList.remove('admin-active');
-    renderGames();
-    return;
-  }
-  const pwd = prompt(t('admin_pwd_prompt'));
-  if (pwd === null) return;
-  const hash = await hashPassword(pwd);
-  if (hash === ADMIN_HASH) {
-    isAdmin = true;
-    document.getElementById('adminBtn').textContent = t('btn_admin_on');
-    document.getElementById('adminBtn').classList.add('admin-active');
-    renderGames();
-  } else {
-    alert(t('admin_pwd_wrong'));
-  }
-}
 
 
 // ===== WHEEL =====
@@ -1037,7 +1008,7 @@ function spinWheel() {
 
 // Close on ESC
 document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') { closeModal(); closeWheelModal(); closeAdminModal(); }
+  if (e.key === 'Escape') { closeModal(); closeWheelModal(); }
 });
 
 // ===== SCROLL TO TOP =====

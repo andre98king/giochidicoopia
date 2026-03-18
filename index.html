@@ -107,12 +107,6 @@
         <button class="search-clear" id="searchClear" style="display:none" aria-label="Cancella ricerca" data-i18n-aria-label="clear_search_aria">✕</button>
       </div>
 
-      <!-- Filtri categorie -->
-      <div class="filters" id="filterContainer" role="group" aria-label="Filtri per categoria" data-i18n-aria-label="filters_category_aria"></div>
-
-      <!-- Filtri modalità co-op -->
-      <div class="filters filters-mode" id="modeFilterContainer" role="group" aria-label="Filtri per modalità" data-i18n-aria-label="filters_mode_aria"></div>
-
       <!-- Ordinamento -->
       <select class="sort-select" id="sortSelect" aria-label="Ordina giochi" data-i18n-aria-label="sort_aria">
         <option value="default">📋 Default</option>
@@ -125,8 +119,12 @@
       <button class="btn-wheel" id="wheelBtn" aria-label="Gioco random" data-i18n-aria-label="btn_wheel_aria">🎡 Gioco Random</button>
       <!-- Lingua -->
       <button class="btn-lang" id="langBtn" onclick="setLang(currentLang === 'it' ? 'en' : 'it')" aria-label="Cambia lingua" data-i18n-aria-label="btn_lang_aria">🇬🇧 EN</button>
-      <!-- Admin -->
-      <button class="btn-admin" id="adminBtn" aria-label="Modalità admin" data-i18n-aria-label="btn_admin_aria">🔒 Admin</button>
+
+      <!-- Filtri categorie -->
+      <div class="filters" id="filterContainer" role="group" aria-label="Filtri per categoria" data-i18n-aria-label="filters_category_aria"></div>
+
+      <!-- Filtri modalità co-op -->
+      <div class="filters filters-mode" id="modeFilterContainer" role="group" aria-label="Filtri per modalità" data-i18n-aria-label="filters_mode_aria"></div>
     </div>
   </nav>
 

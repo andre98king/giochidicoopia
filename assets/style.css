@@ -288,6 +288,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  width: 100%;
 }
 
 .filter-group {
@@ -1087,12 +1088,21 @@ body {
   border: 1.5px solid var(--border); background: var(--bg3);
   color: var(--text2); font-size: 0.75rem; font-weight: 700;
   cursor: pointer; display: flex; align-items: center; justify-content: center;
-  transition: all 0.2s; opacity: 0.5;
+  transition: all 0.2s; opacity: 0.85;
 }
 .btn-played-toggle:hover, .btn-played-toggle.is-played { opacity: 1; }
 .btn-played-toggle.is-played { background: #2e7d32; border-color: #4caf50; color: #fff; }
 .card:hover .btn-played-toggle { opacity: 1; }
 .is-played-card { border-color: rgba(76,175,80,0.35); opacity: 0.75; }
+/* Note button on played cards */
+.btn-note-card {
+  display: inline-flex; align-items: center; gap: 4px;
+  margin-top: 6px; padding: 4px 10px; border-radius: 6px;
+  border: 1px solid var(--border); background: var(--bg3);
+  color: var(--text2); font-size: 0.78rem; cursor: pointer;
+  transition: all 0.2s;
+}
+.btn-note-card:hover { border-color: var(--accent); color: var(--accent); }
 /* Played badge bar (risultati) */
 .played-badge-bar { display: flex; align-items: center; gap: 8px; margin-top: 6px; font-size: 0.8rem; color: var(--text2); }
 .played-count { font-weight: 600; }
