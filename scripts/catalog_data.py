@@ -50,6 +50,8 @@ LEGACY_RUNTIME_FIELDS = (
     "igDiscount",
     "gbUrl",
     "gbDiscount",
+    "gsUrl",
+    "gsDiscount",
 )
 
 
@@ -242,6 +244,8 @@ def load_games() -> list[dict[str, Any]]:
             "igDiscount": ef(block, "igDiscount") or 0,
             "gbUrl": ef(block, "gbUrl") or "",
             "gbDiscount": ef(block, "gbDiscount") or 0,
+            "gsUrl": ef(block, "gsUrl") or "",
+            "gsDiscount": ef(block, "gsDiscount") or 0,
         }
         if game["id"] is not None:
             games.append(normalize_game(game, featured_indie_id))
@@ -317,6 +321,8 @@ def build_public_catalog_export(games: list[dict[str, Any]]) -> dict[str, Any]:
                 "igDiscount": game.get("igDiscount") or 0,
                 "gbUrl": game.get("gbUrl", ""),
                 "gbDiscount": game.get("gbDiscount") or 0,
+                "gsUrl": game.get("gsUrl", ""),
+                "gsDiscount": game.get("gsDiscount") or 0,
             }
         )
 
@@ -388,7 +394,9 @@ def write_legacy_games_js(
             f"    igUrl: \"{js_esc(game.get('igUrl', ''))}\",\n"
             f"    igDiscount: {game.get('igDiscount') or 0},\n"
             f"    gbUrl: \"{js_esc(game.get('gbUrl', ''))}\",\n"
-            f"    gbDiscount: {game.get('gbDiscount') or 0}\n"
+            f"    gbDiscount: {game.get('gbDiscount') or 0},\n"
+            f"    gsUrl: \"{js_esc(game.get('gsUrl', ''))}\",\n"
+            f"    gsDiscount: {game.get('gsDiscount') or 0}\n"
             "  },\n"
         )
 

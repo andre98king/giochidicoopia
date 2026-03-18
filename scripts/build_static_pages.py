@@ -20,7 +20,7 @@ SITEMAP = ROOT / "sitemap.xml"
 SITE_URL = "https://coophubs.net"
 TODAY = datetime.date.today().isoformat()
 CURRENT_YEAR = datetime.date.today().year
-ASSET_VERSION = "20260318-gameseal"
+ASSET_VERSION = "20260318-gs2"
 CROSSPLAY_UI_ENABLED = True
 
 
@@ -107,7 +107,7 @@ AFFILIATE_GOG  = ""
 AFFILIATE_IG  = "gamer-ddc4a8"
 AFFILIATE_GB  = "fb308ca0-647e-4ce7-9e80-74c2c591eac1"
 AFFILIATE_GMG = "https://greenmangaming.sjv.io/qWzoQy"  # Impact deep link base
-AFFILIATE_GAMESEAL = "https://www.dpbolvw.net/click-101708519-17170422"  # CJ Affiliate deep link
+AFFILIATE_GAMESEAL = "https://www.tkqlhce.com/click-101708519-17170422"  # CJ Affiliate deep link
 
 
 def add_utm(url: str, campaign: str = "gamepage") -> str:
@@ -173,12 +173,16 @@ def render_store_links(game: dict) -> str:
             )
         if AFFILIATE_GAMESEAL:
             from urllib.parse import quote as _q
-            gs_search = f"https://gameseal.com/search?search={q}"
-            gs_url = f"{AFFILIATE_GAMESEAL}?url={_q(gs_search)}"
+            if game.get("gsUrl"):
+                gs_url = game["gsUrl"]  # link diretto con tracking CJ già incluso
+            else:
+                gs_search = f"https://gameseal.com/search?search={q}"
+                gs_url = f"{AFFILIATE_GAMESEAL}?url={_q(gs_search)}"
+            gs_badge = f'<span class="affiliate-badge">-{game["gsDiscount"]}%</span>' if game.get("gsDiscount") else ""
             btns.append(
                 f'<a class="btn-affiliate btn-gameseal" href="{esc(gs_url)}" '
                 f'target="_blank" rel="noopener noreferrer sponsored">'
-                f'<span class="affiliate-store">Gameseal</span></a>'
+                f'<span class="affiliate-store">Gameseal</span>{gs_badge}</a>'
             )
         links.append(
             '<div class="affiliate-section"><div class="affiliate-title">💸 Prezzi alternativi</div>'

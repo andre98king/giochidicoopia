@@ -109,6 +109,20 @@ Anno footer 2025→2026, sezione giochi gratuiti (`free.html`, `fetch_free_games
 - **Copertura affiliate**: IG 305/529 giochi (78.6% su Steam games), GB 3/529 (bassa — catalogo GB piccolo)
 - **Skill Claude installate**: theme-factory, brand-guidelines, mcp-builder, webapp-testing, slack-gif-creator, document-pdf/docx/xlsx/pptx
 
+### 2026-03-18 — parte 4 (Claude Code)
+
+- **Token CJ API generato**: Personal Access Token `coophubs-gameseal` su developers.cj.com; salvato in `.env` (gitignored)
+- **Fix tracking domain Gameseal**: `dpbolvw.net` → `tkqlhce.com` in `app.js` e `build_static_pages.py` (era il link banner invece del link testuale CJ)
+- **CJ GraphQL API integrata**: endpoint `ads.api.cj.com/query`; publisher company ID `7903980`, Gameseal company ID `7571703` (= advertiser ID), adId feed `17167622`
+- **`fetch_gameseal_prices.py` scritto**: usa GraphQL `products(companyId, partnerIds, keywords, limit)` con `linkCode(pid)` per URL con tracking CJ incluso; filtra PC/Steam (esclude PS5/Xbox/etc.); preferisce EUR
+- **`catalog_data.py` aggiornato**: aggiunto `gsUrl`/`gsDiscount` in `LEGACY_RUNTIME_FIELDS`, `load_games()`, `build_public_catalog_export()`, `write_legacy_games_js()`
+- **`app.js` aggiornato**: usa `gsUrl` diretto quando disponibile, con badge sconto; fallback a search URL CJ
+- **`build_static_pages.py` aggiornato**: stesso pattern di `app.js`; ASSET_VERSION `20260318-gameseal` → `20260318-gs2`
+- **`update.yml` aggiornato**: aggiunto step `fetch_gameseal_prices.py` con `CJ_API_TOKEN` secret
+- **Run completo**: 326/388 giochi trovati su Gameseal (84%); discount 0% (Gameseal non espone salePrice per la maggior parte dei prodotti)
+- **529 pagine statiche rigenerate** + `catalog.public.v1.json` aggiornato con `gsUrl`
+- **Da fare manualmente**: aggiungere secret `CJ_API_TOKEN` in GitHub repo settings → Actions → Secrets
+
 ---
 
 ## Prossimi step consigliati
