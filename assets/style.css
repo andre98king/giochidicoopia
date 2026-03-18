@@ -1438,8 +1438,24 @@ body {
   color: var(--accent);
 }
 
-.footer-support {
-  margin-bottom: 20px;
+/* ===== SUPPORT STRIP ===== */
+.support-strip {
+  background: linear-gradient(135deg, rgba(107,92,224,0.08), rgba(255,94,91,0.08));
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 28px 20px;
+  text-align: center;
+}
+
+.support-strip__text {
+  color: var(--text2);
+  font-size: 0.95rem;
+  margin: 0 0 14px;
+}
+
+.btn-kofi--lg {
+  font-size: 1rem;
+  padding: 13px 30px;
 }
 
 .btn-kofi {
