@@ -537,7 +537,7 @@ function renderGames() {
   }
 
   const BATCH_SIZE = 30;
-  const cards = filtered.map(game => createCard(game, freeLookup.get(normalizeTitle(game.title))));
+  const cards = filtered.map((game, i) => createCard(game, freeLookup.get(normalizeTitle(game.title)), i));
 
   // Render first batch immediately
   grid.innerHTML = cards.slice(0, BATCH_SIZE).join('');
@@ -636,7 +636,7 @@ function addUtm(url, campaign = 'catalog') {
 }
 
 // ===== CREATE CARD =====
-function createCard(game, freeEntry = null) {
+function createCard(game, freeEntry = null, cardIndex = 99) {
   const tags = game.categories.map(c =>
     `<span class="tag tag-${c}">${categoryLabel(c)}</span>`
   ).join('');
@@ -645,8 +645,9 @@ function createCard(game, freeEntry = null) {
   const safeDesc = esc((currentLang === 'en' && game.description_en) ? game.description_en : game.description);
   const safeNote = esc(game.personalNote);
 
+  const imgLoading = cardIndex < 6 ? 'eager' : 'lazy';
   const imgHtml = game.image
-    ? `<div class="card-img-wrapper"><img class="card-img" src="${esc(game.image)}" alt="${safeTitle}" loading="lazy" width="460" height="215" decoding="async"
+    ? `<div class="card-img-wrapper"><img class="card-img" src="${esc(game.image)}" alt="${safeTitle}" loading="${imgLoading}" width="460" height="215" decoding="async"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
        <div class="card-img-placeholder" style="display:none">🎮</div></div>`
     : `<div class="card-img-placeholder">🎮</div>`;
