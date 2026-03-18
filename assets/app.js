@@ -578,11 +578,30 @@ function attachCardListeners(grid) {
   grid.querySelectorAll('.card').forEach(attachSingleCardListener);
 }
 
-// ===== UTM TRACKING =====
+// ===== AFFILIATE CONFIG =====
+// Inserisci i tuoi ID qui dopo la registrazione ai programmi affiliati.
+// Epic: epicgames.com/affiliate → ottieni il tuo Creator Code
+// GOG:  gog.com/partner         → ottieni il tuo pp= ID
+const AFFILIATE = {
+  epic: '',   // es. 'COOPHUBS' → aggiunge ?creator=COOPHUBS
+  gog:  '',   // es. '12345'    → aggiunge ?pp=12345
+};
+
+// ===== UTM TRACKING + AFFILIATE =====
 function addUtm(url, campaign = 'catalog') {
   if (!url) return '';
   const sep = url.includes('?') ? '&' : '?';
-  return url + sep + 'utm_source=coophubs&utm_medium=referral&utm_campaign=' + campaign;
+  let result = url + sep + 'utm_source=coophubs&utm_medium=referral&utm_campaign=' + campaign;
+
+  // Aggiungi parametro affiliato se configurato
+  if (AFFILIATE.epic && url.includes('epicgames.com')) {
+    result += '&creator=' + AFFILIATE.epic;
+  }
+  if (AFFILIATE.gog && (url.includes('gog.com'))) {
+    result += '&pp=' + AFFILIATE.gog;
+  }
+
+  return result;
 }
 
 // ===== CREATE CARD =====

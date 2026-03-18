@@ -98,21 +98,40 @@ def json_for_script(value) -> str:
     return json.dumps(value, ensure_ascii=False).replace("</", "<\\/")
 
 
+# Affiliate config — inserisci i tuoi ID dopo la registrazione
+# Epic: epicgames.com/affiliate  → AFFILIATE_EPIC = 'TUOCODICE'
+# GOG:  gog.com/partner          → AFFILIATE_GOG  = '12345'
+AFFILIATE_EPIC = ""
+AFFILIATE_GOG  = ""
+
+
+def add_utm(url: str, campaign: str = "gamepage") -> str:
+    if not url:
+        return url
+    sep = "&" if "?" in url else "?"
+    result = url + sep + f"utm_source=coophubs&utm_medium=referral&utm_campaign={campaign}"
+    if AFFILIATE_EPIC and "epicgames.com" in url:
+        result += f"&creator={AFFILIATE_EPIC}"
+    if AFFILIATE_GOG and "gog.com" in url:
+        result += f"&pp={AFFILIATE_GOG}"
+    return result
+
+
 def render_store_links(game: dict) -> str:
     links = []
     if game["steamUrl"]:
         links.append(
-            f'<a class="btn-primary" href="{esc(game["steamUrl"])}" target="_blank" '
+            f'<a class="btn-primary" href="{esc(add_utm(game["steamUrl"]))}" target="_blank" '
             'rel="noopener noreferrer">Steam ↗</a>'
         )
     if game["epicUrl"]:
         links.append(
-            f'<a class="btn-primary btn-epic-lg" href="{esc(game["epicUrl"])}" target="_blank" '
+            f'<a class="btn-primary btn-epic-lg" href="{esc(add_utm(game["epicUrl"]))}" target="_blank" '
             'rel="noopener noreferrer">Epic Games ↗</a>'
         )
     if game["itchUrl"]:
         links.append(
-            f'<a class="btn-store btn-itch" href="{esc(game["itchUrl"])}" target="_blank" '
+            f'<a class="btn-store btn-itch" href="{esc(add_utm(game["itchUrl"]))}" target="_blank" '
             'rel="noopener noreferrer" style="padding:10px 20px;font-size:0.9rem">itch.io ↗</a>'
         )
     return "".join(links)
