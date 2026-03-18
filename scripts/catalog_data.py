@@ -48,6 +48,8 @@ LEGACY_RUNTIME_FIELDS = (
     "rating",
     "igUrl",
     "igDiscount",
+    "gbUrl",
+    "gbDiscount",
 )
 
 
@@ -238,6 +240,8 @@ def load_games() -> list[dict[str, Any]]:
             "rating": ef(block, "rating") or 0,
             "igUrl": ef(block, "igUrl") or "",
             "igDiscount": ef(block, "igDiscount") or 0,
+            "gbUrl": ef(block, "gbUrl") or "",
+            "gbDiscount": ef(block, "gbDiscount") or 0,
         }
         if game["id"] is not None:
             games.append(normalize_game(game, featured_indie_id))
@@ -378,7 +382,9 @@ def write_legacy_games_js(
             f"    trending: {'true' if game.get('trending') else 'false'},\n"
             f"    rating: {game.get('rating') or 0},\n"
             f"    igUrl: \"{js_esc(game.get('igUrl', ''))}\",\n"
-            f"    igDiscount: {game.get('igDiscount') or 0}\n"
+            f"    igDiscount: {game.get('igDiscount') or 0},\n"
+            f"    gbUrl: \"{js_esc(game.get('gbUrl', ''))}\",\n"
+            f"    gbDiscount: {game.get('gbDiscount') or 0}\n"
             "  },\n"
         )
 

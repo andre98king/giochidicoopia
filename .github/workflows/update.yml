@@ -34,8 +34,8 @@ jobs:
           IGDB_CLIENT_SECRET: ${{ secrets.IGDB_CLIENT_SECRET }}
           STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
 
-      - name: Fetch Instant Gaming prices
-        run: python3 scripts/fetch_ig_prices.py
+      - name: Fetch affiliate prices (IG + GameBillet)
+        run: python3 scripts/fetch_affiliate_prices.py
 
       - name: Build static game pages
         run: python3 scripts/build_static_pages.py

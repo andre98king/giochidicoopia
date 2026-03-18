@@ -606,10 +606,14 @@ function buildAffiliateBtns(game) {
     btns.push(`<a class="btn-affiliate btn-ig" href="${esc(igUrl)}" target="_blank" rel="noopener noreferrer sponsored"><span class="affiliate-store">Instant Gaming</span>${discBadge}</a>`);
   }
 
-  // GameBillet: link ricerca (ITAD da aggiungere in futuro)
+  // GameBillet: usa link diretto se disponibile, altrimenti ricerca
   if (AFFILIATE.gb) {
-    const gbUrl = `https://www.gamebillet.com/search?q=${q}&affiliate=${AFFILIATE.gb}`;
-    btns.push(`<a class="btn-affiliate btn-gb" href="${esc(gbUrl)}" target="_blank" rel="noopener noreferrer sponsored"><span class="affiliate-store">GameBillet</span></a>`);
+    const gbUrl = game.gbUrl
+      ? game.gbUrl
+      : `https://www.gamebillet.com/search?q=${q}&affiliate=${AFFILIATE.gb}`;
+    const gbBadge = game.gbDiscount > 0
+      ? `<span class="affiliate-discount">-${game.gbDiscount}%</span>` : '';
+    btns.push(`<a class="btn-affiliate btn-gb" href="${esc(gbUrl)}" target="_blank" rel="noopener noreferrer sponsored"><span class="affiliate-store">GameBillet</span>${gbBadge}</a>`);
   }
 
   return `<div class="affiliate-section"><div class="affiliate-title">💸 Prezzi alternativi</div><div class="affiliate-btns">${btns.join('')}</div></div>`;

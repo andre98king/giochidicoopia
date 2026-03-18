@@ -152,11 +152,13 @@ def render_store_links(game: dict) -> str:
                 f'<span class="affiliate-store">Instant Gaming</span>{disc_badge}</a>'
             )
         if AFFILIATE_GB:
-            gb_url = f"https://www.gamebillet.com/search?q={q}&affiliate={AFFILIATE_GB}"
+            gb_url = game.get("gbUrl") or f"https://www.gamebillet.com/search?q={q}&affiliate={AFFILIATE_GB}"
+            gb_discount = game.get("gbDiscount") or 0
+            gb_badge = f'<span class="affiliate-discount">-{gb_discount}%</span>' if gb_discount > 0 else ""
             btns.append(
                 f'<a class="btn-affiliate btn-gb" href="{esc(gb_url)}" '
                 f'target="_blank" rel="noopener noreferrer sponsored">'
-                f'<span class="affiliate-store">GameBillet</span></a>'
+                f'<span class="affiliate-store">GameBillet</span>{gb_badge}</a>'
             )
         links.append(
             '<div class="affiliate-section"><div class="affiliate-title">💸 Prezzi alternativi</div>'

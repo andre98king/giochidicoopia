@@ -67,6 +67,8 @@
       "rating": 74,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "elden-ring-nightreign",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -150,6 +152,8 @@
       "rating": 87,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "rust",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -231,6 +235,8 @@
       "rating": 76,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "helldivers-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -313,6 +319,8 @@
       "rating": 84,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "tom-clancys-rainbow-six-siege",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -403,6 +411,8 @@
       "rating": 79,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "dead-by-daylight",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -485,6 +495,8 @@
       "rating": 90,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "team-fortress-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -565,6 +577,8 @@
       "rating": 69,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "grand-theft-auto-v-enhanced",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -654,6 +668,8 @@
       "rating": 77,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "dayz",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -738,6 +754,8 @@
       "rating": 87,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "warframe",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -828,6 +846,8 @@
       "rating": 97,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "r-e-p-o",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -914,6 +934,8 @@
       "rating": 95,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "dont-starve-together",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -998,6 +1020,8 @@
       "rating": 90,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "payday-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -1088,6 +1112,8 @@
       "rating": 98,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "left-4-dead-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -1176,6 +1202,8 @@
       "rating": 80,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "destiny-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -1266,6 +1294,8 @@
       "rating": 97,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "terraria",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -1361,6 +1391,8 @@
       "rating": 94,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "project-zomboid",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -1449,6 +1481,8 @@
       "rating": 84,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "ark-survival-evolved",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -1541,6 +1575,8 @@
       "rating": 87,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "rocket-league",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -1627,6 +1663,8 @@
       "rating": 97,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "garrys-mod",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -1708,6 +1746,8 @@
       "rating": 94,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "palworld",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -1794,6 +1834,8 @@
       "rating": 89,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "7-days-to-die",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -1877,6 +1919,8 @@
       "rating": 73,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "total-war-warhammer-iii",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -1962,6 +2006,8 @@
       "rating": 97,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "factorio",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -2054,6 +2100,8 @@
       "rating": 97,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "the-binding-of-isaac-rebirth",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -2137,6 +2185,8 @@
       "rating": 94,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "valheim",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -2226,6 +2276,8 @@
       "rating": 74,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "black-desert",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -2310,6 +2362,8 @@
       "rating": 81,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "brawlhalla",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -2392,6 +2446,8 @@
       "rating": 95,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "age-of-empires-ii-definitive-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -2475,6 +2531,8 @@
       "rating": 97,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "satisfactory",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -2564,6 +2622,8 @@
       "rating": 58,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "monster-hunter-wilds",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -2651,6 +2711,8 @@
       "rating": 88,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "monster-hunter-world",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -2738,6 +2800,8 @@
       "rating": 89,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "v-rising",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -2820,6 +2884,8 @@
       "rating": 96,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "phasmophobia",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -2900,6 +2966,8 @@
       "rating": 88,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "star-wars-battlefront-ii",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -2979,6 +3047,8 @@
       "rating": 83,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "squad",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -3061,6 +3131,8 @@
       "rating": 66,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "diablo-iv",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -3150,6 +3222,8 @@
       "rating": 73,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "fallout-76",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -3241,6 +3315,8 @@
       "rating": 92,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "borderlands-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -3328,6 +3404,8 @@
       "rating": 93,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "risk-of-rain-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -3409,6 +3487,8 @@
       "rating": 68,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "gray-zone-warfare",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -3488,6 +3568,8 @@
       "rating": 97,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "bloons-td-6",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -3567,6 +3649,8 @@
       "rating": 96,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "the-planet-crafter",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -3648,6 +3732,8 @@
       "rating": 71,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "warhammer-40-000-darktide",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -3736,6 +3822,8 @@
       "rating": 90,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "arma-3",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -3815,6 +3903,8 @@
       "rating": 86,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "age-of-empires-iv-anniversary-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -3892,6 +3982,8 @@
       "rating": 83,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "warhammer-40-000-space-marine-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -3979,6 +4071,8 @@
       "rating": 97,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "brotato",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -4061,6 +4155,8 @@
       "rating": 73,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "hunt-showdown-1896",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -4143,6 +4239,8 @@
       "rating": 97,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "lethal-company",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -4233,6 +4331,8 @@
       "rating": 81,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "the-isle",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -4316,6 +4416,8 @@
       "rating": 80,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "last-epoch",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -4399,6 +4501,8 @@
       "rating": 79,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "conan-exiles",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -4490,6 +4594,8 @@
       "rating": 69,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "new-world-aeternum",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -4574,6 +4680,8 @@
       "rating": 98,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "split-fiction",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -4658,6 +4766,8 @@
       "rating": 89,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "sea-of-thieves-2025-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -4744,6 +4854,8 @@
       "rating": 84,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "call-of-duty-black-ops-iii",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -4826,6 +4938,8 @@
       "rating": 97,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "deep-rock-galactic",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -4918,6 +5032,8 @@
       "rating": 95,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "it-takes-two",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -5009,6 +5125,8 @@
       "rating": 95,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "dying-light",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -5100,6 +5218,8 @@
       "rating": 93,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "raft",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -5193,6 +5313,8 @@
       "rating": 91,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "scp-secret-laboratory",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -5281,6 +5403,8 @@
       "rating": 89,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "path-of-exile",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -5373,6 +5497,8 @@
       "rating": 88,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "killing-floor-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -5464,6 +5590,8 @@
       "rating": 88,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "sons-of-the-forest",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -5548,6 +5676,8 @@
       "rating": 89,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "ready-or-not",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -5631,6 +5761,8 @@
       "rating": 79,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "dying-light-2-stay-human-reloaded-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -5723,6 +5855,8 @@
       "rating": 89,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "space-engineers",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -5808,6 +5942,8 @@
       "rating": 92,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "among-us",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -5892,6 +6028,8 @@
       "rating": 93,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "the-outlast-trials",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -5975,6 +6113,8 @@
       "rating": 82,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "monster-hunter-rise",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -6064,6 +6204,8 @@
       "rating": 86,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "warhammer-40-000-rogue-trader",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -6150,6 +6292,8 @@
       "rating": 96,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "divinity-original-sin-2-definitive-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -6239,6 +6383,8 @@
       "rating": 92,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "halo-the-master-chief-collection",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -6327,6 +6473,8 @@
       "rating": 84,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "borderlands-3",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -6414,6 +6562,8 @@
       "rating": 85,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "xcom-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -6501,6 +6651,8 @@
       "rating": 78,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "party-animals",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -6581,6 +6733,8 @@
       "rating": 85,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "age-of-empires-iii-definitive-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -6663,6 +6817,8 @@
       "rating": 84,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "foxhole",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -6746,6 +6902,8 @@
       "rating": 98,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "star-wars-empire-at-war-gold-pack",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -6825,6 +6983,8 @@
       "rating": 81,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "anno-1800",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -6904,6 +7064,8 @@
       "rating": 92,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "dinkum",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -6987,6 +7149,8 @@
       "rating": 89,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "grounded",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -7077,6 +7241,8 @@
       "rating": 94,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "grim-dawn",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -7161,6 +7327,8 @@
       "rating": 94,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "barotrauma",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -7249,6 +7417,8 @@
       "rating": 70,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "halo-infinite",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -7333,6 +7503,8 @@
       "rating": 75,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "crossout",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -7415,6 +7587,8 @@
       "rating": 89,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "thehunter-call-of-the-wild",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -7500,6 +7674,8 @@
       "rating": 70,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "for-honor",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -7587,6 +7763,8 @@
       "rating": 79,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "x4-foundations",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -7666,6 +7844,8 @@
       "rating": 85,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "warhammer-vermintide-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -7751,6 +7931,8 @@
       "rating": 82,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "grand-theft-auto-iv-the-complete-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -7833,6 +8015,8 @@
       "rating": 91,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "overcooked-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -7916,6 +8100,8 @@
       "rating": 96,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "cuphead",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -7999,6 +8185,8 @@
       "rating": 68,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "myth-of-empires",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -8082,6 +8270,8 @@
       "rating": 94,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "ghost-of-tsushima-directors-cut",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -8171,6 +8361,8 @@
       "rating": 99,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "portal-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -8257,6 +8449,8 @@
       "rating": 85,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "insurgency-sandstorm",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -8339,6 +8533,8 @@
       "rating": 91,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "escape-the-backrooms",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -8423,6 +8619,8 @@
       "rating": 83,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "world-war-z",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -8506,6 +8704,8 @@
       "rating": 86,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "green-hell",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -8592,6 +8792,8 @@
       "rating": 90,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "wartales",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -8678,6 +8880,8 @@
       "rating": 83,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "remnant-ii",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -8765,6 +8969,8 @@
       "rating": 90,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "age-of-mythology-retold",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -8847,6 +9053,8 @@
       "rating": 85,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "tinkerlands",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -8929,6 +9137,8 @@
       "rating": 72,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "icarus",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -9008,6 +9218,8 @@
       "rating": 90,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "stormworks-build-and-rescue",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -9091,6 +9303,8 @@
       "rating": 80,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "tom-clancys-ghost-recon-wildlands",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -9180,6 +9394,8 @@
       "rating": 88,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "nioh-2-the-complete-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -9259,6 +9475,8 @@
       "rating": 73,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "tom-clancys-ghost-recon-breakpoint",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -9345,6 +9563,8 @@
       "rating": 93,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "gunfire-reborn",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -9433,6 +9653,8 @@
       "rating": 91,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "medieval-dynasty",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -9518,6 +9740,8 @@
       "rating": 96,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "ultimate-chicken-horse",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -9601,6 +9825,8 @@
       "rating": 85,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "gang-beasts",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -9682,6 +9908,8 @@
       "rating": 94,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "stick-fight-the-game",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -9764,6 +9992,8 @@
       "rating": 95,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "human-fall-flat",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -9846,6 +10076,8 @@
       "rating": 93,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "lovers-in-a-dangerous-spacetime",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -9929,6 +10161,8 @@
       "rating": 93,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "streets-of-rage-4",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -10009,6 +10243,8 @@
       "rating": 94,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "teenage-mutant-ninja-turtles-shredders-revenge",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -10090,6 +10326,8 @@
       "rating": 97,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "broforce",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -10172,6 +10410,8 @@
       "rating": 88,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "a-way-out",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -10260,6 +10500,8 @@
       "rating": 79,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "moving-out",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -10344,6 +10586,8 @@
       "rating": 89,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "pummel-party",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -10425,6 +10669,8 @@
       "rating": 95,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "towerfall-ascension",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -10509,6 +10755,8 @@
       "rating": 93,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "spelunky-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -10595,6 +10843,8 @@
       "rating": 97,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "trine-4-the-nightmare-prince",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -10678,6 +10928,8 @@
       "rating": 90,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "rayman-legends",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -10768,6 +11020,8 @@
       "rating": 79,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "nidhogg-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -10849,6 +11103,8 @@
       "rating": 91,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "jackbox-party-pack",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -10931,6 +11187,8 @@
       "rating": 90,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "move-or-die",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -11013,6 +11271,8 @@
       "rating": 76,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "boomerang-fu",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -11095,6 +11355,8 @@
       "rating": 95,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "plateup",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -11178,6 +11440,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "keywe",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -11262,6 +11526,8 @@
       "rating": 53,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "full-metal-furies",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -11347,6 +11613,8 @@
       "rating": 82,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "phogs",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -11429,6 +11697,8 @@
       "rating": 79,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "unravel-two",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -11518,6 +11788,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "worms-rumble",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -11598,6 +11870,8 @@
       "rating": 68,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "back-4-blood",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -11685,6 +11959,8 @@
       "rating": 80,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "aliens-fireteam-elite",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -11766,6 +12042,8 @@
       "rating": 95,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "content-warning",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -11848,6 +12126,8 @@
       "rating": 98,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "vampire-survivors",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -11930,6 +12210,8 @@
       "rating": 93,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "core-keeper",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -12013,6 +12295,8 @@
       "rating": 98,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "stardew-valley",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -12094,6 +12378,8 @@
       "rating": 97,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "keep-talking-and-nobody-explodes",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -12176,6 +12462,8 @@
       "rating": 91,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "pico-park",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -12259,6 +12547,8 @@
       "rating": 73,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "overcooked-all-you-can-eat",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -12338,6 +12628,8 @@
       "rating": 43,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "payday-3",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -12424,6 +12716,8 @@
       "rating": 83,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "magicka-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -12504,6 +12798,8 @@
       "rating": 84,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "we-were-here-together",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -12582,6 +12878,8 @@
       "rating": 91,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "we-were-here-forever",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -12661,6 +12959,8 @@
       "rating": 92,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "crab-game",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -12742,6 +13042,8 @@
       "rating": 88,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "escape-academy",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -12829,6 +13131,8 @@
       "rating": 72,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "tiny-tinas-wonderlands",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -12916,6 +13220,8 @@
       "rating": 85,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "sackboy-a-big-adventure",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -12997,6 +13303,8 @@
       "rating": 95,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "roboquest",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -13079,6 +13387,8 @@
       "rating": 83,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "no-mans-sky",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -13161,6 +13471,8 @@
       "rating": 96,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "castle-crashers-remastered",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -13242,6 +13554,8 @@
       "rating": 92,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "astroneer",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -13323,6 +13637,8 @@
       "rating": 67,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "outriders",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -13411,6 +13727,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "moving-out-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -13492,6 +13810,8 @@
       "rating": 92,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "divinity-original-sin",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -13573,6 +13893,8 @@
       "rating": 80,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "warhammer-end-times-vermintide",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -13652,6 +13974,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "devour",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -13731,6 +14055,8 @@
       "rating": 87,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "grand-theft-auto-v-legacy",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -13814,6 +14140,8 @@
       "rating": 97,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "baldurs-gate-3",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -13894,6 +14222,8 @@
       "rating": 64,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "war-thunder",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -13977,6 +14307,8 @@
       "rating": 50,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "ea-sports-fc-25",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -14057,6 +14389,8 @@
       "rating": 89,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "hearts-of-iron-iv",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -14139,6 +14473,8 @@
       "rating": 59,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "nba-2k25",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -14223,6 +14559,8 @@
       "rating": 98,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "schedule-i",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -14306,6 +14644,8 @@
       "rating": 88,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "final-fantasy-xiv-online",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -14388,6 +14728,8 @@
       "rating": 92,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "fantasy-life-i-the-girl-who-steals-time",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -14471,6 +14813,8 @@
       "rating": 71,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "lost-ark",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -14553,6 +14897,8 @@
       "rating": 70,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "path-of-exile-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -14634,6 +14980,8 @@
       "rating": 81,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "the-elder-scrolls-online",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -14713,6 +15061,8 @@
       "rating": 84,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "farming-simulator-25",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -14796,6 +15146,8 @@
       "rating": 48,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "efootball",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -14877,6 +15229,8 @@
       "rating": 87,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "europa-universalis-iv",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -14958,6 +15312,8 @@
       "rating": 86,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "enshrouded",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -15045,6 +15401,8 @@
       "rating": 91,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "unturned",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -15130,6 +15488,8 @@
       "rating": 89,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "forza-horizon-5",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -15213,6 +15573,8 @@
       "rating": 76,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "tom-clancys-the-division-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -15297,6 +15659,8 @@
       "rating": 77,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "world-of-warships",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -15377,6 +15741,8 @@
       "rating": 75,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "roadcraft",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -15455,6 +15821,8 @@
       "rating": 63,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "maplestory",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -15536,6 +15904,8 @@
       "rating": 79,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "world-of-tanks-blitz",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -15617,6 +15987,8 @@
       "rating": 92,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "farming-simulator-22",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -15698,6 +16070,8 @@
       "rating": 89,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "f1-25",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -15781,6 +16155,8 @@
       "rating": 58,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "ea-sports-fc-24",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -15864,6 +16240,8 @@
       "rating": 94,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "tabletop-simulator",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -15948,6 +16326,8 @@
       "rating": 58,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "smite-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -16032,6 +16412,8 @@
       "rating": 91,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "forza-horizon-4",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -16115,6 +16497,8 @@
       "rating": 77,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "elite-dangerous",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -16198,6 +16582,8 @@
       "rating": 95,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "supermarket-together",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -16279,6 +16665,8 @@
       "rating": 72,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "total-war-three-kingdoms",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -16362,6 +16750,8 @@
       "rating": 94,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "dark-souls-iii",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -16448,6 +16838,8 @@
       "rating": 88,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "popucom",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -16530,6 +16922,8 @@
       "rating": 83,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "total-war-rome-ii-emperor-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -16612,6 +17006,8 @@
       "rating": 86,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "the-spell-brigade",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -16695,6 +17091,8 @@
       "rating": 81,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "drive-beyond-horizons",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -16780,6 +17178,8 @@
       "rating": 78,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "shop-titans",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -16865,6 +17265,8 @@
       "rating": 89,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "guild-wars-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -16950,6 +17352,8 @@
       "rating": 31,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "nba-2k24",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -17035,6 +17439,8 @@
       "rating": 87,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "fishing-planet",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -17122,6 +17528,8 @@
       "rating": 89,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "ddracenetwork",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -17206,6 +17614,8 @@
       "rating": 62,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "game-of-thrones-kingsroad",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -17289,6 +17699,8 @@
       "rating": 80,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "ravenswatch",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -17370,6 +17782,8 @@
       "rating": 80,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "enlisted-reinforced",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -17449,6 +17863,8 @@
       "rating": 97,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "powerwash-simulator",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -17528,6 +17944,8 @@
       "rating": 85,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "house-flipper-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -17607,6 +18025,8 @@
       "rating": 94,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "supermarket-simulator",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -17688,6 +18108,8 @@
       "rating": 79,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "company-of-heroes-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -17769,6 +18191,8 @@
       "rating": 96,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "devil-may-cry-5",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -17850,6 +18274,8 @@
       "rating": 83,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "call-to-arms-gates-of-hell-ostfront",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -17933,6 +18359,8 @@
       "rating": 83,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "red-dead-online",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -18016,6 +18444,8 @@
       "rating": 57,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "company-of-heroes-3",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -18101,6 +18531,8 @@
       "rating": 73,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "f1-24",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -18185,6 +18617,8 @@
       "rating": 83,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "realm-of-the-mad-god-exalt",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -18268,6 +18702,8 @@
       "rating": 73,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "predecessor",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -18350,6 +18786,8 @@
       "rating": 91,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "total-war-shogun-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -18431,6 +18869,8 @@
       "rating": 66,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "pga-tour-2k25",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -18511,6 +18951,8 @@
       "rating": 86,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "mechabellum",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -18593,6 +19035,8 @@
       "rating": 82,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "age-of-wonders-4",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -18673,6 +19117,8 @@
       "rating": 94,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "escape-simulator",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -18753,6 +19199,8 @@
       "rating": 96,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "pikuniku",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -18835,6 +19283,8 @@
       "rating": 84,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "gtfo",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -18919,6 +19369,8 @@
       "rating": 87,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "we-need-to-go-deeper",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -19003,6 +19455,8 @@
       "rating": 86,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "dungeon-of-the-endlesstm",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -19085,6 +19539,8 @@
       "rating": 91,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "heave-ho",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -19168,6 +19624,8 @@
       "rating": 94,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "necesse",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -19249,6 +19707,8 @@
       "rating": 86,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "ghost-watchers",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -19330,6 +19790,8 @@
       "rating": 91,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "chained-together",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -19411,6 +19873,8 @@
       "rating": 95,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "besiege",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -19494,6 +19958,8 @@
       "rating": 82,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "sunkenland",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -19577,6 +20043,8 @@
       "rating": 87,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "backrooms-escape-together",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -19660,6 +20128,8 @@
       "rating": 83,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "volcanoids",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -19742,6 +20212,8 @@
       "rating": 90,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "we-were-here",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -19825,6 +20297,8 @@
       "rating": 82,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "totally-reliable-delivery-service",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -19907,6 +20381,8 @@
       "rating": 88,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "for-the-king",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -19989,6 +20465,8 @@
       "rating": 69,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "for-the-king-ii",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -20071,6 +20549,8 @@
       "rating": 97,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "bopl-battle",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -20154,6 +20634,8 @@
       "rating": 96,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "cult-of-the-lamb",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -20236,6 +20718,8 @@
       "rating": 96,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "shovel-knight-treasure-trove",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -20318,6 +20802,8 @@
       "rating": 81,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "soulmask",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -20399,6 +20885,8 @@
       "rating": 93,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "prodeus",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -20479,6 +20967,8 @@
       "rating": 80,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "towerborne",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -20562,6 +21052,8 @@
       "rating": 82,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "ship-of-fools",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -20644,6 +21136,8 @@
       "rating": 94,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "patch-quest",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -20725,6 +21219,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "goose-goose-duck",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -20805,6 +21301,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "the-finals",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -20884,6 +21382,8 @@
       "rating": 80,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "marvel-rivals",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -20964,6 +21464,8 @@
       "rating": 90,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "tower-unite",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -21044,6 +21546,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "delta-force",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -21123,6 +21627,8 @@
       "rating": 67,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "apex-legendstm",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -21204,6 +21710,8 @@
       "rating": 70,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "phantasy-star-online-2-new-genesis",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -21285,6 +21793,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "peak",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -21368,6 +21878,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "absolum",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -21450,6 +21962,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "rv-there-yet",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -21531,6 +22045,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "borderlands-4",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -21613,6 +22129,8 @@
       "rating": 88,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "coral-island",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -21695,6 +22213,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "windswept",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -21777,6 +22297,8 @@
       "rating": 81,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "bellwright",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -21859,6 +22381,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "arc-raiders",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -21942,6 +22466,8 @@
       "rating": 91,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "minecraft-dungeons",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -22026,6 +22552,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "dune-awakening",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -22110,6 +22638,8 @@
       "rating": 86,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "orcs-must-die-3",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -22192,6 +22722,8 @@
       "rating": 95,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "spiritfarer-edizione-farewell",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -22272,6 +22804,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "abyssus",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -22354,6 +22888,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "dying-light-the-beast",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -22439,6 +22975,8 @@
       "rating": 91,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "monaco-whats-yours-is-mine",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -22521,6 +23059,8 @@
       "rating": 91,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "lego-star-warstm-la-saga-degli-skywalker",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -22602,6 +23142,8 @@
       "rating": 96,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "untitled-goose-game",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -22682,6 +23224,8 @@
       "rating": 87,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "operation-tango",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -22764,6 +23308,8 @@
       "rating": 90,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "unrailed-2-back-on-track",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -22847,6 +23393,8 @@
       "rating": 76,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "tools-up",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -22928,6 +23476,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "biped-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -23010,6 +23560,8 @@
       "rating": 91,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "nobody-saves-the-world",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -23092,6 +23644,8 @@
       "rating": 82,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "darksiders-genesis",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -23174,6 +23728,8 @@
       "rating": 89,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "children-of-morta",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -23257,6 +23813,8 @@
       "rating": 92,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "trine-5-a-clockwork-conspiracy",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -23340,6 +23898,8 @@
       "rating": 94,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "ember-knights",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -23425,6 +23985,8 @@
       "rating": 95,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "carx-drift-racing-online",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -23509,6 +24071,8 @@
       "rating": 84,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "dark-souls-ii-scholar-of-the-first-sin",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -23590,6 +24154,8 @@
       "rating": 96,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "doom",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -23669,6 +24235,8 @@
       "rating": 83,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "sniper-elite-5",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -23752,6 +24320,8 @@
       "rating": 90,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "rec-room",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -23834,6 +24404,8 @@
       "rating": 94,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "plague-inc-evolved",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -23915,6 +24487,8 @@
       "rating": 80,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "ranch-simulator-build-hunt-farm",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -23993,6 +24567,8 @@
       "rating": 67,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "one-piece-bounty-rush",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -24072,6 +24648,8 @@
       "rating": 92,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "total-war-warhammer-ii",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -24155,6 +24733,8 @@
       "rating": 96,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "abiotic-factor",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -24239,6 +24819,8 @@
       "rating": 82,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "total-war-attila",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -24320,6 +24902,8 @@
       "rating": 84,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "need-for-speed-heat",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -24401,6 +24985,8 @@
       "rating": 89,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "bleach-brave-souls",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -24480,6 +25066,8 @@
       "rating": 81,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "warhammer-40-000-gladius-relics-of-war",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -24562,6 +25150,8 @@
       "rating": 80,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "fifa-22",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -24646,6 +25236,8 @@
       "rating": 88,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "kingdom-two-crowns",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -24728,6 +25320,8 @@
       "rating": 81,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "far-cry-5",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -24811,6 +25405,8 @@
       "rating": 83,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "state-of-decay-2-juggernaut-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -24894,6 +25490,8 @@
       "rating": 83,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "deadzone-rogue",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -24976,6 +25574,8 @@
       "rating": 86,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "northgard-definitive-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -25060,6 +25660,8 @@
       "rating": 78,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "lost-castle-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -25142,6 +25744,8 @@
       "rating": 93,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "farm-together-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -25225,6 +25829,8 @@
       "rating": 79,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "star-trek-online",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -25310,6 +25916,8 @@
       "rating": 78,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "dead-island-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -25393,6 +26001,8 @@
       "rating": 90,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "granblue-fantasy-relink",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -25475,6 +26085,8 @@
       "rating": 79,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "empyrion-galactic-survival",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -25560,6 +26172,8 @@
       "rating": 77,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "efootball-pes-2021-season-update",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -25642,6 +26256,8 @@
       "rating": 94,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "farming-simulator-19",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -25726,6 +26342,8 @@
       "rating": 66,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "wwe-2k25",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -25808,6 +26426,8 @@
       "rating": 71,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "sniper-elite-resistance",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -25890,6 +26510,8 @@
       "rating": 79,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "foundry",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -25973,6 +26595,8 @@
       "rating": 66,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "eldegarde",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -26057,6 +26681,8 @@
       "rating": 92,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "scrap-mechanic",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -26140,6 +26766,8 @@
       "rating": 92,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "trailmakers",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -26223,6 +26851,8 @@
       "rating": 92,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "starbound",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -26306,6 +26936,8 @@
       "rating": 76,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "pantheon-rise-of-the-fallen",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -26390,6 +27022,8 @@
       "rating": 77,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "the-crew-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -26472,6 +27106,8 @@
       "rating": 81,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "warno",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -26555,6 +27191,8 @@
       "rating": 98,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "wolfquest-anniversary-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -26637,6 +27275,8 @@
       "rating": 83,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "watch-dogs-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -26714,6 +27354,8 @@
       "rating": 90,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "plants-vs-zombies-garden-warfare-2-deluxe-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -26795,6 +27437,8 @@
       "rating": 84,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "runescape-dragonwilds",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -26879,6 +27523,8 @@
       "rating": 79,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "call-of-duty-modern-warfare",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -26960,6 +27606,8 @@
       "rating": 66,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "lords-of-the-fallen",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -27042,6 +27690,8 @@
       "rating": 87,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "oddsparks-an-automation-adventure",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -27124,6 +27774,8 @@
       "rating": 93,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "age-of-mythology-extended-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -27206,6 +27858,8 @@
       "rating": 98,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "crab-champions",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -27291,6 +27945,8 @@
       "rating": 81,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "the-lord-of-the-rings-online",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -27377,6 +28033,8 @@
       "rating": 91,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "one-armed-robber",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -27462,6 +28120,8 @@
       "rating": 96,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "left-4-dead",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -27547,6 +28207,8 @@
       "rating": 70,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "tom-clancys-the-division",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -27631,6 +28293,8 @@
       "rating": 80,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "mordhau",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -27716,6 +28380,8 @@
       "rating": 80,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "trove",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -27801,6 +28467,8 @@
       "rating": 90,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "neverwinter-nights-enhanced-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -27884,6 +28552,8 @@
       "rating": 75,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "humanitz",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -27965,6 +28635,8 @@
       "rating": 88,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "lightyear-frontier",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -28047,6 +28719,8 @@
       "rating": 82,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "wizard101",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -28131,6 +28805,8 @@
       "rating": 91,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "men-of-war-assault-squad-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -28214,6 +28890,8 @@
       "rating": 80,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "aska",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -28298,6 +28976,8 @@
       "rating": 76,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "deadside",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -28382,6 +29062,8 @@
       "rating": 81,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "eco",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -28465,6 +29147,8 @@
       "rating": 86,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "legion-td-2-multiplayer-tower-defense",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -28548,6 +29232,8 @@
       "rating": 98,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "webfishing",
       "isFeaturedIndie": true,
       "descriptions": {
@@ -28629,6 +29315,8 @@
       "rating": 81,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "fall-guys-ultimate-knockout",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -28712,6 +29400,8 @@
       "rating": 96,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "mindustry",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -28798,6 +29488,8 @@
       "rating": 82,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "game-356",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -28881,6 +29573,8 @@
       "rating": 90,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "dragon-ball-xenoverse-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -28963,6 +29657,8 @@
       "rating": 70,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "dead-frontier-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -29045,6 +29741,8 @@
       "rating": 85,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "mechwarrior-5-mercenaries",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -29124,6 +29822,8 @@
       "rating": 72,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "far-cry-6",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -29204,6 +29904,8 @@
       "rating": 97,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "wobbly-life",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -29285,6 +29987,8 @@
       "rating": 83,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "borderlands-game-of-the-year-enhanced",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -29367,6 +30071,8 @@
       "rating": 90,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "avorion",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -29450,6 +30156,8 @@
       "rating": 91,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "liars-bar",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -29532,6 +30240,8 @@
       "rating": 91,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "titan-quest-anniversary-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -29613,6 +30323,8 @@
       "rating": 78,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "axis-and-allies-1942-online",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -29695,6 +30407,8 @@
       "rating": 87,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "tropico-6",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -29779,6 +30493,8 @@
       "rating": 94,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "wingspan",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -29863,6 +30579,8 @@
       "rating": 73,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "apocalypse-party",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -29949,6 +30667,8 @@
       "rating": 87,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "resident-evil-5",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -30034,6 +30754,8 @@
       "rating": 84,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "far-cry-4",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -30118,6 +30840,8 @@
       "rating": 94,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "fast-food-simulator",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -30201,6 +30925,8 @@
       "rating": 86,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "sins-of-a-solar-empire-ii",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -30282,6 +31008,8 @@
       "rating": 91,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "sniper-elite-4",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -30364,6 +31092,8 @@
       "rating": 82,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "across-the-obelisk",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -30444,6 +31174,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "my-rusty-submarine",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -30520,6 +31252,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "rhythm-doctor",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -30596,6 +31330,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "unheard-scream",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -30672,6 +31408,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "dyo",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -30748,6 +31486,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "nuclear-throne-mobile",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -30824,6 +31564,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "froggin-around-demo",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -30900,6 +31642,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "hamsteria-demo",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -30976,6 +31720,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "specimen",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -31052,6 +31798,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "fear-channel",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -31128,6 +31876,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "hub-os",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -31204,6 +31954,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "joggernauts",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -31280,6 +32032,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "east-of-eden-right-of-conquest",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -31356,6 +32110,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "micro-mages-nes-pc",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -31432,6 +32188,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "god-save-the-queen",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -31508,6 +32266,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "shagster-online-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -31584,6 +32344,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "ducklings",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -31660,6 +32422,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "chernozem-prototype",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -31736,6 +32500,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "police-stories",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -31812,6 +32578,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "towerfall-dark-world-expansion",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -31888,6 +32656,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "widelands",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -31966,6 +32736,8 @@
       "rating": 91,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "call-of-duty-black-ops",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -32049,6 +32821,8 @@
       "rating": 95,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "rise-of-nations-extended-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -32135,6 +32909,8 @@
       "rating": 79,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "resident-evil-6",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -32218,6 +32994,8 @@
       "rating": 88,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "void-crew",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -32300,6 +33078,8 @@
       "rating": 89,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "sea-of-stars",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -32382,6 +33162,8 @@
       "rating": 96,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "door-kickers-2-task-force-north",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -32462,6 +33244,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "imposter-3d-online-horror",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -32538,6 +33322,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "sneaky-stealy",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -32614,6 +33400,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "totemori",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -32690,6 +33478,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "snap-the-sentinel-episode-1",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -32766,6 +33556,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "fury-unleashed-prologue",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -32842,6 +33634,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "seps-diner-oculus-quest",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -32918,6 +33712,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "wild-woods",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -32994,6 +33790,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "streets-of-rogue",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -33070,6 +33868,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "ancient-swarm",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -33145,6 +33945,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "the-choicer-voicer",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -33220,6 +34022,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "pikwip",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -33295,6 +34099,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "gladihoppers",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -33370,6 +34176,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "among-us-arena-ultimate",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -33445,6 +34253,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "bubble-bobble-c64-remastered",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -33520,6 +34330,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "towerfall-8-player",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -33595,6 +34407,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "sticky-cats",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -33670,6 +34484,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "0-a-d-empires-ascendant",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -33745,6 +34561,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "eggnogg",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -33820,6 +34638,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "m-u-l-e-online",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -33895,6 +34715,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "touhou-fumo-racing",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -33973,6 +34795,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "dumpy-and-bumpy",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -34052,6 +34876,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "royal-revolt-survivors",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -34128,6 +34954,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "aaero2-black-razor-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -34207,6 +35035,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "rising-heat",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -34288,6 +35118,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "esophaguys",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -34366,6 +35198,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "bee-simulator-the-hive",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -34443,6 +35277,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "jaleco-sports-goal",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -34519,6 +35355,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "anima-flux",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -34592,6 +35430,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "welcome-to-empyreum",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -34667,6 +35507,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "the-dungenerator-die-in-a-dungeon",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -34742,6 +35584,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "tanks-of-freedom",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -34817,6 +35661,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "cro-mag-rally",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -34892,6 +35738,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "the-king-of-fighters-final-attack",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -34967,6 +35815,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "tiger-claw",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -35042,6 +35892,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "chair-up",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -35117,6 +35969,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "generic-fighter-maybe",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -35192,6 +36046,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "fallacy-quiz",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -35267,6 +36123,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "hyper-gunsport",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -35342,6 +36200,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "hit-x",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -35417,6 +36277,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "punch-pong",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -35493,6 +36355,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "aichi-emperors-zero",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -35569,6 +36433,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "narcissus",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -35645,6 +36511,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "starcrossed",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -35721,6 +36589,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "caveman-warriors",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -35797,6 +36667,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "rakete",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -35873,6 +36745,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "fizz-vic-20",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -35949,6 +36823,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "marco-polo",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -36025,6 +36901,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "scarecrow-coop",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -36101,6 +36979,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "fizz-commodore-64-c64",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -36177,6 +37057,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "fixeight",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -36252,6 +37134,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "combat-mission-final-blitzkrieg",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -36327,6 +37211,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "combat-mission-fortress-italy",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -36405,6 +37291,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "tavernacle",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -36483,6 +37371,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "fire-shark",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -36558,6 +37448,8 @@
       "rating": 58,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "hellfire",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -36633,6 +37525,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "combat-mission-red-thunder",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -36709,6 +37603,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "volley-pals",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -36785,6 +37681,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "chut",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -36861,6 +37759,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "isolated-intelligence",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -36937,6 +37837,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "bar-keep",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -37013,6 +37915,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "shroom-bois",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -37089,6 +37993,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "malisse",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -37165,6 +38071,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "octopounce",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -37241,6 +38149,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "ducktonic-adventures",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -37317,6 +38227,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "hakros-drugod-tv-the-survival-games-map-for-doom-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -37393,6 +38305,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "yakuzakura",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -37469,6 +38383,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "panique-a-temple-a-steak",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -37545,6 +38461,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "project-socket",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -37621,6 +38539,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "tower-of-freedom",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -37697,6 +38617,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "community-egg",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -37773,6 +38695,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "safe-space",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -37849,6 +38773,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "pangman-demo-for-quest",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -37925,6 +38851,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "a-l-f-i-es-game",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -38001,6 +38929,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "shackle",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -38077,6 +39007,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "easy-delivery-co-demo",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -38153,6 +39085,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "ragdoll-runners",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -38229,6 +39163,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "torb",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -38305,6 +39241,8 @@
       "rating": 76,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "twin-cobra",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -38381,6 +39319,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "funtasia",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -38457,6 +39397,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "epicshop",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -38533,6 +39475,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "badblood",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -38609,6 +39553,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "lurking-danger",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -38685,6 +39631,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "legacyclonk",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -38761,6 +39709,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "stick-veterans",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -38837,6 +39787,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "quest-of-graal-dx",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -38913,6 +39865,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "garrison-archangel-demo",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -38989,6 +39943,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "chambara",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -39065,6 +40021,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "obnubilia",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -39141,6 +40099,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "beatercore",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -39217,6 +40177,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "escape-from-castle-matsumoto",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -39293,6 +40255,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "super-pilot",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -39369,6 +40333,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "wacky-wheels-hd",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -39445,6 +40411,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "classic-tagap",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -39521,6 +40489,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "flotilla",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -39597,6 +40567,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "tomb-of-rooms",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -39673,6 +40645,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "damaged-territory",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -39749,6 +40723,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "pretend-cars-racing",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -39825,6 +40801,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "topplepop-demo",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -39901,6 +40879,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "felony-felines",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -39975,6 +40955,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "black-ice-early-access",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -40048,6 +41030,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "super-crate-box-together",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -40121,6 +41105,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "nick-tower",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -40194,6 +41180,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "tvo",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -40267,6 +41255,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "partners-in-uncertainty",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -40340,6 +41330,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "never-breakup",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -40413,6 +41405,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "galoria-sandbox-online",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -40486,6 +41480,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "crisis-at-r-w-p-inc",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -40559,6 +41555,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "wilds-of-the-realmwalker-public-playtest",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -40632,6 +41630,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "keep-painting",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -40705,6 +41705,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "thing-and-fist",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -40778,6 +41780,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "im-lag",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -40851,6 +41855,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "speedy-golf",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -40926,6 +41932,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "everwind",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -41003,6 +42011,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "project-castaway",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -41081,6 +42091,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "dragonkin-the-banished",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -41158,6 +42170,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "tower-tag",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -41235,6 +42249,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "pizza-slice",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -41313,6 +42329,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "wwe-2k26",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -41390,6 +42408,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "john-carpenters-toxic-commando",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -41467,6 +42487,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "mamas-sleeping-angels",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -41544,6 +42566,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "rewind-99",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -41621,6 +42645,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "over-the-top-wwi",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -41698,6 +42724,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "hexbreaker-ii",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -41775,6 +42803,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "slay-the-spire-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -41852,6 +42882,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "desynced",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -41930,6 +42962,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "dysplaced",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -42007,6 +43041,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "never-grave-the-witch-and-the-curse",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -42085,6 +43121,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "rotwood",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -42163,6 +43201,8 @@
       "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
       "slug": "scott-pilgrim-ex",
       "isFeaturedIndie": false,
       "descriptions": {
