@@ -1,7 +1,7 @@
 # Roadmap — Co-op Games Hub
 
 Documento di riferimento per lo sviluppo del sito. Aggiornare dopo ogni task completato.
-Ultima analisi: 2026-03-17
+Ultima analisi: 2026-03-18
 
 ---
 
@@ -9,14 +9,16 @@ Ultima analisi: 2026-03-17
 
 | Area | Stato |
 |------|-------|
-| Catalogo giochi | 326 giochi, pipeline automatica settimanale |
-| Pagine statiche | 326 pagine in `games/` + sitemap |
-| Internazionalizzazione | IT/EN completo su tutte le pagine principali |
+| Catalogo giochi | **520 giochi**, pipeline multi-source (Steam, itch.io, GOG, IGDB, new releases) |
+| Pagine statiche | 520 pagine in `games/` + sitemap |
+| Internazionalizzazione | IT/EN completo su tutte le pagine principali + hreflang |
 | Giochi gratuiti | Workflow giornaliero funzionante (Epic, Steam, GOG) |
-| SEO | Buono — canonical, OG, JSON-LD, sitemap, robots.txt |
-| PageSpeed Mobile | 93 performance, 100 SEO, 100 Best Practices |
-| Monetizzazione | Non ancora implementata |
-| Crossplay | 31 giochi marcati, ma dati non verificati — UI nascosta |
+| SEO | Ottimo — canonical, OG, JSON-LD, sitemap, robots.txt, hreflang, font self-hosted |
+| PageSpeed Mobile | 93 performance, 100 SEO, 100 Best Practices, 92 Accessibility |
+| Monetizzazione | Ko-fi footer ✅, UTM tracking ✅, CJ/Fanatical pending ⏳, GOG pending ⏳ |
+| Crossplay | **86 giochi marcati**, filtro UI **attivo** |
+| Font | Self-hosted (no Google Fonts) ✅ |
+| Ruota random | Risultato cliccabile ✅ |
 
 ---
 
@@ -63,20 +65,19 @@ SteamSpy (candidati co-op, CCU, rating)
 
 ## Priorità 1 — Qualità dati catalogo
 
-### 1.1 Verifica e fix dati crossplay
-- 31 giochi marcati `crossplay: true` ma non verificati sistematicamente
-- Attivare il filtro crossplay solo dopo verifica manuale o con fonte affidabile (SteamSpy/IGDB)
-- **File**: `assets/games.js`, `assets/app.js` (ri-attivare filtro UI)
+### 1.1 Verifica crossplay (parzialmente fatto)
+- ✅ Filtro UI attivato, 86 giochi marcati (da IGDB/SteamSpy)
+- ⚠️ Dati non verificati manualmente — possibili falsi positivi
+- Rivalutare con verifica campione su SteamDB o Co-Optimus
+- **File**: `assets/games.js`
 
 ### 1.2 Fix giochi con CCU zero
-- 31 giochi con `ccu: 0` — dato mancante o non aggiornato
-- Verificare se il workflow li aggiorna correttamente
+- Alcuni giochi potrebbero avere `ccu: 0` — dato mancante o non aggiornato
+- Verificare se il workflow li aggiorna correttamente con il nuovo pipeline multi-source
 - **File**: `scripts/auto_update.py`, `assets/games.js`
 
-### 1.3 Aggiorna contatore in homepage
-- `index.html` dice "300+" ma il catalogo è a 326
-- Aggiornare a "325+" o rendere il contatore dinamico da JS
-- **File**: `index.html`, `assets/app.js`
+### ~~1.3 Aggiorna contatore in homepage~~ ✅ FATTO
+- Contatore aggiornato a "500+" in meta description e UI
 
 ### 1.4 Verifica campi isFree e isIndie
 - Nel JS risultano sempre `false` — verificare se vengono settati dinamicamente o mancano
@@ -86,13 +87,11 @@ SteamSpy (candidati co-op, CCU, rating)
 
 ## Priorità 2 — UX e filtri
 
-### 2.1 Attivare filtro crossplay (dopo verifica dati)
-- Il filtro è presente nel codice ma nascosto (`e1a38e1`)
-- Attivare quando i dati sono affidabili
-- **File**: `assets/app.js`, `assets/i18n.js`
+### ~~2.1 Attivare filtro crossplay~~ ✅ FATTO
+- Filtro UI attivato, badge crossplay nelle card/modal
 
-### 2.2 Paginazione o lazy loading
-- Tutti i 326 giochi vengono renderizzati subito — pesante su mobile
+### 2.2 Paginazione o lazy loading ⚠️ URGENTE
+- **520 giochi** tutti renderizzati subito — molto pesante su mobile
 - Valutare: infinite scroll, paginazione a 50 card, o virtual list
 - **File**: `assets/app.js`
 
@@ -124,10 +123,8 @@ SteamSpy (candidati co-op, CCU, rating)
 - Pagine statiche generate o scritte manualmente in `guides/`
 - Bassa priorità — solo se si vuole puntare su traffico organico
 
-### 3.3 Hreflang per SEO bilingue
-- Aggiungere `<link rel="alternate" hreflang="it/en">` nelle pagine statiche
-- Utile se si punta al mercato internazionale
-- **File**: `scripts/build_static_pages.py`
+### ~~3.3 Hreflang per SEO bilingue~~ ✅ FATTO
+- Hreflang `it/en` aggiunto nelle pagine statiche
 
 ### 3.4 Immagine OG personalizzata per gioco
 - Le pagine gioco usano l'immagine Steam come OG — va bene
@@ -137,26 +134,30 @@ SteamSpy (candidati co-op, CCU, rating)
 
 ## Priorità 4 — Monetizzazione leggera
 
-### 4.1 Link affiliati Steam/Humble Bundle
-- Aggiungere parametro affiliato agli URL store (es. `?partner=coophubs`)
-- Verificare programmi affiliazione disponibili
-- **File**: `scripts/build_static_pages.py`, `assets/app.js`
+### ~~4.1 Link affiliati con UTM~~ ✅ FATTO
+- UTM tracking implementato in `app.js`
+- Parametri affiliato Epic/GOG pronti nel codice (`app.js`)
 
-### 4.2 Banner "Supporta il progetto"
-- Sezione discreta in footer o sidebar con Ko-fi / Buy Me a Coffee
-- **File**: `index.html`, `assets/style.css`
+### ~~4.2 Ko-fi footer~~ ✅ FATTO
+- Ko-fi button nel footer con link a ko-fi.com/coophubs
 
-### 4.3 Newsletter opzionale
+### 4.3 Attivare link affiliati reali
+- **CJ / Fanatical**: account attivo, application in pending review — attendere approvazione
+- **GOG**: email inviata a affiliate@gog.com, attendere risposta e ottenere `pp=` partner ID
+- **Epic**: Creator Code non ancora ottenuto — applicare su dev.epicgames.com/affiliate
+- Una volta ottenuti i codici, inserirli in `app.js` dove già ci sono i placeholder
+- **File**: `assets/app.js`
+
+### 4.4 Newsletter opzionale
 - CTA discreta per raccogliere email (Mailchimp embed o simile)
-- Solo se si vuole costruire un pubblico diretto
+- Solo se si vuole costruire un pubblico diretto — bassa priorità
 
 ---
 
 ## Priorità 5 — Tecnica e infrastruttura
 
-### 5.1 Ottimizzazione og-image.png
-- `og-image.png` pesa 395KB — ridurre a <100KB senza perdita visibile
-- **File**: `assets/og-image.png`
+### ~~5.1 Ottimizzazione og-image.png~~ ✅ FATTO
+- OG image ottimizzata (commit `48c963d`)
 
 ### 5.2 Versioning assets dinamico
 - Attualmente versione hardcoded `?v=20260314-cachefix1` in tutti i file HTML
@@ -190,3 +191,4 @@ SteamSpy (candidati co-op, CCU, rating)
 |------|----------|
 | 2026-03-17 | Creazione roadmap — analisi completa sito |
 | 2026-03-17 | Fix critico: `catalog_data.py` path `assets/games.js` |
+| 2026-03-18 | Aggiornamento completo: catalogo 520 giochi, nuovi adapter, monetizzazione avanzata, crossplay attivo, CJ affiliate live |
