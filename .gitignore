@@ -30,3 +30,6 @@ Thumbs.db
 *.swp
 *.swo
 .aider*
+
+# Playwright MCP (screenshot e log di sessione)
+.playwright-mcp/
