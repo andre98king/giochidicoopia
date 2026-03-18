@@ -659,7 +659,7 @@ function createCard(game, freeEntry = null) {
       </span>` : '';
 
   const crossplayHtml = game.crossplay
-    ? `<span class="crossplay-badge" title="${t('mode_crossplay')}">🔄</span>` : '';
+    ? `<span class="crossplay-badge">🔄 ${t('mode_crossplay')}</span>` : '';
 
   return `
     <div class="card ${isAdmin ? 'admin-mode' : ''} ${game.trending ? 'is-trending' : ''} ${freeEntry ? 'is-free-now' : ''}" data-id="${game.id}" role="listitem">

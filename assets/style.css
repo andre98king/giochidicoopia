@@ -610,9 +610,16 @@ body {
 
 /* Crossplay badge (card) */
 .crossplay-badge {
-  font-size: 0.75rem;
-  opacity: 0.75;
+  display: inline-block;
+  background: rgba(21,101,192,0.15);
+  color: #90caf9;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 50px;
+  border: 1px solid rgba(144,202,249,0.3);
   cursor: default;
+  white-space: nowrap;
 }
 
 /* Modal CCU / Trending / Crossplay */
@@ -1481,6 +1488,17 @@ body {
   transform: translateY(-2px);
   box-shadow: 0 4px 20px rgba(255,94,91,0.5);
 }
+.btn-kofi--float {
+  position: fixed;
+  bottom: 28px;
+  left: 28px;
+  z-index: 500;
+  font-size: 1.25rem;
+  padding: 12px 16px;
+  border-radius: 50px;
+  box-shadow: 0 4px 20px rgba(255,94,91,0.4);
+}
+.btn-kofi--float:hover { transform: translateY(-2px); }
 
 .footer-copy {
   color: #757a98;
