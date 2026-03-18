@@ -654,10 +654,18 @@ function createCard(game, freeEntry = null, cardIndex = 99) {
   const noteHtml = game.played && game.personalNote
     ? `<div class="personal-note-preview">${safeNote}</div>` : '';
 
+  // Bottone principale: IG se disponibile, altrimenti Steam
+  let primaryBtn = '';
+  if (game.igUrl && AFFILIATE.ig) {
+    const discLabel = game.igDiscount > 0 ? ` -${game.igDiscount}%` : '';
+    primaryBtn = `<a class="btn-store btn-ig-card" href="${esc(game.igUrl)}" target="_blank" rel="noopener noreferrer sponsored">Instant Gaming${discLabel} ↗</a>`;
+  } else if (game.steamUrl) {
+    primaryBtn = `<a class="btn-store btn-steam" href="${esc(addUtm(game.steamUrl))}" target="_blank" rel="noopener noreferrer">Steam ↗</a>`;
+  }
   const storeButtons = [
-    game.steamUrl ? `<a class="btn-store btn-steam" href="${esc(addUtm(game.steamUrl))}" target="_blank" rel="noopener noreferrer">Steam ↗</a>` : '',
-    game.epicUrl  ? `<a class="btn-store btn-epic"  href="${esc(addUtm(game.epicUrl))}"  target="_blank" rel="noopener noreferrer">Epic ↗</a>`  : '',
-    game.itchUrl  ? `<a class="btn-store btn-itch"  href="${esc(addUtm(game.itchUrl))}" target="_blank" rel="noopener noreferrer">itch.io ↗</a>` : '',
+    primaryBtn,
+    game.epicUrl ? `<a class="btn-store btn-epic" href="${esc(addUtm(game.epicUrl))}" target="_blank" rel="noopener noreferrer">Epic ↗</a>` : '',
+    game.itchUrl ? `<a class="btn-store btn-itch" href="${esc(addUtm(game.itchUrl))}" target="_blank" rel="noopener noreferrer">itch.io ↗</a>` : '',
   ].join('');
 
   const adminBtn = isAdmin
