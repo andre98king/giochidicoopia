@@ -665,8 +665,12 @@ function createCard(game, freeEntry = null, cardIndex = 99) {
     const gogHref = AFFILIATE.gog ? addUtm(game.gogUrl) + '&pp=' + AFFILIATE.gog : addUtm(game.gogUrl);
     primaryBtn = `<a class="btn-store btn-gog" href="${esc(gogHref)}" target="_blank" rel="noopener noreferrer">GOG ↗</a>`;
   }
+  const gbBtn = (game.gbUrl && AFFILIATE.gb)
+    ? `<a class="btn-store btn-gb-card" href="${esc(game.gbUrl)}" target="_blank" rel="noopener noreferrer sponsored">GameBillet${game.gbDiscount > 0 ? ` -${game.gbDiscount}%` : ''} ↗</a>`
+    : '';
   const storeButtons = [
     primaryBtn,
+    gbBtn,
     game.epicUrl ? `<a class="btn-store btn-epic" href="${esc(addUtm(game.epicUrl))}" target="_blank" rel="noopener noreferrer">Epic ↗</a>` : '',
     game.itchUrl ? `<a class="btn-store btn-itch" href="${esc(addUtm(game.itchUrl))}" target="_blank" rel="noopener noreferrer">itch.io ↗</a>` : '',
   ].join('');
