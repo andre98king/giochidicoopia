@@ -75,11 +75,12 @@ Pipeline attuale: **SteamSpy → Steam Store API → itch.io**
 
 ## Priorità 1 — Qualità dati catalogo
 
-### 1.1 Fix 198 giochi con CCU zero
-- 36.8% del catalogo ha `ccu: 0` — dato mancante o API SteamSpy non aggiornata
-- L'ordinamento "Più giocati ora" (trending) è inaffidabile con così tanti zeri
-- Verificare se `auto_update.py` aggiorna il CCU correttamente
-- **File**: `scripts/auto_update.py`, `assets/games.js`
+### ~~1.1 Fix 198 giochi con CCU zero~~ ✅ MITIGATO (2026-03-20)
+- 46/198 erano giochi Steam con CCU mancante: aggiunto fallback SteamSpy per appdetails singolo
+- 152/198 sono giochi non-Steam (itch.io, GOG, IGDB) senza fonte CCU — CCU 0 inevitabile
+- Sort "Più giocati ora" funziona correttamente: CCU 0 finisce in fondo
+- Il fallback verrà eseguito alla prossima run della pipeline (lunedì)
+- **File**: `scripts/auto_update.py`
 
 ### 1.2 Verifica crossplay (parzialmente fatto)
 - ✅ Filtro UI attivato, 86 giochi marcati
@@ -108,14 +109,12 @@ Pipeline attuale: **SteamSpy → Steam Store API → itch.io**
 - Aggiungere slider o range filter (es. 2020-2026)
 - **File**: `assets/app.js`, `assets/i18n.js`, `assets/style.css`
 
-### 2.3 Pagina gioco: link a recensioni/community
-- Aggiungere link a SteamDB, HowLongToBeat, ProtonDB
-- **File**: `scripts/build_static_pages.py`
+### ~~2.3 Pagina gioco: link a recensioni/community~~ ✅ FATTO (2026-03-20)
+- Link a SteamDB, HowLongToBeat, ProtonDB, PCGamingWiki su tutte le game pages con Steam URL
+- Sezione "Risorse esterne" con i18n IT/EN
 
-### 2.4 Ricerca migliorata
-- Attuale ricerca: solo per titolo
-- Valutare ricerca per genere/tag/descrizione
-- **File**: `assets/app.js`
+### ~~2.4 Ricerca migliorata~~ ✅ GIÀ FATTO
+- La ricerca già copre titolo, descrizione (IT+EN) e categorie — non solo titolo
 
 ### ~~2.5 Bottone Compra unico~~ ✅ FATTO (2026-03-19)
 
@@ -127,10 +126,9 @@ Pipeline attuale: **SteamSpy → Steam Store API → itch.io**
 
 ## Priorità 3 — SEO e contenuti
 
-### 3.1 Pagine informative in inglese
-- `about.html`, `contact.html`, `privacy.html` sono solo in italiano
-- Valutare versioni EN o traduzione inline con i18n
-- **File**: `about.html`, `contact.html`, `privacy.html`, `assets/i18n.js`
+### ~~3.1 Pagine informative in inglese~~ ✅ GIÀ FATTO
+- Tutte le pagine usano `data-i18n` + traduzioni EN complete in `i18n.js`
+- `setLang()` aggiorna title, meta description, OG, JSON-LD, `html lang` dinamicamente
 
 ### 3.2 Blog o sezione "Guide co-op"
 - Contenuto editoriale per SEO long-tail ("migliori giochi co-op horror 2026")
@@ -203,3 +201,4 @@ Pipeline attuale: **SteamSpy → Steam Store API → itch.io**
 | 2026-03-18 | Catalogo 520 giochi, nuovi adapter, monetizzazione, crossplay, CJ affiliate |
 | 2026-03-19 | Bottone Compra, badge sconto, Epic rimosso, giochi obsoleti, logo, fix overlap, scraper anti-DLC |
 | 2026-03-20 | Revisione roadmap: corretto analytics (non fatto), releaseYear (non esiste), isFree/isIndie (non è un bug — usano categories). Fix cache bust sync, infinite scroll (40+30 batch), aggiornato CLAUDE.md |
+| 2026-03-20 | SEO: "Giochi simili" (3228 internal links) + "Risorse esterne" (SteamDB, HLTB, ProtonDB, PCGamingWiki) su tutte le game pages. Sitemap re-inviata a GSC. Task 2.3 e 2.4 completati |

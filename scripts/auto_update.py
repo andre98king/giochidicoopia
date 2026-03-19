@@ -122,6 +122,31 @@ print(f"  Rating aggiornati: {updated_rating}")
 print(f"  Trending 🔥      : {sum(1 for g in existing_games if g['trending'])}")
 
 
+# ─────────── Fallback CCU: query SteamSpy per giochi con CCU 0 ────────────
+zero_ccu_games = [g for g in existing_games if g.get('ccu', 0) == 0 and appid_from_url(g.get('steamUrl', ''))]
+print(f"\n🔍 Fallback CCU: {len(zero_ccu_games)} giochi con CCU 0, query SteamSpy individuale...")
+fallback_ok = 0
+fallback_fail = 0
+for g in zero_ccu_games:
+    aid = appid_from_url(g['steamUrl'])
+    spy = steam_source.fetch_json(f"https://steamspy.com/api.php?request=appdetails&appid={aid}")
+    if not spy:
+        fallback_fail += 1
+        continue
+    ccu = spy.get('ccu', 0) or 0
+    if ccu > 0:
+        g['ccu'] = ccu
+        g['trending'] = ccu >= MIN_CCU_TRENDING
+        fallback_ok += 1
+    # Also update rating if missing/low-quality
+    pos = spy.get('positive', 0) or 0
+    neg = spy.get('negative', 0) or 0
+    if pos + neg >= 10:
+        g['rating'] = calc_rating(pos, neg)
+
+print(f"  Fallback CCU trovati: {fallback_ok}  |  Ancora 0 o errore: {len(zero_ccu_games) - fallback_ok}")
+
+
 # ─────────── Fetch descrizioni EN per giochi esistenti senza ──────────────
 print(f"\n🌍 Fetch descrizioni inglesi mancanti (max {MAX_EN_FETCH})...")
 en_fetched = 0
