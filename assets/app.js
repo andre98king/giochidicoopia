@@ -60,6 +60,7 @@ function togglePlayed(id) {
   localStorage.setItem(PLAYED_KEY, JSON.stringify([...p]));
   renderGames();
   updatePlayedBadge();
+  updateStats();
 }
 function toggleShowPlayed() {
   showPlayed = !showPlayed;
