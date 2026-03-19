@@ -1,6 +1,6 @@
 # AI Collaboration Log — coophubs.net
 
-Data ultimo aggiornamento: **2026-03-19**
+Data ultimo aggiornamento: **2026-03-20**
 
 ---
 
@@ -213,3 +213,13 @@ Data ultimo aggiornamento: **2026-03-19**
 - **Aider + Ollama**: task delegati (coding ripetitivo, scraper fixes, refactoring meccanico)
 
 **Prossima sync**: Plan per Fase 1 (Gameseal + Epic + GOG affiliate coverage)
+
+---
+
+## Log 2026-03-20
+
+- **SEO: Related Games** — Aggiunta sezione "Giochi simili" a tutte le 538 game pages (3228 internal cross-links per crawl budget)
+- **SEO: External Links** — SteamDB, HowLongToBeat, ProtonDB, PCGamingWiki su ogni game page con Steam URL
+- **SEO: GSC** — Sitemap re-inviata, homepage re-indicizzata su Google Search Console
+- **Data: CCU fallback** — auto_update.py ora interroga SteamSpy individualmente per 46 giochi Steam con CCU 0
+- **Roadmap**: task 1.1, 2.3, 2.4, 3.1 completati/verificati
