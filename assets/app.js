@@ -31,14 +31,13 @@ function saveNote(id, text) {
 }
 
 // ===== FILTER CONFIG =====
-const filterSpecial = [{ id: 'all' }, { id: 'trending' }];
+const filterSpecial = [{ id: 'all' }, { id: 'trending' }, { id: 'free' }];
 const filterGenres  = [
   { id: 'horror' }, { id: 'action' }, { id: 'puzzle' }, { id: 'rpg' },
   { id: 'survival' }, { id: 'factory' }, { id: 'roguelike' }, { id: 'sport' },
   { id: 'strategy' }, { id: 'indie' },
 ];
-const filterFree    = [{ id: 'free' }];
-const genreFilters  = [...filterSpecial, ...filterGenres, ...filterFree]; // alias legacy
+const genreFilters  = [...filterSpecial, ...filterGenres]; // alias legacy
 
 const modeFilters = [
   { id: 'mode_online',    field: 'coopMode',  value: 'online' },
@@ -400,10 +399,6 @@ function renderFilters() {
     <div class="filter-group">
       <span class="filter-group-label">${t('filter_genre')}</span>
       ${filterGenres.map(btnHtml).join('')}
-    </div>
-    <div class="filter-group">
-      <span class="filter-group-label">${t('filter_other')}</span>
-      ${filterFree.map(btnHtml).join('')}
     </div>`;
 
   container.querySelectorAll('.filter-btn').forEach(btn => {

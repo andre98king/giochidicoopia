@@ -299,14 +299,15 @@ body {
 }
 
 .filter-group-label {
-  font-size: 0.66rem;
+  font-size: 0.65rem;
   text-transform: uppercase;
   letter-spacing: 1.2px;
   color: var(--text2);
   font-weight: 700;
   white-space: nowrap;
-  margin-right: 2px;
-  opacity: 0.7;
+  margin-right: 4px;
+  opacity: 0.6;
+  min-width: 60px;
 }
 
 .filters-mode {
@@ -732,6 +733,7 @@ body {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  margin-top: auto;
 }
 
 .personal-note-preview {
@@ -757,8 +759,15 @@ body {
   padding: 14px 18px;
   border-top: 1px solid var(--border);
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.card-footer .store-btns {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-left: auto;
 }
 
 .btn-details {
@@ -1083,16 +1092,16 @@ body {
 .affiliate-discount { background: rgba(255,80,80,0.2); color: #ff6b6b; font-size: 0.78rem; font-weight: 800; padding: 2px 6px; border-radius: 4px; border: 1px solid rgba(255,80,80,0.35); }
 /* Played toggle button on card */
 .btn-played-toggle {
-  position: absolute; top: 6px; right: 6px; z-index: 3;
-  width: 26px; height: 26px; border-radius: 50%;
-  border: 1.5px solid var(--border); background: var(--bg3);
-  color: var(--text2); font-size: 0.75rem; font-weight: 700;
+  position: absolute; top: 8px; left: 8px; z-index: 15;
+  width: 30px; height: 30px; border-radius: 50%;
+  border: 2px solid rgba(255,255,255,0.3); background: rgba(0,0,0,0.55);
+  color: rgba(255,255,255,0.8); font-size: 0.82rem; font-weight: 700;
   cursor: pointer; display: flex; align-items: center; justify-content: center;
-  transition: all 0.2s; opacity: 0.85;
+  transition: all 0.2s; backdrop-filter: blur(4px);
 }
-.btn-played-toggle:hover, .btn-played-toggle.is-played { opacity: 1; }
+.btn-played-toggle:hover { background: rgba(0,0,0,0.75); color: #fff; border-color: rgba(255,255,255,0.5); }
 .btn-played-toggle.is-played { background: #2e7d32; border-color: #4caf50; color: #fff; }
-.card:hover .btn-played-toggle { opacity: 1; }
+.card:hover .btn-played-toggle { border-color: rgba(255,255,255,0.5); }
 .is-played-card { border-color: rgba(76,175,80,0.35); opacity: 0.75; }
 /* Note button on played cards */
 .btn-note-card {
