@@ -157,6 +157,39 @@ def render_related_games(related: list) -> str:
     )
 
 
+def extract_steam_appid(steam_url: str) -> str | None:
+    """Extract Steam App ID from a Steam store URL."""
+    if not steam_url:
+        return None
+    import re
+    m = re.search(r'/app/(\d+)', steam_url)
+    return m.group(1) if m else None
+
+
+def render_external_links(game: dict) -> str:
+    """Render links to SteamDB, HowLongToBeat, ProtonDB."""
+    appid = extract_steam_appid(game.get("steamUrl") or "")
+    if not appid:
+        return ""
+    from urllib.parse import quote
+    title_q = quote(game["title"])
+    links = [
+        f'<a href="https://steamdb.info/app/{appid}/" target="_blank" rel="noopener noreferrer"'
+        f' class="ext-link">📊 SteamDB</a>',
+        f'<a href="https://howlongtobeat.com/?q={title_q}" target="_blank" rel="noopener noreferrer"'
+        f' class="ext-link">⏱️ HowLongToBeat</a>',
+        f'<a href="https://www.protondb.com/app/{appid}" target="_blank" rel="noopener noreferrer"'
+        f' class="ext-link">🐧 ProtonDB</a>',
+        f'<a href="https://www.pcgamingwiki.com/api/appid.php?appid={appid}" target="_blank" rel="noopener noreferrer"'
+        f' class="ext-link">🔧 PCGamingWiki</a>',
+    ]
+    return (
+        '<div class="game-section" style="margin-top:20px">'
+        '<div class="game-section-title" id="extLinksTitle">Risorse esterne</div>'
+        '<div class="ext-links">' + "".join(links) + '</div></div>'
+    )
+
+
 def render_store_links(game: dict) -> str:
     from urllib.parse import quote
     links = []
@@ -379,6 +412,9 @@ def render_static_page(game: dict, all_games: list | None = None) -> str:
     .game-info-label {{ font-size: 0.72rem; color: var(--text2); text-transform: uppercase; letter-spacing: 1px; margin-top: 4px; }}
     .related-card {{ background: var(--bg3); border: 1px solid var(--border); border-radius: 8px; transition: border-color 0.25s, transform 0.2s; overflow: hidden; }}
     .related-card:hover {{ border-color: var(--accent); transform: translateY(-2px); }}
+    .ext-links {{ display: flex; gap: 10px; flex-wrap: wrap; }}
+    .ext-link {{ display: inline-flex; align-items: center; gap: 4px; padding: 8px 14px; background: var(--bg3); border: 1px solid var(--border); border-radius: 8px; color: var(--text2); text-decoration: none; font-size: 0.82rem; font-weight: 500; transition: border-color 0.25s, color 0.25s; }}
+    .ext-link:hover {{ border-color: var(--accent); color: var(--accent); }}
   </style>
 </head>
 <body>
@@ -427,6 +463,8 @@ def render_static_page(game: dict, all_games: list | None = None) -> str:
     <div class="game-actions">
       {render_store_links(game)}
     </div>
+
+    {render_external_links(game)}
 
     {related_html}
   </div>
@@ -489,6 +527,9 @@ def render_static_page(game: dict, all_games: list | None = None) -> str:
 
       const relatedTitle = document.getElementById('relatedTitle');
       if (relatedTitle) relatedTitle.textContent = isEn ? 'Similar Games' : 'Giochi simili';
+
+      const extLinksTitle = document.getElementById('extLinksTitle');
+      if (extLinksTitle) extLinksTitle.textContent = isEn ? 'External Resources' : 'Risorse esterne';
 
       document.querySelector('meta[name="description"]').content = metaDesc;
       document.querySelector('meta[property="og:description"]').content = metaDesc;
