@@ -118,6 +118,45 @@ def add_utm(url: str, campaign: str = "gamepage") -> str:
     return result
 
 
+def find_related_games(game: dict, all_games: list, count: int = 6) -> list:
+    """Find related games by shared categories, excluding the current game."""
+    game_cats = set(game.get("categories") or [])
+    scored = []
+    for other in all_games:
+        if other["id"] == game["id"]:
+            continue
+        other_cats = set(other.get("categories") or [])
+        shared = len(game_cats & other_cats)
+        if shared == 0:
+            continue
+        # Score: shared categories first, then rating as tiebreaker
+        scored.append((shared, other.get("rating") or 0, other))
+    scored.sort(key=lambda x: (x[0], x[1]), reverse=True)
+    return [item[2] for item in scored[:count]]
+
+
+def render_related_games(related: list) -> str:
+    if not related:
+        return ""
+    cards = []
+    for g in related:
+        img = g.get("image") or ""
+        img_html = f'<img src="{esc(img)}" alt="{esc(g["title"])}" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:8px 8px 0 0">' if img else ""
+        cards.append(
+            f'<a href="{g["id"]}.html" class="related-card" style="text-decoration:none;color:inherit">'
+            f'{img_html}'
+            f'<div style="padding:10px;font-size:0.85rem;font-weight:600;line-height:1.3">{esc(g["title"])}</div>'
+            f'</a>'
+        )
+    return (
+        '<div class="game-section" style="margin-top:36px">'
+        '<div class="game-section-title" id="relatedTitle">Giochi simili</div>'
+        '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px">'
+        + "".join(cards)
+        + '</div></div>'
+    )
+
+
 def render_store_links(game: dict) -> str:
     from urllib.parse import quote
     links = []
@@ -205,7 +244,7 @@ def render_modes(game: dict) -> str:
     )
 
 
-def render_static_page(game: dict) -> str:
+def render_static_page(game: dict, all_games: list | None = None) -> str:
     title = f"{game['title']} — Coophubs"
     image = game["image"] or f"{SITE_URL}/assets/og-image.jpg"
     description_it = game["description"][:320]
@@ -282,6 +321,11 @@ def render_static_page(game: dict) -> str:
             'onerror="this.style.display=\'none\'">'
         )
 
+    related_html = ""
+    if all_games:
+        related = find_related_games(game, all_games)
+        related_html = render_related_games(related)
+
     return f"""<!DOCTYPE html>
 <html lang="it">
 <head>
@@ -333,6 +377,8 @@ def render_static_page(game: dict) -> str:
     .game-info-card {{ background: var(--bg3); border: 1px solid var(--border); border-radius: 12px; padding: 14px; text-align: center; }}
     .game-info-value {{ font-family: 'JetBrains Mono', monospace; font-size: 1.1rem; font-weight: 700; color: var(--accent); }}
     .game-info-label {{ font-size: 0.72rem; color: var(--text2); text-transform: uppercase; letter-spacing: 1px; margin-top: 4px; }}
+    .related-card {{ background: var(--bg3); border: 1px solid var(--border); border-radius: 8px; transition: border-color 0.25s, transform 0.2s; overflow: hidden; }}
+    .related-card:hover {{ border-color: var(--accent); transform: translateY(-2px); }}
   </style>
 </head>
 <body>
@@ -381,6 +427,8 @@ def render_static_page(game: dict) -> str:
     <div class="game-actions">
       {render_store_links(game)}
     </div>
+
+    {related_html}
   </div>
 
   <footer class="site-footer">
@@ -439,6 +487,9 @@ def render_static_page(game: dict) -> str:
         ratingLabel.textContent = isEn ? ratingLabel.dataset.labelEn : ratingLabel.dataset.labelIt;
       }}
 
+      const relatedTitle = document.getElementById('relatedTitle');
+      if (relatedTitle) relatedTitle.textContent = isEn ? 'Similar Games' : 'Giochi simili';
+
       document.querySelector('meta[name="description"]').content = metaDesc;
       document.querySelector('meta[property="og:description"]').content = metaDesc;
       document.querySelector('meta[name="twitter:description"]').content = metaDesc;
@@ -463,7 +514,7 @@ def write_pages(games):
         existing.unlink()
     for game in games:
         out = GAMES_DIR / f"{game['id']}.html"
-        out.write_text(render_static_page(game), encoding="utf-8")
+        out.write_text(render_static_page(game, all_games=games), encoding="utf-8")
 
 
 def write_sitemap(games):

@@ -49,6 +49,8 @@
     .game-info-card { background: var(--bg3); border: 1px solid var(--border); border-radius: 12px; padding: 14px; text-align: center; }
     .game-info-value { font-family: 'JetBrains Mono', monospace; font-size: 1.1rem; font-weight: 700; color: var(--accent); }
     .game-info-label { font-size: 0.72rem; color: var(--text2); text-transform: uppercase; letter-spacing: 1px; margin-top: 4px; }
+    .related-card { background: var(--bg3); border: 1px solid var(--border); border-radius: 8px; transition: border-color 0.25s, transform 0.2s; overflow: hidden; }
+    .related-card:hover { border-color: var(--accent); transform: translateY(-2px); }
   </style>
 </head>
 <body>
@@ -97,6 +99,8 @@
     <div class="game-actions">
       <a class="btn-primary" href="https://store.steampowered.com/app/359550/?utm_source=coophubs&amp;utm_medium=referral&amp;utm_campaign=gamepage" target="_blank" rel="noopener noreferrer">Steam ↗</a><a class="btn-primary btn-epic-lg" href="https://store.epicgames.com/en-US/p/rainbow-six-siege?utm_source=coophubs&amp;utm_medium=referral&amp;utm_campaign=gamepage" target="_blank" rel="noopener noreferrer">Epic Games ↗</a>
     </div>
+
+    <div class="game-section" style="margin-top:36px"><div class="game-section-title" id="relatedTitle">Giochi simili</div><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px"><a href="338.html" class="related-card" style="text-decoration:none;color:inherit"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2551020/header.jpg" alt="One-armed robber" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:8px 8px 0 0"><div style="padding:10px;font-size:0.85rem;font-weight:600;line-height:1.3">One-armed robber</div></a><a href="212.html" class="related-card" style="text-decoration:none;color:inherit"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/380600/header.jpg" alt="Fishing Planet" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:8px 8px 0 0"><div style="padding:10px;font-size:0.85rem;font-weight:600;line-height:1.3">Fishing Planet</div></a><a href="194.html" class="related-card" style="text-decoration:none;color:inherit"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/444200/header.jpg" alt="World of Tanks Blitz" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:8px 8px 0 0"><div style="padding:10px;font-size:0.85rem;font-weight:600;line-height:1.3">World of Tanks Blitz</div></a><a href="191.html" class="related-card" style="text-decoration:none;color:inherit"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/552990/header.jpg" alt="World of Warships" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:8px 8px 0 0"><div style="padding:10px;font-size:0.85rem;font-weight:600;line-height:1.3">World of Warships</div></a><a href="227.html" class="related-card" style="text-decoration:none;color:inherit"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/961200/header.jpg" alt="Predecessor" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:8px 8px 0 0"><div style="padding:10px;font-size:0.85rem;font-weight:600;line-height:1.3">Predecessor</div></a><a href="199.html" class="related-card" style="text-decoration:none;color:inherit"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2437170/header.jpg" alt="SMITE 2" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:8px 8px 0 0"><div style="padding:10px;font-size:0.85rem;font-weight:600;line-height:1.3">SMITE 2</div></a></div></div>
   </div>
 
   <footer class="site-footer">
@@ -154,6 +158,9 @@
       if (ratingLabel) {
         ratingLabel.textContent = isEn ? ratingLabel.dataset.labelEn : ratingLabel.dataset.labelIt;
       }
+
+      const relatedTitle = document.getElementById('relatedTitle');
+      if (relatedTitle) relatedTitle.textContent = isEn ? 'Similar Games' : 'Giochi simili';
 
       document.querySelector('meta[name="description"]').content = metaDesc;
       document.querySelector('meta[property="og:description"]').content = metaDesc;

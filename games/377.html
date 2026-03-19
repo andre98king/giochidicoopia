@@ -49,6 +49,8 @@
     .game-info-card { background: var(--bg3); border: 1px solid var(--border); border-radius: 12px; padding: 14px; text-align: center; }
     .game-info-value { font-family: 'JetBrains Mono', monospace; font-size: 1.1rem; font-weight: 700; color: var(--accent); }
     .game-info-label { font-size: 0.72rem; color: var(--text2); text-transform: uppercase; letter-spacing: 1px; margin-top: 4px; }
+    .related-card { background: var(--bg3); border: 1px solid var(--border); border-radius: 8px; transition: border-color 0.25s, transform 0.2s; overflow: hidden; }
+    .related-card:hover { border-color: var(--accent); transform: translateY(-2px); }
   </style>
 </head>
 <body>
@@ -97,6 +99,8 @@
     <div class="game-actions">
       <a class="btn-primary" href="https://store.steampowered.com/app/1575940/?utm_source=coophubs&amp;utm_medium=referral&amp;utm_campaign=gamepage" target="_blank" rel="noopener noreferrer">Steam ↗</a><div class="affiliate-section"><div class="affiliate-title">💸 Prezzi alternativi</div><div class="affiliate-btns"><a class="btn-affiliate btn-ig" href="https://www.instant-gaming.com/en/17404-buy-steam-sins-of-a-solar-empire-ii-premium-edition-premium-edition-pc-game-steam/?igr=gamer-ddc4a8" target="_blank" rel="noopener noreferrer sponsored"><span class="affiliate-store">Instant Gaming</span><span class="affiliate-discount">-74%</span></a><a class="btn-affiliate btn-gb" href="https://www.gamebillet.com/search?q=Sins%20of%20a%20Solar%20Empire%20II&amp;affiliate=fb308ca0-647e-4ce7-9e80-74c2c591eac1" target="_blank" rel="noopener noreferrer sponsored"><span class="affiliate-store">GameBillet</span></a><a class="btn-affiliate btn-gmg" href="https://greenmangaming.sjv.io/qWzoQy?u=https%3A//www.greenmangaming.com/search/%3Fquery%3DSins%2520of%2520a%2520Solar%2520Empire%2520II" target="_blank" rel="noopener noreferrer sponsored"><span class="affiliate-store">Green Man Gaming</span></a><a class="btn-affiliate btn-gameseal" href="https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsins-of-a-solar-empire-ii-pc-steam-key-global&amp;cjsku=SW26624" target="_blank" rel="noopener noreferrer sponsored"><span class="affiliate-store">Gameseal</span></a></div></div>
     </div>
+
+    <div class="game-section" style="margin-top:36px"><div class="game-section-title" id="relatedTitle">Giochi simili</div><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px"><a href="24.html" class="related-card" style="text-decoration:none;color:inherit"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/427520/header.jpg" alt="Factorio" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:8px 8px 0 0"><div style="padding:10px;font-size:0.85rem;font-weight:600;line-height:1.3">Factorio</div></a><a href="30.html" class="related-card" style="text-decoration:none;color:inherit"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/526870/header.jpg" alt="Satisfactory" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:8px 8px 0 0"><div style="padding:10px;font-size:0.85rem;font-weight:600;line-height:1.3">Satisfactory</div></a><a href="355.html" class="related-card" style="text-decoration:none;color:inherit"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1127400/header.jpg" alt="Mindustry" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:8px 8px 0 0"><div style="padding:10px;font-size:0.85rem;font-weight:600;line-height:1.3">Mindustry</div></a><a href="401.html" class="related-card" style="text-decoration:none;color:inherit"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/287450/header.jpg" alt="Rise of Nations: Extended Edition" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:8px 8px 0 0"><div style="padding:10px;font-size:0.85rem;font-weight:600;line-height:1.3">Rise of Nations: Extended Edition</div></a><a href="371.html" class="related-card" style="text-decoration:none;color:inherit"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1054490/header.jpg" alt="Wingspan" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:8px 8px 0 0"><div style="padding:10px;font-size:0.85rem;font-weight:600;line-height:1.3">Wingspan</div></a><a href="305.html" class="related-card" style="text-decoration:none;color:inherit"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/701160/header.jpg" alt="Kingdom Two Crowns" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:8px 8px 0 0"><div style="padding:10px;font-size:0.85rem;font-weight:600;line-height:1.3">Kingdom Two Crowns</div></a></div></div>
   </div>
 
   <footer class="site-footer">
@@ -154,6 +158,9 @@
       if (ratingLabel) {
         ratingLabel.textContent = isEn ? ratingLabel.dataset.labelEn : ratingLabel.dataset.labelIt;
       }
+
+      const relatedTitle = document.getElementById('relatedTitle');
+      if (relatedTitle) relatedTitle.textContent = isEn ? 'Similar Games' : 'Giochi simili';
 
       document.querySelector('meta[name="description"]').content = metaDesc;
       document.querySelector('meta[property="og:description"]').content = metaDesc;

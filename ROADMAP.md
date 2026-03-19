@@ -18,7 +18,7 @@ Ultima analisi: 2026-03-20
 | Monetizzazione | IG+GB scraper attivo, GMG+Gameseal approvati, Ko-fi, UTM tracking |
 | Crossplay | 86 giochi marcati, filtro UI attivo (dati non verificati) |
 | Scraper affiliati | IG+GB con anti-DLC, concurrency, ~8min per 385 giochi con Steam URL |
-| Analytics | ❌ **NON implementato** — da aggiungere Cloudflare Web Analytics |
+| Analytics | ✅ Cloudflare Web Analytics attivo (iniettato dal proxy, no snippet necessario) |
 
 ### Problemi noti
 
@@ -67,11 +67,9 @@ Pipeline attuale: **SteamSpy → Steam Store API → itch.io**
 - Allineato tutto a `?v=20260320`: index.html, about, contact, free, privacy, game, build_static_pages.py
 - Rigenerato tutte le 538 game pages
 
-### U.4 Aggiungere Cloudflare Web Analytics
-- Segnato come "fatto" nella vecchia roadmap ma **mai implementato**
-- Aggiungere lo script beacon di Cloudflare in tutte le pagine
-- Richiede il token dal dashboard Cloudflare (Andrea deve fornirlo)
-- **File**: `index.html`, `scripts/build_static_pages.py`, pagine statiche
+### ~~U.4 Cloudflare Web Analytics~~ ✅ GIÀ ATTIVO
+- Iniettato automaticamente dal proxy Cloudflare, non serve snippet nel codice
+- Dati visibili su dash.cloudflare.com → Web Analytics
 
 ---
 

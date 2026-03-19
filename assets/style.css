@@ -185,6 +185,7 @@ body {
   border: 1px solid rgba(124,106,255,0.15);
   border-radius: 16px;
   padding: 16px 28px;
+  min-width: 110px;
   text-align: center;
   transition: transform 0.3s, border-color 0.3s, box-shadow 0.3s;
 }
@@ -476,6 +477,7 @@ body {
   max-width: 1440px;
   margin: 0 auto;
   padding: 30px 20px 60px;
+  min-height: 80vh;
 }
 
 .results-info {

@@ -344,10 +344,12 @@ document.addEventListener('DOMContentLoaded', async () => {
   const searchInput = document.getElementById('searchInput');
   const searchClear = document.getElementById('searchClear');
 
+  let _searchTimer = 0;
   searchInput.addEventListener('input', e => {
     searchQuery = e.target.value.toLowerCase().trim();
     searchClear.style.display = e.target.value ? 'block' : 'none';
-    renderGames();
+    clearTimeout(_searchTimer);
+    _searchTimer = setTimeout(() => renderGames(), 150);
   });
 
   searchClear.addEventListener('click', () => {
@@ -442,7 +444,7 @@ function renderFilters() {
         if (activeFilters.size === 0)
           container.querySelector('[data-cat="all"]').classList.add('active');
       }
-      renderGames();
+      requestAnimationFrame(() => renderGames());
     });
   });
 
@@ -486,7 +488,7 @@ function renderFilters() {
           activeModeFilters.add(mode);
           btn.classList.add('active');
         }
-        renderGames();
+        requestAnimationFrame(() => renderGames());
       });
     });
   }

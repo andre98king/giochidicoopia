@@ -49,6 +49,8 @@
     .game-info-card { background: var(--bg3); border: 1px solid var(--border); border-radius: 12px; padding: 14px; text-align: center; }
     .game-info-value { font-family: 'JetBrains Mono', monospace; font-size: 1.1rem; font-weight: 700; color: var(--accent); }
     .game-info-label { font-size: 0.72rem; color: var(--text2); text-transform: uppercase; letter-spacing: 1px; margin-top: 4px; }
+    .related-card { background: var(--bg3); border: 1px solid var(--border); border-radius: 8px; transition: border-color 0.25s, transform 0.2s; overflow: hidden; }
+    .related-card:hover { border-color: var(--accent); transform: translateY(-2px); }
   </style>
 </head>
 <body>
@@ -97,6 +99,8 @@
     <div class="game-actions">
       <a class="btn-store btn-itch" href="https://junkbytes.itch.io/stick-veterans?utm_source=coophubs&amp;utm_medium=referral&amp;utm_campaign=gamepage" target="_blank" rel="noopener noreferrer" style="padding:10px 20px;font-size:0.9rem">itch.io ↗</a>
     </div>
+
+    <div class="game-section" style="margin-top:36px"><div class="game-section-title" id="relatedTitle">Giochi simili</div><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px"><a href="25.html" class="related-card" style="text-decoration:none;color:inherit"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/250900/header.jpg" alt="The Binding of Isaac: Rebirth" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:8px 8px 0 0"><div style="padding:10px;font-size:0.85rem;font-weight:600;line-height:1.3">The Binding of Isaac: Rebirth</div></a><a href="125.html" class="related-card" style="text-decoration:none;color:inherit"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/274190/header.jpg" alt="Broforce" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:8px 8px 0 0"><div style="padding:10px;font-size:0.85rem;font-weight:600;line-height:1.3">Broforce</div></a><a href="249.html" class="related-card" style="text-decoration:none;color:inherit"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1686940/header.jpg" alt="Bopl Battle" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:8px 8px 0 0"><div style="padding:10px;font-size:0.85rem;font-weight:600;line-height:1.3">Bopl Battle</div></a><a href="363.html" class="related-card" style="text-decoration:none;color:inherit"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1211020/header.jpg" alt="Wobbly Life" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:8px 8px 0 0"><div style="padding:10px;font-size:0.85rem;font-weight:600;line-height:1.3">Wobbly Life</div></a><a href="96.html" class="related-card" style="text-decoration:none;color:inherit"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/268910/header.jpg" alt="Cuphead" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:8px 8px 0 0"><div style="padding:10px;font-size:0.85rem;font-weight:600;line-height:1.3">Cuphead</div></a><a href="118.html" class="related-card" style="text-decoration:none;color:inherit"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/386940/header.jpg" alt="Ultimate Chicken Horse" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:8px 8px 0 0"><div style="padding:10px;font-size:0.85rem;font-weight:600;line-height:1.3">Ultimate Chicken Horse</div></a></div></div>
   </div>
 
   <footer class="site-footer">
@@ -154,6 +158,9 @@
       if (ratingLabel) {
         ratingLabel.textContent = isEn ? ratingLabel.dataset.labelEn : ratingLabel.dataset.labelIt;
       }
+
+      const relatedTitle = document.getElementById('relatedTitle');
+      if (relatedTitle) relatedTitle.textContent = isEn ? 'Similar Games' : 'Giochi simili';
 
       document.querySelector('meta[name="description"]').content = metaDesc;
       document.querySelector('meta[property="og:description"]').content = metaDesc;
