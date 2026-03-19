@@ -401,6 +401,27 @@ function renderFilters() {
       ${filterGenres.map(btnHtml).join('')}
     </div>`;
 
+  // On mobile, collapse genre filters behind a toggle
+  const isMobileGenre = window.innerWidth <= 600;
+  if (isMobileGenre) {
+    container.classList.add('collapsed');
+    let genreToggle = container.parentElement.querySelector('.btn-toggle-genre-filters');
+    if (!genreToggle) {
+      genreToggle = document.createElement('button');
+      genreToggle.className = 'btn-toggle-genre-filters';
+      container.parentElement.insertBefore(genreToggle, container);
+    }
+    genreToggle.textContent = t('genre_filters_toggle');
+    genreToggle.onclick = () => {
+      const collapsed = container.classList.toggle('collapsed');
+      genreToggle.classList.toggle('active', !collapsed);
+    };
+  } else {
+    container.classList.remove('collapsed');
+    const genreToggle = container.parentElement.querySelector('.btn-toggle-genre-filters');
+    if (genreToggle) genreToggle.remove();
+  }
+
   container.querySelectorAll('.filter-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       const cat = btn.dataset.cat;
