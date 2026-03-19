@@ -582,21 +582,7 @@ body {
 
 .card.is-trending { border-color: rgba(255,107,53,0.25); }
 
-.discount-badge {
-  position: absolute;
-  top: 12px;
-  left: 46px;
-  z-index: 11;
-  background: linear-gradient(135deg, #ff5c8a, #e63946);
-  color: #fff;
-  font-size: 0.72rem;
-  font-weight: 800;
-  padding: 4px 10px;
-  border-radius: 999px;
-  letter-spacing: 0.3px;
-  box-shadow: 0 2px 10px rgba(230,57,70,0.5);
-  pointer-events: none;
-}
+
 
 /* ===== RATING BADGE ===== */
 .rating-badge {

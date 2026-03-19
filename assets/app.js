@@ -713,8 +713,6 @@ function createCard(game, freeEntry = null, cardIndex = 99) {
     : '';
 
   const bestDiscount = Math.max(game.igDiscount || 0, game.gbDiscount || 0);
-  const discountBadge = bestDiscount > 5
-    ? `<div class="discount-badge">-${bestDiscount}%</div>` : '';
   const isFreeGame = game.categories && game.categories.includes('free');
   const buyLabel = bestDiscount > 5 ? `${t('btn_buy')} -${bestDiscount}%` : t('btn_buy');
 
@@ -744,7 +742,6 @@ function createCard(game, freeEntry = null, cardIndex = 99) {
       ${playedToggle}
       ${freeBadge}
       ${trendingBadge}
-      ${discountBadge}
       ${imgHtml}
       <div class="card-body">
         <div class="card-header">
