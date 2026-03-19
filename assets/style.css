@@ -1589,7 +1589,7 @@ body {
 }
 .btn-kofi--float {
   position: fixed;
-  bottom: 28px;
+  bottom: 84px;
   right: 28px;
   left: auto;
   z-index: 500;

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c6aff"/>
+      <stop offset="100%" stop-color="#ff5c8a"/>
+    </linearGradient>
+    <linearGradient id="pad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#e8e4ff" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <g transform="translate(256,256)">
+    <!-- Gamepad body -->
+    <path d="M-150,-50 C-150,-90 -120,-115 -80,-115 L80,-115 C120,-115 150,-90 150,-50 L150,15 C150,45 168,90 180,115 C192,140 180,160 150,160 C120,160 100,135 85,95 L68,52 L-68,52 L-85,95 C-100,135 -120,160 -150,160 C-180,160 -192,140 -180,115 C-168,90 -150,45 -150,15 Z"
+          fill="url(#pad)" opacity="0.95"/>
+    <!-- D-pad -->
+    <rect x="-92" y="-68" width="26" height="70" rx="5" fill="url(#bg)" opacity="0.8"/>
+    <rect x="-114" y="-46" width="70" height="26" rx="5" fill="url(#bg)" opacity="0.8"/>
+    <!-- Buttons -->
+    <circle cx="68" cy="-55" r="15" fill="#ff5c8a" opacity="0.9"/>
+    <circle cx="98" cy="-30" r="15" fill="#7c6aff" opacity="0.9"/>
+    <circle cx="68" cy="-5" r="15" fill="#9b8aff" opacity="0.75"/>
+    <circle cx="38" cy="-30" r="15" fill="#ff8fab" opacity="0.75"/>
+    <!-- Analog sticks -->
+    <circle cx="-55" cy="15" r="20" fill="none" stroke="url(#bg)" stroke-width="3.5" opacity="0.5"/>
+    <circle cx="35" cy="15" r="20" fill="none" stroke="url(#bg)" stroke-width="3.5" opacity="0.5"/>
+  </g>
+</svg>

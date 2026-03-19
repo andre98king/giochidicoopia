@@ -308,7 +308,9 @@ def render_static_page(game: dict) -> str:
   <meta name="twitter:description" content="{esc(description_it)}">
   <meta name="twitter:image" content="{esc(image)}">
 
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/icon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/icon-180.png">
   <link rel="stylesheet" href="../assets/style.css?v={ASSET_VERSION}">
   <script type="application/ld+json">
   {json.dumps(video_game_json, ensure_ascii=False)}

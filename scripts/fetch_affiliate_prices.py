@@ -52,14 +52,31 @@ def _gb_affiliate(slug: str) -> str:
     return f"{GB_BASE}/{slug}?affiliate={AFFILIATE_GB}"
 
 
-def _title_match(ig_title: str, game_title: str) -> bool:
-    def clean(t: str) -> str:
-        t = t.lower()
-        t = re.sub(r"\s*[-–]\s*(europe|us|canada|global|row|worldwide|latam|america).*", "", t)
-        t = re.sub(r"[^a-z0-9 ]", "", t)
-        return t.strip()
-    a, b = clean(ig_title), clean(game_title)
-    return a == b or a.startswith(b) or b.startswith(a)
+DLC_KEYWORDS = {'dlc', 'pack', 'season pass', 'expansion', 'soundtrack',
+                'bundle', 'starter pack', 'upgrade', 'supporter', 'collector',
+                'skin', 'costume', 'cosmetic', 'chapter', 'episode'}
+
+
+def _clean_title(t: str) -> str:
+    t = t.lower()
+    t = re.sub(r"\s*[-–]\s*(europe|us|canada|global|row|worldwide|latam|america).*", "", t)
+    t = re.sub(r"[^a-z0-9 ]", "", t)
+    return t.strip()
+
+
+def _title_match(ig_title: str, game_title: str) -> str | None:
+    """Restituisce 'exact', 'partial' o None. Scarta match che puntano a DLC."""
+    a, b = _clean_title(ig_title), _clean_title(game_title)
+    if a == b:
+        return "exact"
+    if a.startswith(b):
+        extra = a[len(b):].strip()
+        if any(kw in extra for kw in DLC_KEYWORDS):
+            return None  # DLC, skip
+        return "partial"
+    if b.startswith(a):
+        return "partial"
+    return None
 
 
 # ───────────────────────── Instant Gaming ─────────────────────────
@@ -96,13 +113,18 @@ async def fetch_ig(page, game: dict) -> tuple[str, int]:
                 return out;
             }""")
 
+            exact_match = None
+            partial_match = None
             for item in items:
                 if "steam" not in item["href"].lower():
                     continue
-                if not _title_match(item["title"], title):
-                    continue
-                product_url = item["href"]
-                break
+                result = _title_match(item["title"], title)
+                if result == "exact":
+                    exact_match = item["href"]
+                    break
+                if result == "partial" and not partial_match:
+                    partial_match = item["href"]
+            product_url = exact_match or partial_match or ""
 
         if not product_url:
             return "", 0
@@ -153,17 +175,25 @@ async def fetch_gb(page, game: dict) -> tuple[str, int]:
             return out;
         }""")
 
+        exact_match = None
+        partial_match = None
         for item in items:
-            if not _title_match(item["title"], title):
+            result = _title_match(item["title"], title)
+            if not result:
                 continue
-            # Estrai slug dall'URL assoluto (es. https://www.gamebillet.com/valheim-z → valheim-z)
             slug_match = re.search(r"gamebillet\.com/(.+)", item["href"])
             if not slug_match:
                 continue
             slug = slug_match.group(1).split("?")[0]
-            m = re.search(r"(\d+)", item["saleText"] or "")
-            discount = int(m.group(1)) if m else 0
-            return _gb_affiliate(slug), discount
+            m_disc = re.search(r"(\d+)", item["saleText"] or "")
+            discount = int(m_disc.group(1)) if m_disc else 0
+            entry = (_gb_affiliate(slug), discount)
+            if result == "exact":
+                return entry
+            if not partial_match:
+                partial_match = entry
+        if partial_match:
+            return partial_match
 
     except Exception as e:
         print(f"  ⚠️  GB errore '{title}': {e}")
