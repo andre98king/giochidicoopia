@@ -33,3 +33,7 @@ Thumbs.db
 
 # Playwright MCP (screenshot e log di sessione)
 .playwright-mcp/
+
+# Screenshot di debug (generati da Playwright testing)
+desktop-*.png
+mobile-*.png
