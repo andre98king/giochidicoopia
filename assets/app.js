@@ -546,12 +546,26 @@ function getFilteredGames() {
   return filtered;
 }
 
-// ===== RENDER GAMES =====
+// ===== RENDER GAMES (Infinite Scroll) =====
+const INITIAL_BATCH = 40;
+const SCROLL_BATCH = 30;
+let _renderedCount = 0;
+let _filteredGames = [];
+let _freeLookup = null;
+let _scrollObserver = null;
+let _sentinel = null;
+
 function renderGames() {
   const filtered = getFilteredGames();
   const grid = document.getElementById('gamesGrid');
   const info = document.getElementById('resultsInfo');
-  const freeLookup = buildFreeGameLookup();
+  _freeLookup = buildFreeGameLookup();
+  _filteredGames = filtered;
+  _renderedCount = 0;
+
+  // Cleanup previous observer
+  if (_scrollObserver) { _scrollObserver.disconnect(); _scrollObserver = null; }
+  if (_sentinel) { _sentinel.remove(); _sentinel = null; }
 
   info.innerHTML = t('results_found', filtered.length, catalogGames.length);
   updatePlayedBadge();
@@ -569,32 +583,48 @@ function renderGames() {
     return;
   }
 
-  const BATCH_SIZE = 30;
-  const cards = filtered.map((game, i) => createCard(game, freeLookup.get(normalizeTitle(game.title)), i));
+  grid.innerHTML = '';
+  _renderBatch(grid, INITIAL_BATCH);
+  _setupInfiniteScroll(grid);
+}
 
-  // Render first batch immediately
-  grid.innerHTML = cards.slice(0, BATCH_SIZE).join('');
-  attachCardListeners(grid);
+function _renderBatch(grid, count) {
+  const end = Math.min(_renderedCount + count, _filteredGames.length);
+  if (_renderedCount >= end) return;
+  let html = '';
+  for (let i = _renderedCount; i < end; i++) {
+    const game = _filteredGames[i];
+    html += createCard(game, _freeLookup.get(normalizeTitle(game.title)), i);
+  }
+  grid.insertAdjacentHTML('beforeend', html);
+  // Attach listeners only to new cards
+  const allCards = grid.querySelectorAll('.card');
+  for (let i = _renderedCount; i < end; i++) {
+    if (allCards[i]) attachSingleCardListener(allCards[i]);
+  }
+  _renderedCount = end;
+}
 
-  // Render remaining cards in batches via requestIdleCallback
-  let offset = BATCH_SIZE;
-  function renderNextBatch() {
-    if (offset >= cards.length) return;
-    const batch = cards.slice(offset, offset + BATCH_SIZE);
-    grid.insertAdjacentHTML('beforeend', batch.join(''));
-    // Attach listeners only to new cards
-    const allCards = grid.querySelectorAll('.card');
-    for (let i = offset; i < Math.min(offset + BATCH_SIZE, allCards.length); i++) {
-      attachSingleCardListener(allCards[i]);
+function _setupInfiniteScroll(grid) {
+  if (_renderedCount >= _filteredGames.length) return;
+  _sentinel = document.createElement('div');
+  _sentinel.className = 'scroll-sentinel';
+  _sentinel.setAttribute('aria-hidden', 'true');
+  grid.after(_sentinel);
+
+  _scrollObserver = new IntersectionObserver((entries) => {
+    if (entries[0].isIntersecting && _renderedCount < _filteredGames.length) {
+      _renderBatch(grid, SCROLL_BATCH);
+      // Remove sentinel if all rendered
+      if (_renderedCount >= _filteredGames.length && _sentinel) {
+        _scrollObserver.disconnect();
+        _sentinel.remove();
+        _sentinel = null;
+      }
     }
-    offset += BATCH_SIZE;
-    if (offset < cards.length) {
-      (window.requestIdleCallback || requestAnimationFrame)(renderNextBatch);
-    }
-  }
-  if (offset < cards.length) {
-    (window.requestIdleCallback || requestAnimationFrame)(renderNextBatch);
-  }
+  }, { rootMargin: '800px' });
+
+  _scrollObserver.observe(_sentinel);
 }
 
 function attachSingleCardListener(card) {

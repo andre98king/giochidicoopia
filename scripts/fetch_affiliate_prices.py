@@ -64,6 +64,16 @@ def _clean_title(t: str) -> str:
     return t.strip()
 
 
+def _has_subtitle(ig_title: str, game_title: str) -> bool:
+    """Controlla se ig_title ha un sottotitolo (:, -) dopo la parte che matcha game_title."""
+    gt_lower = game_title.lower().strip()
+    ig_lower = ig_title.lower().strip()
+    if not ig_lower.startswith(gt_lower):
+        return False
+    rest = ig_lower[len(gt_lower):].strip()
+    return rest.startswith(":") or rest.startswith("-") or rest.startswith("–")
+
+
 def _title_match(ig_title: str, game_title: str) -> str | None:
     """Restituisce 'exact', 'partial' o None. Scarta match che puntano a DLC."""
     a, b = _clean_title(ig_title), _clean_title(game_title)
@@ -72,7 +82,10 @@ def _title_match(ig_title: str, game_title: str) -> str | None:
     if a.startswith(b):
         extra = a[len(b):].strip()
         if any(kw in extra for kw in DLC_KEYWORDS):
-            return None  # DLC, skip
+            return None  # DLC keyword trovata
+        # Se il titolo originale ha un sottotitolo (: o -), è probabilmente un DLC/espansione
+        if _has_subtitle(ig_title, game_title):
+            return None
         return "partial"
     if b.startswith(a):
         return "partial"

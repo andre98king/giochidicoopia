@@ -121,7 +121,7 @@ Nessun backend. Nessun framework. Nessun runtime Node in produzione.
 {
   id: 1,                          // ID fisso, non cambiare
   title: "Nome Gioco",
-  categories: ["action", "indie"],
+  categories: ["action", "indie"],// "free" e "indie" usati come categorie speciali
   genres: ["action"],
   coopMode: ["online", "local"],  // online | local | sofa
   maxPlayers: 4,
@@ -131,14 +131,18 @@ Nessun backend. Nessun framework. Nessun runtime Node in produzione.
   description: "...",             // italiano
   description_en: "...",          // inglese
   steamUrl: "https://store.steampowered.com/app/APPID/",
-  releaseYear: 2023,
-  rating: "molto positivo",
-  ccu: 12000,
-  tags: ["tag1", "tag2"],
-  isFree: false,
-  isIndie: false
+  rating: 74,                     // intero 0-100 (da Steam)
+  ccu: 12000,                     // concurrent users (da SteamSpy)
+  trending: false,                // true se in top trending
+  igUrl: "...",                   // URL Instant Gaming con affiliato
+  igDiscount: 40,                 // sconto % su IG
+  gbUrl: "...",                   // URL GameBillet con affiliato
+  gbDiscount: 25                  // sconto % su GB
 }
 ```
+
+> **Nota**: "free" e "indie" sono valori nell'array `categories`, NON campi boolean separati.
+> Il filtro "Gratis" usa `categories.includes('free')`. Non esistono campi `isFree`/`isIndie`.
 
 ---
 

@@ -1605,6 +1605,9 @@ body {
   font-size: 0.78rem;
 }
 
+/* ===== INFINITE SCROLL SENTINEL ===== */
+.scroll-sentinel { height: 1px; }
+
 /* ===== SCROLLBAR ===== */
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: var(--bg); }
