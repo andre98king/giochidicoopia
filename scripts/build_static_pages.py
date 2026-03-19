@@ -99,9 +99,7 @@ def json_for_script(value) -> str:
 
 
 # Affiliate config — inserisci i tuoi ID dopo la registrazione
-# Epic: epicgames.com/affiliate  → AFFILIATE_EPIC = 'TUOCODICE'
-# GOG:  gog.com/partner          → AFFILIATE_GOG  = '12345'
-AFFILIATE_EPIC = ""
+# GOG:  gog.com/partner → AFFILIATE_GOG = '12345'
 AFFILIATE_GOG  = ""
 # Attivi: link di ricerca per gioco (Instant Gaming + GameBillet + Green Man Gaming)
 AFFILIATE_IG  = "gamer-ddc4a8"
@@ -115,8 +113,6 @@ def add_utm(url: str, campaign: str = "gamepage") -> str:
         return url
     sep = "&" if "?" in url else "?"
     result = url + sep + f"utm_source=coophubs&utm_medium=referral&utm_campaign={campaign}"
-    if AFFILIATE_EPIC and "epicgames.com" in url:
-        result += f"&creator={AFFILIATE_EPIC}"
     if AFFILIATE_GOG and "gog.com" in url:
         result += f"&pp={AFFILIATE_GOG}"
     return result

@@ -604,7 +604,7 @@ function attachSingleCardListener(card) {
   });
   const playedBtn = card.querySelector('.btn-played-toggle');
   if (playedBtn) playedBtn.addEventListener('click', e => { e.stopPropagation(); togglePlayed(id); });
-  card.querySelectorAll('.btn-note-card').forEach(btn => {
+  card.querySelectorAll('.btn-note-card, .btn-buy-card').forEach(btn => {
     btn.addEventListener('click', e => { e.stopPropagation(); openModal(parseInt(btn.dataset.openModal)); });
   });
 }
@@ -618,9 +618,7 @@ function attachCardListeners(grid) {
 // Epic: epicgames.com/affiliate → ottieni il tuo Creator Code
 // GOG:  gog.com/partner         → ottieni il tuo pp= ID
 const AFFILIATE = {
-  epic: '',   // es. 'COOPHUBS' → aggiunge ?creator=COOPHUBS
-  gog:  '',   // es. '12345'    → aggiunge ?pp=12345
-  // Attivi (link di ricerca per gioco):
+  gog:  '',   // es. '12345' → aggiunge ?pp=12345 (in attesa partner ID)
   ig:   'gamer-ddc4a8',                          // Instant Gaming
   gb:   'fb308ca0-647e-4ce7-9e80-74c2c591eac1',  // GameBillet
   gmg:  'https://greenmangaming.sjv.io/qWzoQy',  // Green Man Gaming (Impact)
@@ -684,9 +682,6 @@ function addUtm(url, campaign = 'catalog') {
   let result = url + sep + 'utm_source=coophubs&utm_medium=referral&utm_campaign=' + campaign;
 
   // Aggiungi parametro affiliato se configurato
-  if (AFFILIATE.epic && url.includes('epicgames.com')) {
-    result += '&creator=' + AFFILIATE.epic;
-  }
   if (AFFILIATE.gog && (url.includes('gog.com'))) {
     result += '&pp=' + AFFILIATE.gog;
   }
@@ -717,27 +712,11 @@ function createCard(game, freeEntry = null, cardIndex = 99) {
     ? `<button class="btn-note-card" data-open-modal="${game.id}" title="${t('note_title')}">✎ ${t('note_title')}</button>`
     : '';
 
-  // Bottone principale: IG → Steam → GOG come fallback
+  const bestDiscount = Math.max(game.igDiscount || 0, game.gbDiscount || 0);
+  const discountBadge = bestDiscount > 5
+    ? `<div class="discount-badge">-${bestDiscount}%</div>` : '';
   const isFreeGame = game.categories && game.categories.includes('free');
-  let primaryBtn = '';
-  if (!isFreeGame && game.igUrl && AFFILIATE.ig) {
-    const discLabel = game.igDiscount > 0 ? ` -${game.igDiscount}%` : '';
-    primaryBtn = `<a class="btn-store btn-ig-card" href="${esc(game.igUrl)}" target="_blank" rel="noopener noreferrer sponsored">Instant Gaming${discLabel} ↗</a>`;
-  } else if (game.steamUrl) {
-    primaryBtn = `<a class="btn-store btn-steam" href="${esc(addUtm(game.steamUrl))}" target="_blank" rel="noopener noreferrer">Steam ↗</a>`;
-  } else if (game.gogUrl) {
-    const gogHref = AFFILIATE.gog ? addUtm(game.gogUrl) + '&pp=' + AFFILIATE.gog : addUtm(game.gogUrl);
-    primaryBtn = `<a class="btn-store btn-gog" href="${esc(gogHref)}" target="_blank" rel="noopener noreferrer">GOG ↗</a>`;
-  }
-  const gbBtn = (!isFreeGame && game.gbUrl && AFFILIATE.gb)
-    ? `<a class="btn-store btn-gb-card" href="${esc(game.gbUrl)}" target="_blank" rel="noopener noreferrer sponsored">GameBillet${game.gbDiscount > 0 ? ` -${game.gbDiscount}%` : ''} ↗</a>`
-    : '';
-  const storeButtons = [
-    primaryBtn,
-    gbBtn,
-    game.epicUrl ? `<a class="btn-store btn-epic" href="${esc(addUtm(game.epicUrl))}" target="_blank" rel="noopener noreferrer">Epic ↗</a>` : '',
-    game.itchUrl ? `<a class="btn-store btn-itch" href="${esc(addUtm(game.itchUrl))}" target="_blank" rel="noopener noreferrer">itch.io ↗</a>` : '',
-  ].join('');
+  const buyLabel = bestDiscount > 5 ? `${t('btn_buy')} -${bestDiscount}%` : t('btn_buy');
 
   const playedToggle = isPlayed(game.id)
     ? `<button class="btn-played-toggle is-played" data-played-id="${game.id}" title="${t('played_unmark')}">✓</button>`
@@ -765,6 +744,7 @@ function createCard(game, freeEntry = null, cardIndex = 99) {
       ${playedToggle}
       ${freeBadge}
       ${trendingBadge}
+      ${discountBadge}
       ${imgHtml}
       <div class="card-body">
         <div class="card-header">
@@ -790,7 +770,7 @@ function createCard(game, freeEntry = null, cardIndex = 99) {
       </div>
       <div class="card-footer">
         <a class="btn-details" href="games/${game.id}.html">${t('btn_details')}</a>
-        <div class="store-btns">${storeButtons}</div>
+        ${!isFreeGame ? `<button class="btn-buy-card" data-open-modal="${game.id}">${buyLabel}</button>` : ''}
       </div>
     </div>`;
 }

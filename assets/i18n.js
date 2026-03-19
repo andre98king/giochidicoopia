@@ -125,6 +125,7 @@ const TRANSLATIONS = {
     note_save: "💾 Salva nota",
     card_players: "giocatori",
     btn_details: "Dettagli →",
+    btn_buy: "Compra",
     ccu_title: "Giocatori online ora",
     trending_badge: "🔥 Trending",
 
@@ -350,6 +351,7 @@ const TRANSLATIONS = {
     note_save: "💾 Save note",
     card_players: "players",
     btn_details: "Details →",
+    btn_buy: "Buy",
     ccu_title: "Players online now",
     trending_badge: "🔥 Trending",
 

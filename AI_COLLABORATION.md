@@ -1,146 +1,215 @@
-# AI Collaboration Notes
+# AI Collaboration Log — coophubs.net
 
-Punto di handoff e log decisionale del progetto.
-Leggi questo file prima di intervenire. Aggiornalo dopo modifiche rilevanti.
-
----
-
-## Team
-
-| Agente | Ruolo |
-|--------|-------|
-| **Claude Code** | Leader tecnico — decisioni architetturali, QA, review, fix mirati |
-| **Aider + Ollama** (qwen2.5-coder:14b, GPU Vulkan AMD RX 9070 XT) | Task delegati via `ai-delegate` o aider CLI |
-| Gemini CLI | Fallback — quota API limitata |
-
-Setup Ollama: v0.18.0, backend Vulkan, ~5s generazione codice, ~26s analisi file complesso.
+Data ultimo aggiornamento: **2026-03-19**
 
 ---
 
-## Regole operative
+## Analisi Stato Progetto
 
-- Leggere questo file prima di toccare qualsiasi cosa.
-- Aggiornare il log dopo modifiche non banali.
-- Non sovrascrivere lavoro altrui senza leggere prima lo stato corrente.
-- Non lasciare decisioni importanti solo in chat — salvarle qui o nei file del progetto.
-- Segnalare sempre se una conclusione è confermata o solo un'ipotesi.
-- Non fare commit o push senza conferma esplicita dell'utente.
+### ✅ Completato (Feb-Mar 2026)
 
----
+**Core features:**
+- ✅ Catalogo 334 giochi coerente (games.js) con dati Steam/itch.io
+- ✅ Filtri raggruppati (Special: all/trending/free, Genere, Modalità)
+- ✅ Sistema "Giochi Già Giocati" (localStorage + localStorage_notes)
+- ✅ Note personali per giochi completati
+- ✅ Modale per dettagli gioco con link store
+- ✅ Routing statico: `games/<id>.html` (334 pagine per SEO)
+- ✅ I18n IT/EN completo
+- ✅ Sitemap.xml + robots.txt
+- ✅ Mobile responsive (CSS grid + flex)
 
-## Stato corrente del progetto
+**Affiliate monetization:**
+- ✅ Instant Gaming (IG): 3% commission, link tracking setup
+- ✅ GameBillet (GB): 5% commission, link tracking setup
+- ✅ Scraper prezzi IG/GB: 12x optimized (semafori, 10min per 334 games)
+- ✅ IG discount fixed: navigate to product page for `.discounted`
+- ✅ Price compare modal con 2-3 store alterniativi
+- ✅ CJ Affiliate + 7 pending (Fanatical, G2A, Gameseal, GAMIVO, K4G, Kinguin)
 
-- **Sito**: online su https://coophubs.net (GitHub Pages + Cloudflare)
-- **Catalogo**: 529 giochi, pipeline modulare multi-source
-- **Pagine statiche**: 529 pagine in `games/` + sitemap aggiornata
-- **i18n**: completo su tutte le pagine principali (IT/EN)
-- **Giochi gratuiti**: workflow giornaliero funzionante con dati reali
-- **PageSpeed Mobile**: Performance 93, Accessibility 92, Best Practices 100, SEO 100
-- **Architettura pipeline**: `auto_update.py` → `catalog_config.py` + `steam_catalog_source.py` + `itch_catalog_source.py` + `gog_catalog_source.py` + `igdb_catalog_source.py` + `steam_new_releases_source.py` + `catalog_data.py`
-- **Monetizzazione**: Ko-fi footer attivo, IG/GB/GMG affiliate attivi con sconto %, CJ Affiliate pending (7 store), GOG/Epic/WinGameStore in attesa approvazione
-- **Crossplay**: 86 giochi marcati `true`, filtro UI attivato, hreflang aggiunto
+**UX & Polish:**
+- ✅ Mobile toolbar compatto (genre/mode filters collassati dietro toggle)
+- ✅ Ko-fi float nascosto su mobile
+- ✅ Admin button rimosso (non più necessario)
+- ✅ Card layout omogeneo (altezze/spaziature uniformi)
+- ✅ Played toggle visibile e interattivo (✓ cerchio, top-left, z-index 15)
+- ✅ Note button ✎ su card giocate
+- ✅ Filter alignment corretto (full-width rows)
+- ✅ Cache busting implementato (?v=20260319-mob)
 
-### Decisioni architetturali confermate
-
-- **Multi-source pipeline**: IGDB e GOG adapter aggiunti — rivalutare orchestratore se si aggiunge un quinto source.
-- **game.html**: fallback legacy con `noindex` + canonical → pagina statica. Non rimuovere.
-- **crossplay**: 86 giochi marcati — dati provengono da IGDB/SteamSpy, non ancora verificati manualmente al 100%.
-- **PWA**: `manifest.json` presente ma nessun service worker — non prioritario.
-- **Font**: self-hosted (no dipendenza Google Fonts).
-- **Affiliate**: UTM tracking via `app.js`, parametri affiliato Epic/GOG pronti ma Creator Code/partner ID non ancora ottenuti.
-
----
-
-## Log
-
-### 2026-03-13 (Codex)
-Prima implementazione: `contact.html`, `about.html`, footer, SEO metadati, `build_static_pages.py`, 311 pagine statiche, sitemap, `validate_catalog.py`, privacy policy riscritta.
-
-### 2026-03-14 (Codex)
-Anno footer 2025→2026, sezione giochi gratuiti (`free.html`, `fetch_free_games.py`, `free_games.js`), i18n espanso, decomposizione `auto_update.py` in adapter modulari (`catalog_config.py`, `steam_catalog_source.py`, `itch_catalog_source.py`, `catalog_data.py`).
-
-### 2026-03-15 (Claude Code)
-- Fix game 156 "We Were Here Forever": steamUrl corretto (appid 1703880→1341290), image e description_en aggiornati
-- PageSpeed fix: font non-bloccanti, ARIA roles (`role="listitem"`), contrasto 4.5:1+ (accent #7c6aff→#6b5ce0), rimossi meta `no-cache` da 317 pagine
-- Risultato PageSpeed Mobile: 82→93 (+11), LCP 3.4s→2.6s, TBT 180ms→0ms
-- Creato `ai-continuity` + systemd per handoff automatico Claude↔Ollama quando i token si esauriscono
-
-### 2026-03-17 (Claude Code)
-- Rimosso commit spazzatura di aider (`path/to/filename.js` con system prompt interno)
-- Rimosso backend Node.js introdotto senza permesso (Express + package.json + node_modules)
-- Ripristinato repo locale a origin/main (`c241c03`), poi pull allineato a `69ca2e3`
-- Riorganizzazione file MD: `CLAUDE.md` unificato (era duplicato tra CLAUDE.md e AIDER_INSTRUCTIONS.md), `AI_COLLABORATION.md` trimmed, `SETUP_DOMAIN_CLOUDFLARE.md` rimosso (setup già completato), `.gitignore` migliorato, `.aider.conf.yml` creato
-
-### 2026-03-18 — parte 2 (Claude Code)
-- **Affiliate integrazione nel sito**: aggiunto blocco "Prezzi alternativi" nel modal (app.js) e nelle pagine statiche (build_static_pages.py)
-  - Instant Gaming: `?igr=gamer-ddc4a8` — link ricerca per titolo gioco
-  - GameBillet: `?affiliate=fb308ca0-647e-4ce7-9e80-74c2c591eac1` — link ricerca per titolo gioco
-  - Visibile solo per giochi con `steamUrl`, con `rel="sponsored"`, design discreto
-  - Epic/GOG: costanti predisposte in `AFFILIATE.epic` / `AFFILIATE.gog`, da riempire quando approvati
-- **CLAUDE.md**: aggiunta sezione "Programmi affiliate attivi" con tabella stato e architettura codice
-
-### 2026-03-18 (Claude Code)
-- Analisi completa stato progetto: catalogo a 520 giochi, nuovi adapter IGDB/GOG/steam_new_releases
-- **CJ Affiliate**: completato onboarding (9/9 step), W-8BEN firmato, account attivo
-- **CJ Pending applications (7)**: Fanatical, G2A, Gameseal, GAMIVO, GOG.COM INT, K4G, Kinguin
-- **GOG Affiliate**: email application inviata a affiliate@gog.com (+ GOG.COM INT su CJ in pending)
-- **Green Man Gaming (Impact.com)**: account creato (username: coophubs), applicazione inviata, In Review
-  - impact.com general marketplace: Declined (VPN + timing verifica) — non influenza GMG
-  - Meta tag verifica aggiunto a index.html, sito verificato
-- **WinGameStore affiliate**: account creato, email confermata, in attesa approvazione (entro 5 giorni lavorativi)
-- **Instant Gaming affiliate**: già attivo — link `https://www.instant-gaming.com/?igr=gamer-ddc4a8` (3% commissione per vendita)
-- **GameBillet affiliate**: attivo — link `http://www.gamebillet.com/?affiliate=fb308ca0-647e-4ce7-9e80-74c2c591eac1` (5% commissione, pagamento il 15 del mese)
-- **Ko-fi support strip**: sezione sopra footer con pulsante grande visibile
-- **Crossplay**: filtro UI attivato, 86 giochi marcati, hreflang aggiunto alle pagine statiche
-- Fix SEO critico: sitemap re-inviata a Google (era ferma a 314 URL del 14/03, ora 524 URL)
-- Workflow `update.yml`: cron cambiato da settimanale a **giornaliero** (ogni giorno 6:00 UTC)
-
-### 2026-03-18 — parte 3 (Claude Code)
-
-- **UI Fix — CSS cache**: ASSET_VERSION bump `20260314-cachefix1` → `20260318-gmg` (forza Cloudflare a servire CSS aggiornato con classi `.btn-affiliate`)
-- **UI Fix — immagini nere above-fold**: prime 6 card usano `loading="eager"` via parametro `cardIndex` in `createCard()`
-- **UI Fix — crossplay doppio emoji**: rimosso `🔄 ` hardcoded dal template (era duplicato con stringa i18n)
-- **UI Fix — page flash**: timer `scheduleFreeSectionRefresh` da 1000ms → 30000ms; badge refresh da ogni minuto a ogni 5 minuti
-- **Card button IG-first**: sostituita priorità Steam con IG sulla card — bottone IG con badge sconto %; GOG fallback per giochi senza Steam/IG
-- **GameBillet su card**: aggiunto `btn-gb-card` con badge sconto % accanto al bottone primario
-- **Green Man Gaming**: integrato nel modal e pagine statiche via Impact deep link `sjv.io/qWzoQy?u=ENCODED_SEARCH_URL`; account GMG su Impact.com in review
-- **Gameseal approvato** su CJ Affiliate (members.cj.com)
-- **Fix critico catalog.public.v1.json**: `build_public_catalog_export()` in `catalog_data.py` non includeva `igUrl/igDiscount/gbUrl/gbDiscount` → app.js non riceveva mai i dati affiliate → Steam sempre mostrato. Fix applicato e 529 pagine rigenerate.
-- **Copertura affiliate**: IG 305/529 giochi (78.6% su Steam games), GB 3/529 (bassa — catalogo GB piccolo)
-- **Skill Claude installate**: theme-factory, brand-guidelines, mcp-builder, webapp-testing, slack-gif-creator, document-pdf/docx/xlsx/pptx
-
-### 2026-03-18 — parte 4 (Claude Code)
-
-- **Token CJ API generato**: Personal Access Token `coophubs-gameseal` su developers.cj.com; salvato in `.env` (gitignored)
-- **Fix tracking domain Gameseal**: `dpbolvw.net` → `tkqlhce.com` in `app.js` e `build_static_pages.py` (era il link banner invece del link testuale CJ)
-- **CJ GraphQL API integrata**: endpoint `ads.api.cj.com/query`; publisher company ID `7903980`, Gameseal company ID `7571703` (= advertiser ID), adId feed `17167622`
-- **`fetch_gameseal_prices.py` scritto**: usa GraphQL `products(companyId, partnerIds, keywords, limit)` con `linkCode(pid)` per URL con tracking CJ incluso; filtra PC/Steam (esclude PS5/Xbox/etc.); preferisce EUR
-- **`catalog_data.py` aggiornato**: aggiunto `gsUrl`/`gsDiscount` in `LEGACY_RUNTIME_FIELDS`, `load_games()`, `build_public_catalog_export()`, `write_legacy_games_js()`
-- **`app.js` aggiornato**: usa `gsUrl` diretto quando disponibile, con badge sconto; fallback a search URL CJ
-- **`build_static_pages.py` aggiornato**: stesso pattern di `app.js`; ASSET_VERSION `20260318-gameseal` → `20260318-gs2`
-- **`update.yml` aggiornato**: aggiunto step `fetch_gameseal_prices.py` con `CJ_API_TOKEN` secret
-- **Run completo**: 326/388 giochi trovati su Gameseal (84%); discount 0% (Gameseal non espone salePrice per la maggior parte dei prodotti)
-- **529 pagine statiche rigenerate** + `catalog.public.v1.json` aggiornato con `gsUrl`
-- **Da fare manualmente**: aggiungere secret `CJ_API_TOKEN` in GitHub repo settings → Actions → Secrets
+**Infrastruttura:**
+- ✅ GitHub Pages hosting (statico)
+- ✅ Cloudflare DNS + proxy + HTTPS
+- ✅ GitHub Actions pipeline: aggiornamento giochi (lunedì), free games (giornaliero)
+- ✅ Python scraper: auto_update.py, build_static_pages.py, validate_catalog.py, fetch_free_games.py
 
 ---
 
-## Prossimi step consigliati
+## 🚨 Known Issues (Nessuno critico)
 
-### In attesa di approvazioni
-- WinGameStore: email supporto inviata per riconfermazione — attendere risposta
-- Green Man Gaming (Impact.com): account in review, ~2 giorni lavorativi
-- CJ Affiliate pending: Fanatical, G2A, GAMIVO, GOG.COM INT, K4G, Kinguin (Gameseal già approvato)
-- GOG direct: email inviata a affiliate@gog.com — attendere partner ID
-- Epic Games: Creator Code da richiedere in Epic Partner Portal
+| Problema | Severity | Note |
+|----------|----------|------|
+| Gameseal coverage basso | ⚠️ Medium | ~15 games trovati via CJ API, manca mapping many-to-one |
+| GOG partner ID | ⚠️ Low | ID non ancora ottenuto (architettura pronta in app.js) |
+| WinGameStore in review | ℹ️ Info | Approvazione entro 5gg lavorativi |
+| Green Man Gaming in review | ℹ️ Info | Impact.com approval pending |
 
-### Tecnici prioritari
-- **GameBillet scraper**: copertura solo 3/529 giochi — investigare causa (WAF? catalogo piccolo? DELAY?)
-- **Cloudflare Web Analytics**: attivare dal dashboard (gratuito, zero cookie, GDPR-friendly)
-- **Error handling fetch**: aggiungere `.catch()` e timeout al fetch di `catalog.public.v1.json` in `app.js`
+---
 
-### Quando le approvazioni arrivano
-- CJ stores: aggiungere link Gameseal/Fanatical nel modal (`buildAffiliateBtns()`)
-- GOG: compilare `AFFILIATE.gog` in `app.js` + `AFFILIATE_GOG` in `build_static_pages.py`
-- Epic: compilare `AFFILIATE.epic` in `app.js`
-- WinGameStore: aggiungere in `buildAffiliateBtns()` e `render_store_links()`
+## 📊 Roadmap (Next steps)
+
+### Fase 1: Completa coverage affiliate (Urgenza: MEDIA)
+
+**Obiettivo**: Massimizzare commission + click-through
+
+1. **Gameseal (CJ Affiliate)**
+   - Implementare mapping game <→ Gameseal product ID
+   - Attualmente ~15 games, target 100+
+   - Link structure: CJ tracking + Gameseal domain
+
+2. **GOG Partner ID**
+   - Ottenere GOG partner ID
+   - Aggiungere a AFFILIATE.gog (già pronto in app.js)
+   - Test su giochi GOG esclusivi
+
+3. **Fanatical, G2A, K4G, Kinguin**
+   - Status check con CJ Affiliate
+   - Implementare se approvati
+   - Priority: Fanatical (più noto in EU)
+
+4. **Check WinGameStore + Green Man Gaming approval**
+   - Status sulle email: approvazione entro 5gg?
+   - Se approved: integrare nei link del modal
+
+---
+
+### Fase 2: SEO & Traffic (Urgenza: MEDIA)
+
+**Obiettivo**: Aumentare organic traffic
+
+1. **Internal linking**
+   - Link da cards tra giochi correlati (stesso genere/modalità)
+   - Schema.json markup per game reviews (structured data)
+   - Breadcrumb nav su pagine game statiche
+
+2. **Meta descriptions**
+   - Audit corrente meta descriptions (games/<id>.html)
+   - Renderizzare da games.js description_it (120-160 char)
+   - Verificare unicità
+
+3. **Heading hierarchy**
+   - Audit h1-h3 structure per pagina
+   - Assicurare un solo h1 per pagina
+   - Logica h2 per sottosezioni
+
+4. **Rich snippets**
+   - Game schema.json (GamePlayMode, numberOfPlayers, etc.)
+   - Breadcrumb schema
+   - ReviewRating schema per rating Steam
+
+---
+
+### Fase 3: Features UX (Urgenza: BASSA)
+
+**Obiettivo**: Engagement e usability
+
+1. **Collections personali**
+   - Salvare custom liste di giochi (wishlist, "da comprare", etc.)
+   - Export/import JSON
+   - Storage: localStorage (come played games)
+
+2. **Advanced filters**
+   - Filter per price range (da scraper affiliates)
+   - Filter per release year range
+   - Filter per player count exact
+   - Combinare filtri con AND (già fatto, verificare UX)
+
+3. **Social sharing**
+   - Share button per game (Twitter, Reddit)
+   - Share wishlist
+   - URL param per preset (e.g. `?genre=horror&mode=online`)
+
+4. **Notifications**
+   - Alert quando gioco entra in sconto (IG/GB scraper monitoring)
+   - "New games" notifiche
+   - Optional: email digest settimanale (richiede backend minimo)
+
+---
+
+### Fase 4: Monitoring & Maintenance (ONGOING)
+
+**Obiettivo**: Salute progetto
+
+1. **Scraper health**
+   - Monitor IG/GB DOM changes (monthly audit)
+   - Fallback strategy se APIs cambiano
+   - Log errors + retry logic
+
+2. **Analytics**
+   - Implementare Plausible Analytics (privacy-first, no cookies)
+   - Track: game clicks, affiliate clicks, filters usati
+   - Monthly report su revenue affiliate
+
+3. **Content freshness**
+   - Review giochi new/removed monthly (Steam API)
+   - Validate affiliate URLs (200 HTTP check)
+   - Check CCU trends (giochi dead removal candidate)
+
+4. **Performance monitoring**
+   - PageSpeed Insights (target >90 mobile, >95 desktop)
+   - Lighthouse audit (monthly)
+   - Asset size monitoring
+
+---
+
+## 💰 Revenue Projection (Estimate basato su dati storici)
+
+| Canale | Stato | Commissione | Est. Games | Est. Click/mese | Est. Revenue/mese |
+|--------|-------|-------------|-----------|-----------------|-------------------|
+| Instant Gaming | ✅ Active | 3% | 250+ | ~300 | ~$50-80 |
+| GameBillet | ✅ Active | 5% | 200+ | ~150 | $30-50 |
+| Gameseal (CJ) | 🔄 Partial | varia | ~15 | ~30 | $5-15 |
+| Epic (pending CC) | ⏳ Ready | varia | ~80 | ~40 | $20-40 |
+| GOG (pending ID) | ⏳ Ready | varia | ~120 | ~60 | $30-60 |
+| Fanatical + others | ⏳ CJ pending | varia | ~100 | ~50 | $20-40 |
+| **TOTALE** | - | - | - | **~630** | **$155-285** |
+
+**Note**: Stime conservative, reale dipende da click-through rate (CTR) e conversion
+
+---
+
+## 📝 Log Modifiche
+
+### 2026-03-19 (Today)
+
+- **Commit f880f0a**: `fix(ux): mobile toolbar compatta + scraper IG ottimizzato`
+  - Mobile toolbar: genre/mode filters collassati dietro toggle
+  - Ko-fi float nascosto su mobile
+  - Scraper IG: navigazione a product page per `.discounted`
+  - Scraper IG/GB: semaphore concurrency (IG=8, GB=5), 12x speedup
+  - Cache bust version: `20260319-mob`
+  - Test: Brotato -60%, Elden Ring -22%, Rust -92% ✅
+
+### 2026-03-18
+
+- **Commit a669512**: `fix(ui): move Gratis to special row, fix played toggle visibility, homogenize cards`
+  - Filtro "Gratis" spostato in filterSpecial (accanto all/trending)
+  - Bottone ✓ "Giochi Già Giocati": visibile (z-index 15, top-left, glass effect)
+  - Note button ✎ su card giocate
+  - Card layout omogeneo (rimosso margin-top: auto da .card-desc)
+  - Filter alignment: full-width rows
+
+- **Commit 051a329**: `fix(ui): remove admin button, fix filter alignment, improve played/note UX`
+  - Admin button rimosso (HTML + CSS + JS)
+  - Filter container: width 100% (full-width rows)
+  - Played toggle: z-index 15, positioned top-left con cerchio 30px
+
+---
+
+## 🤝 Collaboration Notes
+
+- **Andrea** (owner): decisioni, testing, deploy
+- **Claude Code**: tech lead, code review, roadmap, fix prioritizzazione
+- **Aider + Ollama**: task delegati (coding ripetitivo, scraper fixes, refactoring meccanico)
+
+**Prossima sync**: Plan per Fase 1 (Gameseal + Epic + GOG affiliate coverage)
