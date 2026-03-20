@@ -170,6 +170,9 @@
       const extLinksTitle = document.getElementById('extLinksTitle');
       if (extLinksTitle) extLinksTitle.textContent = isEn ? 'External Resources' : 'Risorse esterne';
 
+      const storeTitle = document.getElementById('storeTitle');
+      if (storeTitle) storeTitle.textContent = isEn ? 'Buy' : 'Acquista';
+
       document.querySelector('meta[name="description"]').content = metaDesc;
       document.querySelector('meta[property="og:description"]').content = metaDesc;
       document.querySelector('meta[name="twitter:description"]').content = metaDesc;

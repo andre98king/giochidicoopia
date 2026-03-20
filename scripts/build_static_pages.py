@@ -192,27 +192,27 @@ def render_external_links(game: dict) -> str:
 
 def render_store_links(game: dict) -> str:
     from urllib.parse import quote
-    links = []
+    btns = []
+    # Store ufficiali
     if game["steamUrl"]:
-        links.append(
-            f'<a class="btn-primary" href="{esc(add_utm(game["steamUrl"]))}" target="_blank" '
-            'rel="noopener noreferrer">Steam ↗</a>'
+        btns.append(
+            f'<a class="btn-affiliate btn-steam" href="{esc(add_utm(game["steamUrl"]))}" target="_blank" '
+            'rel="noopener noreferrer"><span class="affiliate-store">Steam</span></a>'
         )
     if game["epicUrl"]:
-        links.append(
-            f'<a class="btn-primary btn-epic-lg" href="{esc(add_utm(game["epicUrl"]))}" target="_blank" '
-            'rel="noopener noreferrer">Epic Games ↗</a>'
+        btns.append(
+            f'<a class="btn-affiliate btn-epic" href="{esc(add_utm(game["epicUrl"]))}" target="_blank" '
+            'rel="noopener noreferrer"><span class="affiliate-store">Epic Games</span></a>'
         )
     if game["itchUrl"]:
-        links.append(
-            f'<a class="btn-store btn-itch" href="{esc(add_utm(game["itchUrl"]))}" target="_blank" '
-            'rel="noopener noreferrer" style="padding:10px 20px;font-size:0.9rem">itch.io ↗</a>'
+        btns.append(
+            f'<a class="btn-affiliate btn-itch" href="{esc(add_utm(game["itchUrl"]))}" target="_blank" '
+            'rel="noopener noreferrer"><span class="affiliate-store">itch.io</span></a>'
         )
     # Prezzi alternativi — solo per giochi a pagamento (non free-to-play)
     is_free = "free" in (game.get("categories") or [])
     if not is_free and game["steamUrl"] and (AFFILIATE_IG or AFFILIATE_GB or AFFILIATE_GMG or AFFILIATE_GAMESEAL):
         q = quote(game["title"])
-        btns = []
         if AFFILIATE_IG:
             ig_url = game.get("igUrl") or f"https://www.instant-gaming.com/en/search/?query={q}&igr={AFFILIATE_IG}"
             ig_discount = game.get("igDiscount") or 0
@@ -243,7 +243,7 @@ def render_store_links(game: dict) -> str:
         if AFFILIATE_GAMESEAL:
             from urllib.parse import quote as _q
             if game.get("gsUrl"):
-                gs_url = game["gsUrl"]  # link diretto con tracking CJ già incluso
+                gs_url = game["gsUrl"]
             else:
                 gs_search = f"https://gameseal.com/search?search={q}"
                 gs_url = f"{AFFILIATE_GAMESEAL}?url={_q(gs_search)}"
@@ -253,11 +253,12 @@ def render_store_links(game: dict) -> str:
                 f'target="_blank" rel="noopener noreferrer sponsored">'
                 f'<span class="affiliate-store">Gameseal</span>{gs_badge}</a>'
             )
-        links.append(
-            '<div class="affiliate-section"><div class="affiliate-title">💸 Prezzi alternativi</div>'
-            '<div class="affiliate-btns">' + "".join(btns) + "</div></div>"
-        )
-    return "".join(links)
+    if not btns:
+        return ""
+    return (
+        '<div class="store-section"><div class="game-section-title" id="storeTitle">Acquista</div>'
+        '<div class="affiliate-btns">' + "".join(btns) + "</div></div>"
+    )
 
 
 def render_tags(game: dict) -> str:
@@ -530,6 +531,9 @@ def render_static_page(game: dict, all_games: list | None = None) -> str:
 
       const extLinksTitle = document.getElementById('extLinksTitle');
       if (extLinksTitle) extLinksTitle.textContent = isEn ? 'External Resources' : 'Risorse esterne';
+
+      const storeTitle = document.getElementById('storeTitle');
+      if (storeTitle) storeTitle.textContent = isEn ? 'Buy' : 'Acquista';
 
       document.querySelector('meta[name="description"]').content = metaDesc;
       document.querySelector('meta[property="og:description"]').content = metaDesc;

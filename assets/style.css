@@ -1091,6 +1091,10 @@ body {
 .btn-ig-card { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #e2d96e; border: 1px solid rgba(226,217,110,0.3); font-weight: 700; }
 .btn-gb-card { background: linear-gradient(135deg, #0f3460 0%, #0a2647 100%); color: #90caf9; border: 1px solid rgba(144,202,249,0.3); font-weight: 700; }
 .btn-ig-card:hover { background: linear-gradient(135deg, #222244 0%, #1a2a50 100%); border-color: rgba(226,217,110,0.6); }
+/* Store buttons (game pages) */
+.btn-steam { background: linear-gradient(135deg, #1b2838 0%, #171a21 100%); color: #66c0f4; border: 1px solid rgba(102,192,244,0.3); }
+.btn-epic { background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%); color: #fff; border: 1px solid rgba(255,255,255,0.2); }
+.btn-itch { background: linear-gradient(135deg, #2e1a2e 0%, #1f0f1f 100%); color: #fa5c5c; border: 1px solid rgba(250,92,92,0.3); }
 /* Green Man Gaming button */
 .btn-gmg { background: linear-gradient(135deg, #1a2e1a 0%, #0f1f0f 100%); color: #4caf50; border: 1px solid rgba(76,175,80,0.35); }
 .btn-gmg:hover { filter: brightness(1.15); transform: translateY(-1px); }
@@ -1100,6 +1104,7 @@ body {
 /* Affiliate buttons */
 .affiliate-section { margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--border); }
 .affiliate-title { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 1.5px; color: var(--text2); margin-bottom: 10px; font-weight: 600; }
+.store-section { margin-bottom: 8px; }
 .affiliate-btns { display: flex; gap: 8px; flex-wrap: wrap; }
 .btn-affiliate { display: inline-flex; align-items: center; gap: 6px; padding: 8px 12px; border-radius: 8px; font-weight: 700; font-size: 0.82rem; text-decoration: none; transition: filter 0.2s, transform 0.15s; white-space: nowrap; }
 @media (max-width: 500px) { .affiliate-btns { display: grid; grid-template-columns: 1fr 1fr; } }
