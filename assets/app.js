@@ -706,7 +706,7 @@ function buildAffiliateBtns(game) {
     btns.push(`<a class="btn-affiliate btn-gameseal" href="${esc(gsUrl)}" target="_blank" rel="noopener noreferrer sponsored"><span class="affiliate-store">Gameseal</span>${gsBadge}</a>`);
   }
 
-  return `<div class="affiliate-section"><div class="affiliate-title">💸 Prezzi alternativi</div><div class="affiliate-btns">${btns.join('')}</div></div>`;
+  return `<div class="affiliate-section"><div class="affiliate-title">💸 ${t('modal_alt_prices')}</div><div class="affiliate-btns">${btns.join('')}</div></div>`;
 }
 
 function addUtm(url, campaign = 'catalog') {
