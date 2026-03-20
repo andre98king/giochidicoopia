@@ -1569,6 +1569,21 @@ body {
   font-size: 0.95rem;
   margin: 0 0 14px;
 }
+.support-strip__links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 14px;
+  flex-wrap: wrap;
+}
+.support-strip__links a {
+  color: var(--text2);
+  text-decoration: none;
+  font-size: 0.82rem;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+.support-strip__links a:hover { opacity: 1; color: var(--accent); }
 
 .btn-kofi--lg {
   font-size: 1rem;
@@ -1642,8 +1657,15 @@ body {
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
     padding-bottom: 2px;
+    position: relative;
+    mask-image: linear-gradient(to right, #000 85%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, #000 85%, transparent 100%);
   }
   .filter-group::-webkit-scrollbar { display: none; }
+  .filter-group.scrolled-end {
+    mask-image: none;
+    -webkit-mask-image: none;
+  }
 
   /* Mode filters: collapsed by default */
   .filters-mode {
@@ -1659,8 +1681,14 @@ body {
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
     width: 100%;
+    mask-image: linear-gradient(to right, #000 85%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, #000 85%, transparent 100%);
   }
   .filters-mode .filter-group::-webkit-scrollbar { display: none; }
+  .filters-mode .filter-group.scrolled-end {
+    mask-image: none;
+    -webkit-mask-image: none;
+  }
   .filters-mode.collapsed { display: none; }
   .filters-mode.collapsed + .btn-toggle-filters { display: none; }
 
@@ -1690,11 +1718,11 @@ body {
   .btn-wheel { padding: 7px 16px; font-size: 0.8rem; }
   .btn-lang { padding: 6px 10px; font-size: 0.75rem; }
   .page-head {
-    flex-direction: column;
-    align-items: stretch;
+    flex-direction: row;
+    align-items: center;
   }
   .page-head-actions {
-    justify-content: flex-start;
+    margin-left: auto;
   }
 
   .free-games-section {

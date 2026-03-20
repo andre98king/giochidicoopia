@@ -922,6 +922,25 @@ const WHEEL_COLORS = [
   '#43e97b','#fa709a','#fee140','#30cfd0','#667eea'
 ];
 
+const WHEEL_SLOTS = 12;
+
+function sampleForWheel(games, mustInclude) {
+  if (games.length <= WHEEL_SLOTS) return { list: [...games], winIdx: games.indexOf(mustInclude) };
+  const sample = [mustInclude];
+  const pool = games.filter(g => g.id !== mustInclude.id);
+  for (let i = pool.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [pool[i], pool[j]] = [pool[j], pool[i]];
+  }
+  sample.push(...pool.slice(0, WHEEL_SLOTS - 1));
+  // Shuffle sample so winner isn't always first
+  for (let i = sample.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [sample[i], sample[j]] = [sample[j], sample[i]];
+  }
+  return { list: sample, winIdx: sample.indexOf(mustInclude) };
+}
+
 function openWheel() {
   const filtered = getFilteredGames();
   if (filtered.length === 0) return;
@@ -930,7 +949,10 @@ function openWheel() {
   document.body.style.overflow = 'hidden';
   document.getElementById('wheelResult').classList.remove('show');
   document.getElementById('spinBtn').disabled = false;
-  drawWheel(filtered, 0);
+  // Pre-pick winner and sample for display
+  const preWinner = filtered[Math.floor(Math.random() * filtered.length)];
+  const { list } = sampleForWheel(filtered, preWinner);
+  drawWheel(list, 0);
 }
 
 function closeWheelModal() {
@@ -997,10 +1019,12 @@ function spinWheel() {
   document.getElementById('spinBtn').disabled = true;
   document.getElementById('wheelResult').classList.remove('show');
 
+  const winner = filtered[Math.floor(Math.random() * filtered.length)];
+  const { list, winIdx } = sampleForWheel(filtered, winner);
+
   const extraSpins = 6 + Math.random() * 6;
-  const winIndex = Math.floor(Math.random() * filtered.length);
-  const arc = (2 * Math.PI) / filtered.length;
-  const targetAngle = 2 * Math.PI * extraSpins - (winIndex * arc) - arc / 2;
+  const arc = (2 * Math.PI) / list.length;
+  const targetAngle = 2 * Math.PI * extraSpins - (winIdx * arc) - arc / 2;
   let start = null, currentRot = 0;
   const duration = 4000 + Math.random() * 1500;
 
@@ -1010,13 +1034,12 @@ function spinWheel() {
     if (!start) start = ts;
     const progress = Math.min((ts - start) / duration, 1);
     currentRot = easeOut(progress) * targetAngle;
-    drawWheel(filtered, currentRot);
+    drawWheel(list, currentRot);
     if (progress < 1) {
       requestAnimationFrame(animate);
     } else {
       wheelSpinning = false;
       document.getElementById('spinBtn').disabled = false;
-      const winner = filtered[winIndex];
       const resultEl = document.getElementById('wheelResult');
       document.getElementById('wheelResultTitle').textContent = winner.title;
       document.getElementById('wheelResultSub').textContent =
@@ -1035,6 +1058,14 @@ function spinWheel() {
 // Close on ESC
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') { closeModal(); closeWheelModal(); }
+});
+
+// ===== FILTER SCROLL FADE =====
+document.querySelectorAll('.filter-group').forEach(group => {
+  group.addEventListener('scroll', () => {
+    const atEnd = group.scrollLeft + group.clientWidth >= group.scrollWidth - 5;
+    group.classList.toggle('scrolled-end', atEnd);
+  }, { passive: true });
 });
 
 // ===== SCROLL TO TOP =====
