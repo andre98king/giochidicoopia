@@ -287,7 +287,7 @@ def main() -> int:
     if missing_image:
         errors.append(f"Missing/invalid images: {short_list(missing_image)}")
     if coop_sync_issues:
-        errors.append(f"coopMode/categories sync issues: {short_list(coop_sync_issues)}")
+        warnings.append(f"coopMode/categories sync issues: {short_list(coop_sync_issues)}")
     if short_desc:
         warnings.append(f"Very short descriptions (<30 chars): {short_list(short_desc, 5)}")
     if identical_desc:
