@@ -675,6 +675,7 @@ const AFFILIATE = {
   gb:   'fb308ca0-647e-4ce7-9e80-74c2c591eac1',  // GameBillet
   gmg:  'https://greenmangaming.sjv.io/qWzoQy',  // Green Man Gaming (Impact)
   gameseal: 'https://www.tkqlhce.com/click-101708519-17170422', // Gameseal (CJ Affiliate)
+  mgs: 'coophub', // MacGameStore / WinGameStore (ars= param)
 };
 
 // ===== UTM TRACKING + AFFILIATE =====
@@ -723,6 +724,12 @@ function buildAffiliateBtns(game) {
     }
     const gsBadge = game.gsDiscount ? `<span class="affiliate-discount">-${game.gsDiscount}%</span>` : '';
     btns.push(`<a class="btn-affiliate btn-gameseal" href="${esc(gsUrl)}" target="_blank" rel="noopener noreferrer sponsored"><span class="affiliate-store">Gameseal</span>${gsBadge}</a>`);
+  }
+
+  // MacGameStore / WinGameStore: ricerca per titolo con parametro ars=
+  if (AFFILIATE.mgs) {
+    const mgsUrl = `https://www.macgamestore.com/search/?ars=${AFFILIATE.mgs}&SearchWord=${q}`;
+    btns.push(`<a class="btn-affiliate btn-mgs" href="${esc(mgsUrl)}" target="_blank" rel="noopener noreferrer sponsored"><span class="affiliate-store">MacGameStore</span></a>`);
   }
 
   return `<div class="affiliate-section"><div class="affiliate-title">💸 ${t('modal_alt_prices')}</div><div class="affiliate-btns">${btns.join('')}</div></div>`;
