@@ -106,7 +106,6 @@ AFFILIATE_IG  = "gamer-ddc4a8"
 AFFILIATE_GB  = "fb308ca0-647e-4ce7-9e80-74c2c591eac1"
 AFFILIATE_GMG = "https://greenmangaming.sjv.io/qWzoQy"  # Impact deep link base
 AFFILIATE_GAMESEAL = "https://www.tkqlhce.com/click-101708519-17170422"  # CJ Affiliate deep link
-AFFILIATE_MGS = "coophub"  # MacGameStore / WinGameStore (ars= param)
 
 
 def add_utm(url: str, campaign: str = "gamepage") -> str:
@@ -212,7 +211,7 @@ def render_store_links(game: dict) -> str:
         )
     # Prezzi alternativi — solo per giochi a pagamento (non free-to-play)
     is_free = "free" in (game.get("categories") or [])
-    if not is_free and game["steamUrl"] and (AFFILIATE_IG or AFFILIATE_GB or AFFILIATE_GMG or AFFILIATE_GAMESEAL or AFFILIATE_MGS):
+    if not is_free and game["steamUrl"] and (AFFILIATE_IG or AFFILIATE_GB or AFFILIATE_GMG or AFFILIATE_GAMESEAL):
         q = quote(game["title"])
         if AFFILIATE_IG:
             ig_url = game.get("igUrl") or f"https://www.instant-gaming.com/en/search/?query={q}&igr={AFFILIATE_IG}"
@@ -253,13 +252,6 @@ def render_store_links(game: dict) -> str:
                 f'<a class="btn-affiliate btn-gameseal" href="{esc(gs_url)}" '
                 f'target="_blank" rel="noopener noreferrer sponsored">'
                 f'<span class="affiliate-store">Gameseal</span>{gs_badge}</a>'
-            )
-        if AFFILIATE_MGS:
-            mgs_url = f"https://www.macgamestore.com/search/?ars={AFFILIATE_MGS}&SearchWord={q}"
-            btns.append(
-                f'<a class="btn-affiliate btn-mgs" href="{esc(mgs_url)}" '
-                f'target="_blank" rel="noopener noreferrer sponsored">'
-                f'<span class="affiliate-store">MacGameStore</span></a>'
             )
     if not btns:
         return ""
