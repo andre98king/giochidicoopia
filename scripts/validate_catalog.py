@@ -297,6 +297,20 @@ def main() -> int:
     if single_cat:
         warnings.append(f"Games with only 1 category: {len(single_cat)} games")
 
+    # Cross-validation co-op report
+    crossval_report = catalog_data.DATA_DIR / "coop_validation_report.json"
+    if crossval_report.is_file():
+        try:
+            cv = json.loads(crossval_report.read_text())
+            cv_rej = len(cv.get("rejected", []))
+            cv_dis = len(cv.get("disputed", []))
+            if cv_rej:
+                warnings.append(f"Co-op cross-validation: {cv_rej} games REJECTED (not co-op per Steam+IGDB)")
+            if cv_dis:
+                warnings.append(f"Co-op cross-validation: {cv_dis} games DISPUTED (sources disagree)")
+        except Exception:
+            pass
+
     # Affiliate coverage summary
     ig_count = sum(1 for g in games if g.get("igUrl"))
     gs_count = sum(1 for g in games if g.get("gsUrl"))

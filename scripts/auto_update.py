@@ -681,6 +681,7 @@ v_fixed_indie  = 0
 v_fixed_title  = 0
 v_removed_nocoop = 0
 v_checked      = 0
+nocoop_flagged_ids = []
 
 # Rotazione: ad ogni run verifica un blocco diverso di giochi
 # Così in ~4 run copriamo tutto il DB
@@ -760,8 +761,8 @@ for g in rotated_games:
     has_coop = any('co-op' in c or 'multiplayer' in c or 'multi-player' in c for c in steam_cats)
     if not has_coop:
         v_removed_nocoop += 1
+        nocoop_flagged_ids.append(g['id'])
         print(f"  ⚠️  {g['title']}: NESSUNA categoria co-op su Steam!")
-        # Non rimuoviamo, ma logghiamo per revisione manuale
 
     # Aggiorna coopMode e crossplay dai dati Steam reali
     g['coopMode'] = derive_coop_modes(steam_cats)
@@ -784,6 +785,14 @@ print(f"  Fix free  : {v_fixed_free}")
 print(f"  Fix indie : {v_fixed_indie}")
 print(f"  Fix titoli: {v_fixed_title}")
 print(f"  Senza co-op (warning): {v_removed_nocoop}")
+
+# Esporta giochi flaggati senza co-op per cross-validation
+catalog_data.DATA_DIR.mkdir(exist_ok=True)
+NOCOOP_FLAGGED_PATH = catalog_data.DATA_DIR / "_nocoop_flagged.json"
+NOCOOP_FLAGGED_PATH.write_text(
+    json.dumps({"game_ids": nocoop_flagged_ids}, indent=2) + "\n",
+    encoding="utf-8",
+)
 
 
 # ─────────────────────── Arricchimento IGDB ──────────────────────────────

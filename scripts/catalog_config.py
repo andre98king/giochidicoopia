@@ -99,6 +99,14 @@ BLACKLIST_APPIDS = {
     '223750',   # DCS World Steam Edition (simulatore militare)
     # Giochi prevalentemente PvP con modalità co-op secondaria
     '1985810',  # Call of Duty: Black Ops Cold War (PvP principale)
+    # Rimossi da cross-validation 2026-03-21
+    '268500',   # XCOM 2 (multiplayer PvP, no co-op campaign)
+    '32470',    # STAR WARS Empire at War (RTS PvP)
+    '392160',   # X4: Foundations (single player)
+    '12210',    # Grand Theft Auto IV (rimosso da Steam)
+    '880940',   # Pummel Party (party PvP)
+    '532270',   # Nidhogg 2 (1v1 PvP fighting)
+    '1318440',  # Worms Rumble (PvP battle royale)
 }
 
 # Filtro qualità minima per nuovi giochi — pipeline SteamSpy (trending)
@@ -224,3 +232,18 @@ NOT_FREE_APPIDS = {
 
 # Verifica integrità
 MAX_VERIFY     = 80   # max giochi da verificare via API per run (rate limit)
+MAX_CROSSVAL   = 80   # max giochi da cross-validare co-op per run
+
+# Giochi verificati manualmente come co-op (override cross-validation)
+# Questi giochi hanno tag Steam/IGDB mancanti ma sono co-op confermati
+VERIFIED_COOP_APPIDS = {
+    '700330',   # SCP: Secret Laboratory (co-op horror)
+    '285900',   # Gang Beasts (co-op + party)
+    '1057090',  # Trine 4: The Nightmare Prince (co-op puzzle platformer)
+    '416200',   # Full Metal Furies (co-op action RPG)
+    '1073980',  # Boomerang Fu (co-op + party)
+    '2527950',  # Moving Out 2 (co-op moving sim)
+    '1272790',  # Devour (co-op horror)
+    '440',      # Team Fortress 2 (MvM co-op mode)
+    '505460',   # Foxhole (team-based co-op warfare)
+}
