@@ -222,4 +222,6 @@ Data ultimo aggiornamento: **2026-03-20**
 - **SEO: External Links** — SteamDB, HowLongToBeat, ProtonDB, PCGamingWiki su ogni game page con Steam URL
 - **SEO: GSC** — Sitemap re-inviata, homepage re-indicizzata su Google Search Console
 - **Data: CCU fallback** — auto_update.py ora interroga SteamSpy individualmente per 46 giochi Steam con CCU 0
-- **Roadmap**: task 1.1, 2.3, 2.4, 3.1 completati/verificati
+- **Data: releaseYear** — `parse_release_year()` in steam_catalog_source.py, pipeline aggiornata, backfill 387/549 giochi Steam
+- **UX: Filtro anno** — Select dropdown (2024–2025, 2020–2023, 2015–2019, <2015) + sort "Più recenti", i18n IT/EN
+- **Roadmap**: task 1.1, 1.5, 2.2, 2.3, 2.4, 3.1 completati/verificati

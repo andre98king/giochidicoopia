@@ -10,7 +10,8 @@ function esc(str) {
 let activeFilters = new Set();    // genre/category filters (horror, action, etc.)
 let activeModeFilters = new Set(); // mode filters (mode_online, mode_local, players_2, etc.)
 let searchQuery = '';
-let sortMode = 'default'; // 'default' | 'trending' | 'rating' | 'az'
+let sortMode = 'default'; // 'default' | 'trending' | 'rating' | 'az' | 'newest'
+let yearFilter = 'all'; // 'all' | '2024' | '2020' | '2015' | 'classic'
 let wheelSpinning = false;
 let catalogGames = [];
 let featuredIndieGameId = null;
@@ -365,6 +366,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     renderGames();
   });
 
+  document.getElementById('yearFilter').addEventListener('change', e => {
+    yearFilter = e.target.value;
+    renderGames();
+  });
+
   document.getElementById('wheelBtn').addEventListener('click', openWheel);
 
   document.getElementById('modalOverlay').addEventListener('click', e => {
@@ -534,10 +540,23 @@ function getFilteredGames() {
       game.title.toLowerCase().includes(searchQuery) ||
       descriptions.some(text => text.includes(searchQuery)) ||
       game.categories.some(c => c.includes(searchQuery));
-    return matchesCat && matchesMode && matchesSearch;
+    // Year filter
+    let matchesYear = true;
+    if (yearFilter !== 'all' && game.releaseYear) {
+      const yr = game.releaseYear;
+      if (yearFilter === '2024') matchesYear = yr >= 2024;
+      else if (yearFilter === '2020') matchesYear = yr >= 2020 && yr <= 2023;
+      else if (yearFilter === '2015') matchesYear = yr >= 2015 && yr <= 2019;
+      else if (yearFilter === 'classic') matchesYear = yr < 2015;
+    } else if (yearFilter !== 'all' && !game.releaseYear) {
+      matchesYear = false;
+    }
+    return matchesCat && matchesMode && matchesSearch && matchesYear;
   });
 
-  if (sortMode === 'trending') {
+  if (sortMode === 'newest') {
+    filtered = [...filtered].sort((a, b) => (b.releaseYear || 0) - (a.releaseYear || 0));
+  } else if (sortMode === 'trending') {
     filtered = [...filtered].sort((a, b) => (b.ccu || 0) - (a.ccu || 0));
   } else if (sortMode === 'rating') {
     filtered = [...filtered].sort((a, b) => (b.rating || 0) - (a.rating || 0));

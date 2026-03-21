@@ -231,6 +231,89 @@ def main() -> int:
         if unexpected_locs:
             warnings.append(f"Unexpected sitemap URLs: {short_list(unexpected_locs)}")
 
+    # ──────── Data quality checks ────────
+    corrupted_desc = []
+    short_desc = []
+    identical_desc = []
+    missing_year_steam = []
+    missing_image = []
+    coop_sync_issues = []
+    single_cat = []
+
+    for game in games:
+        game_id = game["id"]
+        title = (game.get("title") or "").strip()
+        desc = (game.get("description") or "").strip()
+        desc_en = (game.get("description_en") or "").strip()
+        steam_url = (game.get("steamUrl") or "").strip()
+        cats = game.get("categories") or []
+        modes = game.get("coopMode") or []
+        image = (game.get("image") or "").strip()
+
+        # Corrupted descriptions (URLs, HTML entities)
+        if desc.startswith("http://") or desc.startswith("https://"):
+            corrupted_desc.append(f"{game_id} ({title}): description is a URL")
+        if "&#" in desc or "&amp;" in desc:
+            corrupted_desc.append(f"{game_id} ({title}): description has raw HTML entities")
+
+        # Short descriptions
+        if desc and len(desc) < 30:
+            short_desc.append(f"{game_id} ({title}): {len(desc)} chars")
+
+        # Identical IT=EN (not translated)
+        if desc and desc_en and desc == desc_en and len(desc) > 15:
+            identical_desc.append(f"{game_id} ({title})")
+
+        # Missing releaseYear for Steam games
+        if steam_url and not game.get("releaseYear"):
+            missing_year_steam.append(f"{game_id} ({title})")
+
+        # Missing image
+        if not image or not image.startswith("https://"):
+            missing_image.append(f"{game_id} ({title})")
+
+        # coopMode vs categories sync
+        if "splitscreen" in cats and "split" not in modes:
+            coop_sync_issues.append(f"{game_id} ({title}): splitscreen in cats but not in coopMode")
+        if "split" in modes and "splitscreen" not in cats:
+            coop_sync_issues.append(f"{game_id} ({title}): split in coopMode but not in cats")
+
+        # Thin categorization
+        if len(cats) == 1 and cats[0] not in ("free",):
+            single_cat.append(f"{game_id} ({title}): only [{cats[0]}]")
+
+    if corrupted_desc:
+        errors.append(f"Corrupted descriptions: {short_list(corrupted_desc)}")
+    if missing_image:
+        errors.append(f"Missing/invalid images: {short_list(missing_image)}")
+    if coop_sync_issues:
+        errors.append(f"coopMode/categories sync issues: {short_list(coop_sync_issues)}")
+    if short_desc:
+        warnings.append(f"Very short descriptions (<30 chars): {short_list(short_desc, 5)}")
+    if identical_desc:
+        warnings.append(f"Identical IT=EN descriptions (not translated): {len(identical_desc)} games")
+    if missing_year_steam:
+        warnings.append(f"Steam games without releaseYear: {short_list(missing_year_steam, 5)}")
+    if single_cat:
+        warnings.append(f"Games with only 1 category: {len(single_cat)} games")
+
+    # Affiliate coverage summary
+    ig_count = sum(1 for g in games if g.get("igUrl"))
+    gs_count = sum(1 for g in games if g.get("gsUrl"))
+    gb_count = sum(1 for g in games if g.get("gbUrl"))
+    steam_count = sum(1 for g in games if g.get("steamUrl"))
+    ig_disc = sum(1 for g in games if g.get("igDiscount", 0) > 0)
+    gs_disc = sum(1 for g in games if g.get("gsDiscount", 0) > 0)
+
+    print(f"\n  Affiliate coverage (Steam games: {steam_count}):")
+    print(f"    IG: {ig_count} links ({ig_disc} with discount)")
+    print(f"    GS: {gs_count} links ({gs_disc} with discount)")
+    print(f"    GB: {gb_count} links")
+    if gb_count <= 5:
+        warnings.append(f"GameBillet coverage extremely low: {gb_count} games")
+    if gs_count > 50 and gs_disc == 0:
+        warnings.append(f"Gameseal has {gs_count} links but 0 discounts — scraper may need re-run")
+
     crossplay_count = sum(1 for game in games if game.get("crossplay"))
     if crossplay_count == 0:
         warnings.append(

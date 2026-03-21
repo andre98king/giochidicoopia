@@ -37,6 +37,7 @@ from steam_catalog_source import (
     derive_genres,
     derive_players_label,
     parse_max_players,
+    parse_release_year,
 )
 
 steam_source = SteamCatalogSource(delay=DELAY)
@@ -173,6 +174,21 @@ for g in existing_games:
 print(f"  Descrizioni EN aggiunte: {en_fetched}  |  Fallite: {en_failed}")
 
 
+# ─────────── Fetch releaseYear per giochi esistenti senza ────────────────
+missing_year = [g for g in existing_games if not g.get('releaseYear') and appid_from_url(g.get('steamUrl', ''))]
+print(f"\n📅 Fetch releaseYear mancante: {len(missing_year)} giochi Steam...")
+year_fetched = 0
+for g in missing_year:
+    aid = appid_from_url(g['steamUrl'])
+    sd_year, _ = steam_source.fetch_steam_desc(aid, 'english')
+    if sd_year:
+        yr = parse_release_year(sd_year.get('release_date'))
+        if yr:
+            g['releaseYear'] = yr
+            year_fetched += 1
+print(f"  releaseYear aggiunti: {year_fetched}")
+
+
 # ─────────────────── Trova nuovi candidati ───────────────────────────────
 print("\n🆕 Ricerca nuovi giochi co-op non nel database...")
 new_candidates = []
@@ -294,6 +310,8 @@ for candidate in new_candidates:
     new_crossplay = derive_crossplay(steam_cats_lower)
     new_max_players = parse_max_players(players)
 
+    release_year = parse_release_year(sd.get('release_date'))
+
     new_game = {
         'id':             next_id,
         'title':          name,
@@ -303,6 +321,7 @@ for candidate in new_candidates:
         'maxPlayers':     new_max_players,
         'crossplay':      new_crossplay,
         'players':        players,
+        'releaseYear':    release_year,
         'image':          f"https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/{aid}/header.jpg",
         'description':    desc_it,
         'description_en': desc_en,

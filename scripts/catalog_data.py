@@ -228,6 +228,7 @@ def load_games() -> list[dict[str, Any]]:
             "maxPlayers": ef(block, "maxPlayers") or 4,
             "crossplay": ef(block, "crossplay") or False,
             "players": ef(block, "players") or "1-4",
+            "releaseYear": ef(block, "releaseYear") or 0,
             "image": ef(block, "image") or "",
             "description": ef(block, "description") or "",
             "description_en": ef(block, "description_en") or "",
@@ -306,6 +307,7 @@ def build_public_catalog_export(games: list[dict[str, Any]]) -> dict[str, Any]:
                 "maxPlayers": game["maxPlayers"],
                 "crossplay": bool(game["crossplay"]),
                 "players": game["players"],
+                "releaseYear": game.get("releaseYear") or 0,
                 "image": game["image"],
                 "description": game["description"],
                 "description_en": game["description_en"],
@@ -379,6 +381,7 @@ def write_legacy_games_js(
             f"    maxPlayers: {game.get('maxPlayers', 4)},\n"
             f"    crossplay: {'true' if game.get('crossplay') else 'false'},\n"
             f"    players: \"{js_esc(game.get('players', '1-4'))}\",\n"
+            f"    releaseYear: {game.get('releaseYear') or 0},\n"
             f"    image: \"{js_esc(game.get('image', ''))}\",\n"
             f"    description: \"{js_esc(game.get('description', ''))}\",\n"
             f"    description_en: \"{js_esc(game.get('description_en', ''))}\",\n"

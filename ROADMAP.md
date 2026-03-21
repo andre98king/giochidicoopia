@@ -92,11 +92,10 @@ Pipeline attuale: **SteamSpy → Steam Store API → itch.io**
 ### ~~1.4 Rimozione giochi obsoleti~~ ✅ FATTO (2026-03-19)
 - Rimossi: GTA V Enhanced, EA FC 24, NBA 2K24, F1 24, Farming Simulator 19
 
-### 1.5 Aggiungere releaseYear ai giochi
-- Campo **non esiste** in games.js (era erroneamente segnato come presente)
-- Necessario per il futuro filtro per anno (task 2.3)
-- Recuperabile da Steam Store API (`release_date.date`) nella pipeline
-- **File**: `scripts/auto_update.py`, `scripts/steam_catalog_source.py`, `assets/games.js`
+### ~~1.5 Aggiungere releaseYear ai giochi~~ ✅ FATTO (2026-03-20)
+- `parse_release_year()` in `steam_catalog_source.py` estrae anno da Steam API
+- Pipeline auto_update.py popola releaseYear per nuovi giochi + batch backfill esistenti
+- 387/549 giochi hanno releaseYear (162 non-Steam senza fonte)
 
 ---
 
@@ -104,10 +103,10 @@ Pipeline attuale: **SteamSpy → Steam Store API → itch.io**
 
 ### ~~2.1 Attivare filtro crossplay~~ ✅ FATTO
 
-### 2.2 Filtro per anno di uscita
-- **Bloccato**: prima serve task 1.5 (aggiungere releaseYear alla pipeline)
-- Aggiungere slider o range filter (es. 2020-2026)
-- **File**: `assets/app.js`, `assets/i18n.js`, `assets/style.css`
+### ~~2.2 Filtro per anno di uscita~~ ✅ FATTO (2026-03-20)
+- Select dropdown con fasce: 2024–2025, 2020–2023, 2015–2019, Prima del 2015
+- Sort "Più recenti" per ordinare per anno
+- i18n IT/EN completo
 
 ### ~~2.3 Pagina gioco: link a recensioni/community~~ ✅ FATTO (2026-03-20)
 - Link a SteamDB, HowLongToBeat, ProtonDB, PCGamingWiki su tutte le game pages con Steam URL
@@ -202,3 +201,4 @@ Pipeline attuale: **SteamSpy → Steam Store API → itch.io**
 | 2026-03-19 | Bottone Compra, badge sconto, Epic rimosso, giochi obsoleti, logo, fix overlap, scraper anti-DLC |
 | 2026-03-20 | Revisione roadmap: corretto analytics (non fatto), releaseYear (non esiste), isFree/isIndie (non è un bug — usano categories). Fix cache bust sync, infinite scroll (40+30 batch), aggiornato CLAUDE.md |
 | 2026-03-20 | SEO: "Giochi simili" (3228 internal links) + "Risorse esterne" (SteamDB, HLTB, ProtonDB, PCGamingWiki) su tutte le game pages. Sitemap re-inviata a GSC. Task 2.3 e 2.4 completati |
+| 2026-03-20 | Task 1.5 + 2.2: releaseYear aggiunto alla pipeline (387/549 Steam games). Filtro anno + sort "Più recenti" in homepage con i18n IT/EN |

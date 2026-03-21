@@ -33,7 +33,14 @@ const TRANSLATIONS = {
     sort_default: "📋 Predefinito",
     sort_rating: "⭐ Meglio recensiti",
     sort_trending: "🔥 Più giocati ora",
+    sort_newest: "🆕 Più recenti",
     sort_az: "🔤 A → Z",
+    year_filter_aria: "Filtra per anno",
+    year_all: "📅 Tutti gli anni",
+    year_2024: "📅 2024–2025",
+    year_2020: "📅 2020–2023",
+    year_2015: "📅 2015–2019",
+    year_classic: "📅 Prima del 2015",
     btn_wheel: "🎡 Gioco Random",
     btn_wheel_aria: "Gioco random",
     btn_admin: "🔒 Admin",
@@ -262,7 +269,14 @@ const TRANSLATIONS = {
     sort_default: "📋 Default",
     sort_rating: "⭐ Best rated",
     sort_trending: "🔥 Most played now",
+    sort_newest: "🆕 Newest",
     sort_az: "🔤 A → Z",
+    year_filter_aria: "Filter by year",
+    year_all: "📅 All years",
+    year_2024: "📅 2024–2025",
+    year_2020: "📅 2020–2023",
+    year_2015: "📅 2015–2019",
+    year_classic: "📅 Before 2015",
     btn_wheel: "🎡 Random Game",
     btn_wheel_aria: "Random game",
     btn_admin: "🔒 Admin",
@@ -641,10 +655,16 @@ function applyStaticTranslations() {
     default: "sort_default",
     rating: "sort_rating",
     trending: "sort_trending",
+    newest: "sort_newest",
     az: "sort_az",
   };
   document.querySelectorAll("#sortSelect option").forEach((opt) => {
     if (sortMap[opt.value]) opt.textContent = t(sortMap[opt.value]);
+  });
+
+  const yearMap = { all: "year_all", "2024": "year_2024", "2020": "year_2020", "2015": "year_2015", classic: "year_classic" };
+  document.querySelectorAll("#yearFilter option").forEach((opt) => {
+    if (yearMap[opt.value]) opt.textContent = t(yearMap[opt.value]);
   });
 
   const wheelBtn = document.getElementById("wheelBtn");

@@ -70,6 +70,17 @@ class SteamCatalogSource:
         return steam_data, description if len(description) >= 25 else None
 
 
+def parse_release_year(release_date: dict | None) -> int:
+    """Extract year from Steam release_date dict, e.g. {'coming_soon': False, 'date': 'Feb 8, 2018'} → 2018."""
+    if not release_date or release_date.get("coming_soon"):
+        return 0
+    date_str = release_date.get("date", "")
+    if not date_str:
+        return 0
+    match = re.search(r"\b((?:19|20)\d{2})\b", date_str)
+    return int(match.group(1)) if match else 0
+
+
 def clean_text(text: str) -> str:
     if not text:
         return ""
