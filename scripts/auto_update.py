@@ -438,14 +438,18 @@ else:
 igdb_discovery_added = 0
 if IGDB_CLIENT_ID and IGDB_CLIENT_SECRET:
     print(f"\n🌐 IGDB Discovery: ricerca nuovi giochi co-op PC...")
-    igdb_source = IgdbCatalogSource(IGDB_CLIENT_ID, IGDB_CLIENT_SECRET)
-    candidates = igdb_source.discover_coop_games(
-        existing_igdb_ids=existing_igdb_ids,
-        existing_steam_appids=existing_appids,
-        existing_titles=existing_titles,
-        max_games=MAX_IGDB_DISCOVERY,
-    )
-    print(f"  Candidati IGDB trovati: {len(candidates)}")
+    try:
+        igdb_source = IgdbCatalogSource(IGDB_CLIENT_ID, IGDB_CLIENT_SECRET)
+        candidates = igdb_source.discover_coop_games(
+            existing_igdb_ids=existing_igdb_ids,
+            existing_steam_appids=existing_appids,
+            existing_titles=existing_titles,
+            max_games=MAX_IGDB_DISCOVERY,
+        )
+        print(f"  Candidati IGDB trovati: {len(candidates)}")
+    except Exception as e:
+        print(f"  ⚠️ IGDB Discovery fallita: {e}")
+        candidates = []
 
     for cand in candidates:
         steam_appid = cand.get('steamAppId')
