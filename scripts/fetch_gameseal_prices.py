@@ -171,6 +171,7 @@ def search_gameseal(session, title: str) -> tuple[str, int]:
         price = _parse_price((best.get("price") or {}).get("amount"))
         sale_price = _parse_price((best.get("salePrice") or {}).get("amount"))
 
+        # Gameseal (grey market): CJ API non fornisce salePrice — discount=0 è atteso
         if price > 0 and sale_price > 0 and sale_price < price:
             discount = round((price - sale_price) / price * 100)
         else:

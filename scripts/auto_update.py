@@ -20,7 +20,7 @@ Uso locale : python3 auto_update.py
 CI (GitHub): eseguito automaticamente da .github/workflows/update.yml
 """
 
-import datetime, re
+import datetime, json, re
 
 import catalog_data
 from catalog_config import *          # noqa: F403 – tutte le costanti di progetto

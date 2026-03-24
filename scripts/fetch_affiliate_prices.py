@@ -34,7 +34,7 @@ TIMEOUT_NAV    = 15000
 TIMEOUT_SEL    = 6000
 
 IG_SEARCH = "https://www.instant-gaming.com/en/search/?query={}"
-GB_SEARCH = "https://www.gamebillet.com/search?q={}"
+GB_SEARCH = "https://www.gamebillet.com/allproducts?q={}&adv=true"
 GB_BASE   = "https://www.gamebillet.com"
 
 

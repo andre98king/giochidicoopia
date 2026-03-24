@@ -247,7 +247,7 @@ def render_store_links(game: dict) -> str:
             else:
                 gs_search = f"https://gameseal.com/search?search={q}"
                 gs_url = f"{AFFILIATE_GAMESEAL}?url={_q(gs_search)}"
-            gs_badge = f'<span class="affiliate-badge">-{game["gsDiscount"]}%</span>' if game.get("gsDiscount") else ""
+            gs_badge = f'<span class="affiliate-discount">-{game["gsDiscount"]}%</span>' if game.get("gsDiscount") else ""
             btns.append(
                 f'<a class="btn-affiliate btn-gameseal" href="{esc(gs_url)}" '
                 f'target="_blank" rel="noopener noreferrer sponsored">'
