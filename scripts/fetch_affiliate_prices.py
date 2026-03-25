@@ -6,17 +6,14 @@ Siti supportati:
   - Instant Gaming  (Vue.js, richiede browser reale)
   - GameBillet      (SSR con Cloudflare, richiede browser reale)
 
-Usa Playwright/camoufox con pagine concorrenti per minimizzare il tempo totale.
+Usa Playwright con pagine concorrenti per minimizzare il tempo totale.
 
 Utilizzo:
     python3 scripts/fetch_affiliate_prices.py
 """
-
 from __future__ import annotations
 
 import asyncio
-import difflib
-import json
 import re
 import sys
 import time
@@ -30,49 +27,15 @@ import catalog_data
 AFFILIATE_IG = "gamer-ddc4a8"
 AFFILIATE_GB = "fb308ca0-647e-4ce7-9e80-74c2c591eac1"
 
-IG_CONCURRENCY = 6  # pagine IG simultanee (ridotto per camoufox Firefox)
-GB_CONCURRENCY = 3  # pagine GB simultanee (ridotto per camoufox Firefox)
-STAGGER = 0.15  # secondi tra lancio task (anti-burst)
-TIMEOUT_NAV = 30000  # 30s — Firefox/camoufox è più lento di Chromium
-TIMEOUT_SEL = 10000  # 10s selector timeout
+IG_CONCURRENCY = 6   # pagine IG simultanee (ridotto per camoufox Firefox)
+GB_CONCURRENCY = 3   # pagine GB simultanee (ridotto per camoufox Firefox)
+STAGGER        = 0.15  # secondi tra lancio task (anti-burst)
+TIMEOUT_NAV    = 30000  # 30s — Firefox/camoufox è più lento di Chromium
+TIMEOUT_SEL    = 10000  # 10s selector timeout
 
 IG_SEARCH = "https://www.instant-gaming.com/en/search/?query={}"
 GB_SEARCH = "https://www.gamebillet.com/allproducts?q={}&adv=true"
-GB_BASE = "https://www.gamebillet.com"
-
-# Logging su file per debugging
-LOG_FILE = ROOT / "data" / "scraper_log.jsonl"
-
-
-def _log_event(
-    event_type: str, game_id: int, title: str, store: str, data: dict | None = None
-) -> None:
-    """Scrive evento su file log JSONL per debugging."""
-    try:
-        LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
-        entry = {
-            "ts": time.strftime("%Y-%m-%dT%H:%M:%S"),
-            "type": event_type,
-            "game_id": game_id,
-            "title": title,
-            "store": store,
-        }
-        if data:
-            entry.update(data)
-        with open(LOG_FILE, "a", encoding="utf-8") as f:
-            f.write(json.dumps(entry, ensure_ascii=False) + "\n")
-    except Exception:
-        pass  # Logging non deve mai bloccare lo scraper
-
-
-def _try_selectors(page, selectors: list[str], timeout: int = TIMEOUT_SEL):
-    """Prova multipli selectors in sequenza, ritorna il primo che trova."""
-    for selector in selectors:
-        try:
-            return page.wait_for_selector(selector, timeout=timeout // len(selectors))
-        except Exception:
-            continue
-    raise Exception(f"Nessun selector trovato: {selectors}")
+GB_BASE   = "https://www.gamebillet.com"
 
 
 def _ig_affiliate(href: str) -> str:
@@ -89,34 +52,14 @@ def _gb_affiliate(slug: str) -> str:
     return f"{GB_BASE}/{slug}?affiliate={AFFILIATE_GB}"
 
 
-DLC_KEYWORDS = {
-    "dlc",
-    "pack",
-    "season pass",
-    "expansion",
-    "soundtrack",
-    "bundle",
-    "starter pack",
-    "upgrade",
-    "supporter",
-    "collector",
-    "skin",
-    "costume",
-    "cosmetic",
-    "chapter",
-    "episode",
-}
-
-
-# Soglia fuzzy matching (0.0-1.0) — titoli con similarità > soglia sono match
-FUZZY_THRESHOLD = 0.85
+DLC_KEYWORDS = {'dlc', 'pack', 'season pass', 'expansion', 'soundtrack',
+                'bundle', 'starter pack', 'upgrade', 'supporter', 'collector',
+                'skin', 'costume', 'cosmetic', 'chapter', 'episode'}
 
 
 def _clean_title(t: str) -> str:
     t = t.lower()
-    t = re.sub(
-        r"\s*[-–]\s*(europe|us|canada|global|row|worldwide|latam|america).*", "", t
-    )
+    t = re.sub(r"\s*[-–]\s*(europe|us|canada|global|row|worldwide|latam|america).*", "", t)
     t = re.sub(r"[^a-z0-9 ]", "", t)
     return t.strip()
 
@@ -127,56 +70,33 @@ def _has_subtitle(ig_title: str, game_title: str) -> bool:
     ig_lower = ig_title.lower().strip()
     if not ig_lower.startswith(gt_lower):
         return False
-    rest = ig_lower[len(gt_lower) :].strip()
+    rest = ig_lower[len(gt_lower):].strip()
     return rest.startswith(":") or rest.startswith("-") or rest.startswith("–")
 
 
 def _title_match(ig_title: str, game_title: str) -> str | None:
-    """Restituisce 'exact', 'partial' o None. Scarta match che puntano a DLC.
-
-    Usa fuzzy matching (difflib) come fallback per titoli con differenze minori
-    (es. punteggiatura, spazi, accenti). Soglia: 0.85.
-    """
+    """Restituisce 'exact', 'partial' o None. Scarta match che puntano a DLC."""
     a, b = _clean_title(ig_title), _clean_title(game_title)
-
-    # Match esatto dopo pulizia
     if a == b:
         return "exact"
-
-    # Check se uno dei due è un DLC/espansione
-    a_is_dlc = any(kw in a for kw in DLC_KEYWORDS)
-    b_is_dlc = any(kw in b for kw in DLC_KEYWORDS)
-    if a_is_dlc or b_is_dlc:
-        return None
-
-    # Se il titolo ha sottotitolo (: o -), è probabilmente un DLC/espansione
-    if _has_subtitle(ig_title, game_title) or _has_subtitle(game_title, ig_title):
-        return None
-
-    # Match parziale: a inizia con b (es. "Doom Eternal" inizia con "Doom")
     if a.startswith(b):
+        extra = a[len(b):].strip()
+        if any(kw in extra for kw in DLC_KEYWORDS):
+            return None  # DLC keyword trovata
+        # Se il titolo originale ha un sottotitolo (: o -), è probabilmente un DLC/espansione
+        if _has_subtitle(ig_title, game_title):
+            return None
         return "partial"
-
-    # Match parziale: b inizia con a
     if b.startswith(a):
         return "partial"
-
-    # Fuzzy matching con difflib (ratio > 0.85 = match parziale)
-    # Gestisce差異如: punteggiatura, spazi extra, accenti, case
-    ratio = difflib.SequenceMatcher(None, a, b).ratio()
-    if ratio >= FUZZY_THRESHOLD:
-        return "partial"
-
     return None
 
 
 # ───────────────────────── Instant Gaming ─────────────────────────
 
-
 async def fetch_ig(page, game: dict) -> tuple[str, int]:
     """Restituisce (igUrl, igDiscount). Stringa vuota se non trovato."""
     title = game["title"]
-    game_id = game["id"]
     try:
         # Step 1: trova URL prodotto (usa igUrl esistente o cerca)
         product_url = ""
@@ -185,32 +105,18 @@ async def fetch_ig(page, game: dict) -> tuple[str, int]:
             # Rimuovi parametro affiliato per ottenere URL pulito
             product_url = re.sub(r"[?&]igr=[^&]*", "", existing_ig)
         else:
-            await page.goto(
-                IG_SEARCH.format(quote(title)),
-                wait_until="domcontentloaded",
-                timeout=TIMEOUT_NAV,
-            )
-            # Fallback selectors: .item, .product, .search-results > div
+            await page.goto(IG_SEARCH.format(quote(title)),
+                            wait_until="domcontentloaded", timeout=TIMEOUT_NAV)
             try:
-                _try_selectors(page, [".item", ".product", ".search-results > a"])
+                await page.wait_for_selector(".item", timeout=TIMEOUT_SEL)
             except Exception:
-                _log_event("not_found", game_id, title, "ig", {"reason": "no_selector"})
                 return "", 0
 
             items = await page.evaluate("""() => {
                 const out = [];
-                // Prova multipli selettori per compatibilità
-                const selectors = ['.item', '.product', '.search-result'];
-                let elements = [];
-                for (const sel of selectors) {
-                    elements = document.querySelectorAll(sel);
-                    if (elements.length > 0) break;
-                }
-                for (const el of elements) {
-                    // Fallback per link
-                    const link = el.querySelector('a.cover, a[href*="/buy-"], a[href*="/steam"], a.product-cover');
-                    // Fallback per titolo
-                    const titleEl = el.querySelector('.title, [class*="title"], h3, h4');
+                for (const el of document.querySelectorAll('.item')) {
+                    const link     = el.querySelector('a.cover, a[href*="/buy-"]');
+                    const titleEl  = el.querySelector('.title, [class*="title"]');
                     if (!link || !titleEl) continue;
                     out.push({
                         href:  link.href || '',
@@ -234,78 +140,50 @@ async def fetch_ig(page, game: dict) -> tuple[str, int]:
             product_url = exact_match or partial_match or ""
 
         if not product_url:
-            _log_event("not_found", game_id, title, "ig", {"reason": "no_product_url"})
             return "", 0
 
         # Step 2: visita pagina prodotto per estrarre lo sconto reale
-        await page.goto(product_url, wait_until="domcontentloaded", timeout=TIMEOUT_NAV)
+        await page.goto(product_url,
+                        wait_until="domcontentloaded", timeout=TIMEOUT_NAV)
         discount = await page.evaluate("""() => {
-            const el = document.querySelector('.discounted, .discount-percent, [class*="discount"]');
+            const el = document.querySelector('.discounted');
             if (!el) return 0;
             const m = el.textContent.match(/(\\d+)/);
             return m ? parseInt(m[1]) : 0;
         }""")
 
-        _log_event(
-            "found",
-            game_id,
-            title,
-            "ig",
-            {"discount": discount, "url": product_url[:100]},
-        )
         return _ig_affiliate(product_url), discount
 
     except Exception as e:
         print(f"  ⚠️  IG errore '{title}': {e}")
-        _log_event("error", game_id, title, "ig", {"error": str(e)[:100]})
     return "", 0
 
 
 # ───────────────────────── GameBillet ─────────────────────────────
 
-
 async def fetch_gb(page, game: dict) -> tuple[str, int]:
     """Restituisce (gbUrl, gbDiscount). Stringa vuota se non trovato."""
     title = game["title"]
-    game_id = game["id"]
     try:
-        await page.goto(
-            GB_SEARCH.format(quote(title)),
-            wait_until="domcontentloaded",
-            timeout=TIMEOUT_NAV,
-        )
-        # Fallback selectors: h3 a, h4 a, .product-title a
+        await page.goto(GB_SEARCH.format(quote(title)),
+                        wait_until="domcontentloaded", timeout=TIMEOUT_NAV)
         try:
-            _try_selectors(page, ["h3 a", "h4 a", ".product-title a", ".game-title a"])
+            await page.wait_for_selector("h3 a", timeout=TIMEOUT_SEL)
         except Exception:
-            _log_event("not_found", game_id, title, "gb", {"reason": "no_selector"})
             return "", 0
 
         items = await page.evaluate("""() => {
             const out = [];
-            // Prova multipli selettori per heading
-            const headingSelectors = ['h3 a', 'h4 a', '.product-title a', '.game-title a'];
-            let headings = [];
-            for (const sel of headingSelectors) {
-                headings = document.querySelectorAll(sel);
-                if (headings.length > 0) break;
-            }
-            
+            const headings = document.querySelectorAll('h3 a');
             for (const h of headings) {
-                // Walk up to find the product card
+                // Walk up to find the product card that contains the buy-wrapper
                 let card = h.parentElement;
                 for (let i = 0; i < 8; i++) {
                     if (!card) break;
-                    // Fallback per buy-wrapper
-                    if (card.querySelector('.buy-wrapper, .price-wrapper, .add-to-cart')) break;
+                    if (card.querySelector('.buy-wrapper')) break;
                     card = card.parentElement;
                 }
-                // Fallback per elemento prezzo
-                const saleEl = card ? (
-                    card.querySelector('.buy-wrapper a[href="#"]') ||
-                    card.querySelector('.price-discount') ||
-                    card.querySelector('.discount')
-                ) : null;
+                const saleEl   = card ? card.querySelector('.buy-wrapper a[href="#"]') : null;
                 const saleText = saleEl ? saleEl.textContent.trim() : '';
                 out.push({
                     href:     h.href || '',
@@ -330,31 +208,14 @@ async def fetch_gb(page, game: dict) -> tuple[str, int]:
             discount = int(m_disc.group(1)) if m_disc else 0
             entry = (_gb_affiliate(slug), discount)
             if result == "exact":
-                _log_event(
-                    "found",
-                    game_id,
-                    title,
-                    "gb",
-                    {"discount": discount, "match": "exact"},
-                )
                 return entry
             if not partial_match:
                 partial_match = entry
         if partial_match:
-            _log_event(
-                "found",
-                game_id,
-                title,
-                "gb",
-                {"discount": partial_match[1], "match": "partial"},
-            )
             return partial_match
-
-        _log_event("not_found", game_id, title, "gb", {"reason": "no_match"})
 
     except Exception as e:
         print(f"  ⚠️  GB errore '{title}': {e}")
-        _log_event("error", game_id, title, "gb", {"error": str(e)[:100]})
     return "", 0
 
 
@@ -370,7 +231,6 @@ _UA = (
 async def run() -> None:
     try:
         from camoufox.async_api import AsyncCamoufox
-
         _has_camoufox = True
     except ImportError:
         _has_camoufox = False
@@ -383,11 +243,7 @@ async def run() -> None:
     targets = [g for g in games if g.get("steamUrl")]
     total = len(targets)
     print(f"🔍 Cerco prezzi affiliati per {total} giochi con Steam URL...")
-    print(
-        f"   Browser: camoufox (Firefox stealth)"
-        if _has_camoufox
-        else "   Browser: playwright (solo IG)"
-    )
+    print(f"   Browser: camoufox (Firefox stealth)" if _has_camoufox else "   Browser: playwright (solo IG)")
     print(f"   Concorrenza: IG={IG_CONCURRENCY}  GB={GB_CONCURRENCY}  (paralleli)")
 
     ig_found = gb_found = done_count = 0
@@ -445,9 +301,7 @@ async def run() -> None:
                     elapsed = time.time() - start
                     rate = done_count / elapsed if elapsed > 0 else 0
                     eta = (total - done_count) / rate if rate > 0 else 0
-                    print(
-                        f"  📊 {done_count}/{total} — {elapsed:.0f}s — ~{eta:.0f}s rimanenti"
-                    )
+                    print(f"  📊 {done_count}/{total} — {elapsed:.0f}s — ~{eta:.0f}s rimanenti")
 
         tasks = []
         for game in targets:
@@ -464,33 +318,7 @@ async def run() -> None:
                 await ig_ctx.close()
                 await gb_ctx.close()
         except Exception as exc:
-            print(f"⚠️  camoufox crash ({exc}) — fallback a Playwright per entrambi")
-            # Fallback a Playwright per IG+GB (GB potrebbe non funzionare senza stealth)
-            _log_event(
-                "fallback", 0, "camoufox_crash", "all", {"error": str(exc)[:200]}
-            )
-            try:
-                from playwright.async_api import async_playwright
-
-                async with async_playwright() as pw:
-                    browser = await pw.chromium.launch(headless=True)
-                    ig_ctx = await browser.new_context(user_agent=_UA, locale="en-US")
-                    gb_ctx = await browser.new_context(user_agent=_UA, locale="en-US")
-                    await _scrape(ig_ctx, gb_ctx)
-                    await ig_ctx.close()
-                    await gb_ctx.close()
-                    await browser.close()
-            except Exception as exc2:
-                print(
-                    f"⚠️  Playwright fallback fallito ({exc2}) — salvando dati parziali"
-                )
-                _log_event(
-                    "fallback_failed",
-                    0,
-                    "playwright_fallback",
-                    "all",
-                    {"error": str(exc2)[:200]},
-                )
+            print(f"⚠️  camoufox crash ({exc}) — salvando dati IG già raccolti")
     else:
         try:
             from playwright.async_api import async_playwright
@@ -500,10 +328,8 @@ async def run() -> None:
         async with async_playwright() as pw:
             browser = await pw.chromium.launch(headless=True)
             ig_ctx = await browser.new_context(user_agent=_UA, locale="en-US")
-            gb_ctx = await browser.new_context(user_agent=_UA, locale="en-US")
-            await _scrape(ig_ctx, gb_ctx)
+            await _scrape(ig_ctx, gb_ctx=None)
             await ig_ctx.close()
-            await gb_ctx.close()
             await browser.close()
 
     elapsed = time.time() - start
