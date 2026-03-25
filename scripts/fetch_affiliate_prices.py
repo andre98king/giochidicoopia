@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 """
-Aggiorna igUrl/igDiscount e gbUrl/gbDiscount in games.js tramite scraping.
+Aggiorna igUrl/igDiscount, gbUrl/gbDiscount, kgUrl/kgDiscount, gmvUrl/gmvDiscount
+in games.js tramite scraping.
 
 Siti supportati:
   - Instant Gaming  (Vue.js, richiede browser reale)
   - GameBillet      (SSR con Cloudflare, richiede browser reale)
+  - Kinguin         (React SPA + Cloudflare, link CJ deep link)
+  - GAMIVO          (React SPA, link CJ deep link)
 
 Usa Playwright con pagine concorrenti per minimizzare il tempo totale.
 
@@ -27,18 +30,24 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import catalog_data
 
-AFFILIATE_IG = "gamer-ddc4a8"
-AFFILIATE_GB = "fb308ca0-647e-4ce7-9e80-74c2c591eac1"
+AFFILIATE_IG  = "gamer-ddc4a8"
+AFFILIATE_GB  = "fb308ca0-647e-4ce7-9e80-74c2c591eac1"
+AFFILIATE_KG  = "https://www.tkqlhce.com/click-101708519-15734285"  # CJ Kinguin
+AFFILIATE_GMV = "https://www.tkqlhce.com/click-101708519-10660651"  # CJ GAMIVO INT
 
-IG_CONCURRENCY = 6  # pagine IG simultanee (ridotto per camoufox Firefox)
-GB_CONCURRENCY = 3  # pagine GB simultanee (ridotto per camoufox Firefox)
+IG_CONCURRENCY  = 6  # pagine IG simultanee
+GB_CONCURRENCY  = 3  # pagine GB simultanee
+KG_CONCURRENCY  = 2  # pagine Kinguin simultanee (SPA, più lento)
+GMV_CONCURRENCY = 2  # pagine GAMIVO simultanee
 STAGGER = 0.15  # secondi tra lancio task (anti-burst)
-TIMEOUT_NAV = 30000  # 30s — Firefox/camoufox è più lento di Chromium
-TIMEOUT_SEL = 10000  # 10s selector timeout
+TIMEOUT_NAV = 35000  # 35s — SPA hanno bisogno di più tempo
+TIMEOUT_SEL = 12000  # 12s selector timeout
 
-IG_SEARCH = "https://www.instant-gaming.com/en/search/?query={}"
-GB_SEARCH = "https://www.gamebillet.com/allproducts?q={}&adv=true"
-GB_BASE = "https://www.gamebillet.com"
+IG_SEARCH  = "https://www.instant-gaming.com/en/search/?query={}"
+GB_SEARCH  = "https://www.gamebillet.com/allproducts?q={}&adv=true"
+GB_BASE    = "https://www.gamebillet.com"
+KG_SEARCH  = "https://www.kinguin.net/catalogsearch/result?q={}"
+GMV_SEARCH = "https://www.gamivo.com/search?search={}"
 
 # Logging su file per debugging
 LOG_FILE = ROOT / "data" / "scraper_log.jsonl"
@@ -90,6 +99,20 @@ def _gb_affiliate(slug: str) -> str:
         return ""
     slug = slug.lstrip("/")
     return f"{GB_BASE}/{slug}?affiliate={AFFILIATE_GB}"
+
+
+def _kg_affiliate(product_url: str) -> str:
+    """Wrappa URL prodotto Kinguin in CJ deep link."""
+    if not product_url:
+        return ""
+    return f"{AFFILIATE_KG}?url={quote(product_url, safe='')}"
+
+
+def _gmv_affiliate(product_url: str) -> str:
+    """Wrappa URL prodotto GAMIVO in CJ deep link."""
+    if not product_url:
+        return ""
+    return f"{AFFILIATE_GMV}?url={quote(product_url, safe='')}"
 
 
 DLC_KEYWORDS = {
@@ -353,6 +376,195 @@ async def fetch_gb(page, game: dict) -> tuple[str, int]:
     return "", 0
 
 
+# ───────────────────────── Kinguin ────────────────────────────────
+
+
+async def fetch_kg(page, game: dict) -> tuple[str, int]:
+    """Restituisce (kgUrl, kgDiscount). kgUrl è un CJ deep link verso la pagina prodotto."""
+    title = game["title"]
+    game_id = game["id"]
+    try:
+        # Usa kgUrl esistente (senza affiliato) oppure cerca
+        existing = game.get("kgUrl", "")
+        if existing and "tkqlhce.com" not in existing:
+            product_url = existing
+        elif existing and "url=" in existing:
+            # già un deep link — estrai URL interno
+            m = re.search(r"url=(.+)", existing)
+            product_url = m.group(1) if m else ""
+        else:
+            await page.goto(
+                KG_SEARCH.format(quote(title)),
+                wait_until="domcontentloaded",
+                timeout=TIMEOUT_NAV,
+            )
+            # Aspetta risultati SPA
+            try:
+                _try_selectors(
+                    page,
+                    [
+                        "a[href*='/category/']",
+                        ".product-item a",
+                        ".search-result-item a",
+                        "[class*='product'] a[href*='kinguin']",
+                    ],
+                )
+            except Exception:
+                _log_event("not_found", game_id, title, "kg", {"reason": "no_selector"})
+                return "", 0
+
+            items = await page.evaluate("""() => {
+                const out = [];
+                // Prova vari pattern di link prodotto Kinguin
+                const links = Array.from(document.querySelectorAll(
+                    "a[href*='/category/'], .product-item a, [class*='product-name'] a"
+                ));
+                for (const a of links) {
+                    const href = a.href || '';
+                    if (!href.includes('kinguin.net')) continue;
+                    // Cerca titolo nel link stesso o nel suo parent
+                    const titleEl = a.querySelector('[class*="title"], [class*="name"]')
+                        || a.closest('[class*="product"], [class*="item"]')?.querySelector('[class*="title"], [class*="name"], h2, h3')
+                        || a;
+                    const text = titleEl.textContent.trim();
+                    // Sconto: cerca vicino alla card
+                    const card = a.closest('[class*="product"], [class*="item"], li');
+                    const discEl = card?.querySelector('[class*="discount"], [class*="percent"], [class*="save"]');
+                    const discText = discEl ? discEl.textContent.trim() : '';
+                    if (text && href) out.push({href, title: text, discText});
+                }
+                return out;
+            }""")
+
+            product_url = ""
+            exact_match = None
+            partial_match = None
+            for item in items:
+                result = _title_match(item["title"], title)
+                if result == "exact":
+                    exact_match = item
+                    break
+                if result == "partial" and not partial_match:
+                    partial_match = item
+            best = exact_match or partial_match
+            if best:
+                product_url = best["href"]
+
+        if not product_url:
+            _log_event("not_found", game_id, title, "kg", {"reason": "no_match"})
+            return "", 0
+
+        # Visita pagina prodotto per sconto reale
+        await page.goto(product_url, wait_until="domcontentloaded", timeout=TIMEOUT_NAV)
+        discount = await page.evaluate("""() => {
+            const el = document.querySelector(
+                '[class*="discount"], [class*="percent"], [class*="save"], [class*="off"]'
+            );
+            if (!el) return 0;
+            const m = el.textContent.match(/(\\d+)/);
+            return m ? parseInt(m[1]) : 0;
+        }""")
+
+        _log_event("found", game_id, title, "kg", {"discount": discount, "url": product_url[:100]})
+        return _kg_affiliate(product_url), discount
+
+    except Exception as e:
+        print(f"  ⚠️  KG errore '{title}': {e}")
+        _log_event("error", game_id, title, "kg", {"error": str(e)[:100]})
+    return "", 0
+
+
+# ───────────────────────── GAMIVO ─────────────────────────────────
+
+
+async def fetch_gmv(page, game: dict) -> tuple[str, int]:
+    """Restituisce (gmvUrl, gmvDiscount). gmvUrl è un CJ deep link verso la pagina prodotto."""
+    title = game["title"]
+    game_id = game["id"]
+    try:
+        existing = game.get("gmvUrl", "")
+        if existing and "tkqlhce.com" not in existing:
+            product_url = existing
+        elif existing and "url=" in existing:
+            m = re.search(r"url=(.+)", existing)
+            product_url = m.group(1) if m else ""
+        else:
+            await page.goto(
+                GMV_SEARCH.format(quote(title)),
+                wait_until="domcontentloaded",
+                timeout=TIMEOUT_NAV,
+            )
+            try:
+                _try_selectors(
+                    page,
+                    [
+                        "a[href*='/product/']",
+                        ".game-card a",
+                        "[class*='product-card'] a",
+                        "[class*='game'] a[href*='gamivo']",
+                    ],
+                )
+            except Exception:
+                _log_event("not_found", game_id, title, "gmv", {"reason": "no_selector"})
+                return "", 0
+
+            items = await page.evaluate("""() => {
+                const out = [];
+                const links = Array.from(document.querySelectorAll(
+                    "a[href*='/product/'], [class*='game-card'] a, [class*='product'] a"
+                ));
+                for (const a of links) {
+                    const href = a.href || '';
+                    if (!href.includes('gamivo.com')) continue;
+                    const card = a.closest('[class*="card"], [class*="product"], [class*="game"], li');
+                    const titleEl = card?.querySelector('[class*="title"], [class*="name"], h2, h3, h4')
+                        || a;
+                    const text = titleEl.textContent.trim();
+                    const discEl = card?.querySelector('[class*="discount"], [class*="percent"], [class*="save"]');
+                    const discText = discEl ? discEl.textContent.trim() : '';
+                    if (text && href) out.push({href, title: text, discText});
+                }
+                return out;
+            }""")
+
+            product_url = ""
+            exact_match = None
+            partial_match = None
+            for item in items:
+                result = _title_match(item["title"], title)
+                if result == "exact":
+                    exact_match = item
+                    break
+                if result == "partial" and not partial_match:
+                    partial_match = item
+            best = exact_match or partial_match
+            if best:
+                product_url = best["href"]
+
+        if not product_url:
+            _log_event("not_found", game_id, title, "gmv", {"reason": "no_match"})
+            return "", 0
+
+        # Visita pagina prodotto per sconto reale
+        await page.goto(product_url, wait_until="domcontentloaded", timeout=TIMEOUT_NAV)
+        discount = await page.evaluate("""() => {
+            const el = document.querySelector(
+                '[class*="discount"], [class*="percent"], [class*="save"], [class*="off"]'
+            );
+            if (!el) return 0;
+            const m = el.textContent.match(/(\\d+)/);
+            return m ? parseInt(m[1]) : 0;
+        }""")
+
+        _log_event("found", game_id, title, "gmv", {"discount": discount, "url": product_url[:100]})
+        return _gmv_affiliate(product_url), discount
+
+    except Exception as e:
+        print(f"  ⚠️  GMV errore '{title}': {e}")
+        _log_event("error", game_id, title, "gmv", {"error": str(e)[:100]})
+    return "", 0
+
+
 # ───────────────────────── Runner ─────────────────────────────────
 
 _UA = (
@@ -381,21 +593,23 @@ async def run() -> None:
     print(
         f"   Browser: camoufox (Firefox stealth)"
         if _has_camoufox
-        else "   Browser: playwright (solo IG)"
+        else "   Browser: playwright (Chromium)"
     )
-    print(f"   Concorrenza: IG={IG_CONCURRENCY}  GB={GB_CONCURRENCY}  (paralleli)")
+    print(f"   Concorrenza: IG={IG_CONCURRENCY}  GB={GB_CONCURRENCY}  KG={KG_CONCURRENCY}  GMV={GMV_CONCURRENCY}  (paralleli)")
 
-    ig_found = gb_found = done_count = 0
+    ig_found = gb_found = kg_found = gmv_found = done_count = 0
     start = time.time()
     lock = asyncio.Lock()
-    ig_sem = asyncio.Semaphore(IG_CONCURRENCY)
-    gb_sem = asyncio.Semaphore(GB_CONCURRENCY)
+    ig_sem  = asyncio.Semaphore(IG_CONCURRENCY)
+    gb_sem  = asyncio.Semaphore(GB_CONCURRENCY)
+    kg_sem  = asyncio.Semaphore(KG_CONCURRENCY)
+    gmv_sem = asyncio.Semaphore(GMV_CONCURRENCY)
 
-    async def _scrape(ig_ctx, gb_ctx) -> None:
-        nonlocal ig_found, gb_found, done_count
+    async def _scrape(ig_ctx, gb_ctx, kg_ctx, gmv_ctx) -> None:
+        nonlocal ig_found, gb_found, kg_found, gmv_found, done_count
 
         async def process_game(game: dict) -> None:
-            nonlocal ig_found, gb_found, done_count
+            nonlocal ig_found, gb_found, kg_found, gmv_found, done_count
 
             async def do_ig():
                 async with ig_sem:
@@ -415,11 +629,33 @@ async def run() -> None:
                     finally:
                         await page.close()
 
-            ig_res, gb_res = await asyncio.gather(
-                do_ig(), do_gb(), return_exceptions=True
+            async def do_kg():
+                if kg_ctx is None:
+                    return "", 0
+                async with kg_sem:
+                    page = await kg_ctx.new_page()
+                    try:
+                        return await fetch_kg(page, game)
+                    finally:
+                        await page.close()
+
+            async def do_gmv():
+                if gmv_ctx is None:
+                    return "", 0
+                async with gmv_sem:
+                    page = await gmv_ctx.new_page()
+                    try:
+                        return await fetch_gmv(page, game)
+                    finally:
+                        await page.close()
+
+            ig_res, gb_res, kg_res, gmv_res = await asyncio.gather(
+                do_ig(), do_gb(), do_kg(), do_gmv(), return_exceptions=True
             )
-            ig_url, ig_disc = ig_res if not isinstance(ig_res, Exception) else ("", 0)
-            gb_url, gb_disc = gb_res if not isinstance(gb_res, Exception) else ("", 0)
+            ig_url,  ig_disc  = ig_res  if not isinstance(ig_res,  Exception) else ("", 0)
+            gb_url,  gb_disc  = gb_res  if not isinstance(gb_res,  Exception) else ("", 0)
+            kg_url,  kg_disc  = kg_res  if not isinstance(kg_res,  Exception) else ("", 0)
+            gmv_url, gmv_disc = gmv_res if not isinstance(gmv_res, Exception) else ("", 0)
 
             async with lock:
                 orig = games_by_id[game["id"]]
@@ -431,10 +667,20 @@ async def run() -> None:
                     orig["gbUrl"] = gb_url
                     orig["gbDiscount"] = gb_disc
                     gb_found += 1
+                if kg_url:
+                    orig["kgUrl"] = kg_url
+                    orig["kgDiscount"] = kg_disc
+                    kg_found += 1
+                if gmv_url:
+                    orig["gmvUrl"] = gmv_url
+                    orig["gmvDiscount"] = gmv_disc
+                    gmv_found += 1
                 done_count += 1
-                if ig_url or gb_url:
-                    label = f"IG:-{ig_disc}%" if ig_url else "IG:—"
-                    label += f"  GB:-{gb_disc}%" if gb_url else "  GB:—"
+                if ig_url or gb_url or kg_url or gmv_url:
+                    label  = f"IG:-{ig_disc}%"   if ig_url  else "IG:—"
+                    label += f"  GB:-{gb_disc}%"  if gb_url  else "  GB:—"
+                    label += f"  KG:-{kg_disc}%"  if kg_url  else "  KG:—"
+                    label += f"  GMV:-{gmv_disc}%" if gmv_url else "  GMV:—"
                     print(f"  ✓ [{game['id']}] {game['title']}: {label}")
                 if done_count % 25 == 0:
                     elapsed = time.time() - start
@@ -450,42 +696,44 @@ async def run() -> None:
             await asyncio.sleep(STAGGER)
         await asyncio.gather(*tasks, return_exceptions=True)
 
+    async def _open_contexts(browser):
+        """Apre 4 context separati (uno per store) per massimizzare il parallelismo."""
+        ig_ctx  = await browser.new_context(locale="en-US")
+        gb_ctx  = await browser.new_context(locale="en-US")
+        kg_ctx  = await browser.new_context(locale="en-US")
+        gmv_ctx = await browser.new_context(locale="en-US")
+        return ig_ctx, gb_ctx, kg_ctx, gmv_ctx
+
+    async def _close_contexts(*ctxs):
+        for ctx in ctxs:
+            try:
+                await ctx.close()
+            except Exception:
+                pass
+
     if _has_camoufox:
         try:
             async with AsyncCamoufox(headless=True, humanize=True) as browser:
-                ig_ctx = await browser.new_context(locale="en-US")
-                gb_ctx = await browser.new_context(locale="en-US")
-                await _scrape(ig_ctx, gb_ctx)
-                await ig_ctx.close()
-                await gb_ctx.close()
+                ig_ctx, gb_ctx, kg_ctx, gmv_ctx = await _open_contexts(browser)
+                await _scrape(ig_ctx, gb_ctx, kg_ctx, gmv_ctx)
+                await _close_contexts(ig_ctx, gb_ctx, kg_ctx, gmv_ctx)
         except Exception as exc:
-            print(f"⚠️  camoufox crash ({exc}) — fallback a Playwright per entrambi")
-            _log_event(
-                "fallback", 0, "camoufox_crash", "all", {"error": str(exc)[:200]}
-            )
-            # Fallback a Playwright per IG+GB
+            print(f"⚠️  camoufox crash ({exc}) — fallback a Playwright")
+            _log_event("fallback", 0, "camoufox_crash", "all", {"error": str(exc)[:200]})
             try:
                 from playwright.async_api import async_playwright
-
                 async with async_playwright() as pw:
                     browser = await pw.chromium.launch(headless=True)
-                    ig_ctx = await browser.new_context(user_agent=_UA, locale="en-US")
-                    gb_ctx = await browser.new_context(user_agent=_UA, locale="en-US")
-                    await _scrape(ig_ctx, gb_ctx)
-                    await ig_ctx.close()
-                    await gb_ctx.close()
+                    ig_ctx  = await browser.new_context(user_agent=_UA, locale="en-US")
+                    gb_ctx  = await browser.new_context(user_agent=_UA, locale="en-US")
+                    kg_ctx  = await browser.new_context(user_agent=_UA, locale="en-US")
+                    gmv_ctx = await browser.new_context(user_agent=_UA, locale="en-US")
+                    await _scrape(ig_ctx, gb_ctx, kg_ctx, gmv_ctx)
+                    await _close_contexts(ig_ctx, gb_ctx, kg_ctx, gmv_ctx)
                     await browser.close()
             except Exception as exc2:
-                print(
-                    f"⚠️  Playwright fallback fallito ({exc2}) — salvando dati parziali"
-                )
-                _log_event(
-                    "fallback_failed",
-                    0,
-                    "playwright",
-                    "all",
-                    {"error": str(exc2)[:200]},
-                )
+                print(f"⚠️  Playwright fallback fallito ({exc2}) — salvando dati parziali")
+                _log_event("fallback_failed", 0, "playwright", "all", {"error": str(exc2)[:200]})
     else:
         try:
             from playwright.async_api import async_playwright
@@ -494,15 +742,16 @@ async def run() -> None:
             sys.exit(1)
         async with async_playwright() as pw:
             browser = await pw.chromium.launch(headless=True)
-            ig_ctx = await browser.new_context(user_agent=_UA, locale="en-US")
-            gb_ctx = await browser.new_context(user_agent=_UA, locale="en-US")
-            await _scrape(ig_ctx, gb_ctx)
-            await ig_ctx.close()
-            await gb_ctx.close()
+            ig_ctx  = await browser.new_context(user_agent=_UA, locale="en-US")
+            gb_ctx  = await browser.new_context(user_agent=_UA, locale="en-US")
+            kg_ctx  = await browser.new_context(user_agent=_UA, locale="en-US")
+            gmv_ctx = await browser.new_context(user_agent=_UA, locale="en-US")
+            await _scrape(ig_ctx, gb_ctx, kg_ctx, gmv_ctx)
+            await _close_contexts(ig_ctx, gb_ctx, kg_ctx, gmv_ctx)
             await browser.close()
 
     elapsed = time.time() - start
-    print(f"\n✅ IG: {ig_found}/{total}  GB: {gb_found}/{total}  ⏱ {elapsed:.0f}s")
+    print(f"\n✅ IG: {ig_found}/{total}  GB: {gb_found}/{total}  KG: {kg_found}/{total}  GMV: {gmv_found}/{total}  ⏱ {elapsed:.0f}s")
     catalog_data.write_legacy_games_js(games, featured_id)
     catalog_data.write_catalog_artifact(games)
     catalog_data.write_public_catalog_export(games)
