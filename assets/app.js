@@ -376,6 +376,14 @@ document.addEventListener('DOMContentLoaded', async () => {
   document.getElementById('modalOverlay').addEventListener('click', e => {
     if (e.target === document.getElementById('modalOverlay')) closeModal();
   });
+
+  // Swipe-to-dismiss modal (swipe down ≥ 80px)
+  let _swipeStartY = 0;
+  const _overlay = document.getElementById('modalOverlay');
+  _overlay.addEventListener('touchstart', e => { _swipeStartY = e.touches[0].clientY; }, { passive: true });
+  _overlay.addEventListener('touchend', e => {
+    if (e.changedTouches[0].clientY - _swipeStartY > 80) closeModal();
+  }, { passive: true });
   document.getElementById('wheelOverlay').addEventListener('click', e => {
     if (e.target === document.getElementById('wheelOverlay')) closeWheelModal();
   });
@@ -421,9 +429,12 @@ function renderFilters() {
       container.parentElement.insertBefore(genreToggle, container);
     }
     genreToggle.textContent = t('genre_filters_toggle');
+    genreToggle.setAttribute('aria-expanded', 'false');
+    genreToggle.setAttribute('aria-controls', 'genreFilterContainer');
     genreToggle.onclick = () => {
       const collapsed = container.classList.toggle('collapsed');
       genreToggle.classList.toggle('active', !collapsed);
+      genreToggle.setAttribute('aria-expanded', String(!collapsed));
     };
   } else {
     container.classList.remove('collapsed');
@@ -474,9 +485,12 @@ function renderFilters() {
         modeContainer.parentElement.insertBefore(toggleBtn, modeContainer);
       }
       toggleBtn.textContent = t('mode_filters_toggle');
+      toggleBtn.setAttribute('aria-expanded', 'false');
+      toggleBtn.setAttribute('aria-controls', 'modeFilterContainer');
       toggleBtn.onclick = () => {
         const collapsed = modeContainer.classList.toggle('collapsed');
         toggleBtn.classList.toggle('active', !collapsed);
+        toggleBtn.setAttribute('aria-expanded', String(!collapsed));
       };
     } else {
       modeContainer.classList.remove('collapsed');
@@ -871,6 +885,22 @@ function ratingLabel(r) {
 }
 
 // ===== MODAL DETTAGLIO =====
+let _modalPrevFocus = null;
+function _trapFocus(e) {
+  if (e.key === 'Escape') { closeModal(); return; }
+  if (e.key !== 'Tab') return;
+  const focusable = Array.from(document.getElementById('modalContent').querySelectorAll(
+    'a[href], button:not([disabled]), textarea, input, [tabindex]:not([tabindex="-1"])'
+  ));
+  if (!focusable.length) return;
+  const first = focusable[0], last = focusable[focusable.length - 1];
+  if (e.shiftKey) {
+    if (document.activeElement === first) { e.preventDefault(); last.focus(); }
+  } else {
+    if (document.activeElement === last) { e.preventDefault(); first.focus(); }
+  }
+}
+
 function openModal(id) {
   const game = catalogGames.find(g => g.id === id);
   if (!game) return;
@@ -940,11 +970,19 @@ function openModal(id) {
 
   document.getElementById('modalOverlay').classList.add('open');
   document.body.style.overflow = 'hidden';
+  _modalPrevFocus = document.activeElement;
+  const focusable = document.getElementById('modalContent').querySelectorAll(
+    'a[href], button:not([disabled]), textarea, input, [tabindex]:not([tabindex="-1"])'
+  );
+  if (focusable.length) focusable[0].focus();
+  document.addEventListener('keydown', _trapFocus);
 }
 
 function closeModal() {
   document.getElementById('modalOverlay').classList.remove('open');
   document.body.style.overflow = '';
+  document.removeEventListener('keydown', _trapFocus);
+  if (_modalPrevFocus) { _modalPrevFocus.focus(); _modalPrevFocus = null; }
 }
 
 window.addEventListener('langchange', renderFreeGamesSection);
