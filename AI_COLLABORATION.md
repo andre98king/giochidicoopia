@@ -218,7 +218,23 @@ Data ultimo aggiornamento: **2026-03-25 (v2)**
 
 ---
 
-## Log 2026-03-25 (v4) — FASE 3 SEO + FASE 4 UX + fix vari
+## Log 2026-03-25 (v5) — FASE 5 Performance + verifica FASE 4
+
+### FASE 4 UX (verificata)
+- **Focus trap**: codice verificato — Escape chiude modal, Tab ciclico sui focusable elements
+- **Swipe-to-dismiss**: codice verificato — touchstart/touchend con threshold 80px
+- **aria-expanded**: 4 occorrenze su genre/mode toggle
+
+### FASE 5 Performance
+- **sizes attribute**: aggiunto a card-img e modal-img → `sizes="(max-width: 600px) 100vw, 460px"`
+- **Cache busting**: aggiornato a `?v=20260325` per index.html
+- **Timer cleanup**: freeSectionTimer e freeBadgeTimer già gestiti con clearTimeout
+
+### Note tecniche
+- Lazy rendering: già presente con IntersectionObserver (40 iniziali + batch 30)
+- Test browser: Playwright installato, 551 giochi caricati nel DOM
+- MCP Servers: Playwright, GitHub, GSC attivi
+- Skills: 16 SEO skills caricate, superpowers plugin abilitato
 
 ### Affiliate
 - **Kinguin (CJ)**: AFFILIATE.kinguin = `click-101708519-15734285`, 6% nuovi utenti
@@ -258,9 +274,9 @@ Data ultimo aggiornamento: **2026-03-25 (v2)**
 - FASE 1: ✅ IG, GB, GMG, Gameseal, Kinguin, GAMIVO attivi
 - FASE 2: ✅ retry tenacity, fallback camoufox, trending ricalibirato (54 giochi)
 - FASE 3: ✅ JSON-LD + hreflang sitemap
-- FASE 4: ✅ focus trap + swipe + aria-expanded
-- FASE 5 (prossima): DOM virtualization, sizes attribute immagini, free games timer cleanup
-- TODO prossima sessione: `/webapp-testing` per verificare FASE 4 UX in browser
+- FASE 4: ✅ focus trap + swipe + aria-expanded (verificato via test)
+- FASE 5: ✅ sizes attribute immagini, cache busting aggiornato
+- TODO prossima sessione: SEO audit con skill /seo
 
 ---
 

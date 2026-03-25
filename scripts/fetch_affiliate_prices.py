@@ -27,11 +27,11 @@ import catalog_data
 AFFILIATE_IG = "gamer-ddc4a8"
 AFFILIATE_GB = "fb308ca0-647e-4ce7-9e80-74c2c591eac1"
 
-IG_CONCURRENCY = 8   # pagine IG simultanee
-GB_CONCURRENCY = 5   # pagine GB simultanee
+IG_CONCURRENCY = 6   # pagine IG simultanee (ridotto per camoufox Firefox)
+GB_CONCURRENCY = 3   # pagine GB simultanee (ridotto per camoufox Firefox)
 STAGGER        = 0.15  # secondi tra lancio task (anti-burst)
-TIMEOUT_NAV    = 15000
-TIMEOUT_SEL    = 6000
+TIMEOUT_NAV    = 30000  # 30s — Firefox/camoufox è più lento di Chromium
+TIMEOUT_SEL    = 10000  # 10s selector timeout
 
 IG_SEARCH = "https://www.instant-gaming.com/en/search/?query={}"
 GB_SEARCH = "https://www.gamebillet.com/allproducts?q={}&adv=true"

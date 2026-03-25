@@ -782,7 +782,7 @@ function createCard(game, freeEntry = null, cardIndex = 99) {
 
   const imgLoading = cardIndex < 6 ? 'eager' : 'lazy';
   const imgHtml = game.image
-    ? `<div class="card-img-wrapper"><img class="card-img" src="${esc(game.image)}" alt="${safeTitle}" loading="${imgLoading}" width="460" height="215" decoding="async"
+    ? `<div class="card-img-wrapper"><img class="card-img" src="${esc(game.image)}" alt="${safeTitle}" loading="${imgLoading}" width="460" height="215" sizes="(max-width: 600px) 100vw, 460px" decoding="async"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
        <div class="card-img-placeholder" style="display:none">🎮</div></div>`
     : `<div class="card-img-placeholder">🎮</div>`;
@@ -929,7 +929,7 @@ function openModal(id) {
 
 
   document.getElementById('modalContent').innerHTML = `
-    ${game.image ? `<img class="modal-img" src="${esc(game.image)}" alt="${safeTitle}" width="460" height="215" decoding="async">` : ''}
+    ${game.image ? `<img class="modal-img" src="${esc(game.image)}" alt="${safeTitle}" width="460" height="215" sizes="(max-width: 600px) 100vw, 460px" decoding="async">` : ''}
     <div class="modal-body">
       <div class="modal-header">
         <div class="modal-title">${safeTitle} ${isPlayed(id) ? `<span class="played-badge">${t('played_badge')}</span>` : ''}</div>
