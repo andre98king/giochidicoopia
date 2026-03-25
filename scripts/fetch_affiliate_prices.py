@@ -231,9 +231,10 @@ _UA = (
 async def run() -> None:
     try:
         from camoufox.async_api import AsyncCamoufox
+        _has_camoufox = True
     except ImportError:
-        print("❌ camoufox non installato. Esegui: pip install camoufox && python3 -m camoufox fetch")
-        sys.exit(1)
+        _has_camoufox = False
+        print("⚠️  camoufox non installato — GB scraper disabilitato (solo IG)")
 
     games = catalog_data.load_games()
     featured_id, _ = catalog_data.load_legacy_catalog_bundle()
@@ -242,19 +243,17 @@ async def run() -> None:
     targets = [g for g in games if g.get("steamUrl")]
     total = len(targets)
     print(f"🔍 Cerco prezzi affiliati per {total} giochi con Steam URL...")
-    print(f"   Browser: camoufox (Firefox stealth)")
+    print(f"   Browser: camoufox (Firefox stealth)" if _has_camoufox else "   Browser: playwright (solo IG)")
     print(f"   Concorrenza: IG={IG_CONCURRENCY}  GB={GB_CONCURRENCY}  (paralleli)")
 
     ig_found = gb_found = done_count = 0
     start = time.time()
     lock = asyncio.Lock()
-
     ig_sem = asyncio.Semaphore(IG_CONCURRENCY)
     gb_sem = asyncio.Semaphore(GB_CONCURRENCY)
 
-    async with AsyncCamoufox(headless=True, humanize=True) as browser:
-        ig_ctx = await browser.new_context(locale="en-US")
-        gb_ctx = await browser.new_context(locale="en-US")
+    async def _scrape(ig_ctx, gb_ctx) -> None:
+        nonlocal ig_found, gb_found, done_count
 
         async def process_game(game: dict) -> None:
             nonlocal ig_found, gb_found, done_count
@@ -268,6 +267,8 @@ async def run() -> None:
                         await page.close()
 
             async def do_gb():
+                if gb_ctx is None:
+                    return "", 0
                 async with gb_sem:
                     page = await gb_ctx.new_page()
                     try:
@@ -278,7 +279,6 @@ async def run() -> None:
             ig_res, gb_res = await asyncio.gather(
                 do_ig(), do_gb(), return_exceptions=True
             )
-
             ig_url, ig_disc = ig_res if not isinstance(ig_res, Exception) else ("", 0)
             gb_url, gb_disc = gb_res if not isinstance(gb_res, Exception) else ("", 0)
 
@@ -307,11 +307,30 @@ async def run() -> None:
         for game in targets:
             tasks.append(asyncio.ensure_future(process_game(game)))
             await asyncio.sleep(STAGGER)
-
         await asyncio.gather(*tasks, return_exceptions=True)
 
-        await ig_ctx.close()
-        await gb_ctx.close()
+    if _has_camoufox:
+        try:
+            async with AsyncCamoufox(headless=True, humanize=True) as browser:
+                ig_ctx = await browser.new_context(locale="en-US")
+                gb_ctx = await browser.new_context(locale="en-US")
+                await _scrape(ig_ctx, gb_ctx)
+                await ig_ctx.close()
+                await gb_ctx.close()
+        except Exception as exc:
+            print(f"⚠️  camoufox crash ({exc}) — salvando dati IG già raccolti")
+    else:
+        try:
+            from playwright.async_api import async_playwright
+        except ImportError:
+            print("❌ né camoufox né playwright installati.")
+            sys.exit(1)
+        async with async_playwright() as pw:
+            browser = await pw.chromium.launch(headless=True)
+            ig_ctx = await browser.new_context(user_agent=_UA, locale="en-US")
+            await _scrape(ig_ctx, gb_ctx=None)
+            await ig_ctx.close()
+            await browser.close()
 
     elapsed = time.time() - start
     print(f"\n✅ IG: {ig_found}/{total}  GB: {gb_found}/{total}  ⏱ {elapsed:.0f}s")

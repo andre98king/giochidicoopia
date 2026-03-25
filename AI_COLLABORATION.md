@@ -1,6 +1,6 @@
 # AI Collaboration Log — coophubs.net
 
-Data ultimo aggiornamento: **2026-03-25**
+Data ultimo aggiornamento: **2026-03-25 (v2)**
 
 ---
 
@@ -9,12 +9,12 @@ Data ultimo aggiornamento: **2026-03-25**
 ### ✅ Completato (Feb-Mar 2026)
 
 **Core features:**
-- ✅ Catalogo 334 giochi coerente (games.js) con dati Steam/itch.io
+- ✅ Catalogo **551 giochi** coerente (games.js) con dati Steam/itch.io
 - ✅ Filtri raggruppati (Special: all/trending/free, Genere, Modalità)
 - ✅ Sistema "Giochi Già Giocati" (localStorage + localStorage_notes)
 - ✅ Note personali per giochi completati
 - ✅ Modale per dettagli gioco con link store
-- ✅ Routing statico: `games/<id>.html` (334 pagine per SEO)
+- ✅ Routing statico: `games/<id>.html` (551 pagine per SEO)
 - ✅ I18n IT/EN completo
 - ✅ Sitemap.xml + robots.txt
 - ✅ Mobile responsive (CSS grid + flex)
@@ -49,7 +49,7 @@ Data ultimo aggiornamento: **2026-03-25**
 
 | Problema | Severity | Note |
 |----------|----------|------|
-| GameBillet coverage basso | ⚠️ High | 4 giochi (residuo vecchio run) — fix URL + stealth pronto, serve run completa |
+| GameBillet coverage basso | ⚠️ High | 4 giochi (residuo vecchio run) — fix camoufox committato, serve run completa per misurare coverage reale |
 | Gameseal discount=0 | ⚠️ Medium | CJ API non restituisce salePrice — link attivi ma sconto sempre 0 |
 | GOG partner ID | ⚠️ Low | ID non ancora ottenuto (architettura pronta in app.js) |
 | WinGameStore in review | ℹ️ Info | Link scaduto, email support inviata 2026-03-18 |
@@ -218,11 +218,22 @@ Data ultimo aggiornamento: **2026-03-25**
 
 ---
 
+## Log 2026-03-25 (v2) — Audit critico + roadmap + fix
+
+- **Audit critico**: analisi 3 agenti paralleli su pipeline, frontend, database
+  - Database: 551 giochi (non 334), GB coverage 0.7% (4 giochi), trending 41.6% (229/551)
+  - Pipeline: nessun retry HTTP, camoufox senza fallback, build_static_pages ricrea tutto
+  - Frontend: app.js 1133 righe, no DOM virtualization, no focus trap modal
+- **Fix trending**: soglia `MIN_CCU_TRENDING` 800 → 10.000 (229 → 54 giochi trending, top ~10%)
+- **Fix retry**: aggiunto tenacity retry+backoff in `steam_catalog_source.py` (3 tentativi, backoff 2-30s)
+- **Fix camoufox fallback**: run() ora logga + salva dati IG se camoufox crasha invece di sys.exit()
+- **Roadmap** salvata in `/home/andrea/.claude/plans/wiggly-leaping-crystal.md`
+
 ## Log 2026-03-25
 
 - **Fix: workflow rotto da 3 giorni** — `import json` mancante in `auto_update.py` causava crash silenzioso in "Run update script" (NameError su `json.dumps`)
 - **Fix: GameBillet URL** — `/allgames?search=` → `/allproducts?q=` (endpoint cambiato, vecchio URL restituiva 404)
-- **Fix: headless browser Cloudflare** — aggiunto stealth config (`--disable-blink-features=AutomationControlled` + `navigator.webdriver=undefined`) al browser context GB per superare Cloudflare bot detection
+- **Fix: headless browser Cloudflare** — sostituito patchright con **camoufox** (Firefox stealth, bypassa Cloudflare Turnstile a livello engine). Confermato: HELLDIVERS 2 trovato a 25% su GB. Camoufox usato per ENTRAMBI IG e GB (un solo browser, due context).
 - **Fix CSS build_static_pages.py** — classe `affiliate-badge` → `affiliate-discount` nei link badge store
 - **State: coverage GB** — era 4 giochi (residuo vecchio run), attesa run completa con fix
 

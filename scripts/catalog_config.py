@@ -3,7 +3,7 @@ import os
 DELAY = 1.5    # secondi tra richieste API
 MAX_NEW_GAMES = 30     # max nuovi giochi per run (SteamSpy)
 MAX_EN_FETCH = 30     # max giochi esistenti a cui aggiungere desc EN per run
-MIN_CCU_TRENDING = 800    # CCU minimo per badge 🔥 Trending
+MIN_CCU_TRENDING = 10000  # CCU minimo per badge 🔥 Trending (~top 10% catalogo, ~54 giochi)
 MAX_ITCH_GAMES = 20     # max giochi itch.io per run (RSS feed)
 ITCH_IO_KEY = os.environ.get('ITCH_IO_KEY', '')
 IGDB_CLIENT_ID = os.environ.get('IGDB_CLIENT_ID', '')

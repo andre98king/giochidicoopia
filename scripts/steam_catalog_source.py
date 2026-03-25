@@ -13,8 +13,11 @@ import html as html_mod
 import json
 import re
 import time
+import urllib.error
 import urllib.request
 from typing import Any
+
+from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 
 
 DEFAULT_USER_AGENT = "Mozilla/5.0"
@@ -46,10 +49,20 @@ class SteamCatalogSource:
 
     def fetch_json(self, url: str) -> Any | None:
         time.sleep(self.delay)
-        request = urllib.request.Request(url, headers={"User-Agent": self.user_agent})
-        try:
+
+        @retry(
+            retry=retry_if_exception_type((urllib.error.URLError, TimeoutError, OSError)),
+            wait=wait_exponential(multiplier=1, min=2, max=30),
+            stop=stop_after_attempt(3),
+            reraise=False,
+        )
+        def _do_request() -> Any:
+            request = urllib.request.Request(url, headers={"User-Agent": self.user_agent})
             with urllib.request.urlopen(request, timeout=self.timeout) as response:
                 return json.loads(response.read().decode("utf-8", errors="replace"))
+
+        try:
+            return _do_request()
         except Exception as exc:
             print(f"    ⚠ ERR {url[:70]}: {exc}")
             return None
