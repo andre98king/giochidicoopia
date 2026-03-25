@@ -727,18 +727,18 @@ function buildAffiliateBtns(game) {
     btns.push(`<a class="btn-affiliate btn-gameseal" href="${esc(gsUrl)}" target="_blank" rel="noopener noreferrer sponsored"><span class="affiliate-store">Gameseal</span>${gsBadge}</a>`);
   }
 
-  // Kinguin: search via CJ Affiliate deep link
+  // Kinguin: link diretto se disponibile, altrimenti homepage store via CJ (no search: SPA non gestisce redirect)
   if (AFFILIATE.kinguin && game.steamUrl) {
-    const kgSearch = `https://www.kinguin.net/listing?search=${q}`;
-    const kgUrl = `${AFFILIATE.kinguin}?url=${encodeURIComponent(kgSearch)}`;
-    btns.push(`<a class="btn-affiliate btn-kinguin" href="${esc(kgUrl)}" target="_blank" rel="noopener noreferrer sponsored"><span class="affiliate-store">Kinguin</span></a>`);
+    const kgUrl = game.kgUrl || AFFILIATE.kinguin;
+    const kgBadge = game.kgDiscount ? `<span class="affiliate-discount">-${game.kgDiscount}%</span>` : '';
+    btns.push(`<a class="btn-affiliate btn-kinguin" href="${esc(kgUrl)}" target="_blank" rel="noopener noreferrer sponsored"><span class="affiliate-store">Kinguin</span>${kgBadge}</a>`);
   }
 
-  // GAMIVO: search via CJ Affiliate deep link
+  // GAMIVO: link diretto se disponibile, altrimenti homepage store via CJ (no search: SPA non gestisce redirect)
   if (AFFILIATE.gamivo && game.steamUrl) {
-    const gmvSearch = `https://www.gamivo.com/search?search=${q}`;
-    const gmvUrl = `${AFFILIATE.gamivo}?url=${encodeURIComponent(gmvSearch)}`;
-    btns.push(`<a class="btn-affiliate btn-gamivo" href="${esc(gmvUrl)}" target="_blank" rel="noopener noreferrer sponsored"><span class="affiliate-store">GAMIVO</span></a>`);
+    const gmvUrl = game.gmvUrl || AFFILIATE.gamivo;
+    const gmvBadge = game.gmvDiscount ? `<span class="affiliate-discount">-${game.gmvDiscount}%</span>` : '';
+    btns.push(`<a class="btn-affiliate btn-gamivo" href="${esc(gmvUrl)}" target="_blank" rel="noopener noreferrer sponsored"><span class="affiliate-store">GAMIVO</span>${gmvBadge}</a>`);
   }
 
   return `<div class="affiliate-section"><div class="affiliate-title">💸 ${t('modal_alt_prices')}</div><div class="affiliate-btns">${btns.join('')}</div></div>`;

@@ -256,22 +256,22 @@ def render_store_links(game: dict) -> str:
                 f'<span class="affiliate-store">Gameseal</span>{gs_badge}</a>'
             )
         if AFFILIATE_KINGUIN:
-            from urllib.parse import quote as _q
-            kg_search = f"https://www.kinguin.net/listing?search={q}"
-            kg_url = f"{AFFILIATE_KINGUIN}?url={_q(kg_search)}"
+            kg_url = game.get("kgUrl") or AFFILIATE_KINGUIN
+            kg_discount = game.get("kgDiscount") or 0
+            kg_badge = f'<span class="affiliate-discount">-{kg_discount}%</span>' if kg_discount > 0 else ""
             btns.append(
                 f'<a class="btn-affiliate btn-kinguin" href="{esc(kg_url)}" '
                 f'target="_blank" rel="noopener noreferrer sponsored">'
-                f'<span class="affiliate-store">Kinguin</span></a>'
+                f'<span class="affiliate-store">Kinguin</span>{kg_badge}</a>'
             )
         if AFFILIATE_GAMIVO:
-            from urllib.parse import quote as _q
-            gmv_search = f"https://www.gamivo.com/search?search={q}"
-            gmv_url = f"{AFFILIATE_GAMIVO}?url={_q(gmv_search)}"
+            gmv_url = game.get("gmvUrl") or AFFILIATE_GAMIVO
+            gmv_discount = game.get("gmvDiscount") or 0
+            gmv_badge = f'<span class="affiliate-discount">-{gmv_discount}%</span>' if gmv_discount > 0 else ""
             btns.append(
                 f'<a class="btn-affiliate btn-gamivo" href="{esc(gmv_url)}" '
                 f'target="_blank" rel="noopener noreferrer sponsored">'
-                f'<span class="affiliate-store">GAMIVO</span></a>'
+                f'<span class="affiliate-store">GAMIVO</span>{gmv_badge}</a>'
             )
     if not btns:
         return ""
@@ -351,17 +351,62 @@ def render_static_page(game: dict, all_games: list | None = None) -> str:
             'border:1px solid rgba(92,107,192,0.25)">🔄 Crossplay</span>'
         )
 
+    # ── JSON-LD VideoGame schema ──────────────────────────────────────────
+    coop_modes = game.get("coopMode") or []
+    play_modes = ["SinglePlayer"]
+    if "online" in coop_modes:
+        play_modes += ["CoOp", "MultiPlayer"]
+    if "local" in coop_modes or "split" in coop_modes:
+        if "CoOp" not in play_modes:
+            play_modes.append("CoOp")
+
+    # numberOfPlayers: parse "1-4" → QuantitativeValue
+    players_str = game.get("players") or "1-4"
+    players_parts = players_str.replace(" ", "").split("-")
+    try:
+        players_min = int(players_parts[0])
+        players_max = int(players_parts[-1])
+    except (ValueError, IndexError):
+        players_min, players_max = 1, 4
+
     video_game_json = {
         "@context": "https://schema.org",
         "@type": "VideoGame",
         "name": game["title"],
         "url": page_url(game),
-        "description": game["description"],
+        "description": game.get("description_en") or game["description"],
         "image": image,
         "genre": game["categories"],
         "gamePlatform": "PC",
-        "numberOfPlayers": game["players"],
+        "operatingSystem": "Windows",
+        "applicationCategory": "Game",
+        "numberOfPlayers": {
+            "@type": "QuantitativeValue",
+            "minValue": players_min,
+            "maxValue": players_max,
+        },
+        "playMode": play_modes,
     }
+
+    if game.get("releaseYear") and game["releaseYear"] > 0:
+        video_game_json["datePublished"] = str(game["releaseYear"])
+
+    if game.get("rating") and game["rating"] > 0:
+        video_game_json["aggregateRating"] = {
+            "@type": "AggregateRating",
+            "ratingValue": game["rating"],
+            "bestRating": 100,
+            "worstRating": 0,
+            "ratingCount": 1,  # placeholder — Steam non espone il conteggio esatto via API pubblica
+        }
+
+    if game.get("steamUrl"):
+        video_game_json["offers"] = {
+            "@type": "Offer",
+            "url": game["steamUrl"],
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+        }
 
     script_data = {
         "description": game["description"],
