@@ -22,6 +22,8 @@ Ultima analisi: 2026-03-25
 | Scraper affiliati | IG+GB con anti-DLC, concurrency, ~8min per 385 giochi con Steam URL |
 | Analytics | ✅ Cloudflare Web Analytics attivo |
 | AI Crawler Policy | robots.txt blocca GPTBot, ClaudeBot, Google-Extended, Bytespider, PerplexityBot, CCBot |
+| GSC MCP | ✅ Configurato — progetto coophubs-gsc, sc-domain:coophubs.net (siteOwner) |
+| GSC Indicizzazione | 555 URL sottomessi, indicizzazione in corso (4/5 pagine test indicizzate) |
 
 ### Problemi noti
 
@@ -207,3 +209,4 @@ Pipeline attuale: **SteamSpy → Steam Store API → itch.io**
 | 2026-03-20 | Task 1.5 + 2.2: releaseYear aggiunto alla pipeline (387/549 Steam games). Filtro anno + sort "Più recenti" in homepage con i18n IT/EN |
 | 2026-03-25 | SEO Audit completo (91/100). robots.txt aggiornato: blocca AI training crawlers. Security Headers configurati su Cloudflare (score A). FASE 5 Performance completata (sizes attribute, cache busting v=20260325) |
 | 2026-03-25 | Scraper affiliati migliorato: fuzzy matching (difflib), fallback selectors multipli, camoufox crash fallback, structured logging JSONL. MCP Google Search Console configurato (OAuth, sc-domain:coophubs.net) |
+| 2026-03-25 | GSC indicizzazione: sitemap ri-inviato (555 URL), richiesta indicizzazione manuale pagine principali. 4/5 pagine test ora indicizzate. Monitoring GSC attivo via MCP. |
