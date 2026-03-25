@@ -633,7 +633,8 @@ def write_pages(games):
 def write_sitemap(games):
     lines = [
         '<?xml version="1.0" encoding="UTF-8"?>\n',
-        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n'
+        '        xmlns:xhtml="http://www.w3.org/1999/xhtml">\n',
         "  <url>\n",
         f"    <loc>{SITE_URL}/</loc>\n",
         f"    <lastmod>{TODAY}</lastmod>\n",
@@ -660,10 +661,14 @@ def write_sitemap(games):
         "  </url>\n",
     ]
     for game in games:
+        url = page_url(game)
         lines.extend(
             [
                 "  <url>\n",
-                f"    <loc>{page_url(game)}</loc>\n",
+                f"    <loc>{url}</loc>\n",
+                f"    <xhtml:link rel=\"alternate\" hreflang=\"it\" href=\"{url}\"/>\n",
+                f"    <xhtml:link rel=\"alternate\" hreflang=\"en\" href=\"{url}\"/>\n",
+                f"    <xhtml:link rel=\"alternate\" hreflang=\"x-default\" href=\"{url}\"/>\n",
                 f"    <lastmod>{TODAY}</lastmod>\n",
                 "    <changefreq>weekly</changefreq>\n",
                 "    <priority>0.7</priority>\n",
