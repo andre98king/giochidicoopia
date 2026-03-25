@@ -24,6 +24,10 @@ tenacity>=9.0.0
 # Browser automation per scraping siti con rendering Vue.js/React (es. Instant Gaming)
 playwright>=1.44.0
 
-# Drop-in replacement di Playwright con patch stealth anti-bot (Cloudflare bypass)
-# Usato da fetch_affiliate_prices.py per GameBillet (Cloudflare protetto)
+# Drop-in replacement di Playwright con patch stealth anti-bot (Chrome-level)
 patchright>=1.58.0
+
+# Browser Firefox stealth con fingerprint spoofing — bypassa Cloudflare Turnstile
+# Usato da fetch_affiliate_prices.py per GameBillet (Cloudflare Managed Challenge)
+# Setup: pip install camoufox && python3 -m camoufox fetch
+camoufox>=0.4.0
