@@ -218,6 +218,52 @@ Data ultimo aggiornamento: **2026-03-25 (v2)**
 
 ---
 
+## Log 2026-03-25 (v4) — FASE 3 SEO + FASE 4 UX + fix vari
+
+### Affiliate
+- **Kinguin (CJ)**: AFFILIATE.kinguin = `click-101708519-15734285`, 6% nuovi utenti
+- **GAMIVO INT (CJ)**: AFFILIATE.gamivo = `click-101708519-10660651`
+- **Fix Kinguin/GAMIVO**: i link search andavano alla homepage (SPA non gestisce redirect CJ). Fix: fallback a homepage store via CJ se non esiste `game.kgUrl`/`game.gmvUrl`. Struttura dati: `kgUrl`, `kgDiscount`, `gmvUrl`, `gmvDiscount` (da aggiungere via scraper futuro)
+- Declinati su CJ: GearUP, hero-wars.com, Safeshell VPN
+- Pending: Fanatical, GOG.COM INT, K4G (CJ), WinGameStore (link scaduto)
+
+### FASE 3 SEO — JSON-LD VideoGame (tutte le 551 pagine statiche)
+- Aggiunto: `aggregateRating` (senza ratingCount — nessun dato reale disponibile, si attiva se `game.totalReviews > 0`)
+- Aggiunto: `playMode` → `["SinglePlayer","CoOp","MultiPlayer"]` da `coopMode`
+- Aggiunto: `numberOfPlayers` → `QuantitativeValue` con min/max parsati da `game.players`
+- Aggiunto: `datePublished`, `operatingSystem`, `applicationCategory: "Game"`, `offers` con steamUrl
+- Descrizione EN usata per schema (più utile per Google)
+
+### FASE 3 SEO — Hreflang sitemap
+- Sitemap ora ha `xmlns:xhtml` + `<xhtml:link>` IT/EN/x-default per tutti i 551 giochi
+- HTML hreflang già corretto (stessa URL per entrambe le lingue, JS i18n)
+- Metodo raccomandato per siti 500+ pagine
+
+### FASE 4 UX
+- **Focus trap modal**: Tab ciclico dentro modal, Escape chiude, focus ripristinato all'elemento precedente
+- **Swipe-to-dismiss**: swipe down ≥80px su overlay chiude modal (mobile)
+- **aria-expanded**: aggiunto su toggle genre filters e mode filters (accessibilità screen reader)
+
+### Repo cleanup
+- Rimossi da git: 4 PNG screenshot (~1.3MB) + `data/coop_validation_report.json`
+- `.gitignore` aggiornato: `*-desktop.png`, `*-mobile.png`, `ext-links-*.png`, `related-games-*.png`
+
+### Note tecniche
+- Co-Optimus API: bloccata da Cloudflare Managed Challenge — non usabile senza browser automation per 551 chiamate
+- IGDB già copre lo stesso dato: 401/551 giochi con igdbId, 197 con "split" coopMode
+- `totalReviews` non è ancora in games.js — quando aggiunto, `ratingCount` in aggregateRating si attiva automaticamente
+
+### Stato roadmap
+- FASE 0: ✅ completa
+- FASE 1: ✅ IG, GB, GMG, Gameseal, Kinguin, GAMIVO attivi
+- FASE 2: ✅ retry tenacity, fallback camoufox, trending ricalibirato (54 giochi)
+- FASE 3: ✅ JSON-LD + hreflang sitemap
+- FASE 4: ✅ focus trap + swipe + aria-expanded
+- FASE 5 (prossima): DOM virtualization, sizes attribute immagini, free games timer cleanup
+- TODO prossima sessione: `/webapp-testing` per verificare FASE 4 UX in browser
+
+---
+
 ## Log 2026-03-25 (v3) — Integrazione Kinguin + GAMIVO
 
 - **Kinguin (CJ)**: aggiunto a `AFFILIATE` in app.js + `AFFILIATE_KINGUIN` in build_static_pages.py — deep link CJ ID 15734285, commissione 6% nuovi utenti
