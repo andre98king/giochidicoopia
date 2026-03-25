@@ -223,11 +223,17 @@ _UA = (
 
 
 async def run() -> None:
+    # Preferisce patchright (stealth anti-bot) se disponibile, fallback su playwright
     try:
-        from playwright.async_api import async_playwright
+        from patchright.async_api import async_playwright
+        print("   Browser: patchright (stealth mode)")
     except ImportError:
-        print("❌ playwright non installato. Esegui: pip install playwright && playwright install chromium")
-        sys.exit(1)
+        try:
+            from playwright.async_api import async_playwright
+            print("   Browser: playwright (standard)")
+        except ImportError:
+            print("❌ né patchright né playwright installati.")
+            sys.exit(1)
 
     games = catalog_data.load_games()
     featured_id, _ = catalog_data.load_legacy_catalog_bundle()

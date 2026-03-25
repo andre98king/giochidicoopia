@@ -23,3 +23,7 @@ tenacity>=9.0.0
 
 # Browser automation per scraping siti con rendering Vue.js/React (es. Instant Gaming)
 playwright>=1.44.0
+
+# Drop-in replacement di Playwright con patch stealth anti-bot (Cloudflare bypass)
+# Usato da fetch_affiliate_prices.py per GameBillet (Cloudflare protetto)
+patchright>=1.58.0

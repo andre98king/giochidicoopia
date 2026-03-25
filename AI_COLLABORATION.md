@@ -1,6 +1,6 @@
 # AI Collaboration Log — coophubs.net
 
-Data ultimo aggiornamento: **2026-03-20**
+Data ultimo aggiornamento: **2026-03-25**
 
 ---
 
@@ -45,14 +45,16 @@ Data ultimo aggiornamento: **2026-03-20**
 
 ---
 
-## 🚨 Known Issues (Nessuno critico)
+## 🚨 Known Issues
 
 | Problema | Severity | Note |
 |----------|----------|------|
-| Gameseal coverage basso | ⚠️ Medium | ~15 games trovati via CJ API, manca mapping many-to-one |
+| GameBillet coverage basso | ⚠️ High | 4 giochi (residuo vecchio run) — fix URL + stealth pronto, serve run completa |
+| Gameseal discount=0 | ⚠️ Medium | CJ API non restituisce salePrice — link attivi ma sconto sempre 0 |
 | GOG partner ID | ⚠️ Low | ID non ancora ottenuto (architettura pronta in app.js) |
-| WinGameStore in review | ℹ️ Info | Approvazione entro 5gg lavorativi |
-| Green Man Gaming in review | ℹ️ Info | Impact.com approval pending |
+| WinGameStore in review | ℹ️ Info | Link scaduto, email support inviata 2026-03-18 |
+| Green Man Gaming | ℹ️ Info | Approvato su Impact.com, solo search fallback (no direct link per gioco) |
+| games.js stale | ℹ️ Info | Fermo al 21/03 — aggiornamento atteso al prossimo workflow (domani) |
 
 ---
 
@@ -146,9 +148,9 @@ Data ultimo aggiornamento: **2026-03-20**
    - Log errors + retry logic
 
 2. **Analytics**
-   - Implementare Plausible Analytics (privacy-first, no cookies)
-   - Track: game clicks, affiliate clicks, filters usati
-   - Monthly report su revenue affiliate
+   - ✅ Cloudflare Analytics già attivo (privacy-first, no cookies, zero-config)
+   - Track affiliate clicks: verificare se CF registra click su link esterni
+   - Monthly report su revenue affiliate (da pannelli IG/GB/CJ)
 
 3. **Content freshness**
    - Review giochi new/removed monthly (Steam API)
@@ -212,7 +214,28 @@ Data ultimo aggiornamento: **2026-03-20**
 - **Claude Code**: tech lead, code review, roadmap, fix prioritizzazione
 - **Aider + Ollama**: task delegati (coding ripetitivo, scraper fixes, refactoring meccanico)
 
-**Prossima sync**: Plan per Fase 1 (Gameseal + Epic + GOG affiliate coverage)
+**Prossima sync**: Fase 1 in corso — GB scraper fix, poi Gameseal + GOG
+
+---
+
+## Log 2026-03-25
+
+- **Fix: workflow rotto da 3 giorni** — `import json` mancante in `auto_update.py` causava crash silenzioso in "Run update script" (NameError su `json.dumps`)
+- **Fix: GameBillet URL** — `/allgames?search=` → `/allproducts?q=` (endpoint cambiato, vecchio URL restituiva 404)
+- **Fix: headless browser Cloudflare** — aggiunto stealth config (`--disable-blink-features=AutomationControlled` + `navigator.webdriver=undefined`) al browser context GB per superare Cloudflare bot detection
+- **Fix CSS build_static_pages.py** — classe `affiliate-badge` → `affiliate-discount` nei link badge store
+- **State: coverage GB** — era 4 giochi (residuo vecchio run), attesa run completa con fix
+
+---
+
+## Log 2026-03-21/24
+
+- **Sistema cross-validazione co-op** (commit 01afbda): `scripts/cross_validate_coop.py` — verifica tag co-op con Steam (categoria "Co-op") + IGDB (multiplayer_modes + game_modes mode 3). Produce `data/coop_validation_report.json`.
+- **Whitelist + Blacklist**: `VERIFIED_COOP_APPIDS` (9 giochi verificati manualmente), `BLACKLIST_APPIDS` aggiornata (+7 giochi PvP: Pummel Party, Nidhogg 2, Worms Rumble, GTA IV, XCOM 2, SW Empire at War, X4)
+- **Rimozione 7 giochi PvP** (549 → 542): Brawlhalla, Apex, For Honor, DotA 2, Paladins, Splitgate, Rocket League rimossi dal catalogo
+- **Fix CI** (commit bb01320): coopMode/categories sync downgrade da error a warning in `validate_catalog.py`
+- **Fix CI** (commit 62f11ae): path corretto `free_games.js`, resilienza IGDB nei workflow
+- **Analytics**: confermato uso Cloudflare Analytics (no Plausible — nota: correggere roadmap)
 
 ---
 
