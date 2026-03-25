@@ -1,4 +1,4 @@
-const featuredIndieId = 352;
+const featuredIndieId = 16;
 
 const games = [
   {
@@ -25,10 +25,10 @@ const games = [
     trending: true,
     rating: 74,
     igUrl: "https://www.instant-gaming.com/en/18729-buy-steam-elden-ring-nightreign-deluxe-edition-deluxe-edition-pc-game-steam-us-and-ca/?igr=gamer-ddc4a8",
-    igDiscount: 31,
+    igDiscount: 30,
     gbUrl: "https://www.gamebillet.com/elden-ring-nightreign-z?affiliate=fb308ca0-647e-4ce7-9e80-74c2c591eac1",
     gbDiscount: 33,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Felden-ring-nightreign-pc-steam-gift-global&cjsku=SW40127",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Felden-ring-nightreign-pc-steam-gift-global&cjsku=SW40127",
     gsDiscount: 0
   },
   {
@@ -58,7 +58,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Frust-pc-steam-gift-global&cjsku=25990",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Frust-pc-steam-account-global&cjsku=SW22997",
     gsDiscount: 0
   },
   {
@@ -88,7 +88,7 @@ const games = [
     igDiscount: 31,
     gbUrl: "https://www.gamebillet.com/helldivers-2-pre-purchase?affiliate=fb308ca0-647e-4ce7-9e80-74c2c591eac1",
     gbDiscount: 33,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fhelldivers-2-pc-steam-key-eu&cjsku=168137",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fhelldivers-2-pc-steam-key-row&cjsku=168150",
     gsDiscount: 0
   },
   {
@@ -118,7 +118,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftom-clancy-s-rainbow-six-siege-pc-steam-gift-global&cjsku=26237",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftom-clancy-s-rainbow-six-siege-pc-steam-gift-global&cjsku=26237",
     gsDiscount: 0
   },
   {
@@ -148,7 +148,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "https://www.gamebillet.com/dead-by-daylight-alien-chapter-pack-z?affiliate=fb308ca0-647e-4ce7-9e80-74c2c591eac1",
     gbDiscount: 50,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdead-by-daylight-pc-steam-key-global&cjsku=2014",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdead-by-daylight-pc-steam-key-global&cjsku=2014",
     gsDiscount: 0
   },
   {
@@ -208,7 +208,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "https://www.gamebillet.com/grand-theft-auto-v-and-criminal-enterprise-starter-pack-bundle?affiliate=fb308ca0-647e-4ce7-9e80-74c2c591eac1",
     gbDiscount: 5,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fgrand-theft-auto-v-enhanced-pc-steam-account-global&cjsku=SW39248",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fgrand-theft-auto-v-enhanced-pc-steam-account-global&cjsku=SW39248",
     gsDiscount: 0
   },
   {
@@ -235,10 +235,10 @@ const games = [
     trending: true,
     rating: 77,
     igUrl: "https://www.instant-gaming.com/en/20949-buy-steam-dayz-deluxe-edition-pc-steam/?igr=gamer-ddc4a8",
-    igDiscount: 29,
+    igDiscount: 34,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdayz-pc-steam-key-eu&cjsku=86652",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdayz-pc-steam-key-global&cjsku=37715",
     gsDiscount: 0
   },
   {
@@ -268,7 +268,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwarframe-7-day-credit-affinity-booster-packs-pc-official-website-key-global&cjsku=46339",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwarframe-7-day-credit-affinity-booster-packs-pc-official-website-key-global&cjsku=46339",
     gsDiscount: 0
   },
   {
@@ -298,7 +298,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fr.e.p.o.-pc-steam-gift-global&cjsku=SW37950",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fr.e.p.o.-pc-steam-gift-global&cjsku=SW37950",
     gsDiscount: 0
   },
   {
@@ -358,7 +358,7 @@ const games = [
     igDiscount: 49,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fpayday-2-a-merry-payday-christmas-soundtrack-dlc-pc-steam-gift-global&cjsku=SW28700",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fpayday-2-a-merry-payday-christmas-soundtrack-dlc-pc-steam-gift-global&cjsku=SW28700",
     gsDiscount: 0
   },
   {
@@ -388,7 +388,7 @@ const games = [
     igDiscount: 58,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fleft-4-dead-2-pc-steam-account-global&cjsku=SW24309",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fleft-4-dead-2-pc-steam-gift-global&cjsku=26244",
     gsDiscount: 0
   },
   {
@@ -418,7 +418,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdestiny-2-lightfall-dlc-pc-steam-key-global&cjsku=141263",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdestiny-2-lightfall-dlc-pc-steam-key-global&cjsku=141263",
     gsDiscount: 0
   },
   {
@@ -448,7 +448,7 @@ const games = [
     igDiscount: 17,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fterraria-pc-steam-key-global&cjsku=1938",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fterraria-pc-steam-gift-global&cjsku=25901",
     gsDiscount: 0
   },
   {
@@ -478,7 +478,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fproject-zomboid-pc-steam-gift-eu&cjsku=27975",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fproject-zomboid-pc-steam-account-global&cjsku=SW34587",
     gsDiscount: 0
   },
   {
@@ -508,7 +508,7 @@ const games = [
     igDiscount: 1,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fark-survival-evolved-pc-steam-gift-eu&cjsku=26557",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fark-survival-evolved-pc-steam-gift-eu&cjsku=26557",
     gsDiscount: 0
   },
   {
@@ -538,15 +538,15 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17167624?url=https%3A%2F%2Fgameseal.com%2Frocket-league-marauder-dlc-pc-steam-gift-global%3Fcurrency%3DUSD&cjsku=46163",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17167625?url=https%3A%2F%2Fgameseal.com%2Frocket-league-marauder-dlc-pc-steam-gift-global%3Fcurrency%3DGBP&cjsku=46163",
     gsDiscount: 0
   },
   {
     id: 20,
     igdbId: 121988,
     title: "Garry's Mod",
-    categories: ["indie", "factory", "action"],
-    genres: ["action"],
+    categories: ["factory", "action"],
+    genres: ["factory", "action"],
     coopMode: ["local"],
     maxPlayers: 2,
     crossplay: true,
@@ -568,7 +568,7 @@ const games = [
     igDiscount: 17,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fgarry-s-mod-pc-steam-gift-eu&cjsku=25807",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fgarry-s-mod-pc-steam-account-global&cjsku=SW22597",
     gsDiscount: 0
   },
   {
@@ -598,7 +598,7 @@ const games = [
     igDiscount: 13,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fpalworld-pc-steam-account-global&cjsku=SW23580",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fpalworld-pc-steam-account-global&cjsku=SW23580",
     gsDiscount: 0
   },
   {
@@ -625,10 +625,10 @@ const games = [
     trending: true,
     rating: 89,
     igUrl: "https://www.instant-gaming.com/en/1028-buy-steam-7-days-to-die-pc-mac-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 63,
+    igDiscount: 58,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2F7-days-to-die-pc-steam-key-eu&cjsku=34795",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2F7-days-to-die-pc-steam-key-global&cjsku=4",
     gsDiscount: 0
   },
   {
@@ -655,10 +655,10 @@ const games = [
     trending: true,
     rating: 73,
     igUrl: "https://www.instant-gaming.com/en/13368-buy-steam-total-war-warhammer-iii-pc-mac-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 79,
+    igDiscount: 80,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftotal-war-warhammer-iii-pc-steam-key-eu&cjsku=121195",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftotal-war-warhammer-iii-pc-steam-gift-global&cjsku=SW26571",
     gsDiscount: 0
   },
   {
@@ -688,7 +688,7 @@ const games = [
     igDiscount: 9,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffactorio-pc-steam-key-eu&cjsku=46257",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffactorio-pc-steam-gift-global&cjsku=25979",
     gsDiscount: 0
   },
   {
@@ -697,7 +697,7 @@ const games = [
     title: "The Binding of Isaac: Rebirth",
     categories: ["rpg", "splitscreen", "action", "indie"],
     genres: ["rpg", "action"],
-    coopMode: ["local", "split"],
+    coopMode: ["local"],
     maxPlayers: 4,
     crossplay: false,
     players: "1-4 (locale)",
@@ -718,7 +718,7 @@ const games = [
     igDiscount: 18,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fthe-binding-of-isaac-rebirth-pc-steam-gift-eu&cjsku=25820",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fthe-binding-of-isaac-rebirth-pc-steam-gift-global&cjsku=26004",
     gsDiscount: 0
   },
   {
@@ -748,7 +748,7 @@ const games = [
     igDiscount: 48,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fvalheim-pc-steam-gift-eu&cjsku=78758",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fvalheim-pc-steam-gift-eu&cjsku=78758",
     gsDiscount: 0
   },
   {
@@ -778,7 +778,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fblack-desert-online-anniversary-gift-bundle-dlc-official-website-key-global&cjsku=151457",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fblack-desert-online-anniversary-gift-bundle-dlc-official-website-key-global&cjsku=151457",
     gsDiscount: 0
   },
   {
@@ -787,7 +787,7 @@ const games = [
     title: "Brawlhalla",
     categories: ["splitscreen", "action", "free"],
     genres: ["action"],
-    coopMode: ["online", "local", "split"],
+    coopMode: ["online", "local"],
     maxPlayers: 7,
     crossplay: true,
     players: "1-7",
@@ -808,7 +808,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fbrawlhalla-charged-og-colors-dlc-other-key-global&cjsku=151371",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fbrawlhalla-charged-og-colors-dlc-other-key-global&cjsku=151371",
     gsDiscount: 0
   },
   {
@@ -838,7 +838,7 @@ const games = [
     igDiscount: 62,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fage-of-empires-ii-definitive-edition-pc-steam-gift-global&cjsku=SW26268",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fage-of-empires-ii-definitive-edition-pc-steam-gift-global&cjsku=SW26268",
     gsDiscount: 0
   },
   {
@@ -868,7 +868,7 @@ const games = [
     igDiscount: 26,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsatisfactory-pc-steam-key-global&cjsku=61654",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsatisfactory-pc-steam-key-global&cjsku=61654",
     gsDiscount: 0
   },
   {
@@ -898,7 +898,7 @@ const games = [
     igDiscount: 61,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fmonster-hunter-wilds-pc-steam-account-global&cjsku=SW26680",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fmonster-hunter-wilds-pc-steam-account-global&cjsku=SW26680",
     gsDiscount: 0
   },
   {
@@ -928,7 +928,7 @@ const games = [
     igDiscount: 50,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fmonster-hunter-world-pc-steam-key-eu&cjsku=17429",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fmonster-hunter-world-pc-steam-gift-eu&cjsku=58347",
     gsDiscount: 0
   },
   {
@@ -958,7 +958,7 @@ const games = [
     igDiscount: 79,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fv-rising-pc-steam-account-global&cjsku=SW23419",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fv-rising-pc-steam-gift-eu&cjsku=136039",
     gsDiscount: 0
   },
   {
@@ -1018,7 +1018,7 @@ const games = [
     igDiscount: 13,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fstar-wars-battlefront-ii-pc-origin-key-global&cjsku=54484",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fstar-wars-battlefront-ii-pc-origin-key-global&cjsku=54484",
     gsDiscount: 0
   },
   {
@@ -1045,10 +1045,10 @@ const games = [
     trending: true,
     rating: 83,
     igUrl: "https://www.instant-gaming.com/en/1309-buy-steam-game-steam-squad/?igr=gamer-ddc4a8",
-    igDiscount: 70,
+    igDiscount: 69,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fsquad-44-pc-steam-account-global&cjsku=SW24077",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fsquad-44-pc-steam-account-global&cjsku=SW24077",
     gsDiscount: 0
   },
   {
@@ -1108,7 +1108,7 @@ const games = [
     igDiscount: 9,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffallout-76-pc-steam-key-eu&cjsku=63588",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffallout-76-pc-steam-key-eu&cjsku=63588",
     gsDiscount: 0
   },
   {
@@ -1138,7 +1138,7 @@ const games = [
     igDiscount: 58,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fborderlands-2-borderlands-goty-pc-steam-gift-global&cjsku=SW27354",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fborderlands-2-borderlands-goty-pc-steam-gift-global&cjsku=SW27354",
     gsDiscount: 0
   },
   {
@@ -1195,10 +1195,10 @@ const games = [
     trending: true,
     rating: 68,
     igUrl: "https://www.instant-gaming.com/en/17826-buy-steam-gray-zone-warfare-pc-game-steam-us-and-ca/?igr=gamer-ddc4a8",
-    igDiscount: 24,
+    igDiscount: 23,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fgray-zone-warfare-pc-steam-account-global&cjsku=SW22793",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fgray-zone-warfare-pc-steam-account-global&cjsku=SW22793",
     gsDiscount: 0
   },
   {
@@ -1228,7 +1228,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fbloons-td-6-pc-steam-gift-global&cjsku=37884",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fbloons-td-6-pc-steam-gift-global&cjsku=37884",
     gsDiscount: 0
   },
   {
@@ -1255,10 +1255,10 @@ const games = [
     trending: true,
     rating: 96,
     igUrl: "https://www.instant-gaming.com/en/16626-buy-steam-the-planet-crafter-pc-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 4,
+    igDiscount: 3,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fthe-planet-crafter-pc-steam-gift-global&cjsku=133317",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fthe-planet-crafter-pc-steam-gift-global&cjsku=133317",
     gsDiscount: 0
   },
   {
@@ -1288,7 +1288,7 @@ const games = [
     igDiscount: 79,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fwarhammer-40-000-darktide-pc-steam-key-global&cjsku=125399",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fwarhammer-40-000-darktide-pc-steam-key-asia&cjsku=SW62648",
     gsDiscount: 0
   },
   {
@@ -1315,10 +1315,10 @@ const games = [
     trending: true,
     rating: 90,
     igUrl: "https://www.instant-gaming.com/en/4902-buy-steam-arma-3-apex-edition-apex-edition-pc-steam/?igr=gamer-ddc4a8",
-    igDiscount: 33,
+    igDiscount: 34,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Farma-3-pc-steam-key-global&cjsku=10843",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Farma-3-pc-steam-gift-eu&cjsku=58298",
     gsDiscount: 0
   },
   {
@@ -1348,7 +1348,7 @@ const games = [
     igDiscount: 56,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fage-of-empires-iv-anniversary-edition-pc-steam-account-global&cjsku=SW22266",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fage-of-empires-iv-anniversary-edition-pc-steam-account-global&cjsku=SW22266",
     gsDiscount: 0
   },
   {
@@ -1378,7 +1378,7 @@ const games = [
     igDiscount: 67,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fwarhammer-40-000-space-marine-2-pc-steam-gift-row&cjsku=SW32218",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fwarhammer-40-000-space-marine-2-pc-steam-gift-row&cjsku=SW32218",
     gsDiscount: 0
   },
   {
@@ -1408,7 +1408,7 @@ const games = [
     igDiscount: 54,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fbrotato-pc-steam-account-global&cjsku=SW22685",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fbrotato-pc-steam-account-global&cjsku=SW22685",
     gsDiscount: 0
   },
   {
@@ -1435,10 +1435,10 @@ const games = [
     trending: true,
     rating: 73,
     igUrl: "https://www.instant-gaming.com/en/18340-buy-steam-hunt-showdown-1896-starter-edition-starter-edition-pc-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 67,
+    igDiscount: 55,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fhunt-showdown-1896-pc-steam-gift-global&cjsku=SW30573",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fhunt-showdown-1896-pc-steam-key-emea&cjsku=135220",
     gsDiscount: 0
   },
   {
@@ -1468,7 +1468,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Flethal-company-pc-steam-account-global&cjsku=SW35801",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Flethal-company-pc-steam-account-global&cjsku=SW35801",
     gsDiscount: 0
   },
   {
@@ -1498,7 +1498,7 @@ const games = [
     igDiscount: 68,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fthe-isle-pc-steam-gift-eu&cjsku=25835",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fthe-isle-pc-steam-gift-eu&cjsku=25835",
     gsDiscount: 0
   },
   {
@@ -1528,7 +1528,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Flast-epoch-pc-steam-account-global&cjsku=SW24019",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Flast-epoch-pc-steam-account-global&cjsku=SW24019",
     gsDiscount: 0
   },
   {
@@ -1555,10 +1555,10 @@ const games = [
     trending: true,
     rating: 79,
     igUrl: "https://www.instant-gaming.com/en/1258-buy-steam-conan-exiles-pc-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 86,
+    igDiscount: 85,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fconan-exiles-pc-steam-key-global&cjsku=4534",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fconan-exiles-pc-steam-key-global&cjsku=4534",
     gsDiscount: 0
   },
   {
@@ -1585,10 +1585,10 @@ const games = [
     trending: true,
     rating: 69,
     igUrl: "https://www.instant-gaming.com/en/5932-buy-steam-new-world-aeternum-pc-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 10,
+    igDiscount: 9,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fnew-world-aeternum-pc-steam-account-global&cjsku=SW39572",
+    gsUrl: "",
     gsDiscount: 0
   },
   {
@@ -1618,7 +1618,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fsplit-fiction-eng-pc-ea-app-key-global&cjsku=SW37629",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fsplit-fiction-eng-pc-ea-app-key-global&cjsku=SW37629",
     gsDiscount: 0
   },
   {
@@ -1648,7 +1648,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsea-of-thieves-2025-edition-pc-steam-account-global&cjsku=SW39651",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsea-of-thieves-2025-edition-pc-steam-account-global&cjsku=SW39651",
     gsDiscount: 0
   },
   {
@@ -1678,7 +1678,7 @@ const games = [
     igDiscount: 51,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fcall-of-duty-black-ops-iii-pc-steam-account-global&cjsku=SW22713",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fcall-of-duty-black-ops-iii-pc-steam-key-global&cjsku=207",
     gsDiscount: 0
   },
   {
@@ -1708,7 +1708,7 @@ const games = [
     igDiscount: 68,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdeep-rock-galactic-pc-steam-gift-eu&cjsku=25804",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdeep-rock-galactic-pc-steam-gift-eu&cjsku=25804",
     gsDiscount: 0
   },
   {
@@ -1738,7 +1738,7 @@ const games = [
     igDiscount: 19,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fit-takes-two-pc-steam-account-global&cjsku=SW22901",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fit-takes-two-pc-steam-gift-global&cjsku=74972",
     gsDiscount: 0
   },
   {
@@ -1768,7 +1768,7 @@ const games = [
     igDiscount: 70,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdying-light-pc-steam-key-eu&cjsku=37962",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdying-light-pc-steam-key-global&cjsku=3007",
     gsDiscount: 0
   },
   {
@@ -1798,7 +1798,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fraft-pc-steam-gift-eu&cjsku=25752",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fraft-pc-steam-gift-eu&cjsku=25752",
     gsDiscount: 0
   },
   {
@@ -1858,7 +1858,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fpath-of-exile-2-path-of-exile-2-early-access-supporter-pack-pc-steam-gift-global&cjsku=SW25364",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fpath-of-exile-2-path-of-exile-2-early-access-supporter-pack-pc-steam-gift-global&cjsku=SW25364",
     gsDiscount: 0
   },
   {
@@ -1888,7 +1888,7 @@ const games = [
     igDiscount: 76,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fkilling-floor-2-pc-steam-key-global&cjsku=778",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fkilling-floor-2-pc-steam-key-global&cjsku=778",
     gsDiscount: 0
   },
   {
@@ -1918,7 +1918,7 @@ const games = [
     igDiscount: 23,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsons-of-the-forest-pc-steam-gift-global&cjsku=150965",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsons-of-the-forest-pc-steam-gift-eu&cjsku=164157",
     gsDiscount: 0
   },
   {
@@ -1948,7 +1948,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fready-or-not-pc-steam-account-global&cjsku=SW23750",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fready-or-not-pc-steam-account-global&cjsku=SW23750",
     gsDiscount: 0
   },
   {
@@ -2005,10 +2005,10 @@ const games = [
     trending: true,
     rating: 89,
     igUrl: "https://www.instant-gaming.com/en/3245-buy-steam-space-engineers-deluxe-edition-deluxe-edition-pc-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 51,
+    igDiscount: 2,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fspace-engineers-pc-steam-gift-global&cjsku=26165",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fspace-engineers-pc-steam-gift-global&cjsku=26165",
     gsDiscount: 0
   },
   {
@@ -2017,7 +2017,7 @@ const games = [
     title: "Among Us",
     categories: ["survival", "splitscreen", "action"],
     genres: ["survival", "action"],
-    coopMode: ["online", "local", "split"],
+    coopMode: ["online", "local"],
     maxPlayers: 15,
     crossplay: true,
     players: "1-15",
@@ -2038,7 +2038,7 @@ const games = [
     igDiscount: 7,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Famong-us-pc-steam-account-global&cjsku=SW22316",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Famong-us-pc-steam-account-global&cjsku=SW22316",
     gsDiscount: 0
   },
   {
@@ -2068,7 +2068,7 @@ const games = [
     igDiscount: 62,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fthe-outlast-trials-pc-steam-gift-row&cjsku=SW32309",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fthe-outlast-trials-pc-steam-gift-row&cjsku=SW32309",
     gsDiscount: 0
   },
   {
@@ -2098,7 +2098,7 @@ const games = [
     igDiscount: 76,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fmonster-hunter-rise-pc-steam-key-eu&cjsku=130093",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fmonster-hunter-rise-pc-steam-account-global&cjsku=SW24144",
     gsDiscount: 0
   },
   {
@@ -2188,7 +2188,7 @@ const games = [
     igDiscount: 59,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fhalo-the-master-chief-collection-pc-steam-gift-eu&cjsku=44854",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fhalo-the-master-chief-collection-pc-steam-account-global&cjsku=SW22827",
     gsDiscount: 0
   },
   {
@@ -2215,10 +2215,10 @@ const games = [
     trending: true,
     rating: 84,
     igUrl: "https://www.instant-gaming.com/en/8627-buy-steam-borderlands-3-director-s-cut-pc-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 54,
+    igDiscount: 24,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fborderlands-3-pc-steam-key-eu&cjsku=54051",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fborderlands-3-pc-steam-key-global&cjsku=53253",
     gsDiscount: 0
   },
   {
@@ -2227,7 +2227,7 @@ const games = [
     title: "Party Animals",
     categories: ["action", "splitscreen"],
     genres: ["action"],
-    coopMode: ["online", "local", "split"],
+    coopMode: ["online", "local"],
     maxPlayers: 8,
     crossplay: true,
     players: "1-8",
@@ -2278,7 +2278,7 @@ const games = [
     igDiscount: 76,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fage-of-empires-iii-definitive-edition-pc-steam-key-eu&cjsku=132332",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fage-of-empires-iii-definitive-edition-pc-steam-key-eu&cjsku=132332",
     gsDiscount: 0
   },
   {
@@ -2305,10 +2305,10 @@ const games = [
     trending: true,
     rating: 84,
     igUrl: "https://www.instant-gaming.com/en/5197-buy-steam-foxhole-pc-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 26,
+    igDiscount: 28,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffoxhole-pc-steam-gift-eu&cjsku=46477",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffoxhole-pc-steam-gift-global&cjsku=SW26452",
     gsDiscount: 0
   },
   {
@@ -2338,7 +2338,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fanno-1800-pc-steam-account-global&cjsku=SW22319",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fanno-1800-pc-steam-account-global&cjsku=SW22319",
     gsDiscount: 0
   },
   {
@@ -2368,7 +2368,7 @@ const games = [
     igDiscount: 26,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdinkum-pc-steam-account-global&cjsku=SW23675",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdinkum-pc-steam-account-global&cjsku=SW23675",
     gsDiscount: 0
   },
   {
@@ -2398,7 +2398,7 @@ const games = [
     igDiscount: 50,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fgrounded-2-founder-s-edition-pc-steam-gift-global&cjsku=SW52092",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fgrounded-2-founder-s-edition-pc-steam-gift-global&cjsku=SW52092",
     gsDiscount: 0
   },
   {
@@ -2428,7 +2428,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fgrim-dawn-pc-steam-key-eu&cjsku=85673",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fgrim-dawn-pc-steam-key-eu&cjsku=85673",
     gsDiscount: 0
   },
   {
@@ -2458,14 +2458,14 @@ const games = [
     igDiscount: 67,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fbarotrauma-pc-steam-key-global&cjsku=37516",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fbarotrauma-pc-steam-key-global&cjsku=37516",
     gsDiscount: 0
   },
   {
     id: 88,
     igdbId: 103281,
     title: "Halo Infinite",
-    categories: ["free", "action"],
+    categories: ["action"],
     genres: ["action"],
     coopMode: ["online"],
     maxPlayers: 12,
@@ -2488,7 +2488,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fhalo-infinite-campaign-pc-steam-gift-global&cjsku=122544",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fhalo-infinite-campaign-pc-steam-gift-global&cjsku=122544",
     gsDiscount: 0
   },
   {
@@ -2548,7 +2548,7 @@ const games = [
     igDiscount: 7,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fthehunter-call-of-the-wild-pc-steam-key-eu&cjsku=2232",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fthehunter-call-of-the-wild-pc-steam-key-global&cjsku=3539",
     gsDiscount: 0
   },
   {
@@ -2578,7 +2578,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffor-honor-pc-steam-account-global&cjsku=SW27115",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffor-honor-pc-steam-account-global&cjsku=SW27115",
     gsDiscount: 0
   },
   {
@@ -2608,7 +2608,7 @@ const games = [
     igDiscount: 84,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwarhammer-vermintide-2-pc-steam-gift-global&cjsku=SW26463",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwarhammer-vermintide-2-pc-steam-key-eu&cjsku=75720",
     gsDiscount: 0
   },
   {
@@ -2617,7 +2617,7 @@ const games = [
     title: "Overcooked! 2",
     categories: ["splitscreen", "action", "strategy", "indie"],
     genres: ["action", "strategy"],
-    coopMode: ["online", "local", "split"],
+    coopMode: ["online", "local"],
     maxPlayers: 4,
     crossplay: false,
     players: "1-4",
@@ -2638,7 +2638,7 @@ const games = [
     igDiscount: 79,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fovercooked-2-pc-steam-key-eu&cjsku=39521",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fovercooked-2-pc-steam-gift-global&cjsku=SW26414",
     gsDiscount: 0
   },
   {
@@ -2647,7 +2647,7 @@ const games = [
     title: "Cuphead",
     categories: ["action", "splitscreen", "indie"],
     genres: ["action"],
-    coopMode: ["local", "split"],
+    coopMode: ["local"],
     maxPlayers: 2,
     crossplay: false,
     players: "1-2",
@@ -2668,7 +2668,7 @@ const games = [
     igDiscount: 24,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fcuphead-pc-steam-gift-eu&cjsku=45300",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fcuphead-pc-steam-key-global&cjsku=1886",
     gsDiscount: 0
   },
   {
@@ -2698,7 +2698,7 @@ const games = [
     igDiscount: 67,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmyth-of-empires-pc-steam-account-global&cjsku=SW24069",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmyth-of-empires-pc-steam-gift-global&cjsku=SW25932",
     gsDiscount: 0
   },
   {
@@ -2725,10 +2725,10 @@ const games = [
     trending: true,
     rating: 94,
     igUrl: "https://www.instant-gaming.com/en/9093-buy-steam-ghost-of-tsushima-director-s-cut-pc-steam/?igr=gamer-ddc4a8",
-    igDiscount: 52,
+    igDiscount: 51,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fghost-of-tsushima-director-s-cut-pc-steam-account-global&cjsku=SW22619",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fghost-of-tsushima-director-s-cut-pc-steam-account-global&cjsku=SW22619",
     gsDiscount: 0
   },
   {
@@ -2755,17 +2755,17 @@ const games = [
     trending: true,
     rating: 99,
     igUrl: "https://www.instant-gaming.com/en/220-buy-steam-portal-2-pc-mac-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 20,
+    igDiscount: 19,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fportal-2-pc-steam-gift-global&cjsku=42999",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fportal-2-pc-steam-gift-global&cjsku=42999",
     gsDiscount: 0
   },
   {
     id: 100,
     igdbId: 18088,
     title: "Insurgency: Sandstorm",
-    categories: ["indie", "strategy", "action"],
+    categories: ["strategy", "action"],
     genres: ["action"],
     coopMode: ["online", "local"],
     maxPlayers: 8,
@@ -2788,7 +2788,7 @@ const games = [
     igDiscount: 68,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Finsurgency-sandstorm-pc-steam-gift-global&cjsku=SW26559",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Finsurgency-sandstorm-pc-steam-gift-global&cjsku=SW26559",
     gsDiscount: 0
   },
   {
@@ -2818,7 +2818,7 @@ const games = [
     igDiscount: 30,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fescape-the-backrooms-pc-steam-key-global&cjsku=157751",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fescape-the-backrooms-pc-steam-account-global&cjsku=SW24275",
     gsDiscount: 0
   },
   {
@@ -2848,7 +2848,7 @@ const games = [
     igDiscount: 70,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fworld-war-z-pc-steam-key-eu&cjsku=173841",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fworld-war-z-pc-steam-key-global&cjsku=170602",
     gsDiscount: 0
   },
   {
@@ -2905,10 +2905,10 @@ const games = [
     trending: true,
     rating: 90,
     igUrl: "https://www.instant-gaming.com/en/9254-buy-steam-wartales-pc-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 71,
+    igDiscount: 73,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwartales-pc-steam-account-global&cjsku=SW23444",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwartales-pc-steam-account-global&cjsku=SW23444",
     gsDiscount: 0
   },
   {
@@ -2938,7 +2938,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdetail%2F01929513ce557084a3f1d5493d0fca76&cjsku=SW23948",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdetail%2F01929513ce557084a3f1d5493d0fca76&cjsku=SW23948",
     gsDiscount: 0
   },
   {
@@ -2965,10 +2965,10 @@ const games = [
     trending: true,
     rating: 90,
     igUrl: "https://www.instant-gaming.com/en/20672-buy-steam-age-of-mythology-retold-heavenly-spear-pc-steam/?igr=gamer-ddc4a8",
-    igDiscount: 33,
+    igDiscount: 22,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fage-of-mythology-retold-pc-steam-gift-global&cjsku=173271",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fage-of-mythology-retold-pc-steam-gift-global&cjsku=173271",
     gsDiscount: 0
   },
   {
@@ -3028,7 +3028,7 @@ const games = [
     igDiscount: 32,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ficarus-pc-steam-key-global&cjsku=125436",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ficarus-pc-steam-key-global&cjsku=125436",
     gsDiscount: 0
   },
   {
@@ -3088,7 +3088,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftom-clancy-s-ghost-recon-wildlands-pc-steam-account-global&cjsku=SW27100",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftom-clancy-s-ghost-recon-wildlands-pc-steam-account-global&cjsku=SW27100",
     gsDiscount: 0
   },
   {
@@ -3118,7 +3118,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fnioh-2-the-complete-edition-pc-steam-key-eu&cjsku=143401",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fnioh-2-the-complete-edition-pc-steam-key-eu&cjsku=143401",
     gsDiscount: 0
   },
   {
@@ -3148,7 +3148,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftom-clancy-s-ghost-recon-breakpoint-pc-steam-gift-global&cjsku=149570",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftom-clancy-s-ghost-recon-breakpoint-pc-steam-gift-global&cjsku=149570",
     gsDiscount: 0
   },
   {
@@ -3178,7 +3178,7 @@ const games = [
     igDiscount: 40,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fgunfire-reborn-pc-steam-gift-global&cjsku=SW32122",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fgunfire-reborn-pc-steam-account-global&cjsku=SW22818",
     gsDiscount: 0
   },
   {
@@ -3208,7 +3208,7 @@ const games = [
     igDiscount: 52,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmedieval-dynasty-pc-steam-key-eu&cjsku=82953",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmedieval-dynasty-pc-steam-key-eu&cjsku=82953",
     gsDiscount: 0
   },
   {
@@ -3238,7 +3238,7 @@ const games = [
     igDiscount: 66,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fultimate-chicken-horse-pc-steam-key-global&cjsku=2929",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fultimate-chicken-horse-pc-steam-key-global&cjsku=2929",
     gsDiscount: 0
   },
   {
@@ -3268,7 +3268,7 @@ const games = [
     igDiscount: 55,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fgang-beasts-pc-steam-gift-global&cjsku=25993",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fgang-beasts-pc-steam-account-global&cjsku=SW22594",
     gsDiscount: 0
   },
   {
@@ -3298,7 +3298,7 @@ const games = [
     igDiscount: 54,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fstick-fight-the-game-pc-steam-gift-global&cjsku=27783",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fstick-fight-the-game-pc-steam-key-turkey&cjsku=167608",
     gsDiscount: 0
   },
   {
@@ -3328,7 +3328,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fhuman-fall-flat-pc-steam-account-global&cjsku=SW22876",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fhuman-fall-flat-pc-steam-account-global&cjsku=SW22876",
     gsDiscount: 0
   },
   {
@@ -3337,7 +3337,7 @@ const games = [
     title: "Lovers in a Dangerous Spacetime",
     categories: ["splitscreen", "action", "roguelike", "indie"],
     genres: ["action", "roguelike"],
-    coopMode: ["local", "split"],
+    coopMode: ["local"],
     maxPlayers: 4,
     crossplay: false,
     players: "1-4",
@@ -3358,7 +3358,7 @@ const games = [
     igDiscount: 4,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Flovers-in-a-dangerous-spacetime-pc-steam-gift-global&cjsku=59080",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Flovers-in-a-dangerous-spacetime-pc-steam-gift-global&cjsku=59080",
     gsDiscount: 0
   },
   {
@@ -3367,7 +3367,7 @@ const games = [
     title: "Streets of Rage 4",
     categories: ["splitscreen", "action"],
     genres: ["action"],
-    coopMode: ["online", "local", "split"],
+    coopMode: ["online", "local"],
     maxPlayers: 4,
     crossplay: false,
     players: "1-4",
@@ -3388,7 +3388,7 @@ const games = [
     igDiscount: 90,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fstreets-of-rage-4-pc-steam-key-asia&cjsku=67883",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fstreets-of-rage-4-pc-steam-key-asia&cjsku=67883",
     gsDiscount: 0
   },
   {
@@ -3397,7 +3397,7 @@ const games = [
     title: "Teenage Mutant Ninja Turtles: Shredder's Revenge",
     categories: ["splitscreen", "action"],
     genres: ["action"],
-    coopMode: ["online", "local", "split"],
+    coopMode: ["online", "local"],
     maxPlayers: 6,
     crossplay: false,
     players: "1-6",
@@ -3418,7 +3418,7 @@ const games = [
     igDiscount: 48,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdetail%2F01904f3644f87084808f1cfc9fad28aa&cjsku=137558",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdetail%2F01904f3644f87084808f1cfc9fad28aa&cjsku=137558",
     gsDiscount: 0
   },
   {
@@ -3427,7 +3427,7 @@ const games = [
     title: "Broforce",
     categories: ["splitscreen", "action", "indie"],
     genres: ["action"],
-    coopMode: ["online", "local", "split"],
+    coopMode: ["online", "local"],
     maxPlayers: 4,
     crossplay: false,
     players: "1-4",
@@ -3478,7 +3478,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fa-way-out-pc-steam-gift-global&cjsku=62452",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fa-way-out-pc-steam-account-global&cjsku=SW22235",
     gsDiscount: 0
   },
   {
@@ -3487,7 +3487,7 @@ const games = [
     title: "Moving Out",
     categories: ["splitscreen", "puzzle", "action", "indie"],
     genres: ["puzzle", "action"],
-    coopMode: ["local", "split"],
+    coopMode: ["local"],
     maxPlayers: 4,
     crossplay: false,
     players: "1-4",
@@ -3508,7 +3508,7 @@ const games = [
     igDiscount: 85,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmoving-out-pc-steam-key-global&cjsku=51596",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmoving-out-pc-steam-key-eu&cjsku=56669",
     gsDiscount: 0
   },
   {
@@ -3517,7 +3517,7 @@ const games = [
     title: "TowerFall Ascension",
     categories: ["splitscreen", "action", "indie"],
     genres: ["action"],
-    coopMode: ["local", "split"],
+    coopMode: ["local"],
     maxPlayers: 4,
     crossplay: false,
     players: "1-4",
@@ -3547,7 +3547,7 @@ const games = [
     title: "Spelunky 2",
     categories: ["splitscreen", "roguelike", "action", "indie"],
     genres: ["roguelike", "action"],
-    coopMode: ["online", "local", "split"],
+    coopMode: ["online", "local"],
     maxPlayers: 4,
     crossplay: true,
     players: "1-4",
@@ -3568,7 +3568,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fspelunky-2-pc-steam-account-global&cjsku=SW23097",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fspelunky-2-pc-steam-gift-eu&cjsku=69301",
     gsDiscount: 0
   },
   {
@@ -3598,7 +3598,7 @@ const games = [
     igDiscount: 89,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftrine-4-the-nightmare-prince-pc-steam-key-global&cjsku=43125",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftrine-4-the-nightmare-prince-pc-steam-key-global&cjsku=43125",
     gsDiscount: 0
   },
   {
@@ -3607,7 +3607,7 @@ const games = [
     title: "Rayman Legends",
     categories: ["splitscreen", "action", "puzzle"],
     genres: ["action", "puzzle"],
-    coopMode: ["local", "split"],
+    coopMode: ["local"],
     maxPlayers: 4,
     crossplay: false,
     players: "1-4",
@@ -3688,7 +3688,7 @@ const games = [
     igDiscount: 84,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmove-or-die-pc-steam-gift-global&cjsku=26496",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmove-or-die-pc-steam-gift-global&cjsku=26496",
     gsDiscount: 0
   },
   {
@@ -3718,7 +3718,7 @@ const games = [
     igDiscount: 75,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fboomerang-fu-pc-steam-key-global&cjsku=66811",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fboomerang-fu-pc-steam-key-eu&cjsku=79787",
     gsDiscount: 0
   },
   {
@@ -3727,7 +3727,7 @@ const games = [
     title: "PlateUp!",
     categories: ["splitscreen", "strategy", "puzzle"],
     genres: ["strategy", "puzzle"],
-    coopMode: ["online", "local", "split"],
+    coopMode: ["online", "local"],
     maxPlayers: 4,
     crossplay: false,
     players: "1-4",
@@ -3808,7 +3808,7 @@ const games = [
     igDiscount: 91,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffull-metal-furies-pc-steam-key-global&cjsku=28714",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffull-metal-furies-pc-steam-key-global&cjsku=28714",
     gsDiscount: 0
   },
   {
@@ -3838,7 +3838,7 @@ const games = [
     igDiscount: 7,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fphogs-pc-steam-gift-global&cjsku=SW23617",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fphogs-pc-steam-gift-global&cjsku=SW23617",
     gsDiscount: 0
   },
   {
@@ -3847,7 +3847,7 @@ const games = [
     title: "Unravel Two",
     categories: ["splitscreen", "puzzle", "action"],
     genres: ["puzzle", "action"],
-    coopMode: ["local", "split"],
+    coopMode: ["local"],
     maxPlayers: 2,
     crossplay: false,
     players: "1-2",
@@ -3868,7 +3868,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Funravel-two-pc-steam-gift-global&cjsku=61307",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Funravel-two-pc-steam-gift-global&cjsku=61307",
     gsDiscount: 0
   },
   {
@@ -3898,7 +3898,7 @@ const games = [
     igDiscount: 98,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fback-4-blood-pc-steam-gift-global&cjsku=75219",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fback-4-blood-pc-steam-account-global&cjsku=SW22459",
     gsDiscount: 0
   },
   {
@@ -3928,7 +3928,7 @@ const games = [
     igDiscount: 67,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Faliens-fireteam-elite-into-the-hive-edition-pc-steam-gift-global&cjsku=149523",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Faliens-fireteam-elite-into-the-hive-edition-pc-steam-gift-global&cjsku=149523",
     gsDiscount: 0
   },
   {
@@ -3988,7 +3988,7 @@ const games = [
     igDiscount: 10,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fvampire-survivors-pc-steam-key-global&cjsku=SW42836",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fvampire-survivors-pc-steam-key-global&cjsku=SW42836",
     gsDiscount: 0
   },
   {
@@ -4018,7 +4018,7 @@ const games = [
     igDiscount: 71,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fcore-keeper-pc-steam-gift-global&cjsku=SW26277",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fcore-keeper-pc-steam-key-eu&cjsku=149152",
     gsDiscount: 0
   },
   {
@@ -4048,7 +4048,7 @@ const games = [
     igDiscount: 2,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fstardew-valley-pc-steam-account-global&cjsku=SW23230",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fstardew-valley-pc-steam-account-global&cjsku=SW23230",
     gsDiscount: 0
   },
   {
@@ -4078,7 +4078,7 @@ const games = [
     igDiscount: 45,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fkeep-talking-and-nobody-explodes-pc-steam-account-global&cjsku=SW22925",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fkeep-talking-and-nobody-explodes-pc-steam-key-global&cjsku=2170",
     gsDiscount: 0
   },
   {
@@ -4108,7 +4108,7 @@ const games = [
     igDiscount: 19,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fpico-park-pc-steam-account-global&cjsku=SW23618",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fpico-park-pc-steam-account-global&cjsku=SW23618",
     gsDiscount: 0
   },
   {
@@ -4168,7 +4168,7 @@ const games = [
     igDiscount: 45,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fpayday-3-pc-steam-gift-eu&cjsku=164158",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fpayday-3-pc-steam-key-row&cjsku=160643",
     gsDiscount: 0
   },
   {
@@ -4195,10 +4195,10 @@ const games = [
     trending: false,
     rating: 83,
     igUrl: "https://www.instant-gaming.com/en/482-buy-steam-magicka-2-pc-mac-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 75,
+    igDiscount: 77,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmagicka-2-pc-steam-key-eu&cjsku=77193",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmagicka-2-pc-steam-key-eu&cjsku=77193",
     gsDiscount: 0
   },
   {
@@ -4225,10 +4225,10 @@ const games = [
     trending: false,
     rating: 84,
     igUrl: "https://www.instant-gaming.com/en/8307-buy-steam-we-were-here-together-pc-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 50,
+    igDiscount: 54,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwe-were-here-together-pc-steam-gift-eu&cjsku=43302",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwe-were-here-together-pc-steam-account-global&cjsku=SW23451",
     gsDiscount: 0
   },
   {
@@ -4258,7 +4258,7 @@ const games = [
     igDiscount: 57,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwe-were-here-forever-pc-steam-key-global&cjsku=135761",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwe-were-here-forever-pc-steam-key-global&cjsku=135761",
     gsDiscount: 0
   },
   {
@@ -4267,7 +4267,7 @@ const games = [
     title: "Crab Game",
     categories: ["action", "splitscreen", "free"],
     genres: ["action"],
-    coopMode: ["online", "split", "local"],
+    coopMode: ["online"],
     maxPlayers: 35,
     crossplay: false,
     players: "1-35",
@@ -4318,7 +4318,7 @@ const games = [
     igDiscount: 88,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fescape-academy-pc-steam-key-global&cjsku=139225",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fescape-academy-pc-steam-key-global&cjsku=139225",
     gsDiscount: 0
   },
   {
@@ -4357,7 +4357,7 @@ const games = [
     title: "Sackboy: A Big Adventure",
     categories: ["action", "splitscreen"],
     genres: ["action"],
-    coopMode: ["online", "local", "split"],
+    coopMode: ["online", "local"],
     maxPlayers: 4,
     crossplay: false,
     players: "1-4",
@@ -4375,10 +4375,10 @@ const games = [
     trending: false,
     rating: 85,
     igUrl: "https://www.instant-gaming.com/en/9667-buy-steam-sackboy-a-big-adventure-pc-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 71,
+    igDiscount: 72,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsackboy-a-big-adventure-pc-steam-key-global&cjsku=144497",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsackboy-a-big-adventure-pc-steam-key-eu&cjsku=152611",
     gsDiscount: 0
   },
   {
@@ -4408,7 +4408,7 @@ const games = [
     igDiscount: 40,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Froboquest-pc-steam-key-global&cjsku=70171",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Froboquest-pc-steam-key-global&cjsku=70171",
     gsDiscount: 0
   },
   {
@@ -4435,10 +4435,10 @@ const games = [
     trending: true,
     rating: 83,
     igUrl: "https://www.instant-gaming.com/en/414-buy-steam-no-man-s-sky-pc-mac-steam/?igr=gamer-ddc4a8",
-    igDiscount: 69,
+    igDiscount: 68,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fno-man-s-sky-pc-steam-key-eu&cjsku=50640",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fno-man-s-sky-pc-steam-key-asia&cjsku=SW62650",
     gsDiscount: 0
   },
   {
@@ -4447,7 +4447,7 @@ const games = [
     title: "Castle Crashers Remastered",
     categories: ["action", "splitscreen", "indie"],
     genres: ["action"],
-    coopMode: ["online", "local", "split"],
+    coopMode: ["online", "local"],
     maxPlayers: 4,
     crossplay: false,
     players: "1-4",
@@ -4498,7 +4498,7 @@ const games = [
     igDiscount: 50,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fastroneer-pc-steam-account-global&cjsku=SW22423",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fastroneer-pc-steam-gift-eu&cjsku=SW33247",
     gsDiscount: 0
   },
   {
@@ -4528,7 +4528,7 @@ const games = [
     igDiscount: 76,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Foutriders-pc-steam-key-global&cjsku=82611",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Foutriders-pc-steam-key-eu&cjsku=71532",
     gsDiscount: 0
   },
   {
@@ -4558,7 +4558,7 @@ const games = [
     igDiscount: 28,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmoving-out-2-pc-steam-account-global&cjsku=SW27085",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmoving-out-2-pc-steam-key-global&cjsku=141441",
     gsDiscount: 0
   },
   {
@@ -4588,7 +4588,7 @@ const games = [
     igDiscount: 49,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdivinity-original-sin-2-pc-steam-account-global&cjsku=SW23690",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdivinity-original-sin-2-pc-steam-gift-global&cjsku=SW30576",
     gsDiscount: 0
   },
   {
@@ -4618,7 +4618,7 @@ const games = [
     igDiscount: 95,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwarhammer-end-times-vermintide-pc-steam-gift-global&cjsku=48267",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwarhammer-end-times-vermintide-pc-steam-gift-global&cjsku=48267",
     gsDiscount: 0
   },
   {
@@ -4648,7 +4648,7 @@ const games = [
     igDiscount: 41,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdevour-them-all-pc-steam-key-global&cjsku=73309",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdevour-them-all-pc-steam-key-global&cjsku=73309",
     gsDiscount: 0
   },
   {
@@ -4738,7 +4738,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fwar-thunder-f-5c-pack-pc-steam-gift-global&cjsku=SW38931",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fwar-thunder-f-5c-pack-pc-steam-gift-global&cjsku=SW38931",
     gsDiscount: 0
   },
   {
@@ -4768,7 +4768,7 @@ const games = [
     igDiscount: 36,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fea-sports-fc-25-pc-ea-app-key-global&cjsku=SW19169",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fea-sports-fc-25-5900-fc-points-pc-ea-app-key-global&cjsku=SW25418",
     gsDiscount: 0
   },
   {
@@ -4798,7 +4798,7 @@ const games = [
     igDiscount: 90,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fhearts-of-iron-iv-pc-steam-key-global&cjsku=150636",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fhearts-of-iron-iv-pc-steam-key-row&cjsku=169447",
     gsDiscount: 0
   },
   {
@@ -4828,7 +4828,7 @@ const games = [
     igDiscount: 39,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fnba-2k25-pc-steam-account-global&cjsku=SW26595",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fnba-2k25-pc-steam-key-row&cjsku=SW21518",
     gsDiscount: 0
   },
   {
@@ -4858,7 +4858,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fschedule-i-pc-steam-gift-global&cjsku=SW38140",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fschedule-i-pc-steam-gift-global&cjsku=SW38140",
     gsDiscount: 0
   },
   {
@@ -4888,7 +4888,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffinal-fantasy-xiv-online-60-days-time-card-key-eu&cjsku=136224",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffinal-fantasy-xiv-online-60-days-time-card-key-eu&cjsku=136224",
     gsDiscount: 0
   },
   {
@@ -4948,7 +4948,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Flost-ark-apprentice-starter-pack-dlc-pc-steam-key-global&cjsku=131628",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Flost-ark-apprentice-starter-pack-dlc-pc-steam-key-global&cjsku=131628",
     gsDiscount: 0
   },
   {
@@ -4978,7 +4978,7 @@ const games = [
     igDiscount: 35,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fpath-of-exile-2-path-of-exile-2-early-access-supporter-pack-pc-steam-gift-global&cjsku=SW25364",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fpath-of-exile-2-path-of-exile-2-early-access-supporter-pack-pc-steam-gift-global&cjsku=SW25364",
     gsDiscount: 0
   },
   {
@@ -5008,7 +5008,7 @@ const games = [
     igDiscount: 67,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fthe-elder-scrolls-online-pc-steam-gift-global&cjsku=27986",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fthe-elder-scrolls-online-pc-steam-gift-global&cjsku=27986",
     gsDiscount: 0
   },
   {
@@ -5038,7 +5038,7 @@ const games = [
     igDiscount: 52,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffarming-simulator-25-pc-steam-key-global&cjsku=SW21628",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffarming-simulator-25-pc-steam-account-global&cjsku=SW25620",
     gsDiscount: 0
   },
   {
@@ -5128,7 +5128,7 @@ const games = [
     igDiscount: 11,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fenshrouded-pc-steam-account-global&cjsku=SW24056",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fenshrouded-pc-steam-account-global&cjsku=SW24056",
     gsDiscount: 0
   },
   {
@@ -5188,7 +5188,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fforza-horizon-5-pc-steam-gift-global&cjsku=122540",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fforza-horizon-5-pc-steam-gift-eu&cjsku=128096",
     gsDiscount: 0
   },
   {
@@ -5218,7 +5218,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftom-clancy-s-the-division-2-pc-steam-account-global&cjsku=SW39697",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftom-clancy-s-the-division-2-ultimate-edition-pc-steam-account-global&cjsku=SW39777",
     gsDiscount: 0
   },
   {
@@ -5248,7 +5248,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fworld-of-warships-texas-pack-pc-steam-gift-global&cjsku=SW38861",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fworld-of-warships-texas-pack-pc-steam-gift-global&cjsku=SW38861",
     gsDiscount: 0
   },
   {
@@ -5365,10 +5365,10 @@ const games = [
     trending: true,
     rating: 92,
     igUrl: "https://www.instant-gaming.com/en/8676-buy-steam-farming-simulator-22-pc-mac-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 60,
+    igDiscount: 59,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffarming-simulator-22-pc-steam-key-eu&cjsku=120338",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffarming-simulator-22-pc-steam-key-global&cjsku=83979",
     gsDiscount: 0
   },
   {
@@ -5395,7 +5395,7 @@ const games = [
     trending: true,
     rating: 89,
     igUrl: "https://www.instant-gaming.com/en/18916-buy-ea-app-f1-25-pc-steam/?igr=gamer-ddc4a8",
-    igDiscount: 47,
+    igDiscount: 42,
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ff1-25-pc-steam-account-global&cjsku=SW40637",
@@ -5428,7 +5428,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftabletop-simulator-pc-steam-gift-eu&cjsku=54323",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftabletop-simulator-pc-steam-gift-eu&cjsku=54323",
     gsDiscount: 0
   },
   {
@@ -5458,7 +5458,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsmite-2-founders-edition-bundle-pc-steam-account-global&cjsku=SW25677",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsmite-2-founders-edition-bundle-pc-steam-account-global&cjsku=SW25677",
     gsDiscount: 0
   },
   {
@@ -5575,10 +5575,10 @@ const games = [
     trending: true,
     rating: 72,
     igUrl: "https://www.instant-gaming.com/en/6120-buy-steam-total-war-three-kingdoms-mandate-of-heaven-pc-mac-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 64,
+    igDiscount: 58,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftotal-war-three-kingdoms-pc-steam-key-eu&cjsku=28465",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftotal-war-three-kingdoms-pc-steam-key-global&cjsku=27182",
     gsDiscount: 0
   },
   {
@@ -5608,7 +5608,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdark-souls-iii-pc-steam-gift-global&cjsku=SW27329",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdark-souls-iii-pc-steam-gift-global&cjsku=SW27329",
     gsDiscount: 0
   },
   {
@@ -5635,10 +5635,10 @@ const games = [
     trending: true,
     rating: 88,
     igUrl: "https://www.instant-gaming.com/en/19223-buy-steam-popucom-pc-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 34,
+    igDiscount: 32,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fpopucom-pc-steam-key-global&cjsku=SW41356",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fpopucom-pc-steam-key-global&cjsku=SW41356",
     gsDiscount: 0
   },
   {
@@ -5668,7 +5668,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftotal-war-rome-ii-emperor-edition-pc-steam-account-global&cjsku=SW26892",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftotal-war-rome-ii-emperor-edition-pc-steam-gift-global&cjsku=SW27311",
     gsDiscount: 0
   },
   {
@@ -5695,10 +5695,10 @@ const games = [
     trending: true,
     rating: 86,
     igUrl: "https://www.instant-gaming.com/en/19167-buy-steam-the-spell-brigade-pc-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 27,
+    igDiscount: 26,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fthe-spell-brigade-pc-steam-account-global&cjsku=SW39665",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fthe-spell-brigade-pc-steam-account-global&cjsku=SW39665",
     gsDiscount: 0
   },
   {
@@ -5788,7 +5788,7 @@ const games = [
     igDiscount: 22,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fguild-wars-2-complete-collection-pc-official-website-key-global&cjsku=147360",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fguild-wars-2-800-gems-card-pc-arenanet-key-global&cjsku=SW98103",
     gsDiscount: 0
   },
   {
@@ -5908,7 +5908,7 @@ const games = [
     igDiscount: 60,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fravenswatch-pc-steam-key-global&cjsku=138931",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fravenswatch-pc-steam-key-global&cjsku=138931",
     gsDiscount: 0
   },
   {
@@ -5947,7 +5947,7 @@ const games = [
     title: "PowerWash Simulator",
     categories: ["splitscreen", "puzzle"],
     genres: ["puzzle"],
-    coopMode: ["online", "split", "local"],
+    coopMode: ["online"],
     maxPlayers: 2,
     crossplay: true,
     players: "1-2",
@@ -5968,7 +5968,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fpowerwash-simulator-spongebob-squarepants-special-pack-pc-steam-gift-global&cjsku=SW38309",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fpowerwash-simulator-spongebob-squarepants-special-pack-pc-steam-gift-global&cjsku=SW38309",
     gsDiscount: 0
   },
   {
@@ -5995,10 +5995,10 @@ const games = [
     trending: true,
     rating: 85,
     igUrl: "https://www.instant-gaming.com/en/10599-buy-steam-house-flipper-2-pc-game-steam-europe/?igr=gamer-ddc4a8",
-    igDiscount: 26,
+    igDiscount: 24,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fhouse-flipper-2-pc-steam-key-eu&cjsku=169273",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fhouse-flipper-2-pc-steam-key-eu&cjsku=169273",
     gsDiscount: 0
   },
   {
@@ -6028,7 +6028,7 @@ const games = [
     igDiscount: 7,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsupermarket-simulator-pc-steam-key-global&cjsku=170126",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsupermarket-simulator-pc-steam-account-global&cjsku=SW24439",
     gsDiscount: 0
   },
   {
@@ -6058,7 +6058,7 @@ const games = [
     igDiscount: 86,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fcompany-of-heroes-2-pc-steam-key-eu&cjsku=31034",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fcompany-of-heroes-2-pc-steam-gift-global&cjsku=47853",
     gsDiscount: 0
   },
   {
@@ -6088,7 +6088,7 @@ const games = [
     igDiscount: 73,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdevil-may-cry-5-pc-steam-key-global&cjsku=28256",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdevil-may-cry-5-pc-steam-key-global&cjsku=28256",
     gsDiscount: 0
   },
   {
@@ -6118,7 +6118,7 @@ const games = [
     igDiscount: 11,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fcall-to-arms-gates-of-hell-ostfront-pc-steam-account-global&cjsku=SW22780",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fcall-to-arms-gates-of-hell-ostfront-pc-steam-account-global&cjsku=SW22780",
     gsDiscount: 0
   },
   {
@@ -6178,7 +6178,7 @@ const games = [
     igDiscount: 72,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fcompany-of-heroes-3-pc-steam-account-global&cjsku=SW23055",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fcompany-of-heroes-3-pc-steam-account-global&cjsku=SW23055",
     gsDiscount: 0
   },
   {
@@ -6265,7 +6265,7 @@ const games = [
     trending: true,
     rating: 91,
     igUrl: "https://www.instant-gaming.com/en/1506-buy-steam-total-war-shogun-2-collection-collection-pc-mac-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 91,
+    igDiscount: 92,
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftotal-war-shogun-2-pc-steam-key-global&cjsku=1587",
@@ -6298,7 +6298,7 @@ const games = [
     igDiscount: 18,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fpga-tour-2k25-pc-steam-account-global&cjsku=SW39513",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fpga-tour-2k25-pc-steam-account-global&cjsku=SW39513",
     gsDiscount: 0
   },
   {
@@ -6325,7 +6325,7 @@ const games = [
     trending: true,
     rating: 86,
     igUrl: "https://www.instant-gaming.com/en/13700-buy-steam-mechabellum-pc-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 57,
+    igDiscount: 50,
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmechabellum-pc-steam-account-global&cjsku=SW23829",
@@ -6358,7 +6358,7 @@ const games = [
     igDiscount: 10,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fage-of-wonders-4-pc-steam-account-global&cjsku=SW22301",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fage-of-wonders-4-pc-steam-key-eu&cjsku=154645",
     gsDiscount: 0
   },
   {
@@ -6388,7 +6388,7 @@ const games = [
     igDiscount: 40,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fescape-simulator-pc-steam-gift-global&cjsku=125506",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fescape-simulator-pc-steam-account-global&cjsku=SW24460",
     gsDiscount: 0
   },
   {
@@ -6397,7 +6397,7 @@ const games = [
     title: "Pikuniku",
     categories: ["indie", "puzzle", "splitscreen"],
     genres: ["puzzle"],
-    coopMode: ["local", "split"],
+    coopMode: ["local"],
     maxPlayers: 2,
     crossplay: false,
     players: "1-2",
@@ -6415,7 +6415,7 @@ const games = [
     trending: false,
     rating: 96,
     igUrl: "https://www.instant-gaming.com/en/14977-buy-steam-pikuniku-pc-mac-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 67,
+    igDiscount: 66,
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fpikuniku-pc-steam-key-global&cjsku=35612",
@@ -6448,7 +6448,7 @@ const games = [
     igDiscount: 13,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fgtfo-pc-steam-account-global&cjsku=SW22813",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fgtfo-pc-steam-account-global&cjsku=SW22813",
     gsDiscount: 0
   },
   {
@@ -6478,7 +6478,7 @@ const games = [
     igDiscount: 28,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwe-need-to-go-deeper-pc-steam-gift-global&cjsku=SW25469",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwe-need-to-go-deeper-pc-steam-gift-global&cjsku=SW25469",
     gsDiscount: 0
   },
   {
@@ -6508,7 +6508,7 @@ const games = [
     igDiscount: 73,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdungeon-of-the-endless-pc-steam-gift-global&cjsku=SW27145",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdungeon-of-the-endless-pc-steam-key-eu&cjsku=129704",
     gsDiscount: 0
   },
   {
@@ -6517,7 +6517,7 @@ const games = [
     title: "Heave Ho",
     categories: ["indie", "action", "splitscreen"],
     genres: ["action"],
-    coopMode: ["local", "split"],
+    coopMode: ["local"],
     maxPlayers: 4,
     crossplay: false,
     players: "1-4",
@@ -6535,10 +6535,10 @@ const games = [
     trending: false,
     rating: 91,
     igUrl: "https://www.instant-gaming.com/en/14976-buy-steam-heave-ho-pc-mac-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 74,
+    igDiscount: 77,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fheave-ho-pc-steam-key-global&cjsku=42396",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fheave-ho-pc-steam-key-global&cjsku=42396",
     gsDiscount: 0
   },
   {
@@ -6565,10 +6565,10 @@ const games = [
     trending: false,
     rating: 94,
     igUrl: "https://www.instant-gaming.com/en/14649-buy-steam-necesse-pc-steam/?igr=gamer-ddc4a8",
-    igDiscount: 39,
+    igDiscount: 47,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fnecesse-pc-steam-account-global&cjsku=SW23506",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fnecesse-pc-steam-account-global&cjsku=SW23506",
     gsDiscount: 0
   },
   {
@@ -6595,10 +6595,10 @@ const games = [
     trending: false,
     rating: 86,
     igUrl: "https://www.instant-gaming.com/en/12600-buy-steam-ghost-watchers-pc-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 73,
+    igDiscount: 78,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdetail%2F019199cf060c7021bb373012a50466f7&cjsku=SW22621",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdetail%2F019199cf060c7021bb373012a50466f7&cjsku=SW22621",
     gsDiscount: 0
   },
   {
@@ -6658,7 +6658,7 @@ const games = [
     igDiscount: 91,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fbesiege-pc-steam-account-global&cjsku=SW22578",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fbesiege-pc-steam-account-global&cjsku=SW22578",
     gsDiscount: 0
   },
   {
@@ -6718,7 +6718,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fbackrooms-escape-together-pc-steam-account-global&cjsku=SW26518",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fbackrooms-escape-together-pc-steam-account-global&cjsku=SW26518",
     gsDiscount: 0
   },
   {
@@ -6775,10 +6775,10 @@ const games = [
     trending: false,
     rating: 90,
     igUrl: "https://www.instant-gaming.com/en/8307-buy-steam-we-were-here-together-pc-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 50,
+    igDiscount: 54,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwe-were-here-too-pc-steam-gift-global&cjsku=69511",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwe-were-here-too-pc-steam-key-global&cjsku=3175",
     gsDiscount: 0
   },
   {
@@ -6808,7 +6808,7 @@ const games = [
     igDiscount: 74,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftotally-reliable-delivery-service-pc-steam-key-global&cjsku=51594",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftotally-reliable-delivery-service-pc-steam-key-eu&cjsku=152933",
     gsDiscount: 0
   },
   {
@@ -6838,7 +6838,7 @@ const games = [
     igDiscount: 93,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffor-the-king-lost-civilization-adventure-pack-dlc-pc-steam-gift-global&cjsku=SW31579",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffor-the-king-lost-civilization-adventure-pack-dlc-pc-steam-gift-global&cjsku=SW31579",
     gsDiscount: 0
   },
   {
@@ -6868,7 +6868,7 @@ const games = [
     igDiscount: 14,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffor-the-king-ii-pc-steam-gift-eu&cjsku=161986",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffor-the-king-ii-pc-steam-gift-eu&cjsku=161986",
     gsDiscount: 0
   },
   {
@@ -6898,7 +6898,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fbopl-battle-pc-steam-gift-global&cjsku=SW26183",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fbopl-battle-pc-steam-gift-global&cjsku=SW26183",
     gsDiscount: 0
   },
   {
@@ -6928,7 +6928,7 @@ const games = [
     igDiscount: 18,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fcult-of-the-lamb-pc-steam-account-global&cjsku=SW23187",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fcult-of-the-lamb-pc-steam-account-global&cjsku=SW23187",
     gsDiscount: 0
   },
   {
@@ -6937,7 +6937,7 @@ const games = [
     title: "Shovel Knight: Treasure Trove",
     categories: ["indie", "action", "splitscreen"],
     genres: ["action"],
-    coopMode: ["local", "split"],
+    coopMode: ["local"],
     maxPlayers: 2,
     crossplay: false,
     players: "1-2",
@@ -6955,10 +6955,10 @@ const games = [
     trending: false,
     rating: 96,
     igUrl: "https://www.instant-gaming.com/en/1898-buy-steam-shovel-knight-treasure-trove-pc-mac-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 63,
+    igDiscount: 59,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fshovel-knight-treasure-trove-pc-steam-key-global&cjsku=31898",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fshovel-knight-treasure-trove-pc-steam-key-global&cjsku=31898",
     gsDiscount: 0
   },
   {
@@ -6985,10 +6985,10 @@ const games = [
     trending: true,
     rating: 81,
     igUrl: "https://www.instant-gaming.com/en/16818-buy-steam-soulmask-pc-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 32,
+    igDiscount: 28,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsoulmask-pc-steam-key-global&cjsku=172757",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsoulmask-pc-steam-account-global&cjsku=SW23085",
     gsDiscount: 0
   },
   {
@@ -7015,10 +7015,10 @@ const games = [
     trending: false,
     rating: 93,
     igUrl: "https://www.instant-gaming.com/en/6343-buy-steam-prodeus-pc-mac-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 91,
+    igDiscount: 92,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fprodeus-pc-steam-gift-global&cjsku=SW31832",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fprodeus-pc-steam-key-global&cjsku=72021",
     gsDiscount: 0
   },
   {
@@ -7078,7 +7078,7 @@ const games = [
     igDiscount: 61,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fship-of-fools-pc-steam-key-global&cjsku=143373",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fship-of-fools-pc-steam-key-global&cjsku=143373",
     gsDiscount: 0
   },
   {
@@ -7108,7 +7108,7 @@ const games = [
     igDiscount: 92,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fpatch-quest-pc-steam-key-eu&cjsku=85216",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fpatch-quest-pc-steam-key-global&cjsku=152300",
     gsDiscount: 0
   },
   {
@@ -7165,7 +7165,7 @@ const games = [
     trending: false,
     rating: 0,
     igUrl: "https://www.instant-gaming.com/en/21455-buy-steam-the-finals-year-1-deluxe-edition-pc-steam/?igr=gamer-ddc4a8",
-    igDiscount: 16,
+    igDiscount: 15,
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
@@ -7198,7 +7198,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fmarvel-rivals-1000-lattices-direct-top-up-global&cjsku=SW105068",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fmarvel-rivals-500-lattices-direct-top-up-global&cjsku=SW105067",
     gsDiscount: 0
   },
   {
@@ -7228,7 +7228,7 @@ const games = [
     igDiscount: 54,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftower-unite-pc-steam-key-global&cjsku=28705",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftower-unite-pc-steam-key-global&cjsku=28705",
     gsDiscount: 0
   },
   {
@@ -7258,7 +7258,7 @@ const games = [
     igDiscount: 84,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdelta-force-task-force-dagger-pc-steam-key-global&cjsku=34012",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdelta-force-task-force-dagger-pc-steam-key-global&cjsku=34012",
     gsDiscount: 0
   },
   {
@@ -7318,7 +7318,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fphantasy-star-online-2-new-genesis-pack-pc-official-website-key-global&cjsku=152733",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fphantasy-star-online-2-new-genesis-pack-pc-official-website-key-global&cjsku=152733",
     gsDiscount: 0
   },
   {
@@ -7348,7 +7348,7 @@ const games = [
     igDiscount: 11,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fpeak-pc-steam-key-global&cjsku=SW70598",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fpeak-pc-steam-key-global&cjsku=SW70598",
     gsDiscount: 0
   },
   {
@@ -7387,7 +7387,7 @@ const games = [
     title: "RV There Yet?",
     categories: ["indie", "action", "splitscreen"],
     genres: ["action"],
-    coopMode: ["online", "split", "local"],
+    coopMode: ["online"],
     maxPlayers: 4,
     crossplay: false,
     players: "1-4",
@@ -7408,7 +7408,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Frv-there-yet-pc-steam-gift-global&cjsku=SW79991",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Frv-there-yet-pc-steam-gift-global&cjsku=SW79991",
     gsDiscount: 0
   },
   {
@@ -7435,10 +7435,10 @@ const games = [
     trending: false,
     rating: 0,
     igUrl: "https://www.instant-gaming.com/en/19680-buy-steam-borderlands-4-super-deluxe-edition-pc-steam/?igr=gamer-ddc4a8",
-    igDiscount: 47,
+    igDiscount: 46,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fborderlands-4-pc-steam-account-global&cjsku=SW65404",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fborderlands-4-pc-steam-key-eu&cjsku=SW22218",
     gsDiscount: 0
   },
   {
@@ -7465,10 +7465,10 @@ const games = [
     trending: true,
     rating: 88,
     igUrl: "https://www.instant-gaming.com/en/9101-buy-steam-coral-island-pc-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 41,
+    igDiscount: 40,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fcoral-island-pc-steam-gift-eu&cjsku=144257",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fcoral-island-pc-steam-gift-eu&cjsku=144257",
     gsDiscount: 0
   },
   {
@@ -7477,7 +7477,7 @@ const games = [
     title: "Windswept",
     categories: ["indie", "action", "splitscreen"],
     genres: ["action"],
-    coopMode: ["local", "split"],
+    coopMode: ["local"],
     maxPlayers: 2,
     crossplay: false,
     players: "1-2",
@@ -7528,7 +7528,7 @@ const games = [
     igDiscount: 12,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fbellwright-pc-steam-account-global&cjsku=SW22523",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fbellwright-pc-steam-account-global&cjsku=SW22523",
     gsDiscount: 0
   },
   {
@@ -7558,7 +7558,7 @@ const games = [
     igDiscount: 20,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Farc-raiders-pc-steam-account-global&cjsku=SW76079",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Farc-raiders-pc-steam-account-global&cjsku=SW76079",
     gsDiscount: 0
   },
   {
@@ -7567,7 +7567,7 @@ const games = [
     title: "Minecraft Dungeons",
     categories: ["survival", "action", "splitscreen"],
     genres: ["survival", "action"],
-    coopMode: ["online", "local", "split"],
+    coopMode: ["online", "local"],
     maxPlayers: 4,
     crossplay: true,
     players: "1-8",
@@ -7584,11 +7584,11 @@ const games = [
     ccu: 260,
     trending: false,
     rating: 91,
-    igUrl: "",
+    igUrl: "https://www.instant-gaming.com/en/22155-buy-steam-minecraft-dungeons-ii-pc/?igr=gamer-ddc4a8",
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fminecraft-dungeons-pc-steam-gift-global&cjsku=SW25532",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fminecraft-dungeons-pc-steam-gift-global&cjsku=SW25532",
     gsDiscount: 0
   },
   {
@@ -7618,7 +7618,7 @@ const games = [
     igDiscount: 5,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdune-awakening-pc-steam-account-global&cjsku=SW40184",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdune-awakening-pc-steam-account-global&cjsku=SW40184",
     gsDiscount: 0
   },
   {
@@ -7648,7 +7648,7 @@ const games = [
     igDiscount: 85,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Forcs-must-die-3-pc-steam-gift-global&cjsku=SW24928",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Forcs-must-die-3-pc-steam-account-global&cjsku=SW23560",
     gsDiscount: 0
   },
   {
@@ -7657,7 +7657,7 @@ const games = [
     title: "Spiritfarer®: Edizione Farewell",
     categories: ["indie", "rpg", "splitscreen"],
     genres: ["rpg"],
-    coopMode: ["local", "split"],
+    coopMode: ["local"],
     maxPlayers: 2,
     crossplay: false,
     players: "1-2",
@@ -7705,7 +7705,7 @@ const games = [
     trending: false,
     rating: 0,
     igUrl: "https://www.instant-gaming.com/en/19832-buy-steam-abyssus-pc-steam/?igr=gamer-ddc4a8",
-    igDiscount: 18,
+    igDiscount: 24,
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
@@ -7735,10 +7735,10 @@ const games = [
     trending: false,
     rating: 0,
     igUrl: "https://www.instant-gaming.com/en/20475-buy-steam-dying-light-the-beast-deluxe-edition-pc-steam/?igr=gamer-ddc4a8",
-    igDiscount: 9,
+    igDiscount: 8,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdying-light-the-beast-pc-steam-key-global&cjsku=SW68040",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdying-light-the-beast-pc-steam-key-global&cjsku=SW68040",
     gsDiscount: 0
   },
   {
@@ -7768,7 +7768,7 @@ const games = [
     igDiscount: 92,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmonaco-what-s-yours-is-mine-pc-steam-key-eu&cjsku=55105",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmonaco-what-s-yours-is-mine-pc-steam-key-eu&cjsku=55105",
     gsDiscount: 0
   },
   {
@@ -7828,7 +7828,7 @@ const games = [
     igDiscount: 47,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Funtitled-goose-game-pc-steam-account-global&cjsku=SW24267",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Funtitled-goose-game-pc-steam-gift-global&cjsku=69017",
     gsDiscount: 0
   },
   {
@@ -7855,10 +7855,10 @@ const games = [
     trending: false,
     rating: 87,
     igUrl: "https://www.instant-gaming.com/en/9374-buy-steam-operation-tango-pc-steam/?igr=gamer-ddc4a8",
-    igDiscount: 80,
+    igDiscount: 75,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Foperation-tango-pc-steam-key-global&cjsku=122517",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Foperation-tango-pc-steam-key-global&cjsku=122517",
     gsDiscount: 0
   },
   {
@@ -7888,7 +7888,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Funrailed-2-back-on-track-pc-steam-gift-global&cjsku=SW30454",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Funrailed-2-back-on-track-pc-steam-gift-global&cjsku=SW30454",
     gsDiscount: 0
   },
   {
@@ -7915,10 +7915,10 @@ const games = [
     trending: false,
     rating: 76,
     igUrl: "https://www.instant-gaming.com/en/8611-buy-steam-tools-up-pc-steam/?igr=gamer-ddc4a8",
-    igDiscount: 89,
+    igDiscount: 88,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftools-up-pc-steam-key-eu&cjsku=SW59904",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftools-up-pc-steam-key-global&cjsku=47304",
     gsDiscount: 0
   },
   {
@@ -7927,7 +7927,7 @@ const games = [
     title: "Biped 2",
     categories: ["indie", "puzzle", "splitscreen"],
     genres: ["puzzle"],
-    coopMode: ["online", "split", "local"],
+    coopMode: ["online"],
     maxPlayers: 4,
     crossplay: true,
     players: "1-4",
@@ -7987,7 +7987,7 @@ const games = [
     title: "Darksiders Genesis",
     categories: ["action", "splitscreen"],
     genres: ["action"],
-    coopMode: ["online", "local", "split"],
+    coopMode: ["online", "local"],
     maxPlayers: 2,
     crossplay: false,
     players: "1-2",
@@ -8008,7 +8008,7 @@ const games = [
     igDiscount: 82,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdarksiders-genesis-pc-steam-key-global&cjsku=43648",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdarksiders-genesis-pc-steam-key-eu&cjsku=48878",
     gsDiscount: 0
   },
   {
@@ -8047,7 +8047,7 @@ const games = [
     title: "Trine 5: A Clockwork Conspiracy",
     categories: ["action", "splitscreen"],
     genres: ["action"],
-    coopMode: ["online", "local", "split"],
+    coopMode: ["online", "local"],
     maxPlayers: 4,
     crossplay: false,
     players: "1-4",
@@ -8065,10 +8065,10 @@ const games = [
     trending: false,
     rating: 92,
     igUrl: "https://www.instant-gaming.com/en/13621-buy-steam-trine-5-a-clockwork-conspiracy-pc-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 70,
+    igDiscount: 69,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftrine-5-a-clockwork-conspiracy-pc-steam-key-global&cjsku=158403",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftrine-5-a-clockwork-conspiracy-pc-steam-account-global&cjsku=SW23393",
     gsDiscount: 0
   },
   {
@@ -8098,7 +8098,7 @@ const games = [
     igDiscount: 56,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fember-knights-pc-steam-gift-global&cjsku=SW31449",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fember-knights-pc-steam-gift-global&cjsku=SW31449",
     gsDiscount: 0
   },
   {
@@ -8128,7 +8128,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fcarx-drift-racing-online-pc-steam-gift-global&cjsku=74804",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fcarx-drift-racing-online-pc-steam-gift-global&cjsku=74804",
     gsDiscount: 0
   },
   {
@@ -8158,7 +8158,7 @@ const games = [
     igDiscount: 58,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdark-souls-ii-scholar-of-the-first-sin-pc-steam-key-global&cjsku=333",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdark-souls-ii-scholar-of-the-first-sin-pc-steam-key-global&cjsku=333",
     gsDiscount: 0
   },
   {
@@ -8218,7 +8218,7 @@ const games = [
     igDiscount: 90,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsniper-elite-5-pc-steam-gift-eu&cjsku=135539",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsniper-elite-5-pc-steam-gift-eu&cjsku=135539",
     gsDiscount: 0
   },
   {
@@ -8275,10 +8275,10 @@ const games = [
     trending: true,
     rating: 94,
     igUrl: "https://www.instant-gaming.com/en/2083-buy-steam-plague-inc-evolved-pc-mac-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 35,
+    igDiscount: 37,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fplague-inc-evolved-pc-steam-key-global&cjsku=1051",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fplague-inc-evolved-pc-steam-key-global&cjsku=1051",
     gsDiscount: 0
   },
   {
@@ -8368,7 +8368,7 @@ const games = [
     igDiscount: 59,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftotal-war-warhammer-ii-pc-steam-key-eu&cjsku=26709",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftotal-war-warhammer-ii-pc-steam-key-eu&cjsku=26709",
     gsDiscount: 0
   },
   {
@@ -8398,7 +8398,7 @@ const games = [
     igDiscount: 41,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fabiotic-factor-pc-steam-key-global&cjsku=171210",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fabiotic-factor-pc-steam-key-global&cjsku=171210",
     gsDiscount: 0
   },
   {
@@ -8428,7 +8428,7 @@ const games = [
     igDiscount: 85,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftotal-war-attila-pc-steam-key-eu&cjsku=50754",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftotal-war-attila-pc-steam-key-global&cjsku=1572",
     gsDiscount: 0
   },
   {
@@ -8458,7 +8458,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fneed-for-speed-heat-pc-origin-key-global&cjsku=42135",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fneed-for-speed-heat-pc-origin-key-global&cjsku=42135",
     gsDiscount: 0
   },
   {
@@ -8518,7 +8518,7 @@ const games = [
     igDiscount: 94,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fwarhammer-40-000-gladius-relics-of-war-pc-steam-gift-eu&cjsku=SW33298",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fwarhammer-40-000-gladius-relics-of-war-pc-steam-key-eu&cjsku=79920",
     gsDiscount: 0
   },
   {
@@ -8548,7 +8548,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffifa-22-pc-origin-key-global&cjsku=76934",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffifa-22-pc-origin-key-global&cjsku=76934",
     gsDiscount: 0
   },
   {
@@ -8578,7 +8578,7 @@ const games = [
     igDiscount: 80,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fkingdom-two-crowns-pc-steam-gift-global&cjsku=SW26279",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fkingdom-two-crowns-pc-steam-gift-global&cjsku=SW26279",
     gsDiscount: 0
   },
   {
@@ -8608,7 +8608,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffar-cry-5-far-cry-new-dawn-deluxe-edition-bundle-pc-steam-gift-eu&cjsku=75945",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffar-cry-5-far-cry-new-dawn-deluxe-edition-bundle-pc-steam-account-global&cjsku=SW24335",
     gsDiscount: 0
   },
   {
@@ -8638,7 +8638,7 @@ const games = [
     igDiscount: 74,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fstate-of-decay-2-juggernaut-edition-pc-steam-account-global&cjsku=SW23236",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fstate-of-decay-2-juggernaut-edition-pc-steam-key-global&cjsku=53494",
     gsDiscount: 0
   },
   {
@@ -8698,7 +8698,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fnorthgard-definitive-edition-pc-steam-key-global&cjsku=SW98016",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fnorthgard-definitive-edition-pc-steam-key-global&cjsku=SW98016",
     gsDiscount: 0
   },
   {
@@ -8725,10 +8725,10 @@ const games = [
     trending: true,
     rating: 78,
     igUrl: "https://www.instant-gaming.com/en/20260-buy-steam-lost-castle-2-pc-steam/?igr=gamer-ddc4a8",
-    igDiscount: 48,
+    igDiscount: 47,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Flost-castle-2-pc-steam-account-global&cjsku=SW26601",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Flost-castle-2-pc-steam-account-global&cjsku=SW26601",
     gsDiscount: 0
   },
   {
@@ -8755,10 +8755,10 @@ const games = [
     trending: true,
     rating: 93,
     igUrl: "https://www.instant-gaming.com/en/16776-buy-steam-farm-together-2-pc-mac-steam/?igr=gamer-ddc4a8",
-    igDiscount: 23,
+    igDiscount: 13,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffarm-together-2-pc-steam-key-global&cjsku=171124",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffarm-together-2-pc-steam-key-global&cjsku=171124",
     gsDiscount: 0
   },
   {
@@ -8788,7 +8788,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fstar-trek-online-ascension-alienware-pack-dlc-pc-official-website-key-global&cjsku=150545",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fstar-trek-online-ascension-alienware-pack-dlc-pc-official-website-key-global&cjsku=150545",
     gsDiscount: 0
   },
   {
@@ -8818,7 +8818,7 @@ const games = [
     igDiscount: 82,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdead-island-2-pc-steam-key-row&cjsku=SW68152",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdead-island-2-pc-steam-key-row&cjsku=SW68152",
     gsDiscount: 0
   },
   {
@@ -8848,7 +8848,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fgranblue-fantasy-relink-special-edition-pc-steam-key-global&cjsku=SW10563",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fgranblue-fantasy-relink-special-edition-pc-steam-key-global&cjsku=SW10563",
     gsDiscount: 0
   },
   {
@@ -8908,7 +8908,7 @@ const games = [
     igDiscount: 79,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fefootball-pes-2021-season-update-arsenal-edition-pc-steam-key-ru-cis&cjsku=141638",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fefootball-pes-2021-season-update-arsenal-edition-pc-steam-key-ru-cis&cjsku=141638",
     gsDiscount: 0
   },
   {
@@ -8938,7 +8938,7 @@ const games = [
     igDiscount: 60,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fwwe-2k25-pc-steam-key-eu&cjsku=SW37617",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fwwe-2k25-pc-steam-key-eu&cjsku=SW37617",
     gsDiscount: 0
   },
   {
@@ -8968,7 +8968,7 @@ const games = [
     igDiscount: 41,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsniper-elite-resistance-pc-steam-account-global&cjsku=SW34236",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsniper-elite-resistance-pc-steam-account-global&cjsku=SW34236",
     gsDiscount: 0
   },
   {
@@ -8998,7 +8998,7 @@ const games = [
     igDiscount: 30,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffoundry-pc-steam-account-global&cjsku=SW24116",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffoundry-pc-steam-account-global&cjsku=SW24116",
     gsDiscount: 0
   },
   {
@@ -9058,7 +9058,7 @@ const games = [
     igDiscount: 10,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fscrap-mechanic-pc-steam-gift-eu&cjsku=25833",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fscrap-mechanic-pc-steam-gift-eu&cjsku=25833",
     gsDiscount: 0
   },
   {
@@ -9088,7 +9088,7 @@ const games = [
     igDiscount: 78,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftrailmakers-pc-steam-gift-eu&cjsku=SW33297",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftrailmakers-pc-steam-key-global&cjsku=46175",
     gsDiscount: 0
   },
   {
@@ -9118,7 +9118,7 @@ const games = [
     igDiscount: 55,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fstarbound-pc-steam-key-eu&cjsku=73575",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fstarbound-pc-steam-key-global&cjsku=43941",
     gsDiscount: 0
   },
   {
@@ -9148,7 +9148,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fpantheon-rise-of-the-fallen-pc-steam-account-global&cjsku=SW34242",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fpantheon-rise-of-the-fallen-pc-steam-account-global&cjsku=SW34242",
     gsDiscount: 0
   },
   {
@@ -9205,10 +9205,10 @@ const games = [
     trending: true,
     rating: 81,
     igUrl: "https://www.instant-gaming.com/en/10272-buy-steam-warno-pc-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 10,
+    igDiscount: 12,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwarno-northag-dlc-pc-steam-key-global&cjsku=SW43721",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwarno-pc-steam-gift-global&cjsku=130386",
     gsDiscount: 0
   },
   {
@@ -9238,7 +9238,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwolfquest-anniversary-edition-pc-steam-gift-global&cjsku=SW37785",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwolfquest-anniversary-edition-pc-steam-gift-global&cjsku=SW37785",
     gsDiscount: 0
   },
   {
@@ -9298,7 +9298,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fplants-vs.-zombies-garden-warfare-2-deluxe-edition-pc-steam-gift-global&cjsku=SW26078",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fplants-vs.-zombies-garden-warfare-2-deluxe-edition-pc-steam-gift-global&cjsku=SW26078",
     gsDiscount: 0
   },
   {
@@ -9328,7 +9328,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Frunescape-dragonwilds-pc-steam-gift-global&cjsku=SW39171",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Frunescape-dragonwilds-pc-steam-gift-global&cjsku=SW39171",
     gsDiscount: 0
   },
   {
@@ -9358,7 +9358,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fcall-of-duty-modern-warfare-pc-steam-account-global&cjsku=SW22767",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fcall-of-duty-modern-warfare-pc-steam-account-global&cjsku=SW22767",
     gsDiscount: 0
   },
   {
@@ -9385,10 +9385,10 @@ const games = [
     trending: true,
     rating: 66,
     igUrl: "https://www.instant-gaming.com/en/7268-buy-steam-lords-of-the-fallen-game-of-the-year-edition-2014-goty-edition-pc-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 92,
+    igDiscount: 91,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Flords-of-the-fallen-pc-steam-key-global&cjsku=141437",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Flords-of-the-fallen-pc-steam-key-global&cjsku=141437",
     gsDiscount: 0
   },
   {
@@ -9415,10 +9415,10 @@ const games = [
     trending: true,
     rating: 87,
     igUrl: "https://www.instant-gaming.com/en/16619-buy-steam-oddsparks-an-automation-adventure-pc-steam/?igr=gamer-ddc4a8",
-    igDiscount: 74,
+    igDiscount: 73,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Foddsparks-an-automation-adventure-pc-steam-account-global&cjsku=SW25958",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Foddsparks-an-automation-adventure-pc-steam-account-global&cjsku=SW25958",
     gsDiscount: 0
   },
   {
@@ -9445,10 +9445,10 @@ const games = [
     trending: true,
     rating: 93,
     igUrl: "https://www.instant-gaming.com/en/520-buy-steam-age-of-mythology-extended-edition-extended-edition-pc-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 49,
+    igDiscount: 48,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fage-of-mythology-extended-edition-pc-steam-gift-eu&cjsku=SW33252",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fage-of-mythology-extended-edition-pc-steam-key-eu&cjsku=155058",
     gsDiscount: 0
   },
   {
@@ -9508,7 +9508,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fthe-lord-of-the-rings-online-60-day-game-time-code-key-eu&cjsku=50397",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fthe-lord-of-the-rings-online-60-day-game-time-code-key-eu&cjsku=50397",
     gsDiscount: 0
   },
   {
@@ -9568,7 +9568,7 @@ const games = [
     igDiscount: 58,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fleft-4-dead-pc-steam-gift-global&cjsku=46048",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fleft-4-dead-pc-steam-gift-global&cjsku=46048",
     gsDiscount: 0
   },
   {
@@ -9598,7 +9598,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftom-clancy-s-the-division-season-pass-dlc-pc-ubisoft-connect-key-united-states&cjsku=54052",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftom-clancy-s-the-division-season-pass-dlc-pc-ubisoft-connect-key-united-states&cjsku=54052",
     gsDiscount: 0
   },
   {
@@ -9625,10 +9625,10 @@ const games = [
     trending: false,
     rating: 80,
     igUrl: "https://www.instant-gaming.com/en/4495-buy-steam-mordhau-pc-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 75,
+    igDiscount: 74,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmordhau-pc-steam-key-eu&cjsku=53782",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmordhau-pc-steam-gift-global&cjsku=SW26488",
     gsDiscount: 0
   },
   {
@@ -9658,7 +9658,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdetail%2F01983420ead872728651a99742d9285e&cjsku=SW47065",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftrove-dynomighty-miner-pack-pc-steam-gift-global&cjsku=SW38351",
     gsDiscount: 0
   },
   {
@@ -9688,7 +9688,7 @@ const games = [
     igDiscount: 80,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fneverwinter-nights-enhanced-edition-pc-steam-key-global&cjsku=27718",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fneverwinter-nights-enhanced-edition-pc-steam-key-global&cjsku=27718",
     gsDiscount: 0
   },
   {
@@ -9715,10 +9715,10 @@ const games = [
     trending: false,
     rating: 75,
     igUrl: "https://www.instant-gaming.com/en/15035-buy-steam-humanitz-pc-steam/?igr=gamer-ddc4a8",
-    igDiscount: 62,
+    igDiscount: 59,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fhumanitz-pc-steam-gift-global&cjsku=160427",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fhumanitz-pc-steam-key-row&cjsku=166861",
     gsDiscount: 0
   },
   {
@@ -9726,7 +9726,7 @@ const games = [
     igdbId: 163456,
     title: "Lightyear Frontier",
     categories: ["survival", "factory"],
-    genres: ["factory"],
+    genres: ["survival", "factory"],
     coopMode: ["online"],
     maxPlayers: 4,
     crossplay: true,
@@ -9805,10 +9805,10 @@ const games = [
     trending: false,
     rating: 91,
     igUrl: "https://www.instant-gaming.com/en/4092-buy-steam-men-of-war-assault-squad-2-war-chest-edition-war-chest-edition-pc-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 86,
+    igDiscount: 28,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmen-of-war-assault-squad-2-cold-war-pc-steam-key-global&cjsku=42682",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmen-of-war-assault-squad-2-pc-steam-account-global&cjsku=SW26158",
     gsDiscount: 0
   },
   {
@@ -9838,7 +9838,7 @@ const games = [
     igDiscount: 51,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Faska-pc-steam-account-global&cjsku=SW24509",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Faska-pc-steam-account-global&cjsku=SW24509",
     gsDiscount: 0
   },
   {
@@ -9868,7 +9868,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdeadside-pc-steam-gift-global&cjsku=55679",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdeadside-pc-steam-gift-eu&cjsku=55680",
     gsDiscount: 0
   },
   {
@@ -9898,7 +9898,7 @@ const games = [
     igDiscount: 51,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Feco-pc-steam-account-global&cjsku=SW24094",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Feco-pc-steam-account-global&cjsku=SW24094",
     gsDiscount: 0
   },
   {
@@ -9925,7 +9925,7 @@ const games = [
     trending: false,
     rating: 86,
     igUrl: "https://www.instant-gaming.com/en/9738-buy-steam-legion-td-2-multiplayer-tower-defense-pc-steam/?igr=gamer-ddc4a8",
-    igDiscount: 53,
+    igDiscount: 55,
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
@@ -9958,7 +9958,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwebfishing-pc-steam-account-global&cjsku=SW26995",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwebfishing-pc-steam-account-global&cjsku=SW26995",
     gsDiscount: 0
   },
   {
@@ -9988,7 +9988,7 @@ const games = [
     igDiscount: 4,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffall-guys-ultimate-knockout-pc-steam-key-global&cjsku=66005",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffall-guys-ultimate-knockout-pc-steam-key-global&cjsku=66005",
     gsDiscount: 0
   },
   {
@@ -9999,7 +9999,7 @@ const games = [
     genres: ["factory", "strategy", "survival"],
     coopMode: ["online"],
     maxPlayers: 4,
-    crossplay: false,
+    crossplay: true,
     players: "1-4",
     releaseYear: 2019,
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1127400/header.jpg",
@@ -10018,14 +10018,14 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmindustry-pc-steam-gift-eu&cjsku=48628",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmindustry-pc-steam-gift-eu&cjsku=48628",
     gsDiscount: 0
   },
   {
     id: 356,
     igdbId: 149761,
     title: "封灵档案",
-    categories: ["horror", "action", "survival"],
+    categories: ["horror", "action", "survival", "free"],
     genres: ["horror", "action", "survival"],
     coopMode: ["online"],
     maxPlayers: 4,
@@ -10048,7 +10048,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsoul-academy-pc-steam-key-global&cjsku=SW46277",
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsoul-academy-pc-steam-key-global&cjsku=SW46277",
     gsDiscount: 0
   },
   {
@@ -10078,14 +10078,14 @@ const games = [
     igDiscount: 71,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdragon-ball-xenoverse-2-pc-steam-account-global&cjsku=SW23715",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdragon-ball-xenoverse-2-pc-steam-account-global&cjsku=SW23715",
     gsDiscount: 0
   },
   {
     id: 358,
     igdbId: 87776,
     title: "Dead Frontier 2",
-    categories: ["indie", "horror", "survival"],
+    categories: ["indie", "horror", "survival", "free"],
     genres: ["horror", "survival"],
     coopMode: ["online"],
     maxPlayers: 4,
@@ -10138,7 +10138,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmechwarrior-5-mercenaries-pc-steam-gift-eu&cjsku=86316",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmechwarrior-5-mercenaries-pc-steam-gift-eu&cjsku=86316",
     gsDiscount: 0
   },
   {
@@ -10146,7 +10146,7 @@ const games = [
     igdbId: 126290,
     title: "Far Cry 6",
     categories: ["survival", "action"],
-    genres: ["action"],
+    genres: ["survival", "action"],
     coopMode: ["online"],
     maxPlayers: 4,
     crossplay: false,
@@ -10168,7 +10168,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffar-cry-6-pc-steam-gift-global&cjsku=155089",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffar-cry-6-pc-steam-gift-global&cjsku=155089",
     gsDiscount: 0
   },
   {
@@ -10198,7 +10198,7 @@ const games = [
     igDiscount: 17,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwobbly-life-pc-steam-gift-global&cjsku=139016",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwobbly-life-pc-steam-gift-eu&cjsku=139015",
     gsDiscount: 0
   },
   {
@@ -10228,7 +10228,7 @@ const games = [
     igDiscount: 81,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fborderlands-game-of-the-year-enhanced-pc-steam-key-global&cjsku=SW43500",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fborderlands-game-of-the-year-enhanced-pc-steam-key-global&cjsku=SW43500",
     gsDiscount: 0
   },
   {
@@ -10239,7 +10239,7 @@ const games = [
     genres: ["factory", "action"],
     coopMode: ["online"],
     maxPlayers: 10,
-    crossplay: false,
+    crossplay: true,
     players: "1-10",
     releaseYear: 2020,
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/445220/header.jpg",
@@ -10258,7 +10258,7 @@ const games = [
     igDiscount: 46,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Favorion-pc-steam-key-global&cjsku=26453",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Favorion-pc-steam-key-global&cjsku=26453",
     gsDiscount: 0
   },
   {
@@ -10285,10 +10285,10 @@ const games = [
     trending: false,
     rating: 91,
     igUrl: "https://www.instant-gaming.com/en/17884-buy-steam-liar-s-bar-pc-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 1,
+    igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fliar-s-bar-pc-steam-account-global&cjsku=SW26741",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fliar-s-bar-pc-steam-account-global&cjsku=SW26741",
     gsDiscount: 0
   },
   {
@@ -10318,7 +10318,7 @@ const games = [
     igDiscount: 80,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftitan-quest-anniversary-edition-pc-steam-key-global&cjsku=7748",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftitan-quest-anniversary-edition-pc-steam-key-global&cjsku=7748",
     gsDiscount: 0
   },
   {
@@ -10329,7 +10329,7 @@ const games = [
     genres: ["strategy"],
     coopMode: ["online", "local", "split"],
     maxPlayers: 4,
-    crossplay: false,
+    crossplay: true,
     players: "1-4",
     releaseYear: 2021,
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/898920/header.jpg",
@@ -10348,7 +10348,7 @@ const games = [
     igDiscount: 13,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Faxis-allies-1942-online-pc-steam-key-global&cjsku=50172",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Faxis-allies-1942-online-pc-steam-key-global&cjsku=50172",
     gsDiscount: 0
   },
   {
@@ -10375,10 +10375,10 @@ const games = [
     trending: false,
     rating: 87,
     igUrl: "https://www.instant-gaming.com/en/8009-buy-steam-tropico-6-caribbean-skies-pc-mac-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 89,
+    igDiscount: 88,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftropico-6-pc-steam-key-global&cjsku=31057",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftropico-6-pc-steam-key-eu&cjsku=10798",
     gsDiscount: 0
   },
   {
@@ -10387,9 +10387,9 @@ const games = [
     title: "Wingspan",
     categories: ["indie", "factory", "strategy"],
     genres: ["factory", "strategy"],
-    coopMode: ["online", "local"],
+    coopMode: ["online", "local", "split"],
     maxPlayers: 4,
-    crossplay: false,
+    crossplay: true,
     players: "1-4",
     releaseYear: 2020,
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1054490/header.jpg",
@@ -10408,7 +10408,7 @@ const games = [
     igDiscount: 75,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwingspan-pc-steam-key-global&cjsku=68943",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwingspan-pc-steam-key-global&cjsku=68943",
     gsDiscount: 0
   },
   {
@@ -10438,7 +10438,7 @@ const games = [
     igDiscount: 15,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fapocalypse-party-pc-steam-key-global&cjsku=164879",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fapocalypse-party-pc-steam-key-global&cjsku=164879",
     gsDiscount: 0
   },
   {
@@ -10468,7 +10468,7 @@ const games = [
     igDiscount: 36,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fresident-evil-5-pc-steam-key-eu&cjsku=51513",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fresident-evil-5-pc-steam-key-eu&cjsku=51513",
     gsDiscount: 0
   },
   {
@@ -10498,7 +10498,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffar-cry-4-pc-steam-gift-eu&cjsku=59234",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffar-cry-4-pc-steam-gift-eu&cjsku=59234",
     gsDiscount: 0
   },
   {
@@ -10528,7 +10528,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffast-food-simulator-pc-steam-account-global&cjsku=SW34120",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffast-food-simulator-pc-steam-account-global&cjsku=SW34120",
     gsDiscount: 0
   },
   {
@@ -10539,7 +10539,7 @@ const games = [
     genres: ["strategy", "factory"],
     coopMode: ["online", "local"],
     maxPlayers: 10,
-    crossplay: false,
+    crossplay: true,
     players: "1-10",
     releaseYear: 2024,
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1575940/header.jpg",
@@ -10558,7 +10558,7 @@ const games = [
     igDiscount: 72,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsins-of-a-solar-empire-ii-pc-steam-key-global&cjsku=SW26624",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsins-of-a-solar-empire-ii-pc-steam-key-global&cjsku=SW26624",
     gsDiscount: 0
   },
   {
@@ -10588,14 +10588,14 @@ const games = [
     igDiscount: 93,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fsniper-elite-4-season-pass-dlc-pc-steam-key-eu&cjsku=152601",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fsniper-elite-4-season-pass-dlc-pc-steam-key-eu&cjsku=152601",
     gsDiscount: 0
   },
   {
     id: 379,
     igdbId: 143000,
     title: "Across the Obelisk",
-    categories: ["indie", "strategy", "roguelike"],
+    categories: ["strategy", "roguelike"],
     genres: ["strategy", "roguelike"],
     coopMode: ["online"],
     maxPlayers: 4,
@@ -10615,7 +10615,7 @@ const games = [
     trending: false,
     rating: 82,
     igUrl: "https://www.instant-gaming.com/en/12782-buy-steam-across-the-obelisk-pc-mac-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 86,
+    igDiscount: 81,
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Facross-the-obelisk-pc-steam-key-global&cjsku=140760",
@@ -11248,7 +11248,7 @@ const games = [
     igDiscount: 39,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fcall-of-duty-black-ops-pc-steam-key-eu&cjsku=66289",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fcall-of-duty-black-ops-pc-steam-gift-global&cjsku=58695",
     gsDiscount: 0
   },
   {
@@ -11278,7 +11278,7 @@ const games = [
     igDiscount: 69,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Frise-of-nations-extended-edition-pc-steam-key-global&cjsku=48018",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Frise-of-nations-extended-edition-pc-steam-account-global&cjsku=SW26760",
     gsDiscount: 0
   },
   {
@@ -11308,14 +11308,14 @@ const games = [
     igDiscount: 67,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fresident-evil-6-pc-steam-account-global&cjsku=SW22955",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fresident-evil-6-pc-steam-key-global&cjsku=1184",
     gsDiscount: 0
   },
   {
     id: 403,
     igdbId: 243017,
     title: "Void Crew",
-    categories: ["roguelike", "action", "indie"],
+    categories: ["roguelike", "action"],
     genres: ["roguelike", "action"],
     coopMode: ["online"],
     maxPlayers: 4,
@@ -11338,7 +11338,7 @@ const games = [
     igDiscount: 33,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fvoid-crew-pc-steam-gift-eu&cjsku=159940",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fvoid-crew-pc-steam-gift-global&cjsku=159939",
     gsDiscount: 0
   },
   {
@@ -11368,7 +11368,7 @@ const games = [
     igDiscount: 60,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsea-of-stars-pc-steam-gift-global&cjsku=159476",
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsea-of-stars-pc-steam-account-global&cjsku=SW22625",
     gsDiscount: 0
   },
   {
@@ -11395,7 +11395,7 @@ const games = [
     trending: false,
     rating: 96,
     igUrl: "https://www.instant-gaming.com/en/6387-buy-steam-door-kickers-2-task-force-north-pc-game-steam/?igr=gamer-ddc4a8",
-    igDiscount: 28,
+    igDiscount: 30,
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdoor-kickers-2-task-force-north-pc-steam-key-global&cjsku=SW41787",
@@ -14766,7 +14766,7 @@ const games = [
     igdbId: 342138,
     title: "Everwind",
     categories: ["indie", "rpg", "factory", "action"],
-    genres: ["action"],
+    genres: ["rpg", "factory", "action"],
     coopMode: ["online"],
     maxPlayers: 4,
     crossplay: false,
@@ -14796,7 +14796,7 @@ const games = [
     igdbId: 187690,
     title: "Project Castaway",
     categories: ["rpg", "survival", "factory", "action"],
-    genres: ["action"],
+    genres: ["rpg", "survival", "factory", "action"],
     coopMode: ["online"],
     maxPlayers: 4,
     crossplay: false,
@@ -14818,7 +14818,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fproject-castaway-pc-steam-gift-global&cjsku=SW23883",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fproject-castaway-pc-steam-key-global&cjsku=SW23896",
     gsDiscount: 0
   },
   {
@@ -14845,7 +14845,7 @@ const games = [
     trending: false,
     rating: 61,
     igUrl: "https://www.instant-gaming.com/en/16057-buy-steam-dragonkin-the-banished-pc-steam/?igr=gamer-ddc4a8",
-    igDiscount: 25,
+    igDiscount: 30,
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
@@ -14856,7 +14856,7 @@ const games = [
     igdbId: 124307,
     title: "Tower Tag",
     categories: ["sport", "action"],
-    genres: ["action"],
+    genres: ["sport", "action"],
     coopMode: ["online"],
     maxPlayers: 4,
     crossplay: false,
@@ -14886,7 +14886,7 @@ const games = [
     igdbId: 370982,
     title: "Pizza Slice",
     categories: ["indie", "factory", "action"],
-    genres: ["action"],
+    genres: ["factory", "action"],
     coopMode: ["online"],
     maxPlayers: 4,
     crossplay: false,
@@ -14905,7 +14905,7 @@ const games = [
     trending: false,
     rating: 0,
     igUrl: "https://www.instant-gaming.com/en/22112-buy-steam-pizza-slice-pc-steam/?igr=gamer-ddc4a8",
-    igDiscount: 24,
+    igDiscount: 23,
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
@@ -14938,7 +14938,7 @@ const games = [
     igDiscount: 22,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fwwe-2k26-pc-steam-account-global&cjsku=SW107901",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fwwe-2k26-pc-steam-account-global&cjsku=SW107901",
     gsDiscount: 0
   },
   {
@@ -14965,7 +14965,7 @@ const games = [
     trending: false,
     rating: 0,
     igUrl: "https://www.instant-gaming.com/en/14331-buy-steam-john-carpenter-s-toxic-commando-pc-steam/?igr=gamer-ddc4a8",
-    igDiscount: 10,
+    igDiscount: 16,
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fjohn-carpenter-s-toxic-commando-pc-steam-key-global&cjsku=SW107943",
@@ -15006,7 +15006,7 @@ const games = [
     igdbId: 374207,
     title: "Rewind 99",
     categories: ["indie", "factory", "action"],
-    genres: ["action"],
+    genres: ["factory", "action"],
     coopMode: ["online"],
     maxPlayers: 4,
     crossplay: false,
@@ -15036,7 +15036,7 @@ const games = [
     igdbId: 291749,
     title: "Over The Top: WWI",
     categories: ["indie", "factory", "action"],
-    genres: ["action"],
+    genres: ["factory", "action"],
     coopMode: ["online"],
     maxPlayers: 4,
     crossplay: false,
@@ -15066,7 +15066,7 @@ const games = [
     igdbId: 392056,
     title: "HexBreaker Ⅱ",
     categories: ["indie", "rpg", "action"],
-    genres: ["action"],
+    genres: ["rpg", "action"],
     coopMode: ["online"],
     maxPlayers: 4,
     crossplay: false,
@@ -15096,7 +15096,7 @@ const games = [
     igdbId: 296831,
     title: "Slay the Spire 2",
     categories: ["indie", "strategy", "action"],
-    genres: ["action"],
+    genres: ["strategy", "action"],
     coopMode: ["online"],
     maxPlayers: 4,
     crossplay: false,
@@ -15118,7 +15118,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fslay-the-spire-2-pc-steam-gift-global&cjsku=SW107909",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fslay-the-spire-2-pc-steam-gift-eu&cjsku=SW107908",
     gsDiscount: 0
   },
   {
@@ -15126,7 +15126,7 @@ const games = [
     igdbId: 230222,
     title: "Desynced",
     categories: ["survival", "factory", "strategy", "action"],
-    genres: ["action"],
+    genres: ["survival", "factory", "strategy", "action"],
     coopMode: ["online"],
     maxPlayers: 50,
     crossplay: false,
@@ -15156,7 +15156,7 @@ const games = [
     igdbId: 258472,
     title: "DYSPLACED",
     categories: ["indie", "rpg", "action"],
-    genres: ["action"],
+    genres: ["rpg", "action"],
     coopMode: ["online", "local"],
     maxPlayers: 4,
     crossplay: false,
@@ -15186,11 +15186,11 @@ const games = [
     igdbId: 250291,
     title: "Never Grave: The Witch and The Curse",
     categories: ["indie", "puzzle", "action"],
-    genres: ["action"],
+    genres: ["puzzle", "action"],
     coopMode: ["online"],
     maxPlayers: 4,
     crossplay: false,
-    players: "2-4",
+    players: "1-4",
     releaseYear: 2026,
     image: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2395770/0b7d199473c412f296170158b805aeb50451cbd4/header.jpg?t=1773129554",
     description: "Un Metroidvania x Roguelite in cui viaggi con l'aiuto di un cappello maledetto. Usa una varietà di magie o possiedi i tuoi nemici per raggiungere i livelli più bassi! Riporta il bottino, costruisci nuove strutture nel tuo villaggio, guadagnati da vivere e rafforzati per la prossima battaglia! Supporta la modalità multigiocatore fino a 4 giocatori.",
@@ -15238,7 +15238,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Frotwood-pc-steam-gift-global&cjsku=170968",
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Frotwood-pc-steam-gift-global&cjsku=170968",
     gsDiscount: 0
   },
   {
@@ -15906,7 +15906,7 @@ const games = [
     igdbId: 309472,
     title: "Overthrown",
     categories: ["survival", "factory", "action"],
-    genres: ["action"],
+    genres: ["survival", "factory", "action"],
     coopMode: ["online"],
     maxPlayers: 4,
     crossplay: false,
@@ -15928,7 +15928,7 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "",
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Foverthrown-pc-steam-key-global&cjsku=SW46223",
     gsDiscount: 0
   },
   {
@@ -15937,7 +15937,7 @@ const games = [
     title: "F1 24",
     categories: ["sport", "strategy", "action"],
     genres: ["sport", "strategy", "action"],
-    coopMode: ["online", "local"],
+    coopMode: ["online", "local", "split"],
     maxPlayers: 4,
     crossplay: false,
     players: "1-4",
@@ -15958,7 +15958,7 @@ const games = [
     igDiscount: 65,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ff1-24-pc-steam-account-global&cjsku=SW23958",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ff1-24-pc-steam-gift-row&cjsku=SW32212",
     gsDiscount: 0
   },
   {
@@ -15988,7 +15988,7 @@ const games = [
     igDiscount: 24,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffarming-simulator-19-pc-steam-account-global&cjsku=SW27131",
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffarming-simulator-19-pc-steam-account-global&cjsku=SW27131",
     gsDiscount: 0
   },
   {
@@ -16249,6 +16249,276 @@ const games = [
     played: false,
     steamUrl: "",
     gogUrl: "https://www.gog.com/en/game/headquarters_cold_war",
+    epicUrl: "",
+    itchUrl: "",
+    ccu: 0,
+    trending: false,
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0,
+    gsUrl: "",
+    gsDiscount: 0
+  },
+  {
+    id: 568,
+    igdbId: 0,
+    title: "Platform Anomaly (co-op)",
+    categories: ["indie", "splitscreen"],
+    genres: [],
+    coopMode: ["online", "local"],
+    maxPlayers: 4,
+    crossplay: false,
+    players: "2-4",
+    releaseYear: 0,
+    image: "https://img.itch.zone/aW1nLzI2MjcyNTg4LnBuZw==/315x250%23c/1b0EQQ.png",
+    description: "This is a co-op horror game where you and your friends search for anomalies.",
+    description_en: "This is a co-op horror game where you and your friends search for anomalies.",
+    personalNote: "",
+    played: false,
+    steamUrl: "",
+    gogUrl: "",
+    epicUrl: "",
+    itchUrl: "https://macrayb.itch.io/platform-anomaly-co-op",
+    ccu: 0,
+    trending: false,
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0,
+    gsUrl: "",
+    gsDiscount: 0
+  },
+  {
+    id: 569,
+    igdbId: 0,
+    title: "Paddle Force",
+    categories: ["indie", "splitscreen"],
+    genres: [],
+    coopMode: ["local"],
+    maxPlayers: 4,
+    crossplay: false,
+    players: "2-4",
+    releaseYear: 0,
+    image: "https://img.itch.zone/aW1hZ2UvMjUxNjg2LzEyNzQ2MTQucG5n/315x250%23c/Ds65au.png",
+    description: "Two player fast-paced pong-like with powerups set in space.",
+    description_en: "Two player fast-paced pong-like with powerups set in space.",
+    personalNote: "",
+    played: false,
+    steamUrl: "",
+    gogUrl: "",
+    epicUrl: "",
+    itchUrl: "https://flobotron.itch.io/paddle-force",
+    ccu: 0,
+    trending: false,
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0,
+    gsUrl: "",
+    gsDiscount: 0
+  },
+  {
+    id: 570,
+    igdbId: 0,
+    title: "Duels of Fortune",
+    categories: ["indie", "splitscreen"],
+    genres: [],
+    coopMode: ["local"],
+    maxPlayers: 4,
+    crossplay: false,
+    players: "2-4",
+    releaseYear: 0,
+    image: "https://img.itch.zone/aW1nLzg4NDkyNzkucG5n/315x250%23c/BnHcZ%2B.png",
+    description: "A fast, explosive fighting game with a colourful comic book artstyle!",
+    description_en: "A fast, explosive fighting game with a colourful comic book artstyle!",
+    personalNote: "",
+    played: false,
+    steamUrl: "",
+    gogUrl: "",
+    epicUrl: "",
+    itchUrl: "https://cosmic-hat-games.itch.io/duels-of-fortune",
+    ccu: 0,
+    trending: false,
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0,
+    gsUrl: "",
+    gsDiscount: 0
+  },
+  {
+    id: 571,
+    igdbId: 0,
+    title: "Bomberland",
+    categories: ["indie", "splitscreen"],
+    genres: [],
+    coopMode: ["local"],
+    maxPlayers: 4,
+    crossplay: false,
+    players: "2-4",
+    releaseYear: 0,
+    image: "https://img.itch.zone/aW1hZ2UvMjIzNjM5LzEwNTU5MjIucG5n/315x250%23c/Qfi5fs.png",
+    description: "Boom-bastic 1-5 player incendiary arcade action for your Commodore 64 home computer!",
+    description_en: "Boom-bastic 1-5 player incendiary arcade action for your Commodore 64 home computer!",
+    personalNote: "",
+    played: false,
+    steamUrl: "",
+    gogUrl: "",
+    epicUrl: "",
+    itchUrl: "https://rgcddev.itch.io/bomberland",
+    ccu: 0,
+    trending: false,
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0,
+    gsUrl: "",
+    gsDiscount: 0
+  },
+  {
+    id: 572,
+    igdbId: 0,
+    title: "Toe II Toe",
+    categories: ["indie", "splitscreen"],
+    genres: [],
+    coopMode: ["local"],
+    maxPlayers: 4,
+    crossplay: false,
+    players: "2-4",
+    releaseYear: 0,
+    image: "https://img.itch.zone/aW1nLzE4MDA5ODEwLnBuZw==/315x250%23c/LDEAku.png",
+    description: "A 20 second slugfest! Punch, duck, or block your way to victory!",
+    description_en: "A 20 second slugfest! Punch, duck, or block your way to victory!",
+    personalNote: "",
+    played: false,
+    steamUrl: "",
+    gogUrl: "",
+    epicUrl: "",
+    itchUrl: "https://plazatin.itch.io/toe-20-toe",
+    ccu: 0,
+    trending: false,
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0,
+    gsUrl: "",
+    gsDiscount: 0
+  },
+  {
+    id: 573,
+    igdbId: 0,
+    title: "Firefighting Space Monkes",
+    categories: ["indie", "splitscreen"],
+    genres: [],
+    coopMode: ["online", "local"],
+    maxPlayers: 4,
+    crossplay: false,
+    players: "2-4",
+    releaseYear: 0,
+    image: "https://img.itch.zone/aW1nLzk5NzgxNzUucG5n/315x250%23c/6qSkuX.png",
+    description: "Online coop game where you control a spaceship",
+    description_en: "Online coop game where you control a spaceship",
+    personalNote: "",
+    played: false,
+    steamUrl: "",
+    gogUrl: "",
+    epicUrl: "",
+    itchUrl: "https://adritake.itch.io/firefighting-spacemonkes",
+    ccu: 0,
+    trending: false,
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0,
+    gsUrl: "",
+    gsDiscount: 0
+  },
+  {
+    id: 574,
+    igdbId: 0,
+    title: "10 Rounds",
+    categories: ["indie", "splitscreen"],
+    genres: [],
+    coopMode: ["online", "local"],
+    maxPlayers: 4,
+    crossplay: false,
+    players: "2-4",
+    releaseYear: 0,
+    image: "https://img.itch.zone/aW1nLzI3Mzc3MzUucG5n/315x250%23c/reBNDE.png",
+    description: "Are you tired of easy games? Try 10 Rounds",
+    description_en: "Are you tired of easy games? Try 10 Rounds",
+    personalNote: "",
+    played: false,
+    steamUrl: "",
+    gogUrl: "",
+    epicUrl: "",
+    itchUrl: "https://mediactive-studios.itch.io/10-rounds",
+    ccu: 0,
+    trending: false,
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0,
+    gsUrl: "",
+    gsDiscount: 0
+  },
+  {
+    id: 575,
+    igdbId: 0,
+    title: "Serious Sam Evolution",
+    categories: ["indie", "splitscreen"],
+    genres: [],
+    coopMode: ["local", "split"],
+    maxPlayers: 4,
+    crossplay: false,
+    players: "2-4",
+    releaseYear: 0,
+    image: "https://img.itch.zone/aW1nLzEwMjIxNzAxLnBuZw==/315x250%23c/aEaxK6.png",
+    description: "A source port of Serious Sam Classic: The Second Encounter and a complete overhaul of Serious Engine 1.10.",
+    description_en: "A source port of Serious Sam Classic: The Second Encounter and a complete overhaul of Serious Engine 1.10.",
+    personalNote: "",
+    played: false,
+    steamUrl: "",
+    gogUrl: "",
+    epicUrl: "",
+    itchUrl: "https://twsdev.itch.io/sse",
+    ccu: 0,
+    trending: false,
+    rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0,
+    gsUrl: "",
+    gsDiscount: 0
+  },
+  {
+    id: 576,
+    igdbId: 46520,
+    title: "TOP HUNTER: RODDY & CATHY",
+    categories: ["action"],
+    genres: ["action"],
+    coopMode: ["online"],
+    maxPlayers: 4,
+    crossplay: false,
+    players: "1-4",
+    releaseYear: 0,
+    image: "https://images.gog-statics.com/0ccc24ba17ba22a294b52189f7185cea6455ba92ff8d40c77038ce06d3936b13.png",
+    description: "TOP HUNTER: RODDY & CATHY is a side-scrolling action game released by SNK in 1994. Using a 2-line system with front and back lines that can freely be switched between, jump, shoot, throw, and perform special attacks to defeat the space pirates who aim for total domination. This game offers simultaneous 2 player mode.",
+    description_en: "TOP HUNTER: RODDY & CATHY is a side-scrolling action game released by SNK in 1994. Using a 2-line system with front and back lines that can freely be switched between, jump, shoot, throw, and perform special attacks to defeat the space pirates who aim for total domination. This game offers simultaneous 2 player mode.",
+    personalNote: "",
+    played: false,
+    steamUrl: "",
+    gogUrl: "https://www.gog.com/en/game/top_hunter_roddy_cathy",
     epicUrl: "",
     itchUrl: "",
     ccu: 0,
