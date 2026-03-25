@@ -44,3 +44,5 @@ related-games-*.png
 
 # Artefatti pipeline (rigenerati ad ogni run)
 data/coop_validation_report.json
+client_secret_*.json
+scripts/gsc-credentials.json
