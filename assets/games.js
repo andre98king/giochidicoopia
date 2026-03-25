@@ -14533,7 +14533,7 @@ const games = [
     players: "2-4",
     releaseYear: 2020,
     image: "https://img.itch.zone/aW1nLzQzMDIxNDEuanBn/315x250%23c/l4GXcw.jpg",
-    description: "Un party game cooperativo dove i giocatori devono restare uniti, letteralmente. Risolvete puzzle e superate sfide senza mai separarvi!",
+    description: "Un gioco di società cooperativo in cui i giocatori devono stare insieme, letteralmente. Risolvi enigmi e supera le sfide senza mai rompersi!",
     description_en: "A cooperative party game where players must stay together — literally. Solve puzzles and overcome challenges without ever breaking apart!",
     personalNote: "",
     played: false,
