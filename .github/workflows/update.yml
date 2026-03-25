@@ -23,12 +23,6 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r scripts/requirements.txt
 
-      - name: Install Playwright browser
-        run: playwright install chromium --with-deps
-
-      - name: Install Patchright browser
-        run: python3 -m patchright install chromium
-
       - name: Install Camoufox browser (Firefox stealth, anti-Cloudflare)
         run: python3 -m camoufox fetch
 

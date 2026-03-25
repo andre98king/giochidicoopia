@@ -229,22 +229,8 @@ _UA = (
 
 
 async def run() -> None:
-    # IG: patchright/playwright (Chromium, nessun Cloudflare su IG)
-    # GB: camoufox (Firefox stealth, bypassa Cloudflare Turnstile)
-    try:
-        from patchright.async_api import async_playwright
-        print("   IG browser: patchright (stealth Chromium)")
-    except ImportError:
-        try:
-            from playwright.async_api import async_playwright
-            print("   IG browser: playwright (standard Chromium)")
-        except ImportError:
-            print("❌ né patchright né playwright installati.")
-            sys.exit(1)
-
     try:
         from camoufox.async_api import AsyncCamoufox
-        print("   GB browser: camoufox (Firefox stealth, anti-Turnstile)")
     except ImportError:
         print("❌ camoufox non installato. Esegui: pip install camoufox && python3 -m camoufox fetch")
         sys.exit(1)
@@ -256,6 +242,7 @@ async def run() -> None:
     targets = [g for g in games if g.get("steamUrl")]
     total = len(targets)
     print(f"🔍 Cerco prezzi affiliati per {total} giochi con Steam URL...")
+    print(f"   Browser: camoufox (Firefox stealth)")
     print(f"   Concorrenza: IG={IG_CONCURRENCY}  GB={GB_CONCURRENCY}  (paralleli)")
 
     ig_found = gb_found = done_count = 0
@@ -265,73 +252,66 @@ async def run() -> None:
     ig_sem = asyncio.Semaphore(IG_CONCURRENCY)
     gb_sem = asyncio.Semaphore(GB_CONCURRENCY)
 
-    async with async_playwright() as pw:
-        ig_browser = await pw.chromium.launch(headless=True)
-        ig_ctx = await ig_browser.new_context(user_agent=_UA, locale="en-US")
+    async with AsyncCamoufox(headless=True, humanize=True) as browser:
+        ig_ctx = await browser.new_context(locale="en-US")
+        gb_ctx = await browser.new_context(locale="en-US")
 
-        async with AsyncCamoufox(headless=True, humanize=True) as gb_browser:
-            gb_ctx = await gb_browser.new_context(locale="en-US")
+        async def process_game(game: dict) -> None:
+            nonlocal ig_found, gb_found, done_count
 
-            async def process_game(game: dict) -> None:
-                nonlocal ig_found, gb_found, done_count
+            async def do_ig():
+                async with ig_sem:
+                    page = await ig_ctx.new_page()
+                    try:
+                        return await fetch_ig(page, game)
+                    finally:
+                        await page.close()
 
-                # IG e GB in parallelo per lo stesso gioco
-                async def do_ig():
-                    async with ig_sem:
-                        page = await ig_ctx.new_page()
-                        try:
-                            return await fetch_ig(page, game)
-                        finally:
-                            await page.close()
+            async def do_gb():
+                async with gb_sem:
+                    page = await gb_ctx.new_page()
+                    try:
+                        return await fetch_gb(page, game)
+                    finally:
+                        await page.close()
 
-                async def do_gb():
-                    async with gb_sem:
-                        page = await gb_ctx.new_page()
-                        try:
-                            return await fetch_gb(page, game)
-                        finally:
-                            await page.close()
+            ig_res, gb_res = await asyncio.gather(
+                do_ig(), do_gb(), return_exceptions=True
+            )
 
-                ig_res, gb_res = await asyncio.gather(
-                    do_ig(), do_gb(), return_exceptions=True
-                )
+            ig_url, ig_disc = ig_res if not isinstance(ig_res, Exception) else ("", 0)
+            gb_url, gb_disc = gb_res if not isinstance(gb_res, Exception) else ("", 0)
 
-                ig_url, ig_disc = ig_res if not isinstance(ig_res, Exception) else ("", 0)
-                gb_url, gb_disc = gb_res if not isinstance(gb_res, Exception) else ("", 0)
+            async with lock:
+                orig = games_by_id[game["id"]]
+                if ig_url:
+                    orig["igUrl"] = ig_url
+                    orig["igDiscount"] = ig_disc
+                    ig_found += 1
+                if gb_url:
+                    orig["gbUrl"] = gb_url
+                    orig["gbDiscount"] = gb_disc
+                    gb_found += 1
+                done_count += 1
+                if ig_url or gb_url:
+                    label = f"IG:-{ig_disc}%" if ig_url else "IG:—"
+                    label += f"  GB:-{gb_disc}%" if gb_url else "  GB:—"
+                    print(f"  ✓ [{game['id']}] {game['title']}: {label}")
+                if done_count % 25 == 0:
+                    elapsed = time.time() - start
+                    rate = done_count / elapsed if elapsed > 0 else 0
+                    eta = (total - done_count) / rate if rate > 0 else 0
+                    print(f"  📊 {done_count}/{total} — {elapsed:.0f}s — ~{eta:.0f}s rimanenti")
 
-                async with lock:
-                    orig = games_by_id[game["id"]]
-                    if ig_url:
-                        orig["igUrl"] = ig_url
-                        orig["igDiscount"] = ig_disc
-                        ig_found += 1
-                    if gb_url:
-                        orig["gbUrl"] = gb_url
-                        orig["gbDiscount"] = gb_disc
-                        gb_found += 1
-                    done_count += 1
-                    if ig_url or gb_url:
-                        label = f"IG:-{ig_disc}%" if ig_url else "IG:—"
-                        label += f"  GB:-{gb_disc}%" if gb_url else "  GB:—"
-                        print(f"  ✓ [{game['id']}] {game['title']}: {label}")
-                    if done_count % 25 == 0:
-                        elapsed = time.time() - start
-                        rate = done_count / elapsed if elapsed > 0 else 0
-                        eta = (total - done_count) / rate if rate > 0 else 0
-                        print(f"  📊 {done_count}/{total} — {elapsed:.0f}s — ~{eta:.0f}s rimanenti")
+        tasks = []
+        for game in targets:
+            tasks.append(asyncio.ensure_future(process_game(game)))
+            await asyncio.sleep(STAGGER)
 
-            # Lancia tutti i task con stagger per evitare burst
-            tasks = []
-            for game in targets:
-                tasks.append(asyncio.ensure_future(process_game(game)))
-                await asyncio.sleep(STAGGER)
-
-            await asyncio.gather(*tasks, return_exceptions=True)
-
-            await gb_ctx.close()
+        await asyncio.gather(*tasks, return_exceptions=True)
 
         await ig_ctx.close()
-        await ig_browser.close()
+        await gb_ctx.close()
 
     elapsed = time.time() - start
     print(f"\n✅ IG: {ig_found}/{total}  GB: {gb_found}/{total}  ⏱ {elapsed:.0f}s")
