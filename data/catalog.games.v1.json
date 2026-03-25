@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-25T11:57:45+00:00",
+  "generatedAt": "2026-03-25T21:27:51+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
@@ -766,8 +766,8 @@
       "players": "1-4",
       "releaseYear": 2013,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/230410/header.jpg",
-      "description": "Risvegliati come un guerriero inarrestabile e combatti al fianco dei tuoi amici in questo gioco d'azione online free-to-play con storie coinvolgenti.",
-      "description_en": "Awaken as an unstoppable warrior and battle alongside your friends in this story-driven free-to-play online action game",
+      "description": "Risvegliati come un guerriero inarrestabile e combatti al fianco dei tuoi amici in questo gioco d'azione online free-to-play con storie coinvolgenti. Affronta fazioni in guerra in un vasto sistema interplanetario sotto la guida della misteriosa Lotus e fai salire di livello il tuo Warframe,…",
+      "description_en": "Confront warring factions throughout a sprawling interplanetary system as you follow the guidance of the mysterious Lotus and level up your Warframe, build an Arsenal of destructive firepower, and realize your true potential across massive open worlds in this thrilling, genre-defining third-person…",
       "personalNote": "",
       "played": false,
       "steamUrl": "https://store.steampowered.com/app/230410/",
@@ -786,8 +786,8 @@
       "slug": "warframe",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Risvegliati come un guerriero inarrestabile e combatti al fianco dei tuoi amici in questo gioco d'azione online free-to-play con storie coinvolgenti.",
-        "en": "Awaken as an unstoppable warrior and battle alongside your friends in this story-driven free-to-play online action game"
+        "it": "Risvegliati come un guerriero inarrestabile e combatti al fianco dei tuoi amici in questo gioco d'azione online free-to-play con storie coinvolgenti. Affronta fazioni in guerra in un vasto sistema interplanetario sotto la guida della misteriosa Lotus e fai salire di livello il tuo Warframe,…",
+        "en": "Confront warring factions throughout a sprawling interplanetary system as you follow the guidance of the mysterious Lotus and level up your Warframe, build an Arsenal of destructive firepower, and realize your true potential across massive open worlds in this thrilling, genre-defining third-person…"
       },
       "taxonomy": {
         "categories": [
@@ -952,8 +952,8 @@
       "players": "1-4",
       "releaseYear": 2016,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/322330/header.jpg",
-      "description": "Don't Starve Together è l’espansione multigiocatore autonoma di Don’t Starve, il gioco di sopravvivenza estrema.",
-      "description_en": "Fight, Farm, Build and Explore Together in the standalone multiplayer expansion to the uncompromising wilderness survival game, Don't Starve.",
+      "description": "Explore Together Discover and explore a massive procedurally generated and biome-rich world with countless resources and threats. Whether you stick to the surface world, go spelunking in the caves, dive deeper into the Ancient Archive, or set sail for the Lunar islands, it will be a long time…",
+      "description_en": "Explore Together Discover and explore a massive procedurally generated and biome-rich world with countless resources and threats. Whether you stick to the surface world, go spelunking in the caves, dive deeper into the Ancient Archive, or set sail for the Lunar islands, it will be a long time…",
       "personalNote": "",
       "played": false,
       "steamUrl": "https://store.steampowered.com/app/322330/",
@@ -972,8 +972,8 @@
       "slug": "dont-starve-together",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Don't Starve Together è l’espansione multigiocatore autonoma di Don’t Starve, il gioco di sopravvivenza estrema.",
-        "en": "Fight, Farm, Build and Explore Together in the standalone multiplayer expansion to the uncompromising wilderness survival game, Don't Starve."
+        "it": "Explore Together Discover and explore a massive procedurally generated and biome-rich world with countless resources and threats. Whether you stick to the surface world, go spelunking in the caves, dive deeper into the Ancient Archive, or set sail for the Lunar islands, it will be a long time…",
+        "en": "Explore Together Discover and explore a massive procedurally generated and biome-rich world with countless resources and threats. Whether you stick to the surface world, go spelunking in the caves, dive deeper into the Ancient Archive, or set sail for the Lunar islands, it will be a long time…"
       },
       "taxonomy": {
         "categories": [
@@ -1229,8 +1229,8 @@
       "players": "1-3",
       "releaseYear": 2019,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1085660/header.jpg",
-      "description": "Destiny 2 è un MMO d'azione con un unico mondo in continua evoluzione, accessibile ovunque, gratuitamente e in qualsiasi momento con gli amici.",
-      "description_en": "Destiny 2 is an action MMO with a single evolving world that you and your friends can join anytime, anywhere, absolutely free.",
+      "description": "Destiny 2: L'Anno della Profezia - Ultimate Edition Informazioni sul gioco Lasciati travolgere dal mondo di Destiny 2. Esplora i misteri del sistema solare e scopri un sistema di combattimento in prima persona dalle meccaniche fluide. Sblocca potenti abilità elementali e colleziona equipaggiamento…",
+      "description_en": "Destiny 2: Year of Prophecy Ultimate Edition About the Game Dive into the world of Destiny 2 to explore the mysteries of the solar system and experience responsive first-person shooter combat. Unlock powerful elemental abilities and collect unique gear to customize your Guardian's look and…",
       "personalNote": "",
       "played": false,
       "steamUrl": "https://store.steampowered.com/app/1085660/",
@@ -1249,8 +1249,8 @@
       "slug": "destiny-2",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Destiny 2 è un MMO d'azione con un unico mondo in continua evoluzione, accessibile ovunque, gratuitamente e in qualsiasi momento con gli amici.",
-        "en": "Destiny 2 is an action MMO with a single evolving world that you and your friends can join anytime, anywhere, absolutely free."
+        "it": "Destiny 2: L'Anno della Profezia - Ultimate Edition Informazioni sul gioco Lasciati travolgere dal mondo di Destiny 2. Esplora i misteri del sistema solare e scopri un sistema di combattimento in prima persona dalle meccaniche fluide. Sblocca potenti abilità elementali e colleziona equipaggiamento…",
+        "en": "Destiny 2: Year of Prophecy Ultimate Edition About the Game Dive into the world of Destiny 2 to explore the mysteries of the solar system and experience responsive first-person shooter combat. Unlock powerful elemental abilities and collect unique gear to customize your Guardian's look and…"
       },
       "taxonomy": {
         "categories": [
@@ -1324,8 +1324,8 @@
       "players": "1-255",
       "releaseYear": 2011,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg",
-      "description": "Scava, combatti, esplora, costruisci! Niente è impossibile in questo gioco d'avventura pieno di azione. Anche disponibile nel Pacchetto da Quattro!",
-      "description_en": "Dig, fight, explore, build! Nothing is impossible in this action-packed adventure game. Four Pack also available!",
+      "description": "Scava, combatti, esplora, costruisci! Niente è impossibile in questo gioco d'avventura pieno di azione. Il mondo è la tua tela e la terra è il tuo colore. Prendi gli strumenti e vai! Crea armi per combattere un'ampia varietà di creature in numerosi biomi. Scava sottoterra per trovare accessori,…",
+      "description_en": "Dig, Fight, Explore, Build: The very world is at your fingertips as you fight for survival, fortune, and glory. Will you delve deep into cavernous expanses in search of treasure and raw materials with which to craft ever-evolving gear, machinery, and aesthetics? Perhaps you will choose instead to…",
       "personalNote": "",
       "played": false,
       "steamUrl": "https://store.steampowered.com/app/105600/",
@@ -1344,8 +1344,8 @@
       "slug": "terraria",
       "isFeaturedIndie": true,
       "descriptions": {
-        "it": "Scava, combatti, esplora, costruisci! Niente è impossibile in questo gioco d'avventura pieno di azione. Anche disponibile nel Pacchetto da Quattro!",
-        "en": "Dig, fight, explore, build! Nothing is impossible in this action-packed adventure game. Four Pack also available!"
+        "it": "Scava, combatti, esplora, costruisci! Niente è impossibile in questo gioco d'avventura pieno di azione. Il mondo è la tua tela e la terra è il tuo colore. Prendi gli strumenti e vai! Crea armi per combattere un'ampia varietà di creature in numerosi biomi. Scava sottoterra per trovare accessori,…",
+        "en": "Dig, Fight, Explore, Build: The very world is at your fingertips as you fight for survival, fortune, and glory. Will you delve deep into cavernous expanses in search of treasure and raw materials with which to craft ever-evolving gear, machinery, and aesthetics? Perhaps you will choose instead to…"
       },
       "taxonomy": {
         "categories": [
@@ -2253,7 +2253,7 @@
       "players": "1-10",
       "releaseYear": 2021,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/892970/header.jpg",
-      "description": "Un gioco di sopravvivenza ed esplorazione ambientato in un mondo fantastico ispirato alla mitologia norrena e alla cultura vichinga.",
+      "description": "Dimostra il tuo valore! Pensi di meritare l'accesso al Valhalla? Ti hanno spedito su Valheim, il 10° mondo norreno. Solo sconfiggendo le belve feroci di queste terre conquisterai il favore delle divinità. Questa missione ti porterà ai confini più remoti di questo mondo, dalle foreste più intricate…",
       "description_en": "A brutal exploration and survival game for 1-10 players, set in a procedurally-generated purgatory inspired by viking culture. Battle, build, and conquer your way to a saga worthy of Odin’s patronage!",
       "personalNote": "Atmosfera magica. Costruire una longhouse con gli amici e partire all'esplorazione è fantastico.",
       "played": true,
@@ -2273,7 +2273,7 @@
       "slug": "valheim",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Un gioco di sopravvivenza ed esplorazione ambientato in un mondo fantastico ispirato alla mitologia norrena e alla cultura vichinga.",
+        "it": "Dimostra il tuo valore! Pensi di meritare l'accesso al Valhalla? Ti hanno spedito su Valheim, il 10° mondo norreno. Solo sconfiggendo le belve feroci di queste terre conquisterai il favore delle divinità. Questa missione ti porterà ai confini più remoti di questo mondo, dalle foreste più intricate…",
         "en": "A brutal exploration and survival game for 1-10 players, set in a procedurally-generated purgatory inspired by viking culture. Battle, build, and conquer your way to a saga worthy of Odin’s patronage!"
       },
       "taxonomy": {
@@ -3062,8 +3062,8 @@
       "players": "1-4 (locale)",
       "releaseYear": 2020,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1237950/header.jpg",
-      "description": "Diventa l'eroe nella battaglia definitiva di STAR WARS™ con la STAR WARS™ Battlefront™ II: Celebration Edition!",
-      "description_en": "Be the hero in the ultimate STAR WARS™ battle fantasy with STAR WARS™ Battlefront™ II: Celebration Edition!",
+      "description": "Diventa l'eroe della battaglia definitiva di Star Wars ™ con la Star Wars ™ Battlefront™ II: Celebration Edition! Ottieni Star Wars Battlefront II e la collezione completa di tutti i contenuti di personalizzazione disponibili attraverso l'acquisto in gioco rilasciati dall'uscita e gli oggetti…",
+      "description_en": "Be the hero in the ultimate Star Wars ™ battle fantasy with Star Wars ™ Battlefront™ II: Celebration Edition! Get Star Wars Battlefront II and the complete collection of customization content acquirable through in-game purchase from launch up to — and including — items inspired by Star Wars ™: THE…",
       "personalNote": "",
       "played": false,
       "steamUrl": "https://store.steampowered.com/app/1237950/",
@@ -3082,8 +3082,8 @@
       "slug": "star-wars-battlefront-ii",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Diventa l'eroe nella battaglia definitiva di STAR WARS™ con la STAR WARS™ Battlefront™ II: Celebration Edition!",
-        "en": "Be the hero in the ultimate STAR WARS™ battle fantasy with STAR WARS™ Battlefront™ II: Celebration Edition!"
+        "it": "Diventa l'eroe della battaglia definitiva di Star Wars ™ con la Star Wars ™ Battlefront™ II: Celebration Edition! Ottieni Star Wars Battlefront II e la collezione completa di tutti i contenuti di personalizzazione disponibili attraverso l'acquisto in gioco rilasciati dall'uscita e gli oggetti…",
+        "en": "Be the hero in the ultimate Star Wars ™ battle fantasy with Star Wars ™ Battlefront™ II: Celebration Edition! Get Star Wars Battlefront II and the complete collection of customization content acquirable through in-game purchase from launch up to — and including — items inspired by Star Wars ™: THE…"
       },
       "taxonomy": {
         "categories": [
@@ -3234,8 +3234,8 @@
       "players": "1-4",
       "releaseYear": 2023,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2344520/header.jpg",
-      "description": "Unisciti alla lotta per Sanctuarium, l'avventura GdR d'azione definitiva. Prova l'acclamata campagna e i nuovi contenuti stagionali.",
-      "description_en": "Join the fight for Sanctuary in Diablo® IV, the ultimate action RPG adventure. Experience the critically acclaimed campaign and new seasonal content.",
+      "description": "Diablo® IV: Age of Hatred Collection Diablo® IV: Age of Hatred Collection Non conosci Diablo IV? Inizia la tua discesa nell'oscurità con Diablo® IV: Age of Hatred Collection, la saga completa della lotta di Sanctuarium contro il Primo Maligno, Mefisto. La Age of Hatred Collection include: - Diablo®…",
+      "description_en": "Diablo® IV: Age of Hatred Collection New to Diablo IV? Begin your descent into darkness with the Diablo® IV: Age of Hatred Collection — the complete saga of Sanctuary’s struggle against the Prime Evil, Mephisto. The Age of Hatred Collection includes: - Diablo® IV for Steam - Diablo® IV: Vessel of…",
       "personalNote": "",
       "played": false,
       "steamUrl": "https://store.steampowered.com/app/2344520/",
@@ -3254,8 +3254,8 @@
       "slug": "diablo-iv",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Unisciti alla lotta per Sanctuarium, l'avventura GdR d'azione definitiva. Prova l'acclamata campagna e i nuovi contenuti stagionali.",
-        "en": "Join the fight for Sanctuary in Diablo® IV, the ultimate action RPG adventure. Experience the critically acclaimed campaign and new seasonal content."
+        "it": "Diablo® IV: Age of Hatred Collection Diablo® IV: Age of Hatred Collection Non conosci Diablo IV? Inizia la tua discesa nell'oscurità con Diablo® IV: Age of Hatred Collection, la saga completa della lotta di Sanctuarium contro il Primo Maligno, Mefisto. La Age of Hatred Collection include: - Diablo®…",
+        "en": "Diablo® IV: Age of Hatred Collection New to Diablo IV? Begin your descent into darkness with the Diablo® IV: Age of Hatred Collection — the complete saga of Sanctuary’s struggle against the Prime Evil, Mephisto. The Age of Hatred Collection includes: - Diablo® IV for Steam - Diablo® IV: Vessel of…"
       },
       "taxonomy": {
         "categories": [
@@ -3690,7 +3690,7 @@
       "players": "1-4",
       "releaseYear": 2018,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/960090/header.jpg",
-      "description": "Il gioco in stile tower defense che tutti aspettavano",
+      "description": "Crea la tua difesa perfetta da una combinazione di potenti torri scimmiesche e fantastici eroi, poi fai scoppiare fino all'ultimo Bloon invasore! Oltre un decennio di esperienza di tower defense e corposi aggiornamenti regolari rendono Bloons TD6 il gioco preferito da milioni di giocatori. Goditi…",
       "description_en": "The Bloons are back and better than ever! Get ready for a massive 3D tower defense game designed to give you hours and hours of the best strategy gaming available.",
       "personalNote": "",
       "played": false,
@@ -3710,7 +3710,7 @@
       "slug": "bloons-td-6",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Il gioco in stile tower defense che tutti aspettavano",
+        "it": "Crea la tua difesa perfetta da una combinazione di potenti torri scimmiesche e fantastici eroi, poi fai scoppiare fino all'ultimo Bloon invasore! Oltre un decennio di esperienza di tower defense e corposi aggiornamenti regolari rendono Bloons TD6 il gioco preferito da milioni di giocatori. Goditi…",
         "en": "The Bloons are back and better than ever! Get ready for a massive 3D tower defense game designed to give you hours and hours of the best strategy gaming available."
       },
       "taxonomy": {
@@ -4847,8 +4847,8 @@
       "players": "1-2",
       "releaseYear": 2025,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2001120/header.jpg",
-      "description": "Vivi momenti unici mentre ti immergi nei numerosi mondi di Split Fiction, l'innovativo gioco d'avventura cooperativo.",
-      "description_en": "Embrace mind-blowing moments as you’re pulled deep into the many worlds of Split Fiction, a boundary-pushing co-op adventure.",
+      "description": "ACCLAMATO DALLA CRITICA Informazioni sul gioco Vivi momenti unici mentre ti immergi nei numerosi mondi di Split Fiction, l'innovativo gioco d'azione e avventura cooperativo creato dallo studio di It Takes Two, vincitore del premio Game of the Year 2021. Mio e Zoe sono scrittrici agli antipodi: una…",
+      "description_en": "CRITICALLY ACCLAIMED About the Game Embrace mind-blowing moments as you’re pulled deep into the many worlds of Split Fiction, a boundary-pushing co-op action adventure from the studio behind 2021 Game of the Year Winner, It Takes Two. Mio and Zoe are contrasting writers – one writes sci-fi and the…",
       "personalNote": "",
       "played": false,
       "steamUrl": "https://store.steampowered.com/app/2001120/",
@@ -4867,8 +4867,8 @@
       "slug": "split-fiction",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Vivi momenti unici mentre ti immergi nei numerosi mondi di Split Fiction, l'innovativo gioco d'avventura cooperativo.",
-        "en": "Embrace mind-blowing moments as you’re pulled deep into the many worlds of Split Fiction, a boundary-pushing co-op adventure."
+        "it": "ACCLAMATO DALLA CRITICA Informazioni sul gioco Vivi momenti unici mentre ti immergi nei numerosi mondi di Split Fiction, l'innovativo gioco d'azione e avventura cooperativo creato dallo studio di It Takes Two, vincitore del premio Game of the Year 2021. Mio e Zoe sono scrittrici agli antipodi: una…",
+        "en": "CRITICALLY ACCLAIMED About the Game Embrace mind-blowing moments as you’re pulled deep into the many worlds of Split Fiction, a boundary-pushing co-op action adventure from the studio behind 2021 Game of the Year Winner, It Takes Two. Mio and Zoe are contrasting writers – one writes sci-fi and the…"
       },
       "taxonomy": {
         "categories": [
@@ -5029,8 +5029,8 @@
       "players": "1-4",
       "releaseYear": 2015,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/311210/header.jpg",
-      "description": "Call of Duty®: Black Ops III Zombies Chronicles Edition include il gioco base completo e l'espansione Zombies Chronicles.",
-      "description_en": "Call of Duty®: Black Ops III Zombies Chronicles Edition includes the full base game plus the Zombies Chronicles content expansion.",
+      "description": "Zombies Chronicles Deluxe Edition Adesso ancora più ricco di contenuti. Call of Duty®: Black Ops III Zombies Chronicles Deluxe comprende il gioco base completo, il pass stagionale, Zombies Chronicles e altri contenuti digitali bonus, tra cui: Una mappa gigante bonus: gli zombi tornano con The…",
+      "description_en": "Zombies Chronicles Deluxe Edition Now with more content than ever before. Call of Duty®: Black Ops III Zombies Chronicles Deluxe includes the full base game, Season Pass, Zombies Chronicles & additional bonus digital content including: The Giant Bonus Map: Zombies returns in all of its undead glory…",
       "personalNote": "",
       "played": false,
       "steamUrl": "https://store.steampowered.com/app/311210/",
@@ -5049,8 +5049,8 @@
       "slug": "call-of-duty-black-ops-iii",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Call of Duty®: Black Ops III Zombies Chronicles Edition include il gioco base completo e l'espansione Zombies Chronicles.",
-        "en": "Call of Duty®: Black Ops III Zombies Chronicles Edition includes the full base game plus the Zombies Chronicles content expansion."
+        "it": "Zombies Chronicles Deluxe Edition Adesso ancora più ricco di contenuti. Call of Duty®: Black Ops III Zombies Chronicles Deluxe comprende il gioco base completo, il pass stagionale, Zombies Chronicles e altri contenuti digitali bonus, tra cui: Una mappa gigante bonus: gli zombi tornano con The…",
+        "en": "Zombies Chronicles Deluxe Edition Now with more content than ever before. Call of Duty®: Black Ops III Zombies Chronicles Deluxe includes the full base game, Season Pass, Zombies Chronicles & additional bonus digital content including: The Giant Bonus Map: Zombies returns in all of its undead glory…"
       },
       "taxonomy": {
         "categories": [
@@ -6153,8 +6153,8 @@
       "players": "1-15",
       "releaseYear": 2018,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/945360/header.jpg",
-      "description": "Uno spaziale party game di collaborazione e tradimenti per 4-15 giocatori, da giocare in locale oppure online.",
-      "description_en": "An online and local party game of teamwork and betrayal for 4-15 players...in space!",
+      "description": "Benvenute, reclute. Scoprite la nuova mappa di Among Us, Airship! Collaborate con il resto dell'equipaggio per portare a termine il più grande dei piani... che siate astronauti o impostori! Quest'aggiornamento gratuito include: La 4° mappa, la più grande finora Nuovi incarichi come pulire gioielli,…",
+      "description_en": "Play with 4-15 player online or via local WiFi as you attempt to prepare your spaceship for departure, but beware as one or more random players among the Crew are Impostors bent on killing everyone! Originally created as a party game, we recommend playing with friends at a LAN party or online using…",
       "personalNote": "",
       "played": false,
       "steamUrl": "https://store.steampowered.com/app/945360/",
@@ -6173,8 +6173,8 @@
       "slug": "among-us",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Uno spaziale party game di collaborazione e tradimenti per 4-15 giocatori, da giocare in locale oppure online.",
-        "en": "An online and local party game of teamwork and betrayal for 4-15 players...in space!"
+        "it": "Benvenute, reclute. Scoprite la nuova mappa di Among Us, Airship! Collaborate con il resto dell'equipaggio per portare a termine il più grande dei piani... che siate astronauti o impostori! Quest'aggiornamento gratuito include: La 4° mappa, la più grande finora Nuovi incarichi come pulire gioielli,…",
+        "en": "Play with 4-15 player online or via local WiFi as you attempt to prepare your spaceship for departure, but beware as one or more random players among the Crew are Impostors bent on killing everyone! Originally created as a party game, we recommend playing with friends at a LAN party or online using…"
       },
       "taxonomy": {
         "categories": [
@@ -8319,8 +8319,8 @@
       "players": "1-4",
       "releaseYear": 2011,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/620/header.jpg",
-      "description": "L'\"Iniziativa di test perpetuo\" è stata ampliata per consentirti di progettare rompicapo cooperativi per te e per i tuoi amici!",
-      "description_en": "The &quot;Perpetual Testing Initiative&quot; has been expanded to allow you to design co-op puzzles for you and your friends!",
+      "description": "Portal 2 attinge dalla premiata formula di innovativa giocabilità, storia e musica che è valsa al primo Portal oltre 70 premi di settore e che ha generato un culto. La porzione da giocatore singolo di Portal 2 introduce un cast di nuovi e coinvolgenti personaggi, una serie di enigmi originali e…",
+      "description_en": "Portal 2 draws from the award-winning formula of innovative gameplay, story, and music that earned the original Portal over 70 industry accolades and created a cult following. The single-player portion of Portal 2 introduces a cast of dynamic new characters, a host of fresh puzzle elements, and a…",
       "personalNote": "Un classico senza tempo. La co-op richiede vera comunicazione e coordinazione. Perfetto per chi ama i puzzle.",
       "played": true,
       "steamUrl": "https://store.steampowered.com/app/620/",
@@ -8339,8 +8339,8 @@
       "slug": "portal-2",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "L'\"Iniziativa di test perpetuo\" è stata ampliata per consentirti di progettare rompicapo cooperativi per te e per i tuoi amici!",
-        "en": "The &quot;Perpetual Testing Initiative&quot; has been expanded to allow you to design co-op puzzles for you and your friends!"
+        "it": "Portal 2 attinge dalla premiata formula di innovativa giocabilità, storia e musica che è valsa al primo Portal oltre 70 premi di settore e che ha generato un culto. La porzione da giocatore singolo di Portal 2 introduce un cast di nuovi e coinvolgenti personaggi, una serie di enigmi originali e…",
+        "en": "Portal 2 draws from the award-winning formula of innovative gameplay, story, and music that earned the original Portal over 70 industry accolades and created a cult following. The single-player portion of Portal 2 introduces a cast of dynamic new characters, a host of fresh puzzle elements, and a…"
       },
       "taxonomy": {
         "categories": [
@@ -9478,8 +9478,8 @@
       "players": "1-4",
       "releaseYear": 2023,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2231380/header.jpg",
-      "description": "Diventa un Ghost e affronta una fazione di mercenari chiamati Lupi nel nuovo Tom Clancy's Ghost Recon!",
-      "description_en": "Become a Ghost, fighting against a rogue spec ops faction called the Wolves, in the latest Tom Clancy's Ghost Recon®!",
+      "description": "Ultimate Edition Diventa un Ghost, un soldato d'élite delle forze speciali, con una missione su Auroa. Il remoto arcipelago nel Pacifico del Sud ha perso il contatto con il mondo esterno da quando Skell Technology è diventata ostile. I Lupi, un gruppo di mercenari guidati da un tuo ex compagno…",
+      "description_en": "Ultimate Edition Become an elite spec ops soldier known as a Ghost, tasked with a special mission to Auroa. The remote archipelago somewhere in the South Pacific has lost contact with outside world due to Skell Technology turning hostile. The Wolves, a rogue spec ops team led by your…",
       "personalNote": "",
       "played": false,
       "steamUrl": "https://store.steampowered.com/app/2231380/",
@@ -9498,8 +9498,8 @@
       "slug": "tom-clancys-ghost-recon-breakpoint",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Diventa un Ghost e affronta una fazione di mercenari chiamati Lupi nel nuovo Tom Clancy's Ghost Recon!",
-        "en": "Become a Ghost, fighting against a rogue spec ops faction called the Wolves, in the latest Tom Clancy's Ghost Recon®!"
+        "it": "Ultimate Edition Diventa un Ghost, un soldato d'élite delle forze speciali, con una missione su Auroa. Il remoto arcipelago nel Pacifico del Sud ha perso il contatto con il mondo esterno da quando Skell Technology è diventata ostile. I Lupi, un gruppo di mercenari guidati da un tuo ex compagno…",
+        "en": "Ultimate Edition Become an elite spec ops soldier known as a Ghost, tasked with a special mission to Auroa. The remote archipelago somewhere in the South Pacific has lost contact with outside world due to Skell Technology turning hostile. The Wolves, a rogue spec ops team led by your…"
       },
       "taxonomy": {
         "categories": [
@@ -14059,7 +14059,7 @@
       "players": "1-4",
       "releaseYear": 2023,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1086940/header.jpg",
-      "description": "Gather your party, and return to the Forgotten Realms in a tale of fellowship and betrayal, sacrifice and survival, and the lure of absolute power.",
+      "description": "Raduna il tuo gruppo e torna nei Reami Dimenticati per forgiare una storia di amicizia e tradimento, di sacrificio e sopravvivenza… e del fascino del potere assoluto. Misteriose abilità si stanno risvegliando dentro di te, attinte da un parassita mind flayer impiantato nel tuo cervello. Resisti e…",
       "description_en": "Baldur’s Gate 3 is a story-rich, party-based RPG set in the universe of Dungeons &amp; Dragons, where your choices shape a tale of fellowship and betrayal, survival and sacrifice, and the lure of absolute power.",
       "personalNote": "",
       "played": false,
@@ -14079,7 +14079,7 @@
       "slug": "baldurs-gate-3",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Gather your party, and return to the Forgotten Realms in a tale of fellowship and betrayal, sacrifice and survival, and the lure of absolute power.",
+        "it": "Raduna il tuo gruppo e torna nei Reami Dimenticati per forgiare una storia di amicizia e tradimento, di sacrificio e sopravvivenza… e del fascino del potere assoluto. Misteriose abilità si stanno risvegliando dentro di te, attinte da un parassita mind flayer impiantato nel tuo cervello. Resisti e…",
         "en": "Baldur’s Gate 3 is a story-rich, party-based RPG set in the universe of Dungeons &amp; Dragons, where your choices shape a tale of fellowship and betrayal, survival and sacrifice, and the lure of absolute power."
       },
       "taxonomy": {
@@ -15016,8 +15016,8 @@
       "players": "1-4",
       "releaseYear": 2024,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2300320/header.jpg",
-      "description": "Farming Simulator 25 vi invita a tuffarvi nella gratificante vita agricola, da soli o collaborando nel multiplayer. È la vostra fattoria!",
-      "description_en": "Farming Simulator 25 invites you to join the rewarding farm life, single-handedly or cooperatively in multiplayer. This Farm is Your Farm!",
+      "description": "Farming Simulator 25 vi invita a tuffarvi nella gratificante vita agricola. Scegliete voi se costruire il vostro retaggio da soli o collaborando nel multiplayer: è la vostra fattoria! Una fattoria tutta vostra Costruite la fattoria tra i fiumi sinuosi e gli storici montacarichi da cereali del Nord…",
+      "description_en": "Farming Simulator 25 invites you to join the rewarding farm life. Whether you build your legacy single-handedly or cooperatively in multiplayer - it’s your farm, you decide! This Farm is Your Farm! Build a farm along winding rivers and historic grain elevators in North America, surrounded by ponds…",
       "personalNote": "",
       "played": false,
       "steamUrl": "https://store.steampowered.com/app/2300320/",
@@ -15036,8 +15036,8 @@
       "slug": "farming-simulator-25",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Farming Simulator 25 vi invita a tuffarvi nella gratificante vita agricola, da soli o collaborando nel multiplayer. È la vostra fattoria!",
-        "en": "Farming Simulator 25 invites you to join the rewarding farm life, single-handedly or cooperatively in multiplayer. This Farm is Your Farm!"
+        "it": "Farming Simulator 25 vi invita a tuffarvi nella gratificante vita agricola. Scegliete voi se costruire il vostro retaggio da soli o collaborando nel multiplayer: è la vostra fattoria! Una fattoria tutta vostra Costruite la fattoria tra i fiumi sinuosi e gli storici montacarichi da cereali del Nord…",
+        "en": "Farming Simulator 25 invites you to join the rewarding farm life. Whether you build your legacy single-handedly or cooperatively in multiplayer - it’s your farm, you decide! This Farm is Your Farm! Build a farm along winding rivers and historic grain elevators in North America, surrounded by ponds…"
       },
       "taxonomy": {
         "categories": [
@@ -15460,8 +15460,8 @@
       "players": "1-4",
       "releaseYear": 2021,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg",
-      "description": "Esplora i vivaci paesaggi del Messico sconfinato alla guida di auto straordinarie.",
-      "description_en": "Explore the vibrant open world landscapes of Mexico with limitless, fun driving action in the world’s greatest cars.",
+      "description": "Forza Horizon 5 Version Comparison Informazioni sul gioco La tua avventura Horizon definitiva ti aspetta! Esplora vivaci paesaggi open world del Messico in continua evoluzione. Divertimento al volante illimitato con centinaia tra le migliori auto al mondo. Questa è la tua Avventura Horizon! Guida…",
+      "description_en": "Forza Horizon 5 Version Comparison About the Game Your Ultimate Horizon Adventure awaits! Explore the vibrant and ever-evolving open world landscapes of Mexico with limitless, fun driving action in hundreds of the world’s greatest cars. This is Your Horizon Adventure Lead breathtaking expeditions…",
       "personalNote": "",
       "played": false,
       "steamUrl": "https://store.steampowered.com/app/1551360/",
@@ -15480,8 +15480,8 @@
       "slug": "forza-horizon-5",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Esplora i vivaci paesaggi del Messico sconfinato alla guida di auto straordinarie.",
-        "en": "Explore the vibrant open world landscapes of Mexico with limitless, fun driving action in the world’s greatest cars."
+        "it": "Forza Horizon 5 Version Comparison Informazioni sul gioco La tua avventura Horizon definitiva ti aspetta! Esplora vivaci paesaggi open world del Messico in continua evoluzione. Divertimento al volante illimitato con centinaia tra le migliori auto al mondo. Questa è la tua Avventura Horizon! Guida…",
+        "en": "Forza Horizon 5 Version Comparison About the Game Your Ultimate Horizon Adventure awaits! Explore the vibrant and ever-evolving open world landscapes of Mexico with limitless, fun driving action in hundreds of the world’s greatest cars. This is Your Horizon Adventure Lead breathtaking expeditions…"
       },
       "taxonomy": {
         "categories": [
@@ -15807,8 +15807,8 @@
       "players": "1-4",
       "releaseYear": 2012,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/216150/header.jpg",
-      "description": "Unisciti ad altri 260 milioni di giocatori di MapleStory, la più grande avventura MMORPG 2D! Gioca gratis subito!",
-      "description_en": "Join over 260 million players worldwide in MapleStory, the world’s biggest 2D MMORPG adventure! Play now for free.",
+      "description": "Unisciti ad oltre 260 giocatori nel mondo e gioca a MapleStory, uno degli MMORPG originali, in cui ti attendono epiche avventure, un sacco di azione e nuovi amici! Con il suo stile artistico speciale in 2D, MapleStory ti offre il brivido della potenza esplosiva, un’accentuata espressività in stile…",
+      "description_en": "Join over 260 Million Global Players in MapleStory, one of the original MMORPGs, where epic adventure, action-packed gameplay, & good friends await you! Featuring an iconic 2D art style, MapleStory offers the thrill of explosive power, bold anime-style self-expression, and absolute control of your…",
       "personalNote": "",
       "played": false,
       "steamUrl": "https://store.steampowered.com/app/216150/",
@@ -15827,8 +15827,8 @@
       "slug": "maplestory",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Unisciti ad altri 260 milioni di giocatori di MapleStory, la più grande avventura MMORPG 2D! Gioca gratis subito!",
-        "en": "Join over 260 million players worldwide in MapleStory, the world’s biggest 2D MMORPG adventure! Play now for free."
+        "it": "Unisciti ad oltre 260 giocatori nel mondo e gioca a MapleStory, uno degli MMORPG originali, in cui ti attendono epiche avventure, un sacco di azione e nuovi amici! Con il suo stile artistico speciale in 2D, MapleStory ti offre il brivido della potenza esplosiva, un’accentuata espressività in stile…",
+        "en": "Join over 260 Million Global Players in MapleStory, one of the original MMORPGs, where epic adventure, action-packed gameplay, & good friends await you! Featuring an iconic 2D art style, MapleStory offers the thrill of explosive power, bold anime-style self-expression, and absolute control of your…"
       },
       "taxonomy": {
         "categories": [
@@ -15979,8 +15979,8 @@
       "players": "1-6",
       "releaseYear": 2021,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1248130/header.jpg",
-      "description": "Inizia a coltivare e fai crescere il divertimento! Raccogli le colture, alleva gli animali, gestisci la produzione e affronta le sfide stagionali.",
-      "description_en": "Create your farm and let the good times grow! Harvest crops, tend to animals, manage productions, and take on seasonal challenges.",
+      "description": "Intraprendi una carriera nell'agricoltura moderna! L'agricoltura, l'allevamento degli animali e la silvicoltura offrono un'ampia varietà di operazioni agricole, a cui si aggiungono le sfide poste dalle quattro stagioni, specialmente dall'inverno. Usa tutta la tua creatività per costruire la tua…",
+      "description_en": "Take on the role of a modern farmer! Agriculture, animal husbandry and forestry offer a huge variety of farming activities while you face the challenges of the four seasons, especially when winter sets in. Creatively build your own farm and extend your farming operations with production chains -…",
       "personalNote": "",
       "played": false,
       "steamUrl": "https://store.steampowered.com/app/1248130/",
@@ -15999,8 +15999,8 @@
       "slug": "farming-simulator-22",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Inizia a coltivare e fai crescere il divertimento! Raccogli le colture, alleva gli animali, gestisci la produzione e affronta le sfide stagionali.",
-        "en": "Create your farm and let the good times grow! Harvest crops, tend to animals, manage productions, and take on seasonal challenges."
+        "it": "Intraprendi una carriera nell'agricoltura moderna! L'agricoltura, l'allevamento degli animali e la silvicoltura offrono un'ampia varietà di operazioni agricole, a cui si aggiungono le sfide poste dalle quattro stagioni, specialmente dall'inverno. Usa tutta la tua creatività per costruire la tua…",
+        "en": "Take on the role of a modern farmer! Agriculture, animal husbandry and forestry offer a huge variety of farming activities while you face the challenges of the four seasons, especially when winter sets in. Creatively build your own farm and extend your farming operations with production chains -…"
       },
       "taxonomy": {
         "categories": [
@@ -18084,8 +18084,8 @@
       "players": "1-3",
       "releaseYear": 2019,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/601150/header.jpg",
-      "description": "Il cacciatore di demoni definitivo torna con stile nell'azione di gioco che i fan stavano aspettando.",
-      "description_en": "The ultimate Devil Hunter is back in style, in the game action fans have been waiting for.",
+      "description": "Devil May Cry 5 + Vergil Il cacciatore di demoni definitivo torna con stile nell'azione di gioco che i fan stavano aspettando. Include il contenuto scaricabile Personaggio selezionabile: Vergil (disponibile anche separatamente). Il nuovo episodio della leggendaria serie di azione, Devil May Cry 5,…",
+      "description_en": "Devil May Cry 5 + Vergil The ultimate Devil Hunter is back in style, in the game action fans have been waiting for. Now includes the Playable Character: Vergil downloadable content (also available separately). A brand new entry in the legendary action series, Devil May Cry 5 brings together its…",
       "personalNote": "",
       "played": false,
       "steamUrl": "https://store.steampowered.com/app/601150/",
@@ -18104,8 +18104,8 @@
       "slug": "devil-may-cry-5",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Il cacciatore di demoni definitivo torna con stile nell'azione di gioco che i fan stavano aspettando.",
-        "en": "The ultimate Devil Hunter is back in style, in the game action fans have been waiting for."
+        "it": "Devil May Cry 5 + Vergil Il cacciatore di demoni definitivo torna con stile nell'azione di gioco che i fan stavano aspettando. Include il contenuto scaricabile Personaggio selezionabile: Vergil (disponibile anche separatamente). Il nuovo episodio della leggendaria serie di azione, Devil May Cry 5,…",
+        "en": "Devil May Cry 5 + Vergil The ultimate Devil Hunter is back in style, in the game action fans have been waiting for. Now includes the Playable Character: Vergil downloadable content (also available separately). A brand new entry in the legendary action series, Devil May Cry 5 brings together its…"
       },
       "taxonomy": {
         "categories": [
@@ -18608,8 +18608,8 @@
       "players": "1-4",
       "releaseYear": 2011,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/34330/header.jpg",
-      "description": "Total War: SHOGUN 2 è il mix perfetto di giochi di strategia in tempo reale e a turni sia per i nuovi arrivati ​​che per i veterani.",
-      "description_en": "Total War: SHOGUN 2 is the perfect mix of real-time and turn-based strategy gaming for newcomers and veterans alike.",
+      "description": "Total War: SHOGUN 2 è in uscita adesso per Linux. Informazioni sul gioco PADRONEGGIA L'ARTE DELLA GUERRA Nei secoli più bui del Giappone, una guerra interminabile divide il Paese. Nel bel mezzo del XVI Secolo, il Giappone Feudale, un tempo amministrato da un governo unico, è ora spaccato in…",
+      "description_en": "Total War: SHOGUN 2 out now for Linux. About the Game MASTER THE ART OF WAR In the darkest age of Japan, endless war leaves a country divided. It is the middle of the 16th Century in Feudal Japan. The country, once ruled by a unified government, is now split into many warring clans. Ten legendary…",
       "personalNote": "",
       "played": false,
       "steamUrl": "https://store.steampowered.com/app/34330/",
@@ -18628,8 +18628,8 @@
       "slug": "total-war-shogun-2",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Total War: SHOGUN 2 è il mix perfetto di giochi di strategia in tempo reale e a turni sia per i nuovi arrivati ​​che per i veterani.",
-        "en": "Total War: SHOGUN 2 is the perfect mix of real-time and turn-based strategy gaming for newcomers and veterans alike."
+        "it": "Total War: SHOGUN 2 è in uscita adesso per Linux. Informazioni sul gioco PADRONEGGIA L'ARTE DELLA GUERRA Nei secoli più bui del Giappone, una guerra interminabile divide il Paese. Nel bel mezzo del XVI Secolo, il Giappone Feudale, un tempo amministrato da un governo unico, è ora spaccato in…",
+        "en": "Total War: SHOGUN 2 out now for Linux. About the Game MASTER THE ART OF WAR In the darkest age of Japan, endless war leaves a country divided. It is the middle of the 16th Century in Feudal Japan. The country, once ruled by a unified government, is now split into many warring clans. Ten legendary…"
       },
       "taxonomy": {
         "categories": [
@@ -19564,8 +19564,8 @@
       "players": "1-4",
       "releaseYear": 2025,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1850740/header.jpg",
-      "description": "\"Ghost Watchers\" – questo è un horror online cooperativo. Devi esplorare e catturare i fantasmi nelle case abbandonate",
-      "description_en": "Ghost Watchers is a co-op online horror game. You will explore and hunt ghosts in abandoned houses",
+      "description": "In molte case abbandonate vivono i fantasmi. Possono essere anime o demoni suicidi. Potrebbe essere lo spirito di un vampiro, che succhia lentamente il sangue da chiunque si avvicini VANTAGGI 20 tipi di fantasmi unici: anime di persone e strane creature, oltre a diversi tipi di demoni Ogni fantasma…",
+      "description_en": "Many abandoned houses are full of ghosts. These can be the souls of suicides or demons. It could be the spirit of a vampire, slowly sucking the blood from everyone who comes near ADVANTAGES 20 types of unique ghosts - the souls of people and strange creatures, as well as several types of demons…",
       "personalNote": "",
       "played": false,
       "steamUrl": "https://store.steampowered.com/app/1850740/",
@@ -19584,8 +19584,8 @@
       "slug": "ghost-watchers",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "\"Ghost Watchers\" – questo è un horror online cooperativo. Devi esplorare e catturare i fantasmi nelle case abbandonate",
-        "en": "Ghost Watchers is a co-op online horror game. You will explore and hunt ghosts in abandoned houses"
+        "it": "In molte case abbandonate vivono i fantasmi. Possono essere anime o demoni suicidi. Potrebbe essere lo spirito di un vampiro, che succhia lentamente il sangue da chiunque si avvicini VANTAGGI 20 tipi di fantasmi unici: anime di persone e strane creature, oltre a diversi tipi di demoni Ogni fantasma…",
+        "en": "Many abandoned houses are full of ghosts. These can be the souls of suicides or demons. It could be the spirit of a vampire, slowly sucking the blood from everyone who comes near ADVANTAGES 20 types of unique ghosts - the souls of people and strange creatures, as well as several types of demons…"
       },
       "taxonomy": {
         "categories": [
@@ -21908,8 +21908,8 @@
       "players": "1-4",
       "releaseYear": 2025,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3949040/header.jpg",
-      "description": "Un'avventura cooperativa in cui devi guidare il tuo veicolo ricreativo fino a casa.",
-      "description_en": "A co-op adventure about driving your Recreational Vehicle home.",
+      "description": "DRIVE HOME You and your buddies are on your way home from a relaxing vacation but are forced to take an alternate route. Get your RV through the back country and find the exit to Route 65. SURVIVE MABUTTS VALLEY Not everyone who enters Mabutts Valley makes it out alive. So be sure to keep a steady…",
+      "description_en": "DRIVE HOME You and your buddies are on your way home from a relaxing vacation but are forced to take an alternate route. Get your RV through the back country and find the exit to Route 65. SURVIVE MABUTTS VALLEY Not everyone who enters Mabutts Valley makes it out alive. So be sure to keep a steady…",
       "personalNote": "",
       "played": false,
       "steamUrl": "https://store.steampowered.com/app/3949040/",
@@ -21928,8 +21928,8 @@
       "slug": "rv-there-yet",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Un'avventura cooperativa in cui devi guidare il tuo veicolo ricreativo fino a casa.",
-        "en": "A co-op adventure about driving your Recreational Vehicle home."
+        "it": "DRIVE HOME You and your buddies are on your way home from a relaxing vacation but are forced to take an alternate route. Get your RV through the back country and find the exit to Route 65. SURVIVE MABUTTS VALLEY Not everyone who enters Mabutts Valley makes it out alive. So be sure to keep a steady…",
+        "en": "DRIVE HOME You and your buddies are on your way home from a relaxing vacation but are forced to take an alternate route. Get your RV through the back country and find the exit to Route 65. SURVIVE MABUTTS VALLEY Not everyone who enters Mabutts Valley makes it out alive. So be sure to keep a steady…"
       },
       "taxonomy": {
         "categories": [
@@ -22430,8 +22430,8 @@
       "players": "1-8",
       "releaseYear": 2021,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1672970/header.jpg",
-      "description": "Fatti strada combattendo in una entusiasmante avventura ispirata ai classici dungeon crawler e ambientata nell'universo di Minecraft!",
-      "description_en": "Fight your way through an exciting action-adventure game, inspired by classic dungeon crawlers and set in the Minecraft universe!",
+      "description": "Minecraft Dungeons edizione definitiva Scopri la storia completa di Minecraft Dungeons, dall'inizio fino all'End. Scarica l'edizione definitiva, che include il gioco base e tutti e sei i DLC: Risveglio della giungla, Inverno opprimente, Picchi urlanti, Fiamme del Nether, Le profondità dello schermo…",
+      "description_en": "Minecraft Dungeons Ultimate Edition Experience the complete story of Minecraft Dungeons from the beginning to the End. Grab the Ultimate Edition which includes the base game and all six DLCs: Jungle Awakens, Creeping Winter, Howling Peaks, Flames of the Nether, Hidden Depths, and Echoing Void–all…",
       "personalNote": "",
       "played": false,
       "steamUrl": "https://store.steampowered.com/app/1672970/",
@@ -22450,8 +22450,8 @@
       "slug": "minecraft-dungeons",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Fatti strada combattendo in una entusiasmante avventura ispirata ai classici dungeon crawler e ambientata nell'universo di Minecraft!",
-        "en": "Fight your way through an exciting action-adventure game, inspired by classic dungeon crawlers and set in the Minecraft universe!"
+        "it": "Minecraft Dungeons edizione definitiva Scopri la storia completa di Minecraft Dungeons, dall'inizio fino all'End. Scarica l'edizione definitiva, che include il gioco base e tutti e sei i DLC: Risveglio della giungla, Inverno opprimente, Picchi urlanti, Fiamme del Nether, Le profondità dello schermo…",
+        "en": "Minecraft Dungeons Ultimate Edition Experience the complete story of Minecraft Dungeons from the beginning to the End. Grab the Ultimate Edition which includes the base game and all six DLCs: Jungle Awakens, Creeping Winter, Howling Peaks, Flames of the Nether, Hidden Depths, and Echoing Void–all…"
       },
       "taxonomy": {
         "categories": [
@@ -22608,8 +22608,8 @@
       "players": "1-2",
       "releaseYear": 2021,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1522820/header.jpg",
-      "description": "Orde di orchi da affettare, bruciare, lanciare, infilzare ed elettrificare ti aspettano nel nuovo capitolo dell'apprezzata serie Orcs Must Die!",
-      "description_en": "Slice, burn, toss, zap, grind and gib massive hordes of repugnant orcs in this long-awaited successor to the award-winning Orcs Must Die! series.",
+      "description": "Orcs Must Die! 3 porta l'arte dello smembramento orchetti a vette mai viste. Da solo o in cooperativa, sfrutta un arsenale enorme di armi e trappole. Ti aspettano orde di orchi da affettare, bruciare, lanciare ed elettrificare, nel nuovo capitolo della serie che ha già riscosso un grande successo.…",
+      "description_en": "Orcs Must Die! 3 ushers orc-slaying mayhem to a previously unimaginable scale. Solo, or 2 player co-op, arm yourself with a massive arsenal of traps and weapons. Slice, burn, toss and zap hordes of repugnant orcs in this long-awaited successor to the award-winning series. New to the series, War…",
       "personalNote": "",
       "played": false,
       "steamUrl": "https://store.steampowered.com/app/1522820/",
@@ -22628,8 +22628,8 @@
       "slug": "orcs-must-die-3",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Orde di orchi da affettare, bruciare, lanciare, infilzare ed elettrificare ti aspettano nel nuovo capitolo dell'apprezzata serie Orcs Must Die!",
-        "en": "Slice, burn, toss, zap, grind and gib massive hordes of repugnant orcs in this long-awaited successor to the award-winning Orcs Must Die! series."
+        "it": "Orcs Must Die! 3 porta l'arte dello smembramento orchetti a vette mai viste. Da solo o in cooperativa, sfrutta un arsenale enorme di armi e trappole. Ti aspettano orde di orchi da affettare, bruciare, lanciare ed elettrificare, nel nuovo capitolo della serie che ha già riscosso un grande successo.…",
+        "en": "Orcs Must Die! 3 ushers orc-slaying mayhem to a previously unimaginable scale. Solo, or 2 player co-op, arm yourself with a massive arsenal of traps and weapons. Slice, burn, toss and zap hordes of repugnant orcs in this long-awaited successor to the award-winning series. New to the series, War…"
       },
       "taxonomy": {
         "categories": [
@@ -23130,8 +23130,8 @@
       "players": "1-2",
       "releaseYear": 2020,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/837470/header.jpg",
-      "description": "È una bellissima giornata nel villaggio e tu sei un'oca cattiva.",
-      "description_en": "It's a lovely morning in the village and you are a horrible goose.",
+      "description": "Untitled Goose Game\" è un gioco comico slapstick, sandbox e stealth, in cui tu sei un'oca libera che compie misfatti in un ignaro villaggio. Fai un giro per il paese, dai cortili delle case fino ai negozi della via principale e ai giardini, facendo scherzi, rubando cappelli, starnazzando e, in…",
+      "description_en": "It's a lovely morning in the village and you are a horrible goose. Untitled Goose Game is a slapstick-stealth-sandbox, where you are a goose let loose on an unsuspecting village. Make your way around town, from peoples' back gardens to the high street shops to the village green, setting up pranks,…",
       "personalNote": "",
       "played": false,
       "steamUrl": "https://store.steampowered.com/app/837470/",
@@ -23150,8 +23150,8 @@
       "slug": "untitled-goose-game",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "È una bellissima giornata nel villaggio e tu sei un'oca cattiva.",
-        "en": "It's a lovely morning in the village and you are a horrible goose."
+        "it": "Untitled Goose Game\" è un gioco comico slapstick, sandbox e stealth, in cui tu sei un'oca libera che compie misfatti in un ignaro villaggio. Fai un giro per il paese, dai cortili delle case fino ai negozi della via principale e ai giardini, facendo scherzi, rubando cappelli, starnazzando e, in…",
+        "en": "It's a lovely morning in the village and you are a horrible goose. Untitled Goose Game is a slapstick-stealth-sandbox, where you are a goose let loose on an unsuspecting village. Make your way around town, from peoples' back gardens to the high street shops to the village green, setting up pranks,…"
       },
       "taxonomy": {
         "categories": [
@@ -25835,8 +25835,8 @@
       "players": "1-4",
       "releaseYear": 2025,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2418520/header.jpg",
-      "description": "Crea la tua fattoria da solo o collabora con i tuoi amici nel sequel della simulazione di fattoria più accogliente e rilassante!",
-      "description_en": "Grow your own farm all by yourself, or cooperate with your friends in the long awaited sequel to the cozy, relaxing farming experience!",
+      "description": "Farm Together è tornato! Il sequel Farm Together 2 migliora il gioco originale in ogni aspetto, offrendo un'esperienza di gioco ottimizzata e diventando la migliore occasione per godersi la propria fattoria! Inizia da zero, possedendo un piccolo appezzamento di terreno, fino a possedere una terra…",
+      "description_en": "The successful farming experience is back! Farm Together 2 improves over the original game in every way, offering a better polished experience and becoming the best way to enjoy your own farm! Start from scratch, with a small plot, and end with a huge area that extends further than the eye can see!…",
       "personalNote": "",
       "played": false,
       "steamUrl": "https://store.steampowered.com/app/2418520/",
@@ -25855,8 +25855,8 @@
       "slug": "farm-together-2",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Crea la tua fattoria da solo o collabora con i tuoi amici nel sequel della simulazione di fattoria più accogliente e rilassante!",
-        "en": "Grow your own farm all by yourself, or cooperate with your friends in the long awaited sequel to the cozy, relaxing farming experience!"
+        "it": "Farm Together è tornato! Il sequel Farm Together 2 migliora il gioco originale in ogni aspetto, offrendo un'esperienza di gioco ottimizzata e diventando la migliore occasione per godersi la propria fattoria! Inizia da zero, possedendo un piccolo appezzamento di terreno, fino a possedere una terra…",
+        "en": "The successful farming experience is back! Farm Together 2 improves over the original game in every way, offering a better polished experience and becoming the best way to enjoy your own farm! Start from scratch, with a small plot, and end with a huge area that extends further than the eye can see!…"
       },
       "taxonomy": {
         "categories": [
@@ -26283,8 +26283,8 @@
       "players": "1-4",
       "releaseYear": 2020,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1259970/header.jpg",
-      "description": "Festeggia i 25 anni di PES con l'eFootball PES 2021 Season Update*, disponibile a un prezzo speciale per l'anniversario!",
-      "description_en": "Celebrate 25 years of PES with the eFootball PES 2021 Season Update* - available at a special anniversary price!",
+      "description": "Nota: i dati più recenti per campionati e squadre saranno disponibili soltanto tramite un aggiornamento successivo all'uscita del gioco. Occorrerà una connessione a Internet per scaricarlo. Consulta il sito web ufficiale per ulteriori dettagli. *A causa dell'impatto dell'emergenza COVID-19, alcuni…",
+      "description_en": "\"Please note that the latest data for certain licensed leagues and teams will only be available via an update post-release. You will need an internet connection in order to download this update. See the official website for more details. *Due to the ongoing impact of COVID-19, certain real-world…",
       "personalNote": "",
       "played": false,
       "steamUrl": "https://store.steampowered.com/app/1259970/",
@@ -26303,8 +26303,8 @@
       "slug": "efootball-pes-2021-season-update",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Festeggia i 25 anni di PES con l'eFootball PES 2021 Season Update*, disponibile a un prezzo speciale per l'anniversario!",
-        "en": "Celebrate 25 years of PES with the eFootball PES 2021 Season Update* - available at a special anniversary price!"
+        "it": "Nota: i dati più recenti per campionati e squadre saranno disponibili soltanto tramite un aggiornamento successivo all'uscita del gioco. Occorrerà una connessione a Internet per scaricarlo. Consulta il sito web ufficiale per ulteriori dettagli. *A causa dell'impatto dell'emergenza COVID-19, alcuni…",
+        "en": "\"Please note that the latest data for certain licensed leagues and teams will only be available via an update post-release. You will need an internet connection in order to download this update. See the official website for more details. *Due to the ongoing impact of COVID-19, certain real-world…"
       },
       "taxonomy": {
         "categories": [
@@ -27252,8 +27252,8 @@
       "players": "1-4",
       "releaseYear": 2025,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/926990/header.jpg",
-      "description": "Vivi la vita di un lupo selvatico in una simulazione ecologica realistica ambientata nel Parco Nazionale di Yellowstone.",
-      "description_en": "Live the life of a wild wolf in a realistic ecological simulation set in Yellowstone National Park.",
+      "description": "You are a gray wolf in the Northern Range of Yellowstone National Park. Now dispersed from your natal pack, you're on your own – to hunt, explore, find a mate and form your own pack to raise up a new family. Can you and your little pack survive the trials of the wild? Surviving in the wilderness is…",
+      "description_en": "You are a gray wolf in the Northern Range of Yellowstone National Park. Now dispersed from your natal pack, you're on your own – to hunt, explore, find a mate and form your own pack to raise up a new family. Can you and your little pack survive the trials of the wild? Surviving in the wilderness is…",
       "personalNote": "",
       "played": false,
       "steamUrl": "https://store.steampowered.com/app/926990/",
@@ -27272,8 +27272,8 @@
       "slug": "wolfquest-anniversary-edition",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Vivi la vita di un lupo selvatico in una simulazione ecologica realistica ambientata nel Parco Nazionale di Yellowstone.",
-        "en": "Live the life of a wild wolf in a realistic ecological simulation set in Yellowstone National Park."
+        "it": "You are a gray wolf in the Northern Range of Yellowstone National Park. Now dispersed from your natal pack, you're on your own – to hunt, explore, find a mate and form your own pack to raise up a new family. Can you and your little pack survive the trials of the wild? Surviving in the wilderness is…",
+        "en": "You are a gray wolf in the Northern Range of Yellowstone National Park. Now dispersed from your natal pack, you're on your own – to hunt, explore, find a mate and form your own pack to raise up a new family. Can you and your little pack survive the trials of the wild? Surviving in the wilderness is…"
       },
       "taxonomy": {
         "categories": [
@@ -27422,8 +27422,8 @@
       "players": "1-4",
       "releaseYear": 2022,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1922560/header.jpg",
-      "description": "Carica le sparasemi e preparati per lo sparatutto più pazzo e spassoso dell'universo: Plants vs. Zombies Garden Warfare 2.",
-      "description_en": "Ready the Peashooters and prepare for the craziest, funniest shooter in the universe: Plants vs. Zombies Garden Warfare 2.",
+      "description": "Carica le sparasemi e preparati per lo sparatutto più pazzo e spassoso dell'universo: Plants vs. Zombies Garden Warfare 2. Il prof. Zombotron ha conquistato la periferia, trasformandola in un paradiso straripante di zombi e privo di qualsiasi tipo di pianta. Aiuta le piante a riconquistare il loro…",
+      "description_en": "Ready the Peashooters and prepare for the craziest, funniest shooter in the universe: Plants vs. Zombies Garden Warfare 2. Dr. Zomboss has conquered Suburbia and transformed it into a zombie-filled, plant-free paradise. Help the plants reclaim their turf in the new 24-player Herbal Assault, or…",
       "personalNote": "",
       "played": false,
       "steamUrl": "https://store.steampowered.com/app/1922560/",
@@ -27442,8 +27442,8 @@
       "slug": "plants-vs-zombies-garden-warfare-2-deluxe-edition",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Carica le sparasemi e preparati per lo sparatutto più pazzo e spassoso dell'universo: Plants vs. Zombies Garden Warfare 2.",
-        "en": "Ready the Peashooters and prepare for the craziest, funniest shooter in the universe: Plants vs. Zombies Garden Warfare 2."
+        "it": "Carica le sparasemi e preparati per lo sparatutto più pazzo e spassoso dell'universo: Plants vs. Zombies Garden Warfare 2. Il prof. Zombotron ha conquistato la periferia, trasformandola in un paradiso straripante di zombi e privo di qualsiasi tipo di pianta. Aiuta le piante a riconquistare il loro…",
+        "en": "Ready the Peashooters and prepare for the craziest, funniest shooter in the universe: Plants vs. Zombies Garden Warfare 2. Dr. Zomboss has conquered Suburbia and transformed it into a zombie-filled, plant-free paradise. Help the plants reclaim their turf in the new 24-player Herbal Assault, or…"
       },
       "taxonomy": {
         "categories": [
@@ -28487,7 +28487,7 @@
       "players": "1-4",
       "releaseYear": 2015,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/304050/header.jpg",
-      "description": "Raduna i tuoi amici, affila le tue lame e parti per l'avventura in Trove, l'MMO d'azione definitivo!",
+      "description": "Raduna i tuoi amici, affila le tue lame e parti per l'avventura in Trove, l'MMO d'azione definitivo! Combatti le forze dell'Ombra in regni pieni di incredibili dungeon e oggetti creati dai tuoi compagni di gioco. Che tu vada a caccia di tesori in terre lontane o costruisca i tuoi regni, non è mai…",
       "description_en": "Grab your friends, hone your blades, and set off for an epic procedurally generated adventure in Trove! Battle the Shadow in realms filled with dungeons and items created by your fellow players. Whether hunting treasure or building realms of your own, it’s never been this good to be square!",
       "personalNote": "",
       "played": false,
@@ -28507,7 +28507,7 @@
       "slug": "trove",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Raduna i tuoi amici, affila le tue lame e parti per l'avventura in Trove, l'MMO d'azione definitivo!",
+        "it": "Raduna i tuoi amici, affila le tue lame e parti per l'avventura in Trove, l'MMO d'azione definitivo! Combatti le forze dell'Ombra in regni pieni di incredibili dungeon e oggetti creati dai tuoi compagni di gioco. Che tu vada a caccia di tesori in terre lontane o costruisca i tuoi regni, non è mai…",
         "en": "Grab your friends, hone your blades, and set off for an epic procedurally generated adventure in Trove! Battle the Shadow in realms filled with dungeons and items created by your fellow players. Whether hunting treasure or building realms of your own, it’s never been this good to be square!"
       },
       "taxonomy": {
@@ -29373,8 +29373,8 @@
       "players": "1-4",
       "releaseYear": 2024,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3146520/header.jpg",
-      "description": "WEBFISHING un gioco di pesca multiplayer incentrato sulla chatroom! Rilassatevi e pescate (sul web!)",
-      "description_en": "WEBFISHING a multiplayer chatroom-focused fishing game! Relax and fish (on the web!)",
+      "description": "WEBFISHING is a multiplayer online casual fishing game where you relax, hang out, make friends, and catch fish! CATCH THEM ALL! Nearly 100 different creatures to catch- from the smallest snail to the biggest shark- you can catch it! Complete your journal, find rare fish, get loads of money, and get…",
+      "description_en": "WEBFISHING is a multiplayer online casual fishing game where you relax, hang out, make friends, and catch fish! CATCH THEM ALL! Nearly 100 different creatures to catch- from the smallest snail to the biggest shark- you can catch it! Complete your journal, find rare fish, get loads of money, and get…",
       "personalNote": "",
       "played": false,
       "steamUrl": "https://store.steampowered.com/app/3146520/",
@@ -29393,8 +29393,8 @@
       "slug": "webfishing",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "WEBFISHING un gioco di pesca multiplayer incentrato sulla chatroom! Rilassatevi e pescate (sul web!)",
-        "en": "WEBFISHING a multiplayer chatroom-focused fishing game! Relax and fish (on the web!)"
+        "it": "WEBFISHING is a multiplayer online casual fishing game where you relax, hang out, make friends, and catch fish! CATCH THEM ALL! Nearly 100 different creatures to catch- from the smallest snail to the biggest shark- you can catch it! Complete your journal, find rare fish, get loads of money, and get…",
+        "en": "WEBFISHING is a multiplayer online casual fishing game where you relax, hang out, make friends, and catch fish! CATCH THEM ALL! Nearly 100 different creatures to catch- from the smallest snail to the biggest shark- you can catch it! Complete your journal, find rare fish, get loads of money, and get…"
       },
       "taxonomy": {
         "categories": [
@@ -29547,8 +29547,8 @@
       "players": "1-4",
       "releaseYear": 2019,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1127400/header.jpg",
-      "description": "Un gioco di gestione di fabbrica dal finale aperto con elementi RTS ed elementi di difesa della torre.",
-      "description_en": "An open-ended factory management game with RTS and tower defense elements.",
+      "description": "Mindustry is a factory-building game with tower defense and RTS elements. Create elaborate supply chains to feed ammo into your turrets, produce materials to use for building, and construct units. Command units to capture enemy bases, and expand your production. Defend your core from waves of…",
+      "description_en": "Mindustry is a factory-building game with tower defense and RTS elements. Create elaborate supply chains to feed ammo into your turrets, produce materials to use for building, and construct units. Command units to capture enemy bases, and expand your production. Defend your core from waves of…",
       "personalNote": "",
       "played": false,
       "steamUrl": "https://store.steampowered.com/app/1127400/",
@@ -29567,8 +29567,8 @@
       "slug": "mindustry",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Un gioco di gestione di fabbrica dal finale aperto con elementi RTS ed elementi di difesa della torre.",
-        "en": "An open-ended factory management game with RTS and tower defense elements."
+        "it": "Mindustry is a factory-building game with tower defense and RTS elements. Create elaborate supply chains to feed ammo into your turrets, produce materials to use for building, and construct units. Command units to capture enemy bases, and expand your production. Defend your core from waves of…",
+        "en": "Mindustry is a factory-building game with tower defense and RTS elements. Create elaborate supply chains to feed ammo into your turrets, produce materials to use for building, and construct units. Command units to capture enemy bases, and expand your production. Defend your core from waves of…"
       },
       "taxonomy": {
         "categories": [
@@ -33127,8 +33127,8 @@
       "players": "1-4",
       "releaseYear": 2014,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/287450/header.jpg",
-      "description": "L'Ascesa delle Nazioni è tornato! Gioca al classico aggiornato con l'integrazione completa di Steamworks e funzionalità migliorate!",
-      "description_en": "Rise of Nations is back! Play the updated classic with full Steamworks integration and enhanced features!",
+      "description": "Rise of Nations Rise of Nations is a real-time strategy game that spans all history. Start with a single city in the Ancient Age; gather resources; build an infrastructure; research technologies; construct Wonders of the World such as the Pyramids and the Eiffel Tower; and expand your military…",
+      "description_en": "Rise of Nations Rise of Nations is a real-time strategy game that spans all history. Start with a single city in the Ancient Age; gather resources; build an infrastructure; research technologies; construct Wonders of the World such as the Pyramids and the Eiffel Tower; and expand your military…",
       "personalNote": "",
       "played": false,
       "steamUrl": "https://store.steampowered.com/app/287450/",
@@ -33147,8 +33147,8 @@
       "slug": "rise-of-nations-extended-edition",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "L'Ascesa delle Nazioni è tornato! Gioca al classico aggiornato con l'integrazione completa di Steamworks e funzionalità migliorate!",
-        "en": "Rise of Nations is back! Play the updated classic with full Steamworks integration and enhanced features!"
+        "it": "Rise of Nations Rise of Nations is a real-time strategy game that spans all history. Start with a single city in the Ancient Age; gather resources; build an infrastructure; research technologies; construct Wonders of the World such as the Pyramids and the Eiffel Tower; and expand your military…",
+        "en": "Rise of Nations Rise of Nations is a real-time strategy game that spans all history. Start with a single city in the Ancient Age; gather resources; build an infrastructure; research technologies; construct Wonders of the World such as the Pyramids and the Eiffel Tower; and expand your military…"
       },
       "taxonomy": {
         "categories": [
@@ -33218,8 +33218,8 @@
       "players": "1-2",
       "releaseYear": 2013,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/221040/header.jpg",
-      "description": "Azione e survival horror sono gli ingredienti grazie ai quali Resident Evil 6 si propone come l'esperienza horror definitiva del 2013.",
-      "description_en": "Blending action and survival horror, Resident Evil 6 promises to be the dramatic horror experience of 2013.",
+      "description": "Azione e survival horror sono gli ingredienti grazie ai quali Resident Evil 6 si propone come l'esperienza horror definitiva del 2013. In questo nuovo capitolo, nuovi personaggi come Jake Muller si affiancano a icone della saga come Leon S. Kennedy, Chris Redfield e Ada Wong per affrontare un nuovo…",
+      "description_en": "Blending action and survival horror, Resident Evil 6 promises to be the dramatic horror experience of 2013. Resident Evil favorites Leon S. Kennedy, Chris Redfield and Ada Wong are joined by new characters, including Jake Muller, to face a new horror, the highly virulent C-virus, as the narrative…",
       "personalNote": "",
       "played": false,
       "steamUrl": "https://store.steampowered.com/app/221040/",
@@ -33238,8 +33238,8 @@
       "slug": "resident-evil-6",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Azione e survival horror sono gli ingredienti grazie ai quali Resident Evil 6 si propone come l'esperienza horror definitiva del 2013.",
-        "en": "Blending action and survival horror, Resident Evil 6 promises to be the dramatic horror experience of 2013."
+        "it": "Azione e survival horror sono gli ingredienti grazie ai quali Resident Evil 6 si propone come l'esperienza horror definitiva del 2013. In questo nuovo capitolo, nuovi personaggi come Jake Muller si affiancano a icone della saga come Leon S. Kennedy, Chris Redfield e Ada Wong per affrontare un nuovo…",
+        "en": "Blending action and survival horror, Resident Evil 6 promises to be the dramatic horror experience of 2013. Resident Evil favorites Leon S. Kennedy, Chris Redfield and Ada Wong are joined by new characters, including Jake Muller, to face a new horror, the highly virulent C-virus, as the narrative…"
       },
       "taxonomy": {
         "categories": [
@@ -44071,8 +44071,8 @@
       "players": "2-4",
       "releaseYear": 2026,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2640950/23b9b9b7ccda6e3afa373ad8df8d61433372738f/header.jpg?t=1772514221",
-      "description": "Unisciti a Scott Pilgrim e Ramona Flowers in una nuova avventura d'azione che attraversa il tempo, lo spazio e le strade di Toronto!",
-      "description_en": "Join Scott Pilgrim and Ramona Flowers in a brand-new brawling adventure across space, time, and the streets of Toronto!",
+      "description": "Toronto, 20XX. La città è stata conquistata da tre bande rivali, i VEGANI, i ROBOT e i DEMONI. Ma chi si cela dietro questa follia? Quando i membri della band di Scott Pilgrim vengono rapiti da forze oscure, una nuova avventura ha inizio! Scott Pilgrim EX è un'avventura d'azione in cui i giocatori…",
+      "description_en": "Toronto, 20XX. The city has been taken over by 3 rival gangs - the VEGANS, the ROBOTS, and the DEMONS. But who’s behind this madness? When Scott Pilgrim’s bandmates are abducted by shadowy forces, a brand-new adventure begins! Scott Pilgrim EX is an action-adventure game where players can fight as…",
       "personalNote": "",
       "played": false,
       "steamUrl": "https://store.steampowered.com/app/2640950/",
@@ -44091,8 +44091,8 @@
       "slug": "scott-pilgrim-ex",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Unisciti a Scott Pilgrim e Ramona Flowers in una nuova avventura d'azione che attraversa il tempo, lo spazio e le strade di Toronto!",
-        "en": "Join Scott Pilgrim and Ramona Flowers in a brand-new brawling adventure across space, time, and the streets of Toronto!"
+        "it": "Toronto, 20XX. La città è stata conquistata da tre bande rivali, i VEGANI, i ROBOT e i DEMONI. Ma chi si cela dietro questa follia? Quando i membri della band di Scott Pilgrim vengono rapiti da forze oscure, una nuova avventura ha inizio! Scott Pilgrim EX è un'avventura d'azione in cui i giocatori…",
+        "en": "Toronto, 20XX. The city has been taken over by 3 rival gangs - the VEGANS, the ROBOTS, and the DEMONS. But who’s behind this madness? When Scott Pilgrim’s bandmates are abducted by shadowy forces, a brand-new adventure begins! Scott Pilgrim EX is an action-adventure game where players can fight as…"
       },
       "taxonomy": {
         "categories": [
