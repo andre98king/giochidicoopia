@@ -313,13 +313,13 @@ Data ultimo aggiornamento: **2026-03-25 (v2)**
 
 ---
 
-## Log 2026-03-25 (v5) — SEO Audit
+## Log 2026-03-25 (v5) — SEO Audit + Security Headers
 
 - **SEO Audit completo**: Score 91/100 (Technical 92, Content 88, Schema 95, Sitemap 98, Mobile 95, GEO 82)
 - **Fix: robots.txt** — Bloccati AI training crawler (GPTBot, ClaudeBot, Google-Extended, Bytespider, PerplexityBot, CCBot). Mantiene indexing per Googlebot/Bingbot
 - **Verificato**: Sitemap 555+ URL con hreflang, VideoGame schema su game pages, WebSite+Organization+SearchAction su homepage
 - **Verificato**: Lazy loading attivo (IntersectionObserver), sizes attribute su immagini, cache busting v=20260325
-- **Note**: Security headers (CSP, HSTS) richiedono Cloudflare dashboard config
+- **Config: Security Headers Cloudflare** — Response Header Transform Rule aggiunta con X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy. SecurityHeaders.com score: **A** (CSP non implementato — rischio rottura sito)
 
 ---
 

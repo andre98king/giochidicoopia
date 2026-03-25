@@ -228,4 +228,4 @@ Hardware disponibile (RX 9070 XT 16GB VRAM + 16GB RAM):
 - **Sitemap**: 555+ URL con hreflang it/en/x-default
 - **Schema**: VideoGame su game pages, WebSite+Organization+SearchAction su homepage
 - **Performance**: Lazy loading (IntersectionObserver), sizes attribute, cache busting v=20260325
-- **Manuale**: Security headers (CSP, HSTS) configurabili da Cloudflare dashboard
+- **Security Headers**: Cloudflare Response Header Transform Rule configurata — X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy. Score: **A** su securityheaders.com
