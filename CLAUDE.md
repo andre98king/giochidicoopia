@@ -229,3 +229,4 @@ Hardware disponibile (RX 9070 XT 16GB VRAM + 16GB RAM):
 - **Schema**: VideoGame su game pages, WebSite+Organization+SearchAction su homepage
 - **Performance**: Lazy loading (IntersectionObserver), sizes attribute, cache busting v=20260325
 - **Security Headers**: Cloudflare Response Header Transform Rule configurata — X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy. Score: **A** su securityheaders.com
+- **MCP Google Search Console**: Configurato — progetto `coophubs-gsc`, proprietà `sc-domain:coophubs.net` (siteOwner). Credenziali: `/home/andrea/.claude/mcp-gsc/`

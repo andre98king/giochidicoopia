@@ -313,7 +313,7 @@ Data ultimo aggiornamento: **2026-03-25 (v2)**
 
 ---
 
-## Log 2026-03-25 (v5) — SEO Audit + Security Headers
+## Log 2026-03-25 (v5) — SEO Audit + Security Headers + GSC MCP
 
 - **SEO Audit completo**: Score 91/100 (Technical 92, Content 88, Schema 95, Sitemap 98, Mobile 95, GEO 82)
 - **Fix: robots.txt** — Bloccati AI training crawler (GPTBot, ClaudeBot, Google-Extended, Bytespider, PerplexityBot, CCBot). Mantiene indexing per Googlebot/Bingbot
@@ -326,6 +326,7 @@ Data ultimo aggiornamento: **2026-03-25 (v2)**
   - Camoufox crash fallback a Playwright per entrambi IG e GB
   - Structured logging JSONL su `data/scraper_log.jsonl` per debugging
   - Test unitari fuzzy matching: 5/5 pass
+- **Config: MCP Google Search Console** — OAuth completato con nuovo progetto Google Cloud `coophubs-gsc`. Credenziali in `/home/andrea/.claude/mcp-gsc/client_secrets.json` + `token.json`. Proprietà GSC: `sc-domain:coophubs.net` (siteOwner)
 
 ---
 
