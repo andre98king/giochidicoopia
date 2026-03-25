@@ -430,7 +430,7 @@ function renderFilters() {
     }
     genreToggle.textContent = t('genre_filters_toggle');
     genreToggle.setAttribute('aria-expanded', 'false');
-    genreToggle.setAttribute('aria-controls', 'genreFilterContainer');
+    genreToggle.setAttribute('aria-controls', 'filterContainer');
     genreToggle.onclick = () => {
       const collapsed = container.classList.toggle('collapsed');
       genreToggle.classList.toggle('active', !collapsed);
