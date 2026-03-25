@@ -37,3 +37,10 @@ Thumbs.db
 # Screenshot di debug (generati da Playwright testing)
 desktop-*.png
 mobile-*.png
+ext-links-*.png
+related-games-*.png
+*-desktop.png
+*-mobile.png
+
+# Artefatti pipeline (rigenerati ad ogni run)
+data/coop_validation_report.json
