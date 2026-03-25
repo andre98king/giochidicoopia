@@ -675,11 +675,13 @@ const AFFILIATE = {
   gb:   'fb308ca0-647e-4ce7-9e80-74c2c591eac1',  // GameBillet
   gmg:  'https://greenmangaming.sjv.io/qWzoQy',  // Green Man Gaming (Impact)
   gameseal: 'https://www.tkqlhce.com/click-101708519-17170422', // Gameseal (CJ Affiliate)
+  kinguin: 'https://www.tkqlhce.com/click-101708519-15734285', // Kinguin (CJ Affiliate)
+  gamivo:  'https://www.tkqlhce.com/click-101708519-10660651', // GAMIVO INT (CJ Affiliate)
 };
 
 // ===== UTM TRACKING + AFFILIATE =====
 function buildAffiliateBtns(game) {
-  if (!AFFILIATE.ig && !AFFILIATE.gb && !AFFILIATE.gmg && !AFFILIATE.gameseal) return '';
+  if (!AFFILIATE.ig && !AFFILIATE.gb && !AFFILIATE.gmg && !AFFILIATE.gameseal && !AFFILIATE.kinguin && !AFFILIATE.gamivo) return '';
   // Giochi gratuiti: nessun link di acquisto affiliato
   if (game.categories && game.categories.includes('free')) return '';
   const q = encodeURIComponent(game.title);
@@ -723,6 +725,20 @@ function buildAffiliateBtns(game) {
     }
     const gsBadge = game.gsDiscount ? `<span class="affiliate-discount">-${game.gsDiscount}%</span>` : '';
     btns.push(`<a class="btn-affiliate btn-gameseal" href="${esc(gsUrl)}" target="_blank" rel="noopener noreferrer sponsored"><span class="affiliate-store">Gameseal</span>${gsBadge}</a>`);
+  }
+
+  // Kinguin: search via CJ Affiliate deep link
+  if (AFFILIATE.kinguin && game.steamUrl) {
+    const kgSearch = `https://www.kinguin.net/listing?search=${q}`;
+    const kgUrl = `${AFFILIATE.kinguin}?url=${encodeURIComponent(kgSearch)}`;
+    btns.push(`<a class="btn-affiliate btn-kinguin" href="${esc(kgUrl)}" target="_blank" rel="noopener noreferrer sponsored"><span class="affiliate-store">Kinguin</span></a>`);
+  }
+
+  // GAMIVO: search via CJ Affiliate deep link
+  if (AFFILIATE.gamivo && game.steamUrl) {
+    const gmvSearch = `https://www.gamivo.com/search?search=${q}`;
+    const gmvUrl = `${AFFILIATE.gamivo}?url=${encodeURIComponent(gmvSearch)}`;
+    btns.push(`<a class="btn-affiliate btn-gamivo" href="${esc(gmvUrl)}" target="_blank" rel="noopener noreferrer sponsored"><span class="affiliate-store">GAMIVO</span></a>`);
   }
 
   return `<div class="affiliate-section"><div class="affiliate-title">💸 ${t('modal_alt_prices')}</div><div class="affiliate-btns">${btns.join('')}</div></div>`;

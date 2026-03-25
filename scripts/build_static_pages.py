@@ -106,6 +106,8 @@ AFFILIATE_IG  = "gamer-ddc4a8"
 AFFILIATE_GB  = "fb308ca0-647e-4ce7-9e80-74c2c591eac1"
 AFFILIATE_GMG = "https://greenmangaming.sjv.io/qWzoQy"  # Impact deep link base
 AFFILIATE_GAMESEAL = "https://www.tkqlhce.com/click-101708519-17170422"  # CJ Affiliate deep link
+AFFILIATE_KINGUIN  = "https://www.tkqlhce.com/click-101708519-15734285"  # CJ Affiliate deep link
+AFFILIATE_GAMIVO   = "https://www.tkqlhce.com/click-101708519-10660651"  # CJ Affiliate deep link
 
 
 def add_utm(url: str, campaign: str = "gamepage") -> str:
@@ -211,7 +213,7 @@ def render_store_links(game: dict) -> str:
         )
     # Prezzi alternativi — solo per giochi a pagamento (non free-to-play)
     is_free = "free" in (game.get("categories") or [])
-    if not is_free and game["steamUrl"] and (AFFILIATE_IG or AFFILIATE_GB or AFFILIATE_GMG or AFFILIATE_GAMESEAL):
+    if not is_free and game["steamUrl"] and (AFFILIATE_IG or AFFILIATE_GB or AFFILIATE_GMG or AFFILIATE_GAMESEAL or AFFILIATE_KINGUIN or AFFILIATE_GAMIVO):
         q = quote(game["title"])
         if AFFILIATE_IG:
             ig_url = game.get("igUrl") or f"https://www.instant-gaming.com/en/search/?query={q}&igr={AFFILIATE_IG}"
@@ -252,6 +254,24 @@ def render_store_links(game: dict) -> str:
                 f'<a class="btn-affiliate btn-gameseal" href="{esc(gs_url)}" '
                 f'target="_blank" rel="noopener noreferrer sponsored">'
                 f'<span class="affiliate-store">Gameseal</span>{gs_badge}</a>'
+            )
+        if AFFILIATE_KINGUIN:
+            from urllib.parse import quote as _q
+            kg_search = f"https://www.kinguin.net/listing?search={q}"
+            kg_url = f"{AFFILIATE_KINGUIN}?url={_q(kg_search)}"
+            btns.append(
+                f'<a class="btn-affiliate btn-kinguin" href="{esc(kg_url)}" '
+                f'target="_blank" rel="noopener noreferrer sponsored">'
+                f'<span class="affiliate-store">Kinguin</span></a>'
+            )
+        if AFFILIATE_GAMIVO:
+            from urllib.parse import quote as _q
+            gmv_search = f"https://www.gamivo.com/search?search={q}"
+            gmv_url = f"{AFFILIATE_GAMIVO}?url={_q(gmv_search)}"
+            btns.append(
+                f'<a class="btn-affiliate btn-gamivo" href="{esc(gmv_url)}" '
+                f'target="_blank" rel="noopener noreferrer sponsored">'
+                f'<span class="affiliate-store">GAMIVO</span></a>'
             )
     if not btns:
         return ""

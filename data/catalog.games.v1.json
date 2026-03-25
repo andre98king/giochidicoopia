@@ -9,7 +9,7 @@
   "stats": {
     "games": 551,
     "played": 12,
-    "trending": 229,
+    "trending": 54,
     "withEnglishDescription": 551,
     "categoryCounts": {
       "action": 297,
@@ -3031,7 +3031,7 @@
       },
       "signals": {
         "ccu": 9978,
-        "trending": true,
+        "trending": false,
         "rating": 96
       },
       "editorial": {
@@ -3115,7 +3115,7 @@
       },
       "signals": {
         "ccu": 9213,
-        "trending": true,
+        "trending": false,
         "rating": 88
       },
       "editorial": {
@@ -3201,7 +3201,7 @@
       },
       "signals": {
         "ccu": 9116,
-        "trending": true,
+        "trending": false,
         "rating": 83
       },
       "editorial": {
@@ -3294,7 +3294,7 @@
       },
       "signals": {
         "ccu": 8835,
-        "trending": true,
+        "trending": false,
         "rating": 66
       },
       "editorial": {
@@ -3390,7 +3390,7 @@
       },
       "signals": {
         "ccu": 8796,
-        "trending": true,
+        "trending": false,
         "rating": 73
       },
       "editorial": {
@@ -3486,7 +3486,7 @@
       },
       "signals": {
         "ccu": 8551,
-        "trending": true,
+        "trending": false,
         "rating": 92
       },
       "editorial": {
@@ -3572,7 +3572,7 @@
       },
       "signals": {
         "ccu": 7902,
-        "trending": true,
+        "trending": false,
         "rating": 93
       },
       "editorial": {
@@ -3658,7 +3658,7 @@
       },
       "signals": {
         "ccu": 7543,
-        "trending": true,
+        "trending": false,
         "rating": 68
       },
       "editorial": {
@@ -3744,7 +3744,7 @@
       },
       "signals": {
         "ccu": 7489,
-        "trending": true,
+        "trending": false,
         "rating": 97
       },
       "editorial": {
@@ -3830,7 +3830,7 @@
       },
       "signals": {
         "ccu": 7330,
-        "trending": true,
+        "trending": false,
         "rating": 96
       },
       "editorial": {
@@ -3922,7 +3922,7 @@
       },
       "signals": {
         "ccu": 7267,
-        "trending": true,
+        "trending": false,
         "rating": 71
       },
       "editorial": {
@@ -4009,7 +4009,7 @@
       },
       "signals": {
         "ccu": 7181,
-        "trending": true,
+        "trending": false,
         "rating": 90
       },
       "editorial": {
@@ -4093,7 +4093,7 @@
       },
       "signals": {
         "ccu": 7084,
-        "trending": true,
+        "trending": false,
         "rating": 86
       },
       "editorial": {
@@ -4183,7 +4183,7 @@
       },
       "signals": {
         "ccu": 6851,
-        "trending": true,
+        "trending": false,
         "rating": 83
       },
       "editorial": {
@@ -4272,7 +4272,7 @@
       },
       "signals": {
         "ccu": 6389,
-        "trending": true,
+        "trending": false,
         "rating": 97
       },
       "editorial": {
@@ -4358,7 +4358,7 @@
       },
       "signals": {
         "ccu": 6300,
-        "trending": true,
+        "trending": false,
         "rating": 73
       },
       "editorial": {
@@ -4452,7 +4452,7 @@
       },
       "signals": {
         "ccu": 6199,
-        "trending": true,
+        "trending": false,
         "rating": 97
       },
       "editorial": {
@@ -4542,7 +4542,7 @@
       },
       "signals": {
         "ccu": 5946,
-        "trending": true,
+        "trending": false,
         "rating": 81
       },
       "editorial": {
@@ -4628,7 +4628,7 @@
       },
       "signals": {
         "ccu": 5831,
-        "trending": true,
+        "trending": false,
         "rating": 80
       },
       "editorial": {
@@ -4724,7 +4724,7 @@
       },
       "signals": {
         "ccu": 5677,
-        "trending": true,
+        "trending": false,
         "rating": 79
       },
       "editorial": {
@@ -4814,7 +4814,7 @@
       },
       "signals": {
         "ccu": 5583,
-        "trending": true,
+        "trending": false,
         "rating": 69
       },
       "editorial": {
@@ -4906,7 +4906,7 @@
       },
       "signals": {
         "ccu": 5476,
-        "trending": true,
+        "trending": false,
         "rating": 98
       },
       "editorial": {
@@ -4996,7 +4996,7 @@
       },
       "signals": {
         "ccu": 5437,
-        "trending": true,
+        "trending": false,
         "rating": 89
       },
       "editorial": {
@@ -5082,7 +5082,7 @@
       },
       "signals": {
         "ccu": 5414,
-        "trending": true,
+        "trending": false,
         "rating": 84
       },
       "editorial": {
@@ -5178,7 +5178,7 @@
       },
       "signals": {
         "ccu": 5216,
-        "trending": true,
+        "trending": false,
         "rating": 97
       },
       "editorial": {
@@ -5274,7 +5274,7 @@
       },
       "signals": {
         "ccu": 5018,
-        "trending": true,
+        "trending": false,
         "rating": 95
       },
       "editorial": {
@@ -5371,7 +5371,7 @@
       },
       "signals": {
         "ccu": 4953,
-        "trending": true,
+        "trending": false,
         "rating": 95
       },
       "editorial": {
@@ -5467,7 +5467,7 @@
       },
       "signals": {
         "ccu": 4701,
-        "trending": true,
+        "trending": false,
         "rating": 93
       },
       "editorial": {
@@ -5561,7 +5561,7 @@
       },
       "signals": {
         "ccu": 4696,
-        "trending": true,
+        "trending": false,
         "rating": 91
       },
       "editorial": {
@@ -5659,7 +5659,7 @@
       },
       "signals": {
         "ccu": 4694,
-        "trending": true,
+        "trending": false,
         "rating": 89
       },
       "editorial": {
@@ -5755,7 +5755,7 @@
       },
       "signals": {
         "ccu": 4508,
-        "trending": true,
+        "trending": false,
         "rating": 88
       },
       "editorial": {
@@ -5845,7 +5845,7 @@
       },
       "signals": {
         "ccu": 4450,
-        "trending": true,
+        "trending": false,
         "rating": 88
       },
       "editorial": {
@@ -5932,7 +5932,7 @@
       },
       "signals": {
         "ccu": 4296,
-        "trending": true,
+        "trending": false,
         "rating": 89
       },
       "editorial": {
@@ -6028,7 +6028,7 @@
       },
       "signals": {
         "ccu": 4223,
-        "trending": true,
+        "trending": false,
         "rating": 79
       },
       "editorial": {
@@ -6119,7 +6119,7 @@
       },
       "signals": {
         "ccu": 4201,
-        "trending": true,
+        "trending": false,
         "rating": 89
       },
       "editorial": {
@@ -6208,7 +6208,7 @@
       },
       "signals": {
         "ccu": 3832,
-        "trending": true,
+        "trending": false,
         "rating": 92
       },
       "editorial": {
@@ -6298,7 +6298,7 @@
       },
       "signals": {
         "ccu": 3743,
-        "trending": true,
+        "trending": false,
         "rating": 93
       },
       "editorial": {
@@ -6390,7 +6390,7 @@
       },
       "signals": {
         "ccu": 3658,
-        "trending": true,
+        "trending": false,
         "rating": 82
       },
       "editorial": {
@@ -6480,7 +6480,7 @@
       },
       "signals": {
         "ccu": 3582,
-        "trending": true,
+        "trending": false,
         "rating": 86
       },
       "editorial": {
@@ -6576,7 +6576,7 @@
       },
       "signals": {
         "ccu": 3510,
-        "trending": true,
+        "trending": false,
         "rating": 96
       },
       "editorial": {
@@ -6668,7 +6668,7 @@
       },
       "signals": {
         "ccu": 3362,
-        "trending": true,
+        "trending": false,
         "rating": 92
       },
       "editorial": {
@@ -6764,7 +6764,7 @@
       },
       "signals": {
         "ccu": 3164,
-        "trending": true,
+        "trending": false,
         "rating": 84
       },
       "editorial": {
@@ -6849,7 +6849,7 @@
       },
       "signals": {
         "ccu": 3070,
-        "trending": true,
+        "trending": false,
         "rating": 78
       },
       "editorial": {
@@ -6934,7 +6934,7 @@
       },
       "signals": {
         "ccu": 3016,
-        "trending": true,
+        "trending": false,
         "rating": 85
       },
       "editorial": {
@@ -7024,7 +7024,7 @@
       },
       "signals": {
         "ccu": 2821,
-        "trending": true,
+        "trending": false,
         "rating": 84
       },
       "editorial": {
@@ -7108,7 +7108,7 @@
       },
       "signals": {
         "ccu": 2784,
-        "trending": true,
+        "trending": false,
         "rating": 81
       },
       "editorial": {
@@ -7194,7 +7194,7 @@
       },
       "signals": {
         "ccu": 2422,
-        "trending": true,
+        "trending": false,
         "rating": 92
       },
       "editorial": {
@@ -7290,7 +7290,7 @@
       },
       "signals": {
         "ccu": 2394,
-        "trending": true,
+        "trending": false,
         "rating": 89
       },
       "editorial": {
@@ -7377,7 +7377,7 @@
       },
       "signals": {
         "ccu": 2376,
-        "trending": true,
+        "trending": false,
         "rating": 94
       },
       "editorial": {
@@ -7475,7 +7475,7 @@
       },
       "signals": {
         "ccu": 2371,
-        "trending": true,
+        "trending": false,
         "rating": 94
       },
       "editorial": {
@@ -7563,7 +7563,7 @@
       },
       "signals": {
         "ccu": 2275,
-        "trending": true,
+        "trending": false,
         "rating": 70
       },
       "editorial": {
@@ -7647,7 +7647,7 @@
       },
       "signals": {
         "ccu": 2231,
-        "trending": true,
+        "trending": false,
         "rating": 75
       },
       "editorial": {
@@ -7737,7 +7737,7 @@
       },
       "signals": {
         "ccu": 2207,
-        "trending": true,
+        "trending": false,
         "rating": 89
       },
       "editorial": {
@@ -7833,7 +7833,7 @@
       },
       "signals": {
         "ccu": 2146,
-        "trending": true,
+        "trending": false,
         "rating": 70
       },
       "editorial": {
@@ -7925,7 +7925,7 @@
       },
       "signals": {
         "ccu": 2124,
-        "trending": true,
+        "trending": false,
         "rating": 85
       },
       "editorial": {
@@ -8016,7 +8016,7 @@
       },
       "signals": {
         "ccu": 2107,
-        "trending": true,
+        "trending": false,
         "rating": 91
       },
       "editorial": {
@@ -8102,7 +8102,7 @@
       },
       "signals": {
         "ccu": 2080,
-        "trending": true,
+        "trending": false,
         "rating": 96
       },
       "editorial": {
@@ -8192,7 +8192,7 @@
       },
       "signals": {
         "ccu": 2060,
-        "trending": true,
+        "trending": false,
         "rating": 68
       },
       "editorial": {
@@ -8284,7 +8284,7 @@
       },
       "signals": {
         "ccu": 2025,
-        "trending": true,
+        "trending": false,
         "rating": 94
       },
       "editorial": {
@@ -8380,7 +8380,7 @@
       },
       "signals": {
         "ccu": 1959,
-        "trending": true,
+        "trending": false,
         "rating": 99
       },
       "editorial": {
@@ -8465,7 +8465,7 @@
       },
       "signals": {
         "ccu": 1826,
-        "trending": true,
+        "trending": false,
         "rating": 85
       },
       "editorial": {
@@ -8557,7 +8557,7 @@
       },
       "signals": {
         "ccu": 1756,
-        "trending": true,
+        "trending": false,
         "rating": 91
       },
       "editorial": {
@@ -8643,7 +8643,7 @@
       },
       "signals": {
         "ccu": 1663,
-        "trending": true,
+        "trending": false,
         "rating": 83
       },
       "editorial": {
@@ -8733,7 +8733,7 @@
       },
       "signals": {
         "ccu": 1656,
-        "trending": true,
+        "trending": false,
         "rating": 86
       },
       "editorial": {
@@ -8825,7 +8825,7 @@
       },
       "signals": {
         "ccu": 1632,
-        "trending": true,
+        "trending": false,
         "rating": 90
       },
       "editorial": {
@@ -8921,7 +8921,7 @@
       },
       "signals": {
         "ccu": 1573,
-        "trending": true,
+        "trending": false,
         "rating": 83
       },
       "editorial": {
@@ -9003,7 +9003,7 @@
       },
       "signals": {
         "ccu": 1559,
-        "trending": true,
+        "trending": false,
         "rating": 90
       },
       "editorial": {
@@ -9095,7 +9095,7 @@
       },
       "signals": {
         "ccu": 1543,
-        "trending": true,
+        "trending": false,
         "rating": 85
       },
       "editorial": {
@@ -9179,7 +9179,7 @@
       },
       "signals": {
         "ccu": 1492,
-        "trending": true,
+        "trending": false,
         "rating": 72
       },
       "editorial": {
@@ -9265,7 +9265,7 @@
       },
       "signals": {
         "ccu": 1488,
-        "trending": true,
+        "trending": false,
         "rating": 90
       },
       "editorial": {
@@ -9361,7 +9361,7 @@
       },
       "signals": {
         "ccu": 1441,
-        "trending": true,
+        "trending": false,
         "rating": 80
       },
       "editorial": {
@@ -9447,7 +9447,7 @@
       },
       "signals": {
         "ccu": 1441,
-        "trending": true,
+        "trending": false,
         "rating": 88
       },
       "editorial": {
@@ -9537,7 +9537,7 @@
       },
       "signals": {
         "ccu": 1430,
-        "trending": true,
+        "trending": false,
         "rating": 73
       },
       "editorial": {
@@ -9631,7 +9631,7 @@
       },
       "signals": {
         "ccu": 1428,
-        "trending": true,
+        "trending": false,
         "rating": 93
       },
       "editorial": {
@@ -9717,7 +9717,7 @@
       },
       "signals": {
         "ccu": 1366,
-        "trending": true,
+        "trending": false,
         "rating": 91
       },
       "editorial": {
@@ -10067,7 +10067,7 @@
       },
       "signals": {
         "ccu": 950,
-        "trending": true,
+        "trending": false,
         "rating": 95
       },
       "editorial": {
@@ -11305,7 +11305,7 @@
       },
       "signals": {
         "ccu": 832,
-        "trending": true,
+        "trending": false,
         "rating": 95
       },
       "editorial": {
@@ -11757,7 +11757,7 @@
       },
       "signals": {
         "ccu": 1288,
-        "trending": true,
+        "trending": false,
         "rating": 68
       },
       "editorial": {
@@ -12017,7 +12017,7 @@
       },
       "signals": {
         "ccu": 2966,
-        "trending": true,
+        "trending": false,
         "rating": 98
       },
       "editorial": {
@@ -12103,7 +12103,7 @@
       },
       "signals": {
         "ccu": 3688,
-        "trending": true,
+        "trending": false,
         "rating": 93
       },
       "editorial": {
@@ -12885,7 +12885,7 @@
       },
       "signals": {
         "ccu": 2921,
-        "trending": true,
+        "trending": false,
         "rating": 92
       },
       "editorial": {
@@ -13073,7 +13073,7 @@
       },
       "signals": {
         "ccu": 866,
-        "trending": true,
+        "trending": false,
         "rating": 72
       },
       "editorial": {
@@ -13505,7 +13505,7 @@
       },
       "signals": {
         "ccu": 988,
-        "trending": true,
+        "trending": false,
         "rating": 92
       },
       "editorial": {
@@ -15604,7 +15604,7 @@
       },
       "signals": {
         "ccu": 9481,
-        "trending": true,
+        "trending": false,
         "rating": 76
       },
       "editorial": {
@@ -15692,7 +15692,7 @@
       },
       "signals": {
         "ccu": 8518,
-        "trending": true,
+        "trending": false,
         "rating": 77
       },
       "editorial": {
@@ -15776,7 +15776,7 @@
       },
       "signals": {
         "ccu": 8156,
-        "trending": true,
+        "trending": false,
         "rating": 75
       },
       "editorial": {
@@ -15860,7 +15860,7 @@
       },
       "signals": {
         "ccu": 8092,
-        "trending": true,
+        "trending": false,
         "rating": 63
       },
       "editorial": {
@@ -15948,7 +15948,7 @@
       },
       "signals": {
         "ccu": 5707,
-        "trending": true,
+        "trending": false,
         "rating": 79
       },
       "editorial": {
@@ -16031,7 +16031,7 @@
       },
       "signals": {
         "ccu": 5419,
-        "trending": true,
+        "trending": false,
         "rating": 92
       },
       "editorial": {
@@ -16121,7 +16121,7 @@
       },
       "signals": {
         "ccu": 5272,
-        "trending": true,
+        "trending": false,
         "rating": 89
       },
       "editorial": {
@@ -16208,7 +16208,7 @@
       },
       "signals": {
         "ccu": 5021,
-        "trending": true,
+        "trending": false,
         "rating": 94
       },
       "editorial": {
@@ -16300,7 +16300,7 @@
       },
       "signals": {
         "ccu": 4975,
-        "trending": true,
+        "trending": false,
         "rating": 58
       },
       "editorial": {
@@ -16386,7 +16386,7 @@
       },
       "signals": {
         "ccu": 4864,
-        "trending": true,
+        "trending": false,
         "rating": 91
       },
       "editorial": {
@@ -16476,7 +16476,7 @@
       },
       "signals": {
         "ccu": 4845,
-        "trending": true,
+        "trending": false,
         "rating": 77
       },
       "editorial": {
@@ -16562,7 +16562,7 @@
       },
       "signals": {
         "ccu": 4704,
-        "trending": true,
+        "trending": false,
         "rating": 95
       },
       "editorial": {
@@ -16648,7 +16648,7 @@
       },
       "signals": {
         "ccu": 4507,
-        "trending": true,
+        "trending": false,
         "rating": 72
       },
       "editorial": {
@@ -16738,7 +16738,7 @@
       },
       "signals": {
         "ccu": 4381,
-        "trending": true,
+        "trending": false,
         "rating": 94
       },
       "editorial": {
@@ -16828,7 +16828,7 @@
       },
       "signals": {
         "ccu": 4352,
-        "trending": true,
+        "trending": false,
         "rating": 88
       },
       "editorial": {
@@ -16914,7 +16914,7 @@
       },
       "signals": {
         "ccu": 3901,
-        "trending": true,
+        "trending": false,
         "rating": 83
       },
       "editorial": {
@@ -17002,7 +17002,7 @@
       },
       "signals": {
         "ccu": 3580,
-        "trending": true,
+        "trending": false,
         "rating": 86
       },
       "editorial": {
@@ -17090,7 +17090,7 @@
       },
       "signals": {
         "ccu": 3366,
-        "trending": true,
+        "trending": false,
         "rating": 81
       },
       "editorial": {
@@ -17182,7 +17182,7 @@
       },
       "signals": {
         "ccu": 3279,
-        "trending": true,
+        "trending": false,
         "rating": 78
       },
       "editorial": {
@@ -17270,7 +17270,7 @@
       },
       "signals": {
         "ccu": 3277,
-        "trending": true,
+        "trending": false,
         "rating": 89
       },
       "editorial": {
@@ -17362,7 +17362,7 @@
       },
       "signals": {
         "ccu": 2781,
-        "trending": true,
+        "trending": false,
         "rating": 87
       },
       "editorial": {
@@ -17453,7 +17453,7 @@
       },
       "signals": {
         "ccu": 2679,
-        "trending": true,
+        "trending": false,
         "rating": 89
       },
       "editorial": {
@@ -17541,7 +17541,7 @@
       },
       "signals": {
         "ccu": 2634,
-        "trending": true,
+        "trending": false,
         "rating": 62
       },
       "editorial": {
@@ -17629,7 +17629,7 @@
       },
       "signals": {
         "ccu": 2578,
-        "trending": true,
+        "trending": false,
         "rating": 80
       },
       "editorial": {
@@ -17713,7 +17713,7 @@
       },
       "signals": {
         "ccu": 2569,
-        "trending": true,
+        "trending": false,
         "rating": 80
       },
       "editorial": {
@@ -17797,7 +17797,7 @@
       },
       "signals": {
         "ccu": 2547,
-        "trending": true,
+        "trending": false,
         "rating": 97
       },
       "editorial": {
@@ -17881,7 +17881,7 @@
       },
       "signals": {
         "ccu": 2543,
-        "trending": true,
+        "trending": false,
         "rating": 85
       },
       "editorial": {
@@ -17965,7 +17965,7 @@
       },
       "signals": {
         "ccu": 2464,
-        "trending": true,
+        "trending": false,
         "rating": 94
       },
       "editorial": {
@@ -18052,7 +18052,7 @@
       },
       "signals": {
         "ccu": 2330,
-        "trending": true,
+        "trending": false,
         "rating": 79
       },
       "editorial": {
@@ -18138,7 +18138,7 @@
       },
       "signals": {
         "ccu": 2248,
-        "trending": true,
+        "trending": false,
         "rating": 96
       },
       "editorial": {
@@ -18224,7 +18224,7 @@
       },
       "signals": {
         "ccu": 2216,
-        "trending": true,
+        "trending": false,
         "rating": 83
       },
       "editorial": {
@@ -18314,7 +18314,7 @@
       },
       "signals": {
         "ccu": 2207,
-        "trending": true,
+        "trending": false,
         "rating": 83
       },
       "editorial": {
@@ -18400,7 +18400,7 @@
       },
       "signals": {
         "ccu": 2183,
-        "trending": true,
+        "trending": false,
         "rating": 57
       },
       "editorial": {
@@ -18488,7 +18488,7 @@
       },
       "signals": {
         "ccu": 1853,
-        "trending": true,
+        "trending": false,
         "rating": 83
       },
       "editorial": {
@@ -18576,7 +18576,7 @@
       },
       "signals": {
         "ccu": 1816,
-        "trending": true,
+        "trending": false,
         "rating": 73
       },
       "editorial": {
@@ -18662,7 +18662,7 @@
       },
       "signals": {
         "ccu": 1807,
-        "trending": true,
+        "trending": false,
         "rating": 91
       },
       "editorial": {
@@ -18748,7 +18748,7 @@
       },
       "signals": {
         "ccu": 1789,
-        "trending": true,
+        "trending": false,
         "rating": 66
       },
       "editorial": {
@@ -18836,7 +18836,7 @@
       },
       "signals": {
         "ccu": 1748,
-        "trending": true,
+        "trending": false,
         "rating": 86
       },
       "editorial": {
@@ -18922,7 +18922,7 @@
       },
       "signals": {
         "ccu": 1707,
-        "trending": true,
+        "trending": false,
         "rating": 82
       },
       "editorial": {
@@ -19705,7 +19705,7 @@
       },
       "signals": {
         "ccu": 1154,
-        "trending": true,
+        "trending": false,
         "rating": 91
       },
       "editorial": {
@@ -20583,7 +20583,7 @@
       },
       "signals": {
         "ccu": 1535,
-        "trending": true,
+        "trending": false,
         "rating": 96
       },
       "editorial": {
@@ -20757,7 +20757,7 @@
       },
       "signals": {
         "ccu": 2760,
-        "trending": true,
+        "trending": false,
         "rating": 81
       },
       "editorial": {
@@ -21700,7 +21700,7 @@
       },
       "signals": {
         "ccu": 1400,
-        "trending": true,
+        "trending": false,
         "rating": 70
       },
       "editorial": {
@@ -22136,7 +22136,7 @@
       },
       "signals": {
         "ccu": 1328,
-        "trending": true,
+        "trending": false,
         "rating": 88
       },
       "editorial": {
@@ -22310,7 +22310,7 @@
       },
       "signals": {
         "ccu": 1252,
-        "trending": true,
+        "trending": false,
         "rating": 81
       },
       "editorial": {
@@ -24055,7 +24055,7 @@
       },
       "signals": {
         "ccu": 1658,
-        "trending": true,
+        "trending": false,
         "rating": 95
       },
       "editorial": {
@@ -24145,7 +24145,7 @@
       },
       "signals": {
         "ccu": 1612,
-        "trending": true,
+        "trending": false,
         "rating": 84
       },
       "editorial": {
@@ -24229,7 +24229,7 @@
       },
       "signals": {
         "ccu": 1590,
-        "trending": true,
+        "trending": false,
         "rating": 96
       },
       "editorial": {
@@ -24315,7 +24315,7 @@
       },
       "signals": {
         "ccu": 1538,
-        "trending": true,
+        "trending": false,
         "rating": 83
       },
       "editorial": {
@@ -24403,7 +24403,7 @@
       },
       "signals": {
         "ccu": 1510,
-        "trending": true,
+        "trending": false,
         "rating": 90
       },
       "editorial": {
@@ -24491,7 +24491,7 @@
       },
       "signals": {
         "ccu": 1494,
-        "trending": true,
+        "trending": false,
         "rating": 94
       },
       "editorial": {
@@ -24575,7 +24575,7 @@
       },
       "signals": {
         "ccu": 1488,
-        "trending": true,
+        "trending": false,
         "rating": 80
       },
       "editorial": {
@@ -24659,7 +24659,7 @@
       },
       "signals": {
         "ccu": 1469,
-        "trending": true,
+        "trending": false,
         "rating": 67
       },
       "editorial": {
@@ -24745,7 +24745,7 @@
       },
       "signals": {
         "ccu": 1464,
-        "trending": true,
+        "trending": false,
         "rating": 92
       },
       "editorial": {
@@ -24835,7 +24835,7 @@
       },
       "signals": {
         "ccu": 1458,
-        "trending": true,
+        "trending": false,
         "rating": 96
       },
       "editorial": {
@@ -24922,7 +24922,7 @@
       },
       "signals": {
         "ccu": 1422,
-        "trending": true,
+        "trending": false,
         "rating": 82
       },
       "editorial": {
@@ -25008,7 +25008,7 @@
       },
       "signals": {
         "ccu": 1385,
-        "trending": true,
+        "trending": false,
         "rating": 84
       },
       "editorial": {
@@ -25096,7 +25096,7 @@
       },
       "signals": {
         "ccu": 1349,
-        "trending": true,
+        "trending": false,
         "rating": 89
       },
       "editorial": {
@@ -25182,7 +25182,7 @@
       },
       "signals": {
         "ccu": 1326,
-        "trending": true,
+        "trending": false,
         "rating": 81
       },
       "editorial": {
@@ -25272,7 +25272,7 @@
       },
       "signals": {
         "ccu": 1319,
-        "trending": true,
+        "trending": false,
         "rating": 80
       },
       "editorial": {
@@ -25363,7 +25363,7 @@
       },
       "signals": {
         "ccu": 1305,
-        "trending": true,
+        "trending": false,
         "rating": 88
       },
       "editorial": {
@@ -25449,7 +25449,7 @@
       },
       "signals": {
         "ccu": 1297,
-        "trending": true,
+        "trending": false,
         "rating": 81
       },
       "editorial": {
@@ -25539,7 +25539,7 @@
       },
       "signals": {
         "ccu": 1281,
-        "trending": true,
+        "trending": false,
         "rating": 83
       },
       "editorial": {
@@ -25625,7 +25625,7 @@
       },
       "signals": {
         "ccu": 1261,
-        "trending": true,
+        "trending": false,
         "rating": 83
       },
       "editorial": {
@@ -25713,7 +25713,7 @@
       },
       "signals": {
         "ccu": 1164,
-        "trending": true,
+        "trending": false,
         "rating": 86
       },
       "editorial": {
@@ -25801,7 +25801,7 @@
       },
       "signals": {
         "ccu": 1121,
-        "trending": true,
+        "trending": false,
         "rating": 78
       },
       "editorial": {
@@ -25889,7 +25889,7 @@
       },
       "signals": {
         "ccu": 1080,
-        "trending": true,
+        "trending": false,
         "rating": 93
       },
       "editorial": {
@@ -25984,7 +25984,7 @@
       },
       "signals": {
         "ccu": 1057,
-        "trending": true,
+        "trending": false,
         "rating": 79
       },
       "editorial": {
@@ -26074,7 +26074,7 @@
       },
       "signals": {
         "ccu": 1023,
-        "trending": true,
+        "trending": false,
         "rating": 78
       },
       "editorial": {
@@ -26160,7 +26160,7 @@
       },
       "signals": {
         "ccu": 996,
-        "trending": true,
+        "trending": false,
         "rating": 90
       },
       "editorial": {
@@ -26248,7 +26248,7 @@
       },
       "signals": {
         "ccu": 990,
-        "trending": true,
+        "trending": false,
         "rating": 79
       },
       "editorial": {
@@ -26338,7 +26338,7 @@
       },
       "signals": {
         "ccu": 989,
-        "trending": true,
+        "trending": false,
         "rating": 77
       },
       "editorial": {
@@ -26428,7 +26428,7 @@
       },
       "signals": {
         "ccu": 965,
-        "trending": true,
+        "trending": false,
         "rating": 66
       },
       "editorial": {
@@ -26514,7 +26514,7 @@
       },
       "signals": {
         "ccu": 957,
-        "trending": true,
+        "trending": false,
         "rating": 71
       },
       "editorial": {
@@ -26601,7 +26601,7 @@
       },
       "signals": {
         "ccu": 925,
-        "trending": true,
+        "trending": false,
         "rating": 79
       },
       "editorial": {
@@ -26691,7 +26691,7 @@
       },
       "signals": {
         "ccu": 913,
-        "trending": true,
+        "trending": false,
         "rating": 66
       },
       "editorial": {
@@ -26779,7 +26779,7 @@
       },
       "signals": {
         "ccu": 909,
-        "trending": true,
+        "trending": false,
         "rating": 92
       },
       "editorial": {
@@ -26867,7 +26867,7 @@
       },
       "signals": {
         "ccu": 903,
-        "trending": true,
+        "trending": false,
         "rating": 92
       },
       "editorial": {
@@ -26955,7 +26955,7 @@
       },
       "signals": {
         "ccu": 894,
-        "trending": true,
+        "trending": false,
         "rating": 92
       },
       "editorial": {
@@ -27043,7 +27043,7 @@
       },
       "signals": {
         "ccu": 876,
-        "trending": true,
+        "trending": false,
         "rating": 76
       },
       "editorial": {
@@ -27133,7 +27133,7 @@
       },
       "signals": {
         "ccu": 873,
-        "trending": true,
+        "trending": false,
         "rating": 77
       },
       "editorial": {
@@ -27217,7 +27217,7 @@
       },
       "signals": {
         "ccu": 873,
-        "trending": true,
+        "trending": false,
         "rating": 81
       },
       "editorial": {
@@ -27309,7 +27309,7 @@
       },
       "signals": {
         "ccu": 869,
-        "trending": true,
+        "trending": false,
         "rating": 98
       },
       "editorial": {
@@ -27391,7 +27391,7 @@
       },
       "signals": {
         "ccu": 863,
-        "trending": true,
+        "trending": false,
         "rating": 83
       },
       "editorial": {
@@ -27475,7 +27475,7 @@
       },
       "signals": {
         "ccu": 855,
-        "trending": true,
+        "trending": false,
         "rating": 90
       },
       "editorial": {
@@ -27565,7 +27565,7 @@
       },
       "signals": {
         "ccu": 851,
-        "trending": true,
+        "trending": false,
         "rating": 84
       },
       "editorial": {
@@ -27654,7 +27654,7 @@
       },
       "signals": {
         "ccu": 847,
-        "trending": true,
+        "trending": false,
         "rating": 79
       },
       "editorial": {
@@ -27740,7 +27740,7 @@
       },
       "signals": {
         "ccu": 827,
-        "trending": true,
+        "trending": false,
         "rating": 66
       },
       "editorial": {
@@ -27828,7 +27828,7 @@
       },
       "signals": {
         "ccu": 808,
-        "trending": true,
+        "trending": false,
         "rating": 87
       },
       "editorial": {
@@ -27914,7 +27914,7 @@
       },
       "signals": {
         "ccu": 804,
-        "trending": true,
+        "trending": false,
         "rating": 93
       },
       "editorial": {
@@ -46022,7 +46022,7 @@
       },
       "signals": {
         "ccu": 2067,
-        "trending": true,
+        "trending": false,
         "rating": 73
       },
       "editorial": {
@@ -46108,7 +46108,7 @@
       },
       "signals": {
         "ccu": 983,
-        "trending": true,
+        "trending": false,
         "rating": 94
       },
       "editorial": {

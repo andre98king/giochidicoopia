@@ -218,6 +218,18 @@ Data ultimo aggiornamento: **2026-03-25 (v2)**
 
 ---
 
+## Log 2026-03-25 (v3) — Integrazione Kinguin + GAMIVO
+
+- **Kinguin (CJ)**: aggiunto a `AFFILIATE` in app.js + `AFFILIATE_KINGUIN` in build_static_pages.py — deep link CJ ID 15734285, commissione 6% nuovi utenti
+- **GAMIVO INT (CJ)**: aggiunto a `AFFILIATE` in app.js + `AFFILIATE_GAMIVO` in build_static_pages.py — deep link CJ ID 10660651
+- **CSS**: aggiunti `.btn-kinguin` (viola) e `.btn-gamivo` (blu) in style.css
+- Entrambi visibili solo su giochi con `steamUrl`, nessun badge sconto (no scraper ancora)
+- Pattern CJ: `https://www.tkqlhce.com/click-101708519-{ID}?url=encodeURIComponent(searchUrl)`
+- Declinati su CJ: GearUP, hero-wars.com, Safeshell VPN (fuori target)
+- Pending: Fanatical, GOG.COM INT, K4G (CJ), WinGameStore (link scaduto)
+
+---
+
 ## Log 2026-03-25 (v2) — Audit critico + roadmap + fix
 
 - **Audit critico**: analisi 3 agenti paralleli su pipeline, frontend, database
