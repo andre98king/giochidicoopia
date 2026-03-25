@@ -392,13 +392,15 @@ def render_static_page(game: dict, all_games: list | None = None) -> str:
         video_game_json["datePublished"] = str(game["releaseYear"])
 
     if game.get("rating") and game["rating"] > 0:
-        video_game_json["aggregateRating"] = {
+        agg = {
             "@type": "AggregateRating",
             "ratingValue": game["rating"],
             "bestRating": 100,
             "worstRating": 0,
-            "ratingCount": 1,  # placeholder — Steam non espone il conteggio esatto via API pubblica
         }
+        if game.get("totalReviews") and game["totalReviews"] > 0:
+            agg["ratingCount"] = game["totalReviews"]
+        video_game_json["aggregateRating"] = agg
 
     if game.get("steamUrl"):
         video_game_json["offers"] = {
