@@ -313,6 +313,16 @@ Data ultimo aggiornamento: **2026-03-25 (v2)**
 
 ---
 
+## Log 2026-03-25 (v5) — SEO Audit
+
+- **SEO Audit completo**: Score 91/100 (Technical 92, Content 88, Schema 95, Sitemap 98, Mobile 95, GEO 82)
+- **Fix: robots.txt** — Bloccati AI training crawler (GPTBot, ClaudeBot, Google-Extended, Bytespider, PerplexityBot, CCBot). Mantiene indexing per Googlebot/Bingbot
+- **Verificato**: Sitemap 555+ URL con hreflang, VideoGame schema su game pages, WebSite+Organization+SearchAction su homepage
+- **Verificato**: Lazy loading attivo (IntersectionObserver), sizes attribute su immagini, cache busting v=20260325
+- **Note**: Security headers (CSP, HSTS) richiedono Cloudflare dashboard config
+
+---
+
 ## Log 2026-03-21/24
 
 - **Sistema cross-validazione co-op** (commit 01afbda): `scripts/cross_validate_coop.py` — verifica tag co-op con Steam (categoria "Co-op") + IGDB (multiplayer_modes + game_modes mode 3). Produce `data/coop_validation_report.json`.

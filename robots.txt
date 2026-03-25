@@ -1,3 +1,26 @@
+# Block AI training crawlers (allow search indexing)
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+# Allow all search engines (Googlebot, Bingbot, etc.)
 User-agent: *
 Allow: /
 
