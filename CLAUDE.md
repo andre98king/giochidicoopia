@@ -218,3 +218,14 @@ Hardware disponibile (RX 9070 XT 16GB VRAM + 16GB RAM):
 - Elenca i file toccati
 - Segnala passaggi manuali rimasti
 - Evidenzia tutto ciò che può influenzare deploy, SEO o dominio
+
+---
+
+## Stato SEO (2026-03-25)
+
+- **SEO Audit**: 91/100 (Technical 92, Content 88, Schema 95, Sitemap 98, Mobile 95, GEO 82)
+- **robots.txt**: Aggiornato — blocca AI training crawler (GPTBot, ClaudeBot, Google-Extended, Bytespider, PerplexityBot, CCBot), mantiene indexing per Googlebot/Bingbot
+- **Sitemap**: 555+ URL con hreflang it/en/x-default
+- **Schema**: VideoGame su game pages, WebSite+Organization+SearchAction su homepage
+- **Performance**: Lazy loading (IntersectionObserver), sizes attribute, cache busting v=20260325
+- **Manuale**: Security headers (CSP, HSTS) configurabili da Cloudflare dashboard
