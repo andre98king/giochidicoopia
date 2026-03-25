@@ -320,6 +320,12 @@ Data ultimo aggiornamento: **2026-03-25 (v2)**
 - **Verificato**: Sitemap 555+ URL con hreflang, VideoGame schema su game pages, WebSite+Organization+SearchAction su homepage
 - **Verificato**: Lazy loading attivo (IntersectionObserver), sizes attribute su immagini, cache busting v=20260325
 - **Config: Security Headers Cloudflare** — Response Header Transform Rule aggiunta con X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy. SecurityHeaders.com score: **A** (CSP non implementato — rischio rottura sito)
+- **Fix: Scraper affiliati** (`scripts/fetch_affiliate_prices.py`) — Miglioramenti:
+  - Fuzzy matching con difflib (soglia 0.85) per titoli con差異 minori
+  - Fallback selectors multipli (3-4 opzioni per elemento) per robustezza DOM
+  - Camoufox crash fallback a Playwright per entrambi IG e GB
+  - Structured logging JSONL su `data/scraper_log.jsonl` per debugging
+  - Test unitari fuzzy matching: 7/7 pass
 
 ---
 
