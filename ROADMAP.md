@@ -1,7 +1,7 @@
 # Roadmap — Co-op Games Hub
 
 Documento di riferimento per lo sviluppo del sito. Aggiornare dopo ogni task completato.
-Ultima analisi: 2026-03-20
+Ultima analisi: 2026-03-25
 
 ---
 
@@ -13,12 +13,15 @@ Ultima analisi: 2026-03-20
 | Pagine statiche | 538 pagine in `games/` + sitemap |
 | Internazionalizzazione | IT/EN su pagine principali + hreflang |
 | Giochi gratuiti | Workflow giornaliero (Epic, Steam, GOG) |
-| SEO | canonical, OG, JSON-LD con Organization/logo, sitemap, robots.txt, hreflang |
+| SEO | canonical, OG, JSON-LD con Organization/logo, sitemap, hreflang |
+| SEO Audit | **91/100** (Technical 92, Content 88, Schema 95, Sitemap 98, Mobile 95, GEO 82) |
+| Security Headers | **A** su securityheaders.com (Cloudflare Transform Rule) |
 | Logo/Favicon | Gamepad SVG + PNG (32/48/180/192/512) — Organization schema per Google |
-| Monetizzazione | IG+GB scraper attivo, GMG+Gameseal approvati, Ko-fi, UTM tracking |
+| Monetizzazione | IG+GB+GMG+Gameseal+Kinguin+GAMIVO attivi, Ko-fi, UTM tracking |
 | Crossplay | 86 giochi marcati, filtro UI attivo (dati non verificati) |
 | Scraper affiliati | IG+GB con anti-DLC, concurrency, ~8min per 385 giochi con Steam URL |
-| Analytics | ✅ Cloudflare Web Analytics attivo (iniettato dal proxy, no snippet necessario) |
+| Analytics | ✅ Cloudflare Web Analytics attivo |
+| AI Crawler Policy | robots.txt blocca GPTBot, ClaudeBot, Google-Extended, Bytespider, PerplexityBot, CCBot |
 
 ### Problemi noti
 
@@ -202,3 +205,4 @@ Pipeline attuale: **SteamSpy → Steam Store API → itch.io**
 | 2026-03-20 | Revisione roadmap: corretto analytics (non fatto), releaseYear (non esiste), isFree/isIndie (non è un bug — usano categories). Fix cache bust sync, infinite scroll (40+30 batch), aggiornato CLAUDE.md |
 | 2026-03-20 | SEO: "Giochi simili" (3228 internal links) + "Risorse esterne" (SteamDB, HLTB, ProtonDB, PCGamingWiki) su tutte le game pages. Sitemap re-inviata a GSC. Task 2.3 e 2.4 completati |
 | 2026-03-20 | Task 1.5 + 2.2: releaseYear aggiunto alla pipeline (387/549 Steam games). Filtro anno + sort "Più recenti" in homepage con i18n IT/EN |
+| 2026-03-25 | SEO Audit completo (91/100). robots.txt aggiornato: blocca AI training crawlers. Security Headers configurati su Cloudflare (score A). FASE 5 Performance completata (sizes attribute, cache busting v=20260325) |
