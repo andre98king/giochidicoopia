@@ -664,6 +664,14 @@ def write_sitemap(games):
     ]
     for game in games:
         url = page_url(game)
+        # Priorità dinamica: trending/alto CCU = 0.9, normale = 0.7, CCU 0 = 0.6
+        ccu = game.get("ccu") or 0
+        if game.get("trending") or ccu >= 10000:
+            priority = "0.9"
+        elif ccu > 0:
+            priority = "0.7"
+        else:
+            priority = "0.6"
         lines.extend(
             [
                 "  <url>\n",
@@ -673,7 +681,7 @@ def write_sitemap(games):
                 f"    <xhtml:link rel=\"alternate\" hreflang=\"x-default\" href=\"{url}\"/>\n",
                 f"    <lastmod>{TODAY}</lastmod>\n",
                 "    <changefreq>weekly</changefreq>\n",
-                "    <priority>0.7</priority>\n",
+                f"    <priority>{priority}</priority>\n",
                 "  </url>\n",
             ]
         )

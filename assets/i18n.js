@@ -2,8 +2,8 @@
 const TRANSLATIONS = {
   it: {
     // Shared metadata
-    home_meta_title: "Co-op Games Hub — I Migliori Giochi Cooperativi per PC",
-    home_meta_description: "Scopri oltre 500 giochi cooperativi per PC: horror, action, puzzle, survival e molto altro. Filtri per categoria, recensioni Steam e ruota random per scegliere il prossimo gioco co-op.",
+    home_meta_title: "Giochi Co-op PC — 551 Giochi Cooperativi Online e Locali | CoopHubs",
+    home_meta_description: "Catalogo di 551 giochi co-op per PC: online, locale e split-screen. Filtra per genere, modalità e numero di giocatori. Prezzi, sconti e recensioni Steam.",
     about_meta_title: "Sul progetto — Coophubs",
     about_meta_description: "Coophubs è un progetto indipendente dedicato alla scoperta di videogiochi cooperativi per PC, con informazioni chiare e un catalogo in continuo aggiornamento.",
     contact_meta_title: "Contatti — Coophubs",
@@ -238,8 +238,8 @@ const TRANSLATIONS = {
 
   en: {
     // Shared metadata
-    home_meta_title: "Co-op Games Hub — The Best Co-op Games for PC",
-    home_meta_description: "Discover 500+ co-op games for PC: horror, action, puzzle, survival and more. Filter by category, check Steam ratings, and spin the random wheel to pick your next co-op game.",
+    home_meta_title: "PC Co-op Games — 551 Cooperative Games Online & Local | CoopHubs",
+    home_meta_description: "Catalog of 551 PC co-op games: online, local and split-screen. Filter by genre, mode and player count. Prices, discounts and Steam ratings.",
     about_meta_title: "About the project — Coophubs",
     about_meta_description: "Coophubs is an independent project focused on discovering co-op PC games, with clear information and a catalog that keeps improving over time.",
     contact_meta_title: "Contact — Coophubs",
