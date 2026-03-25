@@ -15,7 +15,7 @@ Ultima analisi: 2026-03-25
 | Giochi gratuiti | Workflow giornaliero (Epic, Steam, GOG) |
 | SEO | canonical, OG, JSON-LD con Organization/logo, sitemap, hreflang |
 | SEO Audit | **91/100** (Technical 92, Content 88, Schema 95, Sitemap 98, Mobile 95, GEO 82) |
-| Security Headers | **A** su securityheaders.com (Cloudflare Transform Rule) |
+| Security Headers | **A+** su securityheaders.com (Cloudflare Worker `security-headers` + HSTS preload) |
 | Logo/Favicon | Gamepad SVG + PNG (32/48/180/192/512) — Organization schema per Google |
 | Monetizzazione | IG+GB+GMG+Gameseal+Kinguin+GAMIVO attivi, Ko-fi, UTM tracking |
 | Crossplay | 86 giochi marcati, filtro UI attivo (dati non verificati) |

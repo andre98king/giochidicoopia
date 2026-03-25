@@ -328,6 +328,7 @@ Data ultimo aggiornamento: **2026-03-25 (v2)**
   - Test unitari fuzzy matching: 5/5 pass
 - **Config: MCP Google Search Console** — OAuth completato con nuovo progetto Google Cloud `coophubs-gsc`. Credenziali in `/home/andrea/.claude/mcp-gsc/client_secrets.json` + `token.json`. Proprietà GSC: `sc-domain:coophubs.net` (siteOwner)
 - **GSC: Indicizzazione** — Sitemap ri-inviato (555 URL). Richiesta indicizzazione manuale per pagine principali: 4/5 indicizzate (/free.html in attesa). Google sta elaborando il resto.
+- **Config: Cloudflare Worker** — Worker `security-headers` creato e deployato per aggiungere security headers automaticamente. Route: `coophubs.net/*`. Score securityheaders.com: **A+**. Credenziali Cloudflare API: `/home/andrea/.config/cloudflare/credentials.json` (zone_id, account_id, api_token)
 
 ---
 
