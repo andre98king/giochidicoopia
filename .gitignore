@@ -46,3 +46,19 @@ related-games-*.png
 data/coop_validation_report.json
 client_secret_*.json
 scripts/gsc-credentials.json
+
+# File AI-only (documentazione interna, non per il sito)
+AI_COLLABORATION.md
+AI_HANDOFF_GPU.md
+ROADMAP.md
+
+# Verifica Bing (sostituita da CNAME DNS)
+fe4d092eb979461ab0c6aabd19350a10.txt
+
+# Script locali (usano llama-server/Ollama locale, non in CI)
+scripts/local/
+
+# Asset duplicati/inutilizzati
+assets/og-image.png
+assets/og-image-opt.png
+assets/coophubs_logo.png
