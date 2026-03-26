@@ -28,8 +28,12 @@ const games = [
     igDiscount: 30,
     gbUrl: "https://www.gamebillet.com/elden-ring-nightreign-z?affiliate=fb308ca0-647e-4ce7-9e80-74c2c591eac1",
     gbDiscount: 33,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Felden-ring-nightreign-pc-steam-gift-global&cjsku=SW40127",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Felden-ring-nightreign-pc-steam-gift-global&cjsku=SW40127",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F312069%2Felden-ring-nightreign-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=312069",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 2,
@@ -58,8 +62,12 @@ const games = [
     igDiscount: 47,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Frust-pc-steam-gift-global&cjsku=25990",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Frust-pc-steam-gift-global&cjsku=25990",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F3732%2Frust-steam-gift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=3732",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 4,
@@ -88,8 +96,12 @@ const games = [
     igDiscount: 31,
     gbUrl: "https://www.gamebillet.com/helldivers-2-pre-purchase?affiliate=fb308ca0-647e-4ce7-9e80-74c2c591eac1",
     gbDiscount: 33,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fhelldivers-2-pc-steam-key-asia&cjsku=169420",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fhelldivers-2-pc-steam-key-row&cjsku=168150",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F212367%2Fhelldivers-2-pc-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=212367",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 5,
@@ -118,8 +130,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftom-clancy-s-rainbow-six-siege-pc-steam-gift-global&cjsku=26237",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftom-clancy-s-rainbow-six-siege-pc-steam-gift-global&cjsku=26237",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F167543%2Ftom-clancy-s-rainbow-six-siege-operator-edition-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=167543",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 6,
@@ -148,8 +164,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "https://www.gamebillet.com/dead-by-daylight-alien-chapter-pack-z?affiliate=fb308ca0-647e-4ce7-9e80-74c2c591eac1",
     gbDiscount: 50,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdead-by-daylight-pc-steam-key-global&cjsku=2014",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdead-by-daylight-pc-steam-key-eu&cjsku=71839",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F56697%2Fdead-by-daylight-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=56697",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 7,
@@ -179,7 +199,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F140640%2Fteam-fortress-2-premium-dlc-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=140640",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 8,
@@ -208,8 +232,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "https://www.gamebillet.com/grand-theft-auto-v-and-criminal-enterprise-starter-pack-bundle?affiliate=fb308ca0-647e-4ce7-9e80-74c2c591eac1",
     gbDiscount: 5,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fgrand-theft-auto-v-enhanced-pc-steam-account-global&cjsku=SW39248",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fgrand-theft-auto-v-enhanced-pc-steam-account-global&cjsku=SW39248",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F320974%2Fgrand-theft-auto-v-enhanced-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=320974",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 9,
@@ -238,8 +266,12 @@ const games = [
     igDiscount: 34,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdayz-pc-steam-key-global&cjsku=37715",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdayz-pc-steam-key-global&cjsku=37715",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F133282%2Fdayz-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=133282",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 10,
@@ -268,8 +300,12 @@ const games = [
     igDiscount: 90,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwarframe-7-day-credit-affinity-booster-packs-pc-official-website-key-global&cjsku=46339",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwarframe-7-day-credit-affinity-booster-packs-pc-official-website-key-global&cjsku=46339",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F21468%2Fwarframe-booster-pack-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=21468",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 11,
@@ -298,8 +334,12 @@ const games = [
     igDiscount: 41,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fr.e.p.o.-pc-steam-gift-global&cjsku=SW37950",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fr.e.p.o.-pc-steam-gift-global&cjsku=SW37950",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F317201%2Fr-e-p-o-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=317201",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 12,
@@ -328,8 +368,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdon-t-starve-together-pc-steam-gift-eu&cjsku=25831",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdon-t-starve-together-pc-steam-gift-eu&cjsku=25831",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F150102%2Fdon-t-starve-together-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=150102",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 13,
@@ -358,8 +402,12 @@ const games = [
     igDiscount: 54,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fpayday-2-a-merry-payday-christmas-soundtrack-dlc-pc-steam-gift-global&cjsku=SW28700",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fpayday-2-a-merry-payday-christmas-soundtrack-dlc-pc-steam-gift-global&cjsku=SW28700",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F154524%2Fpayday-2-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=154524",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 14,
@@ -389,7 +437,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fleft-4-dead-2-pc-steam-account-global&cjsku=SW24309",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F56221%2Fleft-4-dead-2-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=56221",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 15,
@@ -418,8 +470,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdestiny-2-lightfall-dlc-pc-steam-key-global&cjsku=141263",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdestiny-2-lightfall-dlc-pc-steam-key-global&cjsku=141263",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F130898%2Fdestiny-2-lightfall-dlc-pc-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=130898",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 16,
@@ -448,8 +504,12 @@ const games = [
     igDiscount: 17,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fterraria-pc-steam-key-global&cjsku=1938",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fterraria-pc-steam-key-global&cjsku=1938",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F58573%2Fterraria-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=58573",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 17,
@@ -478,8 +538,12 @@ const games = [
     igDiscount: 59,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fproject-zomboid-pc-steam-gift-eu&cjsku=27975",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fproject-zomboid-pc-steam-gift-eu&cjsku=27975",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F151142%2Fproject-zomboid-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=151142",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 18,
@@ -508,8 +572,12 @@ const games = [
     igDiscount: 1,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fark-survival-evolved-pc-steam-gift-eu&cjsku=26557",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fark-survival-evolved-pc-steam-gift-eu&cjsku=26557",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F17118%2Fark-survival-evolved-steam-gift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=17118",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 19,
@@ -538,8 +606,12 @@ const games = [
     igDiscount: 52,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17167624?url=https%3A%2F%2Fgameseal.com%2Frocket-league-marauder-dlc-pc-steam-gift-global%3Fcurrency%3DUSD&cjsku=46163",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17167624?url=https%3A%2F%2Fgameseal.com%2Frocket-league-marauder-dlc-pc-steam-gift-global%3Fcurrency%3DUSD&cjsku=46163",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F18322%2Frocket-league-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=18322",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 20,
@@ -568,8 +640,12 @@ const games = [
     igDiscount: 17,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fgarry-s-mod-pc-steam-key-global&cjsku=2786",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fgarry-s-mod-pc-steam-account-global&cjsku=SW22597",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F722%2Fgarry-s-mod-pc-steam-gift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=722",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 21,
@@ -599,7 +675,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fpalworld-pc-steam-account-global&cjsku=SW23580",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F209194%2Fpalworld-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=209194",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 22,
@@ -628,8 +708,12 @@ const games = [
     igDiscount: 59,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2F7-days-to-die-pc-steam-account-global&cjsku=SW22227",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2F7-days-to-die-pc-steam-key-global&cjsku=4",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F60006%2F7-days-to-die-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=60006",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 23,
@@ -658,8 +742,12 @@ const games = [
     igDiscount: 80,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftotal-war-warhammer-iii-pc-steam-gift-global&cjsku=SW26571",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftotal-war-warhammer-iii-pc-steam-gift-global&cjsku=SW26571",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F220920%2Ftotal-war-warhammer-iii-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=220920",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 24,
@@ -688,8 +776,12 @@ const games = [
     igDiscount: 9,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffactorio-pc-steam-gift-eu&cjsku=25759",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffactorio-pc-steam-gift-global&cjsku=25979",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F24773%2Ffactorio-steam-gift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=24773",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 25,
@@ -718,8 +810,12 @@ const games = [
     igDiscount: 18,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fthe-binding-of-isaac-rebirth-pc-steam-gift-global&cjsku=26004",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fthe-binding-of-isaac-rebirth-pc-steam-gift-global&cjsku=26004",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F206685%2Fthe-binding-of-isaac-rebirth-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=206685",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 26,
@@ -749,7 +845,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fvalheim-pc-steam-gift-eu&cjsku=78758",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F81882%2Fvalheim-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=81882",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 27,
@@ -778,8 +878,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fblack-desert-online-anniversary-gift-bundle-dlc-official-website-key-global&cjsku=151457",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fblack-desert-online-anniversary-gift-bundle-dlc-official-website-key-global&cjsku=151457",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F152445%2Fblack-desert-online-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=152445",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 28,
@@ -808,8 +912,12 @@ const games = [
     igDiscount: 54,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fbrawlhalla-charged-og-colors-dlc-other-key-global&cjsku=151371",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fbrawlhalla-charged-og-colors-dlc-other-key-global&cjsku=151371",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F77144%2Fbrawlhalla-collectors-pack-dlc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=77144",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 29,
@@ -838,8 +946,12 @@ const games = [
     igDiscount: 62,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fage-of-empires-ii-definitive-edition-pc-steam-gift-global&cjsku=SW26268",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fage-of-empires-ii-definitive-edition-pc-steam-gift-eu&cjsku=SW33307",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F161680%2Fage-of-empires-ii-definitive-edition-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=161680",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 30,
@@ -868,8 +980,12 @@ const games = [
     igDiscount: 26,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsatisfactory-pc-steam-key-global&cjsku=61654",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsatisfactory-pc-steam-key-global&cjsku=61654",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F74394%2Fsatisfactory-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=74394",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 31,
@@ -899,7 +1015,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fmonster-hunter-wilds-pc-steam-account-global&cjsku=SW26680",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F273386%2Fmonster-hunter-wilds-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=273386",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 32,
@@ -928,8 +1048,12 @@ const games = [
     igDiscount: 50,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fmonster-hunter-world-pc-steam-gift-eu&cjsku=58347",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fmonster-hunter-world-pc-steam-gift-eu&cjsku=58347",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F226087%2Fmonster-hunter-world-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=226087",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 33,
@@ -958,8 +1082,12 @@ const games = [
     igDiscount: 79,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fv-rising-pc-steam-key-eu&cjsku=154334",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fv-rising-pc-steam-key-eu&cjsku=154334",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F133273%2Fv-rising-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=133273",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 34,
@@ -988,8 +1116,12 @@ const games = [
     igDiscount: 32,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fphasmophobia-pc-steam-gift-eu&cjsku=68871",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fphasmophobia-pc-steam-account-global&cjsku=SW23615",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F150105%2Fphasmophobia-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=150105",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 35,
@@ -1018,8 +1150,12 @@ const games = [
     igDiscount: 13,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fstar-wars-battlefront-ii-pc-origin-key-global&cjsku=54484",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fstar-wars-battlefront-ii-pc-origin-key-global&cjsku=54484",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F6225%2Fstar-wars-battlefront-ii-steam-gift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=6225",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 36,
@@ -1048,8 +1184,12 @@ const games = [
     igDiscount: 69,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fsquad-44-pc-steam-account-global&cjsku=SW24077",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fsquad-44-pc-steam-account-global&cjsku=SW24077",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F23032%2Fsquad-steam-gift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=23032",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 37,
@@ -1078,8 +1218,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdiablo-iv-pc-steam-gift-row&cjsku=SW32257",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdiablo-iv-pc-steam-gift-eu&cjsku=164153",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F191907%2Fdiablo-iv-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=191907",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 38,
@@ -1109,7 +1253,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffallout-76-pc-steam-key-eu&cjsku=63588",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F72295%2Ffallout-76-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=72295",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 39,
@@ -1139,7 +1287,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fborderlands-2-borderlands-goty-pc-steam-gift-global&cjsku=SW27354",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F7648%2Fborderlands-2-borderlands-goty-steam-gift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=7648",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 40,
@@ -1168,8 +1320,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Frisk-of-rain-2-pc-steam-key-global&cjsku=133290",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Frisk-of-rain-2-pc-steam-key-global&cjsku=133290",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F156796%2Frisk-of-rain-2-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=156796",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 41,
@@ -1198,8 +1354,12 @@ const games = [
     igDiscount: 24,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fgray-zone-warfare-pc-steam-account-global&cjsku=SW22793",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fgray-zone-warfare-pc-steam-account-global&cjsku=SW22793",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F233652%2Fgray-zone-warfare-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=233652",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 42,
@@ -1228,8 +1388,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fbloons-td-6-pc-steam-gift-global&cjsku=37884",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fbloons-td-6-pc-steam-gift-global&cjsku=37884",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F157988%2Fbloons-td-6-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=157988",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 43,
@@ -1258,8 +1422,12 @@ const games = [
     igDiscount: 4,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fthe-planet-crafter-pc-steam-gift-global&cjsku=133317",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fthe-planet-crafter-pc-steam-gift-global&cjsku=133317",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F151139%2Fthe-planet-crafter-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=151139",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 44,
@@ -1288,8 +1456,12 @@ const games = [
     igDiscount: 79,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fwarhammer-40-000-darktide-pc-steam-key-global&cjsku=125399",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fwarhammer-40-000-darktide-pc-steam-key-global&cjsku=125399",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F158631%2Fwarhammer-40-000-darktide-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=158631",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 45,
@@ -1318,8 +1490,12 @@ const games = [
     igDiscount: 34,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Farma-3-pc-steam-gift-global&cjsku=25904",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Farma-3-pc-steam-gift-eu&cjsku=58298",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F57628%2Farma-3-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=57628",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 46,
@@ -1348,8 +1524,12 @@ const games = [
     igDiscount: 56,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fage-of-empires-iv-anniversary-edition-pc-steam-key-eu&cjsku=152594",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fage-of-empires-iv-anniversary-edition-pc-steam-key-eu&cjsku=152594",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F150467%2Fage-of-empires-iv-anniversary-edition-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=150467",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 47,
@@ -1378,8 +1558,12 @@ const games = [
     igDiscount: 67,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fwarhammer-40-000-space-marine-2-pc-steam-gift-row&cjsku=SW32218",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fwarhammer-40-000-space-marine-2-pc-steam-gift-row&cjsku=SW32218",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F239121%2Fwarhammer-40-000-space-marine-2-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=239121",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 48,
@@ -1408,8 +1592,12 @@ const games = [
     igDiscount: 54,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fbrotato-pc-steam-account-global&cjsku=SW22685",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fbrotato-pc-steam-account-global&cjsku=SW22685",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F158146%2Fbrotato-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=158146",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 49,
@@ -1439,7 +1627,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fhunt-showdown-1896-pc-steam-key-emea&cjsku=135220",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F133284%2Fhunt-showdown-1896-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=133284",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 50,
@@ -1468,8 +1660,12 @@ const games = [
     igDiscount: 41,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Flethal-company-pc-steam-account-global&cjsku=SW35801",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Flethal-company-pc-steam-account-global&cjsku=SW35801",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F193013%2Flethal-company-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=193013",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 51,
@@ -1498,8 +1694,12 @@ const games = [
     igDiscount: 68,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fthe-isle-pc-steam-gift-eu&cjsku=25835",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fthe-isle-pc-steam-gift-eu&cjsku=25835",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F152434%2Fthe-isle-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=152434",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 52,
@@ -1528,8 +1728,12 @@ const games = [
     igDiscount: 80,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Flast-epoch-pc-steam-account-global&cjsku=SW24019",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Flast-epoch-pc-steam-account-global&cjsku=SW24019",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F65431%2Flast-epoch-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=65431",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 53,
@@ -1558,8 +1762,12 @@ const games = [
     igDiscount: 85,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fconan-exiles-pc-steam-key-global&cjsku=4534",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fconan-exiles-pc-steam-key-global&cjsku=4534",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F63237%2Fconan-exiles-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=63237",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 54,
@@ -1588,8 +1796,12 @@ const games = [
     igDiscount: 10,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fnew-world-aeternum-pc-steam-account-global&cjsku=SW39572",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fnew-world-aeternum-pc-steam-account-global&cjsku=SW39572",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F280036%2Fnew-world-aeternum-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=280036",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 55,
@@ -1618,8 +1830,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fsplit-fiction-eng-pc-ea-app-key-global&cjsku=SW37629",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fsplit-fiction-eng-pc-ea-app-key-global&cjsku=SW37629",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F305795%2Fsplit-fiction-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=305795",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 56,
@@ -1648,8 +1864,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsea-of-thieves-2025-edition-pc-steam-account-global&cjsku=SW39651",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsea-of-thieves-2025-edition-pc-steam-account-global&cjsku=SW39651",
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 57,
@@ -1678,8 +1898,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fcall-of-duty-black-ops-iii-pc-steam-key-eu&cjsku=37515",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fcall-of-duty-black-ops-iii-pc-steam-key-global&cjsku=207",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F153579%2Fcall-of-duty-black-ops-iii-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=153579",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 58,
@@ -1708,8 +1932,12 @@ const games = [
     igDiscount: 68,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdeep-rock-galactic-pc-steam-key-eu&cjsku=73914",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdeep-rock-galactic-pc-steam-key-eu&cjsku=73914",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F57306%2Fdeep-rock-galactic-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=57306",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 59,
@@ -1738,8 +1966,12 @@ const games = [
     igDiscount: 19,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fit-takes-two-pc-steam-account-global&cjsku=SW22901",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fit-takes-two-pc-steam-gift-global&cjsku=74972",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F80406%2Fit-takes-two-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=80406",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 60,
@@ -1768,8 +2000,12 @@ const games = [
     igDiscount: 70,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdying-light-pc-steam-key-eu&cjsku=37962",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdying-light-pc-steam-key-eu&cjsku=37962",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F438604%2Fdying-light-collection-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=438604",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 62,
@@ -1798,8 +2034,12 @@ const games = [
     igDiscount: 41,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fraft-pc-steam-gift-eu&cjsku=25752",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fraft-pc-steam-gift-eu&cjsku=25752",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F56699%2Fraft-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=56699",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 63,
@@ -1829,7 +2069,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 64,
@@ -1858,8 +2102,12 @@ const games = [
     igDiscount: 40,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fpath-of-exile-2-path-of-exile-2-early-access-supporter-pack-pc-steam-gift-global&cjsku=SW25364",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fpath-of-exile-2-path-of-exile-2-early-access-supporter-pack-pc-steam-gift-global&cjsku=SW25364",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F292871%2Fpath-of-exile-2-lord-of-ogham-supporter-pack-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=292871",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 65,
@@ -1888,8 +2136,12 @@ const games = [
     igDiscount: 95,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fkilling-floor-2-pc-steam-account-global&cjsku=SW23166",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fkilling-floor-2-pc-steam-account-global&cjsku=SW23166",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F165612%2Fkilling-floor-2-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=165612",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 66,
@@ -1918,8 +2170,12 @@ const games = [
     igDiscount: 23,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsons-of-the-forest-pc-steam-gift-global&cjsku=150965",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsons-of-the-forest-pc-steam-gift-global&cjsku=150965",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F150043%2Fsons-of-the-forest-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=150043",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 67,
@@ -1948,8 +2204,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fready-or-not-pc-steam-gift-eu&cjsku=129566",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fready-or-not-pc-steam-gift-eu&cjsku=129566",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F133263%2Fready-or-not-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=133263",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 68,
@@ -1979,7 +2239,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F296448%2Fdying-light-2-stay-human-reloaded-edition-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=296448",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 69,
@@ -2009,7 +2273,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fspace-engineers-pc-steam-gift-global&cjsku=26165",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F172185%2Fspace-engineers-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=172185",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 70,
@@ -2038,8 +2306,12 @@ const games = [
     igDiscount: 8,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Famong-us-pc-steam-account-global&cjsku=SW22316",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Famong-us-pc-steam-account-global&cjsku=SW22316",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F75564%2Famong-us-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=75564",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 71,
@@ -2069,7 +2341,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fthe-outlast-trials-pc-steam-gift-row&cjsku=SW32309",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F158523%2Fthe-outlast-trials-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=158523",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 72,
@@ -2098,8 +2374,12 @@ const games = [
     igDiscount: 76,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fmonster-hunter-rise-pc-steam-key-global&cjsku=128299",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fmonster-hunter-rise-pc-steam-account-global&cjsku=SW24144",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F98171%2Fmonster-hunter-rise-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=98171",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 73,
@@ -2128,8 +2408,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fwarhammer-40-000-rogue-trader-pc-steam-gift-global&cjsku=165257",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fwarhammer-40-000-rogue-trader-pc-steam-key-eu&cjsku=165517",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F202690%2Fwarhammer-40-000-rogue-trader-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=202690",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 74,
@@ -2159,7 +2443,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 75,
@@ -2188,8 +2476,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fhalo-the-master-chief-collection-pc-steam-gift-eu&cjsku=44854",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fhalo-the-master-chief-collection-pc-steam-gift-eu&cjsku=44854",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F138423%2Fhalo-the-master-chief-collection-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=138423",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 76,
@@ -2218,8 +2510,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17224712?url=https%3A%2F%2Fgameseal.com%2Fdetail%2F018eddfb3ebd71668ef86a802e180382%3Fcurrency%3DSEK&cjsku=82918",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fborderlands-3-pc-steam-key-asia&cjsku=82918",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F71209%2Fborderlands-3-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=71209",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 78,
@@ -2249,7 +2545,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fparty-animals-pc-steam-account-global&cjsku=SW23586",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F180949%2Fparty-animals-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=180949",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 79,
@@ -2278,8 +2578,12 @@ const games = [
     igDiscount: 76,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fage-of-empires-iii-definitive-edition-pc-steam-gift-global&cjsku=SW32271",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fage-of-empires-iii-definitive-edition-pc-steam-gift-global&cjsku=SW32271",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F159944%2Fage-of-empires-iii-definitive-edition-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=159944",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 80,
@@ -2308,8 +2612,12 @@ const games = [
     igDiscount: 29,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffoxhole-pc-steam-gift-eu&cjsku=46477",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffoxhole-pc-steam-gift-eu&cjsku=46477",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F138413%2Ffoxhole-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=138413",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 82,
@@ -2338,8 +2646,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fanno-1800-pc-steam-account-global&cjsku=SW22319",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fanno-1800-pc-steam-gift-global&cjsku=26977",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F154804%2Fanno-1800-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=154804",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 84,
@@ -2369,7 +2681,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdinkum-pc-steam-account-global&cjsku=SW23675",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F123989%2Fdinkum-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=123989",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 85,
@@ -2398,8 +2714,12 @@ const games = [
     igDiscount: 50,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fgrounded-2-founder-s-edition-pc-steam-gift-global&cjsku=SW52092",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fgrounded-2-founder-s-edition-pc-steam-gift-global&cjsku=SW52092",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F75692%2Fgrounded-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=75692",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 86,
@@ -2428,8 +2748,12 @@ const games = [
     igDiscount: 31,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fgrim-dawn-pc-steam-gift-eu&cjsku=SW33283",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fgrim-dawn-pc-steam-gift-global&cjsku=26439",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F3312%2Fgrim-dawn-steam-gift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=3312",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 87,
@@ -2458,8 +2782,12 @@ const games = [
     igDiscount: 67,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fbarotrauma-pc-steam-key-global&cjsku=37516",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fbarotrauma-pc-steam-key-global&cjsku=37516",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F153816%2Fbarotrauma-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=153816",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 88,
@@ -2488,8 +2816,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fhalo-infinite-campaign-pc-steam-gift-global&cjsku=122544",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fhalo-infinite-campaign-pc-steam-account-global&cjsku=SW36668",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F169439%2Fhalo-infinite-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=169439",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 89,
@@ -2518,8 +2850,12 @@ const games = [
     igDiscount: 59,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fcrossout-supercharged-pack-dlc-pc-official-website-key-global&cjsku=151985",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fcrossout-supercharged-pack-dlc-pc-official-website-key-global&cjsku=151985",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F60890%2Fcrossout-insomnia-pack-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=60890",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 90,
@@ -2549,7 +2885,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fthehunter-call-of-the-wild-pc-steam-key-global&cjsku=3539",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F58608%2Fthehunter-call-of-the-wild-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=58608",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 91,
@@ -2578,8 +2918,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffor-honor-pc-steam-account-global&cjsku=SW27115",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffor-honor-pc-steam-account-global&cjsku=SW27115",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F175961%2Ffor-honor-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=175961",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 93,
@@ -2609,7 +2953,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwarhammer-vermintide-2-pc-steam-key-global&cjsku=3105",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F154520%2Fwarhammer-vermintide-2-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=154520",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 95,
@@ -2638,8 +2986,12 @@ const games = [
     igDiscount: 79,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fovercooked-2-pc-steam-key-global&cjsku=11893",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fovercooked-2-pc-steam-key-eu&cjsku=39521",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F174150%2Fovercooked-2-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=174150",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 96,
@@ -2668,8 +3020,12 @@ const games = [
     igDiscount: 26,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fcuphead-pc-steam-key-global&cjsku=1886",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fcuphead-pc-steam-gift-eu&cjsku=45300",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F59235%2Fcuphead-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=59235",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 97,
@@ -2699,7 +3055,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmyth-of-empires-pc-steam-gift-global&cjsku=SW25932",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F103269%2Fmyth-of-empires-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=103269",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 98,
@@ -2728,8 +3088,12 @@ const games = [
     igDiscount: 51,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fghost-of-tsushima-director-s-cut-pc-steam-account-global&cjsku=SW22619",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fghost-of-tsushima-director-s-cut-pc-steam-account-global&cjsku=SW22619",
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 99,
@@ -2758,8 +3122,12 @@ const games = [
     igDiscount: 20,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fportal-2-pc-steam-key-global&cjsku=1130",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fportal-2-pc-steam-key-global&cjsku=1130",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F154813%2Fportal-2-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=154813",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 100,
@@ -2788,8 +3156,12 @@ const games = [
     igDiscount: 68,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Finsurgency-sandstorm-pc-steam-gift-global&cjsku=SW26559",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Finsurgency-sandstorm-pc-steam-gift-global&cjsku=SW26559",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F167244%2Finsurgency-sandstorm-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=167244",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 101,
@@ -2818,8 +3190,12 @@ const games = [
     igDiscount: 41,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fescape-the-backrooms-pc-steam-account-global&cjsku=SW24275",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fescape-the-backrooms-pc-steam-account-global&cjsku=SW24275",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F169445%2Fescape-the-backrooms-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=169445",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 103,
@@ -2848,8 +3224,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fworld-war-z-pc-steam-key-global&cjsku=170602",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fworld-war-z-pc-steam-key-global&cjsku=170602",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F206785%2Fworld-war-z-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=206785",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 104,
@@ -2878,8 +3258,12 @@ const games = [
     igDiscount: 80,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdetail%2F8f76e6d0c6334d79866b403990b4ba26&cjsku=148278",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdetail%2F8f76e6d0c6334d79866b403990b4ba26&cjsku=148278",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F59319%2Fgreen-hell-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=59319",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 105,
@@ -2908,8 +3292,12 @@ const games = [
     igDiscount: 73,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwartales-pc-steam-account-global&cjsku=SW23444",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwartales-pc-steam-account-global&cjsku=SW23444",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F155160%2Fwartales-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=155160",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 107,
@@ -2938,8 +3326,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdetail%2F01929513ce557084a3f1d5493d0fca76&cjsku=SW23948",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdetail%2F01929513ce557084a3f1d5493d0fca76&cjsku=SW23948",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F168028%2Fremnant-ii-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=168028",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 108,
@@ -2968,8 +3360,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fage-of-mythology-retold-pc-steam-gift-global&cjsku=173271",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fage-of-mythology-retold-pc-steam-gift-global&cjsku=173271",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F244730%2Fage-of-mythology-retold-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=244730",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 109,
@@ -2999,7 +3395,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F344469%2Ftinkerlands-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=344469",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 110,
@@ -3028,8 +3428,12 @@ const games = [
     igDiscount: 32,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ficarus-pc-steam-key-global&cjsku=125436",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ficarus-pc-steam-key-global&cjsku=125436",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F133272%2Ficarus-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=133272",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 111,
@@ -3058,8 +3462,12 @@ const games = [
     igDiscount: 57,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fstormworks-build-and-rescue-pc-steam-account-global&cjsku=SW23252",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fstormworks-build-and-rescue-pc-steam-account-global&cjsku=SW23252",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F60669%2Fstormworks-build-and-rescue-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=60669",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 112,
@@ -3088,8 +3496,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftom-clancy-s-ghost-recon-wildlands-pc-steam-account-global&cjsku=SW27100",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftom-clancy-s-ghost-recon-wildlands-pc-steam-account-global&cjsku=SW27100",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F191181%2Ftom-clancy-s-ghost-recon-wildlands-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=191181",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 113,
@@ -3118,8 +3530,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fnioh-2-the-complete-edition-pc-steam-key-eu&cjsku=143401",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fnioh-2-the-complete-edition-pc-steam-gift-global&cjsku=SW26580",
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 114,
@@ -3148,8 +3564,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftom-clancy-s-ghost-recon-breakpoint-pc-steam-gift-global&cjsku=149570",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftom-clancy-s-ghost-recon-breakpoint-pc-steam-gift-global&cjsku=149570",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F146623%2Ftom-clancy-s-ghost-recon-breakpoint-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=146623",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 115,
@@ -3179,7 +3599,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fgunfire-reborn-pc-steam-account-global&cjsku=SW22818",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F74048%2Fgunfire-reborn-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=74048",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 117,
@@ -3208,8 +3632,12 @@ const games = [
     igDiscount: 52,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmedieval-dynasty-pc-steam-key-eu&cjsku=82953",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmedieval-dynasty-pc-steam-key-eu&cjsku=82953",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F77016%2Fmedieval-dynasty-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=77016",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 118,
@@ -3238,8 +3666,12 @@ const games = [
     igDiscount: 66,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fultimate-chicken-horse-pc-steam-key-global&cjsku=2929",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fultimate-chicken-horse-pc-steam-key-global&cjsku=2929",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F152829%2Fultimate-chicken-horse-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=152829",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 119,
@@ -3268,8 +3700,12 @@ const games = [
     igDiscount: 55,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fgang-beasts-pc-steam-account-global&cjsku=SW22594",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fgang-beasts-pc-steam-account-global&cjsku=SW22594",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F57849%2Fgang-beasts-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=57849",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 120,
@@ -3298,8 +3734,12 @@ const games = [
     igDiscount: 54,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fstick-fight-the-game-pc-steam-key-eu&cjsku=165425",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fstick-fight-the-game-pc-steam-key-turkey&cjsku=167608",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F59164%2Fstick-fight-the-game-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=59164",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 121,
@@ -3328,8 +3768,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fhuman-fall-flat-pc-steam-account-global&cjsku=SW22876",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fhuman-fall-flat-pc-steam-account-global&cjsku=SW22876",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F165731%2Fhuman-fall-flat-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=165731",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 122,
@@ -3358,8 +3802,12 @@ const games = [
     igDiscount: 4,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Flovers-in-a-dangerous-spacetime-pc-steam-gift-global&cjsku=59080",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Flovers-in-a-dangerous-spacetime-pc-steam-gift-global&cjsku=59080",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F59417%2Flovers-in-a-dangerous-spacetime-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=59417",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 123,
@@ -3388,8 +3836,12 @@ const games = [
     igDiscount: 90,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fstreets-of-rage-4-pc-steam-key-asia&cjsku=67883",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fstreets-of-rage-4-pc-steam-key-asia&cjsku=67883",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F177744%2Fstreets-of-rage-4-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=177744",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 124,
@@ -3418,8 +3870,12 @@ const games = [
     igDiscount: 48,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdetail%2F01904f3644f87084808f1cfc9fad28aa&cjsku=137558",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdetail%2F01904f3644f87084808f1cfc9fad28aa&cjsku=137558",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F121567%2Fteenage-mutant-ninja-turtles-shredder-s-revenge-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=121567",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 125,
@@ -3448,8 +3904,12 @@ const games = [
     igDiscount: 77,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fbroforce-pc-steam-gift-global&cjsku=28569",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fbroforce-pc-steam-gift-global&cjsku=28569",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F59197%2Fbroforce-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=59197",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 126,
@@ -3479,7 +3939,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fa-way-out-pc-steam-account-global&cjsku=SW22235",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F74741%2Fa-way-out-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=74741",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 127,
@@ -3509,7 +3973,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmoving-out-pc-steam-key-global&cjsku=51596",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F178523%2Fmoving-out-2-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=178523",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 129,
@@ -3539,7 +4007,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftowerfall-ascension-pc-steam-key-global&cjsku=43037",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F59211%2Ftowerfall-ascension-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=59211",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 130,
@@ -3568,8 +4040,12 @@ const games = [
     igDiscount: 64,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fspelunky-2-pc-steam-account-global&cjsku=SW23097",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fspelunky-2-pc-steam-account-global&cjsku=SW23097",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F77525%2Fspelunky-2-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=77525",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 131,
@@ -3598,8 +4074,12 @@ const games = [
     igDiscount: 89,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftrine-4-the-nightmare-prince-pc-steam-key-global&cjsku=43125",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftrine-4-the-nightmare-prince-pc-steam-key-global&cjsku=43125",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F72768%2Ftrine-4-the-nightmare-prince-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=72768",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 132,
@@ -3629,7 +4109,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Frayman-legends-pc-steam-gift-global&cjsku=SW28474",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F418578%2Frayman-legends-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=418578",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 134,
@@ -3659,7 +4143,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 135,
@@ -3688,8 +4176,12 @@ const games = [
     igDiscount: 85,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmove-or-die-pc-steam-gift-eu&cjsku=62978",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmove-or-die-pc-steam-gift-global&cjsku=26496",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F58570%2Fmove-or-die-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=58570",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 136,
@@ -3719,7 +4211,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fboomerang-fu-pc-steam-key-global&cjsku=66811",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F76145%2Fboomerang-fu-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=76145",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 137,
@@ -3748,8 +4244,12 @@ const games = [
     igDiscount: 85,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fplateup-pc-steam-account-global&cjsku=SW26275",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fplateup-pc-steam-account-global&cjsku=SW26275",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F155157%2Fplateup-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=155157",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 138,
@@ -3778,8 +4278,12 @@ const games = [
     igDiscount: 94,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fkeywe-pc-steam-key-row&cjsku=124448",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fkeywe-pc-steam-key-row&cjsku=124448",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F94882%2Fkeywe-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=94882",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 139,
@@ -3808,8 +4312,12 @@ const games = [
     igDiscount: 91,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffull-metal-furies-pc-steam-key-global&cjsku=28714",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffull-metal-furies-pc-steam-key-global&cjsku=28714",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F44849%2Ffull-metal-furies-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=44849",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 140,
@@ -3838,8 +4346,12 @@ const games = [
     igDiscount: 7,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fphogs-pc-steam-key-global&cjsku=74637",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fphogs-pc-steam-gift-global&cjsku=SW23617",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F80088%2Fphogs-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=80088",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 141,
@@ -3869,7 +4381,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Funravel-two-pc-steam-gift-global&cjsku=61307",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F74309%2Funravel-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=74309",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 143,
@@ -3899,7 +4415,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fback-4-blood-pc-steam-gift-global&cjsku=75219",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F137428%2Fback4blood-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=137428",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 144,
@@ -3928,8 +4448,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Faliens-fireteam-elite-into-the-hive-edition-pc-steam-gift-global&cjsku=149523",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Faliens-fireteam-elite-into-the-hive-edition-pc-steam-gift-global&cjsku=149523",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F252508%2Faliens-fireteam-elite-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=252508",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 145,
@@ -3958,8 +4482,12 @@ const games = [
     igDiscount: 36,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fcontent-warning-pc-steam-key-global&cjsku=SW26476",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fcontent-warning-pc-steam-key-global&cjsku=SW26476",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F227002%2Fcontent-warning-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=227002",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 146,
@@ -3989,7 +4517,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fvampire-survivors-pc-steam-key-global&cjsku=SW42836",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F135460%2Fvampire-survivors-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=135460",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 148,
@@ -4018,8 +4550,12 @@ const games = [
     igDiscount: 71,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fcore-keeper-pc-steam-key-turkey&cjsku=149503",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fcore-keeper-pc-steam-key-turkey&cjsku=149503",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F113460%2Fcore-keeper-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=113460",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 149,
@@ -4048,8 +4584,12 @@ const games = [
     igDiscount: 2,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fstardew-valley-pc-steam-key-global&cjsku=2804",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fstardew-valley-pc-steam-key-global&cjsku=2804",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F56219%2Fstardew-valley-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=56219",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 150,
@@ -4078,8 +4618,12 @@ const games = [
     igDiscount: 45,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fkeep-talking-and-nobody-explodes-pc-steam-key-global&cjsku=2170",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fkeep-talking-and-nobody-explodes-pc-steam-key-global&cjsku=2170",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F152475%2Fkeep-talking-and-nobody-explodes-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=152475",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 151,
@@ -4108,8 +4652,12 @@ const games = [
     igDiscount: 19,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fpico-park-pc-steam-account-global&cjsku=SW23618",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fpico-park-pc-steam-account-global&cjsku=SW23618",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F176307%2Fpico-park-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=176307",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 152,
@@ -4138,8 +4686,12 @@ const games = [
     igDiscount: 75,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fovercooked-all-you-can-eat-pc-steam-gift-global&cjsku=SW26587",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fovercooked-all-you-can-eat-pc-steam-key-global&cjsku=82124",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F83528%2Fovercooked-all-you-can-eat-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=83528",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 153,
@@ -4168,8 +4720,12 @@ const games = [
     igDiscount: 45,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fpayday-3-pc-steam-key-row&cjsku=160643",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fpayday-3-pc-steam-gift-eu&cjsku=164158",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F166960%2Fpayday-3-pre-order-edition-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=166960",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 154,
@@ -4198,8 +4754,12 @@ const games = [
     igDiscount: 77,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmagicka-2-pc-steam-key-global&cjsku=854",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmagicka-2-pc-steam-key-global&cjsku=854",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F23632%2Fmagicka-2-steam-gift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=23632",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 155,
@@ -4229,7 +4789,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwe-were-here-together-pc-steam-key-eu&cjsku=78942",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F160501%2Fwe-were-here-together-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=160501",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 156,
@@ -4258,8 +4822,12 @@ const games = [
     igDiscount: 65,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwe-were-here-forever-pc-steam-gift-eu&cjsku=135669",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwe-were-here-forever-pc-steam-gift-eu&cjsku=135669",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F155162%2Fwe-were-here-forever-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=155162",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 157,
@@ -4289,7 +4857,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 158,
@@ -4318,8 +4890,12 @@ const games = [
     igDiscount: 89,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fescape-academy-pc-steam-key-global&cjsku=139225",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fescape-academy-pc-steam-key-global&cjsku=139225",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F235356%2Fescape-academy-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=235356",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 159,
@@ -4349,7 +4925,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftiny-tina-s-wonderlands-pc-steam-account-global&cjsku=SW37129",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F122490%2Ftiny-tina-s-wonderlands-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=122490",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 160,
@@ -4378,8 +4958,12 @@ const games = [
     igDiscount: 72,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsackboy-a-big-adventure-pc-steam-key-eu&cjsku=152611",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsackboy-a-big-adventure-pc-steam-key-eu&cjsku=152611",
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 161,
@@ -4408,8 +4992,12 @@ const games = [
     igDiscount: 40,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Froboquest-pc-steam-key-global&cjsku=70171",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Froboquest-pc-steam-key-global&cjsku=70171",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F196314%2Froboquest-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=196314",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 162,
@@ -4438,8 +5026,12 @@ const games = [
     igDiscount: 69,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fno-man-s-sky-pc-steam-key-asia&cjsku=SW62650",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fno-man-s-sky-pc-steam-account-global&cjsku=SW23533",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F61483%2Fno-man-s-sky-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=61483",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 163,
@@ -4469,7 +5061,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F2514%2Fcastle-crashers-steam-gift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=2514",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 164,
@@ -4498,8 +5094,12 @@ const games = [
     igDiscount: 50,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fastroneer-pc-steam-gift-eu&cjsku=SW33247",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fastroneer-pc-steam-gift-eu&cjsku=SW33247",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F55076%2Fastroneer-row-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=55076",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 165,
@@ -4528,8 +5128,12 @@ const games = [
     igDiscount: 76,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Foutriders-pc-steam-key-eu&cjsku=71532",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Foutriders-pc-steam-account-global&cjsku=SW23569",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F82592%2Foutriders-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=82592",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 166,
@@ -4558,8 +5162,12 @@ const games = [
     igDiscount: 28,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmoving-out-2-pc-steam-key-global&cjsku=141441",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmoving-out-2-pc-steam-key-global&cjsku=141441",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F178523%2Fmoving-out-2-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=178523",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 167,
@@ -4588,8 +5196,12 @@ const games = [
     igDiscount: 50,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdivinity-original-sin-2-pc-steam-gift-global&cjsku=SW30576",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdivinity-original-sin-2-pc-steam-gift-global&cjsku=SW30576",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F4268%2Fdivinity-original-sin-steam-gift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=4268",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 169,
@@ -4618,8 +5230,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwarhammer-end-times-vermintide-pc-steam-gift-global&cjsku=48267",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwarhammer-end-times-vermintide-pc-steam-gift-global&cjsku=48267",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F23987%2Fwarhammer-end-times-vermintide-steam-gift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=23987",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 170,
@@ -4648,8 +5264,12 @@ const games = [
     igDiscount: 41,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdevour-them-all-pc-steam-key-global&cjsku=73309",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdevour-them-all-pc-steam-key-global&cjsku=73309",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F155431%2Fdevour-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=155431",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 172,
@@ -4679,7 +5299,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F15531%2Fgrand-theft-auto-v-steam-gift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=15531",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 173,
@@ -4709,7 +5333,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fbaldur-s-gate-3-pc-steam-gift-eu&cjsku=69895",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F137430%2Fbaldur-s-gate-iii-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=137430",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 174,
@@ -4739,7 +5367,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fwar-thunder-f-5c-pack-pc-steam-gift-global&cjsku=SW38931",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 175,
@@ -4768,8 +5400,12 @@ const games = [
     igDiscount: 36,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fea-sports-fc-25-pc-ea-app-key-global&cjsku=SW19169",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fea-sports-fc-25-pc-ea-app-key-global&cjsku=SW19169",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F253448%2Fea-sports-fc-25-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=253448",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 176,
@@ -4798,8 +5434,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fhearts-of-iron-iv-pc-steam-key-turkey&cjsku=SW68537",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fhearts-of-iron-iv-pc-steam-key-turkey&cjsku=SW68537",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F162818%2Fhearts-of-iron-iv-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=162818",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 177,
@@ -4829,7 +5469,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fnba-2k25-pc-steam-account-global&cjsku=SW26595",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F276594%2Fnba-2k25-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=276594",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 178,
@@ -4858,8 +5502,12 @@ const games = [
     igDiscount: 90,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fschedule-i-pc-steam-gift-global&cjsku=SW38140",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fschedule-i-pc-steam-gift-global&cjsku=SW38140",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F323142%2Fschedule-i-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=323142",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 179,
@@ -4889,7 +5537,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffinal-fantasy-xiv-online-60-days-time-card-key-eu&cjsku=136224",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F138401%2Ffinal-fantasy-xiv-online-starter-edition-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=138401",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 180,
@@ -4919,7 +5571,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F339192%2Ffantasy-life-i-the-girl-who-steals-time-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=339192",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 181,
@@ -4948,8 +5604,12 @@ const games = [
     igDiscount: 31,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Flost-ark-apprentice-starter-pack-dlc-pc-steam-key-global&cjsku=131628",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Flost-ark-apprentice-starter-pack-dlc-pc-steam-key-global&cjsku=131628",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F112583%2Flost-ark-apprentice-starter-pack-dlc-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=112583",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 182,
@@ -4978,8 +5638,12 @@ const games = [
     igDiscount: 35,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fpath-of-exile-2-path-of-exile-2-early-access-supporter-pack-pc-steam-gift-global&cjsku=SW25364",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fpath-of-exile-2-path-of-exile-2-early-access-supporter-pack-pc-steam-gift-global&cjsku=SW25364",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F292871%2Fpath-of-exile-2-lord-of-ogham-supporter-pack-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=292871",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 183,
@@ -5008,8 +5672,12 @@ const games = [
     igDiscount: 68,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fthe-elder-scrolls-online-pc-steam-gift-global&cjsku=27986",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fthe-elder-scrolls-online-pc-steam-gift-global&cjsku=27986",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F59823%2Fthe-elder-scrolls-online-standard-edition-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=59823",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 184,
@@ -5038,8 +5706,12 @@ const games = [
     igDiscount: 52,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffarming-simulator-25-pc-steam-key-global&cjsku=SW21628",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffarming-simulator-25-pc-steam-key-global&cjsku=SW21628",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F248322%2Ffarming-simulator-25-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=248322",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 185,
@@ -5068,8 +5740,12 @@ const games = [
     igDiscount: 79,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fefootball-pes-2021-season-update-arsenal-edition-pc-steam-key-ru-cis&cjsku=141638",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fefootball-pes-2021-season-update-arsenal-edition-pc-steam-key-ru-cis&cjsku=141638",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F77052%2Fefootball-pes-2021-season-update-standard-edition-ru-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=77052",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 186,
@@ -5098,8 +5774,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Feuropa-universalis-iv-pc-steam-key-global&cjsku=484",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Feuropa-universalis-iv-pc-steam-key-global&cjsku=484",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F196897%2Feuropa-universalis-iv-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=196897",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 187,
@@ -5128,8 +5808,12 @@ const games = [
     igDiscount: 11,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fenshrouded-pc-steam-account-global&cjsku=SW24056",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fenshrouded-pc-steam-account-global&cjsku=SW24056",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F211641%2Fenshrouded-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=211641",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 188,
@@ -5159,7 +5843,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096578?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F307733%2Funturned-30-days-private-server-vip-package-code%3Fnosalesbooster%3D1%26currency%3DDKK%26noff%3D1&cjsku=307733",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 189,
@@ -5188,8 +5876,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fforza-horizon-5-pc-steam-gift-eu&cjsku=128096",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fforza-horizon-5-pc-microsoft-account-global&cjsku=SW39856",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F151135%2Fforza-horizon-5-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=151135",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 190,
@@ -5219,7 +5911,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftom-clancy-s-the-division-2-ultimate-edition-pc-steam-account-global&cjsku=SW39777",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F60013%2Ftom-clancya-s-the-division-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=60013",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 191,
@@ -5248,8 +5944,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fworld-of-warships-texas-pack-pc-steam-gift-global&cjsku=SW38861",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fworld-of-warships-texas-pack-pc-steam-gift-global&cjsku=SW38861",
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 192,
@@ -5278,8 +5978,12 @@ const games = [
     igDiscount: 36,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Froadcraft-pc-steam-account-global&cjsku=SW38793",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Froadcraft-pc-steam-account-global&cjsku=SW38793",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F315384%2Froadcraft-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=315384",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 193,
@@ -5309,7 +6013,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-17009720?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F326410%2Fmaplestory-global-currency-elysium-mesos%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=326410",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 194,
@@ -5339,7 +6047,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 195,
@@ -5369,7 +6081,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffarming-simulator-22-pc-steam-key-eu&cjsku=120338",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F152423%2Ffarming-simulator-22-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=152423",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 196,
@@ -5399,7 +6115,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ff1-25-pc-steam-account-global&cjsku=SW40637",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F327249%2Ff1-25-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=327249",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 198,
@@ -5428,8 +6148,12 @@ const games = [
     igDiscount: 31,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftabletop-simulator-pc-steam-gift-global&cjsku=25892",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftabletop-simulator-pc-steam-gift-global&cjsku=25892",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F5952%2Ftabletop-simulator-steam-gift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=5952",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 199,
@@ -5458,8 +6182,12 @@ const games = [
     igDiscount: 92,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsmite-2-founders-edition-bundle-pc-steam-account-global&cjsku=SW25677",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsmite-2-founders-edition-bundle-pc-steam-account-global&cjsku=SW25677",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F249040%2Fsmite-2-founders-edition-bundle-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=249040",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 200,
@@ -5488,8 +6216,12 @@ const games = [
     igDiscount: 33,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fforza-horizon-4-pc-steam-account-global&cjsku=SW24437",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fforza-horizon-4-pc-steam-account-global&cjsku=SW24437",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F153241%2Fforza-horizon-4-deluxe-edition-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=153241",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 201,
@@ -5518,8 +6250,12 @@ const games = [
     igDiscount: 41,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Felite-dangerous-pc-steam-key-eu&cjsku=46918",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Felite-dangerous-pc-steam-key-turkey&cjsku=149139",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F156969%2Felite-dangerous-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=156969",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 202,
@@ -5549,7 +6285,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 203,
@@ -5578,8 +6318,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftotal-war-three-kingdoms-pc-steam-key-global&cjsku=27182",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftotal-war-three-kingdoms-pc-steam-key-eu&cjsku=28465",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F233592%2Ftotal-war-three-kingdoms-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=233592",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 204,
@@ -5608,8 +6352,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdark-souls-iii-pc-steam-gift-global&cjsku=SW27329",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdark-souls-iii-pc-steam-gift-global&cjsku=SW27329",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F162423%2Fdark-souls-iii-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=162423",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 205,
@@ -5638,8 +6386,12 @@ const games = [
     igDiscount: 33,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fpopucom-pc-steam-key-global&cjsku=SW41356",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fpopucom-pc-steam-key-global&cjsku=SW41356",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F346473%2Fpopucom-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=346473",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 206,
@@ -5669,7 +6421,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftotal-war-rome-ii-emperor-edition-pc-steam-gift-global&cjsku=SW27311",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F281295%2Ftotal-war-rome-ii-emperor-edition-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=281295",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 207,
@@ -5698,8 +6454,12 @@ const games = [
     igDiscount: 27,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fthe-spell-brigade-pc-steam-account-global&cjsku=SW39665",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fthe-spell-brigade-pc-steam-account-global&cjsku=SW39665",
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 208,
@@ -5728,8 +6488,12 @@ const games = [
     igDiscount: 59,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdrive-beyond-horizons-pc-steam-account-global&cjsku=SW39087",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdrive-beyond-horizons-pc-steam-account-global&cjsku=SW39087",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F324382%2Fdrive-beyond-horizons-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=324382",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 209,
@@ -5759,7 +6523,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 210,
@@ -5788,8 +6556,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fguild-wars-2-800-gems-card-pc-arenanet-key-global&cjsku=SW98103",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fguild-wars-2-800-gems-card-pc-arenanet-key-global&cjsku=SW98103",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F334134%2Fguild-wars-2-janthir-wilds-dlc-pc-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=334134",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 212,
@@ -5819,7 +6591,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F83575%2Ffishing-planet-deluxe-pack-dlc-eu-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=83575",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 213,
@@ -5849,7 +6625,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 214,
@@ -5879,7 +6659,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F324740%2Fgame-of-thrones-kingsroad-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=324740",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 215,
@@ -5908,8 +6692,12 @@ const games = [
     igDiscount: 60,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fravenswatch-pc-steam-key-global&cjsku=138931",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fravenswatch-pc-steam-key-global&cjsku=138931",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F156799%2Fravenswatch-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=156799",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 216,
@@ -5939,7 +6727,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 217,
@@ -5968,8 +6760,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fpowerwash-simulator-spongebob-squarepants-special-pack-pc-steam-gift-global&cjsku=SW38309",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fpowerwash-simulator-warhammer-40-000-special-pack-dlc-pc-steam-key-global&cjsku=SW43715",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F162021%2Fpowerwash-simulator-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=162021",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 218,
@@ -5998,8 +6794,12 @@ const games = [
     igDiscount: 19,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fhouse-flipper-2-pc-steam-key-eu&cjsku=169273",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fhouse-flipper-2-pc-steam-key-eu&cjsku=169273",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F203628%2Fhouse-flipper-2-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=203628",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 219,
@@ -6028,8 +6828,12 @@ const games = [
     igDiscount: 8,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsupermarket-simulator-pc-steam-key-global&cjsku=170126",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsupermarket-simulator-pc-steam-key-global&cjsku=170126",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F219353%2Fsupermarket-simulator-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=219353",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 220,
@@ -6058,8 +6862,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fcompany-of-heroes-2-pc-steam-key-eu&cjsku=31034",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fcompany-of-heroes-2-pc-steam-gift-global&cjsku=47853",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F234537%2Fcompany-of-heroes-2-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=234537",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 221,
@@ -6088,8 +6896,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdevil-may-cry-5-pc-steam-key-global&cjsku=28256",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdevil-may-cry-5-pc-steam-key-eu&cjsku=11000",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F60077%2Fdevil-may-cry-5-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=60077",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 222,
@@ -6118,8 +6930,12 @@ const games = [
     igDiscount: 11,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fcall-to-arms-gates-of-hell-ostfront-pc-steam-account-global&cjsku=SW22780",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fcall-to-arms-gates-of-hell-ostfront-pc-steam-account-global&cjsku=SW22780",
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 223,
@@ -6148,8 +6964,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fred-dead-online-pc-steam-account-global&cjsku=SW24340",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fred-dead-online-pc-steam-account-global&cjsku=SW24340",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F80056%2Fred-dead-online-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=80056",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 224,
@@ -6178,8 +6998,12 @@ const games = [
     igDiscount: 72,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fcompany-of-heroes-3-pc-steam-account-global&cjsku=SW23055",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fcompany-of-heroes-3-pc-steam-account-global&cjsku=SW23055",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F152632%2Fcompany-of-heroes-3-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=152632",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 226,
@@ -6209,7 +7033,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 227,
@@ -6239,7 +7067,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 228,
@@ -6268,8 +7100,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftotal-war-shogun-2-pc-steam-gift-global&cjsku=SW25658",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftotal-war-shogun-2-pc-steam-gift-global&cjsku=SW25658",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F4917%2Ftotal-war-shogun-2-pc-steam-gift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=4917",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 229,
@@ -6298,8 +7134,12 @@ const games = [
     igDiscount: 18,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fpga-tour-2k25-pc-steam-account-global&cjsku=SW39513",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fpga-tour-2k25-pc-steam-account-global&cjsku=SW39513",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F316454%2Fpga-tour-2k25-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=316454",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 230,
@@ -6328,8 +7168,12 @@ const games = [
     igDiscount: 50,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmechabellum-pc-steam-account-global&cjsku=SW23829",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmechabellum-pc-steam-key-global&cjsku=SW58782",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F222844%2Fmechabellum-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=222844",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 231,
@@ -6358,8 +7202,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fage-of-wonders-4-pc-steam-gift-global&cjsku=SW27266",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fage-of-wonders-4-pc-steam-account-global&cjsku=SW22301",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F151966%2Fage-of-wonders-4-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=151966",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 232,
@@ -6388,8 +7236,12 @@ const games = [
     igDiscount: 40,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fescape-simulator-pc-steam-gift-eu&cjsku=125507",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fescape-simulator-pc-steam-gift-eu&cjsku=125507",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F100443%2Fescape-simulator-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=100443",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 233,
@@ -6418,8 +7270,12 @@ const games = [
     igDiscount: 67,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fpikuniku-pc-steam-key-global&cjsku=35612",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fpikuniku-pc-steam-key-global&cjsku=35612",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F235966%2Fpikuniku-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=235966",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 234,
@@ -6448,8 +7304,12 @@ const games = [
     igDiscount: 13,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fgtfo-pc-steam-account-global&cjsku=SW22813",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fgtfo-pc-steam-account-global&cjsku=SW22813",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F150109%2Fgtfo-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=150109",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 235,
@@ -6478,8 +7338,12 @@ const games = [
     igDiscount: 29,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwe-need-to-go-deeper-pc-steam-gift-global&cjsku=SW25469",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwe-need-to-go-deeper-pc-steam-gift-global&cjsku=SW25469",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F59179%2Fwe-need-to-go-deeper-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=59179",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 236,
@@ -6508,8 +7372,12 @@ const games = [
     igDiscount: 73,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdungeon-of-the-endless-pc-steam-gift-global&cjsku=SW27145",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdungeon-of-the-endless-pc-steam-gift-global&cjsku=SW27145",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F203670%2Fdungeon-of-the-endless-steam-gift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=203670",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 237,
@@ -6538,8 +7406,12 @@ const games = [
     igDiscount: 77,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fheave-ho-pc-steam-key-global&cjsku=42396",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fheave-ho-pc-steam-key-global&cjsku=42396",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F67463%2Fheave-ho-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=67463",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 238,
@@ -6569,7 +7441,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fnecesse-pc-steam-account-global&cjsku=SW23506",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F155458%2Fnecesse-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=155458",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 239,
@@ -6598,8 +7474,12 @@ const games = [
     igDiscount: 79,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdetail%2F019199cf060c7021bb373012a50466f7&cjsku=SW22621",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdetail%2F019199cf060c7021bb373012a50466f7&cjsku=SW22621",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F177786%2Fghost-watchers-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=177786",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 240,
@@ -6629,7 +7509,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fchained-together-pc-steam-gift-eu&cjsku=174091",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F247214%2Fchained-together-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=247214",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 241,
@@ -6658,8 +7542,12 @@ const games = [
     igDiscount: 91,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fbesiege-pc-steam-key-global&cjsku=3441",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fbesiege-pc-steam-key-global&cjsku=3441",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F14015%2Fbesiege-steam-gift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=14015",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 242,
@@ -6689,7 +7577,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsunkenland-pc-steam-gift-global&cjsku=SW30700",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F180768%2Fsunkenland-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=180768",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 243,
@@ -6718,8 +7610,12 @@ const games = [
     igDiscount: 41,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fbackrooms-escape-together-pc-steam-account-global&cjsku=SW26518",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fbackrooms-escape-together-pc-steam-account-global&cjsku=SW26518",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F268877%2Fbackrooms-escape-together-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=268877",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 244,
@@ -6749,7 +7645,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fvolcanoids-pc-steam-key-eu&cjsku=150970",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F59759%2Fvolcanoids-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=59759",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 245,
@@ -6779,7 +7679,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwe-were-here-too-pc-steam-key-global&cjsku=3175",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F160501%2Fwe-were-here-together-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=160501",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 246,
@@ -6808,8 +7712,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftotally-reliable-delivery-service-pc-steam-key-global&cjsku=51594",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftotally-reliable-delivery-service-pc-steam-key-global&cjsku=51594",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F84259%2Ftotally-reliable-delivery-service-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=84259",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 247,
@@ -6838,8 +7746,12 @@ const games = [
     igDiscount: 93,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffor-the-king-lost-civilization-adventure-pack-dlc-pc-steam-gift-global&cjsku=SW31579",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffor-the-king-lost-civilization-adventure-pack-dlc-pc-steam-key-global&cjsku=121095",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F189223%2Ffor-the-king-ii-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=189223",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 248,
@@ -6868,8 +7780,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffor-the-king-ii-pc-steam-account-global&cjsku=SW35810",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffor-the-king-ii-pc-steam-account-global&cjsku=SW35810",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F189223%2Ffor-the-king-ii-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=189223",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 249,
@@ -6898,8 +7814,12 @@ const games = [
     igDiscount: 54,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fbopl-battle-pc-steam-account-global&cjsku=SW26063",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fbopl-battle-pc-steam-gift-global&cjsku=SW26183",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F238102%2Fbopl-battle-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=238102",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 250,
@@ -6928,8 +7848,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fcult-of-the-lamb-pc-steam-key-eu&cjsku=154335",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fcult-of-the-lamb-pc-steam-key-eu&cjsku=154335",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F121868%2Fcult-of-the-lamb-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=121868",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 251,
@@ -6958,8 +7882,12 @@ const games = [
     igDiscount: 59,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fshovel-knight-treasure-trove-pc-steam-key-global&cjsku=31898",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fshovel-knight-treasure-trove-pc-steam-key-global&cjsku=31898",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F7827%2Fshovel-knight-treasure-trove-steam-gift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=7827",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 252,
@@ -6988,8 +7916,12 @@ const games = [
     igDiscount: 28,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsoulmask-pc-steam-account-global&cjsku=SW23085",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsoulmask-pc-steam-key-global&cjsku=172757",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F240971%2Fsoulmask-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=240971",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 253,
@@ -7018,8 +7950,12 @@ const games = [
     igDiscount: 91,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fprodeus-pc-steam-key-global&cjsku=72021",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fprodeus-pc-steam-key-global&cjsku=72021",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F79225%2Fprodeus-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=79225",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 254,
@@ -7049,7 +7985,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F268852%2Ftowerborne-pc-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=268852",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 255,
@@ -7078,8 +8018,12 @@ const games = [
     igDiscount: 61,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fship-of-fools-pc-steam-key-global&cjsku=143373",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fship-of-fools-pc-steam-key-global&cjsku=143373",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F353964%2Fship-of-fools-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=353964",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 256,
@@ -7109,7 +8053,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fpatch-quest-pc-steam-key-global&cjsku=152300",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F152034%2Fpatch-quest-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=152034",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 257,
@@ -7139,7 +8087,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 258,
@@ -7169,7 +8121,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F427037%2Fthe-finals-year-1-deluxe-edition-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=427037",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 259,
@@ -7198,8 +8154,12 @@ const games = [
     igDiscount: 60,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fmarvel-rivals-5680-lattices-direct-top-up-global&cjsku=SW105070",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fmarvel-rivals-11680-lattices-direct-top-up-global&cjsku=SW105071",
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 260,
@@ -7228,8 +8188,12 @@ const games = [
     igDiscount: 54,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftower-unite-pc-steam-key-global&cjsku=28705",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftower-unite-pc-steam-key-global&cjsku=28705",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F59213%2Ftower-unite-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=59213",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 261,
@@ -7258,8 +8222,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdelta-force-task-force-dagger-pc-steam-key-global&cjsku=34012",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdelta-force-task-force-dagger-pc-steam-key-global&cjsku=34012",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F32790%2Fdelta-force-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=32790",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 262,
@@ -7288,8 +8256,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fapex-legends-2150-apex-coins-origin-key-global&cjsku=28250",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fapex-legends-2150-apex-coins-origin-key-global&cjsku=28250",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F93260%2Fapex-legends-emergence-pack-dlc-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=93260",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 263,
@@ -7318,8 +8290,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fphantasy-star-online-2-new-genesis-pack-pc-official-website-key-global&cjsku=152733",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fphantasy-star-online-2-new-genesis-pack-pc-official-website-key-global&cjsku=152733",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F154091%2Fphantasy-star-online-2-new-genesis-dlc-bundle-pack-digital-download-cd-key%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=154091",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 264,
@@ -7349,7 +8325,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fpeak-pc-steam-key-global&cjsku=SW70598",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F352749%2Fpeak-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=352749",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 265,
@@ -7379,7 +8359,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F396846%2Fabsolum-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=396846",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 266,
@@ -7408,8 +8392,12 @@ const games = [
     igDiscount: 41,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Frv-there-yet-pc-steam-gift-global&cjsku=SW79991",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Frv-there-yet-pc-steam-gift-global&cjsku=SW79991",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F402097%2Frv-there-yet-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=402097",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 267,
@@ -7438,8 +8426,12 @@ const games = [
     igDiscount: 47,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fborderlands-4-pc-steam-key-eu&cjsku=SW22218",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fborderlands-4-pc-steam-key-eu&cjsku=SW22218",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F352519%2Fborderlands-4-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=352519",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 268,
@@ -7469,7 +8461,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fcoral-island-pc-steam-gift-eu&cjsku=144257",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F158660%2Fcoral-island-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=158660",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 269,
@@ -7499,7 +8495,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 270,
@@ -7528,8 +8528,12 @@ const games = [
     igDiscount: 12,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fbellwright-pc-steam-account-global&cjsku=SW22523",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fbellwright-pc-steam-account-global&cjsku=SW22523",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F231599%2Fbellwright-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=231599",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 271,
@@ -7558,8 +8562,12 @@ const games = [
     igDiscount: 22,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Farc-raiders-pc-steam-account-global&cjsku=SW76079",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Farc-raiders-pc-steam-account-global&cjsku=SW76079",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F391304%2Farc-raiders-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=391304",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 272,
@@ -7588,8 +8596,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fminecraft-dungeons-pc-steam-gift-global&cjsku=SW25532",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fminecraft-dungeons-pc-steam-gift-global&cjsku=SW25532",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F168266%2Fminecraft-dungeons-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=168266",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 273,
@@ -7618,8 +8630,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdune-awakening-pc-steam-account-global&cjsku=SW40184",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdune-awakening-pc-steam-account-global&cjsku=SW40184",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F324493%2Fdune-awakening-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=324493",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 274,
@@ -7648,8 +8664,12 @@ const games = [
     igDiscount: 85,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Forcs-must-die-3-pc-steam-gift-global&cjsku=SW24928",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Forcs-must-die-3-pc-steam-account-global&cjsku=SW23560",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F167553%2Forcs-must-die-3-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=167553",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 275,
@@ -7679,7 +8699,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 276,
@@ -7709,7 +8733,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F375619%2Fabyssus-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=375619",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 277,
@@ -7738,8 +8766,12 @@ const games = [
     igDiscount: 11,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdying-light-the-beast-pc-steam-key-global&cjsku=SW68040",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdying-light-the-beast-pc-steam-key-global&cjsku=SW68040",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F383982%2Fdying-light-the-beast-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=383982",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 278,
@@ -7768,8 +8800,12 @@ const games = [
     igDiscount: 92,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmonaco-what-s-yours-is-mine-pc-steam-key-eu&cjsku=55105",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmonaco-what-s-yours-is-mine-pc-steam-key-eu&cjsku=55105",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F3841%2Fmonaco-what-s-yours-is-mine-steam-gift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=3841",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 279,
@@ -7799,7 +8835,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 280,
@@ -7828,8 +8868,12 @@ const games = [
     igDiscount: 47,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Funtitled-goose-game-pc-steam-gift-global&cjsku=69017",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Funtitled-goose-game-pc-steam-account-global&cjsku=SW24267",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F156178%2Funtitled-goose-game-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=156178",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 281,
@@ -7859,7 +8903,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Foperation-tango-pc-steam-key-global&cjsku=122517",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F88079%2Foperation-tango-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=88079",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 282,
@@ -7888,8 +8936,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Funrailed-2-back-on-track-pc-steam-account-global&cjsku=SW26796",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Funrailed-2-back-on-track-pc-steam-gift-global&cjsku=SW30454",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F287638%2Funrailed-2-back-on-track-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=287638",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 283,
@@ -7918,8 +8970,12 @@ const games = [
     igDiscount: 89,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftools-up-pc-steam-key-eu&cjsku=SW59904",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftools-up-pc-steam-key-global&cjsku=47304",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F69287%2Ftools-up-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=69287",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 284,
@@ -7949,7 +9005,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F411023%2Fbiped-2-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=411023",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 285,
@@ -7979,7 +9039,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fnobody-saves-the-world-pc-steam-gift-global&cjsku=SW31483",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F155148%2Fnobody-saves-the-world-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=155148",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 286,
@@ -8008,8 +9072,12 @@ const games = [
     igDiscount: 82,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdarksiders-genesis-pc-steam-key-global&cjsku=43648",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdarksiders-genesis-pc-steam-key-global&cjsku=43648",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F71481%2Fdarksiders-genesis-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=71481",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 287,
@@ -8038,8 +9106,12 @@ const games = [
     igDiscount: 26,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fchildren-of-morta-pc-steam-key-global&cjsku=10714",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fchildren-of-morta-pc-steam-key-global&cjsku=10714",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F65381%2Fchildren-of-morta-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=65381",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 288,
@@ -8069,7 +9141,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftrine-5-a-clockwork-conspiracy-pc-steam-account-global&cjsku=SW23393",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F182528%2Ftrine-5-a-clockwork-conspiracy-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=182528",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 289,
@@ -8098,8 +9174,12 @@ const games = [
     igDiscount: 57,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fember-knights-pc-steam-account-global&cjsku=SW24456",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fember-knights-pc-steam-account-global&cjsku=SW24456",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F117532%2Fember-knights-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=117532",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 290,
@@ -8128,8 +9208,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fcarx-drift-racing-online-pc-steam-gift-global&cjsku=74804",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fcarx-drift-racing-online-pc-steam-gift-global&cjsku=74804",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F81314%2Fcarx-drift-racing-online-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=81314",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 291,
@@ -8158,8 +9242,12 @@ const games = [
     igDiscount: 58,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdark-souls-ii-scholar-of-the-first-sin-pc-steam-key-global&cjsku=333",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdark-souls-ii-scholar-of-the-first-sin-pc-steam-key-eu&cjsku=48873",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F41399%2Fdark-souls-ii-scholar-of-the-first-sin-pc-steam-gift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=41399",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 292,
@@ -8188,8 +9276,12 @@ const games = [
     igDiscount: 78,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fminimum-pc-steam-gift-global&cjsku=48035",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdoom-pc-steam-key-eu&cjsku=76044",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F27930%2Fdoom-steam-gift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=27930",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 293,
@@ -8218,8 +9310,12 @@ const games = [
     igDiscount: 90,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsniper-elite-5-pc-steam-key-row&cjsku=136859",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsniper-elite-5-pc-steam-key-row&cjsku=136859",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F151790%2Fsniper-elite-5-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=151790",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 294,
@@ -8249,7 +9345,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 295,
@@ -8278,8 +9378,12 @@ const games = [
     igDiscount: 43,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fplague-inc-evolved-pc-steam-key-global&cjsku=1051",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fplague-inc-evolved-pc-steam-key-global&cjsku=1051",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F56740%2Fplague-inc-evolved-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=56740",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 296,
@@ -8309,7 +9413,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F82872%2Franch-simulator-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=82872",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 297,
@@ -8339,7 +9447,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 298,
@@ -8368,8 +9480,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftotal-war-warhammer-ii-pc-steam-key-eu&cjsku=26709",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftotal-war-warhammer-ii-pc-steam-key-eu&cjsku=26709",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F199215%2Ftotal-war-warhammer-ii-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=199215",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 299,
@@ -8398,8 +9514,12 @@ const games = [
     igDiscount: 41,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fabiotic-factor-pc-steam-key-global&cjsku=171210",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fabiotic-factor-pc-steam-key-global&cjsku=171210",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F234441%2Fabiotic-factor-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=234441",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 300,
@@ -8428,8 +9548,12 @@ const games = [
     igDiscount: 87,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftotal-war-attila-pc-steam-key-eu&cjsku=50754",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftotal-war-attila-pc-steam-key-eu&cjsku=50754",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F282625%2Ftotal-war-attila-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=282625",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 301,
@@ -8458,8 +9582,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fneed-for-speed-heat-pc-origin-key-global&cjsku=42135",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fneed-for-speed-heat-pc-origin-key-global&cjsku=42135",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F184045%2Fneed-for-speed-heat-deluxe-edition-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=184045",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 302,
@@ -8489,7 +9617,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 303,
@@ -8518,8 +9650,12 @@ const games = [
     igDiscount: 94,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fwarhammer-40-000-gladius-relics-of-war-pc-steam-key-eu&cjsku=79920",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fwarhammer-40-000-gladius-relics-of-war-pc-steam-key-global&cjsku=27595",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F165387%2Fwarhammer-40-000-gladius-relics-of-war-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=165387",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 304,
@@ -8548,8 +9684,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffifa-22-pc-origin-key-eu&cjsku=124385",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffifa-22-pc-origin-key-eu&cjsku=124385",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F97582%2Ffifa-22-ultimate-team-500-fifa-points-ea-app-cd-key%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=97582",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 305,
@@ -8578,8 +9718,12 @@ const games = [
     igDiscount: 80,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fkingdom-two-crowns-pc-steam-gift-global&cjsku=SW26279",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fkingdom-two-crowns-pc-steam-gift-global&cjsku=SW26279",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F58264%2Fkingdom-two-crowns-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=58264",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 306,
@@ -8608,8 +9752,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffar-cry-5-far-cry-new-dawn-deluxe-edition-bundle-pc-steam-account-global&cjsku=SW24335",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffar-cry-5-far-cry-new-dawn-deluxe-edition-bundle-pc-steam-account-global&cjsku=SW24335",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F57019%2Ffar-cry-5-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=57019",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 307,
@@ -8638,8 +9786,12 @@ const games = [
     igDiscount: 74,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fstate-of-decay-2-juggernaut-edition-pc-steam-gift-global&cjsku=50885",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fstate-of-decay-2-juggernaut-edition-pc-steam-key-global&cjsku=53494",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F71722%2Fstate-of-decay-2-juggernaut-edition-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=71722",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 308,
@@ -8669,7 +9821,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F334779%2Fdeadzone-rogue-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=334779",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 309,
@@ -8698,8 +9854,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fnorthgard-definitive-edition-pc-steam-key-global&cjsku=SW98016",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fnorthgard-definitive-edition-pc-steam-key-global&cjsku=SW98016",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F34217%2Fnorthgard-definitive-edition-pc-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=34217",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 310,
@@ -8728,8 +9888,12 @@ const games = [
     igDiscount: 48,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Flost-castle-2-pc-steam-account-global&cjsku=SW26601",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Flost-castle-2-pc-steam-account-global&cjsku=SW26601",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F255917%2Flost-castle-2-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=255917",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 311,
@@ -8758,8 +9922,12 @@ const games = [
     igDiscount: 15,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffarm-together-2-pc-steam-account-global&cjsku=SW24149",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffarm-together-2-pc-steam-account-global&cjsku=SW24149",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F235127%2Ffarm-together-2-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=235127",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 312,
@@ -8788,8 +9956,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fstar-trek-online-ascension-alienware-pack-dlc-pc-official-website-key-global&cjsku=150545",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fstar-trek-online-ascension-alienware-pack-dlc-pc-official-website-key-global&cjsku=150545",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F11853%2Fstar-trek-steam-gift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=11853",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 313,
@@ -8818,8 +9990,12 @@ const games = [
     igDiscount: 82,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdead-island-2-pc-steam-gift-global&cjsku=170774",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdead-island-2-pc-steam-gift-global&cjsku=170774",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F231369%2Fdead-island-2-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=231369",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 314,
@@ -8848,8 +10024,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fgranblue-fantasy-relink-special-edition-pc-steam-key-global&cjsku=SW10563",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fgranblue-fantasy-relink-special-edition-pc-steam-key-global&cjsku=SW10563",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F212871%2Fgranblue-fantasy-relink-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=212871",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 315,
@@ -8879,7 +10059,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F58482%2Fempyrion-galactic-survival-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=58482",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 316,
@@ -8908,8 +10092,12 @@ const games = [
     igDiscount: 79,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fefootball-pes-2021-season-update-arsenal-edition-pc-steam-key-ru-cis&cjsku=141638",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fefootball-pes-2021-season-update-arsenal-edition-pc-steam-key-ru-cis&cjsku=141638",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F77052%2Fefootball-pes-2021-season-update-standard-edition-ru-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=77052",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 318,
@@ -8938,8 +10126,12 @@ const games = [
     igDiscount: 60,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fwwe-2k25-pc-steam-key-eu&cjsku=SW37617",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fwwe-2k25-pc-steam-key-eu&cjsku=SW37617",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F314604%2Fwwe-2k25-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=314604",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 319,
@@ -8968,8 +10160,12 @@ const games = [
     igDiscount: 41,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsniper-elite-resistance-pc-steam-account-global&cjsku=SW34236",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsniper-elite-resistance-pc-steam-account-global&cjsku=SW34236",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F296641%2Fsniper-elite-resistance-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=296641",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 320,
@@ -8999,7 +10195,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffoundry-pc-steam-account-global&cjsku=SW24116",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F236704%2Ffoundry-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=236704",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 321,
@@ -9029,7 +10229,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 322,
@@ -9059,7 +10263,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fscrap-mechanic-pc-steam-gift-global&cjsku=26006",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F57865%2Fscrap-mechanic-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=57865",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 323,
@@ -9088,8 +10296,12 @@ const games = [
     igDiscount: 78,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftrailmakers-pc-steam-key-global&cjsku=46175",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftrailmakers-pc-steam-key-global&cjsku=46175",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F59209%2Ftrailmakers-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=59209",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 324,
@@ -9118,8 +10330,12 @@ const games = [
     igDiscount: 55,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fstarbound-pc-steam-key-eu&cjsku=73575",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fstarbound-pc-steam-key-eu&cjsku=73575",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F64996%2Fstarbound-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=64996",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 325,
@@ -9148,8 +10364,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fpantheon-rise-of-the-fallen-pc-steam-account-global&cjsku=SW34242",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fpantheon-rise-of-the-fallen-pc-steam-account-global&cjsku=SW34242",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F301147%2Fpantheon-rise-of-the-fallen-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=301147",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 326,
@@ -9178,8 +10398,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fthe-crew-2-the-crew-2-gold-edition-pc-steam-account-global&cjsku=SW27134",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fthe-crew-2-the-crew-2-gold-edition-pc-steam-account-global&cjsku=SW27134",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F57643%2Fthe-crew-2-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=57643",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 327,
@@ -9209,7 +10433,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwarno-pc-steam-gift-global&cjsku=130386",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F108892%2Fwarno-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=108892",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 328,
@@ -9238,8 +10466,12 @@ const games = [
     igDiscount: 69,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwolfquest-anniversary-edition-pc-steam-gift-global&cjsku=SW37785",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwolfquest-anniversary-edition-pc-steam-gift-global&cjsku=SW37785",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F233007%2Fwolfquest-anniversary-edition-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=233007",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 329,
@@ -9269,7 +10501,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F348093%2Fwatch_dogs-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=348093",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 330,
@@ -9298,8 +10534,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fplants-vs.-zombies-garden-warfare-2-deluxe-edition-pc-steam-gift-global&cjsku=SW26078",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fplants-vs.-zombies-garden-warfare-2-deluxe-edition-pc-steam-gift-global&cjsku=SW26078",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F163458%2Fplants-vs-zombies-garden-warfare-2-deluxe-edition-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=163458",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 331,
@@ -9328,8 +10568,12 @@ const games = [
     igDiscount: 11,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Frunescape-dragonwilds-pc-steam-gift-global&cjsku=SW39171",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Frunescape-dragonwilds-pc-steam-gift-global&cjsku=SW39171",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F329579%2Frunescape-dragonwilds-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=329579",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 332,
@@ -9358,8 +10602,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fcall-of-duty-modern-warfare-pc-steam-account-global&cjsku=SW22767",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fcall-of-duty-modern-warfare-pc-steam-account-global&cjsku=SW22767",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F209935%2Fcall-of-duty-modern-warfare-iii-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=209935",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 333,
@@ -9388,8 +10636,12 @@ const games = [
     igDiscount: 95,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Flords-of-the-fallen-pc-steam-account-global&cjsku=SW26409",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Flords-of-the-fallen-pc-steam-key-global&cjsku=141437",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F10995%2Flords-of-the-fallen-pc-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=10995",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 334,
@@ -9418,8 +10670,12 @@ const games = [
     igDiscount: 74,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Foddsparks-an-automation-adventure-pc-steam-account-global&cjsku=SW25958",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Foddsparks-an-automation-adventure-pc-steam-account-global&cjsku=SW25958",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F419144%2Foddsparks-an-automation-adventure-tailor-s-animal-costumes-pack-dlc-pc-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=419144",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 335,
@@ -9448,8 +10704,12 @@ const games = [
     igDiscount: 44,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fage-of-mythology-extended-edition-pc-steam-key-eu&cjsku=155058",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fage-of-mythology-extended-edition-pc-steam-gift-eu&cjsku=SW33252",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F158145%2Fage-of-mythology-extended-edition-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=158145",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 336,
@@ -9478,8 +10738,12 @@ const games = [
     igDiscount: 80,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fcrab-champions-pc-steam-gift-global&cjsku=SW38451",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fcrab-champions-pc-steam-gift-global&cjsku=SW38451",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F155569%2Fcrab-champions-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=155569",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 337,
@@ -9508,8 +10772,12 @@ const games = [
     igDiscount: 59,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fthe-lord-of-the-rings-online-60-day-game-time-code-key-eu&cjsku=50397",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fthe-lord-of-the-rings-online-60-day-game-time-code-key-eu&cjsku=50397",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F12583%2Flord-of-the-rings-online-starter-pack%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=12583",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 338,
@@ -9539,7 +10807,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 339,
@@ -9568,8 +10840,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fleft-4-dead-pc-steam-account-global&cjsku=SW25874",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fleft-4-dead-pc-steam-account-global&cjsku=SW25874",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F5975%2Fleft-4-dead-steam-gift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=5975",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 340,
@@ -9598,8 +10874,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17167629?url=https%3A%2F%2Fgameseal.com%2Ftom-clancy-s-the-division-season-pass-dlc-pc-ubisoft-connect-key-united-states%3Fcurrency%3DCAD&cjsku=54052",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17167629?url=https%3A%2F%2Fgameseal.com%2Ftom-clancy-s-the-division-season-pass-dlc-pc-ubisoft-connect-key-united-states%3Fcurrency%3DCAD&cjsku=54052",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F60013%2Ftom-clancya-s-the-division-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=60013",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 341,
@@ -9629,7 +10909,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmordhau-pc-steam-gift-global&cjsku=SW26488",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F63426%2Fmordhau-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=63426",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 342,
@@ -9658,8 +10942,12 @@ const games = [
     igDiscount: 17,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftrove-dynomighty-miner-pack-pc-steam-gift-global&cjsku=SW38351",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftrove-dynomighty-miner-pack-pc-steam-gift-global&cjsku=SW38351",
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 343,
@@ -9689,7 +10977,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fneverwinter-nights-enhanced-edition-pc-steam-key-global&cjsku=27718",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F47555%2Fneverwinter-nights-enhanced-edition-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=47555",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 344,
@@ -9718,8 +11010,12 @@ const games = [
     igDiscount: 59,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fhumanitz-pc-steam-gift-global&cjsku=160427",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fhumanitz-pc-steam-key-row&cjsku=166861",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F185906%2Fhumanitz-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=185906",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 345,
@@ -9748,8 +11044,12 @@ const games = [
     igDiscount: 48,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Flightyear-frontier-pc-steam-key-global&cjsku=137432",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Flightyear-frontier-pc-steam-key-global&cjsku=137432",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F223996%2Flightyear-frontier-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=223996",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 346,
@@ -9779,7 +11079,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F200346%2Fwizard101-usd-2-5-gift-card-us%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=200346",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 347,
@@ -9809,7 +11113,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmen-of-war-assault-squad-2-pc-steam-account-global&cjsku=SW26158",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F252438%2Fmen-of-war-assault-squad-2-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=252438",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 348,
@@ -9838,8 +11146,12 @@ const games = [
     igDiscount: 51,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Faska-pc-steam-account-global&cjsku=SW24509",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Faska-pc-steam-account-global&cjsku=SW24509",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F242481%2Faska-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=242481",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 349,
@@ -9868,8 +11180,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdeadside-pc-steam-gift-eu&cjsku=55680",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdeadside-pc-steam-gift-eu&cjsku=55680",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F177789%2Fdeadside-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=177789",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 350,
@@ -9898,8 +11214,12 @@ const games = [
     igDiscount: 51,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Feco-pc-steam-gift-eu&cjsku=25832",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Feco-pc-steam-gift-eu&cjsku=25832",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F152414%2Feco-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=152414",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 351,
@@ -9929,7 +11249,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F173759%2Flegion-td-2-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=173759",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 352,
@@ -9958,8 +11282,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwebfishing-pc-steam-account-global&cjsku=SW26995",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwebfishing-pc-steam-account-global&cjsku=SW26995",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F280346%2Fwebfishing-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=280346",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 354,
@@ -9988,8 +11316,12 @@ const games = [
     igDiscount: 4,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffall-guys-ultimate-knockout-pc-steam-key-global&cjsku=66005",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffall-guys-ultimate-knockout-pc-steam-key-global&cjsku=66005",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F75848%2Ffall-guys-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=75848",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 355,
@@ -10018,8 +11350,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmindustry-pc-steam-key-global&cjsku=122392",
-    gsDiscount: 0
+    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmindustry-pc-steam-gift-eu&cjsku=48628",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F239303%2Fmindustry-steam-pc-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=239303",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 356,
@@ -10049,7 +11385,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsoul-academy-pc-steam-key-global&cjsku=SW46277",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F40895%2Fsteam-tactics-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=40895",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 357,
@@ -10079,7 +11419,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdragon-ball-xenoverse-2-pc-steam-account-global&cjsku=SW23715",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F222842%2Fdragon-ball-xenoverse-2-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=222842",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 358,
@@ -10109,7 +11453,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdead-frontier-2-survivor-starter-pack-dlc-pc-steam-key-global&cjsku=141449",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F142470%2Fdead-frontier-2-survivor-starter-pack-dlc-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=142470",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 361,
@@ -10138,8 +11486,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmechwarrior-5-mercenaries-pc-steam-key-global&cjsku=28558",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmechwarrior-5-mercenaries-pc-steam-key-global&cjsku=28558",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F87563%2Fmechwarrior-5-mercenaries-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=87563",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 362,
@@ -10169,7 +11521,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffar-cry-6-pc-steam-gift-global&cjsku=155089",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F161699%2Ffar-cry-6-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=161699",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 363,
@@ -10198,8 +11554,12 @@ const games = [
     igDiscount: 17,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwobbly-life-pc-steam-gift-global&cjsku=139016",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwobbly-life-pc-steam-gift-global&cjsku=139016",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F160502%2Fwobbly-life-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=160502",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 364,
@@ -10228,8 +11588,12 @@ const games = [
     igDiscount: 81,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fborderlands-game-of-the-year-enhanced-pc-steam-key-global&cjsku=SW43500",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fborderlands-game-of-the-year-enhanced-pc-steam-key-global&cjsku=SW43500",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F62881%2Fborderlands-game-of-the-year-enhanced-steam-gift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=62881",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 366,
@@ -10258,8 +11622,12 @@ const games = [
     igDiscount: 47,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Favorion-pc-steam-key-global&cjsku=26453",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Favorion-pc-steam-key-global&cjsku=26453",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F71164%2Favorion-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=71164",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 367,
@@ -10288,8 +11656,12 @@ const games = [
     igDiscount: 1,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fliar-s-bar-pc-steam-account-global&cjsku=SW26741",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fliar-s-bar-pc-steam-account-global&cjsku=SW26741",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F277004%2Fliar-s-bar-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=277004",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 368,
@@ -10319,7 +11691,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ftitan-quest-anniversary-edition-pc-steam-key-eu&cjsku=74418",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F75021%2Ftitan-quest-anniversary-edition-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=75021",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 369,
@@ -10348,8 +11724,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Faxis-allies-1942-online-pc-steam-key-global&cjsku=50172",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Faxis-allies-1942-online-pc-steam-key-global&cjsku=50172",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F72728%2Faxis-allies-1942-online-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=72728",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 370,
@@ -10378,8 +11758,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftropico-6-pc-steam-key-global&cjsku=31057",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ftropico-6-pc-steam-key-eu&cjsku=10798",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F57902%2Ftropico-6-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=57902",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 371,
@@ -10408,8 +11792,12 @@ const games = [
     igDiscount: 75,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwingspan-pc-steam-key-global&cjsku=68943",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fwingspan-pc-steam-key-global&cjsku=68943",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F77025%2Fwingspan-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=77025",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 372,
@@ -10439,7 +11827,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fapocalypse-party-pc-steam-key-global&cjsku=164879",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F247931%2Fapocalypse-party-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=247931",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 373,
@@ -10469,7 +11861,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fresident-evil-5-pc-steam-key-global&cjsku=1183",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F2815%2Fresident-evil-5-steam-gift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=2815",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 374,
@@ -10498,8 +11894,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffar-cry-4-pc-steam-gift-eu&cjsku=59234",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffar-cry-4-pc-steam-gift-eu&cjsku=59234",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F57641%2Ffar-cry-4-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=57641",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 376,
@@ -10528,8 +11928,12 @@ const games = [
     igDiscount: 68,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffast-food-simulator-pc-steam-account-global&cjsku=SW34120",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffast-food-simulator-pc-steam-account-global&cjsku=SW34120",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F295627%2Ffast-food-simulator-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=295627",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 377,
@@ -10558,8 +11962,12 @@ const games = [
     igDiscount: 72,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsins-of-a-solar-empire-ii-pc-steam-key-global&cjsku=SW26624",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsins-of-a-solar-empire-ii-pc-steam-key-global&cjsku=SW26624",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F261586%2Fsins-of-a-solar-empire-ii-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=261586",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 378,
@@ -10588,8 +11996,12 @@ const games = [
     igDiscount: 93,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fsniper-elite-4-season-pass-dlc-pc-steam-key-eu&cjsku=152601",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fsniper-elite-4-season-pass-dlc-pc-steam-key-eu&cjsku=152601",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F58699%2Fsniper-elite-4-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=58699",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 379,
@@ -10618,8 +12030,12 @@ const games = [
     igDiscount: 86,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Facross-the-obelisk-pc-steam-key-global&cjsku=140760",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Facross-the-obelisk-pc-steam-key-global&cjsku=140760",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F127596%2Facross-the-obelisk-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=127596",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 380,
@@ -10649,7 +12065,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 381,
@@ -10679,7 +12099,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 382,
@@ -10709,7 +12133,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 383,
@@ -10739,7 +12167,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 384,
@@ -10769,7 +12201,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 385,
@@ -10799,7 +12235,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 386,
@@ -10829,7 +12269,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 387,
@@ -10859,7 +12303,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 388,
@@ -10889,7 +12337,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 389,
@@ -10919,7 +12371,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 390,
@@ -10949,7 +12405,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 391,
@@ -10979,7 +12439,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 392,
@@ -11009,7 +12473,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 393,
@@ -11039,7 +12507,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 394,
@@ -11069,7 +12541,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 395,
@@ -11099,7 +12575,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 396,
@@ -11129,7 +12609,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 397,
@@ -11159,7 +12643,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 398,
@@ -11189,7 +12677,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 399,
@@ -11219,7 +12711,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 400,
@@ -11249,7 +12745,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fcall-of-duty-black-ops-pc-steam-key-global&cjsku=200",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F152450%2Fcall-of-duty-black-ops-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=152450",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 401,
@@ -11278,8 +12778,12 @@ const games = [
     igDiscount: 69,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Frise-of-nations-extended-edition-pc-steam-gift-global&cjsku=28006",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Frise-of-nations-extended-edition-pc-steam-account-global&cjsku=SW26760",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F7139%2Frise-of-nations-extended-edition-steam-gift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=7139",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 402,
@@ -11308,8 +12812,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fresident-evil-6-pc-steam-key-global&cjsku=1184",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fresident-evil-6-pc-steam-key-global&cjsku=1184",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F199157%2Fresident-evil-6-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=199157",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 403,
@@ -11338,8 +12846,12 @@ const games = [
     igDiscount: 33,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fvoid-crew-pc-steam-gift-global&cjsku=159939",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fvoid-crew-pc-steam-gift-global&cjsku=159939",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F184020%2Fvoid-crew-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=184020",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 404,
@@ -11368,8 +12880,12 @@ const games = [
     igDiscount: 59,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsea-of-stars-pc-steam-gift-global&cjsku=159476",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsea-of-stars-pc-steam-gift-global&cjsku=159476",
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F181469%2Fsea-of-stars-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=181469",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 405,
@@ -11398,8 +12914,12 @@ const games = [
     igDiscount: 30,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdoor-kickers-2-task-force-north-pc-steam-key-global&cjsku=SW41787",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdoor-kickers-2-task-force-north-pc-steam-key-global&cjsku=SW41787",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F313377%2Fdoor-kickers-2-task-force-north-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=313377",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 406,
@@ -11429,7 +12949,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 407,
@@ -11459,7 +12983,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 408,
@@ -11489,7 +13017,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 409,
@@ -11519,7 +13051,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 410,
@@ -11549,7 +13085,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 411,
@@ -11579,7 +13119,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 412,
@@ -11609,7 +13153,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 413,
@@ -11639,7 +13187,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 414,
@@ -11669,7 +13221,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 415,
@@ -11699,7 +13255,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 416,
@@ -11729,7 +13289,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 417,
@@ -11759,7 +13323,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 418,
@@ -11789,7 +13357,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 419,
@@ -11819,7 +13391,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 420,
@@ -11849,7 +13425,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 421,
@@ -11879,7 +13459,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 422,
@@ -11909,7 +13493,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 423,
@@ -11939,7 +13527,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 424,
@@ -11969,7 +13561,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 425,
@@ -11999,7 +13595,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 426,
@@ -12029,7 +13629,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 427,
@@ -12059,7 +13663,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 428,
@@ -12089,7 +13697,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 429,
@@ -12119,7 +13731,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 430,
@@ -12149,7 +13765,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 431,
@@ -12179,7 +13799,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 432,
@@ -12209,7 +13833,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 433,
@@ -12239,7 +13867,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 434,
@@ -12269,7 +13901,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 435,
@@ -12299,7 +13935,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 436,
@@ -12329,7 +13969,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 437,
@@ -12359,7 +14003,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 438,
@@ -12389,7 +14037,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 439,
@@ -12419,7 +14071,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 440,
@@ -12449,7 +14105,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 441,
@@ -12479,7 +14139,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 442,
@@ -12509,7 +14173,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 443,
@@ -12539,7 +14207,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 444,
@@ -12569,7 +14241,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 445,
@@ -12599,7 +14275,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 446,
@@ -12629,7 +14309,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 447,
@@ -12659,7 +14343,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 448,
@@ -12689,7 +14377,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 449,
@@ -12719,7 +14411,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 450,
@@ -12749,7 +14445,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 451,
@@ -12779,7 +14479,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 452,
@@ -12809,7 +14513,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 453,
@@ -12839,7 +14547,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 454,
@@ -12869,7 +14581,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 455,
@@ -12899,7 +14615,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 456,
@@ -12929,7 +14649,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 457,
@@ -12959,7 +14683,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 458,
@@ -12989,7 +14717,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 459,
@@ -13019,7 +14751,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 460,
@@ -13049,7 +14785,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 461,
@@ -13079,7 +14819,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 462,
@@ -13109,7 +14853,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 463,
@@ -13139,7 +14887,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 464,
@@ -13169,7 +14921,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 465,
@@ -13199,7 +14955,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 466,
@@ -13229,7 +14989,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 467,
@@ -13259,7 +15023,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 468,
@@ -13289,7 +15057,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 469,
@@ -13319,7 +15091,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 470,
@@ -13349,7 +15125,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 471,
@@ -13379,7 +15159,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 472,
@@ -13409,7 +15193,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 473,
@@ -13439,7 +15227,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 474,
@@ -13469,7 +15261,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 475,
@@ -13499,7 +15295,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 476,
@@ -13529,7 +15329,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 477,
@@ -13559,7 +15363,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 478,
@@ -13589,7 +15397,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 479,
@@ -13619,7 +15431,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 480,
@@ -13649,7 +15465,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 481,
@@ -13679,7 +15499,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 482,
@@ -13709,7 +15533,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 483,
@@ -13739,7 +15567,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 484,
@@ -13769,7 +15601,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 485,
@@ -13799,7 +15635,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 486,
@@ -13829,7 +15669,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 487,
@@ -13859,7 +15703,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 488,
@@ -13889,7 +15737,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 489,
@@ -13919,7 +15771,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 490,
@@ -13949,7 +15805,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 491,
@@ -13979,7 +15839,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 492,
@@ -14009,7 +15873,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 493,
@@ -14039,7 +15907,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 494,
@@ -14069,7 +15941,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 495,
@@ -14099,7 +15975,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 496,
@@ -14129,7 +16009,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 497,
@@ -14159,7 +16043,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 498,
@@ -14189,7 +16077,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 499,
@@ -14219,7 +16111,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 500,
@@ -14249,7 +16145,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 501,
@@ -14279,7 +16179,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 502,
@@ -14309,7 +16213,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 503,
@@ -14339,7 +16247,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 504,
@@ -14369,7 +16281,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 505,
@@ -14399,7 +16315,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 506,
@@ -14429,7 +16349,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 507,
@@ -14459,7 +16383,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 508,
@@ -14489,7 +16417,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 509,
@@ -14519,7 +16451,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 510,
@@ -14549,7 +16485,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 511,
@@ -14579,7 +16519,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 512,
@@ -14609,7 +16553,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 513,
@@ -14639,7 +16587,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 514,
@@ -14669,7 +16621,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 515,
@@ -14699,7 +16655,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 516,
@@ -14729,7 +16689,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 517,
@@ -14759,7 +16723,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 518,
@@ -14789,7 +16757,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F476468%2Feverwind-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=476468",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 519,
@@ -14818,8 +16790,12 @@ const games = [
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fproject-castaway-pc-steam-key-global&cjsku=SW23896",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fproject-castaway-pc-steam-key-global&cjsku=SW23896",
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F273316%2Fproject-castaway-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=273316",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 520,
@@ -14849,7 +16825,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F324885%2Fdragonkin-the-banished-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=324885",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 521,
@@ -14879,7 +16859,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F111329%2Ftower-tag-vr-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=111329",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 522,
@@ -14909,7 +16893,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 523,
@@ -14939,7 +16927,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fwwe-2k26-pc-steam-account-global&cjsku=SW107901",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096608?url=https%3A%2F%2Fwww.kinguin.net%2Fpt%2Fcategory%2F464749%2Fwwe-2k26-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DPT&cjsku=464749",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 524,
@@ -14968,8 +16960,12 @@ const games = [
     igDiscount: 18,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fjohn-carpenter-s-toxic-commando-pc-steam-key-global&cjsku=SW107943",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fjohn-carpenter-s-toxic-commando-pc-steam-key-global&cjsku=SW107943",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F435132%2Fjohn-carpenters-toxic-commando-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=435132",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 525,
@@ -14999,7 +16995,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F476176%2Fmama-s-sleeping-angels-pc-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=476176",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 526,
@@ -15029,7 +17029,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F474325%2Frewind-99-pc-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=474325",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 527,
@@ -15059,7 +17063,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.kqzyfj.com/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F467865%2Fover-the-top-wwi-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=467865",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 528,
@@ -15089,7 +17097,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F465836%2Fhexbreaker-ii-pc-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=465836",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 529,
@@ -15115,11 +17127,15 @@ const games = [
     trending: false,
     rating: 0,
     igUrl: "https://www.instant-gaming.com/en/16589-buy-steam-slay-the-spire-2-pc-mac-steam/?igr=gamer-ddc4a8",
-    igDiscount: 47,
+    igDiscount: 43,
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fslay-the-spire-2-pc-steam-gift-eu&cjsku=SW107908",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F460226%2Fslay-the-spire-2-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=460226",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 530,
@@ -15148,8 +17164,12 @@ const games = [
     igDiscount: 52,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdesynced-pc-steam-key-global&cjsku=158797",
-    gsDiscount: 0
+    gsUrl: "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdesynced-pc-steam-key-global&cjsku=158797",
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F178599%2Fdesynced-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=178599",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 531,
@@ -15179,7 +17199,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-16966647?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F464760%2Fdysplaced-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1&cjsku=464760",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 532,
@@ -15209,7 +17233,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F442124%2Fnever-grave-the-witch-and-the-curse-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=442124",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 533,
@@ -15238,8 +17266,12 @@ const games = [
     igDiscount: 1,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Frotwood-pc-steam-gift-global&cjsku=170968",
-    gsDiscount: 0
+    gsUrl: "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Frotwood-pc-steam-account-global&cjsku=SW22990",
+    gsDiscount: 0,
+    kgUrl: "https://www.jdoqocy.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F232269%2Frotwood-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=232269",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 534,
@@ -15269,7 +17301,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-14096609?url=https%3A%2F%2Fwww.kinguin.net%2Fit%2Fcategory%2F460237%2Fscott-pilgrim-ex-pc-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DIT&cjsku=460237",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 535,
@@ -15299,7 +17335,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 536,
@@ -15329,7 +17369,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 537,
@@ -15359,7 +17403,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 538,
@@ -15389,7 +17437,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 539,
@@ -15419,7 +17471,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 540,
@@ -15449,7 +17505,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 541,
@@ -15479,7 +17539,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 542,
@@ -15509,7 +17573,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 543,
@@ -15539,7 +17607,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 544,
@@ -15569,7 +17641,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 545,
@@ -15599,7 +17675,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 546,
@@ -15629,7 +17709,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 547,
@@ -15659,7 +17743,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 548,
@@ -15689,7 +17777,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 549,
@@ -15719,7 +17811,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 550,
@@ -15749,7 +17845,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 551,
@@ -15779,7 +17879,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 552,
@@ -15809,7 +17913,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 553,
@@ -15839,7 +17947,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 554,
@@ -15869,7 +17981,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 555,
@@ -15899,7 +18015,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 556,
@@ -15928,8 +18048,12 @@ const games = [
     igDiscount: 53,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Foverthrown-pc-steam-key-global&cjsku=SW46223",
-    gsDiscount: 0
+    gsUrl: "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Foverthrown-pc-steam-key-global&cjsku=SW46223",
+    gsDiscount: 0,
+    kgUrl: "https://www.tkqlhce.com/click-101708519-14096612?url=https%3A%2F%2Fwww.kinguin.net%2Fes%2Fcategory%2F353043%2Foverthrown-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DES&cjsku=353043",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 557,
@@ -15959,7 +18083,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ff1-24-pc-steam-account-global&cjsku=SW23958",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.anrdoezrs.net/click-101708519-13740882?url=https%3A%2F%2Fwww.kinguin.net%2Ffr%2Fcategory%2F240245%2Ff1-24-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DFR&cjsku=240245",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 558,
@@ -15988,8 +18116,12 @@ const games = [
     igDiscount: 20,
     gbUrl: "",
     gbDiscount: 0,
-    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffarming-simulator-19-pc-steam-key-global&cjsku=26577",
-    gsDiscount: 0
+    gsUrl: "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffarming-simulator-19-pc-steam-gift-global&cjsku=SW26251",
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 559,
@@ -16019,7 +18151,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 560,
@@ -16049,7 +18185,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 561,
@@ -16079,7 +18219,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 562,
@@ -16109,7 +18253,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 563,
@@ -16139,7 +18287,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 564,
@@ -16169,7 +18321,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 565,
@@ -16199,7 +18355,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 566,
@@ -16229,7 +18389,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 567,
@@ -16259,7 +18423,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 568,
@@ -16289,7 +18457,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 569,
@@ -16319,7 +18491,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 570,
@@ -16349,7 +18525,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 571,
@@ -16379,7 +18559,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 572,
@@ -16409,7 +18593,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 573,
@@ -16439,7 +18627,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 574,
@@ -16469,7 +18661,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 575,
@@ -16499,7 +18695,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 576,
@@ -16529,7 +18729,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 577,
@@ -16559,7 +18763,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 578,
@@ -16589,7 +18797,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 579,
@@ -16619,7 +18831,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 580,
@@ -16649,7 +18865,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 581,
@@ -16661,7 +18881,7 @@ const games = [
     maxPlayers: 4,
     crossplay: false,
     players: "2-4",
-    releaseYear: 0,
+    releaseYear: 2026,
     image: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/619540/f221c57c2503ad48ce6b56ed19d86404da026358/header_alt_assets_3.jpg?t=1774546075",
     description: "Darkwater è un gioco horror di estrazione cooperativa per 1-4 giocatori. Comanda un sottomarino intrappolato sotto i ghiacci di una luna aliena. Combatti contro navi nemiche e abomini delle profondità marine mentre vai a caccia di risorse. Fai tutto il necessario per sopravvivere.",
     description_en: "Darkwater is a cooperative extraction horror game for 1-4 players. Command a submarine trapped under the ice of an alien planet. Battle enemy vessels and deep sea abominations as you hunt for resources. Do what it takes to survive.",
@@ -16671,15 +18891,19 @@ const games = [
     gogUrl: "",
     epicUrl: "",
     itchUrl: "",
-    ccu: 0,
+    ccu: 44,
     trending: false,
-    rating: 0,
+    rating: 81,
     igUrl: "",
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 582,
@@ -16691,7 +18915,7 @@ const games = [
     maxPlayers: 4,
     crossplay: false,
     players: "2-4",
-    releaseYear: 0,
+    releaseYear: 2026,
     image: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/491540/82270ee93148b8dce9104055e83bbe0256126d4d/header.jpg?t=1774530139",
     description: "Trasporta passeggeri nel simulatore di autobus urbano The Bus su linee in scala 1:1 a Berlino, passando per la Colonna della Vittoria, la Porta di Brandeburgo e Alexanderplatz. Sullo Scania Citywide LF e altri bus con licenza, vendi biglietti, gestisci il traffico e arriva in sicurezza.",
     description_en: "Transport passengers in the city bus simulation The Bus along 1:1 scale routes in Berlin, passing landmarks like the Victory Column, Brandenburg Gate, and Alexanderplatz. In the Scania Citywide LF and other licensed buses, sell tickets, handle traffic, and get everyone to their destination safely.",
@@ -16701,15 +18925,19 @@ const games = [
     gogUrl: "",
     epicUrl: "",
     itchUrl: "",
-    ccu: 0,
+    ccu: 164,
     trending: false,
-    rating: 0,
+    rating: 74,
     igUrl: "",
     igDiscount: 0,
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "https://www.dpbolvw.net/click-101708519-13740883?url=https%3A%2F%2Fwww.kinguin.net%2Fde%2Fcategory%2F83547%2Fthe-bus-steam-altergift%3Fnosalesbooster%3D1%26currency%3DEUR%26noff%3D1%26gs%3Dtrue%26countryCode%3DDE&cjsku=83547",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 583,
@@ -16739,7 +18967,11 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
   {
     id: 584,
@@ -16769,6 +19001,10 @@ const games = [
     gbUrl: "",
     gbDiscount: 0,
     gsUrl: "",
-    gsDiscount: 0
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
   },
 ];
