@@ -625,11 +625,25 @@ def render_static_page(game: dict, all_games: list | None = None) -> str:
 
 def write_pages(games):
     GAMES_DIR.mkdir(exist_ok=True)
-    for existing in GAMES_DIR.glob("*.html"):
-        existing.unlink()
+    current_ids = {str(g["id"]) for g in games}
+    written = skipped = removed = 0
+
     for game in games:
         out = GAMES_DIR / f"{game['id']}.html"
-        out.write_text(render_static_page(game, all_games=games), encoding="utf-8")
+        new_content = render_static_page(game, all_games=games)
+        if out.exists() and out.read_text(encoding="utf-8") == new_content:
+            skipped += 1
+        else:
+            out.write_text(new_content, encoding="utf-8")
+            written += 1
+
+    # Rimuove pagine orfane (giochi eliminati dal catalogo)
+    for existing in GAMES_DIR.glob("*.html"):
+        if existing.stem not in current_ids:
+            existing.unlink()
+            removed += 1
+
+    print(f"  📄 Pagine: {written} scritte, {skipped} invariate, {removed} rimosse")
 
 
 def write_sitemap(games):
