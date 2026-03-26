@@ -210,10 +210,27 @@ def search_kinguin(session, title: str) -> tuple[str, int]:
         if not candidates:
             return "", 0
 
-        # Preferisci EUR, poi USD
+        def _kg_lang_rank(click_url: str) -> int:
+            """Estrae lingua da kinguin.net/{lang}/ nell'URL CJ. en=0, no-lang=1, altri=2."""
+            from urllib.parse import urlparse, unquote
+            try:
+                inner = ""
+                for part in urlparse(click_url).query.split("&"):
+                    if part.startswith("url="):
+                        inner = unquote(part[4:])
+                        break
+                seg = urlparse(inner).path.lstrip("/").split("/")[0] if inner else ""
+                lang = seg if len(seg) == 2 else ""
+                return {"en": 0, "": 1}.get(lang, 2)
+            except Exception:
+                return 2
+
+        # Preferisci EN, poi global, poi EUR, poi USD
         def _score_kg(p):
+            lang = _kg_lang_rank((p.get("linkCode") or {}).get("clickUrl", ""))
             currency = (p.get("price") or {}).get("currency", "")
-            return (0 if currency == "EUR" else 1 if currency == "USD" else 2)
+            curr_rank = 0 if currency == "EUR" else 1 if currency == "USD" else 2
+            return (lang, curr_rank)
 
         candidates.sort(key=_score_kg)
         best = candidates[0]
