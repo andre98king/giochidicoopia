@@ -24,6 +24,7 @@ Ultima analisi: 2026-03-25
 | AI Crawler Policy | robots.txt blocca GPTBot, ClaudeBot, Google-Extended, Bytespider, PerplexityBot, CCBot |
 | GSC MCP | ✅ Configurato — progetto coophubs-gsc, sc-domain:coophubs.net (siteOwner) |
 | GSC Indicizzazione | 555 URL sottomessi, indicizzazione in corso (4/5 pagine test indicizzate) |
+| Descrizioni generate | 88 descrizioni generate via Ollama mistral-small3.1 (147 → 59 giochi thin) |
 
 ### Problemi noti
 
