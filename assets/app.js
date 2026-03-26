@@ -690,7 +690,7 @@ const AFFILIATE = {
   gmg:  'https://greenmangaming.sjv.io/qWzoQy',  // Green Man Gaming (Impact)
   gameseal: 'https://www.tkqlhce.com/click-101708519-17170422', // Gameseal (CJ Affiliate)
   kinguin: 'https://www.tkqlhce.com/click-101708519-15734285', // Kinguin (CJ Affiliate)
-  gamivo:  'https://www.tkqlhce.com/click-101708519-10660651', // GAMIVO INT (CJ Affiliate)
+  gamivo:  'https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2F', // GAMIVO INT (CJ Affiliate)
 };
 
 // ===== UTM TRACKING + AFFILIATE =====

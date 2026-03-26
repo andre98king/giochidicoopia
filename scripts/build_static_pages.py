@@ -107,7 +107,7 @@ AFFILIATE_GB  = "fb308ca0-647e-4ce7-9e80-74c2c591eac1"
 AFFILIATE_GMG = "https://greenmangaming.sjv.io/qWzoQy"  # Impact deep link base
 AFFILIATE_GAMESEAL = "https://www.tkqlhce.com/click-101708519-17170422"  # CJ Affiliate deep link
 AFFILIATE_KINGUIN  = "https://www.tkqlhce.com/click-101708519-15734285"  # CJ Affiliate deep link
-AFFILIATE_GAMIVO   = "https://www.tkqlhce.com/click-101708519-10660651"  # CJ Affiliate deep link
+AFFILIATE_GAMIVO   = "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2F"  # CJ Affiliate deep link
 
 
 def add_utm(url: str, campaign: str = "gamepage") -> str:

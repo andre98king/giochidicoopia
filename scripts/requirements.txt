@@ -21,10 +21,3 @@ deep-translator>=1.11.0
 # Retry/backoff per gestire 429 e timeout dalle API Steam/IGDB/GOG
 tenacity>=9.0.0
 
-# Browser automation per scraping siti con rendering Vue.js/React (es. Instant Gaming)
-playwright>=1.44.0
-
-# Browser Firefox stealth con fingerprint spoofing — bypassa Cloudflare Turnstile
-# Usato da fetch_affiliate_prices.py per IG + GameBillet
-# Setup: pip install camoufox && python3 -m camoufox fetch
-camoufox>=0.4.0
