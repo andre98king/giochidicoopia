@@ -17,7 +17,10 @@ import urllib.error
 import urllib.request
 from typing import Any
 
-from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
+from tenacity import (
+    retry, stop_after_attempt, wait_exponential,
+    retry_if_exception, RetryError,
+)
 
 
 DEFAULT_USER_AGENT = "Mozilla/5.0"
@@ -50,11 +53,31 @@ class SteamCatalogSource:
     def fetch_json(self, url: str) -> Any | None:
         time.sleep(self.delay)
 
+        def _is_retryable(exc: BaseException) -> bool:
+            """Riprova su errori di rete e rate-limit (429/5xx), non su 404/400."""
+            if isinstance(exc, urllib.error.HTTPError):
+                return exc.code in (429, 500, 502, 503, 504)
+            return isinstance(exc, (urllib.error.URLError, TimeoutError, OSError))
+
+        def _wait_strategy(retry_state):
+            """60s fissi dopo 429, backoff esponenziale per altri errori."""
+            exc = retry_state.outcome.exception()
+            if isinstance(exc, urllib.error.HTTPError) and exc.code == 429:
+                print(f"    ⏳ 429 rate-limit — attendo 60s ({url[:60]})")
+                return 60
+            return wait_exponential(multiplier=1, min=3, max=45)(retry_state)
+
+        def _before_sleep(retry_state):
+            exc = retry_state.outcome.exception()
+            attempt = retry_state.attempt_number
+            print(f"    ↻ retry {attempt}/5 — {type(exc).__name__} — {url[:60]}")
+
         @retry(
-            retry=retry_if_exception_type((urllib.error.URLError, TimeoutError, OSError)),
-            wait=wait_exponential(multiplier=1, min=2, max=30),
-            stop=stop_after_attempt(3),
-            reraise=False,
+            retry=retry_if_exception(_is_retryable),
+            wait=_wait_strategy,
+            stop=stop_after_attempt(5),
+            before_sleep=_before_sleep,
+            reraise=True,
         )
         def _do_request() -> Any:
             request = urllib.request.Request(url, headers={"User-Agent": self.user_agent})
