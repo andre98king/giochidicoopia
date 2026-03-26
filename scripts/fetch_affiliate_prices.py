@@ -298,20 +298,21 @@ async def fetch_gb(client: httpx.AsyncClient, sem: asyncio.Semaphore, game: dict
 
 # ─── Kinguin + GAMIVO (SPA — solo wrap URL esistente) ─────────────────────────
 
+_CJ_DOMAINS = re.compile(r"(tkqlhce|dpbolvw|kqzyfj|anrdoezrs|jdoqocy|qksrv)\.(?:com|net)")
+
 def resolve_kg(game: dict) -> tuple[str, int]:
-    """Wrappa kgUrl esistente in CJ deep link. Nessuna HTTP — SPA non scrapabile."""
+    """Wrappa kgUrl esistente in CJ deep link. Nessuna HTTP — SPA non scrapabile.
+    Se kgUrl è già un CJ deep link (qualsiasi dominio CJ), lo restituisce invariato."""
     existing = game.get("kgUrl", "")
     if not existing:
         return "", 0
-    # Estrai URL prodotto se già è un deep link CJ
-    if "tkqlhce.com" in existing:
-        m = re.search(r"url=(.+)", existing)
-        product_url = m.group(1) if m else ""
-    else:
-        product_url = existing
-    if not product_url:
+    # Già un CJ deep link (fetch_gameseal_prices lo ha popolato) — non ri-avvolgere
+    if _CJ_DOMAINS.search(existing) and "/click-" in existing:
+        return existing, game.get("kgDiscount", 0)
+    # URL prodotto raw — avvolgi con tracking CJ homepage Kinguin
+    if not existing:
         return "", 0
-    return _kg_affiliate(product_url), game.get("kgDiscount", 0)
+    return _kg_affiliate(existing), game.get("kgDiscount", 0)
 
 
 def resolve_gmv(game: dict) -> tuple[str, int]:
@@ -319,14 +320,9 @@ def resolve_gmv(game: dict) -> tuple[str, int]:
     existing = game.get("gmvUrl", "")
     if not existing:
         return "", 0
-    if "tkqlhce.com" in existing:
-        m = re.search(r"url=(.+)", existing)
-        product_url = m.group(1) if m else ""
-    else:
-        product_url = existing
-    if not product_url:
-        return "", 0
-    return _gmv_affiliate(product_url), game.get("gmvDiscount", 0)
+    if _CJ_DOMAINS.search(existing) and "/click-" in existing:
+        return existing, game.get("gmvDiscount", 0)
+    return _gmv_affiliate(existing), game.get("gmvDiscount", 0)
 
 
 # ─── Runner ───────────────────────────────────────────────────────────────────

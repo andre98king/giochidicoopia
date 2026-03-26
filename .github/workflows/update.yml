@@ -34,7 +34,7 @@ jobs:
       - name: Fetch affiliate prices (IG + GameBillet)
         run: python3 scripts/fetch_affiliate_prices.py
 
-      - name: Fetch Gameseal prices (CJ API)
+      - name: Fetch Gameseal + Kinguin prices (CJ API)
         run: python3 scripts/fetch_gameseal_prices.py
         env:
           CJ_API_TOKEN: ${{ secrets.CJ_API_TOKEN }}
