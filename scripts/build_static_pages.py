@@ -676,6 +676,26 @@ def write_sitemap(games):
         "    <priority>0.6</priority>\n",
         "  </url>\n",
     ]
+    # Hub pages SEO
+    hub_slugs = [
+        "migliori-giochi-coop-2026",
+        "giochi-coop-local",
+        "giochi-coop-2-giocatori",
+        "giochi-coop-free",
+        "giochi-coop-indie",
+    ]
+    for slug in hub_slugs:
+        hub_url = f"{SITE_URL}/{slug}.html"
+        lines.extend([
+            "  <url>\n",
+            f"    <loc>{hub_url}</loc>\n",
+            f"    <xhtml:link rel=\"alternate\" hreflang=\"it\" href=\"{hub_url}\"/>\n",
+            f"    <xhtml:link rel=\"alternate\" hreflang=\"x-default\" href=\"{hub_url}\"/>\n",
+            f"    <lastmod>{TODAY}</lastmod>\n",
+            "    <changefreq>weekly</changefreq>\n",
+            "    <priority>0.8</priority>\n",
+            "  </url>\n",
+        ])
     for game in games:
         url = page_url(game)
         # Priorità dinamica: trending/alto CCU = 0.9, normale = 0.7, CCU 0 = 0.6
