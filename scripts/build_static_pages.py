@@ -1053,20 +1053,35 @@ def write_sitemap(games):
         "    <priority>0.6</priority>\n",
         "  </url>\n",
     ]
-    # Hub pages SEO
-    hub_slugs = [
-        "migliori-giochi-coop-2026",
-        "giochi-coop-local",
-        "giochi-coop-2-giocatori",
-        "giochi-coop-free",
-        "giochi-coop-indie",
+    # Hub pages SEO (IT + EN pairs)
+    hub_slug_pairs = [
+        ("migliori-giochi-coop-2026", "best-coop-games-2026"),
+        ("giochi-coop-local",         "local-coop-games"),
+        ("giochi-coop-2-giocatori",   "2-player-coop-games"),
+        ("giochi-coop-free",          "free-coop-games"),
+        ("giochi-coop-indie",         "indie-coop-games"),
     ]
-    for slug in hub_slugs:
-        hub_url = f"{SITE_URL}/{slug}.html"
+    for it_slug, en_slug in hub_slug_pairs:
+        hub_url    = f"{SITE_URL}/{it_slug}.html"
+        hub_url_en = f"{SITE_URL}/en/{en_slug}.html"
+        # IT hub entry
         lines.extend([
             "  <url>\n",
             f"    <loc>{hub_url}</loc>\n",
             f"    <xhtml:link rel=\"alternate\" hreflang=\"it\" href=\"{hub_url}\"/>\n",
+            f"    <xhtml:link rel=\"alternate\" hreflang=\"en\" href=\"{hub_url_en}\"/>\n",
+            f"    <xhtml:link rel=\"alternate\" hreflang=\"x-default\" href=\"{hub_url}\"/>\n",
+            f"    <lastmod>{TODAY}</lastmod>\n",
+            "    <changefreq>weekly</changefreq>\n",
+            "    <priority>0.8</priority>\n",
+            "  </url>\n",
+        ])
+        # EN hub entry
+        lines.extend([
+            "  <url>\n",
+            f"    <loc>{hub_url_en}</loc>\n",
+            f"    <xhtml:link rel=\"alternate\" hreflang=\"it\" href=\"{hub_url}\"/>\n",
+            f"    <xhtml:link rel=\"alternate\" hreflang=\"en\" href=\"{hub_url_en}\"/>\n",
             f"    <xhtml:link rel=\"alternate\" hreflang=\"x-default\" href=\"{hub_url}\"/>\n",
             f"    <lastmod>{TODAY}</lastmod>\n",
             "    <changefreq>weekly</changefreq>\n",
