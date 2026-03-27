@@ -5096,4 +5096,13 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://coophubs.net/games/585.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coophubs.net/games/585.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coophubs.net/games/585.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coophubs.net/games/585.html"/>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>

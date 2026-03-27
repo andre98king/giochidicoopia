@@ -1,4 +1,4 @@
-const featuredIndieId = 16;
+const featuredIndieId = 0;
 
 const games = [
   {
@@ -18996,6 +18996,40 @@ const games = [
     ccu: 0,
     trending: false,
     rating: 0,
+    igUrl: "",
+    igDiscount: 0,
+    gbUrl: "",
+    gbDiscount: 0,
+    gsUrl: "",
+    gsDiscount: 0,
+    kgUrl: "",
+    kgDiscount: 0,
+    gmvUrl: "",
+    gmvDiscount: 0
+  },
+  {
+    id: 585,
+    igdbId: 0,
+    title: "Avatar: Frontiers of Pandora",
+    categories: ["action"],
+    genres: ["action", "adventure"],
+    coopMode: ["online"],
+    maxPlayers: 2,
+    crossplay: true,
+    players: "1-2",
+    releaseYear: 2024,
+    image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2840770/header.jpg",
+    description: "Avatar: Frontiers of Pandora™ è un gioco d'azione-avventura in terza e prima persona ambientato nella frontiera occidentale. Scopri la tua eredità perduta e cosa significa essere na'vi. Combatti contro il RDA e difendi Pandora in co-op online per 2 giocatori.",
+    description_en: "Avatar: Frontiers of Pandora™ is a third and first-person action-adventure game set in the Western Frontier. Reconnect with your lost heritage and discover what it means to be Na'vi. Fight the RDA and defend Pandora in 2-player online co-op.",
+    personalNote: "",
+    played: false,
+    steamUrl: "https://store.steampowered.com/app/2840770/",
+    gogUrl: "",
+    epicUrl: "",
+    itchUrl: "",
+    ccu: 272,
+    trending: false,
+    rating: 69,
     igUrl: "",
     igDiscount: 0,
     gbUrl: "",

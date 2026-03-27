@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-27T00:37:12+00:00",
+  "generatedAt": "2026-03-27T14:20:10+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
-  "featuredIndieId": 16,
+  "featuredIndieId": null,
   "stats": {
-    "games": 559,
+    "games": 560,
     "played": 12,
     "trending": 54,
-    "withEnglishDescription": 559,
+    "withEnglishDescription": 560,
     "categoryCounts": {
-      "action": 300,
+      "action": 301,
       "factory": 62,
       "free": 44,
       "horror": 46,
@@ -29,7 +29,7 @@
       "epic": 53,
       "gog": 26,
       "itch": 151,
-      "steam": 382
+      "steam": 383
     }
   },
   "games": [
@@ -1402,7 +1402,7 @@
       "gmvUrl": "",
       "gmvDiscount": 0,
       "slug": "terraria",
-      "isFeaturedIndie": true,
+      "isFeaturedIndie": false,
       "descriptions": {
         "it": "Scava, combatti, esplora, costruisci! Niente è impossibile in questo gioco d'avventura pieno di azione. Il mondo è la tua tela e la terra è il tuo colore. Prendi gli strumenti e vai! Crea armi per combattere un'ampia varietà di creature in numerosi biomi. Scava sottoterra per trovare accessori,…",
         "en": "Dig, Fight, Explore, Build: The very world is at your fingertips as you fight for survival, fortune, and glory. Will you delve deep into cavernous expanses in search of treasure and raw materials with which to craft ever-evolving gear, machinery, and aesthetics? Perhaps you will choose instead to…"
@@ -50451,6 +50451,94 @@
         "ccu": 0,
         "trending": false,
         "rating": 0
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 585,
+      "igdbId": 0,
+      "title": "Avatar: Frontiers of Pandora",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action",
+        "adventure"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 2,
+      "crossplay": true,
+      "players": "1-2",
+      "releaseYear": 2024,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2840770/header.jpg",
+      "description": "Avatar: Frontiers of Pandora™ è un gioco d'azione-avventura in terza e prima persona ambientato nella frontiera occidentale. Scopri la tua eredità perduta e cosa significa essere na'vi. Combatti contro il RDA e difendi Pandora in co-op online per 2 giocatori.",
+      "description_en": "Avatar: Frontiers of Pandora™ is a third and first-person action-adventure game set in the Western Frontier. Reconnect with your lost heritage and discover what it means to be Na'vi. Fight the RDA and defend Pandora in 2-player online co-op.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2840770/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 272,
+      "trending": false,
+      "rating": 69,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "slug": "avatar-frontiers-of-pandora",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Avatar: Frontiers of Pandora™ è un gioco d'azione-avventura in terza e prima persona ambientato nella frontiera occidentale. Scopri la tua eredità perduta e cosa significa essere na'vi. Combatti contro il RDA e difendi Pandora in co-op online per 2 giocatori.",
+        "en": "Avatar: Frontiers of Pandora™ is a third and first-person action-adventure game set in the Western Frontier. Reconnect with your lost heritage and discover what it means to be Na'vi. Fight the RDA and defend Pandora in 2-player online co-op."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": [
+          "action",
+          "adventure"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": true,
+        "playersLabel": "1-2",
+        "maxPlayers": 2
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2840770/",
+          "externalId": "2840770"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2840770"
+      },
+      "signals": {
+        "ccu": 272,
+        "trending": false,
+        "rating": 69
       },
       "editorial": {
         "played": false,
