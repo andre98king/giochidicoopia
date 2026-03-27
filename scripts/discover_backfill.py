@@ -168,7 +168,7 @@ def is_coop_verified(sd: dict) -> bool:
 
 # ─── Main ───────────────────────────────────────────────────────────────────────
 
-def main(min_year: int = 2022, max_year: int = 2024, max_output: int = TOP_OUTPUT) -> None:
+def main(min_year: int = 2022, max_year: int = 2024, max_output: int = TOP_OUTPUT, max_examine: int = MAX_CANDIDATES) -> None:
     print("📖 Lettura catalogo esistente...")
     games = catalog_data.load_games()
     existing_appids: set[str] = set()
@@ -197,8 +197,8 @@ def main(min_year: int = 2022, max_year: int = 2024, max_output: int = TOP_OUTPU
         scored.append((score, appid, g))
     scored.sort(reverse=True)
 
-    # Prendi top MAX_CANDIDATES per esaminare con appdetails
-    to_examine = scored[:MAX_CANDIDATES]
+    # Prendi top max_examine per esaminare con appdetails
+    to_examine = scored[:max_examine]
     print(f"  Esaminando top {len(to_examine)} con appdetails per anno uscita e co-op verifica...")
 
     results = []
@@ -329,6 +329,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Scopri giochi co-op mancanti nel catalogo")
     parser.add_argument("--min-year", type=int, default=2022, help="Anno minimo uscita (default 2022)")
     parser.add_argument("--max-year", type=int, default=2024, help="Anno massimo uscita (default 2024)")
-    parser.add_argument("--max-candidates", type=int, default=TOP_OUTPUT, help=f"Max candidati output (default {TOP_OUTPUT})")
+    parser.add_argument("--max-candidates", type=int, default=TOP_OUTPUT, help=f"Max candidati nel file output (default {TOP_OUTPUT})")
+    parser.add_argument("--examine", type=int, default=MAX_CANDIDATES, help=f"Max candidati da esaminare con Steam appdetails (default {MAX_CANDIDATES})")
     args = parser.parse_args()
-    main(min_year=args.min_year, max_year=args.max_year, max_output=args.max_candidates)
+    main(min_year=args.min_year, max_year=args.max_year, max_output=args.max_candidates, max_examine=args.examine)

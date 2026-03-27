@@ -58,6 +58,9 @@ fe4d092eb979461ab0c6aabd19350a10.txt
 # Script locali (usano llama-server/Ollama locale, non in CI)
 scripts/local/
 
+# Script di utilità locale (generatori one-shot, non in CI)
+scripts/generate_hub_pages_en.py
+
 # Asset duplicati/inutilizzati
 assets/og-image.png
 assets/og-image-opt.png

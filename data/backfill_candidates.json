@@ -1,48 +1,82 @@
 {
   "generated": "2026-03-27",
-  "min_year": 2022,
-  "max_year": 2024,
+  "min_year": 2021,
+  "max_year": 2025,
   "filters": {
     "min_rating": 72,
     "min_reviews": 80,
     "coop_verified_via_steam_categories": true
   },
-  "count": 6,
+  "count": 9,
   "candidates": [
     {
-      "appid": "850190",
-      "title": "Goat Simulator 3",
-      "releaseYear": 2024,
-      "releaseDate": "Feb 15, 2024",
-      "rating": 98,
-      "reviews": 10395,
-      "ccu": 474,
-      "price_usd": 29.99,
+      "appid": "843380",
+      "title": "Super Animal Royale",
+      "releaseYear": 2021,
+      "releaseDate": "Aug 26, 2021",
+      "rating": 94,
+      "reviews": 42367,
+      "ccu": 364,
+      "price_usd": 0.0,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Welcome to the coziest way to kill your friends. Super Animal Royale is a 64-player, top-down 2D battle royale where adorably murderous animals fight tooth, claw, and machine gun. Then, relax in Super Animal World with fishing, hamsterball races, and story quests before the next fight to the death.",
+      "steamUrl": "https://store.steampowered.com/app/843380/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/843380/6b36292298ca7a1daeffa9de2556a0b64e4002dc/header.jpg?t=1774571042",
+      "score": 1592.4
+    },
+    {
+      "appid": "597170",
+      "title": "Clone Drone in the Danger Zone",
+      "releaseYear": 2021,
+      "releaseDate": "Jul 27, 2021",
+      "rating": 97,
+      "reviews": 33067,
+      "ccu": 212,
+      "price_usd": 6.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Clone Drone in the Danger Zone is a robot voxel slice-em-up where any part of your body can be sliced off. With your mind downloaded into a robot gladiator, you must survive the sinister trials of the arena.",
+      "steamUrl": "https://store.steampowered.com/app/597170/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/597170/4a9a9b609f2b0f738fdad11be0cb9f7111137e10/header_alt_assets_2.jpg?t=1774539907",
+      "score": 1550.6
+    },
+    {
+      "appid": "1536610",
+      "title": "OpenTTD",
+      "releaseYear": 2021,
+      "releaseDate": "Apr 1, 2021",
+      "rating": 96,
+      "reviews": 14394,
+      "ccu": 445,
+      "price_usd": 0.0,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "OpenTTD is a business simulation game in which players earn money by transporting passengers and cargo via road, rail, water, and air. It is an open-source remake and expansion of the 1995 Chris Sawyer video game Transport Tycoon Deluxe.",
+      "steamUrl": "https://store.steampowered.com/app/1536610/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1536610/header.jpg?t=1773680448",
+      "score": 1479.9
+    },
+    {
+      "appid": "488860",
+      "title": "MADNESS: Project Nexus",
+      "releaseYear": 2021,
+      "releaseDate": "Sep 29, 2021",
+      "rating": 97,
+      "reviews": 15798,
+      "ccu": 190,
+      "price_usd": 22.49,
       "coopModes": [
         "online",
         "local"
       ],
-      "description_en": "Pilgor's baaack! Gather your herd and venture forth into Goat Simulator 3; an all-new (at least on Steam), totally realistic, sandbox farmyard experience. Invite up to three friends in local or online co-op, create carnage as a team, or compete in mini-games and then not be friends anymore.",
-      "steamUrl": "https://store.steampowered.com/app/850190/",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/850190/8d86157e7fb48b963d95879e81b97ff9f7b619d5/header.jpg?t=1773922767",
-      "score": 1465.1
-    },
-    {
-      "appid": "799600",
-      "title": "Cosmoteer: Starship Architect & Commander",
-      "releaseYear": 2022,
-      "releaseDate": "Oct 24, 2022",
-      "rating": 95,
-      "reviews": 11171,
-      "ccu": 482,
-      "price_usd": 13.99,
-      "coopModes": [
-        "online"
-      ],
-      "description_en": "Design and simulate the starships of your dreams! Command your ship or fleet in epic battles and manage your crew while exploring a dangerous galaxy. Play alone or with friends, test your ships in online PvP, and let your imagination reach for the stars!",
-      "steamUrl": "https://store.steampowered.com/app/799600/",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/799600/header.jpg?t=1763998326",
-      "score": 1432.8
+      "description_en": "MADNESS: Project Nexus is a third-person Run n' Gun / Beat'Em Up filled with arcade-style action and button-mashing brutality. Gun your way through droves of bad guys in the Story Campaign, or build your perfect killing machine in the neverending onslaught of Arena Mode.",
+      "steamUrl": "https://store.steampowered.com/app/488860/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/488860/header.jpg?t=1680568111",
+      "score": 1430.3
     },
     {
       "appid": "633230",
@@ -60,24 +94,6 @@
       "steamUrl": "https://store.steampowered.com/app/633230/",
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/633230/header.jpg?t=1772147064",
       "score": 1427.7
-    },
-    {
-      "appid": "1337520",
-      "title": "Risk of Rain Returns",
-      "releaseYear": 2023,
-      "releaseDate": "Nov 8, 2023",
-      "rating": 90,
-      "reviews": 27823,
-      "ccu": 220,
-      "price_usd": 9.74,
-      "coopModes": [
-        "online",
-        "local"
-      ],
-      "description_en": "Carefully designed, beautifully remastered, and loaded with new ways to play—Risk of Rain is back and better than ever! Dive into the iconic roguelike full of unique loot combinations, enhanced with new Survivors, overhauled multiplayer, fan favorite content from Risk of Rain 2, and more!",
-      "steamUrl": "https://store.steampowered.com/app/1337520/",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1337520/header.jpg?t=1759857583",
-      "score": 1418.2
     },
     {
       "appid": "555160",
@@ -112,6 +128,40 @@
       "steamUrl": "https://store.steampowered.com/app/8980/",
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8980/header.jpg?t=1692308968",
       "score": 1383.6
+    },
+    {
+      "appid": "1096530",
+      "title": "Solasta: Crown of the Magister",
+      "releaseYear": 2021,
+      "releaseDate": "May 27, 2021",
+      "rating": 87,
+      "reviews": 20393,
+      "ccu": 396,
+      "price_usd": 7.49,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Roll for initiative, take attacks of opportunity, manage player location and the verticality of the battle field in this Turn-Based Tactical RPG based on the SRD 5.1 Ruleset. In Solasta, you make the choices, dice decide your destiny.",
+      "steamUrl": "https://store.steampowered.com/app/1096530/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1096530/header.jpg?t=1772029038",
+      "score": 1379.9
+    },
+    {
+      "appid": "1483870",
+      "title": "Draw & Guess",
+      "releaseYear": 2021,
+      "releaseDate": "Mar 12, 2021",
+      "rating": 84,
+      "reviews": 33675,
+      "ccu": 296,
+      "price_usd": 2.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "An online party game of drawing and guessing for up to 16 players with a variety of modes. Bring out the best (or worst) of your drawing and guessing skills!",
+      "steamUrl": "https://store.steampowered.com/app/1483870/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1483870/header.jpg?t=1750853008",
+      "score": 1374.2
     }
   ]
 }
