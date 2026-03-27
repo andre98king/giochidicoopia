@@ -24,8 +24,17 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import catalog_data
 
-ASSET_VERSION = "20260326"
+ASSET_VERSION = "20260327"
 SITE_URL = "https://coophubs.net"
+
+# Mapping IT slug → EN slug (used for hreflang alternate)
+HUB_EN_SLUGS: dict[str, str] = {
+    "migliori-giochi-coop-2026": "best-coop-games-2026",
+    "giochi-coop-local":         "local-coop-games",
+    "giochi-coop-2-giocatori":   "2-player-coop-games",
+    "giochi-coop-free":          "free-coop-games",
+    "giochi-coop-indie":         "indie-coop-games",
+}
 
 # ─── Definizioni hub pages ──────────────────────────────────────────────────
 
@@ -82,6 +91,51 @@ HUB_DEFS = [
                 ),
             ),
         ],
+        "en": {
+            "slug": "best-coop-games-2026",
+            "title_tag": "Best Co-op Games 2026 for PC | CoopHubs",
+            "meta_desc": "The best cooperative games for PC in 2026: top-rated new releases and classics still actively played, selected for co-op quality.",
+            "og_title": "Best Co-op Games 2026 for PC",
+            "h1": "Best Co-op Games 2026 for PC",
+            "kicker": "Curated Selection",
+            "subtitle": "New releases and timeless classics: the must-play co-op games in 2026, selected for quality and real player activity.",
+            "intro": (
+                "Finding the right co-op game in 2026 isn't easy: Steam lists thousands of titles "
+                "and top-rated classics often overshadow quality new releases."
+                "\n\n"
+                "This list uses two distinct criteria. "
+                "The first section covers games released from 2022 onwards with a high Steam rating — "
+                "modern titles like Split Fiction, R.E.P.O., Baldur's Gate 3 and Schedule I, "
+                "representing the best of co-op in the last three years. "
+                "The second section includes only classics still actively played in 2026, "
+                "measured by real concurrent players: Stardew Valley, Left 4 Dead 2, Terraria, "
+                "Don't Starve Together — old but not forgotten."
+                "\n\n"
+                "Each card shows game mode, player count and a link to the price comparison page."
+            ),
+            "schema_name": "Best Co-op Games 2026 for PC",
+            "sections_fn": lambda games: [
+                (
+                    "New Releases — from 2022 to 2026",
+                    _select_top(
+                        [g for g in games if g.get("releaseYear", 0) >= 2022 and g.get("rating", 0) >= 85],
+                        key_fn=_rating_ccu_key,
+                        top=24,
+                    ),
+                ),
+                (
+                    "Still Alive Classics — most played in 2026",
+                    _select_top(
+                        [g for g in games
+                         if g.get("releaseYear", 0) < 2022
+                         and g.get("ccu", 0) >= 5000
+                         and g.get("rating", 0) >= 90],
+                        key_fn=lambda g: -g.get("ccu", 0),
+                        top=12,
+                    ),
+                ),
+            ],
+        },
     },
     {
         "slug": "giochi-coop-local",
@@ -113,6 +167,38 @@ HUB_DEFS = [
             key_fn=_rating_ccu_key,
             top=48,
         ),
+        "en": {
+            "slug": "local-coop-games",
+            "title_tag": "Best Local Co-op Games for PC | CoopHubs",
+            "meta_desc": "The best local co-op, couch and split screen games for PC in 2026 — play together with whoever is next to you.",
+            "og_title": "Best Local Co-op Games for PC",
+            "h1": "Best Local Co-op Games for PC",
+            "kicker": "Couch & Split Screen",
+            "subtitle": "Play with who's next to you: the best local co-op, couch and split screen titles for PC in 2026.",
+            "intro": (
+                "Local co-op has a charm no internet connection can replicate: "
+                "playing side by side, on the same screen or with controllers in hand — "
+                "no ping, no disconnections, no explaining rules through chat."
+                "\n\n"
+                "This list collects the best local co-op games on PC in 2026, "
+                "selected for the quality of the shared gaming experience. "
+                "You'll find split screen, shared screen and couch co-op titles — "
+                "some designed for couples, others for groups of up to four players "
+                "around the same TV or monitor."
+                "\n\n"
+                "From co-op platformers like Rayman Legends to puzzle games like Unrailed!, "
+                "from action games like Cuphead to survival games like Don't Starve Together, "
+                "local co-op covers every genre. "
+                "Each card shows the maximum number of players supported locally "
+                "and the average Steam rating."
+            ),
+            "schema_name": "Best Local Co-op Games for PC — Couch and Split Screen",
+            "filter_fn": lambda games: _select_top(
+                [g for g in games if "local" in g.get("coopMode", []) and g.get("rating", 0) > 0],
+                key_fn=_rating_ccu_key,
+                top=48,
+            ),
+        },
     },
     {
         "slug": "giochi-coop-2-giocatori",
@@ -142,6 +228,36 @@ HUB_DEFS = [
             key_fn=_rating_ccu_key,
             top=40,
         ),
+        "en": {
+            "slug": "2-player-coop-games",
+            "title_tag": "Best 2-Player Co-op Games for PC | CoopHubs",
+            "meta_desc": "The best co-op games for 2 players on PC in 2026: games designed for couples and friends, online or local.",
+            "og_title": "Best 2-Player Co-op Games for PC",
+            "h1": "Best 2-Player Co-op Games for PC",
+            "kicker": "Couple & Duo",
+            "subtitle": "Co-op games designed for two: online or local, perfect for couples and friends.",
+            "intro": (
+                "Some co-op games are built exactly for two players — "
+                "not as a compromise on group multiplayer, "
+                "but as an experience designed around a pair."
+                "\n\n"
+                "This list features the best 2-player co-op games on PC in 2026, "
+                "selected from titles supporting a maximum of 2 players with a high Steam rating. "
+                "From co-op platformers like It Takes Two and Cuphead — true genre masterpieces — "
+                "to puzzlers like Portal 2, from roguelites like Roboquest "
+                "to adventure games like We Were Here."
+                "\n\n"
+                "Many of these titles support both online and local co-op: "
+                "you can play with your partner on the couch or with a friend far away in the same session. "
+                "The game mode is shown on each card so you know what to expect before you start."
+            ),
+            "schema_name": "Best 2-Player Co-op Games for PC",
+            "filter_fn": lambda games: _select_top(
+                [g for g in games if g.get("maxPlayers", 4) <= 2 and g.get("rating", 0) > 0],
+                key_fn=_rating_ccu_key,
+                top=40,
+            ),
+        },
     },
     {
         "slug": "giochi-coop-free",
@@ -173,6 +289,37 @@ HUB_DEFS = [
             [g for g in games if "free" in g.get("categories", []) and g.get("rating", 0) > 0],
             key=_rating_ccu_key,
         ),
+        "en": {
+            "slug": "free-coop-games",
+            "title_tag": "Best Free Co-op Games for PC | CoopHubs",
+            "meta_desc": "The best free-to-play cooperative games for PC in 2026 — play together without spending a penny.",
+            "og_title": "Best Free Co-op Games for PC",
+            "h1": "Best Free Co-op Games for PC",
+            "kicker": "Free to Play",
+            "subtitle": "Co-op without spending anything: the best free cooperative games for PC in 2026.",
+            "intro": (
+                "Playing together doesn't have to cost anything. "
+                "Steam has dozens of free cooperative games — some pure free-to-play, "
+                "others that went free after years of paid success."
+                "\n\n"
+                "This list collects the best free co-op games for PC in 2026, "
+                "ranked by quality according to Steam players. "
+                "From tactical shooters like Rainbow Six Siege to cooperative battle royales, "
+                "from card games like Legends of Runeterra to MMOs with group content."
+                "\n\n"
+                "All titles in this list are downloadable and playable for free on PC, "
+                "no initial purchase required. "
+                "Some have cosmetic microtransactions or optional premium content, "
+                "but the core co-op mode is accessible to everyone. "
+                "The Steam rating reflects average player satisfaction — "
+                "a good starting point to decide where to begin."
+            ),
+            "schema_name": "Best Free Co-op Games for PC — Free to Play 2026",
+            "filter_fn": lambda games: sorted(
+                [g for g in games if "free" in g.get("categories", []) and g.get("rating", 0) > 0],
+                key=_rating_ccu_key,
+            ),
+        },
     },
     {
         "slug": "giochi-coop-indie",
@@ -204,6 +351,38 @@ HUB_DEFS = [
             key_fn=_rating_ccu_key,
             top=48,
         ),
+        "en": {
+            "slug": "indie-coop-games",
+            "title_tag": "Best Indie Co-op Games for PC | CoopHubs",
+            "meta_desc": "The best independent co-op games for PC in 2026: creativity, originality and dozens of hours to play together.",
+            "og_title": "Best Indie Co-op Games for PC",
+            "h1": "Best Indie Co-op Games for PC",
+            "kicker": "Indie Co-op",
+            "subtitle": "The best independent titles with co-op mode: creativity, originality and dozens of hours together.",
+            "intro": (
+                "Indie games have transformed the co-op landscape. "
+                "While major publishers focus on live service and battle royale, "
+                "independent developers keep experimenting: "
+                "asymmetric mechanics, cooperative narratives, hybrid genres "
+                "that wouldn't exist anywhere else."
+                "\n\n"
+                "This list collects the best indie co-op games for PC in 2026, "
+                "selected from independent titles with the highest Steam ratings. "
+                "You'll find games like Stardew Valley — which redefined cooperative farm sims — "
+                "Vampire Survivors, Deep Rock Galactic and dozens of other titles worth discovering."
+                "\n\n"
+                "The indie co-op catalogue is vast and constantly growing: "
+                "new titles release every week, many of them surprisingly high quality. "
+                "This list updates regularly tracking Steam ratings, "
+                "so you can always find something worthwhile without spending hours searching."
+            ),
+            "schema_name": "Best Indie Co-op Games for PC 2026",
+            "filter_fn": lambda games: _select_top(
+                [g for g in games if "indie" in g.get("categories", []) and g.get("rating", 0) > 0],
+                key_fn=_rating_ccu_key,
+                top=48,
+            ),
+        },
     },
 ]
 
@@ -216,6 +395,10 @@ def esc(s: Any) -> str:
 
 def _mode_label(mode: str) -> str:
     return {"online": "Online", "local": "Locale", "split": "Split Screen"}.get(mode, mode)
+
+
+def _mode_label_en(mode: str) -> str:
+    return {"online": "Online", "local": "Local", "split": "Split Screen"}.get(mode, mode)
 
 
 def _render_card(game: dict) -> str:
@@ -250,9 +433,43 @@ def _render_card(game: dict) -> str:
     </a>"""
 
 
+def _render_card_en(game: dict) -> str:
+    title = game.get("title", "")
+    gid = game.get("id", "")
+    image = game.get("image", "")
+    rating = game.get("rating", 0)
+    _raw_desc = (game.get("description_en") or game.get("description") or "")
+    if len(_raw_desc) > 130:
+        desc = _raw_desc[:130].rsplit(" ", 1)[0] + "…"
+    else:
+        desc = _raw_desc
+    modes = game.get("coopMode", [])
+    players = game.get("players", "")
+
+    mode_tags = " ".join(
+        f'<span class="hub-tag">{_mode_label_en(m)}</span>' for m in modes
+    )
+    rating_html = f'<span class="hub-rating">{rating}%</span>' if rating else ""
+    players_html = f'<span class="hub-tag hub-tag-players">{esc(players)} players</span>' if players else ""
+
+    return f"""    <a class="hub-card" href="../games/en/{esc(gid)}.html">
+      <img src="{esc(image)}" alt="{esc(title)}" loading="lazy" width="460" height="215">
+      <div class="hub-card-body">
+        <div class="hub-card-top">
+          <h3 class="hub-card-title">{esc(title)}</h3>
+          {rating_html}
+        </div>
+        <div class="hub-card-tags">{mode_tags}{players_html}</div>
+        <p class="hub-card-desc">{esc(desc)}</p>
+      </div>
+    </a>"""
+
+
 def _render_page(defn: dict, games: list[dict], sections: list[tuple[str, list[dict]]] | None = None) -> str:
     slug = defn["slug"]
     canonical = f"{SITE_URL}/{slug}.html"
+    en_slug = HUB_EN_SLUGS.get(slug, "")
+    en_url = f"{SITE_URL}/en/{en_slug}.html" if en_slug else ""
     intro_paragraphs = "".join(
         f"      <p>{esc(p.strip())}</p>\n" for p in defn["intro"].split("\n\n") if p.strip()
     )
@@ -297,6 +514,7 @@ def _render_page(defn: dict, games: list[dict], sections: list[tuple[str, list[d
   <meta name="color-scheme" content="dark">
   <link rel="canonical" href="{canonical}">
   <link rel="alternate" hreflang="it" href="{canonical}">
+  <link rel="alternate" hreflang="en" href="{en_url}">
   <link rel="alternate" hreflang="x-default" href="{canonical}">
 
   <meta property="og:type" content="website">
@@ -398,16 +616,172 @@ def _render_page(defn: dict, games: list[dict], sections: list[tuple[str, list[d
 </html>"""
 
 
+def _render_page_en(en_defn: dict, it_slug: str, games: list[dict], sections: list[tuple[str, list[dict]]] | None = None) -> str:
+    en_slug = en_defn["slug"]
+    canonical = f"{SITE_URL}/en/{en_slug}.html"
+    it_url = f"{SITE_URL}/{it_slug}.html"
+    intro_paragraphs = "".join(
+        f"      <p>{esc(p.strip())}</p>\n" for p in en_defn["intro"].split("\n\n") if p.strip()
+    )
+
+    if sections:
+        count = sum(len(g) for _, g in sections)
+        sections_html_parts = []
+        for sec_title, sec_games in sections:
+            cards = "\n".join(_render_card_en(g) for g in sec_games)
+            sections_html_parts.append(
+                f'    <h2 class="hub-section-heading"><span>{esc(sec_title)}</span></h2>\n'
+                f'    <div class="hub-grid" aria-label="{esc(sec_title)}">\n{cards}\n    </div>'
+            )
+        grid_html = "\n\n".join(sections_html_parts)
+        content_html = f'    <p class="hub-count"><strong>{count}</strong> selected games — updated 2026</p>\n\n{grid_html}'
+    else:
+        cards_html = "\n".join(_render_card_en(g) for g in games)
+        count = len(games)
+        content_html = (
+            f'    <p class="hub-count"><strong>{count}</strong> selected games — updated 2026</p>\n\n'
+            f'    <div class="hub-grid" aria-label="Games">\n{cards_html}\n    </div>'
+        )
+
+    schema = {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": en_defn["schema_name"],
+        "url": canonical,
+        "description": en_defn["meta_desc"],
+        "inLanguage": "en",
+    }
+    import json
+    schema_json = json.dumps(schema, ensure_ascii=False)
+
+    return f"""<!DOCTYPE html>
+<html lang="en" data-default-lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>{esc(en_defn["title_tag"])}</title>
+  <meta name="description" content="{esc(en_defn["meta_desc"])}">
+  <meta name="theme-color" content="#7c6aff">
+  <meta name="color-scheme" content="dark">
+  <link rel="canonical" href="{canonical}">
+  <link rel="alternate" hreflang="en" href="{canonical}">
+  <link rel="alternate" hreflang="it" href="{it_url}">
+  <link rel="alternate" hreflang="x-default" href="{it_url}">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Coophubs">
+  <meta property="og:title" content="{esc(en_defn["og_title"])}">
+  <meta property="og:description" content="{esc(en_defn["subtitle"])}">
+  <meta property="og:url" content="{canonical}">
+  <meta property="og:image" content="{SITE_URL}/assets/og-image.jpg">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{esc(en_defn["og_title"])}">
+  <meta name="twitter:description" content="{esc(en_defn["subtitle"])}">
+  <meta name="twitter:image" content="{SITE_URL}/assets/og-image.jpg">
+
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/icon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/icon-180.png">
+  <link rel="stylesheet" href="../assets/style.css?v={ASSET_VERSION}">
+
+  <script id="pageJsonLd" type="application/ld+json">
+  {schema_json}
+  </script>
+
+  <style>
+    .hub-page {{ max-width: 1200px; margin: 0 auto; padding: 30px 20px 80px; position: relative; z-index: 1; }}
+    .hub-intro {{ background: linear-gradient(135deg, rgba(124,106,255,0.08), rgba(124,106,255,0.03)); border: 1px solid rgba(124,106,255,0.15); border-radius: 20px; padding: 28px 32px; margin-bottom: 40px; }}
+    .hub-kicker {{ font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: var(--accent); margin-bottom: 10px; }}
+    .hub-h1 {{ font-size: clamp(1.7rem, 4vw, 2.6rem); font-weight: 800; letter-spacing: -1.5px; margin-bottom: 8px; line-height: 1.15; }}
+    .hub-subtitle {{ color: var(--text2); font-size: 1rem; line-height: 1.65; margin-bottom: 0; }}
+    .hub-body {{ margin-top: 18px; }}
+    .hub-body p {{ color: var(--text2); font-size: 0.96rem; line-height: 1.75; margin-bottom: 12px; }}
+    .hub-body p:last-child {{ margin-bottom: 0; }}
+    .hub-count {{ color: var(--text2); font-size: 0.85rem; margin-bottom: 20px; }}
+    .hub-count strong {{ color: var(--text); }}
+    .hub-grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }}
+    .hub-card {{ display: flex; flex-direction: column; background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; text-decoration: none; color: inherit; transition: border-color 0.2s, transform 0.15s, box-shadow 0.2s; }}
+    .hub-card:hover {{ border-color: var(--accent); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(124,106,255,0.15); }}
+    .hub-card img {{ width: 100%; height: 160px; object-fit: cover; display: block; background: var(--bg3); }}
+    .hub-card-body {{ padding: 14px 16px 16px; display: flex; flex-direction: column; flex: 1; gap: 8px; }}
+    .hub-card-top {{ display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; }}
+    .hub-card-title {{ font-size: 0.95rem; font-weight: 700; line-height: 1.3; flex: 1; }}
+    .hub-rating {{ font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; font-weight: 700; color: var(--accent); white-space: nowrap; padding: 2px 6px; background: rgba(124,106,255,0.1); border-radius: 6px; }}
+    .hub-card-tags {{ display: flex; flex-wrap: wrap; gap: 5px; }}
+    .hub-tag {{ font-size: 0.68rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; padding: 2px 7px; border-radius: 5px; background: var(--bg3); color: var(--text2); }}
+    .hub-tag-players {{ color: var(--accent2); background: rgba(236,72,153,0.08); }}
+    .hub-card-desc {{ font-size: 0.82rem; color: var(--text2); line-height: 1.55; flex: 1; }}
+    .hub-section-heading {{ font-size: 1rem; font-weight: 700; color: var(--text); margin: 36px 0 16px; padding-bottom: 10px; border-bottom: 1px solid var(--border); }}
+    .hub-section-heading span {{ color: var(--accent); }}
+    @media (max-width: 600px) {{
+      .hub-intro {{ padding: 20px; }}
+      .hub-grid {{ grid-template-columns: 1fr; }}
+    }}
+  </style>
+</head>
+<body data-page="hub">
+  <canvas id="bgCanvas" class="bg-canvas" aria-hidden="true"></canvas>
+
+  <main class="hub-page">
+    <div class="page-head">
+      <a href="../" class="back-link">&larr; Back to catalog</a>
+      <div class="page-head-actions">
+        <button class="btn-lang" id="langBtn" onclick="setLang('it')" aria-label="Switch language">🇮🇹 IT</button>
+      </div>
+    </div>
+
+    <section class="hub-intro" aria-label="Introduction">
+      <div class="hub-kicker">{esc(en_defn["kicker"])}</div>
+      <h1 class="hub-h1">{esc(en_defn["h1"])}</h1>
+      <p class="hub-subtitle">{esc(en_defn["subtitle"])}</p>
+      <div class="hub-body">
+{intro_paragraphs}      </div>
+    </section>
+
+{content_html}
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">Co-op Games Hub</div>
+      <div class="footer-sub">Coophubs is an independent project dedicated to discovering cooperative games for PC.</div>
+      <div class="footer-links">
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+        <a href="../free.html">Free games</a>
+        <a href="../privacy.html">Privacy Policy</a>
+      </div>
+      <div class="footer-support">
+        <a href="https://ko-fi.com/coophubs" class="btn-kofi" target="_blank" rel="noopener noreferrer">☕ Support the project</a>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="footer-copy">&copy; 2026 — Data from Steam &amp; SteamSpy</div>
+    </div>
+  </footer>
+
+  <script src="../assets/i18n.js?v={ASSET_VERSION}" defer></script>
+  <script src="../assets/particles.js?v={ASSET_VERSION}" defer></script>
+</body>
+</html>"""
+
+
 # ─── Entry point ─────────────────────────────────────────────────────────────
 
 def run() -> list[str]:
-    """Genera tutte le hub pages. Restituisce la lista degli slug generati."""
+    """Genera tutte le hub pages IT e EN. Restituisce la lista degli slug IT generati."""
     games = catalog_data.load_games()
     generated: list[str] = []
+    en_dir = ROOT / "en"
+    en_dir.mkdir(exist_ok=True)
 
     for defn in HUB_DEFS:
         slug = defn["slug"]
+        en_defn = defn.get("en", {})
+        en_slug = en_defn.get("slug", "")
 
+        # --- IT page ---
         if "sections_fn" in defn:
             sections = defn["sections_fn"](games)
             total = sum(len(g) for _, g in sections)
@@ -432,6 +806,33 @@ def run() -> list[str]:
             print(f"  ✓ {slug}.html — scritta ({label})")
 
         generated.append(slug)
+
+        # --- EN page ---
+        if not en_defn or not en_slug:
+            continue
+
+        if "sections_fn" in en_defn:
+            en_sections = en_defn["sections_fn"](games)
+            en_total = sum(len(g) for _, g in en_sections)
+            if en_total == 0:
+                print(f"  ⚠ en/{en_slug}: no games selected, skip")
+                continue
+            en_content = _render_page_en(en_defn, slug, [], sections=en_sections)
+            en_label = f"{en_total} games in {len(en_sections)} sections"
+        else:
+            en_selected = en_defn["filter_fn"](games)
+            if not en_selected:
+                print(f"  ⚠ en/{en_slug}: no games selected, skip")
+                continue
+            en_content = _render_page_en(en_defn, slug, en_selected)
+            en_label = f"{len(en_selected)} games"
+
+        out_en = en_dir / f"{en_slug}.html"
+        if out_en.exists() and out_en.read_text(encoding="utf-8") == en_content:
+            print(f"  ✓ en/{en_slug}.html — unchanged ({en_label})")
+        else:
+            out_en.write_text(en_content, encoding="utf-8")
+            print(f"  ✓ en/{en_slug}.html — written ({en_label})")
 
     return generated
 

@@ -60,6 +60,7 @@ scripts/local/
 
 # Script di utilità locale (generatori one-shot, non in CI)
 scripts/generate_hub_pages_en.py
+scripts/discover_backfill.py
 
 # Asset duplicati/inutilizzati
 assets/og-image.png
