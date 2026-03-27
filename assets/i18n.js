@@ -544,7 +544,7 @@ const PAGE_METADATA = {
 };
 
 // ===== CURRENT LANG =====
-let currentLang = localStorage.getItem("coopLang") || "it";
+let currentLang = localStorage.getItem("coopLang") || document.documentElement.dataset.defaultLang || "it";
 
 // ===== TRANSLATE HELPER =====
 function t(key, ...args) {
