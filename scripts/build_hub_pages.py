@@ -15,6 +15,7 @@ Utilizzo:
 from __future__ import annotations
 
 import html as html_mod
+import json
 import sys
 from pathlib import Path
 from typing import Any
@@ -456,7 +457,6 @@ def _render_page(defn: dict, games: list[dict], sections: list[tuple[str, list[d
         "url": canonical,
         "description": defn["meta_desc"],
     }
-    import json
     schema_json = json.dumps(schema, ensure_ascii=False)
 
     return f"""<!DOCTYPE html>
@@ -470,7 +470,7 @@ def _render_page(defn: dict, games: list[dict], sections: list[tuple[str, list[d
   <meta name="color-scheme" content="dark">
   <link rel="canonical" href="{canonical}">
   <link rel="alternate" hreflang="it" href="{canonical}">
-  <link rel="alternate" hreflang="en" href="{en_url}">
+{f'  <link rel="alternate" hreflang="en" href="{en_url}">' if en_url else ''}
   <link rel="alternate" hreflang="x-default" href="{canonical}">
 
   <meta property="og:type" content="website">
@@ -533,7 +533,7 @@ def _render_page(defn: dict, games: list[dict], sections: list[tuple[str, list[d
     <div class="page-head">
       <a href="./" class="back-link">&larr; Torna al catalogo</a>
       <div class="page-head-actions">
-        <button class="btn-lang" id="langBtn" onclick="setLang(currentLang === 'it' ? 'en' : 'it')" aria-label="Cambia lingua">🇬🇧 EN</button>
+        <button class="btn-lang" id="langBtn" onclick="setLang('en'); location.href='{en_url}';" aria-label="Switch to English">🇬🇧 EN</button>
       </div>
     </div>
 
@@ -607,7 +607,6 @@ def _render_page_en(en_defn: dict, it_slug: str, games: list[dict], sections: li
         "description": en_defn["meta_desc"],
         "inLanguage": "en",
     }
-    import json
     schema_json = json.dumps(schema, ensure_ascii=False)
 
     return f"""<!DOCTYPE html>
@@ -684,7 +683,7 @@ def _render_page_en(en_defn: dict, it_slug: str, games: list[dict], sections: li
     <div class="page-head">
       <a href="../" class="back-link">&larr; Back to catalog</a>
       <div class="page-head-actions">
-        <button class="btn-lang" id="langBtn" onclick="setLang('it')" aria-label="Switch language">🇮🇹 IT</button>
+        <button class="btn-lang" id="langBtn" onclick="setLang('it'); location.href='{it_url}';" aria-label="Switch to Italian">🇮🇹 IT</button>
       </div>
     </div>
 
