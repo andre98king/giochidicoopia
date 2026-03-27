@@ -27,14 +27,6 @@ import catalog_data
 ASSET_VERSION = "20260327"
 SITE_URL = "https://coophubs.net"
 
-# Mapping IT slug → EN slug (used for hreflang alternate)
-HUB_EN_SLUGS: dict[str, str] = {
-    "migliori-giochi-coop-2026": "best-coop-games-2026",
-    "giochi-coop-local":         "local-coop-games",
-    "giochi-coop-2-giocatori":   "2-player-coop-games",
-    "giochi-coop-free":          "free-coop-games",
-    "giochi-coop-indie":         "indie-coop-games",
-}
 
 # ─── Definizioni hub pages ──────────────────────────────────────────────────
 
@@ -114,26 +106,9 @@ HUB_DEFS = [
                 "Each card shows game mode, player count and a link to the price comparison page."
             ),
             "schema_name": "Best Co-op Games 2026 for PC",
-            "sections_fn": lambda games: [
-                (
-                    "New Releases — from 2022 to 2026",
-                    _select_top(
-                        [g for g in games if g.get("releaseYear", 0) >= 2022 and g.get("rating", 0) >= 85],
-                        key_fn=_rating_ccu_key,
-                        top=24,
-                    ),
-                ),
-                (
-                    "Still Alive Classics — most played in 2026",
-                    _select_top(
-                        [g for g in games
-                         if g.get("releaseYear", 0) < 2022
-                         and g.get("ccu", 0) >= 5000
-                         and g.get("rating", 0) >= 90],
-                        key_fn=lambda g: -g.get("ccu", 0),
-                        top=12,
-                    ),
-                ),
+            "section_titles": [
+                "New Releases — from 2022 to 2026",
+                "Still Alive Classics — most played in 2026",
             ],
         },
     },
@@ -193,11 +168,6 @@ HUB_DEFS = [
                 "and the average Steam rating."
             ),
             "schema_name": "Best Local Co-op Games for PC — Couch and Split Screen",
-            "filter_fn": lambda games: _select_top(
-                [g for g in games if "local" in g.get("coopMode", []) and g.get("rating", 0) > 0],
-                key_fn=_rating_ccu_key,
-                top=48,
-            ),
         },
     },
     {
@@ -252,11 +222,6 @@ HUB_DEFS = [
                 "The game mode is shown on each card so you know what to expect before you start."
             ),
             "schema_name": "Best 2-Player Co-op Games for PC",
-            "filter_fn": lambda games: _select_top(
-                [g for g in games if g.get("maxPlayers", 4) <= 2 and g.get("rating", 0) > 0],
-                key_fn=_rating_ccu_key,
-                top=40,
-            ),
         },
     },
     {
@@ -315,10 +280,6 @@ HUB_DEFS = [
                 "a good starting point to decide where to begin."
             ),
             "schema_name": "Best Free Co-op Games for PC — Free to Play 2026",
-            "filter_fn": lambda games: sorted(
-                [g for g in games if "free" in g.get("categories", []) and g.get("rating", 0) > 0],
-                key=_rating_ccu_key,
-            ),
         },
     },
     {
@@ -377,11 +338,6 @@ HUB_DEFS = [
                 "so you can always find something worthwhile without spending hours searching."
             ),
             "schema_name": "Best Indie Co-op Games for PC 2026",
-            "filter_fn": lambda games: _select_top(
-                [g for g in games if "indie" in g.get("categories", []) and g.get("rating", 0) > 0],
-                key_fn=_rating_ccu_key,
-                top=48,
-            ),
         },
     },
 ]
@@ -468,7 +424,7 @@ def _render_card_en(game: dict) -> str:
 def _render_page(defn: dict, games: list[dict], sections: list[tuple[str, list[dict]]] | None = None) -> str:
     slug = defn["slug"]
     canonical = f"{SITE_URL}/{slug}.html"
-    en_slug = HUB_EN_SLUGS.get(slug, "")
+    en_slug = defn.get("en", {}).get("slug", "")
     en_url = f"{SITE_URL}/en/{en_slug}.html" if en_slug else ""
     intro_paragraphs = "".join(
         f"      <p>{esc(p.strip())}</p>\n" for p in defn["intro"].split("\n\n") if p.strip()
@@ -640,7 +596,7 @@ def _render_page_en(en_defn: dict, it_slug: str, games: list[dict], sections: li
         count = len(games)
         content_html = (
             f'    <p class="hub-count"><strong>{count}</strong> selected games — updated 2026</p>\n\n'
-            f'    <div class="hub-grid" aria-label="Games">\n{cards_html}\n    </div>'
+            f'    <section class="hub-grid" aria-label="Games">\n{cards_html}\n    </section>'
         )
 
     schema = {
@@ -807,25 +763,19 @@ def run() -> list[str]:
 
         generated.append(slug)
 
-        # --- EN page ---
+        # --- EN page (reuses IT game selection — same filter logic) ---
         if not en_defn or not en_slug:
             continue
 
-        if "sections_fn" in en_defn:
-            en_sections = en_defn["sections_fn"](games)
-            en_total = sum(len(g) for _, g in en_sections)
-            if en_total == 0:
-                print(f"  ⚠ en/{en_slug}: no games selected, skip")
-                continue
+        if "sections_fn" in defn:
+            # Replace IT section titles with EN equivalents; game lists are identical
+            en_titles = en_defn.get("section_titles", [t for t, _ in sections])
+            en_sections = [(en_titles[i], gl) for i, (_, gl) in enumerate(sections)]
             en_content = _render_page_en(en_defn, slug, [], sections=en_sections)
-            en_label = f"{en_total} games in {len(en_sections)} sections"
+            en_label = f"{sum(len(g) for _, g in en_sections)} games in {len(en_sections)} sections"
         else:
-            en_selected = en_defn["filter_fn"](games)
-            if not en_selected:
-                print(f"  ⚠ en/{en_slug}: no games selected, skip")
-                continue
-            en_content = _render_page_en(en_defn, slug, en_selected)
-            en_label = f"{len(en_selected)} games"
+            en_content = _render_page_en(en_defn, slug, selected)
+            en_label = f"{len(selected)} games"
 
         out_en = en_dir / f"{en_slug}.html"
         if out_en.exists() and out_en.read_text(encoding="utf-8") == en_content:
