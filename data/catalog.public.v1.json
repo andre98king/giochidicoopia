@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-27T14:20:10+00:00",
+  "generatedAt": "2026-03-27T14:50:08+00:00",
   "featuredIndieId": null,
   "games": [
     {
@@ -23063,6 +23063,131 @@
       "ccu": 272,
       "trending": false,
       "rating": 69,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0
+    },
+    {
+      "id": 586,
+      "slug": "goat-simulator-3",
+      "title": "Goat Simulator 3",
+      "categories": [
+        "action",
+        "indie"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2024,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/850190/header.jpg",
+      "description": "Pilgor è tornata! Riunisci il tuo gregge e avventurati in Goat Simulator 3: una sandbox completamente nuova (almeno su Steam) e totalmente realistica. Invita fino a tre amici in co-op locale od online.",
+      "description_en": "Pilgor is back! Gather your herd and venture forth into Goat Simulator 3; a totally realistic sandbox farmyard experience. Invite up to three friends in local or online co-op.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/850190/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 474,
+      "trending": false,
+      "rating": 98,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0
+    },
+    {
+      "id": 587,
+      "slug": "cosmoteer-starship-architect-and-commander",
+      "title": "Cosmoteer: Starship Architect & Commander",
+      "categories": [
+        "strategy",
+        "indie"
+      ],
+      "genres": [
+        "strategy",
+        "simulation"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 16,
+      "crossplay": false,
+      "players": "1-16",
+      "releaseYear": 2022,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/799600/header.jpg",
+      "description": "Progetta e simula le astronavi dei tuoi sogni! Comanda la tua flotta in battaglie epiche, gestisci l'equipaggio ed esplora una galassia pericolosa. Gioca da solo o con amici in co-op online.",
+      "description_en": "Design and simulate the starships of your dreams! Command your ship or fleet in epic battles and manage your crew while exploring a dangerous galaxy. Play alone or with friends in online co-op.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/799600/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 482,
+      "trending": false,
+      "rating": 95,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0
+    },
+    {
+      "id": 588,
+      "slug": "risk-of-rain-returns",
+      "title": "Risk of Rain Returns",
+      "categories": [
+        "action",
+        "roguelike",
+        "indie"
+      ],
+      "genres": [
+        "action",
+        "roguelike"
+      ],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2023,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1337520/header.jpg",
+      "description": "Attentamente riprogettato e rimastered, Risk of Rain Returns è tornato e meglio che mai! Tuffati nel roguelike iconico ricco di combinazioni di loot uniche. Giocabile in co-op online o locale fino a 4 giocatori.",
+      "description_en": "Carefully designed, beautifully remastered, and loaded with new ways to play — Risk of Rain is back and better than ever! Dive into the iconic roguelike full of unique loot combinations. Online or local co-op up to 4 players.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1337520/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 220,
+      "trending": false,
+      "rating": 90,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",

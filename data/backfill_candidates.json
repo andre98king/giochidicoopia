@@ -1,0 +1,117 @@
+{
+  "generated": "2026-03-27",
+  "min_year": 2022,
+  "max_year": 2024,
+  "filters": {
+    "min_rating": 72,
+    "min_reviews": 80,
+    "coop_verified_via_steam_categories": true
+  },
+  "count": 6,
+  "candidates": [
+    {
+      "appid": "850190",
+      "title": "Goat Simulator 3",
+      "releaseYear": 2024,
+      "releaseDate": "Feb 15, 2024",
+      "rating": 98,
+      "reviews": 10395,
+      "ccu": 474,
+      "price_usd": 29.99,
+      "coopModes": [
+        "online",
+        "local"
+      ],
+      "description_en": "Pilgor's baaack! Gather your herd and venture forth into Goat Simulator 3; an all-new (at least on Steam), totally realistic, sandbox farmyard experience. Invite up to three friends in local or online co-op, create carnage as a team, or compete in mini-games and then not be friends anymore.",
+      "steamUrl": "https://store.steampowered.com/app/850190/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/850190/8d86157e7fb48b963d95879e81b97ff9f7b619d5/header.jpg?t=1773922767",
+      "score": 1465.1
+    },
+    {
+      "appid": "799600",
+      "title": "Cosmoteer: Starship Architect & Commander",
+      "releaseYear": 2022,
+      "releaseDate": "Oct 24, 2022",
+      "rating": 95,
+      "reviews": 11171,
+      "ccu": 482,
+      "price_usd": 13.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Design and simulate the starships of your dreams! Command your ship or fleet in epic battles and manage your crew while exploring a dangerous galaxy. Play alone or with friends, test your ships in online PvP, and let your imagination reach for the stars!",
+      "steamUrl": "https://store.steampowered.com/app/799600/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/799600/header.jpg?t=1763998326",
+      "score": 1432.8
+    },
+    {
+      "appid": "633230",
+      "title": "NARUTO TO BORUTO: SHINOBI STRIKER",
+      "releaseYear": 2023,
+      "releaseDate": "Jun 29, 2023",
+      "rating": 84,
+      "reviews": 56030,
+      "ccu": 255,
+      "price_usd": 4.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Battle as a team of 4 to compete against other teams online! Graphically, SHINOBI STRIKER is also built from the ground up in a completely new graphic style. Lead your team and fight online to see who the best ninjas are!",
+      "steamUrl": "https://store.steampowered.com/app/633230/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/633230/header.jpg?t=1772147064",
+      "score": 1427.7
+    },
+    {
+      "appid": "1337520",
+      "title": "Risk of Rain Returns",
+      "releaseYear": 2023,
+      "releaseDate": "Nov 8, 2023",
+      "rating": 90,
+      "reviews": 27823,
+      "ccu": 220,
+      "price_usd": 9.74,
+      "coopModes": [
+        "online",
+        "local"
+      ],
+      "description_en": "Carefully designed, beautifully remastered, and loaded with new ways to play—Risk of Rain is back and better than ever! Dive into the iconic roguelike full of unique loot combinations, enhanced with new Survivors, overhauled multiplayer, fan favorite content from Risk of Rain 2, and more!",
+      "steamUrl": "https://store.steampowered.com/app/1337520/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1337520/header.jpg?t=1759857583",
+      "score": 1418.2
+    },
+    {
+      "appid": "555160",
+      "title": "Pavlov",
+      "releaseYear": 2024,
+      "releaseDate": "Dec 4, 2024",
+      "rating": 90,
+      "reviews": 39672,
+      "ccu": 107,
+      "price_usd": 24.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Pavlov is a multiplayer shooter in VR with heavy focus on community features. Realistic reloading features and fast paced combat as part of the core experience. Play the #1 most popular VR shooter on PC today.",
+      "steamUrl": "https://store.steampowered.com/app/555160/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/555160/header.jpg?t=1770745729",
+      "score": 1399.1
+    },
+    {
+      "appid": "8980",
+      "title": "Borderlands Game of the Year",
+      "releaseYear": 2023,
+      "releaseDate": "Aug 31, 2023",
+      "rating": 89,
+      "reviews": 32523,
+      "ccu": 142,
+      "price_usd": 29.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Get ready for the mind blowing insanity! Play as one of four trigger-happy mercenaries and take out everything that stands in your way! With its addictive action, frantic first-person shooter combat, massive arsenal of weaponry, RPG elements and four-player co-op, Borderlands is a breakthrough experience that challenges all the...",
+      "steamUrl": "https://store.steampowered.com/app/8980/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8980/header.jpg?t=1692308968",
+      "score": 1383.6
+    }
+  ]
+}
