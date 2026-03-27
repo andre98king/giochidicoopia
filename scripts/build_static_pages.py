@@ -21,7 +21,7 @@ SITEMAP = ROOT / "sitemap.xml"
 SITE_URL = "https://coophubs.net"
 TODAY = datetime.date.today().isoformat()
 CURRENT_YEAR = datetime.date.today().year
-ASSET_VERSION = "20260320"
+ASSET_VERSION = "20260327"
 CROSSPLAY_UI_ENABLED = True
 
 
