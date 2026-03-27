@@ -217,6 +217,13 @@ def main() -> int:
             for node in tree.findall("sm:url/sm:loc", namespace)
             if node.text and node.text.strip()
         }
+        hub_slug_pairs = [
+            ("migliori-giochi-coop-2026", "best-coop-games-2026"),
+            ("giochi-coop-local",         "local-coop-games"),
+            ("giochi-coop-2-giocatori",   "2-player-coop-games"),
+            ("giochi-coop-free",          "free-coop-games"),
+            ("giochi-coop-indie",         "indie-coop-games"),
+        ]
         expected_locs = {
             f"{build_static_pages.SITE_URL}/",
             f"{build_static_pages.SITE_URL}/about.html",
@@ -224,6 +231,10 @@ def main() -> int:
             f"{build_static_pages.SITE_URL}/free.html",
         }
         expected_locs.update(build_static_pages.page_url(game) for game in games)
+        expected_locs.update(build_static_pages.page_url_en(game) for game in games)
+        for it_slug, en_slug in hub_slug_pairs:
+            expected_locs.add(f"{build_static_pages.SITE_URL}/{it_slug}.html")
+            expected_locs.add(f"{build_static_pages.SITE_URL}/en/{en_slug}.html")
         missing_locs = sorted(expected_locs - locs)
         unexpected_locs = sorted(locs - expected_locs)
         if missing_locs:
