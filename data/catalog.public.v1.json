@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-28T14:58:31+00:00",
+  "generatedAt": "2026-03-28T20:13:57+00:00",
   "featuredIndieId": null,
   "games": [
     {
@@ -1002,7 +1002,8 @@
         "action"
       ],
       "coopMode": [
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -1128,7 +1129,8 @@
       ],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 7,
       "crossplay": true,
@@ -1270,7 +1272,7 @@
       "itchUrl": "",
       "ccu": 12494,
       "trending": true,
-      "rating": 58,
+      "rating": 69,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
@@ -2856,7 +2858,8 @@
       ],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 15,
       "crossplay": true,
@@ -3154,7 +3157,8 @@
       ],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 8,
       "crossplay": true,
@@ -3698,7 +3702,8 @@
       ],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -3739,7 +3744,8 @@
         "action"
       ],
       "coopMode": [
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 2,
       "crossplay": false,
@@ -4707,7 +4713,8 @@
         "roguelike"
       ],
       "coopMode": [
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -4748,7 +4755,8 @@
       ],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -4789,7 +4797,8 @@
       ],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 6,
       "crossplay": false,
@@ -4831,7 +4840,8 @@
       ],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -4916,7 +4926,8 @@
         "action"
       ],
       "coopMode": [
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -4957,7 +4968,8 @@
         "action"
       ],
       "coopMode": [
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -5001,7 +5013,8 @@
       ],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": true,
@@ -5087,7 +5100,8 @@
         "puzzle"
       ],
       "coopMode": [
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -5256,7 +5270,8 @@
       ],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -5428,7 +5443,8 @@
         "action"
       ],
       "coopMode": [
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 2,
       "crossplay": false,
@@ -5860,7 +5876,7 @@
       "itchUrl": "",
       "ccu": 644,
       "trending": false,
-      "rating": 43,
+      "rating": 55,
       "igUrl": "https://www.instant-gaming.com/en/6442-buy-steam-payday-3-pc-game-steam/?igr=gamer-ddc4a8",
       "igDiscount": 45,
       "gbUrl": "",
@@ -6000,7 +6016,6 @@
       "title": "Crab Game",
       "categories": [
         "action",
-        "splitscreen",
         "free"
       ],
       "genres": [
@@ -6134,7 +6149,8 @@
       ],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -6259,7 +6275,8 @@
       ],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -7071,51 +7088,6 @@
       "gsUrl": "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Ffarming-simulator-25-pc-steam-key-global&cjsku=SW21628",
       "gsDiscount": 0,
       "kgUrl": "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F248322%2Ffarming-simulator-25-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=248322",
-      "kgDiscount": 0,
-      "gmvUrl": "",
-      "gmvDiscount": 0
-    },
-    {
-      "id": 185,
-      "slug": "efootball",
-      "title": "eFootball",
-      "categories": [
-        "sport",
-        "strategy",
-        "splitscreen",
-        "free"
-      ],
-      "genres": [
-        "sport",
-        "strategy"
-      ],
-      "coopMode": [
-        "online",
-        "local",
-        "split"
-      ],
-      "maxPlayers": 4,
-      "crossplay": true,
-      "players": "1-4",
-      "releaseYear": 2021,
-      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1665460/header.jpg",
-      "description": "Fatti avanti e prova l'emozionante gioco di calcio che ha ormai superato gli 950 milioni di download! Le star di oggi, le leggende del passato e gli utenti di tutto il mondo ti stanno aspettando!",
-      "description_en": "Step up and experience the exhilarating soccer game that has now surpassed 950 million downloads! The stars of today, legends of the past, and fellow users from around the world are all waiting for you!",
-      "personalNote": "",
-      "played": false,
-      "steamUrl": "https://store.steampowered.com/app/1665460/",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 13404,
-      "trending": true,
-      "rating": 48,
-      "igUrl": "https://www.instant-gaming.com/en/7551-buy-steam-efootball-pes-2021-season-update-bayern-munchen-edition-bayern-munchen-edition-pc-game-steam/?igr=gamer-ddc4a8",
-      "igDiscount": 79,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fefootball-pes-2021-season-update-arsenal-edition-pc-steam-key-ru-cis&cjsku=141638",
-      "gsDiscount": 0,
-      "kgUrl": "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F77052%2Fefootball-pes-2021-season-update-standard-edition-ru-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=77052",
       "kgDiscount": 0,
       "gmvUrl": "",
       "gmvDiscount": 0
@@ -8347,7 +8319,6 @@
       "slug": "powerwash-simulator",
       "title": "PowerWash Simulator",
       "categories": [
-        "splitscreen",
         "puzzle"
       ],
       "genres": [
@@ -8973,7 +8944,8 @@
         "puzzle"
       ],
       "coopMode": [
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 2,
       "crossplay": false,
@@ -9142,7 +9114,8 @@
         "action"
       ],
       "coopMode": [
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -9731,7 +9704,8 @@
         "action"
       ],
       "coopMode": [
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 2,
       "crossplay": false,
@@ -10093,7 +10067,6 @@
       "title": "Tower Unite",
       "categories": [
         "indie",
-        "splitscreen",
         "action"
       ],
       "genres": [
@@ -10341,8 +10314,7 @@
       "title": "RV There Yet?",
       "categories": [
         "indie",
-        "action",
-        "splitscreen"
+        "action"
       ],
       "genres": [
         "action"
@@ -10472,7 +10444,8 @@
         "action"
       ],
       "coopMode": [
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 2,
       "crossplay": false,
@@ -10598,7 +10571,8 @@
       ],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": true,
@@ -10724,7 +10698,8 @@
         "rpg"
       ],
       "coopMode": [
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 2,
       "crossplay": false,
@@ -11099,7 +11074,9 @@
         "puzzle"
       ],
       "coopMode": [
-        "online"
+        "online",
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": true,
@@ -11182,7 +11159,8 @@
       ],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 2,
       "crossplay": false,
@@ -11266,7 +11244,8 @@
       ],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -11343,7 +11322,6 @@
       "title": "CarX Drift Racing Online",
       "categories": [
         "sport",
-        "splitscreen",
         "strategy"
       ],
       "genres": [
@@ -11510,7 +11488,6 @@
       "title": "Rec Room",
       "categories": [
         "action",
-        "splitscreen",
         "free"
       ],
       "genres": [
@@ -14550,7 +14527,8 @@
       "categories": [
         "indie",
         "factory",
-        "strategy"
+        "strategy",
+        "splitscreen"
       ],
       "genres": [
         "factory",
@@ -21941,7 +21919,8 @@
       "categories": [
         "sport",
         "strategy",
-        "action"
+        "action",
+        "splitscreen"
       ],
       "genres": [
         "sport",
@@ -22390,7 +22369,8 @@
       "genres": [],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -22428,7 +22408,8 @@
       ],
       "genres": [],
       "coopMode": [
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -22466,7 +22447,8 @@
       ],
       "genres": [],
       "coopMode": [
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -22504,7 +22486,8 @@
       ],
       "genres": [],
       "coopMode": [
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -22542,7 +22525,8 @@
       ],
       "genres": [],
       "coopMode": [
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -22581,7 +22565,8 @@
       "genres": [],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -22620,7 +22605,8 @@
       "genres": [],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -22737,7 +22723,8 @@
       "genres": [],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -22775,7 +22762,8 @@
       ],
       "genres": [],
       "coopMode": [
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -22813,7 +22801,8 @@
       ],
       "genres": [],
       "coopMode": [
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
