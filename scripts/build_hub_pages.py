@@ -56,8 +56,9 @@ HUB_DEFS = [
             "La prima sezione raccoglie i giochi usciti dal 2022 in poi con rating elevato su Steam — "
             "titoli moderni come Split Fiction, R.E.P.O., Baldur's Gate 3 e Schedule I, "
             "che rappresentano il meglio del co-op negli ultimi tre anni. "
-            "La seconda sezione include solo i classici che sono ancora attivamente giocati nel 2026, "
-            "misurati dai giocatori concorrenti reali: Stardew Valley, Left 4 Dead 2, Terraria, "
+            "La seconda sezione raccoglie i classici imprescindibili: quelli ancora attivamente giocati nel 2026 "
+            "per CCU reale e quelli con rating Steam ≥ 95% — "
+            "Stardew Valley, Left 4 Dead 2, Tetris® Effect, Terraria, "
             "Don't Starve Together — vecchi ma non dimenticati."
             "\n\n"
             "Ogni scheda indica modalità di gioco, numero di giocatori e link alla pagina con confronto prezzi."
@@ -73,13 +74,12 @@ HUB_DEFS = [
                 ),
             ),
             (
-                "Classici ancora vivi — i più giocati nel 2026",
+                "Classici imprescindibili — i più giocati o i meglio valutati",
                 _select_top(
                     [g for g in games
                      if g.get("releaseYear", 0) < 2022
-                     and g.get("ccu", 0) >= 5000
-                     and g.get("rating", 0) >= 90],
-                    key_fn=lambda g: -g.get("ccu", 0),
+                     and (g.get("ccu", 0) >= 5000 or g.get("rating", 0) >= 95)],
+                    key_fn=lambda g: (-g.get("rating", 0), -g.get("ccu", 0)),
                     top=12,
                 ),
             ),
@@ -100,8 +100,9 @@ HUB_DEFS = [
                 "The first section covers games released from 2022 onwards with a high Steam rating — "
                 "modern titles like Split Fiction, R.E.P.O., Baldur's Gate 3 and Schedule I, "
                 "representing the best of co-op in the last three years. "
-                "The second section includes only classics still actively played in 2026, "
-                "measured by real concurrent players: Stardew Valley, Left 4 Dead 2, Terraria, "
+                "The second section covers essential classics: those still actively played in 2026 "
+                "by real concurrent players, plus games with a Steam rating of 95%+ — "
+                "Stardew Valley, Left 4 Dead 2, Tetris® Effect, Terraria, "
                 "Don't Starve Together — old but not forgotten."
                 "\n\n"
                 "Each card shows game mode, player count and a link to the price comparison page."
@@ -109,7 +110,7 @@ HUB_DEFS = [
             "schema_name": "Best Co-op Games 2026 for PC",
             "section_titles": [
                 "New Releases — from 2022 to 2026",
-                "Still Alive Classics — most played in 2026",
+                "Essential Classics — most played or top-rated",
             ],
         },
     },

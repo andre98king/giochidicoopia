@@ -178,6 +178,14 @@ def search_gameseal(session, title: str) -> tuple[str, int]:
 
         price = _parse_price((best.get("price") or {}).get("amount"))
         sale_price = _parse_price((best.get("salePrice") or {}).get("amount"))
+        raw_sale = (best.get("salePrice") or {})
+
+        # Diagnostic: log first 5 matches to detect if CJ ever returns salePrice for GS
+        if not hasattr(search_gameseal, "_diag_count"):
+            search_gameseal._diag_count = 0
+        if search_gameseal._diag_count < 5:
+            search_gameseal._diag_count += 1
+            print(f"  [GS diag] '{best.get('title')}' price={best.get('price')} salePrice={raw_sale}")
 
         if price > 0 and sale_price > 0 and sale_price < price:
             discount = round((price - sale_price) / price * 100)

@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-28T14:20:22+00:00",
+  "generatedAt": "2026-03-28T14:53:45+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": null,
   "stats": {
-    "games": 577,
+    "games": 576,
     "played": 12,
     "trending": 54,
-    "withEnglishDescription": 577,
+    "withEnglishDescription": 576,
     "categoryCounts": {
       "action": 309,
       "factory": 62,
@@ -21,13 +21,13 @@
       "roguelike": 30,
       "rpg": 100,
       "splitscreen": 235,
-      "sport": 21,
+      "sport": 20,
       "strategy": 104,
       "survival": 104
     },
     "storeCounts": {
       "epic": 53,
-      "gog": 26,
+      "gog": 25,
       "itch": 151,
       "steam": 400
     }
@@ -50359,90 +50359,6 @@
         {
           "store": "gog",
           "url": "https://www.gog.com/en/game/kizuna_encounter_super_tag_battle",
-          "externalId": null
-        }
-      ],
-      "externalIds": {},
-      "signals": {
-        "ccu": 0,
-        "trending": false,
-        "rating": 0
-      },
-      "editorial": {
-        "played": false,
-        "personalNote": ""
-      },
-      "sourceMeta": {
-        "ingestSource": "games.js",
-        "schemaVersion": 1
-      }
-    },
-    {
-      "id": 584,
-      "igdbId": 39843,
-      "title": "SOCCER BRAWL",
-      "categories": [
-        "sport"
-      ],
-      "genres": [
-        "sport"
-      ],
-      "coopMode": [
-        "online"
-      ],
-      "maxPlayers": 4,
-      "crossplay": false,
-      "players": "1-4",
-      "releaseYear": 0,
-      "image": "https://images.gog-statics.com/2b244f77ba21a6700ec3d7ba588bedc84b3c417cc32dc00290167249d58f6ac8.png",
-      "description": "SOCCER BRAWL is a soccer game released by SNK in 1992. Sparks fly as teams representing 8 different countries battle for the championship. Staged in the near future, teams feature 7 robot players instead of the normal 11 players, allowing the defence to also go on the attack and for a variety of arrangements.",
-      "description_en": "SOCCER BRAWL is a soccer game released by SNK in 1992. Sparks fly as teams representing 8 different countries battle for the championship. Staged in the near future, teams feature 7 robot players instead of the normal 11 players, allowing the defence to also go on the attack and for a variety of arrangements.",
-      "personalNote": "",
-      "played": false,
-      "steamUrl": "",
-      "gogUrl": "https://www.gog.com/en/game/soccer_brawl",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 0,
-      "trending": false,
-      "rating": 0,
-      "igUrl": "",
-      "igDiscount": 0,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "",
-      "gsDiscount": 0,
-      "kgUrl": "",
-      "kgDiscount": 0,
-      "gmvUrl": "",
-      "gmvDiscount": 0,
-      "slug": "soccer-brawl",
-      "isFeaturedIndie": false,
-      "descriptions": {
-        "it": "SOCCER BRAWL is a soccer game released by SNK in 1992. Sparks fly as teams representing 8 different countries battle for the championship. Staged in the near future, teams feature 7 robot players instead of the normal 11 players, allowing the defence to also go on the attack and for a variety of arrangements.",
-        "en": "SOCCER BRAWL is a soccer game released by SNK in 1992. Sparks fly as teams representing 8 different countries battle for the championship. Staged in the near future, teams feature 7 robot players instead of the normal 11 players, allowing the defence to also go on the attack and for a variety of arrangements."
-      },
-      "taxonomy": {
-        "categories": [
-          "sport"
-        ],
-        "genres": [
-          "sport"
-        ]
-      },
-      "capabilities": {
-        "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
-        "crossplay": false,
-        "playersLabel": "1-4",
-        "maxPlayers": 4
-      },
-      "storefronts": [
-        {
-          "store": "gog",
-          "url": "https://www.gog.com/en/game/soccer_brawl",
           "externalId": null
         }
       ],

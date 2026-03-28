@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-28T14:20:22+00:00",
+  "generatedAt": "2026-03-28T14:53:45+00:00",
   "featuredIndieId": null,
   "games": [
     {
@@ -22976,45 +22976,6 @@
       "image": "https://images.gog-statics.com/83be8939c7b2830d7f8712559f3821a8b17c7584c17bb0cbb33896f84468052c.png",
       "description": "KIZUNA ENCOUNTER is a fighting game released by SNK in 1996. Create a team of two fighters and use weapons and your fists to win in single-round sudden death tag-team matches! Experience the feel of an advanced battle system that pairs mid-battle character change-ups and easy commands leading to rush combos!",
       "description_en": "KIZUNA ENCOUNTER is a fighting game released by SNK in 1996. Create a team of two fighters and use weapons and your fists to win in single-round sudden death tag-team matches! Experience the feel of an advanced battle system that pairs mid-battle character change-ups and easy commands leading to rush combos!",
-      "personalNote": "",
-      "played": false,
-      "steamUrl": "",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 0,
-      "trending": false,
-      "rating": 0,
-      "igUrl": "",
-      "igDiscount": 0,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "",
-      "gsDiscount": 0,
-      "kgUrl": "",
-      "kgDiscount": 0,
-      "gmvUrl": "",
-      "gmvDiscount": 0
-    },
-    {
-      "id": 584,
-      "slug": "soccer-brawl",
-      "title": "SOCCER BRAWL",
-      "categories": [
-        "sport"
-      ],
-      "genres": [
-        "sport"
-      ],
-      "coopMode": [
-        "online"
-      ],
-      "maxPlayers": 4,
-      "crossplay": false,
-      "players": "1-4",
-      "releaseYear": 0,
-      "image": "https://images.gog-statics.com/2b244f77ba21a6700ec3d7ba588bedc84b3c417cc32dc00290167249d58f6ac8.png",
-      "description": "SOCCER BRAWL is a soccer game released by SNK in 1992. Sparks fly as teams representing 8 different countries battle for the championship. Staged in the near future, teams feature 7 robot players instead of the normal 11 players, allowing the defence to also go on the attack and for a variety of arrangements.",
-      "description_en": "SOCCER BRAWL is a soccer game released by SNK in 1992. Sparks fly as teams representing 8 different countries battle for the championship. Staged in the near future, teams feature 7 robot players instead of the normal 11 players, allowing the defence to also go on the attack and for a variety of arrangements.",
       "personalNote": "",
       "played": false,
       "steamUrl": "",
