@@ -20,7 +20,7 @@ Uso locale : python3 auto_update.py
 CI (GitHub): eseguito automaticamente da .github/workflows/update.yml
 """
 
-import datetime, json, re
+import datetime, json, re, time, urllib.request
 
 import catalog_data
 from catalog_config import *          # noqa: F403 – tutte le costanti di progetto
@@ -123,6 +123,30 @@ print(f"  Rating aggiornati: {updated_rating}")
 print(f"  Trending 🔥      : {sum(1 for g in existing_games if g['trending'])}")
 
 
+def _fetch_steam_store_reviews(appid: str) -> tuple[int, int]:
+    """Fallback: legge conteggio recensioni dalla store page Steam.
+    Usato per giochi F2P dove SteamSpy non espone positive/negative.
+    Restituisce (positive, negative) all-time, oppure (0, 0) se non trovato."""
+    try:
+        time.sleep(DELAY)
+        req = urllib.request.Request(
+            f"https://store.steampowered.com/app/{appid}/",
+            headers={"User-Agent": "Mozilla/5.0", "Accept-Language": "en-US,en;q=0.9"},
+        )
+        html = urllib.request.urlopen(req, timeout=15).read().decode("utf-8", errors="ignore")
+        # "for this game" distingue le review del gioco dai giochi correlati nel DOM
+        matches = re.findall(r"(\d+)%\s+of the\s+([\d,]+)\s+user reviews\s+for this game", html)
+        if matches:
+            pct, cnt = max(matches, key=lambda m: int(m[1].replace(",", "")))
+            total = int(cnt.replace(",", ""))
+            if total >= 10:
+                pos = round(total * int(pct) / 100)
+                return pos, total - pos
+    except Exception:
+        pass
+    return 0, 0
+
+
 # ─────────── Fallback CCU: query SteamSpy per giochi con CCU 0 ────────────
 zero_ccu_games = [g for g in existing_games if g.get('ccu', 0) == 0 and appid_from_url(g.get('steamUrl', ''))]
 print(f"\n🔍 Fallback CCU: {len(zero_ccu_games)} giochi con CCU 0, query SteamSpy individuale...")
@@ -144,6 +168,12 @@ for g in zero_ccu_games:
     neg = spy.get('negative', 0) or 0
     if pos + neg >= 10:
         g['rating'] = calc_rating(pos, neg)
+    elif pos + neg == 0 and g.get('rating', 0) == 0:
+        # SteamSpy non ha dati recensioni (tipico per giochi F2P) — fallback Steam store page
+        steam_pos, steam_neg = _fetch_steam_store_reviews(aid)
+        if steam_pos + steam_neg >= 10:
+            g['rating'] = calc_rating(steam_pos, steam_neg)
+            print(f"    ↳ Steam store fallback [{g['id']}] {g['title']}: rating={g['rating']}")
 
 print(f"  Fallback CCU trovati: {fallback_ok}  |  Ancora 0 o errore: {len(zero_ccu_games) - fallback_ok}")
 
