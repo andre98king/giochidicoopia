@@ -66,3 +66,13 @@ scripts/discover_backfill.py
 assets/og-image.png
 assets/og-image-opt.png
 assets/coophubs_logo.png
+
+# File interni di lavoro (non per il sito)
+data/backfill_candidates.json
+data/scraper_log.jsonl
+
+# Claude Code (config locale)
+.claude/
+
+# Documenti di pianificazione interni
+progetto seo.md
