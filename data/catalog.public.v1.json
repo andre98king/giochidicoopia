@@ -20387,8 +20387,7 @@
       "slug": "dragonkin-the-banished",
       "title": "Dragonkin: The Banished",
       "categories": [
-        "action",
-        "splitscreen"
+        "action"
       ],
       "genres": [
         "action"
@@ -22902,7 +22901,7 @@
       "steamUrl": "https://store.steampowered.com/app/491540/",
       "epicUrl": "",
       "itchUrl": "",
-      "ccu": 164,
+      "ccu": 0,
       "trending": false,
       "rating": 74,
       "igUrl": "",

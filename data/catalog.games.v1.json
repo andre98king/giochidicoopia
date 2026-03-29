@@ -44708,8 +44708,7 @@
       "igdbId": 288865,
       "title": "Dragonkin: The Banished",
       "categories": [
-        "action",
-        "splitscreen"
+        "action"
       ],
       "genres": [
         "action"
@@ -44751,8 +44750,7 @@
       },
       "taxonomy": {
         "categories": [
-          "action",
-          "splitscreen"
+          "action"
         ],
         "genres": [
           "action"
@@ -50141,7 +50139,7 @@
       "gogUrl": "",
       "epicUrl": "",
       "itchUrl": "",
-      "ccu": 164,
+      "ccu": 0,
       "trending": false,
       "rating": 74,
       "igUrl": "",
@@ -50188,7 +50186,7 @@
         "steamAppId": "491540"
       },
       "signals": {
-        "ccu": 164,
+        "ccu": 0,
         "trending": false,
         "rating": 74
       },
