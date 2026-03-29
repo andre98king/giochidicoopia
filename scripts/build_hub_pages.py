@@ -42,17 +42,17 @@ def _rating_ccu_key(g: dict):
 HUB_DEFS = [
     {
         "slug": "migliori-giochi-coop-2026",
-        "title_tag": "Migliori Giochi Co-op 2026 per PC | CoopHubs",
-        "meta_desc": "I migliori giochi cooperativi per PC nel 2026: nuove uscite con alto rating Steam e classici ancora attivissimi, selezionati per qualità dell'esperienza co-op.",
-        "og_title": "Migliori Giochi Co-op 2026 per PC",
+        "title_tag": "I 575 Migliori Giochi Co-op PC del 2026 (Aggiornato) | CoopHubs",
+        "meta_desc": "La classifica dei 575 migliori giochi cooperativi per PC nel 2026. Nuove uscite 🔥 e classici immortali selezionati per qualità e attività reale. Aggiornato a Marzo 2026.",
+        "og_title": "I 575 Migliori Giochi Co-op PC del 2026",
         "h1": "Migliori Giochi Co-op 2026 per PC",
-        "kicker": "Selezione curata",
-        "subtitle": "Nuove uscite e classici senza tempo: i co-op da non perdere nel 2026, selezionati per qualità e attività reale dei giocatori.",
+        "kicker": "Classifica 2026",
+        "subtitle": "575+ Giochi Selezionati: le nuove uscite e i classici co-op da non perdere nel 2026, testati per qualità e attività reale dei giocatori.",
         "intro": (
             "Trovare il gioco co-op giusto nel 2026 non è semplice: Steam conta migliaia di titoli "
             "e i classici con voti altissimi spesso oscurano le uscite recenti di qualità."
             "\n\n"
-            "Questa lista usa due criteri distinti. "
+            "Questa lista, aggiornata a Marzo 2026, usa due criteri distinti. "
             "La prima sezione raccoglie i giochi usciti dal 2022 in poi con rating elevato su Steam — "
             "titoli moderni come Split Fiction, R.E.P.O., Baldur's Gate 3 e Schedule I, "
             "che rappresentano il meglio del co-op negli ultimi tre anni. "
@@ -228,9 +228,9 @@ HUB_DEFS = [
     },
     {
         "slug": "giochi-coop-free",
-        "title_tag": "Giochi Co-op Gratis per PC — Free to Play 2026 | CoopHubs",
-        "meta_desc": "I migliori giochi co-op gratuiti per PC nel 2026: free to play con modalità cooperativa online, senza pagare nulla per iniziare.",
-        "og_title": "Giochi Co-op Gratis per PC — Free to Play 2026",
+        "title_tag": "Migliori Giochi Co-op GRATIS PC 2026 (Free to Play) | CoopHubs",
+        "meta_desc": "I migliori giochi co-op gratuiti per PC nel 2026: la lista definitiva dei free to play cooperativi online. Gioca senza spendere un centesimo.",
+        "og_title": "Migliori Giochi Co-op GRATIS PC 2026",
         "h1": "Migliori Giochi Co-op Gratis per PC",
         "kicker": "Free to Play",
         "subtitle": "Co-op senza spendere nulla: i migliori giochi cooperativi gratuiti per PC nel 2026.",
