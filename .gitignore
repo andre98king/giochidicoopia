@@ -70,6 +70,7 @@ assets/coophubs_logo.png
 # File interni di lavoro (non per il sito)
 data/backfill_candidates.json
 data/scraper_log.jsonl
+ROADMAP_STATUS.md
 
 # Claude Code (config locale)
 .claude/
