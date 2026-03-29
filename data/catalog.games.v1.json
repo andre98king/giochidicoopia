@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-29T07:24:06+00:00",
+  "generatedAt": "2026-03-29T23:14:28+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
@@ -2250,7 +2250,8 @@
         "action"
       ],
       "coopMode": [
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -2299,8 +2300,8 @@
       "capabilities": {
         "onlineCoop": false,
         "localCoop": true,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-4 (locale)",
         "maxPlayers": 4
@@ -2533,7 +2534,8 @@
       ],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 7,
       "crossplay": true,
@@ -2580,8 +2582,8 @@
       "capabilities": {
         "onlineCoop": true,
         "localCoop": true,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": true,
         "playersLabel": "1-7",
         "maxPlayers": 7
@@ -6416,7 +6418,8 @@
       ],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 15,
       "crossplay": true,
@@ -6464,8 +6467,8 @@
       "capabilities": {
         "onlineCoop": true,
         "localCoop": true,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": true,
         "playersLabel": "1-15",
         "maxPlayers": 15
@@ -7087,7 +7090,8 @@
       ],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 8,
       "crossplay": true,
@@ -7133,8 +7137,8 @@
       "capabilities": {
         "onlineCoop": true,
         "localCoop": true,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": true,
         "playersLabel": "1-8",
         "maxPlayers": 8
@@ -8303,7 +8307,8 @@
       ],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -8352,8 +8357,8 @@
       "capabilities": {
         "onlineCoop": true,
         "localCoop": true,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-4",
         "maxPlayers": 4
@@ -8395,7 +8400,8 @@
         "action"
       ],
       "coopMode": [
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 2,
       "crossplay": false,
@@ -8442,8 +8448,8 @@
       "capabilities": {
         "onlineCoop": false,
         "localCoop": true,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-2",
         "maxPlayers": 2
@@ -10540,7 +10546,8 @@
         "roguelike"
       ],
       "coopMode": [
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -10589,8 +10596,8 @@
       "capabilities": {
         "onlineCoop": false,
         "localCoop": true,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-4",
         "maxPlayers": 4
@@ -10632,7 +10639,8 @@
       ],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -10678,8 +10686,8 @@
       "capabilities": {
         "onlineCoop": true,
         "localCoop": true,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-4",
         "maxPlayers": 4
@@ -10721,7 +10729,8 @@
       ],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 6,
       "crossplay": false,
@@ -10767,8 +10776,8 @@
       "capabilities": {
         "onlineCoop": true,
         "localCoop": true,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-6",
         "maxPlayers": 6
@@ -10811,7 +10820,8 @@
       ],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -10858,8 +10868,8 @@
       "capabilities": {
         "onlineCoop": true,
         "localCoop": true,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-4",
         "maxPlayers": 4
@@ -10999,7 +11009,8 @@
         "action"
       ],
       "coopMode": [
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -11048,8 +11059,8 @@
       "capabilities": {
         "onlineCoop": false,
         "localCoop": true,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-4",
         "maxPlayers": 4
@@ -11091,7 +11102,8 @@
         "action"
       ],
       "coopMode": [
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -11138,8 +11150,8 @@
       "capabilities": {
         "onlineCoop": false,
         "localCoop": true,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-4",
         "maxPlayers": 4
@@ -11184,7 +11196,8 @@
       ],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": true,
@@ -11233,8 +11246,8 @@
       "capabilities": {
         "onlineCoop": true,
         "localCoop": true,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": true,
         "playersLabel": "1-4",
         "maxPlayers": 4
@@ -11371,7 +11384,8 @@
         "puzzle"
       ],
       "coopMode": [
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -11419,8 +11433,8 @@
       "capabilities": {
         "onlineCoop": false,
         "localCoop": true,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-4",
         "maxPlayers": 4
@@ -11741,7 +11755,8 @@
       ],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -11789,8 +11804,8 @@
       "capabilities": {
         "onlineCoop": true,
         "localCoop": true,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-4",
         "maxPlayers": 4
@@ -11832,7 +11847,8 @@
       ],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 2,
       "crossplay": false,
@@ -11878,8 +11894,8 @@
       "capabilities": {
         "onlineCoop": true,
         "localCoop": true,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-2",
         "maxPlayers": 2
@@ -12110,7 +12126,8 @@
         "action"
       ],
       "coopMode": [
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 2,
       "crossplay": false,
@@ -12158,8 +12175,8 @@
       "capabilities": {
         "onlineCoop": false,
         "localCoop": true,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-2",
         "maxPlayers": 2
@@ -13677,7 +13694,8 @@
       ],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -13723,8 +13741,8 @@
       "capabilities": {
         "onlineCoop": true,
         "localCoop": true,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-4",
         "maxPlayers": 4
@@ -13949,7 +13967,8 @@
       ],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -13996,8 +14015,8 @@
       "capabilities": {
         "onlineCoop": true,
         "localCoop": true,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-4",
         "maxPlayers": 4
@@ -14225,7 +14244,8 @@
       ],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -14271,8 +14291,8 @@
       "capabilities": {
         "onlineCoop": true,
         "localCoop": true,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-4",
         "maxPlayers": 4
@@ -19787,7 +19807,8 @@
         "puzzle"
       ],
       "coopMode": [
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 2,
       "crossplay": false,
@@ -19834,8 +19855,8 @@
       "capabilities": {
         "onlineCoop": false,
         "localCoop": true,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-2",
         "maxPlayers": 2
@@ -20155,7 +20176,8 @@
         "action"
       ],
       "coopMode": [
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -20202,8 +20224,8 @@
       "capabilities": {
         "onlineCoop": false,
         "localCoop": true,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-4",
         "maxPlayers": 4
@@ -21436,7 +21458,8 @@
         "action"
       ],
       "coopMode": [
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 2,
       "crossplay": false,
@@ -21483,8 +21506,8 @@
       "capabilities": {
         "onlineCoop": false,
         "localCoop": true,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-2",
         "maxPlayers": 2
@@ -23055,7 +23078,8 @@
         "action"
       ],
       "coopMode": [
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 2,
       "crossplay": false,
@@ -23102,8 +23126,8 @@
       "capabilities": {
         "onlineCoop": false,
         "localCoop": true,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-2",
         "maxPlayers": 2
@@ -23329,7 +23353,8 @@
       ],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": true,
@@ -23377,8 +23402,8 @@
       "capabilities": {
         "onlineCoop": true,
         "localCoop": true,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": true,
         "playersLabel": "1-8",
         "maxPlayers": 4
@@ -23606,7 +23631,8 @@
         "rpg"
       ],
       "coopMode": [
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 2,
       "crossplay": false,
@@ -23653,8 +23679,8 @@
       "capabilities": {
         "onlineCoop": false,
         "localCoop": true,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-2",
         "maxPlayers": 2
@@ -24422,7 +24448,9 @@
         "puzzle"
       ],
       "coopMode": [
-        "online"
+        "online",
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": true,
@@ -24468,9 +24496,9 @@
       },
       "capabilities": {
         "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": true,
         "playersLabel": "1-4",
         "maxPlayers": 4
@@ -24604,7 +24632,8 @@
       ],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 2,
       "crossplay": false,
@@ -24650,8 +24679,8 @@
       "capabilities": {
         "onlineCoop": true,
         "localCoop": true,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-2",
         "maxPlayers": 2
@@ -24786,7 +24815,8 @@
       ],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -24832,8 +24862,8 @@
       "capabilities": {
         "onlineCoop": true,
         "localCoop": true,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-4",
         "maxPlayers": 4
@@ -50139,7 +50169,7 @@
       "gogUrl": "",
       "epicUrl": "",
       "itchUrl": "",
-      "ccu": 0,
+      "ccu": 164,
       "trending": false,
       "rating": 74,
       "igUrl": "",
@@ -50186,7 +50216,7 @@
         "steamAppId": "491540"
       },
       "signals": {
-        "ccu": 0,
+        "ccu": 164,
         "trending": false,
         "rating": 74
       },
@@ -50374,7 +50404,8 @@
       "igdbId": 204360,
       "title": "Goat Simulator 3",
       "categories": [
-        "action"
+        "action",
+        "splitscreen"
       ],
       "genres": [
         "action"
@@ -50418,7 +50449,8 @@
       },
       "taxonomy": {
         "categories": [
-          "action"
+          "action",
+          "splitscreen"
         ],
         "genres": [
           "action"
@@ -50741,8 +50773,7 @@
         "action"
       ],
       "coopMode": [
-        "local",
-        "split"
+        "local"
       ],
       "maxPlayers": 2,
       "crossplay": false,
@@ -50788,8 +50819,8 @@
       "capabilities": {
         "onlineCoop": false,
         "localCoop": true,
-        "splitScreen": true,
-        "sharedScreen": true,
+        "splitScreen": false,
+        "sharedScreen": false,
         "crossplay": false,
         "playersLabel": "1-2",
         "maxPlayers": 2
@@ -51015,8 +51046,7 @@
       ],
       "coopMode": [
         "online",
-        "local",
-        "split"
+        "local"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -51064,8 +51094,8 @@
       "capabilities": {
         "onlineCoop": true,
         "localCoop": true,
-        "splitScreen": true,
-        "sharedScreen": true,
+        "splitScreen": false,
+        "sharedScreen": false,
         "crossplay": false,
         "playersLabel": "1-4",
         "maxPlayers": 4
@@ -51895,7 +51925,8 @@
       "genres": [],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -51939,8 +51970,8 @@
       "capabilities": {
         "onlineCoop": true,
         "localCoop": true,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "2-4",
         "maxPlayers": 4
@@ -51980,7 +52011,8 @@
       "genres": [],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -52024,8 +52056,8 @@
       "capabilities": {
         "onlineCoop": true,
         "localCoop": true,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "2-4",
         "maxPlayers": 4
@@ -52065,7 +52097,8 @@
       "genres": [],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -52109,8 +52142,8 @@
       "capabilities": {
         "onlineCoop": true,
         "localCoop": true,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "2-4",
         "maxPlayers": 4
@@ -52150,7 +52183,8 @@
       "genres": [],
       "coopMode": [
         "online",
-        "local"
+        "local",
+        "split"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -52194,8 +52228,8 @@
       "capabilities": {
         "onlineCoop": true,
         "localCoop": true,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "2-4",
         "maxPlayers": 4
