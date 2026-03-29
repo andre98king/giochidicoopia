@@ -568,9 +568,11 @@ function getFilteredGames() {
     return matchesCat && matchesMode && matchesSearch && matchesYear;
   });
 
+  // Sort logic
   if (sortMode === 'newest') {
     filtered = [...filtered].sort((a, b) => (b.releaseYear || 0) - (a.releaseYear || 0));
-  } else if (sortMode === 'trending') {
+  } else if (sortMode === 'trending' || sortMode === 'default') {
+    // Default is now "trending" to show most active games first
     filtered = [...filtered].sort((a, b) => (b.ccu || 0) - (a.ccu || 0));
   } else if (sortMode === 'rating') {
     filtered = [...filtered].sort((a, b) => (b.rating || 0) - (a.rating || 0));

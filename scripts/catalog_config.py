@@ -127,7 +127,11 @@ SKIP_WORDS = [
     'dedicated server', 'editor', 'modding', 'toolkit',
 ]
 
-# Pattern per edizioni vecchie (FIFA 23 quando c'è FC 25, NBA 2K23 quando c'è 2K25, ecc.)
+# Selezione manuale gioco indie della settimana (Featured)
+# Imposta a 0 per usare l\x27algoritmo automatico basato su rating/CCU
+FEATURED_OVERRIDE_ID = 180
+
+# Pattern per edizioni vecchie (FIFA 23 quando c\x27è FC 25, NBA 2K23 quando c\x27è 2K25, ecc.)
 OLD_EDITION_PATTERNS = [
     (r'FIFA \d+', r'FC \d+'),           # vecchia FIFA → nuova FC
     (r'NBA 2K(\d+)', lambda m: int(m.group(1)) < 25),  # NBA 2K con anno < 25

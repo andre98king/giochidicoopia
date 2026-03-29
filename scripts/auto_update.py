@@ -837,17 +837,24 @@ else:
 
 # ─────────────────────── Gioco Indie della Settimana ─────────────────────
 print("\n🌟 Selezione gioco indie della settimana...")
-indie_rated = [g for g in existing_games if 'indie' in g.get('categories', []) and g.get('rating', 0) >= 75]
-if indie_rated:
-    indie_sorted  = sorted(indie_rated, key=lambda x: x.get('rating', 0), reverse=True)
-    top_indie     = indie_sorted[:12]   # top 12 giochi indie per rating
-    iso           = datetime.datetime.now().isocalendar()
-    week_idx      = (iso[0] * 52 + iso[1]) % len(top_indie)
-    featured_id   = top_indie[week_idx]['id']
-    print(f"  Featured: {top_indie[week_idx]['title']} (id {featured_id}, rating {top_indie[week_idx]['rating']}%)")
+if FEATURED_OVERRIDE_ID > 0:
+    featured_id = FEATURED_OVERRIDE_ID
+    # Verifichiamo il titolo per log
+    featured_game = next((g for g in existing_games if g['id'] == featured_id), None)
+    title = featured_game['title'] if featured_game else "ID Sconosciuto"
+    print(f"  Featured (MANUAL OVERRIDE): {title} (id {featured_id})")
 else:
-    featured_id = 0
-    print("  Nessun gioco indie con rating >= 75%")
+    indie_rated = [g for g in existing_games if 'indie' in g.get('categories', []) and g.get('rating', 0) >= 75]
+    if indie_rated:
+        indie_sorted  = sorted(indie_rated, key=lambda x: x.get('rating', 0), reverse=True)
+        top_indie     = indie_sorted[:12]   # top 12 giochi indie per rating
+        iso           = datetime.datetime.now().isocalendar()
+        week_idx      = (iso[0] * 52 + iso[1]) % len(top_indie)
+        featured_id   = top_indie[week_idx]['id']
+        print(f"  Featured (AUTO): {top_indie[week_idx]['title']} (id {featured_id}, rating {top_indie[week_idx]['rating']}%)")
+    else:
+        featured_id = 0
+        print("  Nessun gioco indie con rating >= 75%")
 
 
 # ─────────────────────── Scrivi games.js ─────────────────────────────────
