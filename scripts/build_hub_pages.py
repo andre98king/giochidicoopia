@@ -28,6 +28,14 @@ import catalog_data
 ASSET_VERSION = "20260327"
 SITE_URL = "https://coophubs.net"
 
+# Caricamento contenuti editoriali extra
+EDITORIAL_DATA = {}
+try:
+    with open(ROOT / "data" / "hub_editorial.json", "r") as f:
+        EDITORIAL_DATA = json.load(f)
+except Exception:
+    pass
+
 
 # ─── Definizioni hub pages ──────────────────────────────────────────────────
 
@@ -460,6 +468,26 @@ def _render_page(defn: dict, games: list[dict], sections: list[tuple[str, list[d
     }
     schema_json = json.dumps(schema, ensure_ascii=False)
 
+    # --- Iniezione Contenuti Editoriali (Pilastro SEO 3) ---
+    editorial_html = ""
+    if slug in EDITORIAL_DATA and "it" in EDITORIAL_DATA[slug]:
+        ed = EDITORIAL_DATA[slug]["it"]
+        editorial_html = f"""
+    <section class="hub-editorial-content" aria-label="Approfondimento editoriale">
+      <div class="hub-editorial-section">
+        <h2 class="hub-editorial-title">{esc(ed.get("section_1_title", ""))}</h2>
+        <p>{esc(ed.get("section_1_text", ""))}</p>
+      </div>
+      <div class="hub-editorial-section">
+        <h2 class="hub-editorial-title">{esc(ed.get("section_2_title", ""))}</h2>
+        <p>{esc(ed.get("section_2_text", ""))}</p>
+      </div>
+      <div class="hub-editorial-footer">
+        <p><em>{esc(ed.get("footer_text", ""))}</em></p>
+      </div>
+    </section>
+"""
+
     return f"""<!DOCTYPE html>
 <html lang="it">
 <head>
@@ -498,13 +526,20 @@ def _render_page(defn: dict, games: list[dict], sections: list[tuple[str, list[d
 
   <style>
     .hub-page {{ max-width: 1200px; margin: 0 auto; padding: 30px 20px 80px; position: relative; z-index: 1; }}
-    .hub-intro {{ background: linear-gradient(135deg, rgba(124,106,255,0.08), rgba(124,106,255,0.03)); border: 1px solid rgba(124,106,255,0.15); border-radius: 20px; padding: 28px 32px; margin-bottom: 40px; }}
+    .hub-intro {{ background: linear-gradient(135deg, rgba(124,106,255,0.08), rgba(124,106,255,0.03)); border: 1px solid rgba(124,106,255,0.15); border-radius: 20px; padding: 28px 32px; margin-bottom: 24px; }}
     .hub-kicker {{ font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: var(--accent); margin-bottom: 10px; }}
     .hub-h1 {{ font-size: clamp(1.7rem, 4vw, 2.6rem); font-weight: 800; letter-spacing: -1.5px; margin-bottom: 8px; line-height: 1.15; }}
     .hub-subtitle {{ color: var(--text2); font-size: 1rem; line-height: 1.65; margin-bottom: 0; }}
     .hub-body {{ margin-top: 18px; }}
     .hub-body p {{ color: var(--text2); font-size: 0.96rem; line-height: 1.75; margin-bottom: 12px; }}
     .hub-body p:last-child {{ margin-bottom: 0; }}
+    
+    .hub-editorial-content {{ margin-bottom: 40px; border-left: 3px solid var(--accent); padding-left: 24px; }}
+    .hub-editorial-section {{ margin-bottom: 24px; }}
+    .hub-editorial-title {{ font-size: 1.1rem; font-weight: 700; color: var(--text); margin-bottom: 10px; }}
+    .hub-editorial-section p {{ color: var(--text2); font-size: 0.95rem; line-height: 1.7; }}
+    .hub-editorial-footer {{ opacity: 0.8; font-size: 0.9rem; border-top: 1px solid var(--border); padding-top: 16px; }}
+
     .hub-count {{ color: var(--text2); font-size: 0.85rem; margin-bottom: 20px; }}
     .hub-count strong {{ color: var(--text); }}
     .hub-grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }}
@@ -523,6 +558,7 @@ def _render_page(defn: dict, games: list[dict], sections: list[tuple[str, list[d
     .hub-section-heading span {{ color: var(--accent); }}
     @media (max-width: 600px) {{
       .hub-intro {{ padding: 20px; }}
+      .hub-editorial-content {{ padding-left: 16px; }}
       .hub-grid {{ grid-template-columns: 1fr; }}
     }}
   </style>
@@ -545,6 +581,8 @@ def _render_page(defn: dict, games: list[dict], sections: list[tuple[str, list[d
       <div class="hub-body">
 {intro_paragraphs}      </div>
     </section>
+
+{editorial_html}
 
 {content_html}
   </main>
@@ -610,6 +648,26 @@ def _render_page_en(en_defn: dict, it_slug: str, games: list[dict], sections: li
     }
     schema_json = json.dumps(schema, ensure_ascii=False)
 
+    # --- Iniezione Contenuti Editoriali (Pilastro SEO 3) ---
+    editorial_html = ""
+    if it_slug in EDITORIAL_DATA and "en" in EDITORIAL_DATA[it_slug]:
+        ed = EDITORIAL_DATA[it_slug]["en"]
+        editorial_html = f"""
+    <section class="hub-editorial-content" aria-label="Editorial depth">
+      <div class="hub-editorial-section">
+        <h2 class="hub-editorial-title">{esc(ed.get("section_1_title", ""))}</h2>
+        <p>{esc(ed.get("section_1_text", ""))}</p>
+      </div>
+      <div class="hub-editorial-section">
+        <h2 class="hub-editorial-title">{esc(ed.get("section_2_title", ""))}</h2>
+        <p>{esc(ed.get("section_2_text", ""))}</p>
+      </div>
+      <div class="hub-editorial-footer">
+        <p><em>{esc(ed.get("footer_text", ""))}</em></p>
+      </div>
+    </section>
+"""
+
     return f"""<!DOCTYPE html>
 <html lang="en" data-default-lang="en">
 <head>
@@ -648,13 +706,20 @@ def _render_page_en(en_defn: dict, it_slug: str, games: list[dict], sections: li
 
   <style>
     .hub-page {{ max-width: 1200px; margin: 0 auto; padding: 30px 20px 80px; position: relative; z-index: 1; }}
-    .hub-intro {{ background: linear-gradient(135deg, rgba(124,106,255,0.08), rgba(124,106,255,0.03)); border: 1px solid rgba(124,106,255,0.15); border-radius: 20px; padding: 28px 32px; margin-bottom: 40px; }}
+    .hub-intro {{ background: linear-gradient(135deg, rgba(124,106,255,0.08), rgba(124,106,255,0.03)); border: 1px solid rgba(124,106,255,0.15); border-radius: 20px; padding: 28px 32px; margin-bottom: 24px; }}
     .hub-kicker {{ font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: var(--accent); margin-bottom: 10px; }}
     .hub-h1 {{ font-size: clamp(1.7rem, 4vw, 2.6rem); font-weight: 800; letter-spacing: -1.5px; margin-bottom: 8px; line-height: 1.15; }}
     .hub-subtitle {{ color: var(--text2); font-size: 1rem; line-height: 1.65; margin-bottom: 0; }}
     .hub-body {{ margin-top: 18px; }}
     .hub-body p {{ color: var(--text2); font-size: 0.96rem; line-height: 1.75; margin-bottom: 12px; }}
     .hub-body p:last-child {{ margin-bottom: 0; }}
+
+    .hub-editorial-content {{ margin-bottom: 40px; border-left: 3px solid var(--accent); padding-left: 24px; }}
+    .hub-editorial-section {{ margin-bottom: 24px; }}
+    .hub-editorial-title {{ font-size: 1.1rem; font-weight: 700; color: var(--text); margin-bottom: 10px; }}
+    .hub-editorial-section p {{ color: var(--text2); font-size: 0.95rem; line-height: 1.7; }}
+    .hub-editorial-footer {{ opacity: 0.8; font-size: 0.9rem; border-top: 1px solid var(--border); padding-top: 16px; }}
+
     .hub-count {{ color: var(--text2); font-size: 0.85rem; margin-bottom: 20px; }}
     .hub-count strong {{ color: var(--text); }}
     .hub-grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }}
@@ -673,6 +738,7 @@ def _render_page_en(en_defn: dict, it_slug: str, games: list[dict], sections: li
     .hub-section-heading span {{ color: var(--accent); }}
     @media (max-width: 600px) {{
       .hub-intro {{ padding: 20px; }}
+      .hub-editorial-content {{ padding-left: 16px; }}
       .hub-grid {{ grid-template-columns: 1fr; }}
     }}
   </style>
@@ -695,6 +761,8 @@ def _render_page_en(en_defn: dict, it_slug: str, games: list[dict], sections: li
       <div class="hub-body">
 {intro_paragraphs}      </div>
     </section>
+
+{editorial_html}
 
 {content_html}
   </main>

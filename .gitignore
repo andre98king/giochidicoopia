@@ -45,6 +45,7 @@ related-games-*.png
 # Artefatti pipeline (rigenerati ad ogni run)
 data/coop_validation_report.json
 client_secret_*.json
+NUOVO.json
 scripts/gsc-credentials.json
 
 # File AI-only (documentazione interna, non per il sito)

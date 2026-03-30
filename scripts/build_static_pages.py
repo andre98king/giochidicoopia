@@ -24,6 +24,13 @@ CURRENT_YEAR = datetime.date.today().year
 ASSET_VERSION = "20260327"
 CROSSPLAY_UI_ENABLED = True
 
+# Caricamento override SEO
+SEO_OVERRIDES = {}
+try:
+    with open(ROOT / "data" / "seo_overrides.json", "r") as f:
+        SEO_OVERRIDES = json.load(f)
+except FileNotFoundError:
+    pass
 
 def esc(value) -> str:
     return html.escape("" if value is None else str(value), quote=True)
@@ -242,6 +249,8 @@ def render_store_links(game: dict) -> str:
         )
     # Prezzi alternativi — solo per giochi a pagamento (non free-to-play)
     is_free = "free" in (game.get("categories") or [])
+    partner_badge = '<span class="partner-badge" title="Partner Ufficiale">✓</span>'
+    
     if not is_free and game["steamUrl"] and (AFFILIATE_IG or AFFILIATE_GB or AFFILIATE_GMG or AFFILIATE_GAMESEAL or AFFILIATE_KINGUIN or AFFILIATE_GAMIVO):
         q = quote(game["title"])
         if AFFILIATE_IG:
@@ -251,7 +260,7 @@ def render_store_links(game: dict) -> str:
             btns.append(
                 f'<a class="btn-affiliate btn-ig" href="{esc(ig_url)}" '
                 f'target="_blank" rel="noopener noreferrer sponsored">'
-                f'<span class="affiliate-store">Instant Gaming</span>{disc_badge}</a>'
+                f'<span class="affiliate-store">Instant Gaming {partner_badge}</span>{disc_badge}</a>'
             )
         if AFFILIATE_GB:
             gb_url = game.get("gbUrl") or f"https://www.gamebillet.com/search?q={q}&affiliate={AFFILIATE_GB}"
@@ -260,7 +269,7 @@ def render_store_links(game: dict) -> str:
             btns.append(
                 f'<a class="btn-affiliate btn-gb" href="{esc(gb_url)}" '
                 f'target="_blank" rel="noopener noreferrer sponsored">'
-                f'<span class="affiliate-store">GameBillet</span>{gb_badge}</a>'
+                f'<span class="affiliate-store">GameBillet {partner_badge}</span>{gb_badge}</a>'
             )
         if AFFILIATE_GMG:
             gmg_search = f"https://www.greenmangaming.com/search/?query={q}"
@@ -269,7 +278,7 @@ def render_store_links(game: dict) -> str:
             btns.append(
                 f'<a class="btn-affiliate btn-gmg" href="{esc(gmg_url)}" '
                 f'target="_blank" rel="noopener noreferrer sponsored">'
-                f'<span class="affiliate-store">Green Man Gaming</span></a>'
+                f'<span class="affiliate-store">Green Man Gaming {partner_badge}</span></a>'
             )
         if AFFILIATE_GAMESEAL:
             from urllib.parse import quote as _q
@@ -282,7 +291,7 @@ def render_store_links(game: dict) -> str:
             btns.append(
                 f'<a class="btn-affiliate btn-gameseal" href="{esc(gs_url)}" '
                 f'target="_blank" rel="noopener noreferrer sponsored">'
-                f'<span class="affiliate-store">Gameseal</span>{gs_badge}</a>'
+                f'<span class="affiliate-store">Gameseal {partner_badge}</span>{gs_badge}</a>'
             )
         if AFFILIATE_KINGUIN:
             kg_url = game.get("kgUrl") or AFFILIATE_KINGUIN
@@ -291,7 +300,7 @@ def render_store_links(game: dict) -> str:
             btns.append(
                 f'<a class="btn-affiliate btn-kinguin" href="{esc(kg_url)}" '
                 f'target="_blank" rel="noopener noreferrer sponsored">'
-                f'<span class="affiliate-store">Kinguin</span>{kg_badge}</a>'
+                f'<span class="affiliate-store">Kinguin {partner_badge}</span>{kg_badge}</a>'
             )
         if AFFILIATE_GAMIVO:
             gmv_url = game.get("gmvUrl") or AFFILIATE_GAMIVO
@@ -300,13 +309,22 @@ def render_store_links(game: dict) -> str:
             btns.append(
                 f'<a class="btn-affiliate btn-gamivo" href="{esc(gmv_url)}" '
                 f'target="_blank" rel="noopener noreferrer sponsored">'
-                f'<span class="affiliate-store">GAMIVO</span>{gmv_badge}</a>'
+                f'<span class="affiliate-store">GAMIVO {partner_badge}</span>{gmv_badge}</a>'
             )
     if not btns:
         return ""
+        
+    trust_note = (
+        '<div class="trust-note">'
+        '🛡️ <strong>Partner Ufficiale:</strong> Coophubs collabora solo con rivenditori autorizzati. '
+        'Supporta il sito acquistando in sicurezza.'
+        '</div>'
+    )
+    
     return (
-        '<div class="store-section"><div class="game-section-title" id="storeTitle">Acquista</div>'
-        '<div class="affiliate-btns">' + "".join(btns) + "</div></div>"
+        '<div class="store-section"><div class="game-section-title" id="storeTitle">Migliori Prezzi Partner</div>'
+        '<div class="affiliate-btns">' + "".join(btns) + "</div>"
+        f"{trust_note}</div>"
     )
 
 
@@ -328,9 +346,17 @@ def render_modes(game: dict) -> str:
 
 
 def render_static_page(game: dict, all_games: list | None = None) -> str:
-    title = f"{game['title']} — Coophubs"
+    title = f"{game['title']}: gioco coop PC ({game['players']} giocatori) — Coophubs"
     image = game["image"] or f"{SITE_URL}/assets/og-image.jpg"
-    description_it = game["description"][:320]
+    
+    # Meta description (con supporto override manuale)
+    game_id = str(game.get("id"))
+    if game_id in SEO_OVERRIDES and "description" in SEO_OVERRIDES[game_id]:
+        description_it = SEO_OVERRIDES[game_id]["description"]
+    else:
+        modes_str = ", ".join(game.get("coopMode", []))
+        description_it = f"Scopri {game['title']}, gioco cooperativo per PC ({game['players']} giocatori). Modalità {modes_str}. Recensione Steam: {game['rating']}%. " + game["description"]
+        description_it = description_it[:160]
 
     rating_html = ""
     if game["rating"] > 0:
@@ -654,9 +680,13 @@ def render_static_page(game: dict, all_games: list | None = None) -> str:
 
 def render_static_page_en(game: dict, all_games: list | None = None) -> str:
     """English version of the static game page for SEO on EN searches."""
-    title = f"{game['title']} — Coophubs"
+    title = f"{game['title']}: {game['players']} players PC co-op game — Coophubs"
     image = game["image"] or f"{SITE_URL}/assets/og-image.jpg"
-    desc_en = (game.get("description_en") or game["description"])[:320]
+    
+    # Richer English meta description
+    modes_str = ", ".join(game.get("coopMode", []))
+    desc_en = f"Discover {game['title']}, a {game['players']} players PC co-op game. Modes: {modes_str}. Steam rating: {game['rating']}%. " + (game.get("description_en") or game["description"])
+    desc_en = desc_en[:160]
 
     rating_html = ""
     if game["rating"] > 0:

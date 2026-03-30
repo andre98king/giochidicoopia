@@ -348,11 +348,11 @@ body {
 .filter-btn[data-cat="puzzle"].active    { background: var(--puzzle); border-color: var(--puzzle); box-shadow: 0 2px 12px rgba(67,160,71,0.35); }
 .filter-btn[data-cat="splitscreen"].active { background: var(--splitscreen); border-color: var(--splitscreen); box-shadow: 0 2px 12px rgba(30,136,229,0.35); }
 .filter-btn[data-cat="rpg"].active       { background: var(--rpg); border-color: var(--rpg); box-shadow: 0 2px 12px rgba(142,36,170,0.35); }
-.filter-btn[data-cat="survival"].active  { background: var(--survival); border-color: var(--survival); box-shadow: 0 2px 12px rgba(109,76,65,0.35); }
-.filter-btn[data-cat="factory"].active   { background: var(--factory); border-color: var(--factory); box-shadow: 0 2px 12px rgba(0,137,123,0.35); }
-.filter-btn[data-cat="roguelike"].active { background: var(--roguelike); border-color: var(--roguelike); box-shadow: 0 2px 12px rgba(244,81,30,0.35); }
-.filter-btn[data-cat="sport"].active     { background: var(--sport); border-color: var(--sport); box-shadow: 0 2px 12px rgba(3,155,229,0.35); }
-.filter-btn[data-cat="strategy"].active  { background: #546e7a; border-color: #546e7a; box-shadow: 0 2px 12px rgba(84,110,122,0.35); }
+.filter-btn[data-cat="survival"].active  { background: #1e1c26; color: #d4c4bc; border: 1px solid rgba(109,76,65,0.25); }
+.filter-btn[data-cat="factory"].active   { background: #0e252f; color: #a8ddd6; border: 1px solid rgba(0,137,123,0.25); }
+.filter-btn[data-cat="roguelike"].active { background: #331d21; color: #ffc4ad; border: 1px solid rgba(244,81,30,0.25); }
+.filter-btn[data-cat="sport"].active     { background: #0e283f; color: #a8e0fc; border: 1px solid rgba(3,155,229,0.25); }
+.filter-btn[data-cat="strategy"].active  { background: #1b212f; color: #cdd3d8; border: 1px solid rgba(84,110,122,0.25); }
 .filter-btn[data-cat="trending"].active  { background: #ff6b35; border-color: #ff6b35; box-shadow: 0 2px 12px rgba(255,107,53,0.35); }
 
 /* Mode filter active states */
@@ -1775,4 +1775,31 @@ body {
   #wheelCanvas { width: 260px; height: 260px; }
   .games-grid { grid-template-columns: 1fr; gap: 18px; }
   .card-img, .card-img-placeholder { height: 150px; }
+}
+
+/* --- Trust & Authority Signals --- */
+.partner-badge {
+    color: #ffd700;
+    font-size: 0.8rem;
+    margin-left: 4px;
+    font-weight: bold;
+    text-shadow: 0 0 5px rgba(255, 215, 0, 0.3);
+}
+
+.trust-note {
+    margin-top: 16px;
+    padding: 12px 16px;
+    background: rgba(124, 106, 255, 0.05);
+    border: 1px solid rgba(124, 106, 255, 0.15);
+    border-radius: 12px;
+    font-size: 0.85rem;
+    color: var(--text2);
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.trust-note strong {
+    color: var(--text);
 }
