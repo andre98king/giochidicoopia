@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-29T23:14:28+00:00",
+  "generatedAt": "2026-03-30T07:15:56+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
-  "featuredIndieId": 180,
+  "featuredIndieId": null,
   "stats": {
     "games": 582,
     "played": 12,
@@ -15363,7 +15363,7 @@
       "gmvUrl": "",
       "gmvDiscount": 0,
       "slug": "fantasy-life-i-the-girl-who-steals-time",
-      "isFeaturedIndie": true,
+      "isFeaturedIndie": false,
       "descriptions": {
         "it": "Tuffati in questo nuovo rilassante GDR in cui potrai scegliere tra 14 professioni uniche, i cosiddetti \"Mestieri,\" e goditi una vita spensierata in questo mondo fantastico. Pesca, cucina, personalizza l'isola o fai squadra con gli amici per affrontare i mostri che popolano questo vasto mondo.",
         "en": "Step into this Slow-Life RPG where you can freely switch between 14 unique jobs, so called &quot;Lives,&quot; and enjoy a carefree life in a fantasy world. Fish, cook, shape the island to your liking, or team up with friends to battle monsters across the vast world."
@@ -51933,8 +51933,8 @@
       "players": "2-4",
       "releaseYear": 0,
       "image": "https://img.itch.zone/aW1nLzE2NjMzNTcxLnBuZw==/315x250%23c/%2BhomKc.png",
-      "description": "23/24 - Y1 - Block D - Team Chili",
-      "description_en": "23/24 - Y1 - Block D - Team Chili",
+      "description": "Un'avventura cooperativa per due giocatori nei panni di corvi cacciatori di tesori su una piccola nave in acque pericolose. Coordinate cannoni, timone e riparazioni mentre raccogliete tesori per comprare una nave migliore.",
+      "description_en": "A co-op adventure for two players as treasure-hunting crows navigating a small ship through perilous waters. Coordinate to fire cannons, steer, and repair damage while collecting treasure to buy a proper ship.",
       "personalNote": "",
       "played": false,
       "steamUrl": "",
@@ -51957,8 +51957,8 @@
       "slug": "crows-nest",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "23/24 - Y1 - Block D - Team Chili",
-        "en": "23/24 - Y1 - Block D - Team Chili"
+        "it": "Un'avventura cooperativa per due giocatori nei panni di corvi cacciatori di tesori su una piccola nave in acque pericolose. Coordinate cannoni, timone e riparazioni mentre raccogliete tesori per comprare una nave migliore.",
+        "en": "A co-op adventure for two players as treasure-hunting crows navigating a small ship through perilous waters. Coordinate to fire cannons, steer, and repair damage while collecting treasure to buy a proper ship."
       },
       "taxonomy": {
         "categories": [
@@ -52019,7 +52019,7 @@
       "players": "2-4",
       "releaseYear": 0,
       "image": "https://img.itch.zone/aW1nLzE2ODg4ODI0LnBuZw==/315x250%23c/Zy5tn8.png",
-      "description": "Win the Chicken Tournament in this Joust inspired game!",
+      "description": "Partecipa a un torneo di giostra in cui i guerrieri cavalcano polli contro squadre avversarie. Ispirato al classico arcade Joust, presenta 15 personaggi giocabili in combattimenti frenetici.",
       "description_en": "Win the Chicken Tournament in this Joust inspired game!",
       "personalNote": "",
       "played": false,
@@ -52043,7 +52043,7 @@
       "slug": "chicken-joust",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Win the Chicken Tournament in this Joust inspired game!",
+        "it": "Partecipa a un torneo di giostra in cui i guerrieri cavalcano polli contro squadre avversarie. Ispirato al classico arcade Joust, presenta 15 personaggi giocabili in combattimenti frenetici.",
         "en": "Win the Chicken Tournament in this Joust inspired game!"
       },
       "taxonomy": {
@@ -52105,7 +52105,7 @@
       "players": "2-4",
       "releaseYear": 0,
       "image": "https://img.itch.zone/aW1nLzUxMjY1NjEucG5n/315x250%23c/F0TH2F.png",
-      "description": "Call your friend from worlds away and solve tasks together!",
+      "description": "Due giocatori si ritrovano sul pianeta sbagliato dopo aver tentato di connettere i loro mondi. Ognuno ha la mappa del mondo dell'altro: cooperate per completare i compiti e alimentare le cabine telefoniche per riunirvi.",
       "description_en": "Call your friend from worlds away and solve tasks together!",
       "personalNote": "",
       "played": false,
@@ -52129,7 +52129,7 @@
       "slug": "telemochi",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Call your friend from worlds away and solve tasks together!",
+        "it": "Due giocatori si ritrovano sul pianeta sbagliato dopo aver tentato di connettere i loro mondi. Ognuno ha la mappa del mondo dell'altro: cooperate per completare i compiti e alimentare le cabine telefoniche per riunirvi.",
         "en": "Call your friend from worlds away and solve tasks together!"
       },
       "taxonomy": {
@@ -52191,7 +52191,7 @@
       "players": "2-4",
       "releaseYear": 0,
       "image": "https://img.itch.zone/aW1nLzIzODkzNjcxLnBuZw==/315x250%23c/EmMB9v.png",
-      "description": "Co-Op FNAF Fan Game with Asymmetric Roles",
+      "description": "Unisciti agli amici per sopravvivere alla notte al Freddy Fazbear's Pizza, ognuno con ruolo e responsabilità unici. Il lavoro di squadra è fondamentale: ogni classe dipende dalle altre. Un giocatore può diventare il Purple Guy e dare la caccia agli altri.",
       "description_en": "Co-Op FNAF Fan Game with Asymmetric Roles",
       "personalNote": "",
       "played": false,
@@ -52215,7 +52215,7 @@
       "slug": "fnaf-online-multiplayer",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Co-Op FNAF Fan Game with Asymmetric Roles",
+        "it": "Unisciti agli amici per sopravvivere alla notte al Freddy Fazbear's Pizza, ognuno con ruolo e responsabilità unici. Il lavoro di squadra è fondamentale: ogni classe dipende dalle altre. Un giocatore può diventare il Purple Guy e dare la caccia agli altri.",
         "en": "Co-Op FNAF Fan Game with Asymmetric Roles"
       },
       "taxonomy": {
@@ -52276,7 +52276,7 @@
       "players": "2-4",
       "releaseYear": 0,
       "image": "https://img.itch.zone/aW1nLzEwNDEzOTE0LnBuZw==/315x250%23c/g7j4gd.png",
-      "description": "Neurodivergency with combos. A game about quickly sorting colored shapes in groups of four.",
+      "description": "ORBSORT è un puzzle game in cui si suddividono forme colorate in gruppi di quattro. Modalità che spaziano dall'ordinamento infinito rilassato al multiplayer competitivo. Design accessibile con opzioni per daltonici.",
       "description_en": "Neurodivergency with combos. A game about quickly sorting colored shapes in groups of four.",
       "personalNote": "",
       "played": false,
@@ -52300,7 +52300,7 @@
       "slug": "orbsort",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Neurodivergency with combos. A game about quickly sorting colored shapes in groups of four.",
+        "it": "ORBSORT è un puzzle game in cui si suddividono forme colorate in gruppi di quattro. Modalità che spaziano dall'ordinamento infinito rilassato al multiplayer competitivo. Design accessibile con opzioni per daltonici.",
         "en": "Neurodivergency with combos. A game about quickly sorting colored shapes in groups of four."
       },
       "taxonomy": {
@@ -52361,7 +52361,7 @@
       "players": "2-4",
       "releaseYear": 0,
       "image": "https://img.itch.zone/aW1hZ2UvMjYxMDM5LzEyNTM4MzEucG5n/315x250%23c/breH6i.png",
-      "description": "Post-apocalyptic 2d Platformer Shooter",
+      "description": "Scatteria è uno sparatutto platform 2D ambientato in un mondo post-apocalittico, ispirato a Liero, Worms e Soldat. Supporta fino a 4 giocatori in schermo diviso. Ideale per chi ama il multiplayer locale competitivo.",
       "description_en": "Post-apocalyptic 2d Platformer Shooter",
       "personalNote": "",
       "played": false,
@@ -52385,7 +52385,7 @@
       "slug": "scatteria",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Post-apocalyptic 2d Platformer Shooter",
+        "it": "Scatteria è uno sparatutto platform 2D ambientato in un mondo post-apocalittico, ispirato a Liero, Worms e Soldat. Supporta fino a 4 giocatori in schermo diviso. Ideale per chi ama il multiplayer locale competitivo.",
         "en": "Post-apocalyptic 2d Platformer Shooter"
       },
       "taxonomy": {
@@ -52444,7 +52444,7 @@
       "maxPlayers": 4,
       "crossplay": false,
       "players": "2-4",
-      "releaseYear": 0,
+      "releaseYear": 2026,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3363680/8f72c430d124eda7638f9df0fff72aab24be5c7c/header.jpg?t=1774537220",
       "description": "Nessuna ritirata. Difendi Bastion dalle orde del male, recupera i poteri perduti, ricostruisci antiche rovine e usa tattiche efficaci per ribaltare l'assedio. Scegli il tuo stile di gioco in questo roguelite strategico da solo o in cooperativa fino a 3 giocatori.",
       "description_en": "Retreating ends here. Defend Bastion against evil hordes, reclaim lost powers, rebuild ancient ruins, and adapt your tactics to reverse the siege. Shape your playstyle in this hero-strategy rogue-lite solo or co-op up to 3 players.",
