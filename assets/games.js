@@ -1,4 +1,4 @@
-const featuredIndieId = 180;
+const featuredIndieId = 0;
 
 const games = [
   {
@@ -32,8 +32,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F312069%2Felden-ring-nightreign-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=312069",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Felden-ring-nightreign-pc-steam-global-standard&cjsku=181363",
+    gmvDiscount: 10
   },
   {
     id: 2,
@@ -66,8 +66,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F3732%2Frust-steam-gift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=3732",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Frust-early-access&cjsku=1231",
+    gmvDiscount: 10
   },
   {
     id: 4,
@@ -100,8 +100,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F212367%2Fhelldivers-2-pc-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=212367",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fhelldivers-2-pc-steam-row-standard&cjsku=180735",
+    gmvDiscount: 10
   },
   {
     id: 5,
@@ -134,8 +134,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F167542%2Ftom-clancy-s-rainbow-six-siege-ultimate-edition-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=167542",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftom-clancys-rainbow-six-siege-16000-credits-xbox-global&cjsku=164035",
+    gmvDiscount: 10
   },
   {
     id: 6,
@@ -168,8 +168,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F158643%2Fdead-by-daylight-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=158643",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdead-by-daylight&cjsku=2014",
+    gmvDiscount: 10
   },
   {
     id: 7,
@@ -202,8 +202,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F140640%2Fteam-fortress-2-premium-dlc-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=140640",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fteam-fortress-2-badges-xephos-philanthropic-physiognomy-and-honeydews-countenance&cjsku=44648",
+    gmvDiscount: 10
   },
   {
     id: 8,
@@ -236,8 +236,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F320974%2Fgrand-theft-auto-v-enhanced-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=320974",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgrand-theft-auto-v-gta-5&cjsku=626",
+    gmvDiscount: 10
   },
   {
     id: 9,
@@ -270,8 +270,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F133282%2Fdayz-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=133282",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdayz-xbox-xboxoneseries-row-en-standard&cjsku=174346",
+    gmvDiscount: 10
   },
   {
     id: 10,
@@ -304,8 +304,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F21468%2Fwarframe-booster-pack-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=21468",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwarframe-bonus-pack&cjsku=31805",
+    gmvDiscount: 10
   },
   {
     id: 11,
@@ -338,8 +338,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F317201%2Fr-e-p-o-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=317201",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Frepo-pc-steam-gift-global-standard&cjsku=184281",
+    gmvDiscount: 10
   },
   {
     id: 12,
@@ -372,8 +372,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F150102%2Fdon-t-starve-together-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=150102",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdont-starve-together&cjsku=26027",
+    gmvDiscount: 10
   },
   {
     id: 13,
@@ -406,8 +406,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F2317%2Fpayday-2-steam-gift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=2317",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpayday-2-steam-gift&cjsku=43592",
+    gmvDiscount: 10
   },
   {
     id: 14,
@@ -440,8 +440,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F150103%2Fleft-4-dead-2-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=150103",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fleft-4-dead-2-steam-gift-eu&cjsku=49825",
+    gmvDiscount: 10
   },
   {
     id: 15,
@@ -474,8 +474,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F130898%2Fdestiny-2-lightfall-dlc-pc-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=130898",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdestiny-2-lightfall-pc-steam-eu-en-de-fr-it-pl-ja-ko-pt-ru-zh-es-standard&cjsku=141264",
+    gmvDiscount: 10
   },
   {
     id: 16,
@@ -508,8 +508,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F151136%2Fterraria-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=151136",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fterraria-gog&cjsku=49976",
+    gmvDiscount: 10
   },
   {
     id: 17,
@@ -542,8 +542,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F151142%2Fproject-zomboid-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=151142",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fproject-zomboid&cjsku=2960",
+    gmvDiscount: 10
   },
   {
     id: 18,
@@ -576,8 +576,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F131286%2Fark-survival-evolved-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=131286",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fark-survival-evolved-1&cjsku=26647",
+    gmvDiscount: 10
   },
   {
     id: 19,
@@ -610,8 +610,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F18316%2Frocket-league-steam-gift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=18316",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Frocket-league&cjsku=1211",
+    gmvDiscount: 10
   },
   {
     id: 20,
@@ -644,8 +644,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F722%2Fgarry-s-mod-pc-steam-gift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=722",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgarrys-mod&cjsku=2786",
+    gmvDiscount: 10
   },
   {
     id: 21,
@@ -678,8 +678,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F209194%2Fpalworld-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=209194",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpalworld-pc-steamgift-global-en-de-fr-it-ja-ko-pt-ru-zh-es-zh-standard&cjsku=167004",
+    gmvDiscount: 10
   },
   {
     id: 22,
@@ -712,8 +712,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F60006%2F7-days-to-die-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=60006",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2F7-days-to-die&cjsku=4",
+    gmvDiscount: 10
   },
   {
     id: 23,
@@ -746,8 +746,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F220920%2Ftotal-war-warhammer-iii-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=220920",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftotal-war-warhammer-iii-eu&cjsku=121195",
+    gmvDiscount: 10
   },
   {
     id: 24,
@@ -780,8 +780,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F138394%2Ffactorio-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=138394",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffactorio&cjsku=25979",
+    gmvDiscount: 10
   },
   {
     id: 25,
@@ -814,8 +814,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F206685%2Fthe-binding-of-isaac-rebirth-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=206685",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-binding-of-isaac-rebirth-xone-arg&cjsku=127861",
+    gmvDiscount: 10
   },
   {
     id: 26,
@@ -848,8 +848,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F81882%2Fvalheim-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=81882",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fvalheim-pc-steam-eu-en-de-fr-pl-nl-ja-pt-ru-zh-es-tr-standard&cjsku=163392",
+    gmvDiscount: 10
   },
   {
     id: 27,
@@ -882,8 +882,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F152445%2Fblack-desert-online-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=152445",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fblack-desert-traveler-edition-xbox-eu&cjsku=69298",
+    gmvDiscount: 10
   },
   {
     id: 28,
@@ -916,8 +916,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F77144%2Fbrawlhalla-collectors-pack-dlc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=77144",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fbrawlhalla-metadev-barraza-official-website-officialwebsite-global-en-standard&cjsku=144946",
+    gmvDiscount: 10
   },
   {
     id: 29,
@@ -950,8 +950,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F161680%2Fage-of-empires-ii-definitive-edition-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=161680",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fage-of-empires-ii-xbox-xboxoneseries-global-en-de-fr-it-ja-ko-pt-ru-zh-es-tr-zh-definitive&cjsku=149393",
+    gmvDiscount: 10
   },
   {
     id: 30,
@@ -984,8 +984,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F74394%2Fsatisfactory-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=74394",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsatisfactory-steam&cjsku=61654",
+    gmvDiscount: 10
   },
   {
     id: 31,
@@ -1018,8 +1018,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F273198%2Fmonster-hunter-wilds-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=273198",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmonster-hunter-wilds-pc-steam-eu-standard&cjsku=179571",
+    gmvDiscount: 10
   },
   {
     id: 32,
@@ -1052,8 +1052,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F59423%2Fmonster-hunter-world-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=59423",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmonster-hunter-world&cjsku=11166",
+    gmvDiscount: 10
   },
   {
     id: 33,
@@ -1086,8 +1086,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F119035%2Fv-rising-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=119035",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fv-rising-dlc-bundle-pc-steam-global-standard&cjsku=183506",
+    gmvDiscount: 10
   },
   {
     id: 34,
@@ -1120,8 +1120,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F150105%2Fphasmophobia-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=150105",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fphasmophobia-eu-steam-gift&cjsku=68871",
+    gmvDiscount: 10
   },
   {
     id: 35,
@@ -1154,8 +1154,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F6225%2Fstar-wars-battlefront-ii-steam-gift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=6225",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fstar-wars-battlefront-ii-xbox-one&cjsku=11151",
+    gmvDiscount: 10
   },
   {
     id: 36,
@@ -1188,8 +1188,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F23032%2Fsquad-steam-gift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=23032",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsquad-eu&cjsku=77899",
+    gmvDiscount: 10
   },
   {
     id: 37,
@@ -1256,8 +1256,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F138395%2Ffallout-76-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=138395",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffallout-76-eu-steam&cjsku=63588",
+    gmvDiscount: 10
   },
   {
     id: 39,
@@ -1290,8 +1290,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F7648%2Fborderlands-2-borderlands-goty-steam-gift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=7648",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fborderlands-2-1&cjsku=28150",
+    gmvDiscount: 10
   },
   {
     id: 40,
@@ -1324,8 +1324,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F61831%2Frisk-of-rain-2-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=61831",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Frisk-of-rain-2-eu&cjsku=70513",
+    gmvDiscount: 10
   },
   {
     id: 41,
@@ -1358,8 +1358,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F233652%2Fgray-zone-warfare-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=233652",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgray-zone-warfare-pc-steam-gift-eu-en-standard&cjsku=171475",
+    gmvDiscount: 10
   },
   {
     id: 42,
@@ -1392,8 +1392,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F64779%2Fbloons-td-6-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=64779",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fbloons-td-6-steam&cjsku=42587",
+    gmvDiscount: 10
   },
   {
     id: 43,
@@ -1426,8 +1426,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F114123%2Fthe-planet-crafter-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=114123",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-planet-crafter-steam-gift-eu&cjsku=133318",
+    gmvDiscount: 10
   },
   {
     id: 44,
@@ -1460,8 +1460,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F158631%2Fwarhammer-40-000-darktide-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=158631",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwarhammer-40-000-darktide&cjsku=125399",
+    gmvDiscount: 10
   },
   {
     id: 45,
@@ -1494,8 +1494,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F57628%2Farma-3-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=57628",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Farma-3-steam&cjsku=10843",
+    gmvDiscount: 10
   },
   {
     id: 46,
@@ -1528,8 +1528,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F150467%2Fage-of-empires-iv-anniversary-edition-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=150467",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fage-of-empires-iv-xbox-xboxoneseries-au-en-de-fr-it-ja-ko-pt-ru-zh-es-tr-vi-anniversary&cjsku=172120",
+    gmvDiscount: 10
   },
   {
     id: 47,
@@ -1562,8 +1562,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F240312%2Fwarhammer-40-000-space-marine-2-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=240312",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwarhammer-40-000-space-marine-2-xbox-xboxseries-global-standard&cjsku=176974",
+    gmvDiscount: 10
   },
   {
     id: 48,
@@ -1596,8 +1596,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F158146%2Fbrotato-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=158146",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fbrotato-pc-steam-gift-eu-en-de-fr-pl-ja-ko-pt-ru-zh-es-standard&cjsku=144430",
+    gmvDiscount: 10
   },
   {
     id: 49,
@@ -1630,8 +1630,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F133284%2Fhunt-showdown-1896-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=133284",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fhunt-showdown-1896-pc-steam-row-standard&cjsku=198351",
+    gmvDiscount: 10
   },
   {
     id: 50,
@@ -1664,8 +1664,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F193056%2Flethal-company-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=193056",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Flethal-company-pc-steamgift-global-en-standard&cjsku=163386",
+    gmvDiscount: 10
   },
   {
     id: 51,
@@ -1698,8 +1698,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F152434%2Fthe-isle-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=152434",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-isle&cjsku=26022",
+    gmvDiscount: 10
   },
   {
     id: 52,
@@ -1732,8 +1732,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F138440%2Flast-epoch-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=138440",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Flast-epoch-steam&cjsku=67806",
+    gmvDiscount: 10
   },
   {
     id: 53,
@@ -1766,8 +1766,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F63237%2Fconan-exiles-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=63237",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fconan-exiles-eu-steam-gift&cjsku=46370",
+    gmvDiscount: 10
   },
   {
     id: 54,
@@ -1800,8 +1800,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F280036%2Fnew-world-aeternum-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=280036",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fnew-world-aeternum-xbox-xboxseries-eu-standard&cjsku=177762",
+    gmvDiscount: 10
   },
   {
     id: 55,
@@ -1834,8 +1834,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F305787%2Fsplit-fiction-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=305787",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsplit-fiction-pc-ea-app-global-standard&cjsku=182722",
+    gmvDiscount: 10
   },
   {
     id: 56,
@@ -1868,8 +1868,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsea-of-thieves-xbox-xbox-one-series-windows-jp-2025&cjsku=188059",
+    gmvDiscount: 10
   },
   {
     id: 57,
@@ -1936,8 +1936,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F57306%2Fdeep-rock-galactic-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=57306",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdeep-rock-galactic-eu-steam&cjsku=73914",
+    gmvDiscount: 10
   },
   {
     id: 59,
@@ -1970,8 +1970,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F152047%2Fit-takes-two-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=152047",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fit-takes-two-xbox-xbox-one-series-au-standard&cjsku=184957",
+    gmvDiscount: 10
   },
   {
     id: 60,
@@ -2004,8 +2004,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F438604%2Fdying-light-collection-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=438604",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdying-light-eu-steam&cjsku=37962",
+    gmvDiscount: 10
   },
   {
     id: 62,
@@ -2038,8 +2038,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F56699%2Fraft-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=56699",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fraft-eu&cjsku=25752",
+    gmvDiscount: 10
   },
   {
     id: 63,
@@ -2106,8 +2106,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F292871%2Fpath-of-exile-2-lord-of-ogham-supporter-pack-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=292871",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpath-of-exile-2-early-access-pc-officialwebsite-global-standard&cjsku=180860",
+    gmvDiscount: 10
   },
   {
     id: 65,
@@ -2140,8 +2140,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F165612%2Fkilling-floor-2-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=165612",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fkilling-floor-2-xbox-arg&cjsku=85923",
+    gmvDiscount: 10
   },
   {
     id: 66,
@@ -2174,8 +2174,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F149993%2Fsons-of-the-forest-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=149993",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsons-of-the-forest-pc-steam-gift-eu-en-de-fr-it-pl-cs-ja-ko-pt-ru-zh-es-sv-tr-zh-fi-standard&cjsku=164157",
+    gmvDiscount: 10
   },
   {
     id: 67,
@@ -2208,8 +2208,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F133263%2Fready-or-not-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=133263",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fready-or-not&cjsku=71019",
+    gmvDiscount: 10
   },
   {
     id: 68,
@@ -2242,8 +2242,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F230317%2Fdying-light-2-stay-human-reloaded-edition-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=230317",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdying-light-2-xbox-xboxoneseries-eu-en-de-fr-it-pl-cs-ja-ko-pt-ru-zh-es-tr-zh-ar-reloaded&cjsku=173729",
+    gmvDiscount: 10
   },
   {
     id: 69,
@@ -2276,8 +2276,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F172185%2Fspace-engineers-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=172185",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fspace-engineers-ar-xbox-one&cjsku=68277",
+    gmvDiscount: 10
   },
   {
     id: 70,
@@ -2310,8 +2310,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F156197%2Famong-us-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=156197",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Famong-us-3d-pc-steam-gift-eu-standard&cjsku=186598",
+    gmvDiscount: 10
   },
   {
     id: 71,
@@ -2344,8 +2344,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F158523%2Fthe-outlast-trials-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=158523",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-outlast-trials-xbox-xboxoneseries-eu-en-standard&cjsku=170018",
+    gmvDiscount: 10
   },
   {
     id: 72,
@@ -2378,8 +2378,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F98171%2Fmonster-hunter-rise-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=98171",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmonster-hunter-rise&cjsku=128299",
+    gmvDiscount: 10
   },
   {
     id: 73,
@@ -2412,8 +2412,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F202690%2Fwarhammer-40-000-rogue-trader-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=202690",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwarhammer-40-000-rogue-trader-xbox-xboxseries-eu-en-standard&cjsku=165302",
+    gmvDiscount: 10
   },
   {
     id: 74,
@@ -2480,8 +2480,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F138423%2Fhalo-the-master-chief-collection-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=138423",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fhalo-the-master-chief-collection-steam-gift&cjsku=44854",
+    gmvDiscount: 10
   },
   {
     id: 76,
@@ -2514,8 +2514,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F155584%2Fborderlands-3-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=155584",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fborderlands-3-eu&cjsku=31140",
+    gmvDiscount: 10
   },
   {
     id: 78,
@@ -2548,8 +2548,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F180949%2Fparty-animals-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=180949",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fparty-animals-xbox-xboxoneseries-eu-en-zh-zh-standard&cjsku=160408",
+    gmvDiscount: 10
   },
   {
     id: 79,
@@ -2582,8 +2582,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F159944%2Fage-of-empires-iii-definitive-edition-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=159944",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fage-of-empires-iii-definitive-edition-xbox-xboxwindows-brazil-en-de-fr-it-ja-ko-pt-ru-zh-es-tr-zh-definitive&cjsku=147927",
+    gmvDiscount: 10
   },
   {
     id: 80,
@@ -2616,8 +2616,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F58303%2Ffoxhole-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=58303",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffoxhole-eu&cjsku=46477",
+    gmvDiscount: 10
   },
   {
     id: 82,
@@ -2650,8 +2650,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F57800%2Fanno-1800-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=57800",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fanno-1800-1&cjsku=26977",
+    gmvDiscount: 10
   },
   {
     id: 84,
@@ -2684,8 +2684,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F123989%2Fdinkum-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=123989",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdinkum-steam-gift-eu&cjsku=139145",
+    gmvDiscount: 10
   },
   {
     id: 85,
@@ -2718,8 +2718,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F75692%2Fgrounded-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=75692",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgrounded-xbox-xboxoneserieswindows-eu-en-standard&cjsku=155052",
+    gmvDiscount: 10
   },
   {
     id: 86,
@@ -2752,8 +2752,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F3312%2Fgrim-dawn-steam-gift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=3312",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgrim-dawn-gog&cjsku=51295",
+    gmvDiscount: 10
   },
   {
     id: 87,
@@ -2786,8 +2786,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F72176%2Fbarotrauma-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=72176",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fbarotrauma-1&cjsku=37516",
+    gmvDiscount: 10
   },
   {
     id: 88,
@@ -2820,8 +2820,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F169439%2Fhalo-infinite-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=169439",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fhalo-infinite-5000-and-600-halo-credits&cjsku=137278",
+    gmvDiscount: 10
   },
   {
     id: 89,
@@ -2854,8 +2854,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F64868%2Fcrossout-corrida-pack-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=64868",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcrossout-adrenaline-xbox-xboxoneseries-eu-en-standard&cjsku=161900",
+    gmvDiscount: 10
   },
   {
     id: 90,
@@ -2888,8 +2888,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F169346%2Fthehunter-call-of-the-wild-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=169346",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthehunter-call-of-the-wild-pc-steam-row-standard&cjsku=193564",
+    gmvDiscount: 10
   },
   {
     id: 91,
@@ -2922,8 +2922,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F175961%2Ffor-honor-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=175961",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffor-honor-asia&cjsku=37905",
+    gmvDiscount: 10
   },
   {
     id: 93,
@@ -2956,8 +2956,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F154520%2Fwarhammer-vermintide-2-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=154520",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwarhammer-vermintide-2-shadows-over-bogenhafen-eu&cjsku=75719",
+    gmvDiscount: 10
   },
   {
     id: 95,
@@ -2990,8 +2990,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F60026%2Fovercooked-2-eu-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=60026",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fovercooked-2-eu-1&cjsku=39521",
+    gmvDiscount: 10
   },
   {
     id: 96,
@@ -3024,8 +3024,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F137553%2Fcuphead-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=137553",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcuphead-xbox-one-eu&cjsku=47200",
+    gmvDiscount: 10
   },
   {
     id: 97,
@@ -3058,8 +3058,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F217211%2Fmyth-of-empires-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=217211",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmyth-of-empires-pc-steam-eu-en-de-fr-pl-cs-ja-pt-ru-zh-es-zh-standard&cjsku=172418",
+    gmvDiscount: 10
   },
   {
     id: 98,
@@ -3092,8 +3092,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F228269%2Fghost-of-tsushima-director-s-cut-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=228269",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fghost-of-tsushima-director-s-cut-pc-steam-gift-eu-en-de-fr-it-pl-cs-nl-ja-ko-no-pt-ru-zh-es-sv-tr-zh-hu-da-ar-fi-el-th-mx-standard&cjsku=171460",
+    gmvDiscount: 10
   },
   {
     id: 99,
@@ -3126,8 +3126,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F62974%2Fportal-2-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=62974",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fportal-2-eu&cjsku=31277",
+    gmvDiscount: 10
   },
   {
     id: 100,
@@ -3160,8 +3160,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F167244%2Finsurgency-sandstorm-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=167244",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Finsurgency-sandstorm-year-2-pass-pc-steam-global-en-de-fr-it-pl-cs-nl-ja-ko-no-pt-ru-zh-es-sv-tr-zh-hu-da-fi-th-mx-standard&cjsku=157351",
+    gmvDiscount: 10
   },
   {
     id: 101,
@@ -3194,8 +3194,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F177085%2Fescape-the-backrooms-eu-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=177085",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fescape-the-backrooms-pc-steam-gift-eu-en-de-fr-ru-zh-es-standard&cjsku=158631",
+    gmvDiscount: 10
   },
   {
     id: 103,
@@ -3228,8 +3228,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F206785%2Fworld-war-z-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=206785",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fworld-war-z-pc-steamgift-global-en-standard&cjsku=166224",
+    gmvDiscount: 10
   },
   {
     id: 104,
@@ -3262,8 +3262,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F59319%2Fgreen-hell-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=59319",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgreen-hell-xbox-arg&cjsku=92090",
+    gmvDiscount: 10
   },
   {
     id: 105,
@@ -3296,8 +3296,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F155160%2Fwartales-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=155160",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwartales-xbox-xboxserieswindows-eu-en-standard&cjsku=163336",
+    gmvDiscount: 10
   },
   {
     id: 107,
@@ -3330,8 +3330,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F168903%2Fremnant-ii-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=168903",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fremnant-ii-xbox-xboxseries-eg-en-de-fr-it-ja-ko-pt-ru-zh-es-standard&cjsku=165751",
+    gmvDiscount: 10
   },
   {
     id: 108,
@@ -3364,8 +3364,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F244724%2Fage-of-mythology-retold-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=244724",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fage-of-mythology-retold-pc-steam-global-en-de-fr-it-pl-ja-ko-pt-ru-es-hu-da-vi-mx-standard&cjsku=173182",
+    gmvDiscount: 10
   },
   {
     id: 109,
@@ -3398,8 +3398,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F344469%2Ftinkerlands-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=344469",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftinkerlands-pc-steam-global-standard&cjsku=187207",
+    gmvDiscount: 10
   },
   {
     id: 110,
@@ -3432,8 +3432,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F88932%2Ficarus-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=88932",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ficarus-steam-gift&cjsku=116965",
+    gmvDiscount: 10
   },
   {
     id: 111,
@@ -3466,8 +3466,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F60669%2Fstormworks-build-and-rescue-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=60669",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fstormworks-build-and-rescue-1&cjsku=28570",
+    gmvDiscount: 10
   },
   {
     id: 112,
@@ -3500,8 +3500,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F191181%2Ftom-clancy-s-ghost-recon-wildlands-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=191181",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftom-clancys-ghost-recon-wildlands-1&cjsku=3095",
+    gmvDiscount: 10
   },
   {
     id: 113,
@@ -3568,8 +3568,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F155028%2Ftom-clancy-s-ghost-recon-breakpoint-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=155028",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fghost-recon-breakpoint-xbox-one&cjsku=43163",
+    gmvDiscount: 10
   },
   {
     id: 115,
@@ -3602,8 +3602,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F74048%2Fgunfire-reborn-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=74048",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgunfire-reborn-xbox&cjsku=137424",
+    gmvDiscount: 10
   },
   {
     id: 117,
@@ -3636,8 +3636,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F152038%2Fmedieval-dynasty-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=152038",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmedieval-dynasty-xbox-xboxserieswindows-arg-en-standard&cjsku=143969",
+    gmvDiscount: 10
   },
   {
     id: 118,
@@ -3670,8 +3670,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F59196%2Fultimate-chicken-horse-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=59196",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fultimate-chicken-horse&cjsku=2929",
+    gmvDiscount: 10
   },
   {
     id: 119,
@@ -3704,8 +3704,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F57849%2Fgang-beasts-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=57849",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgang-beasts-yogscast-avatars&cjsku=42861",
+    gmvDiscount: 10
   },
   {
     id: 120,
@@ -3738,8 +3738,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F59164%2Fstick-fight-the-game-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=59164",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fstick-fight-the-game-pc-steam-tr-en-standard&cjsku=167608",
+    gmvDiscount: 10
   },
   {
     id: 121,
@@ -3772,8 +3772,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F165731%2Fhuman-fall-flat-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=165731",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fhuman-fall-flat-eu-steam-eu&cjsku=73024",
+    gmvDiscount: 10
   },
   {
     id: 122,
@@ -3806,8 +3806,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F59417%2Flovers-in-a-dangerous-spacetime-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=59417",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Flovers-in-a-dangerous-spacetime-steam-gift&cjsku=59080",
+    gmvDiscount: 10
   },
   {
     id: 123,
@@ -3840,8 +3840,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F73049%2Fstreets-of-rage-4-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=73049",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fstreets-of-rage-4&cjsku=57341",
+    gmvDiscount: 10
   },
   {
     id: 124,
@@ -3874,8 +3874,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F154884%2Fteenage-mutant-ninja-turtles-shredder-s-revenge-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=154884",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fteenage-mutant-ninja-turtles-shredders-revenge-xbox-arg&cjsku=137232",
+    gmvDiscount: 10
   },
   {
     id: 125,
@@ -3908,8 +3908,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F5772%2Fbroforce-steam-gift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=5772",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fbroforce-1&cjsku=28569",
+    gmvDiscount: 10
   },
   {
     id: 126,
@@ -3942,8 +3942,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F163457%2Fa-way-out-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=163457",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fa-way-out-xbox-one&cjsku=11150",
+    gmvDiscount: 10
   },
   {
     id: 127,
@@ -3976,8 +3976,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F311941%2Fmoving-out-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=311941",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmoving-out-moving-out-2-bundle-xbox-xboxoneseries-eu-en-standard&cjsku=158866",
+    gmvDiscount: 10
   },
   {
     id: 129,
@@ -4010,8 +4010,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F59211%2Ftowerfall-ascension-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=59211",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftowerfall-ascension-pc-steam-eu-en-standard&cjsku=174579",
+    gmvDiscount: 10
   },
   {
     id: 130,
@@ -4044,8 +4044,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F152442%2Fspelunky-2-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=152442",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fspelunky-2-xbox-eu&cjsku=130389",
+    gmvDiscount: 10
   },
   {
     id: 131,
@@ -4078,8 +4078,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F72768%2Ftrine-4-the-nightmare-prince-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=72768",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftrine-4-the-nightmare-prince-steam-row-standard-pc&cjsku=178241",
+    gmvDiscount: 10
   },
   {
     id: 132,
@@ -4112,8 +4112,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F418578%2Frayman-legends-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=418578",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Frayman-legends-arg-xbox&cjsku=82375",
+    gmvDiscount: 10
   },
   {
     id: 134,
@@ -4180,8 +4180,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F13860%2Fmove-or-die-steam-gift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=13860",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmove-or-die-steam-gift&cjsku=26496",
+    gmvDiscount: 10
   },
   {
     id: 136,
@@ -4214,8 +4214,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F76145%2Fboomerang-fu-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=76145",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fboomerang-fu-eu&cjsku=79787",
+    gmvDiscount: 10
   },
   {
     id: 137,
@@ -4248,8 +4248,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F155157%2Fplateup-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=155157",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fplateup-pc-steam-global-en-de-fr-pl-ja-pt-ru-zh-es-zh-standard&cjsku=139932",
+    gmvDiscount: 10
   },
   {
     id: 138,
@@ -4282,8 +4282,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F94882%2Fkeywe-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=94882",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fkeywe&cjsku=124448",
+    gmvDiscount: 10
   },
   {
     id: 139,
@@ -4316,8 +4316,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F44849%2Ffull-metal-furies-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=44849",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffull-metal-furies-eu-xbox-one&cjsku=52583",
+    gmvDiscount: 10
   },
   {
     id: 140,
@@ -4350,8 +4350,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F80088%2Fphogs-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=80088",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fphogs-xbox-ar&cjsku=72663",
+    gmvDiscount: 10
   },
   {
     id: 141,
@@ -4384,8 +4384,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F74309%2Funravel-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=74309",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Funravel-two-eng&cjsku=38167",
+    gmvDiscount: 10
   },
   {
     id: 143,
@@ -4418,8 +4418,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F80486%2Fback4blood-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=80486",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fback-4-blood-arg-xbox&cjsku=124866",
+    gmvDiscount: 10
   },
   {
     id: 144,
@@ -4452,8 +4452,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F252508%2Faliens-fireteam-elite-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=252508",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Faliens-fireteam-elite-eu&cjsku=122508",
+    gmvDiscount: 10
   },
   {
     id: 145,
@@ -4486,8 +4486,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F227002%2Fcontent-warning-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=227002",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcontent-warning-pc-steam-global-en-standard&cjsku=170258",
+    gmvDiscount: 10
   },
   {
     id: 146,
@@ -4520,8 +4520,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F135460%2Fvampire-survivors-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=135460",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fvampire-survivors-xbox-xboxoneseries-arg-en-standard&cjsku=145225",
+    gmvDiscount: 10
   },
   {
     id: 148,
@@ -4554,8 +4554,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F113460%2Fcore-keeper-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=113460",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcore-keeper-xbox-xboxseries-eu-standard&cjsku=176527",
+    gmvDiscount: 10
   },
   {
     id: 149,
@@ -4588,8 +4588,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F56219%2Fstardew-valley-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=56219",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fstardew-valley-xone-eu&cjsku=51044",
+    gmvDiscount: 10
   },
   {
     id: 150,
@@ -4622,8 +4622,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F63691%2Fkeep-talking-and-nobody-explodes-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=63691",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fkeep-talking-and-nobody-explodes-xbox-xboxoneseries-arg-en-standard&cjsku=150919",
+    gmvDiscount: 10
   },
   {
     id: 151,
@@ -4656,8 +4656,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F176307%2Fpico-park-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=176307",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpico-park&cjsku=134185",
+    gmvDiscount: 10
   },
   {
     id: 152,
@@ -4690,8 +4690,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F83528%2Fovercooked-all-you-can-eat-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=83528",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fovercooked-all-you-can-eat&cjsku=82124",
+    gmvDiscount: 10
   },
   {
     id: 153,
@@ -4724,8 +4724,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F166960%2Fpayday-3-pre-order-edition-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=166960",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpayday-3-pc-steam-gift-eu-en-de-fr-it-pl-ja-ko-pt-ru-zh-es-tr-zh-standard&cjsku=164158",
+    gmvDiscount: 10
   },
   {
     id: 154,
@@ -4758,8 +4758,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F23632%2Fmagicka-2-steam-gift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=23632",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmagicka-2&cjsku=854",
+    gmvDiscount: 10
   },
   {
     id: 155,
@@ -4792,8 +4792,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F160501%2Fwe-were-here-together-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=160501",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwe-were-here-together-xone-eu&cjsku=60240",
+    gmvDiscount: 10
   },
   {
     id: 156,
@@ -4826,8 +4826,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F155162%2Fwe-were-here-forever-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=155162",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwe-were-here-forever-steam-gift&cjsku=135670",
+    gmvDiscount: 10
   },
   {
     id: 157,
@@ -4894,8 +4894,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F235356%2Fescape-academy-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=235356",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fescape-academy-xbox-eu&cjsku=139535",
+    gmvDiscount: 10
   },
   {
     id: 159,
@@ -4928,8 +4928,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F122490%2Ftiny-tina-s-wonderlands-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=122490",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftiny-tinas-wonderlands-pc-steam-gift-eu-en-de-fr-it-ja-ko-pt-ru-zh-es-zh-th-standard&cjsku=164170",
+    gmvDiscount: 10
   },
   {
     id: 160,
@@ -4962,8 +4962,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsackboy-a-big-adventure-pc-steam-global-en-de-fr-it-pl-cs-nl-ja-ko-no-pt-ru-es-sv-tr-zh-hu-da-ro-ar-fi-el-standard&cjsku=144497",
+    gmvDiscount: 10
   },
   {
     id: 161,
@@ -4996,8 +4996,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F196314%2Froboquest-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=196314",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Froboquest-pc-steam-row-en-de-fr-pt-zh-standard&cjsku=166208",
+    gmvDiscount: 10
   },
   {
     id: 162,
@@ -5030,8 +5030,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F61483%2Fno-man-s-sky-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=61483",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fno-mans-sky-pc-steam-china-en-de-fr-it-pl-nl-ja-ko-pt-ru-zh-es-zh-standard&cjsku=170557",
+    gmvDiscount: 10
   },
   {
     id: 163,
@@ -5064,8 +5064,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F2514%2Fcastle-crashers-steam-gift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=2514",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcastle-crashers-remastered-eu&cjsku=51081",
+    gmvDiscount: 10
   },
   {
     id: 164,
@@ -5098,8 +5098,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F32525%2Fastroneer-steam-gift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=32525",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fastroneer-xbox-one-eu&cjsku=47329",
+    gmvDiscount: 10
   },
   {
     id: 165,
@@ -5132,8 +5132,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F173790%2Foutriders-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=173790",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Foutriders-xbox-arg&cjsku=82471",
+    gmvDiscount: 10
   },
   {
     id: 166,
@@ -5166,8 +5166,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F178523%2Fmoving-out-2-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=178523",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmoving-out-2-pc-steam-global-en-de-fr-it-pl-ja-ko-pt-ru-zh-es-sv-zh-standard&cjsku=141441",
+    gmvDiscount: 10
   },
   {
     id: 167,
@@ -5200,8 +5200,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F4268%2Fdivinity-original-sin-steam-gift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=4268",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdivinity-original-sin-the-source-saga-gog&cjsku=76396",
+    gmvDiscount: 10
   },
   {
     id: 169,
@@ -5234,8 +5234,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F23987%2Fwarhammer-end-times-vermintide-steam-gift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=23987",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwarhammer-end-times-vermintide-collectors-edition-upgrade-pc-steam-global-en-standard&cjsku=145749",
+    gmvDiscount: 10
   },
   {
     id: 170,
@@ -5268,8 +5268,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F81828%2Fdevour-eu-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=81828",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdevour-steam-gift-eu&cjsku=78388",
+    gmvDiscount: 10
   },
   {
     id: 172,
@@ -5336,8 +5336,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F77734%2Fbaldur-s-gate-iii-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=77734",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fbaldurs-gate-3-xbox-series-in-standard&cjsku=196062",
+    gmvDiscount: 10
   },
   {
     id: 174,
@@ -5370,8 +5370,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwar-thunder-us-starter-bundle-xbox-xboxoneseries-eu-en-standard&cjsku=157166",
+    gmvDiscount: 10
   },
   {
     id: 175,
@@ -5404,8 +5404,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F253448%2Fea-sports-fc-25-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=253448",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fea-sports-fc-25-pc-steam-global-standard&cjsku=174819",
+    gmvDiscount: 10
   },
   {
     id: 176,
@@ -5438,8 +5438,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F162841%2Fhearts-of-iron-iv-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=162841",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fhearts-of-iron-iv-battle-for-the-bosporus&cjsku=70592",
+    gmvDiscount: 10
   },
   {
     id: 177,
@@ -5472,8 +5472,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F254702%2Fnba-2k25-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=254702",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fnba-2k25-pc-steam-global-standard&cjsku=175652",
+    gmvDiscount: 10
   },
   {
     id: 178,
@@ -5506,8 +5506,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F323144%2Fschedule-i-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=323144",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fschedule-i-pc-steam-global-standard&cjsku=185650",
+    gmvDiscount: 10
   },
   {
     id: 179,
@@ -5540,8 +5540,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F138401%2Ffinal-fantasy-xiv-online-starter-edition-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=138401",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffinal-fantasy-xiv-online-xbox-xboxseries-eu-en-completebonus&cjsku=170044",
+    gmvDiscount: 10
   },
   {
     id: 180,
@@ -5574,8 +5574,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F339192%2Ffantasy-life-i-the-girl-who-steals-time-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=339192",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffantasy-life-i-the-girl-who-steals-time-pc-steam-gift-global-standard&cjsku=186785",
+    gmvDiscount: 10
   },
   {
     id: 181,
@@ -5608,8 +5608,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F112583%2Flost-ark-apprentice-starter-pack-dlc-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=112583",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Flost-ark-apprentice-starter-pack&cjsku=131628",
+    gmvDiscount: 10
   },
   {
     id: 182,
@@ -5642,8 +5642,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-17009720?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F299818%2Fpath-of-exile-2-top-up-pc-path-of-exile-2-early-access-supporter-pack%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=299818",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpath-of-exile-2-early-access-pc-officialwebsite-global-standard&cjsku=180860",
+    gmvDiscount: 10
   },
   {
     id: 183,
@@ -5676,8 +5676,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F167046%2Fthe-elder-scrolls-online-collection-necrom-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=167046",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-elder-scrolls-online-pc-steam-eu-standard&cjsku=195733",
+    gmvDiscount: 10
   },
   {
     id: 184,
@@ -5710,8 +5710,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F248322%2Ffarming-simulator-25-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=248322",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffarming-simulator-25-pc-steam-cn-standard&cjsku=190397",
+    gmvDiscount: 10
   },
   {
     id: 186,
@@ -5744,8 +5744,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F2292%2Feuropa-universalis-iv-pc-steam-gift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=2292",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Feuropa-universalis-iv-steam-row-en-de-standard-pc&cjsku=170061",
+    gmvDiscount: 10
   },
   {
     id: 187,
@@ -5778,8 +5778,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F211641%2Fenshrouded-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=211641",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fenshrouded-pc-steam-global-en-de-fr-it-pl-ja-ko-pt-ru-zh-es-tr-zh-uk-th-standard&cjsku=167468",
+    gmvDiscount: 10
   },
   {
     id: 188,
@@ -5812,8 +5812,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-14096578?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F307733%2Funturned-30-days-private-server-vip-package-code%3Fnosalesbooster%3D1%26currency%3DDKK%26noff%3D1&cjsku=307733",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Funturned-xbox-arg&cjsku=137413",
+    gmvDiscount: 10
   },
   {
     id: 189,
@@ -5846,8 +5846,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F94262%2Fforza-horizon-5-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=94262",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fforza-horizon-5-xbox-xboxoneserieswindows-row-standard&cjsku=175448",
+    gmvDiscount: 10
   },
   {
     id: 190,
@@ -5880,8 +5880,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F60013%2Ftom-clancya-s-the-division-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=60013",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftom-clancys-the-division-2-standard-edition-eu-xbox-one&cjsku=28816",
+    gmvDiscount: 10
   },
   {
     id: 191,
@@ -5914,8 +5914,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fworld-of-warships-texas-pack-pc-steam-gift-global-standard&cjsku=196242",
+    gmvDiscount: 10
   },
   {
     id: 192,
@@ -5948,8 +5948,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F315393%2Froadcraft-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=315393",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Froadcraft-pc-steam-gift-global-standard&cjsku=183892",
+    gmvDiscount: 10
   },
   {
     id: 193,
@@ -6050,8 +6050,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F152423%2Ffarming-simulator-22-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=152423",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffarming-simulator-22-xbox-eu&cjsku=122248",
+    gmvDiscount: 10
   },
   {
     id: 196,
@@ -6084,8 +6084,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F327249%2Ff1-25-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=327249",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ff1-25-pc-ea-app-eu-standard&cjsku=197436",
+    gmvDiscount: 10
   },
   {
     id: 198,
@@ -6118,8 +6118,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F155030%2Ftabletop-simulator-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=155030",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftabletop-simulator-eu&cjsku=54323",
+    gmvDiscount: 10
   },
   {
     id: 199,
@@ -6152,8 +6152,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F249040%2Fsmite-2-founders-edition-bundle-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=249040",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsmite-2-pc-steam-gift-global-founders&cjsku=176555",
+    gmvDiscount: 10
   },
   {
     id: 200,
@@ -6186,8 +6186,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F133285%2Fforza-horizon-4-standard-edition-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=133285",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fforza-horizon-4-lego-speed-champions-bundle-pc-xbox-one&cjsku=43557",
+    gmvDiscount: 10
   },
   {
     id: 201,
@@ -6220,8 +6220,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F15862%2Felite-dangerous-steam-gift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=15862",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Felite-dangerous-xone-eu&cjsku=58424",
+    gmvDiscount: 10
   },
   {
     id: 202,
@@ -6288,8 +6288,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F57766%2Ftotal-war-three-kingdoms-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=57766",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftotal-war-three-kingdoms-fates-divided-eu&cjsku=81323",
+    gmvDiscount: 10
   },
   {
     id: 204,
@@ -6356,8 +6356,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F346959%2Fpopucom-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=346959",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpopucom-pc-steam-gift-global-standard&cjsku=187920",
+    gmvDiscount: 10
   },
   {
     id: 206,
@@ -6458,8 +6458,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F324382%2Fdrive-beyond-horizons-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=324382",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdrive-beyond-horizons-pc-steam-gift-global-standard&cjsku=185252",
+    gmvDiscount: 10
   },
   {
     id: 209,
@@ -6526,8 +6526,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-17028133?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F465345%2Fguild-wars-2-account-pc-guild-wars-2-steam-completely-your-account-with-your-native-mail%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=465345",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fguild-wars-2-2000-gems-card&cjsku=650",
+    gmvDiscount: 10
   },
   {
     id: 212,
@@ -6560,8 +6560,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-14096576?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F83513%2Ffishing-planet-amazon-carnival-pack-eu-steam-altergift%3Fnosalesbooster%3D1%26currency%3DAUD%26noff%3D1&cjsku=83513",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffishing-planet-halloween-bundle-xbox-live-arg&cjsku=125093",
+    gmvDiscount: 10
   },
   {
     id: 213,
@@ -6662,8 +6662,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F156799%2Fravenswatch-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=156799",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fravenswatch-xbox-xboxoneseries-eu-standard&cjsku=180688",
+    gmvDiscount: 10
   },
   {
     id: 216,
@@ -6730,8 +6730,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F162021%2Fpowerwash-simulator-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=162021",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpowerwash-simulator-nintendo-nintendoswitch-eu-en-de-fr-it-ja-ko-pt-ru-zh-es-zh-standard&cjsku=154776",
+    gmvDiscount: 10
   },
   {
     id: 218,
@@ -6764,8 +6764,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F203628%2Fhouse-flipper-2-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=203628",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fhouse-flipper-2-pc-steam-eu-en-de-fr-it-pl-nl-ja-ko-no-pt-ru-zh-es-tr-zh-mx-standard&cjsku=169273",
+    gmvDiscount: 10
   },
   {
     id: 219,
@@ -6798,8 +6798,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F219353%2Fsupermarket-simulator-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=219353",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsupermarket-simulator-pc-steam-gift-global-en-de-fr-it-ja-ko-pt-ru-zh-es-tr-standard&cjsku=168819",
+    gmvDiscount: 10
   },
   {
     id: 220,
@@ -6832,8 +6832,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F22130%2Fcompany-of-heroes-2-asia-steam-gift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=22130",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcompany-of-heroes-2&cjsku=272",
+    gmvDiscount: 10
   },
   {
     id: 221,
@@ -6866,8 +6866,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F60077%2Fdevil-may-cry-5-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=60077",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdevil-may-cry-5-1&cjsku=28256",
+    gmvDiscount: 10
   },
   {
     id: 222,
@@ -6900,8 +6900,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcall-to-arms-gates-of-hell-ostfront&cjsku=138237",
+    gmvDiscount: 10
   },
   {
     id: 223,
@@ -6934,8 +6934,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F80056%2Fred-dead-online-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=80056",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fred-dead-online-steam-gift-eu&cjsku=74378",
+    gmvDiscount: 10
   },
   {
     id: 224,
@@ -6968,8 +6968,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F136157%2Fcompany-of-heroes-3-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=136157",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcompany-of-heroes-3&cjsku=120579",
+    gmvDiscount: 10
   },
   {
     id: 226,
@@ -7070,8 +7070,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F252518%2Ftotal-war-shogun-2-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=252518",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftotal-war-shogun-2-sengoku-jidai-unit-pack&cjsku=36578",
+    gmvDiscount: 10
   },
   {
     id: 229,
@@ -7104,8 +7104,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F316453%2Fpga-tour-2k25-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=316453",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpga-tour-2k25-pc-steam-gift-global-standard&cjsku=184050",
+    gmvDiscount: 10
   },
   {
     id: 230,
@@ -7172,8 +7172,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F151528%2Fage-of-wonders-4-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=151528",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fage-of-wonders-4-pc-steam-cn-standard&cjsku=194724",
+    gmvDiscount: 10
   },
   {
     id: 232,
@@ -7206,8 +7206,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F138392%2Fescape-simulator-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=138392",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fescape-simulator-2-pc-steam-gift-global-standard&cjsku=194778",
+    gmvDiscount: 10
   },
   {
     id: 233,
@@ -7240,8 +7240,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F235966%2Fpikuniku-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=235966",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpikuniku&cjsku=35612",
+    gmvDiscount: 10
   },
   {
     id: 234,
@@ -7274,8 +7274,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F150109%2Fgtfo-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=150109",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgtfo-steam&cjsku=47089",
+    gmvDiscount: 10
   },
   {
     id: 235,
@@ -7308,8 +7308,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F59179%2Fwe-need-to-go-deeper-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=59179",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwe-need-to-go-deeper-eu&cjsku=123389",
+    gmvDiscount: 10
   },
   {
     id: 236,
@@ -7342,8 +7342,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F203670%2Fdungeon-of-the-endless-steam-gift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=203670",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdungeon-of-the-endless-eu&cjsku=129704",
+    gmvDiscount: 10
   },
   {
     id: 237,
@@ -7376,8 +7376,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F67463%2Fheave-ho-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=67463",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fheave-ho&cjsku=42396",
+    gmvDiscount: 10
   },
   {
     id: 238,
@@ -7410,8 +7410,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F155458%2Fnecesse-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=155458",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fnecesse-pc-steam-eu-en-de-fr-cs-ja-ko-pt-ru-zh-es-tr-zh-hu-uk-mx-standard&cjsku=171578",
+    gmvDiscount: 10
   },
   {
     id: 239,
@@ -7444,8 +7444,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F125262%2Fghost-watchers-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=125262",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fghost-watchers-pc-steam-gift-eu-en-de-fr-it-pl-cs-nl-ja-ko-no-pt-ru-zh-es-sv-tr-zh-da-fi-uk-th-standard&cjsku=139714",
+    gmvDiscount: 10
   },
   {
     id: 240,
@@ -7478,8 +7478,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F247342%2Fchained-together-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=247342",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fchained-together-pc-steam-gift-global-en-standard&cjsku=173822",
+    gmvDiscount: 10
   },
   {
     id: 241,
@@ -7512,8 +7512,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F63667%2Fbesiege-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=63667",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fbesiege-pc-steam-eu-standard&cjsku=179487",
+    gmvDiscount: 10
   },
   {
     id: 242,
@@ -7546,8 +7546,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F180768%2Fsunkenland-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=180768",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsunkenland-pc-steam-global-en-de-fr-ja-ko-ru-zh-es-tr-standard&cjsku=159579",
+    gmvDiscount: 10
   },
   {
     id: 243,
@@ -7614,8 +7614,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F59759%2Fvolcanoids-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=59759",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fvolcanoids-1&cjsku=31272",
+    gmvDiscount: 10
   },
   {
     id: 245,
@@ -7648,8 +7648,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F155162%2Fwe-were-here-forever-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=155162",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwe-were-here-forever-steam-gift&cjsku=135670",
+    gmvDiscount: 10
   },
   {
     id: 246,
@@ -7682,8 +7682,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F84259%2Ftotally-reliable-delivery-service-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=84259",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftotally-reliable-delivery-service-xbox-arg&cjsku=133252",
+    gmvDiscount: 10
   },
   {
     id: 247,
@@ -7716,8 +7716,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F281091%2Ffor-the-king-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=281091",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffor-the-king-eu&cjsku=80133",
+    gmvDiscount: 10
   },
   {
     id: 248,
@@ -7750,8 +7750,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F189223%2Ffor-the-king-ii-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=189223",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffor-the-king-2-pc-steamgift-global-en-de-fr-it-pl-ja-ko-pt-ru-zh-es-zh-uk-standard&cjsku=161985",
+    gmvDiscount: 10
   },
   {
     id: 249,
@@ -7818,8 +7818,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F121868%2Fcult-of-the-lamb-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=121868",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcult-of-the-lamb-steam-eu-en-de-fr-ja-ko-pt-ru-zh-es-zh-standard-pc&cjsku=154335",
+    gmvDiscount: 10
   },
   {
     id: 251,
@@ -7852,8 +7852,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F7827%2Fshovel-knight-treasure-trove-steam-gift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=7827",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fshovel-knight-treasure-trove-steam-eu-en-de-fr-it-ja-pt-ru-es-standard-pc&cjsku=145704",
+    gmvDiscount: 10
   },
   {
     id: 252,
@@ -7886,8 +7886,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F240971%2Fsoulmask-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=240971",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsoulmask-pc-steam-global-en-de-fr-ja-ko-pt-ru-zh-es-zh-standard&cjsku=172757",
+    gmvDiscount: 10
   },
   {
     id: 253,
@@ -7920,8 +7920,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F79225%2Fprodeus-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=79225",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fprodeus&cjsku=72021",
+    gmvDiscount: 10
   },
   {
     id: 254,
@@ -7988,8 +7988,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F353964%2Fship-of-fools-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=353964",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fship-of-fools-pc-steam-global-en-de-fr-it-ja-ko-ru-zh-es-zh-standard&cjsku=143373",
+    gmvDiscount: 10
   },
   {
     id: 256,
@@ -8022,8 +8022,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F152034%2Fpatch-quest-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=152034",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpatch-quest-steam-global-en-standard-pc&cjsku=152300",
+    gmvDiscount: 10
   },
   {
     id: 257,
@@ -8090,8 +8090,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F426624%2Fthe-finals-year-1-deluxe-edition-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=426624",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-finals-year-1-deluxe-edition-pc-steam-gift-global-standard&cjsku=196879",
+    gmvDiscount: 10
   },
   {
     id: 259,
@@ -8124,8 +8124,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fdirect-top-ups%2Fmarvel-rivals-500-lattices&cjsku=181618",
+    gmvDiscount: 10
   },
   {
     id: 260,
@@ -8158,8 +8158,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F60912%2Ftower-unite-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=60912",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftower-unite&cjsku=28705",
+    gmvDiscount: 10
   },
   {
     id: 261,
@@ -8192,8 +8192,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F32790%2Fdelta-force-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=32790",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdelta-force&cjsku=36430",
+    gmvDiscount: 10
   },
   {
     id: 262,
@@ -8226,8 +8226,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F123544%2Fapex-legends-legacy-pack-dlc-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=123544",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fapex-legends-apex-coins-eu-xbox-gift-cards-xboxlive-eu-standard-2150apexcoins&cjsku=149731",
+    gmvDiscount: 10
   },
   {
     id: 263,
@@ -8260,8 +8260,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-17009720?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F304061%2Fphantasy-star-online-2-new-genesis-currency-n-meseta-japan-jp-ship-02%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=304061",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fphantasy-star-online-2-new-genesis-pack-official-website-officialwebsite-global-en-standard&cjsku=152733",
+    gmvDiscount: 10
   },
   {
     id: 264,
@@ -8294,8 +8294,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F352489%2Fpeak-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=352489",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpeak-pc-steam-gift-global-standard&cjsku=188660",
+    gmvDiscount: 10
   },
   {
     id: 265,
@@ -8328,8 +8328,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F396898%2Fabsolum-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=396898",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fabsolum-pc-steam-gift-global-standard&cjsku=194010",
+    gmvDiscount: 10
   },
   {
     id: 266,
@@ -8362,8 +8362,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F402102%2Frv-there-yet-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=402102",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Frv-there-yet-pc-steam-gift-global-standard&cjsku=194296",
+    gmvDiscount: 10
   },
   {
     id: 267,
@@ -8396,8 +8396,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F352516%2Fborderlands-4-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=352516",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fborderlands-4-pc-steam-gift-global-standard&cjsku=188475",
+    gmvDiscount: 10
   },
   {
     id: 268,
@@ -8430,8 +8430,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F133873%2Fcoral-island-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=133873",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcoral-island-pc-steam-global-en-standard&cjsku=142509",
+    gmvDiscount: 10
   },
   {
     id: 269,
@@ -8498,8 +8498,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F231598%2Fbellwright-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=231598",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fbellwright-pc-steam-gift-global-en-de-fr-it-pl-ja-ko-pt-ru-zh-es-tr-zh-uk-standard&cjsku=170846",
+    gmvDiscount: 10
   },
   {
     id: 271,
@@ -8532,8 +8532,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F391303%2Farc-raiders-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=391303",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Farc-raiders-pc-steam-row-standard&cjsku=194180",
+    gmvDiscount: 10
   },
   {
     id: 272,
@@ -8566,8 +8566,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F168266%2Fminecraft-dungeons-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=168266",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fminecraft-dungeons&cjsku=47596",
+    gmvDiscount: 10
   },
   {
     id: 273,
@@ -8600,8 +8600,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F324491%2Fdune-awakening-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=324491",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdune-awakening-pc-steam-global-en-standard&cjsku=141436",
+    gmvDiscount: 10
   },
   {
     id: 274,
@@ -8634,8 +8634,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F88899%2Forcs-must-die-3-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=88899",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Forcs-must-die-3&cjsku=114281",
+    gmvDiscount: 10
   },
   {
     id: 275,
@@ -8702,8 +8702,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F375466%2Fabyssus-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=375466",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fabyssus-pc-steam-global-standard&cjsku=192046",
+    gmvDiscount: 10
   },
   {
     id: 277,
@@ -8736,8 +8736,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F383982%2Fdying-light-the-beast-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=383982",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdying-light-the-beast-pc-steam-global-standard&cjsku=181367",
+    gmvDiscount: 10
   },
   {
     id: 278,
@@ -8770,8 +8770,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F3841%2Fmonaco-what-s-yours-is-mine-steam-gift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=3841",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmonaco-whats-yours-is-mine-eu&cjsku=55105",
+    gmvDiscount: 10
   },
   {
     id: 279,
@@ -8838,8 +8838,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F77310%2Funtitled-goose-game-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=77310",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Funtitled-goose-game-steam-gift&cjsku=69017",
+    gmvDiscount: 10
   },
   {
     id: 281,
@@ -8872,8 +8872,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F88079%2Foperation-tango-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=88079",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Foperation-tango&cjsku=122517",
+    gmvDiscount: 10
   },
   {
     id: 282,
@@ -8906,8 +8906,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F287638%2Funrailed-2-back-on-track-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=287638",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Funrailed-2-back-on-track-pc-steam-gift-global-standard&cjsku=179903",
+    gmvDiscount: 10
   },
   {
     id: 283,
@@ -8940,8 +8940,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F69287%2Ftools-up-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=69287",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftools-up&cjsku=47304",
+    gmvDiscount: 10
   },
   {
     id: 284,
@@ -8974,8 +8974,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F177787%2Fbiped-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=177787",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fbiped-2-pc-steam-cis-standard&cjsku=197416",
+    gmvDiscount: 10
   },
   {
     id: 285,
@@ -9008,8 +9008,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F108704%2Fnobody-saves-the-world-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=108704",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fnobody-saves-the-world&cjsku=130345",
+    gmvDiscount: 10
   },
   {
     id: 286,
@@ -9042,8 +9042,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F71481%2Fdarksiders-genesis-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=71481",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdarksiders-genesis&cjsku=43648",
+    gmvDiscount: 10
   },
   {
     id: 287,
@@ -9076,8 +9076,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F65381%2Fchildren-of-morta-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=65381",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fchildren-of-morta-complete-edition&cjsku=134434",
+    gmvDiscount: 10
   },
   {
     id: 288,
@@ -9110,8 +9110,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F182528%2Ftrine-5-a-clockwork-conspiracy-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=182528",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftrine-5-a-clockwork-conspiracy-steam-global-en-de-fr-it-pl-cs-ja-ko-pt-ru-zh-es-tr-zh-uk-mx-standard-pc&cjsku=158403",
+    gmvDiscount: 10
   },
   {
     id: 289,
@@ -9144,8 +9144,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F117532%2Fember-knights-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=117532",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fember-knights&cjsku=134480",
+    gmvDiscount: 10
   },
   {
     id: 290,
@@ -9178,8 +9178,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F81314%2Fcarx-drift-racing-online-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=81314",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcarx-drift-racing-online-xbox-eu&cjsku=67567",
+    gmvDiscount: 10
   },
   {
     id: 291,
@@ -9246,8 +9246,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F27930%2Fdoom-steam-gift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=27930",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdoom-doom-ii-bundle-xbox-xboxoneserieswindows-eu-standard&cjsku=175872",
+    gmvDiscount: 10
   },
   {
     id: 293,
@@ -9280,8 +9280,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F117858%2Fsniper-elite-5-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=117858",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsniper-elite-5-steam-gift&cjsku=135541",
+    gmvDiscount: 10
   },
   {
     id: 294,
@@ -9348,8 +9348,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F56740%2Fplague-inc-evolved-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=56740",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fplague-inc-evolved-xbox-xboxoneseries-arg-en-de-fr-it-standard&cjsku=142570",
+    gmvDiscount: 10
   },
   {
     id: 296,
@@ -9450,8 +9450,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F199215%2Ftotal-war-warhammer-ii-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=199215",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftotal-war-warhammer-ii-collection-pc-steam-eu-en-de-fr-it-pl-cs-ko-pt-ru-zh-es-tr-zh-standard&cjsku=160372",
+    gmvDiscount: 10
   },
   {
     id: 299,
@@ -9484,8 +9484,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F234442%2Fabiotic-factor-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=234442",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fabiotic-factor-xbox-series-pc-in-supporter&cjsku=196664",
+    gmvDiscount: 10
   },
   {
     id: 300,
@@ -9518,8 +9518,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F165773%2Ftotal-war-attila-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=165773",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftotal-war-attila&cjsku=1572",
+    gmvDiscount: 10
   },
   {
     id: 301,
@@ -9552,8 +9552,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F184045%2Fneed-for-speed-heat-deluxe-edition-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=184045",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fneed-for-speed-heat-eu-xbox&cjsku=44454",
+    gmvDiscount: 10
   },
   {
     id: 302,
@@ -9620,8 +9620,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F165387%2Fwarhammer-40-000-gladius-relics-of-war-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=165387",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwarhammer-40-000-gladius-relics-of-war-eu-steam&cjsku=79920",
+    gmvDiscount: 10
   },
   {
     id: 304,
@@ -9654,8 +9654,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F97582%2Ffifa-22-ultimate-team-500-fifa-points-ea-app-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=97582",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffifa-22-eu-origin&cjsku=124385",
+    gmvDiscount: 10
   },
   {
     id: 305,
@@ -9688,8 +9688,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F58264%2Fkingdom-two-crowns-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=58264",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fkingdom-two-crowns-eu-steam&cjsku=80970",
+    gmvDiscount: 10
   },
   {
     id: 306,
@@ -9722,8 +9722,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F57019%2Ffar-cry-5-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=57019",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffar-cry-5-far-cry-new-dawn-deluxe-edition-bundle&cjsku=28284",
+    gmvDiscount: 10
   },
   {
     id: 307,
@@ -9756,8 +9756,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F208065%2Fstate-of-decay-2-juggernaut-edition-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=208065",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fstate-of-decay-2-juggernaut-edition-xbox-tr&cjsku=139474",
+    gmvDiscount: 10
   },
   {
     id: 308,
@@ -9790,8 +9790,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F334780%2Fdeadzone-rogue-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=334780",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdeadzone-rogue-pc-steam-gift-global-standard&cjsku=186446",
+    gmvDiscount: 10
   },
   {
     id: 309,
@@ -9858,8 +9858,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F255917%2Flost-castle-2-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=255917",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Flost-castle-2-pc-steam-global-en-zh-zh-standard&cjsku=174328",
+    gmvDiscount: 10
   },
   {
     id: 311,
@@ -9892,8 +9892,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F235127%2Ffarm-together-2-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=235127",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffarm-together-2-pc-steam-gift-global-en-de-fr-nl-ja-ko-pt-ru-zh-es-tr-hu-uk-standard&cjsku=171375",
+    gmvDiscount: 10
   },
   {
     id: 312,
@@ -9926,8 +9926,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F11853%2Fstar-trek-steam-gift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=11853",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fstar-trek-online-federation-elite-starter-pack&cjsku=50694",
+    gmvDiscount: 10
   },
   {
     id: 313,
@@ -9960,8 +9960,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F231370%2Fdead-island-2-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=231370",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdead-island-2-xbox-xboxoneseries-arg-en-standard&cjsku=145972",
+    gmvDiscount: 10
   },
   {
     id: 314,
@@ -9994,8 +9994,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F212871%2Fgranblue-fantasy-relink-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=212871",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgranblue-fantasy-relink-pc-steamgift-global-en-de-fr-it-ja-ko-pt-zh-es-zh-standard&cjsku=167779",
+    gmvDiscount: 10
   },
   {
     id: 315,
@@ -10096,8 +10096,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F314604%2Fwwe-2k25-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=314604",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwwe-2k25-xbox-xbox-one-series-eu-standard&cjsku=184819",
+    gmvDiscount: 10
   },
   {
     id: 319,
@@ -10130,8 +10130,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F296640%2Fsniper-elite-resistance-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=296640",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsniper-elite-resistance-pc-steam-row-standard&cjsku=183055",
+    gmvDiscount: 10
   },
   {
     id: 320,
@@ -10164,8 +10164,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F234485%2Ffoundry-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=234485",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffoundry-pc-steam-global-en-standard&cjsku=170464",
+    gmvDiscount: 10
   },
   {
     id: 321,
@@ -10232,8 +10232,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F152431%2Fscrap-mechanic-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=152431",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fscrap-mechanic-eu&cjsku=25833",
+    gmvDiscount: 10
   },
   {
     id: 323,
@@ -10266,8 +10266,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F162018%2Ftrailmakers-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=162018",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftrailmakers-xbox-xboxoneserieswindows-eu-en-de-fr-it-pl-pt-ru-zh-es-zh-da-standard&cjsku=161655",
+    gmvDiscount: 10
   },
   {
     id: 324,
@@ -10300,8 +10300,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F64996%2Fstarbound-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=64996",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fstarbound-eu&cjsku=37855",
+    gmvDiscount: 10
   },
   {
     id: 325,
@@ -10368,8 +10368,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F172006%2Fthe-crew-2-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=172006",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-crew-2-xbox-arg&cjsku=133244",
+    gmvDiscount: 10
   },
   {
     id: 327,
@@ -10402,8 +10402,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F108892%2Fwarno-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=108892",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwarno-steam&cjsku=130681",
+    gmvDiscount: 10
   },
   {
     id: 328,
@@ -10504,8 +10504,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F163458%2Fplants-vs-zombies-garden-warfare-2-deluxe-edition-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=163458",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fplants-vs-zombies-garden-warfare-2-deluxe-edition-eu-xbox&cjsku=79753",
+    gmvDiscount: 10
   },
   {
     id: 331,
@@ -10538,8 +10538,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F329579%2Frunescape-dragonwilds-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=329579",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Frunescape-dragonwilds-pc-steam-gift-global-standard&cjsku=186039",
+    gmvDiscount: 10
   },
   {
     id: 332,
@@ -10572,8 +10572,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F154366%2Fcall-of-duty-modern-warfare-remastered-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=154366",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcall-of-duty-modern-warfare-3-2011-xbox-xboxwindows-eu-standard&cjsku=182822",
+    gmvDiscount: 10
   },
   {
     id: 333,
@@ -10606,8 +10606,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F189021%2Flords-of-the-fallen-2023-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=189021",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-lords-of-the-fallen-pc-steam-global-en-de-fr-it-pl-ja-ko-pt-ru-zh-es-uk-standard&cjsku=141437",
+    gmvDiscount: 10
   },
   {
     id: 334,
@@ -10640,8 +10640,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F419144%2Foddsparks-an-automation-adventure-tailor-s-animal-costumes-pack-dlc-pc-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=419144",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Foddsparks-an-automation-adventure-xbox-xbox-series-eu-standard&cjsku=187624",
+    gmvDiscount: 10
   },
   {
     id: 335,
@@ -10674,8 +10674,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F58618%2Fage-of-mythology-extended-edition-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=58618",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fage-of-mythology-extended-edition&cjsku=19",
+    gmvDiscount: 10
   },
   {
     id: 336,
@@ -10742,8 +10742,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F12583%2Flord-of-the-rings-online-starter-pack%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=12583",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-lord-of-the-rings-60-day-game-time-code-eu&cjsku=50397",
+    gmvDiscount: 10
   },
   {
     id: 338,
@@ -10810,8 +10810,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F224061%2Fleft-4-dead-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=224061",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fleft-4-dead-steam-gift&cjsku=46048",
+    gmvDiscount: 10
   },
   {
     id: 340,
@@ -10844,8 +10844,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F60013%2Ftom-clancya-s-the-division-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=60013",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftom-clancys-the-division-2&cjsku=28077",
+    gmvDiscount: 10
   },
   {
     id: 341,
@@ -10878,8 +10878,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F63426%2Fmordhau-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=63426",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmordhau-xbox-xboxoneseries-eu-en-standard&cjsku=166140",
+    gmvDiscount: 10
   },
   {
     id: 342,
@@ -10912,8 +10912,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftrove-eclipse-pack-pc-steam-global-standard&cjsku=180782",
+    gmvDiscount: 10
   },
   {
     id: 343,
@@ -10946,8 +10946,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F47555%2Fneverwinter-nights-enhanced-edition-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=47555",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fneverwinter-nights-enhanced-edition-steam-eu-en-de-fr-it-pl-es-enhanced-pc&cjsku=139705",
+    gmvDiscount: 10
   },
   {
     id: 344,
@@ -10980,8 +10980,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F185905%2Fhumanitz-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=185905",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fhumanitz-pc-steam-row-en-standard&cjsku=166861",
+    gmvDiscount: 10
   },
   {
     id: 345,
@@ -11014,8 +11014,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F223996%2Flightyear-frontier-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=223996",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Flightyear-frontier-steamgift-global-en-de-fr-it-pl-ja-ko-pt-ru-zh-es-zh-standard-pc&cjsku=169758",
+    gmvDiscount: 10
   },
   {
     id: 346,
@@ -11082,8 +11082,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F11298%2Fmen-of-war-assault-squad-2-pc-steam-gift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=11298",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fassault-squad-2-men-of-war-origins&cjsku=84",
+    gmvDiscount: 10
   },
   {
     id: 348,
@@ -11116,8 +11116,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F246694%2Faska-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=246694",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Faska-pc-steam-global-en-de-ro-standard&cjsku=172482",
+    gmvDiscount: 10
   },
   {
     id: 349,
@@ -11150,8 +11150,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F177789%2Fdeadside-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=177789",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdeadside-xbox-xbox-series-eu-standard&cjsku=184333",
+    gmvDiscount: 10
   },
   {
     id: 350,
@@ -11184,8 +11184,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F152414%2Feco-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=152414",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Feco-eu&cjsku=25832",
+    gmvDiscount: 10
   },
   {
     id: 351,
@@ -11320,8 +11320,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F239303%2Fmindustry-steam-pc-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=239303",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmindustry-eu&cjsku=48628",
+    gmvDiscount: 10
   },
   {
     id: 356,
@@ -11388,8 +11388,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F59615%2Fdragon-ball-xenoverse-2-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=59615",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdragon-ball-xenoverse-2-eu-switch&cjsku=31703",
+    gmvDiscount: 10
   },
   {
     id: 358,
@@ -11422,8 +11422,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F142470%2Fdead-frontier-2-survivor-starter-pack-dlc-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=142470",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdead-frontier-2-survivor-starter-pack-pc-steam-global-en-standard&cjsku=141449",
+    gmvDiscount: 10
   },
   {
     id: 361,
@@ -11456,8 +11456,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F155453%2Fmechwarrior-5-mercenaries-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=155453",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmechwarrior-5-mercenaries-xbox-one-series-pc-eu-succession-wars&cjsku=194821",
+    gmvDiscount: 10
   },
   {
     id: 362,
@@ -11490,8 +11490,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F161699%2Ffar-cry-6-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=161699",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffar-cry-6-uplay&cjsku=64333",
+    gmvDiscount: 10
   },
   {
     id: 363,
@@ -11524,8 +11524,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F160502%2Fwobbly-life-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=160502",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwobbly-life-steam-gift-eu&cjsku=139015",
+    gmvDiscount: 10
   },
   {
     id: 364,
@@ -11592,8 +11592,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F71164%2Favorion-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=71164",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Favorion&cjsku=26453",
+    gmvDiscount: 10
   },
   {
     id: 367,
@@ -11626,8 +11626,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F277004%2Fliar-s-bar-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=277004",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fliars-bar-pc-steamgift-global-standard&cjsku=178389",
+    gmvDiscount: 10
   },
   {
     id: 368,
@@ -11660,8 +11660,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F29477%2Ftitan-quest-anniversary-edition-steam-gift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=29477",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftitan-quest-anniversary-edition-eu&cjsku=74418",
+    gmvDiscount: 10
   },
   {
     id: 369,
@@ -11694,8 +11694,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F72728%2Faxis-allies-1942-online-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=72728",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Faxis-allies-1942-online-steam&cjsku=50172",
+    gmvDiscount: 10
   },
   {
     id: 370,
@@ -11728,8 +11728,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F57902%2Ftropico-6-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=57902",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftropico-6-festival&cjsku=122767",
+    gmvDiscount: 10
   },
   {
     id: 371,
@@ -11762,8 +11762,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F77025%2Fwingspan-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=77025",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwingspan&cjsku=68943",
+    gmvDiscount: 10
   },
   {
     id: 372,
@@ -11796,8 +11796,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F247931%2Fapocalypse-party-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=247931",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fapocalypse-party-pc-steam-global-en-zh-zh-standard&cjsku=164879",
+    gmvDiscount: 10
   },
   {
     id: 373,
@@ -11830,8 +11830,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F2815%2Fresident-evil-5-steam-gift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=2815",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fresident-evil-5-xbox-one-eu&cjsku=50856",
+    gmvDiscount: 10
   },
   {
     id: 374,
@@ -11864,8 +11864,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F8659%2Ffar-cry-4-steam-gift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=8659",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffar-cry-4-far-cry-primal-bundle-xbox-tr&cjsku=137065",
+    gmvDiscount: 10
   },
   {
     id: 376,
@@ -11898,8 +11898,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F295627%2Ffast-food-simulator-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=295627",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffast-food-simulator-pc-steam-gift-global-standard&cjsku=181301",
+    gmvDiscount: 10
   },
   {
     id: 377,
@@ -11932,8 +11932,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F261586%2Fsins-of-a-solar-empire-ii-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=261586",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsins-of-a-solar-empire-ii-pc-steam-eu-standard&cjsku=176844",
+    gmvDiscount: 10
   },
   {
     id: 378,
@@ -11966,8 +11966,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F58699%2Fsniper-elite-4-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=58699",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsniper-elite-4-nintendo-nintendo-switch-eu-standard&cjsku=195863",
+    gmvDiscount: 10
   },
   {
     id: 379,
@@ -12000,8 +12000,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F127596%2Facross-the-obelisk-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=127596",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Facross-the-obelisk-pc-steam-global-en-zh-es-standard&cjsku=140760",
+    gmvDiscount: 10
   },
   {
     id: 380,
@@ -12714,8 +12714,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F6527%2Fcall-of-duty-black-ops-steam-gift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=6527",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcall-of-duty-black-ops-6-pc-battlenet-eu-standard&cjsku=179276",
+    gmvDiscount: 10
   },
   {
     id: 401,
@@ -12748,8 +12748,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F7139%2Frise-of-nations-extended-edition-steam-gift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=7139",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Frise-of-nations-xbox-xboxwindows-eu-extended&cjsku=177347",
+    gmvDiscount: 10
   },
   {
     id: 402,
@@ -12782,8 +12782,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F199157%2Fresident-evil-6-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=199157",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fresident-evil-6-eu-xbox-one&cjsku=46689",
+    gmvDiscount: 10
   },
   {
     id: 403,
@@ -12816,8 +12816,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F185480%2Fvoid-crew-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=185480",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fvoid-crew-xbox-xbox-series-eu-standard&cjsku=192397",
+    gmvDiscount: 10
   },
   {
     id: 404,
@@ -12850,8 +12850,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F181321%2Fsea-of-stars-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=181321",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsea-of-stars-pc-steam-gift-global-en-de-fr-ja-ko-pt-ru-zh-es-zh-standard&cjsku=159476",
+    gmvDiscount: 10
   },
   {
     id: 405,
@@ -12884,8 +12884,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F313377%2Fdoor-kickers-2-task-force-north-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=313377",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdoor-kickers-2-task-force-north-steam-gift-eu&cjsku=72208",
+    gmvDiscount: 10
   },
   {
     id: 406,
@@ -16726,8 +16726,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F476468%2Feverwind-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=476468",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Feverwind-pc-steam-gift-global-standard&cjsku=200450",
+    gmvDiscount: 10
   },
   {
     id: 519,
@@ -16760,8 +16760,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F273388%2Fproject-castaway-pc-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=273388",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fproject-castaway-pc-steamgift-global-standard&cjsku=177736",
+    gmvDiscount: 10
   },
   {
     id: 520,
@@ -16794,8 +16794,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F324885%2Fdragonkin-the-banished-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=324885",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdragonkin-the-banished-pc-steam-global-standard&cjsku=183742",
+    gmvDiscount: 10
   },
   {
     id: 521,
@@ -16828,8 +16828,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F111329%2Ftower-tag-vr-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=111329",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftower-tag-vr&cjsku=61337",
+    gmvDiscount: 10
   },
   {
     id: 522,
@@ -16896,8 +16896,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F464749%2Fwwe-2k26-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=464749",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwwe-2k26-xbox-xbox-series-global-standard&cjsku=200207",
+    gmvDiscount: 10
   },
   {
     id: 524,
@@ -16930,8 +16930,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F435132%2Fjohn-carpenters-toxic-commando-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=435132",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fjohn-carpenters-toxic-commando-xbox-xbox-series-in-standard&cjsku=197373",
+    gmvDiscount: 10
   },
   {
     id: 525,
@@ -16998,8 +16998,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F474325%2Frewind-99-pc-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=474325",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Frewind-99-pc-steam-global-standard&cjsku=200462",
+    gmvDiscount: 10
   },
   {
     id: 527,
@@ -17032,8 +17032,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F467864%2Fover-the-top-wwi-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=467864",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fover-the-top-wwi-pc-steam-gift-global-standard&cjsku=200170",
+    gmvDiscount: 10
   },
   {
     id: 528,
@@ -17066,8 +17066,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F465836%2Fhexbreaker-ii-pc-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=465836",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fhexbreaker-ii-pc-steam-global-standard&cjsku=200461",
+    gmvDiscount: 10
   },
   {
     id: 529,
@@ -17100,8 +17100,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F460226%2Fslay-the-spire-2-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=460226",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fslay-the-spire-2-pc-steam-gift-global-standard&cjsku=200010",
+    gmvDiscount: 10
   },
   {
     id: 530,
@@ -17134,8 +17134,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F178599%2Fdesynced-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=178599",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdesynced-pc-steam-gift-global-en-de-fr-pt-ru-zh-es-standard&cjsku=158920",
+    gmvDiscount: 10
   },
   {
     id: 531,
@@ -17168,8 +17168,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F464783%2Fdysplaced-pc-steam-gift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=464783",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdysplaced-pc-steam-gift-global-standard&cjsku=200029",
+    gmvDiscount: 10
   },
   {
     id: 532,
@@ -17202,8 +17202,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F442124%2Fnever-grave-the-witch-and-the-curse-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=442124",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fnever-grave-the-witch-and-the-curse-xbox-xbox-series-pc-eu-standard&cjsku=200383",
+    gmvDiscount: 10
   },
   {
     id: 533,
@@ -17236,8 +17236,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F232269%2Frotwood-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=232269",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Frotwood-pc-steam-gift-global-en-standard&cjsku=170968",
+    gmvDiscount: 10
   },
   {
     id: 534,
@@ -18018,8 +18018,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F353043%2Foverthrown-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=353043",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Foverthrown-pc-steam-global-standard&cjsku=180625",
+    gmvDiscount: 10
   },
   {
     id: 557,
@@ -18052,8 +18052,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F239963%2Ff1-24-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=239963",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ff1-24-pc-ea-app-global-standard&cjsku=175707",
+    gmvDiscount: 10
   },
   {
     id: 558,
@@ -18086,8 +18086,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F72996%2Ffarming-simulator-19-platinum-edition-pc-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=72996",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffarming-simulator-19-1&cjsku=26577",
+    gmvDiscount: 10
   },
   {
     id: 559,
@@ -18902,8 +18902,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F83547%2Fthe-bus-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=83547",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-bus&cjsku=82335",
+    gmvDiscount: 10
   },
   {
     id: 583,
@@ -18970,8 +18970,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F246089%2Favatar-frontiers-of-pandora-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=246089",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Favatar-frontiers-of-pandora-xbox-xboxseries-global-en-standard&cjsku=164727",
+    gmvDiscount: 10
   },
   {
     id: 586,
@@ -19004,8 +19004,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F217007%2Fgoat-simulator-3-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=217007",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgoat-simulator-3-pc-steam-gift-global-en-de-fr-it-pl-ja-ko-pt-ru-zh-es-zh-standard&cjsku=168652",
+    gmvDiscount: 10
   },
   {
     id: 587,
@@ -19038,8 +19038,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F154937%2Fcosmoteer-starship-architect-commander-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=154937",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcosmoteer-starship-architect-commander-pc-steam-gift-eu-en-de-fr-pt-ru-zh-mx-standard&cjsku=144813",
+    gmvDiscount: 10
   },
   {
     id: 588,
@@ -19072,8 +19072,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F196831%2Frisk-of-rain-returns-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=196831",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Frisk-of-rain-returns-pc-steam-row-en-de-fr-it-ja-ko-pt-ru-zh-es-tr-standard&cjsku=170097",
+    gmvDiscount: 10
   },
   {
     id: 589,
@@ -19106,8 +19106,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F59193%2Fclone-drone-in-the-danger-zone-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=59193",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fclone-drone-in-the-danger-zone-steam&cjsku=56776",
+    gmvDiscount: 10
   },
   {
     id: 590,
@@ -19140,8 +19140,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F98370%2Fmadness-project-nexus-2-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=98370",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmadness-project-nexus-steam-gift-eu&cjsku=124137",
+    gmvDiscount: 10
   },
   {
     id: 591,
@@ -19174,8 +19174,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F78293%2Fsolasta-crown-of-the-magister-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=78293",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsolasta-crown-of-the-magister-palace-of-ice-xbox-xboxoneserieswindows-eu-en-standard&cjsku=161521",
+    gmvDiscount: 10
   },
   {
     id: 592,
@@ -19208,8 +19208,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F167048%2Fjagged-alliance-3-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=167048",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fjagged-alliance-3-xbox-xboxoneseries-eu-en-standard&cjsku=163634",
+    gmvDiscount: 10
   },
   {
     id: 593,
@@ -19276,8 +19276,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F260070%2Fwe-were-here-expeditions-the-friendship-pc-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=260070",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwe-were-here-expeditions-the-friendship-pc-steam-global-standard&cjsku=175857",
+    gmvDiscount: 10
   },
   {
     id: 595,
@@ -19310,8 +19310,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F251889%2Fastral-ascent-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=251889",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fastral-ascent-celestial-haven-pc-steam-global-standard&cjsku=195979",
+    gmvDiscount: 10
   },
   {
     id: 596,
@@ -19344,8 +19344,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F137700%2Fthe-past-within-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=137700",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-past-within-pc-steam-global-en-de-fr-it-pl-cs-nl-ja-ko-pt-ru-zh-es-sv-tr-zh-da-vi-standard&cjsku=143365",
+    gmvDiscount: 10
   },
   {
     id: 597,
@@ -19378,8 +19378,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F251962%2Flabyrinthine-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=251962",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Flabyrinthine-dreams&cjsku=40531",
+    gmvDiscount: 10
   },
   {
     id: 598,
@@ -19412,8 +19412,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F287747%2Fluma-island-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=287747",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fluma-island-pc-steam-gift-global-standard&cjsku=180361",
+    gmvDiscount: 10
   },
   {
     id: 599,
@@ -19446,8 +19446,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F95154%2Ftetris-effect-connected-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=95154",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftetris-effect-connected-steam-gift-eu&cjsku=122805",
+    gmvDiscount: 10
   },
   {
     id: 600,
@@ -19480,8 +19480,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F159067%2Froots-of-pacha-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=159067",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Froots-of-pacha-xbox-xboxoneseries-eu-standard&cjsku=175500",
+    gmvDiscount: 10
   },
   {
     id: 601,
@@ -19514,8 +19514,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F321414%2Fecho-point-nova-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=321414",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fecho-point-nova-pc-steam-gift-global-standard&cjsku=184797",
+    gmvDiscount: 10
   },
   {
     id: 602,
@@ -19854,8 +19854,8 @@ const games = [
     gsDiscount: 0,
     kgUrl: "",
     kgDiscount: 0,
-    gmvUrl: "",
-    gmvDiscount: 0
+    gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fchained-wheels-pc-steam-global-standard&cjsku=200964",
+    gmvDiscount: 10
   },
   {
     id: 612,
