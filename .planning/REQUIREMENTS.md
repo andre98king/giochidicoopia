@@ -1,119 +1,74 @@
-# REQUIREMENTS.md — Co-op Games Hub
-
-## Requisiti v1 (Q1 2026)
-
-### 1. Fix Cache Cloudflare
-
-**Problema**: Cache hit rate 6.9% invece di 90%+
-
-**Soluzione**: 
-- Configurare Cloudflare Cache Rule con Edge TTL 7 giorni
-- Verificare `_headers` esistente
-- Testare dopo 24-48h
-
-**Criteri di successo**: Cache hit rate > 90%
+# REQUIREMENTS.md — Milestone v1.1: Database Quality & Co-op Purity
+*Last updated: 2026-04-01*
 
 ---
 
-### 2. Fix Gameseal Sconti
+## Active Requirements
 
-**Problema**: Sconti Gameseal mostrano 0% in molti casi
+### Schema & CI Hardening
 
-**Soluzione**:
-- Investigare API/endpoint Gameseal
-- Fixare logica calcolo sconto
-- Testare su sample di giochi
+- [ ] **SCH-01**: Il campo `coopScore` (int 1-3, nullable) è aggiunto allo schema in `catalog_data.py` e propagato a `catalog.games.v1.json` e `catalog.public.v1.json`
+- [ ] **SCH-02**: I campi curati manualmente (`coopScore`, `mini_review_it`, `mini_review_en`, `igUrl`, `igDiscount`, `gbUrl`, `gbDiscount`) sono protetti dal CI giornaliero e non vengono sovrascritti dagli update automatici
+- [ ] **SCH-03**: Il flag `continue-on-error: true` è rimosso da `build_static_pages.py` nel workflow CI, così un errore di build blocca il deploy invece di silenziarlo
+- [ ] **SCH-04**: Il vocabolario `coopMode` è canonicalizzato: i valori accettati sono solo `online`, `local`, `sofa` — qualsiasi altro valore è segnalato come errore dalla pipeline
 
-**Criteri di successo**: Sconti corretti per >90% dei giochi con offerta Gameseal
+### Tag Audit & coopScore
 
----
+- [ ] **AUD-01**: Lo script `audit_coop_tags.py` legge il catalogo, interroga Steam e IGDB per ogni gioco con `steamUrl` o `igdbId`, e scrive un report `data/coop_audit_report.json` con le discrepanze trovate (read-only, non modifica mai il catalogo direttamente)
+- [ ] **AUD-02**: Il report di audit distingue almeno tre categorie: `tag_mismatch` (coopMode nel catalogo non corrisponde alle API), `missing_fields` (maxPlayers/coopMode/crossplay assenti), `suspect_coop` (gioco probabilmente non co-op secondo le API)
+- [ ] **AUD-03**: Lo script `generate_coop_score.py` assegna `coopScore` 1-3 a ogni gioco usando regole basate su segnali IGDB + Steam (`multiplayer_modes`, categorie co-op, player count), con calibrazione su un campione di 20-30 giochi verificati manualmente prima dell'applicazione bulk
+- [ ] **AUD-04**: Lo script `apply_fixes.py` legge un file `data/pending_fixes.json` (generato dall'utente dopo revisione del report) e applica le correzioni al catalogo in modo sicuro, con backup prima di ogni modifica
 
-### 3. SEO - Ottimizzazione Snippet
+### Classic Game Discovery
 
-**Problema**: Query con pos 6-8 ma 0 clic
+- [ ] **CLS-01**: Lo script `discover_classics.py` interroga IGDB (con filtro per `first_release_date` e `multiplayer_modes`) e SteamSpy (`top100forever`) per trovare giochi co-op rilevanti non ancora presenti nel catalogo — output: `data/classic_candidates.json` per revisione manuale
+- [ ] **CLS-02**: Il report candidati classici include almeno: titolo, anno, genere, coopMode rilevato, rating Steam, perché è candidato — così la revisione manuale è informata
+- [ ] **CLS-03**: I giochi classici approvati manualmente dall'utente vengono aggiunti al catalogo con `coopScore` pre-assegnato e senza `steamUrl` mancante (o con nota esplicita se non disponibile su Steam)
 
-**Soluzione**:
-- Analizzare query senza clic in GSC
-- Migliorare title/meta description
-- Aggiungere structured data dove mancante
+### Bulk Data Fixes
 
-**Criteri di successo**: Almeno 50 click GSC/mese
-
----
-
-## Requisiti v2 (Q2 2026)
-
-### 4. Monetizzazione - Nuovi Partner
-
-**Problema**: MacGameStore e Fanatical non integrati
-
-**Soluzione**:
-- Ottenere link affiliati da MacGameStore
-- Richiedere accesso Fanatical
-- Integrare in `app.js` e `build_static_pages.py`
-
-**Criteri di successo**: 5+ store disponibili per comparazione prezzi
+- [ ] **FIX-01**: I giochi con `maxPlayers` palesemente errato (valori > 64 come 65535, 255) vengono corretti con il valore reale o impostati a `null` se non verificabile
+- [ ] **FIX-02**: I giochi con `rating: 0` che hanno una pagina Steam attiva vengono aggiornati con il rating reale, oppure marcati esplicitamente come "non disponibile" invece di mostrare 0
+- [ ] **FIX-03**: Il campo `crossplay` è verificato per i giochi con `crossplay: true` che non hanno evidenza API di supporto crossplay — i falsi positivi vengono corretti a `false`
+- [ ] **FIX-04**: La pipeline di validazione (`validate_catalog.py`) è aggiornata per segnalare: `coopScore` mancante, `coopMode` con valori non canonici, `maxPlayers` anomali
 
 ---
 
-### 5. Contenuti Editoriali
+## Future Requirements (deferred)
 
-**Problema**: Solo 1/5 hub pages con contenuto editoriale completo
-
-**Soluzione**:
-- Espandere `data/hub_editorial.json` per tutte le 5 hub pages
-- Aggiungere intro SEO-friendly
-- Aggiungere call-to-action affiliate
-
-**Criteri di successo**: Tutte le 5 hub pages con contenuto completo
+- Badge `coopScore` visibile nell'UI (filtro o icona sulle card) — rinviato a milestone successiva
+- Hub page "Classici Co-op" con editoriale — rinviato
+- Mini-recensioni per i nuovi classici aggiunti — rinviato
+- Deprecazione definitiva di `assets/games.js` in favore di solo JSON — rinviato
+- Audit giochi senza né `steamUrl` né `igdbId` (187 giochi) — rinviato, richiede ricerca manuale
 
 ---
 
-### 6. Backlink Building
+## Out of Scope (questa milestone)
 
-**Problema**: 0 backlink, domain authority bassa
-
-**Soluzione**:
-- Submit a directory italiane (gamingtalk.it, multiplayer.it)
-- Guest post su siti gaming italiani
-- Creare contenuti linkable ("migliori giochi coop 2026")
-
-**Criteri di successo**: 10+ backlink da domini pertinenti
+- Nuove feature UX (filtri nuovi, redesign, quiz) — focus esclusivo sulla qualità dati
+- Backend o Node.js di qualsiasi tipo — stack invariato
+- Integrazione nuovi store affiliate — rinviato
+- Automazione completa del coopScore nel CI settimanale — richiede validazione manuale prima
 
 ---
 
-## Requisiti v3 (Q3 2026)
+## Traceability
 
-### 7. Mini-Recensioni
-
-**Problema**: Nessuna recensione per i giochi
-
-**Soluzione**:
-- Aggiungere campo `review` ai dati gioco
-- Creare mini-recensioni per i 20 giochi trending
-- Mostrare nella pagina gioco e nel modal
-
-**Criteri di successo**: 20+ giochi con recensione
-
----
-
-### 8. Nuove Categorie
-
-**Problema**: Catalogo limitato a categorie esistenti
-
-**Soluzione**:
-- Aggiungere categorie: "Party Games", "RPG Coop", "Survival Coop"
-- Espandere catalogo con nuovi giochi
-- Aggiornare filtri
-
-**Criteri di successo**: 5+ nuove categorie, 100+ nuovi giochi
-
----
-
-## Out of Scope
-
-- Backend/sistema utenti
-- Sistema commenti
-- Newsletter
-- App mobile
-- Analytics avanzati
+| REQ-ID | Fase | Status |
+|--------|------|--------|
+| SCH-01 | — | pending |
+| SCH-02 | — | pending |
+| SCH-03 | — | pending |
+| SCH-04 | — | pending |
+| AUD-01 | — | pending |
+| AUD-02 | — | pending |
+| AUD-03 | — | pending |
+| AUD-04 | — | pending |
+| CLS-01 | — | pending |
+| CLS-02 | — | pending |
+| CLS-03 | — | pending |
+| FIX-01 | — | pending |
+| FIX-02 | — | pending |
+| FIX-03 | — | pending |
+| FIX-04 | — | pending |
