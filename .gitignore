@@ -13,6 +13,7 @@ package-lock.json
 npm-debug.log
 
 # Aider — file interni e config locale
+.aider*
 .aider.chat.history.md
 .aider.input.history
 .aider.tags.cache.v3/
@@ -29,7 +30,6 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
-.aider*
 
 # Playwright MCP (screenshot e log di sessione)
 .playwright-mcp/
@@ -52,16 +52,24 @@ scripts/gsc-credentials.json
 AI_COLLABORATION.md
 AI_HANDOFF_GPU.md
 ROADMAP.md
+ROADMAP_STATUS.md
 
 # Verifica Bing (sostituita da CNAME DNS)
 fe4d092eb979461ab0c6aabd19350a10.txt
 
-# Script locali (usano llama-server/Ollama locale, non in CI)
-scripts/local/
+# Claude Code (config locale)
+.claude/
 
-# Script di utilità locale (generatori one-shot, non in CI)
+# Documenti di pianificazione interni (locali)
+progetto seo.md
+project_roadmap_state.md
+reference_gsc_auth.md
+
+# Script personali/analytics (usano API locali, non in CI)
+scripts/fetch_analytics.py
 scripts/generate_hub_pages_en.py
 scripts/discover_backfill.py
+scripts/local/
 
 # Asset duplicati/inutilizzati
 assets/og-image.png
@@ -71,26 +79,8 @@ assets/coophubs_logo.png
 # File interni di lavoro (non per il sito)
 data/backfill_candidates.json
 data/scraper_log.jsonl
-ROADMAP_STATUS.md
-
-# Claude Code (config locale)
-.claude/
-
-# Documenti di pianificazione interni
- progetto seo.md
- project_roadmap_state.md
- reference_gsc_auth.md
- ROADMAP_STATUS.md
-
-# Script personali/analytics (usano API locali)
-scripts/fetch_analytics.py
-scripts/generate_hub_pages_en.py
-scripts/discover_backfill.py
-scripts/local/
-
-# Backup cataloghi JSON (rigenerati dalla pipeline)
-data/catalog.games.v1.json
-data/catalog.public.v1.json
-data/backfill_candidates.json
-data/scraper_log.jsonl
 data/_nocoop_flagged.json
+
+# Design mockup locali (non deployati sul sito)
+stitch_design/
+stitch_co_op_hubs_homepage_modernizzata.zip

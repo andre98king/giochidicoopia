@@ -128,7 +128,7 @@ python3 scripts/fetch_analytics.py --days 30
   - MCP Google Search Console configurato
 
 ### Build Scripts
-- `scripts/build_hub_pages.py` — Genera 5 hub pages + versioni EN
+- `scripts/build_hub_pages.py` — Genera 8 hub pages + versioni EN
 - `scripts/build_static_pages.py` — Genera 589 pagine game + sitemap
 - `scripts/validate_catalog.py` — Valida catalogo
 
@@ -191,7 +191,7 @@ python3 scripts/fetch_analytics.py --days 30
 
 - Giochi: 589
 - Affiliate links: 2,137
-- Hub pages: 5 (IT) + 5 (EN)
+- Hub pages: 8 (IT) + 8 (EN)
 - Mini-reviews: 17
 - SEO Score: 91/100
 - GEO Score: 82/100
