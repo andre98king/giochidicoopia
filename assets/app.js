@@ -301,6 +301,7 @@ function renderFeatured() {
   if (!game) { section.innerHTML = ''; return; }
   const safeTitle = esc(game.title);
   const safeDesc = esc((currentLang === 'en' && game.description_en) ? game.description_en : game.description);
+  const safeMiniReview = game.mini_review_it ? esc((currentLang === 'en' && game.mini_review_en) ? game.mini_review_en : game.mini_review_it) : '';
   const storeLinks = [
     game.steamUrl ? `<a class="btn-store btn-steam" href="${esc(addUtm(game.steamUrl, 'featured'))}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Steam ↗</a>` : '',
     game.epicUrl  ? `<a class="btn-store btn-epic"  href="${esc(addUtm(game.epicUrl, 'featured'))}"  target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Epic ↗</a>`  : '',
@@ -314,6 +315,7 @@ function renderFeatured() {
           <div class="featured-label">${t('featured_label')}</div>
           <div class="featured-title">${safeTitle}</div>
           <div class="featured-desc">${safeDesc}</div>
+          ${safeMiniReview ? `<div class="featured-mini-review">${safeMiniReview}</div>` : ''}
           <div class="featured-meta">
             ${game.rating > 0 ? `<span class="rating-badge rating-${ratingTier(game.rating)}">${ratingIcon(game.rating)} ${game.rating}%</span>` : ''}
             ${storeLinks}
@@ -781,6 +783,7 @@ function createCard(game, freeEntry = null, cardIndex = 99) {
 
   const safeTitle = esc(game.title);
   const safeDesc = esc((currentLang === 'en' && game.description_en) ? game.description_en : game.description);
+  const safeMiniReview = game.mini_review_it ? esc((currentLang === 'en' && game.mini_review_en) ? game.mini_review_en : game.mini_review_it) : '';
 
   const imgLoading = cardIndex < 6 ? 'eager' : 'lazy';
   const imgHtml = game.image
@@ -846,6 +849,7 @@ function createCard(game, freeEntry = null, cardIndex = 99) {
           ${game.players} ${t('card_players')}
         </div>
         <div class="card-desc">${safeDesc}</div>
+        ${safeMiniReview ? `<div class="card-mini-review">${safeMiniReview}</div>` : ''}
         ${noteHtml}
         ${noteBtn}
       </div>
@@ -909,6 +913,7 @@ function openModal(id) {
 
   const safeTitle = esc(game.title);
   const safeDesc = esc((currentLang === 'en' && game.description_en) ? game.description_en : game.description);
+  const safeMiniReview = game.mini_review_it ? esc((currentLang === 'en' && game.mini_review_en) ? game.mini_review_en : game.mini_review_it) : '';
 
   const tags = game.categories.map(c =>
     `<span class="tag tag-${c}">${categoryLabel(c)}</span>`
@@ -960,6 +965,12 @@ function openModal(id) {
         <div class="modal-section-title">${t('modal_desc')}</div>
         <div class="modal-desc">${safeDesc}</div>
       </div>
+      ${safeMiniReview ? `
+      <div>
+        <div class="modal-section-title">${t('modal_review') || 'La Nostra Recensione'}</div>
+        <div class="modal-mini-review">${safeMiniReview}</div>
+      </div>
+      ` : ''}
       ${noteHtml}
       <div class="modal-actions">
         ${storeLinks}

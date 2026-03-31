@@ -1,0 +1,124 @@
+{
+  "reviews": [
+    {
+      "id": 2,
+      "title": "Rust",
+      "mini_review_it": "Survival hardcore in multiplayer. Costruisci, sopravvivi e difenditi contro altri giocatori in un mondo aperto brutalmente competitivo.",
+      "mini_review_en": "Hardcore multiplayer survival. Build, survive, and defend against other players in a brutally competitive open world."
+    },
+    {
+      "id": 63,
+      "title": "HELLDIVERS 2",
+      "mini_review_it": "Sparatutto cooperativo tattico ad alta intensità. Lavoro di squadra essenziale per affrontare orde di nemici alieni.",
+      "mini_review_en": "High-intensity tactical co-op shooter. Teamwork essential to face waves of alien enemies."
+    },
+    {
+      "id": 101,
+      "title": "Tom Clancy's Rainbow Six Siege",
+      "mini_review_it": "FPS tattico con distruzione ambientale. Mappe verticali e strategi precise rendono ogni round un puzzle.",
+      "mini_review_en": "Tactical FPS with environmental destruction. Vertical maps and precise strategies make each round a puzzle."
+    },
+    {
+      "id": 139,
+      "title": "Dead by Daylight",
+      "mini_review_it": "Asimmetrico survival horror 4v1. Un killer contro quattro sopravvissuti in partite tensive e imprevedibili.",
+      "mini_review_en": "Asymmetric 4v1 survival horror. One killer vs four survivors in tense, unpredictable matches."
+    },
+    {
+      "id": 177,
+      "title": "Team Fortress 2",
+      "mini_review_it": "Classico shooter multiplayer con classi uniche. Competitivo e divertente dopo oltre 15 anni.",
+      "mini_review_en": "Classic multiplayer shooter with unique classes. Competitive and fun after 15+ years."
+    },
+    {
+      "id": 215,
+      "title": "Grand Theft Auto V Enhanced",
+      "mini_review_it": "Open world sandbox con modalità online ricca. Heist cooperativi e missioniPvP endless.",
+      "mini_review_en": "Open world sandbox with rich online mode. Co-op heists and endless PvP missions."
+    },
+    {
+      "id": 253,
+      "title": "DayZ",
+      "mini_review_it": "Survival horror realista in multiplayer. Fame, sete, malattie: sopravvivere è un'esperienza dura.",
+      "mini_review_en": "Realistic multiplayer survival horror. Hunger, thirst, diseases: survival is a harsh experience."
+    },
+    {
+      "id": 291,
+      "title": "Warframe",
+      "mini_review_it": "Action shooter free-to-play sci-fi. Movimento fluido, grind infinito ma divertente.",
+      "mini_review_en": "Free-to-play sci-fi action shooter. Fluid movement, infinite but fun grind."
+    },
+    {
+      "id": 329,
+      "title": "R.E.P.O.",
+      "mini_review_it": "Horror coop physics-based. Raccogli oggetti pesanti con fisica realistica in compagnia.",
+      "mini_review_en": "Physics-based coop horror. Collect heavy objects with realistic physics together."
+    },
+    {
+      "id": 367,
+      "title": "Don't Starve Together",
+      "mini_review_it": "Survival crafting indie. Gestisci risorse e sopravvivi in mondi generati proceduralmente.",
+      "mini_review_en": "Indie crafting survival. Manage resources and survive in procedurally generated worlds."
+    },
+    {
+      "id": 405,
+      "title": "PAYDAY 2",
+      "mini_review_it": "Furti cooperativi in stile heist. Pianifica, esegui e domina con la tua banda.",
+      "mini_review_en": "Co-op heist-style robberies. Plan, execute, and dominate with your crew."
+    },
+    {
+      "id": 443,
+      "title": "Left 4 Dead 2",
+      "mini_review_it": "Classico zombie shooter arcade. Campagna iconica e versus mode ancora divertenti dopo anni.",
+      "mini_review_en": "Classic zombie arcade shooter. Iconic campaign and versus mode still fun after years."
+    },
+    {
+      "id": 481,
+      "title": "Destiny 2",
+      "mini_review_it": "FPS MMO looter shooter. Campagna, raid e PvP in un universo sci-fi epico.",
+      "mini_review_en": "MMO looter shooter FPS. Campaigns, raids and PvP in an epic sci-fi universe."
+    },
+    {
+      "id": 519,
+      "title": "Terraria",
+      "mini_review_it": "Sandbox 2D survival crafting. Esplora, costruisci e combatti in un mondo pixel art vasto.",
+      "mini_review_en": "2D sandbox survival crafting. Explore, build and fight in a vast pixel art world."
+    },
+    {
+      "id": 557,
+      "title": "Project Zomboid",
+      "mini_review_it": "Survival zombie hardcore. Gestione risorse realism e permadeath in un mondo post-apocalittico.",
+      "mini_review_en": "Hardcore zombie survival. Realistic resource management and permadeath in a post-apocalyptic world."
+    },
+    {
+      "id": 595,
+      "title": "ARK: Survival Evolved",
+      "mini_review_it": "Survival con dinosauri. Adds, base building e creature da domare in multiplayer.",
+      "mini_review_en": "Dinosaur survival. Tame creatures and build bases in multiplayer."
+    },
+    {
+      "id": 633,
+      "title": "Rocket League",
+      "mini_review_it": "Auto calcetto competitivo. Fisica esagerata e match rapidi perfetti per gaming serale.",
+      "mini_review_en": "Competitive car soccer. Exaggerated physics and quick matches perfect for evening gaming."
+    },
+    {
+      "id": 671,
+      "title": "Garry's Mod",
+      "mini_review_it": "Sandbox fisica creativity. Lua scripting e mod illimitati per creatività senza fine.",
+      "mini_review_en": "Physics sandbox creativity. Lua scripting and unlimited mods for endless creativity."
+    },
+    {
+      "id": 709,
+      "title": "Palworld",
+      "mini_review_it": "Creature catching survival. Combina allevamento, crafting e combattimento in mondo aperto.",
+      "mini_review_en": "Creature catching survival. Combine breeding, crafting and combat in open world."
+    },
+    {
+      "id": 747,
+      "title": "7 Days to Die",
+      "mini_review_it": "Survival horror sandbox. Costruisci, difendi sopravvivi zombie che attaccano ogni 7 giorni.",
+      "mini_review_en": "Sandbox survival horror. Build, defend, survive zombies that attack every 7 days."
+    }
+  ]
+}
