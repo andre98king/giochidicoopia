@@ -55,20 +55,20 @@
 
 ## Traceability
 
-| REQ-ID | Fase | Status |
-|--------|------|--------|
-| SCH-01 | — | pending |
-| SCH-02 | — | pending |
-| SCH-03 | — | pending |
-| SCH-04 | — | pending |
-| AUD-01 | — | pending |
-| AUD-02 | — | pending |
-| AUD-03 | — | pending |
-| AUD-04 | — | pending |
-| CLS-01 | — | pending |
-| CLS-02 | — | pending |
-| CLS-03 | — | pending |
-| FIX-01 | — | pending |
-| FIX-02 | — | pending |
-| FIX-03 | — | pending |
-| FIX-04 | — | pending |
+| REQ-ID | Phase | Status |
+|--------|-------|--------|
+| SCH-01 | Phase 1 | pending |
+| SCH-02 | Phase 1 | pending |
+| SCH-03 | Phase 1 | pending |
+| SCH-04 | Phase 1 | pending |
+| AUD-01 | Phase 2 | pending |
+| AUD-02 | Phase 2 | pending |
+| AUD-03 | Phase 2 | pending |
+| AUD-04 | Phase 2 | pending |
+| CLS-01 | Phase 3 | pending |
+| CLS-02 | Phase 3 | pending |
+| CLS-03 | Phase 3 | pending |
+| FIX-01 | Phase 4 | pending |
+| FIX-02 | Phase 4 | pending |
+| FIX-03 | Phase 4 | pending |
+| FIX-04 | Phase 4 | pending |
