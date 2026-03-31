@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Inter:wght@300;400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "on-tertiary-container": "#043200",
+                        "on-secondary-fixed": "#002022",
+                        "surface-container-lowest": "#110b1e",
+                        "tertiary": "#2ae500",
+                        "on-tertiary-fixed-variant": "#095300",
+                        "on-primary-fixed-variant": "#4024c2",
+                        "tertiary-fixed": "#79ff5b",
+                        "secondary-container": "#00eefc",
+                        "outline-variant": "#474555",
+                        "on-error": "#690005",
+                        "on-secondary-fixed-variant": "#004f54",
+                        "secondary-fixed": "#7df4ff",
+                        "primary-fixed": "#e4dfff",
+                        "surface-dim": "#161024",
+                        "on-primary-fixed": "#170065",
+                        "tertiary-container": "#1da800",
+                        "inverse-surface": "#e9defa",
+                        "surface-tint": "#c7bfff",
+                        "secondary-fixed-dim": "#00dbe9",
+                        "surface": "#161024",
+                        "on-primary-container": "#24008d",
+                        "on-primary": "#2a009f",
+                        "on-background": "#e9defa",
+                        "surface-container-low": "#1e182c",
+                        "error-container": "#93000a",
+                        "outline": "#928ea0",
+                        "primary-container": "#8d7fff",
+                        "inverse-on-surface": "#342d42",
+                        "inverse-primary": "#5944da",
+                        "on-error-container": "#ffdad6",
+                        "primary-fixed-dim": "#c7bfff",
+                        "on-secondary": "#00363a",
+                        "on-secondary-container": "#00686f",
+                        "on-surface": "#e9defa",
+                        "surface-container": "#221c31",
+                        "surface-bright": "#3c364b",
+                        "tertiary-fixed-dim": "#2ae500",
+                        "surface-variant": "#383147",
+                        "secondary": "#d3fbff",
+                        "on-tertiary-fixed": "#022100",
+                        "surface-container-high": "#2d273c",
+                        "background": "#161024",
+                        "on-tertiary": "#053900",
+                        "error": "#ffb4ab",
+                        "primary": "#c7bfff",
+                        "surface-container-highest": "#383147",
+                        "on-surface-variant": "#c8c4d7"
+                    },
+                    fontFamily: {
+                        "headline": ["Space Grotesk"],
+                        "body": ["Inter"],
+                        "label": ["JetBrains Mono"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-panel {
+            background: rgba(22, 16, 36, 0.7);
+            backdrop-filter: blur(24px);
+        }
+        .neon-glow-primary:hover {
+            box-shadow: 0 0 15px rgba(199, 191, 255, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary/30">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#161024]/70 backdrop-blur-xl shadow-[0_20px_40px_rgba(0,0,0,0.4)] flex justify-between items-center px-8 py-4">
+<div class="text-2xl font-bold tracking-tighter text-[#c7bfff] font-headline uppercase">
+            THE NEON ARCHIVE
+        </div>
+<div class="hidden md:flex items-center space-x-8 font-headline tracking-tight uppercase text-sm">
+<a class="text-[#c7bfff] border-b-2 border-[#c7bfff] pb-1" href="#">Library</a>
+<a class="text-[#c8c4d7] hover:text-white transition-colors" href="#">Store</a>
+<a class="text-[#c8c4d7] hover:text-white transition-colors" href="#">Community</a>
+<a class="text-[#c8c4d7] hover:text-white transition-colors" href="#">Support</a>
+</div>
+<div class="flex items-center gap-6">
+<div class="relative hidden lg:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-sm">search</span>
+<input class="bg-surface-container-lowest border-none rounded-lg py-2 pl-10 pr-4 text-xs font-label focus:ring-1 focus:ring-primary w-64" placeholder="SEARCH ARCHIVE..." type="text"/>
+</div>
+<div class="flex items-center gap-4">
+<button class="p-2 rounded-lg hover:bg-white/5 transition-all">
+<span class="material-symbols-outlined text-[#c7bfff]">settings</span>
+</button>
+</div>
+</div>
+</nav>
+<!-- SideNavBar -->
+<aside class="fixed left-0 top-0 h-full w-64 z-40 bg-[#161024]/70 backdrop-blur-2xl shadow-2xl flex flex-col pt-24 pb-8 px-4 border-r border-outline-variant/15">
+<div class="mb-10 px-4 flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">inventory_2</span>
+</div>
+<div>
+<p class="font-headline font-bold text-on-surface text-sm uppercase leading-tight">Archive Index</p>
+<p class="font-label text-[10px] text-primary tracking-widest uppercase">Global Access</p>
+</div>
+</div>
+<nav class="flex-1 space-y-1">
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-[#00eefc] bg-[#00eefc]/10 border-r-4 border-[#00eefc] font-label text-sm uppercase transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="grid_view">grid_view</span>
+                All Records
+            </a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-[#c8c4d7] hover:bg-white/5 font-label text-sm uppercase transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="videogame_asset">videogame_asset</span>
+                Local Access
+            </a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-[#c8c4d7] hover:bg-white/5 font-label text-sm uppercase transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="public">public</span>
+                Network Play
+            </a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-[#c8c4d7] hover:bg-white/5 font-label text-sm uppercase transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="Apps">apps</span>
+                Shared Screen
+            </a>
+</nav>
+<div class="mt-auto px-2 space-y-4">
+<div class="pt-4 border-t border-outline-variant/15">
+<a class="flex items-center gap-3 px-4 py-2 text-[#c8c4d7] hover:text-white font-label text-xs uppercase" href="#">
+<span class="material-symbols-outlined text-sm" data-icon="info">info</span>
+                    Archive Info
+                </a>
+<a class="flex items-center gap-3 px-4 py-2 text-[#c8c4d7] hover:text-white font-label text-xs uppercase" href="#">
+<span class="material-symbols-outlined text-sm" data-icon="help_outline">help_outline</span>
+                    Help Center
+                </a>
+</div>
+</div>
+</aside>
+<!-- Main Content -->
+<main class="pl-64 pt-24 min-h-screen flex flex-col">
+<!-- Hero Section -->
+<section class="px-10 py-8">
+<div class="relative h-[500px] w-full rounded-3xl overflow-hidden group">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Cinematic wide shot of a futuristic neon city at night with towering skyscrapers and flying vehicles in a synthwave aesthetic" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCtYctJGbyH2JyXsWKQN9Bx5mg-IqUBsG-silKLafV8pGSj_Jxxr1JsuxoA2yeaOjknRb7ZzggXBNpDqCONvM94-kC6PWXXjia1ZkT3BgU0MdPkHBZxiof_olt4I_gheoumSr927ZK8VehIKKX5VXn8_ayoxW1w1TeHerhm58cr_oZJom_-4mEa97jnh68UbTmFf3GbNQeW059jTgToGKPnvkDP9fNcOXH0lIAuyhjqcPlW-Kqgahh9dsipIuFLoVHzLjNk_rqAlhc')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-[#161024] via-[#161024]/40 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-12 w-full flex justify-between items-end">
+<div class="max-w-2xl">
+<div class="flex gap-3 mb-4">
+<span class="px-3 py-1 rounded-full bg-tertiary/20 text-tertiary border border-tertiary/30 font-label text-[10px] tracking-widest uppercase">Editor's Choice</span>
+<span class="px-3 py-1 rounded-full bg-white/10 text-white border border-white/20 backdrop-blur-md font-label text-[10px] tracking-widest uppercase">Action RPG</span>
+</div>
+<h1 class="text-6xl font-headline font-extrabold text-white mb-4 tracking-tighter uppercase leading-[0.9]">ELITE RECKONING:<br/><span class="text-primary">NOVA OPS</span></h1>
+<p class="text-on-surface-variant text-lg max-w-lg font-light leading-relaxed mb-8">A definitive tactical experience set across the neon-drenched sectors of the Archive.</p>
+<div class="flex gap-4">
+<button class="px-8 py-4 bg-primary text-on-primary font-headline font-bold rounded-xl flex items-center gap-2 hover:scale-105 transition-all shadow-xl shadow-primary/20">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">visibility</span>
+                                VIEW ARCHIVE
+                            </button>
+<button class="px-8 py-4 bg-white/5 backdrop-blur-md text-white border border-white/10 font-headline font-bold rounded-xl hover:bg-white/10 transition-all">
+                                TECHNICAL SPECS
+                            </button>
+<button class="px-8 py-4 bg-primary/10 backdrop-blur-md text-primary border border-primary/30 font-headline font-bold rounded-xl flex items-center gap-2 hover:bg-primary/20 hover:scale-105 transition-all shadow-lg shadow-primary/10">
+<span class="material-symbols-outlined">shuffle</span>
+    FEELING LUCKY?
+</button></div>
+</div>
+<div class="hidden xl:flex flex-col gap-4 text-right"><div><p class="font-label text-[10px] text-primary tracking-widest uppercase">Total Games</p><p class="text-2xl font-headline font-bold text-white tracking-tighter">560+ ARCHIVED</p></div><div><p class="font-label text-[10px] text-tertiary tracking-widest uppercase">Archive Status</p><p class="text-2xl font-headline font-bold text-white tracking-tighter">DAILY UPDATES</p></div></div>
+</div>
+</div>
+</section>
+<!-- Gallery Section -->
+<section class="px-10 py-12 flex-1">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-12">
+<div>
+<h2 class="text-3xl font-headline font-bold text-white tracking-tight uppercase">Curated Records</h2>
+<p class="font-label text-xs text-on-surface-variant tracking-widest mt-1 uppercase">OVER 560 GAMES ARCHIVED • UPDATED DAILY</p>
+</div>
+<div class="flex flex-wrap gap-2">
+<button class="px-4 py-2 rounded-full bg-primary text-on-primary text-xs font-label font-medium uppercase transition-all shadow-lg shadow-primary/10">Latest Additions</button>
+<button class="px-4 py-2 rounded-full bg-surface-container-high text-on-surface-variant hover:text-white text-xs font-label font-medium uppercase transition-all">Soulslike</button>
+<button class="px-4 py-2 rounded-full bg-surface-container-high text-on-surface-variant hover:text-white text-xs font-label font-medium uppercase transition-all">Survival</button>
+<button class="px-4 py-2 rounded-full bg-surface-container-high text-on-surface-variant hover:text-white text-xs font-label font-medium uppercase transition-all">Tactical</button>
+<div class="w-px h-8 bg-outline-variant/30 mx-2"></div>
+<button class="p-2 rounded-full bg-surface-container-high text-on-surface-variant hover:text-white transition-all">
+<span class="material-symbols-outlined text-sm">tune</span>
+</button>
+</div>
+</div>
+<!-- Asymmetric Bento Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+<!-- Card 1 -->
+<div class="group bg-surface-container rounded-2xl overflow-hidden hover:scale-[1.02] transition-all duration-300">
+<div class="relative h-48 overflow-hidden">
+<img alt="Elden Ring-esque art" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Dark fantasy landscape with a massive glowing golden tree in the distance and rugged mountain cliffs" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAbjXMjYoJ2cP__wx38_ly88G0TPcVd6E0b71cTiqGbHfUnMkPSPqyo6LcMnDXOEE-ELR-61582SzjG2xcEKq1Xs4nIId56ILBEqbg9mr4fgE93pRW99QHqQFdqw2LzQzzUo_HcBeIdJjBa6r0kYKN7VoRH2u8EdHWBWlG_UHl8KlOpuoyW3MkwCFFNnD1UrMLHgh-kEXhupSY_VBA-D9jazOgZNJBUJ3BobJaoQLhbHqh7KXTqkIfXKM-8laKZwqhATUN8oEt-QNE"/>
+<div class="absolute top-3 left-3 flex gap-2">
+<span class="px-2 py-1 rounded bg-secondary-container/90 text-on-secondary-container text-[10px] font-label font-bold uppercase backdrop-blur-sm">Local</span>
+</div>
+</div>
+<div class="p-5">
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-headline font-bold text-white text-lg tracking-tight uppercase">Void Stalker</h3>
+<div class="flex items-center gap-1 text-tertiary">
+<span class="material-symbols-outlined text-xs" style="font-variation-settings: 'FILL' 1;">group</span>
+<span class="font-label text-[10px]">4P</span>
+</div>
+</div>
+<div class="flex gap-2 mb-4 text-[10px] font-label text-on-surface-variant uppercase">
+<span>Open World</span>
+<span class="text-primary">•</span>
+<span>Hardcore</span>
+</div>
+<button class="w-full py-2 bg-white/5 hover:bg-white/10 text-white rounded-lg font-headline text-xs font-bold transition-all uppercase tracking-widest border border-white/5">
+                            Details
+                        </button>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="group bg-surface-container rounded-2xl overflow-hidden hover:scale-[1.02] transition-all duration-300">
+<div class="relative h-48 overflow-hidden">
+<img alt="Rust-esque art" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Rustic survival scene with a makeshift wooden fort and industrial machinery under a setting sun" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCBLwWo3mDaf10CE8Xi8anNPTESyqcidlvXJtPjeVfyf-uJC9jyGSZN_mE_BKYH1fy_Pos1Zu4Hd9OX4XkR6vLEdvmpKIisNhzWytgjOAJlxeVBeQdZrK1vDS7XKBsjyZLLkA9fn6Zw8pdMuJ0Jod6avkct9jQP3rHjJWkf4YTdMEECjOSHDxJeZaFT9YKFu7c04zMF6Yw_-bO31u7Ev8bUE0G6z8iHqRCVW3ZChflriLAFchEudEXcmx74oXfuE5ORuxaIlQNw3Sc"/>
+<div class="absolute top-3 left-3 flex gap-2">
+<span class="px-2 py-1 rounded bg-tertiary-container text-white text-[10px] font-label font-bold uppercase">Online</span>
+</div>
+</div>
+<div class="p-5">
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-headline font-bold text-white text-lg tracking-tight uppercase">Rust Horizon</h3>
+<div class="flex items-center gap-1 text-tertiary">
+<span class="material-symbols-outlined text-xs" style="font-variation-settings: 'FILL' 1;">group</span>
+<span class="font-label text-[10px]">100+</span>
+</div>
+</div>
+<div class="flex gap-2 mb-4 text-[10px] font-label text-on-surface-variant uppercase">
+<span>Survival</span>
+<span class="text-primary">•</span>
+<span>Sandbox</span>
+</div>
+<button class="w-full py-2 bg-white/5 hover:bg-white/10 text-white rounded-lg font-headline text-xs font-bold transition-all uppercase tracking-widest border border-white/5">
+                            Details
+                        </button>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="group bg-surface-container rounded-2xl overflow-hidden hover:scale-[1.02] transition-all duration-300">
+<div class="relative h-48 overflow-hidden">
+<img alt="Split-screen art" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Close up of high-tech racing cars with bright blue and pink light trails on a dark futuristic track" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2ztI__4j-XiPYsYAOaUGyfNGqZsbsbXfPEotdko_aU5iFlIy2P-yC-rvU2NPv3kXBM-Oem1dX1OKBWxPDvsPlXlX9asdAdeT8po1jWRsFk9VgxeQ_a-WMU8eNSMKTbXx9eJrE6s8dkkrTWr1bjT4V4T_gVYJAz_hg4Pyv1wNhzbFeI8TVlCggyXcTCU98CPeWn8FNKhwcfGmAVtcAXwpOJV1Eab7flL8ub_3CFG-NPnG-MdhAjP27XDhEMDt-cDd30KzG9BnjiH4"/>
+<div class="absolute top-3 left-3 flex gap-2">
+<span class="px-2 py-1 rounded bg-secondary-container/90 text-on-secondary-container text-[10px] font-label font-bold uppercase backdrop-blur-sm">Split-Screen</span>
+</div>
+</div>
+<div class="p-5">
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-headline font-bold text-white text-lg tracking-tight uppercase">Neon Velocity</h3>
+<div class="flex items-center gap-1 text-tertiary">
+<span class="material-symbols-outlined text-xs" style="font-variation-settings: 'FILL' 1;">group</span>
+<span class="font-label text-[10px]">2P</span>
+</div>
+</div>
+<div class="flex gap-2 mb-4 text-[10px] font-label text-on-surface-variant uppercase">
+<span>Racing</span>
+<span class="text-primary">•</span>
+<span>Arcade</span>
+</div>
+<button class="w-full py-2 bg-white/5 hover:bg-white/10 text-white rounded-lg font-headline text-xs font-bold transition-all uppercase tracking-widest border border-white/5">
+                            Details
+                        </button>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="group bg-surface-container rounded-2xl overflow-hidden hover:scale-[1.02] transition-all duration-300">
+<div class="relative h-48 overflow-hidden">
+<img alt="Cyberpunk art" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Digital art of a shadowy figure in a tech-suit looking over a massive mainframe with floating data screens" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBlK6lihXygm-QnzM9KM5DqXwEf3iuQLM2tvkVjIRb1r1447_2hbJD964FZSmgx0mSSAkxQ8V6elxFFUYJWaRszJkVhmK_gdvanB8JoAlQttmCNzKlY9AVYPHsQU6OBaenD5WgDV5GCvrUoKx0Ua-15pq9X01aIUlvXFX3L9H27c3WRAE89Gyc7dPNy_K6c7fecVl4FunbEVLMFds-McfGIk6cud1U62GRI6UYB--r19YsYgdKW7uP4k-dVt0lguS1oc06-qPzl-LY"/>
+<div class="absolute top-3 left-3 flex gap-2">
+<span class="px-2 py-1 rounded bg-tertiary-container text-white text-[10px] font-label font-bold uppercase">Online</span>
+</div>
+</div>
+<div class="p-5">
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-headline font-bold text-white text-lg tracking-tight uppercase">Data Breach</h3>
+<div class="flex items-center gap-1 text-tertiary">
+<span class="material-symbols-outlined text-xs" style="font-variation-settings: 'FILL' 1;">group</span>
+<span class="font-label text-[10px]">4P</span>
+</div>
+</div>
+<div class="flex gap-2 mb-4 text-[10px] font-label text-on-surface-variant uppercase">
+<span>Strategy</span>
+<span class="text-primary">•</span>
+<span>Co-op</span>
+</div>
+<button class="w-full py-2 bg-white/5 hover:bg-white/10 text-white rounded-lg font-headline text-xs font-bold transition-all uppercase tracking-widest border border-white/5">
+                            Details
+                        </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="w-full py-12 px-8 mt-auto border-t border-[#c8c4d7]/15 bg-[#161024]">
+<div class="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto gap-8">
+<div class="text-[#c7bfff] font-bold font-headline tracking-tighter uppercase text-xl">
+                    THE NEON ARCHIVE
+                </div>
+<div class="flex flex-wrap justify-center gap-8 font-label text-xs tracking-widest uppercase">
+<a class="text-[#c8c4d7] hover:text-[#00eefc] transition-colors" href="#">Archive Directory</a>
+<a class="text-[#c8c4d7] hover:text-[#00eefc] transition-colors" href="#">Public Inquiry</a>
+<a class="text-[#c8c4d7] hover:text-[#00eefc] transition-colors" href="#">Data Usage Policy</a>
+<a class="text-[#c8c4d7] hover:text-[#00eefc] transition-colors" href="#">Operational Terms</a>
+</div>
+<div class="text-[#c8c4d7] font-label text-[10px] tracking-[0.2em] opacity-50">
+                    © 2024 THE NEON ARCHIVE. PUBLIC INFORMATION SYSTEM.
+                </div>
+</div>
+</footer>
+</main>
+</body></html>

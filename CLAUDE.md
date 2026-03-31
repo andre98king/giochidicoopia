@@ -10,6 +10,8 @@ Contiene tutto ciò che serve per lavorare correttamente su questo progetto.
 Sito statico **coophubs.net** — catalogo di videogiochi cooperativi per PC.
 Hosting: **GitHub Pages** + Cloudflare (DNS, proxy, HTTPS). Dominio già configurato e funzionante.
 
+**Titolare**: Metalink Application S.r.l.s (P.IVA: 04739980615)
+
 Stack: HTML + CSS + JavaScript puro, Python per la pipeline dati automatica.
 Nessun backend. Nessun framework. Nessun runtime Node in produzione.
 

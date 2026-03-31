@@ -18,6 +18,9 @@ ROOT = catalog_data.ROOT
 GAMES_DIR = ROOT / "games"
 GAMES_EN_DIR = ROOT / "games" / "en"
 SITEMAP = ROOT / "sitemap.xml"
+SITEMAP_INDEX = ROOT / "sitemap.xml"
+SITEMAP_MAIN = ROOT / "sitemap-main.xml"
+SITEMAP_HUBS = ROOT / "sitemap-hubs.xml"
 SITE_URL = "https://coophubs.net"
 TODAY = datetime.date.today().isoformat()
 CURRENT_YEAR = datetime.date.today().year
@@ -31,6 +34,7 @@ try:
         SEO_OVERRIDES = json.load(f)
 except FileNotFoundError:
     pass
+
 
 def esc(value) -> str:
     return html.escape("" if value is None else str(value), quote=True)
@@ -112,21 +116,27 @@ def json_for_script(value) -> str:
 
 # Affiliate config — inserisci i tuoi ID dopo la registrazione
 # GOG:  gog.com/partner → AFFILIATE_GOG = '12345'
-AFFILIATE_GOG  = ""
+AFFILIATE_GOG = ""
 # Attivi: link di ricerca per gioco (Instant Gaming + GameBillet + Green Man Gaming)
-AFFILIATE_IG  = "gamer-ddc4a8"
-AFFILIATE_GB  = "fb308ca0-647e-4ce7-9e80-74c2c591eac1"
+AFFILIATE_IG = "gamer-ddc4a8"
+AFFILIATE_GB = "fb308ca0-647e-4ce7-9e80-74c2c591eac1"
 AFFILIATE_GMG = "https://greenmangaming.sjv.io/qWzoQy"  # Impact deep link base
-AFFILIATE_GAMESEAL = "https://www.tkqlhce.com/click-101708519-17170422"  # CJ Affiliate deep link
-AFFILIATE_KINGUIN  = "https://www.tkqlhce.com/click-101708519-15734285"  # CJ Affiliate deep link
-AFFILIATE_GAMIVO   = "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2F"  # CJ Affiliate deep link
+AFFILIATE_GAMESEAL = (
+    "https://www.tkqlhce.com/click-101708519-17170422"  # CJ Affiliate deep link
+)
+AFFILIATE_KINGUIN = (
+    "https://www.tkqlhce.com/click-101708519-15734285"  # CJ Affiliate deep link
+)
+AFFILIATE_GAMIVO = "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2F"  # CJ Affiliate deep link
 
 
 def add_utm(url: str, campaign: str = "gamepage") -> str:
     if not url:
         return url
     sep = "&" if "?" in url else "?"
-    result = url + sep + f"utm_source=coophubs&utm_medium=referral&utm_campaign={campaign}"
+    result = (
+        url + sep + f"utm_source=coophubs&utm_medium=referral&utm_campaign={campaign}"
+    )
     if AFFILIATE_GOG and "gog.com" in url:
         result += f"&pp={AFFILIATE_GOG}"
     return result
@@ -155,19 +165,23 @@ def render_related_games(related: list) -> str:
     cards = []
     for g in related:
         img = g.get("image") or ""
-        img_html = f'<img src="{esc(img)}" alt="{esc(g["title"])}" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:8px 8px 0 0">' if img else ""
+        img_html = (
+            f'<img src="{esc(img)}" alt="{esc(g["title"])}" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:8px 8px 0 0">'
+            if img
+            else ""
+        )
         cards.append(
             f'<a href="{g["id"]}.html" class="related-card" style="text-decoration:none;color:inherit">'
-            f'{img_html}'
+            f"{img_html}"
             f'<div style="padding:10px;font-size:0.85rem;font-weight:600;line-height:1.3">{esc(g["title"])}</div>'
-            f'</a>'
+            f"</a>"
         )
     return (
         '<div class="game-section" style="margin-top:36px">'
         '<div class="game-section-title" id="relatedTitle">Giochi simili</div>'
         '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px">'
         + "".join(cards)
-        + '</div></div>'
+        + "</div></div>"
     )
 
 
@@ -178,19 +192,23 @@ def render_related_games_en(related: list) -> str:
     cards = []
     for g in related:
         img = g.get("image") or ""
-        img_html = f'<img src="{esc(img)}" alt="{esc(g["title"])}" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:8px 8px 0 0">' if img else ""
+        img_html = (
+            f'<img src="{esc(img)}" alt="{esc(g["title"])}" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:8px 8px 0 0">'
+            if img
+            else ""
+        )
         cards.append(
             f'<a href="{g["id"]}.html" class="related-card" style="text-decoration:none;color:inherit">'
-            f'{img_html}'
+            f"{img_html}"
             f'<div style="padding:10px;font-size:0.85rem;font-weight:600;line-height:1.3">{esc(g["title"])}</div>'
-            f'</a>'
+            f"</a>"
         )
     return (
         '<div class="game-section" style="margin-top:36px">'
         '<div class="game-section-title" id="relatedTitle">Similar Games</div>'
         '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px">'
         + "".join(cards)
-        + '</div></div>'
+        + "</div></div>"
     )
 
 
@@ -199,7 +217,8 @@ def extract_steam_appid(steam_url: str) -> str | None:
     if not steam_url:
         return None
     import re
-    m = re.search(r'/app/(\d+)', steam_url)
+
+    m = re.search(r"/app/(\d+)", steam_url)
     return m.group(1) if m else None
 
 
@@ -209,6 +228,7 @@ def render_external_links(game: dict, lang: str = "it") -> str:
     if not appid:
         return ""
     from urllib.parse import quote
+
     title_q = quote(game["title"])
     links = [
         f'<a href="https://steamdb.info/app/{appid}/" target="_blank" rel="noopener noreferrer"'
@@ -224,12 +244,13 @@ def render_external_links(game: dict, lang: str = "it") -> str:
     return (
         '<div class="game-section" style="margin-top:20px">'
         f'<div class="game-section-title" id="extLinksTitle">{section_title}</div>'
-        '<div class="ext-links">' + "".join(links) + '</div></div>'
+        '<div class="ext-links">' + "".join(links) + "</div></div>"
     )
 
 
 def render_store_links(game: dict) -> str:
     from urllib.parse import quote
+
     btns = []
     # Store ufficiali
     if game["steamUrl"]:
@@ -250,22 +271,47 @@ def render_store_links(game: dict) -> str:
     # Prezzi alternativi — solo per giochi a pagamento (non free-to-play)
     is_free = "free" in (game.get("categories") or [])
     partner_badge = '<span class="partner-badge" title="Partner Ufficiale">✓</span>'
-    
-    if not is_free and game["steamUrl"] and (AFFILIATE_IG or AFFILIATE_GB or AFFILIATE_GMG or AFFILIATE_GAMESEAL or AFFILIATE_KINGUIN or AFFILIATE_GAMIVO):
+
+    if (
+        not is_free
+        and game["steamUrl"]
+        and (
+            AFFILIATE_IG
+            or AFFILIATE_GB
+            or AFFILIATE_GMG
+            or AFFILIATE_GAMESEAL
+            or AFFILIATE_KINGUIN
+            or AFFILIATE_GAMIVO
+        )
+    ):
         q = quote(game["title"])
         if AFFILIATE_IG:
-            ig_url = game.get("igUrl") or f"https://www.instant-gaming.com/en/search/?query={q}&igr={AFFILIATE_IG}"
+            ig_url = (
+                game.get("igUrl")
+                or f"https://www.instant-gaming.com/en/search/?query={q}&igr={AFFILIATE_IG}"
+            )
             ig_discount = game.get("igDiscount") or 0
-            disc_badge = f'<span class="affiliate-discount">-{ig_discount}%</span>' if ig_discount > 0 else ""
+            disc_badge = (
+                f'<span class="affiliate-discount">-{ig_discount}%</span>'
+                if ig_discount > 0
+                else ""
+            )
             btns.append(
                 f'<a class="btn-affiliate btn-ig" href="{esc(ig_url)}" '
                 f'target="_blank" rel="noopener noreferrer sponsored">'
                 f'<span class="affiliate-store">Instant Gaming {partner_badge}</span>{disc_badge}</a>'
             )
         if AFFILIATE_GB:
-            gb_url = game.get("gbUrl") or f"https://www.gamebillet.com/search?q={q}&affiliate={AFFILIATE_GB}"
+            gb_url = (
+                game.get("gbUrl")
+                or f"https://www.gamebillet.com/search?q={q}&affiliate={AFFILIATE_GB}"
+            )
             gb_discount = game.get("gbDiscount") or 0
-            gb_badge = f'<span class="affiliate-discount">-{gb_discount}%</span>' if gb_discount > 0 else ""
+            gb_badge = (
+                f'<span class="affiliate-discount">-{gb_discount}%</span>'
+                if gb_discount > 0
+                else ""
+            )
             btns.append(
                 f'<a class="btn-affiliate btn-gb" href="{esc(gb_url)}" '
                 f'target="_blank" rel="noopener noreferrer sponsored">'
@@ -274,6 +320,7 @@ def render_store_links(game: dict) -> str:
         if AFFILIATE_GMG:
             gmg_search = f"https://www.greenmangaming.com/search/?query={q}"
             from urllib.parse import quote as _q
+
             gmg_url = f"{AFFILIATE_GMG}?u={_q(gmg_search)}"
             btns.append(
                 f'<a class="btn-affiliate btn-gmg" href="{esc(gmg_url)}" '
@@ -282,12 +329,17 @@ def render_store_links(game: dict) -> str:
             )
         if AFFILIATE_GAMESEAL:
             from urllib.parse import quote as _q
+
             if game.get("gsUrl"):
                 gs_url = game["gsUrl"]
             else:
                 gs_search = f"https://gameseal.com/search?search={q}"
                 gs_url = f"{AFFILIATE_GAMESEAL}?url={_q(gs_search)}"
-            gs_badge = f'<span class="affiliate-discount">-{game["gsDiscount"]}%</span>' if game.get("gsDiscount") else ""
+            gs_badge = (
+                f'<span class="affiliate-discount">-{game["gsDiscount"]}%</span>'
+                if game.get("gsDiscount")
+                else ""
+            )
             btns.append(
                 f'<a class="btn-affiliate btn-gameseal" href="{esc(gs_url)}" '
                 f'target="_blank" rel="noopener noreferrer sponsored">'
@@ -296,7 +348,11 @@ def render_store_links(game: dict) -> str:
         if AFFILIATE_KINGUIN:
             kg_url = game.get("kgUrl") or AFFILIATE_KINGUIN
             kg_discount = game.get("kgDiscount") or 0
-            kg_badge = f'<span class="affiliate-discount">-{kg_discount}%</span>' if kg_discount > 0 else ""
+            kg_badge = (
+                f'<span class="affiliate-discount">-{kg_discount}%</span>'
+                if kg_discount > 0
+                else ""
+            )
             btns.append(
                 f'<a class="btn-affiliate btn-kinguin" href="{esc(kg_url)}" '
                 f'target="_blank" rel="noopener noreferrer sponsored">'
@@ -305,7 +361,11 @@ def render_store_links(game: dict) -> str:
         if AFFILIATE_GAMIVO:
             gmv_url = game.get("gmvUrl") or AFFILIATE_GAMIVO
             gmv_discount = game.get("gmvDiscount") or 0
-            gmv_badge = f'<span class="affiliate-discount">-{gmv_discount}%</span>' if gmv_discount > 0 else ""
+            gmv_badge = (
+                f'<span class="affiliate-discount">-{gmv_discount}%</span>'
+                if gmv_discount > 0
+                else ""
+            )
             btns.append(
                 f'<a class="btn-affiliate btn-gamivo" href="{esc(gmv_url)}" '
                 f'target="_blank" rel="noopener noreferrer sponsored">'
@@ -313,14 +373,14 @@ def render_store_links(game: dict) -> str:
             )
     if not btns:
         return ""
-        
+
     trust_note = (
         '<div class="trust-note">'
-        '🛡️ <strong>Partner Ufficiale:</strong> Coophubs collabora solo con rivenditori autorizzati. '
-        'Supporta il sito acquistando in sicurezza.'
-        '</div>'
+        "🛡️ <strong>Partner Ufficiale:</strong> Coophubs collabora solo con rivenditori autorizzati. "
+        "Supporta il sito acquistando in sicurezza."
+        "</div>"
     )
-    
+
     return (
         '<div class="store-section"><div class="game-section-title" id="storeTitle">Migliori Prezzi Partner</div>'
         '<div class="affiliate-btns">' + "".join(btns) + "</div>"
@@ -348,14 +408,17 @@ def render_modes(game: dict) -> str:
 def render_static_page(game: dict, all_games: list | None = None) -> str:
     title = f"{game['title']}: gioco coop PC ({game['players']} giocatori) — Coophubs"
     image = game["image"] or f"{SITE_URL}/assets/og-image.jpg"
-    
+
     # Meta description (con supporto override manuale)
     game_id = str(game.get("id"))
     if game_id in SEO_OVERRIDES and "description" in SEO_OVERRIDES[game_id]:
         description_it = SEO_OVERRIDES[game_id]["description"]
     else:
         modes_str = ", ".join(game.get("coopMode", []))
-        description_it = f"Scopri {game['title']}, gioco cooperativo per PC ({game['players']} giocatori). Modalità {modes_str}. Recensione Steam: {game['rating']}%. " + game["description"]
+        description_it = (
+            f"Scopri {game['title']}, gioco cooperativo per PC ({game['players']} giocatori). Modalità {modes_str}. Recensione Steam: {game['rating']}%. "
+            + game["description"]
+        )
         description_it = description_it[:160]
 
     rating_html = ""
@@ -474,7 +537,7 @@ def render_static_page(game: dict, all_games: list | None = None) -> str:
     if game["image"]:
         hero_image_html = (
             f'<img class="game-hero-img" src="{esc(image)}" alt="{esc(game["title"])}" '
-            'onerror="this.style.display=\'none\'">'
+            "onerror=\"this.style.display='none'\">"
         )
 
     related_html = ""
@@ -682,10 +745,13 @@ def render_static_page_en(game: dict, all_games: list | None = None) -> str:
     """English version of the static game page for SEO on EN searches."""
     title = f"{game['title']}: {game['players']} players PC co-op game — Coophubs"
     image = game["image"] or f"{SITE_URL}/assets/og-image.jpg"
-    
+
     # Richer English meta description
     modes_str = ", ".join(game.get("coopMode", []))
-    desc_en = f"Discover {game['title']}, a {game['players']} players PC co-op game. Modes: {modes_str}. Steam rating: {game['rating']}%. " + (game.get("description_en") or game["description"])
+    desc_en = (
+        f"Discover {game['title']}, a {game['players']} players PC co-op game. Modes: {modes_str}. Steam rating: {game['rating']}%. "
+        + (game.get("description_en") or game["description"])
+    )
     desc_en = desc_en[:160]
 
     rating_html = ""
@@ -803,7 +869,7 @@ def render_static_page_en(game: dict, all_games: list | None = None) -> str:
     if game["image"]:
         hero_image_html = (
             f'<img class="game-hero-img" src="{esc(image)}" alt="{esc(game["title"])}" '
-            'onerror="this.style.display=\'none\'">'
+            "onerror=\"this.style.display='none'\">"
         )
 
     related_html = ""
@@ -1054,111 +1120,143 @@ def write_pages_en(games):
 
 
 def write_sitemap(games):
-    lines = [
+    """Write sitemap index + separate sitemap files for better Google indexing."""
+
+    def url_entry(loc, priority, lastmod=TODAY, hreflangs=None):
+        lines = [
+            "  <url>\n",
+            f"    <loc>{loc}</loc>\n",
+            f"    <lastmod>{lastmod}</lastmod>\n",
+            "    <changefreq>weekly</changefreq>\n",
+            f"    <priority>{priority}</priority>\n",
+            "  </url>\n",
+        ]
+        if hreflangs:
+            for lang, href in hreflangs:
+                lines.insert(
+                    2,
+                    f'    <xhtml:link rel="alternate" hreflang="{lang}" href="{href}"/>\n',
+                )
+        return lines
+
+    pages_main = [
+        ("/", "1.0"),
+        ("/about.html", "0.5"),
+        ("/contact.html", "0.5"),
+        ("/free.html", "0.6"),
+    ]
+    hubs = [
+        ("/migliori-giochi-coop-2026.html", "/en/best-coop-games-2026.html"),
+        ("/giochi-coop-local.html", "/en/local-coop-games.html"),
+        ("/giochi-coop-2-giocatori.html", "/en/2-player-coop-games.html"),
+        ("/giochi-coop-free.html", "/en/free-coop-games.html"),
+        ("/giochi-coop-indie.html", "/en/indie-coop-games.html"),
+    ]
+
+    # sitemap-main.xml: static pages + hub pages (max ~20 URLs)
+    main_lines = [
         '<?xml version="1.0" encoding="UTF-8"?>\n',
-        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n',
         '        xmlns:xhtml="http://www.w3.org/1999/xhtml">\n',
-        "  <url>\n",
-        f"    <loc>{SITE_URL}/</loc>\n",
-        f"    <lastmod>{TODAY}</lastmod>\n",
-        "    <changefreq>weekly</changefreq>\n",
-        "    <priority>1.0</priority>\n",
-        "  </url>\n",
-        "  <url>\n",
-        f"    <loc>{SITE_URL}/about.html</loc>\n",
-        f"    <lastmod>{TODAY}</lastmod>\n",
-        "    <changefreq>monthly</changefreq>\n",
-        "    <priority>0.5</priority>\n",
-        "  </url>\n",
-        "  <url>\n",
-        f"    <loc>{SITE_URL}/contact.html</loc>\n",
-        f"    <lastmod>{TODAY}</lastmod>\n",
-        "    <changefreq>monthly</changefreq>\n",
-        "    <priority>0.5</priority>\n",
-        "  </url>\n",
-        "  <url>\n",
-        f"    <loc>{SITE_URL}/free.html</loc>\n",
-        f"    <lastmod>{TODAY}</lastmod>\n",
-        "    <changefreq>daily</changefreq>\n",
-        "    <priority>0.6</priority>\n",
-        "  </url>\n",
     ]
-    # Hub pages SEO (IT + EN pairs)
-    hub_slug_pairs = [
-        ("migliori-giochi-coop-2026", "best-coop-games-2026"),
-        ("giochi-coop-local",         "local-coop-games"),
-        ("giochi-coop-2-giocatori",   "2-player-coop-games"),
-        ("giochi-coop-free",          "free-coop-games"),
-        ("giochi-coop-indie",         "indie-coop-games"),
+    for path, priority in pages_main:
+        main_lines.extend(url_entry(f"{SITE_URL}{path}", priority))
+    for it_slug, en_slug in hubs:
+        main_lines.extend(
+            url_entry(
+                f"{SITE_URL}{it_slug}",
+                "0.8",
+                hreflangs=[
+                    ("it", f"{SITE_URL}{it_slug}"),
+                    ("en", f"{SITE_URL}{en_slug}"),
+                    ("x-default", f"{SITE_URL}{it_slug}"),
+                ],
+            )
+        )
+    main_lines.append("</urlset>\n")
+    SITEMAP_MAIN.write_text("".join(main_lines), encoding="utf-8")
+
+    # sitemap-hubs.xml: hub EN pages (separate for SEO clarity)
+    hubs_en_lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>\n',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n',
+        '        xmlns:xhtml="http://www.w3.org/1999/xhtml">\n',
     ]
-    for it_slug, en_slug in hub_slug_pairs:
-        hub_url    = f"{SITE_URL}/{it_slug}.html"
-        hub_url_en = f"{SITE_URL}/en/{en_slug}.html"
-        # IT hub entry
-        lines.extend([
-            "  <url>\n",
-            f"    <loc>{hub_url}</loc>\n",
-            f"    <xhtml:link rel=\"alternate\" hreflang=\"it\" href=\"{hub_url}\"/>\n",
-            f"    <xhtml:link rel=\"alternate\" hreflang=\"en\" href=\"{hub_url_en}\"/>\n",
-            f"    <xhtml:link rel=\"alternate\" hreflang=\"x-default\" href=\"{hub_url}\"/>\n",
-            f"    <lastmod>{TODAY}</lastmod>\n",
-            "    <changefreq>weekly</changefreq>\n",
-            "    <priority>0.8</priority>\n",
-            "  </url>\n",
-        ])
-        # EN hub entry
-        lines.extend([
-            "  <url>\n",
-            f"    <loc>{hub_url_en}</loc>\n",
-            f"    <xhtml:link rel=\"alternate\" hreflang=\"it\" href=\"{hub_url}\"/>\n",
-            f"    <xhtml:link rel=\"alternate\" hreflang=\"en\" href=\"{hub_url_en}\"/>\n",
-            f"    <xhtml:link rel=\"alternate\" hreflang=\"x-default\" href=\"{hub_url}\"/>\n",
-            f"    <lastmod>{TODAY}</lastmod>\n",
-            "    <changefreq>weekly</changefreq>\n",
-            "    <priority>0.8</priority>\n",
-            "  </url>\n",
-        ])
-    for game in games:
-        url = page_url(game)
-        url_en = page_url_en(game)
-        # Priorità dinamica: trending/alto CCU = 0.9, normale = 0.7, CCU 0 = 0.6
-        ccu = game.get("ccu") or 0
-        if game.get("trending") or ccu >= 10000:
-            priority = "0.9"
-        elif ccu > 0:
-            priority = "0.7"
-        else:
-            priority = "0.6"
-        # IT page entry
-        lines.extend(
-            [
-                "  <url>\n",
-                f"    <loc>{url}</loc>\n",
-                f"    <xhtml:link rel=\"alternate\" hreflang=\"it\" href=\"{url}\"/>\n",
-                f"    <xhtml:link rel=\"alternate\" hreflang=\"en\" href=\"{url_en}\"/>\n",
-                f"    <xhtml:link rel=\"alternate\" hreflang=\"x-default\" href=\"{url}\"/>\n",
-                f"    <lastmod>{TODAY}</lastmod>\n",
-                "    <changefreq>weekly</changefreq>\n",
-                f"    <priority>{priority}</priority>\n",
-                "  </url>\n",
-            ]
+    for it_slug, en_slug in hubs:
+        hubs_en_lines.extend(
+            url_entry(
+                f"{SITE_URL}{en_slug}",
+                "0.8",
+                hreflangs=[
+                    ("it", f"{SITE_URL}{it_slug}"),
+                    ("en", f"{SITE_URL}{en_slug}"),
+                    ("x-default", f"{SITE_URL}{it_slug}"),
+                ],
+            )
         )
-        # EN page entry
-        lines.extend(
-            [
-                "  <url>\n",
-                f"    <loc>{url_en}</loc>\n",
-                f"    <xhtml:link rel=\"alternate\" hreflang=\"it\" href=\"{url}\"/>\n",
-                f"    <xhtml:link rel=\"alternate\" hreflang=\"en\" href=\"{url_en}\"/>\n",
-                f"    <xhtml:link rel=\"alternate\" hreflang=\"x-default\" href=\"{url}\"/>\n",
-                f"    <lastmod>{TODAY}</lastmod>\n",
-                "    <changefreq>weekly</changefreq>\n",
-                f"    <priority>{priority}</priority>\n",
-                "  </url>\n",
-            ]
+    hubs_en_lines.append("</urlset>\n")
+    SITEMAP_HUBS.write_text("".join(hubs_en_lines), encoding="utf-8")
+
+    # Sitemap index
+    index_lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>\n',
+        '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n',
+        f"  <sitemap>\n    <loc>{SITE_URL}/sitemap-main.xml</loc>\n    <lastmod>{TODAY}</lastmod>\n  </sitemap>\n",
+        f"  <sitemap>\n    <loc>{SITE_URL}/sitemap-hubs.xml</loc>\n    <lastmod>{TODAY}</lastmod>\n  </sitemap>\n",
+    ]
+
+    # Generate game sitemaps (max 500 URLs each)
+    GAMES_PER_SITEMAP = 450
+    for i in range(0, len(games), GAMES_PER_SITEMAP):
+        batch = games[i : i + GAMES_PER_SITEMAP]
+        sitemap_file = ROOT / f"sitemap-games-{i // GAMES_PER_SITEMAP + 1}.xml"
+        game_lines = [
+            '<?xml version="1.0" encoding="UTF-8"?>\n',
+            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n',
+            '        xmlns:xhtml="http://www.w3.org/1999/xhtml">\n',
+        ]
+        for game in batch:
+            url = page_url(game)
+            url_en = page_url_en(game)
+            ccu = game.get("ccu") or 0
+            priority = (
+                "0.9"
+                if game.get("trending") or ccu >= 10000
+                else ("0.7" if ccu > 0 else "0.6")
+            )
+            game_lines.extend(
+                url_entry(
+                    url,
+                    priority,
+                    hreflangs=[("it", url), ("en", url_en), ("x-default", url)],
+                )
+            )
+            game_lines.extend(
+                url_entry(
+                    url_en,
+                    priority,
+                    hreflangs=[("it", url), ("en", url_en), ("x-default", url)],
+                )
+            )
+        game_lines.append("</urlset>\n")
+        sitemap_file.write_text("".join(game_lines), encoding="utf-8")
+        index_lines.append(
+            f"  <sitemap>\n    <loc>{SITE_URL}/sitemap-games-{i // GAMES_PER_SITEMAP + 1}.xml</loc>\n    <lastmod>{TODAY}</lastmod>\n  </sitemap>\n"
         )
-    lines.append("</urlset>\n")
-    SITEMAP.write_text("".join(lines), encoding="utf-8")
+
+    index_lines.append("</sitemapindex>\n")
+    SITEMAP_INDEX.write_text("".join(index_lines), encoding="utf-8")
+
+    # Update robots.txt
+    robots = ROOT / "robots.txt"
+    if robots.exists():
+        content = robots.read_text(encoding="utf-8")
+        if "Sitemap:" in content:
+            content = content.replace(
+                "Sitemap: https://coophubs.net/sitemap.xml",
+                f"Sitemap: {SITE_URL}/sitemap.xml",
+            )
+        robots.write_text(content, encoding="utf-8")
 
 
 def update_game_counters(count: int) -> None:
@@ -1174,7 +1272,10 @@ def update_game_counters(count: int) -> None:
             ROOT / "index.html",
             [
                 (r"Scopri oltre \d+ giochi", f"Scopri oltre {floored} giochi"),
-                (r"Oltre \d+ giochi cooperativi", f"Oltre {floored} giochi cooperativi"),
+                (
+                    r"Oltre \d+ giochi cooperativi",
+                    f"Oltre {floored} giochi cooperativi",
+                ),
             ],
         ),
         (
