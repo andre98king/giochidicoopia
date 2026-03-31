@@ -54,16 +54,22 @@ LEGACY_RUNTIME_FIELDS = (
     "gsDiscount",
     "kgUrl",
     "kgDiscount",
+    "k4gUrl",
+    "k4gDiscount",
     "gmvUrl",
     "gmvDiscount",
 )
 
 
 def source_generated_at() -> str:
-    return dt.datetime.fromtimestamp(
-        GAMES_JS.stat().st_mtime,
-        tz=dt.timezone.utc,
-    ).replace(microsecond=0).isoformat()
+    return (
+        dt.datetime.fromtimestamp(
+            GAMES_JS.stat().st_mtime,
+            tz=dt.timezone.utc,
+        )
+        .replace(microsecond=0)
+        .isoformat()
+    )
 
 
 def ef(block: str, field: str):
@@ -83,7 +89,7 @@ def ef(block: str, field: str):
         return int(value)
     if value.startswith("["):
         return re.findall(r'"([^"]+)"', value)
-    return re.sub(r'\\(.)', r'\1', value.strip('"'))
+    return re.sub(r"\\(.)", r"\1", value.strip('"'))
 
 
 def unique_preserving(values: list[str]) -> list[str]:
@@ -99,7 +105,9 @@ def unique_preserving(values: list[str]) -> list[str]:
 
 
 def slugify(value: str, fallback: str) -> str:
-    normalized = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode("ascii")
+    normalized = (
+        unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode("ascii")
+    )
     normalized = normalized.lower().replace("&", " and ")
     normalized = re.sub(r"[’']", "", normalized)
     normalized = re.sub(r"[^a-z0-9]+", "-", normalized).strip("-")
@@ -134,7 +142,9 @@ def itch_slug_from_url(url: str) -> str | None:
     return match.group(1) if match else None
 
 
-def normalize_game(raw_game: dict[str, Any], featured_indie_id: int | None) -> dict[str, Any]:
+def normalize_game(
+    raw_game: dict[str, Any], featured_indie_id: int | None
+) -> dict[str, Any]:
     game_id = raw_game["id"]
     title = raw_game["title"]
     categories = unique_preserving(raw_game.get("categories") or [])
@@ -160,7 +170,9 @@ def normalize_game(raw_game: dict[str, Any], featured_indie_id: int | None) -> d
 
     storefronts = []
     if steam_url:
-        storefronts.append({"store": "steam", "url": steam_url, "externalId": steam_app_id})
+        storefronts.append(
+            {"store": "steam", "url": steam_url, "externalId": steam_app_id}
+        )
     if gog_url:
         storefronts.append({"store": "gog", "url": gog_url, "externalId": None})
     if epic_url:
@@ -253,6 +265,8 @@ def load_games() -> list[dict[str, Any]]:
             "gsDiscount": ef(block, "gsDiscount") or 0,
             "kgUrl": ef(block, "kgUrl") or "",
             "kgDiscount": ef(block, "kgDiscount") or 0,
+            "k4gUrl": ef(block, "k4gUrl") or "",
+            "k4gDiscount": ef(block, "k4gDiscount") or 0,
             "gmvUrl": ef(block, "gmvUrl") or "",
             "gmvDiscount": ef(block, "gmvDiscount") or 0,
         }
@@ -277,7 +291,9 @@ def build_catalog_artifact(games: list[dict[str, Any]]) -> dict[str, Any]:
         for storefront in game["storefronts"]:
             store_counts.update([storefront["store"]])
 
-    featured_indie_id = next((game["id"] for game in games if game["isFeaturedIndie"]), None)
+    featured_indie_id = next(
+        (game["id"] for game in games if game["isFeaturedIndie"]), None
+    )
 
     return {
         "schemaVersion": SCHEMA_VERSION,
@@ -291,7 +307,9 @@ def build_catalog_artifact(games: list[dict[str, Any]]) -> dict[str, Any]:
             "games": len(games),
             "played": sum(1 for game in games if game["editorial"]["played"]),
             "trending": sum(1 for game in games if game["signals"]["trending"]),
-            "withEnglishDescription": sum(1 for game in games if game["descriptions"]["en"]),
+            "withEnglishDescription": sum(
+                1 for game in games if game["descriptions"]["en"]
+            ),
             "categoryCounts": dict(sorted(category_counts.items())),
             "storeCounts": dict(sorted(store_counts.items())),
         },
@@ -300,7 +318,9 @@ def build_catalog_artifact(games: list[dict[str, Any]]) -> dict[str, Any]:
 
 
 def build_public_catalog_export(games: list[dict[str, Any]]) -> dict[str, Any]:
-    featured_indie_id = next((game["id"] for game in games if game["isFeaturedIndie"]), None)
+    featured_indie_id = next(
+        (game["id"] for game in games if game["isFeaturedIndie"]), None
+    )
     public_games = []
 
     for game in games:
@@ -353,11 +373,15 @@ def write_catalog_artifact(games: list[dict[str, Any]] | None = None) -> pathlib
         games = load_games()
     DATA_DIR.mkdir(exist_ok=True)
     payload = build_catalog_artifact(games)
-    CATALOG_JSON.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    CATALOG_JSON.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
     return CATALOG_JSON
 
 
-def write_public_catalog_export(games: list[dict[str, Any]] | None = None) -> pathlib.Path:
+def write_public_catalog_export(
+    games: list[dict[str, Any]] | None = None,
+) -> pathlib.Path:
     if games is None:
         games = load_games()
     DATA_DIR.mkdir(exist_ok=True)
@@ -376,7 +400,10 @@ def write_legacy_games_js(
 ) -> pathlib.Path:
     path = output_path or GAMES_JS
     ordered_games = sorted(games, key=lambda item: item.get("id", 0))
-    lines = [f"const featuredIndieId = {featured_indie_id or 0};\n\n", "const games = [\n"]
+    lines = [
+        f"const featuredIndieId = {featured_indie_id or 0};\n\n",
+        "const games = [\n",
+    ]
 
     for game in ordered_games:
         categories_json = json.dumps(game.get("categories") or [], ensure_ascii=False)
@@ -386,35 +413,37 @@ def write_legacy_games_js(
             "  {\n"
             f"    id: {game['id']},\n"
             f"    igdbId: {game.get('igdbId') or 0},\n"
-            f"    title: \"{js_esc(game.get('title', ''))}\",\n"
+            f'    title: "{js_esc(game.get("title", ""))}",\n'
             f"    categories: {categories_json},\n"
             f"    genres: {genres_json},\n"
             f"    coopMode: {coop_json},\n"
             f"    maxPlayers: {game.get('maxPlayers', 4)},\n"
             f"    crossplay: {'true' if game.get('crossplay') else 'false'},\n"
-            f"    players: \"{js_esc(game.get('players', '1-4'))}\",\n"
+            f'    players: "{js_esc(game.get("players", "1-4"))}",\n'
             f"    releaseYear: {game.get('releaseYear') or 0},\n"
-            f"    image: \"{js_esc(game.get('image', ''))}\",\n"
-            f"    description: \"{js_esc(game.get('description', ''))}\",\n"
-            f"    description_en: \"{js_esc(game.get('description_en', ''))}\",\n"
-            f"    personalNote: \"{js_esc(game.get('personalNote', ''))}\",\n"
+            f'    image: "{js_esc(game.get("image", ""))}",\n'
+            f'    description: "{js_esc(game.get("description", ""))}",\n'
+            f'    description_en: "{js_esc(game.get("description_en", ""))}",\n'
+            f'    personalNote: "{js_esc(game.get("personalNote", ""))}",\n'
             f"    played: {'true' if game.get('played') else 'false'},\n"
-            f"    steamUrl: \"{js_esc(game.get('steamUrl', ''))}\",\n"
-            f"    gogUrl: \"{js_esc(game.get('gogUrl', ''))}\",\n"
-            f"    epicUrl: \"{js_esc(game.get('epicUrl', ''))}\",\n"
-            f"    itchUrl: \"{js_esc(game.get('itchUrl', ''))}\",\n"
+            f'    steamUrl: "{js_esc(game.get("steamUrl", ""))}",\n'
+            f'    gogUrl: "{js_esc(game.get("gogUrl", ""))}",\n'
+            f'    epicUrl: "{js_esc(game.get("epicUrl", ""))}",\n'
+            f'    itchUrl: "{js_esc(game.get("itchUrl", ""))}",\n'
             f"    ccu: {game.get('ccu') or 0},\n"
             f"    trending: {'true' if game.get('trending') else 'false'},\n"
             f"    rating: {game.get('rating') or 0},\n"
-            f"    igUrl: \"{js_esc(game.get('igUrl', ''))}\",\n"
+            f'    igUrl: "{js_esc(game.get("igUrl", ""))}",\n'
             f"    igDiscount: {game.get('igDiscount') or 0},\n"
-            f"    gbUrl: \"{js_esc(game.get('gbUrl', ''))}\",\n"
+            f'    gbUrl: "{js_esc(game.get("gbUrl", ""))}",\n'
             f"    gbDiscount: {game.get('gbDiscount') or 0},\n"
-            f"    gsUrl: \"{js_esc(game.get('gsUrl', ''))}\",\n"
+            f'    gsUrl: "{js_esc(game.get("gsUrl", ""))}",\n'
             f"    gsDiscount: {game.get('gsDiscount') or 0},\n"
-            f"    kgUrl: \"{js_esc(game.get('kgUrl', ''))}\",\n"
+            f'    kgUrl: "{js_esc(game.get("kgUrl", ""))}",\n'
             f"    kgDiscount: {game.get('kgDiscount') or 0},\n"
-            f"    gmvUrl: \"{js_esc(game.get('gmvUrl', ''))}\",\n"
+            f'    k4gUrl: "{js_esc(game.get("k4gUrl", ""))}",\n'
+            f"    k4gDiscount: {game.get('k4gDiscount') or 0},\n"
+            f'    gmvUrl: "{js_esc(game.get("gmvUrl", ""))}",\n'
             f"    gmvDiscount: {game.get('gmvDiscount') or 0}\n"
             "  },\n"
         )
@@ -424,7 +453,9 @@ def write_legacy_games_js(
     if full_js.count("{") != full_js.count("}"):
         raise ValueError("Brace count mismatch while serializing legacy games.js")
     if len(ordered_games) < 50:
-        raise ValueError(f"Refusing to write suspiciously small catalog: {len(ordered_games)} games")
+        raise ValueError(
+            f"Refusing to write suspiciously small catalog: {len(ordered_games)} games"
+        )
 
     path.write_text(full_js, encoding="utf-8")
     return path
