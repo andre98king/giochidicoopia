@@ -230,3 +230,36 @@ Hardware disponibile (RX 9070 XT 16GB VRAM + 16GB RAM):
 - **Performance**: Lazy loading (IntersectionObserver), sizes attribute, cache busting v=20260325
 - **Security Headers**: Cloudflare Response Header Transform Rule configurata — X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy. Score: **A** su securityheaders.com
 - **MCP Google Search Console**: Configurato — progetto `coophubs-gsc`, proprietà `sc-domain:coophubs.net` (siteOwner). Credenziali: `/home/andrea/.claude/mcp-gsc/`
+
+---
+
+## Plugin AI Installati
+
+### GSD (Get Shit Done)
+
+Workflow management con context engineering. Documentazione: `.planning/PLUGIN_GUIDE.md`.
+
+```bash
+/gsd:new-project    # Inizializza progetto/feature
+/gsd:map-codebase   # Analizza codebase
+/gsd:quick <task>   # Task veloce
+/gsd:progress       # Mostra stato
+```
+
+### Ralph
+
+Autonomous AI agent loop per task ripetitivi. Script: `scripts/ralph/ralph.sh`.
+
+### BMAD
+
+Agile AI development con 34+ workflow. Skill: `bmad-help`, `bmad-party-mode`, `bmad-review-*`.
+
+---
+
+## Documentazione Planning
+
+- `.planning/PROJECT.md` — Visione e obiettivi
+- `.planning/REQUIREMENTS.md` — Requisiti v1-v3
+- `.planning/ROADMAP.md` — Roadmap completa
+- `.planning/STATE.md` — Stato attuale
+- `.planning/codebase/` — Analisi codebase (7 documenti)
