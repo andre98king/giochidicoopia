@@ -35,7 +35,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/elden-ring-nightreign-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Felden-ring-nightreign-pc-steam-global-standard&cjsku=181363",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/elden-ring-nightreign/",
+    gmgDiscount: 5
   },
   {
     id: 2,
@@ -71,7 +73,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/rust-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Frust-early-access&cjsku=1231",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/rust/",
+    gmgDiscount: 5
   },
   {
     id: 4,
@@ -107,7 +111,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/helldivers-2-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fhelldivers-2-pc-steam-row-standard&cjsku=180735",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/helldivers-2/",
+    gmgDiscount: 5
   },
   {
     id: 5,
@@ -143,7 +149,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/tom-clancys-rainbow-six-siege-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftom-clancys-rainbow-six-siege-16000-credits-xbox-global&cjsku=164035",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/tom-clancys-rainbow-six-siege/",
+    gmgDiscount: 5
   },
   {
     id: 6,
@@ -179,7 +187,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/dead-by-daylight-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdead-by-daylight&cjsku=2014",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/dead-by-daylight/",
+    gmgDiscount: 5
   },
   {
     id: 7,
@@ -215,7 +225,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/team-fortress-2-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fteam-fortress-2-badges-xephos-philanthropic-physiognomy-and-honeydews-countenance&cjsku=44648",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/team-fortress-2/",
+    gmgDiscount: 5
   },
   {
     id: 8,
@@ -251,7 +263,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/grand-theft-auto-v-enhanced-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgrand-theft-auto-v-gta-5&cjsku=626",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/grand-theft-auto-v-enhanced/",
+    gmgDiscount: 5
   },
   {
     id: 9,
@@ -287,7 +301,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/dayz-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdayz-xbox-xboxoneseries-row-en-standard&cjsku=174346",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/dayz/",
+    gmgDiscount: 5
   },
   {
     id: 10,
@@ -323,7 +339,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/warframe-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwarframe-bonus-pack&cjsku=31805",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/warframe/",
+    gmgDiscount: 5
   },
   {
     id: 11,
@@ -359,7 +377,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/repo-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Frepo-pc-steam-gift-global-standard&cjsku=184281",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/repo/",
+    gmgDiscount: 5
   },
   {
     id: 12,
@@ -395,7 +415,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/dont-starve-together-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdont-starve-together&cjsku=26027",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/dont-starve-together/",
+    gmgDiscount: 5
   },
   {
     id: 13,
@@ -431,7 +453,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/payday-2-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpayday-2-steam-gift&cjsku=43592",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/payday-2/",
+    gmgDiscount: 5
   },
   {
     id: 14,
@@ -467,7 +491,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/left-4-dead-2-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fleft-4-dead-2-steam-gift-eu&cjsku=49825",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/left-4-dead-2/",
+    gmgDiscount: 5
   },
   {
     id: 15,
@@ -503,7 +529,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/destiny-2-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdestiny-2-lightfall-pc-steam-eu-en-de-fr-it-pl-ja-ko-pt-ru-zh-es-standard&cjsku=141264",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/destiny-2/",
+    gmgDiscount: 5
   },
   {
     id: 16,
@@ -539,7 +567,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/terraria-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fterraria-gog&cjsku=49976",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/terraria/",
+    gmgDiscount: 5
   },
   {
     id: 17,
@@ -575,7 +605,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/project-zomboid-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fproject-zomboid&cjsku=2960",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/project-zomboid/",
+    gmgDiscount: 5
   },
   {
     id: 18,
@@ -611,7 +643,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/ark-survival-evolved-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fark-survival-evolved-1&cjsku=26647",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/ark-survival-evolved/",
+    gmgDiscount: 5
   },
   {
     id: 19,
@@ -647,7 +681,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/rocket-league-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Frocket-league&cjsku=1211",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/rocket-league/",
+    gmgDiscount: 5
   },
   {
     id: 20,
@@ -683,7 +719,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/garrys-mod-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgarrys-mod&cjsku=2786",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/garrys-mod/",
+    gmgDiscount: 5
   },
   {
     id: 21,
@@ -719,7 +757,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/palworld-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpalworld-pc-steamgift-global-en-de-fr-it-ja-ko-pt-ru-zh-es-zh-standard&cjsku=167004",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/palworld/",
+    gmgDiscount: 5
   },
   {
     id: 22,
@@ -755,7 +795,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/7-days-to-die-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2F7-days-to-die&cjsku=4",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/7-days-to-die/",
+    gmgDiscount: 5
   },
   {
     id: 23,
@@ -791,7 +833,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/total-war-warhammer-iii-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftotal-war-warhammer-iii-eu&cjsku=121195",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/total-war-warhammer-iii/",
+    gmgDiscount: 5
   },
   {
     id: 24,
@@ -827,7 +871,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/factorio-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffactorio&cjsku=25979",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/factorio/",
+    gmgDiscount: 5
   },
   {
     id: 25,
@@ -863,7 +909,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/the-binding-of-isaac-rebirth-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-binding-of-isaac-rebirth-xone-arg&cjsku=127861",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/the-binding-of-isaac-rebirth/",
+    gmgDiscount: 5
   },
   {
     id: 26,
@@ -899,7 +947,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/valheim-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fvalheim-pc-steam-eu-en-de-fr-pl-nl-ja-pt-ru-zh-es-tr-standard&cjsku=163392",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/valheim/",
+    gmgDiscount: 5
   },
   {
     id: 27,
@@ -935,7 +985,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/black-desert-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fblack-desert-traveler-edition-xbox-eu&cjsku=69298",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/black-desert/",
+    gmgDiscount: 5
   },
   {
     id: 28,
@@ -971,7 +1023,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/brawlhalla-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fbrawlhalla-metadev-barraza-official-website-officialwebsite-global-en-standard&cjsku=144946",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/brawlhalla/",
+    gmgDiscount: 5
   },
   {
     id: 29,
@@ -1007,7 +1061,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/age-of-empires-ii-definitive-edition-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fage-of-empires-ii-xbox-xboxoneseries-global-en-de-fr-it-ja-ko-pt-ru-zh-es-tr-zh-definitive&cjsku=149393",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/age-of-empires-ii-definitive-edition/",
+    gmgDiscount: 5
   },
   {
     id: 30,
@@ -1043,7 +1099,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/satisfactory-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsatisfactory-steam&cjsku=61654",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/satisfactory/",
+    gmgDiscount: 5
   },
   {
     id: 31,
@@ -1079,7 +1137,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/monster-hunter-wilds-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmonster-hunter-wilds-pc-steam-eu-standard&cjsku=179571",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/monster-hunter-wilds/",
+    gmgDiscount: 5
   },
   {
     id: 32,
@@ -1115,7 +1175,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/monster-hunter-world-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmonster-hunter-world&cjsku=11166",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/monster-hunter-world/",
+    gmgDiscount: 5
   },
   {
     id: 33,
@@ -1151,7 +1213,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/v-rising-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fv-rising-dlc-bundle-pc-steam-global-standard&cjsku=183506",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/v-rising/",
+    gmgDiscount: 5
   },
   {
     id: 34,
@@ -1187,7 +1251,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/phasmophobia-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fphasmophobia-eu-steam-gift&cjsku=68871",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/phasmophobia/",
+    gmgDiscount: 5
   },
   {
     id: 35,
@@ -1223,7 +1289,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/star-wars-battlefront-ii-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fstar-wars-battlefront-ii-xbox-one&cjsku=11151",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/star-wars-battlefront-ii/",
+    gmgDiscount: 5
   },
   {
     id: 36,
@@ -1259,7 +1327,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/squad-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsquad-eu&cjsku=77899",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/squad/",
+    gmgDiscount: 5
   },
   {
     id: 37,
@@ -1295,7 +1365,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/diablo-iv-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/diablo-iv/",
+    gmgDiscount: 5
   },
   {
     id: 38,
@@ -1331,7 +1403,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/fallout-76-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffallout-76-eu-steam&cjsku=63588",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/fallout-76/",
+    gmgDiscount: 5
   },
   {
     id: 39,
@@ -1367,7 +1441,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/borderlands-2-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fborderlands-2-1&cjsku=28150",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/borderlands-2/",
+    gmgDiscount: 5
   },
   {
     id: 40,
@@ -1403,7 +1479,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/risk-of-rain-2-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Frisk-of-rain-2-eu&cjsku=70513",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/risk-of-rain-2/",
+    gmgDiscount: 5
   },
   {
     id: 41,
@@ -1439,7 +1517,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/gray-zone-warfare-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgray-zone-warfare-pc-steam-gift-eu-en-standard&cjsku=171475",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/gray-zone-warfare/",
+    gmgDiscount: 5
   },
   {
     id: 42,
@@ -1475,7 +1555,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/bloons-td-6-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fbloons-td-6-steam&cjsku=42587",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/bloons-td-6/",
+    gmgDiscount: 5
   },
   {
     id: 43,
@@ -1511,7 +1593,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/the-planet-crafter-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-planet-crafter-steam-gift-eu&cjsku=133318",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/the-planet-crafter/",
+    gmgDiscount: 5
   },
   {
     id: 44,
@@ -1547,7 +1631,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/warhammer-40000-darktide-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwarhammer-40-000-darktide&cjsku=125399",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/warhammer-40000-darktide/",
+    gmgDiscount: 5
   },
   {
     id: 45,
@@ -1583,7 +1669,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/arma-3-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Farma-3-steam&cjsku=10843",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/arma-3/",
+    gmgDiscount: 5
   },
   {
     id: 46,
@@ -1619,7 +1707,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/age-of-empires-iv-anniversary-edition-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fage-of-empires-iv-xbox-xboxoneseries-au-en-de-fr-it-ja-ko-pt-ru-zh-es-tr-vi-anniversary&cjsku=172120",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/age-of-empires-iv-anniversary-edition/",
+    gmgDiscount: 5
   },
   {
     id: 47,
@@ -1655,7 +1745,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/warhammer-40000-space-marine-2-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwarhammer-40-000-space-marine-2-xbox-xboxseries-global-standard&cjsku=176974",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/warhammer-40000-space-marine-2/",
+    gmgDiscount: 5
   },
   {
     id: 48,
@@ -1691,7 +1783,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/brotato-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fbrotato-pc-steam-gift-eu-en-de-fr-pl-ja-ko-pt-ru-zh-es-standard&cjsku=144430",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/brotato/",
+    gmgDiscount: 5
   },
   {
     id: 49,
@@ -1727,7 +1821,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/hunt-showdown-1896-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fhunt-showdown-1896-pc-steam-row-standard&cjsku=198351",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/hunt-showdown-1896/",
+    gmgDiscount: 5
   },
   {
     id: 50,
@@ -1763,7 +1859,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/lethal-company-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Flethal-company-pc-steamgift-global-en-standard&cjsku=163386",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/lethal-company/",
+    gmgDiscount: 5
   },
   {
     id: 51,
@@ -1799,7 +1897,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/the-isle-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-isle&cjsku=26022",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/the-isle/",
+    gmgDiscount: 5
   },
   {
     id: 52,
@@ -1835,7 +1935,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/last-epoch-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Flast-epoch-steam&cjsku=67806",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/last-epoch/",
+    gmgDiscount: 5
   },
   {
     id: 53,
@@ -1871,7 +1973,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/conan-exiles-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fconan-exiles-eu-steam-gift&cjsku=46370",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/conan-exiles/",
+    gmgDiscount: 5
   },
   {
     id: 54,
@@ -1907,7 +2011,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/new-world-aeternum-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fnew-world-aeternum-xbox-xboxseries-eu-standard&cjsku=177762",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/new-world-aeternum/",
+    gmgDiscount: 5
   },
   {
     id: 55,
@@ -1943,7 +2049,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/split-fiction-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsplit-fiction-pc-ea-app-global-standard&cjsku=182722",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/split-fiction/",
+    gmgDiscount: 5
   },
   {
     id: 56,
@@ -1979,7 +2087,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/sea-of-thieves-2025-edition-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsea-of-thieves-xbox-xbox-one-series-windows-jp-2025&cjsku=188059",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/sea-of-thieves-2025-edition/",
+    gmgDiscount: 5
   },
   {
     id: 57,
@@ -2015,7 +2125,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/call-of-duty-black-ops-iii-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/call-of-duty-black-ops-iii/",
+    gmgDiscount: 5
   },
   {
     id: 58,
@@ -2051,7 +2163,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/deep-rock-galactic-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdeep-rock-galactic-eu-steam&cjsku=73914",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/deep-rock-galactic/",
+    gmgDiscount: 5
   },
   {
     id: 59,
@@ -2087,7 +2201,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/it-takes-two-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fit-takes-two-xbox-xbox-one-series-au-standard&cjsku=184957",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/it-takes-two/",
+    gmgDiscount: 5
   },
   {
     id: 60,
@@ -2123,7 +2239,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/dying-light-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdying-light-eu-steam&cjsku=37962",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/dying-light/",
+    gmgDiscount: 5
   },
   {
     id: 62,
@@ -2159,7 +2277,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/raft-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fraft-eu&cjsku=25752",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/raft/",
+    gmgDiscount: 5
   },
   {
     id: 63,
@@ -2195,7 +2315,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/scp-secret-laboratory-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/scp-secret-laboratory/",
+    gmgDiscount: 5
   },
   {
     id: 64,
@@ -2231,7 +2353,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/path-of-exile-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpath-of-exile-2-early-access-pc-officialwebsite-global-standard&cjsku=180860",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/path-of-exile/",
+    gmgDiscount: 5
   },
   {
     id: 65,
@@ -2267,7 +2391,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/killing-floor-2-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fkilling-floor-2-xbox-arg&cjsku=85923",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/killing-floor-2/",
+    gmgDiscount: 5
   },
   {
     id: 66,
@@ -2303,7 +2429,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/sons-of-the-forest-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsons-of-the-forest-pc-steam-gift-eu-en-de-fr-it-pl-cs-ja-ko-pt-ru-zh-es-sv-tr-zh-fi-standard&cjsku=164157",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/sons-of-the-forest/",
+    gmgDiscount: 5
   },
   {
     id: 67,
@@ -2339,7 +2467,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/ready-or-not-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fready-or-not&cjsku=71019",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/ready-or-not/",
+    gmgDiscount: 5
   },
   {
     id: 68,
@@ -2375,7 +2505,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/dying-light-2-stay-human-reloaded-edition-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdying-light-2-xbox-xboxoneseries-eu-en-de-fr-it-pl-cs-ja-ko-pt-ru-zh-es-tr-zh-ar-reloaded&cjsku=173729",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/dying-light-2-stay-human-reloaded-edition/",
+    gmgDiscount: 5
   },
   {
     id: 69,
@@ -2411,7 +2543,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/space-engineers-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fspace-engineers-ar-xbox-one&cjsku=68277",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/space-engineers/",
+    gmgDiscount: 5
   },
   {
     id: 70,
@@ -2447,7 +2581,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/among-us-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Famong-us-3d-pc-steam-gift-eu-standard&cjsku=186598",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/among-us/",
+    gmgDiscount: 5
   },
   {
     id: 71,
@@ -2483,7 +2619,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/the-outlast-trials-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-outlast-trials-xbox-xboxoneseries-eu-en-standard&cjsku=170018",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/the-outlast-trials/",
+    gmgDiscount: 5
   },
   {
     id: 72,
@@ -2519,7 +2657,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/monster-hunter-rise-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmonster-hunter-rise&cjsku=128299",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/monster-hunter-rise/",
+    gmgDiscount: 5
   },
   {
     id: 73,
@@ -2555,7 +2695,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/warhammer-40000-rogue-trader-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwarhammer-40-000-rogue-trader-xbox-xboxseries-eu-en-standard&cjsku=165302",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/warhammer-40000-rogue-trader/",
+    gmgDiscount: 5
   },
   {
     id: 74,
@@ -2591,7 +2733,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/divinity-original-sin-2---definitive-edition-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/divinity-original-sin-2---definitive-edition/",
+    gmgDiscount: 5
   },
   {
     id: 75,
@@ -2627,7 +2771,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/halo-the-master-chief-collection-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fhalo-the-master-chief-collection-steam-gift&cjsku=44854",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/halo-the-master-chief-collection/",
+    gmgDiscount: 5
   },
   {
     id: 76,
@@ -2663,7 +2809,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/borderlands-3-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fborderlands-3-eu&cjsku=31140",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/borderlands-3/",
+    gmgDiscount: 5
   },
   {
     id: 78,
@@ -2699,7 +2847,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/party-animals-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fparty-animals-xbox-xboxoneseries-eu-en-zh-zh-standard&cjsku=160408",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/party-animals/",
+    gmgDiscount: 5
   },
   {
     id: 79,
@@ -2735,7 +2885,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/age-of-empires-iii-definitive-edition-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fage-of-empires-iii-definitive-edition-xbox-xboxwindows-brazil-en-de-fr-it-ja-ko-pt-ru-zh-es-tr-zh-definitive&cjsku=147927",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/age-of-empires-iii-definitive-edition/",
+    gmgDiscount: 5
   },
   {
     id: 80,
@@ -2771,7 +2923,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/foxhole-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffoxhole-eu&cjsku=46477",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/foxhole/",
+    gmgDiscount: 5
   },
   {
     id: 82,
@@ -2807,7 +2961,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/anno-1800-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fanno-1800-1&cjsku=26977",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/anno-1800/",
+    gmgDiscount: 5
   },
   {
     id: 84,
@@ -2843,7 +2999,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/dinkum-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdinkum-steam-gift-eu&cjsku=139145",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/dinkum/",
+    gmgDiscount: 5
   },
   {
     id: 85,
@@ -2879,7 +3037,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/grounded-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgrounded-xbox-xboxoneserieswindows-eu-en-standard&cjsku=155052",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/grounded/",
+    gmgDiscount: 5
   },
   {
     id: 86,
@@ -2915,7 +3075,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/grim-dawn-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgrim-dawn-gog&cjsku=51295",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/grim-dawn/",
+    gmgDiscount: 5
   },
   {
     id: 87,
@@ -2951,7 +3113,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/barotrauma-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fbarotrauma-1&cjsku=37516",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/barotrauma/",
+    gmgDiscount: 5
   },
   {
     id: 88,
@@ -2987,7 +3151,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/halo-infinite-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fhalo-infinite-5000-and-600-halo-credits&cjsku=137278",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/halo-infinite/",
+    gmgDiscount: 5
   },
   {
     id: 89,
@@ -3023,7 +3189,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/crossout-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcrossout-adrenaline-xbox-xboxoneseries-eu-en-standard&cjsku=161900",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/crossout/",
+    gmgDiscount: 5
   },
   {
     id: 90,
@@ -3059,7 +3227,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/thehunter-call-of-the-wild-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthehunter-call-of-the-wild-pc-steam-row-standard&cjsku=193564",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/thehunter-call-of-the-wild/",
+    gmgDiscount: 5
   },
   {
     id: 91,
@@ -3095,7 +3265,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/for-honor-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffor-honor-asia&cjsku=37905",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/for-honor/",
+    gmgDiscount: 5
   },
   {
     id: 93,
@@ -3131,7 +3303,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/warhammer-vermintide-2-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwarhammer-vermintide-2-shadows-over-bogenhafen-eu&cjsku=75719",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/warhammer-vermintide-2/",
+    gmgDiscount: 5
   },
   {
     id: 95,
@@ -3167,7 +3341,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/overcooked-2-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fovercooked-2-eu-1&cjsku=39521",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/overcooked-2/",
+    gmgDiscount: 5
   },
   {
     id: 96,
@@ -3203,7 +3379,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/cuphead-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcuphead-xbox-one-eu&cjsku=47200",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/cuphead/",
+    gmgDiscount: 5
   },
   {
     id: 97,
@@ -3239,7 +3417,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/myth-of-empires-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmyth-of-empires-pc-steam-eu-en-de-fr-pl-cs-ja-pt-ru-zh-es-zh-standard&cjsku=172418",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/myth-of-empires/",
+    gmgDiscount: 5
   },
   {
     id: 98,
@@ -3275,7 +3455,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/ghost-of-tsushima-directors-cut-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fghost-of-tsushima-director-s-cut-pc-steam-gift-eu-en-de-fr-it-pl-cs-nl-ja-ko-no-pt-ru-zh-es-sv-tr-zh-hu-da-ar-fi-el-th-mx-standard&cjsku=171460",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/ghost-of-tsushima-directors-cut/",
+    gmgDiscount: 5
   },
   {
     id: 99,
@@ -3311,7 +3493,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/portal-2-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fportal-2-eu&cjsku=31277",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/portal-2/",
+    gmgDiscount: 5
   },
   {
     id: 100,
@@ -3347,7 +3531,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/insurgency-sandstorm-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Finsurgency-sandstorm-year-2-pass-pc-steam-global-en-de-fr-it-pl-cs-nl-ja-ko-no-pt-ru-zh-es-sv-tr-zh-hu-da-fi-th-mx-standard&cjsku=157351",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/insurgency-sandstorm/",
+    gmgDiscount: 5
   },
   {
     id: 101,
@@ -3383,7 +3569,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/escape-the-backrooms-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fescape-the-backrooms-pc-steam-gift-eu-en-de-fr-ru-zh-es-standard&cjsku=158631",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/escape-the-backrooms/",
+    gmgDiscount: 5
   },
   {
     id: 103,
@@ -3419,7 +3607,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/world-war-z-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fworld-war-z-pc-steamgift-global-en-standard&cjsku=166224",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/world-war-z/",
+    gmgDiscount: 5
   },
   {
     id: 104,
@@ -3455,7 +3645,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/green-hell-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgreen-hell-xbox-arg&cjsku=92090",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/green-hell/",
+    gmgDiscount: 5
   },
   {
     id: 105,
@@ -3491,7 +3683,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/wartales-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwartales-xbox-xboxserieswindows-eu-en-standard&cjsku=163336",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/wartales/",
+    gmgDiscount: 5
   },
   {
     id: 107,
@@ -3527,7 +3721,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/remnant-ii-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fremnant-ii-xbox-xboxseries-eg-en-de-fr-it-ja-ko-pt-ru-zh-es-standard&cjsku=165751",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/remnant-ii/",
+    gmgDiscount: 5
   },
   {
     id: 108,
@@ -3563,7 +3759,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/age-of-mythology-retold-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fage-of-mythology-retold-pc-steam-global-en-de-fr-it-pl-ja-ko-pt-ru-es-hu-da-vi-mx-standard&cjsku=173182",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/age-of-mythology-retold/",
+    gmgDiscount: 5
   },
   {
     id: 109,
@@ -3599,7 +3797,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/tinkerlands-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftinkerlands-pc-steam-global-standard&cjsku=187207",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/tinkerlands/",
+    gmgDiscount: 5
   },
   {
     id: 110,
@@ -3635,7 +3835,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/icarus-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ficarus-steam-gift&cjsku=116965",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/icarus/",
+    gmgDiscount: 5
   },
   {
     id: 111,
@@ -3671,7 +3873,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/stormworks-build-and-rescue-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fstormworks-build-and-rescue-1&cjsku=28570",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/stormworks-build-and-rescue/",
+    gmgDiscount: 5
   },
   {
     id: 112,
@@ -3707,7 +3911,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/tom-clancys-ghost-recon-wildlands-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftom-clancys-ghost-recon-wildlands-1&cjsku=3095",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/tom-clancys-ghost-recon-wildlands/",
+    gmgDiscount: 5
   },
   {
     id: 113,
@@ -3743,7 +3949,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/nioh-2-the-complete-edition-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/nioh-2-the-complete-edition/",
+    gmgDiscount: 5
   },
   {
     id: 114,
@@ -3779,7 +3987,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/tom-clancys-ghost-recon-breakpoint-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fghost-recon-breakpoint-xbox-one&cjsku=43163",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/tom-clancys-ghost-recon-breakpoint/",
+    gmgDiscount: 5
   },
   {
     id: 115,
@@ -3815,7 +4025,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/gunfire-reborn-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgunfire-reborn-xbox&cjsku=137424",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/gunfire-reborn/",
+    gmgDiscount: 5
   },
   {
     id: 117,
@@ -3851,7 +4063,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/medieval-dynasty-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmedieval-dynasty-xbox-xboxserieswindows-arg-en-standard&cjsku=143969",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/medieval-dynasty/",
+    gmgDiscount: 5
   },
   {
     id: 118,
@@ -3887,7 +4101,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/ultimate-chicken-horse-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fultimate-chicken-horse&cjsku=2929",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/ultimate-chicken-horse/",
+    gmgDiscount: 5
   },
   {
     id: 119,
@@ -3923,7 +4139,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/gang-beasts-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgang-beasts-yogscast-avatars&cjsku=42861",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/gang-beasts/",
+    gmgDiscount: 5
   },
   {
     id: 120,
@@ -3959,7 +4177,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/stick-fight-the-game-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fstick-fight-the-game-pc-steam-tr-en-standard&cjsku=167608",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/stick-fight-the-game/",
+    gmgDiscount: 5
   },
   {
     id: 121,
@@ -3995,7 +4215,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/human-fall-flat-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fhuman-fall-flat-eu-steam-eu&cjsku=73024",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/human-fall-flat/",
+    gmgDiscount: 5
   },
   {
     id: 122,
@@ -4031,7 +4253,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/lovers-in-a-dangerous-spacetime-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Flovers-in-a-dangerous-spacetime-steam-gift&cjsku=59080",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/lovers-in-a-dangerous-spacetime/",
+    gmgDiscount: 5
   },
   {
     id: 123,
@@ -4067,7 +4291,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/streets-of-rage-4-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fstreets-of-rage-4&cjsku=57341",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/streets-of-rage-4/",
+    gmgDiscount: 5
   },
   {
     id: 124,
@@ -4103,7 +4329,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/teenage-mutant-ninja-turtles-shredders-revenge-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fteenage-mutant-ninja-turtles-shredders-revenge-xbox-arg&cjsku=137232",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/teenage-mutant-ninja-turtles-shredders-revenge/",
+    gmgDiscount: 5
   },
   {
     id: 125,
@@ -4139,7 +4367,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/broforce-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fbroforce-1&cjsku=28569",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/broforce/",
+    gmgDiscount: 5
   },
   {
     id: 126,
@@ -4175,7 +4405,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/a-way-out-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fa-way-out-xbox-one&cjsku=11150",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/a-way-out/",
+    gmgDiscount: 5
   },
   {
     id: 127,
@@ -4211,7 +4443,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/moving-out-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmoving-out-moving-out-2-bundle-xbox-xboxoneseries-eu-en-standard&cjsku=158866",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/moving-out/",
+    gmgDiscount: 5
   },
   {
     id: 129,
@@ -4247,7 +4481,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/towerfall-ascension-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftowerfall-ascension-pc-steam-eu-en-standard&cjsku=174579",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/towerfall-ascension/",
+    gmgDiscount: 5
   },
   {
     id: 130,
@@ -4283,7 +4519,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/spelunky-2-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fspelunky-2-xbox-eu&cjsku=130389",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/spelunky-2/",
+    gmgDiscount: 5
   },
   {
     id: 131,
@@ -4319,7 +4557,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/trine-4-the-nightmare-prince-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftrine-4-the-nightmare-prince-steam-row-standard-pc&cjsku=178241",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/trine-4-the-nightmare-prince/",
+    gmgDiscount: 5
   },
   {
     id: 132,
@@ -4355,7 +4595,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/rayman-legends-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Frayman-legends-arg-xbox&cjsku=82375",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/rayman-legends/",
+    gmgDiscount: 5
   },
   {
     id: 134,
@@ -4391,7 +4633,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/jackbox-party-pack-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/jackbox-party-pack/",
+    gmgDiscount: 5
   },
   {
     id: 135,
@@ -4427,7 +4671,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/move-or-die-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmove-or-die-steam-gift&cjsku=26496",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/move-or-die/",
+    gmgDiscount: 5
   },
   {
     id: 136,
@@ -4463,7 +4709,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/boomerang-fu-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fboomerang-fu-eu&cjsku=79787",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/boomerang-fu/",
+    gmgDiscount: 5
   },
   {
     id: 137,
@@ -4499,7 +4747,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/plateup-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fplateup-pc-steam-global-en-de-fr-pl-ja-pt-ru-zh-es-zh-standard&cjsku=139932",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/plateup/",
+    gmgDiscount: 5
   },
   {
     id: 138,
@@ -4535,7 +4785,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/keywe-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fkeywe&cjsku=124448",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/keywe/",
+    gmgDiscount: 5
   },
   {
     id: 139,
@@ -4571,7 +4823,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/full-metal-furies-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffull-metal-furies-eu-xbox-one&cjsku=52583",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/full-metal-furies/",
+    gmgDiscount: 5
   },
   {
     id: 140,
@@ -4607,7 +4861,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/phogs-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fphogs-xbox-ar&cjsku=72663",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/phogs/",
+    gmgDiscount: 5
   },
   {
     id: 141,
@@ -4643,7 +4899,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/unravel-two-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Funravel-two-eng&cjsku=38167",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/unravel-two/",
+    gmgDiscount: 5
   },
   {
     id: 143,
@@ -4679,7 +4937,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/back-4-blood-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fback-4-blood-arg-xbox&cjsku=124866",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/back-4-blood/",
+    gmgDiscount: 5
   },
   {
     id: 144,
@@ -4715,7 +4975,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/aliens-fireteam-elite-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Faliens-fireteam-elite-eu&cjsku=122508",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/aliens-fireteam-elite/",
+    gmgDiscount: 5
   },
   {
     id: 145,
@@ -4751,7 +5013,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/content-warning-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcontent-warning-pc-steam-global-en-standard&cjsku=170258",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/content-warning/",
+    gmgDiscount: 5
   },
   {
     id: 146,
@@ -4787,7 +5051,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/vampire-survivors-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fvampire-survivors-xbox-xboxoneseries-arg-en-standard&cjsku=145225",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/vampire-survivors/",
+    gmgDiscount: 5
   },
   {
     id: 148,
@@ -4823,7 +5089,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/core-keeper-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcore-keeper-xbox-xboxseries-eu-standard&cjsku=176527",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/core-keeper/",
+    gmgDiscount: 5
   },
   {
     id: 149,
@@ -4859,7 +5127,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/stardew-valley-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fstardew-valley-xone-eu&cjsku=51044",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/stardew-valley/",
+    gmgDiscount: 5
   },
   {
     id: 150,
@@ -4895,7 +5165,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/keep-talking-and-nobody-explodes-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fkeep-talking-and-nobody-explodes-xbox-xboxoneseries-arg-en-standard&cjsku=150919",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/keep-talking-and-nobody-explodes/",
+    gmgDiscount: 5
   },
   {
     id: 151,
@@ -4931,7 +5203,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/pico-park-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpico-park&cjsku=134185",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/pico-park/",
+    gmgDiscount: 5
   },
   {
     id: 152,
@@ -4967,7 +5241,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/overcooked-all-you-can-eat-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fovercooked-all-you-can-eat&cjsku=82124",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/overcooked-all-you-can-eat/",
+    gmgDiscount: 5
   },
   {
     id: 153,
@@ -5003,7 +5279,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/payday-3-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpayday-3-pc-steam-gift-eu-en-de-fr-it-pl-ja-ko-pt-ru-zh-es-tr-zh-standard&cjsku=164158",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/payday-3/",
+    gmgDiscount: 5
   },
   {
     id: 154,
@@ -5039,7 +5317,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/magicka-2-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmagicka-2&cjsku=854",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/magicka-2/",
+    gmgDiscount: 5
   },
   {
     id: 155,
@@ -5075,7 +5355,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/we-were-here-together-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwe-were-here-together-xone-eu&cjsku=60240",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/we-were-here-together/",
+    gmgDiscount: 5
   },
   {
     id: 156,
@@ -5111,7 +5393,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/we-were-here-forever-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwe-were-here-forever-steam-gift&cjsku=135670",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/we-were-here-forever/",
+    gmgDiscount: 5
   },
   {
     id: 157,
@@ -5147,7 +5431,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/crab-game-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/crab-game/",
+    gmgDiscount: 5
   },
   {
     id: 158,
@@ -5183,7 +5469,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/escape-academy-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fescape-academy-xbox-eu&cjsku=139535",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/escape-academy/",
+    gmgDiscount: 5
   },
   {
     id: 159,
@@ -5219,7 +5507,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/tiny-tinas-wonderlands-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftiny-tinas-wonderlands-pc-steam-gift-eu-en-de-fr-it-ja-ko-pt-ru-zh-es-zh-th-standard&cjsku=164170",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/tiny-tinas-wonderlands/",
+    gmgDiscount: 5
   },
   {
     id: 160,
@@ -5255,7 +5545,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/sackboy-a-big-adventure-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsackboy-a-big-adventure-pc-steam-global-en-de-fr-it-pl-cs-nl-ja-ko-no-pt-ru-es-sv-tr-zh-hu-da-ro-ar-fi-el-standard&cjsku=144497",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/sackboy-a-big-adventure/",
+    gmgDiscount: 5
   },
   {
     id: 161,
@@ -5291,7 +5583,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/roboquest-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Froboquest-pc-steam-row-en-de-fr-pt-zh-standard&cjsku=166208",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/roboquest/",
+    gmgDiscount: 5
   },
   {
     id: 162,
@@ -5327,7 +5621,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/no-mans-sky-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fno-mans-sky-pc-steam-china-en-de-fr-it-pl-nl-ja-ko-pt-ru-zh-es-zh-standard&cjsku=170557",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/no-mans-sky/",
+    gmgDiscount: 5
   },
   {
     id: 163,
@@ -5363,7 +5659,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/castle-crashers-remastered-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcastle-crashers-remastered-eu&cjsku=51081",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/castle-crashers-remastered/",
+    gmgDiscount: 5
   },
   {
     id: 164,
@@ -5399,7 +5697,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/astroneer-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fastroneer-xbox-one-eu&cjsku=47329",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/astroneer/",
+    gmgDiscount: 5
   },
   {
     id: 165,
@@ -5435,7 +5735,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/outriders-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Foutriders-xbox-arg&cjsku=82471",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/outriders/",
+    gmgDiscount: 5
   },
   {
     id: 166,
@@ -5471,7 +5773,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/moving-out-2-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmoving-out-2-pc-steam-global-en-de-fr-it-pl-ja-ko-pt-ru-zh-es-sv-zh-standard&cjsku=141441",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/moving-out-2/",
+    gmgDiscount: 5
   },
   {
     id: 167,
@@ -5507,7 +5811,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/divinity-original-sin-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdivinity-original-sin-the-source-saga-gog&cjsku=76396",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/divinity-original-sin/",
+    gmgDiscount: 5
   },
   {
     id: 169,
@@ -5543,7 +5849,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/warhammer-end-times---vermintide-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwarhammer-end-times-vermintide-collectors-edition-upgrade-pc-steam-global-en-standard&cjsku=145749",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/warhammer-end-times---vermintide/",
+    gmgDiscount: 5
   },
   {
     id: 170,
@@ -5579,7 +5887,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/devour-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdevour-steam-gift-eu&cjsku=78388",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/devour/",
+    gmgDiscount: 5
   },
   {
     id: 172,
@@ -5615,7 +5925,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/grand-theft-auto-v-legacy-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/grand-theft-auto-v-legacy/",
+    gmgDiscount: 5
   },
   {
     id: 173,
@@ -5651,7 +5963,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/baldurs-gate-3-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fbaldurs-gate-3-xbox-series-in-standard&cjsku=196062",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/baldurs-gate-3/",
+    gmgDiscount: 5
   },
   {
     id: 174,
@@ -5687,7 +6001,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/war-thunder-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwar-thunder-us-starter-bundle-xbox-xboxoneseries-eu-en-standard&cjsku=157166",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/war-thunder/",
+    gmgDiscount: 5
   },
   {
     id: 175,
@@ -5723,7 +6039,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/ea-sports-fc-25-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fea-sports-fc-25-pc-steam-global-standard&cjsku=174819",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/ea-sports-fc-25/",
+    gmgDiscount: 5
   },
   {
     id: 176,
@@ -5759,7 +6077,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/hearts-of-iron-iv-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fhearts-of-iron-iv-battle-for-the-bosporus&cjsku=70592",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/hearts-of-iron-iv/",
+    gmgDiscount: 5
   },
   {
     id: 177,
@@ -5795,7 +6115,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/nba-2k25-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fnba-2k25-pc-steam-global-standard&cjsku=175652",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/nba-2k25/",
+    gmgDiscount: 5
   },
   {
     id: 178,
@@ -5831,7 +6153,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/schedule-i-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fschedule-i-pc-steam-global-standard&cjsku=185650",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/schedule-i/",
+    gmgDiscount: 5
   },
   {
     id: 179,
@@ -5867,7 +6191,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/final-fantasy-xiv-online-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffinal-fantasy-xiv-online-xbox-xboxseries-eu-en-completebonus&cjsku=170044",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/final-fantasy-xiv-online/",
+    gmgDiscount: 5
   },
   {
     id: 180,
@@ -5903,7 +6229,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/fantasy-life-i-the-girl-who-steals-time-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffantasy-life-i-the-girl-who-steals-time-pc-steam-gift-global-standard&cjsku=186785",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/fantasy-life-i-the-girl-who-steals-time/",
+    gmgDiscount: 5
   },
   {
     id: 181,
@@ -5939,7 +6267,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/lost-ark-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Flost-ark-apprentice-starter-pack&cjsku=131628",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/lost-ark/",
+    gmgDiscount: 5
   },
   {
     id: 182,
@@ -5975,7 +6305,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/path-of-exile-2-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpath-of-exile-2-early-access-pc-officialwebsite-global-standard&cjsku=180860",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/path-of-exile-2/",
+    gmgDiscount: 5
   },
   {
     id: 183,
@@ -6011,7 +6343,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/the-elder-scrolls-online-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-elder-scrolls-online-pc-steam-eu-standard&cjsku=195733",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/the-elder-scrolls-online/",
+    gmgDiscount: 5
   },
   {
     id: 184,
@@ -6047,7 +6381,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/farming-simulator-25-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffarming-simulator-25-pc-steam-cn-standard&cjsku=190397",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/farming-simulator-25/",
+    gmgDiscount: 5
   },
   {
     id: 186,
@@ -6083,7 +6419,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/europa-universalis-iv-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Feuropa-universalis-iv-steam-row-en-de-standard-pc&cjsku=170061",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/europa-universalis-iv/",
+    gmgDiscount: 5
   },
   {
     id: 187,
@@ -6119,7 +6457,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/enshrouded-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fenshrouded-pc-steam-global-en-de-fr-it-pl-ja-ko-pt-ru-zh-es-tr-zh-uk-th-standard&cjsku=167468",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/enshrouded/",
+    gmgDiscount: 5
   },
   {
     id: 188,
@@ -6155,7 +6495,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/unturned-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Funturned-xbox-arg&cjsku=137413",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/unturned/",
+    gmgDiscount: 5
   },
   {
     id: 189,
@@ -6191,7 +6533,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/forza-horizon-5-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fforza-horizon-5-xbox-xboxoneserieswindows-row-standard&cjsku=175448",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/forza-horizon-5/",
+    gmgDiscount: 5
   },
   {
     id: 190,
@@ -6227,7 +6571,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/tom-clancys-the-division-2-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftom-clancys-the-division-2-standard-edition-eu-xbox-one&cjsku=28816",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/tom-clancys-the-division-2/",
+    gmgDiscount: 5
   },
   {
     id: 191,
@@ -6263,7 +6609,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/world-of-warships-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fworld-of-warships-texas-pack-pc-steam-gift-global-standard&cjsku=196242",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/world-of-warships/",
+    gmgDiscount: 5
   },
   {
     id: 192,
@@ -6299,7 +6647,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/roadcraft-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Froadcraft-pc-steam-gift-global-standard&cjsku=183892",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/roadcraft/",
+    gmgDiscount: 5
   },
   {
     id: 193,
@@ -6335,7 +6685,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/maplestory-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/maplestory/",
+    gmgDiscount: 5
   },
   {
     id: 194,
@@ -6371,7 +6723,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/world-of-tanks-blitz-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/world-of-tanks-blitz/",
+    gmgDiscount: 5
   },
   {
     id: 195,
@@ -6407,7 +6761,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/farming-simulator-22-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffarming-simulator-22-xbox-eu&cjsku=122248",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/farming-simulator-22/",
+    gmgDiscount: 5
   },
   {
     id: 196,
@@ -6443,7 +6799,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/f1-25-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ff1-25-pc-ea-app-eu-standard&cjsku=197436",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/f1-25/",
+    gmgDiscount: 5
   },
   {
     id: 198,
@@ -6479,7 +6837,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/tabletop-simulator-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftabletop-simulator-eu&cjsku=54323",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/tabletop-simulator/",
+    gmgDiscount: 5
   },
   {
     id: 199,
@@ -6515,7 +6875,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/smite-2-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsmite-2-pc-steam-gift-global-founders&cjsku=176555",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/smite-2/",
+    gmgDiscount: 5
   },
   {
     id: 200,
@@ -6551,7 +6913,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/forza-horizon-4-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fforza-horizon-4-lego-speed-champions-bundle-pc-xbox-one&cjsku=43557",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/forza-horizon-4/",
+    gmgDiscount: 5
   },
   {
     id: 201,
@@ -6587,7 +6951,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/elite-dangerous-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Felite-dangerous-xone-eu&cjsku=58424",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/elite-dangerous/",
+    gmgDiscount: 5
   },
   {
     id: 202,
@@ -6623,7 +6989,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/supermarket-together-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/supermarket-together/",
+    gmgDiscount: 5
   },
   {
     id: 203,
@@ -6659,7 +7027,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/total-war-three-kingdoms-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftotal-war-three-kingdoms-fates-divided-eu&cjsku=81323",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/total-war-three-kingdoms/",
+    gmgDiscount: 5
   },
   {
     id: 204,
@@ -6695,7 +7065,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/dark-souls-iii-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/dark-souls-iii/",
+    gmgDiscount: 5
   },
   {
     id: 205,
@@ -6731,7 +7103,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/popucom-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpopucom-pc-steam-gift-global-standard&cjsku=187920",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/popucom/",
+    gmgDiscount: 5
   },
   {
     id: 206,
@@ -6767,7 +7141,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/total-war-rome-ii---emperor-edition-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/total-war-rome-ii---emperor-edition/",
+    gmgDiscount: 5
   },
   {
     id: 207,
@@ -6803,7 +7179,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/the-spell-brigade-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/the-spell-brigade/",
+    gmgDiscount: 5
   },
   {
     id: 208,
@@ -6839,7 +7217,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/drive-beyond-horizons-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdrive-beyond-horizons-pc-steam-gift-global-standard&cjsku=185252",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/drive-beyond-horizons/",
+    gmgDiscount: 5
   },
   {
     id: 209,
@@ -6875,7 +7255,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/shop-titans-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/shop-titans/",
+    gmgDiscount: 5
   },
   {
     id: 210,
@@ -6911,7 +7293,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/guild-wars-2-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fguild-wars-2-2000-gems-card&cjsku=650",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/guild-wars-2/",
+    gmgDiscount: 5
   },
   {
     id: 212,
@@ -6947,7 +7331,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/fishing-planet-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffishing-planet-halloween-bundle-xbox-live-arg&cjsku=125093",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/fishing-planet/",
+    gmgDiscount: 5
   },
   {
     id: 213,
@@ -6983,7 +7369,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/ddracenetwork-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/ddracenetwork/",
+    gmgDiscount: 5
   },
   {
     id: 214,
@@ -7019,7 +7407,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/game-of-thrones-kingsroad-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/game-of-thrones-kingsroad/",
+    gmgDiscount: 5
   },
   {
     id: 215,
@@ -7055,7 +7445,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/ravenswatch-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fravenswatch-xbox-xboxoneseries-eu-standard&cjsku=180688",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/ravenswatch/",
+    gmgDiscount: 5
   },
   {
     id: 216,
@@ -7091,7 +7483,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/enlisted-reinforced-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/enlisted-reinforced/",
+    gmgDiscount: 5
   },
   {
     id: 217,
@@ -7127,7 +7521,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/powerwash-simulator-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpowerwash-simulator-nintendo-nintendoswitch-eu-en-de-fr-it-ja-ko-pt-ru-zh-es-zh-standard&cjsku=154776",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/powerwash-simulator/",
+    gmgDiscount: 5
   },
   {
     id: 218,
@@ -7163,7 +7559,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/house-flipper-2-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fhouse-flipper-2-pc-steam-eu-en-de-fr-it-pl-nl-ja-ko-no-pt-ru-zh-es-tr-zh-mx-standard&cjsku=169273",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/house-flipper-2/",
+    gmgDiscount: 5
   },
   {
     id: 219,
@@ -7199,7 +7597,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/supermarket-simulator-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsupermarket-simulator-pc-steam-gift-global-en-de-fr-it-ja-ko-pt-ru-zh-es-tr-standard&cjsku=168819",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/supermarket-simulator/",
+    gmgDiscount: 5
   },
   {
     id: 220,
@@ -7235,7 +7635,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/company-of-heroes-2-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcompany-of-heroes-2&cjsku=272",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/company-of-heroes-2/",
+    gmgDiscount: 5
   },
   {
     id: 221,
@@ -7271,7 +7673,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/devil-may-cry-5-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdevil-may-cry-5-1&cjsku=28256",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/devil-may-cry-5/",
+    gmgDiscount: 5
   },
   {
     id: 222,
@@ -7307,7 +7711,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/call-to-arms---gates-of-hell-ostfront-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcall-to-arms-gates-of-hell-ostfront&cjsku=138237",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/call-to-arms---gates-of-hell-ostfront/",
+    gmgDiscount: 5
   },
   {
     id: 223,
@@ -7343,7 +7749,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/red-dead-online-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fred-dead-online-steam-gift-eu&cjsku=74378",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/red-dead-online/",
+    gmgDiscount: 5
   },
   {
     id: 224,
@@ -7379,7 +7787,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/company-of-heroes-3-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcompany-of-heroes-3&cjsku=120579",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/company-of-heroes-3/",
+    gmgDiscount: 5
   },
   {
     id: 226,
@@ -7415,7 +7825,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/realm-of-the-mad-god-exalt-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/realm-of-the-mad-god-exalt/",
+    gmgDiscount: 5
   },
   {
     id: 227,
@@ -7451,7 +7863,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/predecessor-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/predecessor/",
+    gmgDiscount: 5
   },
   {
     id: 228,
@@ -7487,7 +7901,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/total-war-shogun-2-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftotal-war-shogun-2-sengoku-jidai-unit-pack&cjsku=36578",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/total-war-shogun-2/",
+    gmgDiscount: 5
   },
   {
     id: 229,
@@ -7523,7 +7939,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/pga-tour-2k25-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpga-tour-2k25-pc-steam-gift-global-standard&cjsku=184050",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/pga-tour-2k25/",
+    gmgDiscount: 5
   },
   {
     id: 230,
@@ -7559,7 +7977,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/mechabellum-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/mechabellum/",
+    gmgDiscount: 5
   },
   {
     id: 231,
@@ -7595,7 +8015,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/age-of-wonders-4-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fage-of-wonders-4-pc-steam-cn-standard&cjsku=194724",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/age-of-wonders-4/",
+    gmgDiscount: 5
   },
   {
     id: 232,
@@ -7631,7 +8053,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/escape-simulator-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fescape-simulator-2-pc-steam-gift-global-standard&cjsku=194778",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/escape-simulator/",
+    gmgDiscount: 5
   },
   {
     id: 233,
@@ -7667,7 +8091,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/pikuniku-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpikuniku&cjsku=35612",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/pikuniku/",
+    gmgDiscount: 5
   },
   {
     id: 234,
@@ -7703,7 +8129,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/gtfo-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgtfo-steam&cjsku=47089",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/gtfo/",
+    gmgDiscount: 5
   },
   {
     id: 235,
@@ -7739,7 +8167,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/we-need-to-go-deeper-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwe-need-to-go-deeper-eu&cjsku=123389",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/we-need-to-go-deeper/",
+    gmgDiscount: 5
   },
   {
     id: 236,
@@ -7775,7 +8205,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/dungeon-of-the-endless-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdungeon-of-the-endless-eu&cjsku=129704",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/dungeon-of-the-endless/",
+    gmgDiscount: 5
   },
   {
     id: 237,
@@ -7811,7 +8243,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/heave-ho-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fheave-ho&cjsku=42396",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/heave-ho/",
+    gmgDiscount: 5
   },
   {
     id: 238,
@@ -7847,7 +8281,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/necesse-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fnecesse-pc-steam-eu-en-de-fr-cs-ja-ko-pt-ru-zh-es-tr-zh-hu-uk-mx-standard&cjsku=171578",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/necesse/",
+    gmgDiscount: 5
   },
   {
     id: 239,
@@ -7883,7 +8319,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/ghost-watchers-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fghost-watchers-pc-steam-gift-eu-en-de-fr-it-pl-cs-nl-ja-ko-no-pt-ru-zh-es-sv-tr-zh-da-fi-uk-th-standard&cjsku=139714",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/ghost-watchers/",
+    gmgDiscount: 5
   },
   {
     id: 240,
@@ -7919,7 +8357,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/chained-together-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fchained-together-pc-steam-gift-global-en-standard&cjsku=173822",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/chained-together/",
+    gmgDiscount: 5
   },
   {
     id: 241,
@@ -7955,7 +8395,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/besiege-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fbesiege-pc-steam-eu-standard&cjsku=179487",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/besiege/",
+    gmgDiscount: 5
   },
   {
     id: 242,
@@ -7991,7 +8433,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/sunkenland-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsunkenland-pc-steam-global-en-de-fr-ja-ko-ru-zh-es-tr-standard&cjsku=159579",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/sunkenland/",
+    gmgDiscount: 5
   },
   {
     id: 243,
@@ -8027,7 +8471,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/backrooms-escape-together-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/backrooms-escape-together/",
+    gmgDiscount: 5
   },
   {
     id: 244,
@@ -8063,7 +8509,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/volcanoids-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fvolcanoids-1&cjsku=31272",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/volcanoids/",
+    gmgDiscount: 5
   },
   {
     id: 245,
@@ -8099,7 +8547,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/we-were-here-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwe-were-here-forever-steam-gift&cjsku=135670",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/we-were-here/",
+    gmgDiscount: 5
   },
   {
     id: 246,
@@ -8135,7 +8585,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/totally-reliable-delivery-service-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftotally-reliable-delivery-service-xbox-arg&cjsku=133252",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/totally-reliable-delivery-service/",
+    gmgDiscount: 5
   },
   {
     id: 247,
@@ -8171,7 +8623,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/for-the-king-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffor-the-king-eu&cjsku=80133",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/for-the-king/",
+    gmgDiscount: 5
   },
   {
     id: 248,
@@ -8207,7 +8661,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/for-the-king-ii-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffor-the-king-2-pc-steamgift-global-en-de-fr-it-pl-ja-ko-pt-ru-zh-es-zh-uk-standard&cjsku=161985",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/for-the-king-ii/",
+    gmgDiscount: 5
   },
   {
     id: 249,
@@ -8243,7 +8699,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/bopl-battle-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/bopl-battle/",
+    gmgDiscount: 5
   },
   {
     id: 250,
@@ -8279,7 +8737,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/cult-of-the-lamb-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcult-of-the-lamb-steam-eu-en-de-fr-ja-ko-pt-ru-zh-es-zh-standard-pc&cjsku=154335",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/cult-of-the-lamb/",
+    gmgDiscount: 5
   },
   {
     id: 251,
@@ -8315,7 +8775,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/shovel-knight-treasure-trove-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fshovel-knight-treasure-trove-steam-eu-en-de-fr-it-ja-pt-ru-es-standard-pc&cjsku=145704",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/shovel-knight-treasure-trove/",
+    gmgDiscount: 5
   },
   {
     id: 252,
@@ -8351,7 +8813,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/soulmask-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsoulmask-pc-steam-global-en-de-fr-ja-ko-pt-ru-zh-es-zh-standard&cjsku=172757",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/soulmask/",
+    gmgDiscount: 5
   },
   {
     id: 253,
@@ -8387,7 +8851,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/prodeus-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fprodeus&cjsku=72021",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/prodeus/",
+    gmgDiscount: 5
   },
   {
     id: 254,
@@ -8423,7 +8889,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/towerborne-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/towerborne/",
+    gmgDiscount: 5
   },
   {
     id: 255,
@@ -8459,7 +8927,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/ship-of-fools-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fship-of-fools-pc-steam-global-en-de-fr-it-ja-ko-ru-zh-es-zh-standard&cjsku=143373",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/ship-of-fools/",
+    gmgDiscount: 5
   },
   {
     id: 256,
@@ -8495,7 +8965,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/patch-quest-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpatch-quest-steam-global-en-standard-pc&cjsku=152300",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/patch-quest/",
+    gmgDiscount: 5
   },
   {
     id: 257,
@@ -8531,7 +9003,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/goose-goose-duck-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/goose-goose-duck/",
+    gmgDiscount: 5
   },
   {
     id: 258,
@@ -8567,7 +9041,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/the-finals-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-finals-year-1-deluxe-edition-pc-steam-gift-global-standard&cjsku=196879",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/the-finals/",
+    gmgDiscount: 5
   },
   {
     id: 259,
@@ -8603,7 +9079,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/marvel-rivals-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fdirect-top-ups%2Fmarvel-rivals-500-lattices&cjsku=181618",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/marvel-rivals/",
+    gmgDiscount: 5
   },
   {
     id: 260,
@@ -8639,7 +9117,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/tower-unite-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftower-unite&cjsku=28705",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/tower-unite/",
+    gmgDiscount: 5
   },
   {
     id: 261,
@@ -8675,7 +9155,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/delta-force-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdelta-force&cjsku=36430",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/delta-force/",
+    gmgDiscount: 5
   },
   {
     id: 262,
@@ -8711,7 +9193,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/apex-legends-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fapex-legends-apex-coins-eu-xbox-gift-cards-xboxlive-eu-standard-2150apexcoins&cjsku=149731",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/apex-legends/",
+    gmgDiscount: 5
   },
   {
     id: 263,
@@ -8747,7 +9231,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/phantasy-star-online-2-new-genesis-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fphantasy-star-online-2-new-genesis-pack-official-website-officialwebsite-global-en-standard&cjsku=152733",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/phantasy-star-online-2-new-genesis/",
+    gmgDiscount: 5
   },
   {
     id: 264,
@@ -8783,7 +9269,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/peak-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpeak-pc-steam-gift-global-standard&cjsku=188660",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/peak/",
+    gmgDiscount: 5
   },
   {
     id: 265,
@@ -8819,7 +9307,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/absolum-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fabsolum-pc-steam-gift-global-standard&cjsku=194010",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/absolum/",
+    gmgDiscount: 5
   },
   {
     id: 266,
@@ -8855,7 +9345,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/rv-there-yet-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Frv-there-yet-pc-steam-gift-global-standard&cjsku=194296",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/rv-there-yet/",
+    gmgDiscount: 5
   },
   {
     id: 267,
@@ -8891,7 +9383,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/borderlands-4-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fborderlands-4-pc-steam-gift-global-standard&cjsku=188475",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/borderlands-4/",
+    gmgDiscount: 5
   },
   {
     id: 268,
@@ -8927,7 +9421,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/coral-island-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcoral-island-pc-steam-global-en-standard&cjsku=142509",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/coral-island/",
+    gmgDiscount: 5
   },
   {
     id: 269,
@@ -8963,7 +9459,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/windswept-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/windswept/",
+    gmgDiscount: 5
   },
   {
     id: 270,
@@ -8999,7 +9497,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/bellwright-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fbellwright-pc-steam-gift-global-en-de-fr-it-pl-ja-ko-pt-ru-zh-es-tr-zh-uk-standard&cjsku=170846",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/bellwright/",
+    gmgDiscount: 5
   },
   {
     id: 271,
@@ -9035,7 +9535,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/arc-raiders-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Farc-raiders-pc-steam-row-standard&cjsku=194180",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/arc-raiders/",
+    gmgDiscount: 5
   },
   {
     id: 272,
@@ -9071,7 +9573,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/minecraft-dungeons-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fminecraft-dungeons&cjsku=47596",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/minecraft-dungeons/",
+    gmgDiscount: 5
   },
   {
     id: 273,
@@ -9107,7 +9611,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/dune-awakening-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdune-awakening-pc-steam-global-en-standard&cjsku=141436",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/dune-awakening/",
+    gmgDiscount: 5
   },
   {
     id: 274,
@@ -9143,7 +9649,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/orcs-must-die-3-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Forcs-must-die-3&cjsku=114281",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/orcs-must-die-3/",
+    gmgDiscount: 5
   },
   {
     id: 275,
@@ -9179,7 +9687,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/spiritfarer-edizione-farewell-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/spiritfarer-edizione-farewell/",
+    gmgDiscount: 5
   },
   {
     id: 276,
@@ -9215,7 +9725,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/abyssus-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fabyssus-pc-steam-global-standard&cjsku=192046",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/abyssus/",
+    gmgDiscount: 5
   },
   {
     id: 277,
@@ -9251,7 +9763,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/dying-light-the-beast-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdying-light-the-beast-pc-steam-global-standard&cjsku=181367",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/dying-light-the-beast/",
+    gmgDiscount: 5
   },
   {
     id: 278,
@@ -9287,7 +9801,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/monaco-whats-yours-is-mine-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmonaco-whats-yours-is-mine-eu&cjsku=55105",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/monaco-whats-yours-is-mine/",
+    gmgDiscount: 5
   },
   {
     id: 279,
@@ -9323,7 +9839,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/lego-star-wars-la-saga-degli-skywalker-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/lego-star-wars-la-saga-degli-skywalker/",
+    gmgDiscount: 5
   },
   {
     id: 280,
@@ -9359,7 +9877,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/untitled-goose-game-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Funtitled-goose-game-steam-gift&cjsku=69017",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/untitled-goose-game/",
+    gmgDiscount: 5
   },
   {
     id: 281,
@@ -9395,7 +9915,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/operation-tango-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Foperation-tango&cjsku=122517",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/operation-tango/",
+    gmgDiscount: 5
   },
   {
     id: 282,
@@ -9431,7 +9953,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/unrailed-2-back-on-track-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Funrailed-2-back-on-track-pc-steam-gift-global-standard&cjsku=179903",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/unrailed-2-back-on-track/",
+    gmgDiscount: 5
   },
   {
     id: 283,
@@ -9467,7 +9991,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/tools-up-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftools-up&cjsku=47304",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/tools-up/",
+    gmgDiscount: 5
   },
   {
     id: 284,
@@ -9503,7 +10029,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/biped-2-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fbiped-2-pc-steam-cis-standard&cjsku=197416",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/biped-2/",
+    gmgDiscount: 5
   },
   {
     id: 285,
@@ -9539,7 +10067,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/nobody-saves-the-world-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fnobody-saves-the-world&cjsku=130345",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/nobody-saves-the-world/",
+    gmgDiscount: 5
   },
   {
     id: 286,
@@ -9575,7 +10105,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/darksiders-genesis-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdarksiders-genesis&cjsku=43648",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/darksiders-genesis/",
+    gmgDiscount: 5
   },
   {
     id: 287,
@@ -9611,7 +10143,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/children-of-morta-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fchildren-of-morta-complete-edition&cjsku=134434",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/children-of-morta/",
+    gmgDiscount: 5
   },
   {
     id: 288,
@@ -9647,7 +10181,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/trine-5-a-clockwork-conspiracy-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftrine-5-a-clockwork-conspiracy-steam-global-en-de-fr-it-pl-cs-ja-ko-pt-ru-zh-es-tr-zh-uk-mx-standard-pc&cjsku=158403",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/trine-5-a-clockwork-conspiracy/",
+    gmgDiscount: 5
   },
   {
     id: 289,
@@ -9683,7 +10219,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/ember-knights-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fember-knights&cjsku=134480",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/ember-knights/",
+    gmgDiscount: 5
   },
   {
     id: 290,
@@ -9719,7 +10257,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/carx-drift-racing-online-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcarx-drift-racing-online-xbox-eu&cjsku=67567",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/carx-drift-racing-online/",
+    gmgDiscount: 5
   },
   {
     id: 291,
@@ -9755,7 +10295,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/dark-souls-ii-scholar-of-the-first-sin-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/dark-souls-ii-scholar-of-the-first-sin/",
+    gmgDiscount: 5
   },
   {
     id: 292,
@@ -9791,7 +10333,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/doom-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdoom-doom-ii-bundle-xbox-xboxoneserieswindows-eu-standard&cjsku=175872",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/doom/",
+    gmgDiscount: 5
   },
   {
     id: 293,
@@ -9827,7 +10371,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/sniper-elite-5-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsniper-elite-5-steam-gift&cjsku=135541",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/sniper-elite-5/",
+    gmgDiscount: 5
   },
   {
     id: 294,
@@ -9863,7 +10409,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/rec-room-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/rec-room/",
+    gmgDiscount: 5
   },
   {
     id: 295,
@@ -9899,7 +10447,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/plague-inc-evolved-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fplague-inc-evolved-xbox-xboxoneseries-arg-en-de-fr-it-standard&cjsku=142570",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/plague-inc-evolved/",
+    gmgDiscount: 5
   },
   {
     id: 296,
@@ -9935,7 +10485,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/ranch-simulator-build-hunt-farm-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/ranch-simulator-build-hunt-farm/",
+    gmgDiscount: 5
   },
   {
     id: 297,
@@ -9971,7 +10523,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/one-piece-bounty-rush-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/one-piece-bounty-rush/",
+    gmgDiscount: 5
   },
   {
     id: 298,
@@ -10007,7 +10561,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/total-war-warhammer-ii-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftotal-war-warhammer-ii-collection-pc-steam-eu-en-de-fr-it-pl-cs-ko-pt-ru-zh-es-tr-zh-standard&cjsku=160372",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/total-war-warhammer-ii/",
+    gmgDiscount: 5
   },
   {
     id: 299,
@@ -10043,7 +10599,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/abiotic-factor-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fabiotic-factor-xbox-series-pc-in-supporter&cjsku=196664",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/abiotic-factor/",
+    gmgDiscount: 5
   },
   {
     id: 300,
@@ -10079,7 +10637,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/total-war-attila-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftotal-war-attila&cjsku=1572",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/total-war-attila/",
+    gmgDiscount: 5
   },
   {
     id: 301,
@@ -10115,7 +10675,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/need-for-speed-heat-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fneed-for-speed-heat-eu-xbox&cjsku=44454",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/need-for-speed-heat/",
+    gmgDiscount: 5
   },
   {
     id: 302,
@@ -10151,7 +10713,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/bleach-brave-souls-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/bleach-brave-souls/",
+    gmgDiscount: 5
   },
   {
     id: 303,
@@ -10187,7 +10751,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/warhammer-40000-gladius---relics-of-war-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwarhammer-40-000-gladius-relics-of-war-eu-steam&cjsku=79920",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/warhammer-40000-gladius---relics-of-war/",
+    gmgDiscount: 5
   },
   {
     id: 304,
@@ -10223,7 +10789,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/fifa-22-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffifa-22-eu-origin&cjsku=124385",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/fifa-22/",
+    gmgDiscount: 5
   },
   {
     id: 305,
@@ -10259,7 +10827,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/kingdom-two-crowns-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fkingdom-two-crowns-eu-steam&cjsku=80970",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/kingdom-two-crowns/",
+    gmgDiscount: 5
   },
   {
     id: 306,
@@ -10295,7 +10865,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/far-cry-5-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffar-cry-5-far-cry-new-dawn-deluxe-edition-bundle&cjsku=28284",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/far-cry-5/",
+    gmgDiscount: 5
   },
   {
     id: 307,
@@ -10331,7 +10903,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/state-of-decay-2-juggernaut-edition-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fstate-of-decay-2-juggernaut-edition-xbox-tr&cjsku=139474",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/state-of-decay-2-juggernaut-edition/",
+    gmgDiscount: 5
   },
   {
     id: 308,
@@ -10367,7 +10941,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/deadzone-rogue-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdeadzone-rogue-pc-steam-gift-global-standard&cjsku=186446",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/deadzone-rogue/",
+    gmgDiscount: 5
   },
   {
     id: 309,
@@ -10403,7 +10979,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/northgard-definitive-edition-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/northgard-definitive-edition/",
+    gmgDiscount: 5
   },
   {
     id: 310,
@@ -10439,7 +11017,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/lost-castle-2-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Flost-castle-2-pc-steam-global-en-zh-zh-standard&cjsku=174328",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/lost-castle-2/",
+    gmgDiscount: 5
   },
   {
     id: 311,
@@ -10475,7 +11055,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/farm-together-2-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffarm-together-2-pc-steam-gift-global-en-de-fr-nl-ja-ko-pt-ru-zh-es-tr-hu-uk-standard&cjsku=171375",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/farm-together-2/",
+    gmgDiscount: 5
   },
   {
     id: 312,
@@ -10511,7 +11093,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/star-trek-online-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fstar-trek-online-federation-elite-starter-pack&cjsku=50694",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/star-trek-online/",
+    gmgDiscount: 5
   },
   {
     id: 313,
@@ -10547,7 +11131,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/dead-island-2-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdead-island-2-xbox-xboxoneseries-arg-en-standard&cjsku=145972",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/dead-island-2/",
+    gmgDiscount: 5
   },
   {
     id: 314,
@@ -10583,7 +11169,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/granblue-fantasy-relink-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgranblue-fantasy-relink-pc-steamgift-global-en-de-fr-it-ja-ko-pt-zh-es-zh-standard&cjsku=167779",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/granblue-fantasy-relink/",
+    gmgDiscount: 5
   },
   {
     id: 315,
@@ -10619,7 +11207,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/empyrion---galactic-survival-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/empyrion---galactic-survival/",
+    gmgDiscount: 5
   },
   {
     id: 316,
@@ -10655,7 +11245,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/efootball-pes-2021-season-update-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/efootball-pes-2021-season-update/",
+    gmgDiscount: 5
   },
   {
     id: 318,
@@ -10691,7 +11283,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/wwe-2k25-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwwe-2k25-xbox-xbox-one-series-eu-standard&cjsku=184819",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/wwe-2k25/",
+    gmgDiscount: 5
   },
   {
     id: 319,
@@ -10727,7 +11321,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/sniper-elite-resistance-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsniper-elite-resistance-pc-steam-row-standard&cjsku=183055",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/sniper-elite-resistance/",
+    gmgDiscount: 5
   },
   {
     id: 320,
@@ -10763,7 +11359,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/foundry-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffoundry-pc-steam-global-en-standard&cjsku=170464",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/foundry/",
+    gmgDiscount: 5
   },
   {
     id: 321,
@@ -10799,7 +11397,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/eldegarde-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/eldegarde/",
+    gmgDiscount: 5
   },
   {
     id: 322,
@@ -10835,7 +11435,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/scrap-mechanic-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fscrap-mechanic-eu&cjsku=25833",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/scrap-mechanic/",
+    gmgDiscount: 5
   },
   {
     id: 323,
@@ -10871,7 +11473,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/trailmakers-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftrailmakers-xbox-xboxoneserieswindows-eu-en-de-fr-it-pl-pt-ru-zh-es-zh-da-standard&cjsku=161655",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/trailmakers/",
+    gmgDiscount: 5
   },
   {
     id: 324,
@@ -10907,7 +11511,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/starbound-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fstarbound-eu&cjsku=37855",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/starbound/",
+    gmgDiscount: 5
   },
   {
     id: 325,
@@ -10943,7 +11549,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/pantheon-rise-of-the-fallen-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/pantheon-rise-of-the-fallen/",
+    gmgDiscount: 5
   },
   {
     id: 326,
@@ -10979,7 +11587,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/the-crew-2-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-crew-2-xbox-arg&cjsku=133244",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/the-crew-2/",
+    gmgDiscount: 5
   },
   {
     id: 327,
@@ -11015,7 +11625,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/warno-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwarno-steam&cjsku=130681",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/warno/",
+    gmgDiscount: 5
   },
   {
     id: 328,
@@ -11051,7 +11663,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/wolfquest-anniversary-edition-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/wolfquest-anniversary-edition/",
+    gmgDiscount: 5
   },
   {
     id: 329,
@@ -11087,7 +11701,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/watchdogs-2-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/watchdogs-2/",
+    gmgDiscount: 5
   },
   {
     id: 330,
@@ -11123,7 +11739,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/plants-vs-zombies-garden-warfare-2-deluxe-edition-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fplants-vs-zombies-garden-warfare-2-deluxe-edition-eu-xbox&cjsku=79753",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/plants-vs-zombies-garden-warfare-2-deluxe-edition/",
+    gmgDiscount: 5
   },
   {
     id: 331,
@@ -11159,7 +11777,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/runescape-dragonwilds-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Frunescape-dragonwilds-pc-steam-gift-global-standard&cjsku=186039",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/runescape-dragonwilds/",
+    gmgDiscount: 5
   },
   {
     id: 332,
@@ -11195,7 +11815,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/call-of-duty-modern-warfare-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcall-of-duty-modern-warfare-3-2011-xbox-xboxwindows-eu-standard&cjsku=182822",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/call-of-duty-modern-warfare/",
+    gmgDiscount: 5
   },
   {
     id: 333,
@@ -11231,7 +11853,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/lords-of-the-fallen-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-lords-of-the-fallen-pc-steam-global-en-de-fr-it-pl-ja-ko-pt-ru-zh-es-uk-standard&cjsku=141437",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/lords-of-the-fallen/",
+    gmgDiscount: 5
   },
   {
     id: 334,
@@ -11267,7 +11891,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/oddsparks-an-automation-adventure-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Foddsparks-an-automation-adventure-xbox-xbox-series-eu-standard&cjsku=187624",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/oddsparks-an-automation-adventure/",
+    gmgDiscount: 5
   },
   {
     id: 335,
@@ -11303,7 +11929,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/age-of-mythology-extended-edition-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fage-of-mythology-extended-edition&cjsku=19",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/age-of-mythology-extended-edition/",
+    gmgDiscount: 5
   },
   {
     id: 336,
@@ -11339,7 +11967,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/crab-champions-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/crab-champions/",
+    gmgDiscount: 5
   },
   {
     id: 337,
@@ -11375,7 +12005,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/the-lord-of-the-rings-online-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-lord-of-the-rings-60-day-game-time-code-eu&cjsku=50397",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/the-lord-of-the-rings-online/",
+    gmgDiscount: 5
   },
   {
     id: 338,
@@ -11411,7 +12043,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/one-armed-robber-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/one-armed-robber/",
+    gmgDiscount: 5
   },
   {
     id: 339,
@@ -11447,7 +12081,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/left-4-dead-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fleft-4-dead-steam-gift&cjsku=46048",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/left-4-dead/",
+    gmgDiscount: 5
   },
   {
     id: 340,
@@ -11483,7 +12119,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/tom-clancys-the-division-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftom-clancys-the-division-2&cjsku=28077",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/tom-clancys-the-division/",
+    gmgDiscount: 5
   },
   {
     id: 341,
@@ -11519,7 +12157,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/mordhau-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmordhau-xbox-xboxoneseries-eu-en-standard&cjsku=166140",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/mordhau/",
+    gmgDiscount: 5
   },
   {
     id: 342,
@@ -11555,7 +12195,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/trove-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftrove-eclipse-pack-pc-steam-global-standard&cjsku=180782",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/trove/",
+    gmgDiscount: 5
   },
   {
     id: 343,
@@ -11591,7 +12233,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/neverwinter-nights-enhanced-edition-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fneverwinter-nights-enhanced-edition-steam-eu-en-de-fr-it-pl-es-enhanced-pc&cjsku=139705",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/neverwinter-nights-enhanced-edition/",
+    gmgDiscount: 5
   },
   {
     id: 344,
@@ -11627,7 +12271,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/humanitz-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fhumanitz-pc-steam-row-en-standard&cjsku=166861",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/humanitz/",
+    gmgDiscount: 5
   },
   {
     id: 345,
@@ -11663,7 +12309,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/lightyear-frontier-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Flightyear-frontier-steamgift-global-en-de-fr-it-pl-ja-ko-pt-ru-zh-es-zh-standard-pc&cjsku=169758",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/lightyear-frontier/",
+    gmgDiscount: 5
   },
   {
     id: 346,
@@ -11699,7 +12347,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/wizard101-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/wizard101/",
+    gmgDiscount: 5
   },
   {
     id: 347,
@@ -11735,7 +12385,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/men-of-war-assault-squad-2-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fassault-squad-2-men-of-war-origins&cjsku=84",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/men-of-war-assault-squad-2/",
+    gmgDiscount: 5
   },
   {
     id: 348,
@@ -11771,7 +12423,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/aska-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Faska-pc-steam-global-en-de-ro-standard&cjsku=172482",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/aska/",
+    gmgDiscount: 5
   },
   {
     id: 349,
@@ -11807,7 +12461,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/deadside-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdeadside-xbox-xbox-series-eu-standard&cjsku=184333",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/deadside/",
+    gmgDiscount: 5
   },
   {
     id: 350,
@@ -11843,7 +12499,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/eco-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Feco-eu&cjsku=25832",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/eco/",
+    gmgDiscount: 5
   },
   {
     id: 351,
@@ -11879,7 +12537,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/legion-td-2---multiplayer-tower-defense-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/legion-td-2---multiplayer-tower-defense/",
+    gmgDiscount: 5
   },
   {
     id: 352,
@@ -11915,7 +12575,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/webfishing-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/webfishing/",
+    gmgDiscount: 5
   },
   {
     id: 354,
@@ -11951,7 +12613,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/fall-guys-ultimate-knockout-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/fall-guys-ultimate-knockout/",
+    gmgDiscount: 5
   },
   {
     id: 355,
@@ -11987,7 +12651,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/mindustry-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmindustry-eu&cjsku=48628",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/mindustry/",
+    gmgDiscount: 5
   },
   {
     id: 356,
@@ -12023,7 +12689,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games//",
+    gmgDiscount: 5
   },
   {
     id: 357,
@@ -12059,7 +12727,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/dragon-ball-xenoverse-2-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdragon-ball-xenoverse-2-eu-switch&cjsku=31703",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/dragon-ball-xenoverse-2/",
+    gmgDiscount: 5
   },
   {
     id: 358,
@@ -12095,7 +12765,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/dead-frontier-2-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdead-frontier-2-survivor-starter-pack-pc-steam-global-en-standard&cjsku=141449",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/dead-frontier-2/",
+    gmgDiscount: 5
   },
   {
     id: 361,
@@ -12131,7 +12803,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/mechwarrior-5-mercenaries-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmechwarrior-5-mercenaries-xbox-one-series-pc-eu-succession-wars&cjsku=194821",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/mechwarrior-5-mercenaries/",
+    gmgDiscount: 5
   },
   {
     id: 362,
@@ -12167,7 +12841,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/far-cry-6-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffar-cry-6-uplay&cjsku=64333",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/far-cry-6/",
+    gmgDiscount: 5
   },
   {
     id: 363,
@@ -12203,7 +12879,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/wobbly-life-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwobbly-life-steam-gift-eu&cjsku=139015",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/wobbly-life/",
+    gmgDiscount: 5
   },
   {
     id: 364,
@@ -12239,7 +12917,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/borderlands-game-of-the-year-enhanced-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/borderlands-game-of-the-year-enhanced/",
+    gmgDiscount: 5
   },
   {
     id: 366,
@@ -12275,7 +12955,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/avorion-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Favorion&cjsku=26453",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/avorion/",
+    gmgDiscount: 5
   },
   {
     id: 367,
@@ -12311,7 +12993,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/liars-bar-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fliars-bar-pc-steamgift-global-standard&cjsku=178389",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/liars-bar/",
+    gmgDiscount: 5
   },
   {
     id: 368,
@@ -12347,7 +13031,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/titan-quest-anniversary-edition-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftitan-quest-anniversary-edition-eu&cjsku=74418",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/titan-quest-anniversary-edition/",
+    gmgDiscount: 5
   },
   {
     id: 369,
@@ -12383,7 +13069,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/axis-allies-1942-online-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Faxis-allies-1942-online-steam&cjsku=50172",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/axis-allies-1942-online/",
+    gmgDiscount: 5
   },
   {
     id: 370,
@@ -12419,7 +13107,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/tropico-6-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftropico-6-festival&cjsku=122767",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/tropico-6/",
+    gmgDiscount: 5
   },
   {
     id: 371,
@@ -12455,7 +13145,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/wingspan-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwingspan&cjsku=68943",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/wingspan/",
+    gmgDiscount: 5
   },
   {
     id: 372,
@@ -12491,7 +13183,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/apocalypse-party-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fapocalypse-party-pc-steam-global-en-zh-zh-standard&cjsku=164879",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/apocalypse-party/",
+    gmgDiscount: 5
   },
   {
     id: 373,
@@ -12527,7 +13221,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/resident-evil-5-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fresident-evil-5-xbox-one-eu&cjsku=50856",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/resident-evil-5/",
+    gmgDiscount: 5
   },
   {
     id: 374,
@@ -12563,7 +13259,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/far-cry-4-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffar-cry-4-far-cry-primal-bundle-xbox-tr&cjsku=137065",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/far-cry-4/",
+    gmgDiscount: 5
   },
   {
     id: 376,
@@ -12599,7 +13297,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/fast-food-simulator-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffast-food-simulator-pc-steam-gift-global-standard&cjsku=181301",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/fast-food-simulator/",
+    gmgDiscount: 5
   },
   {
     id: 377,
@@ -12635,7 +13335,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/sins-of-a-solar-empire-ii-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsins-of-a-solar-empire-ii-pc-steam-eu-standard&cjsku=176844",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/sins-of-a-solar-empire-ii/",
+    gmgDiscount: 5
   },
   {
     id: 378,
@@ -12671,7 +13373,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/sniper-elite-4-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsniper-elite-4-nintendo-nintendo-switch-eu-standard&cjsku=195863",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/sniper-elite-4/",
+    gmgDiscount: 5
   },
   {
     id: 379,
@@ -12707,7 +13411,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/across-the-obelisk-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Facross-the-obelisk-pc-steam-global-en-zh-es-standard&cjsku=140760",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/across-the-obelisk/",
+    gmgDiscount: 5
   },
   {
     id: 380,
@@ -12743,7 +13449,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 381,
@@ -12779,7 +13487,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 382,
@@ -12815,7 +13525,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 383,
@@ -12851,7 +13563,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 384,
@@ -12887,7 +13601,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 385,
@@ -12923,7 +13639,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 386,
@@ -12959,7 +13677,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 387,
@@ -12995,7 +13715,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 388,
@@ -13031,7 +13753,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 389,
@@ -13067,7 +13791,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 390,
@@ -13103,7 +13829,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 391,
@@ -13139,7 +13867,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 392,
@@ -13175,7 +13905,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 393,
@@ -13211,7 +13943,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 394,
@@ -13247,7 +13981,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 395,
@@ -13283,7 +14019,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 396,
@@ -13319,7 +14057,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 397,
@@ -13355,7 +14095,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 398,
@@ -13391,7 +14133,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 399,
@@ -13427,7 +14171,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 400,
@@ -13463,7 +14209,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/call-of-duty-black-ops-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcall-of-duty-black-ops-6-pc-battlenet-eu-standard&cjsku=179276",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/call-of-duty-black-ops/",
+    gmgDiscount: 5
   },
   {
     id: 401,
@@ -13499,7 +14247,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/rise-of-nations-extended-edition-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Frise-of-nations-xbox-xboxwindows-eu-extended&cjsku=177347",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/rise-of-nations-extended-edition/",
+    gmgDiscount: 5
   },
   {
     id: 402,
@@ -13535,7 +14285,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/resident-evil-6-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fresident-evil-6-eu-xbox-one&cjsku=46689",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/resident-evil-6/",
+    gmgDiscount: 5
   },
   {
     id: 403,
@@ -13571,7 +14323,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/void-crew-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fvoid-crew-xbox-xbox-series-eu-standard&cjsku=192397",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/void-crew/",
+    gmgDiscount: 5
   },
   {
     id: 404,
@@ -13607,7 +14361,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/sea-of-stars-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsea-of-stars-pc-steam-gift-global-en-de-fr-ja-ko-pt-ru-zh-es-zh-standard&cjsku=159476",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/sea-of-stars/",
+    gmgDiscount: 5
   },
   {
     id: 405,
@@ -13643,7 +14399,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/door-kickers-2-task-force-north-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdoor-kickers-2-task-force-north-steam-gift-eu&cjsku=72208",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/door-kickers-2-task-force-north/",
+    gmgDiscount: 5
   },
   {
     id: 406,
@@ -13679,7 +14437,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 407,
@@ -13715,7 +14475,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 408,
@@ -13751,7 +14513,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 409,
@@ -13787,7 +14551,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 410,
@@ -13823,7 +14589,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 411,
@@ -13859,7 +14627,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 412,
@@ -13895,7 +14665,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 413,
@@ -13931,7 +14703,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 414,
@@ -13967,7 +14741,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 415,
@@ -14003,7 +14779,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 416,
@@ -14039,7 +14817,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 417,
@@ -14075,7 +14855,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 418,
@@ -14111,7 +14893,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 419,
@@ -14147,7 +14931,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 420,
@@ -14183,7 +14969,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 421,
@@ -14219,7 +15007,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 422,
@@ -14255,7 +15045,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 423,
@@ -14291,7 +15083,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 424,
@@ -14327,7 +15121,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 425,
@@ -14363,7 +15159,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 426,
@@ -14399,7 +15197,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 427,
@@ -14435,7 +15235,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 428,
@@ -14471,7 +15273,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 429,
@@ -14507,7 +15311,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 430,
@@ -14543,7 +15349,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 431,
@@ -14579,7 +15387,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 432,
@@ -14615,7 +15425,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 433,
@@ -14651,7 +15463,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 434,
@@ -14687,7 +15501,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 435,
@@ -14723,7 +15539,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 436,
@@ -14759,7 +15577,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 437,
@@ -14795,7 +15615,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 438,
@@ -14831,7 +15653,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 439,
@@ -14867,7 +15691,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 440,
@@ -14903,7 +15729,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 441,
@@ -14939,7 +15767,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 442,
@@ -14975,7 +15805,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 443,
@@ -15011,7 +15843,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 444,
@@ -15047,7 +15881,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 445,
@@ -15083,7 +15919,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 446,
@@ -15119,7 +15957,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 447,
@@ -15155,7 +15995,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 448,
@@ -15191,7 +16033,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 449,
@@ -15227,7 +16071,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 450,
@@ -15263,7 +16109,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 451,
@@ -15299,7 +16147,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 452,
@@ -15335,7 +16185,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 453,
@@ -15371,7 +16223,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 454,
@@ -15407,7 +16261,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 455,
@@ -15443,7 +16299,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 456,
@@ -15479,7 +16337,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 457,
@@ -15515,7 +16375,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 458,
@@ -15551,7 +16413,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 459,
@@ -15587,7 +16451,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 460,
@@ -15623,7 +16489,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 461,
@@ -15659,7 +16527,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 462,
@@ -15695,7 +16565,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 463,
@@ -15731,7 +16603,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 464,
@@ -15767,7 +16641,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 465,
@@ -15803,7 +16679,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 466,
@@ -15839,7 +16717,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 467,
@@ -15875,7 +16755,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 468,
@@ -15911,7 +16793,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 469,
@@ -15947,7 +16831,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 470,
@@ -15983,7 +16869,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 471,
@@ -16019,7 +16907,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 472,
@@ -16055,7 +16945,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 473,
@@ -16091,7 +16983,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 474,
@@ -16127,7 +17021,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 475,
@@ -16163,7 +17059,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 476,
@@ -16199,7 +17097,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 477,
@@ -16235,7 +17135,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 478,
@@ -16271,7 +17173,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 479,
@@ -16307,7 +17211,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 480,
@@ -16343,7 +17249,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 481,
@@ -16379,7 +17287,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 482,
@@ -16415,7 +17325,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 483,
@@ -16451,7 +17363,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 484,
@@ -16487,7 +17401,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 485,
@@ -16523,7 +17439,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 486,
@@ -16559,7 +17477,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 487,
@@ -16595,7 +17515,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 488,
@@ -16631,7 +17553,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 489,
@@ -16667,7 +17591,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 490,
@@ -16703,7 +17629,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 491,
@@ -16739,7 +17667,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 492,
@@ -16775,7 +17705,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 493,
@@ -16811,7 +17743,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 494,
@@ -16847,7 +17781,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 495,
@@ -16883,7 +17819,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 496,
@@ -16919,7 +17857,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 497,
@@ -16955,7 +17895,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 498,
@@ -16991,7 +17933,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 499,
@@ -17027,7 +17971,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 500,
@@ -17063,7 +18009,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 501,
@@ -17099,7 +18047,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 502,
@@ -17135,7 +18085,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 503,
@@ -17171,7 +18123,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 504,
@@ -17207,7 +18161,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 505,
@@ -17243,7 +18199,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 506,
@@ -17279,7 +18237,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 507,
@@ -17315,7 +18275,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 508,
@@ -17351,7 +18313,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 509,
@@ -17387,7 +18351,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 510,
@@ -17423,7 +18389,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 511,
@@ -17459,7 +18427,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 512,
@@ -17495,7 +18465,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 513,
@@ -17531,7 +18503,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 514,
@@ -17567,7 +18541,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 515,
@@ -17603,7 +18579,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 516,
@@ -17639,7 +18617,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 517,
@@ -17675,7 +18655,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 518,
@@ -17711,7 +18693,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/everwind-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Feverwind-pc-steam-gift-global-standard&cjsku=200450",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/everwind/",
+    gmgDiscount: 5
   },
   {
     id: 519,
@@ -17747,7 +18731,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/project-castaway-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fproject-castaway-pc-steamgift-global-standard&cjsku=177736",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/project-castaway/",
+    gmgDiscount: 5
   },
   {
     id: 520,
@@ -17783,7 +18769,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/dragonkin-the-banished-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdragonkin-the-banished-pc-steam-global-standard&cjsku=183742",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/dragonkin-the-banished/",
+    gmgDiscount: 5
   },
   {
     id: 521,
@@ -17819,7 +18807,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/tower-tag-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftower-tag-vr&cjsku=61337",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/tower-tag/",
+    gmgDiscount: 5
   },
   {
     id: 522,
@@ -17855,7 +18845,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/pizza-slice-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/pizza-slice/",
+    gmgDiscount: 5
   },
   {
     id: 523,
@@ -17891,7 +18883,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/wwe-2k26-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwwe-2k26-xbox-xbox-series-global-standard&cjsku=200207",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/wwe-2k26/",
+    gmgDiscount: 5
   },
   {
     id: 524,
@@ -17927,7 +18921,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/john-carpenters-toxic-commando-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fjohn-carpenters-toxic-commando-xbox-xbox-series-in-standard&cjsku=197373",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/john-carpenters-toxic-commando/",
+    gmgDiscount: 5
   },
   {
     id: 525,
@@ -17963,7 +18959,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/mamas-sleeping-angels-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/mamas-sleeping-angels/",
+    gmgDiscount: 5
   },
   {
     id: 526,
@@ -17999,7 +18997,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/rewind-99-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Frewind-99-pc-steam-global-standard&cjsku=200462",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/rewind-99/",
+    gmgDiscount: 5
   },
   {
     id: 527,
@@ -18035,7 +19035,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/over-the-top-wwi-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fover-the-top-wwi-pc-steam-gift-global-standard&cjsku=200170",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/over-the-top-wwi/",
+    gmgDiscount: 5
   },
   {
     id: 528,
@@ -18071,7 +19073,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/hexbreaker--pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fhexbreaker-ii-pc-steam-global-standard&cjsku=200461",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/hexbreaker-/",
+    gmgDiscount: 5
   },
   {
     id: 529,
@@ -18107,7 +19111,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/slay-the-spire-2-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fslay-the-spire-2-pc-steam-gift-global-standard&cjsku=200010",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/slay-the-spire-2/",
+    gmgDiscount: 5
   },
   {
     id: 530,
@@ -18143,7 +19149,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/desynced-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdesynced-pc-steam-gift-global-en-de-fr-pt-ru-zh-es-standard&cjsku=158920",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/desynced/",
+    gmgDiscount: 5
   },
   {
     id: 531,
@@ -18179,7 +19187,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/dysplaced-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdysplaced-pc-steam-gift-global-standard&cjsku=200029",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/dysplaced/",
+    gmgDiscount: 5
   },
   {
     id: 532,
@@ -18215,7 +19225,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/never-grave-the-witch-and-the-curse-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fnever-grave-the-witch-and-the-curse-xbox-xbox-series-pc-eu-standard&cjsku=200383",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/never-grave-the-witch-and-the-curse/",
+    gmgDiscount: 5
   },
   {
     id: 533,
@@ -18251,7 +19263,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/rotwood-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Frotwood-pc-steam-gift-global-en-standard&cjsku=170968",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/rotwood/",
+    gmgDiscount: 5
   },
   {
     id: 534,
@@ -18287,7 +19301,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/scott-pilgrim-ex-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/scott-pilgrim-ex/",
+    gmgDiscount: 5
   },
   {
     id: 535,
@@ -18323,7 +19339,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 536,
@@ -18359,7 +19377,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 537,
@@ -18395,7 +19415,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 538,
@@ -18431,7 +19453,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 539,
@@ -18467,7 +19491,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 540,
@@ -18503,7 +19529,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 541,
@@ -18539,7 +19567,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 542,
@@ -18575,7 +19605,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 543,
@@ -18611,7 +19643,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 544,
@@ -18647,7 +19681,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 545,
@@ -18683,7 +19719,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 546,
@@ -18719,7 +19757,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 547,
@@ -18755,7 +19795,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 548,
@@ -18791,7 +19833,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 549,
@@ -18827,7 +19871,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 550,
@@ -18863,7 +19909,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 551,
@@ -18899,7 +19947,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 552,
@@ -18935,7 +19985,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 553,
@@ -18971,7 +20023,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 554,
@@ -19007,7 +20061,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 555,
@@ -19043,7 +20099,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 556,
@@ -19079,7 +20137,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/overthrown-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Foverthrown-pc-steam-global-standard&cjsku=180625",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/overthrown/",
+    gmgDiscount: 5
   },
   {
     id: 557,
@@ -19115,7 +20175,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/f1-24-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ff1-24-pc-ea-app-global-standard&cjsku=175707",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/f1-24/",
+    gmgDiscount: 5
   },
   {
     id: 558,
@@ -19151,7 +20213,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/farming-simulator-19-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffarming-simulator-19-1&cjsku=26577",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/farming-simulator-19/",
+    gmgDiscount: 5
   },
   {
     id: 559,
@@ -19187,7 +20251,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 560,
@@ -19223,7 +20289,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 561,
@@ -19259,7 +20327,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 562,
@@ -19295,7 +20365,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 563,
@@ -19331,7 +20403,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 564,
@@ -19367,7 +20441,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 565,
@@ -19403,7 +20479,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 566,
@@ -19439,7 +20517,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 567,
@@ -19475,7 +20555,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 568,
@@ -19511,7 +20593,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 569,
@@ -19547,7 +20631,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 570,
@@ -19583,7 +20669,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 571,
@@ -19619,7 +20707,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 572,
@@ -19655,7 +20745,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 573,
@@ -19691,7 +20783,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 574,
@@ -19727,7 +20821,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 575,
@@ -19763,7 +20859,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 576,
@@ -19799,7 +20897,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 577,
@@ -19835,7 +20935,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 578,
@@ -19871,7 +20973,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 579,
@@ -19907,7 +21011,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 580,
@@ -19943,7 +21049,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 581,
@@ -19979,7 +21087,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/darkwater-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/darkwater/",
+    gmgDiscount: 5
   },
   {
     id: 582,
@@ -20015,7 +21125,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/the-bus-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-bus&cjsku=82335",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/the-bus/",
+    gmgDiscount: 5
   },
   {
     id: 583,
@@ -20051,7 +21163,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 585,
@@ -20087,7 +21201,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/avatar-frontiers-of-pandora-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Favatar-frontiers-of-pandora-xbox-xboxseries-global-en-standard&cjsku=164727",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/avatar-frontiers-of-pandora/",
+    gmgDiscount: 5
   },
   {
     id: 586,
@@ -20123,7 +21239,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/goat-simulator-3-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgoat-simulator-3-pc-steam-gift-global-en-de-fr-it-pl-ja-ko-pt-ru-zh-es-zh-standard&cjsku=168652",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/goat-simulator-3/",
+    gmgDiscount: 5
   },
   {
     id: 587,
@@ -20159,7 +21277,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/cosmoteer-starship-architect-commander-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcosmoteer-starship-architect-commander-pc-steam-gift-eu-en-de-fr-pt-ru-zh-mx-standard&cjsku=144813",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/cosmoteer-starship-architect-commander/",
+    gmgDiscount: 5
   },
   {
     id: 588,
@@ -20195,7 +21315,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/risk-of-rain-returns-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Frisk-of-rain-returns-pc-steam-row-en-de-fr-it-ja-ko-pt-ru-zh-es-tr-standard&cjsku=170097",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/risk-of-rain-returns/",
+    gmgDiscount: 5
   },
   {
     id: 589,
@@ -20231,7 +21353,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/clone-drone-in-the-danger-zone-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fclone-drone-in-the-danger-zone-steam&cjsku=56776",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/clone-drone-in-the-danger-zone/",
+    gmgDiscount: 5
   },
   {
     id: 590,
@@ -20267,7 +21391,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/madness-project-nexus-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmadness-project-nexus-steam-gift-eu&cjsku=124137",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/madness-project-nexus/",
+    gmgDiscount: 5
   },
   {
     id: 591,
@@ -20303,7 +21429,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/solasta-crown-of-the-magister-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsolasta-crown-of-the-magister-palace-of-ice-xbox-xboxoneserieswindows-eu-en-standard&cjsku=161521",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/solasta-crown-of-the-magister/",
+    gmgDiscount: 5
   },
   {
     id: 592,
@@ -20339,7 +21467,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/jagged-alliance-3-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fjagged-alliance-3-xbox-xboxoneseries-eu-en-standard&cjsku=163634",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/jagged-alliance-3/",
+    gmgDiscount: 5
   },
   {
     id: 593,
@@ -20375,7 +21505,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/rabbit-and-steel-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/rabbit-and-steel/",
+    gmgDiscount: 5
   },
   {
     id: 594,
@@ -20411,7 +21543,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/we-were-here-expeditions-the-friendship-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwe-were-here-expeditions-the-friendship-pc-steam-global-standard&cjsku=175857",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/we-were-here-expeditions-the-friendship/",
+    gmgDiscount: 5
   },
   {
     id: 595,
@@ -20447,7 +21581,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/astral-ascent-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fastral-ascent-celestial-haven-pc-steam-global-standard&cjsku=195979",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/astral-ascent/",
+    gmgDiscount: 5
   },
   {
     id: 596,
@@ -20483,7 +21619,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/the-past-within-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-past-within-pc-steam-global-en-de-fr-it-pl-cs-nl-ja-ko-pt-ru-zh-es-sv-tr-zh-da-vi-standard&cjsku=143365",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/the-past-within/",
+    gmgDiscount: 5
   },
   {
     id: 597,
@@ -20519,7 +21657,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/labyrinthine-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Flabyrinthine-dreams&cjsku=40531",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/labyrinthine/",
+    gmgDiscount: 5
   },
   {
     id: 598,
@@ -20555,7 +21695,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/luma-island-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fluma-island-pc-steam-gift-global-standard&cjsku=180361",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/luma-island/",
+    gmgDiscount: 5
   },
   {
     id: 599,
@@ -20591,7 +21733,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/tetris-effect-connected-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftetris-effect-connected-steam-gift-eu&cjsku=122805",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/tetris-effect-connected/",
+    gmgDiscount: 5
   },
   {
     id: 600,
@@ -20627,7 +21771,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/roots-of-pacha-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Froots-of-pacha-xbox-xboxoneseries-eu-standard&cjsku=175500",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/roots-of-pacha/",
+    gmgDiscount: 5
   },
   {
     id: 601,
@@ -20663,7 +21809,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/echo-point-nova-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fecho-point-nova-pc-steam-gift-global-standard&cjsku=184797",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/echo-point-nova/",
+    gmgDiscount: 5
   },
   {
     id: 602,
@@ -20699,7 +21847,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/bokura-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/bokura/",
+    gmgDiscount: 5
   },
   {
     id: 603,
@@ -20735,7 +21885,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 604,
@@ -20771,7 +21923,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 605,
@@ -20807,7 +21961,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 606,
@@ -20843,7 +21999,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 607,
@@ -20879,7 +22037,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 608,
@@ -20915,7 +22075,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 609,
@@ -20951,7 +22113,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/eversiege-untold-ages-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/eversiege-untold-ages/",
+    gmgDiscount: 5
   },
   {
     id: 610,
@@ -20987,7 +22151,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 611,
@@ -21023,7 +22189,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/chained-wheels-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fchained-wheels-pc-steam-global-standard&cjsku=200964",
-    gmvDiscount: 10
+    gmvDiscount: 10,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/chained-wheels/",
+    gmgDiscount: 5
   },
   {
     id: 612,
@@ -21059,7 +22227,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 613,
@@ -21095,7 +22265,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 614,
@@ -21131,7 +22303,9 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
   {
     id: 615,
@@ -21167,7 +22341,9 @@ const games = [
     k4gUrl: "https://k4g.com/product/virtual-cottage-2-pc-steam-key?r=coophubs",
     k4gDiscount: 10,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "https://greenmangaming.sjv.io/qWzoQy?url=https%3A//www.greenmangaming.com/en/games/virtual-cottage-2/",
+    gmgDiscount: 5
   },
   {
     id: 616,
@@ -21203,6 +22379,8 @@ const games = [
     k4gUrl: "",
     k4gDiscount: 0,
     gmvUrl: "",
-    gmvDiscount: 0
+    gmvDiscount: 0,
+    gmgUrl: "",
+    gmgDiscount: 0
   },
 ];

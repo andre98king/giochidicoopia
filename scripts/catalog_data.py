@@ -58,6 +58,8 @@ LEGACY_RUNTIME_FIELDS = (
     "k4gDiscount",
     "gmvUrl",
     "gmvDiscount",
+    "gmgUrl",
+    "gmgDiscount",
 )
 
 
@@ -269,6 +271,8 @@ def load_games() -> list[dict[str, Any]]:
             "k4gDiscount": ef(block, "k4gDiscount") or 0,
             "gmvUrl": ef(block, "gmvUrl") or "",
             "gmvDiscount": ef(block, "gmvDiscount") or 0,
+            "gmgUrl": ef(block, "gmgUrl") or "",
+            "gmgDiscount": ef(block, "gmgDiscount") or 0,
         }
         if game["id"] is not None:
             games.append(normalize_game(game, featured_indie_id))
@@ -444,7 +448,9 @@ def write_legacy_games_js(
             f'    k4gUrl: "{js_esc(game.get("k4gUrl", ""))}",\n'
             f"    k4gDiscount: {game.get('k4gDiscount') or 0},\n"
             f'    gmvUrl: "{js_esc(game.get("gmvUrl", ""))}",\n'
-            f"    gmvDiscount: {game.get('gmvDiscount') or 0}\n"
+            f"    gmvDiscount: {game.get('gmvDiscount') or 0},\n"
+            f'    gmgUrl: "{js_esc(game.get("gmgUrl", ""))}",\n'
+            f"    gmgDiscount: {game.get('gmgDiscount') or 0}\n"
             "  },\n"
         )
 
