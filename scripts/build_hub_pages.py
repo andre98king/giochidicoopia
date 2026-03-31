@@ -350,6 +350,186 @@ HUB_DEFS = [
             "schema_name": "Best Indie Co-op Games for PC 2026",
         },
     },
+    # ── HORROR ──────────────────────────────────────────────────────────────────
+    {
+        "slug": "giochi-coop-horror-pc",
+        "title_tag": "Migliori Giochi Co-op Horror per PC 2026 | CoopHubs",
+        "meta_desc": "I migliori giochi co-op horror per PC: sopravvivi con gli amici in Left 4 Dead 2, Phasmophobia, Lethal Company, R.E.P.O. e altri. Classifica aggiornata 2026.",
+        "og_title": "Migliori Giochi Co-op Horror per PC 2026",
+        "h1": "Migliori Giochi Co-op Horror per PC",
+        "kicker": "Paura in Cooperativa",
+        "subtitle": "Sopravvivi insieme: i migliori giochi horror cooperativi per PC, da Left 4 Dead 2 a Phasmophobia.",
+        "intro": (
+            "Il co-op horror ha una magia particolare: la paura condivisa amplifica tutto. "
+            "Ogni rumore sospetto diventa un momento da commentare in voce, "
+            "ogni morte improvvisa uno shock collettivo, ogni sopravvivenza una vittoria da festeggiare insieme."
+            "\n\n"
+            "In questa lista trovi i migliori giochi horror cooperativi per PC nel 2026, "
+            "selezionati per qualità dell'esperienza co-op e rating Steam reale. "
+            "Si va dai classici imprescindibili come Left 4 Dead 2 — ancora insuperato dopo anni — "
+            "ai fenomeni recenti come Phasmophobia, Lethal Company e R.E.P.O., "
+            "che hanno ridefinito il genere con meccaniche di investigazione e sopravvivenza asimmetrica."
+            "\n\n"
+            "Che tu voglia affrontare orde di zombie, cacciare fantasmi o sopravvivere a creature aliena, "
+            "il co-op horror per PC offre esperienze che da soli semplicemente non sono possibili."
+        ),
+        "schema_name": "Migliori Giochi Co-op Horror per PC 2026",
+        "filter_fn": lambda games: _select_top(
+            [g for g in games
+             if ("horror" in g.get("categories", []) or "horror" in g.get("genres", []))
+             and g.get("rating", 0) > 0],
+            key_fn=_rating_ccu_key,
+            top=40,
+        ),
+        "en": {
+            "slug": "horror-coop-games-pc",
+            "title_tag": "Best Co-op Horror Games for PC 2026 | CoopHubs",
+            "meta_desc": "Best co-op horror games for PC in 2026: survive with friends in Left 4 Dead 2, Phasmophobia, Lethal Company, R.E.P.O. and more.",
+            "og_title": "Best Co-op Horror Games for PC 2026",
+            "h1": "Best Co-op Horror Games for PC",
+            "kicker": "Fear Together",
+            "subtitle": "Survive together: the best co-op horror games for PC, from Left 4 Dead 2 to Phasmophobia.",
+            "intro": (
+                "Co-op horror has a special magic: shared fear amplifies everything. "
+                "Every suspicious noise becomes a moment to discuss, "
+                "every sudden death a collective shock, every survival a victory to celebrate."
+                "\n\n"
+                "This list features the best co-op horror games for PC in 2026, "
+                "selected for co-op experience quality and real Steam ratings. "
+                "From timeless classics like Left 4 Dead 2 — still unmatched after all these years — "
+                "to recent phenomena like Phasmophobia, Lethal Company and R.E.P.O., "
+                "which redefined the genre with investigation and asymmetric survival mechanics."
+                "\n\n"
+                "Whether you want to face zombie hordes, hunt ghosts or survive alien creatures, "
+                "PC co-op horror offers experiences simply not possible to have alone."
+            ),
+            "schema_name": "Best Co-op Horror Games for PC 2026",
+        },
+    },
+    # ── SURVIVAL ────────────────────────────────────────────────────────────────
+    {
+        "slug": "giochi-coop-survival-pc",
+        "title_tag": "Migliori Giochi Co-op Survival per PC 2026 | CoopHubs",
+        "meta_desc": "I migliori giochi co-op survival per PC: costruisci, sopravvivi e esplora con gli amici in Valheim, Terraria, Grounded, The Forest e altri. Classifica 2026.",
+        "og_title": "Migliori Giochi Co-op Survival per PC 2026",
+        "h1": "Migliori Giochi Co-op Survival per PC",
+        "kicker": "Sopravvivi Insieme",
+        "subtitle": "Costruisci basi, esplora e sopravvivi: i migliori giochi survival cooperativi per PC nel 2026.",
+        "intro": (
+            "Il survival co-op è uno dei generi più soddisfacenti in assoluto: "
+            "costruire una base insieme, dividersi i ruoli — chi va a cacciare, chi costruisce, chi esplora — "
+            "e poi vedere crescere la vostra colonia partita da zero è un'esperienza difficile da replicare altrove."
+            "\n\n"
+            "Questa lista raccoglie i migliori giochi survival cooperativi per PC nel 2026, "
+            "selezionati per profondità di gameplay, longitudine e qualità dell'esperienza di gruppo. "
+            "Trovi i grandi classici come Valheim, Terraria e Don't Starve Together — "
+            "titoli con centinaia di ore di contenuto — "
+            "ma anche le nuove uscite come Schedule I e Sons Of The Forest "
+            "che stanno conquistando migliaia di giocatori ogni mese."
+            "\n\n"
+            "Dal survival open world al crafting sotterraneo, "
+            "dal colony sim al survival horror, "
+            "il genere copre sfumature molto diverse: "
+            "ogni scheda indica le modalità di gioco e il numero di giocatori supportati."
+        ),
+        "schema_name": "Migliori Giochi Co-op Survival per PC 2026",
+        "filter_fn": lambda games: _select_top(
+            [g for g in games
+             if ("survival" in g.get("categories", []) or "survival" in g.get("genres", []))
+             and g.get("rating", 0) > 0],
+            key_fn=_rating_ccu_key,
+            top=48,
+        ),
+        "en": {
+            "slug": "survival-coop-games-pc",
+            "title_tag": "Best Co-op Survival Games for PC 2026 | CoopHubs",
+            "meta_desc": "Best co-op survival games for PC: build, survive and explore with friends in Valheim, Terraria, Grounded, The Forest and more.",
+            "og_title": "Best Co-op Survival Games for PC 2026",
+            "h1": "Best Co-op Survival Games for PC",
+            "kicker": "Survive Together",
+            "subtitle": "Build bases, explore and survive: the best co-op survival games for PC in 2026.",
+            "intro": (
+                "Co-op survival is one of the most satisfying genres out there: "
+                "building a base together, dividing roles — who hunts, who builds, who explores — "
+                "and watching your settlement grow from nothing is an experience hard to replicate elsewhere."
+                "\n\n"
+                "This list collects the best co-op survival games for PC in 2026, "
+                "selected for gameplay depth, longevity and group experience quality. "
+                "You'll find timeless classics like Valheim, Terraria and Don't Starve Together — "
+                "titles with hundreds of hours of content — "
+                "alongside newer releases like Schedule I and Sons Of The Forest "
+                "that are capturing thousands of players every month."
+                "\n\n"
+                "From open world survival to underground crafting, "
+                "from colony sims to survival horror, "
+                "the genre covers very different flavors: "
+                "each card shows the available game modes and number of supported players."
+            ),
+            "schema_name": "Best Co-op Survival Games for PC 2026",
+        },
+    },
+    # ── OFFLINE ─────────────────────────────────────────────────────────────────
+    {
+        "slug": "giochi-coop-offline-pc",
+        "title_tag": "Giochi Co-op Offline per PC — Senza Internet | CoopHubs",
+        "meta_desc": "Giochi co-op offline per PC che non richiedono internet: split screen, divano e locale. Gioca con gli amici senza connessione. Lista aggiornata 2026.",
+        "og_title": "Giochi Co-op Offline per PC — Senza Internet",
+        "h1": "Giochi Co-op Offline per PC",
+        "kicker": "Senza Internet",
+        "subtitle": "Gioca in cooperativa senza connessione internet: i migliori titoli co-op offline e locali per PC.",
+        "intro": (
+            "Non tutti i giochi co-op richiedono internet. "
+            "Una vasta categoria di titoli supporta il gioco in locale — "
+            "due o più giocatori sullo stesso PC o in rete locale — "
+            "senza bisogno di connessione, account online o abbonamenti."
+            "\n\n"
+            "Questa lista raccoglie i migliori giochi co-op offline per PC nel 2026: "
+            "titoli con supporto split screen, shared screen o LAN, "
+            "selezionati per qualità del gameplay locale e rating Steam. "
+            "Sono perfetti per serate dal vivo, LAN party, o semplicemente per giocare "
+            "quando la connessione non è disponibile o non è stabile."
+            "\n\n"
+            "Dai platform cooperativi ai giochi d'azione, dai puzzle ai giochi di ruolo, "
+            "il co-op offline copre tutti i generi. "
+            "Ogni scheda indica il numero massimo di giocatori supportati in locale "
+            "e se il gioco supporta split screen o controller separati."
+        ),
+        "schema_name": "Giochi Co-op Offline per PC — Senza Internet 2026",
+        "filter_fn": lambda games: _select_top(
+            [g for g in games
+             if "local" in g.get("coopMode", [])
+             and g.get("rating", 0) > 0],
+            key_fn=_rating_ccu_key,
+            top=48,
+        ),
+        "en": {
+            "slug": "offline-coop-games-pc",
+            "title_tag": "Offline Co-op Games for PC — No Internet Required | CoopHubs",
+            "meta_desc": "Best offline co-op games for PC that don't require internet: split screen, couch and local play. Play with friends without a connection.",
+            "og_title": "Offline Co-op Games for PC — No Internet Required",
+            "h1": "Offline Co-op Games for PC",
+            "kicker": "No Internet Needed",
+            "subtitle": "Play co-op without an internet connection: the best offline and local co-op titles for PC.",
+            "intro": (
+                "Not all co-op games require internet. "
+                "A large category of titles supports local play — "
+                "two or more players on the same PC or via local network — "
+                "without needing a connection, online account or subscription."
+                "\n\n"
+                "This list collects the best offline co-op games for PC in 2026: "
+                "titles with split screen, shared screen or LAN support, "
+                "selected for local gameplay quality and Steam ratings. "
+                "They're perfect for live evenings, LAN parties, or simply playing "
+                "when internet isn't available or stable."
+                "\n\n"
+                "From co-op platformers to action games, from puzzles to RPGs, "
+                "offline co-op covers every genre. "
+                "Each card shows the maximum number of locally supported players "
+                "and whether the game supports split screen or separate controllers."
+            ),
+            "schema_name": "Offline Co-op Games for PC — No Internet Required 2026",
+        },
+    },
 ]
 
 

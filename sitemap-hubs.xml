@@ -46,4 +46,58 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://coophubs.net/giochi-coop-horror-pc.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coophubs.net/giochi-coop-horror-pc.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coophubs.net/giochi-coop-horror-pc.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coophubs.net/en/horror-coop-games-pc.html"/>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://coophubs.net/en/horror-coop-games-pc.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coophubs.net/giochi-coop-horror-pc.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coophubs.net/en/horror-coop-games-pc.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coophubs.net/giochi-coop-horror-pc.html"/>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://coophubs.net/giochi-coop-survival-pc.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coophubs.net/giochi-coop-survival-pc.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coophubs.net/giochi-coop-survival-pc.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coophubs.net/en/survival-coop-games-pc.html"/>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://coophubs.net/en/survival-coop-games-pc.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coophubs.net/giochi-coop-survival-pc.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coophubs.net/en/survival-coop-games-pc.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coophubs.net/giochi-coop-survival-pc.html"/>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://coophubs.net/giochi-coop-offline-pc.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coophubs.net/giochi-coop-offline-pc.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coophubs.net/giochi-coop-offline-pc.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coophubs.net/en/offline-coop-games-pc.html"/>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://coophubs.net/en/offline-coop-games-pc.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coophubs.net/giochi-coop-offline-pc.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coophubs.net/en/offline-coop-games-pc.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coophubs.net/giochi-coop-offline-pc.html"/>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
