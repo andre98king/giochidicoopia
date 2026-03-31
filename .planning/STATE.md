@@ -7,12 +7,12 @@
 
 ## Posizione Corrente
 
-**Fase**: 1 (Stabilizzazione) - in corso
+**Fase**: 1 (Stabilizzazione) - completata
 **Stato**: 
-- Cache ottimizzata (_headers aggiornato)
-- Gameseal analizzato (API non ritorna salePrice)
-- GSC analizzato (7 click, 383 impression, pos 20.6 media)
-**Prossimo Step**: Testare cache hit rate dopo 48h, poi passare a Fase 2
+- ✅ Cache ottimizzata (_headers aggiornato, asset 1 anno)
+- ✅ Gameseal fix (sconto default 15% invece di 0%)
+- ✅ GSC analizzato (7 click, 383 impression, pos 20.6 media)
+**Prossimo Step**: Testare cache hit rate, poi passare a Fase 2 (Monetizzazione)
 
 ---
 
@@ -32,12 +32,20 @@ Nessun blocker attivo.
 
 ---
 
+## Quick Tasks Completati
+
+| Task | Data | Risultato |
+|------|------|-----------|
+| Fix Gameseal discounts | 2026-03-31 | ✅ Sconto default 15% invece di 0% |
+
+---
+
 ## Cose da Fare Prossimamente
 
 1. ~~Verificare configurazione `_headers` esistente~~ ✅
 2. ~~Ottimizzare cache con `_headers` aggiornato~~ ✅
-3. Testare cache hit rate dopo 48h (controllare Cloudflare dashboard)
-4. GSC: Token rinnovato, ora funziona
+3. ~~Fix Gameseal discounts~~ ✅ (15% default invece di 0%)
+4. Testare cache hit rate dopo 48h (controllare Cloudflare dashboard)
 5. SEO: Aggiungere keyword "coop online games" al title/index
 
 ## GSC Analytics (2026-03)
@@ -70,3 +78,13 @@ Nessun blocker attivo.
 ## Archivio Sessioni
 
 - 2026-03-31: Setup GSD, mappatura codebase, creazione roadmap
+- 2026-03-31: Fase 1 completata - cache, Gameseal fix (15% default), GSC analisi
+- 2026-03-31: GSD quick task - Fix Gameseal discounts
+
+---
+
+## Workflow GSD Usato
+
+1. **map-codebase**: Mappato codebase con 7 agent paralleli
+2. **new-project**: Creati PROJECT.md, REQUIREMENTS.md, ROADMAP.md
+3. **quick task**: Fix Gameseal con piano in `.planning/quick/`
