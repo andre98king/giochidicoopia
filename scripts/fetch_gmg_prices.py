@@ -12,7 +12,6 @@ from __future__ import annotations
 import re
 import sys
 from pathlib import Path
-from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -26,21 +25,11 @@ GMG_SEARCH_URL = "https://www.greenmangaming.com/search/?q="
 def _build_gmg_url(title: str) -> tuple[str, int]:
     """
     Genera URL GMG con tracking Impact.
-    Format: https://greenmangaming.sjv.io/qWzoQy?url=<product_url>
+    Usa link base - deep linking non funziona (404 sui giochi)
     """
-    # Clean title per search
-    slug = title.lower()
-    slug = re.sub(r"[^a-z0-9\s-]", "", slug)
-    slug = re.sub(r"[\s]+", "-", slug)
+    # GMG link base funziona e traccia
+    url = GMG_AFFILIATE_BASE
 
-    # Build product URL
-    product_url = f"https://www.greenmangaming.com/en/games/{slug}/"
-
-    # Add affiliate tracking
-    # Impact usa il parametro 'url' per deep linking
-    url = f"{GMG_AFFILIATE_BASE}?url={quote(product_url)}"
-
-    # GMG non espone sconti - use default 5%
     return url, 5
 
 
