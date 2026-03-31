@@ -80,3 +80,17 @@ ROADMAP_STATUS.md
  progetto seo.md
  project_roadmap_state.md
  reference_gsc_auth.md
+ ROADMAP_STATUS.md
+
+# Script personali/analytics (usano API locali)
+scripts/fetch_analytics.py
+scripts/generate_hub_pages_en.py
+scripts/discover_backfill.py
+scripts/local/
+
+# Backup cataloghi JSON (rigenerati dalla pipeline)
+data/catalog.games.v1.json
+data/catalog.public.v1.json
+data/backfill_candidates.json
+data/scraper_log.jsonl
+data/_nocoop_flagged.json
