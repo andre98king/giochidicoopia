@@ -1,18 +1,19 @@
 # STATE.md — Co-op Games Hub
 
 ## Ultimo Aggiornamento
-2026-03-31
+2026-03-31 18:30
 
 ---
 
 ## Posizione Corrente
 
-**Fase**: 1 (Stabilizzazione) - completata
+**Fase**: 2 (Monetizzazione) - completata
 **Stato**: 
-- ✅ Cache ottimizzata (_headers aggiornato, asset 1 anno)
-- ✅ Gameseal fix (sconto default 15% invece di 0%)
-- ✅ GSC analizzato (7 click, 383 impression, pos 20.6 media)
-**Prossimo Step**: Testare cache hit rate, poi passare a Fase 2 (Monetizzazione)
+- ✅ SEO base: title/meta migliorati per query pos 7-8
+- ✅ Hub pages: contenuto editoriale aggiunto (5 pagine)
+- ✅ Mini-recensioni: 17 giochi trending
+- ✅ Backlink building: checklist directory italiane
+- 🚀 Pushato commit 5a1ddf68
 
 ---
 
@@ -45,8 +46,12 @@ Nessun blocker attivo.
 1. ~~Verificare configurazione `_headers` esistente~~ ✅
 2. ~~Ottimizzare cache con `_headers` aggiornato~~ ✅
 3. ~~Fix Gameseal discounts~~ ✅ (15% default invece di 0%)
-4. Testare cache hit rate dopo 48h (controllare Cloudflare dashboard)
-5. SEO: Aggiungere keyword "coop online games" al title/index
+4. ~~SEO: Aggiungere keyword "coop online games" al title/index~~ ✅
+5. ~~Contenuti editoriali hub pages~~ ✅
+6. ~~Mini-recensioni trending games~~ ✅
+7. [ ] Backlink building: contattare directory italiane
+8. [ ] Verificare indexing dopo sitemap split
+9. [ ] Espansione catalogo (nuovi giochi)
 
 ## GSC Analytics (2026-03)
 
@@ -67,11 +72,12 @@ Nessun blocker attivo.
 
 ## Learnings
 
-- Il sito ha 582 giochi catalogati
-- Cache hit rate attuale: 6.9% (target: 90%+)
+- Il sito ha 589 giochi catalogati (aggiornato da 582)
 - SEO Score: 91/100
-- GEO Score: 82/100 (area di miglioramento)
-- Solo 1/5 hub pages con contenuto editoriale completo
+- GEO Score: 82/100
+- 5/5 hub pages con contenuto editoriale completo
+- 17 mini-recensioni su giochi trending
+- Sistema backlink building avviato
 
 ---
 
@@ -80,6 +86,7 @@ Nessun blocker attivo.
 - 2026-03-31: Setup GSD, mappatura codebase, creazione roadmap
 - 2026-03-31: Fase 1 completata - cache, Gameseal fix (15% default), GSC analisi
 - 2026-03-31: GSD quick task - Fix Gameseal discounts
+- 2026-03-31 18:30: SEO miglioramenti - title/meta, hub editoriali, mini-reviews, backlink checklist
 
 ---
 

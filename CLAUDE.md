@@ -23,13 +23,8 @@ Nessun backend. Nessun framework. Nessun runtime Node in produzione.
 |------|-------|
 | `index.html` | Homepage con catalogo e filtri |
 | `app.js` | Logica filtri, rendering card, routing verso pagine statiche |
-| `games.js` | Database giochi (~334 giochi), oggetti JS |
-| `i18n.js` | Sistema traduzioni IT/EN |
-| `style.css` | CSS unico del sito |
-| `game.html` | Fallback legacy (noindex + canonical verso pagina statica) |
-| `free.html` | Pagina giochi gratuiti |
-| `free_games.js` | Dati giochi gratuiti, aggiornati via workflow giornaliero |
-| `games/<id>.html` | 334 pagine statiche per ogni gioco (SEO) |
+| `games.js` | Database giochi (589 giochi), oggetti JS |
+| `games/<id>.html` | 589 pagine statiche per ogni gioco (SEO) |
 
 ## Pipeline Python
 
@@ -132,6 +127,8 @@ Nessun backend. Nessun framework. Nessun runtime Node in produzione.
   image: "https://shared.cloudflare.steamstatic.com/...",
   description: "...",             // italiano
   description_en: "...",          // inglese
+  mini_review_it: "...",          // mini-recensione italiano (opzionale)
+  mini_review_en: "...",          // mini-recensione inglese (opzionale)
   steamUrl: "https://store.steampowered.com/app/APPID/",
   rating: 74,                     // intero 0-100 (da Steam)
   ccu: 12000,                     // concurrent users (da SteamSpy)
@@ -265,3 +262,22 @@ Agile AI development con 34+ workflow. Skill: `bmad-help`, `bmad-party-mode`, `b
 - `.planning/ROADMAP.md` — Roadmap completa
 - `.planning/STATE.md` — Stato attuale
 - `.planning/codebase/` — Analisi codebase (7 documenti)
+- `.planning/backlink_checklist.md` — Directory italiane per backlink
+
+---
+
+## Ultimo commit (2026-03-31 18:30)
+
+**Commit**: `5a1ddf68` — "feat: add mini-reviews to trending games, improve SEO meta, add hub editorial content"
+
+**Modifiche**:
+1. SEO title/meta aggiornati (589 giochi, keywords "coop online games")
+2. 5 hub pages con contenuto editoriale
+3. 17 mini-recensioni su giochi trending (ID: 1,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34)
+4. UI per mini-reviews in card/featured/modal
+5. Checklist backlink directory italiane
+
+**Prossimi passi**:
+- Verificare indexing Google (24-48h)
+- Contattare directory italiane per backlink
+- Espansione catalogo
