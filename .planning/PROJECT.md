@@ -2,7 +2,17 @@
 
 ## Visione
 
-Catalogo videogiochi cooperativi per PC con recensioni, filtri e comparazione prezzi — monetizzazione leggera affiliate, focus su crescita organica e UX.
+Il posto dove i gamer vanno quando vogliono dire "giochiamo insieme stasera" — catalogo co-op PC con qualità certificata, per chi vuole staccare da MMORPG e PvP competitivo e riscoprire i veri titoli cooperativi, nuovi e classici.
+
+## Current Milestone: v1.1 — Database Quality & Co-op Purity
+
+**Goal:** Trasformare il catalogo nella fonte più affidabile di giochi veramente co-op — qualità sui dati, zero compromessi sulla definizione di "gioco co-op".
+
+**Target features:**
+- Audit completo tag coopMode su tutti i 589 giochi (correggere/rimuovere giochi non veramente co-op)
+- Nuovo campo `coopScore` 1-3 (1=co-op marginale, 2=co-op solido, 3=pensato per co-op)
+- Fix dati mancanti: maxPlayers, coopMode, crossplay su giochi incompleti
+- Script candidati classici/sottovalutati (tutte le epoche) + revisione manuale per approvazione
 
 ---
 
@@ -72,3 +82,24 @@ Catalogo videogiochi cooperativi per PC con recensioni, filtri e comparazione pr
 
 - `.planning/codebase/` — Analisi codebase
 - `project_roadmap_state.md` — Stato attuale
+
+---
+
+## Evolution
+
+This document evolves at phase transitions and milestone boundaries.
+
+**After each phase transition** (via `/gsd:transition`):
+1. Requirements invalidated? → Move to Out of Scope with reason
+2. Requirements validated? → Move to Validated with phase reference
+3. New requirements emerged? → Add to Active
+4. Decisions to log? → Add to Key Decisions
+5. "What This Is" still accurate? → Update if drifted
+
+**After each milestone** (via `/gsd:complete-milestone`):
+1. Full review of all sections
+2. Core Value check — still the right priority?
+3. Audit Out of Scope — reasons still valid?
+4. Update Context with current state
+
+*Last updated: 2026-04-01 — Milestone v1.1 started*

@@ -1,11 +1,21 @@
 # STATE.md — Co-op Games Hub
 
 ## Ultimo Aggiornamento
-2026-03-31 (fine sessione lunga)
+2026-04-01 — Milestone v1.1 avviata
 
 ---
 
 ## Posizione Corrente
+
+**Milestone**: v1.1 — Database Quality & Co-op Purity
+**Fase**: Non ancora iniziata (definizione requirements)
+**Plan**: —
+**Status**: Defining requirements
+**Last activity**: 2026-04-01 — Milestone v1.1 started
+
+---
+
+## Milestone v1.0 — Completata ✅
 
 **Fase**: 6c (Backlink/distribuzione) + attesa indexing Google
 **Stato**:
