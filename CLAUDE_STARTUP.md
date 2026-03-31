@@ -51,6 +51,28 @@ Agile AI development con 34+ workflow.
 
 ---
 
+## Contesto SEO importante (2026-03-31)
+
+- **Sitemap split** — 4 file (index + main + hubs + games-1 + games-2) per superare limite 50K
+- **GSC** — 7 click, 383 impression, pos 20.6 media (da analytics script)
+- **Cache** — Hit rate 15.3% (ottimizzato con _headers)
+- **robots.txt** — Blocca GPTBot, ClaudeBot, PerplexityBot (indexing solo Googlebot/Bingbot)
+- **Stitch design** — files in `stitch_design/` per futuro redesign (dark neon cyberpunk)
+
+---
+
+## Programmi Affiliate Attivi
+
+| Store | Commissione | Note |
+|-------|-------------|------|
+| Instant Gaming | 3% | `?igr=gamer-ddc4a8` |
+| GameBillet | 5% | `?affiliate=fb308ca0-...` |
+| GMG | 5%/2% | Impact.com |
+| GAMIVO | vari | 346 link |
+| K4G | vari | 402 link |
+
+---
+
 ## Workflow GitHub Actions
 
 - `update.yml` — Aggiorna giochi (lunedì 6:00)
@@ -83,3 +105,16 @@ Agile AI development con 34+ workflow.
 - **NON creare backend** — solo statico
 - **NON creare package.json**
 - Leggi sempre `.planning/STATE.md` prima di lavorare
+- `assets/games.js` è troppo grande (94K token) — NON passarlo ad Aider
+
+---
+
+## Quick reference
+
+| Info | Dettaglio |
+|------|-----------|
+| Titolare | Metalink Application S.r.l.s (P.IVA: 04739980615) |
+| Dominio | coophubs.net (Cloudflare proxy) |
+| GCP project | coophubs-gsc |
+| MCP GSC | `/home/andrea/.claude/mcp-gsc/` |
+| Env file | `.env` (gitignored) |
