@@ -67,6 +67,16 @@ Agile AI development con 34+ workflow.
 
 ---
 
+## Script utili
+
+### Analytics (GSC + Cloudflare)
+- `scripts/fetch_analytics.py` — Scarica e analizza dati da Google Search Console e Cloudflare
+- Usage: `python3 scripts/fetch_analytics.py --days 30`
+- Output: Statistiche clicks, impressions, posizioni + cache hit rate
+- Richiede: `.env` con `CLOUDFLARE_API_TOKEN` e `CLOUDFLARE_ZONE_ID`, token GSC in `/home/andrea/.claude/mcp-gsc/token.json`
+
+---
+
 ## Regole
 
 - **NON fare commit/push** senza chiedere prima
