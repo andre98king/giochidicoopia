@@ -3,6 +3,26 @@
 ## Ciao! Sono Andrea, il titolare del progetto.
 
 Sito: **coophubs.net** — catalogo di 589 giochi cooperativi per PC.
+Stack: HTML/CSS/JS statico, Python pipeline, GitHub Pages + Cloudflare.
+
+---
+
+## Plugin AI che usiamo
+
+### GSD (Get Shit Done)
+Workflow management con context engineering.
+- `/gsd:new-project` — Inizializza progetto/feature
+- `/gsd:map-codebase` — Analizza codebase
+- `/gsd:quick <task>` — Task veloce
+- `/gsd:progress` — Mostra stato
+
+### Ralph
+Agente autonomo per task ripetitivi.
+- Script: `scripts/ralph/ralph.sh`
+
+### BMAD
+Agile AI development con 34+ workflow.
+- Skill: `bmad-help`, `bmad-party_mode`, `bmad-review-*`
 
 ---
 
@@ -29,8 +49,27 @@ Sito: **coophubs.net** — catalogo di 589 giochi cooperativi per PC.
 
 **Verificare indexing** — Aspetta 24-48h, poi controlla GSC per vedere se le URL vengono indexate dopo lo split sitemap.
 
-Se hai domande, leggi prima:
-- `.planning/STATE.md` — Stato attuale
-- `.planning/ROADMAP.md` — Todo
+---
 
-**Non fare commit/push senza chiedere prima.**
+## Workflow GitHub Actions
+
+- `update.yml` — Aggiorna giochi (lunedì 6:00)
+- `fetch-prices.yml` — Prezzi affiliati (giornaliero)
+- `fetch-free.yml` — Giochi gratuiti (giornaliero)
+
+---
+
+## Leggi prima di intervenire
+
+1. `.planning/STATE.md` — Stato attuale del progetto
+2. `.planning/ROADMAP.md` — Cosa dobbiamo fare
+3. `.planning/backlink_checklist.md` — Directory italiane
+
+---
+
+## Regole
+
+- **NON fare commit/push** senza chiedere prima
+- **NON creare backend** — solo statico
+- **NON creare package.json**
+- Leggi sempre `.planning/STATE.md` prima di lavorare
