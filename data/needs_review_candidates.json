@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "generated": "2026-04-01T17:54:28",
+    "input": "data/multi_cross_reference.json",
+    "total": 41
+  },
+  "count": 3,
+  "games": [
+    {
+      "title": "eFootball™",
+      "steam_url": "https://store.steampowered.com/app/1665460",
+      "source": "steam",
+      "app_id": "1665460",
+      "verdict": {
+        "status": "needs_review",
+        "reason": "Steam co-op: Shared/Split Screen, Co-op, Online Co-op, Shared/Split Screen Co-op | ⚠ also has PvP: PvP, Online PvP, Local PvP",
+        "confidence": "medium",
+        "coop_modes": [
+          "online",
+          "local"
+        ],
+        "coop_score_hint": 1,
+        "steam_name": "eFootball™",
+        "pvp_signals": [
+          "PvP",
+          "Online PvP",
+          "Local PvP"
+        ],
+        "coop_signals": [
+          "Shared/Split Screen",
+          "Co-op",
+          "Online Co-op",
+          "Shared/Split Screen Co-op"
+        ],
+        "rawg_confirmed": false
+      }
+    },
+    {
+      "title": "DRAGON BALL GEKISHIN SQUADRA",
+      "steam_url": "https://store.steampowered.com/app/2072560",
+      "source": "steam",
+      "app_id": "2072560",
+      "verdict": {
+        "status": "needs_review",
+        "reason": "Steam co-op: Co-op, Online Co-op | RAWG confirms co-op tags | ⚠ also has PvP: PvP, Online PvP",
+        "confidence": "medium",
+        "coop_modes": [
+          "online"
+        ],
+        "coop_score_hint": 1,
+        "steam_name": "DRAGON BALL GEKISHIN SQUADRA",
+        "pvp_signals": [
+          "PvP",
+          "Online PvP"
+        ],
+        "coop_signals": [
+          "Co-op",
+          "Online Co-op"
+        ],
+        "rawg_confirmed": true
+      }
+    },
+    {
+      "title": "The Legend of California",
+      "steam_url": "https://store.steampowered.com/app/2550530",
+      "source": "steam",
+      "app_id": "2550530",
+      "verdict": {
+        "status": "needs_review",
+        "reason": "Steam co-op: Co-op, Online Co-op | ⚠ also has PvP: PvP, Online PvP",
+        "confidence": "medium",
+        "coop_modes": [
+          "online"
+        ],
+        "coop_score_hint": 1,
+        "steam_name": "The Legend of California",
+        "pvp_signals": [
+          "PvP",
+          "Online PvP"
+        ],
+        "coop_signals": [
+          "Co-op",
+          "Online Co-op"
+        ],
+        "rawg_confirmed": false
+      }
+    }
+  ]
+}

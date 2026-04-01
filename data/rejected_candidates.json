@@ -1,0 +1,309 @@
+{
+  "meta": {
+    "generated": "2026-04-01T17:54:28",
+    "input": "data/multi_cross_reference.json",
+    "total": 41
+  },
+  "count": 28,
+  "games": [
+    {
+      "title": "Cosmic Coop",
+      "steam_url": "https://store.steampowered.com/app/2497070",
+      "source": "steam",
+      "app_id": "2497070",
+      "verdict": {
+        "status": "rejected",
+        "reason": "No co-op categories found on Steam",
+        "confidence": "high",
+        "coop_modes": [],
+        "coop_score_hint": null,
+        "steam_name": "Cosmic Coop",
+        "pvp_signals": [],
+        "coop_signals": [],
+        "rawg_confirmed": false
+      }
+    },
+    {
+      "title": "CoopScoop",
+      "steam_url": "https://store.steampowered.com/app/2672620",
+      "source": "steam",
+      "app_id": "2672620",
+      "verdict": {
+        "status": "rejected",
+        "reason": "No co-op categories found on Steam",
+        "confidence": "high",
+        "coop_modes": [],
+        "coop_score_hint": null,
+        "steam_name": "CoopScoop",
+        "pvp_signals": [],
+        "coop_signals": [],
+        "rawg_confirmed": false
+      }
+    },
+    {
+      "title": "Counter-Strike 2",
+      "steam_url": "https://store.steampowered.com/app/730",
+      "source": "steam",
+      "app_id": "730",
+      "verdict": {
+        "status": "rejected",
+        "reason": "No co-op categories found on Steam",
+        "confidence": "high",
+        "coop_modes": [],
+        "coop_score_hint": null,
+        "steam_name": "Counter-Strike 2",
+        "pvp_signals": [],
+        "coop_signals": [],
+        "rawg_confirmed": false
+      }
+    },
+    {
+      "title": "Chicken Coop Invaders",
+      "steam_url": "https://store.steampowered.com/app/3682920",
+      "source": "steam",
+      "app_id": "3682920",
+      "verdict": {
+        "status": "rejected",
+        "reason": "No co-op categories found on Steam",
+        "confidence": "high",
+        "coop_modes": [],
+        "coop_score_hint": null,
+        "steam_name": "Chicken Coop Invaders",
+        "pvp_signals": [],
+        "coop_signals": [],
+        "rawg_confirmed": false
+      }
+    },
+    {
+      "title": "PlayCOQ: The Coop Defender",
+      "steam_url": "https://store.steampowered.com/app/3179130",
+      "source": "steam",
+      "app_id": "3179130",
+      "verdict": {
+        "status": "rejected",
+        "reason": "No co-op categories found on Steam",
+        "confidence": "high",
+        "coop_modes": [],
+        "coop_score_hint": null,
+        "steam_name": "PlayCOQ: The Coop Defender",
+        "pvp_signals": [],
+        "coop_signals": [],
+        "rawg_confirmed": false
+      }
+    },
+    {
+      "title": "Wuthering Waves",
+      "steam_url": "https://store.steampowered.com/app/3513350",
+      "source": "steam",
+      "app_id": "3513350",
+      "verdict": {
+        "status": "rejected",
+        "reason": "No co-op categories found on Steam",
+        "confidence": "high",
+        "coop_modes": [],
+        "coop_score_hint": null,
+        "steam_name": "Wuthering Waves",
+        "pvp_signals": [],
+        "coop_signals": [],
+        "rawg_confirmed": false
+      }
+    },
+    {
+      "title": "Chicken Coop Invaders Demo",
+      "steam_url": "https://store.steampowered.com/app/4349440",
+      "source": "steam",
+      "app_id": "4349440",
+      "verdict": {
+        "status": "rejected",
+        "reason": "No co-op categories found on Steam",
+        "confidence": "high",
+        "coop_modes": [],
+        "coop_score_hint": null,
+        "steam_name": "Chicken Coop Invaders Demo",
+        "pvp_signals": [],
+        "coop_signals": [],
+        "rawg_confirmed": false
+      }
+    },
+    {
+      "title": "Chicken TD: Defenders of the Coop",
+      "steam_url": "https://store.steampowered.com/app/3266880",
+      "source": "steam",
+      "app_id": "3266880",
+      "verdict": {
+        "status": "rejected",
+        "reason": "No co-op categories found on Steam",
+        "confidence": "high",
+        "coop_modes": [],
+        "coop_score_hint": null,
+        "steam_name": "Chicken TD: Defenders of the Coop",
+        "pvp_signals": [],
+        "coop_signals": [],
+        "rawg_confirmed": false
+      }
+    },
+    {
+      "title": "The Long Dark",
+      "steam_url": "https://store.steampowered.com/app/305620",
+      "source": "steam",
+      "app_id": "305620",
+      "verdict": {
+        "status": "rejected",
+        "reason": "No co-op categories found on Steam",
+        "confidence": "high",
+        "coop_modes": [],
+        "coop_score_hint": null,
+        "steam_name": "The Long Dark",
+        "pvp_signals": [],
+        "coop_signals": [],
+        "rawg_confirmed": false
+      }
+    },
+    {
+      "title": "PUBG: BATTLEGROUNDS",
+      "steam_url": "https://store.steampowered.com/app/578080",
+      "source": "steam",
+      "app_id": "578080",
+      "verdict": {
+        "status": "rejected",
+        "reason": "PvP-only game: PvP, Online PvP",
+        "confidence": "high",
+        "coop_modes": [],
+        "coop_score_hint": null,
+        "steam_name": "PUBG: BATTLEGROUNDS",
+        "pvp_signals": [
+          "PvP",
+          "Online PvP"
+        ],
+        "coop_signals": [],
+        "rawg_confirmed": false
+      }
+    },
+    {
+      "title": "SM64EX Coop",
+      "steam_url": null,
+      "source": "igdb",
+      "verdict": "rejected",
+      "reason": "No Steam URL"
+    },
+    {
+      "title": "Last Man Standing Coop: A Doom 3 Coop Mod",
+      "steam_url": null,
+      "source": "igdb",
+      "verdict": "rejected",
+      "reason": "No Steam URL"
+    },
+    {
+      "title": "Coop TD",
+      "steam_url": null,
+      "source": "igdb",
+      "verdict": "rejected",
+      "reason": "No Steam URL"
+    },
+    {
+      "title": "SM64EX Coop: Mega Man X",
+      "steam_url": null,
+      "source": "igdb",
+      "verdict": "rejected",
+      "reason": "No Steam URL"
+    },
+    {
+      "title": "Robots Coop",
+      "steam_url": null,
+      "source": "igdb",
+      "verdict": "rejected",
+      "reason": "No Steam URL"
+    },
+    {
+      "title": "SM64 Coop DX: Extra Characters Plus",
+      "steam_url": null,
+      "source": "igdb",
+      "verdict": "rejected",
+      "reason": "No Steam URL"
+    },
+    {
+      "title": "Coop Crawler",
+      "steam_url": null,
+      "source": "igdb",
+      "verdict": "rejected",
+      "reason": "No Steam URL"
+    },
+    {
+      "title": "Cooped Up",
+      "steam_url": null,
+      "source": "igdb",
+      "verdict": "rejected",
+      "reason": "No Steam URL"
+    },
+    {
+      "title": "Coop Tank War",
+      "steam_url": null,
+      "source": "igdb",
+      "verdict": "rejected",
+      "reason": "No Steam URL"
+    },
+    {
+      "title": "Coop Catacombs",
+      "steam_url": null,
+      "source": "igdb",
+      "verdict": "rejected",
+      "reason": "No Steam URL"
+    },
+    {
+      "title": "Mini Gold Coop",
+      "steam_url": null,
+      "source": "igdb",
+      "verdict": "rejected",
+      "reason": "No Steam URL"
+    },
+    {
+      "title": "Mini Golf Coop",
+      "steam_url": null,
+      "source": "igdb",
+      "verdict": "rejected",
+      "reason": "No Steam URL"
+    },
+    {
+      "title": "SM64EX Coop: SM64 Land",
+      "steam_url": null,
+      "source": "igdb",
+      "verdict": "rejected",
+      "reason": "No Steam URL"
+    },
+    {
+      "title": "SM64EX Coop: SM64 Sapphire",
+      "steam_url": null,
+      "source": "igdb",
+      "verdict": "rejected",
+      "reason": "No Steam URL"
+    },
+    {
+      "title": "Last Man Standing Coop",
+      "steam_url": null,
+      "source": "igdb",
+      "verdict": "rejected",
+      "reason": "No Steam URL"
+    },
+    {
+      "title": "Frostborn: Coop Survival",
+      "steam_url": null,
+      "source": "igdb",
+      "verdict": "rejected",
+      "reason": "No Steam URL"
+    },
+    {
+      "title": "SM64EX Coop: Peach's Fury",
+      "steam_url": null,
+      "source": "igdb",
+      "verdict": "rejected",
+      "reason": "No Steam URL"
+    },
+    {
+      "title": "SM64EX Coop: SM64 - Shining Stars",
+      "steam_url": null,
+      "source": "igdb",
+      "verdict": "rejected",
+      "reason": "No Steam URL"
+    }
+  ]
+}
