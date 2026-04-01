@@ -10,7 +10,7 @@
 - [x] **SCH-01**: Il campo `coopScore` (int 1-3, nullable) è aggiunto allo schema in `catalog_data.py` e propagato a `catalog.games.v1.json` e `catalog.public.v1.json`
 - [x] **SCH-02**: I campi curati manualmente (`coopScore`, `mini_review_it`, `mini_review_en`, `igUrl`, `igDiscount`, `gbUrl`, `gbDiscount`) sono protetti dal CI giornaliero e non vengono sovrascritti dagli update automatici
 - [x] **SCH-03**: Il flag `continue-on-error: true` è rimosso da `build_static_pages.py` nel workflow CI, così un errore di build blocca il deploy invece di silenziarlo
-- [ ] **SCH-04**: Il vocabolario `coopMode` è canonicalizzato: i valori accettati sono solo `online`, `local`, `sofa` — qualsiasi altro valore è segnalato come errore dalla pipeline
+- [x] **SCH-04**: Il vocabolario `coopMode` è canonicalizzato: i valori accettati sono solo `online`, `local`, `sofa` — qualsiasi altro valore è segnalato come errore dalla pipeline
 
 ### Tag Audit & coopScore
 
@@ -60,7 +60,7 @@
 | SCH-01 | Phase 1 | Complete |
 | SCH-02 | Phase 1 | Complete |
 | SCH-03 | Phase 1 | Complete |
-| SCH-04 | Phase 1 | pending |
+| SCH-04 | Phase 1 | Complete |
 | AUD-01 | Phase 2 | pending |
 | AUD-02 | Phase 2 | pending |
 | AUD-03 | Phase 2 | pending |

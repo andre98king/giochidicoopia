@@ -2,15 +2,15 @@
 gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: Database Quality & Co-op Purity
-status: executing
-stopped_at: Completed 01-01-PLAN.md (schema foundation + CI hardening)
-last_updated: "2026-04-01T10:50:20.138Z"
+status: verifying
+stopped_at: Completed 01-02-PLAN.md (coopMode vocabulary canonicalization)
+last_updated: "2026-04-01T10:56:24.176Z"
 last_activity: 2026-04-01
 progress:
   total_phases: 4
-  completed_phases: 0
+  completed_phases: 1
   total_plans: 2
-  completed_plans: 1
+  completed_plans: 2
   percent: 0
 ---
 
@@ -27,7 +27,7 @@ See: .planning/PROJECT.md (updated 2026-04-01)
 
 Phase: 01 (schema-foundation-ci-hardening) — EXECUTING
 Plan: 2 of 2
-Status: Ready to execute
+Status: Phase complete — ready for verification
 Last activity: 2026-04-01
 
 Progress: [░░░░░░░░░░] 0%
@@ -50,6 +50,7 @@ Progress: [░░░░░░░░░░] 0%
 
 *Updated after each plan completion*
 | Phase 01-schema-foundation-ci-hardening P01 | 8 | 2 tasks | 5 files |
+| Phase 01-schema-foundation-ci-hardening P02 | 10 | 2 tasks | 11 files |
 
 ## Accumulated Context
 
@@ -61,6 +62,7 @@ Progress: [░░░░░░░░░░] 0%
 - [Pre-v1.1]: Phase 3 (Classic Discovery) e Phase 2 (Audit) sono eseguibili in parallelo dopo Phase 1
 - [Phase 01-schema-foundation-ci-hardening]: coopScore uses None/null (not 0) to distinguish unscored games from scored games — preserves Phase 2 scoring semantics
 - [Phase 01-schema-foundation-ci-hardening]: gmgUrl and gmgDiscount added to public catalog export (were missing) alongside coopScore
+- [Phase 01-schema-foundation-ci-hardening]: coopMode vocabulary canonical: {online, local, sofa} — 'split' permanently retired, CANONICAL_COOP_MODES enforced in validator
 
 ### Pending Todos
 
@@ -74,6 +76,6 @@ Progress: [░░░░░░░░░░] 0%
 
 ## Session Continuity
 
-Last session: 2026-04-01T10:50:20.134Z
-Stopped at: Completed 01-01-PLAN.md (schema foundation + CI hardening)
+Last session: 2026-04-01T10:56:24.172Z
+Stopped at: Completed 01-02-PLAN.md (coopMode vocabulary canonicalization)
 Resume file: None
