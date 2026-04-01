@@ -56,12 +56,14 @@ const categories = genreFilters;
 function getPlayed() { return new Set(JSON.parse(localStorage.getItem(PLAYED_KEY) || '[]')); }
 function isPlayed(id) { return getPlayed().has(id); }
 function togglePlayed(id) {
+  const scrollY = window.scrollY;
   const p = getPlayed();
   p.has(id) ? p.delete(id) : p.add(id);
   localStorage.setItem(PLAYED_KEY, JSON.stringify([...p]));
   renderGames();
   updatePlayedBadge();
   updateStats();
+  window.scrollTo({ top: scrollY, behavior: 'instant' });
 }
 function toggleShowPlayed() {
   showPlayed = !showPlayed;
