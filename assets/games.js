@@ -38,7 +38,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "Survival hardcore in multiplayer. Costruisci, sopravvivi e difenditi contro altri giocatori in un mondo aperto brutalmente competitivo.",
     mini_review_en: "Hardcore multiplayer survival. Build, survive, and defend against other players in a brutally competitive open world."
   },
@@ -79,7 +79,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -120,7 +120,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "FPS tattico con distruzione ambientale. Mappe verticali e strategie precise rendono ogni round un puzzle.",
     mini_review_en: "Tactical FPS with environmental destruction. Vertical maps and precise strategies make each round a puzzle."
   },
@@ -161,7 +161,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -202,7 +202,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "Classico shooter multiplayer con classi uniche. Competitivo e divertente dopo oltre 15 anni.",
     mini_review_en: "Classic multiplayer shooter with unique classes. Competitive and fun after 15+ years."
   },
@@ -284,7 +284,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "Survival horror realista in multiplayer. Fame, sete, malattie: sopravvivere è un'esperienza dura.",
     mini_review_en: "Realistic multiplayer survival horror. Hunger, thirst, diseases: survival is a harsh experience."
   },
@@ -325,7 +325,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -366,7 +366,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "Horror coop physics-based. Raccogli oggetti pesanti con fisica realistica in compagnia.",
     mini_review_en: "Physics-based coop horror. Collect heavy objects with realistic physics together."
   },
@@ -407,7 +407,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -448,7 +448,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 3,
     mini_review_it: "Furti cooperativi in stile heist. Pianifica, esegui e domina con la tua banda.",
     mini_review_en: "Co-op heist-style robberies. Plan, execute, and dominate with your crew."
   },
@@ -489,7 +489,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -530,7 +530,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "FPS MMO looter shooter. Campagna, raid e PvP in un universo sci-fi epico.",
     mini_review_en: "MMO looter shooter FPS. Campaigns, raids and PvP in an epic sci-fi universe."
   },
@@ -571,7 +571,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -612,7 +612,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "Survival zombie hardcore. Gestione risorse realistica e permadeath in un mondo post-apocalittico.",
     mini_review_en: "Hardcore zombie survival. Realistic resource management and permadeath in a post-apocalyptic world."
   },
@@ -653,7 +653,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -694,7 +694,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "Auto calcetto competitivo. Fisica esagerata e match rapidi perfetti per gaming serale.",
     mini_review_en: "Competitive car soccer. Exaggerated physics and quick matches perfect for evening gaming."
   },
@@ -735,7 +735,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -776,7 +776,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "Creature catching survival. Combina allevamento, crafting e combattimento in mondo aperto.",
     mini_review_en: "Creature catching survival. Combine breeding, crafting and combat in open world."
   },
@@ -817,7 +817,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -858,7 +858,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "Strategia RTS grand scale. Campagne epiche e battaglie enormi in tempo reale.",
     mini_review_en: "Grand scale RTS strategy. Epic campaigns and massive real-time battles."
   },
@@ -899,7 +899,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -940,7 +940,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "Roguelike procedurale indie. Centinaia di run uniche con personaggi e boss vari.",
     mini_review_en: "Procedural indie roguelike. Hundreds of unique runs with varied characters and bosses."
   },
@@ -981,7 +981,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -1022,7 +1022,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "MMO action sandbox open-world. Combatti, crafta e governa in un mondo persistente.",
     mini_review_en: "Open-world action MMO sandbox. Fight, craft and rule in a persistent world."
   },
@@ -1063,7 +1063,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -1104,7 +1104,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "RTS classico con campagne storiche. Multiplayer competitivo e cooperativo epico.",
     mini_review_en: "Classic RTS with historical campaigns. Epic competitive and co-op multiplayer."
   },
@@ -1145,7 +1145,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -1186,7 +1186,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "Action RPG monster hunting. Combatti creature giganti in ambienti spettacolari.",
     mini_review_en: "Monster hunting action RPG. Fight giant creatures in spectacular environments."
   },
@@ -1227,7 +1227,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -1268,7 +1268,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "Vampire survival sandbox. Costruisci il tuo regno, gestisci risorse e combatti il sole.",
     mini_review_en: "Vampire survival sandbox. Build your kingdom, manage resources and fight the sun."
   },
@@ -1309,7 +1309,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -1350,7 +1350,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "Puzzle cooperativo fisico. Un giocatore legge il manuale, l'altro disarma la bomba.",
     mini_review_en: "Physical co-op puzzle. One player reads the manual, the other defuses the bomb."
   },
@@ -1432,7 +1432,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -1473,7 +1473,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -1514,7 +1514,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -1555,7 +1555,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -1596,7 +1596,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -1637,7 +1637,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -1678,7 +1678,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -1719,7 +1719,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -1760,7 +1760,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -1801,7 +1801,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -1842,7 +1842,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -1883,7 +1883,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -1924,7 +1924,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -1965,7 +1965,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -2006,7 +2006,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -2088,7 +2088,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -2129,7 +2129,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -2170,7 +2170,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -2211,7 +2211,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -2252,7 +2252,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -2293,7 +2293,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -2334,7 +2334,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -2375,7 +2375,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -2416,7 +2416,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -2457,7 +2457,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -2539,7 +2539,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -2580,7 +2580,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -2621,7 +2621,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -2662,7 +2662,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -2703,7 +2703,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -2744,7 +2744,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -2785,7 +2785,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -2826,7 +2826,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -2867,7 +2867,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -2908,7 +2908,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -2949,7 +2949,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -2990,7 +2990,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -3031,7 +3031,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -3072,7 +3072,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -3195,7 +3195,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -3236,7 +3236,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -3277,7 +3277,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -3318,7 +3318,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -3359,7 +3359,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -3441,7 +3441,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -3482,7 +3482,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -3523,7 +3523,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -3564,7 +3564,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -3605,7 +3605,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -3646,7 +3646,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -3687,7 +3687,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -3728,7 +3728,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -3769,7 +3769,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -3810,7 +3810,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -3851,7 +3851,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -3892,7 +3892,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -3933,7 +3933,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -3974,7 +3974,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -4015,7 +4015,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -4056,7 +4056,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -4097,7 +4097,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -4138,7 +4138,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -4179,7 +4179,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -4220,7 +4220,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -4261,7 +4261,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -4302,7 +4302,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -4343,7 +4343,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -4384,7 +4384,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -4425,7 +4425,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -4466,7 +4466,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -4507,7 +4507,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -4548,7 +4548,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -4589,7 +4589,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -4630,7 +4630,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -4671,7 +4671,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -4712,7 +4712,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -4753,7 +4753,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -4794,7 +4794,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -4835,7 +4835,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -4876,7 +4876,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -4958,7 +4958,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -4999,7 +4999,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -5040,7 +5040,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -5122,7 +5122,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -5163,7 +5163,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -5245,7 +5245,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -5286,7 +5286,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -5327,7 +5327,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -5368,7 +5368,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -5409,7 +5409,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -5450,7 +5450,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -5491,7 +5491,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -5532,7 +5532,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -5573,7 +5573,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -5614,7 +5614,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -5655,7 +5655,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -5696,7 +5696,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -5737,7 +5737,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -5778,7 +5778,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 3,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -5819,7 +5819,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -5860,7 +5860,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -5901,7 +5901,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -5942,7 +5942,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -5983,7 +5983,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -6024,7 +6024,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -6065,7 +6065,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -6106,7 +6106,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -6147,7 +6147,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -6188,7 +6188,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -6229,7 +6229,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -6270,7 +6270,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -6311,7 +6311,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -6352,7 +6352,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -6393,7 +6393,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -6434,7 +6434,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -6475,7 +6475,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -6516,7 +6516,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -6557,7 +6557,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -6598,7 +6598,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -6639,7 +6639,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -6680,7 +6680,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -6721,7 +6721,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -6762,7 +6762,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -6803,7 +6803,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -6844,7 +6844,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -6885,7 +6885,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -6926,7 +6926,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -6967,7 +6967,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -7008,7 +7008,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -7049,7 +7049,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -7090,7 +7090,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -7131,7 +7131,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -7172,7 +7172,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -7213,7 +7213,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -7254,7 +7254,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -7295,7 +7295,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -7336,7 +7336,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -7377,7 +7377,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -7418,7 +7418,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -7459,7 +7459,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -7500,7 +7500,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -7541,7 +7541,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 3,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -7582,7 +7582,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -7623,7 +7623,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -7664,7 +7664,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -7705,7 +7705,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -7746,7 +7746,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -7787,7 +7787,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -7828,7 +7828,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -7869,7 +7869,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -7910,7 +7910,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -7951,7 +7951,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -7992,7 +7992,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -8033,7 +8033,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -8074,7 +8074,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -8115,7 +8115,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -8156,7 +8156,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -8197,7 +8197,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -8238,7 +8238,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -8279,7 +8279,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -8320,7 +8320,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -8361,7 +8361,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -8402,7 +8402,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -8443,7 +8443,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -8484,7 +8484,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -8525,7 +8525,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -8566,7 +8566,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -8607,7 +8607,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -8648,7 +8648,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -8689,7 +8689,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -8730,7 +8730,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -8771,7 +8771,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -8812,7 +8812,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -8853,7 +8853,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -8894,7 +8894,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -8935,7 +8935,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -8976,7 +8976,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -9017,7 +9017,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 3,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -9058,7 +9058,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -9099,7 +9099,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -9140,7 +9140,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 3,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -9181,7 +9181,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -9222,7 +9222,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -9263,7 +9263,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -9304,7 +9304,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -9345,7 +9345,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -9386,7 +9386,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -9427,7 +9427,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -9468,7 +9468,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -9509,7 +9509,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -9550,7 +9550,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -9591,7 +9591,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -9632,7 +9632,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -9673,7 +9673,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -9714,7 +9714,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -9755,7 +9755,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -9796,7 +9796,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -9837,7 +9837,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -9878,7 +9878,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -9919,7 +9919,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -9960,7 +9960,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -10001,7 +10001,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -10042,7 +10042,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -10083,7 +10083,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -10124,7 +10124,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -10165,7 +10165,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -10206,7 +10206,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -10247,7 +10247,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -10288,7 +10288,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -10329,7 +10329,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -10370,7 +10370,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -10411,7 +10411,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -10452,7 +10452,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -10493,7 +10493,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -10534,7 +10534,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -10575,7 +10575,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -10616,7 +10616,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -10657,7 +10657,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -10698,7 +10698,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -10739,7 +10739,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -10780,7 +10780,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -10821,7 +10821,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -10862,7 +10862,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -10903,7 +10903,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -10944,7 +10944,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -10985,7 +10985,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -11026,7 +11026,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -11067,7 +11067,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -11108,7 +11108,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -11149,7 +11149,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -11190,7 +11190,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -11231,7 +11231,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -11272,7 +11272,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -11313,7 +11313,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -11354,7 +11354,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -11395,7 +11395,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -11436,7 +11436,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -11477,7 +11477,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -11518,7 +11518,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -11559,7 +11559,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -11600,7 +11600,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -11641,7 +11641,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -11682,7 +11682,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -11723,7 +11723,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -11764,7 +11764,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -11805,7 +11805,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -11846,7 +11846,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -11887,7 +11887,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -11928,7 +11928,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 3,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -11969,7 +11969,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -12010,7 +12010,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -12051,7 +12051,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -12092,7 +12092,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -12133,7 +12133,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -12174,7 +12174,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -12215,7 +12215,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -12256,7 +12256,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -12297,7 +12297,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -12338,7 +12338,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -12379,7 +12379,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -12420,7 +12420,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -12461,7 +12461,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -12502,7 +12502,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -12543,7 +12543,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -12584,7 +12584,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -12625,7 +12625,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -12666,7 +12666,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -12707,7 +12707,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -12748,7 +12748,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -12789,7 +12789,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -12830,7 +12830,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -12871,7 +12871,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -12912,7 +12912,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -12953,7 +12953,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -12994,7 +12994,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -13035,7 +13035,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -13076,7 +13076,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -13117,7 +13117,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -13158,7 +13158,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -13199,7 +13199,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -13240,7 +13240,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -13281,7 +13281,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -13322,7 +13322,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -13363,7 +13363,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -13404,7 +13404,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -13445,7 +13445,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -13486,7 +13486,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -13527,7 +13527,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 3,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -13568,7 +13568,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -13609,7 +13609,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -13650,7 +13650,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -13691,7 +13691,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -13732,7 +13732,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -13773,7 +13773,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -13814,7 +13814,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -13855,7 +13855,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -13896,7 +13896,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -13937,7 +13937,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -13978,7 +13978,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -14019,7 +14019,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -14060,7 +14060,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -14101,7 +14101,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -14142,7 +14142,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -14183,7 +14183,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -14224,7 +14224,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -14265,7 +14265,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -14306,7 +14306,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -14347,7 +14347,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -14388,7 +14388,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -14429,7 +14429,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -14470,7 +14470,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -15331,7 +15331,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -15372,7 +15372,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -15413,7 +15413,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -15454,7 +15454,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -15495,7 +15495,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -15536,7 +15536,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -20169,7 +20169,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -20210,7 +20210,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -20251,7 +20251,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -20292,7 +20292,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -20333,7 +20333,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -20374,7 +20374,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -20415,7 +20415,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -20456,7 +20456,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -20497,7 +20497,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -20538,7 +20538,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -20579,7 +20579,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -20620,7 +20620,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -20661,7 +20661,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -20702,7 +20702,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -20743,7 +20743,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -20784,7 +20784,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -20825,7 +20825,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -21727,7 +21727,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -21768,7 +21768,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -21809,7 +21809,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -22752,7 +22752,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -22793,7 +22793,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -22875,7 +22875,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -22916,7 +22916,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -22957,7 +22957,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -22998,7 +22998,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -23039,7 +23039,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -23080,7 +23080,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -23121,7 +23121,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -23162,7 +23162,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -23203,7 +23203,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -23244,7 +23244,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -23285,7 +23285,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -23326,7 +23326,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -23367,7 +23367,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -23408,7 +23408,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -23449,7 +23449,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -23490,7 +23490,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -23531,7 +23531,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -23572,7 +23572,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -23859,7 +23859,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -23941,7 +23941,7 @@ const games = [
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -24105,7 +24105,7 @@ const games = [
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
     gmgDiscount: 5,
-    coopScore: null,
+    coopScore: 2,
     mini_review_it: "",
     mini_review_en: ""
   },
