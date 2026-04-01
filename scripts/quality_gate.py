@@ -160,6 +160,34 @@ def fetch_igdb_coop(steam_app_id: str, client_id: str, client_secret: str) -> bo
 
 # ─────────────── GOG catalog helper ───────────────
 
+def fetch_igdb_coop_by_title(game_name: str, client_id: str, client_secret: str) -> bool | None:
+    """
+    Check co-op via IGDB using a title search (for games without Steam app ID).
+    Returns True  → IGDB confirms co-op (game_modes contains 3)
+    Returns False → IGDB found the game but no co-op game_mode
+    Returns None  → not found or lookup failed
+    """
+    token = _get_igdb_token(client_id, client_secret)
+    if not token:
+        return None
+
+    # Search by title, take top 2 results
+    safe_name = game_name.replace('"', '')
+    results = _igdb_post(
+        "games",
+        f'fields game_modes, name; search "{safe_name}"; limit 2;',
+        token, client_id,
+    )
+    if not results:
+        return None
+
+    for g in results:
+        if 3 in (g.get("game_modes") or []):
+            return True
+
+    return False  # Found but no co-op mode
+
+
 def fetch_gog_coop(game_name: str) -> bool | None:
     """
     Check co-op via GOG catalog API (title search).
