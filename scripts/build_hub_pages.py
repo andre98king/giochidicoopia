@@ -540,11 +540,11 @@ def esc(s: Any) -> str:
 
 
 def _mode_label(mode: str) -> str:
-    return {"online": "Online", "local": "Locale", "split": "Split Screen"}.get(mode, mode)
+    return {"online": "Online", "local": "Locale", "sofa": "Split Screen"}.get(mode, mode)
 
 
 def _mode_label_en(mode: str) -> str:
-    return {"online": "Online", "local": "Local", "split": "Split Screen"}.get(mode, mode)
+    return {"online": "Online", "local": "Local", "sofa": "Split Screen"}.get(mode, mode)
 
 
 def _render_card(game: dict) -> str:

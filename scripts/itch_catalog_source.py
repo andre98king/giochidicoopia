@@ -33,7 +33,7 @@ COOP_RSS_FEEDS = [
 # Deduplicazione per coopMode in base al tag
 TAG_TO_COOP_MODE = {
     "local-multiplayer": ["local"],
-    "split-screen": ["local", "split"],
+    "split-screen": ["local", "sofa"],
     "co-op": ["online", "local"],
     "cooperative": ["online", "local"],
     "online-co-op": ["online"],
@@ -169,7 +169,7 @@ class ItchCatalogSource:
                 continue
 
             coop_modes = info.get("coopModes", ["online", "local"])
-            is_local = "local" in coop_modes or "split" in coop_modes
+            is_local = "local" in coop_modes or "sofa" in coop_modes
             cats = ["indie"]
             if is_local:
                 cats.append("splitscreen")

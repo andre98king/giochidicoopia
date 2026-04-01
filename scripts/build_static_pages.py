@@ -396,7 +396,7 @@ def render_tags(game: dict) -> str:
 
 
 def render_modes(game: dict) -> str:
-    labels = {"online": "🌐 Online", "local": "🛋️ Local", "split": "🖥️ Split"}
+    labels = {"online": "🌐 Online", "local": "🛋️ Local", "sofa": "🖥️ Split"}
     return "".join(
         '<span class="tag" data-mode="'
         f'{esc(mode)}" style="background:rgba(0,137,123,0.15);color:#80cbc4;'
@@ -474,7 +474,7 @@ def render_static_page(game: dict, all_games: list | None = None) -> str:
     play_modes = ["SinglePlayer"]
     if "online" in coop_modes:
         play_modes += ["CoOp", "MultiPlayer"]
-    if "local" in coop_modes or "split" in coop_modes:
+    if "local" in coop_modes or "sofa" in coop_modes:
         if "CoOp" not in play_modes:
             play_modes.append("CoOp")
 
@@ -807,7 +807,7 @@ def render_static_page_en(game: dict, all_games: list | None = None) -> str:
     play_modes = ["SinglePlayer"]
     if "online" in coop_modes:
         play_modes += ["CoOp", "MultiPlayer"]
-    if "local" in coop_modes or "split" in coop_modes:
+    if "local" in coop_modes or "sofa" in coop_modes:
         if "CoOp" not in play_modes:
             play_modes.append("CoOp")
 

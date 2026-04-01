@@ -207,8 +207,8 @@ def normalize_game(
         "capabilities": {
             "onlineCoop": "online" in coop_modes,
             "localCoop": "local" in coop_modes,
-            "splitScreen": "split" in coop_modes,
-            "sharedScreen": "split" in coop_modes,
+            "splitScreen": "sofa" in coop_modes,
+            "sharedScreen": "sofa" in coop_modes,
             "crossplay": bool(raw_game.get("crossplay")),
             "playersLabel": raw_game.get("players") or "",
             "maxPlayers": raw_game.get("maxPlayers") or 0,

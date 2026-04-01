@@ -43,7 +43,7 @@ const genreFilters  = [...filterSpecial, ...filterGenres]; // alias legacy
 const modeFilters = [
   { id: 'mode_online',    field: 'coopMode',  value: 'online' },
   { id: 'mode_local',     field: 'coopMode',  value: 'local' },
-  { id: 'mode_split',     field: 'coopMode',  value: 'split' },
+  { id: 'mode_split',     field: 'coopMode',  value: 'sofa' },
   { id: 'mode_crossplay', field: 'crossplay', value: true },
   { id: 'players_2',      field: 'maxPlayers', value: 2 },
   { id: 'players_4',      field: 'maxPlayers', value: 4 },

@@ -18,6 +18,7 @@ import catalog_data
 
 INFO_PAGES = ("index.html", "about.html", "contact.html", "free.html", "privacy.html", "game.html")
 CROSSPLAY_UI_ENABLED = False
+CANONICAL_COOP_MODES = {"online", "local", "sofa"}
 ALLOWED_CATEGORIES = {
     "trending",
     "horror",
@@ -284,14 +285,25 @@ def main() -> int:
             missing_image.append(f"{game_id} ({title})")
 
         # coopMode vs categories sync
-        if "splitscreen" in cats and "split" not in modes:
+        if "splitscreen" in cats and "sofa" not in modes:
             coop_sync_issues.append(f"{game_id} ({title}): splitscreen in cats but not in coopMode")
-        if "split" in modes and "splitscreen" not in cats:
-            coop_sync_issues.append(f"{game_id} ({title}): split in coopMode but not in cats")
+        if "sofa" in modes and "splitscreen" not in cats:
+            coop_sync_issues.append(f"{game_id} ({title}): sofa in coopMode but not in cats")
 
         # Thin categorization
         if len(cats) == 1 and cats[0] not in ("free",):
             single_cat.append(f"{game_id} ({title}): only [{cats[0]}]")
+
+    # Canonical coopMode validation
+    invalid_coop_modes = []
+    for game in games:
+        modes = set(game.get("coopMode") or [])
+        bad = modes - CANONICAL_COOP_MODES
+        if bad:
+            invalid_coop_modes.append(f"{game['id']} ({game.get('title', '?')}): {sorted(bad)}")
+
+    if invalid_coop_modes:
+        errors.append(f"Non-canonical coopMode values in {len(invalid_coop_modes)} games: {', '.join(invalid_coop_modes[:5])}")
 
     if corrupted_desc:
         errors.append(f"Corrupted descriptions: {short_list(corrupted_desc)}")

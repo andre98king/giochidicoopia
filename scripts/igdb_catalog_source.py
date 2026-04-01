@@ -326,7 +326,7 @@ def _parse_multiplayer_modes(modes_list: list[dict[str, Any]]) -> dict[str, Any]
     if has_offline or has_split or has_lan:
         coop_modes.append("local")
     if has_split:
-        coop_modes.append("split")
+        coop_modes.append("sofa")
     if not coop_modes:
         coop_modes = ["online"]
 

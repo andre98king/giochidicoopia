@@ -155,7 +155,7 @@ def derive_coop_modes(steam_categories: list[str]) -> list[str]:
     if has_local or has_split:
         modes.append("local")
     if has_split:
-        modes.append("split")
+        modes.append("sofa")
     return modes if modes else ["online"]
 
 
