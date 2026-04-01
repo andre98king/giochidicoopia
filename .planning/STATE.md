@@ -2,16 +2,16 @@
 gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: Database Quality & Co-op Purity
-status: phase_complete
-stopped_at: Phase 1 verified — ready to start Phase 2 or Phase 3 (parallel)
-last_updated: "2026-04-01T11:45:00Z"
+status: milestone_complete
+stopped_at: Milestone v1.1 COMPLETE — all 4 phases executed
+last_updated: "2026-04-01T15:50:00Z"
 last_activity: 2026-04-01
 progress:
   total_phases: 4
-  completed_phases: 1
-  total_plans: 2
-  completed_plans: 2
-  percent: 25
+  completed_phases: 4
+  total_plans: 8
+  completed_plans: 8
+  percent: 100
 ---
 
 # Project State
@@ -21,16 +21,18 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-01)
 
 **Core value:** Il posto dove i gamer vanno quando vogliono dire "giochiamo insieme stasera" — catalogo co-op PC con qualita certificata
-**Current focus:** Phase 01 COMPLETE — ready for Phase 02 (Tag Audit & coopScore) or Phase 03 (Classic Discovery) in parallel
+**Current focus:** Milestone v1.1 COMPLETE — all 4 phases executed successfully
 
 ## Current Position
 
-Phase: 01 (schema-foundation-ci-hardening) — COMPLETE AND VERIFIED
-Plan: 2 of 2
-Status: Verification passed (4/4 success criteria met) — ready to start Phase 2 and/or Phase 3
+Phase: 01 (schema-foundation-ci-hardening) — COMPLETE
+Phase: 02 (tag-audit-coopscore-generation) — COMPLETE
+Phase: 03 (classic-game-discovery) — COMPLETE
+Phase: 04 (bulk-data-fixes) — COMPLETE
+Status: MILESTONE COMPLETE (100%)
 Last activity: 2026-04-01
 
-Progress: [##########] 25% (1/4 phases complete)
+Progress: [################################] 100% (4/4 phases complete)
 
 ## Performance Metrics
 
@@ -63,6 +65,13 @@ Progress: [##########] 25% (1/4 phases complete)
 - [Phase 01-schema-foundation-ci-hardening]: coopScore uses None/null (not 0) to distinguish unscored games from scored games — preserves Phase 2 scoring semantics
 - [Phase 01-schema-foundation-ci-hardening]: gmgUrl and gmgDiscount added to public catalog export (were missing) alongside coopScore
 - [Phase 01-schema-foundation-ci-hardening]: coopMode vocabulary canonical: {online, local, sofa} — 'split' permanently retired, CANONICAL_COOP_MODES enforced in validator
+- [Phase 02-tag-audit-coopscore-generation]: audit_coop_tags.py created — reads Steam/IGDB APIs, outputs discrepancy report
+- [Phase 02-tag-audit-coopscore-generation]: generate_coop_score.py created — scores 1-3 based on audit data (7 score 3, 385 score 2, 36 null)
+- [Phase 02-tag-audit-coopscore-generation]: apply_fixes.py created — dry-run default, backup before write, old_value validation
+- [Phase 03-classic-game-discovery]: discover_classics.py created — IGDB query for classics, 86 candidates found
+- [Phase 03-classic-game-discovery]: add_classics.py created — safe add workflow with duplicate prevention
+- [Phase 04-bulk-data-fixes]: Fixed 6 games with anomalous maxPlayers (255, 65535 → real values)
+- [Phase 04-bulk-data-fixes]: validate_catalog.py enhanced with Phase 4 metrics (coopScore coverage, anomalous maxPlayers, invalid coopMode)
 
 ### Pending Todos
 
@@ -84,7 +93,7 @@ Progress: [##########] 25% (1/4 phases complete)
 
 ## Session Continuity
 
-Last session: 2026-04-01T11:45:00Z
-Stopped at: Phase 1 verified — all 4 success criteria passed
+Last session: 2026-04-01T15:15:00Z
+Stopped at: Phase 2 complete — 2/2 plans executed, awaiting verification
 Resume file: None
-Next action: Start Phase 2 (Tag Audit & coopScore Generation) and/or Phase 3 (Classic Game Discovery) — both depend only on Phase 1 which is now complete
+Next action: Milestone v1.1 complete! Ready for next milestone or verification.

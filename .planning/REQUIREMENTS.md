@@ -14,23 +14,23 @@
 
 ### Tag Audit & coopScore
 
-- [ ] **AUD-01**: Lo script `audit_coop_tags.py` legge il catalogo, interroga Steam e IGDB per ogni gioco con `steamUrl` o `igdbId`, e scrive un report `data/coop_audit_report.json` con le discrepanze trovate (read-only, non modifica mai il catalogo direttamente)
-- [ ] **AUD-02**: Il report di audit distingue almeno tre categorie: `tag_mismatch` (coopMode nel catalogo non corrisponde alle API), `missing_fields` (maxPlayers/coopMode/crossplay assenti), `suspect_coop` (gioco probabilmente non co-op secondo le API)
-- [ ] **AUD-03**: Lo script `generate_coop_score.py` assegna `coopScore` 1-3 a ogni gioco usando regole basate su segnali IGDB + Steam (`multiplayer_modes`, categorie co-op, player count), con calibrazione su un campione di 20-30 giochi verificati manualmente prima dell'applicazione bulk
-- [ ] **AUD-04**: Lo script `apply_fixes.py` legge un file `data/pending_fixes.json` (generato dall'utente dopo revisione del report) e applica le correzioni al catalogo in modo sicuro, con backup prima di ogni modifica
+- [x] **AUD-01**: Lo script `audit_coop_tags.py` legge il catalogo, interroga Steam e IGDB per ogni gioco con `steamUrl` o `igdbId`, e scrive un report `data/coop_audit_report.json` con le discrepanze trovate (read-only, non modifica mai il catalogo direttamente)
+- [x] **AUD-02**: Il report di audit distingue almeno tre categorie: `tag_mismatch` (coopMode nel catalogo non corrisponde alle API), `missing_fields` (maxPlayers/coopMode/crossplay assenti), `suspect_coop` (gioco probabilmente non co-op secondo le API)
+- [x] **AUD-03**: Lo script `generate_coop_score.py` assegna `coopScore` 1-3 a ogni gioco usando regole basate su segnali IGDB + Steam (`multiplayer_modes`, categorie co-op, player count), con calibrazione su un campione di 20-30 giochi verificati manualmente prima dell'applicazione bulk
+- [x] **AUD-04**: Lo script `apply_fixes.py` legge un file `data/pending_fixes.json` (generato dall'utente dopo revisione del report) e applica le correzioni al catalogo in modo sicuro, con backup prima di ogni modifica
 
 ### Classic Game Discovery
 
-- [ ] **CLS-01**: Lo script `discover_classics.py` interroga IGDB (con filtro per `first_release_date` e `multiplayer_modes`) e SteamSpy (`top100forever`) per trovare giochi co-op rilevanti non ancora presenti nel catalogo — output: `data/classic_candidates.json` per revisione manuale
-- [ ] **CLS-02**: Il report candidati classici include almeno: titolo, anno, genere, coopMode rilevato, rating Steam, perché è candidato — così la revisione manuale è informata
-- [ ] **CLS-03**: I giochi classici approvati manualmente dall'utente vengono aggiunti al catalogo con `coopScore` pre-assegnato e senza `steamUrl` mancante (o con nota esplicita se non disponibile su Steam)
+- [x] **CLS-01**: Lo script `discover_classics.py` interroga IGDB (con filtro per `first_release_date` e `multiplayer_modes`) e SteamSpy (`top100forever`) per trovare giochi co-op rilevanti non ancora presenti nel catalogo — output: `data/classic_candidates.json` per revisione manuale
+- [x] **CLS-02**: Il report candidati classici include almeno: titolo, anno, genere, coopMode rilevato, rating Steam, perché è candidato — così la revisione manuale è informata
+- [x] **CLS-03**: I giochi classici approvati manualmente dall'utente vengono aggiunti al catalogo con `coopScore` pre-assegnato e senza `steamUrl` mancante (o con nota esplicita se non disponibile su Steam)
 
 ### Bulk Data Fixes
 
-- [ ] **FIX-01**: I giochi con `maxPlayers` palesemente errato (valori > 64 come 65535, 255) vengono corretti con il valore reale o impostati a `null` se non verificabile
-- [ ] **FIX-02**: I giochi con `rating: 0` che hanno una pagina Steam attiva vengono aggiornati con il rating reale, oppure marcati esplicitamente come "non disponibile" invece di mostrare 0
-- [ ] **FIX-03**: Il campo `crossplay` è verificato per i giochi con `crossplay: true` che non hanno evidenza API di supporto crossplay — i falsi positivi vengono corretti a `false`
-- [ ] **FIX-04**: La pipeline di validazione (`validate_catalog.py`) è aggiornata per segnalare: `coopScore` mancante, `coopMode` con valori non canonici, `maxPlayers` anomali
+- [x] **FIX-01**: I giochi con `maxPlayers` palesemente errato (valori > 64 come 65535, 255) vengono corretti con il valore reale o impostati a `null` se non verificabile
+- [x] **FIX-02**: I giochi con `rating: 0` che hanno una pagina Steam attiva vengono aggiornati con il rating reale, oppure marcati esplicitamente come "non disponibile" invece di mostrare 0
+- [x] **FIX-03**: Il campo `crossplay` è verificato per i giochi con `crossplay: true` che non hanno evidenza API di supporto crossplay — i falsi positivi vengono corretti a `false`
+- [x] **FIX-04**: La pipeline di validazione (`validate_catalog.py`) è aggiornata per segnalare: `coopScore` mancante, `coopMode` con valori non canonici, `maxPlayers` anomali
 
 ---
 
@@ -61,14 +61,14 @@
 | SCH-02 | Phase 1 | Complete |
 | SCH-03 | Phase 1 | Complete |
 | SCH-04 | Phase 1 | Complete |
-| AUD-01 | Phase 2 | pending |
-| AUD-02 | Phase 2 | pending |
-| AUD-03 | Phase 2 | pending |
-| AUD-04 | Phase 2 | pending |
-| CLS-01 | Phase 3 | pending |
-| CLS-02 | Phase 3 | pending |
-| CLS-03 | Phase 3 | pending |
-| FIX-01 | Phase 4 | pending |
-| FIX-02 | Phase 4 | pending |
-| FIX-03 | Phase 4 | pending |
-| FIX-04 | Phase 4 | pending |
+| AUD-01 | Phase 2 | Complete |
+| AUD-02 | Phase 2 | Complete |
+| AUD-03 | Phase 2 | Complete |
+| AUD-04 | Phase 2 | Complete |
+| CLS-01 | Phase 3 | Complete |
+| CLS-02 | Phase 3 | Complete |
+| CLS-03 | Phase 3 | Complete |
+| FIX-01 | Phase 4 | Complete |
+| FIX-02 | Phase 4 | Complete |
+| FIX-03 | Phase 4 | Complete |
+| FIX-04 | Phase 4 | Complete |

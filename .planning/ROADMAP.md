@@ -38,7 +38,7 @@
 
 ## Phase Details
 
-### ✅ Phase 1: Schema Foundation & CI Hardening — VERIFIED 2026-04-01
+### Phase 1: Schema Foundation & CI Hardening [VERIFIED 2026-04-01]
 **Goal**: Il catalogo ha un campo `coopScore` protetto e la pipeline CI non può sovrascrivere dati curati manualmente
 **Depends on**: Nothing (first phase of v1.1)
 **Requirements**: SCH-01, SCH-02, SCH-03, SCH-04
@@ -56,33 +56,45 @@ Plans:
 **Goal**: Ogni gioco con `steamUrl` o `igdbId` ha un audit del tag coopMode completato, e un `coopScore` proposto e validato manualmente e pronto per l'applicazione bulk
 **Depends on**: Phase 1
 **Requirements**: AUD-01, AUD-02, AUD-03, AUD-04
+**Status**: Complete (2/2 plans executed)
 **Success Criteria** (what must be TRUE):
-  1. Lo script `audit_coop_tags.py` produce `data/coop_audit_report.json` con tre categorie di discrepanze: `tag_mismatch`, `missing_fields`, `suspect_coop` — lo script non modifica mai il catalogo
-  2. Il report identifica esplicitamente i giochi senza `steamUrl` come "manual review only" e li separa dai giochi con audit completo
-  3. Lo script `generate_coop_score.py` produce `data/coop_score_candidates.json` con score proposti calibrati su un campione verificato manualmente di 20-30 giochi prima dell'applicazione bulk
-  4. Lo script `apply_fixes.py` legge `data/pending_fixes.json`, fa backup automatico, e applica le correzioni a `games.js` solo con flag `--apply` esplicito — senza il flag produce solo un dry-run report
-**Plans**: TBD
+  1. Lo script `audit_coop_tags.py` produce `data/coop_audit_report.json` con tre categorie di discrepanze: `tag_mismatch`, `missing_fields`, `suspect_coop` — lo script non modifica mai il catalogo ✅
+  2. Il report identifica esplicitamente i giochi senza `steamUrl` come "manual review only" e li separa dai giochi con audit completo ✅
+  3. Lo script `generate_coop_score.py` produce `data/coop_score_candidates.json` con score proposti calibrati su un campione verificato manualmente di 20-30 giochi prima dell'applicazione bulk ✅
+  4. Lo script `apply_fixes.py` legge `data/pending_fixes.json`, fa backup automatico, e applica le correzioni a `games.js` solo con flag `--apply` esplicito — senza il flag produce solo un dry-run report ✅
+**Plans:** 2/2 plans complete
+Plans:
+- [x] 02-01-PLAN.md — audit_coop_tags.py → coop_audit_report.json
+- [x] 02-02-PLAN.md — generate_coop_score.py + apply_fixes.py
 
 ### Phase 3: Classic Game Discovery
 **Goal**: I giochi co-op classici non presenti nel catalogo vengono identificati e i candidati approvati vengono aggiunti con dati completi
 **Depends on**: Phase 1
 **Requirements**: CLS-01, CLS-02, CLS-03
+**Status**: Complete (2/2 plans executed)
 **Success Criteria** (what must be TRUE):
-  1. Lo script `discover_classics.py` produce `data/classic_candidates.json` con candidati trovati via IGDB (query con filtro `first_release_date` pre-2020 e `multiplayer_modes`) e SteamSpy `top100forever`, deduplicati rispetto al catalogo esistente
-  2. Ogni candidato nel report include almeno: titolo, anno, genere, coopMode rilevato, rating Steam, motivo della candidatura — informazioni sufficienti per una decisione di inclusione senza ricerca aggiuntiva
-  3. I classici approvati dall'utente vengono aggiunti al catalogo con `coopScore` pre-assegnato, `releaseYear` valorizzato, e URL di acquisto attivo (Steam, GOG o itch.io) oppure nota esplicita "no active purchase URL" se assente
-**Plans**: TBD
+  1. Lo script `discover_classics.py` produce `data/classic_candidates.json` con candidati trovati via IGDB (query con filtro `first_release_date` pre-2020 e `multiplayer_modes`) e SteamSpy `top100forever`, deduplicati rispetto al catalogo esistente ✅
+  2. Ogni candidato nel report include almeno: titolo, anno, genere, coopMode rilevato, rating Steam, motivo della candidatura — informazioni sufficienti per una decisione di inclusione senza ricerca aggiuntiva ✅
+  3. I classici approvati dall'utente vengono aggiunti al catalogo con `coopScore` pre-assegnato, `releaseYear` valorizzato, e URL di acquisto attivo (Steam, GOG o itch.io) oppure nota esplicita "no active purchase URL" se assente ✅
+**Plans:** 2/2 plans complete
+Plans:
+- [x] 03-01-PLAN.md — discover_classics.py → classic_candidates.json
+- [x] 03-02-PLAN.md — add_classics.py (safe add workflow)
 
 ### Phase 4: Bulk Data Fixes & Validation
 **Goal**: Le anomalie sui dati esistenti sono corrette e `validate_catalog.py` certifica la qualita del catalogo completo prima della chiusura della milestone
 **Depends on**: Phase 2
 **Requirements**: FIX-01, FIX-02, FIX-03, FIX-04
+**Status**: Complete (2/2 plans executed)
 **Success Criteria** (what must be TRUE):
-  1. Nessun gioco nel catalogo ha `maxPlayers` con valori impossibili (65535, 255 come bug noti) — corretti al valore reale o impostati a `null` con nota
-  2. Nessun gioco con pagina Steam attiva mostra `rating: 0` — aggiornato al valore reale o marcato esplicitamente come non disponibile anziche 0
-  3. I giochi con `crossplay: true` senza evidenza API sono corretti a `false` dopo spot-check verificato
-  4. Un singolo run di `validate_catalog.py` produce un report con: percentuale giochi con `coopScore` assegnato, conteggio `coopMode` non canonici (target: 0), conteggio `maxPlayers` anomali (target: 0)
-**Plans**: TBD
+  1. Nessun gioco nel catalogo ha `maxPlayers` con valori impossibili (65535, 255 come bug noti) — corretti al valore reale o impostati a `null` con nota ✅
+  2. Nessun gioco con pagina Steam attiva mostra `rating: 0` — aggiornato al valore reale o marcato esplicitamente come non disponibile anziche 0 ✅
+  3. I giochi con `crossplay: true` senza evidenza API sono corretti a `false` dopo spot-check verificato ✅
+  4. Un singolo run di `validate_catalog.py` produce un report con: percentuale giochi con `coopScore` assegnato, conteggio `coopMode` non canonici (target: 0), conteggio `maxPlayers` anomali (target: 0) ✅
+**Plans:** 2/2 plans complete
+Plans:
+- [x] 04-01-PLAN.md — maxPlayers fixes applied
+- [x] 04-02-PLAN.md — validate_catalog.py enhanced
 
 ---
 

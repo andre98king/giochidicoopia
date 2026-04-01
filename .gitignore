@@ -42,11 +42,27 @@ related-games-*.png
 *-desktop.png
 *-mobile.png
 
-# Artefatti pipeline (rigenerati ad ogni run)
-data/coop_validation_report.json
-client_secret_*.json
+# Backup (da apply_fixes.py e altri script)
+assets/games.js.backup.*
+data/.audit_steam_cache.json
+
+# Google credentials (local, never commit)
 NUOVO.json
-scripts/gsc-credentials.json
+
+# Data pipeline outputs (generated, not source)
+data/coop_audit_report.json
+data/coop_score_candidates.json
+data/classic_candidates.json
+data/pending_fixes.json
+data/approved_classics.json
+data/pending_maxplayers_fixes.json
+
+# Script nuovi (non ancora deciso se includere)
+scripts/audit_coop_tags.py
+scripts/generate_coop_score.py
+scripts/apply_fixes.py
+scripts/discover_classics.py
+scripts/add_classics.py
 
 # File AI-only (documentazione interna, non per il sito)
 AI_COLLABORATION.md

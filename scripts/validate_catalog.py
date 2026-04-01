@@ -16,7 +16,14 @@ import build_static_pages
 import catalog_data
 
 
-INFO_PAGES = ("index.html", "about.html", "contact.html", "free.html", "privacy.html", "game.html")
+INFO_PAGES = (
+    "index.html",
+    "about.html",
+    "contact.html",
+    "free.html",
+    "privacy.html",
+    "game.html",
+)
 CROSSPLAY_UI_ENABLED = False
 CANONICAL_COOP_MODES = {"online", "local", "sofa"}
 ALLOWED_CATEGORIES = {
@@ -63,7 +70,9 @@ def main() -> int:
         errors.append(f"Duplicate game ids: {short_list(duplicate_ids)}")
 
     duplicate_slugs = sorted(
-        slug for slug, count in collections.Counter(game["slug"] for game in games).items() if count > 1
+        slug
+        for slug, count in collections.Counter(game["slug"] for game in games).items()
+        if count > 1
     )
     if duplicate_slugs:
         errors.append(f"Duplicate canonical slugs: {short_list(duplicate_slugs)}")
@@ -105,11 +114,15 @@ def main() -> int:
             missing_english.append(f"{game_id} ({title})")
 
     if missing_required:
-        errors.append(f"Catalog entries with missing required fields: {short_list(missing_required)}")
+        errors.append(
+            f"Catalog entries with missing required fields: {short_list(missing_required)}"
+        )
     if invalid_store_urls:
         errors.append(f"Invalid Steam URLs: {short_list(invalid_store_urls)}")
     if unknown_categories:
-        errors.append(f"Unknown categories in games.js: {short_list(unknown_categories)}")
+        errors.append(
+            f"Unknown categories in games.js: {short_list(unknown_categories)}"
+        )
     if missing_english:
         warnings.append(
             f"Games missing English descriptions: {short_list(missing_english, limit=6)}"
@@ -128,7 +141,9 @@ def main() -> int:
             page_errors.append(f"{game['id']}.html missing")
             continue
         content = page_path.read_text(encoding="utf-8")
-        expected_canonical = f'<link rel="canonical" href="{build_static_pages.page_url(game)}">'
+        expected_canonical = (
+            f'<link rel="canonical" href="{build_static_pages.page_url(game)}">'
+        )
         if expected_canonical not in content:
             page_errors.append(f"{game['id']}.html missing canonical")
         if "const GAME_DATA =" not in content:
@@ -138,7 +153,9 @@ def main() -> int:
         errors.append(f"Static page validation errors: {short_list(page_errors)}")
 
     if not catalog_data.CATALOG_JSON.is_file():
-        errors.append(f"Missing canonical catalog artifact: {catalog_data.CATALOG_JSON.name}")
+        errors.append(
+            f"Missing canonical catalog artifact: {catalog_data.CATALOG_JSON.name}"
+        )
     else:
         try:
             artifact = json.loads(catalog_data.CATALOG_JSON.read_text(encoding="utf-8"))
@@ -165,7 +182,9 @@ def main() -> int:
 
             stats = artifact.get("stats")
             if not isinstance(stats, dict) or stats.get("games") != len(games):
-                errors.append("Canonical catalog artifact stats.games does not match the catalog size")
+                errors.append(
+                    "Canonical catalog artifact stats.games does not match the catalog size"
+                )
 
             featured_indie_id = artifact.get("featuredIndieId")
             if featured_indie_id is not None and featured_indie_id not in set(ids):
@@ -174,10 +193,14 @@ def main() -> int:
                 )
 
     if not catalog_data.PUBLIC_CATALOG_JSON.is_file():
-        errors.append(f"Missing public catalog export: {catalog_data.PUBLIC_CATALOG_JSON.name}")
+        errors.append(
+            f"Missing public catalog export: {catalog_data.PUBLIC_CATALOG_JSON.name}"
+        )
     else:
         try:
-            public_export = json.loads(catalog_data.PUBLIC_CATALOG_JSON.read_text(encoding="utf-8"))
+            public_export = json.loads(
+                catalog_data.PUBLIC_CATALOG_JSON.read_text(encoding="utf-8")
+            )
         except json.JSONDecodeError as exc:
             errors.append(f"Public catalog export is not valid JSON: {exc}")
             public_export = None
@@ -220,10 +243,10 @@ def main() -> int:
         }
         hub_slug_pairs = [
             ("migliori-giochi-coop-2026", "best-coop-games-2026"),
-            ("giochi-coop-local",         "local-coop-games"),
-            ("giochi-coop-2-giocatori",   "2-player-coop-games"),
-            ("giochi-coop-free",          "free-coop-games"),
-            ("giochi-coop-indie",         "indie-coop-games"),
+            ("giochi-coop-local", "local-coop-games"),
+            ("giochi-coop-2-giocatori", "2-player-coop-games"),
+            ("giochi-coop-free", "free-coop-games"),
+            ("giochi-coop-indie", "indie-coop-games"),
         ]
         expected_locs = {
             f"{build_static_pages.SITE_URL}/",
@@ -266,7 +289,9 @@ def main() -> int:
         if desc.startswith("http://") or desc.startswith("https://"):
             corrupted_desc.append(f"{game_id} ({title}): description is a URL")
         if "&#" in desc or "&amp;" in desc:
-            corrupted_desc.append(f"{game_id} ({title}): description has raw HTML entities")
+            corrupted_desc.append(
+                f"{game_id} ({title}): description has raw HTML entities"
+            )
 
         # Short descriptions
         if desc and len(desc) < 30:
@@ -286,9 +311,13 @@ def main() -> int:
 
         # coopMode vs categories sync
         if "splitscreen" in cats and "sofa" not in modes:
-            coop_sync_issues.append(f"{game_id} ({title}): splitscreen in cats but not in coopMode")
+            coop_sync_issues.append(
+                f"{game_id} ({title}): splitscreen in cats but not in coopMode"
+            )
         if "sofa" in modes and "splitscreen" not in cats:
-            coop_sync_issues.append(f"{game_id} ({title}): sofa in coopMode but not in cats")
+            coop_sync_issues.append(
+                f"{game_id} ({title}): sofa in coopMode but not in cats"
+            )
 
         # Thin categorization
         if len(cats) == 1 and cats[0] not in ("free",):
@@ -300,23 +329,35 @@ def main() -> int:
         modes = set(game.get("coopMode") or [])
         bad = modes - CANONICAL_COOP_MODES
         if bad:
-            invalid_coop_modes.append(f"{game['id']} ({game.get('title', '?')}): {sorted(bad)}")
+            invalid_coop_modes.append(
+                f"{game['id']} ({game.get('title', '?')}): {sorted(bad)}"
+            )
 
     if invalid_coop_modes:
-        errors.append(f"Non-canonical coopMode values in {len(invalid_coop_modes)} games: {', '.join(invalid_coop_modes[:5])}")
+        errors.append(
+            f"Non-canonical coopMode values in {len(invalid_coop_modes)} games: {', '.join(invalid_coop_modes[:5])}"
+        )
 
     if corrupted_desc:
         errors.append(f"Corrupted descriptions: {short_list(corrupted_desc)}")
     if missing_image:
         errors.append(f"Missing/invalid images: {short_list(missing_image)}")
     if coop_sync_issues:
-        warnings.append(f"coopMode/categories sync issues: {short_list(coop_sync_issues)}")
+        warnings.append(
+            f"coopMode/categories sync issues: {short_list(coop_sync_issues)}"
+        )
     if short_desc:
-        warnings.append(f"Very short descriptions (<30 chars): {short_list(short_desc, 5)}")
+        warnings.append(
+            f"Very short descriptions (<30 chars): {short_list(short_desc, 5)}"
+        )
     if identical_desc:
-        warnings.append(f"Identical IT=EN descriptions (not translated): {len(identical_desc)} games")
+        warnings.append(
+            f"Identical IT=EN descriptions (not translated): {len(identical_desc)} games"
+        )
     if missing_year_steam:
-        warnings.append(f"Steam games without releaseYear: {short_list(missing_year_steam, 5)}")
+        warnings.append(
+            f"Steam games without releaseYear: {short_list(missing_year_steam, 5)}"
+        )
     if single_cat:
         warnings.append(f"Games with only 1 category: {len(single_cat)} games")
 
@@ -328,9 +369,13 @@ def main() -> int:
             cv_rej = len(cv.get("rejected", []))
             cv_dis = len(cv.get("disputed", []))
             if cv_rej:
-                warnings.append(f"Co-op cross-validation: {cv_rej} games REJECTED (not co-op per Steam+IGDB)")
+                warnings.append(
+                    f"Co-op cross-validation: {cv_rej} games REJECTED (not co-op per Steam+IGDB)"
+                )
             if cv_dis:
-                warnings.append(f"Co-op cross-validation: {cv_dis} games DISPUTED (sources disagree)")
+                warnings.append(
+                    f"Co-op cross-validation: {cv_dis} games DISPUTED (sources disagree)"
+                )
         except Exception:
             pass
 
@@ -349,7 +394,9 @@ def main() -> int:
     if gb_count <= 5:
         warnings.append(f"GameBillet coverage extremely low: {gb_count} games")
     if gs_count > 50 and gs_disc == 0:
-        warnings.append(f"Gameseal has {gs_count} links but 0 discounts — scraper may need re-run")
+        warnings.append(
+            f"Gameseal has {gs_count} links but 0 discounts — scraper may need re-run"
+        )
 
     crossplay_count = sum(1 for game in games if game.get("crossplay"))
     if crossplay_count == 0:
@@ -360,6 +407,26 @@ def main() -> int:
         warnings.append(
             f"{crossplay_count} games are flagged as crossplay internally, but the UI remains intentionally hidden pending manual validation of the source."
         )
+
+    # Phase 4: Data Quality Metrics
+    ANOMALOUS_MAX_PLAYERS = {255, 65535}
+    anomalous_max = [
+        g for g in games if g.get("maxPlayers", 0) in ANOMALOUS_MAX_PLAYERS
+    ]
+    if anomalous_max:
+        errors.append(
+            f"Anomalous maxPlayers: {len(anomalous_max)} games with values 255 or 65535"
+        )
+
+    coop_score_assigned = sum(1 for g in games if g.get("coopScore") is not None)
+    coop_score_missing = len(games) - coop_score_assigned
+
+    print(f"\n  Phase 4 Quality Metrics:")
+    print(
+        f"    coopScore: {coop_score_assigned}/{len(games)} assigned ({coop_score_missing} missing)"
+    )
+    print(f"    Anomalous maxPlayers: {len(anomalous_max)}")
+    print(f"    Invalid coopMode: {len(invalid_coop_modes)}")
 
     print(
         f"Validated catalog: {len(games)} games, {len(generated_pages)} static pages, "
