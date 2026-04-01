@@ -76,7 +76,7 @@ def source_generated_at() -> str:
 
 def ef(block: str, field: str):
     match = re.search(
-        rf'{field}:\s*("(?:[^"\\]|\\.)*"|\[.*?\]|true|false|-?\d+)',
+        rf'{field}:\s*("(?:[^"\\]|\\.)*"|\[.*?\]|true|false|null|-?\d+)',
         block,
         re.DOTALL,
     )
@@ -87,6 +87,8 @@ def ef(block: str, field: str):
         return True
     if value == "false":
         return False
+    if value == "null":
+        return None
     if re.fullmatch(r"-?\d+", value):
         return int(value)
     if value.startswith("["):
@@ -273,6 +275,9 @@ def load_games() -> list[dict[str, Any]]:
             "gmvDiscount": ef(block, "gmvDiscount") or 0,
             "gmgUrl": ef(block, "gmgUrl") or "",
             "gmgDiscount": ef(block, "gmgDiscount") or 0,
+            "coopScore": ef(block, "coopScore"),
+            "mini_review_it": ef(block, "mini_review_it") or "",
+            "mini_review_en": ef(block, "mini_review_en") or "",
         }
         if game["id"] is not None:
             games.append(normalize_game(game, featured_indie_id))
@@ -361,6 +366,9 @@ def build_public_catalog_export(games: list[dict[str, Any]]) -> dict[str, Any]:
                 "kgDiscount": game.get("kgDiscount") or 0,
                 "gmvUrl": game.get("gmvUrl", ""),
                 "gmvDiscount": game.get("gmvDiscount") or 0,
+                "gmgUrl": game.get("gmgUrl", ""),
+                "gmgDiscount": game.get("gmgDiscount") or 0,
+                "coopScore": game.get("coopScore"),
             }
         )
 
@@ -450,7 +458,10 @@ def write_legacy_games_js(
             f'    gmvUrl: "{js_esc(game.get("gmvUrl", ""))}",\n'
             f"    gmvDiscount: {game.get('gmvDiscount') or 0},\n"
             f'    gmgUrl: "{js_esc(game.get("gmgUrl", ""))}",\n'
-            f"    gmgDiscount: {game.get('gmgDiscount') or 0}\n"
+            f"    gmgDiscount: {game.get('gmgDiscount') or 0},\n"
+            f"    coopScore: {json.dumps(game.get('coopScore'))},\n"
+            f'    mini_review_it: "{js_esc(game.get("mini_review_it", ""))}",\n'
+            f'    mini_review_en: "{js_esc(game.get("mini_review_en", ""))}"\n'
             "  },\n"
         )
 
