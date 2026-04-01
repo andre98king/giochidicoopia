@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-01T15:44:57+00:00",
+  "generatedAt": "2026-04-01T21:40:53+00:00",
   "featuredIndieId": null,
   "games": [
     {
@@ -227,49 +227,6 @@
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
       "coopScore": 2
-    },
-    {
-      "id": 7,
-      "slug": "team-fortress-2",
-      "title": "Team Fortress 2",
-      "categories": [
-        "action",
-        "free"
-      ],
-      "genres": [
-        "action"
-      ],
-      "coopMode": [
-        "online"
-      ],
-      "maxPlayers": 2,
-      "crossplay": true,
-      "players": "2+",
-      "releaseYear": 2007,
-      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/440/header.jpg",
-      "description": "Nove diverse classi forniscono un'ampia scelta di capacità tattiche e di personalità. Costantemente aggiornato con nuove modalità di gioco, mappe, equipaggiamento e, soprattutto, cappelli!",
-      "description_en": "Nine distinct classes provide a broad range of tactical abilities and personalities. Constantly updated with new game modes, maps, equipment and, most importantly, hats!",
-      "personalNote": "",
-      "played": false,
-      "steamUrl": "https://store.steampowered.com/app/440/",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 43819,
-      "trending": true,
-      "rating": 90,
-      "igUrl": "https://www.instant-gaming.com/en/18886-download-steam-team-fortress-2-pc-game-steam/?igr=gamer-ddc4a8",
-      "igDiscount": 60,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "",
-      "gsDiscount": 0,
-      "kgUrl": "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F140640%2Fteam-fortress-2-premium-dlc-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=140640",
-      "kgDiscount": 0,
-      "gmvUrl": "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fteam-fortress-2-badges-xephos-philanthropic-physiognomy-and-honeydews-countenance&cjsku=44648",
-      "gmvDiscount": 10,
-      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
-      "gmgDiscount": 5,
-      "coopScore": null
     },
     {
       "id": 8,
@@ -1506,50 +1463,6 @@
       "coopScore": 2
     },
     {
-      "id": 35,
-      "slug": "star-wars-battlefront-ii",
-      "title": "STAR WARS Battlefront II",
-      "categories": [
-        "strategy",
-        "action"
-      ],
-      "genres": [
-        "strategy",
-        "action"
-      ],
-      "coopMode": [
-        "local"
-      ],
-      "maxPlayers": 4,
-      "crossplay": false,
-      "players": "1-4 (locale)",
-      "releaseYear": 2020,
-      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1237950/header.jpg",
-      "description": "Diventa l'eroe della battaglia definitiva di Star Wars ™ con la Star Wars ™ Battlefront™ II: Celebration Edition! Ottieni Star Wars Battlefront II e la collezione completa di tutti i contenuti di personalizzazione disponibili attraverso l'acquisto in gioco rilasciati dall'uscita e gli oggetti…",
-      "description_en": "Be the hero in the ultimate Star Wars ™ battle fantasy with Star Wars ™ Battlefront™ II: Celebration Edition! Get Star Wars Battlefront II and the complete collection of customization content acquirable through in-game purchase from launch up to — and including — items inspired by Star Wars ™: THE…",
-      "personalNote": "",
-      "played": false,
-      "steamUrl": "https://store.steampowered.com/app/1237950/",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 9213,
-      "trending": false,
-      "rating": 88,
-      "igUrl": "https://www.instant-gaming.com/en/13075-buy-steam-star-wars-battlefront-ii-celebration-edition-celebration-edition-pc-game-steam/?igr=gamer-ddc4a8",
-      "igDiscount": 25,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fstar-wars-battlefront-ii-pc-origin-key-global&cjsku=54484",
-      "gsDiscount": 15,
-      "kgUrl": "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F6225%2Fstar-wars-battlefront-ii-steam-gift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=6225",
-      "kgDiscount": 0,
-      "gmvUrl": "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fstar-wars-battlefront-ii-xbox-one&cjsku=11151",
-      "gmvDiscount": 10,
-      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
-      "gmgDiscount": 5,
-      "coopScore": null
-    },
-    {
       "id": 36,
       "slug": "squad",
       "title": "Squad",
@@ -2222,52 +2135,6 @@
       "coopScore": 2
     },
     {
-      "id": 51,
-      "slug": "the-isle",
-      "title": "The Isle",
-      "categories": [
-        "survival",
-        "action",
-        "horror"
-      ],
-      "genres": [
-        "survival",
-        "action",
-        "horror"
-      ],
-      "coopMode": [
-        "online"
-      ],
-      "maxPlayers": 4,
-      "crossplay": false,
-      "players": "1-4 (locale)",
-      "releaseYear": 2015,
-      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/376210/header.jpg",
-      "description": "Vivi un'intensa esperienza di sopravvivenza in mondo aperto mentre cerchi di restare in vita su un'isola spietata abitata da dinosauri! Caccia, cresci ed evolvi il tuo dinosauro per dominare l'ecosistema.",
-      "description_en": "Experience fierce open world survival gameplay as you attempt to stay alive on an unforgiving island inhabited by dinosaurs! Hunt. Grow. Survive.",
-      "personalNote": "",
-      "played": false,
-      "steamUrl": "https://store.steampowered.com/app/376210/",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 5946,
-      "trending": false,
-      "rating": 81,
-      "igUrl": "https://www.instant-gaming.com/en/6331-buy-steam-the-isle-pc-game-steam/?igr=gamer-ddc4a8",
-      "igDiscount": 73,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fthe-isle-pc-steam-gift-eu&cjsku=25835",
-      "gsDiscount": 15,
-      "kgUrl": "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F152434%2Fthe-isle-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=152434",
-      "kgDiscount": 0,
-      "gmvUrl": "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-isle&cjsku=26022",
-      "gmvDiscount": 10,
-      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
-      "gmgDiscount": 5,
-      "coopScore": null
-    },
-    {
       "id": 52,
       "slug": "last-epoch",
       "title": "Last Epoch",
@@ -2722,54 +2589,6 @@
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
       "coopScore": 2
-    },
-    {
-      "id": 63,
-      "slug": "scp-secret-laboratory",
-      "title": "SCP: Secret Laboratory",
-      "categories": [
-        "horror",
-        "action",
-        "survival",
-        "indie",
-        "free"
-      ],
-      "genres": [
-        "horror",
-        "action",
-        "survival"
-      ],
-      "coopMode": [
-        "online"
-      ],
-      "maxPlayers": 4,
-      "crossplay": false,
-      "players": "1-4 (locale)",
-      "releaseYear": 2017,
-      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/700330/header.jpg",
-      "description": "Durante una falla di contenimento nella fondazione SCP, parte delle anomalie hanno eluso la sicurezza e sono fuggite dalle loro camere di contenimento – e non hanno buone intezioni. Diventa parte del personale della struttura, un agente con il ruolo di riportare l'ordine o un anomalia e decidi le sorti della partita!",
-      "description_en": "Deep within a secure underground facility, a sudden containment breach allows many of the secured anomalies to escape from their chambers. Assist the Foundation in re-securing the facility, help the Insurgency in their goal to capture it, or wreak havoc as an SCP in a frantic bid to escape.",
-      "personalNote": "",
-      "played": false,
-      "steamUrl": "https://store.steampowered.com/app/700330/",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 4696,
-      "trending": false,
-      "rating": 91,
-      "igUrl": "",
-      "igDiscount": 0,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "",
-      "gsDiscount": 0,
-      "kgUrl": "",
-      "kgDiscount": 0,
-      "gmvUrl": "",
-      "gmvDiscount": 0,
-      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
-      "gmgDiscount": 5,
-      "coopScore": null
     },
     {
       "id": 64,
@@ -3412,96 +3231,6 @@
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
       "coopScore": 2
-    },
-    {
-      "id": 79,
-      "slug": "age-of-empires-iii-definitive-edition",
-      "title": "Age of Empires III: Definitive Edition",
-      "categories": [
-        "strategy",
-        "free"
-      ],
-      "genres": [
-        "strategy"
-      ],
-      "coopMode": [
-        "online",
-        "local"
-      ],
-      "maxPlayers": 8,
-      "crossplay": true,
-      "players": "1-4 (locale)",
-      "releaseYear": 2020,
-      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/933110/header.jpg",
-      "description": "Age of Empires III: Definitive Edition offre ai giocatori una prova di questo strategico storico in tempo reale sia in modalità giocatore singolo sia in multigiocatore. *Nota: per sbloccare tutte le funzionalità del gioco, consulta il prodotto “Gioco completo”.",
-      "description_en": "Age of Empires III: Definitive Edition offers players a trial of this historical single &amp; multiplayer RTS experience. *Note: To unlock all features of the game please see the “Base Game” product.",
-      "personalNote": "",
-      "played": false,
-      "steamUrl": "https://store.steampowered.com/app/933110/",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 3016,
-      "trending": false,
-      "rating": 85,
-      "igUrl": "https://www.instant-gaming.com/en/6275-buy-steam-age-of-empires-iii-definitive-edition-definitive-edition-pc-game-steam/?igr=gamer-ddc4a8",
-      "igDiscount": 76,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fage-of-empires-iii-definitive-edition-pc-steam-gift-global&cjsku=SW32271",
-      "gsDiscount": 15,
-      "kgUrl": "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F159944%2Fage-of-empires-iii-definitive-edition-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=159944",
-      "kgDiscount": 0,
-      "gmvUrl": "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fage-of-empires-iii-definitive-edition&cjsku=67317",
-      "gmvDiscount": 10,
-      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
-      "gmgDiscount": 5,
-      "coopScore": null
-    },
-    {
-      "id": 80,
-      "slug": "foxhole",
-      "title": "Foxhole",
-      "categories": [
-        "strategy",
-        "action",
-        "survival"
-      ],
-      "genres": [
-        "strategy",
-        "action",
-        "survival"
-      ],
-      "coopMode": [
-        "online"
-      ],
-      "maxPlayers": 4,
-      "crossplay": false,
-      "players": "1-4 (locale)",
-      "releaseYear": 2022,
-      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/505460/header.jpg",
-      "description": "Foxhole è un gioco massivamente multiplayer dove migliaia di giocatori determinano l'esito di una guerra online persistente. Ogni singolo soldato è un giocatore che contribuisce allo sforzo bellico attraverso logistica, costruzione di basi, ricognizione e combattimento.",
-      "description_en": "Foxhole is a massively multiplayer game where thousands of players shape the outcome of a persistent online war. Every individual soldier is a player that contributes to the war effort through logistics, base building, reconnaissance, combat, and more.",
-      "personalNote": "",
-      "played": false,
-      "steamUrl": "https://store.steampowered.com/app/505460/",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 2821,
-      "trending": false,
-      "rating": 84,
-      "igUrl": "https://www.instant-gaming.com/en/5197-buy-steam-foxhole-pc-game-steam/?igr=gamer-ddc4a8",
-      "igDiscount": 33,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffoxhole-pc-steam-gift-global&cjsku=SW26452",
-      "gsDiscount": 15,
-      "kgUrl": "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F39428%2Ffoxhole-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=39428",
-      "kgDiscount": 0,
-      "gmvUrl": "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffoxhole-eu&cjsku=46477",
-      "gmvDiscount": 10,
-      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
-      "gmgDiscount": 5,
-      "coopScore": null
     },
     {
       "id": 82,
@@ -5573,51 +5302,6 @@
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
       "coopScore": 2
-    },
-    {
-      "id": 136,
-      "slug": "boomerang-fu",
-      "title": "Boomerang Fu",
-      "categories": [
-        "splitscreen",
-        "action"
-      ],
-      "genres": [
-        "action"
-      ],
-      "coopMode": [
-        "online",
-        "local",
-        "sofa"
-      ],
-      "maxPlayers": 6,
-      "crossplay": false,
-      "players": "1-6",
-      "releaseYear": 2019,
-      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1073980/header.jpg",
-      "description": "Boomerang Fu è un gioco party frenetico in cui fino a 6 giocatori si sfidano lanciando boomerang in arene colorate. Rimbalza i tuoi boomerang sulle pareti, combina power-up folli e domina il campo di battaglia.",
-      "description_en": "Explore a beautiful open world, full of horses and other animals. Or just enjoy the beautiful view while riding. In the world of Horse Riding Deluxe you and your horses have no limits. But train and care for your horses well because the various races will demand everything from you!",
-      "personalNote": "",
-      "played": false,
-      "steamUrl": "https://store.steampowered.com/app/1073980/",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 4,
-      "trending": false,
-      "rating": 76,
-      "igUrl": "https://www.instant-gaming.com/en/7284-buy-steam-boomerang-fu-pc-steam/?igr=gamer-ddc4a8",
-      "igDiscount": 75,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fboomerang-fu-pc-steam-key-global&cjsku=66811",
-      "gsDiscount": 15,
-      "kgUrl": "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F76145%2Fboomerang-fu-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=76145",
-      "kgDiscount": 0,
-      "gmvUrl": "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fboomerang-fu-eu&cjsku=79787",
-      "gmvDiscount": 10,
-      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
-      "gmgDiscount": 5,
-      "coopScore": null
     },
     {
       "id": 137,
@@ -26012,88 +25696,6 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null
-    },
-    {
-      "id": 617,
-      "slug": "sid-meiers-alpha-centauri",
-      "title": "Sid Meier's Alpha Centauri",
-      "categories": [
-        "strategy"
-      ],
-      "genres": [
-        "strategy"
-      ],
-      "coopMode": [
-        "online"
-      ],
-      "maxPlayers": 8,
-      "crossplay": false,
-      "players": "1-8",
-      "releaseYear": 1999,
-      "image": "",
-      "description": "Classic strategy game with optional network play. Lead one of five factions to colonize the planet Chiron.",
-      "description_en": "Classic strategy game with optional network play. Lead one of five factions to colonize the planet Chiron.",
-      "personalNote": "",
-      "played": false,
-      "steamUrl": "https://store.steampowered.com/app/7670/",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 0,
-      "trending": false,
-      "rating": 0,
-      "igUrl": "",
-      "igDiscount": 0,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "",
-      "gsDiscount": 0,
-      "kgUrl": "",
-      "kgDiscount": 0,
-      "gmvUrl": "",
-      "gmvDiscount": 0,
-      "gmgUrl": "",
-      "gmgDiscount": 0,
-      "coopScore": 3
-    },
-    {
-      "id": 618,
-      "slug": "drunkslop-pub-crawl-coop",
-      "title": "Drunkslop: Pub crawl COOP",
-      "categories": [
-        "action"
-      ],
-      "genres": [],
-      "coopMode": [
-        "online"
-      ],
-      "maxPlayers": 4,
-      "crossplay": false,
-      "players": "1-4",
-      "releaseYear": 2024,
-      "image": "",
-      "description": "",
-      "description_en": "",
-      "personalNote": "Added from Steam (app_id: 4420980) - needs review",
-      "played": false,
-      "steamUrl": "https://store.steampowered.com/app/4420980",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 0,
-      "trending": false,
-      "rating": 0,
-      "igUrl": "",
-      "igDiscount": 0,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "",
-      "gsDiscount": 0,
-      "kgUrl": "",
-      "kgDiscount": 0,
-      "gmvUrl": "",
-      "gmvDiscount": 0,
-      "gmgUrl": "",
-      "gmgDiscount": 0,
-      "coopScore": 2
     },
     {
       "id": 619,

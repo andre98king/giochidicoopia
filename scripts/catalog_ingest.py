@@ -202,6 +202,8 @@ def run(
     apply: bool,
     enrich: bool,
     rawg_api_key: str | None,
+    igdb_client_id: str | None = None,
+    igdb_client_secret: str | None = None,
     verbose: bool = True,
 ) -> None:
     print("=" * 60)
@@ -211,6 +213,8 @@ def run(
     print(f"Mode:    {'APPLY to games.js' if apply else 'DRY RUN (preview only)'}")
     print(f"Enrich:  {'yes (Steam + RAWG)' if enrich else 'no (validate only)'}")
     print(f"RAWG:    {'key found' if rawg_api_key else 'no key — RAWG cross-check disabled'}")
+    print(f"IGDB:    {'credentials found' if igdb_client_id else 'no credentials — IGDB check disabled'}")
+    print(f"GOG:     always checked by title (no credentials needed)")
     print()
 
     candidates = load_candidates(input_path)
@@ -258,8 +262,13 @@ def run(
             rejected.append({**cand, "verdict": "rejected", "reason": "No Steam URL"})
             continue
 
-        # Step 1: Quality gate
-        verdict = quality_gate.validate(app_id, rawg_api_key=rawg_api_key)
+        # Step 1: Quality gate (Steam + IGDB + GOG + RAWG)
+        verdict = quality_gate.validate(
+            app_id,
+            rawg_api_key=rawg_api_key,
+            igdb_client_id=igdb_client_id,
+            igdb_client_secret=igdb_client_secret,
+        )
         status = verdict["status"]
         conf_icon = {"high": "★", "medium": "◆", "low": "○"}.get(verdict["confidence"], "?")
 
@@ -440,12 +449,16 @@ def main() -> None:
 
     env = load_env()
     rawg_api_key = env.get("RAWG_API_KEY")
+    igdb_client_id = env.get("IGDB_CLIENT_ID")
+    igdb_client_secret = env.get("IGDB_CLIENT_SECRET")
 
     run(
         input_path=input_path,
         apply=args.apply,
         enrich=not args.no_enrich,
         rawg_api_key=rawg_api_key,
+        igdb_client_id=igdb_client_id,
+        igdb_client_secret=igdb_client_secret,
         verbose=args.verbose,
     )
 
