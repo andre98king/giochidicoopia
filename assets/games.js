@@ -15,9 +15,7 @@ const games = [
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2622380/header.jpg",
     description: "ELDEN RING NIGHTREIGN è un'avventura standalone ambientata nell'universo di ELDEN RING, creata per offrire una nuova esperienza di gioco reinventando il design originale.",
     description_en: "ELDEN RING NIGHTREIGN is a standalone adventure within the ELDEN RING universe, crafted to offer players a new gaming experience by reimagining the game’s core design.",
-
-    mini_review_it: "Survival hardcore in multiplayer. Costruisci, sopravvivi e difenditi contro altri giocatori in un mondo aperto brutalmente competitivo.",
-    mini_review_en: "Hardcore multiplayer survival. Build, survive, and defend against other players in a brutally competitive open world.",    personalNote: "",
+    personalNote: "",
     played: false,
     steamUrl: "https://store.steampowered.com/app/2622380/",
     gogUrl: "",
@@ -39,7 +37,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Felden-ring-nightreign-pc-steam-global-standard&cjsku=181363",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "Survival hardcore in multiplayer. Costruisci, sopravvivi e difenditi contro altri giocatori in un mondo aperto brutalmente competitivo.",
+    mini_review_en: "Hardcore multiplayer survival. Build, survive, and defend against other players in a brutally competitive open world."
   },
   {
     id: 2,
@@ -77,7 +78,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Frust&cjsku=25990",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 4,
@@ -93,9 +97,7 @@ const games = [
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/553850/header.jpg",
     description: "L'ultima linea di attacco della galassia. Unisciti agli Helldiver per combattere in nome della libertà in una galassia ostile in questo frenetico e feroce sparatutto in terza persona.",
     description_en: "The Galaxy’s Last Line of Offence. Enlist in the Helldivers and join the fight for freedom across a hostile galaxy in a fast, frantic, and ferocious third-person shooter.",
-
-    mini_review_it: "FPS tattico con distruzione ambientale. Mappe verticali e strategie precise rendono ogni round un puzzle.",
-    mini_review_en: "Tactical FPS with environmental destruction. Vertical maps and precise strategies make each round a puzzle.",    personalNote: "Pura adrenalina. Chiamare gli Stratagems con i colleghi e far piovere bombe è catartico. Il friendlyfire aggiunge caos divertente.",
+    personalNote: "Pura adrenalina. Chiamare gli Stratagems con i colleghi e far piovere bombe è catartico. Il friendlyfire aggiunge caos divertente.",
     played: true,
     steamUrl: "https://store.steampowered.com/app/553850/",
     gogUrl: "",
@@ -117,7 +119,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fhelldivers-2-pc-steam-row-standard&cjsku=180735",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "FPS tattico con distruzione ambientale. Mappe verticali e strategie precise rendono ogni round un puzzle.",
+    mini_review_en: "Tactical FPS with environmental destruction. Vertical maps and precise strategies make each round a puzzle."
   },
   {
     id: 5,
@@ -155,7 +160,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftom-clancys-rainbow-six-siege-16000-credits-xbox-global&cjsku=164035",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 6,
@@ -171,9 +179,7 @@ const games = [
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/381210/header.jpg",
     description: "Quattro sopravvissuti determinati, intrappolati per sempre in un regno oscuro e malvagio in cui neanche la morte è una via di fuga, affrontano un killer assetato di sangue in un gioco efferato di nervi e astuzia.",
     description_en: "Trapped forever in a realm of eldritch evil where even death is not an escape, four determined Survivors face a bloodthirsty Killer in a vicious game of nerve and wits. Pick a side and step into a world of tension and terror with horror gaming's best asymmetrical multiplayer.",
-
-    mini_review_it: "Classico shooter multiplayer con classi uniche. Competitivo e divertente dopo oltre 15 anni.",
-    mini_review_en: "Classic multiplayer shooter with unique classes. Competitive and fun after 15+ years.",    personalNote: "",
+    personalNote: "",
     played: false,
     steamUrl: "https://store.steampowered.com/app/381210/",
     gogUrl: "",
@@ -195,7 +201,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdead-by-daylight&cjsku=2014",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "Classico shooter multiplayer con classi uniche. Competitivo e divertente dopo oltre 15 anni.",
+    mini_review_en: "Classic multiplayer shooter with unique classes. Competitive and fun after 15+ years."
   },
   {
     id: 7,
@@ -233,7 +242,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fteam-fortress-2-badges-xephos-philanthropic-physiognomy-and-honeydews-countenance&cjsku=44648",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 8,
@@ -249,9 +261,7 @@ const games = [
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
     description: "Goditi Grand Theft Auto V e GTA Online, due successi incredibili, ora migliorati per la nuova generazione con una definizione mozzafiato, tempi di caricamento più brevi, audio 3D e altro. In più, contenuti esclusivi per i giocatori di GTA Online.",
     description_en: "Experience entertainment blockbusters Grand Theft Auto V and Grand Theft Auto Online — now upgraded for a new generation with stunning visuals, faster loading, 3D audio, and more, plus exclusive content for GTA Online players.",
-
-    mini_review_it: "Survival horror realista in multiplayer. Fame, sete, malattie: sopravvivere è un'esperienza dura.",
-    mini_review_en: "Realistic multiplayer survival horror. Hunger, thirst, diseases: survival is a harsh experience.",    personalNote: "",
+    personalNote: "",
     played: false,
     steamUrl: "https://store.steampowered.com/app/3240220/",
     gogUrl: "",
@@ -273,7 +283,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgrand-theft-auto-v-gta-5-pc-steam-global-en-standard&cjsku=173140",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "Survival horror realista in multiplayer. Fame, sete, malattie: sopravvivere è un'esperienza dura.",
+    mini_review_en: "Realistic multiplayer survival horror. Hunger, thirst, diseases: survival is a harsh experience."
   },
   {
     id: 9,
@@ -311,7 +324,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdayz-xbox-xboxoneseries-row-en-standard&cjsku=174346",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 10,
@@ -327,9 +343,7 @@ const games = [
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/230410/header.jpg",
     description: "Risvegliati come un guerriero inarrestabile e combatti al fianco dei tuoi amici in questo gioco d'azione online free-to-play con storie coinvolgenti. Affronta fazioni in guerra in un vasto sistema interplanetario sotto la guida della misteriosa Lotus e fai salire di livello il tuo Warframe,…",
     description_en: "Confront warring factions throughout a sprawling interplanetary system as you follow the guidance of the mysterious Lotus and level up your Warframe, build an Arsenal of destructive firepower, and realize your true potential across massive open worlds in this thrilling, genre-defining third-person…",
-
-    mini_review_it: "Horror coop physics-based. Raccogli oggetti pesanti con fisica realistica in compagnia.",
-    mini_review_en: "Physics-based coop horror. Collect heavy objects with realistic physics together.",    personalNote: "",
+    personalNote: "",
     played: false,
     steamUrl: "https://store.steampowered.com/app/230410/",
     gogUrl: "",
@@ -351,7 +365,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwarframe-bonus-pack&cjsku=31805",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "Horror coop physics-based. Raccogli oggetti pesanti con fisica realistica in compagnia.",
+    mini_review_en: "Physics-based coop horror. Collect heavy objects with realistic physics together."
   },
   {
     id: 11,
@@ -389,7 +406,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Frepo-pc-steam-gift-global-standard&cjsku=184281",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 12,
@@ -405,9 +425,7 @@ const games = [
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/322330/header.jpg",
     description: "Esplora insieme Scopri ed esplora un enorme mondo generato proceduralmente e ricco di biomi. Combatti, coltiva, costruisci ed esplora da solo o collabora con i tuoi amici online.",
     description_en: "Explore Together Discover and explore a massive procedurally generated and biome-rich world with countless resources and threats. Whether you stick to the surface world, go spelunking in the caves, dive deeper into the Ancient Archive, or set sail for the Lunar islands, it will be a long time…",
-
-    mini_review_it: "Furti cooperativi in stile heist. Pianifica, esegui e domina con la tua banda.",
-    mini_review_en: "Co-op heist-style robberies. Plan, execute, and dominate with your crew.",    personalNote: "",
+    personalNote: "",
     played: false,
     steamUrl: "https://store.steampowered.com/app/322330/",
     gogUrl: "",
@@ -429,7 +447,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdont-starve-together&cjsku=26027",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "Furti cooperativi in stile heist. Pianifica, esegui e domina con la tua banda.",
+    mini_review_en: "Co-op heist-style robberies. Plan, execute, and dominate with your crew."
   },
   {
     id: 13,
@@ -467,7 +488,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpayday-2-steam-gift-eu&cjsku=51830",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 14,
@@ -483,9 +507,7 @@ const games = [
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/550/header.jpg",
     description: "Ambientato nell'apocalisse zombie, Left 4 Dead 2 è un co-op horror in prima persona che ti porta attraverso le città, le paludi e i cimiteri del profondo Sud, da Savannah a New Orleans in cinque campagne.",
     description_en: "Set in the zombie apocalypse, Left 4 Dead 2 is a co-operative action horror FPS takes you and your friends through the cities, swamps and cemeteries of the Deep South, from Savannah to New Orleans across five expansive campaigns.",
-
-    mini_review_it: "FPS MMO looter shooter. Campagna, raid e PvP in un universo sci-fi epico.",
-    mini_review_en: "MMO looter shooter FPS. Campaigns, raids and PvP in an epic sci-fi universe.",    personalNote: "",
+    personalNote: "",
     played: false,
     steamUrl: "https://store.steampowered.com/app/550/",
     gogUrl: "",
@@ -507,7 +529,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fleft-4-dead-2-steam-gift-eu&cjsku=49825",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "FPS MMO looter shooter. Campagna, raid e PvP in un universo sci-fi epico.",
+    mini_review_en: "MMO looter shooter FPS. Campaigns, raids and PvP in an epic sci-fi universe."
   },
   {
     id: 15,
@@ -545,7 +570,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdestiny-2-shadowkeep-steam-turkey-en-de-fr-it-pl-ja-ko-pt-ru-zh-es-zh-standard-pc&cjsku=153193",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 16,
@@ -561,9 +589,7 @@ const games = [
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg",
     description: "Scava, combatti, esplora, costruisci! Niente è impossibile in questo gioco d'avventura pieno di azione. Il mondo è la tua tela e la terra è il tuo colore. Prendi gli strumenti e vai! Crea armi per combattere un'ampia varietà di creature in numerosi biomi. Scava sottoterra per trovare accessori,…",
     description_en: "Dig, Fight, Explore, Build: The very world is at your fingertips as you fight for survival, fortune, and glory. Will you delve deep into cavernous expanses in search of treasure and raw materials with which to craft ever-evolving gear, machinery, and aesthetics? Perhaps you will choose instead to…",
-
-    mini_review_it: "Survival zombie hardcore. Gestione risorse realistica e permadeath in un mondo post-apocalittico.",
-    mini_review_en: "Hardcore zombie survival. Realistic resource management and permadeath in a post-apocalyptic world.",    personalNote: "",
+    personalNote: "",
     played: false,
     steamUrl: "https://store.steampowered.com/app/105600/",
     gogUrl: "",
@@ -585,7 +611,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fterraria-gog&cjsku=49976",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "Survival zombie hardcore. Gestione risorse realistica e permadeath in un mondo post-apocalittico.",
+    mini_review_en: "Hardcore zombie survival. Realistic resource management and permadeath in a post-apocalyptic world."
   },
   {
     id: 17,
@@ -623,7 +652,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fproject-zomboid&cjsku=2960",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 18,
@@ -639,9 +671,7 @@ const games = [
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/346110/header.jpg",
     description: "Sei naufragato nudo, affamato e congelato su un'isola misteriosa, dovrai cacciare, raccogliere, creare oggetti, coltivare e costruire ripari per sopravvivere. Usa abilità e ingegno per uccidere, addomesticare e cavalcare Dinosauri e creature primitive che vivono su ARK. Alleati con centinaia di giocatori oppure gioca l",
     description_en: "Stranded on the shores of a mysterious island, you must learn to survive. Use your cunning to kill or tame the primeval creatures roaming the land, and encounter other players to survive, dominate... and escape!",
-
-    mini_review_it: "Auto calcetto competitivo. Fisica esagerata e match rapidi perfetti per gaming serale.",
-    mini_review_en: "Competitive car soccer. Exaggerated physics and quick matches perfect for evening gaming.",    personalNote: "",
+    personalNote: "",
     played: false,
     steamUrl: "https://store.steampowered.com/app/346110/",
     gogUrl: "",
@@ -663,7 +693,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fark-survival-evolved-1&cjsku=26647",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "Auto calcetto competitivo. Fisica esagerata e match rapidi perfetti per gaming serale.",
+    mini_review_en: "Competitive car soccer. Exaggerated physics and quick matches perfect for evening gaming."
   },
   {
     id: 19,
@@ -701,7 +734,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Frocket-league&cjsku=1211",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 20,
@@ -717,9 +753,7 @@ const games = [
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/4000/header.jpg",
     description: "Garry's Mod è una sandbox fisica. Non ci sono obiettivi predefiniti né scopi da raggiungere. Ti diamo gli strumenti e ti lasciamo giocare: costruisci, sperimentaci e crea qualsiasi cosa con gli amici.",
     description_en: "Garry's Mod is a physics sandbox. There aren't any predefined aims or goals. We give you the tools and leave you to play.",
-
-    mini_review_it: "Creature catching survival. Combina allevamento, crafting e combattimento in mondo aperto.",
-    mini_review_en: "Creature catching survival. Combine breeding, crafting and combat in open world.",    personalNote: "",
+    personalNote: "",
     played: false,
     steamUrl: "https://store.steampowered.com/app/4000/",
     gogUrl: "",
@@ -741,7 +775,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgarrys-mod&cjsku=2786",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "Creature catching survival. Combina allevamento, crafting e combattimento in mondo aperto.",
+    mini_review_en: "Creature catching survival. Combine breeding, crafting and combat in open world."
   },
   {
     id: 21,
@@ -779,7 +816,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpalworld-pc-steamgift-global-en-de-fr-it-ja-ko-pt-ru-zh-es-zh-standard&cjsku=167004",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 22,
@@ -795,9 +835,7 @@ const games = [
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/251570/header.jpg",
     description: "7 Days to Die è un gioco open world e un mix originale di sparatutto in prima persona, survival horror, tower defense e gioco di ruolo. Gioca al GDR sandbox survival zombie definitivo nato per primo. Navezgane ti aspetta!",
     description_en: "7 Days to Die is an open-world game that is a unique combination of first-person shooter, survival horror, tower defense, and role-playing games. Play the definitive zombie survival sandbox RPG that came first. Navezgane awaits!",
-
-    mini_review_it: "Strategia RTS grand scale. Campagne epiche e battaglie enormi in tempo reale.",
-    mini_review_en: "Grand scale RTS strategy. Epic campaigns and massive real-time battles.",    personalNote: "",
+    personalNote: "",
     played: false,
     steamUrl: "https://store.steampowered.com/app/251570/",
     gogUrl: "",
@@ -819,7 +857,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2F7-days-to-die&cjsku=4",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "Strategia RTS grand scale. Campagne epiche e battaglie enormi in tempo reale.",
+    mini_review_en: "Grand scale RTS strategy. Epic campaigns and massive real-time battles."
   },
   {
     id: 23,
@@ -857,7 +898,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftotal-war-warhammer-iii-pc-steam-row-standard&cjsku=184901",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 24,
@@ -873,9 +917,7 @@ const games = [
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/427520/header.jpg",
     description: "Factorio è un gioco di costruzione e creazione di fabbriche automatizzate per la produzione di elementi di complessità crescente all'interno di un mondo infinito 2D - Usa la tua immaginazione per progettare la tua fabbrica, parti da oggetti semplici e infine proteggila da creature malvagie.",
     description_en: "Factorio is a game about building and creating automated factories to produce items of increasing complexity, within an infinite 2D world. Use your imagination to design your factory, combine simple elements into ingenious structures, and finally protect it from the creatures who don't really like you.",
-
-    mini_review_it: "Roguelike procedurale indie. Centinaia di run uniche con personaggi e boss vari.",
-    mini_review_en: "Procedural indie roguelike. Hundreds of unique runs with varied characters and bosses.",    personalNote: "",
+    personalNote: "",
     played: false,
     steamUrl: "https://store.steampowered.com/app/427520/",
     gogUrl: "",
@@ -897,7 +939,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffactorio&cjsku=25979",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "Roguelike procedurale indie. Centinaia di run uniche con personaggi e boss vari.",
+    mini_review_en: "Procedural indie roguelike. Hundreds of unique runs with varied characters and bosses."
   },
   {
     id: 25,
@@ -935,7 +980,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-binding-of-isaac-rebirth-xone-arg&cjsku=127861",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 26,
@@ -951,9 +999,7 @@ const games = [
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/892970/header.jpg",
     description: "Dimostra il tuo valore! Pensi di meritare l'accesso al Valhalla? Ti hanno spedito su Valheim, il 10° mondo norreno. Solo sconfiggendo le belve feroci di queste terre conquisterai il favore delle divinità. Questa missione ti porterà ai confini più remoti di questo mondo, dalle foreste più intricate…",
     description_en: "A brutal exploration and survival game for 1-10 players, set in a procedurally-generated purgatory inspired by viking culture. Battle, build, and conquer your way to a saga worthy of Odin’s patronage!",
-
-    mini_review_it: "MMO action sandbox open-world. Combatti, crafta e governa in un mondo persistente.",
-    mini_review_en: "Open-world action MMO sandbox. Fight, craft and rule in a persistent world.",    personalNote: "Atmosfera magica. Costruire una longhouse con gli amici e partire all'esplorazione è fantastico.",
+    personalNote: "Atmosfera magica. Costruire una longhouse con gli amici e partire all'esplorazione è fantastico.",
     played: true,
     steamUrl: "https://store.steampowered.com/app/892970/",
     gogUrl: "",
@@ -975,7 +1021,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fvalheim-steam-gift-eu&cjsku=78758",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "MMO action sandbox open-world. Combatti, crafta e governa in un mondo persistente.",
+    mini_review_en: "Open-world action MMO sandbox. Fight, craft and rule in a persistent world."
   },
   {
     id: 27,
@@ -1013,7 +1062,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fblack-desert-traveler-edition-xbox-eu&cjsku=69298",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 28,
@@ -1029,9 +1081,7 @@ const games = [
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/291550/header.jpg",
     description: "Un epico picchiaduro platform fino a 8 giocatori online o in locale. Gioca partite casual, ranked o in stanza privata con gli amici. Completamente gratuito! Multipiattaforma con PlayStation, Xbox, Nintendo Switch, iOS, Android e Steam. Oltre sessanta Leggende.",
     description_en: "An epic platform fighter for up to 8 players online or local. Try casual free-for-alls, ranked matches, or invite friends to a private room. And it's free! Play cross-platform with millions of players on PlayStation, Xbox, Nintendo Switch, iOS, Android &amp; Steam! Frequent updates. Over sixty Legends.",
-
-    mini_review_it: "RTS classico con campagne storiche. Multiplayer competitivo e cooperativo epico.",
-    mini_review_en: "Classic RTS with historical campaigns. Epic competitive and co-op multiplayer.",    personalNote: "",
+    personalNote: "",
     played: false,
     steamUrl: "https://store.steampowered.com/app/291550/",
     gogUrl: "",
@@ -1053,7 +1103,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fbrawlhalla-metadev-barraza-official-website-officialwebsite-global-en-standard&cjsku=144946",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "RTS classico con campagne storiche. Multiplayer competitivo e cooperativo epico.",
+    mini_review_en: "Classic RTS with historical campaigns. Epic competitive and co-op multiplayer."
   },
   {
     id: 29,
@@ -1091,7 +1144,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fage-of-empires-ii-definitive-edition&cjsku=42226",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 30,
@@ -1107,9 +1163,7 @@ const games = [
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/526870/header.jpg",
     description: "Satisfactory è un gioco in prima persona sulla costruzione di fabbriche in un mondo aperto, con un pizzico di esplorazione e combattimenti. Gioca da solo o con i tuoi amici, esplora un pianeta alieno, crea fabbriche multilivello e ascendi all'olimpo dei nastri trasportatori!",
     description_en: "Satisfactory is a first-person open-world factory building game with a dash of exploration and combat. Play alone or with friends, explore an alien planet, create multi-story factories, and enter conveyor belt heaven!",
-
-    mini_review_it: "Action RPG monster hunting. Combatti creature giganti in ambienti spettacolari.",
-    mini_review_en: "Monster hunting action RPG. Fight giant creatures in spectacular environments.",    personalNote: "",
+    personalNote: "",
     played: false,
     steamUrl: "https://store.steampowered.com/app/526870/",
     gogUrl: "",
@@ -1131,7 +1185,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsatisfactory-steam&cjsku=61654",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "Action RPG monster hunting. Combatti creature giganti in ambienti spettacolari.",
+    mini_review_en: "Monster hunting action RPG. Fight giant creatures in spectacular environments."
   },
   {
     id: 31,
@@ -1169,7 +1226,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmonster-hunter-wilds-pc-steam-row-standard&cjsku=184450",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 32,
@@ -1185,9 +1245,7 @@ const games = [
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/582010/header.jpg",
     description: "Il Nuovo Mondo ti attende! \"Monster Hunter: World\", il capitolo più recente di questa epica saga, offre un'esperienza ancora più ricca e immersiva. Dai la caccia a una schiera di mostri in un nuovo mondo pieno di emozionanti sorprese.",
     description_en: "Welcome to a new world! In Monster Hunter: World, the latest installment in the series, you can enjoy the ultimate hunting experience, using everything at your disposal to hunt monsters in a new world teeming with surprises and excitement.",
-
-    mini_review_it: "Vampire survival sandbox. Costruisci il tuo regno, gestisci risorse e combatti il sole.",
-    mini_review_en: "Vampire survival sandbox. Build your kingdom, manage resources and fight the sun.",    personalNote: "Centinaia di ore investite. La soddisfazione di abbattere un mostro difficile con gli amici è impareggiabile.",
+    personalNote: "Centinaia di ore investite. La soddisfazione di abbattere un mostro difficile con gli amici è impareggiabile.",
     played: true,
     steamUrl: "https://store.steampowered.com/app/582010/",
     gogUrl: "",
@@ -1209,7 +1267,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmonster-hunter-world-eu&cjsku=17429",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "Vampire survival sandbox. Costruisci il tuo regno, gestisci risorse e combatti il sole.",
+    mini_review_en: "Vampire survival sandbox. Build your kingdom, manage resources and fight the sun."
   },
   {
     id: 33,
@@ -1247,7 +1308,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fv-rising-dlc-bundle-pc-steam-global-standard&cjsku=183506",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 34,
@@ -1263,9 +1327,7 @@ const games = [
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/739630/header.jpg",
     description: "Phasmophobia è un horror psicologico co-op online per 4 giocatori. L’attività paranormale è in aumento e spetta a te e alla tua squadra usare tutta l’attrezzatura per la caccia ai fantasmi per raccogliere più prove possibili.",
     description_en: "Phasmophobia is a 4 player online co-op psychological horror. Paranormal activity is on the rise and it’s up to you and your team to use all the ghost-hunting equipment at your disposal in order to gather as much evidence as you can.",
-
-    mini_review_it: "Puzzle cooperativo fisico. Un giocatore legge il manuale, l'altro disarma la bomba.",
-    mini_review_en: "Physical co-op puzzle. One player reads the manual, the other defuses the bomb.",    personalNote: "Uno dei migliori horror co-op di sempre. Con gli amici è esilarante e spaventoso allo stesso tempo. Ottimo per Halloween.",
+    personalNote: "Uno dei migliori horror co-op di sempre. Con gli amici è esilarante e spaventoso allo stesso tempo. Ottimo per Halloween.",
     played: true,
     steamUrl: "https://store.steampowered.com/app/739630/",
     gogUrl: "",
@@ -1287,7 +1349,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fphasmophobia-steam-gift&cjsku=68870",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "Puzzle cooperativo fisico. Un giocatore legge il manuale, l'altro disarma la bomba.",
+    mini_review_en: "Physical co-op puzzle. One player reads the manual, the other defuses the bomb."
   },
   {
     id: 35,
@@ -1325,7 +1390,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fstar-wars-battlefront-ii-xbox-one&cjsku=11151",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 36,
@@ -1363,7 +1431,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsquad-eu&cjsku=77899",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 37,
@@ -1401,7 +1472,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 38,
@@ -1439,7 +1513,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffallout-76-steam-emea&cjsku=136085",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 39,
@@ -1477,7 +1554,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fborderlands-2&cjsku=168",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 40,
@@ -1515,7 +1595,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Frisk-of-rain-2-eu&cjsku=70513",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 41,
@@ -1553,7 +1636,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgray-zone-warfare-pc-steam-global-en-standard&cjsku=171157",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 42,
@@ -1591,7 +1677,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fbloons-td-6-steam&cjsku=42587",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 43,
@@ -1629,7 +1718,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-planet-crafter-steam-gift&cjsku=133317",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 44,
@@ -1667,7 +1759,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwarhammer-40-000-darktide&cjsku=125399",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 45,
@@ -1705,7 +1800,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Farma-3-steam&cjsku=10843",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 46,
@@ -1743,7 +1841,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fage-of-empires-iv-xbox-xboxoneseries-au-en-de-fr-it-ja-ko-pt-ru-zh-es-tr-vi-anniversary&cjsku=172120",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 47,
@@ -1781,7 +1882,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwarhammer-40-000-space-marine-2-xbox-xboxseries-global-standard&cjsku=176974",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 48,
@@ -1819,7 +1923,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fbrotato-pc-steam-gift-eu-en-de-fr-pl-ja-ko-pt-ru-zh-es-standard&cjsku=144430",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 49,
@@ -1857,7 +1964,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fhunt-showdown-1896-pc-steam-row-standard&cjsku=198351",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 50,
@@ -1895,7 +2005,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Flethal-company-pc-steamgift-global-en-standard&cjsku=163386",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 51,
@@ -1933,7 +2046,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-isle&cjsku=26022",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 52,
@@ -1971,7 +2087,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Flast-epoch-steam&cjsku=67806",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 53,
@@ -2009,7 +2128,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fconan-exiles-eu&cjsku=70512",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 54,
@@ -2047,7 +2169,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fnew-world-aeternum-xbox-xboxseries-eu-standard&cjsku=177762",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 55,
@@ -2085,7 +2210,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsplit-fiction-pc-ea-app-global-standard&cjsku=182722",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 56,
@@ -2123,7 +2251,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsea-of-thieves-xbox-xbox-one-series-windows-jp-2025&cjsku=188059",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 57,
@@ -2161,7 +2292,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 58,
@@ -2199,7 +2333,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdeep-rock-galactic-eu-steam&cjsku=73914",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 59,
@@ -2237,7 +2374,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fit-takes-two-steam&cjsku=84267",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 60,
@@ -2275,7 +2415,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdying-light-eu-steam&cjsku=37962",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 62,
@@ -2313,7 +2456,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fraft-eu&cjsku=25752",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 63,
@@ -2351,7 +2497,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 64,
@@ -2389,7 +2538,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpath-of-exile-2-early-access-pc-officialwebsite-global-standard&cjsku=180860",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 65,
@@ -2427,7 +2579,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fkilling-floor-2-xbox-arg&cjsku=85923",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 66,
@@ -2465,7 +2620,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsons-of-the-forest-pc-steam-gift-eu-en-de-fr-it-pl-cs-ja-ko-pt-ru-zh-es-sv-tr-zh-fi-standard&cjsku=164157",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 67,
@@ -2503,7 +2661,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fready-or-not&cjsku=71019",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 68,
@@ -2541,7 +2702,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdying-light-2-stay-human-pc-steam-global-en-de-fr-it-pl-cs-ja-ko-pt-ru-zh-es-tr-zh-ar-reloaded&cjsku=170167",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 69,
@@ -2579,7 +2743,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fspace-engineers-eu-xbox-one&cjsku=52309",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 70,
@@ -2617,7 +2784,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Famong-us-3d-pc-steam-gift-eu-standard&cjsku=186598",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 71,
@@ -2655,7 +2825,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-outlast-trials-xbox-xboxoneseries-eu-en-standard&cjsku=170018",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 72,
@@ -2693,7 +2866,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmonster-hunter-rise&cjsku=128299",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 73,
@@ -2731,7 +2907,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwarhammer-40-000-rogue-trader-xbox-xboxseries-eu-en-standard&cjsku=165302",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 74,
@@ -2769,7 +2948,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 75,
@@ -2807,7 +2989,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fhalo-the-master-chief-collection-steam-gift&cjsku=44854",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 76,
@@ -2845,7 +3030,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fborderlands-3-eu&cjsku=31140",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 78,
@@ -2883,7 +3071,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fparty-animals-xbox-xboxoneseries-ng-en-zh-zh-standard&cjsku=167154",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 79,
@@ -2921,7 +3112,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fage-of-empires-iii-definitive-edition&cjsku=67317",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 80,
@@ -2959,7 +3153,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffoxhole-eu&cjsku=46477",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 82,
@@ -2997,7 +3194,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fanno-1800-1&cjsku=26977",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 84,
@@ -3035,7 +3235,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdinkum-steam-gift-eu&cjsku=139145",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 85,
@@ -3073,7 +3276,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgrounded-xbox-xboxoneserieswindows-eu-en-standard&cjsku=155052",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 86,
@@ -3111,7 +3317,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgrim-dawn-gog&cjsku=51295",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 87,
@@ -3149,7 +3358,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fbarotrauma-1&cjsku=37516",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 88,
@@ -3187,7 +3399,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fhalo-infinite-5000-and-600-halo-credits&cjsku=137278",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 89,
@@ -3225,7 +3440,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcrossout-adrenaline-xbox-xboxoneseries-eu-en-standard&cjsku=161900",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 90,
@@ -3263,7 +3481,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthehunter-call-of-the-wild-xbox-eu&cjsku=86020",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 91,
@@ -3301,7 +3522,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffor-honor-asia&cjsku=37905",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 93,
@@ -3339,7 +3563,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwarhammer-vermintide-2-shadows-over-bogenhafen-eu&cjsku=75719",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 95,
@@ -3377,7 +3604,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fovercooked-2-eu-1&cjsku=39521",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 96,
@@ -3415,7 +3645,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcuphead-xbox-one-eu&cjsku=47200",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 97,
@@ -3453,7 +3686,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmyth-of-empires-pc-steam-eu-en-de-fr-pl-cs-ja-pt-ru-zh-es-zh-standard&cjsku=172418",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 98,
@@ -3491,7 +3727,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fghost-of-tsushima-director-s-cut-pc-steam-gift-eu-en-de-fr-it-pl-cs-nl-ja-ko-no-pt-ru-zh-es-sv-tr-zh-hu-da-ar-fi-el-th-mx-standard&cjsku=171460",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 99,
@@ -3529,7 +3768,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fportal-2-eu&cjsku=31277",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 100,
@@ -3567,7 +3809,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Finsurgency-sandstorm-year-2-pass-pc-steam-global-en-de-fr-it-pl-cs-nl-ja-ko-no-pt-ru-zh-es-sv-tr-zh-hu-da-fi-th-mx-standard&cjsku=157351",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 101,
@@ -3605,7 +3850,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fescape-the-backrooms-pc-steam-gift-eu-en-de-fr-ru-zh-es-standard&cjsku=158631",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 103,
@@ -3643,7 +3891,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fworld-war-z-pc-steamgift-global-en-standard&cjsku=166224",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 104,
@@ -3681,7 +3932,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgreen-hell-xbox-arg&cjsku=92090",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 105,
@@ -3719,7 +3973,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwartales-xbox-xboxserieswindows-eu-en-standard&cjsku=163336",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 107,
@@ -3757,7 +4014,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fremnant-ii-xbox-xboxseries-eg-en-de-fr-it-ja-ko-pt-ru-zh-es-standard&cjsku=165751",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 108,
@@ -3795,7 +4055,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fage-of-mythology-retold-pc-steam-global-en-de-fr-it-pl-ja-ko-pt-ru-es-hu-da-vi-mx-standard&cjsku=173182",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 109,
@@ -3833,7 +4096,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftinkerlands-pc-steam-gift-global-standard&cjsku=187427",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 110,
@@ -3871,7 +4137,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ficarus-steam-gift&cjsku=116965",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 111,
@@ -3909,7 +4178,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fstormworks-build-and-rescue-eu&cjsku=28567",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 112,
@@ -3947,7 +4219,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftom-clancys-ghost-recon-wildlands-1&cjsku=3095",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 113,
@@ -3985,7 +4260,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 114,
@@ -4023,7 +4301,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fghost-recon-breakpoint-xbox-one&cjsku=43163",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 115,
@@ -4061,7 +4342,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgunfire-reborn-xbox&cjsku=137424",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 117,
@@ -4099,7 +4383,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmedieval-dynasty-xbox-xboxserieswindows-arg-en-standard&cjsku=143969",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 118,
@@ -4137,7 +4424,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fultimate-chicken-horse-xbox-arg&cjsku=86027",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 119,
@@ -4175,7 +4465,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgang-beasts-yogscast-avatars&cjsku=42861",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 120,
@@ -4213,7 +4506,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fstick-fight-the-game-eu-steam-gift&cjsku=46709",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 121,
@@ -4251,7 +4547,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fhuman-fall-flat-eu-steam-eu&cjsku=73024",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 122,
@@ -4289,7 +4588,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Flovers-in-a-dangerous-spacetime-steam-gift&cjsku=59080",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 123,
@@ -4327,7 +4629,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fstreets-of-rage-4&cjsku=57341",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 124,
@@ -4365,7 +4670,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fteenage-mutant-ninja-turtles-shredders-revenge-xbox-arg&cjsku=137232",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 125,
@@ -4403,7 +4711,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fbroforce-1&cjsku=28569",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 126,
@@ -4441,7 +4752,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fa-way-out-xbox-one&cjsku=11150",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 127,
@@ -4479,7 +4793,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmoving-out-moving-out-2-bundle-xbox-xboxoneseries-eu-en-standard&cjsku=158866",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 129,
@@ -4517,7 +4834,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftowerfall-ascension-pc-steam-eu-en-standard&cjsku=174579",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 130,
@@ -4555,7 +4875,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fspelunky-2-xbox-eu&cjsku=130389",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 131,
@@ -4593,7 +4916,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftrine-4-the-nightmare-prince&cjsku=43125",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 132,
@@ -4631,7 +4957,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Frayman-legends-arg-xbox&cjsku=82375",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 134,
@@ -4669,7 +4998,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 135,
@@ -4707,7 +5039,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmove-or-die-steam-gift&cjsku=26496",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 136,
@@ -4745,7 +5080,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fboomerang-fu-eu&cjsku=79787",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 137,
@@ -4783,7 +5121,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fplateup-pc-steam-global-en-de-fr-pl-ja-pt-ru-zh-es-zh-standard&cjsku=139932",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 138,
@@ -4821,7 +5162,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fkeywe&cjsku=124448",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 139,
@@ -4859,7 +5203,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffull-metal-furies-eu-xbox-one&cjsku=52583",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 140,
@@ -4897,7 +5244,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fphogs-xbox-ar&cjsku=72663",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 141,
@@ -4935,7 +5285,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Funravel-two-eng&cjsku=38167",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 143,
@@ -4973,7 +5326,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fback-4-blood-eu-xbox-series&cjsku=125380",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 144,
@@ -5011,7 +5367,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Faliens-fireteam-xbox-xboxoneserieswindows-argentina-en-de-fr-it-pl-cs-ja-pt-ru-zh-es-zh-standard&cjsku=155335",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 145,
@@ -5049,7 +5408,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcontent-warning-pc-steam-global-en-standard&cjsku=170258",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 146,
@@ -5087,7 +5449,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fvampire-survivors-xbox-xboxoneseries-arg-en-standard&cjsku=145225",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 148,
@@ -5125,7 +5490,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcore-keeper-xbox-xboxseries-eu-standard&cjsku=176527",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 149,
@@ -5163,7 +5531,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fstardew-valley-xone-eu&cjsku=51044",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 150,
@@ -5201,7 +5572,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fkeep-talking-and-nobody-explodes-xbox-xboxoneseries-arg-en-standard&cjsku=150919",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 151,
@@ -5239,7 +5613,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpico-park&cjsku=134185",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 152,
@@ -5277,7 +5654,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fovercooked-all-you-can-eat&cjsku=82124",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 153,
@@ -5315,7 +5695,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpayday-3-pc-steam-gift-eu-en-de-fr-it-pl-ja-ko-pt-ru-zh-es-tr-zh-standard&cjsku=164158",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 154,
@@ -5353,7 +5736,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmagicka-2&cjsku=854",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 155,
@@ -5391,7 +5777,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwe-were-here-together-xone-eu&cjsku=60240",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 156,
@@ -5429,7 +5818,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwe-were-here-forever-steam-gift&cjsku=135670",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 157,
@@ -5467,7 +5859,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 158,
@@ -5505,7 +5900,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fescape-academy-xbox-eu&cjsku=139535",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 159,
@@ -5543,7 +5941,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftiny-tinas-wonderlands-epic-games-eu&cjsku=131812",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 160,
@@ -5581,7 +5982,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsackboy-a-big-adventure-pc-steam-global-en-de-fr-it-pl-cs-nl-ja-ko-no-pt-ru-es-sv-tr-zh-hu-da-ro-ar-fi-el-standard&cjsku=144497",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 161,
@@ -5619,7 +6023,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Froboquest-pc-steam-row-en-de-fr-pt-zh-standard&cjsku=166208",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 162,
@@ -5657,7 +6064,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fno-mans-sky-steam-eu&cjsku=50640",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 163,
@@ -5695,7 +6105,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcastle-crashers-remastered-eu&cjsku=51081",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 164,
@@ -5733,7 +6146,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fastroneer-xbox-one-eu&cjsku=47329",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 165,
@@ -5771,7 +6187,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Foutriders-xbox-arg&cjsku=82471",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 166,
@@ -5809,7 +6228,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmoving-out-2-pc-steam-global-en-de-fr-it-pl-ja-ko-pt-ru-zh-es-sv-zh-standard&cjsku=141441",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 167,
@@ -5847,7 +6269,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdivinity-original-sin-the-source-saga-gog&cjsku=76396",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 169,
@@ -5885,7 +6310,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwarhammer-end-times-vermintide-collectors-edition-upgrade-pc-steam-global-en-standard&cjsku=145749",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 170,
@@ -5923,7 +6351,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdevour-steam-gift-eu&cjsku=78388",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 172,
@@ -5961,7 +6392,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 173,
@@ -5999,7 +6433,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fbaldurs-gate-3-xbox-series-in-standard&cjsku=196062",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 174,
@@ -6037,7 +6474,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwar-thunder-german-beginners-bundle-xbox-eu&cjsku=139174",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 175,
@@ -6075,7 +6515,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fea-sports-fc-25-pc-steam-global-standard&cjsku=174819",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 176,
@@ -6113,7 +6556,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fhearts-of-iron-iv-battle-for-the-bosporus&cjsku=70592",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 177,
@@ -6151,7 +6597,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fnba-2k25-pc-steam-global-standard&cjsku=175652",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 178,
@@ -6189,7 +6638,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fschedule-i-pc-steam-gift-global-standard&cjsku=185255",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 179,
@@ -6227,7 +6679,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffinal-fantasy-xiv-online-xbox-xboxseries-eu-en-completebonus&cjsku=170044",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 180,
@@ -6265,7 +6720,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffantasy-life-i-the-girl-who-steals-time-pc-steam-gift-global-standard&cjsku=186785",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 181,
@@ -6303,7 +6761,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Flost-ark-apprentice-starter-pack&cjsku=131628",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 182,
@@ -6341,7 +6802,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpath-of-exile-2-early-access-pc-officialwebsite-global-standard&cjsku=180860",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 183,
@@ -6379,7 +6843,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-elder-scrolls-online-pc-steam-eu-standard&cjsku=195733",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 184,
@@ -6417,7 +6884,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffarming-simulator-25-pc-steam-cn-standard&cjsku=190397",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 186,
@@ -6455,7 +6925,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Feuropa-universalis-iv-steam-row-en-de-standard-pc&cjsku=170061",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 187,
@@ -6493,7 +6966,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fenshrouded-pc-steam-global-en-de-fr-it-pl-ja-ko-pt-ru-zh-es-tr-zh-uk-th-standard&cjsku=167468",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 188,
@@ -6531,7 +7007,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Funturned-xbox-arg&cjsku=137413",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 189,
@@ -6569,7 +7048,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fforza-horizon-5-xbox-xboxoneserieswindows-row-standard&cjsku=175448",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 190,
@@ -6607,7 +7089,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftom-clancys-the-division-2-standard-edition-eu-xbox-one&cjsku=28816",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 191,
@@ -6645,7 +7130,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fworld-of-warships-texas-pack-pc-steam-gift-global-standard&cjsku=196242",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 192,
@@ -6683,7 +7171,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Froadcraft-pc-steam-global-standard&cjsku=184171",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 193,
@@ -6721,7 +7212,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 194,
@@ -6759,7 +7253,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 195,
@@ -6797,7 +7294,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffarming-simulator-22-xbox-eu&cjsku=122248",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 196,
@@ -6835,7 +7335,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ff1-25-pc-ea-app-eu-standard&cjsku=197436",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 198,
@@ -6873,7 +7376,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftabletop-simulator-eu&cjsku=54323",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 199,
@@ -6911,7 +7417,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsmite-2-pc-steam-gift-global-founders&cjsku=176555",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 200,
@@ -6949,7 +7458,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fforza-horizon-4-lego-speed-champions-bundle-pc-xbox-one&cjsku=43557",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 201,
@@ -6987,7 +7499,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Felite-dangerous-xone-eu&cjsku=58424",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 202,
@@ -7025,7 +7540,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 203,
@@ -7063,7 +7581,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftotal-war-three-kingdoms-fates-divided-eu&cjsku=81323",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 204,
@@ -7101,7 +7622,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 205,
@@ -7139,7 +7663,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpopucom-pc-steam-gift-global-standard&cjsku=187920",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 206,
@@ -7177,7 +7704,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 207,
@@ -7215,7 +7745,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 208,
@@ -7253,7 +7786,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdrive-beyond-horizons-pc-steam-gift-global-standard&cjsku=185252",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 209,
@@ -7291,7 +7827,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 210,
@@ -7329,7 +7868,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fguild-wars-2-2000-gems-card&cjsku=650",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 212,
@@ -7367,7 +7909,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffishing-planet-halloween-bundle-xbox-live-arg&cjsku=125093",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 213,
@@ -7405,7 +7950,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 214,
@@ -7443,7 +7991,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 215,
@@ -7481,7 +8032,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fravenswatch-xbox-xboxoneseries-eu-standard&cjsku=180688",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 216,
@@ -7519,7 +8073,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 217,
@@ -7557,7 +8114,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpowerwash-simulator-nintendo-nintendoswitch-eu-en-de-fr-it-ja-ko-pt-ru-zh-es-zh-standard&cjsku=154776",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 218,
@@ -7595,7 +8155,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fhouse-flipper-2-pc-steam-eu-en-de-fr-it-pl-nl-ja-ko-no-pt-ru-zh-es-tr-zh-mx-standard&cjsku=169273",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 219,
@@ -7633,7 +8196,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsupermarket-simulator-pc-steam-gift-global-en-de-fr-it-ja-ko-pt-ru-zh-es-tr-standard&cjsku=168819",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 220,
@@ -7671,7 +8237,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcompany-of-heroes-2&cjsku=272",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 221,
@@ -7709,7 +8278,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdevil-may-cry-5-1&cjsku=28256",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 222,
@@ -7747,7 +8319,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcall-to-arms-gates-of-hell-ostfront&cjsku=138237",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 223,
@@ -7785,7 +8360,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fred-dead-online-steam-gift-eu&cjsku=74378",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 224,
@@ -7823,7 +8401,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcompany-of-heroes-3-steam-emea-en-de-fr-it-pl-cs-ko-zh-es-standard-pc&cjsku=158602",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 226,
@@ -7861,7 +8442,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 227,
@@ -7899,7 +8483,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 228,
@@ -7937,7 +8524,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftotal-war-shogun-2-sengoku-jidai-unit-pack&cjsku=36578",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 229,
@@ -7975,7 +8565,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpga-tour-2k25-pc-steam-global-standard&cjsku=183801",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 230,
@@ -8013,7 +8606,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 231,
@@ -8051,7 +8647,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fage-of-wonders-4-pc-steam-global-en-de-fr-pl-ja-ko-ru-zh-es-standard&cjsku=152936",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 232,
@@ -8089,7 +8688,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fescape-simulator-2-pc-steam-gift-global-standard&cjsku=194778",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 233,
@@ -8127,7 +8729,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpikuniku&cjsku=35612",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 234,
@@ -8165,7 +8770,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgtfo-steam&cjsku=47089",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 235,
@@ -8203,7 +8811,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwe-need-to-go-deeper-eu&cjsku=123389",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 236,
@@ -8241,7 +8852,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdungeon-of-the-endless&cjsku=33456",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 237,
@@ -8279,7 +8893,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fheave-ho&cjsku=42396",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 238,
@@ -8317,7 +8934,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fnecesse-pc-steam-global-en-de-fr-cs-ja-ko-pt-ru-zh-es-tr-zh-hu-uk-mx-standard&cjsku=158150",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 239,
@@ -8355,7 +8975,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fghost-watchers-pc-steam-gift-eu-en-de-fr-it-pl-cs-nl-ja-ko-no-pt-ru-zh-es-sv-tr-zh-da-fi-uk-th-standard&cjsku=139714",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 240,
@@ -8393,7 +9016,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fchained-together-pc-steam-gift-global-en-standard&cjsku=173822",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 241,
@@ -8431,7 +9057,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fbesiege-pc-steam-eu-standard&cjsku=179487",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 242,
@@ -8469,7 +9098,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsunkenland-pc-steam-global-en-de-fr-ja-ko-ru-zh-es-tr-standard&cjsku=159579",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 243,
@@ -8507,7 +9139,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 244,
@@ -8545,7 +9180,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fvolcanoids-1&cjsku=31272",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 245,
@@ -8583,7 +9221,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwe-were-here-forever-steam-gift&cjsku=135670",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 246,
@@ -8621,7 +9262,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftotally-reliable-delivery-service-xbox-arg&cjsku=133252",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 247,
@@ -8659,7 +9303,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffor-the-king-eu&cjsku=80133",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 248,
@@ -8697,7 +9344,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffor-the-king-2-pc-steamgift-global-en-de-fr-it-pl-ja-ko-pt-ru-zh-es-zh-uk-standard&cjsku=161985",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 249,
@@ -8735,7 +9385,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 250,
@@ -8773,7 +9426,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcult-of-the-lamb&cjsku=136453",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 251,
@@ -8811,7 +9467,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fshovel-knight-treasure-trove-steam-eu-en-de-fr-it-ja-pt-ru-es-standard-pc&cjsku=145704",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 252,
@@ -8849,7 +9508,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsoulmask-pc-steam-global-en-de-fr-ja-ko-pt-ru-zh-es-zh-standard&cjsku=172757",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 253,
@@ -8887,7 +9549,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fprodeus&cjsku=72021",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 254,
@@ -8925,7 +9590,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 255,
@@ -8963,7 +9631,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fship-of-fools-pc-steam-global-en-de-fr-it-ja-ko-ru-zh-es-zh-standard&cjsku=143373",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 256,
@@ -9001,7 +9672,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpatch-quest-steam-global-en-standard-pc&cjsku=152300",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 257,
@@ -9039,7 +9713,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 258,
@@ -9077,7 +9754,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-finals-year-1-deluxe-edition-pc-steam-gift-global-standard&cjsku=196879",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 259,
@@ -9115,7 +9795,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fdirect-top-ups%2Fmarvel-rivals-100-lattices&cjsku=181617",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 260,
@@ -9153,7 +9836,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftower-unite&cjsku=28705",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 261,
@@ -9191,7 +9877,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdelta-force&cjsku=36430",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 262,
@@ -9229,7 +9918,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fapex-legends-apex-coins-eu-xbox-gift-cards-xboxlive-eu-standard-2150apexcoins&cjsku=149731",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 263,
@@ -9267,7 +9959,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fphantasy-star-online-2-new-genesis-pack-official-website-officialwebsite-global-en-standard&cjsku=152733",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 264,
@@ -9305,7 +10000,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpeak-pc-steam-gift-global-standard&cjsku=188660",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 265,
@@ -9343,7 +10041,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fabsolum-pc-steam-gift-global-standard&cjsku=194010",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 266,
@@ -9381,7 +10082,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Frv-there-yet-pc-steam-gift-global-standard&cjsku=194296",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 267,
@@ -9419,7 +10123,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fborderlands-4-pc-steam-eu-standard&cjsku=188788",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 268,
@@ -9457,7 +10164,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcoral-island-pc-steam-global-en-standard&cjsku=142509",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 269,
@@ -9495,7 +10205,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 270,
@@ -9533,7 +10246,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fbellwright-pc-steam-gift-global-en-de-fr-it-pl-ja-ko-pt-ru-zh-es-tr-zh-uk-standard&cjsku=170846",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 271,
@@ -9571,7 +10287,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Farc-raiders-pc-steam-row-standard&cjsku=194180",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 272,
@@ -9609,7 +10328,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fminecraft-dungeons&cjsku=47596",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 273,
@@ -9647,7 +10369,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdune-awakening-pc-steam-global-en-standard&cjsku=141436",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 274,
@@ -9685,7 +10410,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Forcs-must-die-3-eu&cjsku=121651",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 275,
@@ -9723,7 +10451,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 276,
@@ -9761,7 +10492,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fabyssus-pc-steam-global-standard&cjsku=192046",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 277,
@@ -9799,7 +10533,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdying-light-the-beast-pc-steam-gift-global-standard&cjsku=192390",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 278,
@@ -9837,7 +10574,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmonaco-whats-yours-is-mine-eu&cjsku=55105",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 279,
@@ -9875,7 +10615,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 280,
@@ -9913,7 +10656,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Funtitled-goose-game-steam-gift&cjsku=69017",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 281,
@@ -9951,7 +10697,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Foperation-tango&cjsku=122517",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 282,
@@ -9989,7 +10738,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Funrailed-2-back-on-track-pc-steam-gift-global-standard&cjsku=179903",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 283,
@@ -10027,7 +10779,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftools-up&cjsku=47304",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 284,
@@ -10065,7 +10820,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fbiped-2-pc-steam-global-standard&cjsku=195134",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 285,
@@ -10103,7 +10861,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fnobody-saves-the-world&cjsku=130345",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 286,
@@ -10141,7 +10902,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdarksiders-genesis&cjsku=43648",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 287,
@@ -10179,7 +10943,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fchildren-of-morta-complete-edition&cjsku=134434",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 288,
@@ -10217,7 +10984,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftrine-5-a-clockwork-conspiracy-steam-global-en-de-fr-it-pl-cs-ja-ko-pt-ru-zh-es-tr-zh-uk-mx-standard-pc&cjsku=158403",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 289,
@@ -10255,7 +11025,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fember-knights&cjsku=134480",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 290,
@@ -10293,7 +11066,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcarx-drift-racing-online-xbox-eu&cjsku=67567",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 291,
@@ -10331,7 +11107,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 292,
@@ -10369,7 +11148,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdoom-doom-ii-bundle-xbox-xboxoneserieswindows-eu-standard&cjsku=175872",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 293,
@@ -10407,7 +11189,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsniper-elite-5-steam-gift&cjsku=135541",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 294,
@@ -10445,7 +11230,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 295,
@@ -10483,7 +11271,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fplague-inc-evolved-xbox-xboxoneseries-arg-en-de-fr-it-standard&cjsku=142570",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 296,
@@ -10521,7 +11312,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 297,
@@ -10559,7 +11353,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 298,
@@ -10597,7 +11394,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftotal-war-warhammer-ii-collection-pc-steam-eu-en-de-fr-it-pl-cs-ko-pt-ru-zh-es-tr-zh-standard&cjsku=160372",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 299,
@@ -10635,7 +11435,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fabiotic-factor-xbox-series-pc-in-supporter&cjsku=196664",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 300,
@@ -10673,7 +11476,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftotal-war-attila&cjsku=1572",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 301,
@@ -10711,7 +11517,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fneed-for-speed-heat-eng-es-fr-ar-cn-jp-kr-pt&cjsku=84002",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 302,
@@ -10749,7 +11558,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 303,
@@ -10787,7 +11599,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwarhammer-40-000-gladius-relics-of-war&cjsku=27595",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 304,
@@ -10825,7 +11640,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffifa-22-eu-origin&cjsku=124385",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 305,
@@ -10863,7 +11681,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fkingdom-two-crowns-eu-steam&cjsku=80970",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 306,
@@ -10901,7 +11722,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffar-cry-5-far-cry-new-dawn-deluxe-edition-bundle&cjsku=28284",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 307,
@@ -10939,7 +11763,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fstate-of-decay-2-juggernaut-edition-xbox-tr&cjsku=139474",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 308,
@@ -10977,7 +11804,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdeadzone-rogue-pc-steam-gift-global-standard&cjsku=186446",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 309,
@@ -11015,7 +11845,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 310,
@@ -11053,7 +11886,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Flost-castle-2-pc-steam-global-en-zh-zh-standard&cjsku=174328",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 311,
@@ -11091,7 +11927,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffarm-together-2-pc-steam-gift-global-en-de-fr-nl-ja-ko-pt-ru-zh-es-tr-hu-uk-standard&cjsku=171375",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 312,
@@ -11129,7 +11968,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fstar-trek-online-federation-elite-starter-pack&cjsku=50694",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 313,
@@ -11167,7 +12009,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdead-island-2-xbox-xboxoneseries-global-en-standard&cjsku=166426",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 314,
@@ -11205,7 +12050,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgranblue-fantasy-relink-pc-steamgift-global-en-de-fr-it-ja-ko-pt-zh-es-zh-standard&cjsku=167779",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 315,
@@ -11243,7 +12091,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 316,
@@ -11281,7 +12132,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 318,
@@ -11319,7 +12173,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwwe-2k25-nintendo-nintendo-switch-2-eu-standard&cjsku=192512",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 319,
@@ -11357,7 +12214,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsniper-elite-resistance-pc-steam-row-standard&cjsku=183055",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 320,
@@ -11395,7 +12255,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffoundry-pc-steam-global-en-standard&cjsku=170464",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 321,
@@ -11433,7 +12296,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 322,
@@ -11471,7 +12337,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fscrap-mechanic-eu&cjsku=25833",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 323,
@@ -11509,7 +12378,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftrailmakers-xbox-xboxoneserieswindows-eu-en-de-fr-it-pl-pt-ru-zh-es-zh-da-standard&cjsku=161655",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 324,
@@ -11547,7 +12419,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fstarbound-eu&cjsku=37855",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 325,
@@ -11585,7 +12460,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 326,
@@ -11623,7 +12501,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-crew-2-xbox-arg&cjsku=133244",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 327,
@@ -11661,7 +12542,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwarno-steam-gift-eu&cjsku=130385",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 328,
@@ -11699,7 +12583,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 329,
@@ -11737,7 +12624,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 330,
@@ -11775,7 +12665,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fplants-vs-zombies-garden-warfare-2-deluxe-edition-eu-xbox&cjsku=79753",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 331,
@@ -11813,7 +12706,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Frunescape-dragonwilds-pc-steam-gift-global-standard&cjsku=186039",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 332,
@@ -11851,7 +12747,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcall-of-duty-modern-warfare-3-2011-xbox-xboxwindows-eu-standard&cjsku=182822",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 333,
@@ -11889,7 +12788,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-lords-of-the-fallen-pc-steam-global-en-de-fr-it-pl-ja-ko-pt-ru-zh-es-uk-standard&cjsku=141437",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 334,
@@ -11927,7 +12829,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Foddsparks-an-automation-adventure-xbox-xbox-series-eu-standard&cjsku=187624",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 335,
@@ -11965,7 +12870,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fage-of-mythology-extended-edition&cjsku=19",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 336,
@@ -12003,7 +12911,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 337,
@@ -12041,7 +12952,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-lord-of-the-rings-60-day-game-time-code-eu&cjsku=50397",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 338,
@@ -12079,7 +12993,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 339,
@@ -12117,7 +13034,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fleft-4-dead-steam-gift&cjsku=46048",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 340,
@@ -12155,7 +13075,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftom-clancys-the-division-2&cjsku=28077",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 341,
@@ -12193,7 +13116,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmordhau-xbox-xboxoneseries-eu-en-standard&cjsku=166140",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 342,
@@ -12231,7 +13157,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftrove-eclipse-pack-pc-steam-global-standard&cjsku=180782",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 343,
@@ -12269,7 +13198,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fneverwinter-nights-enhanced-edition-1&cjsku=27718",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 344,
@@ -12307,7 +13239,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fhumanitz-pc-steam-row-en-standard&cjsku=166861",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 345,
@@ -12345,7 +13280,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Flightyear-frontier-steamgift-global-en-de-fr-it-pl-ja-ko-pt-ru-zh-es-zh-standard-pc&cjsku=169758",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 346,
@@ -12383,7 +13321,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 347,
@@ -12421,7 +13362,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fassault-squad-2-men-of-war-origins&cjsku=84",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 348,
@@ -12459,7 +13403,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Faska-pc-steam-global-en-de-ro-standard&cjsku=172482",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 349,
@@ -12497,7 +13444,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdeadside-xbox-xbox-series-eu-standard&cjsku=184333",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 350,
@@ -12535,7 +13485,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Feco-eu&cjsku=25832",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 351,
@@ -12573,7 +13526,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 352,
@@ -12611,7 +13567,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 354,
@@ -12649,7 +13608,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 355,
@@ -12687,7 +13649,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmindustry-eu&cjsku=48628",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 356,
@@ -12725,7 +13690,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 357,
@@ -12763,7 +13731,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdragon-ball-xenoverse-2-eu-switch&cjsku=31703",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 358,
@@ -12801,7 +13772,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdead-frontier-2-survivor-starter-pack-pc-steam-global-en-standard&cjsku=141449",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 361,
@@ -12839,7 +13813,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmechwarrior-5-mercenaries-xbox-one-series-pc-eu-succession-wars&cjsku=194821",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 362,
@@ -12877,7 +13854,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffar-cry-6-steam-gift-global-en-de-fr-it-pl-ja-ko-ru-zh-es-zh-ar-th-standard-pc&cjsku=155089",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 363,
@@ -12915,7 +13895,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwobbly-life-steam-gift-eu&cjsku=139015",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 364,
@@ -12953,7 +13936,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 366,
@@ -12991,7 +13977,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Favorion-steam-eu-standard-pc&cjsku=179235",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 367,
@@ -13029,7 +14018,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fliars-bar-pc-steamgift-global-standard&cjsku=178389",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 368,
@@ -13067,7 +14059,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftitan-quest-anniversary-edition-de&cjsku=65569",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 369,
@@ -13105,7 +14100,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Faxis-allies-1942-online-steam&cjsku=50172",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 370,
@@ -13143,7 +14141,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftropico-6-festival&cjsku=122767",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 371,
@@ -13181,7 +14182,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwingspan&cjsku=68943",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 372,
@@ -13219,7 +14223,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fapocalypse-party-pc-steam-global-en-zh-zh-standard&cjsku=164879",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 373,
@@ -13257,7 +14264,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fresident-evil-5-xbox-xboxoneseries-brazil-en-standard&cjsku=147657",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 374,
@@ -13295,7 +14305,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffar-cry-4-far-cry-primal-bundle-xbox-tr&cjsku=137065",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 376,
@@ -13333,7 +14346,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffast-food-simulator-pc-steam-gift-global-standard&cjsku=181301",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 377,
@@ -13371,7 +14387,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsins-of-a-solar-empire-ii-pc-steam-eu-standard&cjsku=176844",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 378,
@@ -13409,7 +14428,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsniper-elite-4-nintendo-nintendo-switch-eu-standard&cjsku=195863",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 379,
@@ -13447,7 +14469,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Facross-the-obelisk-xbox-xboxseries-eu-starter&cjsku=179917",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 380,
@@ -13485,7 +14510,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 381,
@@ -13523,7 +14551,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 382,
@@ -13561,7 +14592,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 383,
@@ -13599,7 +14633,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 384,
@@ -13637,7 +14674,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 385,
@@ -13675,7 +14715,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 386,
@@ -13713,7 +14756,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 387,
@@ -13751,7 +14797,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 388,
@@ -13789,7 +14838,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 389,
@@ -13827,7 +14879,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 390,
@@ -13865,7 +14920,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 391,
@@ -13903,7 +14961,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 392,
@@ -13941,7 +15002,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 393,
@@ -13979,7 +15043,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 394,
@@ -14017,7 +15084,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 395,
@@ -14055,7 +15125,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 396,
@@ -14093,7 +15166,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 397,
@@ -14131,7 +15207,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 398,
@@ -14169,7 +15248,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 399,
@@ -14207,7 +15289,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 400,
@@ -14245,7 +15330,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcall-of-duty-black-ops-6-pc-battlenet-eu-standard&cjsku=179276",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 401,
@@ -14283,7 +15371,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Frise-of-nations-xbox-xboxwindows-eu-extended&cjsku=177347",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 402,
@@ -14321,7 +15412,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fresident-evil-6-eu-xbox-one&cjsku=46689",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 403,
@@ -14359,7 +15453,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fvoid-crew-xbox-xbox-series-eu-standard&cjsku=192397",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 404,
@@ -14397,7 +15494,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsea-of-stars-pc-steam-gift-global-en-de-fr-ja-ko-pt-ru-zh-es-zh-standard&cjsku=159476",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 405,
@@ -14435,7 +15535,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdoor-kickers-2-task-force-north-steam-gift-eu&cjsku=72208",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 406,
@@ -14473,7 +15576,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 407,
@@ -14511,7 +15617,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 408,
@@ -14549,7 +15658,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 409,
@@ -14587,7 +15699,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 410,
@@ -14625,7 +15740,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 411,
@@ -14663,7 +15781,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 412,
@@ -14701,7 +15822,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 413,
@@ -14739,7 +15863,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 414,
@@ -14777,7 +15904,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 415,
@@ -14815,7 +15945,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 416,
@@ -14853,7 +15986,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 417,
@@ -14891,7 +16027,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 418,
@@ -14929,7 +16068,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 419,
@@ -14967,7 +16109,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 420,
@@ -15005,7 +16150,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 421,
@@ -15043,7 +16191,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 422,
@@ -15081,7 +16232,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 423,
@@ -15119,7 +16273,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 424,
@@ -15157,7 +16314,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 425,
@@ -15195,7 +16355,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 426,
@@ -15233,7 +16396,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 427,
@@ -15271,7 +16437,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 428,
@@ -15309,7 +16478,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 429,
@@ -15347,7 +16519,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 430,
@@ -15385,7 +16560,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 431,
@@ -15423,7 +16601,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 432,
@@ -15461,7 +16642,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 433,
@@ -15499,7 +16683,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 434,
@@ -15537,7 +16724,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 435,
@@ -15575,7 +16765,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 436,
@@ -15613,7 +16806,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 437,
@@ -15651,7 +16847,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 438,
@@ -15689,7 +16888,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 439,
@@ -15727,7 +16929,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 440,
@@ -15765,7 +16970,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 441,
@@ -15803,7 +17011,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 442,
@@ -15841,7 +17052,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 443,
@@ -15879,7 +17093,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 444,
@@ -15917,7 +17134,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 445,
@@ -15955,7 +17175,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 446,
@@ -15993,7 +17216,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 447,
@@ -16031,7 +17257,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 448,
@@ -16069,7 +17298,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 449,
@@ -16107,7 +17339,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 450,
@@ -16145,7 +17380,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 451,
@@ -16183,7 +17421,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 452,
@@ -16221,7 +17462,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 453,
@@ -16259,7 +17503,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 454,
@@ -16297,7 +17544,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 455,
@@ -16335,7 +17585,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 456,
@@ -16373,7 +17626,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 457,
@@ -16411,7 +17667,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 458,
@@ -16449,7 +17708,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 459,
@@ -16487,7 +17749,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 460,
@@ -16525,7 +17790,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 461,
@@ -16563,7 +17831,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 462,
@@ -16601,7 +17872,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 463,
@@ -16639,7 +17913,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 464,
@@ -16677,7 +17954,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 465,
@@ -16715,7 +17995,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 466,
@@ -16753,7 +18036,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 467,
@@ -16791,7 +18077,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 468,
@@ -16829,7 +18118,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 469,
@@ -16867,7 +18159,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 470,
@@ -16905,7 +18200,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 471,
@@ -16943,7 +18241,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 472,
@@ -16981,7 +18282,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 473,
@@ -17019,7 +18323,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 474,
@@ -17057,7 +18364,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 475,
@@ -17095,7 +18405,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 476,
@@ -17133,7 +18446,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 477,
@@ -17171,7 +18487,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 478,
@@ -17209,7 +18528,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 479,
@@ -17247,7 +18569,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 480,
@@ -17285,7 +18610,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 481,
@@ -17323,7 +18651,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 482,
@@ -17361,7 +18692,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 483,
@@ -17399,7 +18733,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 484,
@@ -17437,7 +18774,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 485,
@@ -17475,7 +18815,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 486,
@@ -17513,7 +18856,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 487,
@@ -17551,7 +18897,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 488,
@@ -17589,7 +18938,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 489,
@@ -17627,7 +18979,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 490,
@@ -17665,7 +19020,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 491,
@@ -17703,7 +19061,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 492,
@@ -17741,7 +19102,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 493,
@@ -17779,7 +19143,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 494,
@@ -17817,7 +19184,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 495,
@@ -17855,7 +19225,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 496,
@@ -17893,7 +19266,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 497,
@@ -17931,7 +19307,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 498,
@@ -17969,7 +19348,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 499,
@@ -18007,7 +19389,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 500,
@@ -18045,7 +19430,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 501,
@@ -18083,7 +19471,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 502,
@@ -18121,7 +19512,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 503,
@@ -18159,7 +19553,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 504,
@@ -18197,7 +19594,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 505,
@@ -18235,7 +19635,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 506,
@@ -18273,7 +19676,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 507,
@@ -18311,7 +19717,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 508,
@@ -18349,7 +19758,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 509,
@@ -18387,7 +19799,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 510,
@@ -18425,7 +19840,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 511,
@@ -18463,7 +19881,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 512,
@@ -18501,7 +19922,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 513,
@@ -18539,7 +19963,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 514,
@@ -18577,7 +20004,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 515,
@@ -18615,7 +20045,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 516,
@@ -18653,7 +20086,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 517,
@@ -18691,7 +20127,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 518,
@@ -18729,7 +20168,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Feverwind-pc-steam-gift-global-standard&cjsku=200450",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 519,
@@ -18767,7 +20209,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fproject-castaway-pc-steamgift-global-standard&cjsku=177736",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 520,
@@ -18805,7 +20250,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdragonkin-the-banished-pc-steam-global-standard&cjsku=183742",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 521,
@@ -18843,7 +20291,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftower-tag-vr&cjsku=61337",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 522,
@@ -18881,7 +20332,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 523,
@@ -18919,7 +20373,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwwe-2k26-xbox-xbox-series-global-standard&cjsku=200207",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 524,
@@ -18957,7 +20414,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fjohn-carpenters-toxic-commando-pc-steam-gift-global-standard&cjsku=200174",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 525,
@@ -18995,7 +20455,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 526,
@@ -19033,7 +20496,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Frewind-99-pc-steam-global-standard&cjsku=200462",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 527,
@@ -19071,7 +20537,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fover-the-top-wwi-pc-steam-gift-global-standard&cjsku=200170",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 528,
@@ -19109,7 +20578,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fhexbreaker-ii-pc-steam-global-standard&cjsku=200461",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 529,
@@ -19147,7 +20619,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fslay-the-spire-2-pc-steam-gift-global-standard&cjsku=200010",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 530,
@@ -19185,7 +20660,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdesynced-pc-steam-gift-global-en-de-fr-pt-ru-zh-es-standard&cjsku=158920",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 531,
@@ -19223,7 +20701,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdysplaced-pc-steam-gift-global-standard&cjsku=200029",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 532,
@@ -19261,7 +20742,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fnever-grave-the-witch-and-the-curse-xbox-xbox-series-pc-eu-standard&cjsku=200383",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 533,
@@ -19299,7 +20783,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Frotwood-pc-steam-gift-global-en-standard&cjsku=170968",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 534,
@@ -19337,7 +20824,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 535,
@@ -19375,7 +20865,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 536,
@@ -19413,7 +20906,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 537,
@@ -19451,7 +20947,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 538,
@@ -19489,7 +20988,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 539,
@@ -19527,7 +21029,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 540,
@@ -19565,7 +21070,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 541,
@@ -19603,7 +21111,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 542,
@@ -19641,7 +21152,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 543,
@@ -19679,7 +21193,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 544,
@@ -19717,7 +21234,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 545,
@@ -19755,7 +21275,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 546,
@@ -19793,7 +21316,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 547,
@@ -19831,7 +21357,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 548,
@@ -19869,7 +21398,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 549,
@@ -19907,7 +21439,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 550,
@@ -19945,7 +21480,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 551,
@@ -19983,7 +21521,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 552,
@@ -20021,7 +21562,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 553,
@@ -20059,7 +21603,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 554,
@@ -20097,7 +21644,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 555,
@@ -20135,7 +21685,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 556,
@@ -20173,7 +21726,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Foverthrown-pc-steam-global-standard&cjsku=180625",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 557,
@@ -20211,7 +21767,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ff1-24-pc-ea-app-global-standard&cjsku=175707",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 558,
@@ -20249,7 +21808,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffarming-simulator-19-1&cjsku=26577",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 559,
@@ -20287,7 +21849,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 560,
@@ -20325,7 +21890,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 561,
@@ -20363,7 +21931,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 562,
@@ -20401,7 +21972,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 563,
@@ -20439,7 +22013,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 564,
@@ -20477,7 +22054,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 565,
@@ -20515,7 +22095,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 566,
@@ -20553,7 +22136,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 567,
@@ -20591,7 +22177,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 568,
@@ -20629,7 +22218,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 569,
@@ -20667,7 +22259,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 570,
@@ -20705,7 +22300,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 571,
@@ -20743,7 +22341,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 572,
@@ -20781,7 +22382,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 573,
@@ -20819,7 +22423,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 574,
@@ -20857,7 +22464,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 575,
@@ -20895,7 +22505,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 576,
@@ -20933,7 +22546,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 577,
@@ -20971,7 +22587,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 578,
@@ -21009,7 +22628,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 579,
@@ -21047,7 +22669,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 580,
@@ -21085,7 +22710,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 581,
@@ -21123,7 +22751,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 582,
@@ -21161,7 +22792,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-bus&cjsku=82335",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 583,
@@ -21199,7 +22833,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 585,
@@ -21237,7 +22874,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Favatar-frontiers-of-pandora-xbox-xboxseries-eu-en-standard&cjsku=156412",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 586,
@@ -21275,7 +22915,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgoat-simulator-3-pc-steam-global-en-de-fr-it-pl-ja-ko-pt-ru-zh-es-zh-standard&cjsku=170736",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 587,
@@ -21313,7 +22956,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcosmoteer-starship-architect-commander-pc-steam-gift-eu-en-de-fr-pt-ru-zh-mx-standard&cjsku=144813",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 588,
@@ -21351,7 +22997,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Frisk-of-rain-returns-pc-steam-gift-global-en-de-fr-it-ja-ko-pt-ru-zh-es-tr-standard&cjsku=163416",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 589,
@@ -21389,7 +23038,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fclone-drone-in-the-danger-zone&cjsku=75199",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 590,
@@ -21427,7 +23079,10 @@ const games = [
     gmvUrl: "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmadness-project-nexus-steam-gift-eu&cjsku=124137",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 591,
@@ -21465,7 +23120,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsolasta-crown-of-the-magister-palace-of-ice-xbox-xboxoneserieswindows-eu-en-standard&cjsku=161521",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 592,
@@ -21503,7 +23161,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fjagged-alliance-3-xbox-xboxoneseries-eu-en-standard&cjsku=163634",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 593,
@@ -21541,7 +23202,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 594,
@@ -21579,7 +23243,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwe-were-here-expeditions-the-friendship-pc-steam-global-standard&cjsku=175857",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 595,
@@ -21617,7 +23284,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fastral-ascent-celestial-haven-pc-steam-global-standard&cjsku=195979",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 596,
@@ -21655,7 +23325,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-past-within-pc-steam-global-en-de-fr-it-pl-cs-nl-ja-ko-pt-ru-zh-es-sv-tr-zh-da-vi-standard&cjsku=143365",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 597,
@@ -21693,7 +23366,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Flabyrinthine-dreams&cjsku=40531",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 598,
@@ -21731,7 +23407,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fluma-island-pc-steam-global-standard&cjsku=179519",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 599,
@@ -21769,7 +23448,10 @@ const games = [
     gmvUrl: "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ftetris-effect-connected&cjsku=122409",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 600,
@@ -21807,7 +23489,10 @@ const games = [
     gmvUrl: "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Froots-of-pacha-xbox-xboxoneseries-eu-standard&cjsku=175500",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 601,
@@ -21845,7 +23530,10 @@ const games = [
     gmvUrl: "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fecho-point-nova-pc-steam-gift-global-standard&cjsku=184797",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 602,
@@ -21883,7 +23571,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 603,
@@ -21921,7 +23612,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 604,
@@ -21959,7 +23653,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 605,
@@ -21997,7 +23694,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 606,
@@ -22035,7 +23735,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 607,
@@ -22073,7 +23776,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 608,
@@ -22111,7 +23817,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 609,
@@ -22149,7 +23858,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 610,
@@ -22187,7 +23899,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 611,
@@ -22225,7 +23940,10 @@ const games = [
     gmvUrl: "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fchained-wheels-pc-steam-global-standard&cjsku=200964",
     gmvDiscount: 10,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 612,
@@ -22263,7 +23981,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 613,
@@ -22301,7 +24022,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 614,
@@ -22339,7 +24063,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 615,
@@ -22377,7 +24104,10 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "https://greenmangaming.sjv.io/qWzoQy",
-    gmgDiscount: 5
+    gmgDiscount: 5,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
   {
     id: 616,
@@ -22415,6 +24145,9 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     gmgUrl: "",
-    gmgDiscount: 0
+    gmgDiscount: 0,
+    coopScore: null,
+    mini_review_it: "",
+    mini_review_en: ""
   },
 ];

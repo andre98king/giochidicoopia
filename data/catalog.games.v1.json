@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-31T15:19:12+00:00",
+  "generatedAt": "2026-04-01T10:48:15+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
@@ -80,6 +80,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "Survival hardcore in multiplayer. Costruisci, sopravvivi e difenditi contro altri giocatori in un mondo aperto brutalmente competitivo.",
+      "mini_review_en": "Hardcore multiplayer survival. Build, survive, and defend against other players in a brutally competitive open world.",
       "slug": "elden-ring-nightreign",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -176,6 +179,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "rust",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -270,6 +276,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "FPS tattico con distruzione ambientale. Mappe verticali e strategie precise rendono ogni round un puzzle.",
+      "mini_review_en": "Tactical FPS with environmental destruction. Vertical maps and precise strategies make each round a puzzle.",
       "slug": "helldivers-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -365,6 +374,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "tom-clancys-rainbow-six-siege",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -468,6 +480,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "Classico shooter multiplayer con classi uniche. Competitivo e divertente dopo oltre 15 anni.",
+      "mini_review_en": "Classic multiplayer shooter with unique classes. Competitive and fun after 15+ years.",
       "slug": "dead-by-daylight",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -563,6 +578,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "team-fortress-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -656,6 +674,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "Survival horror realista in multiplayer. Fame, sete, malattie: sopravvivere è un'esperienza dura.",
+      "mini_review_en": "Realistic multiplayer survival horror. Hunger, thirst, diseases: survival is a harsh experience.",
       "slug": "grand-theft-auto-v-enhanced",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -758,6 +779,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "dayz",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -855,6 +879,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "Horror coop physics-based. Raccogli oggetti pesanti con fisica realistica in compagnia.",
+      "mini_review_en": "Physics-based coop horror. Collect heavy objects with realistic physics together.",
       "slug": "warframe",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -958,6 +985,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "r-e-p-o",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -1057,6 +1087,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "Furti cooperativi in stile heist. Pianifica, esegui e domina con la tua banda.",
+      "mini_review_en": "Co-op heist-style robberies. Plan, execute, and dominate with your crew.",
       "slug": "dont-starve-together",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -1154,6 +1187,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "payday-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -1257,6 +1293,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "FPS MMO looter shooter. Campagna, raid e PvP in un universo sci-fi epico.",
+      "mini_review_en": "MMO looter shooter FPS. Campaigns, raids and PvP in an epic sci-fi universe.",
       "slug": "left-4-dead-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -1358,6 +1397,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "destiny-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -1461,6 +1503,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "Survival zombie hardcore. Gestione risorse realistica e permadeath in un mondo post-apocalittico.",
+      "mini_review_en": "Hardcore zombie survival. Realistic resource management and permadeath in a post-apocalyptic world.",
       "slug": "terraria",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -1570,6 +1615,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "project-zomboid",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -1673,6 +1721,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "Auto calcetto competitivo. Fisica esagerata e match rapidi perfetti per gaming serale.",
+      "mini_review_en": "Competitive car soccer. Exaggerated physics and quick matches perfect for evening gaming.",
       "slug": "ark-survival-evolved",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -1779,6 +1830,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "rocket-league",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -1880,6 +1934,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "Creature catching survival. Combina allevamento, crafting e combattimento in mondo aperto.",
+      "mini_review_en": "Creature catching survival. Combine breeding, crafting and combat in open world.",
       "slug": "garrys-mod",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -1976,6 +2033,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "palworld",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -2075,6 +2135,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "Strategia RTS grand scale. Campagne epiche e battaglie enormi in tempo reale.",
+      "mini_review_en": "Grand scale RTS strategy. Epic campaigns and massive real-time battles.",
       "slug": "7-days-to-die",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -2171,6 +2234,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "total-war-warhammer-iii",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -2269,6 +2335,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "Roguelike procedurale indie. Centinaia di run uniche con personaggi e boss vari.",
+      "mini_review_en": "Procedural indie roguelike. Hundreds of unique runs with varied characters and bosses.",
       "slug": "factorio",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -2374,6 +2443,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "the-binding-of-isaac-rebirth",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -2470,6 +2542,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "MMO action sandbox open-world. Combatti, crafta e governa in un mondo persistente.",
+      "mini_review_en": "Open-world action MMO sandbox. Fight, craft and rule in a persistent world.",
       "slug": "valheim",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -2572,6 +2647,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "black-desert",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -2669,6 +2747,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "RTS classico con campagne storiche. Multiplayer competitivo e cooperativo epico.",
+      "mini_review_en": "Classic RTS with historical campaigns. Epic competitive and co-op multiplayer.",
       "slug": "brawlhalla",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -2764,6 +2845,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "age-of-empires-ii-definitive-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -2860,6 +2944,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "Action RPG monster hunting. Combatti creature giganti in ambienti spettacolari.",
+      "mini_review_en": "Monster hunting action RPG. Fight giant creatures in spectacular environments.",
       "slug": "satisfactory",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -2962,6 +3049,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "monster-hunter-wilds",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -3062,6 +3152,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "Vampire survival sandbox. Costruisci il tuo regno, gestisci risorse e combatti il sole.",
+      "mini_review_en": "Vampire survival sandbox. Build your kingdom, manage resources and fight the sun.",
       "slug": "monster-hunter-world",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -3162,6 +3255,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "v-rising",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -3257,6 +3353,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "Puzzle cooperativo fisico. Un giocatore legge il manuale, l'altro disarma la bomba.",
+      "mini_review_en": "Physical co-op puzzle. One player reads the manual, the other defuses the bomb.",
       "slug": "phasmophobia",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -3352,6 +3451,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "star-wars-battlefront-ii",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -3446,6 +3548,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "squad",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -3541,6 +3646,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "diablo-iv",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -3643,6 +3751,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "fallout-76",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -3748,6 +3859,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "borderlands-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -3849,6 +3963,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "risk-of-rain-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -3943,6 +4060,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "gray-zone-warfare",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -4039,6 +4159,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "bloons-td-6",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -4135,6 +4258,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "the-planet-crafter",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -4229,6 +4355,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "warhammer-40-000-darktide",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -4330,6 +4459,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "arma-3",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -4424,6 +4556,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "age-of-empires-iv-anniversary-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -4518,6 +4653,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "warhammer-40-000-space-marine-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -4620,6 +4758,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "brotato",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -4715,6 +4856,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "hunt-showdown-1896",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -4810,6 +4954,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "lethal-company",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -4913,6 +5060,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "the-isle",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -5009,6 +5159,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "last-epoch",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -5105,6 +5258,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "conan-exiles",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -5209,6 +5365,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "new-world-aeternum",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -5306,6 +5465,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "split-fiction",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -5405,6 +5567,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "sea-of-thieves-2025-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -5506,6 +5671,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "call-of-duty-black-ops-iii",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -5601,6 +5769,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "deep-rock-galactic",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -5706,6 +5877,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "it-takes-two",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -5810,6 +5984,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "dying-light",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -5914,6 +6091,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "raft",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -6020,6 +6200,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "scp-secret-laboratory",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -6121,6 +6304,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "path-of-exile",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -6226,6 +6412,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "killing-floor-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -6330,6 +6519,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "sons-of-the-forest",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -6427,6 +6619,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "ready-or-not",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -6523,6 +6718,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "dying-light-2-stay-human-reloaded-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -6628,6 +6826,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "space-engineers",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -6726,6 +6927,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "among-us",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -6823,6 +7027,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "the-outlast-trials",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -6919,6 +7126,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "monster-hunter-rise",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -7021,6 +7231,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "warhammer-40-000-rogue-trader",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -7120,6 +7333,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "divinity-original-sin-2-definitive-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -7222,6 +7438,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "halo-the-master-chief-collection",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -7324,6 +7543,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "borderlands-3",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -7425,6 +7647,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "party-animals",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -7518,6 +7743,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "age-of-empires-iii-definitive-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -7613,6 +7841,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "foxhole",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -7708,6 +7939,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "anno-1800",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -7801,6 +8035,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "dinkum",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -7897,6 +8134,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "grounded",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -8000,6 +8240,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "grim-dawn",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -8097,6 +8340,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "barotrauma",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -8198,6 +8444,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "halo-infinite",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -8295,6 +8544,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "crossout",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -8390,6 +8642,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "thehunter-call-of-the-wild",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -8488,6 +8743,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "for-honor",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -8590,6 +8848,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "warhammer-vermintide-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -8693,6 +8954,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "overcooked-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -8789,6 +9053,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "cuphead",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -8885,6 +9152,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "myth-of-empires",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -8981,6 +9251,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "ghost-of-tsushima-directors-cut",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -9084,6 +9357,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "portal-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -9185,6 +9461,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "insurgency-sandstorm",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -9281,6 +9560,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "escape-the-backrooms",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -9378,6 +9660,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "world-war-z",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -9474,6 +9759,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "green-hell",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -9573,6 +9861,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "wartales",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -9672,6 +9963,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "remnant-ii",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -9772,6 +10066,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "age-of-mythology-retold",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -9867,6 +10164,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "tinkerlands",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -9963,6 +10263,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "icarus",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -10056,6 +10359,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "stormworks-build-and-rescue",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -10152,6 +10458,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "tom-clancys-ghost-recon-wildlands",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -10254,6 +10563,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "nioh-2-the-complete-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -10347,6 +10659,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "tom-clancys-ghost-recon-breakpoint",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -10447,6 +10762,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "gunfire-reborn",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -10548,6 +10866,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "medieval-dynasty",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -10646,6 +10967,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "ultimate-chicken-horse",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -10742,6 +11066,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "gang-beasts",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -10836,6 +11163,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "stick-fight-the-game",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -10931,6 +11261,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "human-fall-flat",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -11026,6 +11359,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "lovers-in-a-dangerous-spacetime",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -11122,6 +11458,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "streets-of-rage-4",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -11215,6 +11554,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "teenage-mutant-ninja-turtles-shredders-revenge",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -11309,6 +11651,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "broforce",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -11404,6 +11749,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "a-way-out",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -11505,6 +11853,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "moving-out",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -11601,6 +11952,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "towerfall-ascension",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -11698,6 +12052,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "spelunky-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -11797,6 +12154,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "trine-4-the-nightmare-prince",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -11893,6 +12253,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "rayman-legends",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -11994,6 +12357,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "jackbox-party-pack",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -12089,6 +12455,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "move-or-die",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -12184,6 +12553,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "boomerang-fu",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -12279,6 +12651,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "plateup",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -12374,6 +12749,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "keywe",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -12471,6 +12849,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "full-metal-furies",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -12569,6 +12950,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "phogs",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -12664,6 +13048,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "unravel-two",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -12765,6 +13152,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "back-4-blood",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -12865,6 +13255,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "aliens-fireteam-elite",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -12959,6 +13352,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "content-warning",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -13054,6 +13450,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "vampire-survivors",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -13149,6 +13548,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "core-keeper",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -13245,6 +13647,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "stardew-valley",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -13339,6 +13744,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "keep-talking-and-nobody-explodes",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -13434,6 +13842,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "pico-park",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -13530,6 +13941,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "overcooked-all-you-can-eat",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -13626,6 +14040,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "payday-3",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -13729,6 +14146,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "magicka-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -13822,6 +14242,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "we-were-here-together",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -13915,6 +14338,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "we-were-here-forever",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -14008,6 +14434,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "crab-game",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -14102,6 +14531,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "escape-academy",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -14204,6 +14636,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "tiny-tinas-wonderlands",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -14305,6 +14740,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "sackboy-a-big-adventure",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -14399,6 +14837,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "roboquest",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -14494,6 +14935,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "no-mans-sky",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -14589,6 +15033,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "castle-crashers-remastered",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -14683,6 +15130,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "astroneer",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -14777,6 +15227,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "outriders",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -14877,6 +15330,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "moving-out-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -14971,6 +15427,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "divinity-original-sin",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -15065,6 +15524,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "warhammer-end-times-vermintide",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -15157,6 +15619,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "devour",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -15249,6 +15714,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "grand-theft-auto-v-legacy",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -15346,6 +15814,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "baldurs-gate-3",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -15440,6 +15911,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "war-thunder",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -15536,6 +16010,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "ea-sports-fc-25",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -15631,6 +16108,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "hearts-of-iron-iv",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -15728,6 +16208,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "nba-2k25",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -15825,6 +16308,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "schedule-i",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -15921,6 +16407,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "final-fantasy-xiv-online",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -16016,6 +16505,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "fantasy-life-i-the-girl-who-steals-time",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -16112,6 +16604,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "lost-ark",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -16207,6 +16702,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "path-of-exile-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -16301,6 +16799,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "the-elder-scrolls-online",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -16393,6 +16894,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "farming-simulator-25",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -16485,6 +16989,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "europa-universalis-iv",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -16581,6 +17088,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "enshrouded",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -16681,6 +17191,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "unturned",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -16779,6 +17292,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "forza-horizon-5",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -16875,6 +17391,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "tom-clancys-the-division-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -16972,6 +17491,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "world-of-warships",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -17067,6 +17589,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "roadcraft",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -17160,6 +17685,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "maplestory",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -17254,6 +17782,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "world-of-tanks-blitz",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -17348,6 +17879,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "farming-simulator-22",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -17443,6 +17977,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "f1-25",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -17539,6 +18076,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "tabletop-simulator",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -17636,6 +18176,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "smite-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -17733,6 +18276,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "forza-horizon-4",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -17829,6 +18375,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "elite-dangerous",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -17925,6 +18474,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "supermarket-together",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -18019,6 +18571,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "total-war-three-kingdoms",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -18115,6 +18670,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "dark-souls-iii",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -18214,6 +18772,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "popucom",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -18309,6 +18870,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "total-war-rome-ii-emperor-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -18404,6 +18968,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "the-spell-brigade",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -18500,6 +19067,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "drive-beyond-horizons",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -18598,6 +19168,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "shop-titans",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -18696,6 +19269,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "guild-wars-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -18794,6 +19370,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "fishing-planet",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -18894,6 +19473,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "ddracenetwork",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -18991,6 +19573,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "game-of-thrones-kingsroad",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -19087,6 +19672,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "ravenswatch",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -19181,6 +19769,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "enlisted-reinforced",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -19272,6 +19863,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "powerwash-simulator",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -19363,6 +19957,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "house-flipper-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -19455,6 +20052,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "supermarket-simulator",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -19549,6 +20149,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "company-of-heroes-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -19643,6 +20246,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "devil-may-cry-5",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -19737,6 +20343,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "call-to-arms-gates-of-hell-ostfront",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -19833,6 +20442,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "red-dead-online",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -19929,6 +20541,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "company-of-heroes-3",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -20024,6 +20639,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "realm-of-the-mad-god-exalt",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -20120,6 +20738,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "predecessor",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -20215,6 +20836,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "total-war-shogun-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -20310,6 +20934,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "pga-tour-2k25",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -20404,6 +21031,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "mechabellum",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -20499,6 +21129,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "age-of-wonders-4",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -20592,6 +21225,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "escape-simulator",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -20685,6 +21321,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "pikuniku",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -20780,6 +21419,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "gtfo",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -20877,6 +21519,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "we-need-to-go-deeper",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -20974,6 +21619,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "dungeon-of-the-endlesstm",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -21069,6 +21717,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "heave-ho",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -21165,6 +21816,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "necesse",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -21259,6 +21913,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "ghost-watchers",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -21354,6 +22011,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "chained-together",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -21449,6 +22109,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "besiege",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -21545,6 +22208,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "sunkenland",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -21641,6 +22307,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "backrooms-escape-together",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -21737,6 +22406,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "volcanoids",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -21832,6 +22504,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "we-were-here",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -21928,6 +22603,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "totally-reliable-delivery-service",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -22023,6 +22701,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "for-the-king",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -22118,6 +22799,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "for-the-king-ii",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -22213,6 +22897,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "bopl-battle",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -22310,6 +22997,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "cult-of-the-lamb",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -22406,6 +23096,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "shovel-knight-treasure-trove",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -22501,6 +23194,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "soulmask",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -22595,6 +23291,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "prodeus",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -22688,6 +23387,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "towerborne",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -22784,6 +23486,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "ship-of-fools",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -22879,6 +23584,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "patch-quest",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -22973,6 +23681,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "goose-goose-duck",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -23066,6 +23777,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "the-finals",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -23158,6 +23872,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "marvel-rivals",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -23250,6 +23967,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "tower-unite",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -23342,6 +24062,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "delta-force",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -23434,6 +24157,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "apex-legendstm",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -23528,6 +24254,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "phantasy-star-online-2-new-genesis",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -23622,6 +24351,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "peak",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -23719,6 +24451,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "absolum",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -23814,6 +24549,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "rv-there-yet",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -23907,6 +24645,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "borderlands-4",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -24002,6 +24743,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "coral-island",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -24097,6 +24841,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "windswept",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -24192,6 +24939,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "bellwright",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -24287,6 +25037,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "arc-raiders",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -24383,6 +25136,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "minecraft-dungeons",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -24480,6 +25236,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "dune-awakening",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -24577,6 +25336,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "orcs-must-die-3",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -24672,6 +25434,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "spiritfarer-edizione-farewell",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -24765,6 +25530,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "abyssus",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -24860,6 +25628,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "dying-light-the-beast",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -24958,6 +25729,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "monaco-whats-yours-is-mine",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -25053,6 +25827,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "lego-star-warstm-la-saga-degli-skywalker",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -25147,6 +25924,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "untitled-goose-game",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -25240,6 +26020,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "operation-tango",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -25335,6 +26118,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "unrailed-2-back-on-track",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -25430,6 +26216,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "tools-up",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -25524,6 +26313,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "biped-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -25619,6 +26411,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "nobody-saves-the-world",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -25714,6 +26509,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "darksiders-genesis",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -25809,6 +26607,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "children-of-morta",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -25904,6 +26705,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "trine-5-a-clockwork-conspiracy",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -25999,6 +26803,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "ember-knights",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -26094,6 +26901,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "carx-drift-racing-online",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -26190,6 +27000,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "dark-souls-ii-scholar-of-the-first-sin",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -26286,6 +27099,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "doom",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -26380,6 +27196,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "sniper-elite-5",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -26473,6 +27292,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "rec-room",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -26567,6 +27389,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "plague-inc-evolved",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -26661,6 +27486,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "ranch-simulator-build-hunt-farm",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -26753,6 +27581,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "one-piece-bounty-rush",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -26846,6 +27677,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "total-war-warhammer-ii",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -26942,6 +27776,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "abiotic-factor",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -27039,6 +27876,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "total-war-attila",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -27133,6 +27973,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "need-for-speed-heat",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -27228,6 +28071,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "bleach-brave-souls",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -27324,6 +28170,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "warhammer-40-000-gladius-relics-of-war",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -27420,6 +28269,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "fifa-22",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -27518,6 +28370,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "kingdom-two-crowns",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -27614,6 +28469,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "far-cry-5",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -27710,6 +28568,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "state-of-decay-2-juggernaut-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -27806,6 +28667,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "deadzone-rogue",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -27901,6 +28765,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "northgard-definitive-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -27998,6 +28865,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "lost-castle-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -28094,6 +28964,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "farm-together-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -28193,6 +29066,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "star-trek-online",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -28293,6 +29169,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "dead-island-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -28389,6 +29268,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "granblue-fantasy-relink",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -28484,6 +29366,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "empyrion-galactic-survival",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -28582,6 +29467,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "efootball-pes-2021-season-update",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -28680,6 +29568,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "wwe-2k25",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -28775,6 +29666,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "sniper-elite-resistance",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -28870,6 +29764,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "foundry",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -28966,6 +29863,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "eldegarde",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -29063,6 +29963,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "scrap-mechanic",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -29159,6 +30062,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "trailmakers",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -29255,6 +30161,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "starbound",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -29351,6 +30260,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "pantheon-rise-of-the-fallen",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -29448,6 +30360,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "the-crew-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -29543,6 +30458,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "warno",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -29639,6 +30557,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "wolfquest-anniversary-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -29734,6 +30655,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "watch-dogs-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -29826,6 +30750,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "plants-vs-zombies-garden-warfare-2-deluxe-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -29922,6 +30849,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "runescape-dragonwilds",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -30020,6 +30950,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "call-of-duty-modern-warfare",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -30115,6 +31048,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "lords-of-the-fallen",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -30210,6 +31146,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "oddsparks-an-automation-adventure",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -30305,6 +31244,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "age-of-mythology-extended-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -30400,6 +31342,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "crab-champions",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -30498,6 +31443,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "the-lord-of-the-rings-online",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -30597,6 +31545,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "one-armed-robber",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -30695,6 +31646,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "left-4-dead",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -30793,6 +31747,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "tom-clancys-the-division",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -30890,6 +31847,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "mordhau",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -30988,6 +31948,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "trove",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -31086,6 +32049,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "neverwinter-nights-enhanced-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -31182,6 +32148,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "humanitz",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -31278,6 +32247,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "lightyear-frontier",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -31375,6 +32347,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "wizard101",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -31472,6 +32447,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "men-of-war-assault-squad-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -31568,6 +32546,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "aska",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -31665,6 +32646,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "deadside",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -31762,6 +32746,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "eco",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -31858,6 +32845,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "legion-td-2-multiplayer-tower-defense",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -31954,6 +32944,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "webfishing",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -32048,6 +33041,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "fall-guys-ultimate-knockout",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -32144,6 +33140,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "mindustry",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -32244,6 +33243,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "game-356",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -32341,6 +33343,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "dragon-ball-xenoverse-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -32437,6 +33442,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "dead-frontier-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -32533,6 +33541,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "mechwarrior-5-mercenaries",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -32627,6 +33638,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "far-cry-6",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -32723,6 +33737,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "wobbly-life",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -32817,6 +33834,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "borderlands-game-of-the-year-enhanced",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -32912,6 +33932,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "avorion",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -33008,6 +34031,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "liars-bar",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -33103,6 +34129,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "titan-quest-anniversary-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -33198,6 +34227,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "axis-and-allies-1942-online",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -33294,6 +34326,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "tropico-6",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -33394,6 +34429,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "wingspan",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -33492,6 +34530,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "apocalypse-party",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -33592,6 +34633,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "resident-evil-5",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -33691,6 +34735,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "far-cry-4",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -33788,6 +34835,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "fast-food-simulator",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -33884,6 +34934,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "sins-of-a-solar-empire-ii",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -33978,6 +35031,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "sniper-elite-4",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -34072,6 +35128,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "across-the-obelisk",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -34165,6 +35224,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "my-rusty-submarine",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -34255,6 +35317,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "rhythm-doctor",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -34345,6 +35410,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "unheard-scream",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -34435,6 +35503,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "dyo",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -34525,6 +35596,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "nuclear-throne-mobile",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -34615,6 +35689,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "froggin-around-demo",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -34705,6 +35782,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "hamsteria-demo",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -34795,6 +35875,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "specimen",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -34885,6 +35968,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "fear-channel",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -34975,6 +36061,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "hub-os",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -35065,6 +36154,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "joggernauts",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -35155,6 +36247,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "east-of-eden-right-of-conquest",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -35245,6 +36340,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "micro-mages-nes-pc",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -35335,6 +36433,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "god-save-the-queen",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -35425,6 +36526,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "shagster-online-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -35515,6 +36619,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "ducklings",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -35605,6 +36712,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "chernozem-prototype",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -35695,6 +36805,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "police-stories",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -35785,6 +36898,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "towerfall-dark-world-expansion",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -35875,6 +36991,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "widelands",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -35966,6 +37085,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "call-of-duty-black-ops",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -36062,6 +37184,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "rise-of-nations-extended-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -36161,6 +37286,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "resident-evil-6",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -36256,6 +37384,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "void-crew",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -36351,6 +37482,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "sea-of-stars",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -36446,6 +37580,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "door-kickers-2-task-force-north",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -36540,6 +37677,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "imposter-3d-online-horror",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -36630,6 +37770,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "sneaky-stealy",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -36720,6 +37863,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "totemori",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -36810,6 +37956,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "snap-the-sentinel-episode-1",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -36900,6 +38049,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "fury-unleashed-prologue",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -36990,6 +38142,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "seps-diner-oculus-quest",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -37080,6 +38235,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "wild-woods",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -37170,6 +38328,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "streets-of-rogue",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -37260,6 +38421,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "ancient-swarm",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -37349,6 +38513,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "the-choicer-voicer",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -37438,6 +38605,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "pikwip",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -37527,6 +38697,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "gladihoppers",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -37616,6 +38789,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "among-us-arena-ultimate",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -37705,6 +38881,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "bubble-bobble-c64-remastered",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -37794,6 +38973,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "towerfall-8-player",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -37883,6 +39065,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "sticky-cats",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -37972,6 +39157,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "0-a-d-empires-ascendant",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -38061,6 +39249,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "eggnogg",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -38150,6 +39341,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "m-u-l-e-online",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -38239,6 +39433,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "touhou-fumo-racing",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -38330,6 +39527,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "dumpy-and-bumpy",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -38423,6 +39623,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "royal-revolt-survivors",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -38513,6 +39716,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "aaero2-black-razor-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -38605,6 +39811,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "rising-heat",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -38699,6 +39908,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "esophaguys",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -38791,6 +40003,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "bee-simulator-the-hive",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -38882,6 +40097,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "jaleco-sports-goal",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -38972,6 +40190,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "anima-flux",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -39062,6 +40283,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "welcome-to-empyreum",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -39154,6 +40378,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "the-dungenerator-die-in-a-dungeon",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -39243,6 +40470,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "tanks-of-freedom",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -39332,6 +40562,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "cro-mag-rally",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -39421,6 +40654,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "the-king-of-fighters-final-attack",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -39510,6 +40746,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "tiger-claw",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -39599,6 +40838,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "chair-up",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -39688,6 +40930,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "generic-fighter-maybe",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -39777,6 +41022,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "fallacy-quiz",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -39866,6 +41114,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "hyper-gunsport",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -39955,6 +41206,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "hit-x",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -40044,6 +41298,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "punch-pong",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -40134,6 +41391,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "aichi-emperors-zero",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -40224,6 +41484,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "narcissus",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -40314,6 +41577,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "starcrossed",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -40404,6 +41670,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "caveman-warriors",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -40494,6 +41763,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "rakete",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -40584,6 +41856,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "fizz-vic-20",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -40674,6 +41949,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "marco-polo",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -40764,6 +42042,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "scarecrow-coop",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -40854,6 +42135,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "fizz-commodore-64-c64",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -40943,6 +42227,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "fixeight",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -41032,6 +42319,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "combat-mission-final-blitzkrieg",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -41122,6 +42412,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "combat-mission-fortress-italy",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -41214,6 +42507,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "tavernacle",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -41305,6 +42601,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "fire-shark",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -41393,6 +42692,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "hellfire",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -41482,6 +42784,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "combat-mission-red-thunder",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -41572,6 +42877,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "volley-pals",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -41662,6 +42970,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "chut",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -41752,6 +43063,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "isolated-intelligence",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -41842,6 +43156,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "bar-keep",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -41932,6 +43249,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "shroom-bois",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -42022,6 +43342,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "malisse",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -42112,6 +43435,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "octopounce",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -42202,6 +43528,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "ducktonic-adventures",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -42292,6 +43621,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "hakros-drugod-tv-the-survival-games-map-for-doom-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -42382,6 +43714,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "yakuzakura",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -42472,6 +43807,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "panique-a-temple-a-steak",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -42562,6 +43900,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "project-socket",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -42652,6 +43993,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "tower-of-freedom",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -42742,6 +44086,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "community-egg",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -42832,6 +44179,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "safe-space",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -42922,6 +44272,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "pangman-demo-for-quest",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -43012,6 +44365,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "a-l-f-i-es-game",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -43102,6 +44458,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "shackle",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -43191,6 +44550,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "easy-delivery-co-demo",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -43280,6 +44642,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "ragdoll-runners",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -43369,6 +44734,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "torb",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -43458,6 +44826,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "twin-cobra",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -43547,6 +44918,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "funtasia",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -43636,6 +45010,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "epicshop",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -43725,6 +45102,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "badblood",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -43814,6 +45194,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "lurking-danger",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -43903,6 +45286,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "legacyclonk",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -43992,6 +45378,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "stick-veterans",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -44081,6 +45470,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "quest-of-graal-dx",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -44170,6 +45562,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "garrison-archangel-demo",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -44259,6 +45654,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "chambara",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -44348,6 +45746,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "obnubilia",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -44437,6 +45838,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "beatercore",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -44526,6 +45930,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "escape-from-castle-matsumoto",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -44615,6 +46022,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "super-pilot",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -44704,6 +46114,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "wacky-wheels-hd",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -44793,6 +46206,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "classic-tagap",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -44882,6 +46298,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "flotilla",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -44971,6 +46390,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "tomb-of-rooms",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -45060,6 +46482,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "damaged-territory",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -45149,6 +46574,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "pretend-cars-racing",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -45238,6 +46666,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "topplepop-demo",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -45327,6 +46758,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "felony-felines",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -45414,6 +46848,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "black-ice-early-access",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -45500,6 +46937,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "super-crate-box-together",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -45586,6 +47026,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "nick-tower",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -45672,6 +47115,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "tvo",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -45758,6 +47204,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "partners-in-uncertainty",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -45844,6 +47293,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "never-breakup",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -45930,6 +47382,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "galoria-sandbox-online",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -46016,6 +47471,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "crisis-at-r-w-p-inc",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -46102,6 +47560,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "wilds-of-the-realmwalker-public-playtest",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -46188,6 +47649,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "keep-painting",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -46274,6 +47738,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "thing-and-fist",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -46360,6 +47827,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "im-lag",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -46446,6 +47916,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "speedy-golf",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -46539,6 +48012,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "everwind",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -46640,6 +48116,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "project-castaway",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -46736,6 +48215,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "dragonkin-the-banished",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -46828,6 +48310,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "tower-tag",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -46923,6 +48408,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "pizza-slice",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -47019,6 +48507,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "wwe-2k26",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -47110,6 +48601,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "john-carpenters-toxic-commando",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -47200,6 +48694,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "mamas-sleeping-angels",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -47293,6 +48790,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "rewind-99",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -47389,6 +48889,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "over-the-top-wwi",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -47485,6 +48988,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "hexbreaker-ii",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -47581,6 +49087,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "slay-the-spire-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -47680,6 +49189,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "desynced",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -47780,6 +49292,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "dysplaced",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -47876,6 +49391,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "never-grave-the-witch-and-the-curse",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -47972,6 +49490,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "rotwood",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -48066,6 +49587,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "scott-pilgrim-ex",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -48158,6 +49682,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "sundered-eldritch-edition",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -48248,6 +49775,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "guessme",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -48338,6 +49868,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "dead-pixels-ii-straight-to-video",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -48427,6 +49960,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "crossniq",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -48516,6 +50052,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "paper-tanks-indie-game-ink-doodle-unity-2d-action-paper-tank-retro-ink-split-sreen-beta-demo-dev",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -48605,6 +50144,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "monumental-failure",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -48696,6 +50238,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "war-mongrels",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -48788,6 +50333,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "63-days",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -48878,6 +50426,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "black-widow-recharged",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -48967,6 +50518,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "beer-and-plunder",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -49057,6 +50611,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "zeroranger-demo",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -49147,6 +50704,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "dont-bite-me-bro",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -49237,6 +50797,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "moon-hunters",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -49326,6 +50889,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "pyre",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -49415,6 +50981,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "frog-smashers",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -49505,6 +51074,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "joint-drops",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -49595,6 +51167,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "ping-pompa",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -49685,6 +51260,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "dee-s",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -49774,6 +51352,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "snowdown",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -49863,6 +51444,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "control-shift",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -49952,6 +51536,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "corpse-box-racers",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -50045,6 +51632,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "overthrown",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -50146,6 +51736,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "f1-24",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -50243,6 +51836,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "farming-simulator-19",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -50336,6 +51932,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "boss-bashing-button-brawlers",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -50426,6 +52025,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "taming-io",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -50516,6 +52118,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "the-cowlitz-gamers-2nd-adventure",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -50605,6 +52210,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "jojos-bizzare-adventure-last-stand",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -50695,6 +52303,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "space-pc",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -50784,6 +52395,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "duck-duck-rocket",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -50873,6 +52487,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "cyber-cycle",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -50962,6 +52579,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "two-interviewees",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -51055,6 +52675,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "headquarters-cold-war",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -51148,6 +52771,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "platform-anomaly-co-op",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -51237,6 +52863,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "paddle-force",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -51326,6 +52955,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "duels-of-fortune",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -51415,6 +53047,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "bomberland",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -51504,6 +53139,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "toe-ii-toe",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -51594,6 +53232,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "firefighting-space-monkes",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -51684,6 +53325,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "10-rounds",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -51773,6 +53417,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "serious-sam-evolution",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -51862,6 +53509,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "top-hunter-roddy-and-cathy",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -51951,6 +53601,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "ruins-of-mitriom",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -52040,6 +53693,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "froggiechat",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -52129,6 +53785,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "toasterball-prototype",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -52216,6 +53875,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "the-colosseum-challenge",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -52304,6 +53966,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "darkwater",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -52394,6 +54059,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "the-bus",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -52484,6 +54152,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "kizuna-encounter-super-tag-battle",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -52572,6 +54243,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "avatar-frontiers-of-pandora",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -52665,6 +54339,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "goat-simulator-3",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -52758,6 +54435,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "cosmoteer-starship-architect-and-commander",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -52852,6 +54532,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "risk-of-rain-returns",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -52947,6 +54630,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "clone-drone-in-the-danger-zone",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -53042,6 +54728,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "madness-project-nexus",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -53136,6 +54825,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "solasta-crown-of-the-magister",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -53231,6 +54923,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "jagged-alliance-3",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -53328,6 +55023,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "rabbit-and-steel",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -53422,6 +55120,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "we-were-here-expeditions-the-friendship",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -53516,6 +55217,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "astral-ascent",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -53610,6 +55314,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "the-past-within",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -53702,6 +55409,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "labyrinthine",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -53791,6 +55501,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "luma-island",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -53883,6 +55596,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "tetris-effect-connected",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -53974,6 +55690,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "roots-of-pacha",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -54063,6 +55782,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "echo-point-nova",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -54156,6 +55878,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "bokura",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -54248,6 +55973,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "crows-nest",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -54338,6 +56066,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "chicken-joust",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -54428,6 +56159,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "telemochi",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -54518,6 +56252,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "fnaf-online-multiplayer",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -54607,6 +56344,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "orbsort",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -54696,6 +56436,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "scatteria",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -54785,6 +56528,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "eversiege-untold-ages",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -54875,6 +56621,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "labyrinth",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -54964,6 +56713,9 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "chained-wheels",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -55054,6 +56806,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "data-man-nes",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -55142,6 +56897,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "beatdown-dungeon-demon-day-demo-v1-9",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -55231,6 +56989,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "windward-rush-alpha",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -55320,6 +57081,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "virtual-cottage-2",
       "isFeaturedIndie": false,
       "descriptions": {
@@ -55410,6 +57174,9 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
       "slug": "truxton-extreme",
       "isFeaturedIndie": false,
       "descriptions": {
