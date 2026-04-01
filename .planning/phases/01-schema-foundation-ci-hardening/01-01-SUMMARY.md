@@ -115,6 +115,18 @@ None - no external service configuration required.
 - Phase 3 (classic-discovery) similarly benefits from the extended schema
 - CI now fails loudly on build script errors — any broken build_static_pages.py will be immediately visible
 
+## Self-Check: PASSED
+
+- FOUND: scripts/catalog_data.py
+- FOUND: assets/games.js
+- FOUND: data/catalog.games.v1.json
+- FOUND: data/catalog.public.v1.json
+- FOUND: .github/workflows/update.yml
+- FOUND: .planning/phases/01-schema-foundation-ci-hardening/01-01-SUMMARY.md
+- FOUND commit: ce6ae3b6 (Task 1)
+- FOUND commit: 0d46a7e0 (Task 2)
+- FOUND commit: 21f28eb7 (metadata)
+
 ---
 *Phase: 01-schema-foundation-ci-hardening*
 *Completed: 2026-04-01*

@@ -2,16 +2,16 @@
 gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: Database Quality & Co-op Purity
-status: verifying
-stopped_at: Completed 01-02-PLAN.md (coopMode vocabulary canonicalization)
-last_updated: "2026-04-01T10:56:24.176Z"
+status: phase_complete
+stopped_at: Phase 1 verified — ready to start Phase 2 or Phase 3 (parallel)
+last_updated: "2026-04-01T11:45:00Z"
 last_activity: 2026-04-01
 progress:
   total_phases: 4
   completed_phases: 1
   total_plans: 2
   completed_plans: 2
-  percent: 0
+  percent: 25
 ---
 
 # Project State
@@ -21,32 +21,32 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-01)
 
 **Core value:** Il posto dove i gamer vanno quando vogliono dire "giochiamo insieme stasera" — catalogo co-op PC con qualita certificata
-**Current focus:** Phase 01 — schema-foundation-ci-hardening
+**Current focus:** Phase 01 COMPLETE — ready for Phase 02 (Tag Audit & coopScore) or Phase 03 (Classic Discovery) in parallel
 
 ## Current Position
 
-Phase: 01 (schema-foundation-ci-hardening) — EXECUTING
+Phase: 01 (schema-foundation-ci-hardening) — COMPLETE AND VERIFIED
 Plan: 2 of 2
-Status: Phase complete — ready for verification
+Status: Verification passed (4/4 success criteria met) — ready to start Phase 2 and/or Phase 3
 Last activity: 2026-04-01
 
-Progress: [░░░░░░░░░░] 0%
+Progress: [##########] 25% (1/4 phases complete)
 
 ## Performance Metrics
 
 **Velocity:**
 
-- Total plans completed: 0
-- Average duration: -
-- Total execution time: 0h
+- Total plans completed: 2
+- Average duration: 9 min/plan
+- Total execution time: ~18min
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| - | - | - | - |
+| Phase 01 | 2 plans | 18min | 9min |
 
-**Recent Trend:** No data yet
+**Recent Trend:** Phase 1 executed at planned speed, 0 gaps found in verification
 
 *Updated after each plan completion*
 | Phase 01-schema-foundation-ci-hardening P01 | 8 | 2 tasks | 5 files |
@@ -72,10 +72,19 @@ Progress: [░░░░░░░░░░] 0%
 
 ### Blockers/Concerns
 
-- CI gira giornalmente (non settimanalmente come scritto in CLAUDE.md) — Phase 1 deve risolvere questo prima di qualsiasi lavoro di scoring
+- CI gira giornalmente — Phase 1 ha risolto il problema di sovrascrittura dati curati
+
+## Phase 1 Verification Summary
+
+- SCH-01: SATISFIED — coopScore in all 589 games and both JSON exports
+- SCH-02: SATISFIED — coopScore preserved through CI round-trip (auto_update.py reads and writes it unchanged)
+- SCH-03: SATISFIED — continue-on-error removed from 2 build steps; 5 remain on affiliate fetch steps only
+- SCH-04: SATISFIED — CANONICAL_COOP_MODES={"online","local","sofa"} enforced as hard error; 210 "split" renamed to "sofa"; 0 violations
+- Verification report: .planning/phases/01-schema-foundation-ci-hardening/01-VERIFICATION.md
 
 ## Session Continuity
 
-Last session: 2026-04-01T10:56:24.172Z
-Stopped at: Completed 01-02-PLAN.md (coopMode vocabulary canonicalization)
+Last session: 2026-04-01T11:45:00Z
+Stopped at: Phase 1 verified — all 4 success criteria passed
 Resume file: None
+Next action: Start Phase 2 (Tag Audit & coopScore Generation) and/or Phase 3 (Classic Game Discovery) — both depend only on Phase 1 which is now complete

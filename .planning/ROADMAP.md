@@ -38,7 +38,7 @@
 
 ## Phase Details
 
-### Phase 1: Schema Foundation & CI Hardening
+### ✅ Phase 1: Schema Foundation & CI Hardening — VERIFIED 2026-04-01
 **Goal**: Il catalogo ha un campo `coopScore` protetto e la pipeline CI non può sovrascrivere dati curati manualmente
 **Depends on**: Nothing (first phase of v1.1)
 **Requirements**: SCH-01, SCH-02, SCH-03, SCH-04
@@ -92,7 +92,7 @@ Plans:
 
 | Phase | Milestone | Plans Complete | Status | Completed |
 |-------|-----------|----------------|--------|-----------|
-| 1. Schema Foundation & CI Hardening | v1.1 | 2/2 | Complete   | 2026-04-01 |
+| 1. Schema Foundation & CI Hardening | v1.1 | 2/2 | Verified | 2026-04-01 |
 | 2. Tag Audit & coopScore Generation | v1.1 | 0/? | Not started | - |
 | 3. Classic Game Discovery | v1.1 | 0/? | Not started | - |
 | 4. Bulk Data Fixes & Validation | v1.1 | 0/? | Not started | - |
