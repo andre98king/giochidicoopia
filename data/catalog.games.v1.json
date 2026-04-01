@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-01T14:17:15+00:00",
+  "generatedAt": "2026-04-01T15:44:57+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": null,
   "stats": {
-    "games": 590,
+    "games": 599,
     "played": 12,
     "trending": 53,
     "withEnglishDescription": 590,
     "categoryCounts": {
-      "action": 313,
+      "action": 322,
       "factory": 62,
       "free": 43,
       "horror": 47,
@@ -29,7 +29,7 @@
       "epic": 53,
       "gog": 26,
       "itch": 161,
-      "steam": 403
+      "steam": 412
     }
   },
   "games": [
@@ -57309,6 +57309,809 @@
       "editorial": {
         "played": false,
         "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 618,
+      "igdbId": 0,
+      "title": "Drunkslop: Pub crawl COOP",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2024,
+      "image": "",
+      "description": "",
+      "description_en": "",
+      "personalNote": "Added from Steam (app_id: 4420980) - needs review",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4420980",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "k4gUrl": "",
+      "k4gDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "drunkslop-pub-crawl-coop",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "",
+        "en": ""
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4420980",
+          "externalId": "4420980"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4420980"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 0
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": "Added from Steam (app_id: 4420980) - needs review"
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 619,
+      "igdbId": 0,
+      "title": "Maid Cafe Coop",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2024,
+      "image": "",
+      "description": "",
+      "description_en": "",
+      "personalNote": "Added from Steam (app_id: 3887470) - needs review",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3887470",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "k4gUrl": "",
+      "k4gDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "maid-cafe-coop",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "",
+        "en": ""
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3887470",
+          "externalId": "3887470"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3887470"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 0
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": "Added from Steam (app_id: 3887470) - needs review"
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 621,
+      "igdbId": 0,
+      "title": "Color Escape: VR Coop",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local"
+      ],
+      "maxPlayers": 2,
+      "crossplay": false,
+      "players": "1-2",
+      "releaseYear": 2024,
+      "image": "",
+      "description": "",
+      "description_en": "",
+      "personalNote": "Added from Steam (app_id: 1634130) - needs review",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1634130",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "k4gUrl": "",
+      "k4gDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "color-escape-vr-coop",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "",
+        "en": ""
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": false,
+        "localCoop": true,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-2",
+        "maxPlayers": 2
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1634130",
+          "externalId": "1634130"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "1634130"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 0
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": "Added from Steam (app_id: 1634130) - needs review"
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 622,
+      "igdbId": 0,
+      "title": "Fifth Sun: Coop racing",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2024,
+      "image": "",
+      "description": "",
+      "description_en": "",
+      "personalNote": "Added from Steam (app_id: 4435920) - needs review",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4435920",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "k4gUrl": "",
+      "k4gDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "fifth-sun-coop-racing",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "",
+        "en": ""
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4435920",
+          "externalId": "4435920"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4435920"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 0
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": "Added from Steam (app_id: 4435920) - needs review"
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 623,
+      "igdbId": 0,
+      "title": "Get Together: A Coop Adventure",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2024,
+      "image": "",
+      "description": "",
+      "description_en": "",
+      "personalNote": "Added from Steam (app_id: 1505540) - needs review",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1505540",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "k4gUrl": "",
+      "k4gDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "get-together-a-coop-adventure",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "",
+        "en": ""
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1505540",
+          "externalId": "1505540"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "1505540"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 0
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": "Added from Steam (app_id: 1505540) - needs review"
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 624,
+      "igdbId": 0,
+      "title": "Cat Parents",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 2,
+      "crossplay": false,
+      "players": "1-2",
+      "releaseYear": 2024,
+      "image": "",
+      "description": "",
+      "description_en": "",
+      "personalNote": "Added from Steam (app_id: 4328440) - needs review",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4328440",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "k4gUrl": "",
+      "k4gDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "cat-parents",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "",
+        "en": ""
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-2",
+        "maxPlayers": 2
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4328440",
+          "externalId": "4328440"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4328440"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 0
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": "Added from Steam (app_id: 4328440) - needs review"
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 625,
+      "igdbId": 0,
+      "title": "NAKWON: LAST PARADISE",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2024,
+      "image": "",
+      "description": "",
+      "description_en": "",
+      "personalNote": "Added from Steam (app_id: 2582960) - needs review",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2582960",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "k4gUrl": "",
+      "k4gDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "nakwon-last-paradise",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "",
+        "en": ""
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2582960",
+          "externalId": "2582960"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2582960"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 0
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": "Added from Steam (app_id: 2582960) - needs review"
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 627,
+      "igdbId": 0,
+      "title": "Subnautica 2",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2024,
+      "image": "",
+      "description": "",
+      "description_en": "",
+      "personalNote": "Added from Steam (app_id: 1962700) - needs review",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1962700",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "k4gUrl": "",
+      "k4gDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "subnautica-2",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "",
+        "en": ""
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1962700",
+          "externalId": "1962700"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "1962700"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 0
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": "Added from Steam (app_id: 1962700) - needs review"
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 628,
+      "igdbId": 0,
+      "title": "Wurst Defender Coop Edition",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2024,
+      "image": "",
+      "description": "",
+      "description_en": "",
+      "personalNote": "Added from Steam (app_id: 740990) - needs review",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/740990",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "k4gUrl": "",
+      "k4gDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "wurst-defender-coop-edition",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "",
+        "en": ""
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": false,
+        "localCoop": true,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/740990",
+          "externalId": "740990"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "740990"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 0
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": "Added from Steam (app_id: 740990) - needs review"
       },
       "sourceMeta": {
         "ingestSource": "games.js",

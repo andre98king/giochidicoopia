@@ -39,6 +39,50 @@ Nessun backend. Nessun framework. Nessun runtime Node in produzione.
 | `catalog_data.py` | Layer I/O dati catalogo |
 | `catalog_config.py` | Configurazione pipeline |
 
+## Database Integration (2026-04-01)
+
+### Fonti dati testate e implementate
+
+| Fonte | Status | Note |
+|-------|--------|------|
+| Steam Store | ✅ Funziona | 75 giochi, scraping con cloudscraper |
+| IGDB API | ✅ Funziona | 30 giochi, API key in .env |
+| RAWG API | ✅ Funziona | 217 giochi, API key in .env |
+| GOG Store | ✅ Funziona | 91 giochi, scraping |
+| Co-optimus | ❌ Bloccato | Cloudflare protection |
+| SteamDB | ❌ Bloccato | 403 Forbidden |
+
+### Script creati
+
+```
+scripts/
+├── steam_scraper.py          # Steam Store scraping
+├── igdb_scraper.py           # IGDB API
+├── rawg_scraper.py           # RAWG API  
+├── gog_scraper.py            # GOG Store
+├── multi_cross_reference.py  # Cross-validazione fonti
+└── add_new_games.py          # Prepara nuovi giochi
+```
+
+### Cross-reference risultati
+
+- 124 giochi validati (match con catalogo esistente)
+- 289 nuovi potenziali giochi trovati
+- 11 nuovi giochi co-op verificati pronti per essere aggiunti
+
+### File dati creati
+
+```
+data/
+├── steam_coop_games.json
+├── igdb_coop_games.json
+├── rawg_coop_games.json
+├── gog_coop_games.json
+├── multi_cross_reference.json
+├── coop_games_to_add.json     # 11 giochi verificati
+└── new_games_entries.json    # Entry pronte (ID 618-628)
+```
+
 ---
 
 ## Regole obbligatorie
