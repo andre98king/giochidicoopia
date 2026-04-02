@@ -61,6 +61,17 @@ except FileNotFoundError:
     pass
 
 
+def truncate_meta_desc(text: str, max_len: int = 155) -> str:
+    """Tronca description meta tag con pulizia HTML e troncamento su word boundary."""
+    if not text:
+        return ""
+    clean = re.sub(r"<[^>]+>|&[a-z]+;", " ", text).strip()
+    if len(clean) <= max_len:
+        return clean.replace("'", "&#x27;")
+    cut = clean[:max_len].rsplit(" ", 1)[0].rstrip(" .,;")
+    return (cut + "…").replace("'", "&#x27;")
+
+
 def esc(value) -> str:
     return html.escape("" if value is None else str(value), quote=True)
 
@@ -417,20 +428,17 @@ def render_modes(game: dict) -> str:
 
 
 def render_static_page(game: dict, all_games: list | None = None) -> str:
-    title = f"{game['title']}: gioco coop PC ({game['players']} giocatori) — Coophubs"
+    coop_str = ", ".join(game.get("coopMode", ["Co-op"]))[:20]
+    raw_title = (
+        f"{game['title']} ({coop_str} · {game.get('players', '?')}P) | GiochiDiCoop"
+    )
+    seo_title = raw_title[:57] + "…" if len(raw_title) > 60 else raw_title
     image = game["image"] or f"{SITE_URL}/assets/og-image.jpg"
 
-    # Meta description (con supporto override manuale)
-    game_id = str(game.get("id"))
-    if game_id in SEO_OVERRIDES and "description" in SEO_OVERRIDES[game_id]:
-        description_it = SEO_OVERRIDES[game_id]["description"]
-    else:
-        modes_str = ", ".join(game.get("coopMode", []))
-        description_it = (
-            f"Scopri {game['title']}, gioco cooperativo per PC ({game['players']} giocatori). Modalità {modes_str}. Recensione Steam: {game['rating']}%. "
-            + game["description"]
-        )
-        description_it = description_it[:160]
+    raw_desc = game.get("description", "Gioco cooperativo per PC e console.")
+    first_part = raw_desc.split(".")[0].strip()[:80]
+    seo_desc_raw = f"{first_part}. Scopri modalità {coop_str} e alternative simili."
+    seo_desc = truncate_meta_desc(seo_desc_raw)
 
     rating_html = ""
     if game["rating"] > 0:
@@ -559,8 +567,8 @@ def render_static_page(game: dict, all_games: list | None = None) -> str:
     css_block = HTML_INLINE_STYLES
     head_block = safe_template(
         HTML_HEAD_IT,
-        title=esc(title),
-        description=esc(description_it),
+        title=esc(seo_title),
+        description=esc(seo_desc),
         it_url=esc(page_url(game)),
         en_url=esc(page_url_en(game)),
         image=esc(image),
@@ -639,16 +647,19 @@ def render_static_page(game: dict, all_games: list | None = None) -> str:
 
 def render_static_page_en(game: dict, all_games: list | None = None) -> str:
     """English version of the static game page for SEO on EN searches."""
-    title = f"{game['title']}: {game['players']} players PC co-op game — Coophubs"
+    coop_str = ", ".join(game.get("coopMode", ["Co-op"]))[:20]
+    raw_title = (
+        f"{game['title']} ({coop_str} · {game.get('players', '?')}P) | GiochiDiCoop"
+    )
+    seo_title = raw_title[:57] + "…" if len(raw_title) > 60 else raw_title
     image = game["image"] or f"{SITE_URL}/assets/og-image.jpg"
 
-    # Richer English meta description
-    modes_str = ", ".join(game.get("coopMode", []))
-    desc_en = (
-        f"Discover {game['title']}, a {game['players']} players PC co-op game. Modes: {modes_str}. Steam rating: {game['rating']}%. "
-        + (game.get("description_en") or game["description"])
+    raw_desc = game.get("description_en") or game.get(
+        "description", "Co-op game for PC and console."
     )
-    desc_en = desc_en[:160]
+    first_part = raw_desc.split(".")[0].strip()[:80]
+    seo_desc_raw = f"{first_part}. Discover {coop_str} modes and similar alternatives."
+    seo_desc = truncate_meta_desc(seo_desc_raw)
 
     rating_html = ""
     if game["rating"] > 0:
@@ -720,7 +731,7 @@ def render_static_page_en(game: dict, all_games: list | None = None) -> str:
         "@type": "VideoGame",
         "name": game["title"],
         "url": page_url_en(game),
-        "description": desc_en,
+        "description": seo_desc,
         "image": image,
         "genre": game["categories"],
         "gamePlatform": "PC",
@@ -776,8 +787,8 @@ def render_static_page_en(game: dict, all_games: list | None = None) -> str:
     css_block = HTML_INLINE_STYLES
     head_block = safe_template(
         HTML_HEAD_EN,
-        title=esc(title),
-        description=esc(desc_en),
+        title=esc(seo_title),
+        description=esc(seo_desc),
         it_url=esc(page_url(game)),
         en_url=esc(page_url_en(game)),
         image=esc(image),
