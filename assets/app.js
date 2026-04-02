@@ -597,6 +597,7 @@ let _scrollObserver = null;
 let _sentinel = null;
 
 function renderGames() {
+  const savedScrollY = window.scrollY || 0;
   const filtered = getFilteredGames();
   const grid = document.getElementById('gamesGrid');
   const info = document.getElementById('resultsInfo');
@@ -627,6 +628,7 @@ function renderGames() {
   grid.innerHTML = '';
   _renderBatch(grid, INITIAL_BATCH);
   _setupInfiniteScroll(grid);
+  requestAnimationFrame(() => window.scrollTo(0, savedScrollY));
 }
 
 function _renderBatch(grid, count) {
