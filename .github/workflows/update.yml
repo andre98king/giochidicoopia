@@ -34,28 +34,53 @@ jobs:
           STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
 
       - name: Fetch affiliate prices (IG + GameBillet)
+        id: fetch_affiliate
         continue-on-error: true
         run: python3 scripts/fetch_affiliate_prices.py
 
       - name: Fetch Gameseal + Kinguin prices (CJ API)
+        id: fetch_gameseal
         continue-on-error: true
         run: python3 scripts/fetch_gameseal_prices.py
         env:
           CJ_API_TOKEN: ${{ secrets.CJ_API_TOKEN }}
 
       - name: Fetch GAMIVO prices (CJ API)
+        id: fetch_gamivo
         continue-on-error: true
         run: python3 scripts/fetch_gamivo_prices.py
         env:
           CJ_API_TOKEN: ${{ secrets.CJ_API_TOKEN }}
 
       - name: Fetch K4G prices
+        id: fetch_k4g
         continue-on-error: true
         run: python3 scripts/fetch_k4g_prices.py
 
       - name: Fetch GMG prices (Impact.com)
+        id: fetch_gmg
         continue-on-error: true
         run: python3 scripts/fetch_gmg_prices.py
+
+      - name: Price fetcher summary
+        if: always()
+        run: |
+          FAILED=0
+          TOTAL=5
+          for STEP_OUTCOME in \
+            "${{ steps.fetch_affiliate.outcome }}" \
+            "${{ steps.fetch_gameseal.outcome }}" \
+            "${{ steps.fetch_gamivo.outcome }}" \
+            "${{ steps.fetch_k4g.outcome }}" \
+            "${{ steps.fetch_gmg.outcome }}"; do
+            if [ "$STEP_OUTCOME" != "success" ]; then
+              FAILED=$((FAILED + 1))
+            fi
+          done
+          echo "Price fetchers: $((TOTAL - FAILED))/$TOTAL succeeded"
+          if [ "$FAILED" -ge 3 ]; then
+            echo "::warning::$FAILED out of $TOTAL price fetchers failed — prices may be stale"
+          fi
 
       - name: Build static game pages
         run: python3 scripts/build_static_pages.py
@@ -65,6 +90,18 @@ jobs:
 
       - name: Validate catalog and generated pages
         run: python3 scripts/validate_catalog.py
+
+      - name: Smoke test - verify sitemap is valid XML
+        run: python3 -c "import xml.etree.ElementTree as ET; ET.parse('sitemap.xml'); print('sitemap.xml OK')"
+
+      - name: Smoke test - verify game pages exist
+        run: |
+          COUNT=$(find games/ -name '*.html' | wc -l)
+          echo "Generated game pages: $COUNT"
+          if [ "$COUNT" -lt 50 ]; then
+            echo "::error::Suspiciously low game page count: $COUNT"
+            exit 1
+          fi
 
       - name: Commit and push changes
         run: |

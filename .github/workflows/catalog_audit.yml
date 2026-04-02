@@ -2,8 +2,18 @@ name: Catalog Quality Audit
 
 on:
   schedule:
-    - cron: '0 3 * * 0'   # Ogni domenica alle 3:00 UTC (prima del daily update)
-  workflow_dispatch:        # Avvio manuale dalla pagina Actions di GitHub
+    - cron: '0 3 * * 0'   # Ogni domenica alle 3:00 UTC (fast mode)
+    - cron: '0 2 1 * *'   # Primo giorno del mese alle 2:00 UTC (full mode)
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Audit mode'
+        required: false
+        default: 'fast'
+        type: choice
+        options:
+          - fast
+          - full
 
 jobs:
   audit:
@@ -25,8 +35,20 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r scripts/requirements.txt
 
-      - name: Run catalog quality audit (fast mode, auto-remove false co-op)
-        run: python3 scripts/catalog_audit.py --fast --apply
+      - name: Determine audit mode
+        id: audit_mode
+        run: |
+          # Manual dispatch: use input; scheduled: monthly cron = full, weekly = fast
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "mode=${{ inputs.mode || 'fast' }}" >> "$GITHUB_OUTPUT"
+          elif [ "$(date +%d)" = "01" ]; then
+            echo "mode=full" >> "$GITHUB_OUTPUT"
+          else
+            echo "mode=fast" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run catalog quality audit (${{ steps.audit_mode.outputs.mode }} mode)
+        run: python3 scripts/catalog_audit.py --${{ steps.audit_mode.outputs.mode }} --apply
         env:
           IGDB_CLIENT_ID: ${{ secrets.IGDB_CLIENT_ID }}
           IGDB_CLIENT_SECRET: ${{ secrets.IGDB_CLIENT_SECRET }}
