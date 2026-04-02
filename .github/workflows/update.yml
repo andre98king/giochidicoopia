@@ -32,6 +32,7 @@ jobs:
           IGDB_CLIENT_ID: ${{ secrets.IGDB_CLIENT_ID }}
           IGDB_CLIENT_SECRET: ${{ secrets.IGDB_CLIENT_SECRET }}
           STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
+          RAWG_API_KEY: ${{ secrets.RAWG_API_KEY }}
 
       - name: Fetch affiliate prices (IG + GameBillet)
         continue-on-error: true

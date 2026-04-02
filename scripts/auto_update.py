@@ -1,32 +1,37 @@
 """
 auto_update.py
 ==============
-Aggiorna automaticamente games.js con:
-  - CCU (giocatori concorrenti) e rating per tutti i giochi esistenti
-  - Flag "trending" per i giochi con molti giocatori attivi
-  - Descrizioni italiane da Steam API (nuovi giochi)
-  - Descrizioni inglesi da Steam API (nuovi giochi + giochi esistenti senza)
-  - Nuovi giochi co-op trending da SteamSpy
-  - Nuovi giochi co-op da IGDB discovery (cross-platform: Steam, GOG, ecc.)
-  - Nuovi giochi co-op da GOG (giochi GOG-only non su Steam)
-  - Tag "indie" e "free" per i giochi appropriati
-  - Gioco indie della settimana (featuredIndieId)
-  - [Opzionale] Giochi da itch.io (richiede ITCH_IO_KEY env var)
-  - VERIFICA INTEGRITÀ: controlla free (prezzo reale), indie (publisher),
-    co-op (categorie Steam), titoli (nome ufficiale Steam)
-  - DEDUPLICAZIONE: igdbId + Steam App ID + titolo esatto
+Pipeline unificata di aggiornamento e discovery del catalogo co-op.
+
+FASE 1 — Load catalog
+FASE 2 — Update existing (CCU, rating, trending, desc EN, releaseYear, integrità)
+FASE 3 — Discover candidates (4 fonti: Steam SteamSpy, Steam New, IGDB, GOG, RAWG)
+FASE 4 — Deduplicate candidates
+FASE 5 — quality_gate.validate() su ogni candidato con steam_appid
+FASE 6 — Enrich approved (desc IT/EN, categories, spy_data)
+FASE 7 — Build game dict + add to catalog
+FASE 8 — Featured indie + write games.js
 
 Uso locale : python3 auto_update.py
 CI (GitHub): eseguito automaticamente da .github/workflows/update.yml
 """
 
-import datetime, json, re, time, urllib.request
+from __future__ import annotations
+
+import datetime
+import html as _html
+import json
+import re
+import time
+import urllib.request
 
 import catalog_data
+import quality_gate
 from catalog_config import *          # noqa: F403 – tutte le costanti di progetto
-from igdb_catalog_source import IgdbCatalogSource, enrich_games_with_igdb
+from igdb_catalog_source import IgdbCatalogSource, enrich_games_with_igdb, _parse_multiplayer_modes
 from gog_catalog_source import GogCatalogSource, fetch_gog_candidates
 from itch_catalog_source import ItchCatalogSource
+from rawg_catalog_source import RawgCatalogSource
 from steam_new_releases_source import fetch_steam_new_coop_games
 from steam_catalog_source import (
     SteamCatalogSource,
@@ -43,13 +48,182 @@ from steam_catalog_source import (
 steam_source = SteamCatalogSource(delay=DELAY)
 
 
-# ─────────────────────── Leggi games.js esistente ────────────────────────
-print("📖 Lettura games.js...")
+# ═══════════════════════════════════════════════════════════════════════════
+# HELPER FUNCTIONS
+# ═══════════════════════════════════════════════════════════════════════════
+
+def _categorize_from_labels(labels: list[str]) -> list[str]:
+    """Mappa una lista di label (generi, categorie Steam, tag SteamSpy) in categorie sito."""
+    categories: list[str] = []
+    for label in labels:
+        for tag, cat in TAG_MAP.items():
+            if tag.lower() in label.lower() and cat not in categories:
+                categories.append(cat)
+                if len(categories) >= 3:
+                    break
+        if len(categories) >= 3:
+            break
+    return categories or ['action']
+
+
+def _build_steam_game_dict(
+    next_id: int,
+    appid: str,
+    title: str,
+    categories: list[str],
+    coop_modes: list[str],
+    max_players: int,
+    crossplay: bool,
+    players: str,
+    release_year: int,
+    desc_it: str,
+    desc_en: str,
+    ccu: int,
+    rating: int,
+    igdb_id: int = 0,
+) -> dict:
+    """Costruisce il dict canonico per un nuovo gioco con Steam URL."""
+    return {
+        'id':             next_id,
+        'igdbId':         igdb_id,
+        'title':          title,
+        'categories':     categories[:4],
+        'genres':         derive_genres(categories[:4]),
+        'coopMode':       coop_modes,
+        'maxPlayers':     max_players,
+        'crossplay':      crossplay,
+        'players':        players,
+        'releaseYear':    release_year,
+        'image':          f"https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/{appid}/header.jpg",
+        'description':    desc_it,
+        'description_en': desc_en,
+        'personalNote':   '',
+        'played':         False,
+        'steamUrl':       f"https://store.steampowered.com/app/{appid}/",
+        'gogUrl':         '',
+        'epicUrl':        '',
+        'itchUrl':        '',
+        'ccu':            ccu,
+        'trending':       ccu >= MIN_CCU_TRENDING,
+        'rating':         rating,
+    }
+
+
+def _run_quality_gate(steam_appid: str) -> dict:
+    """Chiama quality_gate.validate() con le credenziali disponibili dall'ambiente."""
+    return quality_gate.validate(
+        str(steam_appid),
+        rawg_api_key=RAWG_API_KEY or None,
+        igdb_client_id=IGDB_CLIENT_ID or None,
+        igdb_client_secret=IGDB_CLIENT_SECRET or None,
+        rate_limit_delay=0.5,
+    )
+
+
+def _fetch_steam_store_reviews(appid: str) -> tuple[int, int]:
+    """Fallback: legge conteggio recensioni dalla store page Steam.
+    Usato per giochi F2P dove SteamSpy non espone positive/negative.
+    Restituisce (positive, negative) all-time, oppure (0, 0) se non trovato."""
+    try:
+        time.sleep(DELAY)
+        req = urllib.request.Request(
+            f"https://store.steampowered.com/app/{appid}/",
+            headers={"User-Agent": "Mozilla/5.0", "Accept-Language": "en-US,en;q=0.9"},
+        )
+        html_content = urllib.request.urlopen(req, timeout=15).read().decode("utf-8", errors="ignore")
+        matches = re.findall(r"(\d+)%\s+of the\s+([\d,]+)\s+user reviews\s+for this game", html_content)
+        if matches:
+            pct, cnt = max(matches, key=lambda m: int(m[1].replace(",", "")))
+            total = int(cnt.replace(",", ""))
+            if total >= 10:
+                pos = round(total * int(pct) / 100)
+                return pos, total - pos
+    except Exception:
+        pass
+    return 0, 0
+
+
+def _enrich_steam_candidate(appid: str, title: str, ccu: int, igdb_id: int, igdb_rating: int, next_id: int, qg_verdict: dict) -> dict | None:
+    """
+    Fetcha tutti i dati Steam necessari per un candidato approvato dal quality gate.
+    Ritorna il dict del gioco pronto per l'aggiunta, o None se i dati sono insufficienti.
+    """
+    # Descrizione italiana
+    sd, desc_it = steam_source.fetch_steam_desc(appid, 'italian')
+    if sd is None:
+        print(f"    ✗ Nessun dato Steam")
+        return None
+    if sd.get('type', '') != 'game':
+        print(f"    ✗ Tipo Steam: {sd.get('type')} — skip")
+        return None
+    if not desc_it:
+        print(f"    ✗ Nessuna descrizione italiana utile")
+        return None
+
+    _, desc_en = steam_source.fetch_steam_desc(appid, 'english')
+    desc_en = desc_en or ''
+
+    steam_cats = [c.get('description', '') for c in sd.get('categories', [])]
+    spy_data = steam_source.fetch_json(f"https://steamspy.com/api.php?request=appdetails&appid={appid}") or {}
+    spy_tags = list((spy_data.get('tags') or {}).keys())
+    genres_raw = [g.get('description', '') for g in sd.get('genres', [])]
+
+    categories = _categorize_from_labels(genres_raw + steam_cats + spy_tags)
+
+    # Verifica indie e free
+    new_pub = sd.get('publishers', []) or []
+    new_dev = sd.get('developers', []) or []
+    new_publishers = [p.lower() for p in new_pub + new_dev if isinstance(p, str)]
+    is_big = any(known in pub for pub in new_publishers for known in NOT_INDIE_PUBLISHERS)
+    if appid in indie_appids and appid not in NOT_INDIE_APPIDS and not is_big and 'indie' not in categories:
+        categories.append('indie')
+    new_genres_lower = [gr.get('description', '').lower() for gr in sd.get('genres', [])]
+    is_free = sd.get('is_free', False) and 'free to play' in new_genres_lower
+    if is_free and appid not in NOT_FREE_APPIDS and 'free' not in categories:
+        categories.append('free')
+
+    pos = spy_data.get('positive', 0) or 0
+    neg = spy_data.get('negative', 0) or 0
+    rating = calc_rating(pos, neg)
+
+    if rating > 0 and rating < MIN_RATING_NEW:
+        # Controllo qualità: usa anche IGDB rating come fallback
+        if igdb_rating < MIN_IGDB_RATING:
+            print(f"    ✗ Rating troppo basso: Steam={rating}% IGDB={igdb_rating}")
+            return None
+
+    players = derive_players_label([c.lower() for c in steam_cats])
+    steam_cats_lower = [c.lower() for c in steam_cats]
+    coop_modes = qg_verdict["coop_modes"] or derive_coop_modes(steam_cats_lower)
+    release_year = parse_release_year(sd.get('release_date'))
+
+    return _build_steam_game_dict(
+        next_id=next_id,
+        appid=appid,
+        title=title,
+        categories=categories,
+        coop_modes=coop_modes,
+        max_players=parse_max_players(players),
+        crossplay=derive_crossplay(steam_cats_lower),
+        players=players,
+        release_year=release_year,
+        desc_it=desc_it,
+        desc_en=desc_en,
+        ccu=ccu,
+        rating=rating,
+        igdb_id=igdb_id,
+    )
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# FASE 1 — Load catalog
+# ═══════════════════════════════════════════════════════════════════════════
+print("📖 FASE 1 — Lettura games.js...")
 featured_id_existing, existing_games = catalog_data.load_legacy_catalog_bundle()
-existing_appids = set()
-existing_igdb_ids = set()
-existing_gog_urls = set()
-existing_titles = set()
+existing_appids:   set[str] = set()
+existing_igdb_ids: set[int] = set()
+existing_gog_urls: set[str] = set()
+existing_titles:   set[str] = set()
 max_id = 0
 
 for g in existing_games:
@@ -66,34 +240,32 @@ for g in existing_games:
 print(f"  Giochi nel DB: {len(existing_games)}  |  ID max: {max_id}")
 
 
-# ─────────────────────── Fetch trending da SteamSpy ──────────────────────
-print("\n🔥 Fetch top giochi per giocatori recenti (SteamSpy)...")
+# ═══════════════════════════════════════════════════════════════════════════
+# FASE 2 — Update existing (CCU, rating, trending, desc EN, releaseYear, integrità)
+# ═══════════════════════════════════════════════════════════════════════════
+print("\n🔄 FASE 2 — Aggiornamento giochi esistenti...")
+
+# 2a: Fetch CCU e tag co-op da SteamSpy
+print("  🔥 Fetch top giochi per giocatori recenti (SteamSpy)...")
 top_recent = steam_source.fetch_json("https://steamspy.com/api.php?request=top100in2weeks") or {}
 ccu_map = {aid: d.get('ccu', 0) for aid, d in top_recent.items()}
 print(f"  Top recenti trovati: {len(ccu_map)}")
 
-
-# ─────────────────────── Fetch giochi co-op ──────────────────────────────
-print("\n🎮 Fetch giochi co-op da SteamSpy (tag multipli)...")
-coop_games = {}
+print("  🎮 Fetch giochi co-op da SteamSpy (tag multipli)...")
+coop_games: dict = {}
 for tag in ['Co-op', 'Online+Co-Op', 'Local+Co-Op', 'Co-op+Campaign']:
     data = steam_source.fetch_json(f"https://steamspy.com/api.php?request=tag&tag={tag}") or {}
     for aid, gdata in data.items():
         if aid not in coop_games:
             coop_games[aid] = gdata
-    print(f"  Tag '{tag}': {len(data)} giochi  (totale unici: {len(coop_games)})")
+print(f"  Giochi co-op SteamSpy: {len(coop_games)} unici")
 
-
-# ─────────────────── Fetch set appid indie e free ────────────────────────
-print("\n🏷️  Fetch tag Indie e Free to Play da SteamSpy...")
+print("  🏷️  Fetch tag Indie e Free to Play da SteamSpy...")
 indie_appids = set((steam_source.fetch_json("https://steamspy.com/api.php?request=tag&tag=Indie") or {}).keys())
 free_appids  = set((steam_source.fetch_json("https://steamspy.com/api.php?request=tag&tag=Free+to+Play") or {}).keys())
-print(f"  Indie appids trovati: {len(indie_appids)}")
-print(f"  Free  appids trovati: {len(free_appids)}")
+print(f"  Indie: {len(indie_appids)} | Free: {len(free_appids)}")
 
-
-# ─────────────────── Aggiorna CCU + rating giochi esistenti ──────────────
-print("\n🔄 Aggiornamento CCU, rating e tag indie/free...")
+# 2b: Aggiorna CCU + rating + tag indie/free
 updated_ccu = 0
 updated_rating = 0
 for g in existing_games:
@@ -111,102 +283,60 @@ for g in existing_games:
     if pos + neg >= 10:
         g['rating'] = calc_rating(pos, neg)
         updated_rating += 1
-    # Aggiorna tag indie/free (la verifica approfondita avviene dopo nella fase VERIFICA)
-    # Qui usiamo solo le blacklist note per rimuovere tag sicuramente sbagliati
     if aid in NOT_INDIE_APPIDS and 'indie' in g['categories']:
         g['categories'].remove('indie')
     if aid in NOT_FREE_APPIDS and 'free' in g['categories']:
         g['categories'].remove('free')
 
-print(f"  CCU aggiornati   : {updated_ccu}")
-print(f"  Rating aggiornati: {updated_rating}")
-print(f"  Trending 🔥      : {sum(1 for g in existing_games if g['trending'])}")
+print(f"  CCU aggiornati: {updated_ccu} | Rating: {updated_rating} | Trending 🔥: {sum(1 for g in existing_games if g['trending'])}")
 
-
-def _fetch_steam_store_reviews(appid: str) -> tuple[int, int]:
-    """Fallback: legge conteggio recensioni dalla store page Steam.
-    Usato per giochi F2P dove SteamSpy non espone positive/negative.
-    Restituisce (positive, negative) all-time, oppure (0, 0) se non trovato."""
-    try:
-        time.sleep(DELAY)
-        req = urllib.request.Request(
-            f"https://store.steampowered.com/app/{appid}/",
-            headers={"User-Agent": "Mozilla/5.0", "Accept-Language": "en-US,en;q=0.9"},
-        )
-        html = urllib.request.urlopen(req, timeout=15).read().decode("utf-8", errors="ignore")
-        # "for this game" distingue le review del gioco dai giochi correlati nel DOM
-        matches = re.findall(r"(\d+)%\s+of the\s+([\d,]+)\s+user reviews\s+for this game", html)
-        if matches:
-            pct, cnt = max(matches, key=lambda m: int(m[1].replace(",", "")))
-            total = int(cnt.replace(",", ""))
-            if total >= 10:
-                pos = round(total * int(pct) / 100)
-                return pos, total - pos
-    except Exception:
-        pass
-    return 0, 0
-
-
-# ─────────── Fallback CCU: query SteamSpy per giochi con CCU 0 ────────────
-zero_ccu_games = [g for g in existing_games if g.get('ccu', 0) == 0 and appid_from_url(g.get('steamUrl', ''))]
-print(f"\n🔍 Fallback CCU: {len(zero_ccu_games)} giochi con CCU 0, query SteamSpy individuale...")
+# 2c: Fallback CCU individuale per giochi con CCU 0
+zero_ccu = [g for g in existing_games if g.get('ccu', 0) == 0 and appid_from_url(g.get('steamUrl', ''))]
+print(f"  🔍 Fallback CCU: {len(zero_ccu)} giochi con CCU 0...")
 fallback_ok = 0
-fallback_fail = 0
-for g in zero_ccu_games:
+for g in zero_ccu:
     aid = appid_from_url(g['steamUrl'])
     spy = steam_source.fetch_json(f"https://steamspy.com/api.php?request=appdetails&appid={aid}")
     if not spy:
-        fallback_fail += 1
         continue
     ccu = spy.get('ccu', 0) or 0
     if ccu > 0:
         g['ccu'] = ccu
         g['trending'] = ccu >= MIN_CCU_TRENDING
         fallback_ok += 1
-    # Also update rating if missing/low-quality
     pos = spy.get('positive', 0) or 0
     neg = spy.get('negative', 0) or 0
     if pos + neg >= 10:
         g['rating'] = calc_rating(pos, neg)
     elif pos + neg == 0 and g.get('rating', 0) == 0:
-        # SteamSpy non ha dati recensioni (tipico per giochi F2P) — fallback Steam store page
         steam_pos, steam_neg = _fetch_steam_store_reviews(aid)
         if steam_pos + steam_neg >= 10:
             g['rating'] = calc_rating(steam_pos, steam_neg)
             print(f"    ↳ Steam store fallback [{g['id']}] {g['title']}: rating={g['rating']}")
+print(f"  Fallback CCU trovati: {fallback_ok}  |  Ancora 0: {len(zero_ccu) - fallback_ok}")
 
-print(f"  Fallback CCU trovati: {fallback_ok}  |  Ancora 0 o errore: {len(zero_ccu_games) - fallback_ok}")
-
-
-# ─────────── Fetch descrizioni EN per giochi esistenti senza ──────────────
-print(f"\n🌍 Fetch descrizioni inglesi mancanti (max {MAX_EN_FETCH})...")
+# 2d: Descrizioni EN mancanti
+print(f"  🌍 Fetch descrizioni inglesi mancanti (max {MAX_EN_FETCH})...")
 en_fetched = 0
-en_failed  = 0
 for g in existing_games:
     if en_fetched >= MAX_EN_FETCH:
         break
     if g.get('description_en') and len(g['description_en']) > 20:
-        continue  # già presente
+        continue
     aid = appid_from_url(g['steamUrl'])
     if not aid:
         continue
-    print(f"  EN: {g['title']} ({aid})...", end=' ', flush=True)
     _, en_desc = steam_source.fetch_steam_desc(aid, 'english')
     if en_desc:
         g['description_en'] = en_desc
-        print(f"OK ({len(en_desc)} chars)")
         en_fetched += 1
     else:
         g['description_en'] = ''
-        print("FAILED")
-        en_failed += 1
+print(f"  Descrizioni EN aggiunte: {en_fetched}")
 
-print(f"  Descrizioni EN aggiunte: {en_fetched}  |  Fallite: {en_failed}")
-
-
-# ─────────── Fetch releaseYear per giochi esistenti senza ────────────────
+# 2e: releaseYear mancante
 missing_year = [g for g in existing_games if not g.get('releaseYear') and appid_from_url(g.get('steamUrl', ''))]
-print(f"\n📅 Fetch releaseYear mancante: {len(missing_year)} giochi Steam...")
+print(f"  📅 Fetch releaseYear mancante: {len(missing_year)} giochi...")
 year_fetched = 0
 for g in missing_year:
     aid = appid_from_url(g['steamUrl'])
@@ -218,182 +348,137 @@ for g in missing_year:
             year_fetched += 1
 print(f"  releaseYear aggiunti: {year_fetched}")
 
+# 2f: Verifica integrità database (campionamento rotante)
+print("  🔍 Verifica integrità database...")
+v_fixed_free = v_fixed_indie = v_fixed_title = v_removed_nocoop = v_checked = 0
+nocoop_flagged_ids: list[int] = []
+iso_week = datetime.datetime.now().isocalendar()
+verify_offset = ((iso_week[0] * 52 + iso_week[1]) * 7 + iso_week[2]) % max(len(existing_games), 1)
+rotated_games = existing_games[verify_offset:] + existing_games[:verify_offset]
 
-# ─────────────────── Trova nuovi candidati ───────────────────────────────
-print("\n🆕 Ricerca nuovi giochi co-op non nel database...")
-new_candidates = []
+for g in rotated_games:
+    if v_checked >= MAX_VERIFY:
+        break
+    aid = appid_from_url(g['steamUrl'])
+    if not aid:
+        continue
+    v_checked += 1
+    cc_url = f"https://store.steampowered.com/api/appdetails?appids={aid}&l=english&cc=us"
+    data = steam_source.fetch_json(cc_url)
+    if not data:
+        continue
+    info = data.get(str(aid), {})
+    if not info.get('success'):
+        continue
+    sd = info.get('data', {})
+
+    # Sanity check: verifica che l'API abbia restituito il gioco giusto
+    api_name = sd.get('name', '')
+    db_name = g['title']
+    if api_name:
+        api_words = set(re.findall(r'[a-zA-Z]{3,}', api_name.lower()))
+        db_words  = set(re.findall(r'[a-zA-Z]{3,}', db_name.lower()))
+        common    = api_words & db_words
+        total     = max(len(api_words | db_words), 1)
+        if len(common) / total < 0.25 and len(api_words) > 0 and len(db_words) > 0:
+            print(f"  ⛔ {db_name}: API ha restituito '{api_name}' — scartato")
+            continue
+
+    # Verifica FREE
+    steam_is_free = sd.get('is_free', False)
+    price = sd.get('price_overview', {})
+    price_cents = price.get('final', 0) if price else 0
+    genres_list = [gr.get('description', '').lower() for gr in sd.get('genres', [])]
+    actually_free = steam_is_free and price_cents == 0 and 'free to play' in genres_list
+    if 'free' in g['categories'] and not actually_free:
+        g['categories'].remove('free')
+        v_fixed_free += 1
+        print(f"  💰 {g['title']}: rimosso tag 'free'")
+    if actually_free and 'free' not in g['categories'] and aid not in NOT_FREE_APPIDS:
+        g['categories'].append('free')
+        v_fixed_free += 1
+        print(f"  🆓 {g['title']}: aggiunto tag 'free'")
+
+    # Verifica INDIE
+    pub_names  = sd.get('publishers', []) or []
+    dev_names  = sd.get('developers', []) or []
+    publishers = [p.lower() for p in pub_names + dev_names if isinstance(p, str)]
+    is_big_studio = any(known in pub for pub in publishers for known in NOT_INDIE_PUBLISHERS)
+    if 'indie' in g['categories'] and (is_big_studio or aid in NOT_INDIE_APPIDS):
+        g['categories'].remove('indie')
+        v_fixed_indie += 1
+        print(f"  🏢 {g['title']}: rimosso tag 'indie'")
+
+    # Verifica CO-OP + aggiorna coopMode/crossplay
+    steam_cats = [c.get('description', '').lower() for c in sd.get('categories', [])]
+    has_coop = any('co-op' in c or 'multiplayer' in c or 'multi-player' in c for c in steam_cats)
+    if not has_coop:
+        v_removed_nocoop += 1
+        nocoop_flagged_ids.append(g['id'])
+        print(f"  ⚠️  {g['title']}: NESSUNA categoria co-op su Steam!")
+    g['coopMode']   = derive_coop_modes(steam_cats)
+    g['crossplay']  = derive_crossplay(steam_cats)
+    g['genres']     = derive_genres(g['categories'])
+    g['maxPlayers'] = parse_max_players(g['players'])
+
+    # Log differenze titolo
+    steam_name = sd.get('name', '')
+    if steam_name and steam_name != g['title'] and len(steam_name) > 2:
+        clean_api = steam_name.lower().replace('™', '').replace('®', '').replace(':', '').strip()
+        clean_db  = g['title'].lower().replace('™', '').replace('®', '').replace(':', '').strip()
+        if clean_api != clean_db:
+            v_fixed_title += 1
+            print(f"  📝 Titolo diverso (solo log): '{g['title']}' vs Steam '{steam_name}'")
+
+print(f"  Verificati: {v_checked} | Fix free: {v_fixed_free} | Fix indie: {v_fixed_indie} | Fix titoli: {v_fixed_title} | Senza co-op: {v_removed_nocoop}")
+
+catalog_data.DATA_DIR.mkdir(exist_ok=True)
+(catalog_data.DATA_DIR / "_nocoop_flagged.json").write_text(
+    json.dumps({"game_ids": nocoop_flagged_ids}, indent=2) + "\n", encoding="utf-8"
+)
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# FASE 3 — Discover candidates (4 fonti)
+# ═══════════════════════════════════════════════════════════════════════════
+print("\n🔍 FASE 3 — Discovery candidati da 4 fonti...")
+
+# Schema candidato normalizzato:
+# {title, steam_appid, igdb_id, gog_url, ccu, source, rating_rawg?, rating_igdb?}
+
+all_candidates: list[dict] = []
+
+# 3a: Steam SteamSpy co-op tags
+print("  🎮 3a) SteamSpy co-op tags...")
+steamspy_candidates: list[dict] = []
 for aid, gdata in coop_games.items():
     if aid in existing_appids or aid in BLACKLIST_APPIDS:
         continue
     name = gdata.get('name', '')
-    if not name:
-        continue
-    if any(w in name.lower() for w in SKIP_WORDS):
+    if not name or any(w in name.lower() for w in SKIP_WORDS):
         continue
     ccu = ccu_map.get(aid, gdata.get('ccu', 0) or 0)
     if ccu < MIN_CCU_NEW:
         continue
-    # Salta edizioni vecchie (FIFA 23, NBA 2K23, ecc.)
-    is_old = False
-    if re.search(r'FIFA \d+', name):
-        is_old = True
-    for pat_name, check in OLD_EDITION_PATTERNS[1:]:
-        m = re.search(pat_name, name)
-        if m and callable(check) and check(m):
-            is_old = True
-            break
+    is_old = bool(re.search(r'FIFA \d+', name))
+    if not is_old:
+        for pat_name, check in OLD_EDITION_PATTERNS[1:]:
+            m = re.search(pat_name, name)
+            if m and callable(check) and check(m):
+                is_old = True
+                break
     if is_old:
         continue
-    new_candidates.append({'appid': aid, 'name': name, 'ccu': ccu})
+    steamspy_candidates.append({'title': name, 'steam_appid': aid, 'igdb_id': None, 'gog_url': None, 'ccu': ccu, 'source': 'steamspy'})
 
-new_candidates.sort(key=lambda x: x['ccu'], reverse=True)
-print(f"  Candidati trovati: {len(new_candidates)}")
+steamspy_candidates.sort(key=lambda x: x['ccu'], reverse=True)
+all_candidates.extend(steamspy_candidates[:MAX_NEW_GAMES * 4])
+print(f"  Trovati: {len(steamspy_candidates)} candidati SteamSpy (tenuti top {min(len(steamspy_candidates), MAX_NEW_GAMES * 4)})")
 
-
-# ─────────────────── Processa nuovi giochi ───────────────────────────────
-print(f"\n➕ Aggiungo fino a {MAX_NEW_GAMES} nuovi giochi...")
-next_id = max_id + 1
-added   = 0
-tried   = 0
-
-for candidate in new_candidates:
-    if added >= MAX_NEW_GAMES:
-        break
-    tried += 1
-    if tried > MAX_NEW_GAMES * 4:
-        break
-
-    aid  = candidate['appid']
-    name = candidate['name']
-    ccu  = candidate['ccu']
-    print(f"\n  [{added+1}/{MAX_NEW_GAMES}] {name} (app {aid}, CCU: {ccu})")
-
-    # Descrizione italiana
-    sd, desc_it = steam_source.fetch_steam_desc(aid, 'italian')
-    if sd is None:
-        print("    ✗ Nessun dato Steam")
-        continue
-    if sd.get('type', '') != 'game':
-        print(f"    ✗ Tipo: {sd.get('type')} — skip")
-        continue
-    if not desc_it:
-        print("    ✗ Nessuna descrizione italiana utile")
-        continue
-
-    # Verifica co-op nelle categorie Steam
-    steam_cats = [c.get('description', '') for c in sd.get('categories', [])]
-    has_coop = any('co-op' in c.lower() or 'multiplayer' in c.lower() for c in steam_cats)
-    if not has_coop:
-        print("    ✗ Nessuna categoria co-op")
-        continue
-
-    # Descrizione inglese
-    _, desc_en = steam_source.fetch_steam_desc(aid, 'english')
-    desc_en = desc_en or ''
-
-    # Categorizzazione da tag SteamSpy
-    spy_data = steam_source.fetch_json(f"https://steamspy.com/api.php?request=appdetails&appid={aid}") or {}
-    spy_tags = list((spy_data.get('tags') or {}).keys())
-    genres   = [g.get('description', '') for g in sd.get('genres', [])]
-    all_labels = genres + steam_cats + spy_tags
-
-    categories = []
-    for label in all_labels:
-        for tag, cat in TAG_MAP.items():
-            if tag.lower() in label.lower() and cat not in categories:
-                categories.append(cat)
-                if len(categories) >= 3:
-                    break
-        if len(categories) >= 3:
-            break
-    if not categories:
-        categories = ['action']
-    # Verifica indie: controlla publisher/developer (non fidarsi dei tag)
-    new_pub = sd.get('publishers', []) or []
-    new_dev = sd.get('developers', []) or []
-    new_publishers = [p.lower() for p in new_pub + new_dev if isinstance(p, str)]
-    new_is_big = any(known in pub for pub in new_publishers for known in NOT_INDIE_PUBLISHERS)
-    if aid in indie_appids and aid not in NOT_INDIE_APPIDS and not new_is_big and 'indie' not in categories:
-        categories.append('indie')
-    # Verifica free: usa is_free + genere F2P (non fidarsi dei tag)
-    new_genres = [gr2.get('description', '').lower() for gr2 in sd.get('genres', [])]
-    new_is_free = sd.get('is_free', False) and 'free to play' in new_genres
-    if new_is_free and aid not in NOT_FREE_APPIDS and 'free' not in categories:
-        categories.append('free')
-
-    # Numero giocatori
-    players = derive_players_label(steam_cats)
-
-    # Rating
-    pos    = spy_data.get('positive', 0) or 0
-    neg    = spy_data.get('negative', 0) or 0
-    rating = calc_rating(pos, neg)
-
-    # Filtro qualità: scarta giochi con rating troppo basso
-    if rating > 0 and rating < MIN_RATING_NEW:
-        print(f"    ✗ Rating troppo basso: {rating}%")
-        continue
-
-    # Nuovi campi strutturali
-    steam_cats_lower = [c.lower() for c in steam_cats]
-    new_coop_modes = derive_coop_modes(steam_cats_lower)
-    new_crossplay = derive_crossplay(steam_cats_lower)
-    new_max_players = parse_max_players(players)
-
-    release_year = parse_release_year(sd.get('release_date'))
-
-    new_game = {
-        'id':             next_id,
-        'title':          name,
-        'categories':     categories[:4],
-        'genres':         derive_genres(categories[:4]),
-        'coopMode':       new_coop_modes,
-        'maxPlayers':     new_max_players,
-        'crossplay':      new_crossplay,
-        'players':        players,
-        'releaseYear':    release_year,
-        'image':          f"https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/{aid}/header.jpg",
-        'description':    desc_it,
-        'description_en': desc_en,
-        'personalNote':   '',
-        'played':         False,
-        'steamUrl':       f"https://store.steampowered.com/app/{aid}/",
-        'epicUrl':        '',
-        'itchUrl':        '',
-        'ccu':            ccu,
-        'trending':       ccu >= MIN_CCU_TRENDING,
-        'rating':         rating,
-    }
-    existing_games.append(new_game)
-    existing_appids.add(aid)
-    next_id += 1
-    added   += 1
-    print(f"    ✓ {name} | cats: {categories[:3]} | {rating}% | CCU: {ccu}")
-
-print(f"\n  Nuovi giochi aggiunti: {added}")
-
-
-# ─────────────────────── itch.io (opzionale) ─────────────────────────────
-if ITCH_IO_KEY:
-    print(f"\n🎲 Fetch giochi co-op da itch.io (query multiple)...")
-    itch_source = ItchCatalogSource(ITCH_IO_KEY, steam_source.fetch_json, MAX_ITCH_GAMES)
-    existing_itch_urls = {g.get('itchUrl', '') for g in existing_games if g.get('itchUrl')}
-    itch_new = itch_source.fetch_games(existing_itch_urls, next_id, existing_titles)
-    for ng in itch_new:
-        existing_games.append(ng)
-        existing_titles.add(ng.get('title', '').lower().strip())
-        print(f"  + {ng['title']} ({ng['itchUrl']})")
-    next_id += len(itch_new)
-    print(f"  Aggiunti da itch.io: {len(itch_new)}")
-else:
-    print("\n🎲 itch.io: saltato (nessun ITCH_IO_KEY — vedi README)")
-
-
-# ──────────────── Steam New Releases (API ufficiale) ─────────────────────
-steam_new_added = 0
+# 3b: Steam New Releases
 if STEAM_API_KEY:
-    print(f"\n🆕 Steam New Releases: giochi co-op usciti negli ultimi 90 giorni...")
-    steam_new_candidates = fetch_steam_new_coop_games(
+    print("  🆕 3b) Steam New Releases (ultimi 90 giorni)...")
+    steam_new_raw = fetch_steam_new_coop_games(
         api_key=STEAM_API_KEY,
         existing_appids=existing_appids,
         existing_titles=existing_titles,
@@ -401,204 +486,159 @@ if STEAM_API_KEY:
         skip_words=SKIP_WORDS,
         max_games=MAX_STEAM_NEW,
     )
-    for cand in steam_new_candidates:
-        appid = cand['appid']
-        title = cand['name']
-
-        # Fetch dati Steam completi per desc IT, categorie, generi
-        cc_url = f"https://store.steampowered.com/api/appdetails?appids={appid}&l=italian&cc=it"
-        it_data = steam_source.fetch_json(cc_url) or {}
-        it_info = it_data.get(str(appid), {})
-        it_sd = it_info.get('data', {}) if it_info.get('success') else {}
-
-        desc_it  = it_sd.get('short_description', '') or ''
-        desc_it  = re.sub(r'<[^>]+>', ' ', desc_it)
-        import html as _html
-        desc_it  = _html.unescape(desc_it)
-        desc_it  = re.sub(r'\s+', ' ', desc_it).strip()[:400]
-        desc_en  = cand.get('description_en', '')
-
-        tags_raw = list((it_sd.get('tags') or {}).keys()) if isinstance(it_sd.get('tags'), dict) else []
-
-        # Categorie dal TAG_MAP (stesso sistema pipeline SteamSpy)
-        categories = []
-        for tag in tags_raw:
-            cat = TAG_MAP.get(tag)
-            if cat and cat not in categories:
-                categories.append(cat)
-        if not categories:
-            categories = ['action']
-        genres = derive_genres(categories)
-
-        # Steam new releases: poche recensioni — lasciamo vuoto, si aggiornerà
-        new_game = {
-            'id':             next_id,
-            'igdbId':         0,
-            'title':          title,
-            'categories':     categories[:4],
-            'genres':         genres,
-            'coopMode':       cand['coopMode'],
-            'maxPlayers':     4,
-            'crossplay':      False,
-            'players':        '2-4',
-            'image':          cand.get('image', ''),
-            'description':    desc_it or desc_en,
-            'description_en': desc_en,
-            'personalNote':   '',
-            'played':         False,
-            'steamUrl':       cand['steamUrl'],
-            'gogUrl':         '',
-            'epicUrl':        '',
-            'itchUrl':        '',
-            'ccu':            0,
-            'trending':       False,
-            'rating':         0,
-        }
-        existing_games.append(new_game)
-        existing_appids.add(appid)
-        existing_titles.add(title.lower().strip())
-        next_id += 1
-        steam_new_added += 1
-        print(f"    ✓ {title} (new release, appid {appid})")
-
-    print(f"  Aggiunti da Steam New Releases: {steam_new_added}")
+    for cand in steam_new_raw:
+        all_candidates.append({
+            'title':       cand['name'],
+            'steam_appid': cand['appid'],
+            'igdb_id':     None,
+            'gog_url':     None,
+            'ccu':         0,
+            'source':      'steam_new',
+            '_steam_new_data': cand,   # dati preenricchiti da fetch
+        })
+    print(f"  Trovati: {len(steam_new_raw)} candidati Steam New")
 else:
-    print("\n🆕 Steam New Releases: saltato (nessun STEAM_API_KEY)")
+    print("  🆕 3b) Steam New Releases: saltato (nessun STEAM_API_KEY)")
 
-
-# ─────────────── IGDB Discovery (nuovi giochi cross-platform) ─────────────
-igdb_discovery_added = 0
+# 3c: IGDB Discovery
 if IGDB_CLIENT_ID and IGDB_CLIENT_SECRET:
-    print(f"\n🌐 IGDB Discovery: ricerca nuovi giochi co-op PC...")
+    print("  🌐 3c) IGDB Discovery...")
     try:
         igdb_source = IgdbCatalogSource(IGDB_CLIENT_ID, IGDB_CLIENT_SECRET)
-        candidates = igdb_source.discover_coop_games(
+        igdb_raw = igdb_source.discover_coop_games(
             existing_igdb_ids=existing_igdb_ids,
             existing_steam_appids=existing_appids,
             existing_titles=existing_titles,
             max_games=MAX_IGDB_DISCOVERY,
         )
-        print(f"  Candidati IGDB trovati: {len(candidates)}")
+        for cand in igdb_raw:
+            steam_appid = cand.get('steamAppId')
+            if steam_appid and steam_appid not in BLACKLIST_APPIDS:
+                all_candidates.append({
+                    'title':        cand.get('title', ''),
+                    'steam_appid':  steam_appid,
+                    'igdb_id':      cand.get('igdbId'),
+                    'gog_url':      None,
+                    'ccu':          ccu_map.get(steam_appid, 0),
+                    'source':       'igdb',
+                    'rating_igdb':  cand.get('rating_igdb', 0) or 0,
+                })
+        print(f"  Trovati: {len(igdb_raw)} candidati IGDB (con steam_appid)")
     except Exception as e:
         print(f"  ⚠️ IGDB Discovery fallita: {e}")
-        candidates = []
-
-    for cand in candidates:
-        steam_appid = cand.get('steamAppId')
-        gog_id = cand.get('gogId')
-        title = cand.get('title', '')
-
-        if steam_appid:
-            # Ha Steam → usa pipeline Steam per dati completi
-            if steam_appid in BLACKLIST_APPIDS:
-                print(f"  [IGDB→Steam] {title} → blacklisted")
-                continue
-            if steam_appid in existing_appids:
-                print(f"  [IGDB→Steam] {title} → già nel catalogo")
-                continue
-            print(f"\n  [IGDB→Steam] {title} ({steam_appid})")
-            sd, desc_it = steam_source.fetch_steam_desc(steam_appid, 'italian')
-            if sd is None or sd.get('type', '') != 'game' or not desc_it:
-                print(f"    ✗ Dati Steam insufficienti")
-                continue
-            steam_cats = [c.get('description', '') for c in sd.get('categories', [])]
-            has_coop = any('co-op' in c.lower() or 'multiplayer' in c.lower() for c in steam_cats)
-            if not has_coop:
-                print(f"    ✗ Nessuna categoria co-op su Steam")
-                continue
-            _, desc_en = steam_source.fetch_steam_desc(steam_appid, 'english')
-            spy_data = steam_source.fetch_json(f"https://steamspy.com/api.php?request=appdetails&appid={steam_appid}") or {}
-            spy_tags = list((spy_data.get('tags') or {}).keys())
-            genres = [g2.get('description', '') for g2 in sd.get('genres', [])]
-            all_labels = genres + steam_cats + spy_tags
-            categories = []
-            for label in all_labels:
-                for tag, cat in TAG_MAP.items():
-                    if tag.lower() in label.lower() and cat not in categories:
-                        categories.append(cat)
-                        if len(categories) >= 3:
-                            break
-                if len(categories) >= 3:
-                    break
-            if not categories:
-                categories = ['action']
-            pos = spy_data.get('positive', 0) or 0
-            neg = spy_data.get('negative', 0) or 0
-            total_reviews = pos + neg
-            rating = calc_rating(pos, neg)
-            igdb_rating = cand.get('rating_igdb', 0) or 0
-
-            # Qualità: non usiamo CCU (penalizza co-op locale e indie di nicchia).
-            # Accettiamo se: recensioni sufficienti + rating ok, OPPURE IGDB rating alto.
-            quality_by_steam = total_reviews >= MIN_REVIEWS_QUALITY and rating >= MIN_RATING_QUALITY
-            quality_by_igdb = igdb_rating >= MIN_IGDB_RATING and total_reviews >= 10
-            if not quality_by_steam and not quality_by_igdb:
-                print(f"    ✗ Qualità insufficiente: {rating}% su {total_reviews} rec, IGDB={igdb_rating}")
-                continue
-            players = derive_players_label([c.lower() for c in steam_cats])
-            new_game = {
-                'id':             next_id,
-                'igdbId':         cand['igdbId'],
-                'title':          title,
-                'categories':     categories[:4],
-                'genres':         derive_genres(categories[:4]),
-                'coopMode':       derive_coop_modes([c.lower() for c in steam_cats]),
-                'maxPlayers':     parse_max_players(players),
-                'crossplay':      derive_crossplay([c.lower() for c in steam_cats]),
-                'players':        players,
-                'image':          f"https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/{steam_appid}/header.jpg",
-                'description':    desc_it,
-                'description_en': desc_en or '',
-                'personalNote':   '',
-                'played':         False,
-                'steamUrl':       f"https://store.steampowered.com/app/{steam_appid}/",
-                'gogUrl':         '',
-                'epicUrl':        '',
-                'itchUrl':        '',
-                'ccu':            ccu_map.get(steam_appid, 0),
-                'trending':       ccu_map.get(steam_appid, 0) >= MIN_CCU_TRENDING,
-                'rating':         rating,
-            }
-            existing_games.append(new_game)
-            existing_appids.add(steam_appid)
-            existing_igdb_ids.add(cand['igdbId'])
-            existing_titles.add(title.lower().strip())
-            next_id += 1
-            igdb_discovery_added += 1
-            print(f"    ✓ {title} | {categories[:3]} | {rating}%")
-
-        elif gog_id:
-            # GOG-only: aggiungiamo con dati base (nessuna CCU disponibile)
-            # Descrizioni verranno aggiunte manualmente o da RAWG in futuro
-            print(f"\n  [IGDB→GOG-only] {title} — da implementare con GOG adapter")
-            # TODO: fetch GOG product details per descrizione e immagine
-
-    print(f"  Aggiunti da IGDB discovery: {igdb_discovery_added}")
 else:
-    print("\n🌐 IGDB Discovery: saltato (nessun IGDB_CLIENT_ID)")
+    print("  🌐 3c) IGDB Discovery: saltato (nessun IGDB_CLIENT_ID)")
 
-
-# ─────────────────────── GOG (giochi GOG-only) ───────────────────────────
-gog_added = 0
+# 3d: GOG Discovery (giochi GOG-only, senza Steam)
+gog_direct_candidates: list[dict] = []  # candidati GOG già enrichiti (no quality_gate steam)
 if IGDB_CLIENT_ID and IGDB_CLIENT_SECRET:
-    print(f"\n🎮 GOG: ricerca giochi co-op GOG-only...")
-    gog_candidates = fetch_gog_candidates(
+    print("  🎮 3d) GOG Discovery (giochi GOG-only)...")
+    gog_raw = fetch_gog_candidates(
         existing_titles=existing_titles,
         existing_gog_urls=existing_gog_urls,
         existing_igdb_ids=existing_igdb_ids,
         max_games=MAX_GOG_GAMES,
     )
-    print(f"  Candidati GOG trovati: {len(gog_candidates)}")
-
     igdb_source_gog = IgdbCatalogSource(IGDB_CLIENT_ID, IGDB_CLIENT_SECRET)
     gog_source = GogCatalogSource()
+    for cand in gog_raw:
+        # GOG-only: non ha steam_appid → quality_gate non applicabile
+        # Validazione tramite IGDB game_modes query diretta
+        all_candidates.append({
+            'title':    cand['title'],
+            'steam_appid': None,
+            'igdb_id':  None,
+            'gog_url':  cand['gogUrl'],
+            'ccu':      0,
+            'source':   'gog',
+            '_gog_data': cand,
+            '_igdb_source_gog': igdb_source_gog,
+            '_gog_source': gog_source,
+        })
+    print(f"  Trovati: {len(gog_raw)} candidati GOG")
+else:
+    print("  🎮 3d) GOG: saltato (richiede IGDB_CLIENT_ID per verifica dedup)")
 
-    for cand in gog_candidates:
-        title = cand['title']
-        gog_url = cand['gogUrl']
+# 3e: RAWG Discovery
+if RAWG_API_KEY:
+    print("  🔷 3e) RAWG Discovery (co-op PC su Steam)...")
+    try:
+        rawg_source = RawgCatalogSource(api_key=RAWG_API_KEY, delay=1.0)
+        rawg_raw = rawg_source.discover_coop_games(
+            existing_steam_appids=existing_appids,
+            existing_titles=existing_titles,
+            max_games=MAX_RAWG_DISCOVERY,
+        )
+        for cand in rawg_raw:
+            if cand['steam_appid'] not in BLACKLIST_APPIDS:
+                all_candidates.append(cand)
+        print(f"  Trovati: {len(rawg_raw)} candidati RAWG")
+    except Exception as e:
+        print(f"  ⚠️ RAWG Discovery fallita: {e}")
+else:
+    print("  🔷 3e) RAWG Discovery: saltato (nessun RAWG_API_KEY)")
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# FASE 4 — Deduplicate candidates
+# ═══════════════════════════════════════════════════════════════════════════
+print("\n🔎 FASE 4 — Deduplicazione candidati...")
+seen_appids:  set[str] = set()
+seen_titles:  set[str] = set()
+unique_candidates: list[dict] = []
+
+for cand in all_candidates:
+    appid = cand.get('steam_appid')
+    title_key = cand.get('title', '').lower().strip()
+
+    # Skip se già in catalogo (doppio controllo sicurezza)
+    if appid and appid in existing_appids:
+        continue
+    if title_key in existing_titles:
+        continue
+
+    # Skip duplicati tra candidati
+    if appid and appid in seen_appids:
+        continue
+    if title_key in seen_titles:
+        continue
+
+    if appid:
+        seen_appids.add(appid)
+    seen_titles.add(title_key)
+    unique_candidates.append(cand)
+
+print(f"  Candidati totali: {len(all_candidates)} → unici: {len(unique_candidates)}")
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# FASE 5 — Quality gate su candidati con steam_appid
+# FASE 6 — Enrich approved
+# FASE 7 — Build game dict + add to catalog
+# (Fasi 5-7 eseguite insieme per candidato per limitare le richieste API)
+# ═══════════════════════════════════════════════════════════════════════════
+print(f"\n✅ FASE 5-7 — Quality gate + Enrich + Add (max {MAX_NEW_GAMES} giochi Steam)...")
+
+next_id      = max_id + 1
+added_steam  = 0   # SteamSpy + Steam New + IGDB + RAWG (tutti hanno steam_appid)
+added_gog    = 0
+steam_budget = MAX_NEW_GAMES   # budget totale giochi Steam da aggiungere
+
+for cand in unique_candidates:
+    appid  = cand.get('steam_appid')
+    title  = cand.get('title', '')
+    source = cand.get('source', '')
+
+    # ── PATH GOG (senza steam_appid) ──
+    if source == 'gog' and not appid:
+        if added_gog >= MAX_GOG_GAMES:
+            continue
+        gog_url        = cand['gog_url']
+        igdb_src       = cand['_igdb_source_gog']
+        gog_src        = cand['_gog_source']
+        gog_cand_data  = cand['_gog_data']
         print(f"\n  [GOG] {title}")
 
-        # Cerca su IGDB per dati multiplayer, rating e verifica non è su Steam
         query = (
             f"fields id, name, rating, rating_count, "
             f"external_games.uid, external_games.category, "
@@ -609,17 +649,10 @@ if IGDB_CLIENT_ID and IGDB_CLIENT_SECRET:
             f"where platforms = (6) & game_modes = (3); "
             f"limit 3;"
         )
-        igdb_results = igdb_source_gog._post("games", query) or []
-
-        # Trova il match esatto per titolo
-        igdb_match = None
-        for r in igdb_results:
-            if r.get('name', '').lower().strip() == title.lower().strip():
-                igdb_match = r
-                break
+        igdb_results = igdb_src._post("games", query) or []
+        igdb_match = next((r for r in igdb_results if r.get('name', '').lower().strip() == title.lower().strip()), None)
         if not igdb_match and igdb_results:
-            igdb_match = igdb_results[0]  # primo risultato come fallback
-
+            igdb_match = igdb_results[0]
         if not igdb_match:
             print(f"    ✗ Nessun match IGDB per '{title}'")
             continue
@@ -629,45 +662,22 @@ if IGDB_CLIENT_ID and IGDB_CLIENT_SECRET:
             print(f"    ✗ igdbId {igdb_id} già nel catalogo")
             continue
 
-        # Controlla se ha Steam → se sì, sarà aggiunto dalla pipeline Steam, skip
-        has_steam = any(
-            ext.get('category') == 1
-            for ext in (igdb_match.get('external_games') or [])
-        )
+        has_steam = any(ext.get('category') == 1 for ext in (igdb_match.get('external_games') or []))
         if has_steam:
             print(f"    ✗ Ha anche Steam — gestito da pipeline Steam")
             continue
 
-        # Qualità: essere nel catalogo co-op GOG + match IGDB è sufficiente.
-        # Rifiuta solo se IGDB ha un rating esplicitamente basso con molte recensioni.
-        igdb_rating = igdb_match.get('rating') or 0
+        igdb_rating       = igdb_match.get('rating') or 0
         igdb_rating_count = igdb_match.get('rating_count') or 0
-        gog_rating = cand.get('rating_gog', 0) or 0
         if igdb_rating > 0 and igdb_rating < MIN_IGDB_RATING and igdb_rating_count >= 20:
             print(f"    ✗ Rating IGDB basso: {igdb_rating:.0f} ({igdb_rating_count} voti)")
             continue
-        print(f"    IGDB rating={igdb_rating:.0f}({igdb_rating_count}), GOG rating={gog_rating}")
 
-        # Dati multiplayer da IGDB
         modes_list = igdb_match.get('multiplayer_modes') or []
-        from igdb_catalog_source import _parse_multiplayer_modes
         mp = _parse_multiplayer_modes(modes_list) or {'coopMode': ['online'], 'maxPlayers': 4}
-
-        # Descrizione da GOG API
-        _, desc_en = gog_source.fetch_product_description(cand.get('gogProductId', ''))
-        if desc_en:
-            print(f"    Descrizione GOG: {desc_en[:60]}...")
-
-        # Categorie dai tag GOG
-        gog_tags = cand.get('tags', [])
-        categories = []
-        for tag in gog_tags:
-            for key, cat in TAG_MAP.items():
-                if key.lower() in tag.lower() and cat not in categories:
-                    categories.append(cat)
-                    break
-        if not categories:
-            categories = ['action']
+        _, desc_en = gog_src.fetch_product_description(gog_cand_data.get('gogProductId', ''))
+        gog_tags = gog_cand_data.get('tags', [])
+        categories = _categorize_from_labels(gog_tags)
 
         new_game = {
             'id':             next_id,
@@ -679,7 +689,7 @@ if IGDB_CLIENT_ID and IGDB_CLIENT_SECRET:
             'maxPlayers':     mp['maxPlayers'] or 4,
             'crossplay':      False,
             'players':        f"1-{mp['maxPlayers'] or 4}",
-            'image':          cand.get('image', ''),
+            'image':          gog_cand_data.get('image', ''),
             'description':    desc_en,
             'description_en': desc_en,
             'personalNote':   '',
@@ -696,170 +706,143 @@ if IGDB_CLIENT_ID and IGDB_CLIENT_SECRET:
         existing_igdb_ids.add(igdb_id)
         existing_gog_urls.add(gog_url)
         existing_titles.add(title.lower().strip())
-        next_id += 1
-        gog_added += 1
+        next_id  += 1
+        added_gog += 1
         print(f"    ✓ {title} (GOG-only, igdbId={igdb_id})")
-
-    print(f"  Aggiunti da GOG: {gog_added}")
-else:
-    print("\n🎮 GOG: saltato (richiede IGDB_CLIENT_ID per verifica dedup)")
-
-
-# ─────────────────── VERIFICA INTEGRITÀ DATABASE ──────────────────────────
-print("\n🔍 Verifica integrità database...")
-
-v_fixed_free   = 0
-v_fixed_indie  = 0
-v_fixed_title  = 0
-v_removed_nocoop = 0
-v_checked      = 0
-nocoop_flagged_ids = []
-
-# Rotazione: ad ogni run verifica un blocco diverso di giochi
-# Così in ~4 run copriamo tutto il DB
-iso_week = datetime.datetime.now().isocalendar()
-verify_offset = ((iso_week[0] * 52 + iso_week[1]) * 7 + iso_week[2]) % max(len(existing_games), 1)
-rotated_games = existing_games[verify_offset:] + existing_games[:verify_offset]
-
-for g in rotated_games:
-    if v_checked >= MAX_VERIFY:
-        break
-
-    aid = appid_from_url(g['steamUrl'])
-    if not aid:
         continue
 
-    v_checked += 1
-    cc_url = f"https://store.steampowered.com/api/appdetails?appids={aid}&l=english&cc=us"
-    data = steam_source.fetch_json(cc_url)
-    if not data:
+    # ── PATH STEAM (tutti gli altri: steamspy, steam_new, igdb, rawg) ──
+    if not appid:
         continue
-    info = data.get(str(aid), {})
-    if not info.get('success'):
+    if added_steam >= steam_budget:
         continue
-    sd = info.get('data', {})
 
-    # ── 0. Sanity check: verifica che l'API abbia restituito il gioco giusto ──
-    # Steam API sotto rate limit può restituire dati di un altro gioco!
-    api_name = sd.get('name', '')
-    db_name = g['title']
-    if api_name:
-        # Confronto: almeno 30% delle parole significative in comune
-        api_words = set(re.findall(r'[a-zA-Z]{3,}', api_name.lower()))
-        db_words = set(re.findall(r'[a-zA-Z]{3,}', db_name.lower()))
-        common = api_words & db_words
-        total = max(len(api_words | db_words), 1)
-        similarity = len(common) / total
-        if similarity < 0.25 and len(api_words) > 0 and len(db_words) > 0:
-            print(f"  ⛔ {db_name}: API ha restituito '{api_name}' (sim={similarity:.0%}) — scartato")
+    print(f"\n  [{added_steam+1}/{steam_budget}] {title} (app {appid}, CCU: {cand.get('ccu',0)}, src: {source})")
+
+    # Steam New Releases: dati preenricchiti, solo verifica quality gate
+    if source == 'steam_new':
+        snd = cand.get('_steam_new_data', {})
+        verdict = _run_quality_gate(appid)
+        if verdict["status"] == "rejected":
+            print(f"    ✗ Quality gate: {verdict['reason']}")
             continue
+        if verdict["status"] == "needs_review":
+            print(f"    ⚠ Quality gate needs_review: {verdict['reason']} — skipped")
+            continue
+        desc_it_raw = snd.get('description_it', '') or snd.get('description_en', '') or ''
+        desc_it_raw = re.sub(r'<[^>]+>', ' ', desc_it_raw)
+        desc_it_raw = _html.unescape(desc_it_raw)
+        desc_it_raw = re.sub(r'\s+', ' ', desc_it_raw).strip()[:400]
+        new_game = _build_steam_game_dict(
+            next_id=next_id,
+            appid=appid,
+            title=title,
+            categories=_categorize_from_labels(list((snd.get('tags') or {}).keys())),
+            coop_modes=verdict["coop_modes"] or snd.get('coopMode', ['online']),
+            max_players=4,
+            crossplay=False,
+            players='2-4',
+            release_year=0,
+            desc_it=desc_it_raw,
+            desc_en=snd.get('description_en', ''),
+            ccu=0,
+            rating=0,
+        )
+        new_game['image'] = snd.get('image', new_game['image'])
+        new_game['steamUrl'] = snd.get('steamUrl', new_game['steamUrl'])
+        existing_games.append(new_game)
+        existing_appids.add(appid)
+        existing_titles.add(title.lower().strip())
+        next_id     += 1
+        added_steam += 1
+        print(f"    ✓ {title} (new release)")
+        continue
 
-    # ── 1. Verifica FREE: usa is_free + price_overview + genere F2P ──
-    steam_is_free = sd.get('is_free', False)
-    price = sd.get('price_overview', {})
-    price_cents = price.get('final', 0) if price else 0
-    genres_list = [gr.get('description', '').lower() for gr in sd.get('genres', [])]
-    has_f2p_genre = 'free to play' in genres_list
-    # Veramente free = Steam dice is_free E (nessun prezzo O prezzo = 0) E genere F2P
-    actually_free = steam_is_free and price_cents == 0 and has_f2p_genre
+    # Tutti gli altri path Steam: quality gate → enrich completo
+    verdict = _run_quality_gate(appid)
+    if verdict["status"] == "rejected":
+        print(f"    ✗ Quality gate: {verdict['reason']}")
+        continue
+    if verdict["status"] == "needs_review":
+        print(f"    ⚠ Quality gate needs_review: {verdict['reason']} — skipped")
+        continue
 
-    if 'free' in g['categories'] and not actually_free:
-        g['categories'].remove('free')
-        v_fixed_free += 1
-        fmt = price.get('final_formatted', 'N/A')
-        print(f"  💰 {g['title']}: rimosso tag 'free' (is_free={steam_is_free}, prezzo={fmt}, genere_f2p={has_f2p_genre})")
-
-    if actually_free and 'free' not in g['categories'] and aid not in NOT_FREE_APPIDS:
-        g['categories'].append('free')
-        v_fixed_free += 1
-        print(f"  🆓 {g['title']}: aggiunto tag 'free' (verificato: is_free + genere F2P)")
-
-    # ── 2. Verifica INDIE: controlla publisher/developer ──
-    pub_names = sd.get('publishers', []) or []
-    dev_names = sd.get('developers', []) or []
-    publishers = [p.lower() for p in pub_names + dev_names if isinstance(p, str)]
-
-    is_big_studio = any(
-        known in pub for pub in publishers for known in NOT_INDIE_PUBLISHERS
+    igdb_id    = cand.get('igdb_id') or 0
+    igdb_rating = cand.get('rating_igdb', 0) or 0
+    new_game = _enrich_steam_candidate(
+        appid=appid,
+        title=title,
+        ccu=cand.get('ccu', 0),
+        igdb_id=igdb_id,
+        igdb_rating=igdb_rating,
+        next_id=next_id,
+        qg_verdict=verdict,
     )
+    if new_game is None:
+        continue
 
-    if 'indie' in g['categories'] and (is_big_studio or aid in NOT_INDIE_APPIDS):
-        g['categories'].remove('indie')
-        v_fixed_indie += 1
-        print(f"  🏢 {g['title']}: rimosso tag 'indie' (publisher: {publishers})")
+    existing_games.append(new_game)
+    existing_appids.add(appid)
+    if igdb_id:
+        existing_igdb_ids.add(igdb_id)
+    existing_titles.add(title.lower().strip())
+    next_id     += 1
+    added_steam += 1
+    print(f"    ✓ {title} | {new_game['categories'][:3]} | {new_game['rating']}% | src: {source}")
 
-    # ── 3. Verifica CO-OP + aggiorna coopMode/crossplay ──
-    steam_cats = [c.get('description', '').lower() for c in sd.get('categories', [])]
-    has_coop = any('co-op' in c or 'multiplayer' in c or 'multi-player' in c for c in steam_cats)
-    if not has_coop:
-        v_removed_nocoop += 1
-        nocoop_flagged_ids.append(g['id'])
-        print(f"  ⚠️  {g['title']}: NESSUNA categoria co-op su Steam!")
-
-    # Aggiorna coopMode e crossplay dai dati Steam reali
-    g['coopMode'] = derive_coop_modes(steam_cats)
-    g['crossplay'] = derive_crossplay(steam_cats)
-    g['genres'] = derive_genres(g['categories'])
-    g['maxPlayers'] = parse_max_players(g['players'])
-
-    # ── 4. Verifica TITOLO: solo log, non modifica automaticamente ──
-    # Il rinominamento automatico è troppo rischioso con i rate limit di Steam
-    steam_name = sd.get('name', '')
-    if steam_name and steam_name != g['title'] and len(steam_name) > 2:
-        clean_api = steam_name.lower().replace('™', '').replace('®', '').replace(':', '').strip()
-        clean_db = g['title'].lower().replace('™', '').replace('®', '').replace(':', '').strip()
-        if clean_api != clean_db:
-            v_fixed_title += 1
-            print(f"  📝 Titolo diverso (solo log): '{g['title']}' vs Steam '{steam_name}'")
-
-print(f"\n  Verificati: {v_checked} giochi")
-print(f"  Fix free  : {v_fixed_free}")
-print(f"  Fix indie : {v_fixed_indie}")
-print(f"  Fix titoli: {v_fixed_title}")
-print(f"  Senza co-op (warning): {v_removed_nocoop}")
-
-# Esporta giochi flaggati senza co-op per cross-validation
-catalog_data.DATA_DIR.mkdir(exist_ok=True)
-NOCOOP_FLAGGED_PATH = catalog_data.DATA_DIR / "_nocoop_flagged.json"
-NOCOOP_FLAGGED_PATH.write_text(
-    json.dumps({"game_ids": nocoop_flagged_ids}, indent=2) + "\n",
-    encoding="utf-8",
-)
+print(f"\n  Nuovi giochi aggiunti: {added_steam} (Steam) + {added_gog} (GOG)")
 
 
-# ─────────────────────── Arricchimento IGDB ──────────────────────────────
+# ── itch.io (opzionale, non passa per quality gate — sorgente di nicchia) ──
+if ITCH_IO_KEY:
+    print(f"\n🎲 itch.io...")
+    itch_source = ItchCatalogSource(ITCH_IO_KEY, steam_source.fetch_json, MAX_ITCH_GAMES)
+    existing_itch_urls = {g.get('itchUrl', '') for g in existing_games if g.get('itchUrl')}
+    itch_new = itch_source.fetch_games(existing_itch_urls, next_id, existing_titles)
+    for ng in itch_new:
+        existing_games.append(ng)
+        existing_titles.add(ng.get('title', '').lower().strip())
+    next_id += len(itch_new)
+    print(f"  Aggiunti da itch.io: {len(itch_new)}")
+else:
+    print("\n🎲 itch.io: saltato (nessun ITCH_IO_KEY)")
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# FASE 8 — Arricchimento IGDB + Featured indie + Write games.js
+# ═══════════════════════════════════════════════════════════════════════════
+print("\n🎯 FASE 8 — Finalizzazione...")
+
+# Arricchimento IGDB (coopMode, maxPlayers per giochi esistenti)
 igdb_enriched = 0
 if IGDB_CLIENT_ID and IGDB_CLIENT_SECRET:
-    print("\n🎯 Arricchimento multiplayer con IGDB...")
+    print("  🎯 Arricchimento multiplayer con IGDB...")
     igdb_enriched = enrich_games_with_igdb(existing_games, IGDB_CLIENT_ID, IGDB_CLIENT_SECRET)
-    print(f"  ✅ IGDB: {igdb_enriched} giochi arricchiti (coopMode, maxPlayers)")
+    print(f"  ✅ IGDB: {igdb_enriched} giochi arricchiti")
 else:
-    print("\n🎯 IGDB: saltato (nessun IGDB_CLIENT_ID/IGDB_CLIENT_SECRET)")
+    print("  🎯 IGDB arricchimento: saltato")
 
-
-# ─────────────────────── Gioco Indie della Settimana ─────────────────────
-print("\n🌟 Selezione gioco indie della settimana...")
+# Selezione gioco indie della settimana
+print("  🌟 Selezione gioco indie della settimana...")
 if FEATURED_OVERRIDE_ID > 0:
     featured_id = FEATURED_OVERRIDE_ID
-    # Verifichiamo il titolo per log
     featured_game = next((g for g in existing_games if g['id'] == featured_id), None)
     title = featured_game['title'] if featured_game else "ID Sconosciuto"
     print(f"  Featured (MANUAL OVERRIDE): {title} (id {featured_id})")
 else:
     indie_rated = [g for g in existing_games if 'indie' in g.get('categories', []) and g.get('rating', 0) >= 75]
     if indie_rated:
-        indie_sorted  = sorted(indie_rated, key=lambda x: x.get('rating', 0), reverse=True)
-        top_indie     = indie_sorted[:12]   # top 12 giochi indie per rating
-        iso           = datetime.datetime.now().isocalendar()
-        week_idx      = (iso[0] * 52 + iso[1]) % len(top_indie)
-        featured_id   = top_indie[week_idx]['id']
-        print(f"  Featured (AUTO): {top_indie[week_idx]['title']} (id {featured_id}, rating {top_indie[week_idx]['rating']}%)")
+        indie_sorted = sorted(indie_rated, key=lambda x: x.get('rating', 0), reverse=True)
+        top_indie    = indie_sorted[:12]
+        iso          = datetime.datetime.now().isocalendar()
+        week_idx     = (iso[0] * 52 + iso[1]) % len(top_indie)
+        featured_id  = top_indie[week_idx]['id']
+        print(f"  Featured (AUTO): {top_indie[week_idx]['title']} (id {featured_id})")
     else:
         featured_id = 0
         print("  Nessun gioco indie con rating >= 75%")
 
-
-# ─────────────────────── Scrivi games.js ─────────────────────────────────
+# Scrittura games.js
 print(f"\n💾 Scrittura games.js ({len(existing_games)} giochi)...")
 try:
     catalog_data.write_legacy_games_js(
@@ -871,6 +854,7 @@ except ValueError as exc:
 else:
     print(f"  ✅ games.js scritto con successo ({len(existing_games)} giochi)")
 
+# Statistiche finali
 trending_count = sum(1 for g in existing_games if g.get('trending'))
 rated_count    = sum(1 for g in existing_games if g.get('rating', 0) > 0)
 en_count       = sum(1 for g in existing_games if g.get('description_en'))
@@ -884,6 +868,6 @@ print(f"   Con desc EN 🌍   : {en_count}")
 print(f"   Indie 🎮         : {indie_count}")
 print(f"   Free 🆓          : {free_count}")
 print(f"   Featured ID 🌟   : {featured_id}")
-print(f"   Nuovi aggiunti   : {added} (SteamSpy) + {steam_new_added} (Steam new) + {igdb_discovery_added} (IGDB) + {gog_added} (GOG)")
+print(f"   Nuovi aggiunti   : {added_steam} (Steam: steamspy/new/igdb/rawg) + {added_gog} (GOG)")
 print(f"   IGDB arricchiti  : {igdb_enriched}")
-print(f"   Verifiche        : {v_checked} controllati, {v_fixed_free + v_fixed_indie + v_fixed_title} corretti, {v_removed_nocoop} warning co-op")
+print(f"   Verifiche integrità: {v_checked} controllati, {v_fixed_free+v_fixed_indie+v_fixed_title} corretti, {v_removed_nocoop} warning co-op")

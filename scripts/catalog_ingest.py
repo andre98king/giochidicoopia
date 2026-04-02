@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# DEPRECATED (2026-04-02): superseded by auto_update.py pipeline.
+# La discovery + quality gate + enrich è ora integrata direttamente nel workflow CI.
+# Questo file rimane per ingest manuale one-shot da file JSON esterni.
 """
 Catalog Ingest Pipeline — automated co-op game ingestion with quality gates.
 
