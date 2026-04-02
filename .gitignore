@@ -139,3 +139,6 @@ data/audit_state.json
 PROJECT_SNAPSHOT.md
 Modelfile.coop-classifier
 training/
+
+# Dev artifacts (screenshots, design files)
+.dev/
