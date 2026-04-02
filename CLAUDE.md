@@ -103,6 +103,40 @@ Contiene vincoli architetturali, convenzioni SEO e regole di sicurezza. **L'AI D
 
 ---
 
+## 📜 Pipeline, Fix & Contesto Operativo (2026-04-03)
+
+### 🎯 Quality Gate & Curation
+
+- **Problema iniziale**: `quality_gate.py` scartava 198 giochi validi (AAA & indie) con reason `"low_reviews:0"`.
+- **Fix applicato**: Modificata condizione in `run_curation_gate()`:
+  - Prima: `if reviews < rules["min_reviews"]:`
+  - Dopo: `if reviews > 0 and reviews < rules["min_reviews"]:`
+- **Risultato**: 364 → 562 validi ✅ | 198 → 0 hidden (warning) ✅ | 12 critical (intenzionali: `blocked_keyword: demo/prototype/test`)
+
+### 🔧 CI Workflow Update
+
+- `.github/workflows/update.yml` ora ha bypass intelligente:
+  - Se TUTTI i critical iniziano con `blocked_keyword:` → `exit 0` (atteso)
+  - Se ci sono `missing_fields` o altri errori → `exit 1` (blocco reale)
+
+### 📊 Audit Giornaliero
+
+- Aggiunta funzione `export_daily_audit()` in `scripts/quality_gate.py`
+- Salva `reports/daily_audit_YYYY-MM-DD.json` con calcolo delta rispetto al giorno precedente
+
+### 📦 Commit Hashes
+
+- `53305fa7` - fix(qgate): treat zero reviews as pending, recover 198 false positives
+- `b8e54ef6` - feat(CI): bypass expected blocks (demo/prototype), add daily audit export
+
+### 🔮 Next Steps
+
+- Thin Content Expander → `scripts/seo_content_generator.py` (espansione descrizioni 150+ parole/pagina)
+- JSON-LD `VideoGame` Schema ottimizzato per Rich Results
+- Cache Headers & Brotli precompression per performance
+
+---
+
 ### 📊 Cosa ho corretto/ottimizzato
 | Sezione | Problema originale | Fix applicato |
 |---------|-------------------|---------------|
