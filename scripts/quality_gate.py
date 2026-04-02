@@ -21,14 +21,18 @@ Source sets (pass as `sources=` to validate()):
 from __future__ import annotations
 
 import json
+import shutil
+import sys
 import time
 import urllib.error
 import urllib.request
+from datetime import datetime
+from pathlib import Path
 from typing import Any
 
 # Steam category IDs that signal co-op
 STEAM_COOP_CATS: dict[int, str] = {
-    9:  "Co-op",
+    9: "Co-op",
     38: "Online Co-op",
     39: "Shared/Split Screen Co-op",
     24: "Shared/Split Screen",
@@ -46,9 +50,15 @@ STEAM_PVP_CATS: dict[int, str] = {
 
 # RAWG tags that confirm co-op
 RAWG_COOP_TAGS = {
-    "co-op", "cooperative", "local co-op", "online co-op",
-    "co-op campaign", "multiplayer co-op", "4-player co-op",
-    "2-player co-op", "couch co-op",
+    "co-op",
+    "cooperative",
+    "local co-op",
+    "online co-op",
+    "co-op campaign",
+    "multiplayer co-op",
+    "4-player co-op",
+    "2-player co-op",
+    "couch co-op",
 }
 
 # Strong co-op signals — enough for auto-approve without secondary sources
@@ -61,10 +71,12 @@ SOURCES_FULL = frozenset({"steam", "igdb", "gog", "rawg"})
 
 _scraper = None
 
+
 def _get_scraper():
     global _scraper
     if _scraper is None:
         import cloudscraper
+
         _scraper = cloudscraper.create_scraper(
             browser={"browser": "chrome", "platform": "windows", "desktop": True}
         )
@@ -82,6 +94,7 @@ def _fetch_json(url: str, timeout: int = 15) -> dict | None:
 
 
 # ─────────────── IGDB helpers ───────────────
+
 
 def _get_igdb_token(client_id: str, client_secret: str) -> str | None:
     """Get Twitch OAuth2 token for IGDB access."""
@@ -119,7 +132,9 @@ def _igdb_post(endpoint: str, query: str, token: str, client_id: str) -> list | 
         return None
 
 
-def fetch_igdb_coop(steam_app_id: str, client_id: str, client_secret: str) -> bool | None:
+def fetch_igdb_coop(
+    steam_app_id: str, client_id: str, client_secret: str
+) -> bool | None:
     """
     Check co-op via IGDB using the Steam app ID.
     Returns True  → IGDB confirms co-op (game_modes contains 3)
@@ -133,7 +148,8 @@ def fetch_igdb_coop(steam_app_id: str, client_id: str, client_secret: str) -> bo
     ext_results = _igdb_post(
         "external_games",
         f"fields uid, game; where uid = ({steam_app_id}); limit 5;",
-        token, client_id,
+        token,
+        client_id,
     )
     if not ext_results:
         return None
@@ -146,7 +162,8 @@ def fetch_igdb_coop(steam_app_id: str, client_id: str, client_secret: str) -> bo
     game_results = _igdb_post(
         "games",
         f"fields game_modes; where id = ({ids_str}); limit 3;",
-        token, client_id,
+        token,
+        client_id,
     )
     if not game_results:
         return None
@@ -160,7 +177,10 @@ def fetch_igdb_coop(steam_app_id: str, client_id: str, client_secret: str) -> bo
 
 # ─────────────── GOG catalog helper ───────────────
 
-def fetch_igdb_coop_by_title(game_name: str, client_id: str, client_secret: str) -> bool | None:
+
+def fetch_igdb_coop_by_title(
+    game_name: str, client_id: str, client_secret: str
+) -> bool | None:
     """
     Check co-op via IGDB using a title search (for games without Steam app ID).
     Returns True  → IGDB confirms co-op (game_modes contains 3)
@@ -172,11 +192,12 @@ def fetch_igdb_coop_by_title(game_name: str, client_id: str, client_secret: str)
         return None
 
     # Search by title, take top 2 results
-    safe_name = game_name.replace('"', '')
+    safe_name = game_name.replace('"', "")
     results = _igdb_post(
         "games",
         f'fields game_modes, name; search "{safe_name}"; limit 2;',
-        token, client_id,
+        token,
+        client_id,
     )
     if not results:
         return None
@@ -196,6 +217,7 @@ def fetch_gog_coop(game_name: str) -> bool | None:
     Returns None  → No results or request failed
     """
     import urllib.parse
+
     query = urllib.parse.quote(game_name)
     url = f"https://catalog.gog.com/v1/catalog?productType=in%3Agame&search={query}&limit=3"
     data = _fetch_json(url)
@@ -244,6 +266,7 @@ def fetch_steam_categories(app_id: str) -> tuple[list[dict], str, str, str]:
 def fetch_rawg_tags(game_name: str, api_key: str) -> set[str]:
     """Search RAWG for the game and return its tags (lowercased)."""
     import urllib.parse
+
     query = urllib.parse.quote(game_name)
     url = f"https://api.rawg.io/api/games?key={api_key}&search={query}&page_size=3"
     data = _fetch_json(url)
@@ -260,10 +283,10 @@ def derive_coop_modes(cat_ids: set[int]) -> list[str]:
     modes = []
     if cat_ids & {38, 48, 44, 9}:  # Online Co-op, LAN, Remote Play, generic Co-op
         modes.append("online")
-    if cat_ids & {39, 24}:          # Shared/Split Screen
+    if cat_ids & {39, 24}:  # Shared/Split Screen
         modes.append("local")
     if not modes:
-        modes.append("online")      # fallback
+        modes.append("online")  # fallback
     return modes
 
 
@@ -307,20 +330,30 @@ def validate(
     """
     # Resolve active sources
     if sources is None:
-        active: frozenset[str] = frozenset({
-            "steam", "gog",
-            *( ["igdb"] if igdb_client_id and igdb_client_secret else [] ),
-            *( ["rawg"] if rawg_api_key else [] ),
-        })
+        active: frozenset[str] = frozenset(
+            {
+                "steam",
+                "gog",
+                *(["igdb"] if igdb_client_id and igdb_client_secret else []),
+                *(["rawg"] if rawg_api_key else []),
+            }
+        )
     else:
         active = sources
 
     def _empty_verdict(status: str, reason: str, confidence: str) -> dict[str, Any]:
         return {
-            "status": status, "reason": reason, "confidence": confidence,
-            "coop_modes": [], "coop_score_hint": None, "steam_name": "",
-            "pvp_signals": [], "coop_signals": [],
-            "rawg_confirmed": False, "igdb_confirmed": None, "gog_confirmed": None,
+            "status": status,
+            "reason": reason,
+            "confidence": confidence,
+            "coop_modes": [],
+            "coop_score_hint": None,
+            "steam_name": "",
+            "pvp_signals": [],
+            "coop_signals": [],
+            "rawg_confirmed": False,
+            "igdb_confirmed": None,
+            "gog_confirmed": None,
         }
 
     # ── Steam (always) ──
@@ -329,19 +362,30 @@ def validate(
 
     # Reject DLC, demos, soundtracks, tools — not games
     if app_type and app_type not in ("game", ""):
-        return {**_empty_verdict("rejected", f"Not a game on Steam (type={app_type})", "high"),
-                "coop_modes": [], "steam_name": steam_name}
+        return {
+            **_empty_verdict(
+                "rejected", f"Not a game on Steam (type={app_type})", "high"
+            ),
+            "coop_modes": [],
+            "steam_name": steam_name,
+        }
 
     if not cats and not steam_name:
         # Steam unavailable — fall back to secondary sources if available
         if "igdb" not in active and "gog" not in active and "rawg" not in active:
-            return {**_empty_verdict("needs_review", "Steam API unavailable — no fallback sources", "low"),
-                    "coop_modes": ["online"]}
+            return {
+                **_empty_verdict(
+                    "needs_review", "Steam API unavailable — no fallback sources", "low"
+                ),
+                "coop_modes": ["online"],
+            }
 
         igdb_confirmed: bool | None = None
         if "igdb" in active and igdb_client_id and igdb_client_secret:
             time.sleep(rate_limit_delay)
-            igdb_confirmed = fetch_igdb_coop(steam_app_id, igdb_client_id, igdb_client_secret)
+            igdb_confirmed = fetch_igdb_coop(
+                steam_app_id, igdb_client_id, igdb_client_secret
+            )
 
         gog_confirmed: bool | None = None
         # Can't search GOG without a title — skip when Steam name is missing
@@ -361,33 +405,50 @@ def validate(
             reason = "Steam unavailable | IGDB could not find game"
 
         return {
-            "status": status, "reason": reason, "confidence": confidence,
-            "coop_modes": ["online"], "coop_score_hint": None, "steam_name": "",
-            "pvp_signals": [], "coop_signals": [],
-            "rawg_confirmed": False, "igdb_confirmed": igdb_confirmed, "gog_confirmed": None,
+            "status": status,
+            "reason": reason,
+            "confidence": confidence,
+            "coop_modes": ["online"],
+            "coop_score_hint": None,
+            "steam_name": "",
+            "pvp_signals": [],
+            "coop_signals": [],
+            "rawg_confirmed": False,
+            "igdb_confirmed": igdb_confirmed,
+            "gog_confirmed": None,
         }
 
-    cat_ids        = {int(c["id"]) for c in cats}
+    cat_ids = {int(c["id"]) for c in cats}
     found_coop_ids = cat_ids & set(STEAM_COOP_CATS)
-    found_pvp_ids  = cat_ids & set(STEAM_PVP_CATS)
-    coop_signals   = [STEAM_COOP_CATS[i] for i in found_coop_ids]
-    pvp_signals    = [STEAM_PVP_CATS[i]  for i in found_pvp_ids]
+    found_pvp_ids = cat_ids & set(STEAM_PVP_CATS)
+    coop_signals = [STEAM_COOP_CATS[i] for i in found_coop_ids]
+    pvp_signals = [STEAM_PVP_CATS[i] for i in found_pvp_ids]
 
     # Hard rejects — no secondary checks needed
     if found_pvp_ids and not found_coop_ids:
-        return {**_empty_verdict("rejected", f"PvP-only game: {', '.join(pvp_signals)}", "high"),
-                "steam_name": steam_name, "pvp_signals": pvp_signals}
+        return {
+            **_empty_verdict(
+                "rejected", f"PvP-only game: {', '.join(pvp_signals)}", "high"
+            ),
+            "steam_name": steam_name,
+            "pvp_signals": pvp_signals,
+        }
 
     if not found_coop_ids:
-        return {**_empty_verdict("rejected", "No co-op categories found on Steam", "high"),
-                "steam_name": steam_name, "pvp_signals": pvp_signals}
+        return {
+            **_empty_verdict("rejected", "No co-op categories found on Steam", "high"),
+            "steam_name": steam_name,
+            "pvp_signals": pvp_signals,
+        }
 
     # ── Secondary sources (only reached when Steam confirms co-op) ──
 
     igdb_confirmed: bool | None = None
     if "igdb" in active and igdb_client_id and igdb_client_secret:
         time.sleep(rate_limit_delay)
-        igdb_confirmed = fetch_igdb_coop(steam_app_id, igdb_client_id, igdb_client_secret)
+        igdb_confirmed = fetch_igdb_coop(
+            steam_app_id, igdb_client_id, igdb_client_secret
+        )
 
     gog_confirmed: bool | None = None
     if "gog" in active and steam_name:
@@ -402,8 +463,10 @@ def validate(
 
     # ── Confidence logic ──
     has_strong_steam = bool(found_coop_ids & AUTO_APPROVE_COOP_CATS)
-    has_pvp_mixed    = bool(found_pvp_ids)
-    confirmed_count  = sum([bool(rawg_confirmed), igdb_confirmed is True, gog_confirmed is True])
+    has_pvp_mixed = bool(found_pvp_ids)
+    confirmed_count = sum(
+        [bool(rawg_confirmed), igdb_confirmed is True, gog_confirmed is True]
+    )
 
     if has_pvp_mixed:
         status, confidence = "needs_review", "medium"
@@ -461,12 +524,175 @@ if __name__ == "__main__":
                 if "=" in line and not line.startswith("#"):
                     k, _, v = line.partition("=")
                     k = k.strip()
-                    if k == "IGDB_CLIENT_ID":     igdb_id = v.strip()
-                    elif k == "IGDB_CLIENT_SECRET": igdb_secret = v.strip()
-                    elif k == "RAWG_API_KEY":       rawg_key = v.strip()
+                    if k == "IGDB_CLIENT_ID":
+                        igdb_id = v.strip()
+                    elif k == "IGDB_CLIENT_SECRET":
+                        igdb_secret = v.strip()
+                    elif k == "RAWG_API_KEY":
+                        rawg_key = v.strip()
 
     print(f"Testing quality gate on app_id={app_id}")
-    print(f"IGDB: {'enabled' if igdb_id else 'disabled'} | RAWG: {'enabled' if rawg_key else 'disabled'}")
+    print(
+        f"IGDB: {'enabled' if igdb_id else 'disabled'} | RAWG: {'enabled' if rawg_key else 'disabled'}"
+    )
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# CURATION GATE — Filtra giochi a bassa qualità dal catalogo pubblicato
+# ══════════════════════════════════════════════════════════════════════════════
+
+DEFAULT_CURATION_RULES = {
+    "min_reviews": 20,
+    "min_rating_percent": 70,
+    "blocked_keywords": ["shovelware", "ripoff", "demo", "test", "prototype", "beta"],
+    "required_fields": ["title", "categories", "coopMode"],
+}
+
+
+def run_curation_gate(
+    catalog: list,
+    rules: dict | None = None,
+    strict: bool = False,
+    apply: bool = False,
+) -> tuple[list, list, dict]:
+    """
+    Filtra giochi a bassa qualità dal catalogo.
+
+    Args:
+        catalog: Lista di giochi dal catalogo
+        rules: Dizionario con soglie di qualità
+        strict: Se True, esce con exit(1) se ci sono critical_fails
+        apply: Se True, riscrive il catalogo filtrato
+
+    Returns:
+        (valid_games, hidden_games, stats)
+    """
+    rules = rules or DEFAULT_CURATION_RULES
+
+    valid = []
+    hidden = []
+    stats = {
+        "total": len(catalog),
+        "valid": 0,
+        "hidden": 0,
+        "critical_fails": 0,
+    }
+
+    for g in catalog:
+        g_id = g.get("id", "?")
+        title = (g.get("title") or "").lower()
+
+        reviews = 0
+        if g.get("totalReviews"):
+            reviews = g["totalReviews"]
+
+        rating = g.get("rating") or g.get("signals", {}).get("rating") or 0
+
+        missing = [f for f in rules["required_fields"] if not g.get(f)]
+
+        blocked = any(kw in title for kw in rules["blocked_keywords"])
+
+        if missing:
+            reason = f"missing_fields:{','.join(missing)}"
+            stats["critical_fails"] += 1
+            hidden.append(
+                {
+                    "id": g_id,
+                    "title": g.get("title"),
+                    "reason": reason,
+                    "severity": "critical",
+                }
+            )
+            continue
+
+        if blocked:
+            reason = f"blocked_keyword:{[k for k in rules['blocked_keywords'] if k in title][0]}"
+            stats["critical_fails"] += 1
+            hidden.append(
+                {
+                    "id": g_id,
+                    "title": g.get("title"),
+                    "reason": reason,
+                    "severity": "critical",
+                }
+            )
+            continue
+
+        if reviews < rules["min_reviews"]:
+            # Se non ci sono reviews ma c'è un rating valido, consideralo valido
+            if rating >= rules["min_rating_percent"]:
+                valid.append(g)
+                stats["valid"] += 1
+                continue
+            # Se né reviews né rating, nascondi
+            reason = f"low_reviews:{reviews}"
+            stats["hidden"] += 1
+            hidden.append(
+                {
+                    "id": g_id,
+                    "title": g.get("title"),
+                    "reason": reason,
+                    "severity": "warning",
+                }
+            )
+            continue
+
+        if rating < rules["min_rating_percent"] and reviews < rules["min_reviews"]:
+            reason = f"low_rating:{rating}"
+            stats["hidden"] += 1
+            hidden.append(
+                {
+                    "id": g_id,
+                    "title": g.get("title"),
+                    "reason": reason,
+                    "severity": "warning",
+                }
+            )
+            continue
+
+        valid.append(g)
+        stats["valid"] += 1
+
+    report = {
+        "date": datetime.utcnow().isoformat() + "Z",
+        "rules": rules,
+        "stats": stats,
+        "hidden_games": hidden,
+    }
+
+    Path("reports").mkdir(exist_ok=True)
+    report_file = Path(
+        f"reports/curation_gate_{datetime.utcnow().strftime('%Y%m%d')}.json"
+    )
+    report_file.write_text(
+        json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8"
+    )
+    print(f"  📊 Curation report: {report_file}")
+
+    if strict and stats["critical_fails"] > 0:
+        print(
+            f"🚫 CI BLOCKED: {stats['critical_fails']} critical fails ({stats['hidden']} warnings)"
+        )
+        print(f"   Report: {report_file}")
+        sys.exit(1)
+
+    if apply and (stats["hidden"] > 0 or stats["critical_fails"] > 0):
+        data_dir = Path("data")
+        catalog_file = data_dir / "catalog.public.v1.json"
+
+        if catalog_file.exists():
+            backup_file = data_dir / "catalog.public.v1.json.bak"
+            shutil.copy2(catalog_file, backup_file)
+            print(f"  💾 Backup: {backup_file}")
+
+        catalog_file.write_text(
+            json.dumps(valid, indent=2, ensure_ascii=False), encoding="utf-8"
+        )
+        print(
+            f"  ✅ Applied: {stats['valid']} kept, {stats['hidden'] + stats['critical_fails']} filtered"
+        )
+
+    return valid, hidden, stats
     result = validate(
         app_id,
         rawg_api_key=rawg_key,

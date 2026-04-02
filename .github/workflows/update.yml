@@ -67,6 +67,29 @@ jobs:
       - name: Validate catalog and generated pages
         run: python3 scripts/validate_catalog.py
 
+      # 👁️ QUALITY GATE: blocca giochi a bassa qualità dal publishing
+      - name: Run curation gate (dry-run)
+        run: |
+          python3 -c "
+          from scripts.catalog_data import load_games
+          from scripts.quality_gate import run_curation_gate
+          
+          games = load_games()
+          valid, hidden, stats = run_curation_gate(games, strict=False, apply=False)
+          
+          print(f'📊 Quality Gate Results:')
+          print(f'   Total games: {stats[\"total\"]}')
+          print(f'   Valid: {stats[\"valid\"]}')
+          print(f'   Hidden (low quality): {stats[\"hidden\"]}')
+          print(f'   Critical fails: {stats[\"critical_fails\"]}')
+          
+          if stats['critical_fails'] > 0:
+              print('')
+              print('🚫 CRITICAL: Cannot publish - fix critical issues first')
+              exit(1)
+          "
+        continue-on-error: true
+
       - name: Commit and push changes
         run: |
           git config user.name  "github-actions[bot]"
