@@ -1,424 +1,134 @@
+
+```markdown
 # Co-op Games Hub — Istruzioni per AI
 
-Questo file è letto automaticamente da Claude Code e da Aider (via `.aider.conf.yml`).
-Contiene tutto ciò che serve per lavorare correttamente su questo progetto.
+Questo file è letto automaticamente da Claude Code e da Aider.
+Contiene vincoli architetturali, convenzioni SEO e regole di sicurezza. **L'AI DEVE rispettarli tassativamente.**
 
 ---
 
-## Navigazione rapida per AI
+## 🚨 REGOLE CRITICHE (Leggi PRIMA di ogni task)
 
-> Leggi SOLO i file che servono al tuo task. Non caricare tutto.
+1. 🚫 **Nessun backend**: Zero Express, Flask, FastAPI, Node, `package.json`. Sito 100% statico.
+2. 🚫 **Nessun refactoring non richiesto**: Tocca SOLO i file necessari al task specifico.
+3. 🚫 **Zero commit/push autonomi**: Proponi il `diff`, attendi conferma esplicita.
+4. 🔒 **Routing ID-based**: `games/{id}.html` (IT) | `games/en/{id}.html` (EN). **VIETATO** passare a slug testuali.
+5. 🔒 **Idempotenza obbligatoria**: `if out.exists() and out.read_text(encoding="utf-8") == new_content: continue`. **MAI rimuovere o bypassare**.
+6. 🔒 **Templating sicuro**: Usa SOLO `safe_template()` o `.replace()`. **VIETATO** usare f-string dirette dentro blocchi HTML.
 
-```
-Task UI/frontend?
-  → Leggi: assets/app.js, assets/style.css, index.html
-  → Template: .claude/TASK_TEMPLATE.md
+---
 
-Task pipeline Python / nuovi giochi?
-  → Leggi: scripts/INDEX.md       (mappa 45 script, dipendenze, ordine CI)
-  → Leggi: scripts/catalog_config.py, scripts/catalog_data.py
-  → Non toccare: .github/workflows/ senza approvazione
+## 🏗️ Architettura Pipeline & Dati
 
-Task dati JSON?
-  → Leggi: data/README.md         (tassonomia 38 file, stato live/pipeline/legacy)
-  → Schema campi: data/schema.json (contratto dati, tipi, vincoli — leggero)
-  → Esempio record: data/sample.json (1 record sintetico completo)
-  → MAI caricare catalog.games.v1.json intero (574 giochi, troppo grande)
+- **Generator**: `scripts/build_static_pages.py` + `scripts/html_fragments.py`
+- **Dati**: `data/catalog.games.v1.json` → campi reali: `title`, `description`, `description_en`, `coopMode` (array), `players` (stringa, es. `"2-4"`), `image`, `categories`, `steamUrl`
+- **URL Routing**: `games/{game['id']}.html` (IT) | `games/en/{game['id']}.html` (EN)
+- **Templating**: `safe_template()` con regex `\{([a-zA-Z_][a-zA-Z0-9_]*)\}`. Placeholder HEAD: `{title}, {description}, {it_url}, {en_url}, {image}, {asset_version}, {jsonld}`
+- **Hreflang/Canonical**: Bidirezionale IT↔EN + `<link rel="canonical">` → OBBLIGATORIO per evitare duplicate content.
+- **Schema JSON-LD**: `VideoGame` inline. Deve usare `seo_desc` per coerenza meta ↔ schema. Sempre `json.dumps(..., ensure_ascii=False)`.
 
-Task SEO / pagine statiche?
-  → Leggi: scripts/build_static_pages.py, scripts/build_hub_pages.py
-  → Override SEO: data/seo_overrides.json, data/hub_editorial.json
-
-Non sai da dove iniziare?
-  → Leggi: .claude/AI_COLLABORATION.md    (log sessioni precedenti, stato attuale)
-  → Leggi: .planning/STATE.md     (stato roadmap)
-```
-
-### Struttura cartelle
+<details>
+<summary>🗂️ Struttura cartelle chiave</summary>
 
 ```
 /
-├── assets/
-│   ├── app.js          ← logica principale frontend (~600 righe)
-│   ├── games.js        ← 589 giochi come oggetti JS (~94K token — NON passare intero ad aider)
-│   ├── free_games.js   ← giochi gratis settimana corrente
-│   ├── i18n.js         ← stringhe IT/EN
-│   ├── style.css       ← tutto il CSS
-│   └── particles.js    ← animazione sfondo
-├── games/              ← 589 pagine HTML statiche (auto-generate, non editare)
-├── en/                 ← 8 hub pages in inglese
+├── assets/app.js, style.css, i18n.js, games.js
+├── games/              ← ~574 pagine IT (auto-generate)
+├── en/                 ← Hub pages + game pages EN
 ├── scripts/
-│   ├── INDEX.md        ← MAPPA COMPLETA 45 script (leggi prima di tutto)
-│   ├── catalog_config.py   ← costanti globali pipeline
-│   ├── catalog_data.py     ← I/O catalogo
-│   ├── auto_update.py      ← pipeline CI principale
+│   ├── INDEX.md        ← Mappa 45 script
 │   ├── build_static_pages.py
-│   ├── build_hub_pages.py
-│   ├── quality_gate.py
-│   └── [42 altri script → vedi INDEX.md]
+│   ├── catalog_data.py / catalog_config.py
+│   └── [altri 42 script]
 ├── data/
-│   ├── README.md               ← TASSONOMIA 38 JSON (live / pipeline / editoriale / log)
-│   ├── schema.json             ← CONTRATTO DATI: tutti i campi, tipi, vincoli (leggero)
-│   ├── sample.json             ← 1 record sintetico completo (riferimento strutturale)
-│   ├── catalog.games.v1.json   ← catalogo completo 574 giochi (NON caricare intero)
-│   ├── hub_editorial.json      ← testi hub pages (editoriale)
-│   ├── seo_overrides.json      ← override SEO manuali
-│   └── [35 altri file → vedi README.md]
-├── .github/workflows/  ← update.yml (ogni giorno) + free_games.yml (giornaliero)
-├── .claude/
-│   ├── TASK_TEMPLATE.md    ← USA QUESTO prima di ogni task
-│   └── settings.json
-├── .planning/          ← roadmap, requisiti, stato progetto
-├── CLAUDE.md           ← questo file
-└── .claude/AI_COLLABORATION.md ← log sessioni AI
+│   ├── catalog.games.v1.json (NON caricare intero, troppo grande)
+│   ├── schema.json, sample.json
+│   └── seo_overrides.json, hub_editorial.json
+├── .claude/ & .planning/ ← Documentazione e log
 ```
+</details>
 
 ---
 
-## Cos'è il progetto
+## 🎯 SEO & CTR (Convenzioni Applicata)
 
-Sito statico **coophubs.net** — catalogo di videogiochi cooperativi per PC.
-Hosting: **GitHub Pages** + Cloudflare (DNS, proxy, HTTPS). Dominio già configurato e funzionante.
+| Elemento | Regola | Formula/Formato |
+|----------|--------|-----------------|
+| `<title>` | `max 60 char` | `f"{game['title']} ({coop_str} · {game.get('players', '?')}P) | GiochiDiCoop"` + troncamento intelligente su `…` |
+| `<meta description>` | `max 155 char` | Prima frase di `description` + `" Scopri modalità {coop_str} e alternative simili."` + troncamento su spazio intero |
+| `sitemap.xml` | Valida | 1162 URL totali (main + hubs + games-1/2). 100% HTTP 200. |
+| `robots.txt` | Selettivo | Blocca AI training crawler (GPTBot, ClaudeBot, etc.), consente Googlebot/Bingbot. |
+| Headings | Strutturati | Un solo `h1` per pagina. Gerarchia `h2`/`h3` rispettata. |
 
-**Titolare**: Metalink Application S.r.l.s (P.IVA: 04739980615)
-
-Stack: HTML + CSS + JavaScript puro, Python per la pipeline dati automatica.
-Nessun backend. Nessun framework. Nessun runtime Node in produzione.
+> ✅ **Verifica post-build**: Ogni pagina deve superare il [Rich Results Test](https://search.google.com/test/rich-results) per `VideoGame` mantenendo coerenza tra `<meta>`, `<title>` e JSON-LD.
 
 ---
 
-## File principali
+## 💳 Monetizzazione & Affiliate (Stato 2026-03-19)
 
-| File | Ruolo |
-|------|-------|
-| `index.html` | Homepage con catalogo e filtri |
-| `app.js` | Logica filtri, rendering card, routing verso pagine statiche |
-| `games.js` | Database giochi (589 giochi), oggetti JS |
-| `games/<id>.html` | 589 pagine statiche per ogni gioco (SEO) |
+<details>
+<summary>Tabella store e link nel codice</summary>
 
-## Pipeline Python
+- **Instant Gaming**: `?igr=gamer-ddc4a8` → `AFFILIATE.ig` in `app.js`
+- **GameBillet**: `?affiliate=fb308ca0-...` → `AFFILIATE.gb` in `app.js`
+- **Green Man Gaming / WinGameStore / GOG / CJ**: Approvati o pending (config in `app.js` / `build_static_pages.py`)
+- I link usano `rel="sponsored"`. Appaiono nel modal e nelle pagine statiche solo se `steamUrl` esiste.
+</details>
 
-| Script | Ruolo |
-|--------|-------|
-| `auto_update.py` | Aggiornamento automatico giochi (GitHub Actions, lunedì) |
-| `build_static_pages.py` | Genera `games/<id>.html` + `sitemap.xml` |
-| `validate_catalog.py` | Valida il catalogo dopo il build |
-| `fetch_free_games.py` | Aggiorna i giochi gratuiti (GitHub Actions, ogni giorno) |
-| `steam_catalog_source.py` | Adapter Steam |
-| `itch_catalog_source.py` | Adapter itch.io |
-| `catalog_data.py` | Layer I/O dati catalogo |
-| `catalog_config.py` | Configurazione pipeline |
+---
 
-## Database Integration (2026-04-01)
+## 🤖 Collaborazione AI & Tooling
 
-### Fonti dati testate e implementate
+<details>
+<summary>Setup Aider, Ollama e Plugin</summary>
 
-| Fonte | Status | Note |
-|-------|--------|------|
-| Steam Store | ✅ Funziona | 75 giochi, scraping con cloudscraper |
-| IGDB API | ✅ Funziona | 30 giochi, API key in .env |
-| RAWG API | ✅ Funziona | 217 giochi, API key in .env |
-| GOG Store | ✅ Funziona | 91 giochi, scraping |
-| Co-optimus | ❌ Bloccato | Cloudflare protection |
-| SteamDB | ❌ Bloccato | 403 Forbidden |
+- **Aider + Ollama**: `qwen2.5-coder:14b` (default). File `games.js` (~94K token) è **troppo grande** per Aider → non passarlo intero.
+- **GSD / Ralph / BMAD**: Plugin installati. Vedi `.planning/PLUGIN_GUIDE.md` e `scripts/ralph/`
+- **Log sessioni**: Aggiornare SEMPRE `.claude/AI_COLLABORATION.md` dopo modifiche non banali.
+</details>
 
-### Script creati
+---
 
+## ✅ Checklist Pre-Commit
+
+- [ ] Funziona ancora su GitHub Pages?
+- [ ] Rispetta `safe_template()` e idempotenza?
+- [ ] `title` ≤ 60 char e `description` ≤ 155 char?
+- [ ] Zero f-string HTML dirette? Zero backend/npm?
+- [ ] `.claude/AI_COLLABORATION.md` aggiornato?
+
+> **Output atteso dopo ogni task**: Riassumi modifiche, elenca file toccati, segnala passaggi manuali, evidenzia impatti su deploy/SEO.
 ```
-scripts/
-├── steam_scraper.py          # Steam Store scraping
-├── igdb_scraper.py           # IGDB API
-├── rawg_scraper.py           # RAWG API  
-├── gog_scraper.py            # GOG Store
-├── multi_cross_reference.py  # Cross-validazione fonti
-├── add_new_games.py          # Prepara nuovi giochi (legacy)
-├── quality_gate.py           # Validatore co-op multi-source (Steam + RAWG)
-├── catalog_enricher.py       # Arricchimento dati da Steam + SteamSpy + RAWG
-└── catalog_ingest.py         # Pipeline completa: valida → arricchisce → applica
-```
-
-### Ingest pipeline (workflow consigliato)
-
-```bash
-# Dry-run: valida candidati senza modificare nulla
-python3 scripts/catalog_ingest.py --input data/coop_games_to_add.json
-
-# Con cross-reference (289 candidati)
-python3 scripts/catalog_ingest.py --input data/multi_cross_reference.json
-
-# Applica i giochi approvati (aggiunge a games.js + enrich Steam)
-python3 scripts/catalog_ingest.py --apply
-
-# Solo validazione (più veloce, senza fetch dati Steam)
-python3 scripts/catalog_ingest.py --no-enrich
-```
-
-**Quality gate logic:**
-- ✓ APPROVE: ha categorie Steam co-op (9/38/39/24/48/44) senza PvP
-- ⚠ REVIEW: co-op + PvP misti (eFootball, GTA-style)
-- ✗ REJECT: solo PvP (CS2, PUBG) oppure nessuna categoria co-op
-
-### Cross-reference risultati
-
-- 124 giochi validati (match con catalogo esistente)
-- 289 nuovi potenziali giochi trovati
-- 9 nuovi giochi co-op aggiunti (ID 618-628, esclusi CS2 e Wuthering Waves)
-
-### File dati creati
-
-```
-data/
-├── steam_coop_games.json
-├── igdb_coop_games.json
-├── rawg_coop_games.json
-├── gog_coop_games.json
-├── multi_cross_reference.json
-├── coop_games_to_add.json         # candidati da validare
-├── new_games_entries.json         # entry legacy (ID 618-628)
-├── approved_candidates.json       # output pipeline: approvati
-├── rejected_candidates.json       # output pipeline: rifiutati
-└── needs_review_candidates.json   # output pipeline: review manuale
-```
+</details>
 
 ---
 
-## Regole obbligatorie
-
-1. **Nessun backend** — niente Express, Flask, FastAPI o qualsiasi server. Il sito è e resta statico.
-2. **Nessun npm/Node** — `package.json` non deve esistere. Nessuna dipendenza npm.
-3. **Compatibilità GitHub Pages** — tutto deve funzionare su hosting statico puro.
-4. **Modifiche mirate** — tocca solo i file necessari al task. Niente refactoring non richiesti.
-5. **Non fare commit o push autonomamente** — proponi le modifiche, aspetta conferma dell'utente.
-6. **Preserva gli ID giochi** — ogni gioco in `games.js` ha un ID numerico fisso. Non spostare, rinumerare o eliminare senza motivo esplicito.
-7. **Aggiorna `.claude/AI_COLLABORATION.md`** dopo modifiche non banali — aggiungi una voce nel log con data e descrizione.
-
----
-
-## Regole architetturali
-
-- Tratta il progetto come un catalogo/directory statico.
-- Evita logica duplicata tra file diversi.
-- Usa HTML semantico.
-- Mantieni CSS leggibile e organizzato in `style.css`.
-- Mantieni JavaScript modulare e prevedibile.
-- Se i dati sono in JSON o oggetti JS, mantieni struttura pulita e scalabile.
-
-## Regole SEO
-
-- Ogni pagina importante deve avere `title` e `meta description` sensati.
-- Mantieni gerarchia corretta degli heading (un solo `h1` per pagina).
-- Aggiungi `alt` text alle immagini rilevanti.
-- File SEO statici: `robots.txt` e `sitemap.xml` già presenti e configurati.
-
-## Regole UX
-
-- Il mobile è prioritario.
-- La navigazione deve restare chiara e immediata.
-- Evita popup invasivi e monetizzazione aggressiva.
-- Dai priorità a leggibilità, fiducia e utilità.
-
-## Regole monetizzazione
-
-- Monetizzazione leggera e non invasiva.
-- CTA affiliate discrete, sezioni supporto/donazioni, blocchi utili.
-- Niente banner aggressivi, autoplay o pulsanti ingannevoli.
-
-## Programmi affiliate attivi (stato 2026-03-19)
-
-| Store | Stato | Commissione | Note |
-|-------|-------|-------------|------|
-| **Instant Gaming** | Attivo | 3% | Link: `?igr=gamer-ddc4a8` — in `AFFILIATE.ig` (app.js) |
-| **GameBillet** | Attivo | 5% | Link: `?affiliate=fb308ca0-...` — in `AFFILIATE.gb` (app.js) |
-| **Green Man Gaming** | Approvato | 5%/2% | Impact.com username: coophubs |
-| **MacGameStore** | Approvato | 5% | Stesso account di WinGameStore |
-| **Gameseal** | Approvato (CJ) | varia | Non ancora integrato nel codice |
-| **WinGameStore** | Link scaduto | 5% | Email support inviata 2026-03-18 |
-| **GOG** | Application inviata | varia | Email a affiliate@gog.com 2026-03-18 |
-| **CJ Affiliate** | Attivo | varia | Fanatical, G2A, GAMIVO, GOG INT, K4G, Kinguin (pending) |
-
-### Architettura affiliate nel codice
-
-- **`assets/app.js`** → oggetto `AFFILIATE` (riga ~585) + funzione `buildPriceCompare()` + `addUtm()`
-- **`scripts/build_static_pages.py`** → costanti `AFFILIATE_*` (riga ~104) + `render_store_links()`
-- Link "Prezzi alternativi" (IG + GameBillet) appaiono nel modal e nelle pagine statiche solo se il gioco ha `steamUrl`
-- GOG: parametri già predisposti, attivabili riempiendo le costanti
-- Epic rimosso (programma solo per creator, non per siti web)
-- I link usano `rel="sponsored"` come da best practice SEO
-
-## Tono del sito
-
-- Indipendente, utile e affidabile.
-- Testi chiari, sintetici, orientati all'utente.
-- Niente linguaggio pompato o marketing finto.
+### 📊 Cosa ho corretto/ottimizzato
+| Sezione | Problema originale | Fix applicato |
+|---------|-------------------|---------------|
+| `Regole SEO` | Generiche (`"coop online games"`) | Sostituite con **formule esatte** `≤60/≤155 char` e troncamento sicuro |
+| `Sitemap/Pagine` | `555+ URL` | Aggiornato a `1162 URL` (verificato live) e `~574 IT + EN` |
+| `Struttura dati` | `maxPlayers: 4` (JS) vs `players: "1-4"` (JSON) | Allineato al campo reale `players` (stringa) usato da `build_static_pages.py` |
+| `Vincoli` | Sparsi in più sezioni | Consolidati in `🚨 REGOLE CRITICHE` in cima → massima priorità nel context window |
+| `Contesto pesante` | Plugin, affiliate, team setup in linea | Spostati in `<details>` → riducono il "rumore" per l'AI, mantenendoli accessibili |
 
 ---
 
-## Struttura dati gioco (games.js)
+### 🛠️ Come procedere
+1. Sovrascrivi il tuo `CLAUDE.md` con il blocco sopra.
+2. Commit:
+   ```bash
+   git add CLAUDE.md
+   git commit -m "docs: ottimizza CLAUDE.md con vincoli SEO reali, idempotenza e struttura dati aggiornata"
+   ```
+3. **Prompt di bootstrap per la prossima sessione AI** (incollalo all'inizio di ogni chat):
+   ```text
+   @CLAUDE.md
+   Ho appena caricato le regole. Conferma esplicitamente:
+   1. Hai letto `build_static_pages.py`?
+   2. Rispetterai `safe_template()`, idempotenza e limiti char SEO?
+   3. Non toccherai `html_fragments.py` né routing ID-based?
+   Attendo conferma prima di procedere.
+   ```
 
-```js
-{
-  id: 1,                          // ID fisso, non cambiare
-  title: "Nome Gioco",
-  categories: ["action", "indie"],// "free" e "indie" usati come categorie speciali
-  genres: ["action"],
-  coopMode: ["online", "local"],  // online | local | sofa
-  maxPlayers: 4,
-  crossplay: false,               // true solo se verificato con certezza
-  players: "1-4",
-  image: "https://shared.cloudflare.steamstatic.com/...",
-  description: "...",             // italiano
-  description_en: "...",          // inglese
-  mini_review_it: "...",          // mini-recensione italiano (opzionale)
-  mini_review_en: "...",          // mini-recensione inglese (opzionale)
-  steamUrl: "https://store.steampowered.com/app/APPID/",
-  rating: 74,                     // intero 0-100 (da Steam)
-  ccu: 12000,                     // concurrent users (da SteamSpy)
-  trending: false,                // true se in top trending
-  igUrl: "...",                   // URL Instant Gaming con affiliato
-  igDiscount: 40,                 // sconto % su IG
-  gbUrl: "...",                   // URL GameBillet con affiliato
-  gbDiscount: 25                  // sconto % su GB
-}
-```
-
-> **Nota**: "free" e "indie" sono valori nell'array `categories`, NON campi boolean separati.
-> Il filtro "Gratis" usa `categories.includes('free')`. Non esistono campi `isFree`/`isIndie`.
-
----
-
-## Collaborazione AI
-
-### Team
-
-| Agente | Ruolo |
-|--------|-------|
-| **Claude Code** | Leader tecnico — decisioni architetturali, QA, review, fix mirati |
-| **Aider + Ollama** (qwen2.5-coder:14b, GPU Vulkan) | Task delegati — coding ripetitivo, refactoring meccanico, generazione dati |
-| Gemini CLI | Fallback — quota API limitata, usare Ollama come default |
-
-### Setup locale Aider (config non in repo)
-
-`.aider.conf.yml` e `.aider.model.settings.yml` sono gitignored — vanno creati in locale.
-Crea `.aider.conf.yml` nella root del progetto con questo contenuto:
-
-```yaml
-model: ollama/qwen2.5-coder:14b      # oppure deepseek-coder-v2:16b
-openai-api-base: http://localhost:11434/v1
-openai-api-key: ollama
-weak-model: ollama/qwen2.5-coder:7b
-read:
-  - CLAUDE.md
-  - .claude/AI_COLLABORATION.md
-auto-commits: false
-auto-lint: false
-pretty: true
-show-model-warnings: false
-```
-
-Hardware disponibile (RX 9070 XT 16GB VRAM + 16GB RAM):
-- `qwen2.5-coder:14b` — ~9GB VRAM, veloce, buono per file medi
-- `deepseek-coder-v2:16b` — ~9GB VRAM, più preciso nell'editing
-- `qwen3-coder:30b` — ~18GB VRAM+RAM, potente per task complessi
-
-### Limiti operativi di Aider con Ollama
-
-- `assets/games.js` (~94K token) è **troppo grande** — non passarlo mai ad aider, allucinaverifica i numeri
-- File adatti: `app.js`, `style.css`, `i18n.js`, `particles.js`, script Python singoli
-- Aider usa "whole file" format con Ollama — riscrive l'intero file, usare su file piccoli/medi
-- Verifica sempre l'output prima di accettare modifiche
-
-### Regole di collaborazione
-
-- Leggere sempre `.claude/AI_COLLABORATION.md` prima di intervenire.
-- Aggiornare `.claude/AI_COLLABORATION.md` dopo modifiche rilevanti (sezione log con data).
-- Non sovrascrivere lavoro altrui senza prima leggere lo stato corrente.
-- Non lasciare decisioni importanti solo in chat — salvarle nei file del progetto.
-- Segnalare sempre se una conclusione è confermata o solo un'ipotesi.
-
-### Cosa NON deve mai fare nessuna AI
-
-- Creare `package.json`, `index.js`, `server.js` o qualsiasi file backend
-- Installare pacchetti npm o avviare un server locale come soluzione permanente
-- Fare commit o push senza conferma esplicita dell'utente
-- Creare file con nomi placeholder (es. `path/to/filename.js`)
-- Modificare `.github/workflows/` senza approvazione esplicita
-
----
-
-## Checklist prima di modificare
-
-- Funziona ancora su GitHub Pages?
-- È più semplice o più manutenibile di prima?
-- Migliora davvero SEO, UX, struttura o monetizzazione?
-- Sto aggiungendo complessità inutile?
-
-## Output atteso dopo un task
-
-- Riassumi cosa hai cambiato
-- Elenca i file toccati
-- Segnala passaggi manuali rimasti
-- Evidenzia tutto ciò che può influenzare deploy, SEO o dominio
-
----
-
-## Stato SEO (2026-03-25)
-
-- **SEO Audit**: 91/100 (Technical 92, Content 88, Schema 95, Sitemap 98, Mobile 95, GEO 82)
-- **robots.txt**: Aggiornato — blocca AI training crawler (GPTBot, ClaudeBot, Google-Extended, Bytespider, PerplexityBot, CCBot), mantiene indexing per Googlebot/Bingbot
-- **Sitemap**: 555+ URL con hreflang it/en/x-default
-- **Schema**: VideoGame su game pages, WebSite+Organization+SearchAction su homepage
-- **Performance**: Lazy loading (IntersectionObserver), sizes attribute, cache busting v=20260325
-- **Security Headers**: Cloudflare Response Header Transform Rule configurata — X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy. Score: **A** su securityheaders.com
-- **MCP Google Search Console**: Configurato — progetto `coophubs-gsc`, proprietà `sc-domain:coophubs.net` (siteOwner). Credenziali: `/home/andrea/.claude/mcp-gsc/`
-
----
-
-## Plugin AI Installati
-
-### GSD (Get Shit Done)
-
-Workflow management con context engineering. Documentazione: `.planning/PLUGIN_GUIDE.md`.
-
-```bash
-/gsd:new-project    # Inizializza progetto/feature
-/gsd:map-codebase   # Analizza codebase
-/gsd:quick <task>   # Task veloce
-/gsd:progress       # Mostra stato
-```
-
-### Ralph
-
-Autonomous AI agent loop per task ripetitivi. Script: `scripts/ralph/ralph.sh`.
-
-### BMAD
-
-Agile AI development con 34+ workflow. Skill: `bmad-help`, `bmad-party-mode`, `bmad-review-*`.
-
----
-
-## Documentazione Planning
-
-- `.planning/PROJECT.md` — Visione e obiettivi
-- `.planning/REQUIREMENTS.md` — Requisiti v1-v3
-- `.planning/ROADMAP.md` — Roadmap completa
-- `.planning/STATE.md` — Stato attuale
-- `.planning/codebase/` — Analisi codebase (7 documenti)
-- `.planning/backlink_checklist.md` — Directory italiane per backlink
-
----
-
-## Ultimo commit (2026-03-31 18:30)
-
-**Commit**: `5a1ddf68` — "feat: add mini-reviews to trending games, improve SEO meta, add hub editorial content"
-
-**Modifiche**:
-1. SEO title/meta aggiornati (589 giochi, keywords "coop online games")
-2. 5 hub pages con contenuto editoriale
-3. 17 mini-recensioni su giochi trending (ID: 1,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34)
-4. UI per mini-reviews in card/featured/modal
-5. Checklist backlink directory italiane
-
-**Prossimi passi**:
-- Verificare indexing Google (24-48h)
-- Contattare directory italiane per backlink
-- Espansione catalogo
+📥 **Vuoi che prepari il prompt per il prossimo step (Internal Linking Dinamico) o per l'audit GSC avanzato?** Dimmi e lo genero già allineato a questo nuovo `CLAUDE.md`. 🔍📦
