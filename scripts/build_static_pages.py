@@ -234,6 +234,64 @@ def render_related_games_en(related: list) -> str:
     )
 
 
+def render_internal_links(game: dict, catalog: list, limit: int = 3) -> str:
+    """Generate simple text links for internal SEO linking (max 3 links)."""
+    if not catalog:
+        return ""
+    game_cats = set(c.lower() for c in (game.get("categories") or []))
+    scored = []
+    for g in catalog:
+        if g.get("id") == game.get("id"):
+            continue
+        g_cats = set(c.lower() for c in (g.get("categories") or []))
+        overlap = len(game_cats & g_cats)
+        if overlap > 0:
+            scored.append((overlap, g))
+    scored.sort(key=lambda x: (-x[0], int(x[1].get("id", 0))))
+    related = scored[:limit]
+
+    items = []
+    for _, g in related:
+        title = g.get("title", "Game").replace('"', "&quot;")
+        gid = g.get("id", "")
+        items.append(
+            f'<li><a href="/games/{gid}.html" title="{title}">{title}</a></li>'
+        )
+
+    if not items:
+        return ""
+    return f'<section class="related-games" aria-label="Giochi correlati"><h2>Giochi simili</h2><ul>{"".join(items)}</ul></section>'
+
+
+def render_internal_links_en(game: dict, catalog: list, limit: int = 3) -> str:
+    """Generate simple text links for internal SEO linking (EN version)."""
+    if not catalog:
+        return ""
+    game_cats = set(c.lower() for c in (game.get("categories") or []))
+    scored = []
+    for g in catalog:
+        if g.get("id") == game.get("id"):
+            continue
+        g_cats = set(c.lower() for c in (g.get("categories") or []))
+        overlap = len(game_cats & g_cats)
+        if overlap > 0:
+            scored.append((overlap, g))
+    scored.sort(key=lambda x: (-x[0], int(x[1].get("id", 0))))
+    related = scored[:limit]
+
+    items = []
+    for _, g in related:
+        title = g.get("title", "Game").replace('"', "&quot;")
+        gid = g.get("id", "")
+        items.append(
+            f'<li><a href="/games/en/{gid}.html" title="{title}">{title}</a></li>'
+        )
+
+    if not items:
+        return ""
+    return f'<section class="related-games" aria-label="Related Games"><h2>Similar Games</h2><ul>{"".join(items)}</ul></section>'
+
+
 def extract_steam_appid(steam_url: str) -> str | None:
     """Extract Steam App ID from a Steam store URL."""
     if not steam_url:
@@ -564,6 +622,10 @@ def render_static_page(game: dict, all_games: list | None = None) -> str:
         related = find_related_games(game, all_games)
         related_html = render_related_games(related)
 
+    internal_links_html = ""
+    if all_games:
+        internal_links_html = render_internal_links(game, all_games, limit=3)
+
     css_block = HTML_INLINE_STYLES
     head_block = safe_template(
         HTML_HEAD_IT,
@@ -634,6 +696,8 @@ def render_static_page(game: dict, all_games: list | None = None) -> str:
     {render_external_links(game)}
 
     {related_html}
+
+    {internal_links_html}
   </div>
 
 {footer_block}
@@ -784,6 +848,10 @@ def render_static_page_en(game: dict, all_games: list | None = None) -> str:
         related = find_related_games(game, all_games)
         related_html = render_related_games_en(related)
 
+    internal_links_html = ""
+    if all_games:
+        internal_links_html = render_internal_links_en(game, all_games, limit=3)
+
     css_block = HTML_INLINE_STYLES
     head_block = safe_template(
         HTML_HEAD_EN,
@@ -854,6 +922,8 @@ def render_static_page_en(game: dict, all_games: list | None = None) -> str:
     {render_external_links(game, lang="en")}
 
     {related_html}
+
+    {internal_links_html}
   </div>
 
 {footer_block}
