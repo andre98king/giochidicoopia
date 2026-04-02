@@ -413,6 +413,8 @@ if STEAM_API_KEY:
 
         desc_it  = it_sd.get('short_description', '') or ''
         desc_it  = re.sub(r'<[^>]+>', ' ', desc_it)
+        import html as _html
+        desc_it  = _html.unescape(desc_it)
         desc_it  = re.sub(r'\s+', ' ', desc_it).strip()[:400]
         desc_en  = cand.get('description_en', '')
 

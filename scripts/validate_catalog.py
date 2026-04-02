@@ -236,11 +236,40 @@ def main() -> int:
 
     if tree is not None:
         namespace = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
-        locs = {
-            node.text.strip()
-            for node in tree.findall("sm:url/sm:loc", namespace)
-            if node.text and node.text.strip()
-        }
+        root = tree.getroot()
+        # Support both plain sitemap and sitemap index (split sitemaps)
+        is_index = root.tag in (
+            "sitemapindex",
+            "{http://www.sitemaps.org/schemas/sitemap/0.9}sitemapindex",
+        )
+        if is_index:
+            sub_locs = [
+                node.text.strip()
+                for node in tree.findall("sm:sitemap/sm:loc", namespace)
+                if node.text and node.text.strip()
+            ]
+            all_trees = []
+            sitemap_dir = build_static_pages.SITEMAP.parent
+            for sub_loc in sub_locs:
+                sub_name = sub_loc.split("/")[-1]
+                sub_path = sitemap_dir / sub_name
+                if sub_path.is_file():
+                    try:
+                        all_trees.append(ET.parse(sub_path))
+                    except ET.ParseError as exc:
+                        errors.append(f"{sub_name} is not valid XML: {exc}")
+            locs = {
+                node.text.strip()
+                for t in all_trees
+                for node in t.findall("sm:url/sm:loc", namespace)
+                if node.text and node.text.strip()
+            }
+        else:
+            locs = {
+                node.text.strip()
+                for node in tree.findall("sm:url/sm:loc", namespace)
+                if node.text and node.text.strip()
+            }
         hub_slug_pairs = [
             ("migliori-giochi-coop-2026", "best-coop-games-2026"),
             ("giochi-coop-local", "local-coop-games"),

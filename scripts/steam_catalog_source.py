@@ -167,7 +167,11 @@ def parse_max_players(players_label: str) -> int:
     if not players_label:
         return 4
     numbers = re.findall(r"\d+", players_label)
-    return max(int(number) for number in numbers) if numbers else 4
+    value = max(int(number) for number in numbers) if numbers else 4
+    # Steam sometimes returns 255 or 65535 as "unlimited" — cap to a sane default
+    if value in (255, 65535):
+        return 32
+    return value
 
 
 def derive_players_label(steam_categories: list[str], default: str = "1-4") -> str:
