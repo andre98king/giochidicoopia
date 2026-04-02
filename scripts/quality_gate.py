@@ -618,7 +618,8 @@ def run_curation_gate(
             )
             continue
 
-        if reviews < rules["min_reviews"]:
+        # Solo blocca se ci sono recensioni reali (< min_reviews)
+        if reviews > 0 and reviews < rules["min_reviews"]:
             # Se non ci sono reviews ma c'è un rating valido, consideralo valido
             if rating >= rules["min_rating_percent"]:
                 valid.append(g)
@@ -637,7 +638,12 @@ def run_curation_gate(
             )
             continue
 
-        if rating < rules["min_rating_percent"] and reviews < rules["min_reviews"]:
+        # Solo blocca se ci sono recensioni reali E rating basso
+        if (
+            reviews > 0
+            and rating < rules["min_rating_percent"]
+            and reviews < rules["min_reviews"]
+        ):
             reason = f"low_rating:{rating}"
             stats["hidden"] += 1
             hidden.append(

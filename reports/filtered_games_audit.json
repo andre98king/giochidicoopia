@@ -1,0 +1,1472 @@
+[
+  {
+    "id": 8,
+    "title": "Grand Theft Auto V Enhanced",
+    "rating": 69,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 31,
+    "title": "Monster Hunter Wilds",
+    "rating": 58,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 37,
+    "title": "Diablo IV",
+    "rating": 66,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 41,
+    "title": "Gray Zone Warfare",
+    "rating": 68,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 54,
+    "title": "New World: Aeternum",
+    "rating": 69,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 97,
+    "title": "Myth of Empires",
+    "rating": 68,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 139,
+    "title": "Full Metal Furies",
+    "rating": 53,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 143,
+    "title": "Back 4 Blood",
+    "rating": 68,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 153,
+    "title": "PAYDAY 3",
+    "rating": 43,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 165,
+    "title": "Outriders",
+    "rating": 67,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 174,
+    "title": "War Thunder",
+    "rating": 64,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 175,
+    "title": "EA SPORTS FC 25",
+    "rating": 50,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 177,
+    "title": "NBA 2K25",
+    "rating": 59,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 193,
+    "title": "MapleStory",
+    "rating": 63,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 199,
+    "title": "SMITE 2",
+    "rating": 58,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 214,
+    "title": "Game of Thrones: Kingsroad",
+    "rating": 62,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 224,
+    "title": "Company of Heroes 3",
+    "rating": 57,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 229,
+    "title": "PGA TOUR 2K25",
+    "rating": 66,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 248,
+    "title": "For The King II",
+    "rating": 69,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 261,
+    "title": "Delta Force",
+    "rating": 65,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 262,
+    "title": "Apex Legends™",
+    "rating": 67,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 267,
+    "title": "Borderlands 4",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 273,
+    "title": "Dune: Awakening",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 297,
+    "title": "ONE PIECE Bounty Rush",
+    "rating": 67,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 318,
+    "title": "WWE 2K25",
+    "rating": 66,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 321,
+    "title": "Eldegarde",
+    "rating": 66,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 333,
+    "title": "Lords of the Fallen",
+    "rating": 66,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 380,
+    "title": "My Rusty Submarine",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 381,
+    "title": "Rhythm Doctor",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 382,
+    "title": "Unheard Scream",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 383,
+    "title": "DYO",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 384,
+    "title": "Nuclear Throne Mobile",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 385,
+    "title": "Froggin' Around Demo",
+    "rating": 0,
+    "reason": "blocked_keyword:demo",
+    "severity": "critical"
+  },
+  {
+    "id": 386,
+    "title": "Hamsteria! - Demo",
+    "rating": 0,
+    "reason": "blocked_keyword:demo",
+    "severity": "critical"
+  },
+  {
+    "id": 387,
+    "title": "SPECIMEN",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 388,
+    "title": "Fear Channel",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 389,
+    "title": "Hub OS",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 390,
+    "title": "Joggernauts",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 391,
+    "title": "East of Eden: Right of Conquest",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 392,
+    "title": "Micro Mages (NES / PC)",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 393,
+    "title": "God Save The Queen",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 394,
+    "title": "Shagster Online 2",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 395,
+    "title": "Ducklings",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 396,
+    "title": "CHERNOZEM (PROTOTYPE)",
+    "rating": 0,
+    "reason": "blocked_keyword:prototype",
+    "severity": "critical"
+  },
+  {
+    "id": 397,
+    "title": "Police Stories",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 398,
+    "title": "TowerFall Dark World Expansion",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 399,
+    "title": "Widelands",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 406,
+    "title": "Imposter 3D: online horror",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 407,
+    "title": "Sneaky Stealy",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 408,
+    "title": "Totemori",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 409,
+    "title": "Snap the Sentinel - Episode 1",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 410,
+    "title": "Fury Unleashed: Prologue",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 411,
+    "title": "Sep's Diner (Oculus Quest)",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 412,
+    "title": "Wild Woods",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 413,
+    "title": "Streets of Rogue",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 414,
+    "title": "Ancient Swarm",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 415,
+    "title": "The Choicer Voicer",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 416,
+    "title": "Pikwip",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 419,
+    "title": "Bubble Bobble C64 Remastered",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 420,
+    "title": "TowerFall 8-Player",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 421,
+    "title": "Sticky Cats",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 422,
+    "title": "0 A.D: Empires Ascendant",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 424,
+    "title": "M.U.L.E. Online",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 425,
+    "title": "Touhou Fumo Racing",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 426,
+    "title": "Dumpy and Bumpy",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 427,
+    "title": "Royal Revolt Survivors",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 428,
+    "title": "Aaero2: Black Razor Edition",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 429,
+    "title": "Rising Heat",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 430,
+    "title": "Esophaguys",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 431,
+    "title": "Bee Simulator: The Hive",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 432,
+    "title": "Jaleco Sports: Goal!",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 433,
+    "title": "Anima Flux",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 434,
+    "title": "Welcome to Empyreum",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 435,
+    "title": "The DUNGENERATOR: DIE in a Dungeon",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 436,
+    "title": "Tanks of Freedom",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 437,
+    "title": "Cro-Mag Rally",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 438,
+    "title": "The King of Fighters: Final attack",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 439,
+    "title": "Tiger Claw",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 440,
+    "title": "Chair Up!",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 443,
+    "title": "Hyper Gunsport",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 444,
+    "title": "Hit-X",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 446,
+    "title": "Aichi Emperors Zero",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 447,
+    "title": "NARCISSUS",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 448,
+    "title": "StarCrossed",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 449,
+    "title": "Caveman Warriors",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 450,
+    "title": "Rakete",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 451,
+    "title": "FiZZ (VIC-20)",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 452,
+    "title": "Marco Polo",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 453,
+    "title": "Scarecrow COOP",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 454,
+    "title": "FiZZ (Commodore 64, C64)",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 455,
+    "title": "Fixeight",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 456,
+    "title": "Combat Mission Final Blitzkrieg",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 457,
+    "title": "Combat Mission Fortress Italy",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 458,
+    "title": "Tavernacle!",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 459,
+    "title": "Fire Shark",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 460,
+    "title": "Hellfire",
+    "rating": 58,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 461,
+    "title": "Combat Mission Red Thunder",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 462,
+    "title": "Volley Pals",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 463,
+    "title": "Chut!",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 464,
+    "title": "Isolated Intelligence",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 465,
+    "title": "Bar Keep",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 466,
+    "title": "Shroom Bois",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 467,
+    "title": "Malisse",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 468,
+    "title": "Octopounce",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 469,
+    "title": "Ducktonic Adventures",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 470,
+    "title": "Hakros DRUGOD TV The Survival Games (Map for Doom 2)",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 471,
+    "title": "Yakuzakura",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 472,
+    "title": "Panique à Temple A-Steak",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 473,
+    "title": "Project Socket",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 474,
+    "title": "Tower of Freedom",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 475,
+    "title": "Community Egg",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 476,
+    "title": "Safe Space",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 477,
+    "title": "Pangman DEMO for Quest",
+    "rating": 0,
+    "reason": "blocked_keyword:demo",
+    "severity": "critical"
+  },
+  {
+    "id": 478,
+    "title": "A.L.F.I.E's GAME",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 479,
+    "title": "Shackle",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 480,
+    "title": "Easy Delivery Co. Demo",
+    "rating": 0,
+    "reason": "blocked_keyword:demo",
+    "severity": "critical"
+  },
+  {
+    "id": 482,
+    "title": "TORB",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 484,
+    "title": "Funtasia",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 485,
+    "title": "EpicShop",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 487,
+    "title": "Lurking Danger",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 488,
+    "title": "LegacyClonk",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 490,
+    "title": "Quest Of Graal DX",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 491,
+    "title": "Garrison: Archangel (DEMO)",
+    "rating": 0,
+    "reason": "blocked_keyword:demo",
+    "severity": "critical"
+  },
+  {
+    "id": 493,
+    "title": "Obnubilia",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 494,
+    "title": "beaterCore",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 495,
+    "title": "Escape From Castle Matsumoto",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 496,
+    "title": "Super Pilot",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 497,
+    "title": "Wacky Wheels HD",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 498,
+    "title": "Classic TAGAP",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 499,
+    "title": "Flotilla",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 500,
+    "title": "Tomb of Rooms",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 501,
+    "title": "Damaged Territory",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 502,
+    "title": "Pretend Cars Racing",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 503,
+    "title": "TopplePOP Demo",
+    "rating": 0,
+    "reason": "blocked_keyword:demo",
+    "severity": "critical"
+  },
+  {
+    "id": 504,
+    "title": "Felony Felines!",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 505,
+    "title": "Black Ice (Early Access)",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 506,
+    "title": "Super Crate Box Together",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 507,
+    "title": "Nick Tower",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 508,
+    "title": "Tvö",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 509,
+    "title": "Partners In Uncertainty",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 510,
+    "title": "Never BreakUp",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 511,
+    "title": "Galoria Sandbox: Online",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 512,
+    "title": "Crisis At R.W.P. Inc.",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 513,
+    "title": "Wilds of the Realmwalker - Public Playtest",
+    "rating": 0,
+    "reason": "blocked_keyword:test",
+    "severity": "critical"
+  },
+  {
+    "id": 514,
+    "title": "Keep Painting",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 515,
+    "title": "Thing & Fist",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 516,
+    "title": "I'm Lag",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 517,
+    "title": "Speedy Golf",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 519,
+    "title": "Project Castaway",
+    "rating": 69,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 520,
+    "title": "Dragonkin: The Banished",
+    "rating": 61,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 522,
+    "title": "Pizza Slice",
+    "rating": 62,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 523,
+    "title": "WWE 2K26",
+    "rating": 50,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 528,
+    "title": "HexBreaker Ⅱ",
+    "rating": 66,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 532,
+    "title": "Never Grave: The Witch and The Curse",
+    "rating": 67,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 535,
+    "title": "Sundered: Eldritch Edition",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 536,
+    "title": "GuessMe!",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 537,
+    "title": "Dead Pixels II: Straight To Video",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 538,
+    "title": "CROSSNIQ+",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 539,
+    "title": "PAPER TANKS (indie game, ink, doodle, unity, 2d, action, paper, tank, retro, ink, split sreen, beta, demo, dev)",
+    "rating": 0,
+    "reason": "blocked_keyword:demo",
+    "severity": "critical"
+  },
+  {
+    "id": 540,
+    "title": "MONUMENTAL FAILURE",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 541,
+    "title": "War Mongrels",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 542,
+    "title": "63 Days",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 543,
+    "title": "Black Widow: Recharged",
+    "rating": 58,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 544,
+    "title": "Beer & Plunder",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 545,
+    "title": "ZeroRanger (Demo)",
+    "rating": 0,
+    "reason": "blocked_keyword:demo",
+    "severity": "critical"
+  },
+  {
+    "id": 546,
+    "title": "Don't Bite Me Bro!",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 547,
+    "title": "Moon Hunters",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 548,
+    "title": "Pyre",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 550,
+    "title": "Joint Drops",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 551,
+    "title": "PING-POMPA",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 552,
+    "title": "Dee | S",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 554,
+    "title": "Control Shift",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 555,
+    "title": "Corpse Box Racers",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 559,
+    "title": "Boss Bashing Button Brawlers",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 560,
+    "title": "Taming.io",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 561,
+    "title": "The Cowlitz Gamers' 2nd Adventure",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 562,
+    "title": "Jojo's Bizzare Adventure: Last Stand",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 563,
+    "title": "Space (PC)",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 565,
+    "title": "Cyber Cycle",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 566,
+    "title": "Two Interviewees",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 567,
+    "title": "Headquarters: Cold War",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 568,
+    "title": "Platform Anomaly (co-op)",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 573,
+    "title": "Firefighting Space Monkes",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 574,
+    "title": "10 Rounds",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 575,
+    "title": "Serious Sam Evolution",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 576,
+    "title": "TOP HUNTER: RODDY & CATHY",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 577,
+    "title": "Ruins Of Mitriom",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 578,
+    "title": "FroggieChat",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 579,
+    "title": "Toasterball (Prototype)",
+    "rating": 0,
+    "reason": "blocked_keyword:prototype",
+    "severity": "critical"
+  },
+  {
+    "id": 580,
+    "title": "The Colosseum Challenge",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 583,
+    "title": "KIZUNA ENCOUNTER: SUPER TAG BATTLE",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 585,
+    "title": "Avatar: Frontiers of Pandora",
+    "rating": 69,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 603,
+    "title": "Crow's Nest",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 604,
+    "title": "Chicken Joust",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 605,
+    "title": "Telemochi",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 606,
+    "title": "FNAF Online Multiplayer",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 607,
+    "title": "ORBSORT",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 608,
+    "title": "Scatteria",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 610,
+    "title": "Labyrinth",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 611,
+    "title": "Chained Wheels",
+    "rating": 67,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 612,
+    "title": "Data Man (NES)",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 613,
+    "title": "Beatdown Dungeon: Demon Day - Demo v1.9",
+    "rating": 0,
+    "reason": "blocked_keyword:demo",
+    "severity": "critical"
+  },
+  {
+    "id": 614,
+    "title": "Windward Rush (alpha)",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 616,
+    "title": "Truxton Extreme",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 622,
+    "title": "Fifth Sun: Coop racing",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 623,
+    "title": "Get Together: A Coop Adventure",
+    "rating": 67,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 624,
+    "title": "Cat Parents",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 625,
+    "title": "NAKWON: LAST PARADISE",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 627,
+    "title": "Subnautica 2",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  },
+  {
+    "id": 628,
+    "title": "Wurst Defender Coop Edition",
+    "rating": 0,
+    "reason": "low_reviews:0",
+    "severity": "warning"
+  }
+]
