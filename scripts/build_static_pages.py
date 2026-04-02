@@ -11,8 +11,29 @@ from __future__ import annotations
 import datetime
 import html
 import json
+import re
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
+from html_fragments import (
+    HTML_INLINE_STYLES,
+    HTML_HEAD_IT,
+    HTML_HEAD_EN,
+    HTML_FOOTER_IT,
+    HTML_FOOTER_EN,
+    HTML_SCRIPTS_IT,
+    HTML_SCRIPTS_EN,
+    SCRIPT_GAME_TRANSLATIONS,
+)
 
 import catalog_data
+
+
+def safe_template(template: str, **kwargs: str) -> str:
+    """Substitute {name} placeholders only; literal CSS/JS braces are left untouched."""
+    _pattern = re.compile(r'\{([a-zA-Z_][a-zA-Z0-9_]*)\}')
+    return _pattern.sub(lambda m: str(kwargs.get(m.group(1), m.group(0))), template)
 
 ROOT = catalog_data.ROOT
 GAMES_DIR = ROOT / "games"
@@ -545,63 +566,25 @@ def render_static_page(game: dict, all_games: list | None = None) -> str:
         related = find_related_games(game, all_games)
         related_html = render_related_games(related)
 
-    return f"""<!DOCTYPE html>
-<html lang="it">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-  <title>{esc(title)}</title>
-  <meta name="description" content="{esc(description_it)}">
-  <meta name="theme-color" content="#7c6aff">
-  <meta name="color-scheme" content="dark">
-  <link rel="canonical" href="{esc(page_url(game))}">
-  <link rel="alternate" hreflang="it" href="{esc(page_url(game))}">
-  <link rel="alternate" hreflang="en" href="{esc(page_url_en(game))}">
-  <link rel="alternate" hreflang="x-default" href="{esc(page_url(game))}">
+    css_block = HTML_INLINE_STYLES
+    head_block = safe_template(
+        HTML_HEAD_IT,
+        title=esc(title),
+        description=esc(description_it),
+        it_url=esc(page_url(game)),
+        en_url=esc(page_url_en(game)),
+        image=esc(image),
+        asset_version=ASSET_VERSION,
+        jsonld=json.dumps(video_game_json, ensure_ascii=False),
+    )
+    footer_block = safe_template(HTML_FOOTER_IT, current_year=str(CURRENT_YEAR))
+    scripts_block = safe_template(HTML_SCRIPTS_IT, asset_version=ASSET_VERSION)
+    script_translations = SCRIPT_GAME_TRANSLATIONS.format(
+        game_data_json=json_for_script(script_data)
+    )
 
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Coophubs">
-  <meta property="og:title" content="{esc(title)}">
-  <meta property="og:description" content="{esc(description_it)}">
-  <meta property="og:url" content="{esc(page_url(game))}">
-  <meta property="og:image" content="{esc(image)}">
-
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{esc(title)}">
-  <meta name="twitter:description" content="{esc(description_it)}">
-  <meta name="twitter:image" content="{esc(image)}">
-
-  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
-  <link rel="icon" type="image/png" sizes="32x32" href="../assets/icon-32.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="../assets/icon-180.png">
-  <link rel="stylesheet" href="../assets/style.css?v={ASSET_VERSION}">
-  <script type="application/ld+json">
-  {json.dumps(video_game_json, ensure_ascii=False)}
-  </script>
-  <style>
-    .game-page {{ max-width: 800px; margin: 0 auto; padding: 30px 20px 60px; position: relative; z-index: 1; }}
-    .game-back {{ display: inline-flex; align-items: center; gap: 6px; color: var(--accent); text-decoration: none; font-weight: 600; margin-bottom: 24px; transition: color 0.25s; }}
-    .game-back:hover {{ color: #a78bfa; }}
-    .page-head .game-back {{ margin-bottom: 0; }}
-    .game-hero-img {{ width: 100%; max-height: 360px; object-fit: cover; border-radius: var(--radius); margin-bottom: 24px; display: block; }}
-    .game-title {{ font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 800; letter-spacing: -1px; margin-bottom: 12px; }}
-    .game-meta {{ display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 20px; }}
-    .game-section {{ margin-bottom: 24px; }}
-    .game-section-title {{ font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1.5px; color: var(--text2); margin-bottom: 8px; font-weight: 600; }}
-    .game-desc {{ color: var(--text2); font-size: 1rem; line-height: 1.7; }}
-    .game-note {{ background: rgba(124,106,255,0.08); border: 1px solid rgba(124,106,255,0.2); border-radius: var(--radius); padding: 16px; }}
-    .game-note p {{ color: #b0b8e8; font-style: italic; line-height: 1.65; }}
-    .game-actions {{ display: flex; gap: 12px; flex-wrap: wrap; margin-top: 24px; }}
-    .game-info-grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; }}
-    .game-info-card {{ background: var(--bg3); border: 1px solid var(--border); border-radius: 12px; padding: 14px; text-align: center; }}
-    .game-info-value {{ font-family: 'JetBrains Mono', monospace; font-size: 1.1rem; font-weight: 700; color: var(--accent); }}
-    .game-info-label {{ font-size: 0.72rem; color: var(--text2); text-transform: uppercase; letter-spacing: 1px; margin-top: 4px; }}
-    .related-card {{ background: var(--bg3); border: 1px solid var(--border); border-radius: 8px; transition: border-color 0.25s, transform 0.2s; overflow: hidden; }}
-    .related-card:hover {{ border-color: var(--accent); transform: translateY(-2px); }}
-    .ext-links {{ display: flex; gap: 10px; flex-wrap: wrap; }}
-    .ext-link {{ display: inline-flex; align-items: center; gap: 4px; padding: 8px 14px; background: var(--bg3); border: 1px solid var(--border); border-radius: 8px; color: var(--text2); text-decoration: none; font-size: 0.82rem; font-weight: 500; transition: border-color 0.25s, color 0.25s; }}
-    .ext-link:hover {{ border-color: var(--accent); color: var(--accent); }}
-  </style>
+    return f"""{head_block}
+{css_block}
 </head>
 <body>
   <canvas id="bgCanvas" class="bg-canvas" aria-hidden="true"></canvas>
@@ -655,87 +638,10 @@ def render_static_page(game: dict, all_games: list | None = None) -> str:
     {related_html}
   </div>
 
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <div class="footer-brand">Co-op Games Hub</div>
-      <div class="footer-sub" id="footerSub" data-i18n="footer_sub">Coophubs è un progetto indipendente dedicato alla scoperta di giochi cooperativi per PC.</div>
-      <div class="footer-links">
-        <a href="../about.html" id="footerAbout" data-i18n="footer_about">Sul progetto</a>
-        <a href="../contact.html" id="footerContact" data-i18n="footer_contact">Contatti</a>
-        <a href="../free.html" id="footerFree" data-i18n="footer_free">Giochi gratis</a>
-        <a href="../privacy.html" id="footerPrivacy" data-i18n="footer_privacy">Privacy Policy</a>
-      </div>
-      <div class="footer-support">
-        <a href="https://ko-fi.com/coophubs" class="btn-kofi" target="_blank" rel="noopener noreferrer" data-i18n="footer_kofi">☕ Supporta il progetto</a>
-      </div>
-      <div class="footer-divider"></div>
-      <div class="footer-copy" data-i18n="footer_copy">&copy; {CURRENT_YEAR} — Dati da Steam &amp; SteamSpy</div>
-    </div>
-  </footer>
+{footer_block}
 
-  <script src="../assets/i18n.js?v={ASSET_VERSION}" defer></script>
-  <script src="../assets/particles.js?v={ASSET_VERSION}" defer></script>
-  <script>
-    const GAME_DATA = {json_for_script(script_data)};
-
-    function applyGameTranslations() {{
-      const isEn = currentLang === 'en';
-      const desc = isEn && GAME_DATA.description_en ? GAME_DATA.description_en : GAME_DATA.description;
-      const metaDesc = desc.slice(0, 320);
-
-      document.getElementById('backLink').textContent = t('page_back_catalog');
-      document.getElementById('descTitle').textContent = t('modal_desc');
-      document.getElementById('playersLabel').textContent = t('modal_players');
-      document.getElementById('maxPlayersLabel').textContent = t('max_players');
-      document.getElementById('gameDesc').textContent = desc;
-
-      document.querySelectorAll('[data-cat]').forEach((el) => {{
-        el.textContent = t('cat_' + el.dataset.cat);
-      }});
-
-      document.querySelectorAll('[data-mode]').forEach((el) => {{
-        el.textContent = t('mode_' + el.dataset.mode);
-      }});
-
-      const onlineLabel = document.getElementById('onlineLabel');
-      if (onlineLabel) onlineLabel.textContent = t('modal_online');
-
-      const noteTitle = document.getElementById('noteTitle');
-      if (noteTitle) noteTitle.textContent = t('modal_experience');
-
-      const playedBadge = document.getElementById('playedBadge');
-      if (playedBadge) playedBadge.textContent = t('played_badge');
-
-      const trendingBadge = document.getElementById('trendingBadge');
-      if (trendingBadge) trendingBadge.textContent = t('trending_badge');
-
-      const ratingLabel = document.getElementById('ratingLabel');
-      if (ratingLabel) {{
-        ratingLabel.textContent = isEn ? ratingLabel.dataset.labelEn : ratingLabel.dataset.labelIt;
-      }}
-
-      const relatedTitle = document.getElementById('relatedTitle');
-      if (relatedTitle) relatedTitle.textContent = isEn ? 'Similar Games' : 'Giochi simili';
-
-      const extLinksTitle = document.getElementById('extLinksTitle');
-      if (extLinksTitle) extLinksTitle.textContent = isEn ? 'External Resources' : 'Risorse esterne';
-
-      const storeTitle = document.getElementById('storeTitle');
-      if (storeTitle) storeTitle.textContent = isEn ? 'Buy' : 'Acquista';
-
-      document.querySelector('meta[name="description"]').content = metaDesc;
-      document.querySelector('meta[property="og:description"]').content = metaDesc;
-      document.querySelector('meta[name="twitter:description"]').content = metaDesc;
-    }}
-
-    document.addEventListener('DOMContentLoaded', () => {{
-      document.documentElement.lang = currentLang;
-      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
-      applyGameTranslations();
-    }});
-
-    window.addEventListener('langchange', applyGameTranslations);
-  </script>
+{scripts_block}
+{script_translations}
 </body>
 </html>
 """
@@ -877,63 +783,25 @@ def render_static_page_en(game: dict, all_games: list | None = None) -> str:
         related = find_related_games(game, all_games)
         related_html = render_related_games_en(related)
 
-    return f"""<!DOCTYPE html>
-<html lang="en" data-default-lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-  <title>{esc(title)}</title>
-  <meta name="description" content="{esc(desc_en)}">
-  <meta name="theme-color" content="#7c6aff">
-  <meta name="color-scheme" content="dark">
-  <link rel="canonical" href="{esc(page_url_en(game))}">
-  <link rel="alternate" hreflang="it" href="{esc(page_url(game))}">
-  <link rel="alternate" hreflang="en" href="{esc(page_url_en(game))}">
-  <link rel="alternate" hreflang="x-default" href="{esc(page_url(game))}">
+    css_block = HTML_INLINE_STYLES
+    head_block = safe_template(
+        HTML_HEAD_EN,
+        title=esc(title),
+        description=esc(desc_en),
+        it_url=esc(page_url(game)),
+        en_url=esc(page_url_en(game)),
+        image=esc(image),
+        asset_version=ASSET_VERSION,
+        jsonld=json.dumps(video_game_json, ensure_ascii=False),
+    )
+    footer_block = safe_template(HTML_FOOTER_EN, current_year=str(CURRENT_YEAR))
+    scripts_block = safe_template(HTML_SCRIPTS_EN, asset_version=ASSET_VERSION)
+    script_translations = SCRIPT_GAME_TRANSLATIONS.format(
+        game_data_json=json_for_script(script_data)
+    )
 
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Coophubs">
-  <meta property="og:title" content="{esc(title)}">
-  <meta property="og:description" content="{esc(desc_en)}">
-  <meta property="og:url" content="{esc(page_url_en(game))}">
-  <meta property="og:image" content="{esc(image)}">
-
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{esc(title)}">
-  <meta name="twitter:description" content="{esc(desc_en)}">
-  <meta name="twitter:image" content="{esc(image)}">
-
-  <link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg">
-  <link rel="icon" type="image/png" sizes="32x32" href="../../assets/icon-32.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="../../assets/icon-180.png">
-  <link rel="stylesheet" href="../../assets/style.css?v={ASSET_VERSION}">
-  <script type="application/ld+json">
-  {json.dumps(video_game_json, ensure_ascii=False)}
-  </script>
-  <style>
-    .game-page {{ max-width: 800px; margin: 0 auto; padding: 30px 20px 60px; position: relative; z-index: 1; }}
-    .game-back {{ display: inline-flex; align-items: center; gap: 6px; color: var(--accent); text-decoration: none; font-weight: 600; margin-bottom: 24px; transition: color 0.25s; }}
-    .game-back:hover {{ color: #a78bfa; }}
-    .page-head .game-back {{ margin-bottom: 0; }}
-    .game-hero-img {{ width: 100%; max-height: 360px; object-fit: cover; border-radius: var(--radius); margin-bottom: 24px; display: block; }}
-    .game-title {{ font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 800; letter-spacing: -1px; margin-bottom: 12px; }}
-    .game-meta {{ display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 20px; }}
-    .game-section {{ margin-bottom: 24px; }}
-    .game-section-title {{ font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1.5px; color: var(--text2); margin-bottom: 8px; font-weight: 600; }}
-    .game-desc {{ color: var(--text2); font-size: 1rem; line-height: 1.7; }}
-    .game-note {{ background: rgba(124,106,255,0.08); border: 1px solid rgba(124,106,255,0.2); border-radius: var(--radius); padding: 16px; }}
-    .game-note p {{ color: #b0b8e8; font-style: italic; line-height: 1.65; }}
-    .game-actions {{ display: flex; gap: 12px; flex-wrap: wrap; margin-top: 24px; }}
-    .game-info-grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; }}
-    .game-info-card {{ background: var(--bg3); border: 1px solid var(--border); border-radius: 12px; padding: 14px; text-align: center; }}
-    .game-info-value {{ font-family: 'JetBrains Mono', monospace; font-size: 1.1rem; font-weight: 700; color: var(--accent); }}
-    .game-info-label {{ font-size: 0.72rem; color: var(--text2); text-transform: uppercase; letter-spacing: 1px; margin-top: 4px; }}
-    .related-card {{ background: var(--bg3); border: 1px solid var(--border); border-radius: 8px; transition: border-color 0.25s, transform 0.2s; overflow: hidden; }}
-    .related-card:hover {{ border-color: var(--accent); transform: translateY(-2px); }}
-    .ext-links {{ display: flex; gap: 10px; flex-wrap: wrap; }}
-    .ext-link {{ display: inline-flex; align-items: center; gap: 4px; padding: 8px 14px; background: var(--bg3); border: 1px solid var(--border); border-radius: 8px; color: var(--text2); text-decoration: none; font-size: 0.82rem; font-weight: 500; transition: border-color 0.25s, color 0.25s; }}
-    .ext-link:hover {{ border-color: var(--accent); color: var(--accent); }}
-  </style>
+    return f"""{head_block}
+{css_block}
 </head>
 <body>
   <canvas id="bgCanvas" class="bg-canvas" aria-hidden="true"></canvas>
@@ -987,87 +855,10 @@ def render_static_page_en(game: dict, all_games: list | None = None) -> str:
     {related_html}
   </div>
 
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <div class="footer-brand">Co-op Games Hub</div>
-      <div class="footer-sub" id="footerSub" data-i18n="footer_sub">Coophubs is an independent project dedicated to discovering co-op games for PC.</div>
-      <div class="footer-links">
-        <a href="../../about.html" id="footerAbout" data-i18n="footer_about">About</a>
-        <a href="../../contact.html" id="footerContact" data-i18n="footer_contact">Contact</a>
-        <a href="../../free.html" id="footerFree" data-i18n="footer_free">Free Games</a>
-        <a href="../../privacy.html" id="footerPrivacy" data-i18n="footer_privacy">Privacy Policy</a>
-      </div>
-      <div class="footer-support">
-        <a href="https://ko-fi.com/coophubs" class="btn-kofi" target="_blank" rel="noopener noreferrer" data-i18n="footer_kofi">☕ Support the project</a>
-      </div>
-      <div class="footer-divider"></div>
-      <div class="footer-copy" data-i18n="footer_copy">&copy; {CURRENT_YEAR} — Data from Steam &amp; SteamSpy</div>
-    </div>
-  </footer>
+{footer_block}
 
-  <script src="../../assets/i18n.js?v={ASSET_VERSION}" defer></script>
-  <script src="../../assets/particles.js?v={ASSET_VERSION}" defer></script>
-  <script>
-    const GAME_DATA = {json_for_script(script_data)};
-
-    function applyGameTranslations() {{
-      const isEn = currentLang === 'en';
-      const desc = isEn && GAME_DATA.description_en ? GAME_DATA.description_en : GAME_DATA.description;
-      const metaDesc = desc.slice(0, 320);
-
-      document.getElementById('backLink').textContent = t('page_back_catalog');
-      document.getElementById('descTitle').textContent = t('modal_desc');
-      document.getElementById('playersLabel').textContent = t('modal_players');
-      document.getElementById('maxPlayersLabel').textContent = t('max_players');
-      document.getElementById('gameDesc').textContent = desc;
-
-      document.querySelectorAll('[data-cat]').forEach((el) => {{
-        el.textContent = t('cat_' + el.dataset.cat);
-      }});
-
-      document.querySelectorAll('[data-mode]').forEach((el) => {{
-        el.textContent = t('mode_' + el.dataset.mode);
-      }});
-
-      const onlineLabel = document.getElementById('onlineLabel');
-      if (onlineLabel) onlineLabel.textContent = t('modal_online');
-
-      const noteTitle = document.getElementById('noteTitle');
-      if (noteTitle) noteTitle.textContent = t('modal_experience');
-
-      const playedBadge = document.getElementById('playedBadge');
-      if (playedBadge) playedBadge.textContent = t('played_badge');
-
-      const trendingBadge = document.getElementById('trendingBadge');
-      if (trendingBadge) trendingBadge.textContent = t('trending_badge');
-
-      const ratingLabel = document.getElementById('ratingLabel');
-      if (ratingLabel) {{
-        ratingLabel.textContent = isEn ? ratingLabel.dataset.labelEn : ratingLabel.dataset.labelIt;
-      }}
-
-      const relatedTitle = document.getElementById('relatedTitle');
-      if (relatedTitle) relatedTitle.textContent = isEn ? 'Similar Games' : 'Giochi simili';
-
-      const extLinksTitle = document.getElementById('extLinksTitle');
-      if (extLinksTitle) extLinksTitle.textContent = isEn ? 'External Resources' : 'Risorse esterne';
-
-      const storeTitle = document.getElementById('storeTitle');
-      if (storeTitle) storeTitle.textContent = isEn ? 'Buy' : 'Acquista';
-
-      document.querySelector('meta[name="description"]').content = metaDesc;
-      document.querySelector('meta[property="og:description"]').content = metaDesc;
-      document.querySelector('meta[name="twitter:description"]').content = metaDesc;
-    }}
-
-    document.addEventListener('DOMContentLoaded', () => {{
-      document.documentElement.lang = currentLang;
-      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
-      applyGameTranslations();
-    }});
-
-    window.addEventListener('langchange', applyGameTranslations);
-  </script>
+{scripts_block}
+{script_translations}
 </body>
 </html>
 """

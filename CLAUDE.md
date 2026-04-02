@@ -5,6 +5,76 @@ Contiene tutto ciò che serve per lavorare correttamente su questo progetto.
 
 ---
 
+## Navigazione rapida per AI
+
+> Leggi SOLO i file che servono al tuo task. Non caricare tutto.
+
+```
+Task UI/frontend?
+  → Leggi: assets/app.js, assets/style.css, index.html
+  → Template: .claude/TASK_TEMPLATE.md
+
+Task pipeline Python / nuovi giochi?
+  → Leggi: scripts/INDEX.md       (mappa 45 script, dipendenze, ordine CI)
+  → Leggi: scripts/catalog_config.py, scripts/catalog_data.py
+  → Non toccare: .github/workflows/ senza approvazione
+
+Task dati JSON?
+  → Leggi: data/README.md         (tassonomia 38 file, stato live/pipeline/legacy)
+  → Schema campi: data/schema.json (contratto dati, tipi, vincoli — leggero)
+  → Esempio record: data/sample.json (1 record sintetico completo)
+  → MAI caricare catalog.games.v1.json intero (574 giochi, troppo grande)
+
+Task SEO / pagine statiche?
+  → Leggi: scripts/build_static_pages.py, scripts/build_hub_pages.py
+  → Override SEO: data/seo_overrides.json, data/hub_editorial.json
+
+Non sai da dove iniziare?
+  → Leggi: .claude/AI_COLLABORATION.md    (log sessioni precedenti, stato attuale)
+  → Leggi: .planning/STATE.md     (stato roadmap)
+```
+
+### Struttura cartelle
+
+```
+/
+├── assets/
+│   ├── app.js          ← logica principale frontend (~600 righe)
+│   ├── games.js        ← 589 giochi come oggetti JS (~94K token — NON passare intero ad aider)
+│   ├── free_games.js   ← giochi gratis settimana corrente
+│   ├── i18n.js         ← stringhe IT/EN
+│   ├── style.css       ← tutto il CSS
+│   └── particles.js    ← animazione sfondo
+├── games/              ← 589 pagine HTML statiche (auto-generate, non editare)
+├── en/                 ← 8 hub pages in inglese
+├── scripts/
+│   ├── INDEX.md        ← MAPPA COMPLETA 45 script (leggi prima di tutto)
+│   ├── catalog_config.py   ← costanti globali pipeline
+│   ├── catalog_data.py     ← I/O catalogo
+│   ├── auto_update.py      ← pipeline CI principale
+│   ├── build_static_pages.py
+│   ├── build_hub_pages.py
+│   ├── quality_gate.py
+│   └── [42 altri script → vedi INDEX.md]
+├── data/
+│   ├── README.md               ← TASSONOMIA 38 JSON (live / pipeline / editoriale / log)
+│   ├── schema.json             ← CONTRATTO DATI: tutti i campi, tipi, vincoli (leggero)
+│   ├── sample.json             ← 1 record sintetico completo (riferimento strutturale)
+│   ├── catalog.games.v1.json   ← catalogo completo 574 giochi (NON caricare intero)
+│   ├── hub_editorial.json      ← testi hub pages (editoriale)
+│   ├── seo_overrides.json      ← override SEO manuali
+│   └── [35 altri file → vedi README.md]
+├── .github/workflows/  ← update.yml (ogni giorno) + free_games.yml (giornaliero)
+├── .claude/
+│   ├── TASK_TEMPLATE.md    ← USA QUESTO prima di ogni task
+│   └── settings.json
+├── .planning/          ← roadmap, requisiti, stato progetto
+├── CLAUDE.md           ← questo file
+└── .claude/AI_COLLABORATION.md ← log sessioni AI
+```
+
+---
+
 ## Cos'è il progetto
 
 Sito statico **coophubs.net** — catalogo di videogiochi cooperativi per PC.
@@ -120,7 +190,7 @@ data/
 4. **Modifiche mirate** — tocca solo i file necessari al task. Niente refactoring non richiesti.
 5. **Non fare commit o push autonomamente** — proponi le modifiche, aspetta conferma dell'utente.
 6. **Preserva gli ID giochi** — ogni gioco in `games.js` ha un ID numerico fisso. Non spostare, rinumerare o eliminare senza motivo esplicito.
-7. **Aggiorna `AI_COLLABORATION.md`** dopo modifiche non banali — aggiungi una voce nel log con data e descrizione.
+7. **Aggiorna `.claude/AI_COLLABORATION.md`** dopo modifiche non banali — aggiungi una voce nel log con data e descrizione.
 
 ---
 
@@ -238,7 +308,7 @@ openai-api-key: ollama
 weak-model: ollama/qwen2.5-coder:7b
 read:
   - CLAUDE.md
-  - AI_COLLABORATION.md
+  - .claude/AI_COLLABORATION.md
 auto-commits: false
 auto-lint: false
 pretty: true
@@ -259,8 +329,8 @@ Hardware disponibile (RX 9070 XT 16GB VRAM + 16GB RAM):
 
 ### Regole di collaborazione
 
-- Leggere sempre `AI_COLLABORATION.md` prima di intervenire.
-- Aggiornare `AI_COLLABORATION.md` dopo modifiche rilevanti (sezione log con data).
+- Leggere sempre `.claude/AI_COLLABORATION.md` prima di intervenire.
+- Aggiornare `.claude/AI_COLLABORATION.md` dopo modifiche rilevanti (sezione log con data).
 - Non sovrascrivere lavoro altrui senza prima leggere lo stato corrente.
 - Non lasciare decisioni importanti solo in chat — salvarle nei file del progetto.
 - Segnalare sempre se una conclusione è confermata o solo un'ipotesi.

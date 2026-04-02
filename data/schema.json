@@ -1,0 +1,255 @@
+{
+  "_meta": {
+    "description": "Contratto dati per un gioco nel catalogo CoopHubs.net",
+    "source": "data/catalog.games.v1.json (574 giochi)",
+    "schemaVersion": 1,
+    "generated": "2026-04-02",
+    "note": "Usa questo file per capire la struttura senza caricare il catalogo completo"
+  },
+  "fields": {
+    "id": {
+      "type": "int",
+      "required": true,
+      "constraints": "univoco, mai modificare, mai riusare",
+      "example": 42
+    },
+    "igdbId": {
+      "type": "int",
+      "required": true,
+      "constraints": "ID IGDB, 0 se sconosciuto",
+      "example": 3277
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "constraints": "non vuoto",
+      "example": "Helldivers 2"
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "constraints": "kebab-case, URL-safe, univoco",
+      "example": "helldivers-2"
+    },
+    "categories": {
+      "type": "list[string]",
+      "required": true,
+      "constraints": "valori: action|puzzle|rpg|survival|horror|strategy|roguelike|sport|indie|free|splitscreen|factory",
+      "note": "'free' e 'indie' sono categorie, NON campi boolean separati",
+      "example": ["action", "survival"]
+    },
+    "genres": {
+      "type": "list[string]",
+      "required": false,
+      "constraints": "stessi valori di categories, spesso coincide; empty: 148/574",
+      "example": ["action", "survival"]
+    },
+    "coopMode": {
+      "type": "list[string]",
+      "required": true,
+      "constraints": "valori: online|local|sofa",
+      "example": ["online", "local"]
+    },
+    "maxPlayers": {
+      "type": "int",
+      "required": true,
+      "constraints": "minimo 2",
+      "example": 4
+    },
+    "players": {
+      "type": "string",
+      "required": true,
+      "constraints": "formato '1-N' dove N = maxPlayers",
+      "example": "1-4"
+    },
+    "crossplay": {
+      "type": "bool",
+      "required": true,
+      "constraints": "true solo se verificato con certezza",
+      "example": false
+    },
+    "releaseYear": {
+      "type": "int",
+      "required": true,
+      "constraints": ">= 1990, <= anno corrente + 1",
+      "example": 2024
+    },
+    "image": {
+      "type": "string",
+      "required": true,
+      "constraints": "URL CDN Steam (shared.cloudflare.steamstatic.com)",
+      "example": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/553850/header.jpg"
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "constraints": "lingua IT, non vuoto",
+      "example": "Sparatutto co-op in terza persona fino a 4 giocatori."
+    },
+    "description_en": {
+      "type": "string",
+      "required": true,
+      "constraints": "lingua EN, non vuoto",
+      "example": "Third-person co-op shooter for up to 4 players."
+    },
+    "mini_review_it": {
+      "type": "string",
+      "required": false,
+      "constraints": "max ~150 caratteri, tono editoriale; empty: 557/574",
+      "example": "Cooperazione pura. Divertimento garantito anche con sconosciuti."
+    },
+    "mini_review_en": {
+      "type": "string",
+      "required": false,
+      "constraints": "max ~150 caratteri, EN; empty: 557/574",
+      "example": "Pure cooperation. Fun guaranteed even with strangers."
+    },
+    "personalNote": {
+      "type": "string",
+      "required": false,
+      "constraints": "nota personale del curatore, non mostrata al pubblico; empty: 554/574",
+      "example": ""
+    },
+    "played": {
+      "type": "bool",
+      "required": true,
+      "constraints": "default false, tracciato lato client",
+      "example": false
+    },
+    "isFeaturedIndie": {
+      "type": "bool",
+      "required": true,
+      "constraints": "true se in evidenza nella sezione indie homepage",
+      "example": false
+    },
+    "steamUrl": {
+      "type": "string",
+      "required": false,
+      "constraints": "formato https://store.steampowered.com/app/{APPID}/; empty: 170/574",
+      "example": "https://store.steampowered.com/app/553850/"
+    },
+    "gogUrl": {
+      "type": "string",
+      "required": false,
+      "constraints": "empty: 548/574",
+      "example": ""
+    },
+    "epicUrl": {
+      "type": "string",
+      "required": false,
+      "constraints": "empty: 521/574",
+      "example": ""
+    },
+    "itchUrl": {
+      "type": "string",
+      "required": false,
+      "constraints": "empty: 430/574",
+      "example": ""
+    },
+    "ccu": {
+      "type": "int",
+      "required": true,
+      "constraints": ">= 0, da SteamSpy; 0 per giochi senza dati Steam",
+      "example": 45000
+    },
+    "trending": {
+      "type": "bool",
+      "required": true,
+      "constraints": "true se ccu >= 10000 (MIN_CCU_TRENDING in catalog_config.py)",
+      "example": true
+    },
+    "rating": {
+      "type": "int",
+      "required": true,
+      "constraints": "0-100, da Steam reviews; 0 se sconosciuto",
+      "example": 88
+    },
+    "coopScore": {
+      "type": "int",
+      "required": false,
+      "constraints": "0-10, punteggio qualità co-op; empty: 174/574",
+      "example": 8
+    },
+    "igUrl": {
+      "type": "string",
+      "required": false,
+      "constraints": "URL Instant Gaming con ?igr=gamer-ddc4a8; empty: 310/574",
+      "example": "https://www.instant-gaming.com/en/1234-buy-game/?igr=gamer-ddc4a8"
+    },
+    "igDiscount": {
+      "type": "int",
+      "required": true,
+      "constraints": "0-99, sconto % su IG; 0 se non disponibile",
+      "example": 40
+    },
+    "gbUrl": {
+      "type": "string",
+      "required": false,
+      "constraints": "URL GameBillet con parametro affiliate; empty: 570/574",
+      "example": ""
+    },
+    "gbDiscount": { "type": "int", "required": true, "constraints": "0-99; 0 se non disponibile", "example": 0 },
+    "gsUrl":      { "type": "string", "required": false, "constraints": "Gameseal CJ link; empty: 234/574", "example": "" },
+    "gsDiscount": { "type": "int", "required": true, "constraints": "0-99", "example": 0 },
+    "kgUrl":      { "type": "string", "required": false, "constraints": "Kinguin CJ link; empty: 212/574", "example": "" },
+    "kgDiscount": { "type": "int", "required": true, "constraints": "0-99", "example": 0 },
+    "k4gUrl":     { "type": "string", "required": false, "constraints": "K4G link con ?r=coophubs; empty: 179/574", "example": "" },
+    "k4gDiscount":{ "type": "int", "required": true, "constraints": "0-99", "example": 0 },
+    "gmvUrl":     { "type": "string", "required": false, "constraints": "GAMIVO CJ link; empty: 234/574", "example": "" },
+    "gmvDiscount":{ "type": "int", "required": true, "constraints": "0-99", "example": 0 },
+    "gmgUrl":     { "type": "string", "required": false, "constraints": "Green Man Gaming Impact link; empty: 179/574", "example": "" },
+    "gmgDiscount":{ "type": "int", "required": true, "constraints": "0-99", "example": 0 },
+    "descriptions": {
+      "type": "object",
+      "required": true,
+      "constraints": "oggetto {it: string, en: string} — mirror di description/description_en",
+      "example": { "it": "Descrizione IT.", "en": "EN description." }
+    },
+    "taxonomy": {
+      "type": "object",
+      "required": true,
+      "constraints": "oggetto {categories: list[str], genres: list[str]} — mirror di categories/genres",
+      "example": { "categories": ["action"], "genres": ["action"] }
+    },
+    "capabilities": {
+      "type": "object",
+      "required": true,
+      "constraints": "oggetto con flag co-op derivati da coopMode e maxPlayers",
+      "example": {
+        "onlineCoop": true, "localCoop": false, "splitScreen": false,
+        "sharedScreen": false, "crossplay": false,
+        "playersLabel": "1-4", "maxPlayers": 4
+      }
+    },
+    "storefronts": {
+      "type": "list[object]",
+      "required": true,
+      "constraints": "lista [{store: string, url: string, externalId: string}]",
+      "example": [{ "store": "steam", "url": "https://store.steampowered.com/app/553850/", "externalId": "553850" }]
+    },
+    "externalIds": {
+      "type": "object",
+      "required": false,
+      "constraints": "oggetto {steamAppId: string}; empty: 26/574",
+      "example": { "steamAppId": "553850" }
+    },
+    "signals": {
+      "type": "object",
+      "required": true,
+      "constraints": "oggetto {ccu: int, trending: bool, rating: int} — mirror dei campi flat",
+      "example": { "ccu": 45000, "trending": true, "rating": 88 }
+    },
+    "editorial": {
+      "type": "object",
+      "required": true,
+      "constraints": "oggetto {played: bool, personalNote: string}",
+      "example": { "played": false, "personalNote": "" }
+    },
+    "sourceMeta": {
+      "type": "object",
+      "required": true,
+      "constraints": "oggetto {ingestSource: string, schemaVersion: int}",
+      "example": { "ingestSource": "games.js", "schemaVersion": 1 }
+    }
+  }
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "_note": "Record sintetico — NON è un gioco reale. Usato come riferimento strutturale.",
+    "id": 9999,
+    "igdbId": 0,
+    "title": "CoopQuest: Sample Game",
+    "slug": "coopquest-sample-game",
+    "categories": ["action", "survival"],
+    "genres": ["action", "survival"],
+    "coopMode": ["online", "local"],
+    "maxPlayers": 4,
+    "crossplay": false,
+    "players": "1-4",
+    "releaseYear": 2024,
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/000000/header.jpg",
+    "description": "Un gioco co-op d'azione fino a 4 giocatori online e in locale.",
+    "description_en": "A co-op action game for up to 4 players online and locally.",
+    "mini_review_it": "",
+    "mini_review_en": "",
+    "personalNote": "",
+    "played": false,
+    "isFeaturedIndie": false,
+    "steamUrl": "https://store.steampowered.com/app/000000/",
+    "gogUrl": "",
+    "epicUrl": "",
+    "itchUrl": "",
+    "ccu": 5000,
+    "trending": false,
+    "rating": 75,
+    "coopScore": 7,
+    "igUrl": "",
+    "igDiscount": 0,
+    "gbUrl": "",
+    "gbDiscount": 0,
+    "gsUrl": "",
+    "gsDiscount": 0,
+    "kgUrl": "",
+    "kgDiscount": 0,
+    "k4gUrl": "",
+    "k4gDiscount": 0,
+    "gmvUrl": "",
+    "gmvDiscount": 0,
+    "gmgUrl": "",
+    "gmgDiscount": 0,
+    "descriptions": {
+      "it": "Un gioco co-op d'azione fino a 4 giocatori online e in locale.",
+      "en": "A co-op action game for up to 4 players online and locally."
+    },
+    "taxonomy": {
+      "categories": ["action", "survival"],
+      "genres": ["action", "survival"]
+    },
+    "capabilities": {
+      "onlineCoop": true,
+      "localCoop": true,
+      "splitScreen": false,
+      "sharedScreen": false,
+      "crossplay": false,
+      "playersLabel": "1-4",
+      "maxPlayers": 4
+    },
+    "storefronts": [
+      { "store": "steam", "url": "https://store.steampowered.com/app/000000/", "externalId": "000000" }
+    ],
+    "externalIds": {
+      "steamAppId": "000000"
+    },
+    "signals": {
+      "ccu": 5000,
+      "trending": false,
+      "rating": 75
+    },
+    "editorial": {
+      "played": false,
+      "personalNote": ""
+    },
+    "sourceMeta": {
+      "ingestSource": "manual",
+      "schemaVersion": 1
+    }
+  }
+]
