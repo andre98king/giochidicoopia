@@ -52,12 +52,31 @@ jobs:
 
           Path('reports').mkdir(parents=True, exist_ok=True)
           report_file = f"reports/curation_gate_{datetime.utcnow().strftime('%Y%m%d_%H%M')}.json"
+          
+          # Classifica criticals: expected (blocked_keyword) vs unexpected (missing_fields)
+          criticals = [h for h in hidden if h.get('severity') == 'critical']
+          expected_blocked = all(h.get('reason', '').startswith('blocked_keyword:') for h in criticals)
+          unexpected_criticals = [h for h in criticals if not h.get('reason', '').startswith('blocked_keyword:')]
+          
+          report_data = {
+              'timestamp': datetime.utcnow().isoformat(),
+              'stats': stats,
+              'hidden_games': hidden,
+              'expected_blocked': len(criticals) if expected_blocked else 0,
+              'unexpected_criticals': unexpected_criticals
+          }
           with open(report_file, 'w', encoding='utf-8') as f:
-              json.dump({'timestamp': datetime.utcnow().isoformat(), 'stats': stats, 'hidden_games': hidden}, f, indent=2, ensure_ascii=False)
+              json.dump(report_data, f, indent=2, ensure_ascii=False)
 
-          if stats.get('critical_fails', 0) > 0:
-              print(f"🚫 CI BLOCKED: {stats['critical_fails']} critical fails. See {report_file}")
+          if unexpected_criticals:
+              print(f"🚨 CI BLOCKED: {len(unexpected_criticals)} unexpected critical fails:")
+              for c in unexpected_criticals:
+                  print(f"   - {c['id']}: {c['reason']}")
+              print(f"   See {report_file}")
               sys.exit(1)
+          
+          if stats.get('critical_fails', 0) > 0 and expected_blocked:
+              print(f"ℹ️  Expected blocks bypassed: {stats['critical_fails']} demo/prototype/test entries filtered (safe to publish)")
 
           # Salva catalogo filtrato per il builder
           catalog_path = Path('data/catalog.public.v1.json')

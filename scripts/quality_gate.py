@@ -675,6 +675,9 @@ def run_curation_gate(
     )
     print(f"  📊 Curation report: {report_file}")
 
+    # Esporta audit giornaliero con delta
+    export_daily_audit(stats, hidden, "reports/")
+
     if strict and stats["critical_fails"] > 0:
         print(
             f"🚫 CI BLOCKED: {stats['critical_fails']} critical fails ({stats['hidden']} warnings)"
@@ -699,10 +702,53 @@ def run_curation_gate(
         )
 
     return valid, hidden, stats
-    result = validate(
-        app_id,
-        rawg_api_key=rawg_key,
-        igdb_client_id=igdb_id,
-        igdb_client_secret=igdb_secret,
+
+
+def export_daily_audit(stats: dict, hidden: list, report_dir: str = "reports/") -> None:
+    """Esporta un audit JSON giornaliero con tracciabilità e delta rispetto al giorno precedente."""
+    from datetime import date
+    from collections import Counter
+
+    report_path = Path(report_dir)
+    report_path.mkdir(parents=True, exist_ok=True)
+
+    today = date.today().isoformat()
+
+    # Calcola raggruppamento motivi
+    reason_counts = Counter()
+    for h in hidden:
+        reason = h.get("reason", "unknown").split(":")[0]
+        reason_counts[reason] += 1
+
+    audit_data = {
+        "date": today,
+        "valid": stats.get("valid", 0),
+        "hidden": stats.get("hidden", 0),
+        "critical": stats.get("critical_fails", 0),
+        "reasons": dict(reason_counts),
+    }
+
+    # Leggi il file del giorno precedente e calcola delta
+    prev_file = (
+        report_path
+        / f"daily_audit_{date.fromordinal(date.today().toordinal() - 1).isoformat()}.json"
     )
-    print(json.dumps(result, indent=2))
+    if prev_file.exists():
+        try:
+            prev_data = json.loads(prev_file.read_text(encoding="utf-8"))
+            audit_data["delta_valid"] = audit_data["valid"] - prev_data.get("valid", 0)
+            audit_data["delta_hidden"] = audit_data["hidden"] - prev_data.get(
+                "hidden", 0
+            )
+            audit_data["delta_critical"] = audit_data["critical"] - prev_data.get(
+                "critical", 0
+            )
+        except Exception:
+            pass
+
+    # Scrivi il file giornaliero
+    output_file = report_path / f"daily_audit_{today}.json"
+    output_file.write_text(
+        json.dumps(audit_data, indent=2, ensure_ascii=False), encoding="utf-8"
+    )
+    print(f"  📊 Daily audit: {output_file}")
