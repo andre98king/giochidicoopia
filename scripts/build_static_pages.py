@@ -25,6 +25,9 @@ from html_fragments import (
     HTML_SCRIPTS_IT,
     HTML_SCRIPTS_EN,
     SCRIPT_GAME_TRANSLATIONS,
+    HTML_RELATED_CARD,
+    HTML_RELATED_CARD_IMG,
+    HTML_RELATED_SECTION,
 )
 
 import catalog_data
@@ -32,8 +35,9 @@ import catalog_data
 
 def safe_template(template: str, **kwargs: str) -> str:
     """Substitute {name} placeholders only; literal CSS/JS braces are left untouched."""
-    _pattern = re.compile(r'\{([a-zA-Z_][a-zA-Z0-9_]*)\}')
+    _pattern = re.compile(r"\{([a-zA-Z_][a-zA-Z0-9_]*)\}")
     return _pattern.sub(lambda m: str(kwargs.get(m.group(1), m.group(0))), template)
+
 
 ROOT = catalog_data.ROOT
 GAMES_DIR = ROOT / "games"
@@ -180,56 +184,42 @@ def find_related_games(game: dict, all_games: list, count: int = 6) -> list:
     return [item[2] for item in scored[:count]]
 
 
+def build_related_card(game_dict: dict) -> str:
+    """Build a single related-game card using .replace() (no .format() - CSS braces)."""
+    if not game_dict:
+        return ""
+
+    img_html = ""
+    img_src = game_dict.get("image") or ""
+    if img_src:
+        img_html = HTML_RELATED_CARD_IMG.replace(
+            "PLACEHOLDER_IMG_SRC", esc(img_src)
+        ).replace("PLACEHOLDER_GAME_TITLE", esc(game_dict.get("title", "")))
+
+    card = (
+        HTML_RELATED_CARD.replace("PLACEHOLDER_GAME_ID", str(game_dict.get("id", "")))
+        .replace("PLACEHOLDER_IMG_HTML", img_html)
+        .replace("PLACEHOLDER_GAME_TITLE", esc(game_dict.get("title", "")))
+    )
+
+    return card
+
+
 def render_related_games(related: list) -> str:
     if not related:
         return ""
-    cards = []
-    for g in related:
-        img = g.get("image") or ""
-        img_html = (
-            f'<img src="{esc(img)}" alt="{esc(g["title"])}" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:8px 8px 0 0">'
-            if img
-            else ""
-        )
-        cards.append(
-            f'<a href="{g["id"]}.html" class="related-card" style="text-decoration:none;color:inherit">'
-            f"{img_html}"
-            f'<div style="padding:10px;font-size:0.85rem;font-weight:600;line-height:1.3">{esc(g["title"])}</div>'
-            f"</a>"
-        )
-    return (
-        '<div class="game-section" style="margin-top:36px">'
-        '<div class="game-section-title" id="relatedTitle">Giochi simili</div>'
-        '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px">'
-        + "".join(cards)
-        + "</div></div>"
+    cards = "".join(build_related_card(g) for g in related)
+    return HTML_RELATED_SECTION.replace("{section_title}", "Giochi simili").replace(
+        "{cards}", cards
     )
 
 
 def render_related_games_en(related: list) -> str:
-    """Like render_related_games but links to EN pages (same directory)."""
     if not related:
         return ""
-    cards = []
-    for g in related:
-        img = g.get("image") or ""
-        img_html = (
-            f'<img src="{esc(img)}" alt="{esc(g["title"])}" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:8px 8px 0 0">'
-            if img
-            else ""
-        )
-        cards.append(
-            f'<a href="{g["id"]}.html" class="related-card" style="text-decoration:none;color:inherit">'
-            f"{img_html}"
-            f'<div style="padding:10px;font-size:0.85rem;font-weight:600;line-height:1.3">{esc(g["title"])}</div>'
-            f"</a>"
-        )
-    return (
-        '<div class="game-section" style="margin-top:36px">'
-        '<div class="game-section-title" id="relatedTitle">Similar Games</div>'
-        '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px">'
-        + "".join(cards)
-        + "</div></div>"
+    cards = "".join(build_related_card(g) for g in related)
+    return HTML_RELATED_SECTION.replace("{section_title}", "Similar Games").replace(
+        "{cards}", cards
     )
 
 
