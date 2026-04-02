@@ -219,23 +219,25 @@ def fetch_gog_coop(game_name: str) -> bool | None:
     return False  # Found on GOG, no co-op feature
 
 
-def fetch_steam_categories(app_id: str) -> tuple[list[dict], str, str]:
+def fetch_steam_categories(app_id: str) -> tuple[list[dict], str, str, str]:
     """
-    Returns (categories, name, header_image) from Steam API.
+    Returns (categories, name, header_image, app_type) from Steam API.
     Categories: list of {id: int, description: str}
+    app_type: "game" | "dlc" | "demo" | "music" | ...
     """
     url = f"https://store.steampowered.com/api/appdetails?appids={app_id}&cc=us"
     data = _fetch_json(url)
     if not data:
-        return [], "", ""
+        return [], "", "", ""
     info = data.get(str(app_id), {})
     if not info.get("success"):
-        return [], "", ""
+        return [], "", "", ""
     game = info.get("data", {})
     return (
         game.get("categories", []),
         game.get("name", ""),
         game.get("header_image", ""),
+        game.get("type", "game"),
     )
 
 
@@ -323,7 +325,12 @@ def validate(
 
     # ── Steam (always) ──
     time.sleep(rate_limit_delay)
-    cats, steam_name, _ = fetch_steam_categories(steam_app_id)
+    cats, steam_name, _, app_type = fetch_steam_categories(steam_app_id)
+
+    # Reject DLC, demos, soundtracks, tools — not games
+    if app_type and app_type not in ("game", ""):
+        return {**_empty_verdict("rejected", f"Not a game on Steam (type={app_type})", "high"),
+                "coop_modes": [], "steam_name": steam_name}
 
     if not cats and not steam_name:
         # Steam unavailable — fall back to secondary sources if available
