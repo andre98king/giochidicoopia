@@ -135,7 +135,29 @@ def rating_label_en(rating: int) -> str:
 
 
 def load_games():
-    return catalog_data.load_games()
+    # Preferisci catalog.public.v1.json (già filtrato dalla curation gate)
+    # e mergia con games.js per mantenere tutti i campi originali
+    public_catalog = ROOT / "data" / "catalog.public.v1.json"
+    filtered_ids = set()
+
+    if public_catalog.exists():
+        try:
+            with open(public_catalog, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            if isinstance(data, dict) and "games" in data:
+                filtered_ids = {g["id"] for g in data["games"]}
+                filtered_games = {g["id"]: g for g in data["games"]}
+            elif isinstance(data, list):
+                filtered_ids = {g["id"] for g in data}
+                filtered_games = {g["id"]: g for g in data}
+        except Exception:
+            pass
+
+    # Carica games.js originale e filtra
+    all_games = catalog_data.load_games()
+    if filtered_ids:
+        return [g for g in all_games if g["id"] in filtered_ids]
+    return all_games
 
 
 def page_url(game: dict) -> str:

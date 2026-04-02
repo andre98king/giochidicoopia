@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-04-02T23:33:53.827962",
+  "stats": {
+    "total": 574,
+    "valid": 364,
+    "hidden": 198,
+    "critical_fails": 12
+  },
+  "hidden_games": [
+    {
+      "id": 8,
+      "title": "Grand Theft Auto V Enhanced",
+      "reason": "low_reviews:0",
+      "severity": "warning"
+    },
+    {
+      "id": 31,
+      "title": "Monster Hunter Wilds",
+      "reason": "low_reviews:0",
+      "severity": "warning"
+    },
+    {
+      "id": 37,
+      "title": "Diablo IV",
+      "reason": "low_reviews:0",
+      "severity": "warning"
+    },
+    {
+      "id": 41,
+      "title": "Gray Zone Warfare",
+      "reason": "low_reviews:0",
+      "severity": "warning"
+    },
+    {
+      "id": 54,
+      "title": "New World: Aeternum",
+      "reason": "low_reviews:0",
+      "severity": "warning"
+    }
+  ]
+}

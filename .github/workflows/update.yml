@@ -34,6 +34,49 @@ jobs:
           STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
           RAWG_API_KEY: ${{ secrets.RAWG_API_KEY }}
 
+      # 🔒 AUTO CURATION & QUALITY GATE — filtra giochi a bassa qualità PRIMA del deploy
+      - name: 🔒 Auto Curation & Quality Gate
+        run: |
+          python3 << 'PYTHON_SCRIPT'
+          import sys, json, shutil
+          from pathlib import Path
+          from datetime import datetime
+
+          sys.path.insert(0, '.')
+          from scripts.catalog_data import load_games
+          from scripts.quality_gate import run_curation_gate
+
+          # Leggi da games.js (fonte primaria con 574 giochi)
+          catalog = load_games()
+          valid, hidden, stats = run_curation_gate(catalog, strict=False, apply=False)
+
+          Path('reports').mkdir(parents=True, exist_ok=True)
+          report_file = f"reports/curation_gate_{datetime.utcnow().strftime('%Y%m%d_%H%M')}.json"
+          with open(report_file, 'w', encoding='utf-8') as f:
+              json.dump({'timestamp': datetime.utcnow().isoformat(), 'stats': stats, 'hidden_games': hidden}, f, indent=2, ensure_ascii=False)
+
+          if stats.get('critical_fails', 0) > 0:
+              print(f"🚫 CI BLOCKED: {stats['critical_fails']} critical fails. See {report_file}")
+              sys.exit(1)
+
+          # Salva catalogo filtrato per il builder
+          catalog_path = Path('data/catalog.public.v1.json')
+          if catalog_path.exists():
+              shutil.copy2(catalog_path, catalog_path.with_suffix('.json.bak'))
+          
+          # Scrivi solo i giochi validi nel file che il builder userà
+          catalog_path.parent.mkdir(parents=True, exist_ok=True)
+          output_data = {
+              "schemaVersion": 1,
+              "generatedAt": datetime.utcnow().isoformat() + "Z",
+              "games": valid
+          }
+          with open(catalog_path, 'w', encoding='utf-8') as f:
+              json.dump(output_data, f, indent=2, ensure_ascii=False)
+          
+          print(f"✅ Catalogo filtrato: {stats['valid']} validi, {stats['hidden']} nascosti, {stats['critical_fails']} bloccati")
+          PYTHON_SCRIPT
+
       - name: Fetch affiliate prices (IG + GameBillet)
         continue-on-error: true
         run: python3 scripts/fetch_affiliate_prices.py
@@ -66,29 +109,6 @@ jobs:
 
       - name: Validate catalog and generated pages
         run: python3 scripts/validate_catalog.py
-
-      # 👁️ QUALITY GATE: blocca giochi a bassa qualità dal publishing
-      - name: Run curation gate (dry-run)
-        run: |
-          python3 -c "
-          from scripts.catalog_data import load_games
-          from scripts.quality_gate import run_curation_gate
-          
-          games = load_games()
-          valid, hidden, stats = run_curation_gate(games, strict=False, apply=False)
-          
-          print(f'📊 Quality Gate Results:')
-          print(f'   Total games: {stats[\"total\"]}')
-          print(f'   Valid: {stats[\"valid\"]}')
-          print(f'   Hidden (low quality): {stats[\"hidden\"]}')
-          print(f'   Critical fails: {stats[\"critical_fails\"]}')
-          
-          if stats['critical_fails'] > 0:
-              print('')
-              print('🚫 CRITICAL: Cannot publish - fix critical issues first')
-              exit(1)
-          "
-        continue-on-error: true
 
       - name: Commit and push changes
         run: |
