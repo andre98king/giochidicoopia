@@ -141,8 +141,8 @@ class SteamNewReleasesSource:
         rec = sd.get("recommendations", {}) or {}
         positive = rec.get("total", 0) or 0
         metacritic = (sd.get("metacritic") or {}).get("score", 0) or 0
-        if positive < MIN_REVIEWS_NEW_RELEASE and metacritic < 70:
-            return False, f"poche recensioni ({positive}) e metacritic basso ({metacritic})"
+        if positive < MIN_REVIEWS_NEW_RELEASE:
+            return False, f"poche recensioni ({positive} < {MIN_REVIEWS_NEW_RELEASE})"
         return True, "ok"
 
 

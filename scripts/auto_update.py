@@ -750,6 +750,7 @@ for cand in unique_candidates:
         )
         new_game['image'] = snd.get('image', new_game['image'])
         new_game['steamUrl'] = snd.get('steamUrl', new_game['steamUrl'])
+        new_game['totalReviews'] = snd.get('recommendations', 0)
         existing_games.append(new_game)
         existing_appids.add(appid)
         existing_titles.add(title.lower().strip())
