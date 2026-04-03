@@ -21,3 +21,6 @@ deep-translator>=1.11.0
 # Retry/backoff per gestire 429 e timeout dalle API Steam/IGDB/GOG
 tenacity>=9.0.0
 
+# Compressione Brotli per pre-compressione asset statici
+brotli>=1.1.0
+
