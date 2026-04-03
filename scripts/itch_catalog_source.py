@@ -13,6 +13,7 @@ I feed RSS danno molti più risultati della search API (max 10/query).
 
 from __future__ import annotations
 
+import html as html_mod
 import re
 import time
 import urllib.request
@@ -85,6 +86,7 @@ def _fetch_rss(url: str) -> list[dict[str, Any]]:
 
         # Pulisci descrizione HTML dal RSS
         desc = re.sub(r"<[^>]+>", "", raw_desc)
+        desc = html_mod.unescape(desc)
         desc = re.sub(r"\s+", " ", desc).strip()[:320]
 
         # Estrai immagine dal campo description HTML (itch.io la include come <img>)
@@ -138,7 +140,7 @@ class ItchCatalogSource:
                 for g in data.get("games", []):
                     gurl = g.get("url", "")
                     if gurl and gurl not in all_games:
-                        short_text = (g.get("short_text") or "").strip()
+                        short_text = html_mod.unescape((g.get("short_text") or "").strip())
                         all_games[gurl] = {
                             "title": g.get("title", ""),
                             "itchUrl": gurl,
