@@ -185,8 +185,12 @@ def normalize_game(
     if itch_url:
         storefronts.append({"store": "itch", "url": itch_url, "externalId": itch_slug})
 
-    description_it = _html.unescape((raw_game.get("description") or "").strip())
-    description_en = _html.unescape((raw_game.get("description_en") or "").strip())
+    description_it = _html.escape(
+        _html.unescape((raw_game.get("description") or "").strip())
+    )
+    description_en = _html.escape(
+        _html.unescape((raw_game.get("description_en") or "").strip())
+    )
 
     return {
         # Legacy-compatible keys still consumed by the current site build.
@@ -246,7 +250,9 @@ def load_games() -> list[dict[str, Any]]:
             "categories": ef(block, "categories") or [],
             "genres": ef(block, "genres") or [],
             "coopMode": ef(block, "coopMode") or ["online"],
-            "maxPlayers": None if ef(block, "maxPlayers") in (255, 65535) else (ef(block, "maxPlayers") or 4),
+            "maxPlayers": None
+            if ef(block, "maxPlayers") in (255, 65535)
+            else (ef(block, "maxPlayers") or 4),
             "crossplay": ef(block, "crossplay") or False,
             "players": ef(block, "players") or "1-4",
             "releaseYear": ef(block, "releaseYear") or 0,
