@@ -17,6 +17,7 @@ Non richiede API key.
 from __future__ import annotations
 
 import datetime
+import html as html_mod
 import json
 import re
 import time
@@ -236,6 +237,7 @@ def fetch_steam_new_coop_games(
 
         desc_en = sd.get("short_description", "") or ""
         desc_en = re.sub(r"<[^>]+>", " ", desc_en)
+        desc_en = html_mod.unescape(desc_en)
         desc_en = re.sub(r"\s+", " ", desc_en).strip()[:400]
 
         recommendations = (sd.get("recommendations") or {}).get("total", 0) or 0
