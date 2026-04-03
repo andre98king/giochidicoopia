@@ -221,7 +221,7 @@ def find_related_games(game: dict, all_games: list, count: int = 6) -> list:
     return [item[2] for item in scored[:count]]
 
 
-def build_related_card(game_dict: dict) -> str:
+def build_related_card(game_dict: dict, lang: str = "it") -> str:
     """Build a single related-game card using .replace() (no .format() - CSS braces)."""
     if not game_dict:
         return ""
@@ -233,8 +233,10 @@ def build_related_card(game_dict: dict) -> str:
             "PLACEHOLDER_IMG_SRC", esc(img_src)
         ).replace("PLACEHOLDER_GAME_TITLE", esc(game_dict.get("title", "")))
 
+    gid = str(game_dict.get("id", ""))
+    path = f"/games/en/{gid}.html" if lang == "en" else f"/games/{gid}.html"
     card = (
-        HTML_RELATED_CARD.replace("PLACEHOLDER_GAME_ID", str(game_dict.get("id", "")))
+        HTML_RELATED_CARD.replace("PLACEHOLDER_GAME_PATH", path)
         .replace("PLACEHOLDER_IMG_HTML", img_html)
         .replace("PLACEHOLDER_GAME_TITLE", esc(game_dict.get("title", "")))
     )
@@ -254,7 +256,7 @@ def render_related_games(related: list) -> str:
 def render_related_games_en(related: list) -> str:
     if not related:
         return ""
-    cards = "".join(build_related_card(g) for g in related)
+    cards = "".join(build_related_card(g, lang="en") for g in related)
     return HTML_RELATED_SECTION.replace("{section_title}", "Similar Games").replace(
         "{cards}", cards
     )

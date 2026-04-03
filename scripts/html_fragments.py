@@ -314,7 +314,7 @@ SCRIPT_GAME_TRANSLATIONS = """\
 #   PLACEHOLDER_GAME_TITLE → HTML-escaped game title
 #   PLACEHOLDER_IMG_HTML   → "<img ...>" tag, or "" for image-less games
 HTML_RELATED_CARD = (
-    '<a href="PLACEHOLDER_GAME_ID.html" class="related-card" style="text-decoration:none;color:inherit">'
+    '<a href="PLACEHOLDER_GAME_PATH" class="related-card" style="text-decoration:none;color:inherit">'
     "PLACEHOLDER_IMG_HTML"
     '<div style="padding:10px;font-size:0.85rem;font-weight:600;line-height:1.3">PLACEHOLDER_GAME_TITLE</div>'
     "</a>"
