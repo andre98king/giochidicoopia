@@ -58,7 +58,7 @@ def main() -> int:
         if not (build_static_pages.ROOT / page).is_file():
             errors.append(f"Missing required page: {page}")
 
-    games = catalog_data.load_games()
+    games = build_static_pages.load_games()
     if len(games) < 50:
         errors.append(f"Suspiciously low catalog size: {len(games)} games")
 
