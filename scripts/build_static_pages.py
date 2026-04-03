@@ -32,6 +32,8 @@ from html_fragments import (
 
 import catalog_data
 
+from seo_content_generator import generate_game_description, generate_json_ld
+
 
 def safe_template(template: str, **kwargs: str) -> str:
     """Substitute {name} placeholders only; literal CSS/JS braces are left untouched."""
@@ -568,64 +570,9 @@ def render_static_page(game: dict, all_games: list | None = None) -> str:
             'border:1px solid rgba(92,107,192,0.25)">🔄 Crossplay</span>'
         )
 
-    # ── JSON-LD VideoGame schema ──────────────────────────────────────────
-    coop_modes = game.get("coopMode") or []
-    play_modes = ["SinglePlayer"]
-    if "online" in coop_modes:
-        play_modes += ["CoOp", "MultiPlayer"]
-    if "local" in coop_modes or "sofa" in coop_modes:
-        if "CoOp" not in play_modes:
-            play_modes.append("CoOp")
-
-    # numberOfPlayers: parse "1-4" → QuantitativeValue
-    players_str = game.get("players") or "1-4"
-    players_parts = players_str.replace(" ", "").split("-")
-    try:
-        players_min = int(players_parts[0])
-        players_max = int(players_parts[-1])
-    except (ValueError, IndexError):
-        players_min, players_max = 1, 4
-
-    video_game_json = {
-        "@context": "https://schema.org",
-        "@type": "VideoGame",
-        "name": game["title"],
-        "url": page_url(game),
-        "description": game.get("description_en") or game["description"],
-        "image": image,
-        "genre": game["categories"],
-        "gamePlatform": "PC",
-        "operatingSystem": "Windows",
-        "applicationCategory": "Game",
-        "numberOfPlayers": {
-            "@type": "QuantitativeValue",
-            "minValue": players_min,
-            "maxValue": players_max,
-        },
-        "playMode": play_modes,
-    }
-
-    if game.get("releaseYear") and game["releaseYear"] > 0:
-        video_game_json["datePublished"] = str(game["releaseYear"])
-
-    if game.get("rating") and game["rating"] > 0:
-        agg = {
-            "@type": "AggregateRating",
-            "ratingValue": game["rating"],
-            "bestRating": 100,
-            "worstRating": 0,
-        }
-        if game.get("totalReviews") and game["totalReviews"] > 0:
-            agg["ratingCount"] = game["totalReviews"]
-        video_game_json["aggregateRating"] = agg
-
-    if game.get("steamUrl"):
-        video_game_json["offers"] = {
-            "@type": "Offer",
-            "url": game["steamUrl"],
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock",
-        }
+    # ── JSON-LD VideoGame schema + thin-content expander ─────────────────
+    jsonld_payload = generate_json_ld(game, page_url(game), lang="it")
+    expanded_desc_html = generate_game_description(game, lang="it")
 
     script_data = {
         "description": game["description"],
@@ -657,7 +604,7 @@ def render_static_page(game: dict, all_games: list | None = None) -> str:
         en_url=esc(page_url_en(game)),
         image=esc(image),
         asset_version=ASSET_VERSION,
-        jsonld=json.dumps(video_game_json, ensure_ascii=False),
+        jsonld=jsonld_payload,
     )
     footer_block = safe_template(HTML_FOOTER_IT, current_year=str(CURRENT_YEAR))
     scripts_block = safe_template(HTML_SCRIPTS_IT, asset_version=ASSET_VERSION)
@@ -710,6 +657,8 @@ def render_static_page(game: dict, all_games: list | None = None) -> str:
     </div>
 
     {note_html}
+
+    {expanded_desc_html}
 
     <div class="game-actions">
       {render_store_links(game)}
@@ -795,63 +744,9 @@ def render_static_page_en(game: dict, all_games: list | None = None) -> str:
             'border:1px solid rgba(92,107,192,0.25)">🔄 Crossplay</span>'
         )
 
-    # ── JSON-LD VideoGame schema ──────────────────────────────────────────
-    coop_modes = game.get("coopMode") or []
-    play_modes = ["SinglePlayer"]
-    if "online" in coop_modes:
-        play_modes += ["CoOp", "MultiPlayer"]
-    if "local" in coop_modes or "sofa" in coop_modes:
-        if "CoOp" not in play_modes:
-            play_modes.append("CoOp")
-
-    players_str = game.get("players") or "1-4"
-    players_parts = players_str.replace(" ", "").split("-")
-    try:
-        players_min = int(players_parts[0])
-        players_max = int(players_parts[-1])
-    except (ValueError, IndexError):
-        players_min, players_max = 1, 4
-
-    video_game_json = {
-        "@context": "https://schema.org",
-        "@type": "VideoGame",
-        "name": game["title"],
-        "url": page_url_en(game),
-        "description": seo_desc,
-        "image": image,
-        "genre": game["categories"],
-        "gamePlatform": "PC",
-        "operatingSystem": "Windows",
-        "applicationCategory": "Game",
-        "numberOfPlayers": {
-            "@type": "QuantitativeValue",
-            "minValue": players_min,
-            "maxValue": players_max,
-        },
-        "playMode": play_modes,
-    }
-
-    if game.get("releaseYear") and game["releaseYear"] > 0:
-        video_game_json["datePublished"] = str(game["releaseYear"])
-
-    if game.get("rating") and game["rating"] > 0:
-        agg = {
-            "@type": "AggregateRating",
-            "ratingValue": game["rating"],
-            "bestRating": 100,
-            "worstRating": 0,
-        }
-        if game.get("totalReviews") and game["totalReviews"] > 0:
-            agg["ratingCount"] = game["totalReviews"]
-        video_game_json["aggregateRating"] = agg
-
-    if game.get("steamUrl"):
-        video_game_json["offers"] = {
-            "@type": "Offer",
-            "url": game["steamUrl"],
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock",
-        }
+    # ── JSON-LD VideoGame schema + thin-content expander ─────────────────
+    jsonld_payload = generate_json_ld(game, page_url_en(game), lang="en")
+    expanded_desc_html = generate_game_description(game, lang="en")
 
     script_data = {
         "description": game["description"],
@@ -883,7 +778,7 @@ def render_static_page_en(game: dict, all_games: list | None = None) -> str:
         en_url=esc(page_url_en(game)),
         image=esc(image),
         asset_version=ASSET_VERSION,
-        jsonld=json.dumps(video_game_json, ensure_ascii=False),
+        jsonld=jsonld_payload,
     )
     footer_block = safe_template(HTML_FOOTER_EN, current_year=str(CURRENT_YEAR))
     scripts_block = safe_template(HTML_SCRIPTS_EN, asset_version=ASSET_VERSION)
@@ -936,6 +831,8 @@ def render_static_page_en(game: dict, all_games: list | None = None) -> str:
     </div>
 
     {note_html}
+
+    {expanded_desc_html}
 
     <div class="game-actions">
       {render_store_links(game)}
