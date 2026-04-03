@@ -12,6 +12,7 @@ Genera le pagine hub SEO per keyword strategiche co-op.
 Utilizzo:
     python3 scripts/build_hub_pages.py
 """
+
 from __future__ import annotations
 
 import html as html_mod
@@ -39,12 +40,13 @@ except Exception:
 
 # ─── Definizioni hub pages ──────────────────────────────────────────────────
 
+
 def _select_top(games: list[dict], *, key_fn, top: int = 40) -> list[dict]:
     return sorted(games, key=key_fn)[:top]
 
 
 def _rating_ccu_key(g: dict):
-    return (-g.get("rating", 0), -g.get("ccu", 0))
+    return (-(g.get("rating") or 0), -(g.get("ccu") or 0))
 
 
 HUB_DEFS = [
@@ -76,7 +78,11 @@ HUB_DEFS = [
             (
                 "Nuove uscite — dal 2022 al 2026",
                 _select_top(
-                    [g for g in games if g.get("releaseYear", 0) >= 2022 and g.get("rating", 0) >= 85],
+                    [
+                        g
+                        for g in games
+                        if (g.get("releaseYear") or 0) >= 2022 and (g.get("rating") or 0) >= 85
+                    ],
                     key_fn=_rating_ccu_key,
                     top=24,
                 ),
@@ -84,10 +90,13 @@ HUB_DEFS = [
             (
                 "Classici imprescindibili — i più giocati o i meglio valutati",
                 _select_top(
-                    [g for g in games
-                     if g.get("releaseYear", 0) < 2022
-                     and (g.get("ccu", 0) >= 5000 or g.get("rating", 0) >= 95)],
-                    key_fn=lambda g: (-g.get("rating", 0), -g.get("ccu", 0)),
+                    [
+                        g
+                        for g in games
+                        if (g.get("releaseYear") or 0) < 2022
+                        and ((g.get("ccu") or 0) >= 5000 or (g.get("rating") or 0) >= 95)
+                    ],
+                    key_fn=lambda g: (-(g.get("rating") or 0), -(g.get("ccu") or 0)),
                     top=12,
                 ),
             ),
@@ -148,7 +157,11 @@ HUB_DEFS = [
         ),
         "schema_name": "Giochi Co-op Locale per PC — Divano e Split Screen",
         "filter_fn": lambda games: _select_top(
-            [g for g in games if "local" in g.get("coopMode", []) and g.get("rating", 0) > 0],
+            [
+                g
+                for g in games
+                if "local" in g.get("coopMode", []) and (g.get("rating") or 0) > 0
+            ],
             key_fn=_rating_ccu_key,
             top=48,
         ),
@@ -204,7 +217,11 @@ HUB_DEFS = [
         ),
         "schema_name": "Giochi Co-op per 2 Giocatori PC",
         "filter_fn": lambda games: _select_top(
-            [g for g in games if g.get("maxPlayers", 4) <= 2 and g.get("rating", 0) > 0],
+            [
+                g
+                for g in games
+                if (g.get("maxPlayers") or 4) <= 2 and (g.get("rating") or 0) > 0
+            ],
             key_fn=_rating_ccu_key,
             top=40,
         ),
@@ -261,7 +278,11 @@ HUB_DEFS = [
         ),
         "schema_name": "Giochi Co-op Gratis per PC — Free to Play 2026",
         "filter_fn": lambda games: sorted(
-            [g for g in games if "free" in g.get("categories", []) and g.get("rating", 0) > 0],
+            [
+                g
+                for g in games
+                if "free" in g.get("categories", []) and (g.get("rating") or 0) > 0
+            ],
             key=_rating_ccu_key,
         ),
         "en": {
@@ -318,7 +339,11 @@ HUB_DEFS = [
         ),
         "schema_name": "Migliori Giochi Co-op Indie per PC 2026",
         "filter_fn": lambda games: _select_top(
-            [g for g in games if "indie" in g.get("categories", []) and g.get("rating", 0) > 0],
+            [
+                g
+                for g in games
+                if "indie" in g.get("categories", []) and (g.get("rating") or 0) > 0
+            ],
             key_fn=_rating_ccu_key,
             top=48,
         ),
@@ -375,9 +400,15 @@ HUB_DEFS = [
         ),
         "schema_name": "Migliori Giochi Co-op Horror per PC 2026",
         "filter_fn": lambda games: _select_top(
-            [g for g in games
-             if ("horror" in g.get("categories", []) or "horror" in g.get("genres", []))
-             and g.get("rating", 0) > 0],
+            [
+                g
+                for g in games
+                if (
+                    "horror" in g.get("categories", [])
+                    or "horror" in g.get("genres", [])
+                )
+                and (g.get("rating") or 0) > 0
+            ],
             key_fn=_rating_ccu_key,
             top=40,
         ),
@@ -434,9 +465,15 @@ HUB_DEFS = [
         ),
         "schema_name": "Migliori Giochi Co-op Survival per PC 2026",
         "filter_fn": lambda games: _select_top(
-            [g for g in games
-             if ("survival" in g.get("categories", []) or "survival" in g.get("genres", []))
-             and g.get("rating", 0) > 0],
+            [
+                g
+                for g in games
+                if (
+                    "survival" in g.get("categories", [])
+                    or "survival" in g.get("genres", [])
+                )
+                and (g.get("rating") or 0) > 0
+            ],
             key_fn=_rating_ccu_key,
             top=48,
         ),
@@ -496,9 +533,11 @@ HUB_DEFS = [
         ),
         "schema_name": "Giochi Co-op Offline per PC — Senza Internet 2026",
         "filter_fn": lambda games: _select_top(
-            [g for g in games
-             if "local" in g.get("coopMode", [])
-             and g.get("rating", 0) > 0],
+            [
+                g
+                for g in games
+                if "local" in g.get("coopMode", []) and (g.get("rating") or 0) > 0
+            ],
             key_fn=_rating_ccu_key,
             top=48,
         ),
@@ -535,16 +574,21 @@ HUB_DEFS = [
 
 # ─── HTML helpers ────────────────────────────────────────────────────────────
 
+
 def esc(s: Any) -> str:
     return html_mod.escape(str(s or ""), quote=True)
 
 
 def _mode_label(mode: str) -> str:
-    return {"online": "Online", "local": "Locale", "sofa": "Split Screen"}.get(mode, mode)
+    return {"online": "Online", "local": "Locale", "sofa": "Split Screen"}.get(
+        mode, mode
+    )
 
 
 def _mode_label_en(mode: str) -> str:
-    return {"online": "Online", "local": "Local", "sofa": "Split Screen"}.get(mode, mode)
+    return {"online": "Online", "local": "Local", "sofa": "Split Screen"}.get(
+        mode, mode
+    )
 
 
 def _render_card(game: dict) -> str:
@@ -552,7 +596,7 @@ def _render_card(game: dict) -> str:
     gid = game.get("id", "")
     image = game.get("image", "")
     rating = game.get("rating", 0)
-    _raw_desc = (game.get("description") or game.get("description_en") or "")
+    _raw_desc = game.get("description") or game.get("description_en") or ""
     if len(_raw_desc) > 130:
         desc = _raw_desc[:130].rsplit(" ", 1)[0] + "…"
     else:
@@ -564,7 +608,11 @@ def _render_card(game: dict) -> str:
         f'<span class="hub-tag">{_mode_label(m)}</span>' for m in modes
     )
     rating_html = f'<span class="hub-rating">{rating}%</span>' if rating else ""
-    players_html = f'<span class="hub-tag hub-tag-players">{esc(players)} giocatori</span>' if players else ""
+    players_html = (
+        f'<span class="hub-tag hub-tag-players">{esc(players)} giocatori</span>'
+        if players
+        else ""
+    )
 
     return f"""    <a class="hub-card" href="games/{esc(gid)}.html">
       <img src="{esc(image)}" alt="{esc(title)}" loading="lazy" width="460" height="215">
@@ -584,7 +632,7 @@ def _render_card_en(game: dict) -> str:
     gid = game.get("id", "")
     image = game.get("image", "")
     rating = game.get("rating", 0)
-    _raw_desc = (game.get("description_en") or game.get("description") or "")
+    _raw_desc = game.get("description_en") or game.get("description") or ""
     if len(_raw_desc) > 130:
         desc = _raw_desc[:130].rsplit(" ", 1)[0] + "…"
     else:
@@ -596,7 +644,11 @@ def _render_card_en(game: dict) -> str:
         f'<span class="hub-tag">{_mode_label_en(m)}</span>' for m in modes
     )
     rating_html = f'<span class="hub-rating">{rating}%</span>' if rating else ""
-    players_html = f'<span class="hub-tag hub-tag-players">{esc(players)} players</span>' if players else ""
+    players_html = (
+        f'<span class="hub-tag hub-tag-players">{esc(players)} players</span>'
+        if players
+        else ""
+    )
 
     return f"""    <a class="hub-card" href="../games/en/{esc(gid)}.html">
       <img src="{esc(image)}" alt="{esc(title)}" loading="lazy" width="460" height="215">
@@ -611,13 +663,17 @@ def _render_card_en(game: dict) -> str:
     </a>"""
 
 
-def _render_page(defn: dict, games: list[dict], sections: list[tuple[str, list[dict]]] | None = None) -> str:
+def _render_page(
+    defn: dict, games: list[dict], sections: list[tuple[str, list[dict]]] | None = None
+) -> str:
     slug = defn["slug"]
     canonical = f"{SITE_URL}/{slug}.html"
     en_slug = defn.get("en", {}).get("slug", "")
     en_url = f"{SITE_URL}/en/{en_slug}.html" if en_slug else ""
     intro_paragraphs = "".join(
-        f"      <p>{esc(p.strip())}</p>\n" for p in defn["intro"].split("\n\n") if p.strip()
+        f"      <p>{esc(p.strip())}</p>\n"
+        for p in defn["intro"].split("\n\n")
+        if p.strip()
     )
 
     if sections:
@@ -679,7 +735,7 @@ def _render_page(defn: dict, games: list[dict], sections: list[tuple[str, list[d
   <meta name="color-scheme" content="dark">
   <link rel="canonical" href="{canonical}">
   <link rel="alternate" hreflang="it" href="{canonical}">
-{f'  <link rel="alternate" hreflang="en" href="{en_url}">' if en_url else ''}
+{f'  <link rel="alternate" hreflang="en" href="{en_url}">' if en_url else ""}
   <link rel="alternate" hreflang="x-default" href="{canonical}">
 
   <meta property="og:type" content="website">
@@ -791,12 +847,19 @@ def _render_page(defn: dict, games: list[dict], sections: list[tuple[str, list[d
 </html>"""
 
 
-def _render_page_en(en_defn: dict, it_slug: str, games: list[dict], sections: list[tuple[str, list[dict]]] | None = None) -> str:
+def _render_page_en(
+    en_defn: dict,
+    it_slug: str,
+    games: list[dict],
+    sections: list[tuple[str, list[dict]]] | None = None,
+) -> str:
     en_slug = en_defn["slug"]
     canonical = f"{SITE_URL}/en/{en_slug}.html"
     it_url = f"{SITE_URL}/{it_slug}.html"
     intro_paragraphs = "".join(
-        f"      <p>{esc(p.strip())}</p>\n" for p in en_defn["intro"].split("\n\n") if p.strip()
+        f"      <p>{esc(p.strip())}</p>\n"
+        for p in en_defn["intro"].split("\n\n")
+        if p.strip()
     )
 
     if sections:
@@ -972,6 +1035,7 @@ def _render_page_en(en_defn: dict, it_slug: str, games: list[dict], sections: li
 
 
 # ─── Entry point ─────────────────────────────────────────────────────────────
+
 
 def run() -> list[str]:
     """Genera tutte le hub pages IT e EN. Restituisce la lista degli slug IT generati."""
