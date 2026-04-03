@@ -15,6 +15,7 @@ import io
 import json
 import re
 import sys
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
@@ -1084,18 +1085,54 @@ def update_game_counters(count: int) -> None:
             print(f"Updated game counter to {floored} in {path.name}")
 
 
-def compress_assets(build_dir: str = "dist/") -> None:
-    """Genera .br e .gz per HTML/CSS/JS/JSON accanto agli originali (idempotente)."""
+def compress_file(src: Path, has_brotli: bool) -> tuple[str, bool, bool]:
+    """Compress a single file to .br and .gz. Returns (path, br_written, gz_written)."""
     try:
         import brotli as _brotli
+    except ImportError:
+        try:
+            import brotlicffi as _brotli
+        except ImportError:
+            _brotli = None
+
+    data = src.read_bytes()
+    br_written = gz_written = False
+
+    if has_brotli and _brotli:
+        br_path = src.with_suffix(src.suffix + ".br")
+        new_br = _brotli.compress(data)
+        if not br_path.exists() or br_path.read_bytes() != new_br:
+            br_path.write_bytes(new_br)
+            br_written = True
+
+    buf = io.BytesIO()
+    with gzip.GzipFile(fileobj=buf, mode="wb", compresslevel=9) as gz_f:
+        gz_f.write(data)
+    new_gz = buf.getvalue()
+    gz_path = src.with_suffix(src.suffix + ".gz")
+    if not gz_path.exists() or gz_path.read_bytes() != new_gz:
+        gz_path.write_bytes(new_gz)
+        gz_written = True
+
+    return (str(src), br_written, gz_written)
+
+
+def compress_assets(build_dir: str = "dist/") -> None:
+    """Genera .br e .gz per HTML/CSS/JS/JSON accanto agli originali (idempotente, parallelo)."""
+    try:
+        import brotli as _brotli
+
         has_brotli = True
     except ImportError:
         try:
             import brotlicffi as _brotli
+
             has_brotli = True
         except ImportError:
             has_brotli = False
-            print("WARNING: brotli/brotlicffi non disponibile — .br saltato (pip install brotli)")
+            print(
+                "WARNING: brotli/brotlicffi non disponibile — .br saltato (pip install brotli)"
+            )
 
     build_path = Path(build_dir)
     if not build_path.exists():
@@ -1103,32 +1140,28 @@ def compress_assets(build_dir: str = "dist/") -> None:
         return
 
     files = [
-        f for ext in ("*.html", "*.css", "*.js", "*.json")
+        f
+        for ext in ("*.html", "*.css", "*.js", "*.json")
         for f in build_path.rglob(ext)
         if not f.suffix.endswith((".br", ".gz"))
     ]
 
     br_count = gz_count = unchanged = 0
-    for src in files:
-        data = src.read_bytes()
-        if has_brotli:
-            br_path = src.with_suffix(src.suffix + ".br")
-            new_br = _brotli.compress(data)
-            if not br_path.exists() or br_path.read_bytes() != new_br:
-                br_path.write_bytes(new_br)
-                br_count += 1
-        buf = io.BytesIO()
-        with gzip.GzipFile(fileobj=buf, mode="wb", compresslevel=9) as gz_f:
-            gz_f.write(data)
-        new_gz = buf.getvalue()
-        gz_path = src.with_suffix(src.suffix + ".gz")
-        if not gz_path.exists() or gz_path.read_bytes() != new_gz:
-            gz_path.write_bytes(new_gz)
+
+    with ThreadPoolExecutor(max_workers=8) as executor:
+        results = list(executor.map(lambda f: compress_file(f, has_brotli), files))
+
+    for path, br_written, gz_written in results:
+        if br_written:
+            br_count += 1
+        if gz_written:
             gz_count += 1
-        else:
+        if not br_written and not gz_written:
             unchanged += 1
 
-    print(f"compress_assets: {gz_count} .gz, {br_count} .br scritti ({unchanged} invariati) — dir={build_dir}")
+    print(
+        f"compress_assets: {gz_count} .gz, {br_count} .br scritti ({unchanged} invariati) — dir={build_dir}"
+    )
 
 
 def main():
