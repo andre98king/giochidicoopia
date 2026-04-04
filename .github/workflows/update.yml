@@ -241,7 +241,8 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/games.js games en sitemap*.xml data/catalog.games.v1.json data/catalog.public.v1.json index.html assets/i18n.js about.html contact.html free.html game.html giochi-coop-*.html migliori-giochi-coop-*.html privacy.html
+          git add -u
+          git add games en data/catalog.games.v1.json data/catalog.public.v1.json assets/games.js assets/i18n.js sitemap*.xml
           if git diff --staged --quiet; then
             echo "Nessuna modifica da committare."
           else
