@@ -80,6 +80,7 @@ def _build_steam_game_dict(
     desc_en: str,
     ccu: int,
     rating: int,
+    total_reviews: int = 0,
     igdb_id: int = 0,
 ) -> dict:
     """Costruisce il dict canonico per un nuovo gioco con Steam URL."""
@@ -106,6 +107,7 @@ def _build_steam_game_dict(
         'ccu':            ccu,
         'trending':       ccu >= MIN_CCU_TRENDING,
         'rating':         rating,
+        'totalReviews':   total_reviews,
     }
 
 
@@ -211,6 +213,7 @@ def _enrich_steam_candidate(appid: str, title: str, ccu: int, igdb_id: int, igdb
         desc_en=desc_en,
         ccu=ccu,
         rating=rating,
+        total_reviews=pos + neg,
         igdb_id=igdb_id,
     )
 
@@ -794,19 +797,9 @@ for cand in unique_candidates:
 print(f"\n  Nuovi giochi aggiunti: {added_steam} (Steam) + {added_gog} (GOG)")
 
 
-# ── itch.io (opzionale, non passa per quality gate — sorgente di nicchia) ──
-if ITCH_IO_KEY:
-    print(f"\n🎲 itch.io...")
-    itch_source = ItchCatalogSource(ITCH_IO_KEY, steam_source.fetch_json, MAX_ITCH_GAMES)
-    existing_itch_urls = {g.get('itchUrl', '') for g in existing_games if g.get('itchUrl')}
-    itch_new = itch_source.fetch_games(existing_itch_urls, next_id, existing_titles)
-    for ng in itch_new:
-        existing_games.append(ng)
-        existing_titles.add(ng.get('title', '').lower().strip())
-    next_id += len(itch_new)
-    print(f"  Aggiunti da itch.io: {len(itch_new)}")
-else:
-    print("\n🎲 itch.io: saltato (nessun ITCH_IO_KEY)")
+# ── itch.io disabilitato: troppi giochi senza segnali di qualità (rating=0, ccu=0)
+# Per riabilitare: implementare quality gate per itch prima di aggiungere al catalog
+print("\n🎲 itch.io: disabilitato (qualità insufficiente senza segnali verificabili)")
 
 
 # ═══════════════════════════════════════════════════════════════════════════

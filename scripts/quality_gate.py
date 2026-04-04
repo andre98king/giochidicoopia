@@ -544,7 +544,7 @@ if __name__ == "__main__":
 DEFAULT_CURATION_RULES = {
     "min_reviews": 20,
     "min_rating_percent": 70,
-    "blocked_keywords": ["shovelware", "ripoff", "demo", "test", "prototype", "beta"],
+    "blocked_keywords": ["shovelware", "ripoff", "demo", "test", "prototype", "beta", "prologue", "early access", " alpha", "(alpha)"],
     "required_fields": ["title", "categories", "coopMode"],
 }
 
@@ -618,14 +618,8 @@ def run_curation_gate(
             )
             continue
 
-        # Solo blocca se ci sono recensioni reali (< min_reviews)
+        # Blocca giochi Steam con poche recensioni (soglia minima assoluta)
         if reviews > 0 and reviews < rules["min_reviews"]:
-            # Se non ci sono reviews ma c'è un rating valido, consideralo valido
-            if rating >= rules["min_rating_percent"]:
-                valid.append(g)
-                stats["valid"] += 1
-                continue
-            # Se né reviews né rating, nascondi
             reason = f"low_reviews:{reviews}"
             stats["hidden"] += 1
             hidden.append(
@@ -638,13 +632,10 @@ def run_curation_gate(
             )
             continue
 
-        # Solo blocca se ci sono recensioni reali E rating basso
-        if (
-            reviews > 0
-            and rating < rules["min_rating_percent"]
-            and reviews < rules["min_reviews"]
-        ):
-            reason = f"low_rating:{rating}"
+        # Blocca giochi itch.io-only senza segnali di qualità (rating=0, ccu=0)
+        is_itch_only = bool(g.get("itchUrl")) and not g.get("steamUrl")
+        if is_itch_only and rating == 0 and (g.get("ccu") or 0) == 0:
+            reason = "itch_no_signals"
             stats["hidden"] += 1
             hidden.append(
                 {
