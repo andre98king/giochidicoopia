@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Punch Pong (local · 2-4P) | GiochiDiCoop</title>
+  <meta name="description" content="Ping pong meets street brawler. Scopri modalità local e alternative simili.">
+  <meta name="theme-color" content="#7c6aff">
+  <meta name="color-scheme" content="dark">
+  <link rel="canonical" href="https://coophubs.net/games/653.html">
+  <link rel="alternate" hreflang="it" href="https://coophubs.net/games/653.html">
+  <link rel="alternate" hreflang="en" href="https://coophubs.net/games/en/653.html">
+  <link rel="alternate" hreflang="x-default" href="https://coophubs.net/games/653.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Coophubs">
+  <meta property="og:title" content="Punch Pong (local · 2-4P) | GiochiDiCoop">
+  <meta property="og:description" content="Ping pong meets street brawler. Scopri modalità local e alternative simili.">
+  <meta property="og:url" content="https://coophubs.net/games/653.html">
+  <meta property="og:image" content="https://img.itch.zone/aW1nLzM1Nzg3NDMuZ2lm/original/dF7eiv.gif">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Punch Pong (local · 2-4P) | GiochiDiCoop">
+  <meta name="twitter:description" content="Ping pong meets street brawler. Scopri modalità local e alternative simili.">
+  <meta name="twitter:image" content="https://img.itch.zone/aW1nLzM1Nzg3NDMuZ2lm/original/dF7eiv.gif">
+
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/icon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/icon-180.png">
+  <link rel="stylesheet" href="../assets/style.css?v=20260327">
+  <script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "VideoGame", "name": "Punch Pong", "url": "https://coophubs.net/games/653.html", "description": "Ping pong meets street brawler", "image": "https://img.itch.zone/aW1nLzM1Nzg3NDMuZ2lm/original/dF7eiv.gif", "genre": ["indie", "splitscreen"], "gamePlatform": "PC", "operatingSystem": "Windows", "applicationCategory": "Game", "numberOfPlayers": {"@type": "QuantitativeValue", "minValue": 2, "maxValue": 4}, "playMode": ["SinglePlayer", "CoOp"]}
+  </script>
+  <style>
+    .game-page { max-width: 800px; margin: 0 auto; padding: 30px 20px 60px; position: relative; z-index: 1; }
+    .game-back { display: inline-flex; align-items: center; gap: 6px; color: var(--accent); text-decoration: none; font-weight: 600; margin-bottom: 24px; transition: color 0.25s; }
+    .game-back:hover { color: #a78bfa; }
+    .page-head .game-back { margin-bottom: 0; }
+    .game-hero-img { width: 100%; max-height: 360px; object-fit: cover; border-radius: var(--radius); margin-bottom: 24px; display: block; }
+    .game-title { font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 800; letter-spacing: -1px; margin-bottom: 12px; }
+    .game-meta { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 20px; }
+    .game-section { margin-bottom: 24px; }
+    .game-section-title { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1.5px; color: var(--text2); margin-bottom: 8px; font-weight: 600; }
+    .game-desc { color: var(--text2); font-size: 1rem; line-height: 1.7; }
+    .game-note { background: rgba(124,106,255,0.08); border: 1px solid rgba(124,106,255,0.2); border-radius: var(--radius); padding: 16px; }
+    .game-note p { color: #b0b8e8; font-style: italic; line-height: 1.65; }
+    .game-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 24px; }
+    .game-info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; }
+    .game-info-card { background: var(--bg3); border: 1px solid var(--border); border-radius: 12px; padding: 14px; text-align: center; }
+    .game-info-value { font-family: 'JetBrains Mono', monospace; font-size: 1.1rem; font-weight: 700; color: var(--accent); }
+    .game-info-label { font-size: 0.72rem; color: var(--text2); text-transform: uppercase; letter-spacing: 1px; margin-top: 4px; }
+    .related-card { background: var(--bg3); border: 1px solid var(--border); border-radius: 8px; transition: border-color 0.25s, transform 0.2s; overflow: hidden; }
+    .related-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+    .ext-links { display: flex; gap: 10px; flex-wrap: wrap; }
+    .ext-link { display: inline-flex; align-items: center; gap: 4px; padding: 8px 14px; background: var(--bg3); border: 1px solid var(--border); border-radius: 8px; color: var(--text2); text-decoration: none; font-size: 0.82rem; font-weight: 500; transition: border-color 0.25s, color 0.25s; }
+    .ext-link:hover { border-color: var(--accent); color: var(--accent); }
+  </style>
+</head>
+<body>
+  <canvas id="bgCanvas" class="bg-canvas" aria-hidden="true"></canvas>
+
+  <div class="game-page">
+    <div class="page-head">
+      <a href="../" class="game-back" id="backLink">← Torna al catalogo</a>
+      <div class="page-head-actions">
+        <button class="btn-lang" id="langBtn" onclick="setLang(currentLang === 'it' ? 'en' : 'it')" aria-label="Cambia lingua" data-i18n-aria-label="btn_lang_aria">🇬🇧 EN</button>
+      </div>
+    </div>
+
+    <img class="game-hero-img" src="https://img.itch.zone/aW1nLzM1Nzg3NDMuZ2lm/original/dF7eiv.gif" alt="Punch Pong" onerror="this.style.display='none'">
+
+    <h1 class="game-title">
+      Punch Pong
+      
+      
+    </h1>
+
+    <div class="game-meta">
+      <span class="tag tag-indie" data-cat="indie">indie</span><span class="tag tag-splitscreen" data-cat="splitscreen">splitscreen</span> <span class="tag" data-mode="local" style="background:rgba(0,137,123,0.15);color:#80cbc4;border:1px solid rgba(0,137,123,0.25)">🛋️ Local</span> 
+    </div>
+
+    <div class="game-info-grid">
+      <div class="game-info-card">
+        <div class="game-info-value">2-4</div>
+        <div class="game-info-label" id="playersLabel">Giocatori</div>
+      </div>
+      
+      
+      <div class="game-info-card">
+        <div class="game-info-value">4</div>
+        <div class="game-info-label" id="maxPlayersLabel">Max giocatori</div>
+      </div>
+    </div>
+
+    <div class="game-section" style="margin-top:24px">
+      <div class="game-section-title" id="descTitle">Descrizione</div>
+      <div class="game-desc" id="gameDesc">Ping pong meets street brawler</div>
+    </div>
+
+    
+
+    <div class="game-section game-expanded" style="margin-top:20px"><p class="game-expanded-desc">Ping pong meets street brawler</p><p>Punch Pong supporta la modalità cooperativa locale per 2-4 giocatori. Raduna gli amici per una sessione cooperativa in locale o in split-screen. Le meccaniche cooperative sono centrali nell'esperienza, rendendo ogni sessione unica.</p><p>Catalogato come indie, splitscreen, Punch Pong offre un mix di generi adatto agli appassionati di giochi cooperativi. continua ad attrarre giocatori co-op in cerca di nuove esperienze.</p><p>Un'ottima scelta per chi cerca un gioco da condividere con amici, sia online che in locale.</p></div>
+
+    <div class="game-actions">
+      <div class="store-section"><div class="game-section-title" id="storeTitle">Migliori Prezzi Partner</div><div class="affiliate-btns"><a class="btn-affiliate btn-itch" href="https://nekomatata.itch.io/punch-pong?utm_source=coophubs&amp;utm_medium=referral&amp;utm_campaign=gamepage" target="_blank" rel="noopener noreferrer"><span class="affiliate-store">itch.io</span></a></div><div class="trust-note">🛡️ <strong>Partner Ufficiale:</strong> Coophubs collabora solo con rivenditori autorizzati. Supporta il sito acquistando in sicurezza.</div></div>
+    </div>
+
+    
+
+    <div class="game-section" style="margin-top:36px"><div class="game-section-title" id="relatedTitle">Giochi simili</div><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px"><a href="/games/25.html" class="related-card" style="text-decoration:none;color:inherit"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/250900/header.jpg" alt="The Binding of Isaac: Rebirth" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:8px 8px 0 0"><div style="padding:10px;font-size:0.85rem;font-weight:600;line-height:1.3">The Binding of Isaac: Rebirth</div></a><a href="/games/125.html" class="related-card" style="text-decoration:none;color:inherit"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/274190/header.jpg" alt="Broforce" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:8px 8px 0 0"><div style="padding:10px;font-size:0.85rem;font-weight:600;line-height:1.3">Broforce</div></a><a href="/games/249.html" class="related-card" style="text-decoration:none;color:inherit"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1686940/header.jpg" alt="Bopl Battle" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:8px 8px 0 0"><div style="padding:10px;font-size:0.85rem;font-weight:600;line-height:1.3">Bopl Battle</div></a><a href="/games/363.html" class="related-card" style="text-decoration:none;color:inherit"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1211020/header.jpg" alt="Wobbly Life" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:8px 8px 0 0"><div style="padding:10px;font-size:0.85rem;font-weight:600;line-height:1.3">Wobbly Life</div></a><a href="/games/96.html" class="related-card" style="text-decoration:none;color:inherit"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/268910/header.jpg" alt="Cuphead" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:8px 8px 0 0"><div style="padding:10px;font-size:0.85rem;font-weight:600;line-height:1.3">Cuphead</div></a><a href="/games/118.html" class="related-card" style="text-decoration:none;color:inherit"><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/386940/header.jpg" alt="Ultimate Chicken Horse" loading="lazy" style="width:100%;height:120px;object-fit:cover;border-radius:8px 8px 0 0"><div style="padding:10px;font-size:0.85rem;font-weight:600;line-height:1.3">Ultimate Chicken Horse</div></a></div></div>
+
+    <section class="related-games" aria-label="Giochi correlati"><h2>Giochi simili</h2><ul><li><a href="/games/17.html" title="Project Zomboid">Project Zomboid</a></li><li><a href="/games/25.html" title="The Binding of Isaac: Rebirth">The Binding of Isaac: Rebirth</a></li><li><a href="/games/95.html" title="Overcooked! 2">Overcooked! 2</a></li></ul></section>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">Co-op Games Hub</div>
+      <div class="footer-sub" id="footerSub" data-i18n="footer_sub">Coophubs è un progetto indipendente dedicato alla scoperta di giochi cooperativi per PC.</div>
+      <div class="footer-links">
+        <a href="../about.html" id="footerAbout" data-i18n="footer_about">Sul progetto</a>
+        <a href="../contact.html" id="footerContact" data-i18n="footer_contact">Contatti</a>
+        <a href="../free.html" id="footerFree" data-i18n="footer_free">Giochi gratis</a>
+        <a href="../privacy.html" id="footerPrivacy" data-i18n="footer_privacy">Privacy Policy</a>
+      </div>
+      <div class="footer-support">
+        <a href="https://ko-fi.com/coophubs" class="btn-kofi" target="_blank" rel="noopener noreferrer" data-i18n="footer_kofi">☕ Supporta il progetto</a>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="footer-copy" data-i18n="footer_copy">&copy; 2026 — Dati da Steam &amp; SteamSpy</div>
+    </div>
+  </footer>
+
+  <script src="../assets/i18n.js?v=20260327" defer></script>
+  <script src="../assets/particles.js?v=20260327" defer></script>
+  <script>
+    const GAME_DATA = {"description": "Ping pong meets street brawler", "description_en": "Ping pong meets street brawler"};
+
+    function applyGameTranslations() {
+      const isEn = currentLang === 'en';
+      const desc = isEn && GAME_DATA.description_en ? GAME_DATA.description_en : GAME_DATA.description;
+      const metaDesc = desc.slice(0, 320);
+
+      document.getElementById('backLink').textContent = t('page_back_catalog');
+      document.getElementById('descTitle').textContent = t('modal_desc');
+      document.getElementById('playersLabel').textContent = t('modal_players');
+      document.getElementById('maxPlayersLabel').textContent = t('max_players');
+      document.getElementById('gameDesc').textContent = desc;
+
+      document.querySelectorAll('[data-cat]').forEach((el) => {
+        el.textContent = t('cat_' + el.dataset.cat);
+      });
+
+      document.querySelectorAll('[data-mode]').forEach((el) => {
+        el.textContent = t('mode_' + el.dataset.mode);
+      });
+
+      const onlineLabel = document.getElementById('onlineLabel');
+      if (onlineLabel) onlineLabel.textContent = t('modal_online');
+
+      const noteTitle = document.getElementById('noteTitle');
+      if (noteTitle) noteTitle.textContent = t('modal_experience');
+
+      const playedBadge = document.getElementById('playedBadge');
+      if (playedBadge) playedBadge.textContent = t('played_badge');
+
+      const trendingBadge = document.getElementById('trendingBadge');
+      if (trendingBadge) trendingBadge.textContent = t('trending_badge');
+
+      const ratingLabel = document.getElementById('ratingLabel');
+      if (ratingLabel) {
+        ratingLabel.textContent = isEn ? ratingLabel.dataset.labelEn : ratingLabel.dataset.labelIt;
+      }
+
+      const relatedTitle = document.getElementById('relatedTitle');
+      if (relatedTitle) relatedTitle.textContent = isEn ? 'Similar Games' : 'Giochi simili';
+
+      const extLinksTitle = document.getElementById('extLinksTitle');
+      if (extLinksTitle) extLinksTitle.textContent = isEn ? 'External Resources' : 'Risorse esterne';
+
+      const storeTitle = document.getElementById('storeTitle');
+      if (storeTitle) storeTitle.textContent = isEn ? 'Buy' : 'Acquista';
+
+      document.querySelector('meta[name="description"]').content = metaDesc;
+      document.querySelector('meta[property="og:description"]').content = metaDesc;
+      document.querySelector('meta[name="twitter:description"]').content = metaDesc;
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.documentElement.lang = currentLang;
+      if (typeof applyStaticTranslations === 'function') applyStaticTranslations();
+      applyGameTranslations();
+    });
+
+    window.addEventListener('langchange', applyGameTranslations);
+  </script>
+</body>
+</html>

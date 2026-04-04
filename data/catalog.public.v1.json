@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-02T14:19:35+00:00",
+  "generatedAt": "2026-04-04T19:03:25+00:00",
   "featuredIndieId": 180,
   "games": [
     {
@@ -515,7 +515,8 @@
         "survival"
       ],
       "coopMode": [
-        "online"
+        "online",
+        "local"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -605,9 +606,10 @@
         "rpg"
       ],
       "coopMode": [
-        "online"
+        "online",
+        "local"
       ],
-      "maxPlayers": 32,
+      "maxPlayers": null,
       "crossplay": false,
       "players": "1-255",
       "releaseYear": 2011,
@@ -702,7 +704,9 @@
         "rpg"
       ],
       "coopMode": [
-        "online"
+        "online",
+        "local",
+        "sofa"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -793,7 +797,7 @@
         "action"
       ],
       "coopMode": [
-        "online"
+        "local"
       ],
       "maxPlayers": 2,
       "crossplay": true,
@@ -885,7 +889,8 @@
         "action"
       ],
       "coopMode": [
-        "online"
+        "online",
+        "local"
       ],
       "maxPlayers": 100,
       "crossplay": true,
@@ -976,9 +981,10 @@
         "survival"
       ],
       "coopMode": [
-        "online"
+        "online",
+        "local"
       ],
-      "maxPlayers": 32,
+      "maxPlayers": null,
       "crossplay": true,
       "players": "1-65535",
       "releaseYear": 2020,
@@ -1022,8 +1028,7 @@
         "action"
       ],
       "coopMode": [
-        "local",
-        "sofa"
+        "local"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -1158,8 +1163,7 @@
       ],
       "coopMode": [
         "online",
-        "local",
-        "sofa"
+        "local"
       ],
       "maxPlayers": 7,
       "crossplay": true,
@@ -1203,7 +1207,8 @@
         "action"
       ],
       "coopMode": [
-        "online"
+        "online",
+        "local"
       ],
       "maxPlayers": 8,
       "crossplay": true,
@@ -1514,7 +1519,8 @@
         "action"
       ],
       "coopMode": [
-        "online"
+        "online",
+        "local"
       ],
       "maxPlayers": 4,
       "crossplay": true,
@@ -1605,7 +1611,9 @@
         "rpg"
       ],
       "coopMode": [
-        "online"
+        "online",
+        "local",
+        "sofa"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -1871,7 +1879,8 @@
         "strategy"
       ],
       "coopMode": [
-        "online"
+        "online",
+        "local"
       ],
       "maxPlayers": 12,
       "crossplay": false,
@@ -2362,6 +2371,7 @@
         "action"
       ],
       "coopMode": [
+        "online",
         "local",
         "sofa"
       ],
@@ -2502,7 +2512,8 @@
         "action"
       ],
       "coopMode": [
-        "online"
+        "online",
+        "local"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -2731,7 +2742,8 @@
         "strategy"
       ],
       "coopMode": [
-        "online"
+        "online",
+        "local"
       ],
       "maxPlayers": 8,
       "crossplay": false,
@@ -2823,7 +2835,8 @@
         "strategy"
       ],
       "coopMode": [
-        "online"
+        "online",
+        "local"
       ],
       "maxPlayers": 16,
       "crossplay": true,
@@ -2868,7 +2881,8 @@
         "action"
       ],
       "coopMode": [
-        "online"
+        "online",
+        "local"
       ],
       "maxPlayers": 15,
       "crossplay": true,
@@ -5304,8 +5318,7 @@
       ],
       "coopMode": [
         "online",
-        "local",
-        "sofa"
+        "local"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -5349,8 +5362,7 @@
       ],
       "coopMode": [
         "online",
-        "local",
-        "sofa"
+        "local"
       ],
       "maxPlayers": 2,
       "crossplay": false,
@@ -5489,8 +5501,7 @@
         "action"
       ],
       "coopMode": [
-        "local",
-        "sofa"
+        "local"
       ],
       "maxPlayers": 2,
       "crossplay": false,
@@ -5667,7 +5678,7 @@
         "action"
       ],
       "coopMode": [
-        "online"
+        "local"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -5757,8 +5768,7 @@
       ],
       "coopMode": [
         "online",
-        "local",
-        "sofa"
+        "local"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -5801,8 +5811,7 @@
         "puzzle"
       ],
       "coopMode": [
-        "local",
-        "sofa"
+        "local"
       ],
       "maxPlayers": 6,
       "crossplay": false,
@@ -5984,8 +5993,8 @@
         "rpg"
       ],
       "coopMode": [
-        "local",
-        "sofa"
+        "online",
+        "local"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -6205,7 +6214,9 @@
         "rpg"
       ],
       "coopMode": [
-        "online"
+        "online",
+        "local",
+        "sofa"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -6249,8 +6260,7 @@
       ],
       "coopMode": [
         "online",
-        "local",
-        "sofa"
+        "local"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -6384,8 +6394,7 @@
       ],
       "coopMode": [
         "online",
-        "local",
-        "sofa"
+        "local"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -6517,8 +6526,7 @@
       ],
       "coopMode": [
         "online",
-        "local",
-        "sofa"
+        "local"
       ],
       "maxPlayers": 4,
       "crossplay": true,
@@ -6562,7 +6570,8 @@
         "strategy"
       ],
       "coopMode": [
-        "online"
+        "online",
+        "local"
       ],
       "maxPlayers": 2,
       "crossplay": true,
@@ -6737,7 +6746,9 @@
         "strategy"
       ],
       "coopMode": [
-        "online"
+        "online",
+        "local",
+        "sofa"
       ],
       "maxPlayers": 4,
       "crossplay": true,
@@ -7675,7 +7686,8 @@
         "factory"
       ],
       "coopMode": [
-        "online"
+        "online",
+        "local"
       ],
       "maxPlayers": 6,
       "crossplay": true,
@@ -7767,8 +7779,7 @@
       ],
       "coopMode": [
         "online",
-        "local",
-        "sofa"
+        "local"
       ],
       "maxPlayers": 10,
       "crossplay": true,
@@ -8711,7 +8722,8 @@
         "action"
       ],
       "coopMode": [
-        "online"
+        "online",
+        "local"
       ],
       "maxPlayers": 2,
       "crossplay": false,
@@ -10103,7 +10115,7 @@
       "coopMode": [
         "online"
       ],
-      "maxPlayers": 10,
+      "maxPlayers": 70,
       "crossplay": false,
       "players": "1-70",
       "releaseYear": 2024,
@@ -14141,7 +14153,7 @@
         "online",
         "local"
       ],
-      "maxPlayers": 64,
+      "maxPlayers": null,
       "crossplay": false,
       "players": "1-255",
       "releaseYear": 2018,
@@ -23883,7 +23895,8 @@
         "puzzle"
       ],
       "coopMode": [
-        "online"
+        "online",
+        "local"
       ],
       "maxPlayers": 2,
       "crossplay": false,
@@ -24606,9 +24619,9 @@
       "coopMode": [
         "online"
       ],
-      "maxPlayers": 4,
+      "maxPlayers": 2,
       "crossplay": true,
-      "players": "1-4",
+      "players": "1-2",
       "releaseYear": 2024,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1505540/header.jpg?t=1678893196",
       "description": "Due creature si sono perse di vista, e tu sei l'unico che può riunirle. Gioca con un amico per guidarle e riunirle in questa avventura in co-op a base di rompicapi. Giocherete su due dispositivi, e potrete comunicare solo con la voce.",
@@ -24815,8 +24828,7 @@
       ],
       "genres": [],
       "coopMode": [
-        "local",
-        "sofa"
+        "local"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -24833,6 +24845,1318 @@
       "ccu": 683,
       "trending": false,
       "rating": 89,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 630,
+      "slug": "team-fortress-2",
+      "title": "Team Fortress 2",
+      "categories": [
+        "action",
+        "strategy"
+      ],
+      "genres": [
+        "action",
+        "strategy"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2007,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/440/header.jpg",
+      "description": "Nove diverse classi forniscono un'ampia scelta di capacità tattiche e di personalità. Costantemente aggiornato con nuove modalità di gioco, mappe, equipaggiamento e, soprattutto, cappelli!",
+      "description_en": "Nine distinct classes provide a broad range of tactical abilities and personalities. Constantly updated with new game modes, maps, equipment and, most importantly, hats!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/440/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 43819,
+      "trending": true,
+      "rating": 90,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 631,
+      "slug": "star-wars-battlefront-ii",
+      "title": "STAR WARS Battlefront II",
+      "categories": [
+        "action",
+        "strategy"
+      ],
+      "genres": [
+        "action",
+        "strategy"
+      ],
+      "coopMode": [
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2020,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1237950/header.jpg",
+      "description": "Diventa l'eroe nella battaglia definitiva di STAR WARS™ con la STAR WARS™ Battlefront™ II: Celebration Edition!",
+      "description_en": "Be the hero in the ultimate STAR WARS™ battle fantasy with STAR WARS™ Battlefront™ II: Celebration Edition!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1237950/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 9213,
+      "trending": false,
+      "rating": 88,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 632,
+      "slug": "the-isle",
+      "title": "The Isle",
+      "categories": [
+        "indie",
+        "survival",
+        "action"
+      ],
+      "genres": [
+        "survival",
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2015,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/376210/header.jpg",
+      "description": "Experience fierce open world survival gameplay as you attempt to stay alive on an unforgiving island inhabited by dinosaurs! Hunt. Grow. Survive.",
+      "description_en": "Experience fierce open world survival gameplay as you attempt to stay alive on an unforgiving island inhabited by dinosaurs! Hunt. Grow. Survive.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/376210/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 5946,
+      "trending": false,
+      "rating": 81,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 633,
+      "slug": "scp-secret-laboratory",
+      "title": "SCP: Secret Laboratory",
+      "categories": [
+        "indie",
+        "horror",
+        "survival"
+      ],
+      "genres": [
+        "horror",
+        "survival"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2017,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/700330/header.jpg",
+      "description": "Durante una falla di contenimento nella fondazione SCP, parte delle anomalie hanno eluso la sicurezza e sono fuggite dalle loro camere di contenimento – e non hanno buone intezioni. Diventa parte del personale della struttura, un agente con il ruolo di riportare l'ordine o un anomalia e decidi le sorti della partita!",
+      "description_en": "Deep within a secure underground facility, a sudden containment breach allows many of the secured anomalies to escape from their chambers. Assist the Foundation in re-securing the facility, help the Insurgency in their goal to capture it, or wreak havoc as an SCP in a frantic bid to escape.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/700330/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 4696,
+      "trending": false,
+      "rating": 91,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 634,
+      "slug": "age-of-empires-iii-definitive-edition",
+      "title": "Age of Empires III: Definitive Edition",
+      "categories": [
+        "strategy",
+        "factory"
+      ],
+      "genres": [
+        "strategy",
+        "factory"
+      ],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 8,
+      "crossplay": false,
+      "players": "1-8",
+      "releaseYear": 2020,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/933110/header.jpg",
+      "description": "Age of Empires III: Definitive Edition offre ai giocatori una prova di questo strategico storico in tempo reale sia in modalità giocatore singolo sia in multigiocatore. *Nota: per sbloccare tutte le funzionalità del gioco, consulta il prodotto “Gioco completo”.",
+      "description_en": "Age of Empires III: Definitive Edition offers players a trial of this historical single & multiplayer RTS experience. *Note: To unlock all features of the game please see the “Base Game” product.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/933110/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 3016,
+      "trending": false,
+      "rating": 85,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 635,
+      "slug": "rivals-of-aether-ii",
+      "title": "Rivals of Aether II",
+      "categories": [
+        "indie",
+        "action",
+        "splitscreen"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2024,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2217000/header.jpg",
+      "description": "Rivals of Aether II è il seguito del picchiaduro indie di grande successo: Rivals of Aether. Scendi sul campo di battaglia con nuovi e vecchi campioni elementali nella nuova generazione di picchiaduro a piattaforme.",
+      "description_en": "Rivals of Aether II is the sequel to the hit indie fighting game, Rivals of Aether. Play as both new and returning elemental fighters in the next generation of platform fighters.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2217000/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 596,
+      "trending": false,
+      "rating": 82,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 636,
+      "slug": "age-of-empires-definitive-edition",
+      "title": "Age of Empires: Definitive Edition",
+      "categories": [
+        "strategy",
+        "factory",
+        "action"
+      ],
+      "genres": [
+        "strategy",
+        "factory",
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2019,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1017900/header.jpg",
+      "description": "Age of Empires, il rivoluzionario gioco di strategia in tempo reale che ha dato origine a una serie lunga 20 anni, torna con gameplay aggiornato, grafica in 4K nuova di zecca, battaglie fino a 8 giocatori e molte altre nuove funzioni. Bentornato nella Storia.",
+      "description_en": "Age of Empires, the pivotal real-time strategy game that launched a 20-year legacy returns with modernized gameplay, all-new 4K visuals, 8-person multiplayer battles and a host of other new features. Welcome back to history.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1017900/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 559,
+      "trending": false,
+      "rating": 84,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 637,
+      "slug": "temtem-swarm",
+      "title": "Temtem: Swarm",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 3,
+      "crossplay": false,
+      "players": "1-3",
+      "releaseYear": 0,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2510960/9eed19ba2e454b3a0a00dde88966dcd2e5decc04/header.jpg?t=1775150983",
+      "description": "Can you Survive the Swarm? Unlock mighty abilities and upgrades, find and collect Tems to evolve and become stronger, discover overpowered strategies, and battle massive bosses in this survivor-like bullet heaven! Play solo or online co-op with up to 3 players, building the wildest synergies.",
+      "description_en": "Can you Survive the Swarm? Unlock mighty abilities and upgrades, find and collect Tems to evolve and become stronger, discover overpowered strategies, and battle massive bosses in this survivor-like bullet heaven! Play solo or online co-op with up to 3 players, building the wildest synergies.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2510960/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 638,
+      "slug": "voodoo-fishin",
+      "title": "Voodoo Fishin'",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 0,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3071240/a09810eafb3218a829424143332e4e9e867c60ea/header.jpg?t=1774972612",
+      "description": "A creepy-cozy co-op fishing game for 1–4 players with proximity voice chat. Explore a haunted swamp for rare fish, sell your haul by the pound, and try to survive what hunts you in the dark.",
+      "description_en": "A creepy-cozy co-op fishing game for 1–4 players with proximity voice chat. Explore a haunted swamp for rare fish, sell your haul by the pound, and try to survive what hunts you in the dark.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3071240/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 639,
+      "slug": "cooking-simulator-2-better-together",
+      "title": "Cooking Simulator 2: Better Together",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 0,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2455360/c5ed32d713f2a7b5bf15c0ef557c4b02d10064cc/header.jpg?t=1775124789",
+      "description": "Cooking Simulator is back – bigger, better, and with multiplayer! Create your own recipes and take advantage of new and improved controls to become the best restaurant cook in the city! Or just have fun and enjoy cooking at your own pace. You’re the chef here!",
+      "description_en": "Cooking Simulator is back – bigger, better, and with multiplayer! Create your own recipes and take advantage of new and improved controls to become the best restaurant cook in the city! Or just have fun and enjoy cooking at your own pace. You’re the chef here!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2455360/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 640,
+      "slug": "last-man-sitting",
+      "title": "Last Man Sitting",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 0,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774291/f4b1c502ca199c254b21fc13b4f8cffeed8be28a/header.jpg?t=1775316162",
+      "description": "Shoot, hack and grind your way through waves of sentient office appliances in Megabonk-like roguelite action. Level up, unlock upgrades and play in singleplayer or up to 4-player coop while 360 no-scoping on an office chair!",
+      "description_en": "Shoot, hack and grind your way through waves of sentient office appliances in Megabonk-like roguelite action. Level up, unlock upgrades and play in singleplayer or up to 4-player coop while 360 no-scoping on an office chair!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/774291/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 641,
+      "slug": "endalor",
+      "title": "ENDALOR",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 0,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2265990/2f858bec5aa0b6ad69c4f5048ae67502b638ec95/header.jpg?t=1774884293",
+      "description": "An immersive medieval dark fantasy survival game with RPG elements for 1-4 players. Set in a hand crafted open world. Explore, survive, build, craft, fight and conquer your way through the dark, brutal and mysterious lands.",
+      "description_en": "An immersive medieval dark fantasy survival game with RPG elements for 1-4 players. Set in a hand crafted open world. Explore, survive, build, craft, fight and conquer your way through the dark, brutal and mysterious lands.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2265990/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 642,
+      "slug": "vmx",
+      "title": "VMX",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 0,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3554630/0326fa145f009f34731636ca0b56d0043572d3ed/header.jpg?t=1775079671",
+      "description": "Ride BMX, Scooters and MTB in a multiplayer VR skatepark while doing gesture-based tricks. Take on challenges in carefully crafted skateparks and dirt tracks, customize your bike with a realistic spray-painting system, and express your style through a variety of outfits.",
+      "description_en": "Ride BMX, Scooters and MTB in a multiplayer VR skatepark while doing gesture-based tricks. Take on challenges in carefully crafted skateparks and dirt tracks, customize your bike with a realistic spray-painting system, and express your style through a variety of outfits.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3554630/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 643,
+      "slug": "distributrains",
+      "title": "Distributrains",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 0,
+      "image": "https://img.itch.zone/aW1nLzI1MTcxMjM5LnBuZw==/315x250%23c/WyHHjq.png",
+      "description": "Train simulation game with roguelike and automation game elements",
+      "description_en": "Train simulation game with roguelike and automation game elements",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://oddwarg.itch.io/distributrains",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 645,
+      "slug": "dead-containment",
+      "title": "Dead Containment",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 0,
+      "image": "https://img.itch.zone/aW1nLzU2OTMyMDIucG5n/315x250%23c/pqobXw.png",
+      "description": "Taking On-Rails Shooters Off Rails",
+      "description_en": "Taking On-Rails Shooters Off Rails",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://porgsofwar.itch.io/dead-containment",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 646,
+      "slug": "wor-games",
+      "title": "Wor Games",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 0,
+      "image": "https://img.itch.zone/aW1nLzE5NzI4MTE2LmdpZg==/original/M5BGsz.gif",
+      "description": "2 player co-op arcade game inspired by Wizard of Wor and written with Picotron",
+      "description_en": "2 player co-op arcade game inspired by Wizard of Wor and written with Picotron",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://pahammond.itch.io/wor-games",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 647,
+      "slug": "gladihoppers",
+      "title": "Gladihoppers",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 0,
+      "image": "https://img.itch.zone/aW1nLzI1Mzk3MTkuanBn/315x250%23c/qSVUS9.jpg",
+      "description": "2D physics-based gladiator fighting game!",
+      "description_en": "2D physics-based gladiator fighting game!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://dreamonstudios.itch.io/gladihoppers",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 648,
+      "slug": "generic-fighter-maybe",
+      "title": "Generic Fighter Maybe",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 0,
+      "image": "https://img.itch.zone/aW1nLzIyNDUxMjYwLmdpZg==/original/EK%2FIZl.gif",
+      "description": "Get ready to commit a violence in this generic fighting game with silly animations.",
+      "description_en": "Get ready to commit a violence in this generic fighting game with silly animations.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://astrobardgames.itch.io/generic-fighter-maybe",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 649,
+      "slug": "toe-ii-toe",
+      "title": "Toe II Toe",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 0,
+      "image": "https://img.itch.zone/aW1nLzE4MDA5ODEwLnBuZw==/315x250%23c/LDEAku.png",
+      "description": "A 20 second slugfest! Punch, duck, or block your way to victory!",
+      "description_en": "A 20 second slugfest! Punch, duck, or block your way to victory!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://plazatin.itch.io/toe-20-toe",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 650,
+      "slug": "among-us-arena-ultimate",
+      "title": "Among Us Arena Ultimate",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 0,
+      "image": "https://img.itch.zone/aW1nLzEwMDAxMTg0LnBuZw==/315x250%23c/52RaJb.png",
+      "description": "An Among Us Fighting Game Fangame",
+      "description_en": "An Among Us Fighting Game Fangame",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://starcutter.itch.io/among-us-arena",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 651,
+      "slug": "eggnogg",
+      "title": "EGGNOGG+",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 0,
+      "image": "https://img.itch.zone/aW1hZ2UvMzM5LzUxNjQxLnBuZw==/315x250%23c/qwIQox.png",
+      "description": "Local multiplayer stabbing game for PC, Mac, Linux",
+      "description_en": "Local multiplayer stabbing game for PC, Mac, Linux",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://madgarden.itch.io/eggnogg",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 652,
+      "slug": "frog-smashers",
+      "title": "★FROG SMASHERS★",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 0,
+      "image": "https://img.itch.zone/aW1hZ2UvOTg5NjgvNTYzMzQ0LmdpZg==/original/Ce%2FxlF.gif",
+      "description": "Local Multiplayer Brawler about hitting frogs with baseball bats",
+      "description_en": "Local Multiplayer Brawler about hitting frogs with baseball bats",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://raithza.itch.io/frogsmashers",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 653,
+      "slug": "punch-pong",
+      "title": "Punch Pong",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 0,
+      "image": "https://img.itch.zone/aW1nLzM1Nzg3NDMuZ2lm/original/dF7eiv.gif",
+      "description": "Ping pong meets street brawler",
+      "description_en": "Ping pong meets street brawler",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://nekomatata.itch.io/punch-pong",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 654,
+      "slug": "duels-of-fortune",
+      "title": "Duels of Fortune",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 0,
+      "image": "https://img.itch.zone/aW1nLzg4NDkyNzkucG5n/315x250%23c/BnHcZ%2B.png",
+      "description": "A fast, explosive fighting game with a colourful comic book artstyle!",
+      "description_en": "A fast, explosive fighting game with a colourful comic book artstyle!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://cosmic-hat-games.itch.io/duels-of-fortune",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 655,
+      "slug": "pico-tennis",
+      "title": "Pico Tennis",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 0,
+      "image": "https://img.itch.zone/aW1nLzI0NDczMDEucG5n/315x250%23c/ZBo%2F6s.png",
+      "description": "Play against AI or with up to 4 players in local multiplayer.",
+      "description_en": "Play against AI or with up to 4 players in local multiplayer.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://paranoidcactus.itch.io/pico-tennis",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 656,
+      "slug": "badblood",
+      "title": "BADBLOOD",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local",
+        "sofa"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 0,
+      "image": "https://img.itch.zone/aW1hZ2UvNDMyMTgvMTg3MDEyLmdpZg==/original/ZVVOuY.gif",
+      "description": "a deadly game of hide and seek",
+      "description_en": "a deadly game of hide and seek",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://wsong.itch.io/badblood",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 657,
+      "slug": "ragdoll-runners",
+      "title": "Ragdoll Runners",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local",
+        "sofa"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 0,
+      "image": "https://img.itch.zone/aW1hZ2UvNzQ3MzYvMzg1MDE2LmdpZg==/original/sIh9Cn.gif",
+      "description": "Physics-based Track & Field game. 2 legs / 2 keys",
+      "description_en": "Physics-based Track & Field game. 2 legs / 2 keys",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://sman.itch.io/ragdoll-runners",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 658,
+      "slug": "stick-veterans",
+      "title": "Stick Veterans",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local",
+        "sofa"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 0,
+      "image": "https://img.itch.zone/aW1hZ2UvODU5MjUvNDA0NzgwLnBuZw==/315x250%23c/4f24t5.png",
+      "description": "Fast-paced deathmatches of stick figures shooting and fragging each other.",
+      "description_en": "Fast-paced deathmatches of stick figures shooting and fragging each other.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://junkbytes.itch.io/stick-veterans",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 659,
+      "slug": "cars-with-guns-its-about-time",
+      "title": "Cars with Guns: Its About Time",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local",
+        "sofa"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 0,
+      "image": "https://img.itch.zone/aW1hZ2UvMTg2NjAxLzg5NjY2OS5qcGc=/315x250%23c/h2if89.jpg",
+      "description": "A split-screen arena combat game.",
+      "description_en": "A split-screen arena combat game.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://null-reference-games.itch.io/cars-with-guns",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 660,
+      "slug": "chambara",
+      "title": "Chambara",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local",
+        "sofa"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 0,
+      "image": "https://img.itch.zone/aW1hZ2UvMTg1MzA1LzkxNzg2Ny5wbmc=/315x250%23c/XqFMn8.png",
+      "description": "The award-winning stealth brawler comes to PC! Battle in a black and white world where foes can come from anywhere.",
+      "description_en": "The award-winning stealth brawler comes to PC! Battle in a black and white world where foes can come from anywhere.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://team-ok.itch.io/chambara",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 661,
+      "slug": "duck-duck-rocket",
+      "title": "DUCK DUCK ROCKET",
+      "categories": [
+        "indie",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local",
+        "sofa"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 0,
+      "image": "https://img.itch.zone/aW1hZ2UvMzY0MzYvMTU4NzIxLmpwZw==/315x250%23c/t1Tiwb.jpg",
+      "description": "JAM GAME - 2 player split screen rocket duck deathmatch.",
+      "description_en": "JAM GAME - 2 player split screen rocket duck deathmatch.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "",
+      "epicUrl": "",
+      "itchUrl": "https://terriv.itch.io/ddr",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
