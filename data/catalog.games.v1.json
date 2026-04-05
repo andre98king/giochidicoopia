@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-05T07:30:54+00:00",
+  "generatedAt": "2026-04-05T20:04:24+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
@@ -41684,6 +41684,193 @@
       "editorial": {
         "played": false,
         "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 619,
+      "igdbId": 381636,
+      "title": "Maid Cafe Coop",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2024,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3887470/97cd9e7ddf0e3eb32706c493197909b4602ed8ed/header.jpg?t=1767927732",
+      "description": "Diventa una graziosa maid in un maid café! Preparati a scatenare la tua energia moe interiore preparando e servendo ai clienti tante bevande e cibi diversi con la giusta ospitalità \"Moe Moe Kyun~\", e sblocca nuovi modi per renderli felici. Gioca da solo o con i tuoi amici!",
+      "description_en": "Become a cute maid in a maid cafe! Prepare to harness your inner moe energy by preparing and serving customers many different drinks and foods with proper Moe Moe Kyun~ hospitality, and unlock new ways to make them happier. Play singleplayer or with your friends!",
+      "personalNote": "Added from Steam (app_id: 3887470) - needs review",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3887470",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 98,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "k4gUrl": "",
+      "k4gDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "maid-cafe-coop",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Diventa una graziosa maid in un maid café! Preparati a scatenare la tua energia moe interiore preparando e servendo ai clienti tante bevande e cibi diversi con la giusta ospitalità &quot;Moe Moe Kyun~&quot;, e sblocca nuovi modi per renderli felici. Gioca da solo o con i tuoi amici!",
+        "en": "Become a cute maid in a maid cafe! Prepare to harness your inner moe energy by preparing and serving customers many different drinks and foods with proper Moe Moe Kyun~ hospitality, and unlock new ways to make them happier. Play singleplayer or with your friends!"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": [
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3887470",
+          "externalId": "3887470"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3887470"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 98
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": "Added from Steam (app_id: 3887470) - needs review"
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 621,
+      "igdbId": 174938,
+      "title": "Color Escape: VR Coop",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "local",
+        "sofa"
+      ],
+      "maxPlayers": 2,
+      "crossplay": false,
+      "players": "1-2",
+      "releaseYear": 2024,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1634130/header.jpg?t=1708169212",
+      "description": "Un gioco VR asimmetrico in cui dovrete cooperare per risolvere i puzzle.",
+      "description_en": "An asymmetric VR game where you will have to cooperate in order to solve puzzles.",
+      "personalNote": "Added from Steam (app_id: 1634130) - needs review",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1634130",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 100,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "k4gUrl": "",
+      "k4gDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "color-escape-vr-coop",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Un gioco VR asimmetrico in cui dovrete cooperare per risolvere i puzzle.",
+        "en": "An asymmetric VR game where you will have to cooperate in order to solve puzzles."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": [
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": false,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
+        "crossplay": false,
+        "playersLabel": "1-2",
+        "maxPlayers": 2
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1634130",
+          "externalId": "1634130"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "1634130"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 100
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": "Added from Steam (app_id: 1634130) - needs review"
       },
       "sourceMeta": {
         "ingestSource": "games.js",
