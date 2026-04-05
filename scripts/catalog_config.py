@@ -109,6 +109,8 @@ BLACKLIST_APPIDS = {
     '880940',   # Pummel Party (party PvP)
     '532270',   # Nidhogg 2 (1v1 PvP fighting)
     '1318440',  # Worms Rumble (PvP battle royale)
+    # Rimossi per low reviews (< 20 recensioni Steam)
+    '1634130',  # Color Escape: VR Coop (10 recensioni)
 }
 
 # Filtro qualità minima per nuovi giochi — pipeline SteamSpy (trending)
