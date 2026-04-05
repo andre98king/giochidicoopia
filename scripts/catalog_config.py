@@ -111,6 +111,7 @@ BLACKLIST_APPIDS = {
     '1318440',  # Worms Rumble (PvP battle royale)
     # Rimossi per low reviews (< 20 recensioni Steam)
     '1634130',  # Color Escape: VR Coop (10 recensioni)
+    '3887470',  # Maid Cafe Coop (44 recensioni, VR niche)
 }
 
 # Filtro qualità minima per nuovi giochi — pipeline SteamSpy (trending)
