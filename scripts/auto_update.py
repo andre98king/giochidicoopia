@@ -24,6 +24,7 @@ import json
 import re
 import time
 import urllib.request
+from pathlib import Path
 
 import catalog_data
 import quality_gate
@@ -228,6 +229,16 @@ existing_igdb_ids: set[int] = set()
 existing_gog_urls: set[str] = set()
 existing_titles:   set[str] = set()
 max_id = 0
+
+# Carica excluded_games.json — appids bocciati dal gate, non rientrano mai
+_excluded_path = Path("data/excluded_games.json")
+excluded_appids: set[str] = set()
+if _excluded_path.exists():
+    try:
+        excluded_appids = set(json.loads(_excluded_path.read_text(encoding="utf-8")))
+        print(f"  🚫 Excluded list: {len(excluded_appids)} appids")
+    except Exception:
+        pass
 
 for g in existing_games:
     max_id = max(max_id, g['id'])
@@ -718,6 +729,9 @@ for cand in unique_candidates:
     if not appid:
         continue
     if added_steam >= steam_budget:
+        continue
+    if appid in excluded_appids:
+        print(f"  ⏭️  [Excluded] {appid} ({title}) → già bocciato/escluso, salto.")
         continue
 
     print(f"\n  [{added_steam+1}/{steam_budget}] {title} (app {appid}, CCU: {cand.get('ccu',0)}, src: {source})")
