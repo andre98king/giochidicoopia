@@ -105,18 +105,25 @@ def main():
     rejected_count = 0
 
     for g in valid:
+        # Controlla exclusion list prima di classificare
+        steam_url = g.get("steamUrl", "")
+        appid = ""
+        if steam_url:
+            import re as _re
+            m = _re.search(r"/app/(\d+)", steam_url)
+            if m:
+                appid = m.group(1)
+        if appid and appid in existing_excluded:
+            rejected_count += 1
+            newly_rejected.add(appid)
+            print(f"  🚫 [EXCLUDED] [{g['id']}] {g['title']} → in excluded_games.json, skip.")
+            continue
+
         verdict = classify_game(g)
         if verdict == "REJECTED":
             rejected_count += 1
-            steam_appid = ""
-            steam_url = g.get("steamUrl", "")
-            if steam_url:
-                import re
-                m = re.search(r"/app/(\d+)", steam_url)
-                if m:
-                    steam_appid = m.group(1)
-            if steam_appid:
-                newly_rejected.add(steam_appid)
+            if appid:
+                newly_rejected.add(appid)
             print(f"  🚫 [REJECTED] [{g['id']}] {g['title']} (rating={g.get('rating')}, reviews={g.get('totalReviews',0)})")
         elif verdict == "PROBATION":
             probation_count += 1
