@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-07T07:42:21+00:00",
+  "generatedAt": "2026-04-07T10:07:14+00:00",
   "featuredIndieId": 180,
   "games": [
     {
@@ -18891,91 +18891,6 @@
       "coopScore": null
     },
     {
-      "id": 619,
-      "slug": "maid-cafe-coop",
-      "title": "Maid Cafe Coop",
-      "categories": [
-        "action"
-      ],
-      "genres": [
-        "action"
-      ],
-      "coopMode": [
-        "online"
-      ],
-      "maxPlayers": 4,
-      "crossplay": false,
-      "players": "1-4",
-      "releaseYear": 2024,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3887470/97cd9e7ddf0e3eb32706c493197909b4602ed8ed/header.jpg?t=1767927732",
-      "description": "Diventa una graziosa maid in un maid café! Preparati a scatenare la tua energia moe interiore preparando e servendo ai clienti tante bevande e cibi diversi con la giusta ospitalità \"Moe Moe Kyun~\", e sblocca nuovi modi per renderli felici. Gioca da solo o con i tuoi amici!",
-      "description_en": "Become a cute maid in a maid cafe! Prepare to harness your inner moe energy by preparing and serving customers many different drinks and foods with proper Moe Moe Kyun~ hospitality, and unlock new ways to make them happier. Play singleplayer or with your friends!",
-      "personalNote": "Added from Steam (app_id: 3887470) - needs review",
-      "played": false,
-      "steamUrl": "https://store.steampowered.com/app/3887470",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 0,
-      "trending": false,
-      "rating": 98,
-      "igUrl": "",
-      "igDiscount": 0,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "",
-      "gsDiscount": 0,
-      "kgUrl": "",
-      "kgDiscount": 0,
-      "gmvUrl": "",
-      "gmvDiscount": 0,
-      "gmgUrl": "",
-      "gmgDiscount": 0,
-      "coopScore": 2
-    },
-    {
-      "id": 621,
-      "slug": "color-escape-vr-coop",
-      "title": "Color Escape: VR Coop",
-      "categories": [
-        "action"
-      ],
-      "genres": [
-        "action"
-      ],
-      "coopMode": [
-        "local",
-        "sofa"
-      ],
-      "maxPlayers": 2,
-      "crossplay": false,
-      "players": "1-2",
-      "releaseYear": 2024,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1634130/header.jpg?t=1708169212",
-      "description": "Un gioco VR asimmetrico in cui dovrete cooperare per risolvere i puzzle.",
-      "description_en": "An asymmetric VR game where you will have to cooperate in order to solve puzzles.",
-      "personalNote": "Added from Steam (app_id: 1634130) - needs review",
-      "played": false,
-      "steamUrl": "https://store.steampowered.com/app/1634130",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 0,
-      "trending": false,
-      "rating": 100,
-      "igUrl": "",
-      "igDiscount": 0,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "",
-      "gsDiscount": 0,
-      "kgUrl": "",
-      "kgDiscount": 0,
-      "gmvUrl": "",
-      "gmvDiscount": 0,
-      "gmgUrl": "",
-      "gmgDiscount": 0,
-      "coopScore": 2
-    },
-    {
       "id": 622,
       "slug": "fifth-sun-coop-racing",
       "title": "Fifth Sun: Coop racing",
@@ -19853,7 +19768,7 @@
       "maxPlayers": 4,
       "crossplay": false,
       "players": "1-4",
-      "releaseYear": 0,
+      "releaseYear": 2026,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4173620/ebebf52f4ae57acd8593d92b48d0adec0f3c3992/header.jpg?t=1775230102",
       "description": "Run your pizza shop up front and handle shady business out back. Help hand-crafted NPCs with favors that never go as planned. Play solo or online co-op with up to four players and expand your operation across Hobarey Town. In this darkly comedic management sim - become that guy everyone knows.",
       "description_en": "Run your pizza shop up front and handle shady business out back. Help hand-crafted NPCs with favors that never go as planned. Play solo or online co-op with up to four players and expand your operation across Hobarey Town. In this darkly comedic management sim - become that guy everyone knows.",
@@ -19864,7 +19779,7 @@
       "itchUrl": "",
       "ccu": 0,
       "trending": false,
-      "rating": 0,
+      "rating": 92,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
