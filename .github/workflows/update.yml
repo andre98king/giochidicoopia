@@ -8,6 +8,7 @@ on:
 jobs:
   auto-update-db:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     outputs:
       has_changes: ${{ steps.commit_check.outputs.has_changes }}
     steps:
@@ -60,6 +61,7 @@ jobs:
   fetch-affiliate:
     runs-on: ubuntu-latest
     needs: auto-update-db
+    timeout-minutes: 30
     continue-on-error: true
     steps:
       - name: Checkout repository
@@ -85,9 +87,17 @@ jobs:
       - name: Run fetch affiliate prices
         run: python3 scripts/fetch_affiliate_prices.py
 
+      - name: Upload affiliate artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: affiliate-games
+          path: assets/games.js
+          retention-days: 1
+
   fetch-gameseal:
     runs-on: ubuntu-latest
     needs: auto-update-db
+    timeout-minutes: 30
     continue-on-error: true
     steps:
       - name: Checkout repository
@@ -115,9 +125,17 @@ jobs:
         env:
           CJ_API_TOKEN: ${{ secrets.CJ_API_TOKEN }}
 
+      - name: Upload gameseal artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: gameseal-games
+          path: assets/games.js
+          retention-days: 1
+
   fetch-gamivo:
     runs-on: ubuntu-latest
     needs: auto-update-db
+    timeout-minutes: 30
     continue-on-error: true
     steps:
       - name: Checkout repository
@@ -145,9 +163,17 @@ jobs:
         env:
           CJ_API_TOKEN: ${{ secrets.CJ_API_TOKEN }}
 
+      - name: Upload gamivo artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: gamivo-games
+          path: assets/games.js
+          retention-days: 1
+
   fetch-k4g:
     runs-on: ubuntu-latest
     needs: auto-update-db
+    timeout-minutes: 30
     continue-on-error: true
     steps:
       - name: Checkout repository
@@ -173,9 +199,17 @@ jobs:
       - name: Run fetch k4g prices
         run: python3 scripts/fetch_k4g_prices.py
 
+      - name: Upload k4g artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: k4g-games
+          path: assets/games.js
+          retention-days: 1
+
   fetch-gmg:
     runs-on: ubuntu-latest
     needs: auto-update-db
+    timeout-minutes: 30
     continue-on-error: true
     steps:
       - name: Checkout repository
@@ -201,10 +235,18 @@ jobs:
       - name: Run fetch gmg prices
         run: python3 scripts/fetch_gmg_prices.py
 
+      - name: Upload gmg artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: gmg-games
+          path: assets/games.js
+          retention-days: 1
+
   build-and-deploy:
     runs-on: ubuntu-latest
     needs: [auto-update-db, fetch-affiliate, fetch-gameseal, fetch-gamivo, fetch-k4g, fetch-gmg]
     if: needs.auto-update-db.outputs.has_changes != 'false'
+    timeout-minutes: 30
     permissions:
       contents: write
     steps:
@@ -227,6 +269,53 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: db-output
+          path: db-output
+
+      - name: Copy db-output to working locations
+        run: |
+          mkdir -p assets data
+          cp db-output/assets/games.js assets/games.js
+          cp db-output/data/catalog.games.v1.json data/catalog.games.v1.json
+          cp db-output/data/catalog.public.v1.json data/catalog.public.v1.json
+
+      - name: Download affiliate artifact
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: affiliate-games
+          path: data/artifacts/affiliate
+
+      - name: Download gameseal artifact
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: gameseal-games
+          path: data/artifacts/gameseal
+
+      - name: Download gamivo artifact
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: gamivo-games
+          path: data/artifacts/gamivo
+
+      - name: Download k4g artifact
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: k4g-games
+          path: data/artifacts/k4g
+
+      - name: Download gmg artifact
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: gmg-games
+          path: data/artifacts/gmg
+
+      - name: Merge affiliate data
+        run: python3 scripts/merge_affiliate_artifacts.py
+        continue-on-error: true
 
       - name: Build static game pages
         run: python3 scripts/build_static_pages.py
@@ -236,6 +325,14 @@ jobs:
 
       - name: Validate catalog and generated pages
         run: python3 scripts/validate_catalog.py
+
+      - name: Upload curation report
+        uses: actions/upload-artifact@v4
+        continue-on-error: true
+        with:
+          name: curation-report
+          path: reports/
+          retention-days: 7
 
       - name: Commit and push changes
         run: |
