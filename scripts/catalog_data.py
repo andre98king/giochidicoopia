@@ -235,6 +235,9 @@ def normalize_game(
             "ccu": raw_game.get("ccu") or 0,
             "trending": bool(raw_game.get("trending")),
             "rating": raw_game.get("rating") or 0,
+            "igdb": raw_game.get("_igdb_confirmed") or False,
+            "gog": raw_game.get("_gog_confirmed") or False,
+            "rawg": raw_game.get("_rawg_confirmed") or False,
         },
         "editorial": {
             "played": bool(raw_game.get("played")),

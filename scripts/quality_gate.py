@@ -63,7 +63,14 @@ RAWG_COOP_TAGS = {
 }
 
 # Strong co-op signals — enough for auto-approve without secondary sources
-AUTO_APPROVE_COOP_CATS = {38, 39, 9, 48}
+AUTO_APPROVE_COOP_CATS = {
+    38,
+    39,
+    9,
+    48,
+    24,
+    44,
+}  # Added 24 (Shared/Split Screen) and 44 (Remote Play Together)
 
 # Source set constants
 SOURCES_FAST = frozenset({"steam"})
@@ -282,12 +289,16 @@ def fetch_rawg_tags(game_name: str, api_key: str) -> set[str]:
 def derive_coop_modes(cat_ids: set[int]) -> list[str]:
     """Map Steam category IDs → canonical coopMode values."""
     modes = []
+    # Categorie online
     if cat_ids & {38, 48, 44, 9}:  # Online Co-op, LAN, Remote Play, generic Co-op
         modes.append("online")
-    if cat_ids & {39, 24}:  # Shared/Split Screen
+    # Categorie local/split screen
+    if cat_ids & {39, 24}:  # Shared/Split Screen Co-op, Shared/Split Screen
         modes.append("local")
+        modes.append("sofa")  # Tutti i giochi split screen sono "sofa"
+    # Fallback se nessuna categoria trovata
     if not modes:
-        modes.append("online")  # fallback
+        modes.append("online")
     return modes
 
 
