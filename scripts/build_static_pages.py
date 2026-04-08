@@ -78,7 +78,18 @@ def truncate_meta_desc(text: str, max_len: int = 155) -> str:
 
 
 def esc(value) -> str:
-    return html.escape("" if value is None else str(value), quote=True)
+    if value is None:
+        return ""
+    text = str(value)
+    # First decode any HTML entities that might be in the text (e.g., &#x27;)
+    import html
+
+    try:
+        text = html.unescape(text)
+    except Exception:
+        pass
+    # Then escape special characters for HTML
+    return html.escape(text, quote=True)
 
 
 def format_ccu(value: int) -> str:

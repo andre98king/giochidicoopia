@@ -314,12 +314,13 @@ def main() -> int:
         modes = game.get("coopMode") or []
         image = (game.get("image") or "").strip()
 
-        # Corrupted descriptions (URLs, HTML entities)
+        # Corrupted descriptions (URLs, double-encoded HTML entities)
         if desc.startswith("http://") or desc.startswith("https://"):
             corrupted_desc.append(f"{game_id} ({title}): description is a URL")
-        if "&#" in desc or "&amp;" in desc:
+        # Only flag double-encoded entities (like &amp;#x27;), not normal HTML entities (like &#x27;)
+        if "&amp;" in desc:
             corrupted_desc.append(
-                f"{game_id} ({title}): description has raw HTML entities"
+                f"{game_id} ({title}): description has double-encoded HTML entities (&amp;)"
             )
 
         # Short descriptions

@@ -95,7 +95,21 @@ def ef(block: str, field: str):
         return int(value)
     if value.startswith("["):
         return re.findall(r'"([^"]+)"', value)
-    return re.sub(r"\\(.)", r"\1", value.strip('"'))
+
+    # Decode HTML entities in strings
+    decoded = re.sub(r"\\(.)", r"\1", value.strip('"'))
+    if isinstance(decoded, str):
+        # First unescape double-encoded entities like &amp;#x27;
+        if "&amp;" in decoded:
+            decoded = decoded.replace("&amp;", "&")
+        # Decode normal HTML entities
+        import html
+
+        try:
+            decoded = html.unescape(decoded)
+        except Exception:
+            pass  # If decoding fails, return as-is
+    return decoded
 
 
 def unique_preserving(values: list[str]) -> list[str]:
