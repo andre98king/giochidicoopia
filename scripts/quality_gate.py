@@ -14,7 +14,7 @@ Returns a structured verdict: approve / reject / needs_review
 
 Source sets (pass as `sources=` to validate()):
   SOURCES_FAST  — Steam only. No API keys needed. ~1s/game.
-  SOURCES_FULL  — All four sources. ~4s/game.
+  SOURCES_FULL  — All four sources. ~1-2s/game (parallel).
   None (default)— Auto: Steam always; IGDB/RAWG if credentials present; GOG always.
 """
 
@@ -26,6 +26,7 @@ import sys
 import time
 import urllib.error
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from pathlib import Path
 from typing import Any
@@ -382,10 +383,13 @@ def validate(
 
         igdb_confirmed: bool | None = None
         if "igdb" in active and igdb_client_id and igdb_client_secret:
-            time.sleep(rate_limit_delay)
-            igdb_confirmed = fetch_igdb_coop(
-                steam_app_id, igdb_client_id, igdb_client_secret
-            )
+            # Only IGDB can be called without Steam name
+            try:
+                igdb_confirmed = fetch_igdb_coop(
+                    steam_app_id, igdb_client_id, igdb_client_secret
+                )
+            except Exception as e:
+                print(f"Warning: IGDB API call failed: {e}")
 
         gog_confirmed: bool | None = None
         # Can't search GOG without a title — skip when Steam name is missing
@@ -444,22 +448,41 @@ def validate(
     # ── Secondary sources (only reached when Steam confirms co-op) ──
 
     igdb_confirmed: bool | None = None
-    if "igdb" in active and igdb_client_id and igdb_client_secret:
-        time.sleep(rate_limit_delay)
-        igdb_confirmed = fetch_igdb_coop(
-            steam_app_id, igdb_client_id, igdb_client_secret
-        )
-
     gog_confirmed: bool | None = None
-    if "gog" in active and steam_name:
-        time.sleep(rate_limit_delay)
-        gog_confirmed = fetch_gog_coop(steam_name)
-
     rawg_confirmed = False
-    if "rawg" in active and rawg_api_key and steam_name:
-        time.sleep(rate_limit_delay)
-        rawg_tags = fetch_rawg_tags(steam_name, rawg_api_key)
-        rawg_confirmed = bool(rawg_tags & RAWG_COOP_TAGS)
+
+    # Run secondary API calls in parallel
+    with ThreadPoolExecutor(max_workers=3) as executor:
+        futures = {}
+
+        if "igdb" in active and igdb_client_id and igdb_client_secret:
+            futures[
+                executor.submit(
+                    fetch_igdb_coop, steam_app_id, igdb_client_id, igdb_client_secret
+                )
+            ] = "igdb"
+
+        if "gog" in active and steam_name:
+            futures[executor.submit(fetch_gog_coop, steam_name)] = "gog"
+
+        if "rawg" in active and rawg_api_key and steam_name:
+            futures[executor.submit(fetch_rawg_tags, steam_name, rawg_api_key)] = "rawg"
+
+        # Collect results
+        for future in as_completed(futures):
+            source = futures[future]
+            try:
+                result = future.result()
+                if source == "igdb":
+                    igdb_confirmed = result
+                elif source == "gog":
+                    gog_confirmed = result
+                elif source == "rawg":
+                    rawg_tags = result
+                    rawg_confirmed = bool(rawg_tags & RAWG_COOP_TAGS)
+            except Exception as e:
+                print(f"Warning: {source} API call failed: {e}")
+                # Keep default None/False values
 
     # ── Confidence logic ──
     has_strong_steam = bool(found_coop_ids & AUTO_APPROVE_COOP_CATS)
@@ -544,7 +567,18 @@ if __name__ == "__main__":
 DEFAULT_CURATION_RULES = {
     "min_reviews": 20,
     "min_rating_percent": 70,
-    "blocked_keywords": ["shovelware", "ripoff", "demo", "test", "prototype", "beta", "prologue", "early access", " alpha", "(alpha)"],
+    "blocked_keywords": [
+        "shovelware",
+        "ripoff",
+        "demo",
+        "test",
+        "prototype",
+        "beta",
+        "prologue",
+        "early access",
+        " alpha",
+        "(alpha)",
+    ],
     "required_fields": ["title", "categories", "coopMode"],
 }
 

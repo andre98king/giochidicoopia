@@ -21,6 +21,7 @@ from typing import Any
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 GAMES_JS = ROOT / "assets" / "games.js"
+GAMES_DATA_JS = ROOT / "assets" / "bundles" / "games-data.js"
 DATA_DIR = ROOT / "data"
 CATALOG_JSON = DATA_DIR / "catalog.games.v1.json"
 PUBLIC_CATALOG_JSON = DATA_DIR / "catalog.public.v1.json"
@@ -129,7 +130,17 @@ def parse_featured_indie_id(content: str) -> int | None:
 def js_esc(value: Any) -> str:
     if value is None:
         return ""
-    return str(value).replace("\\", "\\\\").replace('"', '\\"')
+    # Escape completo per HTML/JavaScript usando l'import html già presente
+    escaped = _html.escape(str(value), quote=True)
+    # Escape aggiuntivo per JSON e controlli speciali
+    return (
+        escaped.replace("\\", "\\\\")
+        .replace('"', '\\"')
+        .replace("'", "\\'")
+        .replace("\n", "\\n")
+        .replace("\r", "\\r")
+        .replace("\t", "\\t")
+    )
 
 
 def appid_from_steam_url(url: str) -> str | None:
@@ -236,9 +247,33 @@ def normalize_game(
     }
 
 
+# Cache for load_games() results
+_GAMES_CACHE = None
+_GAMES_CACHE_MTIME = 0
+
+
 def load_games() -> list[dict[str, Any]]:
-    content = GAMES_JS.read_text(encoding="utf-8")
-    featured_indie_id = parse_featured_indie_id(content)
+    global _GAMES_CACHE, _GAMES_CACHE_MTIME
+
+    # Determine which file to use for games data
+    games_file = GAMES_DATA_JS if GAMES_DATA_JS.exists() else GAMES_JS
+    current_mtime = games_file.stat().st_mtime
+
+    # Check cache
+    if _GAMES_CACHE is not None and _GAMES_CACHE_MTIME == current_mtime:
+        return _GAMES_CACHE
+
+    # Try to read from games-data.js first (bundle split version)
+    # Fall back to games.js for backward compatibility
+    if GAMES_DATA_JS.exists():
+        content = GAMES_DATA_JS.read_text(encoding="utf-8")
+        # featuredIndieId is in games.js, not games-data.js
+        games_js_content = GAMES_JS.read_text(encoding="utf-8")
+        featured_indie_id = parse_featured_indie_id(games_js_content)
+    else:
+        content = GAMES_JS.read_text(encoding="utf-8")
+        featured_indie_id = parse_featured_indie_id(content)
+
     blocks = re.findall(r"\{[^{}]*\}", content, re.DOTALL)
 
     games = []
@@ -290,12 +325,19 @@ def load_games() -> list[dict[str, Any]]:
             games.append(normalize_game(game, featured_indie_id))
 
     games.sort(key=lambda item: item["id"])
+
+    # Update cache
+    _GAMES_CACHE = games
+    _GAMES_CACHE_MTIME = current_mtime
+
     return games
 
 
 def load_legacy_catalog_bundle() -> tuple[int | None, list[dict[str, Any]]]:
     content = GAMES_JS.read_text(encoding="utf-8")
-    return parse_featured_indie_id(content), load_games()
+    featured_indie_id = parse_featured_indie_id(content)
+    games = load_games()  # Uses cache
+    return featured_indie_id, games
 
 
 def build_catalog_artifact(games: list[dict[str, Any]]) -> dict[str, Any]:

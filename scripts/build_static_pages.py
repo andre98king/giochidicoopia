@@ -281,7 +281,7 @@ def render_internal_links(game: dict, catalog: list, limit: int = 3) -> str:
 
     items = []
     for _, g in related:
-        title = g.get("title", "Game").replace('"', "&quot;")
+        title = html.escape(g.get("title", "Game"), quote=True)
         gid = g.get("id", "")
         items.append(
             f'<li><a href="/games/{gid}.html" title="{title}">{title}</a></li>'
@@ -310,10 +310,10 @@ def render_internal_links_en(game: dict, catalog: list, limit: int = 3) -> str:
 
     items = []
     for _, g in related:
-        title = g.get("title", "Game").replace('"', "&quot;")
+        title = html.escape(g.get("title", "Game"), quote=True)
         gid = g.get("id", "")
         items.append(
-            f'<li><a href="/games/en/{gid}.html" title="{title}">{title}</a></li>'
+            f'<li><a href="/games/{gid}.html" title="{title}">{title}</a></li>'
         )
 
     if not items:

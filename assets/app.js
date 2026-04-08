@@ -100,10 +100,36 @@ async function loadLegacyCatalogScript() {
 
   const cacheBucket = Math.floor(Date.now() / 300000);
   legacyCatalogScriptPromise = new Promise(resolve => {
+    // First load the small games.js (loader)
     const script = document.createElement('script');
     script.src = `games.js?v=${cacheBucket}`;
     script.async = true;
-    script.onload = resolve;
+    
+    script.onload = () => {
+      // Check if games data is already loaded
+      if (window.games && window.games.length > 0) {
+        resolve();
+        return;
+      }
+      
+      // If not, check if initGames exists and call it
+      if (window.initGames) {
+        window.initGames().then(() => {
+          resolve();
+        }).catch(() => {
+          resolve();
+        });
+      } else {
+        // Fallback: try to load games-data.js directly
+        const dataScript = document.createElement('script');
+        dataScript.src = `bundles/games-data.js?v=${cacheBucket}`;
+        dataScript.async = true;
+        dataScript.onload = resolve;
+        dataScript.onerror = resolve;
+        document.head.appendChild(dataScript);
+      }
+    };
+    
     script.onerror = resolve;
     document.head.appendChild(script);
   });
