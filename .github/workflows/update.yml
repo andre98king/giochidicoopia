@@ -54,6 +54,7 @@ jobs:
           name: db-output
           path: |
             assets/games.js
+            assets/bundles/games-data.js
             data/catalog.games.v1.json
             data/catalog.public.v1.json
           retention-days: 1
@@ -91,7 +92,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: affiliate-games
-          path: assets/games.js
+          path: |
+            assets/games.js
+            assets/bundles/games-data.js
           retention-days: 1
 
   fetch-gameseal:
@@ -129,7 +132,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: gameseal-games
-          path: assets/games.js
+          path: |
+            assets/games.js
+            assets/bundles/games-data.js
           retention-days: 1
 
   fetch-gamivo:
@@ -167,7 +172,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: gamivo-games
-          path: assets/games.js
+          path: |
+            assets/games.js
+            assets/bundles/games-data.js
           retention-days: 1
 
   fetch-k4g:
@@ -203,7 +210,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: k4g-games
-          path: assets/games.js
+          path: |
+            assets/games.js
+            assets/bundles/games-data.js
           retention-days: 1
 
   fetch-gmg:
@@ -239,7 +248,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: gmg-games
-          path: assets/games.js
+          path: |
+            assets/games.js
+            assets/bundles/games-data.js
           retention-days: 1
 
   build-and-deploy:
@@ -273,8 +284,9 @@ jobs:
 
       - name: Copy db-output to working locations
         run: |
-          mkdir -p assets data
+          mkdir -p assets data assets/bundles
           cp db-output/assets/games.js assets/games.js
+          cp db-output/assets/bundles/games-data.js assets/bundles/games-data.js
           cp db-output/data/catalog.games.v1.json data/catalog.games.v1.json
           cp db-output/data/catalog.public.v1.json data/catalog.public.v1.json
 
@@ -339,7 +351,7 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -u
-          git add games en data/catalog.games.v1.json data/catalog.public.v1.json assets/games.js assets/i18n.js sitemap*.xml
+          git add games en data/catalog.games.v1.json data/catalog.public.v1.json assets/games.js assets/bundles/games-data.js assets/i18n.js sitemap*.xml
           if git diff --staged --quiet; then
             echo "Nessuna modifica da committare."
           else

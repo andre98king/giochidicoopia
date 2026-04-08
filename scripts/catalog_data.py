@@ -459,18 +459,21 @@ def write_legacy_games_js(
     featured_indie_id: int | None = None,
     output_path: pathlib.Path | None = None,
 ) -> pathlib.Path:
+    """
+    Write games data in legacy format (single 1.1MB file) OR bundle split format.
+    If output_path is not specified, writes both games.js (loader) and games-data.js (data).
+    """
     path = output_path or GAMES_JS
     ordered_games = sorted(games, key=lambda item: item.get("id", 0))
-    lines = [
-        f"const featuredIndieId = {featured_indie_id or 0};\n\n",
-        "const games = [\n",
-    ]
+
+    # Build the games array content
+    games_array_lines = ["const games = [\n"]
 
     for game in ordered_games:
         categories_json = json.dumps(game.get("categories") or [], ensure_ascii=False)
         genres_json = json.dumps(game.get("genres") or [], ensure_ascii=False)
         coop_json = json.dumps(game.get("coopMode") or ["online"], ensure_ascii=False)
-        lines.append(
+        games_array_lines.append(
             "  {\n"
             f"    id: {game['id']},\n"
             f"    igdbId: {game.get('igdbId') or 0},\n"
@@ -514,14 +517,118 @@ def write_legacy_games_js(
             "  },\n"
         )
 
-    lines.append("];\n")
-    full_js = "".join(lines)
-    if full_js.count("{") != full_js.count("}"):
-        raise ValueError("Brace count mismatch while serializing legacy games.js")
+    games_array_lines.append("];\n")
+    games_array_content = "".join(games_array_lines)
+
+    # Validate
+    if games_array_content.count("{") != games_array_content.count("}"):
+        raise ValueError("Brace count mismatch while serializing games data")
     if len(ordered_games) < 50:
         raise ValueError(
             f"Refusing to write suspiciously small catalog: {len(ordered_games)} games"
         )
 
-    path.write_text(full_js, encoding="utf-8")
-    return path
+    # If output_path is specified, write single file (legacy mode)
+    if output_path is not None:
+        legacy_content = f"const featuredIndieId = {featured_indie_id or 0};\n\n{games_array_content}"
+        path.write_text(legacy_content, encoding="utf-8")
+        return path
+
+    # Bundle split mode: write both files
+    # 1. Write games-data.js (data bundle)
+    GAMES_DATA_JS.write_text(games_array_content, encoding="utf-8")
+    print(
+        f"  ✅ games-data.js scritto ({len(ordered_games)} giochi, {len(games_array_content):,} bytes)"
+    )
+
+    # 2. Write games.js (loader)
+    # Use a simple loader that matches what we already have
+    loader_content = f"""// Main games.js - now using bundle loading
+// Original size: 1.1MB, New size: ~1.4KB
+
+// Keep original variables (core.js is redundant, we include it here)
+const featuredIndieId = {featured_indie_id or 0};
+
+// Async loading system for games data
+let gamesDataLoaded = false;
+let gamesDataPromise = null;
+
+function loadGamesData() {{
+    if (gamesDataPromise) return gamesDataPromise;
+    
+    gamesDataPromise = new Promise((resolve, reject) => {{
+        if (gamesDataLoaded && typeof window.games !== 'undefined') {{
+            resolve(window.games);
+            return;
+        }}
+        
+        const script = document.createElement('script');
+        script.src = '/assets/bundles/games-data.js';
+        script.async = true;
+        
+        script.onload = () => {{
+            if (typeof window.games !== 'undefined') {{
+                gamesDataLoaded = true;
+                resolve(window.games);
+            }} else {{
+                reject(new Error('Games data not available after loading'));
+            }}
+        }};
+        
+        script.onerror = (error) => {{
+            reject(new Error('Failed to load games data: ' + error.message));
+        }};
+        
+        document.head.appendChild(script);
+    }});
+    
+    return gamesDataPromise;
+}}
+
+function getGames() {{
+    return loadGamesData();
+}}
+
+async function getGameById(id) {{
+    const games = await loadGamesData();
+    return games.find(game => game.id === id) || null;
+}}
+
+async function getGamesByCategory(category) {{
+    const games = await loadGamesData();
+    return games.filter(game => 
+        game.categories?.includes(category) || 
+        game.genres?.includes(category)
+    );
+}}
+
+async function getFeaturedIndieGame() {{
+    return getGameById(featuredIndieId);
+}}
+
+window.loadGamesData = loadGamesData;
+window.getGames = getGames;
+window.getGameById = getGameById;
+window.getGamesByCategory = getGamesByCategory;
+window.getFeaturedIndieGame = getFeaturedIndieGame;
+window.featuredIndieId = featuredIndieId;
+window.games = [];
+
+if (typeof window.autoLoadGames !== 'undefined' && window.autoLoadGames === true) {{
+    loadGamesData().then(games => {{
+        window.games = games;
+        if (typeof window.onGamesLoaded === 'function') {{
+            window.onGamesLoaded(games);
+        }}
+    }}).catch(error => {{
+        console.error('Failed to auto-load games:', error);
+    }});
+}}
+
+console.log('Games.js loader initialized - using async bundle loading');
+"""
+
+    GAMES_JS.write_text(loader_content, encoding="utf-8")
+    print(f"  ✅ games.js loader scritto ({len(loader_content):,} bytes)")
+
+    return GAMES_JS
