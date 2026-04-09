@@ -1,0 +1,255 @@
+{
+  "date": "2026-04-09T20:30:04.615605Z",
+  "rules": {
+    "min_reviews": 20,
+    "min_rating_percent": 70,
+    "blocked_keywords": [
+      "shovelware",
+      "ripoff",
+      "demo",
+      "test",
+      "prototype",
+      "beta",
+      "prologue",
+      "early access",
+      " alpha",
+      "(alpha)"
+    ],
+    "required_fields": [
+      "title",
+      "categories",
+      "coopMode"
+    ]
+  },
+  "stats": {
+    "total": 443,
+    "valid": 406,
+    "hidden": 37,
+    "critical_fails": 0,
+    "pending": 406
+  },
+  "hidden_games": [
+    {
+      "id": 8,
+      "title": "Grand Theft Auto V Enhanced",
+      "reason": "low_rating:69",
+      "severity": "warning"
+    },
+    {
+      "id": 31,
+      "title": "Monster Hunter Wilds",
+      "reason": "low_rating:58",
+      "severity": "warning"
+    },
+    {
+      "id": 37,
+      "title": "Diablo IV",
+      "reason": "low_rating:66",
+      "severity": "warning"
+    },
+    {
+      "id": 41,
+      "title": "Gray Zone Warfare",
+      "reason": "low_rating:68",
+      "severity": "warning"
+    },
+    {
+      "id": 54,
+      "title": "New World: Aeternum",
+      "reason": "low_rating:69",
+      "severity": "warning"
+    },
+    {
+      "id": 97,
+      "title": "Myth of Empires",
+      "reason": "low_rating:68",
+      "severity": "warning"
+    },
+    {
+      "id": 139,
+      "title": "Full Metal Furies",
+      "reason": "low_rating:53",
+      "severity": "warning"
+    },
+    {
+      "id": 143,
+      "title": "Back 4 Blood",
+      "reason": "low_rating:68",
+      "severity": "warning"
+    },
+    {
+      "id": 153,
+      "title": "PAYDAY 3",
+      "reason": "low_rating:43",
+      "severity": "warning"
+    },
+    {
+      "id": 165,
+      "title": "Outriders",
+      "reason": "low_rating:67",
+      "severity": "warning"
+    },
+    {
+      "id": 174,
+      "title": "War Thunder",
+      "reason": "low_rating:64",
+      "severity": "warning"
+    },
+    {
+      "id": 175,
+      "title": "EA SPORTS FC 25",
+      "reason": "low_rating:50",
+      "severity": "warning"
+    },
+    {
+      "id": 177,
+      "title": "NBA 2K25",
+      "reason": "low_rating:59",
+      "severity": "warning"
+    },
+    {
+      "id": 193,
+      "title": "MapleStory",
+      "reason": "low_rating:63",
+      "severity": "warning"
+    },
+    {
+      "id": 199,
+      "title": "SMITE 2",
+      "reason": "low_rating:58",
+      "severity": "warning"
+    },
+    {
+      "id": 214,
+      "title": "Game of Thrones: Kingsroad",
+      "reason": "low_rating:62",
+      "severity": "warning"
+    },
+    {
+      "id": 224,
+      "title": "Company of Heroes 3",
+      "reason": "low_rating:57",
+      "severity": "warning"
+    },
+    {
+      "id": 229,
+      "title": "PGA TOUR 2K25",
+      "reason": "low_rating:66",
+      "severity": "warning"
+    },
+    {
+      "id": 248,
+      "title": "For The King II",
+      "reason": "low_rating:69",
+      "severity": "warning"
+    },
+    {
+      "id": 261,
+      "title": "Delta Force",
+      "reason": "low_rating:65",
+      "severity": "warning"
+    },
+    {
+      "id": 262,
+      "title": "Apex Legends™",
+      "reason": "low_rating:67",
+      "severity": "warning"
+    },
+    {
+      "id": 297,
+      "title": "ONE PIECE Bounty Rush",
+      "reason": "low_rating:67",
+      "severity": "warning"
+    },
+    {
+      "id": 318,
+      "title": "WWE 2K25",
+      "reason": "low_rating:66",
+      "severity": "warning"
+    },
+    {
+      "id": 321,
+      "title": "Eldegarde",
+      "reason": "low_rating:66",
+      "severity": "warning"
+    },
+    {
+      "id": 333,
+      "title": "Lords of the Fallen",
+      "reason": "low_rating:66",
+      "severity": "warning"
+    },
+    {
+      "id": 460,
+      "title": "Hellfire",
+      "reason": "low_rating:58",
+      "severity": "warning"
+    },
+    {
+      "id": 519,
+      "title": "Project Castaway",
+      "reason": "low_rating:69",
+      "severity": "warning"
+    },
+    {
+      "id": 520,
+      "title": "Dragonkin: The Banished",
+      "reason": "low_rating:61",
+      "severity": "warning"
+    },
+    {
+      "id": 522,
+      "title": "Pizza Slice",
+      "reason": "low_rating:62",
+      "severity": "warning"
+    },
+    {
+      "id": 523,
+      "title": "WWE 2K26",
+      "reason": "low_rating:50",
+      "severity": "warning"
+    },
+    {
+      "id": 528,
+      "title": "HexBreaker Ⅱ",
+      "reason": "low_rating:66",
+      "severity": "warning"
+    },
+    {
+      "id": 532,
+      "title": "Never Grave: The Witch and The Curse",
+      "reason": "low_rating:67",
+      "severity": "warning"
+    },
+    {
+      "id": 543,
+      "title": "Black Widow: Recharged",
+      "reason": "low_rating:58",
+      "severity": "warning"
+    },
+    {
+      "id": 585,
+      "title": "Avatar: Frontiers of Pandora",
+      "reason": "low_rating:69",
+      "severity": "warning"
+    },
+    {
+      "id": 611,
+      "title": "Chained Wheels",
+      "reason": "low_rating:67",
+      "severity": "warning"
+    },
+    {
+      "id": 623,
+      "title": "Get Together: A Coop Adventure",
+      "reason": "low_rating:67",
+      "severity": "warning"
+    },
+    {
+      "id": 639,
+      "title": "Cooking Simulator 2: Better Together",
+      "reason": "low_rating:48",
+      "severity": "warning"
+    }
+  ]
+}

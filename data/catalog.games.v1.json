@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-09T18:07:21+00:00",
+  "generatedAt": "2026-04-09T20:27:03+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
-  "featuredIndieId": 180,
+  "featuredIndieId": null,
   "stats": {
     "games": 406,
     "played": 12,
@@ -28,7 +28,7 @@
     "storeCounts": {
       "epic": 47,
       "gog": 24,
-      "steam": 382
+      "steam": 402
     }
   },
   "games": [
@@ -1310,7 +1310,7 @@
         "online",
         "local"
       ],
-      "maxPlayers": null,
+      "maxPlayers": 4,
       "crossplay": false,
       "players": "1-255",
       "releaseYear": 2011,
@@ -1369,7 +1369,7 @@
         "sharedScreen": false,
         "crossplay": false,
         "playersLabel": "1-255",
-        "maxPlayers": 0
+        "maxPlayers": 4
       },
       "storefronts": [
         {
@@ -2166,7 +2166,7 @@
         "online",
         "local"
       ],
-      "maxPlayers": null,
+      "maxPlayers": 4,
       "crossplay": true,
       "players": "1-65535",
       "releaseYear": 2020,
@@ -2225,7 +2225,7 @@
         "sharedScreen": false,
         "crossplay": true,
         "playersLabel": "1-65535",
-        "maxPlayers": 0
+        "maxPlayers": 4
       },
       "storefronts": [
         {
@@ -14931,7 +14931,7 @@
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "fantasy-life-i-the-girl-who-steals-time",
-      "isFeaturedIndie": true,
+      "isFeaturedIndie": false,
       "descriptions": {
         "it": "Tuffati in questo nuovo rilassante GDR in cui potrai scegliere tra 14 professioni uniche, i cosiddetti &quot;Mestieri,&quot; e goditi una vita spensierata in questo mondo fantastico. Pesca, cucina, personalizza l&#x27;isola o fai squadra con gli amici per affrontare i mostri che popolano questo vasto mondo.",
         "en": "Step into this Slow-Life RPG where you can freely switch between 14 unique jobs, so called &quot;Lives,&quot; and enjoy a carefree life in a fantasy world. Fish, cook, shape the island to your liking, or team up with friends to battle monsters across the vast world."
@@ -29706,7 +29706,7 @@
         "online",
         "local"
       ],
-      "maxPlayers": null,
+      "maxPlayers": 4,
       "crossplay": false,
       "players": "1-255",
       "releaseYear": 2018,
@@ -29762,7 +29762,7 @@
         "sharedScreen": false,
         "crossplay": false,
         "playersLabel": "1-255",
-        "maxPlayers": 0
+        "maxPlayers": 4
       },
       "storefronts": [
         {
@@ -33598,7 +33598,7 @@
       "description_en": "Dumpy & Bumpy is a whimsical and nostalgic puzzle adventure game that takes players on an exciting journey filled with bite-sized challenges. Players control the cute dragons Dumpy and Bumpy, as they embark on a quest to defeat the evil Ghostlord and save their world from its clutches. 80 HANDCRAFTED PUZZLES ACROSS 10 WORLDS Within each world, players will encounter 10 carefully handcrafted lev...",
       "personalNote": "",
       "played": false,
-      "steamUrl": "",
+      "steamUrl": "https://store.steampowered.com/app/1631500",
       "gogUrl": "https://www.gog.com/en/game/dumpy_and_bumpy",
       "epicUrl": "",
       "itchUrl": "",
@@ -33649,12 +33649,19 @@
       },
       "storefronts": [
         {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1631500",
+          "externalId": "1631500"
+        },
+        {
           "store": "gog",
           "url": "https://www.gog.com/en/game/dumpy_and_bumpy",
           "externalId": null
         }
       ],
-      "externalIds": {},
+      "externalIds": {
+        "steamAppId": "1631500"
+      },
       "signals": {
         "ccu": 0,
         "trending": false,
@@ -33697,7 +33704,7 @@
       "description_en": "Royal Revolt Survivors blends heart-pounding top-down roguelite action with Survivor-style combat and high replayability. Building on the Royal Revolt legacy, this new high-quality opus offers a fresh solo experience and a thrilling co-op for up to 4 players. Get ready for intense battles and strategic depth! DEFEND YOUR KINGDOM     Stop the onslaught of evil forces invading your real...",
       "personalNote": "",
       "played": false,
-      "steamUrl": "",
+      "steamUrl": "https://store.steampowered.com/app/2960490",
       "gogUrl": "https://www.gog.com/en/game/royal_revolt_survivors",
       "epicUrl": "",
       "itchUrl": "",
@@ -33747,12 +33754,19 @@
       },
       "storefronts": [
         {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2960490",
+          "externalId": "2960490"
+        },
+        {
           "store": "gog",
           "url": "https://www.gog.com/en/game/royal_revolt_survivors",
           "externalId": null
         }
       ],
-      "externalIds": {},
+      "externalIds": {
+        "steamAppId": "2960490"
+      },
       "signals": {
         "ccu": 0,
         "trending": false,
@@ -33891,7 +33905,7 @@
       "description_en": "Fight your way through the Rising Heat -- a gladiator-style space spectacle bankrolled by the Extraterrestrial Elite! Take flight with a diverse cast of pilots, ships and weapons! Choose upgrades, discover synergies and construct a build powerful enough to give yourself a fighting chance! ENTER THE RISING HEAT The infamous Rising Heat is a gladiator-style spaceship spectacle, a tournament backe...",
       "personalNote": "",
       "played": false,
-      "steamUrl": "",
+      "steamUrl": "https://store.steampowered.com/app/2184290",
       "gogUrl": "https://www.gog.com/en/game/rising_heat",
       "epicUrl": "",
       "itchUrl": "",
@@ -33943,12 +33957,19 @@
       },
       "storefronts": [
         {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2184290",
+          "externalId": "2184290"
+        },
+        {
           "store": "gog",
           "url": "https://www.gog.com/en/game/rising_heat",
           "externalId": null
         }
       ],
-      "externalIds": {},
+      "externalIds": {
+        "steamAppId": "2184290"
+      },
       "signals": {
         "ccu": 0,
         "trending": false,
@@ -33991,7 +34012,7 @@
       "description_en": "You are the Esophaguys , old folks with elongating necks! Stretch, bite, and swing yourself around in 1-4 player guttural mayhem: co-op, competitive, and solo . Progress across each mode to reunite your lost lengthy kin!  Co-op Mode (2–4 players)   Stretch, bite, and swing together, traversing and solving puzzles as you search to reactivate the forgotten monuments of your ostracized p...",
       "personalNote": "",
       "played": false,
-      "steamUrl": "",
+      "steamUrl": "https://store.steampowered.com/app/2070860",
       "gogUrl": "https://www.gog.com/en/game/esophaguys",
       "epicUrl": "",
       "itchUrl": "",
@@ -34043,12 +34064,19 @@
       },
       "storefronts": [
         {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2070860",
+          "externalId": "2070860"
+        },
+        {
           "store": "gog",
           "url": "https://www.gog.com/en/game/esophaguys",
           "externalId": null
         }
       ],
-      "externalIds": {},
+      "externalIds": {
+        "steamAppId": "2070860"
+      },
       "signals": {
         "ccu": 0,
         "trending": false,
@@ -34089,7 +34117,7 @@
       "description_en": "Owners of Bee Simulator can enjoy 68% loyalty discount on Bee Simulator: The Hive. See the world through the eyes of a bee! Explore a world inspired by Central Park as you gather pollen, evade threats, and build your own thriving beehive. This edition combines the original Bee Simulator with The Hive expansion, introducing new mechanics, game modes, and fresh as spring pollen content—all in one...",
       "personalNote": "",
       "played": false,
-      "steamUrl": "",
+      "steamUrl": "https://store.steampowered.com/app/3348910",
       "gogUrl": "https://www.gog.com/en/game/bee_simulator_the_hive",
       "epicUrl": "",
       "itchUrl": "",
@@ -34139,12 +34167,19 @@
       },
       "storefronts": [
         {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3348910",
+          "externalId": "3348910"
+        },
+        {
           "store": "gog",
           "url": "https://www.gog.com/en/game/bee_simulator_the_hive",
           "externalId": null
         }
       ],
-      "externalIds": {},
+      "externalIds": {
+        "steamAppId": "3348910"
+      },
       "signals": {
         "ccu": 0,
         "trending": false,
@@ -34186,7 +34221,7 @@
       "description_en": "THE JALECO SOCCER INVASION HAS SPREAD TO GOG! Experience the ultimate soccer showdown with Goal!, the original NES and SNES classics that first brought real-world tactics and Cup intensity to your living rooms. The clock ticks down. The roar of the crowd rises in a deafening chant! Suddenly, your winger breaks free, and spots the open man in the middle. Pass...shot...Goal! It’s the world’s favo...",
       "personalNote": "",
       "played": false,
-      "steamUrl": "",
+      "steamUrl": "https://store.steampowered.com/app/3399110",
       "gogUrl": "https://www.gog.com/en/game/jaleco_sports_goal",
       "epicUrl": "",
       "itchUrl": "",
@@ -34237,12 +34272,19 @@
       },
       "storefronts": [
         {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3399110",
+          "externalId": "3399110"
+        },
+        {
           "store": "gog",
           "url": "https://www.gog.com/en/game/jaleco_sports_goal",
           "externalId": null
         }
       ],
-      "externalIds": {},
+      "externalIds": {
+        "steamAppId": "3399110"
+      },
       "signals": {
         "ccu": 0,
         "trending": false,
@@ -34282,7 +34324,7 @@
       "description_en": "Anima Flux is a co-op metroidvania with two genetically enhanced soldiers, special agents of a theocratic dictatorial regime. Fight your way through swarms of mutants through a desolate, dystopian space city and save humanity's last stronghold, if, of course, anyone is still alive... The only human city located on the space ark is subjected to an organized mutant invasion. For the sake of survi...",
       "personalNote": "",
       "played": false,
-      "steamUrl": "",
+      "steamUrl": "https://store.steampowered.com/app/763180",
       "gogUrl": "https://www.gog.com/en/game/anima_flux",
       "epicUrl": "",
       "itchUrl": "",
@@ -34330,12 +34372,19 @@
       },
       "storefronts": [
         {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/763180",
+          "externalId": "763180"
+        },
+        {
           "store": "gog",
           "url": "https://www.gog.com/en/game/anima_flux",
           "externalId": null
         }
       ],
-      "externalIds": {},
+      "externalIds": {
+        "steamAppId": "763180"
+      },
       "signals": {
         "ccu": 0,
         "trending": false,
@@ -34378,7 +34427,7 @@
       "description_en": "Welcome to Empyreum , the video game that will transform your gaming experience into a fun-filled party for the whole family! This exciting cooperative party game for up to 4 players immerses you in the fascinating and wild universe of Hotel Empyreum . Imagine a place where action, strategy, and simulation intertwine in an amazing way. With characters like Tommy , the narcissistic influencer; M...",
       "personalNote": "",
       "played": false,
-      "steamUrl": "",
+      "steamUrl": "https://store.steampowered.com/app/1807220",
       "gogUrl": "https://www.gog.com/en/game/welcome_to_empyreum",
       "epicUrl": "",
       "itchUrl": "",
@@ -34430,12 +34479,19 @@
       },
       "storefronts": [
         {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1807220",
+          "externalId": "1807220"
+        },
+        {
           "store": "gog",
           "url": "https://www.gog.com/en/game/welcome_to_empyreum",
           "externalId": null
         }
       ],
-      "externalIds": {},
+      "externalIds": {
+        "steamAppId": "1807220"
+      },
       "signals": {
         "ccu": 0,
         "trending": false,
@@ -34475,7 +34531,7 @@
       "description_en": "TEAM UP FOR ONE HELLUVA CHALLENGE Head out on an unforgettable adventure in Toaplan's FixEight, the spiritual successor to Out Zone. Pick your favorite hero from eight exceptional super soldiers, personalize them for ultimate freedom, and brave seven different hells. Immerse yourself in the heightened excitement, immersive storytelling, and awe-inspiring explosions that redefined the run-'n-gun...",
       "personalNote": "",
       "played": false,
-      "steamUrl": "",
+      "steamUrl": "https://store.steampowered.com/app/2023180",
       "gogUrl": "https://www.gog.com/en/game/fixeight",
       "epicUrl": "",
       "itchUrl": "",
@@ -34524,12 +34580,19 @@
       },
       "storefronts": [
         {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2023180",
+          "externalId": "2023180"
+        },
+        {
           "store": "gog",
           "url": "https://www.gog.com/en/game/fixeight",
           "externalId": null
         }
       ],
-      "externalIds": {},
+      "externalIds": {
+        "steamAppId": "2023180"
+      },
       "signals": {
         "ccu": 0,
         "trending": false,
@@ -34666,7 +34729,7 @@
       "description_en": "Combat Mission Fortress Italy brings wargamers to the \"soft underbelly of Europe\", a place that was anything but. A very often neglected theater of war, Fortress Italy starts with the Sicilian campaign from July through August 1943. Sicily was the first test for the newly reorganized and improved American forces as they battled against grizzled vets of the Wehrmacht and Luftwaffe as well as a w...",
       "personalNote": "",
       "played": false,
-      "steamUrl": "",
+      "steamUrl": "https://store.steampowered.com/app/2551110",
       "gogUrl": "https://www.gog.com/en/game/combat_mission_fortress_italy",
       "epicUrl": "",
       "itchUrl": "",
@@ -34716,12 +34779,19 @@
       },
       "storefronts": [
         {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2551110",
+          "externalId": "2551110"
+        },
+        {
           "store": "gog",
           "url": "https://www.gog.com/en/game/combat_mission_fortress_italy",
           "externalId": null
         }
       ],
-      "externalIds": {},
+      "externalIds": {
+        "steamAppId": "2551110"
+      },
       "signals": {
         "ccu": 0,
         "trending": false,
@@ -34764,7 +34834,7 @@
       "description_en": "A shadow has fallen across Upper-Left-Earth and threatens the realm of Dwarves. Monsters gather on the horizon, ready to plunge the world into an era of sobriety. Ensure the dark hordes are driven back and the brewery keeps pumping out the lifeblood of the Dwarven people. So, grab a hammer, fill up that mug, and get crafting to protect the beer. Dwarves do not watch the fight from above. They'r...",
       "personalNote": "",
       "played": false,
-      "steamUrl": "",
+      "steamUrl": "https://store.steampowered.com/app/1937820",
       "gogUrl": "https://www.gog.com/en/game/tavernacle",
       "epicUrl": "",
       "itchUrl": "",
@@ -34816,12 +34886,19 @@
       },
       "storefronts": [
         {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1937820",
+          "externalId": "1937820"
+        },
+        {
           "store": "gog",
           "url": "https://www.gog.com/en/game/tavernacle",
           "externalId": null
         }
       ],
-      "externalIds": {},
+      "externalIds": {
+        "steamAppId": "1937820"
+      },
       "signals": {
         "ccu": 0,
         "trending": false,
@@ -34861,7 +34938,7 @@
       "description_en": "Toaplan Arcade Shoot'em Ups 2 bundle Toaplan's 1989 vertical shmup classic Fire Shark rises from the ashes, armed to the teeth with a brand-new beginner mode, online leaderboards, quick saves and much more! In this sequel to Flying Shark/Sky Shark, you control the incredible power of homing missiles, rapid-fire machine guns, free-falling bombs, and high-tech lasers. In Japan, this game is known...",
       "personalNote": "",
       "played": false,
-      "steamUrl": "",
+      "steamUrl": "https://store.steampowered.com/app/2237200",
       "gogUrl": "https://www.gog.com/en/game/fire_shark",
       "epicUrl": "",
       "itchUrl": "",
@@ -34910,12 +34987,19 @@
       },
       "storefronts": [
         {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2237200",
+          "externalId": "2237200"
+        },
+        {
           "store": "gog",
           "url": "https://www.gog.com/en/game/fire_shark",
           "externalId": null
         }
       ],
-      "externalIds": {},
+      "externalIds": {
+        "steamAppId": "2237200"
+      },
       "signals": {
         "ccu": 0,
         "trending": false,
@@ -35052,7 +35136,7 @@
       "description_en": "Volley Pals is an adrenaline-packed modern style arcade volleyball game with different mechanics in each of its levels. We designed it as a local multiplayer party game that supports up to 4 people. Volley Pals is exactly the game you’re looking for if you want to be on the edge of your seat with friends, family, or anyone you can spend some super-fun time with. Gameplay Simplified arcade volle...",
       "personalNote": "",
       "played": false,
-      "steamUrl": "",
+      "steamUrl": "https://store.steampowered.com/app/2170100",
       "gogUrl": "https://www.gog.com/en/game/volley_pals",
       "epicUrl": "",
       "itchUrl": "",
@@ -35102,12 +35186,19 @@
       },
       "storefronts": [
         {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2170100",
+          "externalId": "2170100"
+        },
+        {
           "store": "gog",
           "url": "https://www.gog.com/en/game/volley_pals",
           "externalId": null
         }
       ],
-      "externalIds": {},
+      "externalIds": {
+        "steamAppId": "2170100"
+      },
       "signals": {
         "ccu": 0,
         "trending": false,
@@ -35147,7 +35238,7 @@
       "description_en": "“FIRST STRIKE… WITH TWIN COBRA!\" Twin Cobra (known as \"Kyukyoku Tiger\" in Japan) reaches new heights on PC with updated extras and quality-of-life bonuses like quick saves, online leaderboards, arcade-accurate emulation, and a brand-new beginner mode. In this vertical shmup classic, you'll have your hands full with fast-flying action and deadly opponents swarming the sea, land, and skies! You'r...",
       "personalNote": "",
       "played": false,
-      "steamUrl": "",
+      "steamUrl": "https://store.steampowered.com/app/2022910",
       "gogUrl": "https://www.gog.com/en/game/twin_cobra",
       "epicUrl": "",
       "itchUrl": "",
@@ -35196,12 +35287,19 @@
       },
       "storefronts": [
         {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2022910",
+          "externalId": "2022910"
+        },
+        {
           "store": "gog",
           "url": "https://www.gog.com/en/game/twin_cobra",
           "externalId": null
         }
       ],
-      "externalIds": {},
+      "externalIds": {
+        "steamAppId": "2022910"
+      },
       "signals": {
         "ccu": 0,
         "trending": false,
@@ -35242,7 +35340,7 @@
       "description_en": "It's time to take a drive on the Furry Road! Funtasia is a side-scrolling, 2D racing game where the goal is simple: Drive as fast as possible to reach the finish line. Help save the beautiful, ecologically sustainable world of Funtasia and its furry inhabitants from certain death beneath tons of garbage dumped on it from space by defeating the garbage monster at the end of the track. Simple to ...",
       "personalNote": "",
       "played": false,
-      "steamUrl": "",
+      "steamUrl": "https://store.steampowered.com/app/1795010",
       "gogUrl": "https://www.gog.com/en/game/funtasia",
       "epicUrl": "",
       "itchUrl": "",
@@ -35292,12 +35390,19 @@
       },
       "storefronts": [
         {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1795010",
+          "externalId": "1795010"
+        },
+        {
           "store": "gog",
           "url": "https://www.gog.com/en/game/funtasia",
           "externalId": null
         }
       ],
-      "externalIds": {},
+      "externalIds": {
+        "steamAppId": "1795010"
+      },
       "signals": {
         "ccu": 0,
         "trending": false,
@@ -36454,7 +36559,7 @@
       "description_en": "Do you enjoy a good mix of tactical elements, adventure, and stealth, all tightly packed into a dark, fascinating story? We felt it was a rhetorical question, so that’s the experience we’ve crafted ;) Try different tactics in each mission. Distract the enemies or drop parts of destroyed buildings on their heads. The interactive environment opens up many tactical options for you to explore. Have...",
       "personalNote": "",
       "played": false,
-      "steamUrl": "",
+      "steamUrl": "https://store.steampowered.com/app/1101790",
       "gogUrl": "https://www.gog.com/en/game/war_mongrels",
       "epicUrl": "",
       "itchUrl": "",
@@ -36505,12 +36610,19 @@
       },
       "storefronts": [
         {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1101790",
+          "externalId": "1101790"
+        },
+        {
           "store": "gog",
           "url": "https://www.gog.com/en/game/war_mongrels",
           "externalId": null
         }
       ],
-      "externalIds": {},
+      "externalIds": {
+        "steamAppId": "1101790"
+      },
       "signals": {
         "ccu": 0,
         "trending": false,
@@ -36552,7 +36664,7 @@
       "description_en": "I'm part of the first generation born in a free Poland, after 123 years of foreign occupation. I grew up believing our freedom was safe, but the outbreak of World War II shattered that hope. We're angry and tired, but also determined. We're itching to do something, to reclaim our normal lives. My companions and I feel we have only one choice: to get revenge and win back independence for our cit...",
       "personalNote": "",
       "played": false,
-      "steamUrl": "",
+      "steamUrl": "https://store.steampowered.com/app/2202120",
       "gogUrl": "https://www.gog.com/en/game/63_days",
       "epicUrl": "",
       "itchUrl": "",
@@ -36603,12 +36715,19 @@
       },
       "storefronts": [
         {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2202120",
+          "externalId": "2202120"
+        },
+        {
           "store": "gog",
           "url": "https://www.gog.com/en/game/63_days",
           "externalId": null
         }
       ],
-      "externalIds": {},
+      "externalIds": {
+        "steamAppId": "2202120"
+      },
       "signals": {
         "ccu": 0,
         "trending": false,
@@ -36964,7 +37083,7 @@
       "description_en": "Headquarters: Cold War is a fast-paced turn-based strategy game set in a hypothetical conflict between NATO and the USSR in 1984. Commanders can play as either side across two plot-driven campaigns and a variety of skirmish missions. Build your force, assign heroes, level up units, and use powerful Headquarters skills to outsmart the enemy and change the course of modern history.   Face a ...",
       "personalNote": "",
       "played": false,
-      "steamUrl": "",
+      "steamUrl": "https://store.steampowered.com/app/3826370",
       "gogUrl": "https://www.gog.com/en/game/headquarters_cold_war",
       "epicUrl": "",
       "itchUrl": "",
@@ -37017,12 +37136,19 @@
       },
       "storefronts": [
         {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3826370",
+          "externalId": "3826370"
+        },
+        {
           "store": "gog",
           "url": "https://www.gog.com/en/game/headquarters_cold_war",
           "externalId": null
         }
       ],
-      "externalIds": {},
+      "externalIds": {
+        "steamAppId": "3826370"
+      },
       "signals": {
         "ccu": 0,
         "trending": false,
@@ -37348,7 +37474,7 @@
       "description_en": "KIZUNA ENCOUNTER is a fighting game released by SNK in 1996. Create a team of two fighters and use weapons and your fists to win in single-round sudden death tag-team matches! Experience the feel of an advanced battle system that pairs mid-battle character change-ups and easy commands leading to rush combos!",
       "personalNote": "",
       "played": false,
-      "steamUrl": "",
+      "steamUrl": "https://store.steampowered.com/app/3359910",
       "gogUrl": "https://www.gog.com/en/game/kizuna_encounter_super_tag_battle",
       "epicUrl": "",
       "itchUrl": "",
@@ -37397,12 +37523,19 @@
       },
       "storefronts": [
         {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3359910",
+          "externalId": "3359910"
+        },
+        {
           "store": "gog",
           "url": "https://www.gog.com/en/game/kizuna_encounter_super_tag_battle",
           "externalId": null
         }
       ],
-      "externalIds": {},
+      "externalIds": {
+        "steamAppId": "3359910"
+      },
       "signals": {
         "ccu": 0,
         "trending": false,
@@ -39321,7 +39454,7 @@
       "description_en": "IT'S ON LIKE TRUXTON!   Truxton Extreme delivers white-hot shooter thrills for masters and novices alike. Take down hordes of alien invaders with your Power Shot, Truxton Beam, Thunder Laser, Homing Shot, Star‑mine Shot, and more! Don't forget to breathe as you face off against gigantic bosses in the ultimate battle for humanity’s survival     RETRO FURY, MODERN FIREPOWER   ...",
       "personalNote": "",
       "played": false,
-      "steamUrl": "",
+      "steamUrl": "https://store.steampowered.com/app/3323490",
       "gogUrl": "https://www.gog.com/en/game/truxton_extreme",
       "epicUrl": "",
       "itchUrl": "",
@@ -39370,12 +39503,19 @@
       },
       "storefronts": [
         {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3323490",
+          "externalId": "3323490"
+        },
+        {
           "store": "gog",
           "url": "https://www.gog.com/en/game/truxton_extreme",
           "externalId": null
         }
       ],
-      "externalIds": {},
+      "externalIds": {
+        "steamAppId": "3323490"
+      },
       "signals": {
         "ccu": 0,
         "trending": false,
