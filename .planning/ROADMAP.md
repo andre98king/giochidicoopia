@@ -3,7 +3,7 @@
 ## Milestones
 
 - ✅ **v1.0 Stabilizzazione** - Fasi precedenti (shipped 2026-03-31)
-- 🚧 **v1.1 Database Quality & Co-op Purity** - Phases 1-4 (in progress)
+- ✅ **v1.1 Database Quality & Co-op Purity** - Phases 1-4 (COMPLETE 2026-04-09)
 
 ---
 
@@ -105,6 +105,32 @@ Plans:
 | Phase | Milestone | Plans Complete | Status | Completed |
 |-------|-----------|----------------|--------|-----------|
 | 1. Schema Foundation & CI Hardening | v1.1 | 2/2 | Verified | 2026-04-01 |
-| 2. Tag Audit & coopScore Generation | v1.1 | 0/? | Not started | - |
-| 3. Classic Game Discovery | v1.1 | 0/? | Not started | - |
-| 4. Bulk Data Fixes & Validation | v1.1 | 0/? | Not started | - |
+| 2. Tag Audit & coopScore Generation | v1.1 | 2/2 | Complete | 2026-04-03 |
+| 3. Classic Game Discovery | v1.1 | 2/2 | Complete | 2026-04-03 |
+| 4. Bulk Data Fixes & Validation | v1.1 | 2/2 | Complete | 2026-04-09 |
+
+---
+
+## Latest Updates (2026-04-09)
+
+### v1.1 Database Quality & Co-op Purity — COMPLETE ✅
+
+**Milestone completata!** Tutte le 4 fasi finite e verificate.
+
+#### Aggiornamenti recenti:
+- **GOG Steam Enrichment**: 22 giochi GOG-only arricchiti con Steam URL (84% di 26)
+- **Catalog validation**: 406/443 giochi approvati, 0 errori critici
+- **.gitignore update**: aggiunti .gz e .br (build artifacts)
+- **Pipeline CI**: workflow automatico funzionante
+
+#### Dataset attuale:
+- 443 giochi totali
+- 402 con Steam URL
+- 22 GOG → Steam arricchiti
+- 4 GOG-only senza match
+- 406 static pages generate
+
+#### Note:
+- 41 giochi senza coopScore (da completare manualmente)
+- 97 giochi con crossplay hidden (pending manual validation)
+- CCU=0 per 68 giochi (normale per GOG-only)

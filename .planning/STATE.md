@@ -3,9 +3,9 @@ gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: Database Quality & Co-op Purity
 status: milestone_complete
-stopped_at: Milestone v1.1 COMPLETE — all 4 phases executed
-last_updated: "2026-04-01T15:50:00Z"
-last_activity: 2026-04-01
+stopped_at: Milestone v1.1 COMPLETE — all 4 phases executed + GOG enrichment
+last_updated: "2026-04-09T22:40:00Z"
+last_activity: 2026-04-09
 progress:
   total_phases: 4
   completed_phases: 4
@@ -77,7 +77,14 @@ Progress: [################################] 100% (4/4 phases complete)
 
 - [UTENTE] Abilitare Google Indexing API in GCP
 - [UTENTE] Backlink building manuale (Reddit, Discord, directory italiane)
-- Creare Cloudflare Cache Rule (hit rate attuale: 15.3%, target: 60%+)
+- [DONE] Creare Cloudflare Cache Rule (hit rate attuale: 15.3%, target: 60%+) - NOT COMPLETE
+- [DONE] GOG Steam Enrichment - 22/26 games enriched (84%)
+
+### Decisions (continued)
+
+- [2026-04-09]: GOG Steam enrichment - searched Steam for 26 GOG-only games, found 22 matches with valid Steam URLs
+- [2026-04-09]: Added .gz and .br to .gitignore (build artifacts)
+- [2026-04-09]: Pipeline CI working correctly - 406 games validated, 0 critical errors
 
 ### Blockers/Concerns
 
@@ -93,7 +100,7 @@ Progress: [################################] 100% (4/4 phases complete)
 
 ## Session Continuity
 
-Last session: 2026-04-01T15:15:00Z
-Stopped at: Phase 2 complete — 2/2 plans executed, awaiting verification
+Last session: 2026-04-09T22:40:00Z
+Stopped at: Milestone v1.1 complete! All 4 phases verified + GOG enrichment done + validation passed
 Resume file: None
-Next action: Milestone v1.1 complete! Ready for next milestone or verification.
+Next action: Milestone v1.1 complete! Ready for next milestone planning.
