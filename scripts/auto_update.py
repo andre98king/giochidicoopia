@@ -339,9 +339,10 @@ free_appids = set(
 )
 print(f"  Indie: {len(indie_appids)} | Free: {len(free_appids)}")
 
-# 2b: Aggiorna CCU + rating + tag indie/free
+# 2b: Aggiorna CCU + rating + totalReviews + tag indie/free
 updated_ccu = 0
 updated_rating = 0
+updated_reviews = 0
 for g in existing_games:
     aid = appid_from_url(g["steamUrl"])
     if not aid:
@@ -357,13 +358,17 @@ for g in existing_games:
     if pos + neg >= 10:
         g["rating"] = calc_rating(pos, neg)
         updated_rating += 1
+    # Update totalReviews for existing games
+    g["totalReviews"] = pos + neg
+    if pos + neg > 0:
+        updated_reviews += 1
     if aid in NOT_INDIE_APPIDS and "indie" in g["categories"]:
         g["categories"].remove("indie")
     if aid in NOT_FREE_APPIDS and "free" in g["categories"]:
         g["categories"].remove("free")
 
 print(
-    f"  CCU aggiornati: {updated_ccu} | Rating: {updated_rating} | Trending 🔥: {sum(1 for g in existing_games if g['trending'])}"
+    f"  CCU aggiornati: {updated_ccu} | Rating: {updated_rating} | Reviews: {updated_reviews} | Trending 🔥: {sum(1 for g in existing_games if g['trending'])}"
 )
 
 # 2c: Fallback CCU individuale per giochi con CCU 0
@@ -390,13 +395,17 @@ for g in zero_ccu:
     neg = spy.get("negative", 0) or 0
     if pos + neg >= 10:
         g["rating"] = calc_rating(pos, neg)
+        g["totalReviews"] = pos + neg
     elif pos + neg == 0 and g.get("rating", 0) == 0:
         steam_pos, steam_neg = _fetch_steam_store_reviews(aid)
         if steam_pos + steam_neg >= 10:
             g["rating"] = calc_rating(steam_pos, steam_neg)
+            g["totalReviews"] = steam_pos + steam_neg
             print(
-                f"    ↳ Steam store fallback [{g['id']}] {g['title']}: rating={g['rating']}"
+                f"    ↳ Steam store fallback [{g['id']}] {g['title']}: rating={g['rating']}, reviews={steam_pos + steam_neg}"
             )
+    elif pos + neg > 0:
+        g["totalReviews"] = pos + neg
 print(
     f"  Fallback CCU trovati: {fallback_ok}  |  Ancora 0: {len(zero_ccu) - fallback_ok}"
 )

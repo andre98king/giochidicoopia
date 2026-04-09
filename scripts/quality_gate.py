@@ -97,7 +97,7 @@ def _fetch_json(url: str, timeout: int = 15) -> dict | None:
         if r.status_code != 200:
             return None
         return r.json()
-    except Exception:
+    except (Exception, json.JSONDecodeError, TimeoutError):
         return None
 
 
@@ -116,7 +116,7 @@ def _get_igdb_token(client_id: str, client_secret: str) -> str | None:
         req = urllib.request.Request(url, method="POST")
         with urllib.request.urlopen(req, timeout=10) as r:
             return json.loads(r.read()).get("access_token")
-    except Exception:
+    except (urllib.error.URLError, json.JSONDecodeError, TimeoutError):
         return None
 
 
@@ -125,18 +125,23 @@ def _igdb_post(endpoint: str, query: str, token: str, client_id: str) -> list | 
     url = f"https://api.igdb.com/v4/{endpoint}"
     try:
         req = urllib.request.Request(
-            url,
+            "https://api.igdb.com/v4/" + endpoint,
             data=query.encode("utf-8"),
             headers={
                 "Client-ID": client_id,
                 "Authorization": f"Bearer {token}",
-                "Content-Type": "text/plain",
+                "Accept": "application/json",
             },
             method="POST",
         )
         with urllib.request.urlopen(req, timeout=10) as r:
             return json.loads(r.read())
-    except Exception:
+    except (
+        urllib.error.URLError,
+        urllib.error.HTTPError,
+        json.JSONDecodeError,
+        TimeoutError,
+    ):
         return None
 
 
@@ -387,7 +392,7 @@ def validate(
         if "igdb" not in active and "gog" not in active and "rawg" not in active:
             return {
                 **_empty_verdict(
-                    "needs_review", "Steam API unavailable — no fallback sources", "low"
+                    "rejected", "Steam API unavailable — no fallback sources", "low"
                 ),
                 "coop_modes": ["online"],
             }
@@ -416,8 +421,11 @@ def validate(
             status, confidence = "rejected", "medium"
             reason = "Steam unavailable | IGDB found game but no co-op mode"
         else:
-            status, confidence = "needs_review", "low"
-            reason = "Steam unavailable | IGDB could not find game"
+            # IGDB could not find game with this Steam app ID
+            # This could mean: fake app ID, or IGDB doesn't have this game
+            # Be conservative: reject if we can't verify
+            status, confidence = "rejected", "low"
+            reason = "Steam unavailable | IGDB could not find game — cannot verify"
 
         return {
             "status": status,
@@ -621,6 +629,7 @@ def run_curation_gate(
         "valid": 0,
         "hidden": 0,
         "critical_fails": 0,
+        "pending": 0,
     }
 
     for g in catalog:
@@ -630,6 +639,9 @@ def run_curation_gate(
         reviews = 0
         if g.get("totalReviews"):
             reviews = g["totalReviews"]
+        # If totalReviews field is missing, treat as pending data (not low reviews)
+        # This handles the case where the field hasn't been populated yet
+        has_reviews_field = "totalReviews" in g
 
         rating = g.get("rating") or g.get("signals", {}).get("rating") or 0
 
@@ -664,6 +676,7 @@ def run_curation_gate(
             continue
 
         # Blocca giochi Steam con poche recensioni (soglia minima assoluta)
+        # Only apply if reviews field exists and has value > 0
         if reviews > 0 and reviews < rules["min_reviews"]:
             reason = f"low_reviews:{reviews}"
             stats["hidden"] += 1
@@ -676,6 +689,24 @@ def run_curation_gate(
                 }
             )
             continue
+        # If reviews field is missing, use rating as fallback
+        if not has_reviews_field and "steamUrl" in g:
+            # Check if rating is too low (shovelware detection)
+            min_rating = rules.get("min_rating_percent", 70)
+            if rating > 0 and rating < min_rating:
+                reason = f"low_rating:{rating}"
+                stats["hidden"] += 1
+                hidden.append(
+                    {
+                        "id": g_id,
+                        "title": g.get("title"),
+                        "reason": reason,
+                        "severity": "warning",
+                    }
+                )
+                continue
+            # Otherwise mark as pending data (not hidden)
+            stats["pending"] = stats.get("pending", 0) + 1
 
         # Blocca giochi itch.io-only senza segnali di qualità (rating=0, ccu=0)
         is_itch_only = bool(g.get("itchUrl")) and not g.get("steamUrl")
@@ -779,7 +810,7 @@ def export_daily_audit(stats: dict, hidden: list, report_dir: str = "reports/") 
             audit_data["delta_critical"] = audit_data["critical"] - prev_data.get(
                 "critical", 0
             )
-        except Exception:
+        except (FileNotFoundError, json.JSONDecodeError, KeyError):
             pass
 
     # Scrivi il file giornaliero

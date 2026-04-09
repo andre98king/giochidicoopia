@@ -48,7 +48,6 @@ ROOT = catalog_data.ROOT
 GAMES_DIR = ROOT / "games"
 GAMES_EN_DIR = ROOT / "games" / "en"
 SITEMAP = ROOT / "sitemap.xml"
-SITEMAP_INDEX = ROOT / "sitemap.xml"
 SITEMAP_MAIN = ROOT / "sitemap-main.xml"
 SITEMAP_HUBS = ROOT / "sitemap-hubs.xml"
 SITE_URL = "https://coophubs.net"
@@ -86,7 +85,7 @@ def esc(value) -> str:
 
     try:
         text = html.unescape(text)
-    except Exception:
+    except (ValueError, TypeError):
         pass
     # Then escape special characters for HTML
     return html.escape(text, quote=True)
@@ -166,7 +165,7 @@ def load_games():
             elif isinstance(data, list):
                 filtered_ids = {g["id"] for g in data}
                 filtered_games = {g["id"]: g for g in data}
-        except Exception:
+        except (json.JSONDecodeError, KeyError, TypeError):
             pass
 
     # Carica games.js originale e filtra
@@ -218,19 +217,48 @@ def add_utm(url: str, campaign: str = "gamepage") -> str:
 
 def find_related_games(game: dict, all_games: list, count: int = 6) -> list:
     """Find related games by shared categories, excluding the current game."""
+    game_id = game["id"]
     game_cats = set(game.get("categories") or [])
-    scored = []
-    for other in all_games:
-        if other["id"] == game["id"]:
-            continue
-        other_cats = set(other.get("categories") or [])
-        shared = len(game_cats & other_cats)
-        if shared == 0:
-            continue
-        # Score: shared categories first, then rating as tiebreaker
-        scored.append((shared, other.get("rating") or 0, other))
-    scored.sort(key=lambda x: (x[0], x[1]), reverse=True)
-    return [item[2] for item in scored[:count]]
+
+    if not game_cats:
+        return []
+
+    # Build category index lazily - invalidate if all_games changes
+    cache_key = len(all_games)
+    if (
+        not hasattr(find_related_games, "_cache_key")
+        or find_related_games._cache_key != cache_key
+        or not hasattr(find_related_games, "_category_index")
+    ):
+        find_related_games._cache_key = cache_key
+        find_related_games._category_index = {}
+        find_related_games._games_by_id = {}
+
+        for g in all_games:
+            g_id = g["id"]
+            find_related_games._games_by_id[g_id] = g
+            for cat in g.get("categories") or []:
+                find_related_games._category_index.setdefault(cat, []).append(g_id)
+
+    # Collect games sharing categories
+    scored = {}
+    for cat in game_cats:
+        if cat in find_related_games._category_index:
+            for other_id in find_related_games._category_index[cat]:
+                if other_id == game_id:
+                    continue
+                if other_id not in scored:
+                    scored[other_id] = 0
+                scored[other_id] += 1
+
+    # Convert to list and sort
+    result = []
+    for other_id, shared_count in scored.items():
+        other_game = find_related_games._games_by_id[other_id]
+        result.append((shared_count, other_game.get("rating") or 0, other_game))
+
+    result.sort(key=lambda x: (x[0], x[1]), reverse=True)
+    return [item[2] for item in result[:count]]
 
 
 def build_related_card(game_dict: dict, lang: str = "it") -> str:
@@ -551,20 +579,22 @@ def render_static_page(game: dict, all_games: list | None = None) -> str:
 
     ccu_html = ""
     if game["ccu"] > 0:
-        ccu_html = (
+        ccu_html = safe_template(
             '<div class="game-info-card">'
-            f'<div class="game-info-value" style="color:var(--accent3)">{esc(format_ccu(game["ccu"]))}</div>'
+            '<div class="game-info-value" style="color:var(--accent3)">{ccu_value}</div>'
             '<div class="game-info-label" id="onlineLabel">online ora</div>'
-            "</div>"
+            "</div>",
+            ccu_value=esc(format_ccu(game["ccu"])),
         )
 
     note_html = ""
     if game["played"] and game["personalNote"]:
-        note_html = (
+        note_html = safe_template(
             '<div class="game-section game-note">'
             '<div class="game-section-title" id="noteTitle">La mia esperienza</div>'
-            f"<p>{esc(game['personalNote'])}</p>"
-            "</div>"
+            "<p>{personal_note}</p>"
+            "</div>",
+            personal_note=esc(game["personalNote"]),
         )
 
     played_badge = ""
@@ -725,20 +755,22 @@ def render_static_page_en(game: dict, all_games: list | None = None) -> str:
 
     ccu_html = ""
     if game["ccu"] > 0:
-        ccu_html = (
+        ccu_html = safe_template(
             '<div class="game-info-card">'
-            f'<div class="game-info-value" style="color:var(--accent3)">{esc(format_ccu(game["ccu"]))}</div>'
+            '<div class="game-info-value" style="color:var(--accent3)">{ccu_value}</div>'
             '<div class="game-info-label" id="onlineLabel">playing now</div>'
-            "</div>"
+            "</div>",
+            ccu_value=esc(format_ccu(game["ccu"])),
         )
 
     note_html = ""
     if game["played"] and game["personalNote"]:
-        note_html = (
+        note_html = safe_template(
             '<div class="game-section game-note">'
             '<div class="game-section-title" id="noteTitle">My Experience</div>'
-            f"<p>{esc(game['personalNote'])}</p>"
-            "</div>"
+            "<p>{personal_note}</p>"
+            "</div>",
+            personal_note=esc(game["personalNote"]),
         )
 
     played_badge = ""
@@ -1042,7 +1074,7 @@ def write_sitemap(games):
         )
 
     index_lines.append("</sitemapindex>\n")
-    SITEMAP_INDEX.write_text("".join(index_lines), encoding="utf-8")
+    SITEMAP.write_text("".join(index_lines), encoding="utf-8")
 
     # Update robots.txt
     robots = ROOT / "robots.txt"
@@ -1096,25 +1128,10 @@ def update_game_counters(count: int) -> None:
             print(f"Updated game counter to {floored} in {path.name}")
 
 
-def compress_file(src: Path, has_brotli: bool) -> tuple[str, bool, bool]:
-    """Compress a single file to .br and .gz. Returns (path, br_written, gz_written)."""
-    try:
-        import brotli as _brotli
-    except ImportError:
-        try:
-            import brotlicffi as _brotli
-        except ImportError:
-            _brotli = None
-
+def compress_file(src: Path) -> tuple[str, bool]:
+    """Compress a single file to .gz only. Returns (path, gz_written)."""
     data = src.read_bytes()
-    br_written = gz_written = False
-
-    if has_brotli and _brotli:
-        br_path = src.with_suffix(src.suffix + ".br")
-        new_br = _brotli.compress(data)
-        if not br_path.exists() or br_path.read_bytes() != new_br:
-            br_path.write_bytes(new_br)
-            br_written = True
+    gz_written = False
 
     buf = io.BytesIO()
     with gzip.GzipFile(fileobj=buf, mode="wb", compresslevel=9) as gz_f:
@@ -1125,26 +1142,11 @@ def compress_file(src: Path, has_brotli: bool) -> tuple[str, bool, bool]:
         gz_path.write_bytes(new_gz)
         gz_written = True
 
-    return (str(src), br_written, gz_written)
+    return (str(src), gz_written)
 
 
 def compress_assets(build_dir: str = "dist/") -> None:
-    """Genera .br e .gz per HTML/CSS/JS/JSON accanto agli originali (idempotente, parallelo)."""
-    try:
-        import brotli as _brotli
-
-        has_brotli = True
-    except ImportError:
-        try:
-            import brotlicffi as _brotli
-
-            has_brotli = True
-        except ImportError:
-            has_brotli = False
-            print(
-                "WARNING: brotli/brotlicffi non disponibile — .br saltato (pip install brotli)"
-            )
-
+    """Genera .gz per HTML/CSS/JS/JSON accanto agli originali (idempotente, parallelo)."""
     build_path = Path(build_dir)
     if not build_path.exists():
         print(f"compress_assets: {build_dir} non esiste, skip.")
@@ -1157,21 +1159,19 @@ def compress_assets(build_dir: str = "dist/") -> None:
         if not f.suffix.endswith((".br", ".gz"))
     ]
 
-    br_count = gz_count = unchanged = 0
+    gz_count = unchanged = 0
 
     with ThreadPoolExecutor(max_workers=8) as executor:
-        results = list(executor.map(lambda f: compress_file(f, has_brotli), files))
+        results = list(executor.map(lambda f: compress_file(f), files))
 
-    for path, br_written, gz_written in results:
-        if br_written:
-            br_count += 1
+    for path, gz_written in results:
         if gz_written:
             gz_count += 1
-        if not br_written and not gz_written:
+        else:
             unchanged += 1
 
     print(
-        f"compress_assets: {gz_count} .gz, {br_count} .br scritti ({unchanged} invariati) — dir={build_dir}"
+        f"compress_assets: {gz_count} .gz scritti ({unchanged} invariati) — dir={build_dir}"
     )
 
 
