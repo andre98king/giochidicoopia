@@ -1,34 +1,34 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-09T20:27:03+00:00",
+  "generatedAt": "2026-04-10T08:07:40+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
-  "featuredIndieId": null,
+  "featuredIndieId": 180,
   "stats": {
-    "games": 406,
+    "games": 403,
     "played": 12,
     "trending": 47,
-    "withEnglishDescription": 406,
+    "withEnglishDescription": 403,
     "categoryCounts": {
-      "action": 295,
-      "factory": 62,
-      "free": 33,
+      "action": 294,
+      "factory": 60,
+      "free": 36,
       "horror": 45,
-      "indie": 146,
+      "indie": 144,
       "puzzle": 39,
       "roguelike": 29,
-      "rpg": 85,
+      "rpg": 84,
       "splitscreen": 88,
-      "sport": 15,
-      "strategy": 98,
+      "sport": 14,
+      "strategy": 96,
       "survival": 98
     },
     "storeCounts": {
       "epic": 47,
-      "gog": 24,
-      "steam": 402
+      "gog": 22,
+      "steam": 399
     }
   },
   "games": [
@@ -1310,7 +1310,7 @@
         "online",
         "local"
       ],
-      "maxPlayers": 4,
+      "maxPlayers": null,
       "crossplay": false,
       "players": "1-255",
       "releaseYear": 2011,
@@ -1369,7 +1369,7 @@
         "sharedScreen": false,
         "crossplay": false,
         "playersLabel": "1-255",
-        "maxPlayers": 4
+        "maxPlayers": 0
       },
       "storefronts": [
         {
@@ -2166,7 +2166,7 @@
         "online",
         "local"
       ],
-      "maxPlayers": 4,
+      "maxPlayers": null,
       "crossplay": true,
       "players": "1-65535",
       "releaseYear": 2020,
@@ -2225,7 +2225,7 @@
         "sharedScreen": false,
         "crossplay": true,
         "playersLabel": "1-65535",
-        "maxPlayers": 4
+        "maxPlayers": 0
       },
       "storefronts": [
         {
@@ -14931,7 +14931,7 @@
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "fantasy-life-i-the-girl-who-steals-time",
-      "isFeaturedIndie": false,
+      "isFeaturedIndie": true,
       "descriptions": {
         "it": "Tuffati in questo nuovo rilassante GDR in cui potrai scegliere tra 14 professioni uniche, i cosiddetti &quot;Mestieri,&quot; e goditi una vita spensierata in questo mondo fantastico. Pesca, cucina, personalizza l&#x27;isola o fai squadra con gli amici per affrontare i mostri che popolano questo vasto mondo.",
         "en": "Step into this Slow-Life RPG where you can freely switch between 14 unique jobs, so called &quot;Lives,&quot; and enjoy a carefree life in a fantasy world. Fish, cook, shape the island to your liking, or team up with friends to battle monsters across the vast world."
@@ -29706,7 +29706,7 @@
         "online",
         "local"
       ],
-      "maxPlayers": 4,
+      "maxPlayers": null,
       "crossplay": false,
       "players": "1-255",
       "releaseYear": 2018,
@@ -29762,7 +29762,7 @@
         "sharedScreen": false,
         "crossplay": false,
         "playersLabel": "1-255",
-        "maxPlayers": 4
+        "maxPlayers": 0
       },
       "storefronts": [
         {
@@ -33604,7 +33604,7 @@
       "itchUrl": "",
       "ccu": 0,
       "trending": false,
-      "rating": 0,
+      "rating": 91,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
@@ -33665,7 +33665,7 @@
       "signals": {
         "ccu": 0,
         "trending": false,
-        "rating": 0,
+        "rating": 91,
         "igdb": false,
         "gog": false,
         "rawg": false
@@ -33710,7 +33710,7 @@
       "itchUrl": "",
       "ccu": 0,
       "trending": false,
-      "rating": 0,
+      "rating": 79,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
@@ -33770,7 +33770,7 @@
       "signals": {
         "ccu": 0,
         "trending": false,
-        "rating": 0,
+        "rating": 79,
         "igdb": false,
         "gog": false,
         "rawg": false
@@ -34018,7 +34018,7 @@
       "itchUrl": "",
       "ccu": 0,
       "trending": false,
-      "rating": 0,
+      "rating": 100,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
@@ -34080,110 +34080,7 @@
       "signals": {
         "ccu": 0,
         "trending": false,
-        "rating": 0,
-        "igdb": false,
-        "gog": false,
-        "rawg": false
-      },
-      "editorial": {
-        "played": false,
-        "personalNote": ""
-      },
-      "sourceMeta": {
-        "ingestSource": "games.js",
-        "schemaVersion": 1
-      }
-    },
-    {
-      "id": 431,
-      "igdbId": 335301,
-      "title": "Bee Simulator: The Hive",
-      "categories": [
-        "factory",
-        "action"
-      ],
-      "genres": [
-        "action"
-      ],
-      "coopMode": [
-        "online"
-      ],
-      "maxPlayers": 4,
-      "crossplay": false,
-      "players": "1-4",
-      "releaseYear": 2025,
-      "image": "https://images.gog-statics.com/4a4797cd10a6319da5a0fc8a660dadd59d662d6adcf3b30b5e7889cccf7dabaf.png",
-      "description": "I proprietari di Bee Simulator possono usufruire di uno sconto fedeltà del 68% su Bee Simulator: The Hive. Guarda il mondo attraverso gli occhi di un'ape! Esplora un mondo ispirato a Central Park mentre raccogli polline, sfuggi alle minacce e costruisci il tuo fiorente alveare. Questa edizione combina l'originale Bee Simulator con l'espansione The Hive, introducendo nuove meccaniche, modalità di gioco e contenuti freschi come il polline primaverile, tutto in uno...",
-      "description_en": "Owners of Bee Simulator can enjoy 68% loyalty discount on Bee Simulator: The Hive. See the world through the eyes of a bee! Explore a world inspired by Central Park as you gather pollen, evade threats, and build your own thriving beehive. This edition combines the original Bee Simulator with The Hive expansion, introducing new mechanics, game modes, and fresh as spring pollen content—all in one...",
-      "personalNote": "",
-      "played": false,
-      "steamUrl": "https://store.steampowered.com/app/3348910",
-      "gogUrl": "https://www.gog.com/en/game/bee_simulator_the_hive",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 0,
-      "trending": false,
-      "rating": 0,
-      "igUrl": "",
-      "igDiscount": 0,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "",
-      "gsDiscount": 0,
-      "kgUrl": "",
-      "kgDiscount": 0,
-      "k4gUrl": "",
-      "k4gDiscount": 0,
-      "gmvUrl": "",
-      "gmvDiscount": 0,
-      "gmgUrl": "",
-      "gmgDiscount": 0,
-      "coopScore": null,
-      "mini_review_it": "",
-      "mini_review_en": "",
-      "slug": "bee-simulator-the-hive",
-      "isFeaturedIndie": false,
-      "descriptions": {
-        "it": "I proprietari di Bee Simulator possono usufruire di uno sconto fedeltà del 68% su Bee Simulator: The Hive. Guarda il mondo attraverso gli occhi di un&#x27;ape! Esplora un mondo ispirato a Central Park mentre raccogli polline, sfuggi alle minacce e costruisci il tuo fiorente alveare. Questa edizione combina l&#x27;originale Bee Simulator con l&#x27;espansione The Hive, introducendo nuove meccaniche, modalità di gioco e contenuti freschi come il polline primaverile, tutto in uno...",
-        "en": "Owners of Bee Simulator can enjoy 68% loyalty discount on Bee Simulator: The Hive. See the world through the eyes of a bee! Explore a world inspired by Central Park as you gather pollen, evade threats, and build your own thriving beehive. This edition combines the original Bee Simulator with The Hive expansion, introducing new mechanics, game modes, and fresh as spring pollen content—all in one..."
-      },
-      "taxonomy": {
-        "categories": [
-          "factory",
-          "action"
-        ],
-        "genres": [
-          "action"
-        ]
-      },
-      "capabilities": {
-        "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
-        "crossplay": false,
-        "playersLabel": "1-4",
-        "maxPlayers": 4
-      },
-      "storefronts": [
-        {
-          "store": "steam",
-          "url": "https://store.steampowered.com/app/3348910",
-          "externalId": "3348910"
-        },
-        {
-          "store": "gog",
-          "url": "https://www.gog.com/en/game/bee_simulator_the_hive",
-          "externalId": null
-        }
-      ],
-      "externalIds": {
-        "steamAppId": "3348910"
-      },
-      "signals": {
-        "ccu": 0,
-        "trending": false,
-        "rating": 0,
+        "rating": 100,
         "igdb": false,
         "gog": false,
         "rawg": false
@@ -34328,9 +34225,9 @@
       "gogUrl": "https://www.gog.com/en/game/anima_flux",
       "epicUrl": "",
       "itchUrl": "",
-      "ccu": 0,
+      "ccu": 1,
       "trending": false,
-      "rating": 0,
+      "rating": 85,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
@@ -34386,9 +34283,9 @@
         "steamAppId": "763180"
       },
       "signals": {
-        "ccu": 0,
+        "ccu": 1,
         "trending": false,
-        "rating": 0,
+        "rating": 85,
         "igdb": false,
         "gog": false,
         "rawg": false
@@ -34431,9 +34328,9 @@
       "gogUrl": "https://www.gog.com/en/game/welcome_to_empyreum",
       "epicUrl": "",
       "itchUrl": "",
-      "ccu": 0,
+      "ccu": 1,
       "trending": false,
-      "rating": 0,
+      "rating": 81,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
@@ -34493,9 +34390,9 @@
         "steamAppId": "1807220"
       },
       "signals": {
-        "ccu": 0,
+        "ccu": 1,
         "trending": false,
-        "rating": 0,
+        "rating": 81,
         "igdb": false,
         "gog": false,
         "rawg": false
@@ -34537,7 +34434,7 @@
       "itchUrl": "",
       "ccu": 0,
       "trending": false,
-      "rating": 0,
+      "rating": 93,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
@@ -34596,7 +34493,7 @@
       "signals": {
         "ccu": 0,
         "trending": false,
-        "rating": 0,
+        "rating": 93,
         "igdb": false,
         "gog": false,
         "rawg": false
@@ -34733,9 +34630,9 @@
       "gogUrl": "https://www.gog.com/en/game/combat_mission_fortress_italy",
       "epicUrl": "",
       "itchUrl": "",
-      "ccu": 0,
+      "ccu": 8,
       "trending": false,
-      "rating": 0,
+      "rating": 84,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
@@ -34793,116 +34690,9 @@
         "steamAppId": "2551110"
       },
       "signals": {
-        "ccu": 0,
+        "ccu": 8,
         "trending": false,
-        "rating": 0,
-        "igdb": false,
-        "gog": false,
-        "rawg": false
-      },
-      "editorial": {
-        "played": false,
-        "personalNote": ""
-      },
-      "sourceMeta": {
-        "ingestSource": "games.js",
-        "schemaVersion": 1
-      }
-    },
-    {
-      "id": 458,
-      "igdbId": 204131,
-      "title": "Tavernacle!",
-      "categories": [
-        "action",
-        "indie",
-        "strategy"
-      ],
-      "genres": [
-        "action",
-        "strategy"
-      ],
-      "coopMode": [
-        "online"
-      ],
-      "maxPlayers": 4,
-      "crossplay": false,
-      "players": "1-4",
-      "releaseYear": 2023,
-      "image": "https://images.gog-statics.com/76cf8bf8e24b9e107f4d14614707ab1460b8fdf3e69dee4a354cb2cfbdb9d7c1.png",
-      "description": "Un'ombra è caduta sulla Terra in alto a sinistra e minaccia il regno dei Nani. I mostri si radunano all'orizzonte, pronti a far precipitare il mondo in un'era di sobrietà. Assicurati che le orde oscure vengano respinte e che il birrificio continui a pompare la linfa vitale del popolo nanico. Quindi, prendi un martello, riempi quella tazza e inizia a lavorare per proteggere la birra. I nani non osservano il combattimento dall'alto. Sono...",
-      "description_en": "A shadow has fallen across Upper-Left-Earth and threatens the realm of Dwarves. Monsters gather on the horizon, ready to plunge the world into an era of sobriety. Ensure the dark hordes are driven back and the brewery keeps pumping out the lifeblood of the Dwarven people. So, grab a hammer, fill up that mug, and get crafting to protect the beer. Dwarves do not watch the fight from above. They'r...",
-      "personalNote": "",
-      "played": false,
-      "steamUrl": "https://store.steampowered.com/app/1937820",
-      "gogUrl": "https://www.gog.com/en/game/tavernacle",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 0,
-      "trending": false,
-      "rating": 0,
-      "igUrl": "",
-      "igDiscount": 0,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "",
-      "gsDiscount": 0,
-      "kgUrl": "",
-      "kgDiscount": 0,
-      "k4gUrl": "",
-      "k4gDiscount": 0,
-      "gmvUrl": "",
-      "gmvDiscount": 0,
-      "gmgUrl": "",
-      "gmgDiscount": 0,
-      "coopScore": null,
-      "mini_review_it": "",
-      "mini_review_en": "",
-      "slug": "tavernacle",
-      "isFeaturedIndie": false,
-      "descriptions": {
-        "it": "Un&#x27;ombra è caduta sulla Terra in alto a sinistra e minaccia il regno dei Nani. I mostri si radunano all&#x27;orizzonte, pronti a far precipitare il mondo in un&#x27;era di sobrietà. Assicurati che le orde oscure vengano respinte e che il birrificio continui a pompare la linfa vitale del popolo nanico. Quindi, prendi un martello, riempi quella tazza e inizia a lavorare per proteggere la birra. I nani non osservano il combattimento dall&#x27;alto. Sono...",
-        "en": "A shadow has fallen across Upper-Left-Earth and threatens the realm of Dwarves. Monsters gather on the horizon, ready to plunge the world into an era of sobriety. Ensure the dark hordes are driven back and the brewery keeps pumping out the lifeblood of the Dwarven people. So, grab a hammer, fill up that mug, and get crafting to protect the beer. Dwarves do not watch the fight from above. They&#x27;r..."
-      },
-      "taxonomy": {
-        "categories": [
-          "action",
-          "indie",
-          "strategy"
-        ],
-        "genres": [
-          "action",
-          "strategy"
-        ]
-      },
-      "capabilities": {
-        "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
-        "crossplay": false,
-        "playersLabel": "1-4",
-        "maxPlayers": 4
-      },
-      "storefronts": [
-        {
-          "store": "steam",
-          "url": "https://store.steampowered.com/app/1937820",
-          "externalId": "1937820"
-        },
-        {
-          "store": "gog",
-          "url": "https://www.gog.com/en/game/tavernacle",
-          "externalId": null
-        }
-      ],
-      "externalIds": {
-        "steamAppId": "1937820"
-      },
-      "signals": {
-        "ccu": 0,
-        "trending": false,
-        "rating": 0,
+        "rating": 84,
         "igdb": false,
         "gog": false,
         "rawg": false
@@ -34942,9 +34732,9 @@
       "gogUrl": "https://www.gog.com/en/game/fire_shark",
       "epicUrl": "",
       "itchUrl": "",
-      "ccu": 0,
+      "ccu": 1,
       "trending": false,
-      "rating": 0,
+      "rating": 89,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
@@ -35001,9 +34791,110 @@
         "steamAppId": "2237200"
       },
       "signals": {
+        "ccu": 1,
+        "trending": false,
+        "rating": 89,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 460,
+      "igdbId": 19503,
+      "title": "Hellfire",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2023,
+      "image": "https://images.gog-statics.com/715d2354ca2ea7e66a402cadd49a8ca2c61fcba04aa84630242676e60c2c38ac.png",
+      "description": "Toaplan Arcade Shoot'em Ups 2 bundle GLI ALIENI TI FANNO ESPLODERE DA TUTTE LE DIREZIONI! HELLFIRE è il primo sparatutto a scorrimento laterale di Toaplan! Questa conversione per PC del celebre titolo arcade del 1989 presenta classifiche online, emulazione accurata da sala giochi, salvataggi rapidi e altro ancora. Affronterai una prova sanguinosa fatta di scelte complesse, grafica sfolgorante e imboscate aliene da ogni angolazione. La sola potenza di fuoco non basta; ...",
+      "description_en": "Toaplan Arcade Shoot'em Ups 2 bundle ALIENS BLAST YOU FROM ALL DIRECTIONS! HELLFIRE is Toaplan's first side-scrolling shooter! This PC port of the celebrated 1989 arcade title features online leaderboards, arcade-accurate emulation, quick saves, and more. You'll face a blood-boiling trial of complex choices, blazing graphics, and aliens ambushing from every angle. Firepower alone won't cut it; ...",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2237190",
+      "gogUrl": "https://www.gog.com/en/game/hellfire",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 82,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "k4gUrl": "",
+      "k4gDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "hellfire",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Toaplan Arcade Shoot&#x27;em Ups 2 bundle GLI ALIENI TI FANNO ESPLODERE DA TUTTE LE DIREZIONI! HELLFIRE è il primo sparatutto a scorrimento laterale di Toaplan! Questa conversione per PC del celebre titolo arcade del 1989 presenta classifiche online, emulazione accurata da sala giochi, salvataggi rapidi e altro ancora. Affronterai una prova sanguinosa fatta di scelte complesse, grafica sfolgorante e imboscate aliene da ogni angolazione. La sola potenza di fuoco non basta; ...",
+        "en": "Toaplan Arcade Shoot&#x27;em Ups 2 bundle ALIENS BLAST YOU FROM ALL DIRECTIONS! HELLFIRE is Toaplan&#x27;s first side-scrolling shooter! This PC port of the celebrated 1989 arcade title features online leaderboards, arcade-accurate emulation, quick saves, and more. You&#x27;ll face a blood-boiling trial of complex choices, blazing graphics, and aliens ambushing from every angle. Firepower alone won&#x27;t cut it; ..."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": [
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2237190",
+          "externalId": "2237190"
+        },
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/en/game/hellfire",
+          "externalId": null
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2237190"
+      },
+      "signals": {
         "ccu": 0,
         "trending": false,
-        "rating": 0,
+        "rating": 82,
         "igdb": false,
         "gog": false,
         "rawg": false
@@ -35142,7 +35033,7 @@
       "itchUrl": "",
       "ccu": 0,
       "trending": false,
-      "rating": 0,
+      "rating": 90,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
@@ -35202,7 +35093,7 @@
       "signals": {
         "ccu": 0,
         "trending": false,
-        "rating": 0,
+        "rating": 90,
         "igdb": false,
         "gog": false,
         "rawg": false
@@ -35232,7 +35123,7 @@
       "maxPlayers": 4,
       "crossplay": false,
       "players": "1-4",
-      "releaseYear": 0,
+      "releaseYear": 2023,
       "image": "https://images.gog-statics.com/253362ae75b4269087f9f622d70e4bef2871c8a6247d25fe7eefcf94ad5a9147.png",
       "description": "\"IL PRIMO COLPO... CON I TWIN COBRA!\" Twin Cobra (noto come \"Kyukyoku Tiger\" in Giappone) raggiunge nuove vette su PC con extra aggiornati e bonus di qualità della vita come salvataggi rapidi, classifiche online, emulazione accurata arcade e una nuovissima modalità per principianti. In questo classico shmup verticale, avrai le mani occupate con azione di volo veloce e avversari mortali che sciamano sul mare, sulla terra e nei cieli! Tuo...",
       "description_en": "“FIRST STRIKE… WITH TWIN COBRA!\" Twin Cobra (known as \"Kyukyoku Tiger\" in Japan) reaches new heights on PC with updated extras and quality-of-life bonuses like quick saves, online leaderboards, arcade-accurate emulation, and a brand-new beginner mode. In this vertical shmup classic, you'll have your hands full with fast-flying action and deadly opponents swarming the sea, land, and skies! You'r...",
@@ -35244,7 +35135,7 @@
       "itchUrl": "",
       "ccu": 0,
       "trending": false,
-      "rating": 76,
+      "rating": 88,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
@@ -35303,110 +35194,7 @@
       "signals": {
         "ccu": 0,
         "trending": false,
-        "rating": 76,
-        "igdb": false,
-        "gog": false,
-        "rawg": false
-      },
-      "editorial": {
-        "played": false,
-        "personalNote": ""
-      },
-      "sourceMeta": {
-        "ingestSource": "games.js",
-        "schemaVersion": 1
-      }
-    },
-    {
-      "id": 484,
-      "igdbId": 189847,
-      "title": "Funtasia",
-      "categories": [
-        "indie",
-        "sport"
-      ],
-      "genres": [
-        "sport"
-      ],
-      "coopMode": [
-        "online"
-      ],
-      "maxPlayers": 4,
-      "crossplay": false,
-      "players": "1-4",
-      "releaseYear": 2022,
-      "image": "https://images.gog-statics.com/4ea8fcfb684f287d987ed8df760e05f15e8621d2cbd274f3c2009ef3e71c29f9.png",
-      "description": "È ora di fare un giro sulla Furry Road! Funtasia è un gioco di corse 2D a scorrimento laterale in cui l'obiettivo è semplice: guidare il più velocemente possibile per raggiungere il traguardo. Aiuta a salvare il bellissimo mondo ecologicamente sostenibile di Funtasia e i suoi abitanti pelosi da morte certa sotto tonnellate di spazzatura scaricate dallo spazio sconfiggendo il mostro della spazzatura alla fine del percorso. Semplice da...",
-      "description_en": "It's time to take a drive on the Furry Road! Funtasia is a side-scrolling, 2D racing game where the goal is simple: Drive as fast as possible to reach the finish line. Help save the beautiful, ecologically sustainable world of Funtasia and its furry inhabitants from certain death beneath tons of garbage dumped on it from space by defeating the garbage monster at the end of the track. Simple to ...",
-      "personalNote": "",
-      "played": false,
-      "steamUrl": "https://store.steampowered.com/app/1795010",
-      "gogUrl": "https://www.gog.com/en/game/funtasia",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 0,
-      "trending": false,
-      "rating": 0,
-      "igUrl": "",
-      "igDiscount": 0,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "",
-      "gsDiscount": 0,
-      "kgUrl": "",
-      "kgDiscount": 0,
-      "k4gUrl": "",
-      "k4gDiscount": 0,
-      "gmvUrl": "",
-      "gmvDiscount": 0,
-      "gmgUrl": "",
-      "gmgDiscount": 0,
-      "coopScore": null,
-      "mini_review_it": "",
-      "mini_review_en": "",
-      "slug": "funtasia",
-      "isFeaturedIndie": false,
-      "descriptions": {
-        "it": "È ora di fare un giro sulla Furry Road! Funtasia è un gioco di corse 2D a scorrimento laterale in cui l&#x27;obiettivo è semplice: guidare il più velocemente possibile per raggiungere il traguardo. Aiuta a salvare il bellissimo mondo ecologicamente sostenibile di Funtasia e i suoi abitanti pelosi da morte certa sotto tonnellate di spazzatura scaricate dallo spazio sconfiggendo il mostro della spazzatura alla fine del percorso. Semplice da...",
-        "en": "It&#x27;s time to take a drive on the Furry Road! Funtasia is a side-scrolling, 2D racing game where the goal is simple: Drive as fast as possible to reach the finish line. Help save the beautiful, ecologically sustainable world of Funtasia and its furry inhabitants from certain death beneath tons of garbage dumped on it from space by defeating the garbage monster at the end of the track. Simple to ..."
-      },
-      "taxonomy": {
-        "categories": [
-          "indie",
-          "sport"
-        ],
-        "genres": [
-          "sport"
-        ]
-      },
-      "capabilities": {
-        "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
-        "crossplay": false,
-        "playersLabel": "1-4",
-        "maxPlayers": 4
-      },
-      "storefronts": [
-        {
-          "store": "steam",
-          "url": "https://store.steampowered.com/app/1795010",
-          "externalId": "1795010"
-        },
-        {
-          "store": "gog",
-          "url": "https://www.gog.com/en/game/funtasia",
-          "externalId": null
-        }
-      ],
-      "externalIds": {
-        "steamAppId": "1795010"
-      },
-      "signals": {
-        "ccu": 0,
-        "trending": false,
-        "rating": 0,
+        "rating": 88,
         "igdb": false,
         "gog": false,
         "rawg": false
@@ -36563,9 +36351,9 @@
       "gogUrl": "https://www.gog.com/en/game/war_mongrels",
       "epicUrl": "",
       "itchUrl": "",
-      "ccu": 0,
+      "ccu": 15,
       "trending": false,
-      "rating": 0,
+      "rating": 75,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
@@ -36624,9 +36412,9 @@
         "steamAppId": "1101790"
       },
       "signals": {
-        "ccu": 0,
+        "ccu": 15,
         "trending": false,
-        "rating": 0,
+        "rating": 75,
         "igdb": false,
         "gog": false,
         "rawg": false
@@ -36668,9 +36456,9 @@
       "gogUrl": "https://www.gog.com/en/game/63_days",
       "epicUrl": "",
       "itchUrl": "",
-      "ccu": 0,
+      "ccu": 12,
       "trending": false,
-      "rating": 0,
+      "rating": 78,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
@@ -36729,9 +36517,110 @@
         "steamAppId": "2202120"
       },
       "signals": {
+        "ccu": 12,
+        "trending": false,
+        "rating": 78,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 543,
+      "igdbId": 175662,
+      "title": "Black Widow: Recharged",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2021,
+      "image": "https://images.gog-statics.com/577497094fce699583d567ac2889ee0965ee03dd7378d3e407c84022d927158d.png",
+      "description": "Ritorna l'originale sparatutto a doppia levetta con protagonista un aracnide! Giusto in tempo per Halloween, Black Widow: Recharged è stato ripensato per un gameplay moderno, con grafica vibrante, nuove potenti abilità e un'altra colonna sonora originale della pluripremiata compositrice di videogiochi Megan McDuffee. Punta a un punteggio elevato nella modalità arcade vecchia scuola e guadagna il diritto di vantarti con il tuo nome al...",
+      "description_en": "The original cult classic arachnid-starring, twin-stick shooter returns! Just in time for Halloween, Black Widow: Recharged has been reimagined for modern gameplay, with vibrant visuals, powerful new abilities, and another original soundtrack from award-winning video game composer Megan McDuffee. Aim for a high score in the old school arcade mode and earn bragging rights with your name at the t...",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1714180",
+      "gogUrl": "https://www.gog.com/en/game/black_widow_recharged",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 74,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "k4gUrl": "",
+      "k4gDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "black-widow-recharged",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Ritorna l&#x27;originale sparatutto a doppia levetta con protagonista un aracnide! Giusto in tempo per Halloween, Black Widow: Recharged è stato ripensato per un gameplay moderno, con grafica vibrante, nuove potenti abilità e un&#x27;altra colonna sonora originale della pluripremiata compositrice di videogiochi Megan McDuffee. Punta a un punteggio elevato nella modalità arcade vecchia scuola e guadagna il diritto di vantarti con il tuo nome al...",
+        "en": "The original cult classic arachnid-starring, twin-stick shooter returns! Just in time for Halloween, Black Widow: Recharged has been reimagined for modern gameplay, with vibrant visuals, powerful new abilities, and another original soundtrack from award-winning video game composer Megan McDuffee. Aim for a high score in the old school arcade mode and earn bragging rights with your name at the t..."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": [
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1714180",
+          "externalId": "1714180"
+        },
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/en/game/black_widow_recharged",
+          "externalId": null
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "1714180"
+      },
+      "signals": {
         "ccu": 0,
         "trending": false,
-        "rating": 0,
+        "rating": 74,
         "igdb": false,
         "gog": false,
         "rawg": false
@@ -37058,115 +36947,6 @@
       }
     },
     {
-      "id": 567,
-      "igdbId": 380988,
-      "title": "Headquarters: Cold War",
-      "categories": [
-        "strategy",
-        "factory",
-        "rpg"
-      ],
-      "genres": [
-        "strategy",
-        "factory",
-        "rpg"
-      ],
-      "coopMode": [
-        "online"
-      ],
-      "maxPlayers": 4,
-      "crossplay": false,
-      "players": "1-4",
-      "releaseYear": 2026,
-      "image": "https://images.gog-statics.com/be77d258c3a6c59d069eee49c142b965c0d65692012d4ef8f87b937c4d1102a8.png",
-      "description": "Headquarters: Cold War è un frenetico gioco di strategia a turni ambientato in un ipotetico conflitto tra NATO e URSS nel 1984. I comandanti possono giocare nei panni di entrambe le parti in due campagne basate sulla trama e una varietà di missioni di schermaglia. Costruisci la tua forza, assegna eroi, fai salire di livello le unità e usa le potenti abilità del quartier generale per superare in astuzia il nemico e cambiare il corso della storia moderna.   Affronta un...",
-      "description_en": "Headquarters: Cold War is a fast-paced turn-based strategy game set in a hypothetical conflict between NATO and the USSR in 1984. Commanders can play as either side across two plot-driven campaigns and a variety of skirmish missions. Build your force, assign heroes, level up units, and use powerful Headquarters skills to outsmart the enemy and change the course of modern history.   Face a ...",
-      "personalNote": "",
-      "played": false,
-      "steamUrl": "https://store.steampowered.com/app/3826370",
-      "gogUrl": "https://www.gog.com/en/game/headquarters_cold_war",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 0,
-      "trending": false,
-      "rating": 0,
-      "igUrl": "",
-      "igDiscount": 0,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "",
-      "gsDiscount": 0,
-      "kgUrl": "",
-      "kgDiscount": 0,
-      "k4gUrl": "",
-      "k4gDiscount": 0,
-      "gmvUrl": "",
-      "gmvDiscount": 0,
-      "gmgUrl": "",
-      "gmgDiscount": 0,
-      "coopScore": null,
-      "mini_review_it": "",
-      "mini_review_en": "",
-      "slug": "headquarters-cold-war",
-      "isFeaturedIndie": false,
-      "descriptions": {
-        "it": "Headquarters: Cold War è un frenetico gioco di strategia a turni ambientato in un ipotetico conflitto tra NATO e URSS nel 1984. I comandanti possono giocare nei panni di entrambe le parti in due campagne basate sulla trama e una varietà di missioni di schermaglia. Costruisci la tua forza, assegna eroi, fai salire di livello le unità e usa le potenti abilità del quartier generale per superare in astuzia il nemico e cambiare il corso della storia moderna.   Affronta un...",
-        "en": "Headquarters: Cold War is a fast-paced turn-based strategy game set in a hypothetical conflict between NATO and the USSR in 1984. Commanders can play as either side across two plot-driven campaigns and a variety of skirmish missions. Build your force, assign heroes, level up units, and use powerful Headquarters skills to outsmart the enemy and change the course of modern history.   Face a ..."
-      },
-      "taxonomy": {
-        "categories": [
-          "strategy",
-          "factory",
-          "rpg"
-        ],
-        "genres": [
-          "strategy",
-          "factory",
-          "rpg"
-        ]
-      },
-      "capabilities": {
-        "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
-        "crossplay": false,
-        "playersLabel": "1-4",
-        "maxPlayers": 4
-      },
-      "storefronts": [
-        {
-          "store": "steam",
-          "url": "https://store.steampowered.com/app/3826370",
-          "externalId": "3826370"
-        },
-        {
-          "store": "gog",
-          "url": "https://www.gog.com/en/game/headquarters_cold_war",
-          "externalId": null
-        }
-      ],
-      "externalIds": {
-        "steamAppId": "3826370"
-      },
-      "signals": {
-        "ccu": 0,
-        "trending": false,
-        "rating": 0,
-        "igdb": false,
-        "gog": false,
-        "rawg": false
-      },
-      "editorial": {
-        "played": false,
-        "personalNote": ""
-      },
-      "sourceMeta": {
-        "ingestSource": "games.js",
-        "schemaVersion": 1
-      }
-    },
-    {
       "id": 576,
       "igdbId": 46520,
       "title": "TOP HUNTER: RODDY & CATHY",
@@ -37468,7 +37248,7 @@
       "maxPlayers": 4,
       "crossplay": false,
       "players": "1-4",
-      "releaseYear": 0,
+      "releaseYear": 2025,
       "image": "https://images.gog-statics.com/83be8939c7b2830d7f8712559f3821a8b17c7584c17bb0cbb33896f84468052c.png",
       "description": "KIZUNA ENCOUNTER è un gioco di combattimento pubblicato da SNK nel 1996. Crea una squadra di due combattenti e fai squadra con un amico in battaglie di coppia cooperative contro la CPU.",
       "description_en": "KIZUNA ENCOUNTER is a fighting game released by SNK in 1996. Create a team of two fighters and use weapons and your fists to win in single-round sudden death tag-team matches! Experience the feel of an advanced battle system that pairs mid-battle character change-ups and easy commands leading to rush combos!",
@@ -37480,7 +37260,7 @@
       "itchUrl": "",
       "ccu": 0,
       "trending": false,
-      "rating": 0,
+      "rating": 82,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
@@ -37539,7 +37319,7 @@
       "signals": {
         "ccu": 0,
         "trending": false,
-        "rating": 0,
+        "rating": 82,
         "igdb": false,
         "gog": false,
         "rawg": false
@@ -40118,7 +39898,8 @@
       "title": "Team Fortress 2",
       "categories": [
         "action",
-        "strategy"
+        "strategy",
+        "free"
       ],
       "genres": [
         "action",
@@ -40128,7 +39909,7 @@
         "online"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-4",
       "releaseYear": 2007,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/440/header.jpg",
@@ -40169,7 +39950,8 @@
       "taxonomy": {
         "categories": [
           "action",
-          "strategy"
+          "strategy",
+          "free"
         ],
         "genres": [
           "action",
@@ -40181,7 +39963,7 @@
         "localCoop": false,
         "splitScreen": false,
         "sharedScreen": false,
-        "crossplay": false,
+        "crossplay": true,
         "playersLabel": "1-4",
         "maxPlayers": 4
       },
@@ -40421,7 +40203,8 @@
       "categories": [
         "indie",
         "horror",
-        "survival"
+        "survival",
+        "free"
       ],
       "genres": [
         "horror",
@@ -40473,7 +40256,8 @@
         "categories": [
           "indie",
           "horror",
-          "survival"
+          "survival",
+          "free"
         ],
         "genres": [
           "horror",
@@ -40522,7 +40306,8 @@
       "title": "Age of Empires III: Definitive Edition",
       "categories": [
         "strategy",
-        "factory"
+        "factory",
+        "free"
       ],
       "genres": [
         "strategy",
@@ -40533,7 +40318,7 @@
         "local"
       ],
       "maxPlayers": 8,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-8",
       "releaseYear": 2020,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/933110/header.jpg",
@@ -40574,7 +40359,8 @@
       "taxonomy": {
         "categories": [
           "strategy",
-          "factory"
+          "factory",
+          "free"
         ],
         "genres": [
           "strategy",
@@ -40586,7 +40372,7 @@
         "localCoop": true,
         "splitScreen": false,
         "sharedScreen": false,
-        "crossplay": false,
+        "crossplay": true,
         "playersLabel": "1-8",
         "maxPlayers": 8
       },
@@ -40630,7 +40416,8 @@
         "action"
       ],
       "coopMode": [
-        "online"
+        "local",
+        "sofa"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -40682,10 +40469,10 @@
         ]
       },
       "capabilities": {
-        "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "onlineCoop": false,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-4",
         "maxPlayers": 4
@@ -40735,7 +40522,7 @@
         "online"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-4",
       "releaseYear": 2019,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1017900/header.jpg",
@@ -40790,7 +40577,7 @@
         "localCoop": false,
         "splitScreen": false,
         "sharedScreen": false,
-        "crossplay": false,
+        "crossplay": true,
         "playersLabel": "1-4",
         "maxPlayers": 4
       },
@@ -40835,7 +40622,7 @@
         "online"
       ],
       "maxPlayers": 3,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-3",
       "releaseYear": 2026,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2510960/9eed19ba2e454b3a0a00dde88966dcd2e5decc04/header.jpg?t=1775150983",
@@ -40886,7 +40673,7 @@
         "localCoop": false,
         "splitScreen": false,
         "sharedScreen": false,
-        "crossplay": false,
+        "crossplay": true,
         "playersLabel": "1-3",
         "maxPlayers": 3
       },
@@ -41384,102 +41171,6 @@
         "ccu": 0,
         "trending": false,
         "rating": 92,
-        "igdb": false,
-        "gog": false,
-        "rawg": false
-      },
-      "editorial": {
-        "played": false,
-        "personalNote": ""
-      },
-      "sourceMeta": {
-        "ingestSource": "games.js",
-        "schemaVersion": 1
-      }
-    },
-    {
-      "id": 663,
-      "igdbId": 267171,
-      "title": "Lugh World",
-      "categories": [
-        "action"
-      ],
-      "genres": [
-        "action"
-      ],
-      "coopMode": [
-        "online"
-      ],
-      "maxPlayers": 4,
-      "crossplay": false,
-      "players": "2-4",
-      "releaseYear": 0,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234720/154d3ced12edd2dcbb880e749dd5558b5fc6d540/header.jpg?t=1775721494",
-      "description": "Lugh World is an action monster-taming MMORPG set in a living, ever-evolving open world. Capture and evolve unique beings called Lughs, explore a vast world, and face epic challenges in real-time battles. Uncover secrets, forge your own path, and live the game you’ve always dreamed of!",
-      "description_en": "Lugh World is an action monster-taming MMORPG set in a living, ever-evolving open world. Capture and evolve unique beings called Lughs, explore a vast world, and face epic challenges in real-time battles. Uncover secrets, forge your own path, and live the game you’ve always dreamed of!",
-      "personalNote": "",
-      "played": false,
-      "steamUrl": "https://store.steampowered.com/app/3234720/",
-      "gogUrl": "",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 0,
-      "trending": false,
-      "rating": 0,
-      "igUrl": "",
-      "igDiscount": 0,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "",
-      "gsDiscount": 0,
-      "kgUrl": "",
-      "kgDiscount": 0,
-      "k4gUrl": "",
-      "k4gDiscount": 0,
-      "gmvUrl": "",
-      "gmvDiscount": 0,
-      "gmgUrl": "",
-      "gmgDiscount": 0,
-      "coopScore": null,
-      "mini_review_it": "",
-      "mini_review_en": "",
-      "slug": "lugh-world",
-      "isFeaturedIndie": false,
-      "descriptions": {
-        "it": "Lugh World is an action monster-taming MMORPG set in a living, ever-evolving open world. Capture and evolve unique beings called Lughs, explore a vast world, and face epic challenges in real-time battles. Uncover secrets, forge your own path, and live the game you’ve always dreamed of!",
-        "en": "Lugh World is an action monster-taming MMORPG set in a living, ever-evolving open world. Capture and evolve unique beings called Lughs, explore a vast world, and face epic challenges in real-time battles. Uncover secrets, forge your own path, and live the game you’ve always dreamed of!"
-      },
-      "taxonomy": {
-        "categories": [
-          "action"
-        ],
-        "genres": [
-          "action"
-        ]
-      },
-      "capabilities": {
-        "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
-        "crossplay": false,
-        "playersLabel": "2-4",
-        "maxPlayers": 4
-      },
-      "storefronts": [
-        {
-          "store": "steam",
-          "url": "https://store.steampowered.com/app/3234720/",
-          "externalId": "3234720"
-        }
-      ],
-      "externalIds": {
-        "steamAppId": "3234720"
-      },
-      "signals": {
-        "ccu": 0,
-        "trending": false,
-        "rating": 0,
         "igdb": false,
         "gog": false,
         "rawg": false
