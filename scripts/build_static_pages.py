@@ -628,7 +628,7 @@ def render_static_page(game: dict, all_games: list | None = None) -> str:
     hero_image_html = ""
     if game["image"]:
         hero_image_html = (
-            f'<img class="game-hero-img" src="{esc(image)}" alt="{esc(game["title"])}" '
+            f'<img class="game-hero-img" src="{esc(image)}" alt="{esc(game["title"])}" loading="lazy" '
             "onerror=\"this.style.display='none'\">"
         )
 
@@ -804,7 +804,7 @@ def render_static_page_en(game: dict, all_games: list | None = None) -> str:
     hero_image_html = ""
     if game["image"]:
         hero_image_html = (
-            f'<img class="game-hero-img" src="{esc(image)}" alt="{esc(game["title"])}" '
+            f'<img class="game-hero-img" src="{esc(image)}" alt="{esc(game["title"])}" loading="lazy" '
             "onerror=\"this.style.display='none'\">"
         )
 

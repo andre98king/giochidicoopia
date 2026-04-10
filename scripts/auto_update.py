@@ -135,6 +135,28 @@ def _run_quality_gate(steam_appid: str) -> dict:
     )
 
 
+def _validate_coop(steam_appid: str) -> dict | None:
+    """
+    Wrapper per quality_gate.validate() con sources=frozenset({'steam', 'igdb'}) e rate_limit_delay=1.5.
+    Ritorna None se rejected o needs_review, altrimenti ritorna il verdict.
+    """
+    verdict = quality_gate.validate(
+        str(steam_appid),
+        rawg_api_key=RAWG_API_KEY or None,
+        igdb_client_id=IGDB_CLIENT_ID or None,
+        igdb_client_secret=IGDB_CLIENT_SECRET or None,
+        sources=frozenset({"steam", "igdb"}),
+        rate_limit_delay=1.5,
+    )
+    if verdict["status"] == "rejected":
+        print(f"    ✗ Validazione co-op rifiutata: {verdict['reason']}")
+        return None
+    if verdict["status"] == "needs_review":
+        print(f"    ⚠ Validazione co-op needs_review: {verdict['reason']}")
+        return None
+    return verdict
+
+
 def _fetch_steam_store_reviews(appid: str) -> tuple[int, int]:
     """Fallback: legge conteggio recensioni dalla store page Steam.
     Usato per giochi F2P dove SteamSpy non espone positive/negative.
@@ -204,6 +226,22 @@ def _enrich_steam_candidate(
 
     categories = _categorize_from_labels(genres_raw + steam_cats + spy_tags)
 
+    # Verifica PvP-only publisher (blocca publisher che fanno solo giochi competitivi PvP)
+    new_pub = sd.get("publishers", []) or []
+    new_dev = sd.get("developers", []) or []
+    new_publishers = [p.lower() for p in new_pub + new_dev if isinstance(p, str)]
+    is_pvp_publisher = any(
+        pvp_pub in pub for pub in new_publishers for pvp_pub in PvP_ONLY_PUBLISHERS
+    )
+    if is_pvp_publisher:
+        print(f"    ✗ Publisher PvP-only: {new_publishers}")
+        return None
+
+    # Verifica PvP-only game (blocca giochi specifici che sono solo PvP/MOBA)
+    if appid in PvP_ONLY_GAMES:
+        print(f"    ✗ Gioco PvP-only conosciuto: appid {appid}")
+        return None
+
     # Verifica indie e free
     new_pub = sd.get("publishers", []) or []
     new_dev = sd.get("developers", []) or []
@@ -239,6 +277,12 @@ def _enrich_steam_candidate(
     steam_cats_lower = [c.lower() for c in steam_cats]
     coop_modes = qg_verdict["coop_modes"] or derive_coop_modes(steam_cats_lower)
     release_year = parse_release_year(sd.get("release_date"))
+
+    # Valida co-op DENTRO il processo di discovery (non solo dopo)
+    # Questo blocca i giochi PvP/MOBA che SteamSpy erroneamente tagga come co-op
+    coop_validation = _validate_coop(appid)
+    if coop_validation is None:
+        return None  # rejected o needs_review già loggato da _validate_coop
 
     return _build_steam_game_dict(
         next_id=next_id,

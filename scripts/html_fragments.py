@@ -93,7 +93,7 @@ HTML_HEAD_IT = """\
   <link rel="alternate" hreflang="en" href="{en_url}">
   <link rel="alternate" hreflang="x-default" href="{it_url}">
 
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="video.game">
   <meta property="og:site_name" content="Coophubs">
   <meta property="og:title" content="{title}">
   <meta property="og:description" content="{description}">
@@ -128,7 +128,7 @@ HTML_HEAD_EN = """\
   <link rel="alternate" hreflang="en" href="{en_url}">
   <link rel="alternate" hreflang="x-default" href="{it_url}">
 
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="video.game">
   <meta property="og:site_name" content="Coophubs">
   <meta property="og:title" content="{title}">
   <meta property="og:description" content="{description}">

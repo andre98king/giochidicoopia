@@ -146,14 +146,14 @@ BLACKLIST_APPIDS = {
 }
 
 # Filtro qualità minima per nuovi giochi — pipeline SteamSpy (trending)
-MIN_RATING_NEW = 65  # rating minimo (%) per giochi SteamSpy
-MIN_CCU_NEW = 500  # CCU minimo per candidati SteamSpy
+MIN_RATING_NEW = 75  # rating minimo (%) per giochi SteamSpy (aumentato da 65)
+MIN_CCU_NEW = 2000  # CCU minimo per candidati SteamSpy (aumentato da 500)
 
 # Filtro qualità per pipeline IGDB/GOG (giochi non necessariamente trending)
 # Qui non usiamo CCU perché penalizza: co-op locale, indie di nicchia, giochi vecchi.
 # Usiamo invece: recensioni totali Steam come prova di interesse + rating %
 MIN_RATING_QUALITY = 70  # rating % minimo (più alto perché non filtra CCU)
-MIN_REVIEWS_QUALITY = 50  # recensioni totali Steam minime (pos+neg)
+MIN_REVIEWS_QUALITY = 100  # recensioni totali Steam minime (pos+neg) (aumentato da 50)
 MIN_IGDB_RATING = 65  # IGDB rating (0-100) minimo per giochi senza dati Steam
 
 SKIP_WORDS = [
@@ -350,3 +350,39 @@ VERIFIED_COOP_APPIDS = {
     "440",  # Team Fortress 2 (MvM co-op mode)
     "505460",  # Foxhole (team-based co-op warfare)
 }
+
+# Publisher che pubblicano SOLO giochi PvP/MOBA (non co-op)
+PvP_ONLY_PUBLISHERS = {
+    "riot games",
+    "tencent games", 
+    "nexon",
+    "smilegate",
+    "krafton",
+    "valve",
+    "supercell",
+}
+
+# Giochi specifici che sono PvP-only nonostante i tag
+PvP_ONLY_GAMES = {
+    "574421",  # VALORANT
+    "570",     # Dota 2
+    "730",     # Counter-Strike 2
+    "578080",  # PUBG
+    "1162720", # Lost Ark
+    "440900",  # Legends of Runeterra
+}
+
+# Funzione helper per verificare se un gioco è genuinamente co-op basato sulle categorie Steam
+def is_true_coop(cat_ids: set[int]) -> bool:
+    """
+    Un gioco è co-op solo se HA categorie co-op E NON è solo PvP.
+    Questo previene falsi positivi da giochi PvP-only che hanno tag co-op generici.
+    """
+    # Categorie Steam che indicano co-op autentico
+    COOP_ONLY_CATS = {9, 38, 39, 24, 48, 44}  # Co-op, RPG, etc. con co-op
+    # Categorie Steam che indicano solo PvP/MOBA
+    SOLO_PVP_CATS = {49, 36, 37, 47}  # PvP categories
+    
+    has_coop = bool(cat_ids & COOP_ONLY_CATS)
+    has_only_pvp = bool(cat_ids & SOLO_PVP_CATS) and not has_coop
+    return has_coop and not has_only_pvp
