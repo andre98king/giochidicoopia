@@ -1,0 +1,1464 @@
+{
+  "lastUpdated": "2026-04-11T17:03:33.041373",
+  "count": 162,
+  "games": [
+    {
+      "id": 131,
+      "title": "Trine 4: The Nightmare Prince",
+      "steamUrl": "1057090",
+      "firstSeen": "2026-04-11T16:59:06.180620",
+      "lastRetry": "2026-04-11T17:02:30.797808",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 253,
+      "title": "Prodeus",
+      "steamUrl": "964800",
+      "firstSeen": "2026-04-11T16:59:32.231040",
+      "lastRetry": "2026-04-11T16:59:32.231046",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 260,
+      "title": "Tower Unite",
+      "steamUrl": "394690",
+      "firstSeen": "2026-04-11T16:59:33.014688",
+      "lastRetry": "2026-04-11T16:59:33.014693",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 265,
+      "title": "Absolum",
+      "steamUrl": "1904480",
+      "firstSeen": "2026-04-11T16:59:33.197976",
+      "lastRetry": "2026-04-11T16:59:33.197981",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 264,
+      "title": "PEAK",
+      "steamUrl": "3527290",
+      "firstSeen": "2026-04-11T16:59:33.218515",
+      "lastRetry": "2026-04-11T16:59:33.218521",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 266,
+      "title": "RV There Yet?",
+      "steamUrl": "3949040",
+      "firstSeen": "2026-04-11T16:59:33.241016",
+      "lastRetry": "2026-04-11T16:59:33.241020",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 267,
+      "title": "Borderlands 4",
+      "steamUrl": "1285190",
+      "firstSeen": "2026-04-11T16:59:37.592817",
+      "lastRetry": "2026-04-11T16:59:37.592822",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 268,
+      "title": "Coral Island",
+      "steamUrl": "1158160",
+      "firstSeen": "2026-04-11T16:59:38.159217",
+      "lastRetry": "2026-04-11T16:59:38.159222",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 269,
+      "title": "Windswept",
+      "steamUrl": "1660960",
+      "firstSeen": "2026-04-11T16:59:38.350384",
+      "lastRetry": "2026-04-11T16:59:38.350389",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 270,
+      "title": "Bellwright",
+      "steamUrl": "1812450",
+      "firstSeen": "2026-04-11T16:59:38.396035",
+      "lastRetry": "2026-04-11T16:59:38.396041",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 271,
+      "title": "ARC Raiders",
+      "steamUrl": "1808500",
+      "firstSeen": "2026-04-11T16:59:38.432353",
+      "lastRetry": "2026-04-11T16:59:38.432358",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 272,
+      "title": "Minecraft Dungeons",
+      "steamUrl": "1672970",
+      "firstSeen": "2026-04-11T16:59:42.762871",
+      "lastRetry": "2026-04-11T16:59:42.762876",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 273,
+      "title": "Dune: Awakening",
+      "steamUrl": "1172710",
+      "firstSeen": "2026-04-11T16:59:43.281824",
+      "lastRetry": "2026-04-11T16:59:43.281829",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 274,
+      "title": "Orcs Must Die! 3",
+      "steamUrl": "1522820",
+      "firstSeen": "2026-04-11T16:59:43.471165",
+      "lastRetry": "2026-04-11T16:59:43.471170",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 275,
+      "title": "Spiritfarer®: Edizione Farewell",
+      "steamUrl": "972660",
+      "firstSeen": "2026-04-11T16:59:43.540318",
+      "lastRetry": "2026-04-11T16:59:43.540323",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 276,
+      "title": "Abyssus",
+      "steamUrl": "1721110",
+      "firstSeen": "2026-04-11T16:59:43.665587",
+      "lastRetry": "2026-04-11T16:59:43.665592",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 277,
+      "title": "Dying Light: The Beast",
+      "steamUrl": "3008130",
+      "firstSeen": "2026-04-11T16:59:47.903238",
+      "lastRetry": "2026-04-11T16:59:47.903243",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 279,
+      "title": "LEGO® Star Wars™: La Saga Degli Skywalker",
+      "steamUrl": "920210",
+      "firstSeen": "2026-04-11T16:59:54.048098",
+      "lastRetry": "2026-04-11T16:59:54.048105",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 282,
+      "title": "Unrailed 2: Back on Track",
+      "steamUrl": "2211170",
+      "firstSeen": "2026-04-11T16:59:54.065433",
+      "lastRetry": "2026-04-11T16:59:54.065439",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 278,
+      "title": "Monaco: What's Yours Is Mine",
+      "steamUrl": "113020",
+      "firstSeen": "2026-04-11T16:59:54.095510",
+      "lastRetry": "2026-04-11T16:59:54.095514",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 280,
+      "title": "Untitled Goose Game",
+      "steamUrl": "837470",
+      "firstSeen": "2026-04-11T16:59:54.100082",
+      "lastRetry": "2026-04-11T16:59:54.100085",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 281,
+      "title": "Operation: Tango",
+      "steamUrl": "1335790",
+      "firstSeen": "2026-04-11T16:59:54.105458",
+      "lastRetry": "2026-04-11T16:59:54.105463",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 284,
+      "title": "Biped 2",
+      "steamUrl": "2560240",
+      "firstSeen": "2026-04-11T16:59:59.193798",
+      "lastRetry": "2026-04-11T16:59:59.193803",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 283,
+      "title": "Tools Up!",
+      "steamUrl": "1004490",
+      "firstSeen": "2026-04-11T16:59:59.217466",
+      "lastRetry": "2026-04-11T16:59:59.217472",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 287,
+      "title": "Children of Morta",
+      "steamUrl": "330020",
+      "firstSeen": "2026-04-11T16:59:59.248035",
+      "lastRetry": "2026-04-11T16:59:59.248040",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 285,
+      "title": "Nobody Saves the World",
+      "steamUrl": "1432050",
+      "firstSeen": "2026-04-11T16:59:59.318193",
+      "lastRetry": "2026-04-11T16:59:59.318198",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 286,
+      "title": "Darksiders Genesis",
+      "steamUrl": "710920",
+      "firstSeen": "2026-04-11T16:59:59.331175",
+      "lastRetry": "2026-04-11T16:59:59.331180",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 289,
+      "title": "Ember Knights",
+      "steamUrl": "1135230",
+      "firstSeen": "2026-04-11T17:00:04.384044",
+      "lastRetry": "2026-04-11T17:00:04.384049",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 291,
+      "title": "DARK SOULS II: Scholar of the First Sin",
+      "steamUrl": "335300",
+      "firstSeen": "2026-04-11T17:00:04.409259",
+      "lastRetry": "2026-04-11T17:00:04.409263",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 292,
+      "title": "DOOM",
+      "steamUrl": "379720",
+      "firstSeen": "2026-04-11T17:00:04.442483",
+      "lastRetry": "2026-04-11T17:00:04.442487",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 293,
+      "title": "Sniper Elite 5",
+      "steamUrl": "1029690",
+      "firstSeen": "2026-04-11T17:00:04.505190",
+      "lastRetry": "2026-04-11T17:00:04.505195",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 288,
+      "title": "Trine 5: A Clockwork Conspiracy",
+      "steamUrl": "1436700",
+      "firstSeen": "2026-04-11T17:00:04.727349",
+      "lastRetry": "2026-04-11T17:00:04.727354",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 294,
+      "title": "Rec Room",
+      "steamUrl": "471710",
+      "firstSeen": "2026-04-11T17:00:09.604939",
+      "lastRetry": "2026-04-11T17:00:09.604944",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 298,
+      "title": "Total War: WARHAMMER II",
+      "steamUrl": "594570",
+      "firstSeen": "2026-04-11T17:00:09.646914",
+      "lastRetry": "2026-04-11T17:00:09.646919",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 296,
+      "title": "Ranch Simulator: Build, Hunt, Farm",
+      "steamUrl": "1119730",
+      "firstSeen": "2026-04-11T17:00:09.764564",
+      "lastRetry": "2026-04-11T17:00:09.764569",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 299,
+      "title": "Abiotic Factor",
+      "steamUrl": "427410",
+      "firstSeen": "2026-04-11T17:00:09.867891",
+      "lastRetry": "2026-04-11T17:00:09.867896",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 302,
+      "title": "BLEACH Brave Souls",
+      "steamUrl": "1201240",
+      "firstSeen": "2026-04-11T17:00:16.103923",
+      "lastRetry": "2026-04-11T17:00:16.103928",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 300,
+      "title": "Total War: ATTILA",
+      "steamUrl": "325610",
+      "firstSeen": "2026-04-11T17:00:16.148357",
+      "lastRetry": "2026-04-11T17:00:16.148363",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 305,
+      "title": "Kingdom Two Crowns",
+      "steamUrl": "701160",
+      "firstSeen": "2026-04-11T17:00:16.185741",
+      "lastRetry": "2026-04-11T17:00:16.185745",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 301,
+      "title": "Need for Speed Heat",
+      "steamUrl": "1222680",
+      "firstSeen": "2026-04-11T17:00:16.196232",
+      "lastRetry": "2026-04-11T17:00:16.196237",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 306,
+      "title": "Far Cry 5",
+      "steamUrl": "552520",
+      "firstSeen": "2026-04-11T17:00:17.109501",
+      "lastRetry": "2026-04-11T17:00:17.109507",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 309,
+      "title": "Northgard: Definitive Edition",
+      "steamUrl": "466560",
+      "firstSeen": "2026-04-11T17:00:21.416781",
+      "lastRetry": "2026-04-11T17:00:21.416787",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 308,
+      "title": "Deadzone: Rogue",
+      "steamUrl": "3228590",
+      "firstSeen": "2026-04-11T17:00:21.439824",
+      "lastRetry": "2026-04-11T17:00:21.439829",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 310,
+      "title": "Lost Castle 2",
+      "steamUrl": "2445690",
+      "firstSeen": "2026-04-11T17:00:21.610199",
+      "lastRetry": "2026-04-11T17:00:21.610204",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 307,
+      "title": "State of Decay 2: Juggernaut Edition",
+      "steamUrl": "495420",
+      "firstSeen": "2026-04-11T17:00:21.637588",
+      "lastRetry": "2026-04-11T17:00:21.637593",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 311,
+      "title": "Farm Together 2",
+      "steamUrl": "2418520",
+      "firstSeen": "2026-04-11T17:00:22.309144",
+      "lastRetry": "2026-04-11T17:00:22.309149",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 312,
+      "title": "Star Trek Online",
+      "steamUrl": "9900",
+      "firstSeen": "2026-04-11T17:00:26.601360",
+      "lastRetry": "2026-04-11T17:00:26.601366",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 313,
+      "title": "Dead Island 2",
+      "steamUrl": "934700",
+      "firstSeen": "2026-04-11T17:00:26.669845",
+      "lastRetry": "2026-04-11T17:00:26.669850",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 314,
+      "title": "Granblue Fantasy: Relink",
+      "steamUrl": "881020",
+      "firstSeen": "2026-04-11T17:00:26.782393",
+      "lastRetry": "2026-04-11T17:00:26.782398",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 315,
+      "title": "Empyrion - Galactic Survival",
+      "steamUrl": "383120",
+      "firstSeen": "2026-04-11T17:00:26.973915",
+      "lastRetry": "2026-04-11T17:00:26.973920",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 319,
+      "title": "Sniper Elite: Resistance",
+      "steamUrl": "2169200",
+      "firstSeen": "2026-04-11T17:00:27.631130",
+      "lastRetry": "2026-04-11T17:00:27.631136",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 322,
+      "title": "Scrap Mechanic",
+      "steamUrl": "387990",
+      "firstSeen": "2026-04-11T17:00:31.848019",
+      "lastRetry": "2026-04-11T17:00:31.848025",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 323,
+      "title": "Trailmakers",
+      "steamUrl": "585420",
+      "firstSeen": "2026-04-11T17:00:31.957120",
+      "lastRetry": "2026-04-11T17:00:31.957125",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 320,
+      "title": "FOUNDRY",
+      "steamUrl": "983870",
+      "firstSeen": "2026-04-11T17:00:31.958009",
+      "lastRetry": "2026-04-11T17:00:31.958012",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 324,
+      "title": "Starbound",
+      "steamUrl": "211820",
+      "firstSeen": "2026-04-11T17:00:32.174606",
+      "lastRetry": "2026-04-11T17:00:32.174611",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 326,
+      "title": "The Crew 2",
+      "steamUrl": "646910",
+      "firstSeen": "2026-04-11T17:00:38.324486",
+      "lastRetry": "2026-04-11T17:00:38.324492",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 329,
+      "title": "Watch_Dogs 2",
+      "steamUrl": "447040",
+      "firstSeen": "2026-04-11T17:00:38.486405",
+      "lastRetry": "2026-04-11T17:00:38.486409",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 328,
+      "title": "WolfQuest: Anniversary Edition",
+      "steamUrl": "926990",
+      "firstSeen": "2026-04-11T17:00:38.499806",
+      "lastRetry": "2026-04-11T17:00:38.499810",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 327,
+      "title": "WARNO",
+      "steamUrl": "1611600",
+      "firstSeen": "2026-04-11T17:00:38.834884",
+      "lastRetry": "2026-04-11T17:00:38.834889",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 325,
+      "title": "Pantheon: Rise of the Fallen",
+      "steamUrl": "3107230",
+      "firstSeen": "2026-04-11T17:00:38.835410",
+      "lastRetry": "2026-04-11T17:00:38.835413",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 330,
+      "title": "Plants vs. Zombies Garden Warfare 2: Deluxe Edition",
+      "steamUrl": "1922560",
+      "firstSeen": "2026-04-11T17:00:43.646333",
+      "lastRetry": "2026-04-11T17:00:43.646338",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 334,
+      "title": "Oddsparks: An Automation Adventure",
+      "steamUrl": "1817800",
+      "firstSeen": "2026-04-11T17:00:43.696586",
+      "lastRetry": "2026-04-11T17:00:43.696591",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 331,
+      "title": "RuneScape: Dragonwilds",
+      "steamUrl": "1374490",
+      "firstSeen": "2026-04-11T17:00:43.711039",
+      "lastRetry": "2026-04-11T17:00:43.711044",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 335,
+      "title": "Age of Mythology: Extended Edition",
+      "steamUrl": "266840",
+      "firstSeen": "2026-04-11T17:00:44.056311",
+      "lastRetry": "2026-04-11T17:00:44.056316",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 336,
+      "title": "Crab Champions",
+      "steamUrl": "774801",
+      "firstSeen": "2026-04-11T17:00:44.156420",
+      "lastRetry": "2026-04-11T17:00:44.156425",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 339,
+      "title": "Left 4 Dead",
+      "steamUrl": "500",
+      "firstSeen": "2026-04-11T17:00:48.842342",
+      "lastRetry": "2026-04-11T17:00:48.842347",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 337,
+      "title": "The Lord of the Rings Online",
+      "steamUrl": "212500",
+      "firstSeen": "2026-04-11T17:00:48.854277",
+      "lastRetry": "2026-04-11T17:00:48.854280",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 338,
+      "title": "One-armed robber",
+      "steamUrl": "2551020",
+      "firstSeen": "2026-04-11T17:00:48.894944",
+      "lastRetry": "2026-04-11T17:00:48.894949",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 340,
+      "title": "Tom Clancy’s The Division",
+      "steamUrl": "365590",
+      "firstSeen": "2026-04-11T17:00:49.205002",
+      "lastRetry": "2026-04-11T17:00:49.205008",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 341,
+      "title": "MORDHAU",
+      "steamUrl": "629760",
+      "firstSeen": "2026-04-11T17:00:49.275728",
+      "lastRetry": "2026-04-11T17:00:49.275733",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 342,
+      "title": "Trove",
+      "steamUrl": "304050",
+      "firstSeen": "2026-04-11T17:00:53.969850",
+      "lastRetry": "2026-04-11T17:00:53.969855",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 343,
+      "title": "Neverwinter Nights: Enhanced Edition",
+      "steamUrl": "704450",
+      "firstSeen": "2026-04-11T17:00:54.029388",
+      "lastRetry": "2026-04-11T17:00:54.029394",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 344,
+      "title": "HumanitZ",
+      "steamUrl": "1766060",
+      "firstSeen": "2026-04-11T17:00:54.076191",
+      "lastRetry": "2026-04-11T17:00:54.076197",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 1,
+      "title": "ELDEN RING NIGHTREIGN",
+      "steamUrl": "2622380",
+      "firstSeen": "2026-04-11T17:01:12.917514",
+      "lastRetry": "2026-04-11T17:01:12.917521",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 6,
+      "title": "Dead by Daylight",
+      "steamUrl": "381210",
+      "firstSeen": "2026-04-11T17:01:13.067559",
+      "lastRetry": "2026-04-11T17:01:13.067564",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 9,
+      "title": "DayZ",
+      "steamUrl": "221100",
+      "firstSeen": "2026-04-11T17:01:13.091064",
+      "lastRetry": "2026-04-11T17:01:13.091069",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 4,
+      "title": "HELLDIVERS 2",
+      "steamUrl": "553850",
+      "firstSeen": "2026-04-11T17:01:13.289037",
+      "lastRetry": "2026-04-11T17:01:13.289042",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 53,
+      "title": "Conan Exiles",
+      "steamUrl": "440900",
+      "firstSeen": "2026-04-11T17:01:29.004448",
+      "lastRetry": "2026-04-11T17:01:29.004453",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 62,
+      "title": "Raft",
+      "steamUrl": "648800",
+      "firstSeen": "2026-04-11T17:01:30.028499",
+      "lastRetry": "2026-04-11T17:01:30.028504",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 64,
+      "title": "Path of Exile",
+      "steamUrl": "238960",
+      "firstSeen": "2026-04-11T17:01:30.654654",
+      "lastRetry": "2026-04-11T17:01:30.654659",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 65,
+      "title": "Killing Floor 2",
+      "steamUrl": "232090",
+      "firstSeen": "2026-04-11T17:01:30.851413",
+      "lastRetry": "2026-04-11T17:01:30.851419",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 66,
+      "title": "Sons Of The Forest",
+      "steamUrl": "1326470",
+      "firstSeen": "2026-04-11T17:01:30.876491",
+      "lastRetry": "2026-04-11T17:01:30.876497",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 67,
+      "title": "Ready or Not",
+      "steamUrl": "1144200",
+      "firstSeen": "2026-04-11T17:01:34.177016",
+      "lastRetry": "2026-04-11T17:01:34.177021",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 68,
+      "title": "Dying Light 2 Stay Human: Reloaded Edition",
+      "steamUrl": "534380",
+      "firstSeen": "2026-04-11T17:01:35.238570",
+      "lastRetry": "2026-04-11T17:01:35.238575",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 69,
+      "title": "Space Engineers",
+      "steamUrl": "244850",
+      "firstSeen": "2026-04-11T17:01:35.847625",
+      "lastRetry": "2026-04-11T17:01:35.847630",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 71,
+      "title": "The Outlast Trials",
+      "steamUrl": "1304930",
+      "firstSeen": "2026-04-11T17:01:36.073957",
+      "lastRetry": "2026-04-11T17:01:36.073963",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 70,
+      "title": "Among Us",
+      "steamUrl": "945360",
+      "firstSeen": "2026-04-11T17:01:36.092333",
+      "lastRetry": "2026-04-11T17:01:36.092339",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 72,
+      "title": "MONSTER HUNTER RISE",
+      "steamUrl": "1446780",
+      "firstSeen": "2026-04-11T17:01:39.457341",
+      "lastRetry": "2026-04-11T17:01:39.457346",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 73,
+      "title": "Warhammer 40,000: Rogue Trader",
+      "steamUrl": "2186680",
+      "firstSeen": "2026-04-11T17:01:40.421951",
+      "lastRetry": "2026-04-11T17:01:40.421957",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 74,
+      "title": "Divinity: Original Sin 2 - Definitive Edition",
+      "steamUrl": "435150",
+      "firstSeen": "2026-04-11T17:01:41.056649",
+      "lastRetry": "2026-04-11T17:01:41.056655",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 76,
+      "title": "Borderlands 3",
+      "steamUrl": "397540",
+      "firstSeen": "2026-04-11T17:01:47.220463",
+      "lastRetry": "2026-04-11T17:01:47.220468",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 84,
+      "title": "Dinkum",
+      "steamUrl": "1062520",
+      "firstSeen": "2026-04-11T17:01:47.256629",
+      "lastRetry": "2026-04-11T17:01:47.256634",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 78,
+      "title": "Party Animals",
+      "steamUrl": "1260320",
+      "firstSeen": "2026-04-11T17:01:47.269703",
+      "lastRetry": "2026-04-11T17:01:47.269709",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 75,
+      "title": "Halo: The Master Chief Collection",
+      "steamUrl": "976730",
+      "firstSeen": "2026-04-11T17:01:47.390938",
+      "lastRetry": "2026-04-11T17:01:47.390943",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 85,
+      "title": "Grounded",
+      "steamUrl": "962130",
+      "firstSeen": "2026-04-11T17:01:52.358044",
+      "lastRetry": "2026-04-11T17:01:52.358049",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 90,
+      "title": "theHunter: Call of the Wild",
+      "steamUrl": "518790",
+      "firstSeen": "2026-04-11T17:01:52.540369",
+      "lastRetry": "2026-04-11T17:01:52.540376",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 91,
+      "title": "FOR HONOR",
+      "steamUrl": "304390",
+      "firstSeen": "2026-04-11T17:01:53.538896",
+      "lastRetry": "2026-04-11T17:01:53.538902",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 93,
+      "title": "Warhammer: Vermintide 2",
+      "steamUrl": "552500",
+      "firstSeen": "2026-04-11T17:01:55.033290",
+      "lastRetry": "2026-04-11T17:01:55.033295",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 95,
+      "title": "Overcooked! 2",
+      "steamUrl": "728880",
+      "firstSeen": "2026-04-11T17:01:57.600836",
+      "lastRetry": "2026-04-11T17:01:57.600841",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 99,
+      "title": "Portal 2",
+      "steamUrl": "620",
+      "firstSeen": "2026-04-11T17:01:58.610687",
+      "lastRetry": "2026-04-11T17:01:58.610693",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 100,
+      "title": "Insurgency: Sandstorm",
+      "steamUrl": "581320",
+      "firstSeen": "2026-04-11T17:01:58.720451",
+      "lastRetry": "2026-04-11T17:01:58.720456",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 101,
+      "title": "Escape the Backrooms",
+      "steamUrl": "1943950",
+      "firstSeen": "2026-04-11T17:02:00.225860",
+      "lastRetry": "2026-04-11T17:02:00.225865",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 103,
+      "title": "World War Z",
+      "steamUrl": "699130",
+      "firstSeen": "2026-04-11T17:02:02.727938",
+      "lastRetry": "2026-04-11T17:02:02.727943",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 104,
+      "title": "Green Hell",
+      "steamUrl": "815370",
+      "firstSeen": "2026-04-11T17:02:02.917071",
+      "lastRetry": "2026-04-11T17:02:02.917076",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 108,
+      "title": "Age of Mythology: Retold",
+      "steamUrl": "1934680",
+      "firstSeen": "2026-04-11T17:02:09.080251",
+      "lastRetry": "2026-04-11T17:02:09.080258",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 105,
+      "title": "Wartales",
+      "steamUrl": "1527950",
+      "firstSeen": "2026-04-11T17:02:09.105474",
+      "lastRetry": "2026-04-11T17:02:09.105479",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 107,
+      "title": "REMNANT II",
+      "steamUrl": "1282100",
+      "firstSeen": "2026-04-11T17:02:09.119097",
+      "lastRetry": "2026-04-11T17:02:09.119101",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 110,
+      "title": "ICARUS",
+      "steamUrl": "1149460",
+      "firstSeen": "2026-04-11T17:02:09.129160",
+      "lastRetry": "2026-04-11T17:02:09.129164",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 109,
+      "title": "Tinkerlands",
+      "steamUrl": "2617700",
+      "firstSeen": "2026-04-11T17:02:09.161677",
+      "lastRetry": "2026-04-11T17:02:09.161682",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 112,
+      "title": "Tom Clancy's Ghost Recon Wildlands",
+      "steamUrl": "460930",
+      "firstSeen": "2026-04-11T17:02:14.308682",
+      "lastRetry": "2026-04-11T17:02:14.308689",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 115,
+      "title": "Gunfire Reborn",
+      "steamUrl": "1217060",
+      "firstSeen": "2026-04-11T17:02:14.317137",
+      "lastRetry": "2026-04-11T17:02:14.317141",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 111,
+      "title": "Stormworks: Build and Rescue",
+      "steamUrl": "573090",
+      "firstSeen": "2026-04-11T17:02:14.325066",
+      "lastRetry": "2026-04-11T17:02:14.325071",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 114,
+      "title": "Tom Clancy's Ghost Recon Breakpoint",
+      "steamUrl": "2231380",
+      "firstSeen": "2026-04-11T17:02:14.354345",
+      "lastRetry": "2026-04-11T17:02:14.354350",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 117,
+      "title": "Medieval Dynasty",
+      "steamUrl": "1129580",
+      "firstSeen": "2026-04-11T17:02:16.903554",
+      "lastRetry": "2026-04-11T17:02:16.903560",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 118,
+      "title": "Ultimate Chicken Horse",
+      "steamUrl": "386940",
+      "firstSeen": "2026-04-11T17:02:19.435238",
+      "lastRetry": "2026-04-11T17:02:19.435243",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 121,
+      "title": "Human: Fall Flat",
+      "steamUrl": "477160",
+      "firstSeen": "2026-04-11T17:02:19.475624",
+      "lastRetry": "2026-04-11T17:02:19.475629",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 119,
+      "title": "Gang Beasts",
+      "steamUrl": "285900",
+      "firstSeen": "2026-04-11T17:02:19.491793",
+      "lastRetry": "2026-04-11T17:02:19.491797",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 120,
+      "title": "Stick Fight: The Game",
+      "steamUrl": "674940",
+      "firstSeen": "2026-04-11T17:02:19.494287",
+      "lastRetry": "2026-04-11T17:02:19.494290",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 122,
+      "title": "Lovers in a Dangerous Spacetime",
+      "steamUrl": "252110",
+      "firstSeen": "2026-04-11T17:02:22.068306",
+      "lastRetry": "2026-04-11T17:02:22.068310",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 126,
+      "title": "A Way Out",
+      "steamUrl": "1222700",
+      "firstSeen": "2026-04-11T17:02:24.626527",
+      "lastRetry": "2026-04-11T17:02:24.626532",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 125,
+      "title": "Broforce",
+      "steamUrl": "274190",
+      "firstSeen": "2026-04-11T17:02:24.640942",
+      "lastRetry": "2026-04-11T17:02:24.640946",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 124,
+      "title": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
+      "steamUrl": "1361510",
+      "firstSeen": "2026-04-11T17:02:24.645654",
+      "lastRetry": "2026-04-11T17:02:24.645657",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 132,
+      "title": "Rayman Legends",
+      "steamUrl": "242550",
+      "firstSeen": "2026-04-11T17:02:30.794560",
+      "lastRetry": "2026-04-11T17:02:30.794565",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 127,
+      "title": "Moving Out",
+      "steamUrl": "996770",
+      "firstSeen": "2026-04-11T17:02:30.813755",
+      "lastRetry": "2026-04-11T17:02:30.813759",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 130,
+      "title": "Spelunky 2",
+      "steamUrl": "418530",
+      "firstSeen": "2026-04-11T17:02:30.859790",
+      "lastRetry": "2026-04-11T17:02:30.859795",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 129,
+      "title": "TowerFall Ascension",
+      "steamUrl": "251470",
+      "firstSeen": "2026-04-11T17:02:30.863691",
+      "lastRetry": "2026-04-11T17:02:30.863694",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 135,
+      "title": "Move or Die",
+      "steamUrl": "323850",
+      "firstSeen": "2026-04-11T17:02:35.926229",
+      "lastRetry": "2026-04-11T17:02:35.926235",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 134,
+      "title": "Jackbox Party Pack",
+      "steamUrl": "331670",
+      "firstSeen": "2026-04-11T17:02:35.938563",
+      "lastRetry": "2026-04-11T17:02:35.938568",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 138,
+      "title": "KeyWe",
+      "steamUrl": "1242980",
+      "firstSeen": "2026-04-11T17:02:35.950559",
+      "lastRetry": "2026-04-11T17:02:35.950563",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 140,
+      "title": "Phogs!",
+      "steamUrl": "850320",
+      "firstSeen": "2026-04-11T17:02:35.986682",
+      "lastRetry": "2026-04-11T17:02:35.986688",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 146,
+      "title": "Vampire Survivors",
+      "steamUrl": "1794680",
+      "firstSeen": "2026-04-11T17:02:41.109282",
+      "lastRetry": "2026-04-11T17:02:41.109287",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 145,
+      "title": "Content Warning",
+      "steamUrl": "2881650",
+      "firstSeen": "2026-04-11T17:02:41.173989",
+      "lastRetry": "2026-04-11T17:02:41.173994",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 141,
+      "title": "Unravel Two",
+      "steamUrl": "1225570",
+      "firstSeen": "2026-04-11T17:02:41.209061",
+      "lastRetry": "2026-04-11T17:02:41.209066",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 149,
+      "title": "Stardew Valley",
+      "steamUrl": "413150",
+      "firstSeen": "2026-04-11T17:02:41.994373",
+      "lastRetry": "2026-04-11T17:02:41.994378",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 150,
+      "title": "Keep Talking and Nobody Explodes",
+      "steamUrl": "341800",
+      "firstSeen": "2026-04-11T17:02:42.144718",
+      "lastRetry": "2026-04-11T17:02:42.144723",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 151,
+      "title": "PICO PARK",
+      "steamUrl": "1509960",
+      "firstSeen": "2026-04-11T17:02:46.233823",
+      "lastRetry": "2026-04-11T17:02:46.233828",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 152,
+      "title": "Overcooked! All You Can Eat",
+      "steamUrl": "1243830",
+      "firstSeen": "2026-04-11T17:02:46.315786",
+      "lastRetry": "2026-04-11T17:02:46.315792",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 157,
+      "title": "Crab Game",
+      "steamUrl": "1782210",
+      "firstSeen": "2026-04-11T17:02:52.438955",
+      "lastRetry": "2026-04-11T17:02:52.438960",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 155,
+      "title": "We Were Here Together",
+      "steamUrl": "865360",
+      "firstSeen": "2026-04-11T17:02:52.506579",
+      "lastRetry": "2026-04-11T17:02:52.506584",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 162,
+      "title": "No Man's Sky",
+      "steamUrl": "275850",
+      "firstSeen": "2026-04-11T17:02:55.828861",
+      "lastRetry": "2026-04-11T17:02:55.828866",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 166,
+      "title": "Moving Out 2",
+      "steamUrl": "1641700",
+      "firstSeen": "2026-04-11T17:02:57.748635",
+      "lastRetry": "2026-04-11T17:02:57.748642",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 173,
+      "title": "Baldur's Gate 3",
+      "steamUrl": "1086940",
+      "firstSeen": "2026-04-11T17:03:00.148766",
+      "lastRetry": "2026-04-11T17:03:00.148771",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 181,
+      "title": "Lost Ark",
+      "steamUrl": "1599340",
+      "firstSeen": "2026-04-11T17:03:01.008934",
+      "lastRetry": "2026-04-11T17:03:01.008939",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 215,
+      "title": "Ravenswatch",
+      "steamUrl": "2071280",
+      "firstSeen": "2026-04-11T17:03:14.893431",
+      "lastRetry": "2026-04-11T17:03:14.893438",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 219,
+      "title": "Supermarket Simulator",
+      "steamUrl": "2670630",
+      "firstSeen": "2026-04-11T17:03:15.506575",
+      "lastRetry": "2026-04-11T17:03:15.506580",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 220,
+      "title": "Company of Heroes 2",
+      "steamUrl": "231430",
+      "firstSeen": "2026-04-11T17:03:15.707451",
+      "lastRetry": "2026-04-11T17:03:15.707456",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 221,
+      "title": "Devil May Cry 5",
+      "steamUrl": "601150",
+      "firstSeen": "2026-04-11T17:03:16.255380",
+      "lastRetry": "2026-04-11T17:03:16.255386",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 226,
+      "title": "Realm of the Mad God Exalt",
+      "steamUrl": "200210",
+      "firstSeen": "2026-04-11T17:03:18.312128",
+      "lastRetry": "2026-04-11T17:03:18.312134",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 227,
+      "title": "Predecessor",
+      "steamUrl": "961200",
+      "firstSeen": "2026-04-11T17:03:20.017048",
+      "lastRetry": "2026-04-11T17:03:20.017053",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 228,
+      "title": "Total War: SHOGUN 2",
+      "steamUrl": "34330",
+      "firstSeen": "2026-04-11T17:03:20.681633",
+      "lastRetry": "2026-04-11T17:03:20.681639",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 230,
+      "title": "Mechabellum",
+      "steamUrl": "669330",
+      "firstSeen": "2026-04-11T17:03:20.868711",
+      "lastRetry": "2026-04-11T17:03:20.868716",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 231,
+      "title": "Age of Wonders 4",
+      "steamUrl": "1669000",
+      "firstSeen": "2026-04-11T17:03:21.549490",
+      "lastRetry": "2026-04-11T17:03:21.549496",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 236,
+      "title": "Dungeon of the ENDLESS™",
+      "steamUrl": "249050",
+      "firstSeen": "2026-04-11T17:03:27.643014",
+      "lastRetry": "2026-04-11T17:03:27.643019",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 232,
+      "title": "Escape Simulator",
+      "steamUrl": "1435790",
+      "firstSeen": "2026-04-11T17:03:27.718550",
+      "lastRetry": "2026-04-11T17:03:27.718555",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 233,
+      "title": "Pikuniku",
+      "steamUrl": "572890",
+      "firstSeen": "2026-04-11T17:03:27.725716",
+      "lastRetry": "2026-04-11T17:03:27.725720",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 234,
+      "title": "GTFO",
+      "steamUrl": "493520",
+      "firstSeen": "2026-04-11T17:03:27.749998",
+      "lastRetry": "2026-04-11T17:03:27.750003",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 235,
+      "title": "We Need To Go Deeper",
+      "steamUrl": "307110",
+      "firstSeen": "2026-04-11T17:03:27.805398",
+      "lastRetry": "2026-04-11T17:03:27.805403",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 237,
+      "title": "Heave Ho",
+      "steamUrl": "905340",
+      "firstSeen": "2026-04-11T17:03:32.754957",
+      "lastRetry": "2026-04-11T17:03:32.754963",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 240,
+      "title": "Chained Together",
+      "steamUrl": "2567870",
+      "firstSeen": "2026-04-11T17:03:32.843194",
+      "lastRetry": "2026-04-11T17:03:32.843199",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 239,
+      "title": "Ghost Watchers",
+      "steamUrl": "1850740",
+      "firstSeen": "2026-04-11T17:03:32.847251",
+      "lastRetry": "2026-04-11T17:03:32.847254",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 238,
+      "title": "Necesse",
+      "steamUrl": "1169040",
+      "firstSeen": "2026-04-11T17:03:32.901826",
+      "lastRetry": "2026-04-11T17:03:32.901832",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    },
+    {
+      "id": 241,
+      "title": "Besiege",
+      "steamUrl": "346010",
+      "firstSeen": "2026-04-11T17:03:33.041366",
+      "lastRetry": "2026-04-11T17:03:33.041371",
+      "lastError": "Steam unavailable | IGDB could not find game — cannot verify",
+      "attempts": 3
+    }
+  ]
+}
