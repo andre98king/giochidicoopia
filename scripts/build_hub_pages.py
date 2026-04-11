@@ -81,7 +81,8 @@ HUB_DEFS = [
                     [
                         g
                         for g in games
-                        if (g.get("releaseYear") or 0) >= 2022 and (g.get("rating") or 0) >= 85
+                        if (g.get("releaseYear") or 0) >= 2022
+                        and (g.get("rating") or 0) >= 85
                     ],
                     key_fn=_rating_ccu_key,
                     top=24,
@@ -94,7 +95,9 @@ HUB_DEFS = [
                         g
                         for g in games
                         if (g.get("releaseYear") or 0) < 2022
-                        and ((g.get("ccu") or 0) >= 5000 or (g.get("rating") or 0) >= 95)
+                        and (
+                            (g.get("ccu") or 0) >= 5000 or (g.get("rating") or 0) >= 95
+                        )
                     ],
                     key_fn=lambda g: (-(g.get("rating") or 0), -(g.get("ccu") or 0)),
                     top=12,
@@ -1041,7 +1044,7 @@ def run() -> list[str]:
     """Genera tutte le hub pages IT e EN. Restituisce la lista degli slug IT generati."""
     games = catalog_data.load_games()
     generated: list[str] = []
-    en_dir = ROOT / "en"
+    en_dir = ROOT / "public" / "en"
     en_dir.mkdir(exist_ok=True)
 
     for defn in HUB_DEFS:
@@ -1066,7 +1069,7 @@ def run() -> list[str]:
             content = _render_page(defn, selected)
             label = f"{len(selected)} giochi"
 
-        out = ROOT / f"{slug}.html"
+        out = ROOT / "public" / f"{slug}.html"
         if out.exists() and out.read_text(encoding="utf-8") == content:
             print(f"  ✓ {slug}.html — invariata ({label})")
         else:

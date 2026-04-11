@@ -55,7 +55,7 @@ def main() -> int:
     warnings = []
 
     for page in INFO_PAGES:
-        if not (build_static_pages.ROOT / page).is_file():
+        if not (build_static_pages.OUTPUT_DIR / page).is_file():
             errors.append(f"Missing required page: {page}")
 
     games = build_static_pages.load_games()
