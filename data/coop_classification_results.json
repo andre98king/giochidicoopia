@@ -1,0 +1,3892 @@
+[
+  {
+    "id": 1,
+    "title": "ELDEN RING NIGHTREIGN",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 2,
+    "title": "Rust",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 4,
+    "title": "HELLDIVERS 2",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 5,
+    "title": "Tom Clancy's Rainbow Six Siege",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "NO",
+    "reasoning": ".\n\nNO"
+  },
+  {
+    "id": 6,
+    "title": "Dead by Daylight",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 7,
+    "title": "Team Fortress 2",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "NO",
+    "reasoning": ".\n\nNO"
+  },
+  {
+    "id": 8,
+    "title": "Grand Theft Auto V Enhanced",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 9,
+    "title": "DayZ",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 10,
+    "title": "Warframe",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 11,
+    "title": "R.E.P.O.",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 12,
+    "title": "Don't Starve Together",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 13,
+    "title": "PAYDAY 2",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 14,
+    "title": "Left 4 Dead 2",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 15,
+    "title": "Destiny 2",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 16,
+    "title": "Terraria",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 17,
+    "title": "Project Zomboid",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 18,
+    "title": "ARK: Survival Evolved",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 19,
+    "title": "Rocket League",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 20,
+    "title": "Garry's Mod",
+    "current_coopMode": [
+      "local"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 21,
+    "title": "Palworld",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 22,
+    "title": "7 Days to Die",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 23,
+    "title": "Total War: WARHAMMER III",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 24,
+    "title": "Factorio",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 25,
+    "title": "The Binding of Isaac: Rebirth",
+    "current_coopMode": [
+      "local"
+    ],
+    "classification": "NO",
+    "reasoning": ".\n\nNO"
+  },
+  {
+    "id": 26,
+    "title": "Valheim",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 27,
+    "title": "Black Desert",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 28,
+    "title": "Brawlhalla",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 29,
+    "title": "Age of Empires II: Definitive Edition",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 30,
+    "title": "Satisfactory",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 31,
+    "title": "Monster Hunter Wilds",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 32,
+    "title": "Monster Hunter: World",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 33,
+    "title": "V Rising",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 34,
+    "title": "Phasmophobia",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 35,
+    "title": "STAR WARS Battlefront II",
+    "current_coopMode": [
+      "local"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 36,
+    "title": "Squad",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 37,
+    "title": "Diablo IV",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 38,
+    "title": "Fallout 76",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 39,
+    "title": "Borderlands 2",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 40,
+    "title": "Risk of Rain 2",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 41,
+    "title": "Gray Zone Warfare",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 42,
+    "title": "Bloons TD 6",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 43,
+    "title": "The Planet Crafter",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 44,
+    "title": "Warhammer 40,000: Darktide",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 45,
+    "title": "Arma 3",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 46,
+    "title": "Age of Empires IV: Anniversary Edition",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 47,
+    "title": "Warhammer 40,000: Space Marine 2",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 48,
+    "title": "Brotato",
+    "current_coopMode": [
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 49,
+    "title": "Hunt: Showdown 1896",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "NO",
+    "reasoning": ".\n\nNO"
+  },
+  {
+    "id": 50,
+    "title": "Lethal Company",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 51,
+    "title": "The Isle",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 52,
+    "title": "Last Epoch",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 53,
+    "title": "Conan Exiles",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 54,
+    "title": "New World: Aeternum",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 55,
+    "title": "Split Fiction",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 56,
+    "title": "Sea of Thieves: 2025 Edition",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 57,
+    "title": "Call of Duty: Black Ops III",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 58,
+    "title": "Deep Rock Galactic",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 59,
+    "title": "It Takes Two",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 60,
+    "title": "Dying Light",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 62,
+    "title": "Raft",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 63,
+    "title": "SCP: Secret Laboratory",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 64,
+    "title": "Path of Exile",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 65,
+    "title": "Killing Floor 2",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 66,
+    "title": "Sons Of The Forest",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 67,
+    "title": "Ready or Not",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 68,
+    "title": "Dying Light 2 Stay Human: Reloaded Edition",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "UNKNOWN",
+    "reasoning": ".\n\nCO-OP"
+  },
+  {
+    "id": 69,
+    "title": "Space Engineers",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 70,
+    "title": "Among Us",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 71,
+    "title": "The Outlast Trials",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 72,
+    "title": "MONSTER HUNTER RISE",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 73,
+    "title": "Warhammer 40,000: Rogue Trader",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 74,
+    "title": "Divinity: Original Sin 2 - Definitive Edition",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 75,
+    "title": "Halo: The Master Chief Collection",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 76,
+    "title": "Borderlands 3",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 78,
+    "title": "Party Animals",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 79,
+    "title": "Age of Empires III: Definitive Edition",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 80,
+    "title": "Foxhole",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 82,
+    "title": "Anno 1800",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 84,
+    "title": "Dinkum",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 85,
+    "title": "Grounded",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 86,
+    "title": "Grim Dawn",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 87,
+    "title": "Barotrauma",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 88,
+    "title": "Halo Infinite",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 89,
+    "title": "Crossout",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 90,
+    "title": "theHunter: Call of the Wild",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 91,
+    "title": "FOR HONOR",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 93,
+    "title": "Warhammer: Vermintide 2",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 95,
+    "title": "Overcooked! 2",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 96,
+    "title": "Cuphead",
+    "current_coopMode": [
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 98,
+    "title": "Ghost of Tsushima DIRECTOR'S CUT",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 121,
+    "title": "Human: Fall Flat",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 122,
+    "title": "Lovers in a Dangerous Spacetime",
+    "current_coopMode": [
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 123,
+    "title": "Streets of Rage 4",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 124,
+    "title": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 125,
+    "title": "Broforce",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 126,
+    "title": "A Way Out",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 127,
+    "title": "Moving Out",
+    "current_coopMode": [
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 129,
+    "title": "TowerFall Ascension",
+    "current_coopMode": [
+      "local"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"T"
+  },
+  {
+    "id": 130,
+    "title": "Spelunky 2",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 131,
+    "title": "Trine 4: The Nightmare Prince",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 162,
+    "title": "No Man's Sky",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 163,
+    "title": "Castle Crashers Remastered",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 164,
+    "title": "Astroneer",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 166,
+    "title": "Moving Out 2",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"M"
+  },
+  {
+    "id": 167,
+    "title": "Divinity: Original Sin",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 208,
+    "title": "Drive Beyond Horizons",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 209,
+    "title": "Shop Titans",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"S"
+  },
+  {
+    "id": 210,
+    "title": "Guild Wars 2",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 212,
+    "title": "Fishing Planet",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 213,
+    "title": "DDraceNetwork",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 260,
+    "title": "Tower Unite",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 263,
+    "title": "Phantasy Star Online 2 New Genesis",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "NO",
+    "reasoning": ".\n\nThe user wants to know if *Phantasy Star Online 2 New Genesis* is primarily\nprimarily Co-op, PvP,"
+  },
+  {
+    "id": 264,
+    "title": "PEAK",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 265,
+    "title": "Absolum",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"A"
+  },
+  {
+    "id": 266,
+    "title": "RV There Yet?",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 316,
+    "title": "eFootball PES 2021 SEASON UPDATE",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "NO",
+    "reasoning": ".\n\nNO"
+  },
+  {
+    "id": 319,
+    "title": "Sniper Elite: Resistance",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 320,
+    "title": "FOUNDRY",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 322,
+    "title": "Scrap Mechanic",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 323,
+    "title": "Trailmakers",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 402,
+    "title": "Resident Evil 6",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 403,
+    "title": "Void Crew",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 404,
+    "title": "Sea of Stars",
+    "current_coopMode": [
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 405,
+    "title": "Door Kickers 2: Task Force North",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 426,
+    "title": "Dumpy and Bumpy",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 99,
+    "title": "Portal 2",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 100,
+    "title": "Insurgency: Sandstorm",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"I"
+  },
+  {
+    "id": 101,
+    "title": "Escape the Backrooms",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 103,
+    "title": "World War Z",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 104,
+    "title": "Green Hell",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 105,
+    "title": "Wartales",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 107,
+    "title": "REMNANT II",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "UNKNOWN",
+    "reasoning": "Thinking...\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Input: A video game title (\"REMN"
+  },
+  {
+    "id": 108,
+    "title": "Age of Mythology: Retold",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 109,
+    "title": "Tinkerlands",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 110,
+    "title": "ICARUS",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 111,
+    "title": "Stormworks: Build and Rescue",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 112,
+    "title": "Tom Clancy's Ghost Recon Wildlands",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"T"
+  },
+  {
+    "id": 113,
+    "title": "Nioh 2 \u2013 The Complete Edition",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 114,
+    "title": "Tom Clancy's Ghost Recon Breakpoint",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 115,
+    "title": "Gunfire Reborn",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 117,
+    "title": "Medieval Dynasty",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 118,
+    "title": "Ultimate Chicken Horse",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 119,
+    "title": "Gang Beasts",
+    "current_coopMode": [
+      "local",
+      "sofa"
+    ],
+    "classification": "UNKNOWN",
+    "reasoning": ".\n\nBased on the provided strict classification rules:\n\n1.  **Analyze the Game**: *Gang Beasts* is a "
+  },
+  {
+    "id": 120,
+    "title": "Stick Fight: The Game",
+    "current_coopMode": [
+      "local",
+      "sofa"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"S"
+  },
+  {
+    "id": 132,
+    "title": "Rayman Legends",
+    "current_coopMode": [
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 134,
+    "title": "Jackbox Party Pack",
+    "current_coopMode": [
+      "local",
+      "sofa"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"J"
+  },
+  {
+    "id": 135,
+    "title": "Move or Die",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 137,
+    "title": "PlateUp!",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"P"
+  },
+  {
+    "id": 138,
+    "title": "KeyWe",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 140,
+    "title": "Phogs!",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 141,
+    "title": "Unravel Two",
+    "current_coopMode": [
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 144,
+    "title": "Aliens: Fireteam Elite",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 145,
+    "title": "Content Warning",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 146,
+    "title": "Vampire Survivors",
+    "current_coopMode": [
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 148,
+    "title": "Core Keeper",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 149,
+    "title": "Stardew Valley",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 150,
+    "title": "Keep Talking and Nobody Explodes",
+    "current_coopMode": [
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 151,
+    "title": "PICO PARK",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 152,
+    "title": "Overcooked! All You Can Eat",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 154,
+    "title": "Magicka 2",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 155,
+    "title": "We Were Here Together",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 156,
+    "title": "We Were Here Forever",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 157,
+    "title": "Crab Game",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 158,
+    "title": "Escape Academy",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 159,
+    "title": "Tiny Tina's Wonderlands",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 160,
+    "title": "Sackboy: A Big Adventure",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 161,
+    "title": "Roboquest",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 169,
+    "title": "Warhammer: End Times - Vermintide",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 170,
+    "title": "Devour",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 172,
+    "title": "Grand Theft Auto V Legacy",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 173,
+    "title": "Baldur's Gate 3",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"B"
+  },
+  {
+    "id": 176,
+    "title": "Hearts of Iron IV",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "NO",
+    "reasoning": ".\n\nNO"
+  },
+  {
+    "id": 178,
+    "title": "Schedule I",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 179,
+    "title": "FINAL FANTASY XIV Online",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"F"
+  },
+  {
+    "id": 180,
+    "title": "FANTASY LIFE i: The Girl Who Steals Time",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 181,
+    "title": "Lost Ark",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 182,
+    "title": "Path of Exile 2",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 183,
+    "title": "The Elder Scrolls Online",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 184,
+    "title": "Farming Simulator 25",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 186,
+    "title": "Europa Universalis IV",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"E"
+  },
+  {
+    "id": 187,
+    "title": "Enshrouded",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 188,
+    "title": "Unturned",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 189,
+    "title": "Forza Horizon 5",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 190,
+    "title": "Tom Clancy\u2019s The Division 2",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"T"
+  },
+  {
+    "id": 191,
+    "title": "World of Warships",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"W"
+  },
+  {
+    "id": 192,
+    "title": "RoadCraft",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 194,
+    "title": "World of Tanks Blitz",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"W"
+  },
+  {
+    "id": 195,
+    "title": "Farming Simulator 22",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 196,
+    "title": "F1 25",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"F"
+  },
+  {
+    "id": 198,
+    "title": "Tabletop Simulator",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"T"
+  },
+  {
+    "id": 200,
+    "title": "Forza Horizon 4",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 201,
+    "title": "Elite Dangerous",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 202,
+    "title": "Supermarket Together",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 203,
+    "title": "Total War: THREE KINGDOMS",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 204,
+    "title": "DARK SOULS III",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 205,
+    "title": "POPUCOM",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 206,
+    "title": "Total War: ROME II - Emperor Edition",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"T"
+  },
+  {
+    "id": 207,
+    "title": "The Spell Brigade",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 215,
+    "title": "Ravenswatch",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"R"
+  },
+  {
+    "id": 216,
+    "title": "Enlisted: Reinforced",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "NO",
+    "reasoning": ".\n\nNO"
+  },
+  {
+    "id": 217,
+    "title": "PowerWash Simulator",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 218,
+    "title": "House Flipper 2",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 219,
+    "title": "Supermarket Simulator",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 220,
+    "title": "Company of Heroes 2",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 221,
+    "title": "Devil May Cry 5",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 222,
+    "title": "Call to Arms - Gates of Hell: Ostfront",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 223,
+    "title": "Red Dead Online",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 226,
+    "title": "Realm of the Mad God Exalt",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 227,
+    "title": "Predecessor",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"P"
+  },
+  {
+    "id": 228,
+    "title": "Total War: SHOGUN 2",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 230,
+    "title": "Mechabellum",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 231,
+    "title": "Age of Wonders 4",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 232,
+    "title": "Escape Simulator",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 233,
+    "title": "Pikuniku",
+    "current_coopMode": [
+      "local"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"P"
+  },
+  {
+    "id": 234,
+    "title": "GTFO",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 235,
+    "title": "We Need To Go Deeper",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 236,
+    "title": "Dungeon of the ENDLESS\u2122",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 237,
+    "title": "Heave Ho",
+    "current_coopMode": [
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 238,
+    "title": "Necesse",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 239,
+    "title": "Ghost Watchers",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 240,
+    "title": "Chained Together",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 241,
+    "title": "Besiege",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 242,
+    "title": "Sunkenland",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 243,
+    "title": "Backrooms: Escape Together",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 244,
+    "title": "Volcanoids",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 245,
+    "title": "We Were Here",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 246,
+    "title": "Totally Reliable Delivery Service",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 247,
+    "title": "For The King",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 249,
+    "title": "Bopl Battle",
+    "current_coopMode": [
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 250,
+    "title": "Cult of the Lamb",
+    "current_coopMode": [
+      "local",
+      "sofa"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"C"
+  },
+  {
+    "id": 251,
+    "title": "Shovel Knight: Treasure Trove",
+    "current_coopMode": [
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 252,
+    "title": "Soulmask",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 253,
+    "title": "Prodeus",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 254,
+    "title": "Towerborne",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"T"
+  },
+  {
+    "id": 255,
+    "title": "Ship of Fools",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 256,
+    "title": "Patch Quest",
+    "current_coopMode": [
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 257,
+    "title": "Goose Goose Duck",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "NO",
+    "reasoning": ".\n\nNO"
+  },
+  {
+    "id": 258,
+    "title": "THE FINALS",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 259,
+    "title": "Marvel Rivals",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "NO",
+    "reasoning": ".\n\nNO"
+  },
+  {
+    "id": 267,
+    "title": "Borderlands 4",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 268,
+    "title": "Coral Island",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 269,
+    "title": "Windswept",
+    "current_coopMode": [
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 270,
+    "title": "Bellwright",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 271,
+    "title": "ARC Raiders",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 272,
+    "title": "Minecraft Dungeons",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 273,
+    "title": "Dune: Awakening",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 274,
+    "title": "Orcs Must Die! 3",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 275,
+    "title": "Spiritfarer\u00ae: Edizione Farewell",
+    "current_coopMode": [
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 276,
+    "title": "Abyssus",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 277,
+    "title": "Dying Light: The Beast",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 278,
+    "title": "Monaco: What's Yours Is Mine",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 279,
+    "title": "LEGO\u00ae Star Wars\u2122: La Saga Degli Skywalker",
+    "current_coopMode": [
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 280,
+    "title": "Untitled Goose Game",
+    "current_coopMode": [
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 281,
+    "title": "Operation: Tango",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"O"
+  },
+  {
+    "id": 282,
+    "title": "Unrailed 2: Back on Track",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 283,
+    "title": "Tools Up!",
+    "current_coopMode": [
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 284,
+    "title": "Biped 2",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 285,
+    "title": "Nobody Saves the World",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 286,
+    "title": "Darksiders Genesis",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 287,
+    "title": "Children of Morta",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 288,
+    "title": "Trine 5: A Clockwork Conspiracy",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 289,
+    "title": "Ember Knights",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 290,
+    "title": "CarX Drift Racing Online",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "NO",
+    "reasoning": ".\n\nNO"
+  },
+  {
+    "id": 291,
+    "title": "DARK SOULS II: Scholar of the First Sin",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 292,
+    "title": "DOOM",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 293,
+    "title": "Sniper Elite 5",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 294,
+    "title": "Rec Room",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 295,
+    "title": "Plague Inc: Evolved",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"P"
+  },
+  {
+    "id": 296,
+    "title": "Ranch Simulator: Build, Hunt, Farm",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 298,
+    "title": "Total War: WARHAMMER II",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 299,
+    "title": "Abiotic Factor",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"A"
+  },
+  {
+    "id": 300,
+    "title": "Total War: ATTILA",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 301,
+    "title": "Need for Speed Heat",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 302,
+    "title": "BLEACH Brave Souls",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "UNKNOWN",
+    "reasoning": ".\n\nThe video game **Bleach: Brave Souls** is primarily a **RPG** with signific\nsignificant **PvP** e"
+  },
+  {
+    "id": 303,
+    "title": "Warhammer 40,000: Gladius - Relics of War",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 304,
+    "title": "FIFA 22",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "NO",
+    "reasoning": ".\n\nThe game **FIFA 22** is primarily known for its competitive multiplayer (Pv\n(PvP) online matches "
+  },
+  {
+    "id": 305,
+    "title": "Kingdom Two Crowns",
+    "current_coopMode": [
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 306,
+    "title": "Far Cry 5",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 307,
+    "title": "State of Decay 2: Juggernaut Edition",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 308,
+    "title": "Deadzone: Rogue",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"D"
+  },
+  {
+    "id": 309,
+    "title": "Northgard: Definitive Edition",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 310,
+    "title": "Lost Castle 2",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 311,
+    "title": "Farm Together 2",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 312,
+    "title": "Star Trek Online",
+    "current_coopMode": [
+      "local",
+      "sofa"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 313,
+    "title": "Dead Island 2",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 314,
+    "title": "Granblue Fantasy: Relink",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 315,
+    "title": "Empyrion - Galactic Survival",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 324,
+    "title": "Starbound",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 325,
+    "title": "Pantheon: Rise of the Fallen",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 326,
+    "title": "The Crew 2",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"T"
+  },
+  {
+    "id": 327,
+    "title": "WARNO",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"W"
+  },
+  {
+    "id": 328,
+    "title": "WolfQuest: Anniversary Edition",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 329,
+    "title": "Watch_Dogs 2",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 330,
+    "title": "Plants vs. Zombies Garden Warfare 2: Deluxe Edition",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 331,
+    "title": "RuneScape: Dragonwilds",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"R"
+  },
+  {
+    "id": 332,
+    "title": "Call of Duty: Modern Warfare",
+    "current_coopMode": [
+      "local",
+      "sofa"
+    ],
+    "classification": "NO",
+    "reasoning": ".\n\nNO"
+  },
+  {
+    "id": 334,
+    "title": "Oddsparks: An Automation Adventure",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 335,
+    "title": "Age of Mythology: Extended Edition",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"A"
+  },
+  {
+    "id": 336,
+    "title": "Crab Champions",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 337,
+    "title": "The Lord of the Rings Online",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 338,
+    "title": "One-armed robber",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"O"
+  },
+  {
+    "id": 339,
+    "title": "Left 4 Dead",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 340,
+    "title": "Tom Clancy\u2019s The Division",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 341,
+    "title": "MORDHAU",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"M"
+  },
+  {
+    "id": 342,
+    "title": "Trove",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 343,
+    "title": "Neverwinter Nights: Enhanced Edition",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 344,
+    "title": "HumanitZ",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"H"
+  },
+  {
+    "id": 345,
+    "title": "Lightyear Frontier",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 346,
+    "title": "Wizard101",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"W"
+  },
+  {
+    "id": 347,
+    "title": "Men of War: Assault Squad 2",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 348,
+    "title": "ASKA",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 349,
+    "title": "Deadside",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 350,
+    "title": "Eco",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 351,
+    "title": "Legion TD 2 - Multiplayer Tower Defense",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 352,
+    "title": "WEBFISHING",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 354,
+    "title": "Fall Guys: Ultimate Knockout",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"F"
+  },
+  {
+    "id": 355,
+    "title": "Mindustry",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 356,
+    "title": "\u5c01\u7075\u6863\u6848",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 357,
+    "title": "DRAGON BALL XENOVERSE 2",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 358,
+    "title": "Dead Frontier 2",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 361,
+    "title": "MechWarrior 5: Mercenaries",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 362,
+    "title": "Far Cry 6",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 363,
+    "title": "Wobbly Life",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"W"
+  },
+  {
+    "id": 364,
+    "title": "Borderlands Game of the Year Enhanced",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 366,
+    "title": "Avorion",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 367,
+    "title": "Liar's Bar",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "UNKNOWN",
+    "reasoning": ".\n\nBased on the game's classification and metadata provided:\n\n*   **Game:** `Liar's Bar`\n*   **Metad"
+  },
+  {
+    "id": 368,
+    "title": "Titan Quest Anniversary Edition",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"T"
+  },
+  {
+    "id": 369,
+    "title": "Axis & Allies 1942 Online",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "NO",
+    "reasoning": ".\n\nNO"
+  },
+  {
+    "id": 370,
+    "title": "Tropico 6",
+    "current_coopMode": [
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 371,
+    "title": "Wingspan",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"W"
+  },
+  {
+    "id": 372,
+    "title": "Apocalypse Party",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES."
+  },
+  {
+    "id": 373,
+    "title": "Resident Evil 5",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 374,
+    "title": "Far Cry 4",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 376,
+    "title": "Fast Food Simulator",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 377,
+    "title": "Sins of a Solar Empire II",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 378,
+    "title": "Sniper Elite 4",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 379,
+    "title": "Across the Obelisk",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"A"
+  },
+  {
+    "id": 400,
+    "title": "Call of Duty: Black Ops",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "NO",
+    "reasoning": ".\n\nNO"
+  },
+  {
+    "id": 401,
+    "title": "Rise of Nations: Extended Edition",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nBased on the provided classification rules:\n\n1.  **YES** is assigned to games with **Co-op campai"
+  },
+  {
+    "id": 427,
+    "title": "Royal Revolt Survivors",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 428,
+    "title": "Aaero2: Black Razor Edition",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"A"
+  },
+  {
+    "id": 429,
+    "title": "Rising Heat",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 430,
+    "title": "Esophaguys",
+    "current_coopMode": [
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 432,
+    "title": "Jaleco Sports: Goal!",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"J"
+  },
+  {
+    "id": 433,
+    "title": "Anima Flux",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 434,
+    "title": "Welcome to Empyreum",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "UNKNOWN",
+    "reasoning": ".\n\nBased on the provided text (\"Database co-op modes: online\") and the classif\nclassification guidel"
+  },
+  {
+    "id": 455,
+    "title": "Fixeight",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 456,
+    "title": "Combat Mission Final Blitzkrieg",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"C"
+  },
+  {
+    "id": 457,
+    "title": "Combat Mission Fortress Italy",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 459,
+    "title": "Fire Shark",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"F"
+  },
+  {
+    "id": 460,
+    "title": "Hellfire",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"H"
+  },
+  {
+    "id": 461,
+    "title": "Combat Mission Red Thunder",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"C"
+  },
+  {
+    "id": 462,
+    "title": "Volley Pals",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 483,
+    "title": "Twin Cobra",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 518,
+    "title": "Everwind",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "UNKNOWN",
+    "reasoning": "Thinking...\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Input: Game title (\"Everwind\") a"
+  },
+  {
+    "id": 521,
+    "title": "Tower Tag",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 524,
+    "title": "John Carpenter's Toxic Commando",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 525,
+    "title": "Mama's Sleeping Angels",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 526,
+    "title": "Rewind 99",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"R"
+  },
+  {
+    "id": 527,
+    "title": "Over The Top: WWI",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 529,
+    "title": "Slay the Spire 2",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 530,
+    "title": "Desynced",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"D"
+  },
+  {
+    "id": 531,
+    "title": "DYSPLACED",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 533,
+    "title": "Rotwood",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "UNKNOWN",
+    "reasoning": "Thinking...\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Input: A video game title (\"Rotw"
+  },
+  {
+    "id": 534,
+    "title": "Scott Pilgrim EX",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 541,
+    "title": "War Mongrels",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "UNKNOWN",
+    "reasoning": ".\n\nBased on the provided classification rules and the text snippet **\"Database\n**\"Database co-op mod"
+  },
+  {
+    "id": 542,
+    "title": "63 Days",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 543,
+    "title": "Black Widow: Recharged",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 556,
+    "title": "Overthrown",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "UNKNOWN",
+    "reasoning": "Thinking...\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Input: Game name \"Overthrown\".\n "
+  },
+  {
+    "id": 557,
+    "title": "F1 24",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "UNKNOWN",
+    "reasoning": ".\n\nBased on the provided classification rules and database information:\n\n1.  **Rule Check:**\n    *  "
+  },
+  {
+    "id": 558,
+    "title": "Farming Simulator 19",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 576,
+    "title": "TOP HUNTER: RODDY & CATHY",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 581,
+    "title": "Darkwater",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 582,
+    "title": "The Bus",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 583,
+    "title": "KIZUNA ENCOUNTER: SUPER TAG BATTLE",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 586,
+    "title": "Goat Simulator 3",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 587,
+    "title": "Cosmoteer: Starship Architect & Commander",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 588,
+    "title": "Risk of Rain Returns",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 589,
+    "title": "Clone Drone in the Danger Zone",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 590,
+    "title": "MADNESS: Project Nexus",
+    "current_coopMode": [
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 591,
+    "title": "Solasta: Crown of the Magister",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 592,
+    "title": "Jagged Alliance 3",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"J"
+  },
+  {
+    "id": 593,
+    "title": "Rabbit and Steel",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 594,
+    "title": "We Were Here Expeditions: The FriendShip",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "UNKNOWN",
+    "reasoning": "Thinking...\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Input: A specific video game (\"W"
+  },
+  {
+    "id": 595,
+    "title": "Astral Ascent",
+    "current_coopMode": [
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 596,
+    "title": "The Past Within",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 597,
+    "title": "Labyrinthine",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 598,
+    "title": "Luma Island",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 599,
+    "title": "Tetris\u00ae Effect: Connected",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 600,
+    "title": "Roots of Pacha",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 601,
+    "title": "Echo Point Nova",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 602,
+    "title": "BOKURA",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 609,
+    "title": "EverSiege: Untold Ages",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 615,
+    "title": "Virtual Cottage 2",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 616,
+    "title": "Truxton Extreme",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 622,
+    "title": "Fifth Sun: Coop racing",
+    "current_coopMode": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 624,
+    "title": "Cat Parents",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"C"
+  },
+  {
+    "id": 625,
+    "title": "NAKWON: LAST PARADISE",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 627,
+    "title": "Subnautica 2",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 628,
+    "title": "Wurst Defender Coop Edition",
+    "current_coopMode": [
+      "local",
+      "sofa"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 629,
+    "title": "Rocksmith 2014 Edition REMASTERED LEARN & PLAY",
+    "current_coopMode": [
+      "local"
+    ],
+    "classification": "UNKNOWN",
+    "reasoning": ".\n\nBased on the strict rules provided:\n1.  **Co-op definition**: Players working together against AI"
+  },
+  {
+    "id": 630,
+    "title": "Team Fortress 2",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "NO",
+    "reasoning": ".\n\nNO"
+  },
+  {
+    "id": 631,
+    "title": "STAR WARS Battlefront II",
+    "current_coopMode": [
+      "local"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 632,
+    "title": "The Isle",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 633,
+    "title": "SCP: Secret Laboratory",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"S"
+  },
+  {
+    "id": 634,
+    "title": "Age of Empires III: Definitive Edition",
+    "current_coopMode": [
+      "online",
+      "local"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 635,
+    "title": "Rivals of Aether II",
+    "current_coopMode": [
+      "local",
+      "sofa"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"R"
+  },
+  {
+    "id": 636,
+    "title": "Age of Empires: Definitive Edition",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "MIXED",
+    "reasoning": ".\n\nMIXED"
+  },
+  {
+    "id": 637,
+    "title": "Temtem: Swarm",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"T"
+  },
+  {
+    "id": 638,
+    "title": "Voodoo Fishin'",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nThe user wants me to classify the video game **\"Voodoo Fishin'\"** as **YES*\n**YES**, **NO**, or *"
+  },
+  {
+    "id": 640,
+    "title": "Last Man Sitting",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"L"
+  },
+  {
+    "id": 641,
+    "title": "ENDALOR",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 642,
+    "title": "VMX",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "YES",
+    "reasoning": ".\n\nYES"
+  },
+  {
+    "id": 662,
+    "title": "I Know a Guy: Shady Life Simulator",
+    "current_coopMode": [
+      "online"
+    ],
+    "classification": "ERROR",
+    "reasoning": "Command '['ollama', 'run', 'qwen3.5:latest', 'Is this video game primarily CO-OP or PvP?\\n\\nGame: \"I"
+  }
+]

@@ -1,0 +1,2748 @@
+{
+  "fixes": [
+    {
+      "game_id": 1,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 2,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 4,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 5,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 6,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 8,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 9,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 10,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 11,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 12,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 3,
+      "reason": "Steam co-op + co-op branding (not PvP)"
+    },
+    {
+      "game_id": 13,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 14,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 15,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 16,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 17,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 18,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 19,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 20,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 21,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 22,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 23,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 24,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 25,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 26,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 27,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 28,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 29,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 30,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 31,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 32,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 33,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 34,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 36,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 37,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 38,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 39,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 40,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 41,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 42,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 43,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 44,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 45,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 46,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 47,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 48,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 49,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 50,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 52,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 53,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 54,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 55,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 56,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 57,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 58,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 59,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 60,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 62,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 64,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 65,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 66,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 67,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 68,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 69,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 70,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 71,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 72,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 73,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 74,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 75,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 76,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 78,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 82,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 84,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 85,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 86,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 87,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 89,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 90,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 91,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 93,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 95,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 96,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 97,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 98,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 99,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 100,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 101,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 103,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 104,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 105,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 107,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 108,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 109,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 110,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 111,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 112,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 113,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 114,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 115,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 117,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 118,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 119,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 120,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 121,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 122,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 123,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 124,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 125,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 126,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 127,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 129,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 130,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 132,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 134,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 135,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 137,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 138,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 140,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 141,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 143,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 144,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 145,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 146,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 148,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 149,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 150,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 151,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 152,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 153,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 154,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 155,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 3,
+      "reason": "Steam co-op + co-op branding (not PvP)"
+    },
+    {
+      "game_id": 156,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 157,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 158,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 159,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 160,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 161,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 162,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 163,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 164,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 165,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 166,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 167,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 169,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 170,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 172,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 173,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 174,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 175,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 176,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 177,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 178,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 179,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 180,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 181,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 182,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 183,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 184,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 186,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 187,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 188,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 189,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 190,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 191,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 192,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 193,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 194,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 195,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 196,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 198,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 199,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 200,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 201,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 202,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 3,
+      "reason": "Steam co-op + co-op branding (not PvP)"
+    },
+    {
+      "game_id": 203,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 204,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 205,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 206,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 207,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 208,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 209,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 210,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 212,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 213,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 214,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 215,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 216,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 217,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 218,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 219,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 220,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 221,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 222,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 223,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 224,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 226,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 227,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 228,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 229,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 230,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 231,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 232,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 233,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 234,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 235,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 236,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 237,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 238,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 239,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 240,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 3,
+      "reason": "Steam co-op + co-op branding (not PvP)"
+    },
+    {
+      "game_id": 241,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 242,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 243,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 3,
+      "reason": "Steam co-op + co-op branding (not PvP)"
+    },
+    {
+      "game_id": 244,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 245,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 246,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 247,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 248,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 249,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 250,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 251,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 252,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 253,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 254,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 255,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 256,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 257,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 258,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 259,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 260,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 261,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 262,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 263,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 264,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 265,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 266,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 267,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 268,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 269,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 270,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 271,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 272,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 273,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 274,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 275,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 276,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 277,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 278,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 279,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 280,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 281,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 282,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 283,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 284,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 285,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 286,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 287,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 288,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 289,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 290,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 291,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 292,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 293,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 294,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 295,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 296,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 297,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 298,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 299,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 300,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 301,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 302,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 303,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 304,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 305,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 306,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 307,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 308,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 309,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 310,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 311,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 3,
+      "reason": "Steam co-op + co-op branding (not PvP)"
+    },
+    {
+      "game_id": 312,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 313,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 314,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 315,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 316,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 318,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 319,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 320,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 321,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 322,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 323,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 324,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 325,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 326,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 327,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 328,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 329,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 330,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 331,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 332,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 333,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 334,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 335,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 336,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 337,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 338,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 339,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 340,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 341,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 342,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 343,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 344,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 345,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 346,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 347,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 348,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 349,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 350,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 351,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 3,
+      "reason": "Steam co-op + co-op branding (not PvP)"
+    },
+    {
+      "game_id": 352,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 354,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 355,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 356,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 357,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 358,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 361,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 362,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 363,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 364,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 366,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 367,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 368,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 369,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 370,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 371,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 372,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 373,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 374,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 376,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 377,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 378,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 379,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 400,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 401,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 402,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 403,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 404,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 405,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 518,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 519,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 520,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 521,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 522,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 523,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 524,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 525,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 526,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 527,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 528,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 529,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 530,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 531,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 532,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 533,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 534,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 556,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 557,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 558,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 581,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 582,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 585,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 586,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 587,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 588,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 589,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 590,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 591,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 592,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 593,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 594,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 595,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 596,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 597,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 598,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 599,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 600,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 601,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 602,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Passed audit with Steam co-op categories"
+    },
+    {
+      "game_id": 609,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 611,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    },
+    {
+      "game_id": 615,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 2,
+      "reason": "Steam co-op category present"
+    }
+  ]
+}

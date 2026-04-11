@@ -1,0 +1,5 @@
+{
+  "fixes": [
+    {"game_id": 343, "field": "maxPlayers", "old_value": 255, "new_value": 64, "reason": "Neverwinter Nights supports up to 64 players"}
+  ]
+}

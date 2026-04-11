@@ -1,0 +1,102 @@
+[
+  {
+    "game": "CoopScoop",
+    "status": "ERROR",
+    "reason": "No JSON"
+  },
+  {
+    "game": "Chicken Coop",
+    "status": "ERROR",
+    "reason": "No JSON"
+  },
+  {
+    "game": "Cosmic Coop",
+    "status": "ERROR",
+    "reason": "No JSON"
+  },
+  {
+    "game": "CoopRooms",
+    "status": "ERROR",
+    "reason": "HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)"
+  },
+  {
+    "game": "Drunkslop: Pub crawl COOP",
+    "status": "ERROR",
+    "reason": "No JSON"
+  },
+  {
+    "game": "Maid Cafe Coop",
+    "status": "ERROR",
+    "reason": "No JSON"
+  },
+  {
+    "game": "Counter-Strike 2",
+    "status": "ERROR",
+    "reason": "No JSON"
+  },
+  {
+    "game": "Chicken Coop Invaders",
+    "status": "ERROR",
+    "reason": "No JSON"
+  },
+  {
+    "game": "Slay the Spire 2",
+    "status": "ERROR",
+    "reason": "No JSON"
+  },
+  {
+    "game": "Apex Legends\u2122",
+    "status": "ERROR",
+    "reason": "No JSON"
+  },
+  {
+    "game": "Warframe",
+    "status": "ERROR",
+    "reason": "No JSON"
+  },
+  {
+    "game": "Color Escape: VR Coop",
+    "status": "ERROR",
+    "reason": "No JSON"
+  },
+  {
+    "game": "Tom Clancy's Rainbow Six Siege",
+    "status": "ERROR",
+    "reason": "No JSON"
+  },
+  {
+    "game": "Dead by Daylight",
+    "status": "ERROR",
+    "reason": "No JSON"
+  },
+  {
+    "game": "Fifth Sun: Coop racing",
+    "status": "ERROR",
+    "reason": "No JSON"
+  },
+  {
+    "game": "HELLDIVERS\u2122 2",
+    "status": "ERROR",
+    "reason": "No JSON"
+  },
+  {
+    "game": "CoopScoop Demo",
+    "status": "ERROR",
+    "reason": "No JSON"
+  },
+  {
+    "game": "CoopRooms Demo",
+    "status": "ERROR",
+    "reason": "No JSON"
+  },
+  {
+    "game": "Chicken Coop Demo",
+    "status": "ERROR",
+    "reason": "No JSON"
+  },
+  {
+    "game": "ELDEN RING",
+    "status": "ERROR",
+    "reason": "No JSON"
+  }
+]

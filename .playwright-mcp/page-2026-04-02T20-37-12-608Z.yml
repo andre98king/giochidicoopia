@@ -1,0 +1,991 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#gamesGrid"
+  - banner [ref=e3]:
+    - heading "Co-op Games Hub" [level=1] [ref=e4]
+    - paragraph [ref=e5]: The best co-op games for PC, categorized and reviewed
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - generic [ref=e8]: "574"
+        - text: Games
+      - generic [ref=e9]:
+        - generic [ref=e10]: "0"
+        - text: Played by me
+      - generic [ref=e11]:
+        - generic [ref=e12]: "12"
+        - text: Categories
+  - navigation "Filters and search" [ref=e13]:
+    - generic [ref=e14]:
+      - search [ref=e15]:
+        - img [ref=e16]
+        - textbox "Search a game" [ref=e18]:
+          - /placeholder: Search a game...
+      - combobox "Sort games" [ref=e19] [cursor=pointer]:
+        - option "📋 Default" [selected]
+        - option "⭐ Best rated"
+        - option "🔥 Most played now"
+        - option "🆕 Newest"
+        - option "🔤 A → Z"
+      - combobox "Filter by year" [ref=e20] [cursor=pointer]:
+        - option "📅 All years" [selected]
+        - option "📅 2024–2025"
+        - option "📅 2020–2023"
+        - option "📅 2015–2019"
+        - option "📅 Before 2015"
+      - button "Random game" [ref=e21] [cursor=pointer]: 🎡 Random Game
+      - button "Change language" [ref=e22] [cursor=pointer]: 🇮🇹 IT
+      - group "Category filters" [ref=e23]:
+        - generic [ref=e24]:
+          - button "🎮 All" [ref=e25] [cursor=pointer]
+          - button "🔥 Trending" [ref=e26] [cursor=pointer]
+          - button "🆓 Free" [ref=e27] [cursor=pointer]
+        - generic [ref=e28]:
+          - generic [ref=e29]: Genre
+          - button "👻 Horror" [ref=e30] [cursor=pointer]
+          - button "⚔️ Action" [ref=e31] [cursor=pointer]
+          - button "🧩 Puzzle" [ref=e32] [cursor=pointer]
+          - button "🐉 RPG" [ref=e33] [cursor=pointer]
+          - button "🪓 Survival" [ref=e34] [cursor=pointer]
+          - button "🏭 Factory" [ref=e35] [cursor=pointer]
+          - button "🎲 Roguelike" [ref=e36] [cursor=pointer]
+          - button "⚽ Sport" [ref=e37] [cursor=pointer]
+          - button "♟️ Strategy" [ref=e38] [cursor=pointer]
+          - button "🎮 Indie" [ref=e39] [cursor=pointer]
+      - group "Mode filters" [ref=e40]:
+        - generic [ref=e41]:
+          - generic [ref=e42]: Mode
+          - button "🌐 Online Co-op" [ref=e43] [cursor=pointer]
+          - button "🛋️ Local Co-op" [ref=e44] [cursor=pointer]
+          - button "🖥️ Splitscreen" [ref=e45] [cursor=pointer]
+          - button "🔄 Crossplay" [ref=e46] [cursor=pointer]
+          - button "👫 For 2" [ref=e47] [cursor=pointer]
+          - button "👥 For 4+" [ref=e48] [cursor=pointer]
+  - region "Indie game of the week" [ref=e49]:
+    - generic [ref=e51] [cursor=pointer]:
+      - 'img "FANTASY LIFE i: The Girl Who Steals Time" [ref=e52]'
+      - generic [ref=e53]:
+        - generic [ref=e54]: 🌟 INDIE GAME OF THE WEEK
+        - generic [ref=e55]: "FANTASY LIFE i: The Girl Who Steals Time"
+        - generic [ref=e56]: Step into this Slow-Life RPG where you can freely switch between 14 unique jobs, so called "Lives," and enjoy a carefree life in a fantasy world. Fish, cook, shape the island to your liking, or team up with friends to battle monsters across the vast world.
+        - generic [ref=e57]:
+          - generic [ref=e58]: 😊 92%
+          - link "Steam ↗" [ref=e59]:
+            - /url: https://store.steampowered.com/app/2993780/?utm_source=coophubs&utm_medium=referral&utm_campaign=featured
+  - main [ref=e60]:
+    - generic [ref=e61]: Found 574 games out of 574
+    - list [ref=e62]:
+      - listitem [ref=e63] [cursor=pointer]:
+        - button "✓" [ref=e64]
+        - generic [ref=e65]: 🔥 Trending
+        - img "ELDEN RING NIGHTREIGN" [ref=e67]
+        - generic [ref=e68]:
+          - generic [ref=e69]:
+            - generic [ref=e70]: ELDEN RING NIGHTREIGN
+            - generic [ref=e71]:
+              - generic "74% ⭐ Steam Reviews" [ref=e72]: 👍 74%
+              - generic "Players online now" [ref=e73]: 👥 163.6k
+          - generic [ref=e74]:
+            - generic [ref=e75]: ⚔️ Action
+            - generic [ref=e76]: 🐉 RPG
+            - generic [ref=e77]: 🪓 Survival
+          - generic [ref=e78]:
+            - img [ref=e79]
+            - text: 1-3 players
+          - generic [ref=e81]: ELDEN RING NIGHTREIGN is a standalone adventure within the ELDEN RING universe, crafted to offer players a new gaming experience by reimagining the game’s core design.
+        - generic [ref=e82]:
+          - link "Details →" [ref=e83]:
+            - /url: games/1.html
+          - button "Buy -33%" [ref=e84]
+      - listitem [ref=e85] [cursor=pointer]:
+        - button "✓" [ref=e86]
+        - generic [ref=e87]: 🔥 Trending
+        - img "Rust" [ref=e89]
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - generic [ref=e92]: Rust
+            - generic [ref=e93]:
+              - generic "87% ⭐ Steam Reviews" [ref=e94]: 😊 87%
+              - generic "Players online now" [ref=e95]: 👥 143.9k
+              - generic [ref=e96]: 🔄 Crossplay
+          - generic [ref=e97]:
+            - generic [ref=e98]: 🪓 Survival
+            - generic [ref=e99]: ⚔️ Action
+          - generic [ref=e100]:
+            - img [ref=e101]
+            - text: 1-4 players
+          - generic [ref=e103]: The only aim in Rust is to survive. Everything wants you to die - the island’s wildlife, other inhabitants, the environment, and other survivors. Do whatever it takes to last another night.
+        - generic [ref=e104]:
+          - link "Details →" [ref=e105]:
+            - /url: games/2.html
+          - button "Buy -54%" [ref=e106]
+      - listitem [ref=e107] [cursor=pointer]:
+        - button "✓" [ref=e108]
+        - generic [ref=e109]: 🔥 Trending
+        - img "Apex Legends™" [ref=e111]
+        - generic [ref=e112]:
+          - generic [ref=e113]:
+            - generic [ref=e114]: Apex Legends™
+            - generic [ref=e115]:
+              - generic "67% ⭐ Steam Reviews" [ref=e116]: 😐 67%
+              - generic "Players online now" [ref=e117]: 👥 124.3k
+          - generic [ref=e118]:
+            - generic [ref=e119]: 🆓 Free
+            - generic [ref=e120]: ⚔️ Action
+          - generic [ref=e121]:
+            - img [ref=e122]
+            - text: 1-3 players
+          - generic [ref=e124]: Apex Legends is the award-winning, free-to-play Hero Shooter from Respawn Entertainment. Master an ever-growing roster of legendary characters with powerful abilities, and experience strategic squad play and innovative gameplay in the next evolution of Hero Shooter and Battle Royale.
+        - link "Details →" [ref=e126]:
+          - /url: games/262.html
+      - listitem [ref=e127] [cursor=pointer]:
+        - button "✓" [ref=e128]
+        - generic [ref=e129]: 🔥 Trending
+        - img "Marvel Rivals" [ref=e131]
+        - generic [ref=e132]:
+          - generic [ref=e133]:
+            - generic [ref=e134]: Marvel Rivals
+            - generic [ref=e135]:
+              - generic "80% ⭐ Steam Reviews" [ref=e136]: 👍 80%
+              - generic "Players online now" [ref=e137]: 👥 106.6k
+              - generic [ref=e138]: 🔄 Crossplay
+          - generic [ref=e139]:
+            - generic [ref=e140]: 🆓 Free
+            - generic [ref=e141]: ⚔️ Action
+          - generic [ref=e142]:
+            - img [ref=e143]
+            - text: 1-6 players
+          - generic [ref=e145]: Marvel Rivals is a Super Hero Team-Based PVP Shooter! Assemble an all-star Marvel squad, devise countless strategies by combining powers to form unique Team-Up skills and fight in destructible, ever-changing battlefields across the continually evolving Marvel universe!
+        - link "Details →" [ref=e147]:
+          - /url: games/259.html
+      - listitem [ref=e148] [cursor=pointer]:
+        - button "✓" [ref=e149]
+        - generic [ref=e150]: 🔥 Trending
+        - img "Grand Theft Auto V Legacy" [ref=e152]
+        - generic [ref=e153]:
+          - generic [ref=e154]:
+            - generic [ref=e155]: Grand Theft Auto V Legacy
+            - generic [ref=e156]:
+              - generic "87% ⭐ Steam Reviews" [ref=e157]: 😊 87%
+              - generic "Players online now" [ref=e158]: 👥 67.9k
+          - generic [ref=e159]:
+            - generic [ref=e160]: ⚔️ Action
+            - generic [ref=e161]: 🪓 Survival
+          - generic [ref=e162]:
+            - img [ref=e163]
+            - text: 1-16 players
+          - generic [ref=e165]: Grand Theft Auto V for PC offers players the option to explore the award-winning world of Los Santos and Blaine County in resolutions of up to 4k and beyond, as well as the chance to experience the game running at 60 frames per second.
+        - generic [ref=e166]:
+          - link "Details →" [ref=e167]:
+            - /url: games/172.html
+          - button "Buy" [ref=e168]
+      - listitem [ref=e169] [cursor=pointer]:
+        - button "✓" [ref=e170]
+        - generic [ref=e171]: 🔥 Trending
+        - img "Baldur's Gate 3" [ref=e173]
+        - generic [ref=e174]:
+          - generic [ref=e175]:
+            - generic [ref=e176]: Baldur's Gate 3
+            - generic [ref=e177]:
+              - generic "97% ⭐ Steam Reviews" [ref=e178]: 🏆 97%
+              - generic "Players online now" [ref=e179]: 👥 54.8k
+              - generic [ref=e180]: 🔄 Crossplay
+          - generic [ref=e181]:
+            - generic [ref=e182]: 🐉 RPG
+            - generic [ref=e183]: ♟️ Strategy
+            - generic [ref=e184]: 🖥️ Splitscreen
+          - generic [ref=e185]:
+            - img [ref=e186]
+            - text: 1-4 players
+          - generic [ref=e188]: Baldur’s Gate 3 is a story-rich, party-based RPG set in the universe of Dungeons & Dragons, where your choices shape a tale of fellowship and betrayal, survival and sacrifice, and the lure of absolute power.
+        - generic [ref=e189]:
+          - link "Details →" [ref=e190]:
+            - /url: games/173.html
+          - button "Buy" [ref=e191]
+      - listitem [ref=e192] [cursor=pointer]:
+        - button "✓" [ref=e193]
+        - generic [ref=e194]: 🔥 Trending
+        - img "HELLDIVERS 2" [ref=e196]
+        - generic [ref=e197]:
+          - generic [ref=e198]:
+            - generic [ref=e199]: HELLDIVERS 2
+            - generic [ref=e200]:
+              - generic "76% ⭐ Steam Reviews" [ref=e201]: 👍 76%
+              - generic "Players online now" [ref=e202]: 👥 53.4k
+          - generic [ref=e203]:
+            - generic [ref=e204]: ⚔️ Action
+            - generic [ref=e205]: 🪓 Survival
+          - generic [ref=e206]:
+            - img [ref=e207]
+            - text: 1-4 players
+          - generic [ref=e209]: The Galaxy’s Last Line of Offence. Enlist in the Helldivers and join the fight for freedom across a hostile galaxy in a fast, frantic, and ferocious third-person shooter.
+        - generic [ref=e210]:
+          - link "Details →" [ref=e211]:
+            - /url: games/4.html
+          - button "Buy -40%" [ref=e212]
+      - listitem [ref=e213] [cursor=pointer]:
+        - button "✓" [ref=e214]
+        - generic [ref=e215]: 🔥 Trending
+        - img "Tom Clancy's Rainbow Six Siege" [ref=e217]
+        - generic [ref=e218]:
+          - generic [ref=e219]:
+            - generic [ref=e220]: Tom Clancy's Rainbow Six Siege
+            - generic [ref=e221]:
+              - generic "84% ⭐ Steam Reviews" [ref=e222]: 👍 84%
+              - generic "Players online now" [ref=e223]: 👥 51.8k
+          - generic [ref=e224]:
+            - generic [ref=e225]: ⚔️ Action
+            - generic [ref=e226]: ♟️ Strategy
+            - generic [ref=e227]: 🆓 Free
+          - generic [ref=e228]:
+            - img [ref=e229]
+            - text: 1-4 players
+          - generic [ref=e231]: Rainbow Six® Siege is the reference in tactical team shooters, where elite strategy and execution triumph. Enjoy free access to Quick Match, Unranked, and Dual Front game modes with a selection of operators.
+        - link "Details →" [ref=e233]:
+          - /url: games/5.html
+      - listitem [ref=e234] [cursor=pointer]:
+        - button "✓" [ref=e235]
+        - generic [ref=e236]: 🔥 Trending
+        - img "Stardew Valley" [ref=e238]
+        - generic [ref=e239]:
+          - generic [ref=e240]:
+            - generic [ref=e241]: Stardew Valley
+            - generic [ref=e242]:
+              - generic "98% ⭐ Steam Reviews" [ref=e243]: 🏆 98%
+              - generic "Players online now" [ref=e244]: 👥 50.7k
+          - generic [ref=e245]:
+            - generic [ref=e246]: 🪓 Survival
+            - generic [ref=e247]: 🐉 RPG
+            - generic [ref=e248]: 🎮 Indie
+          - generic [ref=e249]:
+            - img [ref=e250]
+            - text: 1-4 players
+          - generic [ref=e252]: You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home?
+        - generic [ref=e253]:
+          - link "Details →" [ref=e254]:
+            - /url: games/149.html
+          - button "Buy" [ref=e255]
+      - listitem [ref=e256] [cursor=pointer]:
+        - button "✓" [ref=e257]
+        - generic [ref=e258]: 🔥 Trending
+        - img "War Thunder" [ref=e260]
+        - generic [ref=e261]:
+          - generic [ref=e262]:
+            - generic [ref=e263]: War Thunder
+            - generic [ref=e264]:
+              - generic "64% ⭐ Steam Reviews" [ref=e265]: 😐 64%
+              - generic "Players online now" [ref=e266]: 👥 50.5k
+              - generic [ref=e267]: 🔄 Crossplay
+          - generic [ref=e268]:
+            - generic [ref=e269]: ⚔️ Action
+            - generic [ref=e270]: 🆓 Free
+          - generic [ref=e271]:
+            - img [ref=e272]
+            - text: 1-4 players
+          - generic [ref=e274]: War Thunder is the most comprehensive free-to-play, cross-platform, MMO military game dedicated to aviation, armoured vehicles, and naval craft, from the early 20th century to the most advanced modern combat units. Join now and take part in major battles on land, in the air, and at sea.
+        - link "Details →" [ref=e276]:
+          - /url: games/174.html
+      - listitem [ref=e277] [cursor=pointer]:
+        - button "✓" [ref=e278]
+        - generic [ref=e279]: 🔥 Trending
+        - img "Dead by Daylight" [ref=e281]
+        - generic [ref=e282]:
+          - generic [ref=e283]:
+            - generic [ref=e284]: Dead by Daylight
+            - generic [ref=e285]:
+              - generic "79% ⭐ Steam Reviews" [ref=e286]: 👍 79%
+              - generic "Players online now" [ref=e287]: 👥 44.9k
+              - generic [ref=e288]: 🔄 Crossplay
+          - generic [ref=e289]:
+            - generic [ref=e290]: 👻 Horror
+            - generic [ref=e291]: 🪓 Survival
+            - generic [ref=e292]: ⚔️ Action
+          - generic [ref=e293]:
+            - img [ref=e294]
+            - text: 1-4 players
+          - generic [ref=e296]: Trapped forever in a realm of eldritch evil where even death is not an escape, four determined Survivors face a bloodthirsty Killer in a vicious game of nerve and wits. Pick a side and step into a world of tension and terror with horror gaming's best asymmetrical multiplayer.
+        - generic [ref=e297]:
+          - link "Details →" [ref=e298]:
+            - /url: games/6.html
+          - button "Buy -50%" [ref=e299]
+      - listitem [ref=e300] [cursor=pointer]:
+        - button "✓" [ref=e301]
+        - generic [ref=e302]: 🔥 Trending
+        - img "EA SPORTS FC 25" [ref=e304]
+        - generic [ref=e305]:
+          - generic [ref=e306]:
+            - generic [ref=e307]: EA SPORTS FC 25
+            - generic [ref=e308]:
+              - generic "50% ⭐ Steam Reviews" [ref=e309]: 👎 50%
+              - generic "Players online now" [ref=e310]: 👥 42.0k
+              - generic [ref=e311]: 🔄 Crossplay
+          - generic [ref=e312]:
+            - generic [ref=e313]: ⚽ Sport
+            - generic [ref=e314]: ♟️ Strategy
+            - generic [ref=e315]: 🖥️ Splitscreen
+          - generic [ref=e316]:
+            - img [ref=e317]
+            - text: 1-4 players
+          - generic [ref=e319]: EA SPORTS FC™ 25 gives you more ways to win for the club. Team up with friends in your favourite modes with the new 5v5 Rush, and manage your club to victory as FC IQ delivers more tactical control than ever before.
+        - generic [ref=e320]:
+          - link "Details →" [ref=e321]:
+            - /url: games/175.html
+          - button "Buy -36%" [ref=e322]
+      - listitem [ref=e323] [cursor=pointer]:
+        - button "✓" [ref=e324]
+        - generic [ref=e325]: 🔥 Trending
+        - img "Grand Theft Auto V Enhanced" [ref=e327]
+        - generic [ref=e328]:
+          - generic [ref=e329]:
+            - generic [ref=e330]: Grand Theft Auto V Enhanced
+            - generic [ref=e331]:
+              - generic "69% ⭐ Steam Reviews" [ref=e332]: 😐 69%
+              - generic "Players online now" [ref=e333]: 👥 39.5k
+          - generic [ref=e334]:
+            - generic [ref=e335]: ⚔️ Action
+            - generic [ref=e336]: 🪓 Survival
+          - generic [ref=e337]:
+            - img [ref=e338]
+            - text: 1-4 players
+          - generic [ref=e340]: Experience entertainment blockbusters Grand Theft Auto V and Grand Theft Auto Online — now upgraded for a new generation with stunning visuals, faster loading, 3D audio, and more, plus exclusive content for GTA Online players.
+        - generic [ref=e341]:
+          - link "Details →" [ref=e342]:
+            - /url: games/8.html
+          - button "Buy" [ref=e343]
+      - listitem [ref=e344] [cursor=pointer]:
+        - button "✓" [ref=e345]
+        - generic [ref=e346]: 🔥 Trending
+        - img "DayZ" [ref=e348]
+        - generic [ref=e349]:
+          - generic [ref=e350]:
+            - generic [ref=e351]: DayZ
+            - generic [ref=e352]:
+              - generic "77% ⭐ Steam Reviews" [ref=e353]: 👍 77%
+              - generic "Players online now" [ref=e354]: 👥 37.1k
+          - generic [ref=e355]:
+            - generic [ref=e356]: 🪓 Survival
+            - generic [ref=e357]: 👻 Horror
+            - generic [ref=e358]: ⚔️ Action
+          - generic [ref=e359]:
+            - img [ref=e360]
+            - text: 1-4 players
+          - generic [ref=e362]: How long can you survive a post-apocalyptic world? A land overrun with an infected "zombie" population, where you compete with other survivors for limited resources. Will you team up with strangers and stay strong together? Or play as a lone wolf to avoid betrayal? This is DayZ – this is your story.
+        - generic [ref=e363]:
+          - link "Details →" [ref=e364]:
+            - /url: games/9.html
+          - button "Buy -35%" [ref=e365]
+      - listitem [ref=e366] [cursor=pointer]:
+        - button "✓" [ref=e367]
+        - generic [ref=e368]: 🔥 Trending
+        - img "Warframe" [ref=e370]
+        - generic [ref=e371]:
+          - generic [ref=e372]:
+            - generic [ref=e373]: Warframe
+            - generic [ref=e374]:
+              - generic "87% ⭐ Steam Reviews" [ref=e375]: 😊 87%
+              - generic "Players online now" [ref=e376]: 👥 36.2k
+              - generic [ref=e377]: 🔄 Crossplay
+          - generic [ref=e378]:
+            - generic [ref=e379]: 🐉 RPG
+            - generic [ref=e380]: ⚔️ Action
+            - generic [ref=e381]: 🆓 Free
+          - generic [ref=e382]:
+            - img [ref=e383]
+            - text: 1-4 players
+          - generic [ref=e385]: Confront warring factions throughout a sprawling interplanetary system as you follow the guidance of the mysterious Lotus and level up your Warframe, build an Arsenal of destructive firepower, and realize your true potential across massive open worlds in this thrilling, genre-defining third-person…
+        - link "Details →" [ref=e387]:
+          - /url: games/10.html
+      - listitem [ref=e388] [cursor=pointer]:
+        - button "✓" [ref=e389]
+        - generic [ref=e390]: 🔥 Trending
+        - img "R.E.P.O." [ref=e392]
+        - generic [ref=e393]:
+          - generic [ref=e394]:
+            - generic [ref=e395]: R.E.P.O.
+            - generic [ref=e396]:
+              - generic "97% ⭐ Steam Reviews" [ref=e397]: 🏆 97%
+              - generic "Players online now" [ref=e398]: 👥 32.3k
+          - generic [ref=e399]:
+            - generic [ref=e400]: 👻 Horror
+            - generic [ref=e401]: ⚔️ Action
+            - generic [ref=e402]: 🪓 Survival
+          - generic [ref=e403]:
+            - img [ref=e404]
+            - text: 1-6 players
+          - generic [ref=e406]: An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires.
+        - generic [ref=e407]:
+          - link "Details →" [ref=e408]:
+            - /url: games/11.html
+          - button "Buy -31%" [ref=e409]
+      - listitem [ref=e410] [cursor=pointer]:
+        - button "✓" [ref=e411]
+        - generic [ref=e412]: 🔥 Trending
+        - img "Hearts of Iron IV" [ref=e414]
+        - generic [ref=e415]:
+          - generic [ref=e416]:
+            - generic [ref=e417]: Hearts of Iron IV
+            - generic [ref=e418]:
+              - generic "89% ⭐ Steam Reviews" [ref=e419]: 😊 89%
+              - generic "Players online now" [ref=e420]: 👥 32.1k
+              - generic [ref=e421]: 🔄 Crossplay
+          - generic [ref=e422]:
+            - generic [ref=e423]: ♟️ Strategy
+            - generic [ref=e424]: ⚔️ Action
+          - generic [ref=e425]:
+            - img [ref=e426]
+            - text: 1-4 players
+          - generic [ref=e428]: Victory is at your fingertips! Your ability to lead your nation is your supreme weapon, the strategy game Hearts of Iron IV lets you take command of any nation in World War II; the most engaging conflict in world history.
+        - generic [ref=e429]:
+          - link "Details →" [ref=e430]:
+            - /url: games/176.html
+          - button "Buy" [ref=e431]
+      - listitem [ref=e432] [cursor=pointer]:
+        - button "✓" [ref=e433]
+        - generic [ref=e434]: 🔥 Trending
+        - img "Don't Starve Together" [ref=e436]
+        - generic [ref=e437]:
+          - generic [ref=e438]:
+            - generic [ref=e439]: Don't Starve Together
+            - generic [ref=e440]:
+              - generic "95% ⭐ Steam Reviews" [ref=e441]: 🏆 95%
+              - generic "Players online now" [ref=e442]: 👥 30.5k
+          - generic [ref=e443]:
+            - generic [ref=e444]: 🪓 Survival
+            - generic [ref=e445]: 👻 Horror
+            - generic [ref=e446]: ♟️ Strategy
+            - generic [ref=e447]: 🎮 Indie
+          - generic [ref=e448]:
+            - img [ref=e449]
+            - text: 1-4 players
+          - generic [ref=e451]: Explore Together Discover and explore a massive procedurally generated and biome-rich world with countless resources and threats. Whether you stick to the surface world, go spelunking in the caves, dive deeper into the Ancient Archive, or set sail for the Lunar islands, it will be a long time…
+        - generic [ref=e452]:
+          - link "Details →" [ref=e453]:
+            - /url: games/12.html
+          - button "Buy" [ref=e454]
+      - listitem [ref=e455] [cursor=pointer]:
+        - button "✓" [ref=e456]
+        - generic [ref=e457]: 🔥 Trending
+        - img "NBA 2K25" [ref=e459]
+        - generic [ref=e460]:
+          - generic [ref=e461]:
+            - generic [ref=e462]: NBA 2K25
+            - generic [ref=e463]:
+              - generic "59% ⭐ Steam Reviews" [ref=e464]: 😐 59%
+              - generic "Players online now" [ref=e465]: 👥 27.5k
+          - generic [ref=e466]:
+            - generic [ref=e467]: ⚽ Sport
+            - generic [ref=e468]: ♟️ Strategy
+            - generic [ref=e469]: 🖥️ Splitscreen
+          - generic [ref=e470]:
+            - img [ref=e471]
+            - text: 1-4 players
+          - generic [ref=e473]: Command every court with authenticity and realism Powered by ProPLAY™, giving you ultimate control over how you play in NBA 2K25. Define your legacy in MyCAREER, MyTEAM, MyNBA, and The W.
+        - generic [ref=e474]:
+          - link "Details →" [ref=e475]:
+            - /url: games/177.html
+          - button "Buy -40%" [ref=e476]
+      - listitem [ref=e477] [cursor=pointer]:
+        - button "✓" [ref=e478]
+        - generic [ref=e479]: 🔥 Trending
+        - img "PAYDAY 2" [ref=e481]
+        - generic [ref=e482]:
+          - generic [ref=e483]:
+            - generic [ref=e484]: PAYDAY 2
+            - generic [ref=e485]:
+              - generic "90% ⭐ Steam Reviews" [ref=e486]: 😊 90%
+              - generic "Players online now" [ref=e487]: 👥 27.3k
+          - generic [ref=e488]:
+            - generic [ref=e489]: ⚔️ Action
+            - generic [ref=e490]: ♟️ Strategy
+          - generic [ref=e491]:
+            - img [ref=e492]
+            - text: 1-4 players
+          - generic [ref=e494]: PAYDAY 2 is an action-packed, four-player co-op shooter that once again lets gamers don the masks of the original PAYDAY crew - Dallas, Hoxton, Wolf and Chains - as they descend on Washington DC for an epic crime spree.
+        - generic [ref=e495]:
+          - link "Details →" [ref=e496]:
+            - /url: games/13.html
+          - button "Buy -56%" [ref=e497]
+      - listitem [ref=e498] [cursor=pointer]:
+        - button "✓" [ref=e499]
+        - generic [ref=e500]: 🔥 Trending
+        - img "Left 4 Dead 2" [ref=e502]
+        - generic [ref=e503]:
+          - generic [ref=e504]:
+            - generic [ref=e505]: Left 4 Dead 2
+            - generic [ref=e506]:
+              - generic "98% ⭐ Steam Reviews" [ref=e507]: 🏆 98%
+              - generic "Players online now" [ref=e508]: 👥 25.1k
+          - generic [ref=e509]:
+            - generic [ref=e510]: 👻 Horror
+            - generic [ref=e511]: ⚔️ Action
+            - generic [ref=e512]: 🪓 Survival
+          - generic [ref=e513]:
+            - img [ref=e514]
+            - text: 1-4 players
+          - generic [ref=e516]: Set in the zombie apocalypse, Left 4 Dead 2 is a co-operative action horror FPS takes you and your friends through the cities, swamps and cemeteries of the Deep South, from Savannah to New Orleans across five expansive campaigns.
+        - generic [ref=e517]:
+          - link "Details →" [ref=e518]:
+            - /url: games/14.html
+          - button "Buy -59%" [ref=e519]
+      - listitem [ref=e520] [cursor=pointer]:
+        - button "✓" [ref=e521]
+        - generic [ref=e522]: 🔥 Trending
+        - img "Destiny 2" [ref=e524]
+        - generic [ref=e525]:
+          - generic [ref=e526]:
+            - generic [ref=e527]: Destiny 2
+            - generic [ref=e528]:
+              - generic "80% ⭐ Steam Reviews" [ref=e529]: 👍 80%
+              - generic "Players online now" [ref=e530]: 👥 24.6k
+          - generic [ref=e531]:
+            - generic [ref=e532]: ⚔️ Action
+            - generic [ref=e533]: 🆓 Free
+          - generic [ref=e534]:
+            - img [ref=e535]
+            - text: 1-3 players
+          - generic [ref=e537]: "Destiny 2: Year of Prophecy Ultimate Edition About the Game Dive into the world of Destiny 2 to explore the mysteries of the solar system and experience responsive first-person shooter combat. Unlock powerful elemental abilities and collect unique gear to customize your Guardian's look and…"
+        - link "Details →" [ref=e539]:
+          - /url: games/15.html
+      - listitem [ref=e540] [cursor=pointer]:
+        - button "✓" [ref=e541]
+        - generic [ref=e542]: 🔥 Trending
+        - img "Terraria" [ref=e544]
+        - generic [ref=e545]:
+          - generic [ref=e546]:
+            - generic [ref=e547]: Terraria
+            - generic [ref=e548]:
+              - generic "97% ⭐ Steam Reviews" [ref=e549]: 🏆 97%
+              - generic "Players online now" [ref=e550]: 👥 24.6k
+          - generic [ref=e551]:
+            - generic [ref=e552]: 🪓 Survival
+            - generic [ref=e553]: ⚔️ Action
+            - generic [ref=e554]: 🐉 RPG
+            - generic [ref=e555]: 🎮 Indie
+          - generic [ref=e556]:
+            - img [ref=e557]
+            - text: 1-255 players
+          - generic [ref=e559]: "Dig, Fight, Explore, Build: The very world is at your fingertips as you fight for survival, fortune, and glory. Will you delve deep into cavernous expanses in search of treasure and raw materials with which to craft ever-evolving gear, machinery, and aesthetics? Perhaps you will choose instead to…"
+        - generic [ref=e560]:
+          - link "Details →" [ref=e561]:
+            - /url: games/16.html
+          - button "Buy -14%" [ref=e562]
+      - listitem [ref=e563] [cursor=pointer]:
+        - button "✓" [ref=e564]
+        - generic [ref=e565]: 🔥 Trending
+        - img "Project Zomboid" [ref=e567]
+        - generic [ref=e568]:
+          - generic [ref=e569]:
+            - generic [ref=e570]: Project Zomboid
+            - generic [ref=e571]:
+              - generic "94% ⭐ Steam Reviews" [ref=e572]: 😊 94%
+              - generic "Players online now" [ref=e573]: 👥 22.9k
+              - generic [ref=e574]: 🔄 Crossplay
+          - generic [ref=e575]:
+            - generic [ref=e576]: 🪓 Survival
+            - generic [ref=e577]: 👻 Horror
+            - generic [ref=e578]: 🐉 RPG
+            - generic [ref=e579]: 🎮 Indie
+            - generic [ref=e580]: 🖥️ Splitscreen
+          - generic [ref=e581]:
+            - img [ref=e582]
+            - text: 1-32 players
+          - generic [ref=e584]: "Project Zomboid is the ultimate in zombie survival. Alone or in MP: you loot, build, craft, fight, farm and fish in a struggle to survive. A hardcore RPG skillset, a vast map, massively customisable sandbox and a cute tutorial raccoon await the unwary. So how will you die? All it takes is a bite.."
+        - generic [ref=e585]:
+          - link "Details →" [ref=e586]:
+            - /url: games/17.html
+          - button "Buy -60%" [ref=e587]
+      - listitem [ref=e588] [cursor=pointer]:
+        - button "✓" [ref=e589]
+        - generic [ref=e590]: 🔥 Trending
+        - img "Schedule I" [ref=e592]
+        - generic [ref=e593]:
+          - generic [ref=e594]:
+            - generic [ref=e595]: Schedule I
+            - generic [ref=e596]:
+              - generic "98% ⭐ Steam Reviews" [ref=e597]: 🏆 98%
+              - generic "Players online now" [ref=e598]: 👥 22.8k
+          - generic [ref=e599]:
+            - generic [ref=e600]: ⚔️ Action
+            - generic [ref=e601]: 🪓 Survival
+            - generic [ref=e602]: 🏭 Factory
+          - generic [ref=e603]:
+            - img [ref=e604]
+            - text: 1-4 players
+          - generic [ref=e606]: From small-time dope pusher to kingpin - manufacture and distribute a range of drugs throughout the grungy city of Hyland Point. Expand your empire with properties, businesses, employees and more.
+        - generic [ref=e607]:
+          - link "Details →" [ref=e608]:
+            - /url: games/178.html
+          - button "Buy -90%" [ref=e609]
+      - listitem [ref=e610] [cursor=pointer]:
+        - button "✓" [ref=e611]
+        - generic [ref=e612]: 🔥 Trending
+        - 'img "ARK: Survival Evolved" [ref=e614]'
+        - generic [ref=e615]:
+          - generic [ref=e616]:
+            - generic [ref=e617]: "ARK: Survival Evolved"
+            - generic [ref=e618]:
+              - generic "84% ⭐ Steam Reviews" [ref=e619]: 👍 84%
+              - generic "Players online now" [ref=e620]: 👥 22.2k
+          - generic [ref=e621]:
+            - generic [ref=e622]: 🪓 Survival
+            - generic [ref=e623]: ⚔️ Action
+            - generic [ref=e624]: 🐉 RPG
+            - generic [ref=e625]: 🖥️ Splitscreen
+          - generic [ref=e626]:
+            - img [ref=e627]
+            - text: 1-4 players
+          - generic [ref=e629]: Stranded on the shores of a mysterious island, you must learn to survive. Use your cunning to kill or tame the primeval creatures roaming the land, and encounter other players to survive, dominate... and escape!
+        - generic [ref=e630]:
+          - link "Details →" [ref=e631]:
+            - /url: games/18.html
+          - button "Buy" [ref=e632]
+      - listitem [ref=e633] [cursor=pointer]:
+        - button "✓" [ref=e634]
+        - generic [ref=e635]: 🔥 Trending
+        - img "Rocket League" [ref=e637]
+        - generic [ref=e638]:
+          - generic [ref=e639]:
+            - generic [ref=e640]: Rocket League
+            - generic [ref=e641]:
+              - generic "87% ⭐ Steam Reviews" [ref=e642]: 😊 87%
+              - generic "Players online now" [ref=e643]: 👥 21.1k
+              - generic [ref=e644]: 🔄 Crossplay
+          - generic [ref=e645]:
+            - generic [ref=e646]: ⚽ Sport
+            - generic [ref=e647]: ⚔️ Action
+            - generic [ref=e648]: 🖥️ Splitscreen
+          - generic [ref=e649]:
+            - img [ref=e650]
+            - text: 1-4 players
+          - generic [ref=e652]: Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...
+        - generic [ref=e653]:
+          - link "Details →" [ref=e654]:
+            - /url: games/19.html
+          - button "Buy -51%" [ref=e655]
+      - listitem [ref=e656] [cursor=pointer]:
+        - button "✓" [ref=e657]
+        - generic [ref=e658]: 🔥 Trending
+        - img "FINAL FANTASY XIV Online" [ref=e660]
+        - generic [ref=e661]:
+          - generic [ref=e662]:
+            - generic [ref=e663]: FINAL FANTASY XIV Online
+            - generic [ref=e664]:
+              - generic "88% ⭐ Steam Reviews" [ref=e665]: 😊 88%
+              - generic "Players online now" [ref=e666]: 👥 19.8k
+              - generic [ref=e667]: 🔄 Crossplay
+          - generic [ref=e668]:
+            - generic [ref=e669]: 🐉 RPG
+            - generic [ref=e670]: ⚔️ Action
+          - generic [ref=e671]:
+            - img [ref=e672]
+            - text: 1-4 players
+          - generic [ref=e674]: Join over 30 million adventurers worldwide and take part in an epic and ever-changing FINAL FANTASY. Experience an unforgettable story, exhilarating battles, and a myriad of captivating environments to explore.
+        - generic [ref=e675]:
+          - link "Details →" [ref=e676]:
+            - /url: games/179.html
+          - button "Buy" [ref=e677]
+      - listitem [ref=e678] [cursor=pointer]:
+        - button "✓" [ref=e679]
+        - generic [ref=e680]: 🔥 Trending
+        - 'img "FANTASY LIFE i: The Girl Who Steals Time" [ref=e682]'
+        - generic [ref=e683]:
+          - generic [ref=e684]:
+            - generic [ref=e685]: "FANTASY LIFE i: The Girl Who Steals Time"
+            - generic [ref=e686]:
+              - generic "92% ⭐ Steam Reviews" [ref=e687]: 😊 92%
+              - generic "Players online now" [ref=e688]: 👥 19.5k
+              - generic [ref=e689]: 🔄 Crossplay
+          - generic [ref=e690]:
+            - generic [ref=e691]: 🐉 RPG
+            - generic [ref=e692]: ⚔️ Action
+            - generic [ref=e693]: 🎮 Indie
+          - generic [ref=e694]:
+            - img [ref=e695]
+            - text: 1-4 players
+          - generic [ref=e697]: Step into this Slow-Life RPG where you can freely switch between 14 unique jobs, so called "Lives," and enjoy a carefree life in a fantasy world. Fish, cook, shape the island to your liking, or team up with friends to battle monsters across the vast world.
+        - generic [ref=e698]:
+          - link "Details →" [ref=e699]:
+            - /url: games/180.html
+          - button "Buy -6%" [ref=e700]
+      - listitem [ref=e701] [cursor=pointer]:
+        - button "✓" [ref=e702]
+        - generic [ref=e703]: 🔥 Trending
+        - img "Garry's Mod" [ref=e705]
+        - generic [ref=e706]:
+          - generic [ref=e707]:
+            - generic [ref=e708]: Garry's Mod
+            - generic [ref=e709]:
+              - generic "97% ⭐ Steam Reviews" [ref=e710]: 🏆 97%
+              - generic "Players online now" [ref=e711]: 👥 18.4k
+              - generic [ref=e712]: 🔄 Crossplay
+          - generic [ref=e713]:
+            - generic [ref=e714]: 🏭 Factory
+            - generic [ref=e715]: ⚔️ Action
+          - generic [ref=e716]:
+            - img [ref=e717]
+            - text: 1-2 players
+          - generic [ref=e719]: Garry's Mod is a physics sandbox. There aren't any predefined aims or goals. We give you the tools and leave you to play.
+        - generic [ref=e720]:
+          - link "Details →" [ref=e721]:
+            - /url: games/20.html
+          - button "Buy -17%" [ref=e722]
+      - listitem [ref=e723] [cursor=pointer]:
+        - button "✓" [ref=e724]
+        - generic [ref=e725]: 🔥 Trending
+        - img "Palworld" [ref=e727]
+        - generic [ref=e728]:
+          - generic [ref=e729]:
+            - generic [ref=e730]: Palworld
+            - generic [ref=e731]:
+              - generic "94% ⭐ Steam Reviews" [ref=e732]: 😊 94%
+              - generic "Players online now" [ref=e733]: 👥 18.0k
+              - generic [ref=e734]: 🔄 Crossplay
+          - generic [ref=e735]:
+            - generic [ref=e736]: 🪓 Survival
+            - generic [ref=e737]: ⚔️ Action
+            - generic [ref=e738]: 🏭 Factory
+          - generic [ref=e739]:
+            - img [ref=e740]
+            - text: 1-4 players
+          - generic [ref=e742]: Fight, farm, build and work alongside mysterious creatures called "Pals" in this completely new multiplayer, open world survival and crafting game!
+        - generic [ref=e743]:
+          - link "Details →" [ref=e744]:
+            - /url: games/21.html
+          - button "Buy -14%" [ref=e745]
+      - listitem [ref=e746] [cursor=pointer]:
+        - button "✓" [ref=e747]
+        - generic [ref=e748]: 🔥 Trending
+        - img "Lost Ark" [ref=e750]
+        - generic [ref=e751]:
+          - generic [ref=e752]:
+            - generic [ref=e753]: Lost Ark
+            - generic [ref=e754]:
+              - generic "71% ⭐ Steam Reviews" [ref=e755]: 👍 71%
+              - generic "Players online now" [ref=e756]: 👥 17.4k
+          - generic [ref=e757]:
+            - generic [ref=e758]: 🐉 RPG
+            - generic [ref=e759]: ⚔️ Action
+            - generic [ref=e760]: 🆓 Free
+          - generic [ref=e761]:
+            - img [ref=e762]
+            - text: 1-4 players
+          - generic [ref=e764]: "Embark on an odyssey for the Lost Ark in a vast, vibrant world: explore new lands, seek out lost treasures, and test yourself in thrilling action combat in this action-packed free-to-play RPG."
+        - link "Details →" [ref=e766]:
+          - /url: games/181.html
+      - listitem [ref=e767] [cursor=pointer]:
+        - button "✓" [ref=e768]
+        - generic [ref=e769]: 🔥 Trending
+        - img "7 Days to Die" [ref=e771]
+        - generic [ref=e772]:
+          - generic [ref=e773]:
+            - generic [ref=e774]: 7 Days to Die
+            - generic [ref=e775]:
+              - generic "89% ⭐ Steam Reviews" [ref=e776]: 😊 89%
+              - generic "Players online now" [ref=e777]: 👥 17.0k
+              - generic [ref=e778]: 🔄 Crossplay
+          - generic [ref=e779]:
+            - generic [ref=e780]: 🪓 Survival
+            - generic [ref=e781]: 👻 Horror
+            - generic [ref=e782]: ⚔️ Action
+          - generic [ref=e783]:
+            - img [ref=e784]
+            - text: 1-100 players
+          - generic [ref=e786]: 7 Days to Die is an open-world game that is a unique combination of first-person shooter, survival horror, tower defense, and role-playing games. Play the definitive zombie survival sandbox RPG that came first. Navezgane awaits!
+        - generic [ref=e787]:
+          - link "Details →" [ref=e788]:
+            - /url: games/22.html
+          - button "Buy -60%" [ref=e789]
+      - listitem [ref=e790] [cursor=pointer]:
+        - button "✓" [ref=e791]
+        - generic [ref=e792]: 🔥 Trending
+        - 'img "Total War: WARHAMMER III" [ref=e794]'
+        - generic [ref=e795]:
+          - generic [ref=e796]:
+            - generic [ref=e797]: "Total War: WARHAMMER III"
+            - generic [ref=e798]:
+              - generic "73% ⭐ Steam Reviews" [ref=e799]: 👍 73%
+              - generic "Players online now" [ref=e800]: 👥 16.8k
+          - generic [ref=e801]:
+            - generic [ref=e802]: ♟️ Strategy
+            - generic [ref=e803]: ⚔️ Action
+          - generic [ref=e804]:
+            - img [ref=e805]
+            - text: 1-2 players
+          - generic [ref=e807]: "The cataclysmic conclusion to the Total War: WARHAMMER trilogy is here. Rally your forces and step into the Realm of Chaos, a dimension of mind-bending horror where the very fate of the world will be decided. Will you conquer your Daemons… or command them?"
+        - generic [ref=e808]:
+          - link "Details →" [ref=e809]:
+            - /url: games/23.html
+          - button "Buy -83%" [ref=e810]
+      - listitem [ref=e811] [cursor=pointer]:
+        - button "✓" [ref=e812]
+        - generic [ref=e813]: 🔥 Trending
+        - img "Path of Exile 2" [ref=e815]
+        - generic [ref=e816]:
+          - generic [ref=e817]:
+            - generic [ref=e818]: Path of Exile 2
+            - generic [ref=e819]:
+              - generic "70% ⭐ Steam Reviews" [ref=e820]: 👍 70%
+              - generic "Players online now" [ref=e821]: 👥 16.7k
+          - generic [ref=e822]:
+            - generic [ref=e823]: ⚔️ Action
+            - generic [ref=e824]: 🐉 RPG
+          - generic [ref=e825]:
+            - img [ref=e826]
+            - text: 1-6 players
+          - generic [ref=e828]: Path of Exile 2 is a next generation Action RPG from Grinding Gear Games, featuring co-op for up to six players. Set years after the original Path of Exile, you will return to the dark world of Wraeclast and seek to end the corruption that is spreading.
+        - generic [ref=e829]:
+          - link "Details →" [ref=e830]:
+            - /url: games/182.html
+          - button "Buy -35%" [ref=e831]
+      - listitem [ref=e832] [cursor=pointer]:
+        - button "✓" [ref=e833]
+        - generic [ref=e834]: 🔥 Trending
+        - img "Factorio" [ref=e836]
+        - generic [ref=e837]:
+          - generic [ref=e838]:
+            - generic [ref=e839]: Factorio
+            - generic [ref=e840]:
+              - generic "97% ⭐ Steam Reviews" [ref=e841]: 🏆 97%
+              - generic "Players online now" [ref=e842]: 👥 16.4k
+              - generic [ref=e843]: 🔄 Crossplay
+          - generic [ref=e844]:
+            - generic [ref=e845]: 🏭 Factory
+            - generic [ref=e846]: ♟️ Strategy
+            - generic [ref=e847]: 🪓 Survival
+            - generic [ref=e848]: 🎮 Indie
+          - generic [ref=e849]:
+            - img [ref=e850]
+            - text: 1-65535 players
+          - generic [ref=e852]: Factorio is a game about building and creating automated factories to produce items of increasing complexity, within an infinite 2D world. Use your imagination to design your factory, combine simple elements into ingenious structures, and finally protect it from the creatures who don't really like you.
+        - generic [ref=e853]:
+          - link "Details →" [ref=e854]:
+            - /url: games/24.html
+          - button "Buy -9%" [ref=e855]
+      - listitem [ref=e856] [cursor=pointer]:
+        - button "✓" [ref=e857]
+        - generic [ref=e858]: 🔥 Trending
+        - img "The Elder Scrolls Online" [ref=e860]
+        - generic [ref=e861]:
+          - generic [ref=e862]:
+            - generic [ref=e863]: The Elder Scrolls Online
+            - generic [ref=e864]:
+              - generic "81% ⭐ Steam Reviews" [ref=e865]: 👍 81%
+              - generic "Players online now" [ref=e866]: 👥 16.0k
+          - generic [ref=e867]:
+            - generic [ref=e868]: 🐉 RPG
+            - generic [ref=e869]: ⚔️ Action
+          - generic [ref=e870]:
+            - img [ref=e871]
+            - text: 1-4 players
+          - generic [ref=e873]: Every legend starts somewhere and in The Elder Scrolls Online, it starts with you. Join millions of players in an online, fantasy RPG set in a vast living Elder Scrolls world.
+        - generic [ref=e874]:
+          - link "Details →" [ref=e875]:
+            - /url: games/183.html
+          - button "Buy -68%" [ref=e876]
+      - listitem [ref=e877] [cursor=pointer]:
+        - button "✓" [ref=e878]
+        - generic [ref=e879]: 🔥 Trending
+        - 'img "The Binding of Isaac: Rebirth" [ref=e881]'
+        - generic [ref=e882]:
+          - generic [ref=e883]:
+            - generic [ref=e884]: "The Binding of Isaac: Rebirth"
+            - generic [ref=e885]:
+              - generic "97% ⭐ Steam Reviews" [ref=e886]: 🏆 97%
+              - generic "Players online now" [ref=e887]: 👥 14.9k
+          - generic [ref=e888]:
+            - generic [ref=e889]: 🐉 RPG
+            - generic [ref=e890]: 🖥️ Splitscreen
+            - generic [ref=e891]: ⚔️ Action
+            - generic [ref=e892]: 🎮 Indie
+          - generic [ref=e893]:
+            - img [ref=e894]
+            - text: 1-4 (locale) players
+          - generic [ref=e896]: "The Binding of Isaac: Rebirth is a randomly generated action RPG shooter with heavy Rogue-like elements. Following Isaac on his journey players will find bizarre treasures that change Isaac’s form giving him super human abilities and enabling him to fight off droves of mysterious creatures, discover secrets and fight his way to safety."
+        - generic [ref=e897]:
+          - link "Details →" [ref=e898]:
+            - /url: games/25.html
+          - button "Buy -18%" [ref=e899]
+      - listitem [ref=e900] [cursor=pointer]:
+        - button "✓" [ref=e901]
+        - generic [ref=e902]: 🔥 Trending
+        - img "Valheim" [ref=e904]
+        - generic [ref=e905]:
+          - generic [ref=e906]:
+            - generic [ref=e907]: Valheim
+            - generic [ref=e908]:
+              - generic "94% ⭐ Steam Reviews" [ref=e909]: 😊 94%
+              - generic "Players online now" [ref=e910]: 👥 14.4k
+          - generic [ref=e911]:
+            - generic [ref=e912]: 🪓 Survival
+            - generic [ref=e913]: ⚔️ Action
+          - generic [ref=e914]:
+            - img [ref=e915]
+            - text: 1-10 players
+          - generic [ref=e917]: A brutal exploration and survival game for 1-10 players, set in a procedurally-generated purgatory inspired by viking culture. Battle, build, and conquer your way to a saga worthy of Odin’s patronage!
+        - generic [ref=e918]:
+          - link "Details →" [ref=e919]:
+            - /url: games/26.html
+          - button "Buy -48%" [ref=e920]
+      - listitem [ref=e921] [cursor=pointer]:
+        - button "✓" [ref=e922]
+        - generic [ref=e923]: 🔥 Trending
+        - img "Black Desert" [ref=e925]
+        - generic [ref=e926]:
+          - generic [ref=e927]:
+            - generic [ref=e928]: Black Desert
+            - generic [ref=e929]:
+              - generic "74% ⭐ Steam Reviews" [ref=e930]: 👍 74%
+              - generic "Players online now" [ref=e931]: 👥 14.3k
+          - generic [ref=e932]:
+            - generic [ref=e933]: 🐉 RPG
+            - generic [ref=e934]: ⚔️ Action
+            - generic [ref=e935]: ♟️ Strategy
+          - generic [ref=e936]:
+            - img [ref=e937]
+            - text: 1-4 players
+          - generic [ref=e939]: Played by over 20 million Adventurers - Black Desert Online is an open-world, action MMORPG. Experience intense, action-packed combat, battle massive world bosses, fight alongside friends to siege and conquer castles, and train in professions such as fishing, trading, crafting, cooking, and more!
+        - generic [ref=e940]:
+          - link "Details →" [ref=e941]:
+            - /url: games/27.html
+          - button "Buy" [ref=e942]
+  - dialog "Game details"
+  - dialog "Random game wheel":
+    - generic:
+      - generic:
+        - generic:
+          - generic: 🎡 Random Game Wheel
+          - button "Close": ✕
+        - generic:
+          - generic "Wheel of fortune"
+        - button "🎰 Spin the Wheel!"
+  - link "Supporta il progetto su Ko-fi" [ref=e944] [cursor=pointer]:
+    - /url: https://ko-fi.com/coophubs
+    - text: ☕
+  - button "Back to top":
+    - img
+  - generic [ref=e945]:
+    - paragraph [ref=e946]: This site is free and ad-free. If you find it useful, buy me a coffee ☕
+    - link "☕ Support the project" [ref=e947] [cursor=pointer]:
+      - /url: https://ko-fi.com/coophubs
+    - generic [ref=e948]:
+      - link "About" [ref=e949] [cursor=pointer]:
+        - /url: about.html
+      - link "Contact" [ref=e950] [cursor=pointer]:
+        - /url: contact.html
+      - link "Free games" [ref=e951] [cursor=pointer]:
+        - /url: free.html
+      - link "Privacy Policy" [ref=e952] [cursor=pointer]:
+        - /url: privacy.html
+  - contentinfo [ref=e953]:
+    - generic [ref=e954]:
+      - generic [ref=e955]: Co-op Games Hub
+      - generic [ref=e956]: Coophubs is an independent project dedicated to discovering co-op games for PC.
+      - generic [ref=e957]:
+        - link "About" [ref=e958] [cursor=pointer]:
+          - /url: about.html
+        - link "Contact" [ref=e959] [cursor=pointer]:
+          - /url: contact.html
+        - link "Free games" [ref=e960] [cursor=pointer]:
+          - /url: free.html
+        - link "Privacy Policy" [ref=e961] [cursor=pointer]:
+          - /url: privacy.html
+      - generic [ref=e963]: © 2026 Co-op Games Hub — Images © respective publishers — Data from Steam & SteamSpy

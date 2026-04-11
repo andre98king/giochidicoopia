@@ -1,0 +1,1607 @@
+{
+  "generated_at": "2026-04-01T13:39:28.316441+00:00",
+  "stats": {
+    "igdb_results": 100,
+    "candidates": 86
+  },
+  "candidates": [
+    {
+      "title": "Terraria: Calamity Mod",
+      "igdbId": 141229,
+      "first_release_date": 1464739200,
+      "release_year": 2016,
+      "rating": 99.0430413447168,
+      "genres": [
+        "8",
+        "12",
+        "13",
+        "15",
+        "31",
+        "32"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 99.0430413447168%, released 2016"
+    },
+    {
+      "title": "San Andreas Multiplayer",
+      "igdbId": 199038,
+      "first_release_date": 1147132800,
+      "release_year": 2006,
+      "rating": 98.7207313276821,
+      "genres": [
+        "5",
+        "10"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 98.7207313276821%, released 2006"
+    },
+    {
+      "title": "Streets of Rage Remake",
+      "igdbId": 72327,
+      "first_release_date": 1301788800,
+      "release_year": 2011,
+      "rating": 97.5701213851357,
+      "genres": [
+        "25",
+        "32"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 97.5701213851357%, released 2011"
+    },
+    {
+      "title": "Lurkers",
+      "igdbId": 117526,
+      "first_release_date": 1555632000,
+      "release_year": 2019,
+      "rating": 97.30397394491462,
+      "genres": [
+        "5",
+        "8",
+        "12",
+        "13",
+        "25",
+        "31",
+        "32"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 97.30397394491462%, released 2019"
+    },
+    {
+      "title": "Not in the Groove",
+      "igdbId": 138851,
+      "first_release_date": 1298937600,
+      "release_year": 2011,
+      "rating": 96.51424940375048,
+      "genres": [
+        "7"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 96.51424940375048%, released 2011"
+    },
+    {
+      "title": "Sonic Mania Plus",
+      "igdbId": 94873,
+      "first_release_date": 1531785600,
+      "release_year": 2018,
+      "rating": 95.60341028157914,
+      "genres": [
+        "8"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 95.60341028157914%, released 2018"
+    },
+    {
+      "title": "tModLoader",
+      "igdbId": 134157,
+      "first_release_date": 1589673600,
+      "release_year": 2020,
+      "rating": 95.0939556584325,
+      "genres": [
+        "8",
+        "12",
+        "13",
+        "15",
+        "31",
+        "32"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 95.0939556584325%, released 2020"
+    },
+    {
+      "title": "Homeworld: Remastered Collection",
+      "igdbId": 8773,
+      "first_release_date": 1424822400,
+      "release_year": 2015,
+      "rating": 93.28470767401734,
+      "genres": [
+        "11",
+        "13",
+        "15",
+        "31"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 93.28470767401734%, released 2015"
+    },
+    {
+      "title": "Red Dead Redemption 2",
+      "igdbId": 25076,
+      "first_release_date": 1540512000,
+      "release_year": 2018,
+      "rating": 93.21704812831156,
+      "genres": [
+        "5",
+        "12",
+        "31"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 93.21704812831156%, released 2018"
+    },
+    {
+      "title": "FortressOne",
+      "igdbId": 144345,
+      "first_release_date": 1527120000,
+      "release_year": 2018,
+      "rating": 92.87627742188346,
+      "genres": [
+        "5"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 92.87627742188346%, released 2018"
+    },
+    {
+      "title": "Mass Effect Trilogy",
+      "igdbId": 45181,
+      "first_release_date": 1352160000,
+      "release_year": 2012,
+      "rating": 92.55121186094826,
+      "genres": [
+        "5",
+        "12",
+        "31"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 92.55121186094826%, released 2012"
+    },
+    {
+      "title": "Ashen Sky",
+      "igdbId": 299596,
+      "first_release_date": 1558915200,
+      "release_year": 2019,
+      "rating": 92.23300970873787,
+      "genres": [
+        "12",
+        "31",
+        "32"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 92.23300970873787%, released 2019"
+    },
+    {
+      "title": "Epic Seven",
+      "igdbId": 112191,
+      "first_release_date": 1541635200,
+      "release_year": 2018,
+      "rating": 92.0916484335869,
+      "genres": [
+        "12",
+        "13",
+        "16"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 92.0916484335869%, released 2018"
+    },
+    {
+      "title": "Sid Meier's Alpha Centauri",
+      "igdbId": 863,
+      "first_release_date": 918518400,
+      "release_year": 1999,
+      "rating": 92.05214353778393,
+      "genres": [
+        "13",
+        "15",
+        "16"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 92.05214353778393%, released 1999"
+    },
+    {
+      "title": "Rocksmith 2014 Edition: Remastered",
+      "igdbId": 30155,
+      "first_release_date": 1475539200,
+      "release_year": 2016,
+      "rating": 92.03669092188767,
+      "genres": [
+        "7",
+        "13"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 92.03669092188767%, released 2016"
+    },
+    {
+      "title": "Microsoft Flight Simulator",
+      "igdbId": 119295,
+      "first_release_date": 1597622400,
+      "release_year": 2020,
+      "rating": 91.81004055111322,
+      "genres": [
+        "13"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 91.81004055111322%, released 2020"
+    },
+    {
+      "title": "Star Citizen",
+      "igdbId": 1595,
+      "first_release_date": 1377820800,
+      "release_year": 2013,
+      "rating": 91.51636214351907,
+      "genres": [
+        "5",
+        "12",
+        "13",
+        "31",
+        "32"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 91.51636214351907%, released 2013"
+    },
+    {
+      "title": "Final Fantasy XIV: Shadowbringers",
+      "igdbId": 112412,
+      "first_release_date": 1562025600,
+      "release_year": 2019,
+      "rating": 91.03730046883344,
+      "genres": [
+        "12"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 91.03730046883344%, released 2019"
+    },
+    {
+      "title": "Kingdom Hearts HD 1.5 + 2.5 Remix",
+      "igdbId": 27979,
+      "first_release_date": 1489017600,
+      "release_year": 2017,
+      "rating": 90.6378299938737,
+      "genres": [
+        "12",
+        "31"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 90.6378299938737%, released 2017"
+    },
+    {
+      "title": "Etterna",
+      "igdbId": 74732,
+      "first_release_date": 1472169600,
+      "release_year": 2016,
+      "rating": 90.40754716981132,
+      "genres": [
+        "7",
+        "32"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 90.40754716981132%, released 2016"
+    },
+    {
+      "title": "Divinity: Original Sin II - Definitive Edition",
+      "igdbId": 103337,
+      "first_release_date": 1535673600,
+      "release_year": 2018,
+      "rating": 90.18817804993662,
+      "genres": [
+        "12",
+        "15",
+        "31"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 90.18817804993662%, released 2018"
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas",
+      "igdbId": 732,
+      "first_release_date": 1098748800,
+      "release_year": 2004,
+      "rating": 90.15507201291487,
+      "genres": [
+        "5",
+        "10",
+        "31"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 90.15507201291487%, released 2004"
+    },
+    {
+      "title": "Heroes of Might and Magic III: The Restoration of Erathia",
+      "igdbId": 364,
+      "first_release_date": 920160000,
+      "release_year": 1999,
+      "rating": 90.11142458174403,
+      "genres": [
+        "12",
+        "15",
+        "16"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 90.11142458174403%, released 1999"
+    },
+    {
+      "title": "Monster Hunter World: Iceborne Master Edition",
+      "igdbId": 118273,
+      "first_release_date": 1567728000,
+      "release_year": 2019,
+      "rating": 90.0209073864732,
+      "genres": [
+        "12",
+        "25",
+        "31"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 90.0209073864732%, released 2019"
+    },
+    {
+      "title": "PokeMMO",
+      "igdbId": 127976,
+      "first_release_date": 1332892800,
+      "release_year": 2012,
+      "rating": 89.93501110922155,
+      "genres": [
+        "31"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 89.93501110922155%, released 2012"
+    },
+    {
+      "title": "Dragon Ball Z: Kakarot - Dragon Ball Card Warriors",
+      "igdbId": 142494,
+      "first_release_date": 1603756800,
+      "release_year": 2020,
+      "rating": 89.8507462686567,
+      "genres": [
+        "15",
+        "16",
+        "35"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 89.8507462686567%, released 2020"
+    },
+    {
+      "title": "Baldur's Gate II: Shadows of Amn",
+      "igdbId": 6,
+      "first_release_date": 969494400,
+      "release_year": 2000,
+      "rating": 89.84251765114698,
+      "genres": [
+        "12"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 89.84251765114698%, released 2000"
+    },
+    {
+      "title": "Geometry Wars 3: Dimensions Evolved",
+      "igdbId": 17573,
+      "first_release_date": 1412208000,
+      "release_year": 2014,
+      "rating": 89.7839234359892,
+      "genres": [
+        "5",
+        "33"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 89.7839234359892%, released 2014"
+    },
+    {
+      "title": "GT Legends",
+      "igdbId": 736,
+      "first_release_date": 1128556800,
+      "release_year": 2005,
+      "rating": 89.77878120552103,
+      "genres": [
+        "10",
+        "13",
+        "14"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 89.77878120552103%, released 2005"
+    },
+    {
+      "title": "Guacamelee!: Gold Edition",
+      "igdbId": 19121,
+      "first_release_date": 1375920000,
+      "release_year": 2013,
+      "rating": 89.73739056926023,
+      "genres": [
+        "8",
+        "25",
+        "31",
+        "32"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 89.73739056926023%, released 2013"
+    },
+    {
+      "title": "Dark Souls: Artorias of the Abyss",
+      "igdbId": 21988,
+      "first_release_date": 1345766400,
+      "release_year": 2012,
+      "rating": 89.7303550129146,
+      "genres": [
+        "12",
+        "31"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 89.7303550129146%, released 2012"
+    },
+    {
+      "title": "Ys VIII: Lacrimosa of Dana",
+      "igdbId": 27304,
+      "first_release_date": 1469059200,
+      "release_year": 2016,
+      "rating": 89.5312710320696,
+      "genres": [
+        "12",
+        "31"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 89.5312710320696%, released 2016"
+    },
+    {
+      "title": "Crimzon Clover: World Ignition",
+      "igdbId": 8763,
+      "first_release_date": 1402012800,
+      "release_year": 2014,
+      "rating": 89.3702846111484,
+      "genres": [
+        "5",
+        "32",
+        "33"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 89.3702846111484%, released 2014"
+    },
+    {
+      "title": "Sonic the Hedgehog 3 & Knuckles",
+      "igdbId": 11219,
+      "first_release_date": 782438400,
+      "release_year": 1994,
+      "rating": 89.32216754979193,
+      "genres": [
+        "8"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 89.32216754979193%, released 1994"
+    },
+    {
+      "title": "Red Dead Redemption",
+      "igdbId": 434,
+      "first_release_date": 1274140800,
+      "release_year": 2010,
+      "rating": 89.31723583317344,
+      "genres": [
+        "5",
+        "12",
+        "31"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 89.31723583317344%, released 2010"
+    },
+    {
+      "title": "Unreal Tournament: Game of the Year Edition",
+      "igdbId": 24723,
+      "first_release_date": 972432000,
+      "release_year": 2000,
+      "rating": 89.17356132721379,
+      "genres": [
+        "5"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 89.17356132721379%, released 2000"
+    },
+    {
+      "title": "Diablo II: Lord of Destruction",
+      "igdbId": 246,
+      "first_release_date": 993600000,
+      "release_year": 2001,
+      "rating": 89.15804165007168,
+      "genres": [
+        "12",
+        "25"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 89.15804165007168%, released 2001"
+    },
+    {
+      "title": "Dofus",
+      "igdbId": 18337,
+      "first_release_date": 1093996800,
+      "release_year": 2004,
+      "rating": 88.88428340549785,
+      "genres": [
+        "12",
+        "15",
+        "31"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 88.88428340549785%, released 2004"
+    },
+    {
+      "title": "System Shock 2",
+      "igdbId": 22,
+      "first_release_date": 934329600,
+      "release_year": 1999,
+      "rating": 88.87419226971126,
+      "genres": [
+        "5",
+        "12"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 88.87419226971126%, released 1999"
+    },
+    {
+      "title": "Sonic Mega Collection",
+      "igdbId": 4157,
+      "first_release_date": 1036886400,
+      "release_year": 2002,
+      "rating": 88.78241713960834,
+      "genres": [
+        "8",
+        "9"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 88.78241713960834%, released 2002"
+    },
+    {
+      "title": "Mordheim: City of the Damned",
+      "igdbId": 8209,
+      "first_release_date": 1447891200,
+      "release_year": 2015,
+      "rating": 88.71525312466096,
+      "genres": [
+        "12",
+        "13",
+        "15",
+        "16",
+        "24"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 88.71525312466096%, released 2015"
+    },
+    {
+      "title": "DinoScape",
+      "igdbId": 143335,
+      "first_release_date": 1592006400,
+      "release_year": 2020,
+      "rating": 88.68852459016394,
+      "genres": [
+        "8",
+        "31",
+        "32"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 88.68852459016394%, released 2020"
+    },
+    {
+      "title": "Micro Machines V3",
+      "igdbId": 24413,
+      "first_release_date": 857174400,
+      "release_year": 1997,
+      "rating": 88.49050432796741,
+      "genres": [
+        "10"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 88.49050432796741%, released 1997"
+    },
+    {
+      "title": "Diablo II",
+      "igdbId": 126,
+      "first_release_date": 962236800,
+      "release_year": 2000,
+      "rating": 88.44441605403318,
+      "genres": [
+        "12",
+        "25"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 88.44441605403318%, released 2000"
+    },
+    {
+      "title": "StarCraft",
+      "igdbId": 230,
+      "first_release_date": 891302400,
+      "release_year": 1998,
+      "rating": 88.27889438567162,
+      "genres": [
+        "11",
+        "15"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 88.27889438567162%, released 1998"
+    },
+    {
+      "title": "N++",
+      "igdbId": 8750,
+      "first_release_date": 1438041600,
+      "release_year": 2015,
+      "rating": 88.20961198154735,
+      "genres": [
+        "8",
+        "9",
+        "32",
+        "33"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 88.20961198154735%, released 2015"
+    },
+    {
+      "title": "Grand Theft Auto: The Trilogy",
+      "igdbId": 5850,
+      "first_release_date": 1129507200,
+      "release_year": 2005,
+      "rating": 88.09459346454814,
+      "genres": [
+        "10",
+        "31"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 88.09459346454814%, released 2005"
+    },
+    {
+      "title": "Doom II",
+      "igdbId": 121503,
+      "first_release_date": 1564099200,
+      "release_year": 2019,
+      "rating": 87.8132575943319,
+      "genres": [
+        "5"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 87.8132575943319%, released 2019"
+    },
+    {
+      "title": "Black Mesa",
+      "igdbId": 6739,
+      "first_release_date": 1583452800,
+      "release_year": 2020,
+      "rating": 87.63508202540206,
+      "genres": [
+        "5",
+        "8",
+        "31",
+        "32"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 87.63508202540206%, released 2020"
+    },
+    {
+      "title": "Dark Souls",
+      "igdbId": 2155,
+      "first_release_date": 1316649600,
+      "release_year": 2011,
+      "rating": 87.59850819744712,
+      "genres": [
+        "12",
+        "31"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 87.59850819744712%, released 2011"
+    },
+    {
+      "title": "Sonic Robo Blast 2 Kart",
+      "igdbId": 121436,
+      "first_release_date": 1542326400,
+      "release_year": 2018,
+      "rating": 87.59179376298212,
+      "genres": [
+        "10"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 87.59179376298212%, released 2018"
+    },
+    {
+      "title": "Cave Story+",
+      "igdbId": 8214,
+      "first_release_date": 1321920000,
+      "release_year": 2011,
+      "rating": 87.45004392941703,
+      "genres": [
+        "5",
+        "8",
+        "31",
+        "32"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 87.45004392941703%, released 2011"
+    },
+    {
+      "title": "Grand Theft Auto: Vice City",
+      "igdbId": 733,
+      "first_release_date": 1035676800,
+      "release_year": 2002,
+      "rating": 87.42786530054369,
+      "genres": [
+        "5",
+        "10",
+        "31",
+        "33"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 87.42786530054369%, released 2002"
+    },
+    {
+      "title": "Rocksmith 2014",
+      "igdbId": 3088,
+      "first_release_date": 1382400000,
+      "release_year": 2013,
+      "rating": 87.4235735666004,
+      "genres": [
+        "7"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 87.4235735666004%, released 2013"
+    },
+    {
+      "title": "Grand Theft Auto V",
+      "igdbId": 239064,
+      "first_release_date": 1428969600,
+      "release_year": 2015,
+      "rating": 87.34227101790809,
+      "genres": [
+        "5",
+        "10",
+        "33"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 87.34227101790809%, released 2015"
+    },
+    {
+      "title": "StarCraft II: Wings of Liberty",
+      "igdbId": 239,
+      "first_release_date": 1280188800,
+      "release_year": 2010,
+      "rating": 87.29326822844337,
+      "genres": [
+        "11",
+        "15"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 87.29326822844337%, released 2010"
+    },
+    {
+      "title": "Guild Wars 2: Path of Fire",
+      "igdbId": 53387,
+      "first_release_date": 1506038400,
+      "release_year": 2017,
+      "rating": 87.26911743222897,
+      "genres": [
+        "12"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 87.26911743222897%, released 2017"
+    },
+    {
+      "title": "Thief II: The Metal Age",
+      "igdbId": 1,
+      "first_release_date": 953596800,
+      "release_year": 2000,
+      "rating": 87.17045851307233,
+      "genres": [
+        "5",
+        "13",
+        "31"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 87.17045851307233%, released 2000"
+    },
+    {
+      "title": "Age of Empires II: Gold Edition",
+      "igdbId": 129797,
+      "first_release_date": 1007078400,
+      "release_year": 2001,
+      "rating": 87.10506758389373,
+      "genres": [
+        "2",
+        "11",
+        "15"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 87.10506758389373%, released 2001"
+    },
+    {
+      "title": "StarCraft II: Legacy of the Void",
+      "igdbId": 458,
+      "first_release_date": 1447113600,
+      "release_year": 2015,
+      "rating": 87.02518298225249,
+      "genres": [
+        "11",
+        "15"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 87.02518298225249%, released 2015"
+    },
+    {
+      "title": "Identity V",
+      "igdbId": 105512,
+      "first_release_date": 1530835200,
+      "release_year": 2018,
+      "rating": 86.96266014194313,
+      "genres": [
+        "12",
+        "15"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 86.96266014194313%, released 2018"
+    },
+    {
+      "title": "Sid Meier's Civilization V: Brave New World",
+      "igdbId": 3272,
+      "first_release_date": 1373328000,
+      "release_year": 2013,
+      "rating": 86.90338387929289,
+      "genres": [
+        "15",
+        "16"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 86.90338387929289%, released 2013"
+    },
+    {
+      "title": "Dark Souls: Remastered",
+      "igdbId": 81085,
+      "first_release_date": 1527033600,
+      "release_year": 2018,
+      "rating": 86.84280119241117,
+      "genres": [
+        "12",
+        "31"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 86.84280119241117%, released 2018"
+    },
+    {
+      "title": "Deus Ex: Game of the Year Edition",
+      "igdbId": 25358,
+      "first_release_date": 989280000,
+      "release_year": 2001,
+      "rating": 86.8420596441205,
+      "genres": [
+        "5",
+        "12",
+        "31"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 86.8420596441205%, released 2001"
+    },
+    {
+      "title": "Celeste",
+      "igdbId": 26226,
+      "first_release_date": 1516838400,
+      "release_year": 2018,
+      "rating": 86.83682808010921,
+      "genres": [
+        "8",
+        "31",
+        "32"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 86.83682808010921%, released 2018"
+    },
+    {
+      "title": "OpenTTD",
+      "igdbId": 18074,
+      "first_release_date": 1079222400,
+      "release_year": 2004,
+      "rating": 86.79031537395224,
+      "genres": [
+        "13",
+        "15",
+        "32"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 86.79031537395224%, released 2004"
+    },
+    {
+      "title": "Defense Grid 2",
+      "igdbId": 10184,
+      "first_release_date": 1411430400,
+      "release_year": 2014,
+      "rating": 86.77472133283237,
+      "genres": [
+        "11",
+        "13",
+        "15",
+        "32"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 86.77472133283237%, released 2014"
+    },
+    {
+      "title": "Zeus: Master of Olympus",
+      "igdbId": 958,
+      "first_release_date": 971654400,
+      "release_year": 2000,
+      "rating": 86.58399026728382,
+      "genres": [
+        "15"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 86.58399026728382%, released 2000"
+    },
+    {
+      "title": "Spelunky",
+      "igdbId": 3029,
+      "first_release_date": 1341360000,
+      "release_year": 2012,
+      "rating": 86.52477729289757,
+      "genres": [
+        "8",
+        "31",
+        "32"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 86.52477729289757%, released 2012"
+    },
+    {
+      "title": "Guild Wars: Eye of the North",
+      "igdbId": 8969,
+      "first_release_date": 1188518400,
+      "release_year": 2007,
+      "rating": 86.49529503871904,
+      "genres": [
+        "12",
+        "15",
+        "31"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 86.49529503871904%, released 2007"
+    },
+    {
+      "title": "Dead Space 2",
+      "igdbId": 38,
+      "first_release_date": 1295913600,
+      "release_year": 2011,
+      "rating": 86.4933312109173,
+      "genres": [
+        "5",
+        "31"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 86.4933312109173%, released 2011"
+    },
+    {
+      "title": "Stream Racer",
+      "igdbId": 135295,
+      "first_release_date": 1592524800,
+      "release_year": 2020,
+      "rating": 86.43835616438355,
+      "genres": [
+        "10",
+        "13"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 86.43835616438355%, released 2020"
+    },
+    {
+      "title": "Sonic the Hedgehog 2",
+      "igdbId": 4438,
+      "first_release_date": 720576000,
+      "release_year": 1992,
+      "rating": 86.41608720220694,
+      "genres": [
+        "8"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 86.41608720220694%, released 1992"
+    },
+    {
+      "title": "Hidden in Plain Sight",
+      "igdbId": 16328,
+      "first_release_date": 1321574400,
+      "release_year": 2011,
+      "rating": 86.38718293741418,
+      "genres": [
+        "15",
+        "32"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 86.38718293741418%, released 2011"
+    },
+    {
+      "title": "SWAT 4",
+      "igdbId": 316,
+      "first_release_date": 1112659200,
+      "release_year": 2005,
+      "rating": 86.2336901719833,
+      "genres": [
+        "5",
+        "15",
+        "24"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 86.2336901719833%, released 2005"
+    },
+    {
+      "title": "Devil May Cry 3: Dante's Awakening - Special Edition",
+      "igdbId": 20545,
+      "first_release_date": 1138060800,
+      "release_year": 2006,
+      "rating": 86.15448306826976,
+      "genres": [
+        "5",
+        "25",
+        "31"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 86.15448306826976%, released 2006"
+    },
+    {
+      "title": "Bloodstained: Curse of the Moon 2",
+      "igdbId": 135337,
+      "first_release_date": 1594339200,
+      "release_year": 2020,
+      "rating": 86.14633926470127,
+      "genres": [
+        "8",
+        "25",
+        "32"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 86.14633926470127%, released 2020"
+    },
+    {
+      "title": "Dragon Age: Inquisition - Game of the Year Edition",
+      "igdbId": 44545,
+      "first_release_date": 1444089600,
+      "release_year": 2015,
+      "rating": 86.09922448748739,
+      "genres": [
+        "12",
+        "24",
+        "31"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 86.09922448748739%, released 2015"
+    },
+    {
+      "title": "Dying Light: The Following - Enhanced Edition",
+      "igdbId": 21762,
+      "first_release_date": 1454976000,
+      "release_year": 2016,
+      "rating": 86.06635476790143,
+      "genres": [
+        "12",
+        "31"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 86.06635476790143%, released 2016"
+    },
+    {
+      "title": "World Cup 98",
+      "igdbId": 3641,
+      "first_release_date": 891302400,
+      "release_year": 1998,
+      "rating": 86.02356369784988,
+      "genres": [
+        "14"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 86.02356369784988%, released 1998"
+    },
+    {
+      "title": "BioShock: The Collection",
+      "igdbId": 19839,
+      "first_release_date": 1473724800,
+      "release_year": 2016,
+      "rating": 85.89193012762321,
+      "genres": [
+        "5",
+        "9",
+        "12",
+        "31"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 85.89193012762321%, released 2016"
+    },
+    {
+      "title": "Journey",
+      "igdbId": 1352,
+      "first_release_date": 1331596800,
+      "release_year": 2012,
+      "rating": 85.85392845687693,
+      "genres": [
+        "8",
+        "31"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 85.85392845687693%, released 2012"
+    },
+    {
+      "title": "Sonic Robo Blast 2",
+      "igdbId": 95508,
+      "first_release_date": 1154390400,
+      "release_year": 2006,
+      "rating": 85.77282605958271,
+      "genres": [
+        "8",
+        "31",
+        "32"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 85.77282605958271%, released 2006"
+    },
+    {
+      "title": "Commandos 2: Men of Courage",
+      "igdbId": 653,
+      "first_release_date": 1000944000,
+      "release_year": 2001,
+      "rating": 85.72279959643376,
+      "genres": [
+        "5",
+        "11",
+        "15",
+        "24",
+        "31"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 85.72279959643376%, released 2001"
+    },
+    {
+      "title": "StarLancer",
+      "igdbId": 11230,
+      "first_release_date": 954460800,
+      "release_year": 2000,
+      "rating": 85.71626986199689,
+      "genres": [
+        "13"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 85.71626986199689%, released 2000"
+    },
+    {
+      "title": "Huntdown",
+      "igdbId": 19728,
+      "first_release_date": 1589241600,
+      "release_year": 2020,
+      "rating": 85.57939319167522,
+      "genres": [
+        "5",
+        "8",
+        "32",
+        "33"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "steamAppId": null,
+      "steamUrl": "",
+      "reason": "Classic co-op, rating 85.57939319167522%, released 2020"
+    }
+  ]
+}

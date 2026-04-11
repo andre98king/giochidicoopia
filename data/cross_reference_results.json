@@ -1,0 +1,768 @@
+{
+  "summary": {
+    "catalog_count": 590,
+    "steam_count": 75,
+    "matched": 43,
+    "missing": 32
+  },
+  "matches": [
+    {
+      "steam": {
+        "title": "CoopRooms",
+        "app_id": "3630010",
+        "price": "Free"
+      },
+      "catalog": {
+        "id": 500,
+        "title": "Tomb of Rooms"
+      },
+      "score": 0.6363636363636364
+    },
+    {
+      "steam": {
+        "title": "Chicken Coop",
+        "app_id": "2282360",
+        "price": "Free"
+      },
+      "catalog": {
+        "id": 604,
+        "title": "Chicken Joust"
+      },
+      "score": 0.72
+    },
+    {
+      "steam": {
+        "title": "Slay the Spire 2",
+        "app_id": "2868840",
+        "price": "22,99\u20ac"
+      },
+      "catalog": {
+        "id": 529,
+        "title": "Slay the Spire 2"
+      },
+      "score": 1.0
+    },
+    {
+      "steam": {
+        "title": "Apex Legends\u2122",
+        "app_id": "1172470",
+        "price": "Free"
+      },
+      "catalog": {
+        "id": 262,
+        "title": "Apex Legends\u2122"
+      },
+      "score": 1.0
+    },
+    {
+      "steam": {
+        "title": "Warframe",
+        "app_id": "230410",
+        "price": "Free"
+      },
+      "catalog": {
+        "id": 10,
+        "title": "Warframe"
+      },
+      "score": 1.0
+    },
+    {
+      "steam": {
+        "title": "Tom Clancy's Rainbow Six Siege",
+        "app_id": "359550",
+        "price": "Free"
+      },
+      "catalog": {
+        "id": 5,
+        "title": "Tom Clancy's Rainbow Six Siege"
+      },
+      "score": 1.0
+    },
+    {
+      "steam": {
+        "title": "Dead by Daylight",
+        "app_id": "381210",
+        "price": "19,99\u20ac"
+      },
+      "catalog": {
+        "id": 6,
+        "title": "Dead by Daylight"
+      },
+      "score": 1.0
+    },
+    {
+      "steam": {
+        "title": "HELLDIVERS\u2122 2",
+        "app_id": "553850",
+        "price": "39,99\u20ac"
+      },
+      "catalog": {
+        "id": 4,
+        "title": "HELLDIVERS 2"
+      },
+      "score": 1.0
+    },
+    {
+      "steam": {
+        "title": "CoopScoop Demo",
+        "app_id": "3709400",
+        "price": "Free"
+      },
+      "catalog": {
+        "id": 503,
+        "title": "TopplePOP Demo"
+      },
+      "score": 0.6428571428571429
+    },
+    {
+      "steam": {
+        "title": "Chicken Coop Demo",
+        "app_id": "2930560",
+        "price": "Free"
+      },
+      "catalog": {
+        "id": 604,
+        "title": "Chicken Joust"
+      },
+      "score": 0.6
+    },
+    {
+      "steam": {
+        "title": "ELDEN RING",
+        "app_id": "1245620",
+        "price": "59,99\u20ac"
+      },
+      "catalog": {
+        "id": 1,
+        "title": "ELDEN RING NIGHTREIGN"
+      },
+      "score": 0.6451612903225806
+    },
+    {
+      "steam": {
+        "title": "Diablo\u00ae IV",
+        "app_id": "2344520",
+        "price": "49,99\u20ac"
+      },
+      "catalog": {
+        "id": 37,
+        "title": "Diablo IV"
+      },
+      "score": 1.0
+    },
+    {
+      "steam": {
+        "title": "Schedule I",
+        "app_id": "3164500",
+        "price": "19,50\u20ac"
+      },
+      "catalog": {
+        "id": 178,
+        "title": "Schedule I"
+      },
+      "score": 1.0
+    },
+    {
+      "steam": {
+        "title": "R.E.P.O.",
+        "app_id": "3241660",
+        "price": "9,49\u20ac"
+      },
+      "catalog": {
+        "id": 11,
+        "title": "R.E.P.O."
+      },
+      "score": 1.0
+    },
+    {
+      "steam": {
+        "title": "Fallout 76",
+        "app_id": "1151340",
+        "price": "39,99\u20ac"
+      },
+      "catalog": {
+        "id": 38,
+        "title": "Fallout 76"
+      },
+      "score": 1.0
+    },
+    {
+      "steam": {
+        "title": "The Outlast Trials",
+        "app_id": "1304930",
+        "price": "11,69\u20ac"
+      },
+      "catalog": {
+        "id": 71,
+        "title": "The Outlast Trials"
+      },
+      "score": 1.0
+    },
+    {
+      "steam": {
+        "title": "Rust",
+        "app_id": "252490",
+        "price": "39,99\u20ac"
+      },
+      "catalog": {
+        "id": 2,
+        "title": "Rust"
+      },
+      "score": 1.0
+    },
+    {
+      "steam": {
+        "title": "Delta Force",
+        "app_id": "2507950",
+        "price": "Free"
+      },
+      "catalog": {
+        "id": 261,
+        "title": "Delta Force"
+      },
+      "score": 1.0
+    },
+    {
+      "steam": {
+        "title": "Dota 2",
+        "app_id": "570",
+        "price": "Free"
+      },
+      "catalog": {
+        "id": 99,
+        "title": "Portal 2"
+      },
+      "score": 0.7142857142857143
+    },
+    {
+      "steam": {
+        "title": "Phasmophobia",
+        "app_id": "739630",
+        "price": "18,99\u20ac"
+      },
+      "catalog": {
+        "id": 34,
+        "title": "Phasmophobia"
+      },
+      "score": 1.0
+    }
+  ],
+  "no_matches": [
+    {
+      "title": "Cosmic Coop",
+      "app_id": "2497070",
+      "price": "4,99\u20ac"
+    },
+    {
+      "title": "CoopScoop",
+      "app_id": "2672620",
+      "price": "Free"
+    },
+    {
+      "title": "Drunkslop: Pub crawl COOP",
+      "app_id": "4420980",
+      "price": "Free"
+    },
+    {
+      "title": "Maid Cafe Coop",
+      "app_id": "3887470",
+      "price": "12,79\u20ac"
+    },
+    {
+      "title": "Counter-Strike 2",
+      "app_id": "730",
+      "price": "Free"
+    },
+    {
+      "title": "Chicken Coop Invaders",
+      "app_id": "3682920",
+      "price": "Free"
+    },
+    {
+      "title": "Color Escape: VR Coop",
+      "app_id": "1634130",
+      "price": "8,79\u20ac"
+    },
+    {
+      "title": "Fifth Sun: Coop racing",
+      "app_id": "4435920",
+      "price": "Free"
+    },
+    {
+      "title": "CoopRooms Demo",
+      "app_id": "3696100",
+      "price": "Free"
+    },
+    {
+      "title": "Get Together: A Coop Adventure",
+      "app_id": "1505540",
+      "price": "8,99\u20ac"
+    },
+    {
+      "title": "PlayCOQ: The Coop Defender",
+      "app_id": "3179130",
+      "price": "Free"
+    },
+    {
+      "title": "Cat Parents",
+      "app_id": "4328440",
+      "price": "Free"
+    },
+    {
+      "title": "NAKWON: LAST PARADISE",
+      "app_id": "2582960",
+      "price": "Free"
+    },
+    {
+      "title": "Wuthering Waves",
+      "app_id": "3513350",
+      "price": "Free"
+    },
+    {
+      "title": "Subnautica 2",
+      "app_id": "1962700",
+      "price": "Free"
+    },
+    {
+      "title": "Wurst Defender Coop Edition",
+      "app_id": "740990",
+      "price": "1,99\u20ac"
+    },
+    {
+      "title": "Chicken Coop Invaders Demo",
+      "app_id": "4349440",
+      "price": "Free"
+    },
+    {
+      "title": "Blight: Survival",
+      "app_id": "1774880",
+      "price": "Free"
+    },
+    {
+      "title": "Burglin' Gnomes",
+      "app_id": "3844970",
+      "price": "Free"
+    },
+    {
+      "title": "Food Factory Coop: Build, Cook, Craft",
+      "app_id": "4416020",
+      "price": "Free"
+    },
+    {
+      "title": "eFootball\u2122",
+      "app_id": "1665460",
+      "price": "Free"
+    },
+    {
+      "title": "Chicken TD: Defenders of the Coop",
+      "app_id": "3266880",
+      "price": "Free"
+    },
+    {
+      "title": "The Long Dark",
+      "app_id": "305620",
+      "price": "2,99\u20ac"
+    },
+    {
+      "title": "PUBG: BATTLEGROUNDS",
+      "app_id": "578080",
+      "price": "Free"
+    },
+    {
+      "title": "Diablo II: Resurrected \u2013 Infernal Edition",
+      "app_id": "2536520",
+      "price": "39,99\u20ac"
+    },
+    {
+      "title": "Kalimba - The Dark Void - Coop",
+      "app_id": "346071",
+      "price": "3,99\u20ac"
+    },
+    {
+      "title": "Color Escape: VR Coop Demo",
+      "app_id": "2225310",
+      "price": "Free"
+    },
+    {
+      "title": "Solo Leveling: ARISE OVERDRIVE",
+      "app_id": "2373990",
+      "price": "27,99\u20ac"
+    },
+    {
+      "title": "Roadside Research",
+      "app_id": "3643170",
+      "price": "9,74\u20ac"
+    },
+    {
+      "title": "DRAGON BALL GEKISHIN SQUADRA",
+      "app_id": "2072560",
+      "price": "Free"
+    },
+    {
+      "title": "The Legend of California",
+      "app_id": "2550530",
+      "price": "Free"
+    },
+    {
+      "title": "Cooking Simulator 2: Better Together",
+      "app_id": "2455360",
+      "price": "21,24\u20ac"
+    }
+  ],
+  "gaps": {
+    "missing_from_catalog": [
+      {
+        "title": "CoopRooms",
+        "app_id": "3630010",
+        "price": "Free"
+      },
+      {
+        "title": "Cosmic Coop",
+        "app_id": "2497070",
+        "price": "4,99\u20ac"
+      },
+      {
+        "title": "CoopScoop",
+        "app_id": "2672620",
+        "price": "Free"
+      },
+      {
+        "title": "Drunkslop: Pub crawl COOP",
+        "app_id": "4420980",
+        "price": "Free"
+      },
+      {
+        "title": "Maid Cafe Coop",
+        "app_id": "3887470",
+        "price": "12,79\u20ac"
+      },
+      {
+        "title": "Counter-Strike 2",
+        "app_id": "730",
+        "price": "Free"
+      },
+      {
+        "title": "Chicken Coop Invaders",
+        "app_id": "3682920",
+        "price": "Free"
+      },
+      {
+        "title": "Color Escape: VR Coop",
+        "app_id": "1634130",
+        "price": "8,79\u20ac"
+      },
+      {
+        "title": "Fifth Sun: Coop racing",
+        "app_id": "4435920",
+        "price": "Free"
+      },
+      {
+        "title": "CoopScoop Demo",
+        "app_id": "3709400",
+        "price": "Free"
+      },
+      {
+        "title": "CoopRooms Demo",
+        "app_id": "3696100",
+        "price": "Free"
+      },
+      {
+        "title": "Chicken Coop Demo",
+        "app_id": "2930560",
+        "price": "Free"
+      },
+      {
+        "title": "ELDEN RING",
+        "app_id": "1245620",
+        "price": "59,99\u20ac"
+      },
+      {
+        "title": "Get Together: A Coop Adventure",
+        "app_id": "1505540",
+        "price": "8,99\u20ac"
+      },
+      {
+        "title": "PlayCOQ: The Coop Defender",
+        "app_id": "3179130",
+        "price": "Free"
+      },
+      {
+        "title": "Cat Parents",
+        "app_id": "4328440",
+        "price": "Free"
+      },
+      {
+        "title": "NAKWON: LAST PARADISE",
+        "app_id": "2582960",
+        "price": "Free"
+      },
+      {
+        "title": "Wuthering Waves",
+        "app_id": "3513350",
+        "price": "Free"
+      },
+      {
+        "title": "Subnautica 2",
+        "app_id": "1962700",
+        "price": "Free"
+      },
+      {
+        "title": "Wurst Defender Coop Edition",
+        "app_id": "740990",
+        "price": "1,99\u20ac"
+      },
+      {
+        "title": "Chicken Coop Invaders Demo",
+        "app_id": "4349440",
+        "price": "Free"
+      },
+      {
+        "title": "Blight: Survival",
+        "app_id": "1774880",
+        "price": "Free"
+      },
+      {
+        "title": "Burglin' Gnomes",
+        "app_id": "3844970",
+        "price": "Free"
+      },
+      {
+        "title": "Food Factory Coop: Build, Cook, Craft",
+        "app_id": "4416020",
+        "price": "Free"
+      },
+      {
+        "title": "eFootball\u2122",
+        "app_id": "1665460",
+        "price": "Free"
+      },
+      {
+        "title": "Chicken TD: Defenders of the Coop",
+        "app_id": "3266880",
+        "price": "Free"
+      },
+      {
+        "title": "The First Descendant",
+        "app_id": "2074920",
+        "price": "Free"
+      },
+      {
+        "title": "The Long Dark",
+        "app_id": "305620",
+        "price": "2,99\u20ac"
+      },
+      {
+        "title": "PUBG: BATTLEGROUNDS",
+        "app_id": "578080",
+        "price": "Free"
+      },
+      {
+        "title": "Diablo II: Resurrected \u2013 Infernal Edition",
+        "app_id": "2536520",
+        "price": "39,99\u20ac"
+      },
+      {
+        "title": "Kalimba - The Dark Void - Coop",
+        "app_id": "346071",
+        "price": "3,99\u20ac"
+      },
+      {
+        "title": "Color Escape: VR Coop Demo",
+        "app_id": "2225310",
+        "price": "Free"
+      },
+      {
+        "title": "Solo Leveling: ARISE OVERDRIVE",
+        "app_id": "2373990",
+        "price": "27,99\u20ac"
+      },
+      {
+        "title": "Roadside Research",
+        "app_id": "3643170",
+        "price": "9,74\u20ac"
+      },
+      {
+        "title": "DRAGON BALL GEKISHIN SQUADRA",
+        "app_id": "2072560",
+        "price": "Free"
+      },
+      {
+        "title": "REANIMAL",
+        "app_id": "2129530",
+        "price": "39,99\u20ac"
+      },
+      {
+        "title": "The Legend of California",
+        "app_id": "2550530",
+        "price": "Free"
+      },
+      {
+        "title": "Cooking Simulator 2: Better Together",
+        "app_id": "2455360",
+        "price": "21,24\u20ac"
+      }
+    ],
+    "missing_steam_link": [
+      {
+        "steam": {
+          "title": "Chicken Coop",
+          "app_id": "2282360",
+          "price": "Free"
+        },
+        "catalog_title": "Chicken Joust"
+      },
+      {
+        "steam": {
+          "title": "Slay the Spire 2",
+          "app_id": "2868840",
+          "price": "22,99\u20ac"
+        },
+        "catalog_title": "Slay the Spire 2"
+      },
+      {
+        "steam": {
+          "title": "Apex Legends\u2122",
+          "app_id": "1172470",
+          "price": "Free"
+        },
+        "catalog_title": "Apex Legends\u2122"
+      },
+      {
+        "steam": {
+          "title": "Warframe",
+          "app_id": "230410",
+          "price": "Free"
+        },
+        "catalog_title": "Warframe"
+      },
+      {
+        "steam": {
+          "title": "Tom Clancy's Rainbow Six Siege",
+          "app_id": "359550",
+          "price": "Free"
+        },
+        "catalog_title": "Tom Clancy's Rainbow Six Siege"
+      },
+      {
+        "steam": {
+          "title": "Dead by Daylight",
+          "app_id": "381210",
+          "price": "19,99\u20ac"
+        },
+        "catalog_title": "Dead by Daylight"
+      },
+      {
+        "steam": {
+          "title": "HELLDIVERS\u2122 2",
+          "app_id": "553850",
+          "price": "39,99\u20ac"
+        },
+        "catalog_title": "HELLDIVERS 2"
+      },
+      {
+        "steam": {
+          "title": "Diablo\u00ae IV",
+          "app_id": "2344520",
+          "price": "49,99\u20ac"
+        },
+        "catalog_title": "Diablo IV"
+      },
+      {
+        "steam": {
+          "title": "Schedule I",
+          "app_id": "3164500",
+          "price": "19,50\u20ac"
+        },
+        "catalog_title": "Schedule I"
+      },
+      {
+        "steam": {
+          "title": "R.E.P.O.",
+          "app_id": "3241660",
+          "price": "9,49\u20ac"
+        },
+        "catalog_title": "R.E.P.O."
+      },
+      {
+        "steam": {
+          "title": "Fallout 76",
+          "app_id": "1151340",
+          "price": "39,99\u20ac"
+        },
+        "catalog_title": "Fallout 76"
+      },
+      {
+        "steam": {
+          "title": "The Outlast Trials",
+          "app_id": "1304930",
+          "price": "11,69\u20ac"
+        },
+        "catalog_title": "The Outlast Trials"
+      },
+      {
+        "steam": {
+          "title": "Rust",
+          "app_id": "252490",
+          "price": "39,99\u20ac"
+        },
+        "catalog_title": "Rust"
+      },
+      {
+        "steam": {
+          "title": "Delta Force",
+          "app_id": "2507950",
+          "price": "Free"
+        },
+        "catalog_title": "Delta Force"
+      },
+      {
+        "steam": {
+          "title": "Dota 2",
+          "app_id": "570",
+          "price": "Free"
+        },
+        "catalog_title": "Portal 2"
+      },
+      {
+        "steam": {
+          "title": "Phasmophobia",
+          "app_id": "739630",
+          "price": "18,99\u20ac"
+        },
+        "catalog_title": "Phasmophobia"
+      },
+      {
+        "steam": {
+          "title": "Ready or Not",
+          "app_id": "1144200",
+          "price": "49,99\u20ac"
+        },
+        "catalog_title": "Ready or Not"
+      },
+      {
+        "steam": {
+          "title": "Call of Duty\u00ae: Modern Warfare\u00ae",
+          "app_id": "2000950",
+          "price": "59,99\u20ac"
+        },
+        "catalog_title": "Call of Duty: Modern Warfare"
+      },
+      {
+        "steam": {
+          "title": "Tom Clancy\u2019s The Division\u00ae 2",
+          "app_id": "2221490",
+          "price": "29,99\u20ac"
+        },
+        "catalog_title": "Tom Clancy\u2019s The Division 2"
+      },
+      {
+        "steam": {
+          "title": "Sons Of The Forest",
+          "app_id": "1326470",
+          "price": "28,99\u20ac"
+        },
+        "catalog_title": "Sons Of The Forest"
+      }
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "← Back to catalog" [ref=e4] [cursor=pointer]:
+        - /url: ../
+      - button "Change language" [ref=e6] [cursor=pointer]: 🇮🇹 IT
+    - img "ELDEN RING NIGHTREIGN" [ref=e7]
+    - heading "ELDEN RING NIGHTREIGN 🔥 Trending" [level=1] [ref=e8]:
+      - text: ELDEN RING NIGHTREIGN
+      - generic [ref=e9]: 🔥 Trending
+    - generic [ref=e10]:
+      - generic [ref=e11]: ⚔️ Action
+      - generic [ref=e12]: 🐉 RPG
+      - generic [ref=e13]: 🪓 Survival
+      - generic [ref=e14]: 🌐 Online Co-op
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]: 1-3
+        - generic [ref=e18]: 👥 Players
+      - generic [ref=e19]:
+        - generic [ref=e20]: 👍 74%
+        - generic [ref=e21]: Mostly Positive
+      - generic [ref=e22]:
+        - generic [ref=e23]: 163.6k
+        - generic [ref=e24]: online now
+      - generic [ref=e25]:
+        - generic [ref=e26]: "3"
+        - generic [ref=e27]: Max players
+    - generic [ref=e28]:
+      - generic [ref=e29]: 📖 Description
+      - generic [ref=e30]: ELDEN RING NIGHTREIGN is a standalone adventure within the ELDEN RING universe, crafted to offer players a new gaming experience by reimagining the game’s core design.
+    - generic [ref=e32]:
+      - generic [ref=e33]: Buy
+      - generic [ref=e34]:
+        - link "Steam" [ref=e35] [cursor=pointer]:
+          - /url: https://store.steampowered.com/app/2622380/?utm_source=coophubs&utm_medium=referral&utm_campaign=gamepage
+          - generic [ref=e36]: Steam
+        - link "Instant Gaming ✓ -31%" [ref=e37] [cursor=pointer]:
+          - /url: https://www.instant-gaming.com/en/18729-buy-steam-elden-ring-nightreign-deluxe-edition-deluxe-edition-pc-game-steam-us-and-ca/?igr=gamer-ddc4a8
+          - generic [ref=e38]: Instant Gaming ✓
+          - generic [ref=e39]: "-31%"
+        - link "GameBillet ✓ -33%" [ref=e40] [cursor=pointer]:
+          - /url: https://www.gamebillet.com/elden-ring-nightreign-z?affiliate=fb308ca0-647e-4ce7-9e80-74c2c591eac1
+          - generic [ref=e41]: GameBillet ✓
+          - generic [ref=e42]: "-33%"
+        - link "Green Man Gaming ✓" [ref=e43] [cursor=pointer]:
+          - /url: https://greenmangaming.sjv.io/qWzoQy?u=https%3A//www.greenmangaming.com/search/%3Fquery%3DELDEN%2520RING%2520NIGHTREIGN
+          - generic [ref=e44]: Green Man Gaming ✓
+        - link "Gameseal ✓ -15%" [ref=e45] [cursor=pointer]:
+          - /url: https://www.tkqlhce.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Felden-ring-nightreign-pc-steam-gift-global&cjsku=SW40127
+          - generic [ref=e46]: Gameseal ✓
+          - generic [ref=e47]: "-15%"
+        - link "Kinguin ✓" [ref=e48] [cursor=pointer]:
+          - /url: https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F312069%2Felden-ring-nightreign-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=312069
+          - generic [ref=e49]: Kinguin ✓
+        - link "GAMIVO ✓ -10%" [ref=e50] [cursor=pointer]:
+          - /url: https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Felden-ring-nightreign-pc-steam-global-standard&cjsku=181363
+          - generic [ref=e51]: GAMIVO ✓
+          - generic [ref=e52]: "-10%"
+      - generic [ref=e53]:
+        - text: 🛡️
+        - strong [ref=e54]: "Partner Ufficiale:"
+        - text: Coophubs collabora solo con rivenditori autorizzati. Supporta il sito acquistando in sicurezza.
+    - generic [ref=e55]:
+      - generic [ref=e56]: External Resources
+      - generic [ref=e57]:
+        - link "📊 SteamDB" [ref=e58] [cursor=pointer]:
+          - /url: https://steamdb.info/app/2622380/
+        - link "⏱️ HowLongToBeat" [ref=e59] [cursor=pointer]:
+          - /url: https://howlongtobeat.com/?q=ELDEN%20RING%20NIGHTREIGN
+        - link "🐧 ProtonDB" [ref=e60] [cursor=pointer]:
+          - /url: https://www.protondb.com/app/2622380
+        - link "🔧 PCGamingWiki" [ref=e61] [cursor=pointer]:
+          - /url: https://www.pcgamingwiki.com/api/appid.php?appid=2622380
+    - generic [ref=e62]:
+      - generic [ref=e63]: Similar Games
+      - generic [ref=e64]:
+        - 'link "WolfQuest: Anniversary Edition WolfQuest: Anniversary Edition" [ref=e65] [cursor=pointer]':
+          - /url: 328.html
+          - 'img "WolfQuest: Anniversary Edition" [ref=e66]'
+          - generic [ref=e67]: "WolfQuest: Anniversary Edition"
+        - link "Terraria Terraria" [ref=e68] [cursor=pointer]:
+          - /url: 16.html
+          - img "Terraria" [ref=e69]
+          - generic [ref=e70]: Terraria
+        - link "Unturned Unturned" [ref=e71] [cursor=pointer]:
+          - /url: 188.html
+          - img "Unturned" [ref=e72]
+          - generic [ref=e73]: Unturned
+        - link "Tinkerlands Tinkerlands" [ref=e74] [cursor=pointer]:
+          - /url: 109.html
+          - img "Tinkerlands" [ref=e75]
+          - generic [ref=e76]: Tinkerlands
+        - 'link "ARK: Survival Evolved ARK: Survival Evolved" [ref=e77] [cursor=pointer]':
+          - /url: 18.html
+          - 'img "ARK: Survival Evolved" [ref=e78]'
+          - generic [ref=e79]: "ARK: Survival Evolved"
+        - link "Far Cry 4 Far Cry 4" [ref=e80] [cursor=pointer]:
+          - /url: 374.html
+          - img "Far Cry 4" [ref=e81]
+          - generic [ref=e82]: Far Cry 4
+  - contentinfo [ref=e83]:
+    - generic [ref=e84]:
+      - generic [ref=e85]: Co-op Games Hub
+      - generic [ref=e86]: Coophubs is an independent project dedicated to discovering co-op games for PC.
+      - generic [ref=e87]:
+        - link "About" [ref=e88] [cursor=pointer]:
+          - /url: ../about.html
+        - link "Contact" [ref=e89] [cursor=pointer]:
+          - /url: ../contact.html
+        - link "Free games" [ref=e90] [cursor=pointer]:
+          - /url: ../free.html
+        - link "Privacy Policy" [ref=e91] [cursor=pointer]:
+          - /url: ../privacy.html
+      - link "☕ Support the project" [ref=e93] [cursor=pointer]:
+        - /url: https://ko-fi.com/coophubs
+      - generic [ref=e95]: © 2026 Co-op Games Hub — Images © respective publishers — Data from Steam & SteamSpy

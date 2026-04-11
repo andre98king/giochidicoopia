@@ -1,0 +1,1080 @@
+{
+  "generated": "2026-03-28",
+  "min_year": 2021,
+  "max_year": 2025,
+  "filters": {
+    "min_rating": 72,
+    "min_reviews": 80,
+    "coop_verified_via_steam_categories": true
+  },
+  "count": 62,
+  "candidates": [
+    {
+      "appid": "843380",
+      "title": "Super Animal Royale",
+      "releaseYear": 2021,
+      "releaseDate": "Aug 26, 2021",
+      "rating": 94,
+      "reviews": 42367,
+      "ccu": 364,
+      "price_usd": 0.0,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Welcome to the coziest way to kill your friends. Super Animal Royale is a 64-player, top-down 2D battle royale where adorably murderous animals fight tooth, claw, and machine gun. Then, relax in Super Animal World with fishing, hamsterball races, and story quests before the next fight to the death.",
+      "steamUrl": "https://store.steampowered.com/app/843380/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/843380/6b36292298ca7a1daeffa9de2556a0b64e4002dc/header.jpg?t=1774571042",
+      "score": 1592.4
+    },
+    {
+      "appid": "597170",
+      "title": "Clone Drone in the Danger Zone",
+      "releaseYear": 2021,
+      "releaseDate": "Jul 27, 2021",
+      "rating": 97,
+      "reviews": 33067,
+      "ccu": 212,
+      "price_usd": 6.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Clone Drone in the Danger Zone is a robot voxel slice-em-up where any part of your body can be sliced off. With your mind downloaded into a robot gladiator, you must survive the sinister trials of the arena.",
+      "steamUrl": "https://store.steampowered.com/app/597170/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/597170/4a9a9b609f2b0f738fdad11be0cb9f7111137e10/header_alt_assets_2.jpg?t=1774539907",
+      "score": 1550.6
+    },
+    {
+      "appid": "1536610",
+      "title": "OpenTTD",
+      "releaseYear": 2021,
+      "releaseDate": "Apr 1, 2021",
+      "rating": 96,
+      "reviews": 14394,
+      "ccu": 445,
+      "price_usd": 0.0,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "OpenTTD is a business simulation game in which players earn money by transporting passengers and cargo via road, rail, water, and air. It is an open-source remake and expansion of the 1995 Chris Sawyer video game Transport Tycoon Deluxe.",
+      "steamUrl": "https://store.steampowered.com/app/1536610/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1536610/header.jpg?t=1773680448",
+      "score": 1479.9
+    },
+    {
+      "appid": "488860",
+      "title": "MADNESS: Project Nexus",
+      "releaseYear": 2021,
+      "releaseDate": "Sep 29, 2021",
+      "rating": 97,
+      "reviews": 15798,
+      "ccu": 190,
+      "price_usd": 22.49,
+      "coopModes": [
+        "online",
+        "local"
+      ],
+      "description_en": "MADNESS: Project Nexus is a third-person Run n' Gun / Beat'Em Up filled with arcade-style action and button-mashing brutality. Gun your way through droves of bad guys in the Story Campaign, or build your perfect killing machine in the neverending onslaught of Arena Mode.",
+      "steamUrl": "https://store.steampowered.com/app/488860/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/488860/header.jpg?t=1680568111",
+      "score": 1430.3
+    },
+    {
+      "appid": "633230",
+      "title": "NARUTO TO BORUTO: SHINOBI STRIKER",
+      "releaseYear": 2023,
+      "releaseDate": "Jun 29, 2023",
+      "rating": 84,
+      "reviews": 56030,
+      "ccu": 255,
+      "price_usd": 4.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Battle as a team of 4 to compete against other teams online! Graphically, SHINOBI STRIKER is also built from the ground up in a completely new graphic style. Lead your team and fight online to see who the best ninjas are!",
+      "steamUrl": "https://store.steampowered.com/app/633230/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/633230/header.jpg?t=1772147064",
+      "score": 1427.7
+    },
+    {
+      "appid": "555160",
+      "title": "Pavlov",
+      "releaseYear": 2024,
+      "releaseDate": "Dec 4, 2024",
+      "rating": 90,
+      "reviews": 39672,
+      "ccu": 107,
+      "price_usd": 24.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Pavlov is a multiplayer shooter in VR with heavy focus on community features. Realistic reloading features and fast paced combat as part of the core experience. Play the #1 most popular VR shooter on PC today.",
+      "steamUrl": "https://store.steampowered.com/app/555160/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/555160/header.jpg?t=1770745729",
+      "score": 1399.1
+    },
+    {
+      "appid": "8980",
+      "title": "Borderlands Game of the Year",
+      "releaseYear": 2023,
+      "releaseDate": "Aug 31, 2023",
+      "rating": 89,
+      "reviews": 32523,
+      "ccu": 142,
+      "price_usd": 29.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Get ready for the mind blowing insanity! Play as one of four trigger-happy mercenaries and take out everything that stands in your way! With its addictive action, frantic first-person shooter combat, massive arsenal of weaponry, RPG elements and four-player co-op, Borderlands is a breakthrough experience that challenges all the...",
+      "steamUrl": "https://store.steampowered.com/app/8980/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8980/header.jpg?t=1692308968",
+      "score": 1383.6
+    },
+    {
+      "appid": "1096530",
+      "title": "Solasta: Crown of the Magister",
+      "releaseYear": 2021,
+      "releaseDate": "May 27, 2021",
+      "rating": 87,
+      "reviews": 20393,
+      "ccu": 396,
+      "price_usd": 7.49,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Roll for initiative, take attacks of opportunity, manage player location and the verticality of the battle field in this Turn-Based Tactical RPG based on the SRD 5.1 Ruleset. In Solasta, you make the choices, dice decide your destiny.",
+      "steamUrl": "https://store.steampowered.com/app/1096530/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1096530/header.jpg?t=1772029038",
+      "score": 1379.9
+    },
+    {
+      "appid": "1483870",
+      "title": "Draw & Guess",
+      "releaseYear": 2021,
+      "releaseDate": "Mar 12, 2021",
+      "rating": 84,
+      "reviews": 33675,
+      "ccu": 296,
+      "price_usd": 2.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "An online party game of drawing and guessing for up to 16 players with a variety of modes. Bring out the best (or worst) of your drawing and guessing skills!",
+      "steamUrl": "https://store.steampowered.com/app/1483870/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1483870/header.jpg?t=1750853008",
+      "score": 1374.2
+    },
+    {
+      "appid": "1987080",
+      "title": "Inside the Backrooms",
+      "releaseYear": 2022,
+      "releaseDate": "Jun 20, 2022",
+      "rating": 82,
+      "reviews": 45032,
+      "ccu": 237,
+      "price_usd": 5.94,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Inside the Backrooms is a horror multiplayer game mixed with different mechanics that will make you spend an intense night with friends. Explore, think, interact, but be careful, it is rumored that there are several entities wishing to find you...",
+      "steamUrl": "https://store.steampowered.com/app/1987080/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1987080/header.jpg?t=1764430157",
+      "score": 1359.5
+    },
+    {
+      "appid": "1084160",
+      "title": "Jagged Alliance 3",
+      "releaseYear": 2023,
+      "releaseDate": "Jul 14, 2023",
+      "rating": 89,
+      "reviews": 12940,
+      "ccu": 363,
+      "price_usd": 13.49,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "The country of Grand Chien is thrown into chaos when the elected president goes missing and the paramilitary force known as “the Legion” seizes control. Hire mercs, meet interesting characters, and fight in tactically deep turn-based combat in this true successor to a beloved franchise.",
+      "steamUrl": "https://store.steampowered.com/app/1084160/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1084160/header.jpg?t=1725000793",
+      "score": 1339.6
+    },
+    {
+      "appid": "1321440",
+      "title": "Cassette Beasts",
+      "releaseYear": 2023,
+      "releaseDate": "Apr 26, 2023",
+      "rating": 95,
+      "reviews": 9298,
+      "ccu": 202,
+      "price_usd": 7.99,
+      "coopModes": [
+        "online",
+        "local"
+      ],
+      "description_en": "Collect awesome monsters to use during turn-based battles in this open-world RPG, now with online multiplayer mode. Combine any two monster forms using Cassette Beasts’ Fusion System to create unique and powerful new ones!",
+      "steamUrl": "https://store.steampowered.com/app/1321440/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1321440/header.jpg?t=1767820140",
+      "score": 1329.3
+    },
+    {
+      "appid": "745920",
+      "title": "Temtem",
+      "releaseYear": 2022,
+      "releaseDate": "Sep 6, 2022",
+      "rating": 82,
+      "reviews": 38941,
+      "ccu": 200,
+      "price_usd": 8.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Temtem is an online creature-collection adventure. Tame 165 unique creatures across 7 vibrant islands, battle other tamers, tackle mythical Lairs, chase Luma &amp; Umbra variants, and breed your favorite Tems - with friends by your side! Dive into a colorful monster catching adventure, so Temtem up!",
+      "steamUrl": "https://store.steampowered.com/app/745920/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/745920/header.jpg?t=1773698361",
+      "score": 1326.4
+    },
+    {
+      "appid": "2132850",
+      "title": "Rabbit and Steel",
+      "releaseYear": 2024,
+      "releaseDate": "May 9, 2024",
+      "rating": 97,
+      "reviews": 8711,
+      "ccu": 140,
+      "price_usd": 14.99,
+      "coopModes": [
+        "online",
+        "local"
+      ],
+      "description_en": "RABBIT &amp; STEEL is a co-op action roguelike that recreates the essence of high-level MMO raiding in a randomized, simplified, bunny-sized package. Choose your class, gather your rabbit-eared companions and battle your way to the Moonlit Pinnacle!",
+      "steamUrl": "https://store.steampowered.com/app/2132850/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2132850/header.jpg?t=1771398437",
+      "score": 1315.5
+    },
+    {
+      "appid": "1268750",
+      "title": "Starship Troopers: Extermination",
+      "releaseYear": 2024,
+      "releaseDate": "Oct 10, 2024",
+      "rating": 81,
+      "reviews": 31022,
+      "ccu": 283,
+      "price_usd": 29.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Starship Troopers: Extermination is a 16-player co-op FPS that puts you on the far-off frontlines of an all-out battle against the Bugs! Squad up, grab your rifle, and do your part as an elite Deep Space Vanguard Trooper to take back planets from the Arachnid threat!",
+      "steamUrl": "https://store.steampowered.com/app/1268750/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1268750/header.jpg?t=1774627317",
+      "score": 1311.0
+    },
+    {
+      "appid": "2296990",
+      "title": "We Were Here Expeditions: The FriendShip",
+      "releaseYear": 2023,
+      "releaseDate": "Sep 14, 2023",
+      "rating": 91,
+      "reviews": 22334,
+      "ccu": 63,
+      "price_usd": 3.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Partner up with your friend online and set sail for an unforgettable puzzle adventure in this bite-sized standalone We Were Here experience. Work together to overcome brain-teasing challenges and make fun memories, using your best communication, teamwork and trust skills.",
+      "steamUrl": "https://store.steampowered.com/app/2296990/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2296990/header.jpg?t=1764331912",
+      "score": 1290.3
+    },
+    {
+      "appid": "780290",
+      "title": "Gloomhaven",
+      "releaseYear": 2021,
+      "releaseDate": "Oct 20, 2021",
+      "rating": 83,
+      "reviews": 14983,
+      "ccu": 430,
+      "price_usd": 9.79,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Lead your band of mercenaries in the land of Gloomhaven, work with unsavoury individuals, shape the fate of the region, fight your way through horrific places and get rich or die trying in this ruthless Tactical-RPG.",
+      "steamUrl": "https://store.steampowered.com/app/780290/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/780290/header.jpg?t=1774280168",
+      "score": 1282.1
+    },
+    {
+      "appid": "1280930",
+      "title": "Astral Ascent",
+      "releaseYear": 2023,
+      "releaseDate": "Nov 14, 2023",
+      "rating": 95,
+      "reviews": 6914,
+      "ccu": 184,
+      "price_usd": 12.49,
+      "coopModes": [
+        "online",
+        "local"
+      ],
+      "description_en": "Choose one of four heroes and explore the Garden, an astral prison guarded by 12 powerful mystical bosses: the Zodiacs. Challenge them with dozens of unique spells and faithful friends by your side to unfold the story of this platform roguelite with lightning fast combat.",
+      "steamUrl": "https://store.steampowered.com/app/1280930/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1280930/eb8e8de59f6bf274924d290ff321c4206cfce875/header.jpg?t=1769212800",
+      "score": 1278.4
+    },
+    {
+      "appid": "1515210",
+      "title": "The Past Within",
+      "releaseYear": 2022,
+      "releaseDate": "Nov 2, 2022",
+      "rating": 95,
+      "reviews": 15156,
+      "ccu": 51,
+      "price_usd": 3.59,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "The Past Within is the new co-op experience from Rusty Lake! Play together with someone you deem trustworthy: one in The Past, the other in The Future. Observe and communicate what you see around you. Solve the puzzles and uncover Albert Vanderboom’s plan.",
+      "steamUrl": "https://store.steampowered.com/app/1515210/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1515210/header.jpg?t=1740070156",
+      "score": 1275.8
+    },
+    {
+      "appid": "694280",
+      "title": "Zombie Army 4: Dead War",
+      "releaseYear": 2021,
+      "releaseDate": "Feb 18, 2021",
+      "rating": 86,
+      "reviews": 9273,
+      "ccu": 431,
+      "price_usd": 4.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Hitler’s hordes are back for more in this spine-chilling shooter from the makers of Sniper Elite 4! Abominable occult enemies, epic weapons and a harrowing new campaign for 1-4 players await in 1940s Europe, as you fight to save humankind from undead Armageddon!",
+      "steamUrl": "https://store.steampowered.com/app/694280/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/694280/header.jpg?t=1734452546",
+      "score": 1262.3
+    },
+    {
+      "appid": "1577120",
+      "title": "The Quarry",
+      "releaseYear": 2022,
+      "releaseDate": "Jun 9, 2022",
+      "rating": 82,
+      "reviews": 19265,
+      "ccu": 256,
+      "price_usd": 8.99,
+      "coopModes": [
+        "online",
+        "local"
+      ],
+      "description_en": "When the sun goes down on the last night of summer camp, nine teenage counselors are plunged into an unpredictable night of horror. The only thing worse than the blood-drenched locals and creatures hunting them are the unimaginable choices you must make to help them survive.",
+      "steamUrl": "https://store.steampowered.com/app/1577120/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1577120/header.jpg?t=1730303267",
+      "score": 1258.0
+    },
+    {
+      "appid": "1911610",
+      "title": "Windblown",
+      "releaseYear": 2024,
+      "releaseDate": "Oct 24, 2024",
+      "rating": 90,
+      "reviews": 8453,
+      "ccu": 231,
+      "price_usd": 19.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Dash, dive and defy the Vortex. A lightning-fast, 1-3 player co-op roguelite from the crafters of Dead Cells, where every run is a leap into chaos. Absorb the powers of fallen warriors, rebuild their weapons, and WIPE THE FLOOR with anything that gets in the way of a perfect run.",
+      "steamUrl": "https://store.steampowered.com/app/1911610/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1911610/e888fc3bd015016492f86ad87e21cbaea1d289e9/header.jpg?t=1774608692",
+      "score": 1257.1
+    },
+    {
+      "appid": "2290180",
+      "title": "Riders Republic",
+      "releaseYear": 2023,
+      "releaseDate": "Jun 8, 2023",
+      "rating": 84,
+      "reviews": 19511,
+      "ccu": 171,
+      "price_usd": 9.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Jump into a massive multiplayer playground! Bike, ski, snowboard, or wingsuit across an open world sports paradise.",
+      "steamUrl": "https://store.steampowered.com/app/2290180/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2290180/a9a8fec709878e9bc40892938989aa1b334cc0b7/header_alt_assets_1.jpg?t=1773933850",
+      "score": 1257.0
+    },
+    {
+      "appid": "1302240",
+      "title": "Labyrinthine",
+      "releaseYear": 2023,
+      "releaseDate": "Aug 18, 2023",
+      "rating": 85,
+      "reviews": 16258,
+      "ccu": 179,
+      "price_usd": 4.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "A co-op horror game like no other... Play with 1-8 players online as you solve puzzles, collect items and run from the horrors that lie within. Follow in the footsteps of Joan in the story mode or tackle procedurally generated maps that scale with your level and bring a fresh experience each game..",
+      "steamUrl": "https://store.steampowered.com/app/1302240/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1302240/header.jpg?t=1764093777",
+      "score": 1252.2
+    },
+    {
+      "appid": "2408820",
+      "title": "Luma Island",
+      "releaseYear": 2024,
+      "releaseDate": "Nov 20, 2024",
+      "rating": 84,
+      "reviews": 9533,
+      "ccu": 487,
+      "price_usd": 14.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Get ready to explore, farm, fish, mine, craft, and raise magical Lumas as you solve puzzles and embark on quests across Luma Island. Play solo, or team up with friends in 1-4 player online co-op. Choose relaxing Cozy, challenging Adventure, or epic Hero mode to match your mood and playstyle.",
+      "steamUrl": "https://store.steampowered.com/app/2408820/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2408820/e65ffd9fbf0e49f9db54b74f795db641ae6a4aa7/header.jpg?t=1774626389",
+      "score": 1246.1
+    },
+    {
+      "appid": "1003590",
+      "title": "Tetris® Effect: Connected",
+      "releaseYear": 2021,
+      "releaseDate": "Aug 17, 2021",
+      "rating": 95,
+      "reviews": 7932,
+      "ccu": 99,
+      "price_usd": 19.99,
+      "coopModes": [
+        "online",
+        "local"
+      ],
+      "description_en": "Tetris® Effect: Connected adds an all-new robust multiplayer expansion to the huge variety of addictive and innovative single-player modes that Tetris Effect is known for, with all-new co-op and competitive online and local multiplayer modes!",
+      "steamUrl": "https://store.steampowered.com/app/1003590/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1003590/11d98bbb08ca8e16d015ae4a40b60920ae8dbe36/header.jpg?t=1774036904",
+      "score": 1245.8
+    },
+    {
+      "appid": "1818750",
+      "title": "MultiVersus",
+      "releaseYear": 2022,
+      "releaseDate": "Jul 19, 2022",
+      "rating": 76,
+      "reviews": 118212,
+      "ccu": 55,
+      "price_usd": 0.0,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "MultiVersus is a free-to-play platform fighter that brings the depth of iconic WB stars to life across the nearly endless possibilities of play.",
+      "steamUrl": "https://store.steampowered.com/app/1818750/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1818750/header.jpg?t=1748620122",
+      "score": 1245.0
+    },
+    {
+      "appid": "605740",
+      "title": "Flashing Lights - Police, Firefighting, Emergency Services (EMS) Simulator",
+      "releaseYear": 2023,
+      "releaseDate": "May 15, 2023",
+      "rating": 81,
+      "reviews": 16963,
+      "ccu": 311,
+      "price_usd": 3.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Play solo or in up to 10-player multiplayer co-op! Flashing Lights is an open world police, firefighting and EMS simulator game with plenty of opportunity for role-play or more relaxed fun with friends. Become the law or save lives! Discover leagues of player-created mods!",
+      "steamUrl": "https://store.steampowered.com/app/605740/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/605740/f06bc95f3089feb9daffe9335bbf7bd957a209fe/header.jpg?t=1773766828",
+      "score": 1241.9
+    },
+    {
+      "appid": "1683150",
+      "title": "Railroader",
+      "releaseYear": 2023,
+      "releaseDate": "Dec 7, 2023",
+      "rating": 97,
+      "reviews": 2699,
+      "ccu": 455,
+      "price_usd": 23.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "You and your fellow railroaders are the lifeblood of your railroad, just like it is the lifeblood of the communities it serves. Switch cars at industries. Keep people moving while running local passenger trains. Run trains with a purpose in transition era Appalachia – in Railroader!",
+      "steamUrl": "https://store.steampowered.com/app/1683150/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1683150/709e5845e2c50a13780a89c786fb2471b36f612f/header.jpg?t=1774550676",
+      "score": 1235.6
+    },
+    {
+      "appid": "313120",
+      "title": "Stranded Deep",
+      "releaseYear": 2022,
+      "releaseDate": "Aug 10, 2022",
+      "rating": 74,
+      "reviews": 45828,
+      "ccu": 256,
+      "price_usd": 9.99,
+      "coopModes": [
+        "online",
+        "local"
+      ],
+      "description_en": "Take the role of a plane crash survivor stranded somewhere in the Pacific Ocean. Come face to face with some of the most life threatening scenarios that will result in a different experience each time you play. Scavenge. Discover. Survive.",
+      "steamUrl": "https://store.steampowered.com/app/313120/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/313120/header.jpg?t=1727731485",
+      "score": 1234.9
+    },
+    {
+      "appid": "3108510",
+      "title": "FlyKnight",
+      "releaseYear": 2025,
+      "releaseDate": "Jan 31, 2025",
+      "rating": 97,
+      "reviews": 8297,
+      "ccu": 59,
+      "price_usd": 4.79,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Explore, fight, loot and fish! Solo or in co-op mode in this Old School First Person Dungeon Crawler. Earn your knighthood as you oppose the evil witch Lunamoth and stop her curse which prevents everyone from growing wings.",
+      "steamUrl": "https://store.steampowered.com/app/3108510/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3108510/header.jpg?t=1761565657",
+      "score": 1233.7
+    },
+    {
+      "appid": "1526490",
+      "title": "Fear Surrounds",
+      "releaseYear": 2021,
+      "releaseDate": "Oct 19, 2021",
+      "rating": 86,
+      "reviews": 10756,
+      "ccu": 222,
+      "price_usd": 0.0,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Fear Surrounds is a horror-tinged take on the werewolf-style social subterfuge genre, where two evil spirits hide within a group of players and attempt to sabotage and murder them.",
+      "steamUrl": "https://store.steampowered.com/app/1526490/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1526490/header.jpg?t=1710252380",
+      "score": 1230.1
+    },
+    {
+      "appid": "1158940",
+      "title": "Blazing Sails",
+      "releaseYear": 2023,
+      "releaseDate": "Nov 13, 2023",
+      "rating": 87,
+      "reviews": 9710,
+      "ccu": 219,
+      "price_usd": 4.49,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Fight for survival in Blazing Sails, a fast-paced pirate PvP game! Create your own unique pirate and ship. Band together with other players to command your mighty vessel! Explore different game-modes, maps, weapons, ship types and more while eliminating other crews in epic battles on land and sea!",
+      "steamUrl": "https://store.steampowered.com/app/1158940/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158940/header.jpg?t=1744285471",
+      "score": 1229.6
+    },
+    {
+      "appid": "1245560",
+      "title": "Roots of Pacha",
+      "releaseYear": 2023,
+      "releaseDate": "Apr 25, 2023",
+      "rating": 94,
+      "reviews": 3893,
+      "ccu": 334,
+      "price_usd": 24.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "The charming and relaxing stone-age farming sim where you live in a thriving community exploring the wonderful world of Pacha. Discover &quot;ideas,&quot; domesticate crops, befriend animals, and help your village grow. Play co-op with friends or explore the early days of civilization in single-player.",
+      "steamUrl": "https://store.steampowered.com/app/1245560/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245560/fb243da1a884f5ae805d4cd09aed4714728af7c7/header.jpg?t=1765217435",
+      "score": 1228.9
+    },
+    {
+      "appid": "601050",
+      "title": "Attack on Titan 2 - A.O.T.2",
+      "releaseYear": 2023,
+      "releaseDate": "Apr 26, 2023",
+      "rating": 93,
+      "reviews": 7169,
+      "ccu": 117,
+      "price_usd": 29.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Abandon all fear. Attack on Titan 2 is the gripping sequel to the action game based on the worldwide hit anime series &quot;Attack on Titan.&quot;",
+      "steamUrl": "https://store.steampowered.com/app/601050/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/601050/header.jpg?t=1760594755",
+      "score": 1219.5
+    },
+    {
+      "appid": "2961880",
+      "title": "Grocery Store Simulator",
+      "releaseYear": 2024,
+      "releaseDate": "Nov 21, 2024",
+      "rating": 93,
+      "reviews": 5397,
+      "ccu": 190,
+      "price_usd": 7.49,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Grocery Store Simulator is a 1-4 player co-op game where you build and manage your own supermarket by stocking shelves, setting prices, hiring staff, and customizing your store, all while expanding your business and keeping customers happy.",
+      "steamUrl": "https://store.steampowered.com/app/2961880/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2961880/header.jpg?t=1746463148",
+      "score": 1219.0
+    },
+    {
+      "appid": "997010",
+      "title": "Police Simulator: Patrol Officers",
+      "releaseYear": 2022,
+      "releaseDate": "Nov 10, 2022",
+      "rating": 78,
+      "reviews": 19421,
+      "ccu": 318,
+      "price_usd": 10.19,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Welcome to Brighton! Join the police force of this fictitious American city and experience the day to day life of a police officer.",
+      "steamUrl": "https://store.steampowered.com/app/997010/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/997010/91aefad15cb27e4c8f03e519a5b3d3a9daa4d31d/header.jpg?t=1768816192",
+      "score": 1214.2
+    },
+    {
+      "appid": "1836730",
+      "title": "Echo Point Nova",
+      "releaseYear": 2024,
+      "releaseDate": "Sep 24, 2024",
+      "rating": 98,
+      "reviews": 5810,
+      "ccu": 71,
+      "price_usd": 14.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Echo Point Nova is an open-world FPS that offers unparalleled freedom and thrilling speed. Designed for both singleplayer and coop. From the creators of Severed Steel.",
+      "steamUrl": "https://store.steampowered.com/app/1836730/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1836730/header.jpg?t=1768329715",
+      "score": 1212.7
+    },
+    {
+      "appid": "794260",
+      "title": "Outward Definitive Edition",
+      "releaseYear": 2022,
+      "releaseDate": "May 17, 2022",
+      "rating": 73,
+      "reviews": 28455,
+      "ccu": 469,
+      "price_usd": 1.99,
+      "coopModes": [
+        "online",
+        "local"
+      ],
+      "description_en": "No remarkable journey is achieved without great effort. In Outward, the cold of the night or an infected wound can be as dangerous as a predator lurking in the dark. Explore the vast world of Aurai solo or in Co-op. The Definitive Edition features both DLCs and quality of life improvements.",
+      "steamUrl": "https://store.steampowered.com/app/794260/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/794260/header.jpg?t=1771496439",
+      "score": 1209.3
+    },
+    {
+      "appid": "2909110",
+      "title": "Nuclear Nightmare",
+      "releaseYear": 2024,
+      "releaseDate": "Oct 20, 2024",
+      "rating": 82,
+      "reviews": 11504,
+      "ccu": 305,
+      "price_usd": 1.74,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Venture forth as part of a specialized team of fellow players tasked with retrieving classified materials, evading the black goo virus, and the nightmarish entities it has spawned. With time running out before the US government initiates a devastating nuclear strike to contain the spreading menace.",
+      "steamUrl": "https://store.steampowered.com/app/2909110/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909110/header.jpg?t=1772607251",
+      "score": 1205.6
+    },
+    {
+      "appid": "2683150",
+      "title": "Ale & Tale Tavern",
+      "releaseYear": 2024,
+      "releaseDate": "Sep 5, 2024",
+      "rating": 89,
+      "reviews": 7070,
+      "ccu": 190,
+      "price_usd": 7.49,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Get ready for a thrilling mix of genres: a cooperative, first-person, open-world fantasy tavern simulator, action, fishing, hunting, exploration, and completing fun and diverse quests. And, of course, COOKING! Play with friends, feed and quench the thirst of the entire world!",
+      "steamUrl": "https://store.steampowered.com/app/2683150/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2683150/2c88381f5697bb0d925a44c0db17f7778bac6a88/header.jpg?t=1774620827",
+      "score": 1203.2
+    },
+    {
+      "appid": "2920570",
+      "title": "Dale & Dawson Stationery Supplies",
+      "releaseYear": 2024,
+      "releaseDate": "Aug 30, 2024",
+      "rating": 92,
+      "reviews": 7714,
+      "ccu": 95,
+      "price_usd": 3.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "In &quot;Dale &amp; Dawson Stationery Supplies,&quot; play as a Manager, Specialist, or Slacker in an office setting. Slackers blend in, mimicking Specialists to avoid the Manager's suspicion. Uncover or cause deception to win.",
+      "steamUrl": "https://store.steampowered.com/app/2920570/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2920570/header.jpg?t=1738015624",
+      "score": 1199.4
+    },
+    {
+      "appid": "867210",
+      "title": "Songs of Conquest",
+      "releaseYear": 2024,
+      "releaseDate": "May 20, 2024",
+      "rating": 86,
+      "reviews": 11676,
+      "ccu": 121,
+      "price_usd": 7.49,
+      "coopModes": [
+        "online",
+        "local"
+      ],
+      "description_en": "Raise mighty armies, wield ancient magic and forge an empire. This turn-based strategy adventure game fuses strategic decision making, tactical combat and kingdom management.",
+      "steamUrl": "https://store.steampowered.com/app/867210/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/867210/a72396809c4af3bbcd91e3d4974f40f5f673ae60/header_alt_assets_10.jpg?t=1772735495",
+      "score": 1192.3
+    },
+    {
+      "appid": "1801110",
+      "title": "BOKURA",
+      "releaseYear": 2023,
+      "releaseDate": "Aug 9, 2023",
+      "rating": 92,
+      "reviews": 10053,
+      "ccu": 57,
+      "price_usd": 5.49,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "BOKURA is a two-player puzzle adventure game. Play as two boys who ran away from their homes and work together to take yourselves somewhere far, far away. Relive the friendship of your childhood through the journey of two boys.",
+      "steamUrl": "https://store.steampowered.com/app/1801110/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1801110/header.jpg?t=1748672108",
+      "score": 1192.1
+    },
+    {
+      "appid": "673750",
+      "title": "Super Bunny Man",
+      "releaseYear": 2023,
+      "releaseDate": "May 16, 2023",
+      "rating": 87,
+      "reviews": 9883,
+      "ccu": 131,
+      "price_usd": 7.49,
+      "coopModes": [
+        "online",
+        "local"
+      ],
+      "description_en": "A physics-based co-op platformer about a guy in a rabbit costume! Team up with a friend or three (local or online) to beat levels, find hidden carrots and race against the clock. Experience bunny madness. Embrace carrot chaos. Become Super Bunny Man.",
+      "steamUrl": "https://store.steampowered.com/app/673750/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/673750/header.jpg?t=1764709681",
+      "score": 1191.0
+    },
+    {
+      "appid": "768200",
+      "title": "Smalland: Survive the Wilds",
+      "releaseYear": 2024,
+      "releaseDate": "Feb 15, 2024",
+      "rating": 83,
+      "reviews": 8439,
+      "ccu": 338,
+      "price_usd": 34.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Experience a big adventure on a tiny scale! Enjoy multiplayer survival in a vast, hazardous world. Preparation is key when you're this small &amp; at the bottom of the food chain. Craft weapons &amp; armour, tame &amp; ride creatures, build encampments &amp; explore a strange new land.",
+      "steamUrl": "https://store.steampowered.com/app/768200/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/768200/67c3d2f6d897225f951655df0efc1b7bb33d9d08/header.jpg?t=1774455916",
+      "score": 1187.6
+    },
+    {
+      "appid": "1548850",
+      "title": "Six Days in Fallujah",
+      "releaseYear": 2023,
+      "releaseDate": "Jun 22, 2023",
+      "rating": 82,
+      "reviews": 14627,
+      "ccu": 143,
+      "price_usd": 25.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Six Days in Fallujah is an intensely realistic first-person tactical shooter based on true stories from one of this century’s toughest urban battles.",
+      "steamUrl": "https://store.steampowered.com/app/1548850/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1548850/6fda8341b3559754cf71ca839e69460c3e54479e/header.jpg?t=1764891899",
+      "score": 1177.3
+    },
+    {
+      "appid": "1785150",
+      "title": "Friends vs Friends",
+      "releaseYear": 2023,
+      "releaseDate": "May 30, 2023",
+      "rating": 83,
+      "reviews": 13313,
+      "ccu": 136,
+      "price_usd": 9.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "A frantic, online PvP shooter that combines combat and deck building. Choose a character, customize your card-based loadout, and get ready for the fights of your life!",
+      "steamUrl": "https://store.steampowered.com/app/1785150/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1785150/header.jpg?t=1766068873",
+      "score": 1176.0
+    },
+    {
+      "appid": "1359090",
+      "title": "Zero Hour",
+      "releaseYear": 2024,
+      "releaseDate": "Sep 9, 2024",
+      "rating": 79,
+      "reviews": 31630,
+      "ccu": 75,
+      "price_usd": 2.49,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Zero Hour is a tactical FPS with online team-based game play that takes place in a variety of fictional locations interpreted in Bangladesh with Real-life scale &amp; resource management. It brings a grounded, close quarter combat experience to the game.",
+      "steamUrl": "https://store.steampowered.com/app/1359090/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1359090/header.jpg?t=1759214865",
+      "score": 1173.1
+    },
+    {
+      "appid": "3121110",
+      "title": "Zort",
+      "releaseYear": 2024,
+      "releaseDate": "Dec 7, 2024",
+      "rating": 93,
+      "reviews": 7828,
+      "ccu": 49,
+      "price_usd": 4.0,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Zort is an action, adventure, and horror game that can be played with up to 4 people. Explore maps with your friends and have fun while escaping from various creatures. Experience a realistic horror experience with in-game voice chat with your friends!",
+      "steamUrl": "https://store.steampowered.com/app/3121110/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3121110/427d86c164dad942ec3a769cdbfa9dc358f23e37/header.jpg?t=1760437839",
+      "score": 1160.0
+    },
+    {
+      "appid": "632300",
+      "title": "Hobo: Tough Life",
+      "releaseYear": 2021,
+      "releaseDate": "Apr 12, 2021",
+      "rating": 84,
+      "reviews": 8853,
+      "ccu": 179,
+      "price_usd": 8.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Hobo: Tough Life is an urban survival role-playing game where you play as a homeless person. Play alone or team up in online co-op. Explore the streets of Praslav, scavenge for food and supplies, beg, steal, and do whatever else it takes to survive the forthcoming winter.",
+      "steamUrl": "https://store.steampowered.com/app/632300/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632300/header.jpg?t=1683874995",
+      "score": 1159.9
+    },
+    {
+      "appid": "1605220",
+      "title": "Dune: Spice Wars",
+      "releaseYear": 2023,
+      "releaseDate": "Sep 14, 2023",
+      "rating": 80,
+      "reviews": 12520,
+      "ccu": 203,
+      "price_usd": 13.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "A 4X real-time strategy game from the developers of the critically acclaimed Northgard. Set in Frank Herbert’s groundbreaking Dune universe, you must lead your faction and battle for control and dominance over the harsh desert planet of Arrakis.",
+      "steamUrl": "https://store.steampowered.com/app/1605220/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1605220/header.jpg?t=1733479296",
+      "score": 1156.2
+    },
+    {
+      "appid": "2695940",
+      "title": "PANICORE",
+      "releaseYear": 2024,
+      "releaseDate": "May 31, 2024",
+      "rating": 81,
+      "reviews": 10547,
+      "ccu": 182,
+      "price_usd": 3.74,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "PANICORE is a survival horror game that mixes permadeath, AI monsters and a co-op experience up to 5 players (4 players in demo). Try to escape and don't get caught, but beware: they don't only hear your steps, but also your voice.",
+      "steamUrl": "https://store.steampowered.com/app/2695940/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2695940/7ba4bc192562f2fd7267801f965ed93a6f8b61c7/header.jpg?t=1774643922",
+      "score": 1141.3
+    },
+    {
+      "appid": "979690",
+      "title": "The Ascent",
+      "releaseYear": 2021,
+      "releaseDate": "Jul 29, 2021",
+      "rating": 74,
+      "reviews": 22884,
+      "ccu": 211,
+      "price_usd": 29.99,
+      "coopModes": [
+        "online",
+        "local"
+      ],
+      "description_en": "The Ascent is a solo and co-op Action-shooter RPG set in a cyberpunk world. The mega corporation that owns you and everyone, The Ascent Group, has just collapsed. Can you survive without it?",
+      "steamUrl": "https://store.steampowered.com/app/979690/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/979690/header.jpg?t=1772590323",
+      "score": 1140.7
+    },
+    {
+      "appid": "1329500",
+      "title": "SpiderHeck",
+      "releaseYear": 2022,
+      "releaseDate": "Sep 22, 2022",
+      "rating": 93,
+      "reviews": 5587,
+      "ccu": 66,
+      "price_usd": 14.99,
+      "coopModes": [
+        "online",
+        "local"
+      ],
+      "description_en": "Spiders with laser swords! Duel to the death against your friends or choose to team up and hold back swarms of savage enemies. Swing, stab and shoot with style, effortlessly performing movie-worthy parkour.",
+      "steamUrl": "https://store.steampowered.com/app/1329500/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1329500/header.jpg?t=1765355738",
+      "score": 1139.8
+    },
+    {
+      "appid": "2014780",
+      "title": "X-Plane 12",
+      "releaseYear": 2022,
+      "releaseDate": "Dec 17, 2022",
+      "rating": 84,
+      "reviews": 4290,
+      "ccu": 489,
+      "price_usd": 35.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Ultra-Realistic Flight Simulation",
+      "steamUrl": "https://store.steampowered.com/app/2014780/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2014780/header.jpg?t=1756364603",
+      "score": 1137.8
+    },
+    {
+      "appid": "858820",
+      "title": "Tribes of Midgard",
+      "releaseYear": 2021,
+      "releaseDate": "Jul 27, 2021",
+      "rating": 77,
+      "reviews": 22475,
+      "ccu": 113,
+      "price_usd": 4.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "A vibrant blend of survival and action RPG for 1-10 players! Craft legendary items, grow your home base and embark on an epic journey through procedural realms to face towering creatures hel-bent on unleashing Ragnarök. Valhalla can wait, Einherjar!",
+      "steamUrl": "https://store.steampowered.com/app/858820/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/858820/header.jpg?t=1773691576",
+      "score": 1137.0
+    },
+    {
+      "appid": "2878420",
+      "title": "Old Market Simulator",
+      "releaseYear": 2024,
+      "releaseDate": "Oct 3, 2024",
+      "rating": 89,
+      "reviews": 3561,
+      "ccu": 266,
+      "price_usd": 9.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Old Market Simulator is a 1-4 player co-op game where you manage your market by ordering goods, growing produce, raising animals, fishing, and crafting items in your workshop, while hiring employees and expanding your business.",
+      "steamUrl": "https://store.steampowered.com/app/2878420/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2878420/header.jpg?t=1774604660",
+      "score": 1134.5
+    },
+    {
+      "appid": "429790",
+      "title": "AdventureQuest 3D",
+      "releaseYear": 2022,
+      "releaseDate": "Oct 28, 2022",
+      "rating": 82,
+      "reviews": 9286,
+      "ccu": 160,
+      "price_usd": 0.0,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "The Void King is raising an army in secret. Death has chosen you as his champion to bring him down. Adventure &amp; quest alongside your friends in this bizarre cross-platform MMORPG from the creators of the original, and comically-redundantly named... AdventureQuest! Weekly releases!",
+      "steamUrl": "https://store.steampowered.com/app/429790/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/429790/header.jpg?t=1686259366",
+      "score": 1129.9
+    },
+    {
+      "appid": "872670",
+      "title": "SCP: 5K",
+      "releaseYear": 2022,
+      "releaseDate": "Feb 22, 2022",
+      "rating": 80,
+      "reviews": 12678,
+      "ccu": 131,
+      "price_usd": 15.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "SCP: 5K is a co-op or singleplayer tactical horror FPS project that puts players in the midst of a conspiracy where the SCP Foundation has turned on humanity. Enjoy Early Access as we continue to work towards a completed full release of the project!",
+      "steamUrl": "https://store.steampowered.com/app/872670/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/872670/header.jpg?t=1773348630",
+      "score": 1124.9
+    },
+    {
+      "appid": "3059070",
+      "title": "The Headliners",
+      "releaseYear": 2025,
+      "releaseDate": "Jan 30, 2025",
+      "rating": 85,
+      "reviews": 6062,
+      "ccu": 169,
+      "price_usd": 7.99,
+      "coopModes": [
+        "online"
+      ],
+      "description_en": "Co-op horror game where you play in teams of 1 to 8 reckless journalists, ready to explore a city overrun by deadly creatures to snap spectacular footage. Your only goal: make the headlines without becoming one.",
+      "steamUrl": "https://store.steampowered.com/app/3059070/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3059070/62f137f87bbbe03ff34fe64f79aec4059532e849/header.jpg?t=1761229580",
+      "score": 1120.6
+    },
+    {
+      "appid": "597180",
+      "title": "Old World",
+      "releaseYear": 2022,
+      "releaseDate": "May 18, 2022",
+      "rating": 82,
+      "reviews": 4673,
+      "ccu": 474,
+      "price_usd": 3.99,
+      "coopModes": [
+        "online",
+        "local"
+      ],
+      "description_en": "Old World is a revolutionary new historical strategy game where you lead your dynasty over generations of rule against rival kings and queens. Wage massive wars, manage your court, and build a dynasty — or watch your empire crumble to dust. What legacy will you leave behind?",
+      "steamUrl": "https://store.steampowered.com/app/597180/",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/597180/header.jpg?t=1774607789",
+      "score": 1119.9
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "fixes": [
+    {
+      "game_id": 1,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 3,
+      "reason": "Example: It Takes Two - co-op core game"
+    },
+    {
+      "game_id": 2,
+      "field": "coopScore",
+      "old_value": null,
+      "new_value": 3,
+      "reason": "Example: We Were Here Together - co-op core game"
+    }
+  ]
+}

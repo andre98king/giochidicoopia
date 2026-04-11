@@ -1,0 +1,18 @@
+{
+  "approved": [
+    {
+      "title": "Sid Meier's Alpha Centauri",
+      "igdbId": 0,
+      "coopScore": 3,
+      "releaseYear": 1999,
+      "steamUrl": "https://store.steampowered.com/app/7670/",
+      "description": "Classic strategy game with optional network play. Lead one of five factions to colonize the planet Chiron.",
+      "description_en": "Classic strategy game with optional network play. Lead one of five factions to colonize the planet Chiron.",
+      "categories": ["strategy"],
+      "genres": ["strategy"],
+      "coopMode": ["online"],
+      "maxPlayers": 8,
+      "players": "1-8"
+    }
+  ]
+}

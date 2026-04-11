@@ -1,0 +1,10825 @@
+{
+  "generated_at": "2026-04-01T13:03:04.521329+00:00",
+  "stats": {
+    "total_games": 589,
+    "audited_steam": 402,
+    "audited_igdb": 427,
+    "manual_review_only": 161,
+    "tag_mismatch": 51,
+    "missing_fields": 236,
+    "suspect_coop": 6,
+    "passed": 109
+  },
+  "tag_mismatch": [
+    {
+      "game_id": 12,
+      "title": "Don't Starve Together",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        28,
+        29,
+        30,
+        35,
+        36,
+        38,
+        41,
+        42,
+        43,
+        47,
+        48,
+        49,
+        62,
+        64,
+        66,
+        67,
+        68,
+        69,
+        74,
+        75,
+        76,
+        78,
+        79
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 20,
+      "title": "Garry's Mod",
+      "current_coopMode": [
+        "local"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        8,
+        9,
+        13,
+        16,
+        17,
+        22,
+        23,
+        27,
+        29,
+        30,
+        36,
+        38,
+        42,
+        47,
+        48,
+        49,
+        62,
+        66,
+        68,
+        69,
+        74,
+        78,
+        79
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 23,
+      "title": "Total War: WARHAMMER III",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        22,
+        23,
+        29,
+        36,
+        38,
+        47,
+        48,
+        49,
+        62,
+        66,
+        67,
+        68,
+        69,
+        70,
+        74,
+        78,
+        79
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 25,
+      "title": "The Binding of Isaac: Rebirth",
+      "current_coopMode": [
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        43,
+        44,
+        22,
+        23,
+        24,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 33,
+      "title": "V Rising",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        18,
+        22,
+        23,
+        36,
+        38,
+        47,
+        48,
+        49,
+        62,
+        65,
+        67,
+        68,
+        69,
+        70,
+        74,
+        78,
+        79
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 48,
+      "title": "Brotato",
+      "current_coopMode": [
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        39,
+        9,
+        43,
+        44,
+        22,
+        23,
+        24,
+        62,
+        28,
+        29,
+        30
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 96,
+      "title": "Cuphead",
+      "current_coopMode": [
+        "local"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        39,
+        9,
+        41,
+        42,
+        43,
+        44,
+        22,
+        23,
+        24,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 97,
+      "title": "Myth of Empires",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        36,
+        38,
+        9,
+        47,
+        48,
+        49,
+        20,
+        22,
+        61,
+        30
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 119,
+      "title": "Gang Beasts",
+      "current_coopMode": [
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        36,
+        37,
+        41,
+        42,
+        43,
+        44,
+        49,
+        22,
+        24,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 120,
+      "title": "Stick Fight: The Game",
+      "current_coopMode": [
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        36,
+        37,
+        41,
+        42,
+        44,
+        49,
+        18,
+        24,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 122,
+      "title": "Lovers in a Dangerous Spacetime",
+      "current_coopMode": [
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        68,
+        69,
+        39,
+        9,
+        41,
+        75,
+        42,
+        43,
+        78,
+        44,
+        22,
+        23,
+        24,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 127,
+      "title": "Moving Out",
+      "current_coopMode": [
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        22,
+        23,
+        24,
+        28,
+        39,
+        41,
+        42,
+        43,
+        44,
+        62,
+        64,
+        65,
+        66,
+        67,
+        68,
+        74,
+        78
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 129,
+      "title": "TowerFall Ascension",
+      "current_coopMode": [
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        37,
+        39,
+        9,
+        41,
+        42,
+        43,
+        44,
+        15,
+        49,
+        22,
+        23,
+        24,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 132,
+      "title": "Rayman Legends",
+      "current_coopMode": [
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        39,
+        9,
+        41,
+        42,
+        44,
+        22,
+        24
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 134,
+      "title": "Jackbox Party Pack",
+      "current_coopMode": [
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 8,
+      "steam_categories": [
+        1,
+        2,
+        37,
+        39,
+        9,
+        41,
+        42,
+        44,
+        49,
+        18,
+        22,
+        23,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 141,
+      "title": "Unravel Two",
+      "current_coopMode": [
+        "local"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        39,
+        9,
+        41,
+        42,
+        43,
+        44,
+        22,
+        24,
+        28,
+        29
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 146,
+      "title": "Vampire Survivors",
+      "current_coopMode": [
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        44,
+        22,
+        23,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 150,
+      "title": "Keep Talking and Nobody Explodes",
+      "current_coopMode": [
+        "local"
+      ],
+      "current_maxPlayers": 6,
+      "steam_categories": [
+        1,
+        39,
+        9,
+        43,
+        44,
+        15,
+        52,
+        53,
+        22,
+        62,
+        24,
+        25,
+        28,
+        30,
+        31
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 188,
+      "title": "Unturned",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        8,
+        9,
+        15,
+        17,
+        22,
+        23,
+        29,
+        30,
+        35,
+        36,
+        38,
+        42,
+        47,
+        48,
+        49,
+        67,
+        68,
+        69,
+        74,
+        78
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 203,
+      "title": "Total War: THREE KINGDOMS",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        22,
+        23,
+        29,
+        36,
+        38,
+        47,
+        48,
+        49,
+        62,
+        66,
+        67,
+        68,
+        69,
+        70,
+        74,
+        78,
+        79
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 206,
+      "title": "Total War: ROME II - Emperor Edition",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        67,
+        36,
+        68,
+        38,
+        69,
+        70,
+        9,
+        74,
+        78,
+        47,
+        48,
+        49,
+        79,
+        23,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 218,
+      "title": "House Flipper 2",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        68,
+        69,
+        38,
+        9,
+        74,
+        79,
+        48,
+        17,
+        22,
+        23,
+        27,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 228,
+      "title": "Total War: SHOGUN 2",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        8,
+        9,
+        15,
+        22,
+        23,
+        29,
+        36,
+        38,
+        47,
+        48,
+        49,
+        62,
+        67,
+        68,
+        69,
+        74,
+        78,
+        79
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 233,
+      "title": "Pikuniku",
+      "current_coopMode": [
+        "local"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        37,
+        39,
+        9,
+        41,
+        42,
+        44,
+        15,
+        49,
+        18,
+        22,
+        23,
+        24,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 237,
+      "title": "Heave Ho",
+      "current_coopMode": [
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        37,
+        39,
+        9,
+        43,
+        44,
+        49,
+        22,
+        23,
+        24,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 249,
+      "title": "Bopl Battle",
+      "current_coopMode": [
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        36,
+        37,
+        38,
+        39,
+        9,
+        44,
+        49,
+        18,
+        22,
+        24,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 250,
+      "title": "Cult of the Lamb",
+      "current_coopMode": [
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        64,
+        1,
+        2,
+        67,
+        68,
+        69,
+        39,
+        9,
+        75,
+        44,
+        78,
+        79,
+        22,
+        23,
+        24,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 251,
+      "title": "Shovel Knight: Treasure Trove",
+      "current_coopMode": [
+        "local"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        37,
+        39,
+        9,
+        41,
+        42,
+        43,
+        44,
+        49,
+        22,
+        23,
+        24,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 252,
+      "title": "Soulmask",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 70,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        47,
+        48,
+        49,
+        18,
+        22,
+        23,
+        62,
+        30
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 256,
+      "title": "Patch Quest",
+      "current_coopMode": [
+        "local"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        66,
+        39,
+        9,
+        44,
+        79,
+        22,
+        23,
+        24,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 269,
+      "title": "Windswept",
+      "current_coopMode": [
+        "local"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        39,
+        9,
+        44,
+        22,
+        23,
+        24,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 275,
+      "title": "Spiritfarer®: Edizione Farewell",
+      "current_coopMode": [
+        "local"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        39,
+        9,
+        41,
+        42,
+        43,
+        44,
+        22,
+        23,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 279,
+      "title": "LEGO® Star Wars™: La Saga Degli Skywalker",
+      "current_coopMode": [
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        39,
+        9,
+        41,
+        42,
+        44,
+        22,
+        23,
+        24,
+        28,
+        61,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 280,
+      "title": "Untitled Goose Game",
+      "current_coopMode": [
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        39,
+        9,
+        41,
+        42,
+        43,
+        44,
+        22,
+        23,
+        24,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 283,
+      "title": "Tools Up!",
+      "current_coopMode": [
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        39,
+        9,
+        41,
+        42,
+        43,
+        44,
+        22,
+        24,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 284,
+      "title": "Biped 2",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        17,
+        18,
+        22,
+        23,
+        24,
+        27,
+        29,
+        30,
+        36,
+        37,
+        38,
+        39,
+        44,
+        49,
+        62,
+        68,
+        69,
+        74,
+        78
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 285,
+      "title": "Nobody Saves the World",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        39,
+        9,
+        44,
+        22,
+        23,
+        24,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 298,
+      "title": "Total War: WARHAMMER II",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        22,
+        29,
+        30,
+        36,
+        38,
+        42,
+        47,
+        48,
+        49,
+        62,
+        66,
+        67,
+        68,
+        69,
+        70,
+        74,
+        78,
+        79
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 299,
+      "title": "Abiotic Factor",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 6,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        22,
+        27,
+        28,
+        29,
+        38,
+        48,
+        62,
+        64,
+        65,
+        67,
+        68,
+        69,
+        70,
+        74,
+        78,
+        79
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 305,
+      "title": "Kingdom Two Crowns",
+      "current_coopMode": [
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        39,
+        9,
+        41,
+        42,
+        43,
+        44,
+        22,
+        23,
+        24,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 312,
+      "title": "Star Trek Online",
+      "current_coopMode": [
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        35,
+        9,
+        20,
+        28
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 315,
+      "title": "Empyrion - Galactic Survival",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        48,
+        49,
+        18,
+        62,
+        30
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 332,
+      "title": "Call of Duty: Modern Warfare",
+      "current_coopMode": [
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        36,
+        38,
+        9,
+        49,
+        22,
+        27,
+        28
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 347,
+      "title": "Men of War: Assault Squad 2",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        47,
+        48,
+        49,
+        15,
+        17,
+        22,
+        23,
+        62,
+        25,
+        29,
+        30
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 366,
+      "title": "Avorion",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 10,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        8,
+        9,
+        47,
+        48,
+        49,
+        15,
+        22,
+        62,
+        27,
+        29,
+        30
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 370,
+      "title": "Tropico 6",
+      "current_coopMode": [
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        43,
+        49,
+        22,
+        23,
+        62,
+        28,
+        29,
+        30
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 404,
+      "title": "Sea of Stars",
+      "current_coopMode": [
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        39,
+        9,
+        44,
+        22,
+        23,
+        24,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 520,
+      "title": "Dragonkin: The Banished",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        39,
+        9,
+        44,
+        22,
+        23,
+        24,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 527,
+      "title": "Over The Top: WWI",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        17,
+        18,
+        22,
+        23,
+        30,
+        36,
+        38,
+        47,
+        48,
+        49,
+        62,
+        65,
+        66,
+        67,
+        68,
+        69,
+        74,
+        75
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 590,
+      "title": "MADNESS: Project Nexus",
+      "current_coopMode": [
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        39,
+        9,
+        44,
+        22,
+        23,
+        24,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    },
+    {
+      "game_id": 595,
+      "title": "Astral Ascent",
+      "current_coopMode": [
+        "local"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        39,
+        9,
+        44,
+        22,
+        23,
+        24,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "coopMode in catalog doesn't match Steam API data"
+    }
+  ],
+  "missing_fields": [
+    {
+      "game_id": 2,
+      "title": "Rust",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        8,
+        9,
+        15,
+        20,
+        22,
+        27,
+        29,
+        30,
+        35,
+        36,
+        38,
+        42,
+        49,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        78
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 4,
+      "title": "HELLDIVERS 2",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        9,
+        18,
+        22,
+        35,
+        38,
+        62,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        78
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 5,
+      "title": "Tom Clancy's Rainbow Six Siege",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        36,
+        38,
+        9,
+        41,
+        42,
+        49,
+        28,
+        29
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 6,
+      "title": "Dead by Daylight",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        9,
+        22,
+        23,
+        27,
+        28,
+        29,
+        36,
+        38,
+        41,
+        42,
+        43,
+        49,
+        62,
+        65,
+        66,
+        68,
+        69,
+        70
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 8,
+      "title": "Grand Theft Auto V Enhanced",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        36,
+        38,
+        9,
+        41,
+        42,
+        49,
+        18,
+        22
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 9,
+      "title": "DayZ",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        36,
+        38,
+        8,
+        9,
+        49,
+        20,
+        22,
+        23,
+        29,
+        30
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 10,
+      "title": "Warframe",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        22,
+        27,
+        28,
+        29,
+        30,
+        35,
+        38,
+        41,
+        42,
+        43,
+        61,
+        66,
+        67,
+        68,
+        69,
+        70,
+        74
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 13,
+      "title": "PAYDAY 2",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        22,
+        23,
+        28,
+        29,
+        35,
+        38,
+        41,
+        42,
+        43,
+        52,
+        53,
+        62,
+        67,
+        68,
+        69,
+        74,
+        78
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 14,
+      "title": "Left 4 Dead 2",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        8,
+        9,
+        13,
+        14,
+        15,
+        16,
+        22,
+        23,
+        28,
+        29,
+        30,
+        36,
+        38,
+        41,
+        42,
+        43,
+        44,
+        49,
+        62,
+        63,
+        66,
+        67,
+        68,
+        69,
+        70,
+        74,
+        78
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 18,
+      "title": "ARK: Survival Evolved",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        8,
+        9,
+        42,
+        17,
+        20,
+        22,
+        23,
+        62,
+        28,
+        30
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 19,
+      "title": "Rocket League",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        15,
+        18,
+        22,
+        23,
+        24,
+        27,
+        29,
+        30,
+        36,
+        37,
+        38,
+        39,
+        41,
+        42,
+        43,
+        44,
+        49,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 21,
+      "title": "Palworld",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        22,
+        23,
+        62,
+        27,
+        28,
+        29,
+        30
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 27,
+      "title": "Black Desert",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        35,
+        36,
+        38,
+        9,
+        49,
+        18,
+        20,
+        29
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 30,
+      "title": "Satisfactory",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        18,
+        22,
+        23,
+        27,
+        38,
+        42,
+        62,
+        64,
+        66,
+        67,
+        68,
+        69,
+        70,
+        74,
+        78,
+        79
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 31,
+      "title": "Monster Hunter Wilds",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        22,
+        23,
+        27,
+        28,
+        29,
+        38,
+        61,
+        62,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        75
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 32,
+      "title": "Monster Hunter: World",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        64,
+        1,
+        2,
+        67,
+        68,
+        69,
+        70,
+        9,
+        42,
+        75,
+        15,
+        18,
+        61,
+        22,
+        23,
+        25,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 34,
+      "title": "Phasmophobia",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        67,
+        69,
+        38,
+        70,
+        9,
+        74,
+        41,
+        42,
+        78,
+        52,
+        53,
+        22,
+        23,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 36,
+      "title": "Squad",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        36,
+        38,
+        8,
+        9,
+        49,
+        18,
+        29,
+        30
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 37,
+      "title": "Diablo IV",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        22,
+        27,
+        28,
+        35,
+        36,
+        38,
+        49,
+        64,
+        65,
+        66,
+        67,
+        69,
+        71,
+        74,
+        75,
+        76,
+        78,
+        79
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 38,
+      "title": "Fallout 76",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        35,
+        36,
+        69,
+        38,
+        70,
+        9,
+        74,
+        42,
+        49,
+        18,
+        20,
+        22
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 39,
+      "title": "Borderlands 2",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        41,
+        42,
+        43,
+        22,
+        23,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 40,
+      "title": "Risk of Rain 2",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        23,
+        25,
+        28,
+        29,
+        36,
+        38,
+        41,
+        42,
+        43,
+        49,
+        62,
+        64,
+        67,
+        68,
+        69,
+        70,
+        78
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 41,
+      "title": "Gray Zone Warfare",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        66,
+        36,
+        68,
+        38,
+        69,
+        70,
+        9,
+        74,
+        49,
+        20
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 42,
+      "title": "Bloons TD 6",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        38,
+        9,
+        41,
+        42,
+        22,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 44,
+      "title": "Warhammer 40,000: Darktide",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        35,
+        38,
+        9,
+        13,
+        18,
+        22,
+        27,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 46,
+      "title": "Age of Empires IV: Anniversary Edition",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        49,
+        22,
+        27,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 47,
+      "title": "Warhammer 40,000: Space Marine 2",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        22,
+        23,
+        27,
+        28,
+        29,
+        36,
+        38,
+        49,
+        62,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        78
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 50,
+      "title": "Lethal Company",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        68,
+        69,
+        38,
+        9,
+        18,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 52,
+      "title": "Last Epoch",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        64,
+        1,
+        2,
+        35,
+        67,
+        66,
+        38,
+        68,
+        69,
+        9,
+        23,
+        28
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 53,
+      "title": "Conan Exiles",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        42,
+        43,
+        49,
+        22,
+        62,
+        28,
+        29,
+        30
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 54,
+      "title": "New World: Aeternum",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        9,
+        18,
+        20,
+        22,
+        35,
+        36,
+        38,
+        49,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        72,
+        73,
+        74,
+        75,
+        79
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 56,
+      "title": "Sea of Thieves: 2025 Edition",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        35,
+        36,
+        38,
+        9,
+        41,
+        42,
+        49,
+        18,
+        22,
+        27,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 57,
+      "title": "Call of Duty: Black Ops III",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        8,
+        9,
+        41,
+        42,
+        43,
+        44,
+        22,
+        62,
+        24,
+        25,
+        28,
+        29,
+        30
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 58,
+      "title": "Deep Rock Galactic",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        13,
+        22,
+        23,
+        28,
+        29,
+        38,
+        42,
+        43,
+        62,
+        65,
+        66,
+        67,
+        68,
+        69,
+        74,
+        78
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 60,
+      "title": "Dying Light",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        8,
+        9,
+        42,
+        43,
+        49,
+        17,
+        22,
+        23,
+        62,
+        28,
+        29,
+        30
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 68,
+      "title": "Dying Light 2 Stay Human: Reloaded Edition",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        43,
+        22,
+        23,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 71,
+      "title": "The Outlast Trials",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 72,
+      "title": "MONSTER HUNTER RISE",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        61,
+        22,
+        23,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 73,
+      "title": "Warhammer 40,000: Rogue Trader",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        64,
+        1,
+        2,
+        65,
+        68,
+        69,
+        38,
+        70,
+        9,
+        76,
+        79,
+        18,
+        22,
+        23,
+        62,
+        27,
+        29,
+        30
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 74,
+      "title": "Divinity: Original Sin 2 - Definitive Edition",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        13,
+        17,
+        22,
+        23,
+        24,
+        28,
+        29,
+        30,
+        36,
+        37,
+        38,
+        39,
+        42,
+        43,
+        44,
+        49,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 75,
+      "title": "Halo: The Master Chief Collection",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        41,
+        42,
+        43,
+        47,
+        48,
+        49,
+        22,
+        62,
+        27,
+        28,
+        29,
+        30
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 76,
+      "title": "Borderlands 3",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        41,
+        42,
+        43,
+        48,
+        22,
+        23,
+        27,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 82,
+      "title": "Anno 1800",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        13,
+        49,
+        22,
+        29
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 84,
+      "title": "Dinkum",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        23,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 85,
+      "title": "Grounded",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        42,
+        23,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 86,
+      "title": "Grim Dawn",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        42,
+        43,
+        48,
+        22,
+        23,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 89,
+      "title": "Crossout",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        66,
+        35,
+        36,
+        67,
+        38,
+        68,
+        69,
+        9,
+        74,
+        65,
+        42,
+        43,
+        49,
+        20,
+        22,
+        28,
+        29
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 90,
+      "title": "theHunter: Call of the Wild",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        38,
+        9,
+        22,
+        23,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 91,
+      "title": "FOR HONOR",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        36,
+        38,
+        9,
+        49,
+        18,
+        22,
+        29
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 93,
+      "title": "Warhammer: Vermintide 2",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        22,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 95,
+      "title": "Overcooked! 2",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        37,
+        38,
+        39,
+        9,
+        41,
+        42,
+        43,
+        44,
+        49,
+        22,
+        23,
+        24,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 98,
+      "title": "Ghost of Tsushima DIRECTOR'S CUT",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        22,
+        23,
+        28,
+        29,
+        36,
+        38,
+        49,
+        61,
+        62,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        74,
+        78,
+        79
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 99,
+      "title": "Portal 2",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        13,
+        14,
+        15,
+        17,
+        22,
+        23,
+        24,
+        28,
+        29,
+        30,
+        38,
+        39,
+        41,
+        42,
+        43,
+        44,
+        51,
+        62,
+        67,
+        68,
+        69,
+        70,
+        74,
+        79
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 101,
+      "title": "Escape the Backrooms",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        67,
+        68,
+        69,
+        38,
+        9,
+        74,
+        78,
+        18,
+        22,
+        23,
+        61,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 103,
+      "title": "World War Z",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        49,
+        22,
+        23,
+        27,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 104,
+      "title": "Green Hell",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        64,
+        1,
+        2,
+        67,
+        68,
+        69,
+        38,
+        65,
+        9,
+        74,
+        42,
+        78,
+        18,
+        22,
+        23,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 105,
+      "title": "Wartales",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        22,
+        23,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 109,
+      "title": "Tinkerlands",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        18,
+        22,
+        23,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 112,
+      "title": "Tom Clancy's Ghost Recon Wildlands",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        9,
+        18,
+        22,
+        29
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 114,
+      "title": "Tom Clancy's Ghost Recon Breakpoint",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        13,
+        18,
+        22,
+        61
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 115,
+      "title": "Gunfire Reborn",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        41,
+        42,
+        22,
+        23,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 117,
+      "title": "Medieval Dynasty",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        67,
+        68,
+        69,
+        38,
+        70,
+        9,
+        74,
+        78,
+        79,
+        22,
+        23,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 118,
+      "title": "Ultimate Chicken Horse",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        36,
+        37,
+        38,
+        39,
+        9,
+        43,
+        44,
+        49,
+        17,
+        22,
+        23,
+        24,
+        27,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 123,
+      "title": "Streets of Rage 4",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        37,
+        38,
+        39,
+        9,
+        41,
+        42,
+        43,
+        44,
+        49,
+        22,
+        23,
+        24,
+        25,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 125,
+      "title": "Broforce",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        17,
+        22,
+        23,
+        24,
+        28,
+        29,
+        36,
+        37,
+        38,
+        39,
+        41,
+        42,
+        43,
+        44,
+        49,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 130,
+      "title": "Spelunky 2",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        22,
+        23,
+        24,
+        27,
+        28,
+        29,
+        36,
+        37,
+        38,
+        39,
+        41,
+        42,
+        43,
+        44,
+        49,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 131,
+      "title": "Trine 4: The Nightmare Prince",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        2,
+        41,
+        42,
+        43,
+        22,
+        23,
+        28,
+        61,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 135,
+      "title": "Move or Die",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        15,
+        17,
+        22,
+        23,
+        24,
+        28,
+        29,
+        30,
+        36,
+        37,
+        38,
+        39,
+        41,
+        42,
+        43,
+        44,
+        47,
+        48,
+        49,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 137,
+      "title": "PlateUp!",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        39,
+        9,
+        43,
+        44,
+        22,
+        23,
+        24,
+        62,
+        28,
+        30
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 139,
+      "title": "Full Metal Furies",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        2,
+        18,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 143,
+      "title": "Back 4 Blood",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        49,
+        28,
+        61,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 145,
+      "title": "Content Warning",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        38,
+        9,
+        18,
+        23,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 149,
+      "title": "Stardew Valley",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        39,
+        9,
+        41,
+        42,
+        44,
+        48,
+        22,
+        23,
+        24,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 152,
+      "title": "Overcooked! All You Can Eat",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        37,
+        38,
+        39,
+        9,
+        44,
+        49,
+        22,
+        24,
+        27,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 153,
+      "title": "PAYDAY 3",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        67,
+        68,
+        38,
+        69,
+        65,
+        9,
+        70,
+        78,
+        18,
+        22,
+        23,
+        27,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 154,
+      "title": "Magicka 2",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        41,
+        42,
+        43,
+        44,
+        22,
+        24,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 159,
+      "title": "Tiny Tina's Wonderlands",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        48,
+        18,
+        22,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 160,
+      "title": "Sackboy: A Big Adventure",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        22,
+        23,
+        24,
+        28,
+        38,
+        39,
+        62,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        74,
+        75,
+        79
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 163,
+      "title": "Castle Crashers Remastered",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        22,
+        23,
+        24,
+        25,
+        28,
+        29,
+        30,
+        36,
+        37,
+        38,
+        39,
+        41,
+        42,
+        43,
+        44,
+        49,
+        62,
+        68,
+        69
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 164,
+      "title": "Astroneer",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        42,
+        43,
+        22,
+        23,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 166,
+      "title": "Moving Out 2",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        64,
+        1,
+        2,
+        67,
+        68,
+        65,
+        38,
+        39,
+        9,
+        74,
+        44,
+        78,
+        22,
+        23,
+        24,
+        27,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 169,
+      "title": "Warhammer: End Times - Vermintide",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        13,
+        18,
+        22,
+        23,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 170,
+      "title": "Devour",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        52,
+        53,
+        22,
+        23,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 173,
+      "title": "Baldur's Gate 3",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        22,
+        23,
+        27,
+        28,
+        29,
+        38,
+        43,
+        44,
+        48,
+        62,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        74,
+        78,
+        79
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 174,
+      "title": "War Thunder",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        20,
+        22,
+        27,
+        28,
+        29,
+        35,
+        36,
+        38,
+        41,
+        42,
+        49,
+        53,
+        64,
+        66,
+        67,
+        68,
+        69,
+        70,
+        74
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 175,
+      "title": "EA SPORTS FC 25",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        36,
+        37,
+        38,
+        39,
+        69,
+        9,
+        75,
+        44,
+        78,
+        49,
+        22,
+        24,
+        27,
+        28,
+        61
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 176,
+      "title": "Hearts of Iron IV",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        42,
+        22,
+        23,
+        62,
+        27,
+        29,
+        30
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 177,
+      "title": "NBA 2K25",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        36,
+        37,
+        38,
+        39,
+        9,
+        44,
+        49,
+        18,
+        22,
+        23,
+        24,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 178,
+      "title": "Schedule I",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        64,
+        1,
+        2,
+        67,
+        68,
+        69,
+        38,
+        9,
+        74,
+        79,
+        22,
+        23,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 179,
+      "title": "FINAL FANTASY XIV Online",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        64,
+        1,
+        2,
+        36,
+        68,
+        38,
+        69,
+        70,
+        9,
+        42,
+        75,
+        79,
+        49,
+        18,
+        20,
+        27,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 180,
+      "title": "FANTASY LIFE i: The Girl Who Steals Time",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        22,
+        23,
+        27,
+        28,
+        61,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 181,
+      "title": "Lost Ark",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        64,
+        1,
+        2,
+        35,
+        36,
+        67,
+        38,
+        66,
+        68,
+        9,
+        74,
+        75,
+        79,
+        49,
+        18,
+        20,
+        22
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 183,
+      "title": "The Elder Scrolls Online",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        35,
+        36,
+        67,
+        38,
+        68,
+        69,
+        9,
+        74,
+        70,
+        13,
+        49,
+        18,
+        61,
+        20,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 184,
+      "title": "Farming Simulator 25",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        22,
+        23,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 186,
+      "title": "Europa Universalis IV",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        49,
+        22,
+        23,
+        62,
+        27,
+        29,
+        30
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 189,
+      "title": "Forza Horizon 5",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        49,
+        61,
+        22,
+        23,
+        27,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 192,
+      "title": "RoadCraft",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        67,
+        68,
+        69,
+        38,
+        70,
+        9,
+        74,
+        79,
+        22,
+        23,
+        27,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 193,
+      "title": "MapleStory",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        20,
+        29
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 194,
+      "title": "World of Tanks Blitz",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        66,
+        35,
+        36,
+        67,
+        38,
+        68,
+        69,
+        9,
+        77,
+        79,
+        49,
+        20,
+        27,
+        29
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 196,
+      "title": "F1 25",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        22,
+        23,
+        24,
+        27,
+        28,
+        30,
+        35,
+        36,
+        37,
+        38,
+        47,
+        48,
+        49,
+        53,
+        61,
+        62,
+        69,
+        70,
+        74,
+        75,
+        78
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 199,
+      "title": "SMITE 2",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        35,
+        36,
+        38,
+        9,
+        49,
+        22,
+        27,
+        28
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 204,
+      "title": "DARK SOULS III",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        67,
+        68,
+        69,
+        70,
+        9,
+        74,
+        41,
+        42,
+        43,
+        79,
+        22,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 205,
+      "title": "POPUCOM",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        66,
+        68,
+        38,
+        39,
+        70,
+        9,
+        44,
+        18,
+        22,
+        23,
+        24,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 207,
+      "title": "The Spell Brigade",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        67,
+        68,
+        69,
+        38,
+        70,
+        9,
+        76,
+        18,
+        22,
+        23,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 208,
+      "title": "Drive Beyond Horizons",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        22,
+        23,
+        25,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 209,
+      "title": "Shop Titans",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        38,
+        9,
+        20,
+        22,
+        27,
+        29
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 210,
+      "title": "Guild Wars 2",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        35,
+        36,
+        38,
+        9,
+        49,
+        20
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 212,
+      "title": "Fishing Planet",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        36,
+        38,
+        9,
+        43,
+        49,
+        20,
+        22,
+        28,
+        29
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 214,
+      "title": "Game of Thrones: Kingsroad",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        38,
+        9,
+        18
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 215,
+      "title": "Ravenswatch",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        23,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 216,
+      "title": "Enlisted: Reinforced",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        64,
+        1,
+        35,
+        36,
+        67,
+        38,
+        68,
+        9,
+        74,
+        49,
+        20,
+        22,
+        27,
+        28
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 219,
+      "title": "Supermarket Simulator",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        22,
+        23,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 222,
+      "title": "Call to Arms - Gates of Hell: Ostfront",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        15,
+        17,
+        18,
+        22,
+        23,
+        25,
+        29,
+        30,
+        36,
+        38,
+        49,
+        62,
+        67,
+        68,
+        69,
+        70,
+        74,
+        78
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 223,
+      "title": "Red Dead Online",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        35,
+        36,
+        38,
+        9,
+        41,
+        42,
+        49,
+        18,
+        22
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 224,
+      "title": "Company of Heroes 3",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        15,
+        49,
+        22,
+        62,
+        29,
+        30
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 226,
+      "title": "Realm of the Mad God Exalt",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        35,
+        38,
+        9,
+        15,
+        20
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 227,
+      "title": "Predecessor",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        36,
+        38,
+        9,
+        49,
+        27,
+        28
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 229,
+      "title": "PGA TOUR 2K25",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        36,
+        37,
+        38,
+        9,
+        49,
+        22,
+        24,
+        28,
+        61,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 231,
+      "title": "Age of Wonders 4",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        18,
+        22,
+        23,
+        27,
+        30,
+        36,
+        38,
+        44,
+        49,
+        62,
+        67,
+        68,
+        69,
+        70,
+        72,
+        73,
+        74,
+        78,
+        79
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 234,
+      "title": "GTFO",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        38,
+        9,
+        18,
+        22,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 235,
+      "title": "We Need To Go Deeper",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        49,
+        18,
+        22,
+        23,
+        25,
+        27,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 236,
+      "title": "Dungeon of the ENDLESS™",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        18,
+        22,
+        23,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 239,
+      "title": "Ghost Watchers",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        22,
+        23,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 240,
+      "title": "Chained Together",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        39,
+        9,
+        44,
+        18,
+        24,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 243,
+      "title": "Backrooms: Escape Together",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        67,
+        66,
+        68,
+        38,
+        69,
+        70,
+        9,
+        74,
+        22,
+        23,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 244,
+      "title": "Volcanoids",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        22,
+        23,
+        62,
+        28,
+        30
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 246,
+      "title": "Totally Reliable Delivery Service",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        39,
+        9,
+        44,
+        22,
+        24,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 248,
+      "title": "For The King II",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        22,
+        23,
+        24,
+        27,
+        28,
+        29,
+        38,
+        39,
+        44,
+        62,
+        64,
+        67,
+        68,
+        75,
+        76,
+        78,
+        79
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 253,
+      "title": "Prodeus",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        49,
+        17,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 254,
+      "title": "Towerborne",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        15,
+        22,
+        23,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 258,
+      "title": "THE FINALS",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        35,
+        36,
+        38,
+        9,
+        49,
+        22,
+        27,
+        28
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 264,
+      "title": "PEAK",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        22,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 266,
+      "title": "RV There Yet?",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        23,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 267,
+      "title": "Borderlands 4",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        64,
+        1,
+        2,
+        67,
+        66,
+        68,
+        38,
+        69,
+        65,
+        9,
+        70,
+        78,
+        79,
+        18,
+        22,
+        27,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 268,
+      "title": "Coral Island",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        22,
+        23,
+        27,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 272,
+      "title": "Minecraft Dungeons",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        39,
+        9,
+        22,
+        24,
+        27,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 276,
+      "title": "Abyssus",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        68,
+        38,
+        9,
+        22,
+        23,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 277,
+      "title": "Dying Light: The Beast",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        43,
+        22,
+        23,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 278,
+      "title": "Monaco: What's Yours Is Mine",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        17,
+        22,
+        23,
+        24,
+        25,
+        27,
+        28,
+        29,
+        30,
+        36,
+        37,
+        38,
+        39,
+        44,
+        49,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 282,
+      "title": "Unrailed 2: Back on Track",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        37,
+        38,
+        39,
+        9,
+        44,
+        49,
+        22,
+        23,
+        24,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 288,
+      "title": "Trine 5: A Clockwork Conspiracy",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        39,
+        9,
+        44,
+        48,
+        22,
+        23,
+        24,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 289,
+      "title": "Ember Knights",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        39,
+        9,
+        44,
+        22,
+        23,
+        24,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 290,
+      "title": "CarX Drift Racing Online",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        17,
+        18,
+        22,
+        23,
+        27,
+        29,
+        30,
+        36,
+        38,
+        41,
+        42,
+        49,
+        53,
+        62,
+        67,
+        68,
+        69,
+        74,
+        75,
+        76,
+        78
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 292,
+      "title": "DOOM",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        66,
+        69,
+        70,
+        9,
+        41,
+        42,
+        18,
+        22,
+        23,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 293,
+      "title": "Sniper Elite 5",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        18,
+        22,
+        23,
+        27,
+        29,
+        35,
+        36,
+        38,
+        49,
+        62,
+        64,
+        65,
+        66,
+        67,
+        74,
+        75,
+        78,
+        79
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 294,
+      "title": "Rec Room",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        35,
+        36,
+        38,
+        40,
+        9,
+        49,
+        17,
+        20,
+        52,
+        53,
+        27,
+        28
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 295,
+      "title": "Plague Inc: Evolved",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        15,
+        17,
+        18,
+        22,
+        23,
+        25,
+        29,
+        30,
+        36,
+        38,
+        42,
+        49,
+        62,
+        67,
+        68,
+        69,
+        74,
+        76,
+        78,
+        79
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 296,
+      "title": "Ranch Simulator: Build, Hunt, Farm",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        49,
+        23,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 297,
+      "title": "ONE PIECE Bounty Rush",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        36,
+        38,
+        9,
+        49,
+        22,
+        28
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 301,
+      "title": "Need for Speed Heat",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        42,
+        49,
+        18,
+        61,
+        22,
+        27,
+        29
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 302,
+      "title": "BLEACH Brave Souls",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        38,
+        9,
+        18,
+        27
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 303,
+      "title": "Warhammer 40,000: Gladius - Relics of War",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        18,
+        22,
+        23,
+        24,
+        27,
+        29,
+        30,
+        36,
+        37,
+        38,
+        39,
+        44,
+        47,
+        48,
+        49,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 304,
+      "title": "FIFA 22",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        36,
+        37,
+        38,
+        39,
+        9,
+        49,
+        18,
+        20,
+        22,
+        24
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 307,
+      "title": "State of Decay 2: Juggernaut Edition",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        13,
+        22,
+        23,
+        27,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 309,
+      "title": "Northgard: Definitive Edition",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        49,
+        17,
+        51,
+        22,
+        23,
+        62,
+        29,
+        30
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 310,
+      "title": "Lost Castle 2",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        39,
+        9,
+        44,
+        15,
+        18,
+        22,
+        23,
+        24,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 311,
+      "title": "Farm Together 2",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        22,
+        23,
+        24,
+        27,
+        28,
+        29,
+        38,
+        39,
+        43,
+        44,
+        62,
+        64,
+        66,
+        67,
+        68,
+        69,
+        70,
+        74,
+        79
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 314,
+      "title": "Granblue Fantasy: Relink",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        18,
+        22,
+        23,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 316,
+      "title": "eFootball PES 2021 SEASON UPDATE",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        36,
+        37,
+        38,
+        39,
+        9,
+        42,
+        49,
+        18,
+        24,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 318,
+      "title": "WWE 2K25",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        36,
+        37,
+        38,
+        39,
+        9,
+        44,
+        49,
+        18,
+        22,
+        23,
+        24
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 319,
+      "title": "Sniper Elite: Resistance",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        18,
+        22,
+        23,
+        27,
+        29,
+        36,
+        38,
+        49,
+        61,
+        62,
+        64,
+        65,
+        66,
+        67,
+        70,
+        74,
+        75,
+        78,
+        79
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 320,
+      "title": "FOUNDRY",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        48,
+        18,
+        23,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 321,
+      "title": "Eldegarde",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        36,
+        38,
+        9,
+        49
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 322,
+      "title": "Scrap Mechanic",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        17,
+        23,
+        62,
+        30
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 325,
+      "title": "Pantheon: Rise of the Fallen",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        36,
+        38,
+        9,
+        49,
+        20,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 326,
+      "title": "The Crew 2",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        36,
+        38,
+        9,
+        41,
+        42,
+        13,
+        49,
+        18,
+        20,
+        22
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 327,
+      "title": "WARNO",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        49,
+        22,
+        23,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 328,
+      "title": "WolfQuest: Anniversary Edition",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        22,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 329,
+      "title": "Watch_Dogs 2",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        9,
+        18,
+        22
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 330,
+      "title": "Plants vs. Zombies Garden Warfare 2: Deluxe Edition",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        36,
+        38,
+        9,
+        49,
+        22
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 331,
+      "title": "RuneScape: Dragonwilds",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        64,
+        1,
+        2,
+        68,
+        69,
+        38,
+        9,
+        79,
+        18,
+        23,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 334,
+      "title": "Oddsparks: An Automation Adventure",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        64,
+        1,
+        2,
+        67,
+        66,
+        68,
+        38,
+        69,
+        9,
+        74,
+        78,
+        79,
+        22,
+        23,
+        62,
+        28,
+        29,
+        30
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 335,
+      "title": "Age of Mythology: Extended Edition",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        15,
+        17,
+        22,
+        23,
+        62,
+        25,
+        29,
+        30
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 336,
+      "title": "Crab Champions",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        18,
+        22,
+        23,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 337,
+      "title": "The Lord of the Rings Online",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        35,
+        9,
+        49,
+        18,
+        20
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 338,
+      "title": "One-armed robber",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        38,
+        9,
+        15,
+        22,
+        23
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 339,
+      "title": "Left 4 Dead",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        8,
+        9,
+        13,
+        14,
+        15,
+        16,
+        22,
+        23,
+        25,
+        28,
+        43,
+        62,
+        66,
+        67,
+        68,
+        69,
+        70,
+        78
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 340,
+      "title": "Tom Clancy’s The Division",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        36,
+        38,
+        9,
+        13,
+        49,
+        22,
+        28,
+        29
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 341,
+      "title": "MORDHAU",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        36,
+        38,
+        8,
+        9,
+        41,
+        42,
+        15,
+        49,
+        18,
+        22,
+        23,
+        27,
+        29
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 342,
+      "title": "Trove",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        64,
+        1,
+        35,
+        36,
+        68,
+        38,
+        9,
+        74,
+        79,
+        49,
+        18,
+        20,
+        22,
+        29,
+        30
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 344,
+      "title": "HumanitZ",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        49,
+        18,
+        22,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 345,
+      "title": "Lightyear Frontier",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        64,
+        1,
+        2,
+        67,
+        68,
+        69,
+        38,
+        70,
+        9,
+        74,
+        78,
+        79,
+        18,
+        22,
+        23,
+        27,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 346,
+      "title": "Wizard101",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        35,
+        36,
+        38,
+        9,
+        49,
+        18,
+        20
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 348,
+      "title": "ASKA",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        23,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 349,
+      "title": "Deadside",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        36,
+        38,
+        9,
+        49,
+        20,
+        22,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 350,
+      "title": "Eco",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        38,
+        9,
+        48,
+        22
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 351,
+      "title": "Legion TD 2 - Multiplayer Tower Defense",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        15,
+        49,
+        22,
+        29
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 352,
+      "title": "WEBFISHING",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 354,
+      "title": "Fall Guys: Ultimate Knockout",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        35,
+        36,
+        38,
+        9,
+        41,
+        42,
+        49,
+        18,
+        20,
+        22
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 355,
+      "title": "Mindustry",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        15,
+        49,
+        17,
+        22,
+        23,
+        62,
+        27,
+        30
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 356,
+      "title": "封灵档案",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        36,
+        38,
+        9,
+        49
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 358,
+      "title": "Dead Frontier 2",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        36,
+        38,
+        9,
+        42,
+        49,
+        20,
+        29
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 361,
+      "title": "MechWarrior 5: Mercenaries",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        18,
+        22,
+        62,
+        30
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 362,
+      "title": "Far Cry 6",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        38,
+        9,
+        13,
+        18,
+        22,
+        61
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 363,
+      "title": "Wobbly Life",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        39,
+        9,
+        43,
+        22,
+        23,
+        24,
+        62,
+        28,
+        29,
+        30
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 364,
+      "title": "Borderlands Game of the Year Enhanced",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        18,
+        22,
+        23,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 367,
+      "title": "Liar's Bar",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        36,
+        38,
+        9,
+        49,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 369,
+      "title": "Axis & Allies 1942 Online",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        37,
+        38,
+        39,
+        9,
+        49,
+        18,
+        24,
+        27,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 371,
+      "title": "Wingspan",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        32,
+        1,
+        2,
+        36,
+        37,
+        38,
+        39,
+        9,
+        44,
+        49,
+        18,
+        22,
+        23,
+        25,
+        27,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 378,
+      "title": "Sniper Elite 4",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        43,
+        22,
+        23,
+        25,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 379,
+      "title": "Across the Obelisk",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        22,
+        23,
+        25,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 400,
+      "title": "Call of Duty: Black Ops",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        8,
+        9,
+        18,
+        22,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 401,
+      "title": "Rise of Nations: Extended Edition",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        15,
+        22,
+        23,
+        25,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 403,
+      "title": "Void Crew",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        64,
+        1,
+        2,
+        67,
+        68,
+        69,
+        38,
+        9,
+        79,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 405,
+      "title": "Door Kickers 2: Task Force North",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        44,
+        15,
+        17,
+        22,
+        23,
+        62,
+        30
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 518,
+      "title": "Everwind",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        68,
+        38,
+        9,
+        74,
+        22,
+        23,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 519,
+      "title": "Project Castaway",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        22,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 521,
+      "title": "Tower Tag",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        15,
+        49,
+        52,
+        22,
+        54,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 522,
+      "title": "Pizza Slice",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        49,
+        22,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 523,
+      "title": "WWE 2K26",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        18,
+        22,
+        23,
+        24,
+        35,
+        36,
+        37,
+        38,
+        39,
+        44,
+        49,
+        67,
+        68,
+        69,
+        70,
+        75,
+        78
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 524,
+      "title": "John Carpenter's Toxic Commando",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        64,
+        1,
+        2,
+        67,
+        68,
+        69,
+        38,
+        65,
+        70,
+        9,
+        78,
+        22,
+        27,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 525,
+      "title": "Mama's Sleeping Angels",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        68,
+        69,
+        38,
+        70,
+        9,
+        74,
+        78,
+        22,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 526,
+      "title": "Rewind 99",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        22,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 528,
+      "title": "HexBreaker Ⅱ",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        22,
+        23,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 529,
+      "title": "Slay the Spire 2",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        68,
+        38,
+        9,
+        74,
+        76,
+        79,
+        15,
+        23,
+        25,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 531,
+      "title": "DYSPLACED",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        43,
+        22,
+        23,
+        28,
+        61,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 532,
+      "title": "Never Grave: The Witch and The Curse",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        22,
+        23,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 533,
+      "title": "Rotwood",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        39,
+        9,
+        44,
+        23,
+        24,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 534,
+      "title": "Scott Pilgrim EX",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        68,
+        69,
+        38,
+        39,
+        9,
+        75,
+        43,
+        44,
+        78,
+        22,
+        23,
+        24,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 556,
+      "title": "Overthrown",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        22,
+        23,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 557,
+      "title": "F1 24",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        22,
+        23,
+        24,
+        28,
+        30,
+        35,
+        36,
+        37,
+        38,
+        47,
+        48,
+        49,
+        53,
+        61,
+        62,
+        69,
+        70,
+        74,
+        75,
+        78
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 581,
+      "title": "Darkwater",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        22,
+        23,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 582,
+      "title": "The Bus",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        17,
+        23,
+        28,
+        30,
+        38,
+        62,
+        65,
+        66,
+        67,
+        68,
+        70,
+        74,
+        75,
+        76,
+        78,
+        79
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 586,
+      "title": "Goat Simulator 3",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        67,
+        68,
+        69,
+        38,
+        39,
+        65,
+        9,
+        70,
+        13,
+        22,
+        23,
+        24,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 587,
+      "title": "Cosmoteer: Starship Architect & Commander",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        67,
+        36,
+        66,
+        38,
+        68,
+        9,
+        74,
+        78,
+        47,
+        48,
+        49,
+        79,
+        23,
+        62,
+        30
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 588,
+      "title": "Risk of Rain Returns",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        22,
+        23,
+        24,
+        28,
+        29,
+        38,
+        39,
+        44,
+        62,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        74,
+        75,
+        78
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 589,
+      "title": "Clone Drone in the Danger Zone",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        36,
+        38,
+        9,
+        13,
+        49,
+        17,
+        22,
+        23,
+        62,
+        27,
+        28,
+        30
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 591,
+      "title": "Solasta: Crown of the Magister",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        17,
+        22,
+        23,
+        27,
+        28,
+        30,
+        38,
+        62,
+        65,
+        68,
+        69,
+        70,
+        74,
+        76,
+        78,
+        79
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 593,
+      "title": "Rabbit and Steel",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        39,
+        9,
+        44,
+        22,
+        23,
+        24,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 598,
+      "title": "Luma Island",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        68,
+        69,
+        38,
+        70,
+        9,
+        74,
+        78,
+        79,
+        15,
+        22,
+        23,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 599,
+      "title": "Tetris® Effect: Connected",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        37,
+        38,
+        39,
+        9,
+        44,
+        49,
+        52,
+        53,
+        22,
+        23,
+        24,
+        25,
+        27,
+        28,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 600,
+      "title": "Roots of Pacha",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        18,
+        22,
+        23,
+        27,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 601,
+      "title": "Echo Point Nova",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        17,
+        22,
+        23,
+        62,
+        28,
+        30
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 609,
+      "title": "EverSiege: Untold Ages",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        22,
+        23,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 611,
+      "title": "Chained Wheels",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        38,
+        1,
+        9,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    },
+    {
+      "game_id": 615,
+      "title": "Virtual Cottage 2",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        68,
+        38,
+        9,
+        74,
+        79,
+        22,
+        23,
+        62
+      ],
+      "igdb_modes": null,
+      "reason": "maxPlayers or coopMode missing/default"
+    }
+  ],
+  "suspect_coop": [
+    {
+      "game_id": 35,
+      "title": "STAR WARS Battlefront II",
+      "current_coopMode": [
+        "local"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        49,
+        22,
+        29
+      ],
+      "igdb_modes": null,
+      "reason": "Has PvP categories but no co-op categories"
+    },
+    {
+      "game_id": 51,
+      "title": "The Isle",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        36,
+        8,
+        49,
+        18,
+        20
+      ],
+      "igdb_modes": null,
+      "reason": "Has PvP categories but no co-op categories"
+    },
+    {
+      "game_id": 63,
+      "title": "SCP: Secret Laboratory",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        36,
+        8,
+        49,
+        22,
+        23
+      ],
+      "igdb_modes": null,
+      "reason": "Has PvP categories but no co-op categories"
+    },
+    {
+      "game_id": 79,
+      "title": "Age of Empires III: Definitive Edition",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 8,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        47,
+        49,
+        22,
+        23,
+        27,
+        29
+      ],
+      "igdb_modes": null,
+      "reason": "Has PvP categories but no co-op categories"
+    },
+    {
+      "game_id": 80,
+      "title": "Foxhole",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 4,
+      "steam_categories": [
+        1,
+        36,
+        8,
+        49,
+        20
+      ],
+      "igdb_modes": null,
+      "reason": "Has PvP categories but no co-op categories"
+    },
+    {
+      "game_id": 88,
+      "title": "Halo Infinite",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 12,
+      "steam_categories": [
+        1,
+        35,
+        36,
+        43,
+        47,
+        49,
+        17,
+        22,
+        23,
+        27,
+        28
+      ],
+      "igdb_modes": null,
+      "reason": "Has PvP categories but no co-op categories"
+    }
+  ],
+  "manual_review_only": [
+    {
+      "game_id": 380,
+      "title": "My Rusty Submarine",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 381,
+      "title": "Rhythm Doctor",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 382,
+      "title": "Unheard Scream",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 383,
+      "title": "DYO",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 384,
+      "title": "Nuclear Throne Mobile",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 385,
+      "title": "Froggin' Around Demo",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 386,
+      "title": "Hamsteria! - Demo",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 387,
+      "title": "SPECIMEN",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 388,
+      "title": "Fear Channel",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 389,
+      "title": "Hub OS",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 390,
+      "title": "Joggernauts",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 391,
+      "title": "East of Eden: Right of Conquest",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 392,
+      "title": "Micro Mages (NES / PC)",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 393,
+      "title": "God Save The Queen",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 394,
+      "title": "Shagster Online 2",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 395,
+      "title": "Ducklings",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 396,
+      "title": "CHERNOZEM (PROTOTYPE)",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 397,
+      "title": "Police Stories",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 398,
+      "title": "TowerFall Dark World Expansion",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 399,
+      "title": "Widelands",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 406,
+      "title": "Imposter 3D: online horror",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 407,
+      "title": "Sneaky Stealy",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 408,
+      "title": "Totemori",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 409,
+      "title": "Snap the Sentinel - Episode 1",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 410,
+      "title": "Fury Unleashed: Prologue",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 411,
+      "title": "Sep's Diner (Oculus Quest)",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 412,
+      "title": "Wild Woods",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 413,
+      "title": "Streets of Rogue",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 414,
+      "title": "Ancient Swarm",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 415,
+      "title": "The Choicer Voicer",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 416,
+      "title": "Pikwip",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 417,
+      "title": "Gladihoppers",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 418,
+      "title": "Among Us Arena Ultimate",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 419,
+      "title": "Bubble Bobble C64 Remastered",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 420,
+      "title": "TowerFall 8-Player",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 421,
+      "title": "Sticky Cats",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 422,
+      "title": "0 A.D: Empires Ascendant",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 423,
+      "title": "EGGNOGG+",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 424,
+      "title": "M.U.L.E. Online",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 425,
+      "title": "Touhou Fumo Racing",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 435,
+      "title": "The DUNGENERATOR: DIE in a Dungeon",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 436,
+      "title": "Tanks of Freedom",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 437,
+      "title": "Cro-Mag Rally",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 438,
+      "title": "The King of Fighters: Final attack",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 439,
+      "title": "Tiger Claw",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 440,
+      "title": "Chair Up!",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 441,
+      "title": "Generic Fighter Maybe",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 442,
+      "title": "Fallacy Quiz",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 443,
+      "title": "Hyper Gunsport",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 444,
+      "title": "Hit-X",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 445,
+      "title": "Punch Pong",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 446,
+      "title": "Aichi Emperors Zero",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 447,
+      "title": "NARCISSUS",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 448,
+      "title": "StarCrossed",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 449,
+      "title": "Caveman Warriors",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 450,
+      "title": "Rakete",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 451,
+      "title": "FiZZ (VIC-20)",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 452,
+      "title": "Marco Polo",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 453,
+      "title": "Scarecrow COOP",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 454,
+      "title": "FiZZ (Commodore 64, C64)",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 463,
+      "title": "Chut!",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 464,
+      "title": "Isolated Intelligence",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 465,
+      "title": "Bar Keep",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 466,
+      "title": "Shroom Bois",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 467,
+      "title": "Malisse",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 468,
+      "title": "Octopounce",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 469,
+      "title": "Ducktonic Adventures",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 470,
+      "title": "Hakros DRUGOD TV The Survival Games (Map for Doom 2)",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 471,
+      "title": "Yakuzakura",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 472,
+      "title": "Panique à Temple A-Steak",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 473,
+      "title": "Project Socket",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 474,
+      "title": "Tower of Freedom",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 475,
+      "title": "Community Egg",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 476,
+      "title": "Safe Space",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 477,
+      "title": "Pangman DEMO for Quest",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 478,
+      "title": "A.L.F.I.E's GAME",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 479,
+      "title": "Shackle",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 480,
+      "title": "Easy Delivery Co. Demo",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 481,
+      "title": "Ragdoll Runners",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 482,
+      "title": "TORB",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 485,
+      "title": "EpicShop",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 486,
+      "title": "BADBLOOD",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 487,
+      "title": "Lurking Danger",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 488,
+      "title": "LegacyClonk",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 489,
+      "title": "Stick Veterans",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 490,
+      "title": "Quest Of Graal DX",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 491,
+      "title": "Garrison: Archangel (DEMO)",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 492,
+      "title": "Chambara",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 493,
+      "title": "Obnubilia",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 494,
+      "title": "beaterCore",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 495,
+      "title": "Escape From Castle Matsumoto",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 496,
+      "title": "Super Pilot",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 497,
+      "title": "Wacky Wheels HD",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 498,
+      "title": "Classic TAGAP",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 499,
+      "title": "Flotilla",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 500,
+      "title": "Tomb of Rooms",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 501,
+      "title": "Damaged Territory",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 502,
+      "title": "Pretend Cars Racing",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 503,
+      "title": "TopplePOP Demo",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 504,
+      "title": "Felony Felines!",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 505,
+      "title": "Black Ice (Early Access)",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 506,
+      "title": "Super Crate Box Together",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 507,
+      "title": "Nick Tower",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 508,
+      "title": "Tvö",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 509,
+      "title": "Partners In Uncertainty",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 510,
+      "title": "Never BreakUp",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 511,
+      "title": "Galoria Sandbox: Online",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 512,
+      "title": "Crisis At R.W.P. Inc.",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 513,
+      "title": "Wilds of the Realmwalker - Public Playtest",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 514,
+      "title": "Keep Painting",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 515,
+      "title": "Thing & Fist",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 516,
+      "title": "I'm Lag",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 517,
+      "title": "Speedy Golf",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 535,
+      "title": "Sundered: Eldritch Edition",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 536,
+      "title": "GuessMe!",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 537,
+      "title": "Dead Pixels II: Straight To Video",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 538,
+      "title": "CROSSNIQ+",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 539,
+      "title": "PAPER TANKS (indie game, ink, doodle, unity, 2d, action, paper, tank, retro, ink, split sreen, beta, demo, dev)",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 540,
+      "title": "MONUMENTAL FAILURE",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 544,
+      "title": "Beer & Plunder",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 545,
+      "title": "ZeroRanger (Demo)",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 546,
+      "title": "Don't Bite Me Bro!",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 547,
+      "title": "Moon Hunters",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 548,
+      "title": "Pyre",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 549,
+      "title": "★FROG SMASHERS★",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 550,
+      "title": "Joint Drops",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 551,
+      "title": "PING-POMPA",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 552,
+      "title": "Dee | S",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 553,
+      "title": "Snowdown",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 554,
+      "title": "Control Shift",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 555,
+      "title": "Corpse Box Racers",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 559,
+      "title": "Boss Bashing Button Brawlers",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 560,
+      "title": "Taming.io",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 561,
+      "title": "The Cowlitz Gamers' 2nd Adventure",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 562,
+      "title": "Jojo's Bizzare Adventure: Last Stand",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 563,
+      "title": "Space (PC)",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 564,
+      "title": "DUCK DUCK ROCKET",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 565,
+      "title": "Cyber Cycle",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 566,
+      "title": "Two Interviewees",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 568,
+      "title": "Platform Anomaly (co-op)",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 569,
+      "title": "Paddle Force",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 570,
+      "title": "Duels of Fortune",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 571,
+      "title": "Bomberland",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 572,
+      "title": "Toe II Toe",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 573,
+      "title": "Firefighting Space Monkes",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 574,
+      "title": "10 Rounds",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 575,
+      "title": "Serious Sam Evolution",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 577,
+      "title": "Ruins Of Mitriom",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 578,
+      "title": "FroggieChat",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 579,
+      "title": "Toasterball (Prototype)",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 580,
+      "title": "The Colosseum Challenge",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 603,
+      "title": "Crow's Nest",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 604,
+      "title": "Chicken Joust",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 605,
+      "title": "Telemochi",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 606,
+      "title": "FNAF Online Multiplayer",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 607,
+      "title": "ORBSORT",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 608,
+      "title": "Scatteria",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 610,
+      "title": "Labyrinth",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 612,
+      "title": "Data Man (NES)",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 613,
+      "title": "Beatdown Dungeon: Demon Day - Demo v1.9",
+      "reason": "no steamUrl, no igdbId"
+    },
+    {
+      "game_id": 614,
+      "title": "Windward Rush (alpha)",
+      "reason": "no steamUrl, no igdbId"
+    }
+  ],
+  "passed": [
+    {
+      "game_id": 1,
+      "title": "ELDEN RING NIGHTREIGN",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 3,
+      "steam_categories": [
+        1,
+        2,
+        67,
+        68,
+        69,
+        38,
+        70,
+        9,
+        74,
+        22,
+        23,
+        28,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 7,
+      "title": "Team Fortress 2",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        8,
+        13,
+        14,
+        15,
+        17,
+        18,
+        22,
+        27,
+        29,
+        30,
+        35,
+        41,
+        42,
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 11,
+      "title": "R.E.P.O.",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 6,
+      "steam_categories": [
+        1,
+        2,
+        67,
+        68,
+        69,
+        38,
+        9,
+        74,
+        23,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 15,
+      "title": "Destiny 2",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 3,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        36,
+        66,
+        38,
+        68,
+        65,
+        9,
+        49,
+        18,
+        22
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 16,
+      "title": "Terraria",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 255,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        41,
+        42,
+        43,
+        49,
+        22,
+        23,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 17,
+      "title": "Project Zomboid",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 32,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        39,
+        9,
+        44,
+        49,
+        18,
+        24,
+        62,
+        27,
+        29,
+        30
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 22,
+      "title": "7 Days to Die",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 100,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        42,
+        43,
+        47,
+        48,
+        49,
+        17,
+        22,
+        27,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 24,
+      "title": "Factorio",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 65535,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        17,
+        18,
+        22,
+        23,
+        27,
+        38,
+        42,
+        48,
+        62,
+        64,
+        65,
+        67,
+        68,
+        74,
+        78,
+        79
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 26,
+      "title": "Valheim",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 10,
+      "steam_categories": [
+        1,
+        2,
+        67,
+        68,
+        69,
+        38,
+        9,
+        42,
+        78,
+        79,
+        23,
+        28,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 28,
+      "title": "Brawlhalla",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 7,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        37,
+        38,
+        39,
+        9,
+        41,
+        42,
+        43,
+        44,
+        49,
+        18,
+        22,
+        24,
+        27,
+        29
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 29,
+      "title": "Age of Empires II: Definitive Edition",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 8,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        47,
+        48,
+        49,
+        17,
+        22,
+        23,
+        27,
+        29,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 43,
+      "title": "The Planet Crafter",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 10,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        22,
+        28,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 45,
+      "title": "Arma 3",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 12,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        13,
+        47,
+        48,
+        49,
+        15,
+        17,
+        22,
+        25,
+        29,
+        30,
+        63
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 49,
+      "title": "Hunt: Showdown 1896",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 3,
+      "steam_categories": [
+        1,
+        35,
+        36,
+        38,
+        9,
+        42,
+        43,
+        49,
+        22,
+        25,
+        28,
+        29
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 55,
+      "title": "Split Fiction",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        66,
+        67,
+        69,
+        38,
+        39,
+        70,
+        9,
+        44,
+        13,
+        61,
+        22,
+        23,
+        24,
+        27,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 59,
+      "title": "It Takes Two",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        69,
+        38,
+        39,
+        70,
+        9,
+        44,
+        22,
+        23,
+        24,
+        28,
+        29
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 62,
+      "title": "Raft",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 8,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        22,
+        23,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 64,
+      "title": "Path of Exile",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 6,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        36,
+        38,
+        9,
+        42,
+        49,
+        20,
+        22,
+        28,
+        29
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 65,
+      "title": "Killing Floor 2",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 6,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        36,
+        38,
+        8,
+        9,
+        42,
+        43,
+        49,
+        17,
+        22,
+        62,
+        28,
+        29,
+        30
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 66,
+      "title": "Sons Of The Forest",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 8,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        22,
+        23,
+        28,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 67,
+      "title": "Ready or Not",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 8,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        22,
+        23,
+        28
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 69,
+      "title": "Space Engineers",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 16,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        9,
+        49,
+        18,
+        17,
+        22,
+        23,
+        62,
+        27,
+        30
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 70,
+      "title": "Among Us",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 15,
+      "steam_categories": [
+        1,
+        35,
+        36,
+        38,
+        9,
+        41,
+        42,
+        47,
+        48,
+        49,
+        22,
+        27,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 78,
+      "title": "Party Animals",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 8,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        36,
+        37,
+        38,
+        39,
+        9,
+        44,
+        49,
+        22,
+        24,
+        27,
+        28,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 87,
+      "title": "Barotrauma",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 16,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        49,
+        17,
+        22,
+        23,
+        62,
+        29,
+        30,
+        63
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 100,
+      "title": "Insurgency: Sandstorm",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 8,
+      "steam_categories": [
+        1,
+        36,
+        38,
+        9,
+        15,
+        49,
+        22,
+        23,
+        27,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 107,
+      "title": "REMNANT II",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 3,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        22,
+        23,
+        28,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 108,
+      "title": "Age of Mythology: Retold",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 11,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        49,
+        18,
+        17,
+        22,
+        23,
+        27,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 110,
+      "title": "ICARUS",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 8,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        22,
+        23,
+        29,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 111,
+      "title": "Stormworks: Build and Rescue",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 32,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        49,
+        18,
+        62,
+        30
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 113,
+      "title": "Nioh 2 – The Complete Edition",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 3,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        15,
+        18,
+        61,
+        22,
+        23,
+        25,
+        29,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 121,
+      "title": "Human: Fall Flat",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 8,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        15,
+        22,
+        23,
+        24,
+        28,
+        29,
+        30,
+        36,
+        39,
+        43,
+        44,
+        49,
+        62,
+        66,
+        68,
+        69,
+        70,
+        74,
+        75
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 124,
+      "title": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 6,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        39,
+        9,
+        44,
+        22,
+        23,
+        24,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 126,
+      "title": "A Way Out",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        38,
+        39,
+        9,
+        41,
+        42,
+        43,
+        44,
+        22,
+        24,
+        28,
+        29
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 136,
+      "title": "Boomerang Fu",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 6,
+      "steam_categories": [
+        2,
+        10,
+        28
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 138,
+      "title": "KeyWe",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        39,
+        9,
+        44,
+        22,
+        24,
+        28,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 140,
+      "title": "Phogs!",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        39,
+        9,
+        44,
+        22,
+        23,
+        24,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 144,
+      "title": "Aliens: Fireteam Elite",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 3,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        22,
+        23,
+        27,
+        28,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 148,
+      "title": "Core Keeper",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 8,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        23,
+        28,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 151,
+      "title": "PICO PARK",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 8,
+      "steam_categories": [
+        1,
+        38,
+        39,
+        9,
+        24,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 155,
+      "title": "We Were Here Together",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        65,
+        68,
+        38,
+        9,
+        18,
+        22,
+        23,
+        27,
+        29,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 156,
+      "title": "We Were Here Forever",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        65,
+        68,
+        38,
+        9,
+        18,
+        22,
+        23,
+        27,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 157,
+      "title": "Crab Game",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 35,
+      "steam_categories": [
+        1,
+        36,
+        38,
+        9,
+        49
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 158,
+      "title": "Escape Academy",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        22,
+        23,
+        24,
+        27,
+        28,
+        29,
+        36,
+        37,
+        38,
+        39,
+        44,
+        49,
+        62,
+        66,
+        67,
+        68,
+        69,
+        74
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 161,
+      "title": "Roboquest",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        67,
+        68,
+        69,
+        38,
+        9,
+        78,
+        22,
+        23,
+        27,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 162,
+      "title": "No Man's Sky",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 32,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        22,
+        23,
+        27,
+        28,
+        29,
+        36,
+        38,
+        42,
+        43,
+        49,
+        52,
+        53,
+        61,
+        62,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        72,
+        74,
+        78,
+        79
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 165,
+      "title": "Outriders",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 3,
+      "steam_categories": [
+        64,
+        1,
+        2,
+        66,
+        68,
+        69,
+        38,
+        65,
+        9,
+        74,
+        22,
+        27,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 167,
+      "title": "Divinity: Original Sin",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        44,
+        13,
+        17,
+        22,
+        23,
+        62,
+        27,
+        29,
+        30
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 172,
+      "title": "Grand Theft Auto V Legacy",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 16,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        41,
+        42,
+        43,
+        49,
+        22,
+        28
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 182,
+      "title": "Path of Exile 2",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 6,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        20,
+        28,
+        61
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 187,
+      "title": "Enshrouded",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 16,
+      "steam_categories": [
+        64,
+        1,
+        2,
+        67,
+        66,
+        68,
+        38,
+        69,
+        9,
+        78,
+        22,
+        23,
+        28,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 190,
+      "title": "Tom Clancy’s The Division 2",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 8,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        36,
+        38,
+        9,
+        13,
+        49,
+        18,
+        22,
+        61
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 191,
+      "title": "World of Warships",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 12,
+      "steam_categories": [
+        64,
+        1,
+        66,
+        35,
+        36,
+        67,
+        38,
+        68,
+        9,
+        74,
+        49,
+        20,
+        22,
+        23,
+        29
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 195,
+      "title": "Farming Simulator 22",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 6,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        43,
+        22,
+        23,
+        27,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 198,
+      "title": "Tabletop Simulator",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 10,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        17,
+        22,
+        23,
+        24,
+        27,
+        28,
+        29,
+        30,
+        36,
+        37,
+        38,
+        39,
+        44,
+        49,
+        52,
+        53,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 200,
+      "title": "Forza Horizon 4",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 6,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        49,
+        22,
+        23,
+        27,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 201,
+      "title": "Elite Dangerous",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 8,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        9,
+        42,
+        18,
+        20,
+        53,
+        62,
+        31
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 202,
+      "title": "Supermarket Together",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 16,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        22,
+        23
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 213,
+      "title": "DDraceNetwork",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 64,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        48,
+        17,
+        27
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 217,
+      "title": "PowerWash Simulator",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        22,
+        23,
+        27,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 220,
+      "title": "Company of Heroes 2",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        15,
+        49,
+        22,
+        23,
+        62,
+        29,
+        30
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 221,
+      "title": "Devil May Cry 5",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 3,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        43,
+        61,
+        22,
+        23,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 230,
+      "title": "Mechabellum",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        49,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 232,
+      "title": "Escape Simulator",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        15,
+        49,
+        17,
+        52,
+        53,
+        22,
+        23,
+        62,
+        27,
+        28,
+        29,
+        30
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 238,
+      "title": "Necesse",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 5,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        47,
+        48,
+        49,
+        15,
+        22,
+        23,
+        62,
+        28,
+        29,
+        30
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 241,
+      "title": "Besiege",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 8,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        9,
+        42,
+        47,
+        49,
+        17,
+        22,
+        62,
+        25,
+        29,
+        30
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 242,
+      "title": "Sunkenland",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 8,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 245,
+      "title": "We Were Here",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        65,
+        68,
+        38,
+        9,
+        18,
+        22,
+        23,
+        27
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 247,
+      "title": "For The King",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 3,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        22,
+        23,
+        24,
+        28,
+        29,
+        36,
+        37,
+        38,
+        39,
+        41,
+        42,
+        43,
+        44,
+        49,
+        62,
+        75,
+        76,
+        78,
+        79
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 255,
+      "title": "Ship of Fools",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        39,
+        9,
+        44,
+        22,
+        23,
+        24,
+        28,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 257,
+      "title": "Goose Goose Duck",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 16,
+      "steam_categories": [
+        1,
+        35,
+        36,
+        38,
+        9,
+        49,
+        22,
+        27,
+        28
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 259,
+      "title": "Marvel Rivals",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 6,
+      "steam_categories": [
+        1,
+        35,
+        36,
+        38,
+        9,
+        49,
+        22,
+        27,
+        28
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 260,
+      "title": "Tower Unite",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 64,
+      "steam_categories": [
+        1,
+        2,
+        8,
+        9,
+        15,
+        17,
+        20,
+        22,
+        23,
+        25,
+        28,
+        29,
+        30,
+        36,
+        38,
+        49,
+        62,
+        64,
+        66,
+        67,
+        68,
+        69,
+        74,
+        78,
+        79
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 261,
+      "title": "Delta Force",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 32,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        36,
+        38,
+        9,
+        49,
+        20,
+        22,
+        27,
+        28,
+        29
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 262,
+      "title": "Apex Legends™",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 3,
+      "steam_categories": [
+        1,
+        35,
+        36,
+        38,
+        72,
+        9,
+        74,
+        49,
+        22,
+        28,
+        29
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 263,
+      "title": "Phantasy Star Online 2 New Genesis",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 12,
+      "steam_categories": [
+        1,
+        35,
+        38,
+        9,
+        42,
+        18,
+        22,
+        27
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 265,
+      "title": "Absolum",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        65,
+        68,
+        69,
+        38,
+        39,
+        9,
+        74,
+        75,
+        78,
+        79,
+        22,
+        23,
+        24,
+        28,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 270,
+      "title": "Bellwright",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 16,
+      "steam_categories": [
+        1,
+        2,
+        68,
+        69,
+        38,
+        9,
+        74,
+        78,
+        79,
+        18,
+        22,
+        23,
+        61,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 271,
+      "title": "ARC Raiders",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 3,
+      "steam_categories": [
+        1,
+        35,
+        36,
+        38,
+        9,
+        15,
+        49,
+        22,
+        27,
+        28,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 273,
+      "title": "Dune: Awakening",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 100,
+      "steam_categories": [
+        64,
+        1,
+        2,
+        67,
+        66,
+        68,
+        38,
+        69,
+        65,
+        9,
+        74,
+        70,
+        79,
+        22,
+        23,
+        28,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 274,
+      "title": "Orcs Must Die! 3",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        43,
+        22,
+        23,
+        25,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 281,
+      "title": "Operation: Tango",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        38,
+        9,
+        22,
+        23,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 286,
+      "title": "Darksiders Genesis",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        39,
+        9,
+        41,
+        42,
+        43,
+        44,
+        22,
+        23,
+        24,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 287,
+      "title": "Children of Morta",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        39,
+        9,
+        41,
+        42,
+        43,
+        44,
+        15,
+        22,
+        23,
+        24,
+        28,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 291,
+      "title": "DARK SOULS II: Scholar of the First Sin",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 6,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        41,
+        42,
+        43,
+        22,
+        28,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 300,
+      "title": "Total War: ATTILA",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        22,
+        23,
+        29,
+        36,
+        38,
+        47,
+        48,
+        49,
+        62,
+        67,
+        68,
+        69,
+        70,
+        74,
+        78,
+        79
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 306,
+      "title": "Far Cry 5",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        38,
+        9,
+        13,
+        17,
+        18,
+        61,
+        22,
+        29
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 308,
+      "title": "Deadzone: Rogue",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 3,
+      "steam_categories": [
+        1,
+        2,
+        68,
+        69,
+        38,
+        9,
+        74,
+        78,
+        22,
+        23,
+        27,
+        28,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 313,
+      "title": "Dead Island 2",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 8,
+      "steam_categories": [
+        64,
+        1,
+        2,
+        67,
+        68,
+        69,
+        38,
+        65,
+        9,
+        75,
+        78,
+        22,
+        23,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 323,
+      "title": "Trailmakers",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 8,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        43,
+        49,
+        22,
+        23,
+        62,
+        25,
+        28,
+        29,
+        30
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 324,
+      "title": "Starbound",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 8,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        49,
+        22,
+        62,
+        27,
+        29,
+        30
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 333,
+      "title": "Lords of the Fallen",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        49,
+        22,
+        23,
+        27,
+        28,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 343,
+      "title": "Neverwinter Nights: Enhanced Edition",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 255,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        49,
+        17,
+        22,
+        62,
+        29,
+        30
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 357,
+      "title": "DRAGON BALL XENOVERSE 2",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 6,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        37,
+        38,
+        9,
+        49,
+        20,
+        22,
+        23,
+        25,
+        28,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 368,
+      "title": "Titan Quest Anniversary Edition",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 6,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        49,
+        18,
+        17,
+        22,
+        23,
+        62,
+        29,
+        30
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 372,
+      "title": "Apocalypse Party",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 3,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        22,
+        23,
+        28,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 373,
+      "title": "Resident Evil 5",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        22,
+        23,
+        25,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 374,
+      "title": "Far Cry 4",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        18,
+        22
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 376,
+      "title": "Fast Food Simulator",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 6,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        18,
+        22,
+        23,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 377,
+      "title": "Sins of a Solar Empire II",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 10,
+      "steam_categories": [
+        1,
+        2,
+        9,
+        22,
+        23,
+        27,
+        29,
+        36,
+        38,
+        47,
+        48,
+        49,
+        62,
+        66,
+        68,
+        69,
+        70,
+        78,
+        79
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 402,
+      "title": "Resident Evil 6",
+      "current_coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        8,
+        9,
+        44,
+        18,
+        22,
+        23,
+        24,
+        25,
+        29,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 530,
+      "title": "Desynced",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 50,
+      "steam_categories": [
+        1,
+        2,
+        36,
+        38,
+        9,
+        49,
+        18,
+        23,
+        62,
+        30
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 558,
+      "title": "Farming Simulator 19",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 16,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        42,
+        43,
+        22,
+        23,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 585,
+      "title": "Avatar: Frontiers of Pandora",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        35,
+        38,
+        9,
+        13,
+        18,
+        22,
+        61
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 592,
+      "title": "Jagged Alliance 3",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        22,
+        23,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 594,
+      "title": "We Were Here Expeditions: The FriendShip",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        65,
+        68,
+        38,
+        9,
+        18,
+        22,
+        23,
+        27,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 596,
+      "title": "The Past Within",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        38,
+        9,
+        22,
+        23,
+        27,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 597,
+      "title": "Labyrinthine",
+      "current_coopMode": [
+        "online"
+      ],
+      "current_maxPlayers": 8,
+      "steam_categories": [
+        1,
+        2,
+        38,
+        9,
+        43,
+        15,
+        52,
+        53,
+        22,
+        23,
+        28,
+        29,
+        62
+      ],
+      "igdb_modes": null
+    },
+    {
+      "game_id": 602,
+      "title": "BOKURA",
+      "current_coopMode": [
+        "online",
+        "local"
+      ],
+      "current_maxPlayers": 2,
+      "steam_categories": [
+        1,
+        38,
+        9,
+        48,
+        28,
+        62
+      ],
+      "igdb_modes": null
+    }
+  ]
+}

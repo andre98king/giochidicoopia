@@ -1,0 +1,1685 @@
+[
+  {
+    "id": 380,
+    "title": "My Rusty Submarine",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 381,
+    "title": "Rhythm Doctor",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 382,
+    "title": "Unheard Scream",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 383,
+    "title": "DYO",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 384,
+    "title": "Nuclear Throne Mobile",
+    "igdb": false,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 385,
+    "title": "Froggin' Around Demo",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 386,
+    "title": "Hamsteria! - Demo",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 387,
+    "title": "SPECIMEN",
+    "igdb": true,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 388,
+    "title": "Fear Channel",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 389,
+    "title": "Hub OS",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 390,
+    "title": "Joggernauts",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 391,
+    "title": "East of Eden: Right of Conquest",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 392,
+    "title": "Micro Mages (NES / PC)",
+    "igdb": null,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 393,
+    "title": "God Save The Queen",
+    "igdb": false,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 394,
+    "title": "Shagster Online 2",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 395,
+    "title": "Ducklings",
+    "igdb": true,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 396,
+    "title": "CHERNOZEM (PROTOTYPE)",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 397,
+    "title": "Police Stories",
+    "igdb": true,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 398,
+    "title": "TowerFall Dark World Expansion",
+    "igdb": null,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 399,
+    "title": "Widelands",
+    "igdb": false,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 406,
+    "title": "Imposter 3D: online horror",
+    "igdb": null,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 407,
+    "title": "Sneaky Stealy",
+    "igdb": false,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 408,
+    "title": "Totemori",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 409,
+    "title": "Snap the Sentinel - Episode 1",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 410,
+    "title": "Fury Unleashed: Prologue",
+    "igdb": null,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 411,
+    "title": "Sep's Diner (Oculus Quest)",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 412,
+    "title": "Wild Woods",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 413,
+    "title": "Streets of Rogue",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 414,
+    "title": "Ancient Swarm",
+    "igdb": null,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 415,
+    "title": "The Choicer Voicer",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 416,
+    "title": "Pikwip",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 417,
+    "title": "Gladihoppers",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 418,
+    "title": "Among Us Arena Ultimate",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 419,
+    "title": "Bubble Bobble C64 Remastered",
+    "igdb": null,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 420,
+    "title": "TowerFall 8-Player",
+    "igdb": true,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 421,
+    "title": "Sticky Cats",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 422,
+    "title": "0 A.D: Empires Ascendant",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 423,
+    "title": "EGGNOGG+",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 424,
+    "title": "M.U.L.E. Online",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 425,
+    "title": "Touhou Fumo Racing",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 426,
+    "title": "Dumpy and Bumpy",
+    "igdb": true,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 427,
+    "title": "Royal Revolt Survivors",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 428,
+    "title": "Aaero2: Black Razor Edition",
+    "igdb": true,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 429,
+    "title": "Rising Heat",
+    "igdb": true,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 430,
+    "title": "Esophaguys",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 431,
+    "title": "Bee Simulator: The Hive",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 432,
+    "title": "Jaleco Sports: Goal!",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 433,
+    "title": "Anima Flux",
+    "igdb": true,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 434,
+    "title": "Welcome to Empyreum",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 435,
+    "title": "The DUNGENERATOR: DIE in a Dungeon",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 436,
+    "title": "Tanks of Freedom",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 437,
+    "title": "Cro-Mag Rally",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 438,
+    "title": "The King of Fighters: Final attack",
+    "igdb": null,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 439,
+    "title": "Tiger Claw",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 440,
+    "title": "Chair Up!",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 441,
+    "title": "Generic Fighter Maybe",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 442,
+    "title": "Fallacy Quiz",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 443,
+    "title": "Hyper Gunsport",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 444,
+    "title": "Hit-X",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 445,
+    "title": "Punch Pong",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 446,
+    "title": "Aichi Emperors Zero",
+    "igdb": false,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 447,
+    "title": "NARCISSUS",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 448,
+    "title": "StarCrossed",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 449,
+    "title": "Caveman Warriors",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 450,
+    "title": "Rakete",
+    "igdb": false,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 451,
+    "title": "FiZZ (VIC-20)",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 452,
+    "title": "Marco Polo",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 453,
+    "title": "Scarecrow COOP",
+    "igdb": null,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 454,
+    "title": "FiZZ (Commodore 64, C64)",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 455,
+    "title": "Fixeight",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 456,
+    "title": "Combat Mission Final Blitzkrieg",
+    "igdb": true,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 457,
+    "title": "Combat Mission Fortress Italy",
+    "igdb": true,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 458,
+    "title": "Tavernacle!",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 459,
+    "title": "Fire Shark",
+    "igdb": true,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 460,
+    "title": "Hellfire",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 461,
+    "title": "Combat Mission Red Thunder",
+    "igdb": true,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 462,
+    "title": "Volley Pals",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 463,
+    "title": "Chut!",
+    "igdb": null,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 464,
+    "title": "Isolated Intelligence",
+    "igdb": null,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 465,
+    "title": "Bar Keep",
+    "igdb": null,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 466,
+    "title": "Shroom Bois",
+    "igdb": null,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 467,
+    "title": "Malisse",
+    "igdb": null,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 468,
+    "title": "Octopounce",
+    "igdb": null,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 469,
+    "title": "Ducktonic Adventures",
+    "igdb": null,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 470,
+    "title": "Hakros DRUGOD TV The Survival Games (Map for Doom 2)",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 471,
+    "title": "Yakuzakura",
+    "igdb": null,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 472,
+    "title": "Panique à Temple A-Steak",
+    "igdb": null,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 473,
+    "title": "Project Socket",
+    "igdb": null,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 474,
+    "title": "Tower of Freedom",
+    "igdb": false,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 475,
+    "title": "Community Egg",
+    "igdb": null,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 476,
+    "title": "Safe Space",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 477,
+    "title": "Pangman DEMO for Quest",
+    "igdb": null,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 478,
+    "title": "A.L.F.I.E's GAME",
+    "igdb": false,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 479,
+    "title": "Shackle",
+    "igdb": false,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 480,
+    "title": "Easy Delivery Co. Demo",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 481,
+    "title": "Ragdoll Runners",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 482,
+    "title": "TORB",
+    "igdb": false,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 483,
+    "title": "Twin Cobra",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 484,
+    "title": "Funtasia",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 485,
+    "title": "EpicShop",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 486,
+    "title": "BADBLOOD",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 487,
+    "title": "Lurking Danger",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 488,
+    "title": "LegacyClonk",
+    "igdb": true,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 489,
+    "title": "Stick Veterans",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 490,
+    "title": "Quest Of Graal DX",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 491,
+    "title": "Garrison: Archangel (DEMO)",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 492,
+    "title": "Chambara",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 493,
+    "title": "Obnubilia",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 494,
+    "title": "beaterCore",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 495,
+    "title": "Escape From Castle Matsumoto",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 496,
+    "title": "Super Pilot",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 497,
+    "title": "Wacky Wheels HD",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 498,
+    "title": "Classic TAGAP",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 499,
+    "title": "Flotilla",
+    "igdb": true,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 500,
+    "title": "Tomb of Rooms",
+    "igdb": false,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 501,
+    "title": "Damaged Territory",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 502,
+    "title": "Pretend Cars Racing",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 503,
+    "title": "TopplePOP Demo",
+    "igdb": null,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 504,
+    "title": "Felony Felines!",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 505,
+    "title": "Black Ice (Early Access)",
+    "igdb": null,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 506,
+    "title": "Super Crate Box Together",
+    "igdb": false,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 507,
+    "title": "Nick Tower",
+    "igdb": null,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 508,
+    "title": "Tvö",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 509,
+    "title": "Partners In Uncertainty",
+    "igdb": null,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 510,
+    "title": "Never BreakUp",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 511,
+    "title": "Galoria Sandbox: Online",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 512,
+    "title": "Crisis At R.W.P. Inc.",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 513,
+    "title": "Wilds of the Realmwalker - Public Playtest",
+    "igdb": null,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 514,
+    "title": "Keep Painting",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 515,
+    "title": "Thing & Fist",
+    "igdb": true,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 516,
+    "title": "I'm Lag",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 517,
+    "title": "Speedy Golf",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 535,
+    "title": "Sundered: Eldritch Edition",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 536,
+    "title": "GuessMe!",
+    "igdb": false,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 537,
+    "title": "Dead Pixels II: Straight To Video",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 538,
+    "title": "CROSSNIQ+",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 539,
+    "title": "PAPER TANKS (indie game, ink, doodle, unity, 2d, action, paper, tank, retro, ink, split sreen, beta, demo, dev)",
+    "igdb": null,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 540,
+    "title": "MONUMENTAL FAILURE",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 541,
+    "title": "War Mongrels",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 542,
+    "title": "63 Days",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 543,
+    "title": "Black Widow: Recharged",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 544,
+    "title": "Beer & Plunder",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 545,
+    "title": "ZeroRanger (Demo)",
+    "igdb": null,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 546,
+    "title": "Don't Bite Me Bro!",
+    "igdb": true,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 547,
+    "title": "Moon Hunters",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 548,
+    "title": "Pyre",
+    "igdb": true,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 549,
+    "title": "★FROG SMASHERS★",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 550,
+    "title": "Joint Drops",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 551,
+    "title": "PING-POMPA",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 552,
+    "title": "Dee | S",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 553,
+    "title": "Snowdown",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 554,
+    "title": "Control Shift",
+    "igdb": false,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 555,
+    "title": "Corpse Box Racers",
+    "igdb": true,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 559,
+    "title": "Boss Bashing Button Brawlers",
+    "igdb": false,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 560,
+    "title": "Taming.io",
+    "igdb": true,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 561,
+    "title": "The Cowlitz Gamers' 2nd Adventure",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 562,
+    "title": "Jojo's Bizzare Adventure: Last Stand",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 563,
+    "title": "Space (PC)",
+    "igdb": false,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 564,
+    "title": "DUCK DUCK ROCKET",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 565,
+    "title": "Cyber Cycle",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 566,
+    "title": "Two Interviewees",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 567,
+    "title": "Headquarters: Cold War",
+    "igdb": true,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 568,
+    "title": "Platform Anomaly (co-op)",
+    "igdb": null,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 569,
+    "title": "Paddle Force",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 570,
+    "title": "Duels of Fortune",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 571,
+    "title": "Bomberland",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 572,
+    "title": "Toe II Toe",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 573,
+    "title": "Firefighting Space Monkes",
+    "igdb": null,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 574,
+    "title": "10 Rounds",
+    "igdb": null,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 575,
+    "title": "Serious Sam Evolution",
+    "igdb": null,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 576,
+    "title": "TOP HUNTER: RODDY & CATHY",
+    "igdb": true,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 577,
+    "title": "Ruins Of Mitriom",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 578,
+    "title": "FroggieChat",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 579,
+    "title": "Toasterball (Prototype)",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 580,
+    "title": "The Colosseum Challenge",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 583,
+    "title": "KIZUNA ENCOUNTER: SUPER TAG BATTLE",
+    "igdb": true,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 603,
+    "title": "Crow's Nest",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 604,
+    "title": "Chicken Joust",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 605,
+    "title": "Telemochi",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 606,
+    "title": "FNAF Online Multiplayer",
+    "igdb": true,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 1,
+    "status": "ok"
+  },
+  {
+    "id": 607,
+    "title": "ORBSORT",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 608,
+    "title": "Scatteria",
+    "igdb": true,
+    "gog": false,
+    "rawg": true,
+    "confirmed": 2,
+    "status": "ok"
+  },
+  {
+    "id": 610,
+    "title": "Labyrinth",
+    "igdb": false,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "suspect"
+  },
+  {
+    "id": 612,
+    "title": "Data Man (NES)",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 613,
+    "title": "Beatdown Dungeon: Demon Day - Demo v1.9",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 614,
+    "title": "Windward Rush (alpha)",
+    "igdb": null,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 0,
+    "status": "unverified"
+  },
+  {
+    "id": 616,
+    "title": "Truxton Extreme",
+    "igdb": true,
+    "gog": false,
+    "rawg": false,
+    "confirmed": 1,
+    "status": "ok"
+  }
+]
