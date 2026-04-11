@@ -351,7 +351,7 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -u
-          git add games en public data/catalog.games.v1.json data/catalog.public.v1.json assets/games.js assets/bundles/games-data.js assets/i18n.js sitemap*.xml
+          git add games en public data/catalog.games.v1.json data/catalog.public.v1.json assets/games.js assets/bundles/games-data.js assets/i18n.js
           if git diff --staged --quiet; then
             echo "Nessuna modifica da committare."
           else
