@@ -46,11 +46,11 @@ def safe_template(template: str, **kwargs: str) -> str:
 
 ROOT = catalog_data.ROOT
 OUTPUT_DIR = ROOT / "public"
-GAMES_DIR = OUTPUT_DIR / "games"
-GAMES_EN_DIR = OUTPUT_DIR / "games" / "en"
-SITEMAP = OUTPUT_DIR / "sitemap.xml"
-SITEMAP_MAIN = OUTPUT_DIR / "sitemap-main.xml"
-SITEMAP_HUBS = OUTPUT_DIR / "sitemap-hubs.xml"
+GAMES_DIR = ROOT / "games"
+GAMES_EN_DIR = ROOT / "games" / "en"
+SITEMAP = ROOT / "sitemap.xml"
+SITEMAP_MAIN = ROOT / "sitemap-main.xml"
+SITEMAP_HUBS = ROOT / "sitemap-hubs.xml"
 SITE_URL = "https://coophubs.net"
 TODAY = datetime.date.today().isoformat()
 CURRENT_YEAR = datetime.date.today().year
@@ -1039,7 +1039,7 @@ def write_sitemap(games):
     GAMES_PER_SITEMAP = 450
     for i in range(0, len(games), GAMES_PER_SITEMAP):
         batch = games[i : i + GAMES_PER_SITEMAP]
-        sitemap_file = OUTPUT_DIR / f"sitemap-games-{i // GAMES_PER_SITEMAP + 1}.xml"
+        sitemap_file = ROOT / f"sitemap-games-{i // GAMES_PER_SITEMAP + 1}.xml"
         game_lines = [
             '<?xml version="1.0" encoding="UTF-8"?>\n',
             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n',
@@ -1078,7 +1078,7 @@ def write_sitemap(games):
     SITEMAP.write_text("".join(index_lines), encoding="utf-8")
 
     # Update robots.txt
-    robots = OUTPUT_DIR / "robots.txt"
+    robots = ROOT / "robots.txt"
     if robots.exists():
         content = robots.read_text(encoding="utf-8")
         if "Sitemap:" in content:
@@ -1099,7 +1099,7 @@ def update_game_counters(count: int) -> None:
 
     targets = [
         (
-            OUTPUT_DIR / "index.html",
+            ROOT / "index.html",
             [
                 (r"Scopri oltre \d+ giochi", f"Scopri oltre {floored} giochi"),
                 (
