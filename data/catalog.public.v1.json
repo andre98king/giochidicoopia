@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-11T14:52:18+00:00",
+  "generatedAt": "2026-04-11T17:22:05+00:00",
   "featuredIndieId": 180,
   "games": [
     {
@@ -47,9 +47,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551033"
+      "coopScore": 2
     },
     {
       "id": 2,
@@ -93,9 +91,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551041"
+      "coopScore": 2
     },
     {
       "id": 4,
@@ -139,9 +135,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551043"
+      "coopScore": 2
     },
     {
       "id": 5,
@@ -232,9 +226,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551044"
+      "coopScore": 2
     },
     {
       "id": 9,
@@ -280,9 +272,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551045"
+      "coopScore": 2
     },
     {
       "id": 10,
@@ -327,9 +317,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551046"
+      "coopScore": 2
     },
     {
       "id": 11,
@@ -375,9 +363,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551047"
+      "coopScore": 2
     },
     {
       "id": 12,
@@ -424,9 +410,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 3,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551048"
+      "coopScore": 3
     },
     {
       "id": 13,
@@ -470,9 +454,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551049"
+      "coopScore": 2
     },
     {
       "id": 14,
@@ -519,9 +501,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551050"
+      "coopScore": 2
     },
     {
       "id": 15,
@@ -564,9 +544,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551050"
+      "coopScore": 2
     },
     {
       "id": 16,
@@ -614,9 +592,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551051"
+      "coopScore": 2
     },
     {
       "id": 17,
@@ -666,9 +642,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551052"
+      "coopScore": 2
     },
     {
       "id": 18,
@@ -717,9 +691,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551053"
+      "coopScore": 2
     },
     {
       "id": 19,
@@ -766,9 +738,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551054"
+      "coopScore": 2
     },
     {
       "id": 20,
@@ -812,9 +782,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551055"
+      "coopScore": 2
     },
     {
       "id": 21,
@@ -860,9 +828,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551056"
+      "coopScore": 2
     },
     {
       "id": 22,
@@ -909,9 +875,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551057"
+      "coopScore": 2
     },
     {
       "id": 23,
@@ -955,9 +919,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551058"
+      "coopScore": 2
     },
     {
       "id": 24,
@@ -1005,9 +967,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551059"
+      "coopScore": 2
     },
     {
       "id": 25,
@@ -1097,9 +1057,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551059"
+      "coopScore": 2
     },
     {
       "id": 27,
@@ -1145,9 +1103,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551060"
+      "coopScore": 2
     },
     {
       "id": 28,
@@ -1192,9 +1148,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551061"
+      "coopScore": 2
     },
     {
       "id": 29,
@@ -1239,9 +1193,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551062"
+      "coopScore": 2
     },
     {
       "id": 30,
@@ -1287,9 +1239,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551063"
+      "coopScore": 2
     },
     {
       "id": 32,
@@ -1333,9 +1283,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551064"
+      "coopScore": 2
     },
     {
       "id": 33,
@@ -1379,9 +1327,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551065"
+      "coopScore": 2
     },
     {
       "id": 34,
@@ -1426,9 +1372,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551066"
+      "coopScore": 2
     },
     {
       "id": 36,
@@ -1472,9 +1416,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551067"
+      "coopScore": 2
     },
     {
       "id": 38,
@@ -1520,9 +1462,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551068"
+      "coopScore": 2
     },
     {
       "id": 39,
@@ -1569,9 +1509,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551068"
+      "coopScore": 2
     },
     {
       "id": 40,
@@ -1615,9 +1553,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551069"
+      "coopScore": 2
     },
     {
       "id": 42,
@@ -1663,9 +1599,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551070"
+      "coopScore": 2
     },
     {
       "id": 43,
@@ -1709,9 +1643,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551071"
+      "coopScore": 2
     },
     {
       "id": 44,
@@ -1755,9 +1687,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551072"
+      "coopScore": 2
     },
     {
       "id": 45,
@@ -1802,9 +1732,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551073"
+      "coopScore": 2
     },
     {
       "id": 46,
@@ -1848,9 +1776,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551074"
+      "coopScore": 2
     },
     {
       "id": 47,
@@ -1894,9 +1820,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551075"
+      "coopScore": 2
     },
     {
       "id": 48,
@@ -1942,9 +1866,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551075"
+      "coopScore": 2
     },
     {
       "id": 49,
@@ -2033,9 +1955,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551076"
+      "coopScore": 2
     },
     {
       "id": 52,
@@ -2079,9 +1999,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551077"
+      "coopScore": 2
     },
     {
       "id": 53,
@@ -2127,9 +2045,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551078"
+      "coopScore": 2
     },
     {
       "id": 55,
@@ -2174,9 +2090,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551079"
+      "coopScore": 2
     },
     {
       "id": 56,
@@ -2220,9 +2134,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551080"
+      "coopScore": 2
     },
     {
       "id": 57,
@@ -2267,9 +2179,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551081"
+      "coopScore": 2
     },
     {
       "id": 58,
@@ -2315,9 +2225,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551082"
+      "coopScore": 2
     },
     {
       "id": 59,
@@ -2364,9 +2272,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551083"
+      "coopScore": 2
     },
     {
       "id": 60,
@@ -2413,9 +2319,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551084"
+      "coopScore": 2
     },
     {
       "id": 62,
@@ -2461,9 +2365,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551084"
+      "coopScore": 2
     },
     {
       "id": 64,
@@ -2510,9 +2412,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551085"
+      "coopScore": 2
     },
     {
       "id": 65,
@@ -2558,9 +2458,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551086"
+      "coopScore": 2
     },
     {
       "id": 66,
@@ -2606,9 +2504,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551087"
+      "coopScore": 2
     },
     {
       "id": 67,
@@ -2653,9 +2549,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551088"
+      "coopScore": 2
     },
     {
       "id": 68,
@@ -2701,9 +2595,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551089"
+      "coopScore": 2
     },
     {
       "id": 69,
@@ -2750,9 +2642,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551090"
+      "coopScore": 2
     },
     {
       "id": 70,
@@ -2798,9 +2688,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551091"
+      "coopScore": 2
     },
     {
       "id": 71,
@@ -2846,9 +2734,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551091"
+      "coopScore": 2
     },
     {
       "id": 72,
@@ -2892,9 +2778,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551092"
+      "coopScore": 2
     },
     {
       "id": 73,
@@ -2940,9 +2824,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551093"
+      "coopScore": 2
     },
     {
       "id": 74,
@@ -2989,9 +2871,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551094"
+      "coopScore": 2
     },
     {
       "id": 75,
@@ -3036,9 +2916,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551095"
+      "coopScore": 2
     },
     {
       "id": 76,
@@ -3085,9 +2963,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551096"
+      "coopScore": 2
     },
     {
       "id": 78,
@@ -3131,9 +3007,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551097"
+      "coopScore": 2
     },
     {
       "id": 82,
@@ -3177,9 +3051,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551098"
+      "coopScore": 2
     },
     {
       "id": 84,
@@ -3223,9 +3095,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551099"
+      "coopScore": 2
     },
     {
       "id": 85,
@@ -3271,9 +3141,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551099"
+      "coopScore": 2
     },
     {
       "id": 86,
@@ -3318,9 +3186,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551100"
+      "coopScore": 2
     },
     {
       "id": 87,
@@ -3367,9 +3233,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551101"
+      "coopScore": 2
     },
     {
       "id": 88,
@@ -3454,9 +3318,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551102"
+      "coopScore": 2
     },
     {
       "id": 90,
@@ -3502,9 +3364,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551103"
+      "coopScore": 2
     },
     {
       "id": 91,
@@ -3550,9 +3410,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551104"
+      "coopScore": 2
     },
     {
       "id": 93,
@@ -3596,9 +3454,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551105"
+      "coopScore": 2
     },
     {
       "id": 95,
@@ -3645,9 +3501,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551106"
+      "coopScore": 2
     },
     {
       "id": 96,
@@ -3691,9 +3545,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551107"
+      "coopScore": 2
     },
     {
       "id": 98,
@@ -3737,9 +3589,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551108"
+      "coopScore": 2
     },
     {
       "id": 99,
@@ -3786,9 +3636,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551108"
+      "coopScore": 2
     },
     {
       "id": 100,
@@ -3833,9 +3681,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551109"
+      "coopScore": 2
     },
     {
       "id": 101,
@@ -3882,9 +3728,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551110"
+      "coopScore": 2
     },
     {
       "id": 103,
@@ -3928,9 +3772,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551111"
+      "coopScore": 2
     },
     {
       "id": 104,
@@ -3976,9 +3818,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551112"
+      "coopScore": 2
     },
     {
       "id": 105,
@@ -4025,9 +3865,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551113"
+      "coopScore": 2
     },
     {
       "id": 107,
@@ -4073,9 +3911,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551114"
+      "coopScore": 2
     },
     {
       "id": 108,
@@ -4117,9 +3953,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551115"
+      "coopScore": 2
     },
     {
       "id": 109,
@@ -4166,9 +4000,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551115"
+      "coopScore": 2
     },
     {
       "id": 110,
@@ -4212,9 +4044,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551116"
+      "coopScore": 2
     },
     {
       "id": 111,
@@ -4258,9 +4088,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551117"
+      "coopScore": 2
     },
     {
       "id": 112,
@@ -4306,9 +4134,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551118"
+      "coopScore": 2
     },
     {
       "id": 113,
@@ -4352,9 +4178,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551119"
+      "coopScore": 2
     },
     {
       "id": 114,
@@ -4398,9 +4222,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551120"
+      "coopScore": 2
     },
     {
       "id": 115,
@@ -4445,9 +4267,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551121"
+      "coopScore": 2
     },
     {
       "id": 117,
@@ -4491,9 +4311,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551122"
+      "coopScore": 2
     },
     {
       "id": 118,
@@ -4541,9 +4359,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551123"
+      "coopScore": 2
     },
     {
       "id": 119,
@@ -4587,9 +4403,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551123"
+      "coopScore": 2
     },
     {
       "id": 120,
@@ -4634,9 +4448,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551124"
+      "coopScore": 2
     },
     {
       "id": 121,
@@ -4681,9 +4493,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551125"
+      "coopScore": 2
     },
     {
       "id": 122,
@@ -4729,9 +4539,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551126"
+      "coopScore": 2
     },
     {
       "id": 123,
@@ -4775,9 +4583,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551127"
+      "coopScore": 2
     },
     {
       "id": 124,
@@ -4821,9 +4627,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551128"
+      "coopScore": 2
     },
     {
       "id": 125,
@@ -4868,9 +4672,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551129"
+      "coopScore": 2
     },
     {
       "id": 126,
@@ -4915,9 +4717,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551130"
+      "coopScore": 2
     },
     {
       "id": 127,
@@ -4963,9 +4763,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551131"
+      "coopScore": 2
     },
     {
       "id": 129,
@@ -5009,9 +4807,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551131"
+      "coopScore": 2
     },
     {
       "id": 130,
@@ -5058,9 +4854,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551132"
+      "coopScore": 2
     },
     {
       "id": 131,
@@ -5107,9 +4901,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": null,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551133"
+      "coopScore": null
     },
     {
       "id": 132,
@@ -5154,9 +4946,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551134"
+      "coopScore": 2
     },
     {
       "id": 134,
@@ -5200,9 +4990,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551135"
+      "coopScore": 2
     },
     {
       "id": 135,
@@ -5248,9 +5036,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551136"
+      "coopScore": 2
     },
     {
       "id": 137,
@@ -5296,9 +5082,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551137"
+      "coopScore": 2
     },
     {
       "id": 138,
@@ -5342,9 +5126,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551138"
+      "coopScore": 2
     },
     {
       "id": 140,
@@ -5390,9 +5172,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551139"
+      "coopScore": 2
     },
     {
       "id": 141,
@@ -5437,9 +5217,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551139"
+      "coopScore": 2
     },
     {
       "id": 144,
@@ -5483,9 +5261,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551140"
+      "coopScore": 2
     },
     {
       "id": 145,
@@ -5529,9 +5305,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551141"
+      "coopScore": 2
     },
     {
       "id": 146,
@@ -5576,9 +5350,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551142"
+      "coopScore": 2
     },
     {
       "id": 148,
@@ -5622,9 +5394,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551143"
+      "coopScore": 2
     },
     {
       "id": 149,
@@ -5670,9 +5440,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551144"
+      "coopScore": 2
     },
     {
       "id": 150,
@@ -5715,9 +5483,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551145"
+      "coopScore": 2
     },
     {
       "id": 151,
@@ -5763,9 +5529,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551146"
+      "coopScore": 2
     },
     {
       "id": 152,
@@ -5811,9 +5575,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551146"
+      "coopScore": 2
     },
     {
       "id": 154,
@@ -5858,9 +5620,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551147"
+      "coopScore": 2
     },
     {
       "id": 155,
@@ -5903,9 +5663,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 3,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551148"
+      "coopScore": 3
     },
     {
       "id": 156,
@@ -5949,9 +5707,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551149"
+      "coopScore": 2
     },
     {
       "id": 157,
@@ -5994,9 +5750,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551150"
+      "coopScore": 2
     },
     {
       "id": 158,
@@ -6041,9 +5795,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551151"
+      "coopScore": 2
     },
     {
       "id": 159,
@@ -6090,9 +5842,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551152"
+      "coopScore": 2
     },
     {
       "id": 160,
@@ -6136,9 +5886,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551153"
+      "coopScore": 2
     },
     {
       "id": 161,
@@ -6183,9 +5931,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551154"
+      "coopScore": 2
     },
     {
       "id": 162,
@@ -6229,9 +5975,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551154"
+      "coopScore": 2
     },
     {
       "id": 163,
@@ -6276,9 +6020,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551155"
+      "coopScore": 2
     },
     {
       "id": 164,
@@ -6322,9 +6064,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551156"
+      "coopScore": 2
     },
     {
       "id": 166,
@@ -6368,9 +6108,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551157"
+      "coopScore": 2
     },
     {
       "id": 167,
@@ -6415,9 +6153,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551158"
+      "coopScore": 2
     },
     {
       "id": 169,
@@ -6461,9 +6197,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551159"
+      "coopScore": 2
     },
     {
       "id": 170,
@@ -6505,9 +6239,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551160"
+      "coopScore": 2
     },
     {
       "id": 172,
@@ -6551,9 +6283,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551161"
+      "coopScore": 2
     },
     {
       "id": 173,
@@ -6600,9 +6330,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551162"
+      "coopScore": 2
     },
     {
       "id": 176,
@@ -6692,9 +6420,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551163"
+      "coopScore": 2
     },
     {
       "id": 179,
@@ -6738,9 +6464,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551163"
+      "coopScore": 2
     },
     {
       "id": 180,
@@ -6785,9 +6509,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551164"
+      "coopScore": 2
     },
     {
       "id": 181,
@@ -6832,9 +6554,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551165"
+      "coopScore": 2
     },
     {
       "id": 182,
@@ -6878,9 +6598,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551166"
+      "coopScore": 2
     },
     {
       "id": 183,
@@ -6924,9 +6642,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551167"
+      "coopScore": 2
     },
     {
       "id": 184,
@@ -6968,9 +6684,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551168"
+      "coopScore": 2
     },
     {
       "id": 186,
@@ -7014,9 +6728,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551169"
+      "coopScore": 2
     },
     {
       "id": 187,
@@ -7062,9 +6774,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551170"
+      "coopScore": 2
     },
     {
       "id": 188,
@@ -7112,9 +6822,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551171"
+      "coopScore": 2
     },
     {
       "id": 189,
@@ -7158,9 +6866,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551172"
+      "coopScore": 2
     },
     {
       "id": 190,
@@ -7206,9 +6912,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551173"
+      "coopScore": 2
     },
     {
       "id": 191,
@@ -7253,9 +6957,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551173"
+      "coopScore": 2
     },
     {
       "id": 192,
@@ -7299,9 +7001,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551174"
+      "coopScore": 2
     },
     {
       "id": 194,
@@ -7346,9 +7046,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551175"
+      "coopScore": 2
     },
     {
       "id": 195,
@@ -7391,9 +7089,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551176"
+      "coopScore": 2
     },
     {
       "id": 196,
@@ -7440,9 +7136,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551177"
+      "coopScore": 2
     },
     {
       "id": 198,
@@ -7487,9 +7181,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551178"
+      "coopScore": 2
     },
     {
       "id": 200,
@@ -7533,9 +7225,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551179"
+      "coopScore": 2
     },
     {
       "id": 201,
@@ -7581,9 +7271,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551180"
+      "coopScore": 2
     },
     {
       "id": 202,
@@ -7627,9 +7315,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 3,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551181"
+      "coopScore": 3
     },
     {
       "id": 203,
@@ -7673,9 +7359,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551181"
+      "coopScore": 2
     },
     {
       "id": 204,
@@ -7721,9 +7405,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551182"
+      "coopScore": 2
     },
     {
       "id": 205,
@@ -7770,9 +7452,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551183"
+      "coopScore": 2
     },
     {
       "id": 206,
@@ -7816,9 +7496,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551184"
+      "coopScore": 2
     },
     {
       "id": 207,
@@ -7863,9 +7541,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551185"
+      "coopScore": 2
     },
     {
       "id": 208,
@@ -7910,9 +7586,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551186"
+      "coopScore": 2
     },
     {
       "id": 209,
@@ -7959,9 +7633,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551187"
+      "coopScore": 2
     },
     {
       "id": 210,
@@ -8006,9 +7678,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551188"
+      "coopScore": 2
     },
     {
       "id": 212,
@@ -8055,9 +7725,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551189"
+      "coopScore": 2
     },
     {
       "id": 213,
@@ -8104,9 +7772,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551189"
+      "coopScore": 2
     },
     {
       "id": 215,
@@ -8151,9 +7817,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551190"
+      "coopScore": 2
     },
     {
       "id": 216,
@@ -8238,9 +7902,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551191"
+      "coopScore": 2
     },
     {
       "id": 218,
@@ -8283,9 +7945,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551192"
+      "coopScore": 2
     },
     {
       "id": 219,
@@ -8328,9 +7988,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551193"
+      "coopScore": 2
     },
     {
       "id": 220,
@@ -8375,9 +8033,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551194"
+      "coopScore": 2
     },
     {
       "id": 221,
@@ -8421,9 +8077,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551195"
+      "coopScore": 2
     },
     {
       "id": 222,
@@ -8467,9 +8121,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551196"
+      "coopScore": 2
     },
     {
       "id": 223,
@@ -8515,9 +8167,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551197"
+      "coopScore": 2
     },
     {
       "id": 226,
@@ -8562,9 +8212,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551197"
+      "coopScore": 2
     },
     {
       "id": 227,
@@ -8609,9 +8257,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551199"
+      "coopScore": 2
     },
     {
       "id": 228,
@@ -8655,9 +8301,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551199"
+      "coopScore": 2
     },
     {
       "id": 230,
@@ -8702,9 +8346,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551200"
+      "coopScore": 2
     },
     {
       "id": 231,
@@ -8748,9 +8390,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551201"
+      "coopScore": 2
     },
     {
       "id": 232,
@@ -8793,9 +8433,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551202"
+      "coopScore": 2
     },
     {
       "id": 233,
@@ -8839,9 +8477,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551203"
+      "coopScore": 2
     },
     {
       "id": 234,
@@ -8886,9 +8522,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551204"
+      "coopScore": 2
     },
     {
       "id": 235,
@@ -8934,9 +8568,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551205"
+      "coopScore": 2
     },
     {
       "id": 236,
@@ -8982,9 +8614,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551206"
+      "coopScore": 2
     },
     {
       "id": 237,
@@ -9028,9 +8658,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551207"
+      "coopScore": 2
     },
     {
       "id": 238,
@@ -9076,9 +8704,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551207"
+      "coopScore": 2
     },
     {
       "id": 239,
@@ -9121,9 +8747,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551208"
+      "coopScore": 2
     },
     {
       "id": 240,
@@ -9169,9 +8793,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 3,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551209"
+      "coopScore": 3
     },
     {
       "id": 241,
@@ -9216,9 +8838,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "UNKNOWN",
-      "lastValidated": "2026-04-11T17:04:25.551210"
+      "coopScore": 2
     },
     {
       "id": 242,
@@ -9263,9 +8883,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551211"
+      "coopScore": 2
     },
     {
       "id": 243,
@@ -9310,9 +8928,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 3,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551212"
+      "coopScore": 3
     },
     {
       "id": 244,
@@ -9357,9 +8973,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551213"
+      "coopScore": 2
     },
     {
       "id": 245,
@@ -9403,9 +9017,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551214"
+      "coopScore": 2
     },
     {
       "id": 246,
@@ -9451,9 +9063,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551215"
+      "coopScore": 2
     },
     {
       "id": 247,
@@ -9498,9 +9108,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551215"
+      "coopScore": 2
     },
     {
       "id": 249,
@@ -9545,9 +9153,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551216"
+      "coopScore": 2
     },
     {
       "id": 250,
@@ -9594,9 +9200,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551217"
+      "coopScore": 2
     },
     {
       "id": 251,
@@ -9640,9 +9244,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551218"
+      "coopScore": 2
     },
     {
       "id": 252,
@@ -9687,9 +9289,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551219"
+      "coopScore": 2
     },
     {
       "id": 253,
@@ -9732,9 +9332,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551220"
+      "coopScore": 2
     },
     {
       "id": 254,
@@ -9778,9 +9376,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551221"
+      "coopScore": 2
     },
     {
       "id": 255,
@@ -9826,9 +9422,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551222"
+      "coopScore": 2
     },
     {
       "id": 256,
@@ -9872,9 +9466,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551223"
+      "coopScore": 2
     },
     {
       "id": 257,
@@ -9961,9 +9553,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551224"
+      "coopScore": 2
     },
     {
       "id": 259,
@@ -10049,9 +9639,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551225"
+      "coopScore": 2
     },
     {
       "id": 263,
@@ -10139,9 +9727,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551226"
+      "coopScore": 2
     },
     {
       "id": 265,
@@ -10189,9 +9775,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551227"
+      "coopScore": 2
     },
     {
       "id": 266,
@@ -10234,9 +9818,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551228"
+      "coopScore": 2
     },
     {
       "id": 267,
@@ -10280,9 +9862,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551229"
+      "coopScore": 2
     },
     {
       "id": 268,
@@ -10327,9 +9907,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551230"
+      "coopScore": 2
     },
     {
       "id": 269,
@@ -10373,9 +9951,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551231"
+      "coopScore": 2
     },
     {
       "id": 270,
@@ -10420,9 +9996,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551232"
+      "coopScore": 2
     },
     {
       "id": 271,
@@ -10466,9 +10040,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551233"
+      "coopScore": 2
     },
     {
       "id": 272,
@@ -10514,9 +10086,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551234"
+      "coopScore": 2
     },
     {
       "id": 273,
@@ -10562,9 +10132,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551235"
+      "coopScore": 2
     },
     {
       "id": 274,
@@ -10609,9 +10177,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551236"
+      "coopScore": 2
     },
     {
       "id": 275,
@@ -10655,9 +10221,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551237"
+      "coopScore": 2
     },
     {
       "id": 276,
@@ -10700,9 +10264,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551238"
+      "coopScore": 2
     },
     {
       "id": 277,
@@ -10748,9 +10310,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551239"
+      "coopScore": 2
     },
     {
       "id": 278,
@@ -10796,9 +10356,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551240"
+      "coopScore": 2
     },
     {
       "id": 279,
@@ -10842,9 +10400,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551240"
+      "coopScore": 2
     },
     {
       "id": 280,
@@ -10889,9 +10445,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551241"
+      "coopScore": 2
     },
     {
       "id": 281,
@@ -10934,9 +10488,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551242"
+      "coopScore": 2
     },
     {
       "id": 282,
@@ -10982,9 +10534,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551243"
+      "coopScore": 2
     },
     {
       "id": 283,
@@ -11029,9 +10579,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551244"
+      "coopScore": 2
     },
     {
       "id": 284,
@@ -11075,9 +10623,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551245"
+      "coopScore": 2
     },
     {
       "id": 285,
@@ -11122,9 +10668,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551246"
+      "coopScore": 2
     },
     {
       "id": 286,
@@ -11168,9 +10712,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551247"
+      "coopScore": 2
     },
     {
       "id": 287,
@@ -11216,9 +10758,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551248"
+      "coopScore": 2
     },
     {
       "id": 288,
@@ -11262,9 +10802,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551249"
+      "coopScore": 2
     },
     {
       "id": 289,
@@ -11310,9 +10848,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551250"
+      "coopScore": 2
     },
     {
       "id": 290,
@@ -11402,9 +10938,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551251"
+      "coopScore": 2
     },
     {
       "id": 292,
@@ -11448,9 +10982,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551252"
+      "coopScore": 2
     },
     {
       "id": 293,
@@ -11494,9 +11026,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551252"
+      "coopScore": 2
     },
     {
       "id": 294,
@@ -11539,9 +11069,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551253"
+      "coopScore": 2
     },
     {
       "id": 295,
@@ -11586,9 +11114,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551254"
+      "coopScore": 2
     },
     {
       "id": 296,
@@ -11631,9 +11157,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551255"
+      "coopScore": 2
     },
     {
       "id": 298,
@@ -11677,9 +11201,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551256"
+      "coopScore": 2
     },
     {
       "id": 299,
@@ -11725,9 +11247,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551257"
+      "coopScore": 2
     },
     {
       "id": 300,
@@ -11772,9 +11292,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551258"
+      "coopScore": 2
     },
     {
       "id": 301,
@@ -11818,9 +11336,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551259"
+      "coopScore": 2
     },
     {
       "id": 302,
@@ -11865,9 +11381,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551260"
+      "coopScore": 2
     },
     {
       "id": 303,
@@ -11912,9 +11426,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551261"
+      "coopScore": 2
     },
     {
       "id": 304,
@@ -12008,9 +11520,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551262"
+      "coopScore": 2
     },
     {
       "id": 306,
@@ -12054,9 +11564,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551263"
+      "coopScore": 2
     },
     {
       "id": 307,
@@ -12102,9 +11610,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551264"
+      "coopScore": 2
     },
     {
       "id": 308,
@@ -12148,9 +11654,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551265"
+      "coopScore": 2
     },
     {
       "id": 309,
@@ -12195,9 +11699,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551266"
+      "coopScore": 2
     },
     {
       "id": 310,
@@ -12243,9 +11745,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551267"
+      "coopScore": 2
     },
     {
       "id": 311,
@@ -12291,9 +11791,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 3,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551268"
+      "coopScore": 3
     },
     {
       "id": 312,
@@ -12342,9 +11840,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551269"
+      "coopScore": 2
     },
     {
       "id": 313,
@@ -12390,9 +11886,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551270"
+      "coopScore": 2
     },
     {
       "id": 314,
@@ -12436,9 +11930,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551271"
+      "coopScore": 2
     },
     {
       "id": 315,
@@ -12483,9 +11975,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551272"
+      "coopScore": 2
     },
     {
       "id": 316,
@@ -12576,9 +12066,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551273"
+      "coopScore": 2
     },
     {
       "id": 320,
@@ -12623,9 +12111,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551274"
+      "coopScore": 2
     },
     {
       "id": 322,
@@ -12670,9 +12156,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551275"
+      "coopScore": 2
     },
     {
       "id": 323,
@@ -12717,9 +12201,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551276"
+      "coopScore": 2
     },
     {
       "id": 324,
@@ -12764,9 +12246,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551277"
+      "coopScore": 2
     },
     {
       "id": 325,
@@ -12811,9 +12291,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551278"
+      "coopScore": 2
     },
     {
       "id": 326,
@@ -12859,9 +12337,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551279"
+      "coopScore": 2
     },
     {
       "id": 327,
@@ -12904,9 +12380,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551280"
+      "coopScore": 2
     },
     {
       "id": 328,
@@ -12953,9 +12427,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551281"
+      "coopScore": 2
     },
     {
       "id": 329,
@@ -12997,9 +12469,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551282"
+      "coopScore": 2
     },
     {
       "id": 330,
@@ -13043,9 +12513,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551283"
+      "coopScore": 2
     },
     {
       "id": 331,
@@ -13091,9 +12559,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551284"
+      "coopScore": 2
     },
     {
       "id": 332,
@@ -13184,9 +12650,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551285"
+      "coopScore": 2
     },
     {
       "id": 335,
@@ -13230,9 +12694,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551286"
+      "coopScore": 2
     },
     {
       "id": 336,
@@ -13277,9 +12739,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551287"
+      "coopScore": 2
     },
     {
       "id": 337,
@@ -13326,9 +12786,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551288"
+      "coopScore": 2
     },
     {
       "id": 338,
@@ -13374,9 +12832,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551289"
+      "coopScore": 2
     },
     {
       "id": 339,
@@ -13422,9 +12878,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551290"
+      "coopScore": 2
     },
     {
       "id": 340,
@@ -13470,9 +12924,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551290"
+      "coopScore": 2
     },
     {
       "id": 341,
@@ -13517,9 +12969,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551291"
+      "coopScore": 2
     },
     {
       "id": 342,
@@ -13566,9 +13016,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551292"
+      "coopScore": 2
     },
     {
       "id": 343,
@@ -13613,9 +13061,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551293"
+      "coopScore": 2
     },
     {
       "id": 344,
@@ -13661,9 +13107,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551294"
+      "coopScore": 2
     },
     {
       "id": 345,
@@ -13707,9 +13151,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551295"
+      "coopScore": 2
     },
     {
       "id": 346,
@@ -13756,9 +13198,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551296"
+      "coopScore": 2
     },
     {
       "id": 347,
@@ -13802,9 +13242,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551297"
+      "coopScore": 2
     },
     {
       "id": 348,
@@ -13850,9 +13288,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551298"
+      "coopScore": 2
     },
     {
       "id": 349,
@@ -13897,9 +13333,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551299"
+      "coopScore": 2
     },
     {
       "id": 350,
@@ -13945,9 +13379,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551300"
+      "coopScore": 2
     },
     {
       "id": 351,
@@ -13992,9 +13424,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 3,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551301"
+      "coopScore": 3
     },
     {
       "id": 352,
@@ -14039,9 +13469,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551302"
+      "coopScore": 2
     },
     {
       "id": 354,
@@ -14084,9 +13512,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551303"
+      "coopScore": 2
     },
     {
       "id": 355,
@@ -14133,9 +13559,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551304"
+      "coopScore": 2
     },
     {
       "id": 356,
@@ -14182,9 +13606,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551305"
+      "coopScore": 2
     },
     {
       "id": 357,
@@ -14228,9 +13650,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551306"
+      "coopScore": 2
     },
     {
       "id": 358,
@@ -14276,9 +13696,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551307"
+      "coopScore": 2
     },
     {
       "id": 361,
@@ -14322,9 +13740,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551308"
+      "coopScore": 2
     },
     {
       "id": 362,
@@ -14368,9 +13784,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551309"
+      "coopScore": 2
     },
     {
       "id": 363,
@@ -14416,9 +13830,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551310"
+      "coopScore": 2
     },
     {
       "id": 364,
@@ -14462,9 +13874,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551311"
+      "coopScore": 2
     },
     {
       "id": 366,
@@ -14509,9 +13919,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551312"
+      "coopScore": 2
     },
     {
       "id": 367,
@@ -14556,9 +13964,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551313"
+      "coopScore": 2
     },
     {
       "id": 368,
@@ -14602,9 +14008,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551314"
+      "coopScore": 2
     },
     {
       "id": 369,
@@ -14696,9 +14100,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551315"
+      "coopScore": 2
     },
     {
       "id": 371,
@@ -14746,9 +14148,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551316"
+      "coopScore": 2
     },
     {
       "id": 372,
@@ -14794,9 +14194,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551317"
+      "coopScore": 2
     },
     {
       "id": 373,
@@ -14845,9 +14243,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551318"
+      "coopScore": 2
     },
     {
       "id": 374,
@@ -14893,9 +14289,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551319"
+      "coopScore": 2
     },
     {
       "id": 376,
@@ -14940,9 +14334,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551320"
+      "coopScore": 2
     },
     {
       "id": 377,
@@ -14987,9 +14379,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551321"
+      "coopScore": 2
     },
     {
       "id": 378,
@@ -15033,9 +14423,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551322"
+      "coopScore": 2
     },
     {
       "id": 379,
@@ -15079,9 +14467,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551323"
+      "coopScore": 2
     },
     {
       "id": 400,
@@ -15171,9 +14557,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551324"
+      "coopScore": 2
     },
     {
       "id": 402,
@@ -15220,9 +14604,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551325"
+      "coopScore": 2
     },
     {
       "id": 403,
@@ -15266,9 +14648,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551326"
+      "coopScore": 2
     },
     {
       "id": 404,
@@ -15313,9 +14693,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551326"
+      "coopScore": 2
     },
     {
       "id": 405,
@@ -15360,9 +14738,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551327"
+      "coopScore": 2
     },
     {
       "id": 426,
@@ -15406,9 +14782,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
-      "coopScore": null,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551328"
+      "coopScore": null
     },
     {
       "id": 427,
@@ -15453,9 +14827,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
-      "coopScore": null,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551329"
+      "coopScore": null
     },
     {
       "id": 428,
@@ -15543,9 +14915,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
-      "coopScore": null,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551330"
+      "coopScore": null
     },
     {
       "id": 430,
@@ -15590,9 +14960,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
-      "coopScore": null,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551331"
+      "coopScore": null
     },
     {
       "id": 432,
@@ -15636,9 +15004,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
-      "coopScore": null,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551332"
+      "coopScore": null
     },
     {
       "id": 433,
@@ -15680,9 +15046,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
-      "coopScore": null,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551333"
+      "coopScore": null
     },
     {
       "id": 434,
@@ -15727,9 +15091,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
-      "coopScore": null,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551334"
+      "coopScore": null
     },
     {
       "id": 455,
@@ -15771,9 +15133,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
-      "coopScore": null,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551335"
+      "coopScore": null
     },
     {
       "id": 456,
@@ -15901,9 +15261,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
-      "coopScore": null,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551336"
+      "coopScore": null
     },
     {
       "id": 460,
@@ -15945,9 +15303,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
-      "coopScore": null,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551337"
+      "coopScore": null
     },
     {
       "id": 461,
@@ -16033,9 +15389,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
-      "coopScore": null,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551338"
+      "coopScore": null
     },
     {
       "id": 483,
@@ -16077,9 +15431,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
-      "coopScore": null,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551339"
+      "coopScore": null
     },
     {
       "id": 518,
@@ -16126,9 +15478,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551340"
+      "coopScore": 2
     },
     {
       "id": 521,
@@ -16172,9 +15522,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551341"
+      "coopScore": 2
     },
     {
       "id": 524,
@@ -16216,9 +15564,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551342"
+      "coopScore": 2
     },
     {
       "id": 525,
@@ -16260,9 +15606,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551343"
+      "coopScore": 2
     },
     {
       "id": 526,
@@ -16307,9 +15651,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551344"
+      "coopScore": 2
     },
     {
       "id": 527,
@@ -16354,9 +15696,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551345"
+      "coopScore": 2
     },
     {
       "id": 529,
@@ -16401,9 +15741,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551346"
+      "coopScore": 2
     },
     {
       "id": 530,
@@ -16451,9 +15789,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551347"
+      "coopScore": 2
     },
     {
       "id": 531,
@@ -16499,9 +15835,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551348"
+      "coopScore": 2
     },
     {
       "id": 533,
@@ -16546,9 +15880,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551349"
+      "coopScore": 2
     },
     {
       "id": 534,
@@ -16593,9 +15925,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551350"
+      "coopScore": 2
     },
     {
       "id": 541,
@@ -16639,9 +15969,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
-      "coopScore": null,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551351"
+      "coopScore": null
     },
     {
       "id": 542,
@@ -16685,9 +16013,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
-      "coopScore": null,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551352"
+      "coopScore": null
     },
     {
       "id": 543,
@@ -16729,9 +16055,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
-      "coopScore": null,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551353"
+      "coopScore": null
     },
     {
       "id": 556,
@@ -16777,9 +16101,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551354"
+      "coopScore": 2
     },
     {
       "id": 557,
@@ -16828,9 +16150,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551355"
+      "coopScore": 2
     },
     {
       "id": 558,
@@ -16874,9 +16194,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551356"
+      "coopScore": 2
     },
     {
       "id": 576,
@@ -16960,9 +16278,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551357"
+      "coopScore": 2
     },
     {
       "id": 582,
@@ -17004,9 +16320,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551358"
+      "coopScore": 2
     },
     {
       "id": 583,
@@ -17048,9 +16362,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
-      "coopScore": null,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551359"
+      "coopScore": null
     },
     {
       "id": 586,
@@ -17095,9 +16407,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551360"
+      "coopScore": 2
     },
     {
       "id": 587,
@@ -17141,9 +16451,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551361"
+      "coopScore": 2
     },
     {
       "id": 588,
@@ -17188,9 +16496,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551362"
+      "coopScore": 2
     },
     {
       "id": 589,
@@ -17235,9 +16541,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551363"
+      "coopScore": 2
     },
     {
       "id": 590,
@@ -17281,9 +16585,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551364"
+      "coopScore": 2
     },
     {
       "id": 591,
@@ -17328,9 +16630,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551365"
+      "coopScore": 2
     },
     {
       "id": 592,
@@ -17374,9 +16674,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551366"
+      "coopScore": 2
     },
     {
       "id": 593,
@@ -17423,9 +16721,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551367"
+      "coopScore": 2
     },
     {
       "id": 594,
@@ -17468,9 +16764,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551368"
+      "coopScore": 2
     },
     {
       "id": 595,
@@ -17515,9 +16809,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551369"
+      "coopScore": 2
     },
     {
       "id": 596,
@@ -17560,9 +16852,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551370"
+      "coopScore": 2
     },
     {
       "id": 597,
@@ -17605,9 +16895,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551370"
+      "coopScore": 2
     },
     {
       "id": 598,
@@ -17647,9 +16935,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551371"
+      "coopScore": 2
     },
     {
       "id": 599,
@@ -17695,9 +16981,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551372"
+      "coopScore": 2
     },
     {
       "id": 600,
@@ -17737,9 +17021,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551373"
+      "coopScore": 2
     },
     {
       "id": 601,
@@ -17782,9 +17064,7 @@
       "gmvDiscount": 10,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551374"
+      "coopScore": 2
     },
     {
       "id": 602,
@@ -17828,9 +17108,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551375"
+      "coopScore": 2
     },
     {
       "id": 609,
@@ -17872,9 +17150,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551376"
+      "coopScore": 2
     },
     {
       "id": 615,
@@ -17916,9 +17192,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
       "gmgDiscount": 5,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551377"
+      "coopScore": 2
     },
     {
       "id": 616,
@@ -17960,9 +17234,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
-      "coopScore": null,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551378"
+      "coopScore": null
     },
     {
       "id": 622,
@@ -18006,9 +17278,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551379"
+      "coopScore": 2
     },
     {
       "id": 624,
@@ -18050,9 +17320,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551380"
+      "coopScore": 2
     },
     {
       "id": 625,
@@ -18096,9 +17364,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551381"
+      "coopScore": 2
     },
     {
       "id": 627,
@@ -18140,9 +17406,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
-      "coopScore": 2,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551382"
+      "coopScore": 2
     },
     {
       "id": 628,
@@ -18185,9 +17449,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
-      "coopScore": 2,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551383"
+      "coopScore": 2
     },
     {
       "id": 629,
@@ -18227,9 +17489,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
-      "coopScore": null,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551384"
+      "coopScore": null
     },
     {
       "id": 630,
@@ -18500,9 +17760,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
-      "coopScore": null,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551385"
+      "coopScore": null
     },
     {
       "id": 636,
@@ -18590,9 +17848,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
-      "coopScore": null,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551386"
+      "coopScore": null
     },
     {
       "id": 638,
@@ -18634,9 +17890,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
-      "coopScore": null,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551387"
+      "coopScore": null
     },
     {
       "id": 640,
@@ -18678,9 +17932,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
-      "coopScore": null,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551388"
+      "coopScore": null
     },
     {
       "id": 641,
@@ -18722,9 +17974,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
-      "coopScore": null,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551389"
+      "coopScore": null
     },
     {
       "id": 642,
@@ -18766,9 +18016,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
-      "coopScore": null,
-      "coopType": "MIXED",
-      "lastValidated": "2026-04-11T17:04:25.551390"
+      "coopScore": null
     },
     {
       "id": 662,
@@ -18810,9 +18058,7 @@
       "gmvDiscount": 0,
       "gmgUrl": "",
       "gmgDiscount": 0,
-      "coopScore": null,
-      "coopType": "COOP",
-      "lastValidated": "2026-04-11T17:04:25.551391"
+      "coopScore": null
     }
   ]
 }
