@@ -1,6 +1,4 @@
 {
-  "buildCommand": "python3 scripts/run.py",
-  "outputDirectory": "public",
   "headers": [
     {
       "source": "/(.*\\.(js|css|png|webp|woff2|br|gz))",
