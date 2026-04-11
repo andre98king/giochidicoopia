@@ -314,14 +314,37 @@ def estimate_coop_score(cat_ids: set[int], pvp_ids: set[int]) -> int | None:
     - 2: solid co-op presence
     - 1: co-op exists but mixed with competitive
     """
-    has_strong_coop = bool(cat_ids & AUTO_APPROVE_COOP_CATS)
+    coop_type = derive_coop_type(cat_ids, pvp_ids)
+
+    if coop_type == "COOP":
+        return 3 if 38 in cat_ids else 2
+    elif coop_type == "MIXED":
+        return 1
+    return None
+
+
+def derive_coop_type(cat_ids: set[int], pvp_ids: set[int]) -> str:
+    """
+    Classifica il tipo di gioco in base alle categorie Steam.
+
+    Valori restituiti:
+    - "COOP": ha categorie co-op, nessuna PvP
+    - "MIXED": ha sia co-op CHE PvP
+    - "PVP": ha categorie PvP ma nessuna co-op
+
+    Questa funzione è deterministica e NON richiede LLM.
+    """
+    has_coop = bool(cat_ids)
     has_pvp = bool(pvp_ids)
 
-    if has_strong_coop and not has_pvp:
-        return 3 if 38 in cat_ids else 2
-    if has_strong_coop and has_pvp:
-        return 1
-    return 2
+    if has_coop and has_pvp:
+        return "MIXED"
+    elif has_coop:
+        return "COOP"
+    elif has_pvp:
+        return "PVP"
+    else:
+        return "UNKNOWN"  # Nessuna categoria rilevata
 
 
 def validate(
@@ -337,13 +360,15 @@ def validate(
 
     sources controls which APIs are queried:
       SOURCES_FAST  — Steam only (~1s/game, no keys needed)
-      SOURCES_FULL  — Steam + IGDB + GOG + RAWG (~4s/game)
-      None (default)— auto: Steam always; IGDB/RAWG if keys present; GOG always
+      SOURCES_FULL  — All four sources. ~1-2s/game (parallel).
+      None (default)— Auto: Steam always; IGDB/RAWG if credentials present; GOG always.
 
     Returns a verdict dict with keys:
-      status, reason, confidence, coop_modes, coop_score_hint,
+      status, reason, confidence, coop_modes, coop_score_hint, coop_type,
       steam_name, pvp_signals, coop_signals,
       rawg_confirmed, igdb_confirmed, gog_confirmed
+
+    coop_type values: "COOP" | "MIXED" | "PVP" | "UNKNOWN"
     """
     # Resolve active sources
     if sources is None:
@@ -455,6 +480,7 @@ def validate(
             ),
             "steam_name": steam_name,
             "pvp_signals": pvp_signals,
+            "coop_type": "PVP",
         }
 
     if not found_coop_ids:
@@ -462,6 +488,7 @@ def validate(
             **_empty_verdict("rejected", "No co-op categories found on Steam", "high"),
             "steam_name": steam_name,
             "pvp_signals": pvp_signals,
+            "coop_type": "UNKNOWN",
         }
 
     # ── Secondary sources (only reached when Steam confirms co-op) ──
@@ -541,6 +568,7 @@ def validate(
         "confidence": confidence,
         "coop_modes": derive_coop_modes(found_coop_ids),
         "coop_score_hint": estimate_coop_score(found_coop_ids, found_pvp_ids),
+        "coop_type": derive_coop_type(found_coop_ids, found_pvp_ids),
         "steam_name": steam_name,
         "pvp_signals": pvp_signals,
         "coop_signals": coop_signals,

@@ -91,6 +91,7 @@ def _build_steam_game_dict(
     igdb_confirmed: bool | None = None,
     gog_confirmed: bool | None = None,
     rawg_confirmed: bool | None = None,
+    coop_type: str = "COOP",
 ) -> dict:
     """Costruisce il dict canonico per un nuovo gioco con Steam URL."""
     return {
@@ -100,6 +101,7 @@ def _build_steam_game_dict(
         "categories": categories[:4],
         "genres": derive_genres(categories[:4]),
         "coopMode": coop_modes,
+        "coopType": coop_type,
         "maxPlayers": max_players,
         "crossplay": crossplay,
         "players": players,
@@ -284,6 +286,14 @@ def _enrich_steam_candidate(
     if coop_validation is None:
         return None  # rejected o needs_review già loggato da _validate_coop
 
+    # Estrai coopType dal verdict
+    coop_type = qg_verdict.get("coop_type", "COOP")
+
+    # Blocca i giochi PvP-only
+    if coop_type == "PVP":
+        print(f"    ✗ Gioco PvP-only: {appid}")
+        return None
+
     return _build_steam_game_dict(
         next_id=next_id,
         appid=appid,
@@ -303,6 +313,7 @@ def _enrich_steam_candidate(
         igdb_confirmed=qg_verdict.get("igdb_confirmed"),
         gog_confirmed=qg_verdict.get("gog_confirmed"),
         rawg_confirmed=qg_verdict.get("rawg_confirmed"),
+        coop_type=coop_type,
     )
 
 
@@ -966,6 +977,7 @@ for cand in unique_candidates:
             igdb_confirmed=verdict.get("igdb_confirmed"),
             gog_confirmed=verdict.get("gog_confirmed"),
             rawg_confirmed=verdict.get("rawg_confirmed"),
+            coop_type=verdict.get("coop_type", "COOP"),
         )
         new_game["image"] = snd.get("image", new_game["image"])
         new_game["steamUrl"] = snd.get("steamUrl", new_game["steamUrl"])
