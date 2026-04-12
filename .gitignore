@@ -1,0 +1,32 @@
+# Compression artifacts (not needed for GitHub Pages)
+*.gz
+*.br
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Cache
+.ruff_cache/
+.aider.tags.cache.v4/
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env.local
+.env.*.local
