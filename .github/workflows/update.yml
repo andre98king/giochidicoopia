@@ -350,7 +350,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -u
+          git add -- ':!*.gz' ':!*.br'
           git add games en data/catalog.games.v1.json data/catalog.public.v1.json assets/games.js assets/bundles/games-data.js assets/i18n.js
           if git diff --staged --quiet; then
             echo "Nessuna modifica da committare."

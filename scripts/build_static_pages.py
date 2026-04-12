@@ -1192,4 +1192,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-    compress_assets(str(ROOT))
+    # compress_assets(str(ROOT))  # DISABLED: .gz files not needed for GitHub Pages
