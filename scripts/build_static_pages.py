@@ -45,7 +45,7 @@ def safe_template(template: str, **kwargs: str) -> str:
 
 
 ROOT = catalog_data.ROOT
-OUTPUT_DIR = ROOT / "public"
+OUTPUT_DIR = ROOT
 GAMES_DIR = ROOT / "games"
 GAMES_EN_DIR = ROOT / "games" / "en"
 SITEMAP = ROOT / "sitemap.xml"
