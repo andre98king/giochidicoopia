@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-10T12:06:33+00:00",
+  "generatedAt": "2026-04-12T08:07:22+00:00",
   "featuredIndieId": 180,
   "games": [
     {
@@ -18046,6 +18046,48 @@
       "ccu": 0,
       "trending": false,
       "rating": 92,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 664,
+      "slug": "night-shippers",
+      "title": "Night Shippers",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 0,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3761880/a7747d30784d6a8b7e86198d5bd336715ae805c3/header.jpg?t=1775551295",
+      "description": "You signed up to deliver food in the underworld, alone or with up to 8 friends. Everynight your work condition changes. Take orders, dodge monsters, and survive the night - or be trapped in hell forever.",
+      "description_en": "You signed up to deliver food in the underworld, alone or with up to 8 friends. Everynight your work condition changes. Take orders, dodge monsters, and survive the night - or be trapped in hell forever.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3761880/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
