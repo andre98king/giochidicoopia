@@ -28,7 +28,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-GAMES_JS = ROOT / "assets" / "games.js"
+GAMES_JS = ROOT / "assets" / "bundles" / "games-data.js"
 ARTIFACTS_DIR = ROOT / "data" / "artifacts"
 
 # Mappa: nome artifact → lista di campi da mergeare
@@ -237,7 +237,7 @@ def merge_artifacts(base_games: list[dict], artifact_dir: Path) -> list[dict]:
 
 
 def run() -> None:
-    base_games_js = ROOT / "assets" / "games.js"
+    base_games_js = GAMES_JS
     if not base_games_js.exists():
         print("❌ games.js base non trovato")
         sys.exit(1)
