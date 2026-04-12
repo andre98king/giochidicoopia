@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-12T07:57:30.563984Z",
+  "generatedAt": "2026-04-12T16:18:06.493784Z",
   "games": [
     {
       "id": 1,
@@ -41170,7 +41170,7 @@
       "maxPlayers": 4,
       "crossplay": false,
       "players": "2-4",
-      "releaseYear": 0,
+      "releaseYear": 2026,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3761880/a7747d30784d6a8b7e86198d5bd336715ae805c3/header.jpg?t=1775551295",
       "description": "You signed up to deliver food in the underworld, alone or with up to 8 friends. Everynight your work condition changes. Take orders, dodge monsters, and survive the night - or be trapped in hell forever.",
       "description_en": "You signed up to deliver food in the underworld, alone or with up to 8 friends. Everynight your work condition changes. Take orders, dodge monsters, and survive the night - or be trapped in hell forever.",
@@ -41182,7 +41182,7 @@
       "itchUrl": "",
       "ccu": 0,
       "trending": false,
-      "rating": 0,
+      "rating": 76,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
@@ -41236,7 +41236,7 @@
       "signals": {
         "ccu": 0,
         "trending": false,
-        "rating": 0,
+        "rating": 76,
         "igdb": false,
         "gog": false,
         "rawg": false
