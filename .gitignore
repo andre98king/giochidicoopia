@@ -30,6 +30,10 @@ sitemap*.xml
 # Reports - temporary artifacts
 reports/
 
+# CI artifacts - temporary build artifacts
+data/artifacts/
+db-output/
+
 # Environment
 .env.local
 .env.*.local
