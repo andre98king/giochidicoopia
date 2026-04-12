@@ -24,9 +24,33 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
+# Build artifacts - regenerated on each build
+sitemap*.xml
+
+# Reports - temporary artifacts
+reports/
 
 # Environment
 .env.local
 .env.*.local
+.env
+
+# Aider
+.aider.chat.history.md
+.aider.input.history
+.aider.tags.cache.v4/
+
+# Claude/AI tools config
+.claude/
+
+# Dev/design files
+.dev/
+
+# Planning docs
+.planning/
+
+# OpenCode
+.opencode/
+
+# Playwright
+.playwright-mcp/
