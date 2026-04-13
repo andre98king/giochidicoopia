@@ -46,14 +46,15 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 import quality_gate
 
-GAMES_JS      = ROOT / "assets" / "games.js"
-DATA_DIR      = ROOT / "data"
-STATE_PATH    = DATA_DIR / "audit_state.json"
+GAMES_JS = ROOT / "assets" / "bundles" / "games-data.js"
+DATA_DIR = ROOT / "data"
+STATE_PATH = DATA_DIR / "audit_state.json"
 REJECTED_PATH = DATA_DIR / "audit_rejected.json"
-REVIEW_PATH   = DATA_DIR / "audit_needs_review.json"
+REVIEW_PATH = DATA_DIR / "audit_needs_review.json"
 
 
 # ─── Env ──────────────────────────────────────────────────────────────────────
+
 
 def load_env() -> dict[str, str]:
     env = {}
@@ -69,13 +70,14 @@ def load_env() -> dict[str, str]:
 # ─── games.js parsing ─────────────────────────────────────────────────────────
 
 _FIELD_PATTERNS = {
-    "id":             re.compile(r'^\s+id:\s*(\d+),', re.MULTILINE),
-    "title":          re.compile(r'^\s+title:\s*"(.*?)"', re.MULTILINE),
-    "steamUrl":       re.compile(r'^\s+steamUrl:\s*"(.*?)"', re.MULTILINE),
-    "coopScore":      re.compile(r'^\s+coopScore:\s*(\d+|null)', re.MULTILINE),
+    "id": re.compile(r"^\s+id:\s*(\d+),", re.MULTILINE),
+    "title": re.compile(r'^\s+title:\s*"(.*?)"', re.MULTILINE),
+    "steamUrl": re.compile(r'^\s+steamUrl:\s*"(.*?)"', re.MULTILINE),
+    "coopScore": re.compile(r"^\s+coopScore:\s*(\d+|null)", re.MULTILINE),
     "mini_review_it": re.compile(r'^\s+mini_review_it:\s*"(.*?)"', re.MULTILINE),
     "mini_review_en": re.compile(r'^\s+mini_review_en:\s*"(.*?)"', re.MULTILINE),
 }
+
 
 def parse_games_js() -> list[dict]:
     """
@@ -89,14 +91,34 @@ def parse_games_js() -> list[dict]:
         if not id_m:
             continue
         score_m = _FIELD_PATTERNS["coopScore"].search(block)
-        games.append({
-            "id":             int(id_m.group(1)),
-            "title":          (m.group(1) if (m := _FIELD_PATTERNS["title"].search(block)) else ""),
-            "steamUrl":       (m.group(1) if (m := _FIELD_PATTERNS["steamUrl"].search(block)) else ""),
-            "coopScore":      (int(score_m.group(1)) if score_m and score_m.group(1) != "null" else None),
-            "mini_review_it": (m.group(1) if (m := _FIELD_PATTERNS["mini_review_it"].search(block)) else ""),
-            "mini_review_en": (m.group(1) if (m := _FIELD_PATTERNS["mini_review_en"].search(block)) else ""),
-        })
+        games.append(
+            {
+                "id": int(id_m.group(1)),
+                "title": (
+                    m.group(1) if (m := _FIELD_PATTERNS["title"].search(block)) else ""
+                ),
+                "steamUrl": (
+                    m.group(1)
+                    if (m := _FIELD_PATTERNS["steamUrl"].search(block))
+                    else ""
+                ),
+                "coopScore": (
+                    int(score_m.group(1))
+                    if score_m and score_m.group(1) != "null"
+                    else None
+                ),
+                "mini_review_it": (
+                    m.group(1)
+                    if (m := _FIELD_PATTERNS["mini_review_it"].search(block))
+                    else ""
+                ),
+                "mini_review_en": (
+                    m.group(1)
+                    if (m := _FIELD_PATTERNS["mini_review_en"].search(block))
+                    else ""
+                ),
+            }
+        )
     return games
 
 
@@ -107,21 +129,23 @@ def extract_app_id(steam_url: str) -> str | None:
 
 # ─── games.js rewrite (remove by ID) ─────────────────────────────────────────
 
+
 def remove_games_by_id(ids_to_remove: set[int]) -> int:
     """Remove game blocks from games.js by ID. Returns count removed."""
     content = GAMES_JS.read_text(encoding="utf-8")
     removed = 0
     for gid in ids_to_remove:
-        pattern = rf',?\n  \{{\n    id: {gid},[\s\S]*?  \}}(?=,?\n)'
+        pattern = rf",?\n  \{{\n    id: {gid},[\s\S]*?  \}}(?=,?\n)"
         content, n = re.subn(pattern, "", content)
         removed += n
-    content = re.sub(r',\s*,', ',', content)
-    content = re.sub(r',\s*\];', '\n];', content)
+    content = re.sub(r",\s*,", ",", content)
+    content = re.sub(r",\s*\];", "\n];", content)
     GAMES_JS.write_text(content, encoding="utf-8")
     return removed
 
 
 # ─── State / resume ───────────────────────────────────────────────────────────
+
 
 def load_state() -> dict[str, dict]:
     if STATE_PATH.exists():
@@ -134,6 +158,7 @@ def save_state(state: dict) -> None:
 
 
 # ─── Per-game audit worker (runs in thread pool) ──────────────────────────────
+
 
 def _audit_one(
     game: dict,
@@ -149,11 +174,15 @@ def _audit_one(
     """
     app_id = extract_app_id(game["steamUrl"])
     if not app_id:
-        return game, None, {
-            "status": "needs_review",
-            "reason": "No Steam URL — manual review needed",
-            "confidence": "low",
-        }
+        return (
+            game,
+            None,
+            {
+                "status": "needs_review",
+                "reason": "No Steam URL — manual review needed",
+                "confidence": "low",
+            },
+        )
     try:
         verdict = quality_gate.validate(
             app_id,
@@ -174,6 +203,7 @@ def _audit_one(
 
 # ─── Main audit ───────────────────────────────────────────────────────────────
 
+
 def run(
     full_mode: bool,
     apply: bool,
@@ -184,16 +214,22 @@ def run(
 ) -> None:
     sources = quality_gate.SOURCES_FULL if full_mode else quality_gate.SOURCES_FAST
     workers = 1 if full_mode else 2
-    delay   = 2.0 if full_mode else 1.5
+    delay = 2.0 if full_mode else 1.5
 
     print("=" * 60)
     print("CATALOG AUDIT")
     print("=" * 60)
-    print(f"Mode:    {'FULL (Steam+IGDB+GOG+RAWG)' if full_mode else 'FAST (Steam only)'}")
-    print(f"Action:  {'APPLY — remove hard-rejected games' if apply else 'DRY RUN — reports only'}")
+    print(
+        f"Mode:    {'FULL (Steam+IGDB+GOG+RAWG)' if full_mode else 'FAST (Steam only)'}"
+    )
+    print(
+        f"Action:  {'APPLY — remove hard-rejected games' if apply else 'DRY RUN — reports only'}"
+    )
     print(f"Workers: {workers} parallel")
     if full_mode:
-        print(f"IGDB:    {'enabled' if igdb_client_id else 'disabled (no credentials)'}")
+        print(
+            f"IGDB:    {'enabled' if igdb_client_id else 'disabled (no credentials)'}"
+        )
         print(f"RAWG:    {'enabled' if rawg_api_key else 'disabled (no key)'}")
     print()
 
@@ -223,8 +259,15 @@ def run(
 
     with ThreadPoolExecutor(max_workers=workers) as pool:
         futures = {
-            pool.submit(_audit_one, game, sources, rawg_api_key,
-                        igdb_client_id, igdb_client_secret, delay): game
+            pool.submit(
+                _audit_one,
+                game,
+                sources,
+                rawg_api_key,
+                igdb_client_id,
+                igdb_client_secret,
+                delay,
+            ): game
             for game in pending
         }
         for future in as_completed(futures):
@@ -234,12 +277,16 @@ def run(
                 fresh_results.append((game, app_id, verdict))
                 pct = completed * 100 // len(pending) if pending else 100
                 status = verdict["status"]
-                icon   = {"approved": "✓", "needs_review": "⚠", "rejected": "✗"}.get(status, "?")
-                conf_i = {"high": "★", "medium": "◆", "low": "○"}.get(verdict.get("confidence", ""), "?")
+                icon = {"approved": "✓", "needs_review": "⚠", "rejected": "✗"}.get(
+                    status, "?"
+                )
+                conf_i = {"high": "★", "medium": "◆", "low": "○"}.get(
+                    verdict.get("confidence", ""), "?"
+                )
                 print(
                     f"[{completed:3}/{len(pending)} {pct:3}%] "
                     f"{game['title'][:40]:<40}  "
-                    f"{icon}{conf_i} {verdict.get('reason','')[:45]}"
+                    f"{icon}{conf_i} {verdict.get('reason', '')[:45]}"
                 )
 
     # ── Merge cached + fresh, sort by game ID ──
@@ -269,35 +316,46 @@ def run(
     print("AUDIT SUMMARY")
     print("=" * 60)
     print(f"  ✓ Passed:       {len(passed)}")
-    print(f"  ⚠ Needs review: {len(needs_review)}  (incl. {len(no_steam)} without Steam URL)")
+    print(
+        f"  ⚠ Needs review: {len(needs_review)}  (incl. {len(no_steam)} without Steam URL)"
+    )
     print(f"  ✗ Rejected:     {len(rejected)}")
     print()
 
     if rejected:
         print("REJECTED (false co-op):")
         for r in rejected:
-            print(f"  [{r['id']:4}] {r['title'][:45]:<45}  {r['verdict'].get('reason','')}")
+            print(
+                f"  [{r['id']:4}] {r['title'][:45]:<45}  {r['verdict'].get('reason', '')}"
+            )
         print()
 
     if needs_review:
         print("NEEDS REVIEW:")
         for r in needs_review:
             v = r["verdict"]
-            conf_i = {"high": "★", "medium": "◆", "low": "○"}.get(v.get("confidence", ""), "?")
-            print(f"  [{r['id']:4}] {r['title'][:45]:<45}  {conf_i} {v.get('reason','')[:45]}")
+            conf_i = {"high": "★", "medium": "◆", "low": "○"}.get(
+                v.get("confidence", ""), "?"
+            )
+            print(
+                f"  [{r['id']:4}] {r['title'][:45]:<45}  {conf_i} {v.get('reason', '')[:45]}"
+            )
         print()
 
     # ── Write reports ──
     DATA_DIR.mkdir(exist_ok=True)
-    REJECTED_PATH.write_text(json.dumps(rejected,     indent=2, ensure_ascii=False))
-    REVIEW_PATH.write_text(  json.dumps(needs_review, indent=2, ensure_ascii=False))
-    print(f"Reports: {REJECTED_PATH.name} ({len(rejected)}), {REVIEW_PATH.name} ({len(needs_review)})")
+    REJECTED_PATH.write_text(json.dumps(rejected, indent=2, ensure_ascii=False))
+    REVIEW_PATH.write_text(json.dumps(needs_review, indent=2, ensure_ascii=False))
+    print(
+        f"Reports: {REJECTED_PATH.name} ({len(rejected)}), {REVIEW_PATH.name} ({len(needs_review)})"
+    )
     print()
 
     # ── Apply ──
     if apply and rejected:
         safe_to_remove = [
-            r for r in rejected
+            r
+            for r in rejected
             if r["verdict"].get("confidence") == "high"
             and r["verdict"].get("status") == "rejected"
         ]
@@ -320,6 +378,7 @@ def run(
 
 # ─── CLI ──────────────────────────────────────────────────────────────────────
 
+
 def retry_steam_unavailable(
     rawg_api_key: str | None,
     igdb_client_id: str | None,
@@ -331,8 +390,7 @@ def retry_steam_unavailable(
     """
     state = load_state()
     to_retry = {
-        app_id: v for app_id, v in state.items()
-        if "Steam API" in v.get("reason", "")
+        app_id: v for app_id, v in state.items() if "Steam API" in v.get("reason", "")
     }
     if not to_retry:
         print("No games to retry — all already resolved.")
@@ -354,21 +412,37 @@ def retry_steam_unavailable(
             )
             state[app_id] = verdict
             updated += 1
-            icon = {"approved": "✓", "needs_review": "⚠", "rejected": "✗"}.get(verdict["status"], "?")
+            icon = {"approved": "✓", "needs_review": "⚠", "rejected": "✗"}.get(
+                verdict["status"], "?"
+            )
             print(f"  {icon} {app_id}: {verdict['reason'][:60]}")
         except Exception as exc:
             print(f"  ⚡ {app_id}: {exc}")
 
     save_state(state)
-    print(f"\nUpdated {updated} games. Re-run `catalog_audit.py --resume --apply` to apply.")
+    print(
+        f"\nUpdated {updated} games. Re-run `catalog_audit.py --resume --apply` to apply."
+    )
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Audit existing catalog for false co-op entries")
-    parser.add_argument("--full",     action="store_true", help="All sources (Steam+IGDB+GOG+RAWG)")
-    parser.add_argument("--apply",    action="store_true", help="Remove hard-rejected games from games.js")
-    parser.add_argument("--resume",   action="store_true", help="Skip games already in audit_state.json")
-    parser.add_argument("--fallback", action="store_true", help="Retry Steam-unavailable games using IGDB+GOG+RAWG")
+    parser = argparse.ArgumentParser(
+        description="Audit existing catalog for false co-op entries"
+    )
+    parser.add_argument(
+        "--full", action="store_true", help="All sources (Steam+IGDB+GOG+RAWG)"
+    )
+    parser.add_argument(
+        "--apply", action="store_true", help="Remove hard-rejected games from games.js"
+    )
+    parser.add_argument(
+        "--resume", action="store_true", help="Skip games already in audit_state.json"
+    )
+    parser.add_argument(
+        "--fallback",
+        action="store_true",
+        help="Retry Steam-unavailable games using IGDB+GOG+RAWG",
+    )
     args = parser.parse_args()
 
     env = load_env()
