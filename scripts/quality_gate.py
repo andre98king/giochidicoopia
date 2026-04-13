@@ -578,6 +578,64 @@ def validate(
     }
 
 
+def validate_with_retry(
+    steam_app_id: str,
+    rawg_api_key: str | None = None,
+    igdb_client_id: str | None = None,
+    igdb_client_secret: str | None = None,
+    sources: frozenset[str] | None = None,
+    rate_limit_delay: float = 1.0,
+    max_retries: int = 3,
+) -> dict[str, Any]:
+    """
+    Valida un gioco con retry automatico su failure transienti.
+    """
+    import time
+
+    last_error = None
+
+    for attempt in range(max_retries):
+        try:
+            verdict = validate(
+                steam_app_id,
+                rawg_api_key=rawg_api_key,
+                igdb_client_id=igdb_client_id,
+                igdb_client_secret=igdb_client_secret,
+                sources=sources,
+                rate_limit_delay=rate_limit_delay,
+            )
+
+            if verdict.get("coop_type") and verdict.get("coop_type") != "UNKNOWN":
+                return verdict
+
+            if verdict.get("status") in ("approved", "needs_review"):
+                return verdict
+
+            last_error = verdict.get("reason", "Unknown error")
+
+        except Exception as e:
+            last_error = str(e)
+
+        if attempt < max_retries - 1:
+            sleep_time = 2**attempt
+            time.sleep(sleep_time)
+
+    return {
+        "status": "needs_review",
+        "reason": f"API failed after {max_retries} retries: {last_error}",
+        "confidence": "low",
+        "coop_type": "UNKNOWN",
+        "coop_modes": [],
+        "coop_score_hint": None,
+        "steam_name": "",
+        "pvp_signals": [],
+        "coop_signals": [],
+        "rawg_confirmed": False,
+        "igdb_confirmed": None,
+        "gog_confirmed": None,
+    }
+
+
 if __name__ == "__main__":
     import os
     import sys

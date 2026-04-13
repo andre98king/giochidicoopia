@@ -39,6 +39,13 @@ jobs:
       - name: Auto Curation & Quality Gate
         run: python3 scripts/run_curation_gate.py
 
+      - name: Daily Catalog Audit (fast mode)
+        run: python3 scripts/catalog_audit.py --fast
+        env:
+          IGDB_CLIENT_ID: ${{ secrets.IGDB_CLIENT_ID }}
+          IGDB_CLIENT_SECRET: ${{ secrets.IGDB_CLIENT_SECRET }}
+          RAWG_API_KEY: ${{ secrets.RAWG_API_KEY }}
+
       - name: Check for changes
         id: commit_check
         run: |
@@ -57,7 +64,7 @@ jobs:
             assets/bundles/games-data.js
             data/catalog.games.v1.json
             data/catalog.public.v1.json
-          retention-days: 1
+          retention-days: 7
 
   fetch-affiliate:
     runs-on: ubuntu-latest
@@ -95,7 +102,7 @@ jobs:
           path: |
             assets/games.js
             assets/bundles/games-data.js
-          retention-days: 1
+          retention-days: 7
 
   fetch-gameseal:
     runs-on: ubuntu-latest
@@ -135,7 +142,7 @@ jobs:
           path: |
             assets/games.js
             assets/bundles/games-data.js
-          retention-days: 1
+          retention-days: 7
 
   fetch-gamivo:
     runs-on: ubuntu-latest
@@ -175,7 +182,7 @@ jobs:
           path: |
             assets/games.js
             assets/bundles/games-data.js
-          retention-days: 1
+          retention-days: 7
 
   fetch-k4g:
     runs-on: ubuntu-latest
@@ -213,7 +220,7 @@ jobs:
           path: |
             assets/games.js
             assets/bundles/games-data.js
-          retention-days: 1
+          retention-days: 7
 
   fetch-gmg:
     runs-on: ubuntu-latest
@@ -251,7 +258,7 @@ jobs:
           path: |
             assets/games.js
             assets/bundles/games-data.js
-          retention-days: 1
+          retention-days: 7
 
   build-and-deploy:
     runs-on: ubuntu-latest

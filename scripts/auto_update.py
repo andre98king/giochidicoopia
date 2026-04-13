@@ -127,13 +127,14 @@ def _build_steam_game_dict(
 
 
 def _run_quality_gate(steam_appid: str) -> dict:
-    """Chiama quality_gate.validate() con le credenziali disponibili dall'ambiente."""
-    return quality_gate.validate(
+    """Chiama quality_gate.validate_with_retry() con le credenziali disponibili."""
+    return quality_gate.validate_with_retry(
         str(steam_appid),
         rawg_api_key=RAWG_API_KEY or None,
         igdb_client_id=IGDB_CLIENT_ID or None,
         igdb_client_secret=IGDB_CLIENT_SECRET or None,
         rate_limit_delay=0.5,
+        max_retries=3,
     )
 
 
@@ -615,6 +616,68 @@ catalog_data.DATA_DIR.mkdir(exist_ok=True)
 (catalog_data.DATA_DIR / "_nocoop_flagged.json").write_text(
     json.dumps({"game_ids": nocoop_flagged_ids}, indent=2) + "\n", encoding="utf-8"
 )
+
+# 2g: Rivalidazione coopType per giochi trending (daily, veloce)
+print("  🔄 Rivalidazione coopType (trending only per performance)...")
+import datetime as dt
+
+coop_changed = 0
+coop_became_pvp = []
+coop_became_unknown = []
+
+trending_games = [g for g in existing_games if g.get("trending")][:50]
+
+for g in trending_games:
+    aid = appid_from_url(g["steamUrl"])
+    if not aid:
+        continue
+
+    verdict = _run_quality_gate(aid)
+    old_type = g.get("coopType", "COOP")
+    new_type = verdict.get("coop_type", "UNKNOWN")
+
+    if old_type != new_type:
+        coop_changed += 1
+        if new_type == "PVP":
+            coop_became_pvp.append(
+                {"id": g["id"], "title": g["title"], "old": old_type}
+            )
+            print(f"  ❌ {g['title']}: {old_type} → PVP (verrà rimosso)")
+        elif new_type == "UNKNOWN":
+            coop_became_unknown.append(
+                {"id": g["id"], "title": g["title"], "old": old_type}
+            )
+            print(f"  ⚠️  {g['title']}: {old_type} → UNKNOWN (da rivedere)")
+        else:
+            print(f"  🔄 {g['title']}: {old_type} → {new_type}")
+
+        g["coopType"] = new_type
+        g["_igdb_confirmed"] = verdict.get("igdb_confirmed") or False
+        g["_gog_confirmed"] = verdict.get("gog_confirmed") or False
+        g["_rawg_confirmed"] = verdict.get("rawg_confirmed") or False
+
+if coop_became_pvp:
+    pvp_ids = [g["id"] for g in coop_became_pvp]
+    existing_games = [g for g in existing_games if g["id"] not in pvp_ids]
+    excluded_path = Path("data/excluded_games.json")
+    if excluded_path.exists():
+        excluded = set(json.loads(excluded_path.read_text(encoding="utf-8")))
+    else:
+        excluded = set()
+    excluded.update(pvp_ids)
+    excluded_path.write_text(
+        json.dumps(sorted(excluded), indent=2) + "\n", encoding="utf-8"
+    )
+    print(f"  ❌ Rimossi {len(coop_became_pvp)} giochi PVP (aggiunti a excluded)")
+
+if coop_became_unknown:
+    unknown_log = {"date": dt.datetime.now().isoformat(), "games": coop_became_unknown}
+    Path("data/coop_unknown_daily.json").write_text(
+        json.dumps(unknown_log, indent=2) + "\n", encoding="utf-8"
+    )
+    print(f"  ⚠️  {len(coop_became_unknown)} giochi da rivedere")
+
+print(f"  CoopType rivalidati: {coop_changed}/{len(trending_games)} trending")
 
 
 # ═══════════════════════════════════════════════════════════════════════════
