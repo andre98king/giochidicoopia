@@ -1071,5 +1071,8039 @@
     "rawg_confirmed": false,
     "igdb_confirmed": null,
     "gog_confirmed": null
+  },
+  "2001120": {
+    "status": "approved",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Split Fiction",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1172620": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Sea of Thieves: 2026 Edition",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "311210": {
+    "status": "approved",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Remote Play Together",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "Call of Duty\u00ae: Black Ops III",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Remote Play Together"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "548430": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Deep Rock Galactic",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1426210": {
+    "status": "approved",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "It Takes Two",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "239140": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Dying Light",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "648800": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Raft",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "238960": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Path of Exile",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "232090": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Killing Floor 2",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1326470": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Sons Of The Forest",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1144200": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Ready or Not",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "534380": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Dying Light 2 Stay Human: Reloaded Edition",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "244850": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Space Engineers",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "945360": {
+    "status": "needs_review",
+    "reason": "Steam co-op: LAN Co-op, Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP, Shared/Split Screen PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Among Us",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Shared/Split Screen PvP"
+    ],
+    "coop_signals": [
+      "LAN Co-op",
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1304930": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "The Outlast Trials",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1446780": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "MONSTER HUNTER RISE",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2186680": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Warhammer 40,000: Rogue Trader",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "435150": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen | \u26a0 also has PvP: PvP, Online PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Divinity: Original Sin 2 - Definitive Edition",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "976730": {
+    "status": "needs_review",
+    "reason": "Steam co-op: LAN Co-op, Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP, Shared/Split Screen PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Halo: The Master Chief Collection",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Shared/Split Screen PvP"
+    ],
+    "coop_signals": [
+      "LAN Co-op",
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "397540": {
+    "status": "approved",
+    "reason": "Steam co-op: LAN Co-op, Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Borderlands 3",
+    "pvp_signals": [],
+    "coop_signals": [
+      "LAN Co-op",
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1260320": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen | \u26a0 also has PvP: PvP, Online PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Party Animals",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "916440": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Anno 1800",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1062520": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Dinkum",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "962130": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Grounded",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "219990": {
+    "status": "approved",
+    "reason": "Steam co-op: LAN Co-op, Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Grim Dawn",
+    "pvp_signals": [],
+    "coop_signals": [
+      "LAN Co-op",
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "602960": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Barotrauma",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1240440": {
+    "status": "rejected",
+    "reason": "PvP-only game: PvP, Online PvP, Shared/Split Screen PvP",
+    "confidence": "high",
+    "coop_modes": [],
+    "coop_score_hint": null,
+    "steam_name": "Halo Infinite",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Shared/Split Screen PvP"
+    ],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null,
+    "coop_type": "PVP"
+  },
+  "386180": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Crossout",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "518790": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "theHunter: Call of the Wild\u2122",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "304390": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "FOR HONOR\u2122",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "552500": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Warhammer: Vermintide 2",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "728880": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen | \u26a0 also has PvP: PvP, Online PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Overcooked! 2",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "268910": {
+    "status": "approved",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Remote Play Together, Shared/Split Screen Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "Cuphead",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1371580": {
+    "status": "needs_review",
+    "reason": "Steam co-op: LAN Co-op, Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP, Shared/Split Screen PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Myth of Empires",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Shared/Split Screen PvP"
+    ],
+    "coop_signals": [
+      "LAN Co-op",
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2215430": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Ghost of Tsushima DIRECTOR'S CUT",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "620": {
+    "status": "approved",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Portal 2",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "581320": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Insurgency: Sandstorm",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1943950": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Escape the Backrooms",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "699130": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "World War Z",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "815370": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Green Hell",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1527950": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Wartales",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1282100": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "REMNANT II\u00ae",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1934680": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Age of Mythology: Retold",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2617700": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Tinkerlands",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1149460": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "ICARUS",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "573090": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Stormworks: Build and Rescue",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "460930": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "Tom Clancy's Ghost Recon\u00ae Wildlands",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1325200": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Nioh 2 \u2013 The Complete Edition",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2231380": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Tom Clancy's Ghost Recon\u00ae Breakpoint",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1217060": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Gunfire Reborn",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1129580": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Medieval Dynasty",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "386940": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen | \u26a0 also has PvP: PvP, Online PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Ultimate Chicken Horse",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "285900": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Shared/Split Screen, Remote Play Together | \u26a0 also has PvP: PvP, Online PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Gang Beasts",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Remote Play Together"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "674940": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Shared/Split Screen, Remote Play Together | \u26a0 also has PvP: PvP, Online PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Stick Fight: The Game",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Remote Play Together"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "477160": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Remote Play Together, Shared/Split Screen Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Human Fall Flat",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "252110": {
+    "status": "approved",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Remote Play Together, Shared/Split Screen Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "Lovers in a Dangerous Spacetime",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "985890": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen | \u26a0 also has PvP: PvP, Online PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Streets of Rage 4",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1361510": {
+    "status": "approved",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "274190": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen | \u26a0 also has PvP: PvP, Online PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Broforce",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1222700": {
+    "status": "approved",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "A Way Out",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "996770": {
+    "status": "approved",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Remote Play Together, Shared/Split Screen Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "Moving Out",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "251470": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Remote Play Together, Shared/Split Screen Co-op | \u26a0 also has PvP: PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "TowerFall Ascension",
+    "pvp_signals": [
+      "PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "418530": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen | \u26a0 also has PvP: PvP, Online PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Spelunky 2",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1057090": {
+    "status": "rejected",
+    "reason": "No co-op categories found on Steam",
+    "confidence": "high",
+    "coop_modes": [],
+    "coop_score_hint": null,
+    "steam_name": "Ori and the Will of the Wisps",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null,
+    "coop_type": "UNKNOWN"
+  },
+  "242550": {
+    "status": "approved",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Remote Play Together, Shared/Split Screen Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "Rayman\u00ae Legends",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "331670": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Remote Play Together, Shared/Split Screen Co-op | \u26a0 also has PvP: PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "The Jackbox Party Pack",
+    "pvp_signals": [
+      "PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "323850": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, LAN Co-op, Shared/Split Screen | \u26a0 also has PvP: PvP, Online PvP, Local PvP, Shared/Split Screen PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Move or Die",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Local PvP",
+      "Shared/Split Screen PvP"
+    ],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "LAN Co-op",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1599600": {
+    "status": "approved",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "PlateUp!",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1242980": {
+    "status": "approved",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "KeyWe",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "416200": {
+    "status": "rejected",
+    "reason": "No co-op categories found on Steam",
+    "confidence": "high",
+    "coop_modes": [],
+    "coop_score_hint": null,
+    "steam_name": "Door To Door",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null,
+    "coop_type": "UNKNOWN"
+  },
+  "850320": {
+    "status": "approved",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "PHOGS!",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1225570": {
+    "status": "approved",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Remote Play Together, Shared/Split Screen Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "Unravel Two",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "924970": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Back 4 Blood",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1549970": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Aliens: Fireteam Elite",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2881650": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Content Warning",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1794680": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Remote Play Together, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Vampire Survivors",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Remote Play Together",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1621690": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Core Keeper",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "413150": {
+    "status": "approved",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, LAN Co-op, Shared/Split Screen",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Stardew Valley",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "LAN Co-op",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "341800": {
+    "status": "approved",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Remote Play Together, Shared/Split Screen Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "Keep Talking and Nobody Explodes",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1509960": {
+    "status": "approved",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Online Co-op, Shared/Split Screen Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "PICO PARK",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Online Co-op",
+      "Shared/Split Screen Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1243830": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen | \u26a0 also has PvP: PvP, Online PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Overcooked! All You Can Eat",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1272080": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "PAYDAY 3",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "238370": {
+    "status": "approved",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Remote Play Together",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "Magicka 2",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Remote Play Together"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "865360": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "We Were Here Together",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1341290": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "We Were Here Forever",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1782210": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Crab Game",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1812090": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen | \u26a0 also has PvP: PvP, Online PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Escape Academy",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1286680": {
+    "status": "approved",
+    "reason": "Steam co-op: LAN Co-op, Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Tiny Tina's Wonderlands",
+    "pvp_signals": [],
+    "coop_signals": [
+      "LAN Co-op",
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1599660": {
+    "status": "approved",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Online Co-op, Shared/Split Screen Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Sackboy\u2122: A Big Adventure",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Online Co-op",
+      "Shared/Split Screen Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "692890": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Roboquest",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "275850": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "No Man's Sky",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "204360": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen | \u26a0 also has PvP: PvP, Online PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Castle Crashers\u00ae",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "361420": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "ASTRONEER",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "680420": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "OUTRIDERS",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1641700": {
+    "status": "approved",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Moving Out 2",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "230230": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Remote Play Together",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "Divinity: Original Sin (Classic)",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Remote Play Together"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "235540": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Warhammer: End Times - Vermintide",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1274570": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "DEVOUR",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "271590": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Grand Theft Auto V Legacy",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1086940": {
+    "status": "approved",
+    "reason": "Steam co-op: LAN Co-op, Co-op, Remote Play Together, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Baldur's Gate 3",
+    "pvp_signals": [],
+    "coop_signals": [
+      "LAN Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2878980": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen | \u26a0 also has PvP: PvP, Online PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "NBA 2K25",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2669320": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen | \u26a0 also has PvP: PvP, Online PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "EA SPORTS FC\u2122 25",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "236390": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "War Thunder",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "394360": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "Hearts of Iron IV",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "3164500": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Schedule I",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "39210": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "FINAL FANTASY XIV Online",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2993780": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "FANTASY LIFE i: The Girl Who Steals Time",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1599340": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Lost Ark",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2694490": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Path of Exile 2",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "306130": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "The Elder Scrolls\u00ae Online",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2300320": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Farming Simulator 25",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "236850": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Europa Universalis IV",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1203620": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Enshrouded",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "304930": {
+    "status": "needs_review",
+    "reason": "Steam co-op: LAN Co-op, Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP, Shared/Split Screen PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Unturned",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Shared/Split Screen PvP"
+    ],
+    "coop_signals": [
+      "LAN Co-op",
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1551360": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Forza Horizon 5",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2221490": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Tom Clancy\u2019s The Division\u00ae 2",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "552990": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "World of Warships",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2104890": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "RoadCraft",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "216150": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "MapleStory",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "444200": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "World of Tanks Blitz",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1248130": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Farming Simulator 22",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "3059520": {
+    "status": "needs_review",
+    "reason": "Steam co-op: LAN Co-op, Shared/Split Screen, Online Co-op, Co-op | \u26a0 also has PvP: PvP, Online PvP, Local PvP, Shared/Split Screen PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "F1\u00ae 25",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Local PvP",
+      "Shared/Split Screen PvP"
+    ],
+    "coop_signals": [
+      "LAN Co-op",
+      "Shared/Split Screen",
+      "Online Co-op",
+      "Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "286160": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen | \u26a0 also has PvP: PvP, Online PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Tabletop Simulator",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2437170": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "SMITE 2",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1293830": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Forza Horizon 4",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "359320": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "Elite Dangerous",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2709570": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Supermarket Together",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "779340": {
+    "status": "needs_review",
+    "reason": "Steam co-op: LAN Co-op, Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP, Shared/Split Screen PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Total War: THREE KINGDOMS",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Shared/Split Screen PvP"
+    ],
+    "coop_signals": [
+      "LAN Co-op",
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "374320": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "DARK SOULS\u2122 III",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2543180": {
+    "status": "approved",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "POPUCOM",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "214950": {
+    "status": "needs_review",
+    "reason": "Steam co-op: LAN Co-op, Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP, Shared/Split Screen PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Total War: ROME II - Emperor Edition",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Shared/Split Screen PvP"
+    ],
+    "coop_signals": [
+      "LAN Co-op",
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2904000": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "The Spell Brigade",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2625420": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Drive Beyond Horizons",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1258080": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Shop Titans",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1284210": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Guild Wars 2\u00ae",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "380600": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Fishing Planet",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "412220": {
+    "status": "approved",
+    "reason": "Steam co-op: LAN Co-op, Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "DDNet",
+    "pvp_signals": [],
+    "coop_signals": [
+      "LAN Co-op",
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "3183280": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Game of Thrones: Kingsroad",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2071280": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Ravenswatch",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2051620": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Enlisted",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1290000": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "PowerWash Simulator",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1190970": {
+    "status": "approved",
+    "reason": "Steam co-op: LAN Co-op, Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "House Flipper 2",
+    "pvp_signals": [],
+    "coop_signals": [
+      "LAN Co-op",
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2670630": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Supermarket Simulator",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "231430": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Company of Heroes 2",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "601150": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Devil May Cry 5",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "400750": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Call to Arms - Gates of Hell: Ostfront",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1404210": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Red Dead Online",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1677280": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Company of Heroes 3",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "200210": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Realm of the Mad God Exalt",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "961200": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Predecessor",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "34330": {
+    "status": "needs_review",
+    "reason": "Steam co-op: LAN Co-op, Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP, Shared/Split Screen PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Total War: SHOGUN 2",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Shared/Split Screen PvP"
+    ],
+    "coop_signals": [
+      "LAN Co-op",
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2385530": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "PGA TOUR 2K25",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "669330": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Mechabellum",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1669000": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Remote Play Together, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Age of Wonders 4",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Remote Play Together",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1435790": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Escape Simulator",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "572890": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Remote Play Together, Shared/Split Screen Co-op | \u26a0 also has PvP: PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Pikuniku",
+    "pvp_signals": [
+      "PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "493520": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "GTFO",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "307110": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "We Need To Go Deeper",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "249050": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Dungeon of the ENDLESS\u2122",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "905340": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Remote Play Together, Shared/Split Screen Co-op | \u26a0 also has PvP: PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Heave Ho",
+    "pvp_signals": [
+      "PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1169040": {
+    "status": "needs_review",
+    "reason": "Steam co-op: LAN Co-op, Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP, Shared/Split Screen PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Necesse",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Shared/Split Screen PvP"
+    ],
+    "coop_signals": [
+      "LAN Co-op",
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1850740": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Ghost Watchers",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2567870": {
+    "status": "approved",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Chained Together",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "346010": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op | \u26a0 also has PvP: PvP, Online PvP, Shared/Split Screen PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Besiege",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Shared/Split Screen PvP"
+    ],
+    "coop_signals": [
+      "Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2080690": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Sunkenland",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2141730": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Backrooms: Escape Together",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "951440": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Volcanoids",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "582500": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "We Were Here",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1011670": {
+    "status": "approved",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Totally Reliable Delivery Service",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "527230": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen | \u26a0 also has PvP: PvP, Online PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "For The King",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1676840": {
+    "status": "approved",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "For The King II",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1686940": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen | \u26a0 also has PvP: PvP, Online PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Bopl Battle",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1313140": {
+    "status": "approved",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Remote Play Together, Shared/Split Screen Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "Cult of the Lamb",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "250760": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Remote Play Together, Shared/Split Screen Co-op | \u26a0 also has PvP: PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Shovel Knight: Treasure Trove",
+    "pvp_signals": [
+      "PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2646460": {
+    "status": "needs_review",
+    "reason": "Steam co-op: LAN Co-op, Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP, Shared/Split Screen PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Soulmask",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Shared/Split Screen PvP"
+    ],
+    "coop_signals": [
+      "LAN Co-op",
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "964800": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Prodeus",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2458830": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Towerborne",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1286580": {
+    "status": "approved",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Ship of Fools",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1347970": {
+    "status": "approved",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Remote Play Together, Shared/Split Screen Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "Patch Quest",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1568590": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Goose Goose Duck",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2767030": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Marvel Rivals",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2073850": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "THE FINALS",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "394690": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Tower Unite",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2507950": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Delta Force",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1172470": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Apex Legends\u2122",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1056640": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Phantasy Star Online 2 New Genesis",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "3527290": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "PEAK",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1904480": {
+    "status": "approved",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Online Co-op, Shared/Split Screen Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Absolum",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Online Co-op",
+      "Shared/Split Screen Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "3949040": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "RV There Yet?",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1285190": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Borderlands 4",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1158160": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Coral Island",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1660960": {
+    "status": "approved",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Remote Play Together, Shared/Split Screen Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "Windswept",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1812450": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Bellwright",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1808500": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "ARC Raiders",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1672970": {
+    "status": "approved",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Online Co-op, Shared/Split Screen Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Minecraft Dungeons",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Online Co-op",
+      "Shared/Split Screen Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1172710": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Dune: Awakening",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1522820": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Orcs Must Die! 3",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "972660": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Remote Play Together, Shared/Split Screen Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "Spiritfarer\u00ae: Farewell Edition",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1721110": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Abyssus",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "3008130": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Dying Light: The Beast Restored Land",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "113020": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen | \u26a0 also has PvP: PvP, Online PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Monaco: What's Yours Is Mine",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "920210": {
+    "status": "approved",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Remote Play Together, Shared/Split Screen Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "LEGO\u00ae Star Wars\u2122: The Skywalker Saga",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "837470": {
+    "status": "approved",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Remote Play Together, Shared/Split Screen Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "Untitled Goose Game",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1335790": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Operation: Tango",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2211170": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen | \u26a0 also has PvP: PvP, Online PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Unrailed 2: Back on Track",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1004490": {
+    "status": "approved",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Remote Play Together, Shared/Split Screen Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "Tools Up!",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2560240": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen | \u26a0 also has PvP: PvP, Online PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Biped 2",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1432050": {
+    "status": "approved",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Nobody Saves the World",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "710920": {
+    "status": "approved",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Darksiders Genesis",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "330020": {
+    "status": "approved",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Children of Morta",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1436700": {
+    "status": "approved",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, LAN Co-op, Shared/Split Screen",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Trine 5: A Clockwork Conspiracy",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "LAN Co-op",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1135230": {
+    "status": "approved",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Ember Knights",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "635260": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "CarX Drift Racing Online",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "335300": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "DARK SOULS\u2122 II: Scholar of the First Sin",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "379720": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "DOOM",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1029690": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Sniper Elite 5",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "471710": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Rec Room",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "246620": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Plague Inc: Evolved",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1119730": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Ranch Simulator: Build, Hunt, Farm",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2918150": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "ONE PIECE Bounty Rush",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "594570": {
+    "status": "needs_review",
+    "reason": "Steam co-op: LAN Co-op, Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP, Shared/Split Screen PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Total War: WARHAMMER II",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Shared/Split Screen PvP"
+    ],
+    "coop_signals": [
+      "LAN Co-op",
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "427410": {
+    "status": "approved",
+    "reason": "Steam co-op: LAN Co-op, Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Abiotic Factor",
+    "pvp_signals": [],
+    "coop_signals": [
+      "LAN Co-op",
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "325610": {
+    "status": "needs_review",
+    "reason": "Steam co-op: LAN Co-op, Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP, Shared/Split Screen PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Total War: ATTILA",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Shared/Split Screen PvP"
+    ],
+    "coop_signals": [
+      "LAN Co-op",
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1222680": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Need for Speed\u2122 Heat",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1201240": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "BLEACH Brave Souls",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "489630": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, LAN Co-op, Shared/Split Screen | \u26a0 also has PvP: PvP, Online PvP, Local PvP, Shared/Split Screen PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Warhammer 40,000: Gladius - Relics of War",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Local PvP",
+      "Shared/Split Screen PvP"
+    ],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "LAN Co-op",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1506830": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Online Co-op, Shared/Split Screen Co-op | \u26a0 also has PvP: PvP, Online PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "FIFA 22",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Online Co-op",
+      "Shared/Split Screen Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "701160": {
+    "status": "approved",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Kingdom Two Crowns",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "552520": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Far Cry\u00ae 5",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "495420": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "State of Decay 2: Juggernaut Edition",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "3228590": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Deadzone: Rogue",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "466560": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Northgard: Definitive Edition",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2445690": {
+    "status": "approved",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Lost Castle 2",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2418520": {
+    "status": "approved",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Farm Together 2",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "9900": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "Star Trek Online",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "934700": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Dead Island 2",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "881020": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Granblue Fantasy: Relink",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "383120": {
+    "status": "needs_review",
+    "reason": "Steam co-op: LAN Co-op, Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Empyrion - Galactic Survival",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "LAN Co-op",
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1259970": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Online Co-op, Shared/Split Screen Co-op | \u26a0 also has PvP: PvP, Online PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "eFootball PES 2021 SEASON UPDATE",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Online Co-op",
+      "Shared/Split Screen Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2878960": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen | \u26a0 also has PvP: PvP, Online PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "WWE 2K25",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2169200": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Sniper Elite: Resistance",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "983870": {
+    "status": "approved",
+    "reason": "Steam co-op: LAN Co-op, Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "FOUNDRY",
+    "pvp_signals": [],
+    "coop_signals": [
+      "LAN Co-op",
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2344320": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Eldegarde",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "387990": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Scrap Mechanic",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "585420": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Trailmakers",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "211820": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Starbound",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "3107230": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Pantheon: Rise of the Fallen",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "646910": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "The Crew\u2122 2",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1611600": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "WARNO",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "926990": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "WolfQuest: Anniversary Edition",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "447040": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "Watch_Dogs\u00ae 2",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1922560": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Plants vs. Zombies\u2122 Garden Warfare 2: Deluxe Edition",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1374490": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "RuneScape: Dragonwilds",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2000950": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Call of Duty\u00ae: Modern Warfare\u00ae",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1501750": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Lords of the Fallen",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1817800": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Oddsparks: An Automation Adventure",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "266840": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "Age of Mythology: Extended Edition",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "774801": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Crab Champions",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "212500": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op | \u26a0 also has PvP: PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "The Lord of the Rings Online\u2122",
+    "pvp_signals": [
+      "PvP"
+    ],
+    "coop_signals": [
+      "Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2551020": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "One-armed robber",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "500": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "Left 4 Dead",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "365590": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Tom Clancy\u2019s The Division\u2122",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "629760": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "MORDHAU",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "304050": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Trove",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "704450": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Neverwinter Nights: Enhanced Edition",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1766060": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "HumanitZ",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1677110": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Lightyear Frontier",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "799960": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Wizard101",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1898300": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "ASKA",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "244450": {
+    "status": "needs_review",
+    "reason": "Steam co-op: LAN Co-op, Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP, Shared/Split Screen PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Men of War: Assault Squad 2",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Shared/Split Screen PvP"
+    ],
+    "coop_signals": [
+      "LAN Co-op",
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "895400": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Deadside",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "382310": {
+    "status": "approved",
+    "reason": "Steam co-op: LAN Co-op, Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Eco",
+    "pvp_signals": [],
+    "coop_signals": [
+      "LAN Co-op",
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "469600": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Legion TD 2 - Multiplayer Tower Defense",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "3146520": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "WEBFISHING",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1097150": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Fall Guys",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1127400": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Mindustry",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1520470": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Soul Dossier",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "454650": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "DRAGON BALL XENOVERSE 2",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "744900": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Dead Frontier 2",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "784080": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "MechWarrior 5: Mercenaries",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2369390": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Far Cry\u00ae 6",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1211020": {
+    "status": "approved",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Online Co-op, Shared/Split Screen Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Wobbly Life",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Online Co-op",
+      "Shared/Split Screen Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "729040": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Borderlands Game of the Year Enhanced",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "445220": {
+    "status": "needs_review",
+    "reason": "Steam co-op: LAN Co-op, Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP, Shared/Split Screen PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Avorion",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Shared/Split Screen PvP"
+    ],
+    "coop_signals": [
+      "LAN Co-op",
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "3097560": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Liar's Bar",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "475150": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Titan Quest Anniversary Edition",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "898920": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Online Co-op, Shared/Split Screen Co-op | \u26a0 also has PvP: PvP, Online PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Axis & Allies 1942 Online",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Online Co-op",
+      "Shared/Split Screen Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "492720": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Tropico 6",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "21690": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "Resident Evil 5",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2351560": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Apocalypse Party",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1054490": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Remote Play Together, Online Co-op, Shared/Split Screen Co-op | \u26a0 also has PvP: PvP, Online PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Wingspan",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Remote Play Together",
+      "Online Co-op",
+      "Shared/Split Screen Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "298110": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "Far Cry\u00ae 4",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2916430": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Fast Food Simulator",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "312660": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "Sniper Elite 4",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1575940": {
+    "status": "needs_review",
+    "reason": "Steam co-op: LAN Co-op, Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP, Shared/Split Screen PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Sins of a Solar Empire II",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Shared/Split Screen PvP"
+    ],
+    "coop_signals": [
+      "LAN Co-op",
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1385380": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Across the Obelisk",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "287450": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "Rise of Nations: Extended Edition",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "42700": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "Call of Duty\u00ae: Black Ops",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "221040": {
+    "status": "approved",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Remote Play Together",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "Resident Evil 6",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Remote Play Together"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1063420": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Void Crew",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1239080": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Remote Play Together, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Door Kickers 2: Task Force North",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Remote Play Together",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1244090": {
+    "status": "approved",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Remote Play Together, Shared/Split Screen Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "Sea of Stars",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1631500": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Remote Play Together, Shared/Split Screen Co-op | \u26a0 also has PvP: PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Dumpy and Bumpy",
+    "pvp_signals": [
+      "PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2960490": {
+    "status": "approved",
+    "reason": "Steam co-op: Online Co-op, Shared/Split Screen Co-op, Co-op, Remote Play Together, Shared/Split Screen",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Royal Revolt Survivors",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2184290": {
+    "status": "approved",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Remote Play Together, Shared/Split Screen Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "Rising Heat",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2070860": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Remote Play Together, Shared/Split Screen Co-op | \u26a0 also has PvP: PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Esophaguys",
+    "pvp_signals": [
+      "PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "3348910": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Remote Play Together, Shared/Split Screen Co-op | \u26a0 also has PvP: PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Bee Simulator: The Hive",
+    "pvp_signals": [
+      "PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "3399110": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "763180": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1807220": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2023180": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2551110": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1937820": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2237200": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2237190": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2170100": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2022910": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1795010": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2253100": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1713350": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1863430": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1187330": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1385290": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "3717070": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2157830": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2918310": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "3977290": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2778610": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "3399780": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2868840": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1450900": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2430390": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2015270": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2395770": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2640950": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1101790": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2202120": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1714180": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1133500": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2488620": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "3826370": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "787860": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "619540": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "491540": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "The Bus",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2840770": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "3359910": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "850190": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "799600": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1337520": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "597170": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "488860": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1096530": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1084160": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2132850": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2296990": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1280930": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1515210": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1302240": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2408820": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1003590": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1245560": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1836730": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1801110": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "3363680": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "4243690": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2943180": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "3323490": {
+    "status": "approved",
+    "reason": "Steam co-op: Shared/Split Screen, Co-op, Remote Play Together, Shared/Split Screen Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 2,
+    "coop_type": "COOP",
+    "steam_name": "Truxton Extreme",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Co-op",
+      "Remote Play Together",
+      "Shared/Split Screen Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "4435920": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1505540": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "4328440": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2582960": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1962700": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "740990": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "221680": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "440": {
+    "status": "rejected",
+    "reason": "Steam API unavailable \u2014 no fallback sources",
+    "confidence": "low",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": null,
+    "steam_name": "",
+    "pvp_signals": [],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "700330": {
+    "status": "rejected",
+    "reason": "PvP-only game: PvP, Online PvP",
+    "confidence": "high",
+    "coop_modes": [],
+    "coop_score_hint": null,
+    "steam_name": "SCP: Secret Laboratory",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null,
+    "coop_type": "PVP"
+  },
+  "933110": {
+    "status": "rejected",
+    "reason": "PvP-only game: PvP, Online PvP, Shared/Split Screen PvP",
+    "confidence": "high",
+    "coop_modes": [],
+    "coop_score_hint": null,
+    "steam_name": "Age of Empires III: Definitive Edition",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Shared/Split Screen PvP"
+    ],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null,
+    "coop_type": "PVP"
+  },
+  "1237950": {
+    "status": "rejected",
+    "reason": "PvP-only game: PvP, Online PvP",
+    "confidence": "high",
+    "coop_modes": [],
+    "coop_score_hint": null,
+    "steam_name": "STAR WARS\u2122 Battlefront\u2122 II",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null,
+    "coop_type": "PVP"
+  },
+  "376210": {
+    "status": "rejected",
+    "reason": "PvP-only game: PvP, Online PvP",
+    "confidence": "high",
+    "coop_modes": [],
+    "coop_score_hint": null,
+    "steam_name": "The Isle",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null,
+    "coop_type": "PVP"
+  },
+  "2217000": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Shared/Split Screen, Remote Play Together | \u26a0 also has PvP: PvP, Online PvP, Local PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online",
+      "local",
+      "sofa"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Rivals of Aether II",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Local PvP"
+    ],
+    "coop_signals": [
+      "Shared/Split Screen",
+      "Remote Play Together"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "1017900": {
+    "status": "rejected",
+    "reason": "PvP-only game: PvP, Online PvP, Shared/Split Screen PvP",
+    "confidence": "high",
+    "coop_modes": [],
+    "coop_score_hint": null,
+    "steam_name": "Age of Empires: Definitive Edition",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP",
+      "Shared/Split Screen PvP"
+    ],
+    "coop_signals": [],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null,
+    "coop_type": "PVP"
+  },
+  "2510960": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Temtem: Swarm",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "3071240": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Remote Play Together, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Voodoo Fishin'",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Remote Play Together",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2455360": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Cooking Simulator 2: Better Together",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "2265990": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "ENDALOR",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "774291": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Last Man Sitting",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "3554630": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "VMX",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "4173620": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "I Know a Guy: Shady Life Simulator",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "3761880": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Night Shippers",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "3234720": {
+    "status": "needs_review",
+    "reason": "Steam co-op: Co-op, Online Co-op | \u26a0 also has PvP: PvP, Online PvP",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 1,
+    "coop_type": "MIXED",
+    "steam_name": "Lugh World",
+    "pvp_signals": [
+      "PvP",
+      "Online PvP"
+    ],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "3959890": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Tap Tap Loot",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
+  },
+  "3041230": {
+    "status": "approved",
+    "reason": "Steam co-op: Co-op, Online Co-op",
+    "confidence": "medium",
+    "coop_modes": [
+      "online"
+    ],
+    "coop_score_hint": 3,
+    "coop_type": "COOP",
+    "steam_name": "Windrose",
+    "pvp_signals": [],
+    "coop_signals": [
+      "Co-op",
+      "Online Co-op"
+    ],
+    "rawg_confirmed": false,
+    "igdb_confirmed": null,
+    "gog_confirmed": null
   }
 }

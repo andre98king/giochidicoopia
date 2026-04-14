@@ -172,16 +172,29 @@ def run_audit(
                 if app_id:
                     results[app_id] = verdict
                 completed += 1
+
+                # Checkpoint ogni 10 giochi per evitare perdita dati
+                if completed > 0 and completed % 10 == 0:
+                    save_state(results)
+                    print(f"  [CHECKPOINT] Saved {completed} results")
+
                 progress = completed * 100 // len(pending) if pending else 100
                 print(f"  Progress: {completed}/{len(pending)} ({progress}%)")
     else:
         for game, app_id in pending:
-            if app_id:
-                _, _, verdict = audit_game(
-                    game, sources, rawg_key, igdb_id, igdb_secret, delay
-                )
-                results[app_id] = verdict
+            if app_id is None:
+                continue
+            _, _, verdict = audit_game(
+                game, sources, rawg_key, igdb_id, igdb_secret, delay
+            )
+            results[app_id] = verdict
             completed += 1
+
+            # Checkpoint ogni 10 giochi per evitare perdita dati
+            if completed > 0 and completed % 10 == 0:
+                save_state(results)
+                print(f"  [CHECKPOINT] Saved {completed} results")
+
             progress = completed * 100 // len(pending) if pending else 100
             print(f"  Progress: {completed}/{len(pending)} ({progress}%)")
 
@@ -252,7 +265,7 @@ def main() -> None:
         # Prendi solo i trending (o primi 50)
         trending = [g for g in games if g.get("trending")] or games[:50]
 
-        # Steam solo (più veloce, rate limit 1s)
+        # Steam solo, 4 workers, delay 3s (60 richieste/min = 3600/ora = OK per Steam)
         sources = frozenset({"steam"})
         results = run_audit(
             trending,
@@ -261,16 +274,16 @@ def main() -> None:
             rawg_key,
             igdb_id,
             igdb_secret,
-            delay=1.0,
-            max_workers=1,
+            delay=3.0,
+            max_workers=4,
             skip_cached=False,  # Riaudit i trending
         )
 
     elif args.full:
-        # Full: tutti con fallback
+        # Full: tutti con fallback - parallelo per velocità
         print("\nMode: FULL (all games with IGDB/RAWG fallback)")
 
-        # Usa tutte le fonti (rate limit 0.5s per non superare limiti)
+        # 4 workers, delay 3s (60/min = 3600/ora = OK per Steam)
         sources = frozenset({"steam", "igdb", "gog", "rawg"})
         results = run_audit(
             games,
@@ -279,16 +292,17 @@ def main() -> None:
             rawg_key,
             igdb_id,
             igdb_secret,
-            delay=0.5,
-            max_workers=2,
-            skip_cached=args.resume,
+            delay=3.0,
+            max_workers=4,
+            skip_cached=True,
         )
 
     elif args.resume:
-        # Resume: continua da stato esistente
+        # Resume: continua da stato esistente -usa più workers per velocità
         print("\nMode: RESUME (continue from state)")
 
-        sources = frozenset({"steam", "igdb", "gog", "rawg"})
+        # Steam solo, 4 workers, delay 3s
+        sources = frozenset({"steam"})
         results = run_audit(
             games,
             state,
@@ -296,8 +310,8 @@ def main() -> None:
             rawg_key,
             igdb_id,
             igdb_secret,
-            delay=0.5,
-            max_workers=2,
+            delay=3.0,
+            max_workers=4,
             skip_cached=True,
         )
 
