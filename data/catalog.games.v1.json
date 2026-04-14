@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-14T10:52:32+00:00",
+  "generatedAt": "2026-04-14T15:26:37+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
@@ -33587,7 +33587,8 @@
         "puzzle"
       ],
       "coopMode": [
-        "online"
+        "local",
+        "sofa"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -33639,10 +33640,10 @@
         ]
       },
       "capabilities": {
-        "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "onlineCoop": false,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-4",
         "maxPlayers": 4
@@ -33894,7 +33895,8 @@
         "roguelike"
       ],
       "coopMode": [
-        "online"
+        "local",
+        "sofa"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -33947,10 +33949,10 @@
         ]
       },
       "capabilities": {
-        "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "onlineCoop": false,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-4",
         "maxPlayers": 4
@@ -34107,7 +34109,8 @@
         "sport"
       ],
       "coopMode": [
-        "online"
+        "local",
+        "sofa"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -34159,10 +34162,10 @@
         ]
       },
       "capabilities": {
-        "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "onlineCoop": false,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-4",
         "maxPlayers": 4
@@ -34207,7 +34210,9 @@
         "indie",
         "action"
       ],
-      "genres": [],
+      "genres": [
+        "action"
+      ],
       "coopMode": [
         "online",
         "local"
@@ -34256,7 +34261,9 @@
           "indie",
           "action"
         ],
-        "genres": []
+        "genres": [
+          "action"
+        ]
       },
       "capabilities": {
         "onlineCoop": true,
@@ -34310,10 +34317,13 @@
         "action"
       ],
       "genres": [
+        "strategy",
+        "factory",
         "action"
       ],
       "coopMode": [
-        "online"
+        "local",
+        "sofa"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -34362,14 +34372,16 @@
           "action"
         ],
         "genres": [
+          "strategy",
+          "factory",
           "action"
         ]
       },
       "capabilities": {
-        "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "onlineCoop": false,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-4",
         "maxPlayers": 4
@@ -34417,7 +34429,8 @@
         "action"
       ],
       "coopMode": [
-        "online"
+        "local",
+        "sofa"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -34467,10 +34480,10 @@
         ]
       },
       "capabilities": {
-        "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "onlineCoop": false,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-4",
         "maxPlayers": 4
@@ -34612,7 +34625,8 @@
         "factory"
       ],
       "genres": [
-        "strategy"
+        "strategy",
+        "factory"
       ],
       "coopMode": [
         "online"
@@ -34662,7 +34676,8 @@
           "factory"
         ],
         "genres": [
-          "strategy"
+          "strategy",
+          "factory"
         ]
       },
       "capabilities": {
@@ -34717,7 +34732,8 @@
         "action"
       ],
       "coopMode": [
-        "online"
+        "local",
+        "sofa"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -34767,10 +34783,10 @@
         ]
       },
       "capabilities": {
-        "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "onlineCoop": false,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-4",
         "maxPlayers": 4
@@ -34818,7 +34834,8 @@
         "action"
       ],
       "coopMode": [
-        "online"
+        "local",
+        "sofa"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -34868,10 +34885,10 @@
         ]
       },
       "capabilities": {
-        "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "onlineCoop": false,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-4",
         "maxPlayers": 4
@@ -35016,7 +35033,8 @@
         "action"
       ],
       "coopMode": [
-        "online"
+        "local",
+        "sofa"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -35067,10 +35085,10 @@
         ]
       },
       "capabilities": {
-        "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "onlineCoop": false,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-4",
         "maxPlayers": 4
@@ -35118,7 +35136,8 @@
         "action"
       ],
       "coopMode": [
-        "online"
+        "local",
+        "sofa"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -35168,10 +35187,10 @@
         ]
       },
       "capabilities": {
-        "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "onlineCoop": false,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-4",
         "maxPlayers": 4
@@ -36438,7 +36457,8 @@
         "action"
       ],
       "genres": [
-        "strategy"
+        "strategy",
+        "action"
       ],
       "coopMode": [
         "online"
@@ -36489,7 +36509,8 @@
           "action"
         ],
         "genres": [
-          "strategy"
+          "strategy",
+          "action"
         ]
       },
       "capabilities": {
@@ -36544,7 +36565,8 @@
         "action"
       ],
       "coopMode": [
-        "online"
+        "local",
+        "sofa"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -36594,10 +36616,10 @@
         ]
       },
       "capabilities": {
-        "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "onlineCoop": false,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-4",
         "maxPlayers": 4
@@ -37243,7 +37265,8 @@
         "action"
       ],
       "coopMode": [
-        "online"
+        "local",
+        "sofa"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -37293,10 +37316,10 @@
         ]
       },
       "capabilities": {
-        "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "onlineCoop": false,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-4",
         "maxPlayers": 4
@@ -39223,7 +39246,8 @@
         "action"
       ],
       "coopMode": [
-        "online"
+        "local",
+        "sofa"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -39273,10 +39297,10 @@
         ]
       },
       "capabilities": {
-        "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "onlineCoop": false,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "1-4",
         "maxPlayers": 4
@@ -41392,7 +41416,7 @@
       "maxPlayers": 4,
       "crossplay": false,
       "players": "2-4",
-      "releaseYear": 0,
+      "releaseYear": 2026,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3041230/7e838d87d787735d5d29d72777c5ee55653dfb2b/header.jpg?t=1776158614",
       "description": "Embark on a PvE survival adventure in the Age of Piracy. Fight on land and sea, solo or with friends. Build, craft and explore vast open world filled with dark secrets. Master soulslite combat and take on challenging bosses, command your ship and plunder unspoken treasures!",
       "description_en": "Embark on a PvE survival adventure in the Age of Piracy. Fight on land and sea, solo or with friends. Build, craft and explore vast open world filled with dark secrets. Master soulslite combat and take on challenging bosses, command your ship and plunder unspoken treasures!",
@@ -41404,7 +41428,7 @@
       "itchUrl": "",
       "ccu": 0,
       "trending": false,
-      "rating": 0,
+      "rating": 91,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
@@ -41458,7 +41482,7 @@
       "signals": {
         "ccu": 0,
         "trending": false,
-        "rating": 0,
+        "rating": 91,
         "igdb": false,
         "gog": false,
         "rawg": false
