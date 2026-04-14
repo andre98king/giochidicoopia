@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-14T08:16:31+00:00",
+  "generatedAt": "2026-04-14T10:52:32+00:00",
   "featuredIndieId": 180,
   "games": [
     {
@@ -10105,7 +10105,7 @@
       "coopMode": [
         "online"
       ],
-      "maxPlayers": 64,
+      "maxPlayers": 100,
       "crossplay": false,
       "players": "1-100",
       "releaseYear": 2025,
@@ -18118,13 +18118,55 @@
       "maxPlayers": 4,
       "crossplay": false,
       "players": "1-4",
-      "releaseYear": 0,
+      "releaseYear": 2026,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3959890/f85fa03d918f7b21a35995f10865cfdc448f990a/header.jpg?t=1776087787",
       "description": "The world is under attack, and every tap fights back. Each keystroke unleashes your cute cat hero, smashing enemies and showering you with loot. Dive into a never-ending desktop expedition with friends or solo. Tap. Tap. Loot.",
       "description_en": "The world is under attack, and every tap fights back. Each keystroke unleashes your cute cat hero, smashing enemies and showering you with loot. Dive into a never-ending desktop expedition with friends or solo. Tap. Tap. Loot.",
       "personalNote": "",
       "played": false,
       "steamUrl": "https://store.steampowered.com/app/3959890/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 80,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 666,
+      "slug": "windrose",
+      "title": "Windrose",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 0,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3041230/7e838d87d787735d5d29d72777c5ee55653dfb2b/header.jpg?t=1776158614",
+      "description": "Embark on a PvE survival adventure in the Age of Piracy. Fight on land and sea, solo or with friends. Build, craft and explore vast open world filled with dark secrets. Master soulslite combat and take on challenging bosses, command your ship and plunder unspoken treasures!",
+      "description_en": "Embark on a PvE survival adventure in the Age of Piracy. Fight on land and sea, solo or with friends. Build, craft and explore vast open world filled with dark secrets. Master soulslite combat and take on challenging bosses, command your ship and plunder unspoken treasures!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3041230/",
       "epicUrl": "",
       "itchUrl": "",
       "ccu": 0,
