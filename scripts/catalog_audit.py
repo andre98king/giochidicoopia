@@ -52,22 +52,19 @@ def parse_games() -> list[dict]:
     content = GAMES_JS.read_text(encoding="utf-8")
     games = []
 
-    # Match semplice: id: N, title: "...", steamUrl: "..."
-    for line in content.split("\n"):
-        if line.strip().startswith("id:"):
-            id_match = re.search(r"id:\s*(\d+)", line)
-            if id_match:
-                games.append({"id": int(id_match.group(1))})
+    # Estrai ogni blocco { id:, title:, steamUrl: }
+    block_pattern = re.compile(
+        r'\{\s*id:\s*(\d+).*?title:\s*"([^"]+)".*?steamUrl:\s*"([^"]*)"', re.DOTALL
+    )
 
-        elif line.strip().startswith("title:"):
-            title_match = re.search(r'title:\s*"([^"]+)"', line)
-            if title_match and games:
-                games[-1]["title"] = title_match.group(1)
-
-        elif line.strip().startswith("steamUrl:"):
-            url_match = re.search(r'steamUrl:\s*"([^"]+)"', line)
-            if url_match and games:
-                games[-1]["steamUrl"] = url_match.group(1)
+    for match in block_pattern.finditer(content):
+        games.append(
+            {
+                "id": int(match.group(1)),
+                "title": match.group(2),
+                "steamUrl": match.group(3) if match.group(3) else "",
+            }
+        )
 
     return games
 
