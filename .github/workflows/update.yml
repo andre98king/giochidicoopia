@@ -40,7 +40,7 @@ jobs:
         run: python3 scripts/run_curation_gate.py
 
       - name: Daily Catalog Audit
-        run: python3 scripts/catalog_audit.py --resume --fallback
+        run: python3 scripts/catalog_audit.py --daily
         env:
           IGDB_CLIENT_ID: ${{ secrets.IGDB_CLIENT_ID }}
           IGDB_CLIENT_SECRET: ${{ secrets.IGDB_CLIENT_SECRET }}
