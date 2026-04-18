@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-17T08:01:24.605227Z",
+  "generatedAt": "2026-04-18T07:22:29.541812Z",
   "games": [
     {
       "id": 1,
@@ -41453,6 +41453,198 @@
         "ccu": 0,
         "trending": false,
         "rating": 91,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 668,
+      "igdbId": 375823,
+      "title": "We Gotta Go",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 0,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3967470/3387eeb71a61ecb79ad07cfd5710ae28a2bdd1f8/header.jpg?t=1776436137",
+      "description": "We Gotta Go is a co-op horror comedy that’ll scare the crap out of you—literally. Team up to reach the only bathroom in a haunted mansion before your bowels betray you. Scavenge for items, fend off ghosts, and fight through cursed halls together in a desperate hunt for sweet relief.",
+      "description_en": "We Gotta Go is a co-op horror comedy that’ll scare the crap out of you—literally. Team up to reach the only bathroom in a haunted mansion before your bowels betray you. Scavenge for items, fend off ghosts, and fight through cursed halls together in a desperate hunt for sweet relief.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3967470/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "k4gUrl": "",
+      "k4gDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "we-gotta-go",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "We Gotta Go is a co-op horror comedy that’ll scare the crap out of you—literally. Team up to reach the only bathroom in a haunted mansion before your bowels betray you. Scavenge for items, fend off ghosts, and fight through cursed halls together in a desperate hunt for sweet relief.",
+        "en": "We Gotta Go is a co-op horror comedy that’ll scare the crap out of you—literally. Team up to reach the only bathroom in a haunted mansion before your bowels betray you. Scavenge for items, fend off ghosts, and fight through cursed halls together in a desperate hunt for sweet relief."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": [
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3967470/",
+          "externalId": "3967470"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3967470"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 0,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 669,
+      "igdbId": 318308,
+      "title": "Super Alloy Crush",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 0,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3092360/6db1fd0e78716d4be57c7438762a529d0f2ef41e/header.jpg?t=1775635289",
+      "description": "Super Alloy Crush is a fast-paced 2D roguelike brawler inspired by classics like Mega Man X. Play as Kelly and Muu (No.02) to defeat enemies and obtain the ultimate cosmic treasure: Planet AE-38. Alone or with a friend in local co-op, get ready for your biggest challenge yet!",
+      "description_en": "Super Alloy Crush is a fast-paced 2D roguelike brawler inspired by classics like Mega Man X. Play as Kelly and Muu (No.02) to defeat enemies and obtain the ultimate cosmic treasure: Planet AE-38. Alone or with a friend in local co-op, get ready for your biggest challenge yet!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3092360/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "k4gUrl": "",
+      "k4gDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "super-alloy-crush",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Super Alloy Crush is a fast-paced 2D roguelike brawler inspired by classics like Mega Man X. Play as Kelly and Muu (No.02) to defeat enemies and obtain the ultimate cosmic treasure: Planet AE-38. Alone or with a friend in local co-op, get ready for your biggest challenge yet!",
+        "en": "Super Alloy Crush is a fast-paced 2D roguelike brawler inspired by classics like Mega Man X. Play as Kelly and Muu (No.02) to defeat enemies and obtain the ultimate cosmic treasure: Planet AE-38. Alone or with a friend in local co-op, get ready for your biggest challenge yet!"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": [
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3092360/",
+          "externalId": "3092360"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3092360"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 0,
         "igdb": false,
         "gog": false,
         "rawg": false
