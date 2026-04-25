@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-23T08:20:08+00:00",
+  "generatedAt": "2026-04-24T08:29:02+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 410,
+    "games": 411,
     "played": 12,
     "trending": 47,
-    "withEnglishDescription": 410,
+    "withEnglishDescription": 411,
     "categoryCounts": {
-      "action": 301,
+      "action": 302,
       "factory": 60,
       "free": 36,
       "horror": 45,
@@ -28,7 +28,7 @@
     "storeCounts": {
       "epic": 47,
       "gog": 22,
-      "steam": 406
+      "steam": 407
     }
   },
   "games": [
@@ -41689,102 +41689,6 @@
       }
     },
     {
-      "id": 670,
-      "igdbId": 309645,
-      "title": "Weed Shop 4: Highland",
-      "categories": [
-        "action"
-      ],
-      "genres": [
-        "action"
-      ],
-      "coopMode": [
-        "online"
-      ],
-      "maxPlayers": 4,
-      "crossplay": false,
-      "players": "2-4",
-      "releaseYear": 0,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2631140/d156341630d1777cb73354876466fc72ad27de93/header.jpg?t=1776711476",
-      "description": "VISIT HIGHLAND! Build a weed empire from nothing on a broken tropical island. Grow, sell, expand, and survive the chaos solo or in co-op.",
-      "description_en": "VISIT HIGHLAND! Build a weed empire from nothing on a broken tropical island. Grow, sell, expand, and survive the chaos solo or in co-op.",
-      "personalNote": "",
-      "played": false,
-      "steamUrl": "https://store.steampowered.com/app/2631140/",
-      "gogUrl": "",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 0,
-      "trending": false,
-      "rating": 0,
-      "igUrl": "",
-      "igDiscount": 0,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "",
-      "gsDiscount": 0,
-      "kgUrl": "",
-      "kgDiscount": 0,
-      "k4gUrl": "",
-      "k4gDiscount": 0,
-      "gmvUrl": "",
-      "gmvDiscount": 0,
-      "gmgUrl": "",
-      "gmgDiscount": 0,
-      "coopScore": null,
-      "mini_review_it": "",
-      "mini_review_en": "",
-      "slug": "weed-shop-4-highland",
-      "isFeaturedIndie": false,
-      "descriptions": {
-        "it": "VISIT HIGHLAND! Build a weed empire from nothing on a broken tropical island. Grow, sell, expand, and survive the chaos solo or in co-op.",
-        "en": "VISIT HIGHLAND! Build a weed empire from nothing on a broken tropical island. Grow, sell, expand, and survive the chaos solo or in co-op."
-      },
-      "taxonomy": {
-        "categories": [
-          "action"
-        ],
-        "genres": [
-          "action"
-        ]
-      },
-      "capabilities": {
-        "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
-        "crossplay": false,
-        "playersLabel": "2-4",
-        "maxPlayers": 4
-      },
-      "storefronts": [
-        {
-          "store": "steam",
-          "url": "https://store.steampowered.com/app/2631140/",
-          "externalId": "2631140"
-        }
-      ],
-      "externalIds": {
-        "steamAppId": "2631140"
-      },
-      "signals": {
-        "ccu": 0,
-        "trending": false,
-        "rating": 0,
-        "igdb": false,
-        "gog": false,
-        "rawg": false
-      },
-      "editorial": {
-        "played": false,
-        "personalNote": ""
-      },
-      "sourceMeta": {
-        "ingestSource": "games.js",
-        "schemaVersion": 1
-      }
-    },
-    {
       "id": 671,
       "igdbId": 382522,
       "title": "Pratfall",
@@ -41800,7 +41704,7 @@
       "maxPlayers": 4,
       "crossplay": false,
       "players": "2-4",
-      "releaseYear": 0,
+      "releaseYear": 2026,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4244510/aa5134d11626034935daa974478c834d03d73f54/header.jpg?t=1776803939",
       "description": "A co-op game where you fall, dig, and explode your way down a dangerous cave system to find your lost dog. Catch your friends and watch your step on this journey full of traps, hazards, and the most deadly force of all: gravity. Will you jump into the unknown to rescue your dog?",
       "description_en": "A co-op game where you fall, dig, and explode your way down a dangerous cave system to find your lost dog. Catch your friends and watch your step on this journey full of traps, hazards, and the most deadly force of all: gravity. Will you jump into the unknown to rescue your dog?",
@@ -41812,7 +41716,7 @@
       "itchUrl": "",
       "ccu": 0,
       "trending": false,
-      "rating": 0,
+      "rating": 94,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
@@ -41862,6 +41766,198 @@
       ],
       "externalIds": {
         "steamAppId": "4244510"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 94,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 672,
+      "igdbId": 279128,
+      "title": "Into the Radius 2",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 2,
+      "crossplay": false,
+      "players": "1-2",
+      "releaseYear": 0,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2307350/c392da3c356501b682aca2645f990f14d39bfea4/header.jpg?t=1776962579",
+      "description": "Into the Radius 2 is an immersive VR survival shooter, set in a realm of surreal landscapes and deadly entities known as Pechorsk Anomaly. Arm yourself with realistic weapons and venture deeper into the mysteries that lie within, either solo or with a friend by your side.",
+      "description_en": "Into the Radius 2 is an immersive VR survival shooter, set in a realm of surreal landscapes and deadly entities known as Pechorsk Anomaly. Arm yourself with realistic weapons and venture deeper into the mysteries that lie within, either solo or with a friend by your side.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2307350/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "k4gUrl": "",
+      "k4gDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "into-the-radius-2",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Into the Radius 2 is an immersive VR survival shooter, set in a realm of surreal landscapes and deadly entities known as Pechorsk Anomaly. Arm yourself with realistic weapons and venture deeper into the mysteries that lie within, either solo or with a friend by your side.",
+        "en": "Into the Radius 2 is an immersive VR survival shooter, set in a realm of surreal landscapes and deadly entities known as Pechorsk Anomaly. Arm yourself with realistic weapons and venture deeper into the mysteries that lie within, either solo or with a friend by your side."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": [
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-2",
+        "maxPlayers": 2
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2307350/",
+          "externalId": "2307350"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2307350"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 0,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 673,
+      "igdbId": 304696,
+      "title": "SimplePlanes 2",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 0,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2840470/910f2b140ddd11546bdc5af6ba9f9b3da165f773/header.jpg?t=1776962034",
+      "description": "SimplePlanes is back! Build planes, cars, or anything else using powerful procedural parts! Explore detailed environments with friends in multiplayer, cause chaos, or download 1,000,000 community crafts for free.",
+      "description_en": "SimplePlanes is back! Build planes, cars, or anything else using powerful procedural parts! Explore detailed environments with friends in multiplayer, cause chaos, or download 1,000,000 community crafts for free.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2840470/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "k4gUrl": "",
+      "k4gDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "simpleplanes-2",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "SimplePlanes is back! Build planes, cars, or anything else using powerful procedural parts! Explore detailed environments with friends in multiplayer, cause chaos, or download 1,000,000 community crafts for free.",
+        "en": "SimplePlanes is back! Build planes, cars, or anything else using powerful procedural parts! Explore detailed environments with friends in multiplayer, cause chaos, or download 1,000,000 community crafts for free."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": [
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2840470/",
+          "externalId": "2840470"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2840470"
       },
       "signals": {
         "ccu": 0,
