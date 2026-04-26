@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-25T07:31:31.773566Z",
+  "generatedAt": "2026-04-26T07:53:59.665425Z",
   "games": [
     {
       "id": 1,
@@ -41962,7 +41962,7 @@
       "maxPlayers": 4,
       "crossplay": false,
       "players": "1-4",
-      "releaseYear": 0,
+      "releaseYear": 2026,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3618030/1410006e42c90a7929161a991ff087ecc85f6aa7/header.jpg?t=1777049893",
       "description": "Flock Around is a multiplayer bird watching game. Explore a nature sanctuary with friends, snap pictures of birds, and fill out the guide book!",
       "description_en": "Flock Around is a multiplayer bird watching game. Explore a nature sanctuary with friends, snap pictures of birds, and fill out the guide book!",
@@ -41974,7 +41974,7 @@
       "itchUrl": "",
       "ccu": 0,
       "trending": false,
-      "rating": 0,
+      "rating": 100,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
@@ -42024,6 +42024,198 @@
       ],
       "externalIds": {
         "steamAppId": "3618030"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 100,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 675,
+      "igdbId": 366607,
+      "title": "Together: Moon Escape",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 0,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3744430/2b1989c2b09a474a13a9dc3db410248ad9fc04e4/header.jpg?t=1776855018",
+      "description": "A handcrafted two player adventure set in low gravity. Solve intricate asymmetric puzzles and escape Moontella’s extremely profitable slime empire through chaos, laughter, and unforgettable true co-op moments with your partner.",
+      "description_en": "A handcrafted two player adventure set in low gravity. Solve intricate asymmetric puzzles and escape Moontella’s extremely profitable slime empire through chaos, laughter, and unforgettable true co-op moments with your partner.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3744430/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "k4gUrl": "",
+      "k4gDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "together-moon-escape",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "A handcrafted two player adventure set in low gravity. Solve intricate asymmetric puzzles and escape Moontella’s extremely profitable slime empire through chaos, laughter, and unforgettable true co-op moments with your partner.",
+        "en": "A handcrafted two player adventure set in low gravity. Solve intricate asymmetric puzzles and escape Moontella’s extremely profitable slime empire through chaos, laughter, and unforgettable true co-op moments with your partner."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": [
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3744430/",
+          "externalId": "3744430"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3744430"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 0,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 676,
+      "igdbId": 392323,
+      "title": "Typing Farmer",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 0,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4216670/5138776add9390abbbde1a179be9321a0cfe7a84/header.jpg?t=1776654464",
+      "description": "Welcome to Typing Farmer! This desktop idle healing game will make a corner of your screen a cozy farm. Your daily actions—typing and clicking—automatically foster crop growth, attract cute animals play with you. Let the healing charm of adorable creatures infuse your intense workdays~",
+      "description_en": "Welcome to Typing Farmer! This desktop idle healing game will make a corner of your screen a cozy farm. Your daily actions—typing and clicking—automatically foster crop growth, attract cute animals play with you. Let the healing charm of adorable creatures infuse your intense workdays~",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4216670/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 0,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "k4gUrl": "",
+      "k4gDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "typing-farmer",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Welcome to Typing Farmer! This desktop idle healing game will make a corner of your screen a cozy farm. Your daily actions—typing and clicking—automatically foster crop growth, attract cute animals play with you. Let the healing charm of adorable creatures infuse your intense workdays~",
+        "en": "Welcome to Typing Farmer! This desktop idle healing game will make a corner of your screen a cozy farm. Your daily actions—typing and clicking—automatically foster crop growth, attract cute animals play with you. Let the healing charm of adorable creatures infuse your intense workdays~"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": [
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4216670/",
+          "externalId": "4216670"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4216670"
       },
       "signals": {
         "ccu": 0,
