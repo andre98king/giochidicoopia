@@ -1,34 +1,34 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-30T08:47:15+00:00",
+  "generatedAt": "2026-04-30T19:42:25+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 416,
+    "games": 460,
     "played": 12,
-    "trending": 47,
-    "withEnglishDescription": 416,
+    "trending": 53,
+    "withEnglishDescription": 460,
     "categoryCounts": {
-      "action": 307,
-      "factory": 60,
-      "free": 36,
-      "horror": 45,
-      "indie": 144,
-      "puzzle": 39,
-      "roguelike": 29,
-      "rpg": 84,
-      "splitscreen": 88,
-      "sport": 14,
-      "strategy": 96,
-      "survival": 98
+      "action": 343,
+      "factory": 64,
+      "free": 43,
+      "horror": 46,
+      "indie": 150,
+      "puzzle": 40,
+      "roguelike": 30,
+      "rpg": 100,
+      "splitscreen": 94,
+      "sport": 19,
+      "strategy": 104,
+      "survival": 104
     },
     "storeCounts": {
-      "epic": 47,
-      "gog": 22,
-      "steam": 412
+      "epic": 53,
+      "gog": 26,
+      "steam": 456
     }
   },
   "games": [
@@ -535,6 +535,112 @@
         "ccu": 44886,
         "trending": true,
         "rating": 79,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 8,
+      "igdbId": 334647,
+      "title": "Grand Theft Auto V Enhanced",
+      "categories": [
+        "action",
+        "survival"
+      ],
+      "genres": [
+        "action",
+        "survival"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2025,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
+      "description": "Goditi Grand Theft Auto V e GTA Online, due successi incredibili, ora migliorati per la nuova generazione con una definizione mozzafiato, tempi di caricamento più brevi, audio 3D e altro. In più, contenuti esclusivi per i giocatori di GTA Online.",
+      "description_en": "Experience entertainment blockbusters Grand Theft Auto V and Grand Theft Auto Online — now upgraded for a new generation with stunning visuals, faster loading, 3D audio, and more, plus exclusive content for GTA Online players.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3240220/",
+      "gogUrl": "",
+      "epicUrl": "https://store.epicgames.com/en-US/p/grand-theft-auto-v",
+      "itchUrl": "",
+      "ccu": 39502,
+      "trending": true,
+      "rating": 69,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "https://www.gamebillet.com/grand-theft-auto-v-and-criminal-enterprise-starter-pack-bundle?affiliate=fb308ca0-647e-4ce7-9e80-74c2c591eac1",
+      "gbDiscount": 5,
+      "gsUrl": "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fgrand-theft-auto-v-enhanced-pc-steam-account-global&cjsku=SW39248",
+      "gsDiscount": 15,
+      "kgUrl": "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F320973%2Fgrand-theft-auto-v-enhanced-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=320973",
+      "kgDiscount": 0,
+      "k4gUrl": "https://k4g.com/product/grand-theft-auto-v-enhanced-pc-steam-key?r=coophubs",
+      "k4gDiscount": 10,
+      "gmvUrl": "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgrand-theft-auto-v-gta-5-pc-steam-global-en-standard&cjsku=173140",
+      "gmvDiscount": 10,
+      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
+      "gmgDiscount": 5,
+      "coopScore": 2,
+      "mini_review_it": "Survival horror realista in multiplayer. Fame, sete, malattie: sopravvivere è un'esperienza dura.",
+      "mini_review_en": "Realistic multiplayer survival horror. Hunger, thirst, diseases: survival is a harsh experience.",
+      "slug": "grand-theft-auto-v-enhanced",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Goditi Grand Theft Auto V e GTA Online, due successi incredibili, ora migliorati per la nuova generazione con una definizione mozzafiato, tempi di caricamento più brevi, audio 3D e altro. In più, contenuti esclusivi per i giocatori di GTA Online.",
+        "en": "Experience entertainment blockbusters Grand Theft Auto V and Grand Theft Auto Online — now upgraded for a new generation with stunning visuals, faster loading, 3D audio, and more, plus exclusive content for GTA Online players."
+      },
+      "taxonomy": {
+        "categories": [
+          "action",
+          "survival"
+        ],
+        "genres": [
+          "action",
+          "survival"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3240220/",
+          "externalId": "3240220"
+        },
+        {
+          "store": "epic",
+          "url": "https://store.epicgames.com/en-US/p/grand-theft-auto-v",
+          "externalId": "grand-theft-auto-v"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3240220",
+        "epicSlug": "grand-theft-auto-v"
+      },
+      "signals": {
+        "ccu": 39502,
+        "trending": true,
+        "rating": 69,
         "igdb": false,
         "gog": false,
         "rawg": false
@@ -2887,6 +2993,112 @@
       }
     },
     {
+      "id": 31,
+      "igdbId": 279661,
+      "title": "Monster Hunter Wilds",
+      "categories": [
+        "action",
+        "rpg"
+      ],
+      "genres": [
+        "action",
+        "rpg"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": true,
+      "players": "1-4",
+      "releaseYear": 2025,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2246340/header.jpg",
+      "description": "La prorompente forza della natura è selvaggia e spietata, con ambienti che cambiano drasticamente da un momento all'altro. Questa è una storia di mostri e umani, e della continua ricerca dell'armonia in un mondo di contrasti.",
+      "description_en": "The unbridled force of nature runs wild and relentless, with environments transforming drastically from one moment to the next. This is a story of monsters and humans and their struggles to live in harmony in a world of duality.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2246340/",
+      "gogUrl": "",
+      "epicUrl": "https://store.epicgames.com/en-US/p/monster-hunter-wilds",
+      "itchUrl": "",
+      "ccu": 12494,
+      "trending": true,
+      "rating": 58,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fmonster-hunter-wilds-pc-steam-key-eu&cjsku=SW23918",
+      "gsDiscount": 15,
+      "kgUrl": "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F273386%2Fmonster-hunter-wilds-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=273386",
+      "kgDiscount": 0,
+      "k4gUrl": "https://k4g.com/product/monster-hunter-wilds-pc-steam-key?r=coophubs",
+      "k4gDiscount": 10,
+      "gmvUrl": "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmonster-hunter-wilds-pc-steam-row-standard&cjsku=184450",
+      "gmvDiscount": 10,
+      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
+      "gmgDiscount": 5,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "monster-hunter-wilds",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "La prorompente forza della natura è selvaggia e spietata, con ambienti che cambiano drasticamente da un momento all&#x27;altro. Questa è una storia di mostri e umani, e della continua ricerca dell&#x27;armonia in un mondo di contrasti.",
+        "en": "The unbridled force of nature runs wild and relentless, with environments transforming drastically from one moment to the next. This is a story of monsters and humans and their struggles to live in harmony in a world of duality."
+      },
+      "taxonomy": {
+        "categories": [
+          "action",
+          "rpg"
+        ],
+        "genres": [
+          "action",
+          "rpg"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": true,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2246340/",
+          "externalId": "2246340"
+        },
+        {
+          "store": "epic",
+          "url": "https://store.epicgames.com/en-US/p/monster-hunter-wilds",
+          "externalId": "monster-hunter-wilds"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2246340",
+        "epicSlug": "monster-hunter-wilds"
+      },
+      "signals": {
+        "ccu": 12494,
+        "trending": true,
+        "rating": 58,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
       "id": 32,
       "igdbId": 36926,
       "title": "Monster Hunter: World",
@@ -3295,6 +3507,113 @@
       }
     },
     {
+      "id": 37,
+      "igdbId": 125165,
+      "title": "Diablo IV",
+      "categories": [
+        "rpg",
+        "action"
+      ],
+      "genres": [
+        "rpg",
+        "action"
+      ],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": true,
+      "players": "1-4",
+      "releaseYear": 2023,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2344520/header.jpg",
+      "description": "Diablo® IV: Age of Hatred Collection Diablo® IV: Age of Hatred Collection Non conosci Diablo IV? Inizia la tua discesa nell'oscurità con Diablo® IV: Age of Hatred Collection, la saga completa della lotta di Sanctuarium contro il Primo Maligno, Mefisto. La Age of Hatred Collection include: - Diablo®…",
+      "description_en": "Diablo® IV: Age of Hatred Collection New to Diablo IV? Begin your descent into darkness with the Diablo® IV: Age of Hatred Collection — the complete saga of Sanctuary’s struggle against the Prime Evil, Mephisto. The Age of Hatred Collection includes: - Diablo® IV for Steam - Diablo® IV: Vessel of…",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2344520/",
+      "gogUrl": "",
+      "epicUrl": "https://store.epicgames.com/en-US/p/diablo-iv",
+      "itchUrl": "",
+      "ccu": 8835,
+      "trending": false,
+      "rating": 66,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "https://www.kqzyfj.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fdiablo-iv-pc-steam-gift-row&cjsku=SW32257",
+      "gsDiscount": 15,
+      "kgUrl": "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F191907%2Fdiablo-iv-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=191907",
+      "kgDiscount": 0,
+      "k4gUrl": "https://k4g.com/product/diablo-iv-pc-steam-key?r=coophubs",
+      "k4gDiscount": 10,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
+      "gmgDiscount": 5,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "diablo-iv",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Diablo® IV: Age of Hatred Collection Diablo® IV: Age of Hatred Collection Non conosci Diablo IV? Inizia la tua discesa nell&#x27;oscurità con Diablo® IV: Age of Hatred Collection, la saga completa della lotta di Sanctuarium contro il Primo Maligno, Mefisto. La Age of Hatred Collection include: - Diablo®…",
+        "en": "Diablo® IV: Age of Hatred Collection New to Diablo IV? Begin your descent into darkness with the Diablo® IV: Age of Hatred Collection — the complete saga of Sanctuary’s struggle against the Prime Evil, Mephisto. The Age of Hatred Collection includes: - Diablo® IV for Steam - Diablo® IV: Vessel of…"
+      },
+      "taxonomy": {
+        "categories": [
+          "rpg",
+          "action"
+        ],
+        "genres": [
+          "rpg",
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": true,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2344520/",
+          "externalId": "2344520"
+        },
+        {
+          "store": "epic",
+          "url": "https://store.epicgames.com/en-US/p/diablo-iv",
+          "externalId": "diablo-iv"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2344520",
+        "epicSlug": "diablo-iv"
+      },
+      "signals": {
+        "ccu": 8835,
+        "trending": false,
+        "rating": 66,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
       "id": 38,
       "igdbId": 103020,
       "title": "Fallout 76",
@@ -3601,6 +3920,106 @@
         "ccu": 7902,
         "trending": false,
         "rating": 93,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 41,
+      "igdbId": 275070,
+      "title": "Gray Zone Warfare",
+      "categories": [
+        "action",
+        "survival"
+      ],
+      "genres": [
+        "action",
+        "survival"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2024,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2479810/header.jpg",
+      "description": "Immergiti in uno sparatutto a mondo aperto prevalentemente PvE in un'isola del Sud-est asiatico dilaniata da una guerra tra fazioni. Combatti con le tue sole forze o al fianco di una squadra per svolgere missioni, farti una reputazione e svelare la verità sull'Evento che ha scatenato il conflitto.",
+      "description_en": "Enter a high-stakes PvE-first open-world tactical shooter set on a quarantined Southeast Asian island torn apart by faction warfare. Deploy as an elite operator, fight solo or with your squad to carry out missions, earn reputation, and explore the truth behind the Event igniting the conflict.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2479810/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 7543,
+      "trending": false,
+      "rating": 68,
+      "igUrl": "https://www.instant-gaming.com/en/17826-buy-steam-gray-zone-warfare-pc-game-steam-us-and-ca/?igr=gamer-ddc4a8",
+      "igDiscount": 24,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fgray-zone-warfare-pc-steam-key-row&cjsku=171157",
+      "gsDiscount": 15,
+      "kgUrl": "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F233652%2Fgray-zone-warfare-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=233652",
+      "kgDiscount": 0,
+      "k4gUrl": "https://k4g.com/product/gray-zone-warfare-pc-steam-key?r=coophubs",
+      "k4gDiscount": 10,
+      "gmvUrl": "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fgray-zone-warfare-pc-steam-global-en-standard&cjsku=171157",
+      "gmvDiscount": 10,
+      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
+      "gmgDiscount": 5,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "gray-zone-warfare",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Immergiti in uno sparatutto a mondo aperto prevalentemente PvE in un&#x27;isola del Sud-est asiatico dilaniata da una guerra tra fazioni. Combatti con le tue sole forze o al fianco di una squadra per svolgere missioni, farti una reputazione e svelare la verità sull&#x27;Evento che ha scatenato il conflitto.",
+        "en": "Enter a high-stakes PvE-first open-world tactical shooter set on a quarantined Southeast Asian island torn apart by faction warfare. Deploy as an elite operator, fight solo or with your squad to carry out missions, earn reputation, and explore the truth behind the Event igniting the conflict."
+      },
+      "taxonomy": {
+        "categories": [
+          "action",
+          "survival"
+        ],
+        "genres": [
+          "action",
+          "survival"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2479810/",
+          "externalId": "2479810"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2479810"
+      },
+      "signals": {
+        "ccu": 7543,
+        "trending": false,
+        "rating": 68,
         "igdb": false,
         "gog": false,
         "rawg": false
@@ -4739,6 +5158,110 @@
         "ccu": 5677,
         "trending": false,
         "rating": 79,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 54,
+      "igdbId": 24654,
+      "title": "New World: Aeternum",
+      "categories": [
+        "rpg",
+        "action",
+        "survival"
+      ],
+      "genres": [
+        "rpg",
+        "action",
+        "survival"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2021,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1063730/header.jpg",
+      "description": "Vivi un'esperienza entusiasmante con l’RPG d’azione ambientato nell’isola sovrannaturale di Aeternum. Forgia il tuo destino in un’avventura piena di pericoli e opportunità.",
+      "description_en": "Experience a thrilling action RPG set on the supernatural island of Aeternum. Forge your destiny on an adventure filled with danger and opportunity.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1063730/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 5583,
+      "trending": false,
+      "rating": 69,
+      "igUrl": "https://www.instant-gaming.com/en/5932-buy-steam-new-world-aeternum-pc-game-steam/?igr=gamer-ddc4a8",
+      "igDiscount": 22,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fnew-world-aeternum-pc-steam-account-global&cjsku=SW39572",
+      "gsDiscount": 15,
+      "kgUrl": "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F280036%2Fnew-world-aeternum-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=280036",
+      "kgDiscount": 0,
+      "k4gUrl": "https://k4g.com/product/new-world-aeternum-pc-steam-key?r=coophubs",
+      "k4gDiscount": 10,
+      "gmvUrl": "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fnew-world-aeternum-xbox-xboxseries-eu-standard&cjsku=177762",
+      "gmvDiscount": 10,
+      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
+      "gmgDiscount": 5,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "new-world-aeternum",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Vivi un&#x27;esperienza entusiasmante con l’RPG d’azione ambientato nell’isola sovrannaturale di Aeternum. Forgia il tuo destino in un’avventura piena di pericoli e opportunità.",
+        "en": "Experience a thrilling action RPG set on the supernatural island of Aeternum. Forge your destiny on an adventure filled with danger and opportunity."
+      },
+      "taxonomy": {
+        "categories": [
+          "rpg",
+          "action",
+          "survival"
+        ],
+        "genres": [
+          "rpg",
+          "action",
+          "survival"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1063730/",
+          "externalId": "1063730"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "1063730"
+      },
+      "signals": {
+        "ccu": 5583,
+        "trending": false,
+        "rating": 69,
         "igdb": false,
         "gog": false,
         "rawg": false
@@ -8231,6 +8754,110 @@
       "editorial": {
         "played": true,
         "personalNote": "Difficile ma soddisfacente. L'arte è straordinaria. Con un amico è più gestibile ma anche più caotico."
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 97,
+      "igdbId": 143628,
+      "title": "Myth of Empires",
+      "categories": [
+        "survival",
+        "rpg",
+        "action"
+      ],
+      "genres": [
+        "survival",
+        "rpg",
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2024,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1371580/header.jpg",
+      "description": "Myth of Empires è un gioco sandbox di guerra multiplayer con grande libertà e civiltà diverse. I giocatori devono sopravvivere, creare e guidare truppe per conquistare territori PVE o PVP e costruire un impero. Il DLC Myth of Empires - Civiltà Xizhou è ora ufficialmente disponibile",
+      "description_en": "Myth of Empires is a multiplayer war sandbox game featuring a high degree of freedom and multiple civilizations. Players must survive, craft, create, and lead troops in their quest to conquer PVE or PVP territory and build their own empire. Xizhou Civilization Pack is now officially released!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1371580/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 2060,
+      "trending": false,
+      "rating": 68,
+      "igUrl": "https://www.instant-gaming.com/en/10005-buy-steam-myth-of-empires-pc-game-steam/?igr=gamer-ddc4a8",
+      "igDiscount": 67,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fmyth-of-empires-pc-steam-key-global&cjsku=127918",
+      "gsDiscount": 15,
+      "kgUrl": "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F103269%2Fmyth-of-empires-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=103269",
+      "kgDiscount": 0,
+      "k4gUrl": "https://k4g.com/product/myth-of-empires-pc-steam-key?r=coophubs",
+      "k4gDiscount": 10,
+      "gmvUrl": "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fmyth-of-empires-pc-steam-eu-en-de-fr-pl-cs-ja-pt-ru-zh-es-zh-standard&cjsku=172418",
+      "gmvDiscount": 10,
+      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
+      "gmgDiscount": 5,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "myth-of-empires",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Myth of Empires è un gioco sandbox di guerra multiplayer con grande libertà e civiltà diverse. I giocatori devono sopravvivere, creare e guidare truppe per conquistare territori PVE o PVP e costruire un impero. Il DLC Myth of Empires - Civiltà Xizhou è ora ufficialmente disponibile",
+        "en": "Myth of Empires is a multiplayer war sandbox game featuring a high degree of freedom and multiple civilizations. Players must survive, craft, create, and lead troops in their quest to conquer PVE or PVP territory and build their own empire. Xizhou Civilization Pack is now officially released!"
+      },
+      "taxonomy": {
+        "categories": [
+          "survival",
+          "rpg",
+          "action"
+        ],
+        "genres": [
+          "survival",
+          "rpg",
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1371580/",
+          "externalId": "1371580"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "1371580"
+      },
+      "signals": {
+        "ccu": 2060,
+        "trending": false,
+        "rating": 68,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
       },
       "sourceMeta": {
         "ingestSource": "games.js",
@@ -11846,6 +12473,112 @@
       }
     },
     {
+      "id": 139,
+      "igdbId": 34244,
+      "title": "Full Metal Furies",
+      "categories": [
+        "splitscreen",
+        "action",
+        "rpg",
+        "indie"
+      ],
+      "genres": [
+        "action",
+        "rpg"
+      ],
+      "coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2016,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/416200/header.jpg",
+      "description": "Full Metal Furies è un action RPG co-op per 1-4 giocatori con combattimenti strategici a scorrimento laterale. Scegli la tua classe tra Guerriero, Cecchino, Ingegnere e Battitore e lavora in squadra per vincere battaglie impegnative.",
+      "description_en": "You are Bixby, an agent within the bureaucratic metropolis known as the Ministry Of Order. As Lounge District's go-to detective, take a stroll through a retro-future so analog it'll make your head spin.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/416200/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 53,
+      "igUrl": "https://www.instant-gaming.com/en/4528-buy-steam-full-metal-furies-pc-mac-game-steam/?igr=gamer-ddc4a8",
+      "igDiscount": 91,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffull-metal-furies-pc-steam-key-global&cjsku=28714",
+      "gsDiscount": 15,
+      "kgUrl": "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F44849%2Ffull-metal-furies-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=44849",
+      "kgDiscount": 0,
+      "k4gUrl": "https://k4g.com/product/full-metal-furies-pc-steam-key?r=coophubs",
+      "k4gDiscount": 10,
+      "gmvUrl": "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffull-metal-furies-eu-xbox-one&cjsku=52583",
+      "gmvDiscount": 10,
+      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
+      "gmgDiscount": 5,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "full-metal-furies",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Full Metal Furies è un action RPG co-op per 1-4 giocatori con combattimenti strategici a scorrimento laterale. Scegli la tua classe tra Guerriero, Cecchino, Ingegnere e Battitore e lavora in squadra per vincere battaglie impegnative.",
+        "en": "You are Bixby, an agent within the bureaucratic metropolis known as the Ministry Of Order. As Lounge District&#x27;s go-to detective, take a stroll through a retro-future so analog it&#x27;ll make your head spin."
+      },
+      "taxonomy": {
+        "categories": [
+          "splitscreen",
+          "action",
+          "rpg",
+          "indie"
+        ],
+        "genres": [
+          "action",
+          "rpg"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/416200/",
+          "externalId": "416200"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "416200"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 53,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
       "id": 140,
       "igdbId": 105680,
       "title": "Phogs!",
@@ -12042,6 +12775,112 @@
         "ccu": 46,
         "trending": false,
         "rating": 79,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 143,
+      "igdbId": 116200,
+      "title": "Back 4 Blood",
+      "categories": [
+        "action",
+        "horror"
+      ],
+      "genres": [
+        "action",
+        "horror"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2021,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/924970/header.jpg",
+      "description": "Successore spirituale di Left 4 Dead, Back 4 Blood mette quattro giocatori contro orde di 'Ridden' infetti in una campagna co-op narrativa. Il sistema di carte aggiunge variabilità strategica a ogni run, permettendo di personalizzare vantaggi dei giocatori e difficoltà. Un titolo solido per chi cerca un'esperienza cooperativa intensa.",
+      "description_en": "Back 4 Blood is a thrilling cooperative first-person shooter from the creators of the critically acclaimed Left 4 Dead franchise. Experience the intense 4 player co-op narrative campaign, competitive multiplayer as human or Ridden, and frenetic gameplay that keeps you in the action.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/924970/",
+      "gogUrl": "",
+      "epicUrl": "https://store.epicgames.com/en-US/p/back-4-blood",
+      "itchUrl": "",
+      "ccu": 1288,
+      "trending": false,
+      "rating": 68,
+      "igUrl": "https://www.instant-gaming.com/en/17933-buy-steam-back-4-blood-pc-game-steam-us-and-ca/?igr=gamer-ddc4a8",
+      "igDiscount": 98,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fback-4-blood-pc-steam-account-global&cjsku=SW22459",
+      "gsDiscount": 15,
+      "kgUrl": "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F137428%2Fback4blood-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=137428",
+      "kgDiscount": 0,
+      "k4gUrl": "https://k4g.com/product/back-4-blood-pc-steam-key?r=coophubs",
+      "k4gDiscount": 10,
+      "gmvUrl": "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fback-4-blood-eu-xbox-series&cjsku=125380",
+      "gmvDiscount": 10,
+      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
+      "gmgDiscount": 5,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "back-4-blood",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Successore spirituale di Left 4 Dead, Back 4 Blood mette quattro giocatori contro orde di &#x27;Ridden&#x27; infetti in una campagna co-op narrativa. Il sistema di carte aggiunge variabilità strategica a ogni run, permettendo di personalizzare vantaggi dei giocatori e difficoltà. Un titolo solido per chi cerca un&#x27;esperienza cooperativa intensa.",
+        "en": "Back 4 Blood is a thrilling cooperative first-person shooter from the creators of the critically acclaimed Left 4 Dead franchise. Experience the intense 4 player co-op narrative campaign, competitive multiplayer as human or Ridden, and frenetic gameplay that keeps you in the action."
+      },
+      "taxonomy": {
+        "categories": [
+          "action",
+          "horror"
+        ],
+        "genres": [
+          "action",
+          "horror"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/924970/",
+          "externalId": "924970"
+        },
+        {
+          "store": "epic",
+          "url": "https://store.epicgames.com/en-US/p/back-4-blood",
+          "externalId": "back-4-blood"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "924970",
+        "epicSlug": "back-4-blood"
+      },
+      "signals": {
+        "ccu": 1288,
+        "trending": false,
+        "rating": 68,
         "igdb": false,
         "gog": false,
         "rawg": false
@@ -12849,6 +13688,116 @@
         "ccu": 325,
         "trending": false,
         "rating": 73,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 153,
+      "igdbId": 27270,
+      "title": "PAYDAY 3",
+      "categories": [
+        "rpg",
+        "strategy",
+        "action"
+      ],
+      "genres": [
+        "rpg",
+        "strategy",
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": true,
+      "players": "1-4",
+      "releaseYear": 2023,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1272080/header.jpg",
+      "description": "Il seguito di PayDay 2 porta la serie delle rapine cooperative nel mondo moderno con grafica aggiornata e meccaniche stealth/azione rifinite. Fino a quattro giocatori pianificano ed eseguono colpi elaborati in diverse città, scegliendo tra approcci silenziosi o sparatorie caotiche. Aggiornamenti sostanziali lo hanno reso un'esperienza cooperativa completa.",
+      "description_en": "PAYDAY 3 is the much anticipated sequel to one of the most popular co-op shooters ever. Since its release, PAYDAY-players have been reveling in the thrill of a perfectly planned and executed heist. That’s what makes PAYDAY a high-octane, co-op FPS experience without equal.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1272080/",
+      "gogUrl": "",
+      "epicUrl": "https://store.epicgames.com/en-US/p/payday-3",
+      "itchUrl": "",
+      "ccu": 644,
+      "trending": false,
+      "rating": 43,
+      "igUrl": "https://www.instant-gaming.com/en/6442-buy-steam-payday-3-pc-game-steam/?igr=gamer-ddc4a8",
+      "igDiscount": 52,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fpayday-3-pc-steam-gift-eu&cjsku=164158",
+      "gsDiscount": 15,
+      "kgUrl": "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F166960%2Fpayday-3-pre-order-edition-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=166960",
+      "kgDiscount": 0,
+      "k4gUrl": "https://k4g.com/product/payday-3-pc-steam-key?r=coophubs",
+      "k4gDiscount": 10,
+      "gmvUrl": "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpayday-3-pc-steam-gift-eu-en-de-fr-it-pl-ja-ko-pt-ru-zh-es-tr-zh-standard&cjsku=164158",
+      "gmvDiscount": 10,
+      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
+      "gmgDiscount": 5,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "payday-3",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Il seguito di PayDay 2 porta la serie delle rapine cooperative nel mondo moderno con grafica aggiornata e meccaniche stealth/azione rifinite. Fino a quattro giocatori pianificano ed eseguono colpi elaborati in diverse città, scegliendo tra approcci silenziosi o sparatorie caotiche. Aggiornamenti sostanziali lo hanno reso un&#x27;esperienza cooperativa completa.",
+        "en": "PAYDAY 3 is the much anticipated sequel to one of the most popular co-op shooters ever. Since its release, PAYDAY-players have been reveling in the thrill of a perfectly planned and executed heist. That’s what makes PAYDAY a high-octane, co-op FPS experience without equal."
+      },
+      "taxonomy": {
+        "categories": [
+          "rpg",
+          "strategy",
+          "action"
+        ],
+        "genres": [
+          "rpg",
+          "strategy",
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": true,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1272080/",
+          "externalId": "1272080"
+        },
+        {
+          "store": "epic",
+          "url": "https://store.epicgames.com/en-US/p/payday-3",
+          "externalId": "payday-3"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "1272080",
+        "epicSlug": "payday-3"
+      },
+      "signals": {
+        "ccu": 644,
+        "trending": false,
+        "rating": 43,
         "igdb": false,
         "gog": false,
         "rawg": false
@@ -13978,6 +14927,112 @@
       }
     },
     {
+      "id": 165,
+      "igdbId": 102058,
+      "title": "Outriders",
+      "categories": [
+        "action",
+        "rpg"
+      ],
+      "genres": [
+        "action",
+        "rpg"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 3,
+      "crossplay": true,
+      "players": "1-3",
+      "releaseYear": 2021,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/680420/header.jpg",
+      "description": "Uno sparatutto cooperativo in terza persona con forti elementi RPG, dove fino a tre giocatori scelgono tra quattro classi con poteri elementali devastanti per sopravvivere su un pianeta ostile. Il loop di combattimento aggressivo, dove recuperare salute significa attaccare senza sosta, differenzia Outriders dagli altri looter-shooter. Campagna co-op completa e appagante.",
+      "description_en": "Outriders’ brutal and bloody combat combines frenetic gunplay, violent powers and deep RPG systems to create a true genre hybrid.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/680420/",
+      "gogUrl": "",
+      "epicUrl": "https://store.epicgames.com/en-US/p/outriders",
+      "itchUrl": "",
+      "ccu": 178,
+      "trending": false,
+      "rating": 67,
+      "igUrl": "https://www.instant-gaming.com/en/4835-buy-steam-outriders-pc-game-steam/?igr=gamer-ddc4a8",
+      "igDiscount": 76,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Foutriders-pc-steam-key-eu&cjsku=71532",
+      "gsDiscount": 15,
+      "kgUrl": "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F82592%2Foutriders-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=82592",
+      "kgDiscount": 0,
+      "k4gUrl": "https://k4g.com/product/outriders-pc-steam-key?r=coophubs",
+      "k4gDiscount": 10,
+      "gmvUrl": "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Foutriders-xbox-arg&cjsku=82471",
+      "gmvDiscount": 10,
+      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
+      "gmgDiscount": 5,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "outriders",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Uno sparatutto cooperativo in terza persona con forti elementi RPG, dove fino a tre giocatori scelgono tra quattro classi con poteri elementali devastanti per sopravvivere su un pianeta ostile. Il loop di combattimento aggressivo, dove recuperare salute significa attaccare senza sosta, differenzia Outriders dagli altri looter-shooter. Campagna co-op completa e appagante.",
+        "en": "Outriders’ brutal and bloody combat combines frenetic gunplay, violent powers and deep RPG systems to create a true genre hybrid."
+      },
+      "taxonomy": {
+        "categories": [
+          "action",
+          "rpg"
+        ],
+        "genres": [
+          "action",
+          "rpg"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": true,
+        "playersLabel": "1-3",
+        "maxPlayers": 3
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/680420/",
+          "externalId": "680420"
+        },
+        {
+          "store": "epic",
+          "url": "https://store.epicgames.com/en-US/p/outriders",
+          "externalId": "outriders"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "680420",
+        "epicSlug": "outriders"
+      },
+      "signals": {
+        "ccu": 178,
+        "trending": false,
+        "rating": 67,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
       "id": 166,
       "igdbId": 214397,
       "title": "Moving Out 2",
@@ -14578,6 +15633,208 @@
       }
     },
     {
+      "id": 174,
+      "igdbId": 2165,
+      "title": "War Thunder",
+      "categories": [
+        "action",
+        "free"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": true,
+      "players": "1-4",
+      "releaseYear": 2013,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/236390/header.jpg",
+      "description": "War Thunder è il più completo MMO cross-platform gratuito dedicato all’aviazione militare, ai veicoli corazzati e ai mezzi navali, dall’inizio del XX secolo alle moderne unità di combattimento avanzate. Gioca subito e partecipa a grandi battaglie a terra, in aria e sul mare.",
+      "description_en": "War Thunder is the most comprehensive free-to-play, cross-platform, MMO military game dedicated to aviation, armoured vehicles, and naval craft, from the early 20th century to the most advanced modern combat units. Join now and take part in major battles on land, in the air, and at sea.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/236390/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 50478,
+      "trending": true,
+      "rating": 64,
+      "igUrl": "https://www.instant-gaming.com/en/9468-download-steam-war-thunder-pc-mac-game-steam/?igr=gamer-ddc4a8",
+      "igDiscount": 77,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fwar-thunder-f-5c-pack-pc-steam-gift-global&cjsku=SW38931",
+      "gsDiscount": 15,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "k4gUrl": "https://k4g.com/product/war-thunder-pc-steam-key?r=coophubs",
+      "k4gDiscount": 10,
+      "gmvUrl": "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwar-thunder-german-beginners-bundle-xbox-eu&cjsku=139174",
+      "gmvDiscount": 10,
+      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
+      "gmgDiscount": 5,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "war-thunder",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "War Thunder è il più completo MMO cross-platform gratuito dedicato all’aviazione militare, ai veicoli corazzati e ai mezzi navali, dall’inizio del XX secolo alle moderne unità di combattimento avanzate. Gioca subito e partecipa a grandi battaglie a terra, in aria e sul mare.",
+        "en": "War Thunder is the most comprehensive free-to-play, cross-platform, MMO military game dedicated to aviation, armoured vehicles, and naval craft, from the early 20th century to the most advanced modern combat units. Join now and take part in major battles on land, in the air, and at sea."
+      },
+      "taxonomy": {
+        "categories": [
+          "action",
+          "free"
+        ],
+        "genres": [
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": true,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/236390/",
+          "externalId": "236390"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "236390"
+      },
+      "signals": {
+        "ccu": 50478,
+        "trending": true,
+        "rating": 64,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 175,
+      "igdbId": 308698,
+      "title": "EA SPORTS FC 25",
+      "categories": [
+        "sport",
+        "strategy",
+        "splitscreen"
+      ],
+      "genres": [
+        "sport",
+        "strategy"
+      ],
+      "coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "maxPlayers": 4,
+      "crossplay": true,
+      "players": "1-4",
+      "releaseYear": 2024,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2669320/header.jpg",
+      "description": "EA SPORTS FC™ 25 offre nuovi modi di vincere per il club. Fai squadra con gli amici nelle tue modalità preferite con l'inedita Rush 5 vs 5 e porta il club alla vittoria con un controllo tattico più avanzato che mai grazie a FC IQ.",
+      "description_en": "EA SPORTS FC™ 25 gives you more ways to win for the club. Team up with friends in your favourite modes with the new 5v5 Rush, and manage your club to victory as FC IQ delivers more tactical control than ever before.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2669320/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 42032,
+      "trending": true,
+      "rating": 50,
+      "igUrl": "https://www.instant-gaming.com/en/17147-buy-steam-ea-sports-fc-25-pc-game-steam/?igr=gamer-ddc4a8",
+      "igDiscount": 36,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fea-sports-fc-25-pc-ea-app-key-global&cjsku=SW19169",
+      "gsDiscount": 15,
+      "kgUrl": "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F253448%2Fea-sports-fc-25-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=253448",
+      "kgDiscount": 0,
+      "k4gUrl": "https://k4g.com/product/ea-sports-fc-25-pc-steam-key?r=coophubs",
+      "k4gDiscount": 10,
+      "gmvUrl": "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fea-sports-fc-25-pc-steam-global-standard&cjsku=174819",
+      "gmvDiscount": 10,
+      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
+      "gmgDiscount": 5,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "ea-sports-fc-25",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "EA SPORTS FC™ 25 offre nuovi modi di vincere per il club. Fai squadra con gli amici nelle tue modalità preferite con l&#x27;inedita Rush 5 vs 5 e porta il club alla vittoria con un controllo tattico più avanzato che mai grazie a FC IQ.",
+        "en": "EA SPORTS FC™ 25 gives you more ways to win for the club. Team up with friends in your favourite modes with the new 5v5 Rush, and manage your club to victory as FC IQ delivers more tactical control than ever before."
+      },
+      "taxonomy": {
+        "categories": [
+          "sport",
+          "strategy",
+          "splitscreen"
+        ],
+        "genres": [
+          "sport",
+          "strategy"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
+        "crossplay": true,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2669320/",
+          "externalId": "2669320"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2669320"
+      },
+      "signals": {
+        "ccu": 42032,
+        "trending": true,
+        "rating": 50,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
       "id": 176,
       "igdbId": 15894,
       "title": "Hearts of Iron IV",
@@ -14664,6 +15921,110 @@
         "ccu": 32112,
         "trending": true,
         "rating": 89,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 177,
+      "igdbId": 308034,
+      "title": "NBA 2K25",
+      "categories": [
+        "sport",
+        "strategy",
+        "splitscreen"
+      ],
+      "genres": [
+        "sport",
+        "strategy"
+      ],
+      "coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2024,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2878980/header.jpg",
+      "description": "Domina i campi di NBA 2K25 con il realismo e l'autenticità di ProPLAY™, la tecnologia next-gen studiata per darti un controllo totale. Scrivi la storia del basket nelle modalità La mia CARRIERA, MyTEAM, La mia NBA e The W.",
+      "description_en": "Command every court with authenticity and realism Powered by ProPLAY™, giving you ultimate control over how you play in NBA 2K25. Define your legacy in MyCAREER, MyTEAM, MyNBA, and The W.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2878980/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 27486,
+      "trending": true,
+      "rating": 59,
+      "igUrl": "https://www.instant-gaming.com/en/17565-buy-steam-nba-2k25-pc-game-steam-us-and-ca/?igr=gamer-ddc4a8",
+      "igDiscount": 40,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fnba-2k25-pc-steam-account-global&cjsku=SW26595",
+      "gsDiscount": 15,
+      "kgUrl": "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F254702%2Fnba-2k25-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=254702",
+      "kgDiscount": 0,
+      "k4gUrl": "https://k4g.com/product/nba-2k25-pc-steam-key?r=coophubs",
+      "k4gDiscount": 10,
+      "gmvUrl": "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fnba-2k25-pc-steam-global-standard&cjsku=175652",
+      "gmvDiscount": 10,
+      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
+      "gmgDiscount": 5,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "nba-2k25",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Domina i campi di NBA 2K25 con il realismo e l&#x27;autenticità di ProPLAY™, la tecnologia next-gen studiata per darti un controllo totale. Scrivi la storia del basket nelle modalità La mia CARRIERA, MyTEAM, La mia NBA e The W.",
+        "en": "Command every court with authenticity and realism Powered by ProPLAY™, giving you ultimate control over how you play in NBA 2K25. Define your legacy in MyCAREER, MyTEAM, MyNBA, and The W."
+      },
+      "taxonomy": {
+        "categories": [
+          "sport",
+          "strategy",
+          "splitscreen"
+        ],
+        "genres": [
+          "sport",
+          "strategy"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2878980/",
+          "externalId": "2878980"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2878980"
+      },
+      "signals": {
+        "ccu": 27486,
+        "trending": true,
+        "rating": 59,
         "igdb": false,
         "gog": false,
         "rawg": false
@@ -16100,6 +17461,104 @@
       }
     },
     {
+      "id": 193,
+      "igdbId": 9804,
+      "title": "MapleStory",
+      "categories": [
+        "rpg",
+        "free"
+      ],
+      "genres": [
+        "rpg"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2012,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/216150/header.jpg",
+      "description": "Unisciti ad oltre 260 giocatori nel mondo e gioca a MapleStory, uno degli MMORPG originali, in cui ti attendono epiche avventure, un sacco di azione e nuovi amici! Con il suo stile artistico speciale in 2D, MapleStory ti offre il brivido della potenza esplosiva, un’accentuata espressività in stile…",
+      "description_en": "Join over 260 Million Global Players in MapleStory, one of the original MMORPGs, where epic adventure, action-packed gameplay, & good friends await you! Featuring an iconic 2D art style, MapleStory offers the thrill of explosive power, bold anime-style self-expression, and absolute control of your…",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/216150/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 8092,
+      "trending": false,
+      "rating": 63,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "https://www.anrdoezrs.net/click-101708519-17009720?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F326410%2Fmaplestory-global-currency-elysium-mesos%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=326410",
+      "kgDiscount": 0,
+      "k4gUrl": "https://k4g.com/product/maplestory-pc-steam-key?r=coophubs",
+      "k4gDiscount": 10,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
+      "gmgDiscount": 5,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "maplestory",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Unisciti ad oltre 260 giocatori nel mondo e gioca a MapleStory, uno degli MMORPG originali, in cui ti attendono epiche avventure, un sacco di azione e nuovi amici! Con il suo stile artistico speciale in 2D, MapleStory ti offre il brivido della potenza esplosiva, un’accentuata espressività in stile…",
+        "en": "Join over 260 Million Global Players in MapleStory, one of the original MMORPGs, where epic adventure, action-packed gameplay, &amp; good friends await you! Featuring an iconic 2D art style, MapleStory offers the thrill of explosive power, bold anime-style self-expression, and absolute control of your…"
+      },
+      "taxonomy": {
+        "categories": [
+          "rpg",
+          "free"
+        ],
+        "genres": [
+          "rpg"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/216150/",
+          "externalId": "216150"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "216150"
+      },
+      "signals": {
+        "ccu": 8092,
+        "trending": false,
+        "rating": 63,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
       "id": 194,
       "igdbId": 7393,
       "title": "World of Tanks Blitz",
@@ -16490,6 +17949,112 @@
         "ccu": 5021,
         "trending": false,
         "rating": 94,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 199,
+      "igdbId": 282566,
+      "title": "SMITE 2",
+      "categories": [
+        "action",
+        "strategy",
+        "rpg",
+        "free"
+      ],
+      "genres": [
+        "action",
+        "strategy",
+        "rpg"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": true,
+      "players": "1-4",
+      "releaseYear": 2024,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2437170/header.jpg",
+      "description": "Diventa un dio e dichiara guerra in SMITE 2, il seguito gratuito basato su Unreal Engine 5 del leggendario MOBA d'azione in terza persona. Se ami la competizione stimolante, l'azione intensa, il combattimento basato sull'abilità, il lavoro di squadra gratificante o la mitologia divina, capirai perché oltre 40 milioni di giocatori amano SMITE.",
+      "description_en": "Become a god and wage war in SMITE 2, the free-to-play Unreal Engine 5-powered sequel to the legendary third-person action MOBA. If you love challenging competition, intense action, ability-driven combat, rewarding teamwork, or godly mythology, you’ll see why 40+ million players love SMITE.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2437170/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 4975,
+      "trending": false,
+      "rating": 58,
+      "igUrl": "https://www.instant-gaming.com/en/15700-download-steam-smite-2-pc-game-steam/?igr=gamer-ddc4a8",
+      "igDiscount": 92,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fsmite-2-founders-edition-bundle-pc-steam-account-global&cjsku=SW25677",
+      "gsDiscount": 15,
+      "kgUrl": "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F249040%2Fsmite-2-founders-edition-bundle-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=249040",
+      "kgDiscount": 0,
+      "k4gUrl": "https://k4g.com/product/smite-2-pc-steam-key?r=coophubs",
+      "k4gDiscount": 10,
+      "gmvUrl": "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fsmite-2-pc-steam-gift-global-founders&cjsku=176555",
+      "gmvDiscount": 10,
+      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
+      "gmgDiscount": 5,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "smite-2",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Diventa un dio e dichiara guerra in SMITE 2, il seguito gratuito basato su Unreal Engine 5 del leggendario MOBA d&#x27;azione in terza persona. Se ami la competizione stimolante, l&#x27;azione intensa, il combattimento basato sull&#x27;abilità, il lavoro di squadra gratificante o la mitologia divina, capirai perché oltre 40 milioni di giocatori amano SMITE.",
+        "en": "Become a god and wage war in SMITE 2, the free-to-play Unreal Engine 5-powered sequel to the legendary third-person action MOBA. If you love challenging competition, intense action, ability-driven combat, rewarding teamwork, or godly mythology, you’ll see why 40+ million players love SMITE."
+      },
+      "taxonomy": {
+        "categories": [
+          "action",
+          "strategy",
+          "rpg",
+          "free"
+        ],
+        "genres": [
+          "action",
+          "strategy",
+          "rpg"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": true,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2437170/",
+          "externalId": "2437170"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2437170"
+      },
+      "signals": {
+        "ccu": 4975,
+        "trending": false,
+        "rating": 58,
         "igdb": false,
         "gog": false,
         "rawg": false
@@ -17839,6 +19404,108 @@
       }
     },
     {
+      "id": 214,
+      "igdbId": 325605,
+      "title": "Game of Thrones: Kingsroad",
+      "categories": [
+        "action",
+        "rpg",
+        "free"
+      ],
+      "genres": [
+        "action",
+        "rpg"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2025,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3183280/header.jpg",
+      "description": "Un action-RPG d'avventura con una componente narrativa di grande successo, dove il mondo di Westeros prende vita grazie a un livello di dettaglio straordinario e a una vastità senza precedenti.",
+      "description_en": "A story-driven action-adventure RPG, bringing the world of Westeros to life with remarkable detail and never-before seen scale.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3183280/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 2634,
+      "trending": false,
+      "rating": 62,
+      "igUrl": "https://www.instant-gaming.com/en/16735-download-steam-game-of-thrones-kingsroad-pc-steam/?igr=gamer-ddc4a8",
+      "igDiscount": 32,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F324740%2Fgame-of-thrones-kingsroad-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=324740",
+      "kgDiscount": 0,
+      "k4gUrl": "https://k4g.com/product/game-of-thrones-kingsroad-pc-steam-key?r=coophubs",
+      "k4gDiscount": 10,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
+      "gmgDiscount": 5,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "game-of-thrones-kingsroad",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Un action-RPG d&#x27;avventura con una componente narrativa di grande successo, dove il mondo di Westeros prende vita grazie a un livello di dettaglio straordinario e a una vastità senza precedenti.",
+        "en": "A story-driven action-adventure RPG, bringing the world of Westeros to life with remarkable detail and never-before seen scale."
+      },
+      "taxonomy": {
+        "categories": [
+          "action",
+          "rpg",
+          "free"
+        ],
+        "genres": [
+          "action",
+          "rpg"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3183280/",
+          "externalId": "3183280"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3183280"
+      },
+      "signals": {
+        "ccu": 2634,
+        "trending": false,
+        "rating": 62,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
       "id": 215,
       "igdbId": 208417,
       "title": "Ravenswatch",
@@ -18736,6 +20403,106 @@
       }
     },
     {
+      "id": 224,
+      "igdbId": 156150,
+      "title": "Company of Heroes 3",
+      "categories": [
+        "strategy",
+        "action"
+      ],
+      "genres": [
+        "strategy",
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2023,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1677280/header.jpg",
+      "description": "Company of Heroes 3 è il capitolo più grande e migliore della serie, con emozionanti combattimenti e profonde scelte strategiche da compiere sull'affascinante palcoscenico di guerra del Mediterraneo. In Company of Heroes 3 ogni battaglia racconta una storia... qual è la tua?",
+      "description_en": "Company of Heroes 3 combines heart-pounding combat with deeper strategic choices in a stunning Mediterranean theatre of war. In Company of Heroes 3, every battle tells a story...what's yours?",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1677280/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 2183,
+      "trending": false,
+      "rating": 57,
+      "igUrl": "https://www.instant-gaming.com/en/9237-buy-steam-company-of-heroes-3-pc-game-steam-europe/?igr=gamer-ddc4a8",
+      "igDiscount": 72,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fcompany-of-heroes-3-pc-steam-key-row&cjsku=152973",
+      "gsDiscount": 15,
+      "kgUrl": "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F152632%2Fcompany-of-heroes-3-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=152632",
+      "kgDiscount": 0,
+      "k4gUrl": "https://k4g.com/product/company-of-heroes-3-pc-steam-key?r=coophubs",
+      "k4gDiscount": 10,
+      "gmvUrl": "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fcompany-of-heroes-3-steam-emea-en-de-fr-it-pl-cs-ko-zh-es-standard-pc&cjsku=158602",
+      "gmvDiscount": 10,
+      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
+      "gmgDiscount": 5,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "company-of-heroes-3",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Company of Heroes 3 è il capitolo più grande e migliore della serie, con emozionanti combattimenti e profonde scelte strategiche da compiere sull&#x27;affascinante palcoscenico di guerra del Mediterraneo. In Company of Heroes 3 ogni battaglia racconta una storia... qual è la tua?",
+        "en": "Company of Heroes 3 combines heart-pounding combat with deeper strategic choices in a stunning Mediterranean theatre of war. In Company of Heroes 3, every battle tells a story...what&#x27;s yours?"
+      },
+      "taxonomy": {
+        "categories": [
+          "strategy",
+          "action"
+        ],
+        "genres": [
+          "strategy",
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1677280/",
+          "externalId": "1677280"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "1677280"
+      },
+      "signals": {
+        "ccu": 2183,
+        "trending": false,
+        "rating": 57,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
       "id": 226,
       "igdbId": 8188,
       "title": "Realm of the Mad God Exalt",
@@ -19026,6 +20793,106 @@
         "ccu": 1807,
         "trending": false,
         "rating": 91,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 229,
+      "igdbId": 328079,
+      "title": "PGA TOUR 2K25",
+      "categories": [
+        "sport",
+        "splitscreen"
+      ],
+      "genres": [
+        "sport"
+      ],
+      "coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2025,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2385530/header.jpg",
+      "description": "Diventa la leggenda del golf in PGA TOUR 2K25! Tre Major da vincere, tutti insieme per la prima volta in 2K. Scopri la vasta gamma di personalizzazione per il tuo MyPLAYER, MyCAREER e Progettista di campi. Sfida gli amici in modalità classificata, casual e cross-platform.",
+      "description_en": "Take your best shot at glory in PGA TOUR 2K25! In a 2K-first, compete in three prestigious major tournaments. Personalize your game with expanded MyCAREER, MyPLAYER and Course Designer options. Challenge friends across ranked, casual, and cross-platform multiplayer.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2385530/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 1789,
+      "trending": false,
+      "rating": 66,
+      "igUrl": "https://www.instant-gaming.com/en/18563-buy-steam-pga-tour-2k25-deluxe-edition-deluxe-edition-pc-game-steam-us-and-ca/?igr=gamer-ddc4a8",
+      "igDiscount": 29,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "https://www.anrdoezrs.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fpga-tour-2k25-pc-steam-account-global&cjsku=SW39513",
+      "gsDiscount": 15,
+      "kgUrl": "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F316453%2Fpga-tour-2k25-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=316453",
+      "kgDiscount": 0,
+      "k4gUrl": "https://k4g.com/product/pga-tour-2k25-pc-steam-key?r=coophubs",
+      "k4gDiscount": 10,
+      "gmvUrl": "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fpga-tour-2k25-pc-steam-global-standard&cjsku=183801",
+      "gmvDiscount": 10,
+      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
+      "gmgDiscount": 5,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "pga-tour-2k25",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Diventa la leggenda del golf in PGA TOUR 2K25! Tre Major da vincere, tutti insieme per la prima volta in 2K. Scopri la vasta gamma di personalizzazione per il tuo MyPLAYER, MyCAREER e Progettista di campi. Sfida gli amici in modalità classificata, casual e cross-platform.",
+        "en": "Take your best shot at glory in PGA TOUR 2K25! In a 2K-first, compete in three prestigious major tournaments. Personalize your game with expanded MyCAREER, MyPLAYER and Course Designer options. Challenge friends across ranked, casual, and cross-platform multiplayer."
+      },
+      "taxonomy": {
+        "categories": [
+          "sport",
+          "splitscreen"
+        ],
+        "genres": [
+          "sport"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2385530/",
+          "externalId": "2385530"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2385530"
+      },
+      "signals": {
+        "ccu": 1789,
+        "trending": false,
+        "rating": 66,
         "igdb": false,
         "gog": false,
         "rawg": false
@@ -20862,6 +22729,107 @@
       }
     },
     {
+      "id": 248,
+      "igdbId": 217311,
+      "title": "For The King II",
+      "categories": [
+        "rpg",
+        "roguelike"
+      ],
+      "genres": [
+        "rpg",
+        "roguelike"
+      ],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": true,
+      "players": "1-4",
+      "releaseYear": 2023,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1676840/header.jpg",
+      "description": "Combatti contro la dispotica regina di Fahrul in solitaria o in una squadra di quattro giocatori nel sequel di For The King, il GDR da tavolo a turni con elementi roguelite. Riuscirai a svelare il terribile segreto dell'amata regina?",
+      "description_en": "Battle against Fahrul's tyrannical Queen alone or as a party of four players in the sequel to For The King, the massively popular turn-based roguelite tabletop RPG. Will you unravel the once beloved Queen's terrible secret?",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1676840/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 374,
+      "trending": false,
+      "rating": 69,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Ffor-the-king-ii-pc-steam-account-global&cjsku=SW35810",
+      "gsDiscount": 15,
+      "kgUrl": "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F189223%2Ffor-the-king-ii-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=189223",
+      "kgDiscount": 0,
+      "k4gUrl": "https://k4g.com/product/for-the-king-ii-pc-steam-key?r=coophubs",
+      "k4gDiscount": 10,
+      "gmvUrl": "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Ffor-the-king-2-pc-steamgift-global-en-de-fr-it-pl-ja-ko-pt-ru-zh-es-zh-uk-standard&cjsku=161985",
+      "gmvDiscount": 10,
+      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
+      "gmgDiscount": 5,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "for-the-king-ii",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Combatti contro la dispotica regina di Fahrul in solitaria o in una squadra di quattro giocatori nel sequel di For The King, il GDR da tavolo a turni con elementi roguelite. Riuscirai a svelare il terribile segreto dell&#x27;amata regina?",
+        "en": "Battle against Fahrul&#x27;s tyrannical Queen alone or as a party of four players in the sequel to For The King, the massively popular turn-based roguelite tabletop RPG. Will you unravel the once beloved Queen&#x27;s terrible secret?"
+      },
+      "taxonomy": {
+        "categories": [
+          "rpg",
+          "roguelike"
+        ],
+        "genres": [
+          "rpg",
+          "roguelike"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": true,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1676840/",
+          "externalId": "1676840"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "1676840"
+      },
+      "signals": {
+        "ccu": 374,
+        "trending": false,
+        "rating": 69,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
       "id": 249,
       "igdbId": 244167,
       "title": "Bopl Battle",
@@ -22051,6 +24019,202 @@
         "ccu": 282,
         "trending": false,
         "rating": 90,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 261,
+      "igdbId": 262186,
+      "title": "Delta Force",
+      "categories": [
+        "free",
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 32,
+      "crossplay": true,
+      "players": "1-32",
+      "releaseYear": 2024,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2507950/header.jpg",
+      "description": "Gioca gratuitamente nell'estrazione basata sull'operatore e nella guerra armata combinata su vasta scala. Diventa operatori d'élite, personalizza un arsenale di armi in continua espansione e partecipa a missioni piene di emozioni in più modalità.",
+      "description_en": "Play for free in operator-based extraction and full-scale combined arms warfare. Become elite Operators, customize an ever-expanding arsenal of weapons, and deploy into thrill-packed missions across multiple modes.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2507950/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 65,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fdelta-force-task-force-dagger-pc-steam-key-global&cjsku=34012",
+      "gsDiscount": 15,
+      "kgUrl": "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F32790%2Fdelta-force-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=32790",
+      "kgDiscount": 0,
+      "k4gUrl": "https://k4g.com/product/delta-force-pc-steam-key?r=coophubs",
+      "k4gDiscount": 10,
+      "gmvUrl": "https://www.anrdoezrs.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdelta-force&cjsku=36430",
+      "gmvDiscount": 10,
+      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
+      "gmgDiscount": 5,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "delta-force",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Gioca gratuitamente nell&#x27;estrazione basata sull&#x27;operatore e nella guerra armata combinata su vasta scala. Diventa operatori d&#x27;élite, personalizza un arsenale di armi in continua espansione e partecipa a missioni piene di emozioni in più modalità.",
+        "en": "Play for free in operator-based extraction and full-scale combined arms warfare. Become elite Operators, customize an ever-expanding arsenal of weapons, and deploy into thrill-packed missions across multiple modes."
+      },
+      "taxonomy": {
+        "categories": [
+          "free",
+          "action"
+        ],
+        "genres": [
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": true,
+        "playersLabel": "1-32",
+        "maxPlayers": 32
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2507950/",
+          "externalId": "2507950"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2507950"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 65,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 262,
+      "igdbId": 114795,
+      "title": "Apex Legends™",
+      "categories": [
+        "free",
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 3,
+      "crossplay": false,
+      "players": "1-3",
+      "releaseYear": 2020,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1172470/header.jpg",
+      "description": "Apex Legends è il pluripremiato battle royale gratuito sviluppato da Respawn Entertainment. Scopri un elenco in continua espansione di personaggi leggendari dotati di potenti abilità, scegli la strategia perfetta per la tua squadra e lasciati sorprendere da un gameplay innovativo.",
+      "description_en": "Apex Legends is the award-winning, free-to-play Hero Shooter from Respawn Entertainment. Master an ever-growing roster of legendary characters with powerful abilities, and experience strategic squad play and innovative gameplay in the next evolution of Hero Shooter and Battle Royale.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1172470/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 124262,
+      "trending": true,
+      "rating": 67,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "https://www.dpbolvw.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fapex-legends-2150-apex-coins-origin-key-global&cjsku=28250",
+      "gsDiscount": 15,
+      "kgUrl": "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F120051%2Fapex-legends-saviors-pack-dlc-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=120051",
+      "kgDiscount": 0,
+      "k4gUrl": "https://k4g.com/product/apex-legends-pc-steam-key?r=coophubs",
+      "k4gDiscount": 10,
+      "gmvUrl": "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fapex-legends-apex-coins-eu-xbox-gift-cards-xboxlive-eu-standard-2150apexcoins&cjsku=149731",
+      "gmvDiscount": 10,
+      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
+      "gmgDiscount": 5,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "apex-legendstm",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Apex Legends è il pluripremiato battle royale gratuito sviluppato da Respawn Entertainment. Scopri un elenco in continua espansione di personaggi leggendari dotati di potenti abilità, scegli la strategia perfetta per la tua squadra e lasciati sorprendere da un gameplay innovativo.",
+        "en": "Apex Legends is the award-winning, free-to-play Hero Shooter from Respawn Entertainment. Master an ever-growing roster of legendary characters with powerful abilities, and experience strategic squad play and innovative gameplay in the next evolution of Hero Shooter and Battle Royale."
+      },
+      "taxonomy": {
+        "categories": [
+          "free",
+          "action"
+        ],
+        "genres": [
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-3",
+        "maxPlayers": 3
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1172470/",
+          "externalId": "1172470"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "1172470"
+      },
+      "signals": {
+        "ccu": 124262,
+        "trending": true,
+        "rating": 67,
         "igdb": false,
         "gog": false,
         "rawg": false
@@ -25496,6 +27660,104 @@
       }
     },
     {
+      "id": 297,
+      "igdbId": 75300,
+      "title": "ONE PIECE Bounty Rush",
+      "categories": [
+        "action",
+        "free"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2024,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2918150/header.jpg",
+      "description": "Prendete il bottino, pirati! Bounty Rush è un gioco d'azione a squadre multiplayer 4 contro 4. Collabora con la tua squadra per catturare le bacche delle altre squadre!",
+      "description_en": "Take the loot, pirates! Bounty Rush is a 4 vs 4 multiplayer team action game. Work with your team to capture the other teams' berries!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2918150/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 1469,
+      "trending": false,
+      "rating": 67,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "k4gUrl": "https://k4g.com/product/one-piece-bounty-rush-pc-steam-key?r=coophubs",
+      "k4gDiscount": 10,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
+      "gmgDiscount": 5,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "one-piece-bounty-rush",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Prendete il bottino, pirati! Bounty Rush è un gioco d&#x27;azione a squadre multiplayer 4 contro 4. Collabora con la tua squadra per catturare le bacche delle altre squadre!",
+        "en": "Take the loot, pirates! Bounty Rush is a 4 vs 4 multiplayer team action game. Work with your team to capture the other teams&#x27; berries!"
+      },
+      "taxonomy": {
+        "categories": [
+          "action",
+          "free"
+        ],
+        "genres": [
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2918150/",
+          "externalId": "2918150"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2918150"
+      },
+      "signals": {
+        "ccu": 1469,
+        "trending": false,
+        "rating": 67,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
       "id": 298,
       "igdbId": 28028,
       "title": "Total War: WARHAMMER II",
@@ -27441,6 +29703,110 @@
       }
     },
     {
+      "id": 318,
+      "igdbId": 329690,
+      "title": "WWE 2K25",
+      "categories": [
+        "sport",
+        "strategy",
+        "splitscreen"
+      ],
+      "genres": [
+        "sport",
+        "strategy"
+      ],
+      "coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2025,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2878960/header.jpg",
+      "description": "Rendi omaggio a The Bloodline in Showcase. Gareggia online in Il mio GM. Il gameplay esteso include wrestling intergender, mosse concatenate, tuffi dalle barricate, il ritorno di Promo e tanto altro!",
+      "description_en": "Celebrate The Bloodline in Showcase. Compete online in MyGM. Expanded gameplay includes intergender wrestling, chain wrestling, barricade diving, the return of Promos + much more!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2878960/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 965,
+      "trending": false,
+      "rating": 66,
+      "igUrl": "https://www.instant-gaming.com/en/18770-buy-steam-wwe-2k25-deadman-edition-deadman-edition-pc-game-steam-us-and-ca/?igr=gamer-ddc4a8",
+      "igDiscount": 60,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "https://www.dpbolvw.net/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fwwe-2k25-pc-steam-key-eu&cjsku=SW37617",
+      "gsDiscount": 15,
+      "kgUrl": "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F314604%2Fwwe-2k25-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=314604",
+      "kgDiscount": 0,
+      "k4gUrl": "https://k4g.com/product/wwe-2k25-pc-steam-key?r=coophubs",
+      "k4gDiscount": 10,
+      "gmvUrl": "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwwe-2k25-nintendo-nintendo-switch-2-eu-standard&cjsku=192512",
+      "gmvDiscount": 10,
+      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
+      "gmgDiscount": 5,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "wwe-2k25",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Rendi omaggio a The Bloodline in Showcase. Gareggia online in Il mio GM. Il gameplay esteso include wrestling intergender, mosse concatenate, tuffi dalle barricate, il ritorno di Promo e tanto altro!",
+        "en": "Celebrate The Bloodline in Showcase. Compete online in MyGM. Expanded gameplay includes intergender wrestling, chain wrestling, barricade diving, the return of Promos + much more!"
+      },
+      "taxonomy": {
+        "categories": [
+          "sport",
+          "strategy",
+          "splitscreen"
+        ],
+        "genres": [
+          "sport",
+          "strategy"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2878960/",
+          "externalId": "2878960"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2878960"
+      },
+      "signals": {
+        "ccu": 965,
+        "trending": false,
+        "rating": 66,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
       "id": 319,
       "igdbId": 314238,
       "title": "Sniper Elite: Resistance",
@@ -27628,6 +29994,110 @@
         "ccu": 925,
         "trending": false,
         "rating": 79,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 321,
+      "igdbId": 304346,
+      "title": "Eldegarde",
+      "categories": [
+        "action",
+        "rpg",
+        "survival"
+      ],
+      "genres": [
+        "action",
+        "rpg",
+        "survival"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2344320/header.jpg",
+      "description": "Eldegarde è un gioco di ruolo d'azione mini-MMO con modalità PvE, PvPvE e Arena. Esplora vaste zone all'aperto, crea potenti equipaggiamenti e combatti per sopravvivere in un mondo fantastico e vivente.",
+      "description_en": "Eldegarde is a mini-MMO Action RPG with PvE, PvPvE and Arena modes. Explore vast outdoor zones, craft powerful gear, and fight to survive in a living fantasy world.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2344320/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 913,
+      "trending": false,
+      "rating": 66,
+      "igUrl": "https://www.instant-gaming.com/en/16984-buy-steam-eldegarde-pc-steam/?igr=gamer-ddc4a8",
+      "igDiscount": 24,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "k4gUrl": "https://k4g.com/product/eldegarde-pc-steam-key?r=coophubs",
+      "k4gDiscount": 10,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
+      "gmgDiscount": 5,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "eldegarde",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Eldegarde è un gioco di ruolo d&#x27;azione mini-MMO con modalità PvE, PvPvE e Arena. Esplora vaste zone all&#x27;aperto, crea potenti equipaggiamenti e combatti per sopravvivere in un mondo fantastico e vivente.",
+        "en": "Eldegarde is a mini-MMO Action RPG with PvE, PvPvE and Arena modes. Explore vast outdoor zones, craft powerful gear, and fight to survive in a living fantasy world."
+      },
+      "taxonomy": {
+        "categories": [
+          "action",
+          "rpg",
+          "survival"
+        ],
+        "genres": [
+          "action",
+          "rpg",
+          "survival"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2344320/",
+          "externalId": "2344320"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2344320"
+      },
+      "signals": {
+        "ccu": 913,
+        "trending": false,
+        "rating": 66,
         "igdb": false,
         "gog": false,
         "rawg": false
@@ -28747,6 +31217,106 @@
         "ccu": 847,
         "trending": false,
         "rating": 79,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 333,
+      "igdbId": 21593,
+      "title": "Lords of the Fallen",
+      "categories": [
+        "action",
+        "rpg"
+      ],
+      "genres": [
+        "action",
+        "rpg"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 2,
+      "crossplay": true,
+      "players": "1-2",
+      "releaseYear": 2023,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1501750/header.jpg",
+      "description": "Un vasto mondo ti attende nel GdR d'azione dark fantasy medievale Lords of the Fallen. Sei un crociato nero che deve affrontare un'epica missione per sconfiggere il Dio demoniaco Adyr. È disponibile la versione 2.5, con co-op con progressione condivisa e Pass Amici Gratuito.",
+      "description_en": "A vast world awaits in the medieval, dark fantasy action-RPG, Lords of the Fallen. As a fabled Dark Crusader, embark on an epic quest to overthrow Adyr, the demon God. The final major update Version 2.5 is out now: features deadlier boss battles and all-new Veteran Mode.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1501750/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 827,
+      "trending": false,
+      "rating": 66,
+      "igUrl": "https://www.instant-gaming.com/en/7268-buy-steam-lords-of-the-fallen-game-of-the-year-edition-2014-goty-edition-pc-game-steam/?igr=gamer-ddc4a8",
+      "igDiscount": 95,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "https://www.kqzyfj.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Flords-of-the-fallen-pc-steam-key-eu&cjsku=164803",
+      "gsDiscount": 15,
+      "kgUrl": "https://www.kqzyfj.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F189021%2Flords-of-the-fallen-2023-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=189021",
+      "kgDiscount": 0,
+      "k4gUrl": "https://k4g.com/product/lords-of-the-fallen-pc-steam-key?r=coophubs",
+      "k4gDiscount": 10,
+      "gmvUrl": "https://www.tkqlhce.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fthe-lords-of-the-fallen-pc-steam-global-en-de-fr-it-pl-ja-ko-pt-ru-zh-es-uk-standard&cjsku=141437",
+      "gmvDiscount": 10,
+      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
+      "gmgDiscount": 5,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "lords-of-the-fallen",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Un vasto mondo ti attende nel GdR d&#x27;azione dark fantasy medievale Lords of the Fallen. Sei un crociato nero che deve affrontare un&#x27;epica missione per sconfiggere il Dio demoniaco Adyr. È disponibile la versione 2.5, con co-op con progressione condivisa e Pass Amici Gratuito.",
+        "en": "A vast world awaits in the medieval, dark fantasy action-RPG, Lords of the Fallen. As a fabled Dark Crusader, embark on an epic quest to overthrow Adyr, the demon God. The final major update Version 2.5 is out now: features deadlier boss battles and all-new Veteran Mode."
+      },
+      "taxonomy": {
+        "categories": [
+          "action",
+          "rpg"
+        ],
+        "genres": [
+          "action",
+          "rpg"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": true,
+        "playersLabel": "1-2",
+        "maxPlayers": 2
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1501750/",
+          "externalId": "1501750"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "1501750"
+      },
+      "signals": {
+        "ccu": 827,
+        "trending": false,
+        "rating": 66,
         "igdb": false,
         "gog": false,
         "rawg": false
@@ -34097,6 +36667,112 @@
       }
     },
     {
+      "id": 431,
+      "igdbId": 335301,
+      "title": "Bee Simulator: The Hive",
+      "categories": [
+        "factory",
+        "action"
+      ],
+      "genres": [
+        "factory",
+        "action"
+      ],
+      "coopMode": [
+        "local",
+        "sofa"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2025,
+      "image": "https://images.gog-statics.com/4a4797cd10a6319da5a0fc8a660dadd59d662d6adcf3b30b5e7889cccf7dabaf.png",
+      "description": "I proprietari di Bee Simulator possono usufruire di uno sconto fedeltà del 68% su Bee Simulator: The Hive. Guarda il mondo attraverso gli occhi di un'ape! Esplora un mondo ispirato a Central Park mentre raccogli polline, sfuggi alle minacce e costruisci il tuo fiorente alveare. Questa edizione combina l'originale Bee Simulator con l'espansione The Hive, introducendo nuove meccaniche, modalità di gioco e contenuti freschi come il polline primaverile, tutto in uno...",
+      "description_en": "Owners of Bee Simulator can enjoy 68% loyalty discount on Bee Simulator: The Hive. See the world through the eyes of a bee! Explore a world inspired by Central Park as you gather pollen, evade threats, and build your own thriving beehive. This edition combines the original Bee Simulator with The Hive expansion, introducing new mechanics, game modes, and fresh as spring pollen content—all in one...",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3348910",
+      "gogUrl": "https://www.gog.com/en/game/bee_simulator_the_hive",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 56,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "k4gUrl": "",
+      "k4gDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "bee-simulator-the-hive",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "I proprietari di Bee Simulator possono usufruire di uno sconto fedeltà del 68% su Bee Simulator: The Hive. Guarda il mondo attraverso gli occhi di un&#x27;ape! Esplora un mondo ispirato a Central Park mentre raccogli polline, sfuggi alle minacce e costruisci il tuo fiorente alveare. Questa edizione combina l&#x27;originale Bee Simulator con l&#x27;espansione The Hive, introducendo nuove meccaniche, modalità di gioco e contenuti freschi come il polline primaverile, tutto in uno...",
+        "en": "Owners of Bee Simulator can enjoy 68% loyalty discount on Bee Simulator: The Hive. See the world through the eyes of a bee! Explore a world inspired by Central Park as you gather pollen, evade threats, and build your own thriving beehive. This edition combines the original Bee Simulator with The Hive expansion, introducing new mechanics, game modes, and fresh as spring pollen content—all in one..."
+      },
+      "taxonomy": {
+        "categories": [
+          "factory",
+          "action"
+        ],
+        "genres": [
+          "factory",
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": false,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3348910",
+          "externalId": "3348910"
+        },
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/en/game/bee_simulator_the_hive",
+          "externalId": null
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3348910"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 56,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
       "id": 432,
       "igdbId": 347556,
       "title": "Jaleco Sports: Goal!",
@@ -34722,6 +37398,115 @@
       }
     },
     {
+      "id": 458,
+      "igdbId": 204131,
+      "title": "Tavernacle!",
+      "categories": [
+        "action",
+        "indie",
+        "strategy"
+      ],
+      "genres": [
+        "action",
+        "strategy"
+      ],
+      "coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2023,
+      "image": "https://images.gog-statics.com/76cf8bf8e24b9e107f4d14614707ab1460b8fdf3e69dee4a354cb2cfbdb9d7c1.png",
+      "description": "Un'ombra è caduta sulla Terra in alto a sinistra e minaccia il regno dei Nani. I mostri si radunano all'orizzonte, pronti a far precipitare il mondo in un'era di sobrietà. Assicurati che le orde oscure vengano respinte e che il birrificio continui a pompare la linfa vitale del popolo nanico. Quindi, prendi un martello, riempi quella tazza e inizia a lavorare per proteggere la birra. I nani non osservano il combattimento dall'alto. Sono...",
+      "description_en": "A shadow has fallen across Upper-Left-Earth and threatens the realm of Dwarves. Monsters gather on the horizon, ready to plunge the world into an era of sobriety. Ensure the dark hordes are driven back and the brewery keeps pumping out the lifeblood of the Dwarven people. So, grab a hammer, fill up that mug, and get crafting to protect the beer. Dwarves do not watch the fight from above. They'r...",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1937820",
+      "gogUrl": "https://www.gog.com/en/game/tavernacle",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 59,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "k4gUrl": "",
+      "k4gDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "tavernacle",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Un&#x27;ombra è caduta sulla Terra in alto a sinistra e minaccia il regno dei Nani. I mostri si radunano all&#x27;orizzonte, pronti a far precipitare il mondo in un&#x27;era di sobrietà. Assicurati che le orde oscure vengano respinte e che il birrificio continui a pompare la linfa vitale del popolo nanico. Quindi, prendi un martello, riempi quella tazza e inizia a lavorare per proteggere la birra. I nani non osservano il combattimento dall&#x27;alto. Sono...",
+        "en": "A shadow has fallen across Upper-Left-Earth and threatens the realm of Dwarves. Monsters gather on the horizon, ready to plunge the world into an era of sobriety. Ensure the dark hordes are driven back and the brewery keeps pumping out the lifeblood of the Dwarven people. So, grab a hammer, fill up that mug, and get crafting to protect the beer. Dwarves do not watch the fight from above. They&#x27;r..."
+      },
+      "taxonomy": {
+        "categories": [
+          "action",
+          "indie",
+          "strategy"
+        ],
+        "genres": [
+          "action",
+          "strategy"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1937820",
+          "externalId": "1937820"
+        },
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/en/game/tavernacle",
+          "externalId": null
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "1937820"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 59,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
       "id": 459,
       "igdbId": 261849,
       "title": "Fire Shark",
@@ -35228,6 +38013,110 @@
       }
     },
     {
+      "id": 484,
+      "igdbId": 189847,
+      "title": "Funtasia",
+      "categories": [
+        "indie",
+        "sport"
+      ],
+      "genres": [
+        "sport"
+      ],
+      "coopMode": [
+        "local",
+        "sofa"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2022,
+      "image": "https://images.gog-statics.com/4ea8fcfb684f287d987ed8df760e05f15e8621d2cbd274f3c2009ef3e71c29f9.png",
+      "description": "È ora di fare un giro sulla Furry Road! Funtasia è un gioco di corse 2D a scorrimento laterale in cui l'obiettivo è semplice: guidare il più velocemente possibile per raggiungere il traguardo. Aiuta a salvare il bellissimo mondo ecologicamente sostenibile di Funtasia e i suoi abitanti pelosi da morte certa sotto tonnellate di spazzatura scaricate dallo spazio sconfiggendo il mostro della spazzatura alla fine del percorso. Semplice da...",
+      "description_en": "It's time to take a drive on the Furry Road! Funtasia is a side-scrolling, 2D racing game where the goal is simple: Drive as fast as possible to reach the finish line. Help save the beautiful, ecologically sustainable world of Funtasia and its furry inhabitants from certain death beneath tons of garbage dumped on it from space by defeating the garbage monster at the end of the track. Simple to ...",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1795010",
+      "gogUrl": "https://www.gog.com/en/game/funtasia",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 1,
+      "trending": false,
+      "rating": 53,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "k4gUrl": "",
+      "k4gDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "funtasia",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "È ora di fare un giro sulla Furry Road! Funtasia è un gioco di corse 2D a scorrimento laterale in cui l&#x27;obiettivo è semplice: guidare il più velocemente possibile per raggiungere il traguardo. Aiuta a salvare il bellissimo mondo ecologicamente sostenibile di Funtasia e i suoi abitanti pelosi da morte certa sotto tonnellate di spazzatura scaricate dallo spazio sconfiggendo il mostro della spazzatura alla fine del percorso. Semplice da...",
+        "en": "It&#x27;s time to take a drive on the Furry Road! Funtasia is a side-scrolling, 2D racing game where the goal is simple: Drive as fast as possible to reach the finish line. Help save the beautiful, ecologically sustainable world of Funtasia and its furry inhabitants from certain death beneath tons of garbage dumped on it from space by defeating the garbage monster at the end of the track. Simple to ..."
+      },
+      "taxonomy": {
+        "categories": [
+          "indie",
+          "sport"
+        ],
+        "genres": [
+          "sport"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": false,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1795010",
+          "externalId": "1795010"
+        },
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/en/game/funtasia",
+          "externalId": null
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "1795010"
+      },
+      "signals": {
+        "ccu": 1,
+        "trending": false,
+        "rating": 53,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
       "id": 518,
       "igdbId": 342138,
       "title": "Everwind",
@@ -35334,6 +38223,210 @@
       }
     },
     {
+      "id": 519,
+      "igdbId": 187690,
+      "title": "Project Castaway",
+      "categories": [
+        "rpg",
+        "survival",
+        "factory",
+        "action"
+      ],
+      "genres": [
+        "rpg",
+        "survival",
+        "factory",
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1713350/cb0401dc724059d4329ef38ab3eb1c84edb46b11/header_alt_assets_1.jpg?t=1773759699",
+      "description": "Project Castaway è un titolo di survival crafting ambientato nell'Oceano Pacifico. Vivi la vita di un naufrago abbandonato, in compagnia solo di te stesso e degli abitanti dell'isola! Naviga nell'oceano, caccia, esplora isole uniche e raccogli risorse mentre combatti per la sopravvivenza.",
+      "description_en": "Project Castaway is a survival crafting title set in the Pacific Ocean. Live the life of a stranded castaway, with only yourself - and the island's inhabitants - for company! Sail the ocean, hunt, explore unique islands and gather resources as you fight for survival.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1713350/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 57,
+      "trending": false,
+      "rating": 69,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "https://www.anrdoezrs.net/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fproject-castaway-pc-steam-account-global&cjsku=SW23963",
+      "gsDiscount": 15,
+      "kgUrl": "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F273388%2Fproject-castaway-pc-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=273388",
+      "kgDiscount": 0,
+      "k4gUrl": "https://k4g.com/product/project-castaway-pc-steam-key?r=coophubs",
+      "k4gDiscount": 10,
+      "gmvUrl": "https://www.kqzyfj.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fproject-castaway-pc-steamgift-global-standard&cjsku=177736",
+      "gmvDiscount": 10,
+      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
+      "gmgDiscount": 5,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "project-castaway",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Project Castaway è un titolo di survival crafting ambientato nell&#x27;Oceano Pacifico. Vivi la vita di un naufrago abbandonato, in compagnia solo di te stesso e degli abitanti dell&#x27;isola! Naviga nell&#x27;oceano, caccia, esplora isole uniche e raccogli risorse mentre combatti per la sopravvivenza.",
+        "en": "Project Castaway is a survival crafting title set in the Pacific Ocean. Live the life of a stranded castaway, with only yourself - and the island&#x27;s inhabitants - for company! Sail the ocean, hunt, explore unique islands and gather resources as you fight for survival."
+      },
+      "taxonomy": {
+        "categories": [
+          "rpg",
+          "survival",
+          "factory",
+          "action"
+        ],
+        "genres": [
+          "rpg",
+          "survival",
+          "factory",
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1713350/",
+          "externalId": "1713350"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "1713350"
+      },
+      "signals": {
+        "ccu": 57,
+        "trending": false,
+        "rating": 69,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 520,
+      "igdbId": 288865,
+      "title": "Dragonkin: The Banished",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1863430/b2f47da77467bdc8a37d02897c7e448e50cc26bc/header_alt_assets_4.jpg?t=1773678727",
+      "description": "La minaccia draconica è ancora una volta alle porte. Eroi leggendari si sollevano per affrontare le legioni dagli abissi. Doma i tuoi dragoni, crea potenti costruzioni uniche con la Griglia Ancestrale, espandi la tua città e distruggi i Draghi!",
+      "description_en": "The draconic threat is once again upon us. Legendary heroes rise up to face the legions from the depths. Tame your wyrmlings, create unique power builds with the Ancestral Grid, expand your city and destroy the Dragons!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1863430/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 16,
+      "trending": false,
+      "rating": 61,
+      "igUrl": "https://www.instant-gaming.com/en/16057-buy-steam-dragonkin-the-banished-pc-steam/?igr=gamer-ddc4a8",
+      "igDiscount": 41,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F324885%2Fdragonkin-the-banished-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=324885",
+      "kgDiscount": 0,
+      "k4gUrl": "https://k4g.com/product/dragonkin-the-banished-pc-steam-key?r=coophubs",
+      "k4gDiscount": 10,
+      "gmvUrl": "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fdragonkin-the-banished-pc-steam-global-standard&cjsku=183742",
+      "gmvDiscount": 10,
+      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
+      "gmgDiscount": 5,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "dragonkin-the-banished",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "La minaccia draconica è ancora una volta alle porte. Eroi leggendari si sollevano per affrontare le legioni dagli abissi. Doma i tuoi dragoni, crea potenti costruzioni uniche con la Griglia Ancestrale, espandi la tua città e distruggi i Draghi!",
+        "en": "The draconic threat is once again upon us. Legendary heroes rise up to face the legions from the depths. Tame your wyrmlings, create unique power builds with the Ancestral Grid, expand your city and destroy the Dragons!"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": [
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1863430/",
+          "externalId": "1863430"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "1863430"
+      },
+      "signals": {
+        "ccu": 16,
+        "trending": false,
+        "rating": 61,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
       "id": 521,
       "igdbId": 124307,
       "title": "Tower Tag",
@@ -35420,6 +38513,208 @@
         "ccu": 2,
         "trending": false,
         "rating": 90,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 522,
+      "igdbId": 370982,
+      "title": "Pizza Slice",
+      "categories": [
+        "indie",
+        "factory",
+        "action"
+      ],
+      "genres": [
+        "factory",
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1385290/8076deb904f8e14dfd6d689d65f4c2007b221705/header_alt_assets_1.jpg?t=1773426218",
+      "description": "Più che un simulatore, Pizza Slice è una vera e propria avventura italiana! Assumete il ruolo di Tonio, gestite la pizzeria di famiglia, sfornate pizze italiane, combattete la concorrenza e fate crescere la vostra attività. Vedrete se riuscirete a vincere il titolo di migliore pizzeria della zona!",
+      "description_en": "More than just a simulator, Pizza Slice is a true Italian adventure! Take on the role of Tonio, manage your family pizzeria, bake authentic Italian pizzas, fight the competition and grow your business. See if you can win the title of the best pizzeria in the area!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1385290/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 62,
+      "igUrl": "https://www.instant-gaming.com/en/22112-buy-steam-pizza-slice-pc-steam/?igr=gamer-ddc4a8",
+      "igDiscount": 34,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F449514%2Fpizza-slice-pc-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=449514",
+      "kgDiscount": 0,
+      "k4gUrl": "https://k4g.com/product/pizza-slice-pc-steam-key?r=coophubs",
+      "k4gDiscount": 10,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
+      "gmgDiscount": 5,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "pizza-slice",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Più che un simulatore, Pizza Slice è una vera e propria avventura italiana! Assumete il ruolo di Tonio, gestite la pizzeria di famiglia, sfornate pizze italiane, combattete la concorrenza e fate crescere la vostra attività. Vedrete se riuscirete a vincere il titolo di migliore pizzeria della zona!",
+        "en": "More than just a simulator, Pizza Slice is a true Italian adventure! Take on the role of Tonio, manage your family pizzeria, bake authentic Italian pizzas, fight the competition and grow your business. See if you can win the title of the best pizzeria in the area!"
+      },
+      "taxonomy": {
+        "categories": [
+          "indie",
+          "factory",
+          "action"
+        ],
+        "genres": [
+          "factory",
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1385290/",
+          "externalId": "1385290"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "1385290"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 62,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 523,
+      "igdbId": 387782,
+      "title": "WWE 2K26",
+      "categories": [
+        "action",
+        "splitscreen"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3717070/6e590c37107f7306ab9e42cc07d2aa92327625d1/header.jpg?t=1773356425",
+      "description": "Lo spettacolo non si ferma mai in WWE 2K26! Entra nella vetrina 2K di CM Punk, domina con oltre 400 superstar e leggende e scatena il caos con nuovi tipi di partite.",
+      "description_en": "The show never stops in WWE 2K26! Step into CM Punk’s 2K Showcase, dominate with 400+ Superstars and Legends, and unleash chaos with all-new match types.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3717070/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 50,
+      "igUrl": "https://www.instant-gaming.com/en/21710-buy-steam-wwe-2k26-king-of-kings-edition-pc-steam/?igr=gamer-ddc4a8",
+      "igDiscount": 23,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "https://www.jdoqocy.com/click-101708519-17146951?url=https%3A%2F%2Fgameseal.com%2Fwwe-2k26-pc-steam-account-global&cjsku=SW107901",
+      "gsDiscount": 15,
+      "kgUrl": "https://www.jdoqocy.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F464749%2Fwwe-2k26-pc-steam-account%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=464749",
+      "kgDiscount": 0,
+      "k4gUrl": "https://k4g.com/product/wwe-2k26-pc-steam-key?r=coophubs",
+      "k4gDiscount": 10,
+      "gmvUrl": "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fwwe-2k26-xbox-xbox-series-global-standard&cjsku=200207",
+      "gmvDiscount": 10,
+      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
+      "gmgDiscount": 5,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "wwe-2k26",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Lo spettacolo non si ferma mai in WWE 2K26! Entra nella vetrina 2K di CM Punk, domina con oltre 400 superstar e leggende e scatena il caos con nuovi tipi di partite.",
+        "en": "The show never stops in WWE 2K26! Step into CM Punk’s 2K Showcase, dominate with 400+ Superstars and Legends, and unleash chaos with all-new match types."
+      },
+      "taxonomy": {
+        "categories": [
+          "action",
+          "splitscreen"
+        ],
+        "genres": [
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3717070/",
+          "externalId": "3717070"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3717070"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 50,
         "igdb": false,
         "gog": false,
         "rawg": false
@@ -35830,6 +39125,108 @@
       }
     },
     {
+      "id": 528,
+      "igdbId": 392056,
+      "title": "HexBreaker Ⅱ",
+      "categories": [
+        "indie",
+        "rpg",
+        "action"
+      ],
+      "genres": [
+        "rpg",
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3399780/d0a26699197e755269d9496d390ab8f2b9671b72/header.jpg?t=1772793382",
+      "description": "Un gioco soprannaturale intriso di elementi in stile cinese tratti dal folklore. Questo gioco offre un gameplay online per squadre fino a 4 giocatori. In un mondo devastato da signori della guerra e mostri, assumerai il ruolo di un taoista, esercitando le tue abilità per svelare verità nascoste per millenni.",
+      "description_en": "A supernatural game infused with Chinese-style elements drawn from folklore. This game offers online gameplay for teams of up to 4 players. In a world ravaged by warlords and monsters, you will assume the role of a Taoist, wielding your skills to unveil truths hidden for millennia.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3399780/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 66,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "https://www.dpbolvw.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F465836%2Fhexbreaker-ii-pc-steam-cd-key%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=465836",
+      "kgDiscount": 0,
+      "k4gUrl": "https://k4g.com/product/hexbreaker--pc-steam-key?r=coophubs",
+      "k4gDiscount": 10,
+      "gmvUrl": "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fhexbreaker-ii-pc-steam-global-standard&cjsku=200461",
+      "gmvDiscount": 10,
+      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
+      "gmgDiscount": 5,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "hexbreaker-ii",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Un gioco soprannaturale intriso di elementi in stile cinese tratti dal folklore. Questo gioco offre un gameplay online per squadre fino a 4 giocatori. In un mondo devastato da signori della guerra e mostri, assumerai il ruolo di un taoista, esercitando le tue abilità per svelare verità nascoste per millenni.",
+        "en": "A supernatural game infused with Chinese-style elements drawn from folklore. This game offers online gameplay for teams of up to 4 players. In a world ravaged by warlords and monsters, you will assume the role of a Taoist, wielding your skills to unveil truths hidden for millennia."
+      },
+      "taxonomy": {
+        "categories": [
+          "indie",
+          "rpg",
+          "action"
+        ],
+        "genres": [
+          "rpg",
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3399780/",
+          "externalId": "3399780"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3399780"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 66,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
       "id": 529,
       "igdbId": 296831,
       "title": "Slay the Spire 2",
@@ -36129,6 +39526,108 @@
         "ccu": 0,
         "trending": false,
         "rating": 88,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 532,
+      "igdbId": 250291,
+      "title": "Never Grave: The Witch and The Curse",
+      "categories": [
+        "indie",
+        "puzzle",
+        "action"
+      ],
+      "genres": [
+        "puzzle",
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2395770/0b7d199473c412f296170158b805aeb50451cbd4/header.jpg?t=1773129554",
+      "description": "Un Metroidvania x Roguelite in cui viaggi con l'aiuto di un cappello maledetto. Usa una varietà di magie o possiedi i tuoi nemici per raggiungere i livelli più bassi! Riporta il bottino, costruisci nuove strutture nel tuo villaggio, guadagnati da vivere e rafforzati per la prossima battaglia! Supporta la modalità multigiocatore fino a 4 giocatori.",
+      "description_en": "A Metroidvania x Roguelite where you journey with the aid of a cursed hat. Use a variety of magic or possess your enemies to reach the lowest levels! Bring back loot, build new facilities in your village, make a living and strengthen yourself for the next battle! Supports up to 4-player multiplayer.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2395770/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 67,
+      "igUrl": "https://www.instant-gaming.com/en/14168-buy-steam-never-grave-the-witch-and-the-curse-pc-steam/?igr=gamer-ddc4a8",
+      "igDiscount": 75,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "https://www.tkqlhce.com/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F442124%2Fnever-grave-the-witch-and-the-curse-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=442124",
+      "kgDiscount": 0,
+      "k4gUrl": "https://k4g.com/product/never-grave-the-witch-and-the-curse-pc-steam-key?r=coophubs",
+      "k4gDiscount": 10,
+      "gmvUrl": "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fnever-grave-the-witch-and-the-curse-xbox-xbox-series-pc-eu-standard&cjsku=200383",
+      "gmvDiscount": 10,
+      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
+      "gmgDiscount": 5,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "never-grave-the-witch-and-the-curse",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Un Metroidvania x Roguelite in cui viaggi con l&#x27;aiuto di un cappello maledetto. Usa una varietà di magie o possiedi i tuoi nemici per raggiungere i livelli più bassi! Riporta il bottino, costruisci nuove strutture nel tuo villaggio, guadagnati da vivere e rafforzati per la prossima battaglia! Supporta la modalità multigiocatore fino a 4 giocatori.",
+        "en": "A Metroidvania x Roguelite where you journey with the aid of a cursed hat. Use a variety of magic or possess your enemies to reach the lowest levels! Bring back loot, build new facilities in your village, make a living and strengthen yourself for the next battle! Supports up to 4-player multiplayer."
+      },
+      "taxonomy": {
+        "categories": [
+          "indie",
+          "puzzle",
+          "action"
+        ],
+        "genres": [
+          "puzzle",
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2395770/",
+          "externalId": "2395770"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2395770"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 67,
         "igdb": false,
         "gog": false,
         "rawg": false
@@ -36969,6 +40468,117 @@
       }
     },
     {
+      "id": 567,
+      "igdbId": 380988,
+      "title": "Headquarters: Cold War",
+      "categories": [
+        "strategy",
+        "factory",
+        "rpg"
+      ],
+      "genres": [
+        "strategy",
+        "factory",
+        "rpg"
+      ],
+      "coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://images.gog-statics.com/be77d258c3a6c59d069eee49c142b965c0d65692012d4ef8f87b937c4d1102a8.png",
+      "description": "Headquarters: Cold War è un frenetico gioco di strategia a turni ambientato in un ipotetico conflitto tra NATO e URSS nel 1984. I comandanti possono giocare nei panni di entrambe le parti in due campagne basate sulla trama e una varietà di missioni di schermaglia. Costruisci la tua forza, assegna eroi, fai salire di livello le unità e usa le potenti abilità del quartier generale per superare in astuzia il nemico e cambiare il corso della storia moderna.   Affronta un...",
+      "description_en": "Headquarters: Cold War is a fast-paced turn-based strategy game set in a hypothetical conflict between NATO and the USSR in 1984. Commanders can play as either side across two plot-driven campaigns and a variety of skirmish missions. Build your force, assign heroes, level up units, and use powerful Headquarters skills to outsmart the enemy and change the course of modern history.   Face a ...",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3826370",
+      "gogUrl": "https://www.gog.com/en/game/headquarters_cold_war",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 62,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "k4gUrl": "",
+      "k4gDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "headquarters-cold-war",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Headquarters: Cold War è un frenetico gioco di strategia a turni ambientato in un ipotetico conflitto tra NATO e URSS nel 1984. I comandanti possono giocare nei panni di entrambe le parti in due campagne basate sulla trama e una varietà di missioni di schermaglia. Costruisci la tua forza, assegna eroi, fai salire di livello le unità e usa le potenti abilità del quartier generale per superare in astuzia il nemico e cambiare il corso della storia moderna.   Affronta un...",
+        "en": "Headquarters: Cold War is a fast-paced turn-based strategy game set in a hypothetical conflict between NATO and the USSR in 1984. Commanders can play as either side across two plot-driven campaigns and a variety of skirmish missions. Build your force, assign heroes, level up units, and use powerful Headquarters skills to outsmart the enemy and change the course of modern history.   Face a ..."
+      },
+      "taxonomy": {
+        "categories": [
+          "strategy",
+          "factory",
+          "rpg"
+        ],
+        "genres": [
+          "strategy",
+          "factory",
+          "rpg"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3826370",
+          "externalId": "3826370"
+        },
+        {
+          "store": "gog",
+          "url": "https://www.gog.com/en/game/headquarters_cold_war",
+          "externalId": null
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3826370"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 62,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
       "id": 576,
       "igdbId": 46520,
       "title": "TOP HUNTER: RODDY & CATHY",
@@ -37343,6 +40953,102 @@
         "ccu": 0,
         "trending": false,
         "rating": 82,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 585,
+      "igdbId": 152202,
+      "title": "Avatar: Frontiers of Pandora",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 2,
+      "crossplay": false,
+      "players": "1-2",
+      "releaseYear": 2024,
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2840770/header.jpg",
+      "description": "Avatar: Frontiers of Pandora™ è un gioco d'azione-avventura in terza e prima persona ambientato nella frontiera occidentale. Scopri la tua eredità perduta e cosa significa essere na'vi. Combatti contro il RDA e difendi Pandora in co-op online per 2 giocatori.",
+      "description_en": "Avatar: Frontiers of Pandora™ is a third and first-person action-adventure game set in the Western Frontier. Reconnect with your lost heritage and discover what it means to be Na'vi. Fight the RDA and defend Pandora in 2-player online co-op.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2840770/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 272,
+      "trending": false,
+      "rating": 69,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "https://www.tkqlhce.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Favatar-frontiers-of-pandora-pc-steam-account-global&cjsku=SW22444",
+      "gsDiscount": 15,
+      "kgUrl": "https://www.anrdoezrs.net/click-101708519-13737966?url=https%3A%2F%2Fwww.kinguin.net%2Fen%2Fcategory%2F246092%2Favatar-frontiers-of-pandora-pc-steam-altergift%3Fnosalesbooster%3D1%26currency%3DUSD%26noff%3D1&cjsku=246092",
+      "kgDiscount": 0,
+      "k4gUrl": "https://k4g.com/product/avatar-frontiers-of-pandora-pc-steam-key?r=coophubs",
+      "k4gDiscount": 10,
+      "gmvUrl": "https://www.jdoqocy.com/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Favatar-frontiers-of-pandora-xbox-xboxseries-eu-en-standard&cjsku=156412",
+      "gmvDiscount": 10,
+      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
+      "gmgDiscount": 5,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "avatar-frontiers-of-pandora",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Avatar: Frontiers of Pandora™ è un gioco d&#x27;azione-avventura in terza e prima persona ambientato nella frontiera occidentale. Scopri la tua eredità perduta e cosa significa essere na&#x27;vi. Combatti contro il RDA e difendi Pandora in co-op online per 2 giocatori.",
+        "en": "Avatar: Frontiers of Pandora™ is a third and first-person action-adventure game set in the Western Frontier. Reconnect with your lost heritage and discover what it means to be Na&#x27;vi. Fight the RDA and defend Pandora in 2-player online co-op."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": [
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-2",
+        "maxPlayers": 2
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2840770/",
+          "externalId": "2840770"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2840770"
+      },
+      "signals": {
+        "ccu": 272,
+        "trending": false,
+        "rating": 69,
         "igdb": false,
         "gog": false,
         "rawg": false
@@ -39140,6 +42846,102 @@
       }
     },
     {
+      "id": 611,
+      "igdbId": 386507,
+      "title": "Chained Wheels",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4243690/e7646480507c8b4333097faef96c5dd300f8f67e/header.jpg?t=1774622630",
+      "description": "Parti per una corsa cooperativa caotica in Chained Wheels, dove due veicoli sono incatenati e ogni mossa si trasforma in un’avventura condivisa… o in un DISASTRO.",
+      "description_en": "Embark on a chaotic co-op drive in Chained Wheels, where two vehicles are chained together and every move turns into a shared adventure or a DISASTER.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4243690/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 67,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "k4gUrl": "https://k4g.com/product/chained-wheels-pc-steam-key?r=coophubs",
+      "k4gDiscount": 10,
+      "gmvUrl": "https://www.dpbolvw.net/click-101708519-15839605?url=https%3A%2F%2Fwww.gamivo.com%2Fproduct%2Fchained-wheels-pc-steam-global-standard&cjsku=200964",
+      "gmvDiscount": 10,
+      "gmgUrl": "https://greenmangaming.sjv.io/qWzoQy",
+      "gmgDiscount": 5,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "chained-wheels",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Parti per una corsa cooperativa caotica in Chained Wheels, dove due veicoli sono incatenati e ogni mossa si trasforma in un’avventura condivisa… o in un DISASTRO.",
+        "en": "Embark on a chaotic co-op drive in Chained Wheels, where two vehicles are chained together and every move turns into a shared adventure or a DISASTER."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": [
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4243690/",
+          "externalId": "4243690"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4243690"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 67,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
       "id": 615,
       "igdbId": 324942,
       "title": "Virtual Cottage 2",
@@ -39429,6 +43231,102 @@
       "editorial": {
         "played": false,
         "personalNote": "Added from Steam (app_id: 4435920) - needs review"
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 623,
+      "igdbId": 144126,
+      "title": "Get Together: A Coop Adventure",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 2,
+      "crossplay": true,
+      "players": "1-2",
+      "releaseYear": 2024,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1505540/header.jpg?t=1678893196",
+      "description": "Due creature si sono perse di vista, e tu sei l'unico che può riunirle. Gioca con un amico per guidarle e riunirle in questa avventura in co-op a base di rompicapi. Giocherete su due dispositivi, e potrete comunicare solo con la voce.",
+      "description_en": "Two lost beings and you are the only bond... Play with a friend to guide and reunite them on their journey in this communication-based coop puzzle adventure. You play on two devices with no connection except your voice!",
+      "personalNote": "Added from Steam (app_id: 1505540) - needs review",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1505540",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 67,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "k4gUrl": "",
+      "k4gDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": 2,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "get-together-a-coop-adventure",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Due creature si sono perse di vista, e tu sei l&#x27;unico che può riunirle. Gioca con un amico per guidarle e riunirle in questa avventura in co-op a base di rompicapi. Giocherete su due dispositivi, e potrete comunicare solo con la voce.",
+        "en": "Two lost beings and you are the only bond... Play with a friend to guide and reunite them on their journey in this communication-based coop puzzle adventure. You play on two devices with no connection except your voice!"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": [
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": true,
+        "playersLabel": "1-2",
+        "maxPlayers": 2
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1505540",
+          "externalId": "1505540"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "1505540"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 67,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": "Added from Steam (app_id: 1505540) - needs review"
       },
       "sourceMeta": {
         "ingestSource": "games.js",
@@ -40825,6 +44723,102 @@
       }
     },
     {
+      "id": 639,
+      "igdbId": 259127,
+      "title": "Cooking Simulator 2: Better Together",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2455360/c5ed32d713f2a7b5bf15c0ef557c4b02d10064cc/header.jpg?t=1775124789",
+      "description": "Cooking Simulator is back – bigger, better, and with multiplayer! Create your own recipes and take advantage of new and improved controls to become the best restaurant cook in the city! Or just have fun and enjoy cooking at your own pace. You’re the chef here!",
+      "description_en": "Cooking Simulator is back – bigger, better, and with multiplayer! Create your own recipes and take advantage of new and improved controls to become the best restaurant cook in the city! Or just have fun and enjoy cooking at your own pace. You’re the chef here!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2455360/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 48,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "k4gUrl": "",
+      "k4gDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "cooking-simulator-2-better-together",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Cooking Simulator is back – bigger, better, and with multiplayer! Create your own recipes and take advantage of new and improved controls to become the best restaurant cook in the city! Or just have fun and enjoy cooking at your own pace. You’re the chef here!",
+        "en": "Cooking Simulator is back – bigger, better, and with multiplayer! Create your own recipes and take advantage of new and improved controls to become the best restaurant cook in the city! Or just have fun and enjoy cooking at your own pace. You’re the chef here!"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": [
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2455360/",
+          "externalId": "2455360"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2455360"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 48,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
       "id": 640,
       "igdbId": 76091,
       "title": "Last Man Sitting",
@@ -41209,6 +45203,102 @@
       }
     },
     {
+      "id": 663,
+      "igdbId": 267171,
+      "title": "Lugh World",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234720/154d3ced12edd2dcbb880e749dd5558b5fc6d540/header.jpg?t=1775721494",
+      "description": "Lugh World is an action monster-taming MMORPG set in a living, ever-evolving open world. Capture and evolve unique beings called Lughs, explore a vast world, and face epic challenges in real-time battles. Uncover secrets, forge your own path, and live the game you’ve always dreamed of!",
+      "description_en": "Lugh World is an action monster-taming MMORPG set in a living, ever-evolving open world. Capture and evolve unique beings called Lughs, explore a vast world, and face epic challenges in real-time battles. Uncover secrets, forge your own path, and live the game you’ve always dreamed of!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3234720/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 58,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "k4gUrl": "",
+      "k4gDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "lugh-world",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Lugh World is an action monster-taming MMORPG set in a living, ever-evolving open world. Capture and evolve unique beings called Lughs, explore a vast world, and face epic challenges in real-time battles. Uncover secrets, forge your own path, and live the game you’ve always dreamed of!",
+        "en": "Lugh World is an action monster-taming MMORPG set in a living, ever-evolving open world. Capture and evolve unique beings called Lughs, explore a vast world, and face epic challenges in real-time battles. Uncover secrets, forge your own path, and live the game you’ve always dreamed of!"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": [
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3234720/",
+          "externalId": "3234720"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3234720"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 58,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
       "id": 664,
       "igdbId": 370583,
       "title": "Night Shippers",
@@ -41497,6 +45587,102 @@
       }
     },
     {
+      "id": 667,
+      "igdbId": 347758,
+      "title": "Pebble Knights",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 5,
+      "crossplay": false,
+      "players": "1-5",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3087930/b7b262cbcb710adf3d1e7ef3211b6b97a49beab7/header.jpg?t=1776142610",
+      "description": "Hell Fungus is taking over! Grab 4 friends and crush it. Solo run? We got you. Your bot squad is ready. Pebble Knights is a 1–5 player co-op roguelite. Scavenge by day, survive the night. Stack traits, build synergies, and snowball every run. Good luck.",
+      "description_en": "Hell Fungus is taking over! Grab 4 friends and crush it. Solo run? We got you. Your bot squad is ready. Pebble Knights is a 1–5 player co-op roguelite. Scavenge by day, survive the night. Stack traits, build synergies, and snowball every run. Good luck.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3087930/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 69,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "k4gUrl": "",
+      "k4gDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "pebble-knights",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Hell Fungus is taking over! Grab 4 friends and crush it. Solo run? We got you. Your bot squad is ready. Pebble Knights is a 1–5 player co-op roguelite. Scavenge by day, survive the night. Stack traits, build synergies, and snowball every run. Good luck.",
+        "en": "Hell Fungus is taking over! Grab 4 friends and crush it. Solo run? We got you. Your bot squad is ready. Pebble Knights is a 1–5 player co-op roguelite. Scavenge by day, survive the night. Stack traits, build synergies, and snowball every run. Good luck."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": [
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-5",
+        "maxPlayers": 5
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3087930/",
+          "externalId": "3087930"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3087930"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 69,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
       "id": 668,
       "igdbId": 375823,
       "title": "We Gotta Go",
@@ -41675,6 +45861,102 @@
         "ccu": 0,
         "trending": false,
         "rating": 88,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 670,
+      "igdbId": 309645,
+      "title": "Weed Shop 4: Highland",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2631140/d156341630d1777cb73354876466fc72ad27de93/header.jpg?t=1776711476",
+      "description": "VISIT HIGHLAND! Build a weed empire from nothing on a broken tropical island. Grow, sell, expand, and survive the chaos solo or in co-op.",
+      "description_en": "VISIT HIGHLAND! Build a weed empire from nothing on a broken tropical island. Grow, sell, expand, and survive the chaos solo or in co-op.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2631140/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 54,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "k4gUrl": "",
+      "k4gDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "weed-shop-4-highland",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "VISIT HIGHLAND! Build a weed empire from nothing on a broken tropical island. Grow, sell, expand, and survive the chaos solo or in co-op.",
+        "en": "VISIT HIGHLAND! Build a weed empire from nothing on a broken tropical island. Grow, sell, expand, and survive the chaos solo or in co-op."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": [
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2631140/",
+          "externalId": "2631140"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2631140"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 54,
         "igdb": false,
         "gog": false,
         "rawg": false
@@ -42265,6 +46547,102 @@
       }
     },
     {
+      "id": 677,
+      "igdbId": 399220,
+      "title": "Beyond Sandbox",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3385970/71762d54db7e629b0ae7a97d5db1732e3198510c/header.jpg?t=1777343629",
+      "description": "Beyond Sandbox is a multiplayer VR modding platform powered by Unreal Engine 5. With advanced physics and the creativity of our modding community, anything is possible.",
+      "description_en": "Beyond Sandbox is a multiplayer VR modding platform powered by Unreal Engine 5. With advanced physics and the creativity of our modding community, anything is possible.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3385970/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 38,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "k4gUrl": "",
+      "k4gDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "beyond-sandbox",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Beyond Sandbox is a multiplayer VR modding platform powered by Unreal Engine 5. With advanced physics and the creativity of our modding community, anything is possible.",
+        "en": "Beyond Sandbox is a multiplayer VR modding platform powered by Unreal Engine 5. With advanced physics and the creativity of our modding community, anything is possible."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": [
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3385970/",
+          "externalId": "3385970"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3385970"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 38,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
       "id": 678,
       "igdbId": 373009,
       "title": "Rest Area Simulator",
@@ -42443,6 +46821,104 @@
         "ccu": 0,
         "trending": false,
         "rating": 97,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 680,
+      "igdbId": 142355,
+      "title": "s&box",
+      "categories": [
+        "action"
+      ],
+      "genres": [
+        "action"
+      ],
+      "coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/590830/9516f272f523e6a28350b6e66a1bc4ad9f65888a/header.jpg?t=1777373703",
+      "description": "Our spiritual successor to Garry's Mod, this is a game creation platform built on the Source 2 engine. Play, create, and share games, explore community creations, and experience endless sandbox fun with powerful modern tools.",
+      "description_en": "Our spiritual successor to Garry's Mod, this is a game creation platform built on the Source 2 engine. Play, create, and share games, explore community creations, and experience endless sandbox fun with powerful modern tools.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/590830/",
+      "gogUrl": "",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 45,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "k4gUrl": "",
+      "k4gDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "s-and-box",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Our spiritual successor to Garry&#x27;s Mod, this is a game creation platform built on the Source 2 engine. Play, create, and share games, explore community creations, and experience endless sandbox fun with powerful modern tools.",
+        "en": "Our spiritual successor to Garry&#x27;s Mod, this is a game creation platform built on the Source 2 engine. Play, create, and share games, explore community creations, and experience endless sandbox fun with powerful modern tools."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": [
+          "action"
+        ]
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/590830/",
+          "externalId": "590830"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "590830"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 45,
         "igdb": false,
         "gog": false,
         "rawg": false
