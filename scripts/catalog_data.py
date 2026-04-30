@@ -297,7 +297,6 @@ def load_games() -> list[dict[str, Any]]:
     for block in blocks:
         game = {
             "id": ef(block, "id"),
-            "igdbId": ef(block, "igdbId") or 0,
             "title": ef(block, "title") or "",
             "categories": ef(block, "categories") or [],
             "genres": ef(block, "genres") or [],
@@ -314,7 +313,6 @@ def load_games() -> list[dict[str, Any]]:
             "personalNote": ef(block, "personalNote") or "",
             "played": ef(block, "played") or False,
             "steamUrl": ef(block, "steamUrl") or "",
-            "gogUrl": ef(block, "gogUrl") or "",
             "epicUrl": ef(block, "epicUrl") or "",
             "itchUrl": ef(block, "itchUrl") or "",
             "ccu": ef(block, "ccu") or 0,
@@ -328,13 +326,12 @@ def load_games() -> list[dict[str, Any]]:
             "gsDiscount": ef(block, "gsDiscount") or 0,
             "kgUrl": ef(block, "kgUrl") or "",
             "kgDiscount": ef(block, "kgDiscount") or 0,
-            "k4gUrl": ef(block, "k4gUrl") or "",
-            "k4gDiscount": ef(block, "k4gDiscount") or 0,
             "gmvUrl": ef(block, "gmvUrl") or "",
             "gmvDiscount": ef(block, "gmvDiscount") or 0,
             "gmgUrl": ef(block, "gmgUrl") or "",
             "gmgDiscount": ef(block, "gmgDiscount") or 0,
             "coopScore": ef(block, "coopScore"),
+            "totalReviews": ef(block, "totalReviews") or 0,
             "mini_review_it": ef(block, "mini_review_it") or "",
             "mini_review_en": ef(block, "mini_review_en") or "",
         }
@@ -488,15 +485,12 @@ def write_legacy_games_js(
 
     for game in ordered_games:
         categories_json = json.dumps(game.get("categories") or [], ensure_ascii=False)
-        genres_json = json.dumps(game.get("genres") or [], ensure_ascii=False)
         coop_json = json.dumps(game.get("coopMode") or ["online"], ensure_ascii=False)
         games_array_lines.append(
             "  {\n"
             f"    id: {game['id']},\n"
-            f"    igdbId: {game.get('igdbId') or 0},\n"
             f'    title: "{js_esc(game.get("title", ""))}",\n'
             f"    categories: {categories_json},\n"
-            f"    genres: {genres_json},\n"
             f"    coopMode: {coop_json},\n"
             f"    maxPlayers: {game.get('maxPlayers', 4)},\n"
             f"    crossplay: {'true' if game.get('crossplay') else 'false'},\n"
@@ -508,7 +502,6 @@ def write_legacy_games_js(
             f'    personalNote: "{js_esc(game.get("personalNote", ""))}",\n'
             f"    played: {'true' if game.get('played') else 'false'},\n"
             f'    steamUrl: "{js_esc(game.get("steamUrl", ""))}",\n'
-            f'    gogUrl: "{js_esc(game.get("gogUrl", ""))}",\n'
             f'    epicUrl: "{js_esc(game.get("epicUrl", ""))}",\n'
             f'    itchUrl: "{js_esc(game.get("itchUrl", ""))}",\n'
             f"    ccu: {game.get('ccu') or 0},\n"
@@ -522,13 +515,10 @@ def write_legacy_games_js(
             f"    gsDiscount: {game.get('gsDiscount') or 0},\n"
             f'    kgUrl: "{js_esc(game.get("kgUrl", ""))}",\n'
             f"    kgDiscount: {game.get('kgDiscount') or 0},\n"
-            f'    k4gUrl: "{js_esc(game.get("k4gUrl", ""))}",\n'
-            f"    k4gDiscount: {game.get('k4gDiscount') or 0},\n"
             f'    gmvUrl: "{js_esc(game.get("gmvUrl", ""))}",\n'
             f"    gmvDiscount: {game.get('gmvDiscount') or 0},\n"
-            f'    gmgUrl: "{js_esc(game.get("gmgUrl", ""))}",\n'
-            f"    gmgDiscount: {game.get('gmgDiscount') or 0},\n"
             f"    coopScore: {json.dumps(game.get('coopScore'))},\n"
+            f"    totalReviews: {game.get('totalReviews') or 0},\n"
             f'    mini_review_it: "{js_esc(game.get("mini_review_it", ""))}",\n'
             f'    mini_review_en: "{js_esc(game.get("mini_review_en", ""))}"\n'
             "  },\n"

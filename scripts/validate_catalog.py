@@ -340,9 +340,10 @@ def main() -> int:
             missing_image.append(f"{game_id} ({title})")
 
         # coopMode vs categories sync
-        if "splitscreen" in cats and "sofa" not in modes:
+        # splitscreen category implies shared-screen play (sofa or local)
+        if "splitscreen" in cats and not (set(modes) & {"sofa", "local"}):
             coop_sync_issues.append(
-                f"{game_id} ({title}): splitscreen in cats but not in coopMode"
+                f"{game_id} ({title}): splitscreen in cats but no sofa/local in coopMode"
             )
         if "sofa" in modes and "splitscreen" not in cats:
             coop_sync_issues.append(

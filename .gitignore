@@ -58,3 +58,5 @@ db-output/
 
 # Playwright
 .playwright-mcp/.venv/
+.venv/
+.playwright-mcp/

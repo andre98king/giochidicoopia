@@ -1,23 +1,18 @@
 #!/usr/bin/env python3
 """
 merge_affiliate_artifacts.py
-=============================
-Mergea i games.js prodotti dai job fetch paralleli nel workflow CI.
-
-Ogni job fetch (affiliate, gameseal, gamivo, k4g, gmg) produce un games.js
-con solo i propri campi aggiornati. Questo script li unisce partendo dal
-games.js base (db-output di auto-update-db).
+===========================
+Mergea i games-data.js prodotti dai job fetch paralleli nel workflow CI.
+Ogni job fetch produce un games-data.js con solo i propri campi aggiornati.
+Questo script li unisce partendo dal games-data.js base (db-output di auto-update-db).
 
 Campi gestiti da ogni sorgente:
-  - affiliate: igUrl/igDiscount, gbUrl/gbDiscount, kgUrl/kgDiscount, gmvUrl/gmvDiscount
-  - gameseal:  gsUrl/gsDiscount, kgUrl/kgDiscount (sovrascrive affiliate per Kinguin)
-  - gamivo:    gmvUrl/gmvDiscount (sovrascrive affiliate per GAMIVO)
-  - k4g:       k4gUrl/k4gDiscount
-  - gmg:       gmgUrl/gmgDiscount
+  - affiliate: igUrl/igDiscount, gbUrl/gbDiscount
+  - gameseal:  gsUrl/gsDiscount
+  - gamivo:    gmvUrl/gmvDiscount
 
-Utilizzo:
-    python3 scripts/merge_affiliate_artifacts.py
-    Legge i file da data/artifacts/ (popolato dal workflow CI)
+Il path artifact deve essere:
+    data/artifacts/{store}/assets/bundles/games-data.js
 """
 
 from __future__ import annotations
@@ -34,19 +29,26 @@ ARTIFACTS_DIR = ROOT / "data" / "artifacts"
 # Mappa: nome artifact → lista di campi da mergeare
 STORE_FIELDS = {
     "affiliate": ["igUrl", "igDiscount", "gbUrl", "gbDiscount"],
-    "gameseal": ["gsUrl", "gsDiscount", "kgUrl", "kgDiscount"],
+    "gameseal": ["gsUrl", "gsDiscount"],
     "gamivo": ["gmvUrl", "gmvDiscount"],
-    "k4g": ["k4gUrl", "k4gDiscount"],
-    "gmg": ["gmgUrl", "gmgDiscount"],
 }
 
-# Ordine di merge: gameseal sovrascrive affiliate per Kinguin,
-# gamivo sovrascrive affiliate per GAMIVO
-MERGE_ORDER = ["affiliate", "gameseal", "gamivo", "k4g", "gmg"]
+MERGE_ORDER = ["affiliate", "gameseal", "gamivo"]
+
+# tutti i campi presenti nel nuovo formato games-data.js (33 campi + featuredIndieId)
+JS_FIELDS = [
+    "id", "title", "categories", "genres", "coopMode", "maxPlayers", "crossplay",
+    "players", "releaseYear", "image", "description", "description_en",
+    "personalNote", "played", "steamUrl", "epicUrl", "itchUrl",
+    "ccu", "trending", "rating", "igUrl", "igDiscount",
+    "gbUrl", "gbDiscount", "gsUrl", "gsDiscount", "kgUrl", "kgDiscount",
+    "gmvUrl", "gmvDiscount", "totalReviews", "coopScore",
+    "mini_review_it", "mini_review_en",
+]
 
 
 def load_games_js(path: Path) -> list[dict]:
-    """Parse games.js con regex (stesso approccio di catalog_data.py)."""
+    """Parse games-data.js con regex (stesso approccio di catalog_data.py)."""
     content = path.read_text(encoding="utf-8")
     blocks = re.findall(r"\{[^{}]*\}", content, re.DOTALL)
     games = []
@@ -55,46 +57,7 @@ def load_games_js(path: Path) -> list[dict]:
         if game_id is None:
             continue
         game = {"id": game_id}
-        for field in [
-            "igdbId",
-            "title",
-            "categories",
-            "genres",
-            "coopMode",
-            "maxPlayers",
-            "crossplay",
-            "players",
-            "releaseYear",
-            "image",
-            "description",
-            "description_en",
-            "personalNote",
-            "played",
-            "steamUrl",
-            "gogUrl",
-            "epicUrl",
-            "itchUrl",
-            "ccu",
-            "trending",
-            "rating",
-            "igUrl",
-            "igDiscount",
-            "gbUrl",
-            "gbDiscount",
-            "gsUrl",
-            "gsDiscount",
-            "kgUrl",
-            "kgDiscount",
-            "k4gUrl",
-            "k4gDiscount",
-            "gmvUrl",
-            "gmvDiscount",
-            "gmgUrl",
-            "gmgDiscount",
-            "coopScore",
-            "mini_review_it",
-            "mini_review_en",
-        ]:
+        for field in JS_FIELDS:
             game[field] = _extract_field(block, field)
         games.append(game)
     games.sort(key=lambda g: g["id"])
@@ -124,7 +87,7 @@ def _extract_field(block: str, field: str):
     if re.fullmatch(r"-?\d+", value):
         return int(value)
     if value.startswith("["):
-        return re.findall(r'"([^"]+)"', value)
+        return re.findall(r'"([^"]*)"', value)
     return re.sub(r"\\(.)", r"\1", value.strip('"'))
 
 
@@ -135,12 +98,14 @@ def js_esc(value) -> str:
 
 
 def write_games_js(games: list[dict], path: Path) -> None:
-    """Scrive games.js nello stesso formato dell'originale."""
+    """Scrive games-data.js nello stesso formato ridotto di catalog_data.py."""
+    # Featured indie id viene letto dal file originale
     featured_id = 0
-    content = path.read_text(encoding="utf-8") if path.exists() else ""
-    m = re.search(r"const\s+featuredIndieId\s*=\s*(\d+)\s*;", content)
-    if m:
-        featured_id = int(m.group(1))
+    if path.exists():
+        content = path.read_text(encoding="utf-8")
+        m = re.search(r"const\s+featuredIndieId\s*=\s*(\d+)\s*;", content)
+        if m:
+            featured_id = int(m.group(1))
 
     lines = [f"const featuredIndieId = {featured_id};\n\n", "const games = [\n"]
 
@@ -151,7 +116,6 @@ def write_games_js(games: list[dict], path: Path) -> None:
         lines.append(
             "  {\n"
             f"    id: {game['id']},\n"
-            f"    igdbId: {game.get('igdbId') or 0},\n"
             f'    title: "{js_esc(game.get("title", ""))}",\n'
             f"    categories: {categories_json},\n"
             f"    genres: {genres_json},\n"
@@ -166,7 +130,6 @@ def write_games_js(games: list[dict], path: Path) -> None:
             f'    personalNote: "{js_esc(game.get("personalNote", ""))}",\n'
             f"    played: {'true' if game.get('played') else 'false'},\n"
             f'    steamUrl: "{js_esc(game.get("steamUrl", ""))}",\n'
-            f'    gogUrl: "{js_esc(game.get("gogUrl", ""))}",\n'
             f'    epicUrl: "{js_esc(game.get("epicUrl", ""))}",\n'
             f'    itchUrl: "{js_esc(game.get("itchUrl", ""))}",\n'
             f"    ccu: {game.get('ccu') or 0},\n"
@@ -180,12 +143,9 @@ def write_games_js(games: list[dict], path: Path) -> None:
             f"    gsDiscount: {game.get('gsDiscount') or 0},\n"
             f'    kgUrl: "{js_esc(game.get("kgUrl", ""))}",\n'
             f"    kgDiscount: {game.get('kgDiscount') or 0},\n"
-            f'    k4gUrl: "{js_esc(game.get("k4gUrl", ""))}",\n'
-            f"    k4gDiscount: {game.get('k4gDiscount') or 0},\n"
             f'    gmvUrl: "{js_esc(game.get("gmvUrl", ""))}",\n'
             f"    gmvDiscount: {game.get('gmvDiscount') or 0},\n"
-            f'    gmgUrl: "{js_esc(game.get("gmgUrl", ""))}",\n'
-            f"    gmgDiscount: {game.get('gmgDiscount') or 0},\n"
+            f"    totalReviews: {game.get('totalReviews', 0)},\n"
             f"    coopScore: {json.dumps(game.get('coopScore'))},\n"
             f'    mini_review_it: "{js_esc(game.get("mini_review_it", ""))}",\n'
             f'    mini_review_en: "{js_esc(game.get("mini_review_en", ""))}"\n'
@@ -195,7 +155,7 @@ def write_games_js(games: list[dict], path: Path) -> None:
     lines.append("];\n")
     full_js = "".join(lines)
     if full_js.count("{") != full_js.count("}"):
-        raise ValueError("Brace count mismatch while serializing games.js")
+        raise ValueError("Brace count mismatch while serializing games-data.js")
     if len(games) < 50:
         raise ValueError(
             f"Refusing to write suspiciously small catalog: {len(games)} games"
@@ -203,14 +163,30 @@ def write_games_js(games: list[dict], path: Path) -> None:
 
     path.write_text(full_js, encoding="utf-8")
 
+    # Aggiona anche assets/games.js con lo stesso featuredIndieId
+    loader = ROOT / "assets" / "games.js"
+    if loader.exists():
+        content = loader.read_text(encoding="utf-8")
+        content = re.sub(
+            r"const\s+featuredIndieId\s*=\s*\d+\s*;",
+            f"const featuredIndieId = {featured_id};",
+            content,
+        )
+        loader.write_text(content, encoding="utf-8")
+
 
 def merge_artifacts(base_games: list[dict], artifact_dir: Path) -> list[dict]:
-    """Mergea i campi da ogni artifact nel games.js base."""
+    """Mergea i campi da ogni artifact nel games-data.js base."""
     games_by_id = {g["id"]: g for g in base_games}
 
     for store_name in MERGE_ORDER:
         fields = STORE_FIELDS[store_name]
-        artifact_path = artifact_dir / store_name / "games.js"
+        # Il workflow CI scarica artifact come data/artifacts/{store}/assets/bundles/games-data.js
+        artifact_path = artifact_dir / store_name / "assets" / "bundles" / "games-data.js"
+        if not artifact_path.exists():
+            # Fallback su path vecchio (backward compat)
+            artifact_path = artifact_dir / store_name / "games.js"
+
         if not artifact_path.exists():
             print(f"  ⏭️  {store_name}: artifact non trovato, salto")
             continue
@@ -225,9 +201,12 @@ def merge_artifacts(base_games: list[dict], artifact_dir: Path) -> list[dict]:
                 continue
             for field in fields:
                 value = store_game.get(field)
-                if value:
+                # Solo valori truthy (URL non vuoto, discount>0)
+                if value and value != 0 and value != "0":
+                    old = base_game.get(field)
                     base_game[field] = value
-                    merged += 1
+                    if old != value:
+                        merged += 1
 
         print(
             f"  ✅ {store_name}: {merged} campi mergeati da {len(store_games)} giochi"
@@ -239,25 +218,25 @@ def merge_artifacts(base_games: list[dict], artifact_dir: Path) -> list[dict]:
 def run() -> None:
     base_games_js = GAMES_JS
     if not base_games_js.exists():
-        print("❌ games.js base non trovato")
+        print("games-data.js base non trovato")
         sys.exit(1)
 
-    print(f"📖 Leggo games.js base...")
+    print(f"Leggo games-data.js base...")
     base_games = load_games_js(base_games_js)
     print(f"  {len(base_games)} giochi caricati")
 
     artifact_dir = ARTIFACTS_DIR
     if not artifact_dir.exists():
-        print(f"⚠️  Directory artifact non trovata: {artifact_dir}")
-        print("  Nessun merge necessario, uso games.js base")
+        print(f"Directory artifact non trovata: {artifact_dir}")
+        print("Nessun merge necessario, uso games-data.js base")
         sys.exit(0)
 
-    print(f"\n🔀 Mergeo artifact da {artifact_dir}...")
+    print(f"\nMergeo artifact da {artifact_dir}...")
     merged_games = merge_artifacts(base_games, artifact_dir)
 
-    print(f"\n💾 Scrivo games.js finale...")
+    print(f"\nScrivo games-data.js finale...")
     write_games_js(sorted(merged_games, key=lambda g: g["id"]), base_games_js)
-    print(f"  ✅ games.js scritto con {len(merged_games)} giochi")
+    print(f"  ✅ games-data.js scritto con {len(merged_games)} giochi")
 
 
 if __name__ == "__main__":

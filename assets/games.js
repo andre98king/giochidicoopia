@@ -2,7 +2,7 @@
 // Original size: 1.1MB, New size: ~1.4KB
 
 // Keep original variables (core.js is redundant, we include it here)
-const featuredIndieId = 180;
+const featuredIndieId = 0;
 
 // Async loading system for games data
 let gamesDataLoaded = false;
