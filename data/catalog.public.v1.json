@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-29T08:45:36+00:00",
+  "generatedAt": "2026-04-30T08:47:15+00:00",
   "featuredIndieId": 180,
   "games": [
     {
@@ -18598,7 +18598,7 @@
       "maxPlayers": 4,
       "crossplay": false,
       "players": "1-4",
-      "releaseYear": 0,
+      "releaseYear": 2026,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124540/21362a3efa8067bf28d0abf350c2a13cd39e61bc/header_alt_assets_3.jpg?t=1777406197",
       "description": "Yee-haw, Cowboys! Team up in this chaotic 1-4 player co-op shooter. Journey to the Far Far West to blast monsters, sling spells, complete missions, and collect bounties. Work as a team to get in, get paid and get out (mostly) alive.",
       "description_en": "Yee-haw, Cowboys! Team up in this chaotic 1-4 player co-op shooter. Journey to the Far Far West to blast monsters, sling spells, complete missions, and collect bounties. Work as a team to get in, get paid and get out (mostly) alive.",
@@ -18609,51 +18609,7 @@
       "itchUrl": "",
       "ccu": 0,
       "trending": false,
-      "rating": 0,
-      "igUrl": "",
-      "igDiscount": 0,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "",
-      "gsDiscount": 0,
-      "kgUrl": "",
-      "kgDiscount": 0,
-      "gmvUrl": "",
-      "gmvDiscount": 0,
-      "gmgUrl": "",
-      "gmgDiscount": 0,
-      "coopScore": null
-    },
-    {
-      "id": 680,
-      "slug": "s-and-box",
-      "title": "s&box",
-      "categories": [
-        "action"
-      ],
-      "genres": [
-        "action"
-      ],
-      "coopMode": [
-        "online",
-        "local",
-        "sofa"
-      ],
-      "maxPlayers": 4,
-      "crossplay": false,
-      "players": "2-4",
-      "releaseYear": 0,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/590830/9516f272f523e6a28350b6e66a1bc4ad9f65888a/header.jpg?t=1777373703",
-      "description": "Our spiritual successor to Garry's Mod, this is a game creation platform built on the Source 2 engine. Play, create, and share games, explore community creations, and experience endless sandbox fun with powerful modern tools.",
-      "description_en": "Our spiritual successor to Garry's Mod, this is a game creation platform built on the Source 2 engine. Play, create, and share games, explore community creations, and experience endless sandbox fun with powerful modern tools.",
-      "personalNote": "",
-      "played": false,
-      "steamUrl": "https://store.steampowered.com/app/590830/",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 0,
-      "trending": false,
-      "rating": 0,
+      "rating": 97,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
