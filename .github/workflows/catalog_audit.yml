@@ -25,8 +25,8 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r scripts/requirements.txt
 
-      - name: Run catalog quality audit (fast mode, auto-remove false co-op)
-        run: python3 scripts/catalog_audit.py --fast --apply
+      - name: Run catalog quality audit (daily mode, auto-remove false co-op)
+        run: python3 scripts/catalog_audit.py --daily --apply
         env:
           IGDB_CLIENT_ID: ${{ secrets.IGDB_CLIENT_ID }}
           IGDB_CLIENT_SECRET: ${{ secrets.IGDB_CLIENT_SECRET }}

@@ -14,6 +14,8 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
 from catalog_data import load_games
 from quality_gate import run_curation_gate
 
@@ -72,13 +74,25 @@ def classify_game(game: dict) -> str:
         except Exception:
             pass
 
-    # REJECTED: solo se totalReviews è noto (gioco nuovo ingestato con quel campo)
-    # I giochi storici (totalReviews=None) sono già filtrati da quality_gate.py
+    # REJECTED: solo se abbiamo dati sufficienti per giudicare
     if total_reviews is not None:
+        # Gioco nuovo ( < 90 giorni) con reviews=0 → PROBATION, non REJECTED
+        # SteamSpy impiega tempo a popolare i dati per giochi appena usciti
+        if total_reviews == 0:
+            if days_old < 90:
+                return "PROBATION"
+            else:
+                return "REJECTED"  # gioco vecchio senza recensioni = sospetto
+
         if total_reviews < 3:
             return "REJECTED"
+
+        # Rating basso: rigetta solo se abbiamo abbastanza recensioni per fidarci
         if rating < 70:
-            return "REJECTED"
+            if total_reviews >= 10:
+                return "REJECTED"
+            else:
+                return "PROBATION"
 
     # PROBATION: gioco nuovo con poche recensioni
     if total_reviews is not None and days_old < 120 and total_reviews < 25:
@@ -134,9 +148,15 @@ def main():
             approved_count += 1
             approved_games.append(g)
 
-    # Aggiorna excluded_games.json con unione
-    all_excluded = existing_excluded | newly_rejected
-    _save_excluded(all_excluded)
+    # NOTE: non aggiungiamo più automaticamente i giochi rejectati per rating
+    # a excluded_games.json — troppi falsi positivi (AAA con rating basso su Steam
+    # ma gameplay coop valido).  excluded_games.json viene popolato solo
+    # manualmente o da catalog_audit.py per giochi veramente non-coop.
+    # Qui generiamo solo il report per analisi umana.
+    if newly_rejected:
+        print(f"\n⚠️  {len(newly_rejected)} giochi rejectati dal quality gate.")
+        print("   Non aggiunti a excluded_games.json (controllo manuale richiesto).")
+        print("   Controlla il report in reports/curation_gate_*.json")
 
     # Report
     criticals = [h for h in hidden if h.get("severity") == "critical"]
