@@ -16,8 +16,8 @@ import sys
 from urllib.parse import urlparse
 
 
-ROOT = pathlib.Path(__file__).resolve().parent
-FREE_GAMES_JS = ROOT / "free_games.js"
+ROOT = pathlib.Path(__file__).resolve().parent.parent
+FREE_GAMES_JS = ROOT / "assets" / "free_games.js"
 ALLOWED_STORES = {"epic", "steam", "gog", "humble"}
 EXPECTED_HOST_SNIPPETS = {
     "epic": ("epicgames.com",),

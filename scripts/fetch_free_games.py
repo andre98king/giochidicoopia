@@ -27,8 +27,8 @@ except ImportError:  # pragma: no cover - handled at runtime in CI/local use
     BeautifulSoup = None
 
 
-ROOT = pathlib.Path(__file__).resolve().parent
-OUTPUT = ROOT / "free_games.js"
+ROOT = pathlib.Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "assets" / "free_games.js"
 USER_AGENT = "Coophubs Free Games Bot/1.0 (+https://coophubs.net)"
 TIMEOUT = 20
 NOW = dt.datetime.now(dt.timezone.utc)
