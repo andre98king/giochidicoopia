@@ -57,4 +57,4 @@ db-output/
 .opencode/
 
 # Playwright
-.playwright-mcp/
+.playwright-mcp/.venv/

@@ -144,8 +144,6 @@ python3 scripts/build_static_pages.py && python3 scripts/build_hub_pages.py
 
 | Script | Ruolo |
 |--------|-------|
-| `catalog_ingest.py` | Orchestratore pipeline: valida → arricchisce → aggiunge al catalogo |
-| `catalog_enricher.py` | Arricchisce un gioco con dati Steam + SteamSpy + RAWG |
 | `generate_coop_score.py` | Calcola punteggio co-op composito per sorting |
 
 ---
@@ -175,9 +173,8 @@ python3 scripts/build_static_pages.py && python3 scripts/build_hub_pages.py
 ```
 catalog_config.py ←── auto_update.py
 catalog_data.py   ←── auto_update.py, build_static_pages.py, build_hub_pages.py,
-                       validate_catalog.py, catalog_ingest.py, fetch_affiliate_prices.py
-quality_gate.py   ←── auto_update.py, catalog_ingest.py
-catalog_enricher  ←── catalog_ingest.py
+                       validate_catalog.py, fetch_affiliate_prices.py
+quality_gate.py   ←── auto_update.py
 igdb_catalog_src  ←── auto_update.py
 gog_catalog_src   ←── auto_update.py
 itch_catalog_src  ←── auto_update.py

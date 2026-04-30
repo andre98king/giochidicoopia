@@ -391,6 +391,18 @@ document.addEventListener('DOMContentLoaded', async () => {
     renderGames();
   });
 
+  // Keyboard shortcut: '/' to focus search (unless in an input)
+  document.addEventListener('keydown', e => {
+    if (e.key === '/' && !e.ctrlKey && !e.metaKey && !e.altKey) {
+      const tag = document.activeElement?.tagName;
+      const isInput = tag === 'INPUT' || tag === 'TEXTAREA' || document.activeElement?.isContentEditable;
+      if (!isInput) {
+        e.preventDefault();
+        searchInput.focus();
+      }
+    }
+  });
+
   document.getElementById('sortSelect').addEventListener('change', e => {
     sortMode = e.target.value;
     renderGames();

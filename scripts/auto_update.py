@@ -189,6 +189,28 @@ def _fetch_steam_store_reviews(appid: str) -> tuple[int, int]:
     return 0, 0
 
 
+def _calc_trend_score(g: dict) -> float:
+    """
+    Calcola un punteggio di trending composito per la selezione featured.
+    Formula: (rating * 0.4) + (log(ccu+1) * 10 * 0.3) + (coopScore * 20 * 0.2) + (novelty * 0.1)
+    """
+    rating = g.get("rating", 0) or 0
+    ccu = g.get("ccu", 0) or 0
+    coop_score = g.get("coopScore") or 0
+    release_year = g.get("releaseYear") or 0
+    
+    import math
+    ccu_component = math.log10(max(ccu, 1)) * 10 * 0.3
+    rating_component = rating * 0.4
+    coop_component = (coop_score if coop_score else 0) * 20 * 0.2
+    
+    current_year = datetime.datetime.now().year
+    is_new = release_year >= current_year - 1
+    novelty_component = 10.0 if is_new else 0.0
+    
+    return rating_component + ccu_component + coop_component + novelty_component
+
+
 def _enrich_steam_candidate(
     appid: str,
     title: str,
@@ -426,6 +448,33 @@ for g in existing_games:
 print(
     f"  CCU aggiornati: {updated_ccu} | Rating: {updated_rating} | Reviews: {updated_reviews} | Trending 🔥: {sum(1 for g in existing_games if g['trending'])}"
 )
+
+# Shovelware Gate: segnala giochi con attività molto bassa per revisione manuale
+shovelware_flagged = []
+for g in existing_games:
+    reviews = g.get("totalReviews", 0) or 0
+    rating = g.get("rating", 0) or 0
+    ccu = g.get("ccu", 0) or 0
+    if reviews < 100 and rating < 60 and ccu < 50:
+        shovelware_flagged.append({
+            "id": g["id"],
+            "title": g["title"],
+            "ccu": ccu,
+            "rating": rating,
+            "totalReviews": reviews,
+            "reason": "low_activity"
+        })
+if shovelware_flagged:
+    shovelware_path = Path("data/pending_shovelware_review.json")
+    shovelware_path.write_text(
+        json.dumps({
+            "generatedAt": datetime.datetime.utcnow().isoformat() + "Z",
+            "count": len(shovelware_flagged),
+            "games": shovelware_flagged
+        }, indent=2, ensure_ascii=False),
+        encoding="utf-8"
+    )
+    print(f"  ⚠️  Shovelware gate: {len(shovelware_flagged)} giochi segnalati per revisione → {shovelware_path}")
 
 # 2c: Fallback CCU individuale per giochi con CCU 0
 zero_ccu = [
@@ -1122,20 +1171,22 @@ else:
     indie_rated = [
         g
         for g in existing_games
-        if "indie" in g.get("categories", []) and g.get("rating", 0) >= 75
+        if "indie" in g.get("categories", []) and g.get("rating", 0) >= 60
     ]
     if indie_rated:
+        for g in indie_rated:
+            g["_trendScore"] = _calc_trend_score(g)
         indie_sorted = sorted(
-            indie_rated, key=lambda x: x.get("rating", 0), reverse=True
+            indie_rated, key=lambda x: x.get("_trendScore", 0), reverse=True
         )
-        top_indie = indie_sorted[:12]
+        top_indie = indie_sorted[:15]
         iso = datetime.datetime.now().isocalendar()
         week_idx = (iso[0] * 52 + iso[1]) % len(top_indie)
         featured_id = top_indie[week_idx]["id"]
-        print(f"  Featured (AUTO): {top_indie[week_idx]['title']} (id {featured_id})")
+        print(f"  Featured (AUTO): {top_indie[week_idx]['title']} (id {featured_id}, trendScore={top_indie[week_idx].get('_trendScore', 0):.1f})")
     else:
         featured_id = 0
-        print("  Nessun gioco indie con rating >= 75%")
+        print("  Nessun gioco indie con rating >= 60%")
 
 # Scrittura games.js
 print(f"\n💾 Scrittura games.js ({len(existing_games)} giochi)...")
@@ -1148,6 +1199,22 @@ except ValueError as exc:
     print(f"  ⛔ ERRORE: {exc} — file NON scritto!")
 else:
     print(f"  ✅ games.js scritto con successo ({len(existing_games)} giochi)")
+
+# FASE 9 — Discovery classici (mensile, 1° del mese)
+today = datetime.datetime.now()
+if today.day == 1:
+    print("\n📜 FASE 9 — Discovery classici mensile...")
+    try:
+        result = subprocess.run(
+            [sys.executable, "scripts/discover_classics.py"],
+            capture_output=True, text=True, timeout=300
+        )
+        if result.stdout:
+            print(result.stdout.strip())
+        if result.returncode != 0 and result.stderr:
+            print(f"  ⚠️ Discovery classici stderr: {result.stderr[:200]}")
+    except Exception as e:
+        print(f"  ⚠️ Discovery classici fallito: {e}")
 
 # Statistiche finali
 trending_count = sum(1 for g in existing_games if g.get("trending"))

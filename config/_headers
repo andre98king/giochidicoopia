@@ -1,3 +1,11 @@
+# ══════════════════════════════════════════════════════════════════════════════
+# NOTA: Questo file è in formato Netlify _headers.
+# GitHub Pages NON lo processa: è mantenuto solo come documentazione.
+# Le cache rules vere sono gestite da Cloudflare (dashboard + API).
+# I security headers (X-Frame-Options, Permissions-Policy, etc.) sono
+# già impostati da GitHub Pages con buoni default.
+# ══════════════════════════════════════════════════════════════════════════════
+
 /*
   X-Frame-Options: SAMEORIGIN
   X-Content-Type-Options: nosniff
