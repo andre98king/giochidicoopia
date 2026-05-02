@@ -10,8 +10,7 @@ Sei nella cartella degli script Python della pipeline dati di coophubs.net.
 
 - Gli script usano **bare imports** (`import catalog_data`, `from quality_gate import ...`).
   Non spostare mai file in sottocartelle — romperebbe tutti gli import.
-- `assets/games.js` (~94K token) è il database principale. Non passarlo intero ad Aider.
-  Usa `catalog_data.py` per leggerlo/scriverlo programmaticamente.
+- `assets/games.js` (~94K token) è il database principale. Usa `catalog_data.py` per leggerlo/scriverlo programmaticamente.
 - Ogni modifica alla pipeline va testata con:
   ```bash
   python3 scripts/validate_catalog.py

@@ -1,6 +1,6 @@
 # Co-op Games Hub — Istruzioni per AI
 
-Questo file è letto automaticamente da Claude Code e da Aider.
+Questo file è letto automaticamente da Claude Code.
 Contiene vincoli architetturali, convenzioni SEO e regole di sicurezza. **L'AI DEVE rispettarli tassativamente.**
 
 ---
@@ -108,9 +108,8 @@ Contiene vincoli architetturali, convenzioni SEO e regole di sicurezza. **L'AI D
 ## 🤖 Collaborazione AI & Tooling
 
 <details>
-<summary>Setup Aider, Ollama e Plugin</summary>
+<summary>Setup AI e Plugin</summary>
 
-- **Aider + Ollama**: `qwen2.5-coder:14b` (default). File `games.js` (~94K token) è **troppo grande** per Aider → non passarlo intero.
 - **GSD / Ralph / BMAD**: Plugin installati. Vedi `.planning/PLUGIN_GUIDE.md` e `scripts/ralph/`
 - **Log sessioni**: Aggiornare SEMPRE `.claude/AI_COLLABORATION.md` dopo modifiche non banali.
 </details>

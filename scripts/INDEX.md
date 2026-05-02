@@ -148,16 +148,6 @@ python3 scripts/build_static_pages.py && python3 scripts/build_hub_pages.py
 
 ---
 
-## Livello 10 — Classificatori AI/ML (sperimentale)
-
-| Script | Ruolo | Stato |
-|--------|-------|-------|
-| `coop_classifier.py` | Classifica co-op via keyword matching | Funzionante |
-| `coop_classifier_v2.py` | Versione migliorata con scoring | Funzionante |
-
-> Config modello Ollama: `Modelfile.coop-classifier` nella root del progetto.
-
----
 
 ## File non-Python in scripts/
 

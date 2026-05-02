@@ -598,4 +598,4 @@ python3 -m http.server 8000
 
 *Document generated: 2026-04-30*
 *Project: CoopHubs (coophubs.net)*
-*Maintainer: Andrea + AI assistants (Claude, Aider)*
+*Maintainer: Andrea + AI assistants (Claude)*
