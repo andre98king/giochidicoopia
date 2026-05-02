@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-01T08:31:00.589422Z",
+  "generatedAt": "2026-05-02T08:03:00.014786Z",
   "games": [
     {
       "id": 1,
@@ -32891,6 +32891,452 @@
         "ccu": 119,
         "trending": false,
         "rating": 80,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 681,
+      "title": "Sledding Game",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 20,
+      "crossplay": false,
+      "players": "1-20",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3438850/header.jpg?t=1777583473",
+      "description": "A game about sledding and hanging out with friends :)",
+      "description_en": "A game about sledding and hanging out with friends :)",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3438850/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 97,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 759,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "sledding-game",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "A game about sledding and hanging out with friends :)",
+        "en": "A game about sledding and hanging out with friends :)"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-20",
+        "maxPlayers": 20
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3438850/",
+          "externalId": "3438850"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3438850"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 97,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 682,
+      "title": "Survivor Mercs",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2141520/4d46c27f100f564b31dfa91e5990d37fae4f6282/header_alt_assets_12.jpg?t=1777568229",
+      "description": "Purge the billionaires' robot army with your Merc squad! Fast-paced twin-stick action, frantic horde survival, tactical squad-building & tons of loot! Exploit game-breaking synergies to beat the M.E.G.A. Corp. bosses in ever-changing operations. Lock, load, and loot, Commander!",
+      "description_en": "Purge the billionaires' robot army with your Merc squad! Fast-paced twin-stick action, frantic horde survival, tactical squad-building & tons of loot! Exploit game-breaking synergies to beat the M.E.G.A. Corp. bosses in ever-changing operations. Lock, load, and loot, Commander!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2141520/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 1,
+      "trending": false,
+      "rating": 80,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 138,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "survivor-mercs",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Purge the billionaires&#x27; robot army with your Merc squad! Fast-paced twin-stick action, frantic horde survival, tactical squad-building &amp; tons of loot! Exploit game-breaking synergies to beat the M.E.G.A. Corp. bosses in ever-changing operations. Lock, load, and loot, Commander!",
+        "en": "Purge the billionaires&#x27; robot army with your Merc squad! Fast-paced twin-stick action, frantic horde survival, tactical squad-building &amp; tons of loot! Exploit game-breaking synergies to beat the M.E.G.A. Corp. bosses in ever-changing operations. Lock, load, and loot, Commander!"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2141520/",
+          "externalId": "2141520"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2141520"
+      },
+      "signals": {
+        "ccu": 1,
+        "trending": false,
+        "rating": 80,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 683,
+      "title": "Bus Bound",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2095420/9803e0013dffba0e3e2577691ec09196046bce99/header.jpg?t=1777556824",
+      "description": "Step into the driver’s seat in Bus Bound, the latest title from the creators of Bus Simulator 21. Explore a vibrant city behind the wheel of officially licensed buses, and help transform it into a pedestrian-friendly paradise—one stop at a time.",
+      "description_en": "Step into the driver’s seat in Bus Bound, the latest title from the creators of Bus Simulator 21. Explore a vibrant city behind the wheel of officially licensed buses, and help transform it into a pedestrian-friendly paradise—one stop at a time.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2095420/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 75,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 267,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "bus-bound",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Step into the driver’s seat in Bus Bound, the latest title from the creators of Bus Simulator 21. Explore a vibrant city behind the wheel of officially licensed buses, and help transform it into a pedestrian-friendly paradise—one stop at a time.",
+        "en": "Step into the driver’s seat in Bus Bound, the latest title from the creators of Bus Simulator 21. Explore a vibrant city behind the wheel of officially licensed buses, and help transform it into a pedestrian-friendly paradise—one stop at a time."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2095420/",
+          "externalId": "2095420"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2095420"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 75,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 684,
+      "title": "Twin Shot Deluxe",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local",
+        "sofa"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3618520/76abad1e724295636007243f6b3775d32dcac7b4/header.jpg?t=1777537916",
+      "description": "The Angel Cats are back! Twin Shot Deluxe is a platform arcade shooter where players defend their homeland using bow and arrows. Take aim at 200+ brand new levels set across four worlds. Play solo or with a friends in local co-op (1-4 players) or competitively to see who will be crowned champion.",
+      "description_en": "The Angel Cats are back! Twin Shot Deluxe is a platform arcade shooter where players defend their homeland using bow and arrows. Take aim at 200+ brand new levels set across four worlds. Play solo or with a friends in local co-op (1-4 players) or competitively to see who will be crowned champion.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3618520/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 96,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 577,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "twin-shot-deluxe",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "The Angel Cats are back! Twin Shot Deluxe is a platform arcade shooter where players defend their homeland using bow and arrows. Take aim at 200+ brand new levels set across four worlds. Play solo or with a friends in local co-op (1-4 players) or competitively to see who will be crowned champion.",
+        "en": "The Angel Cats are back! Twin Shot Deluxe is a platform arcade shooter where players defend their homeland using bow and arrows. Take aim at 200+ brand new levels set across four worlds. Play solo or with a friends in local co-op (1-4 players) or competitively to see who will be crowned champion."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": false,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3618520/",
+          "externalId": "3618520"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3618520"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 96,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 685,
+      "title": "Blood Reaver",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2906070/e749bfd797725a48818f6b73e27f3a751ec238d7/header.jpg?t=1777603508",
+      "description": "A Dark-fantasy, Round-based FPS. Become the Blood Reaver in solo or 4-player co-op. Harness forbidden magic and weaponry to shoot, blast and slice your way through endless hordes of demons. Upgrade your arsenal and survive long enough to discover the ancient secrets of the gods of hell.",
+      "description_en": "A Dark-fantasy, Round-based FPS. Become the Blood Reaver in solo or 4-player co-op. Harness forbidden magic and weaponry to shoot, blast and slice your way through endless hordes of demons. Upgrade your arsenal and survive long enough to discover the ancient secrets of the gods of hell.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2906070/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 89,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 102,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "blood-reaver",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "A Dark-fantasy, Round-based FPS. Become the Blood Reaver in solo or 4-player co-op. Harness forbidden magic and weaponry to shoot, blast and slice your way through endless hordes of demons. Upgrade your arsenal and survive long enough to discover the ancient secrets of the gods of hell.",
+        "en": "A Dark-fantasy, Round-based FPS. Become the Blood Reaver in solo or 4-player co-op. Harness forbidden magic and weaponry to shoot, blast and slice your way through endless hordes of demons. Upgrade your arsenal and survive long enough to discover the ancient secrets of the gods of hell."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2906070/",
+          "externalId": "2906070"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2906070"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 89,
         "igdb": false,
         "gog": false,
         "rawg": false
