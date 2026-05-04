@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-03T08:18:50.797102Z",
+  "generatedAt": "2026-05-04T08:48:23.552230Z",
   "games": [
     {
       "id": 1,
@@ -32981,95 +32981,6 @@
         "ccu": 1,
         "trending": false,
         "rating": 80,
-        "igdb": false,
-        "gog": false,
-        "rawg": false
-      },
-      "editorial": {
-        "played": false,
-        "personalNote": ""
-      },
-      "sourceMeta": {
-        "ingestSource": "games.js",
-        "schemaVersion": 1
-      }
-    },
-    {
-      "id": 686,
-      "title": "Gamble With Your Friends",
-      "categories": [
-        "action"
-      ],
-      "genres": [],
-      "coopMode": [
-        "online"
-      ],
-      "maxPlayers": 4,
-      "crossplay": false,
-      "players": "2-4",
-      "releaseYear": 2026,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/395e6d7972474333a698b26f8aa5597bf38109a1/header.jpg?t=1777658920",
-      "description": "An online 1-6 player co-op \"casino crawler\" where you and your friends share one bank account and one massive debt. Gamble, buy sketchy items, make terrible decisions, and climb an ominous casino tower to hit your loan shark’s daily quota in 5 minutes - or face the consequences.",
-      "description_en": "An online 1-6 player co-op \"casino crawler\" where you and your friends share one bank account and one massive debt. Gamble, buy sketchy items, make terrible decisions, and climb an ominous casino tower to hit your loan shark’s daily quota in 5 minutes - or face the consequences.",
-      "personalNote": "",
-      "played": false,
-      "steamUrl": "https://store.steampowered.com/app/3892270/",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 0,
-      "trending": false,
-      "rating": 90,
-      "igUrl": "",
-      "igDiscount": 0,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "",
-      "gsDiscount": 0,
-      "kgUrl": "",
-      "kgDiscount": 0,
-      "gmvUrl": "",
-      "gmvDiscount": 0,
-      "gmgUrl": "",
-      "gmgDiscount": 0,
-      "coopScore": null,
-      "totalReviews": 1057,
-      "mini_review_it": "",
-      "mini_review_en": "",
-      "slug": "gamble-with-your-friends",
-      "isFeaturedIndie": false,
-      "descriptions": {
-        "it": "An online 1-6 player co-op &quot;casino crawler&quot; where you and your friends share one bank account and one massive debt. Gamble, buy sketchy items, make terrible decisions, and climb an ominous casino tower to hit your loan shark’s daily quota in 5 minutes - or face the consequences.",
-        "en": "An online 1-6 player co-op &quot;casino crawler&quot; where you and your friends share one bank account and one massive debt. Gamble, buy sketchy items, make terrible decisions, and climb an ominous casino tower to hit your loan shark’s daily quota in 5 minutes - or face the consequences."
-      },
-      "taxonomy": {
-        "categories": [
-          "action"
-        ],
-        "genres": []
-      },
-      "capabilities": {
-        "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
-        "crossplay": false,
-        "playersLabel": "2-4",
-        "maxPlayers": 4
-      },
-      "storefronts": [
-        {
-          "store": "steam",
-          "url": "https://store.steampowered.com/app/3892270/",
-          "externalId": "3892270"
-        }
-      ],
-      "externalIds": {
-        "steamAppId": "3892270"
-      },
-      "signals": {
-        "ccu": 0,
-        "trending": false,
-        "rating": 90,
         "igdb": false,
         "gog": false,
         "rawg": false
