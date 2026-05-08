@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-07T08:52:45.308419Z",
+  "generatedAt": "2026-05-08T08:00:26.908573Z",
   "games": [
     {
       "id": 1,
@@ -32981,6 +32981,184 @@
         "ccu": 1,
         "trending": false,
         "rating": 80,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 688,
+      "title": "Farever",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3672400/ff981ed8998cc1ecbb10bd0badcf3a5e2b1c2193/header_alt_assets_1.jpg?t=1778079388",
+      "description": "Forge your legend in a forgotten realm! Farever is an online multiplayer action RPG set in a vast fantasy open world. Alone or with friends, embark on an epic journey together! Explore wild lands and dangerous dungeons, craft powerful gear, and carve your path through dynamic combat and platforming.",
+      "description_en": "Forge your legend in a forgotten realm! Farever is an online multiplayer action RPG set in a vast fantasy open world. Alone or with friends, embark on an epic journey together! Explore wild lands and dangerous dungeons, craft powerful gear, and carve your path through dynamic combat and platforming.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3672400/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 71,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 1381,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "farever",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Forge your legend in a forgotten realm! Farever is an online multiplayer action RPG set in a vast fantasy open world. Alone or with friends, embark on an epic journey together! Explore wild lands and dangerous dungeons, craft powerful gear, and carve your path through dynamic combat and platforming.",
+        "en": "Forge your legend in a forgotten realm! Farever is an online multiplayer action RPG set in a vast fantasy open world. Alone or with friends, embark on an epic journey together! Explore wild lands and dangerous dungeons, craft powerful gear, and carve your path through dynamic combat and platforming."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3672400/",
+          "externalId": "3672400"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3672400"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 71,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 689,
+      "title": "Outworld Station",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3242950/e5e55c6f4b10303151dc964950b78b9ea501e7ac/header_alt_assets_1.jpg?t=1777988959",
+      "description": "Take the helm as a new Station Commander and exploit an alien star system in this stunning space-station factory automation game. Amass resources and construct starships using increasingly advanced manufacturing and expand your station in a hostile universe.",
+      "description_en": "Take the helm as a new Station Commander and exploit an alien star system in this stunning space-station factory automation game. Amass resources and construct starships using increasingly advanced manufacturing and expand your station in a hostile universe.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3242950/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 68,
+      "trending": false,
+      "rating": 90,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 274,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "outworld-station",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Take the helm as a new Station Commander and exploit an alien star system in this stunning space-station factory automation game. Amass resources and construct starships using increasingly advanced manufacturing and expand your station in a hostile universe.",
+        "en": "Take the helm as a new Station Commander and exploit an alien star system in this stunning space-station factory automation game. Amass resources and construct starships using increasingly advanced manufacturing and expand your station in a hostile universe."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3242950/",
+          "externalId": "3242950"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3242950"
+      },
+      "signals": {
+        "ccu": 68,
+        "trending": false,
+        "rating": 90,
         "igdb": false,
         "gog": false,
         "rawg": false
