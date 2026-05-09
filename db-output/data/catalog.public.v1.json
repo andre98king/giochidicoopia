@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-08T08:00:26.908573Z",
+  "generatedAt": "2026-05-09T08:14:27.084679Z",
   "games": [
     {
       "id": 1,
@@ -32995,95 +32995,6 @@
       }
     },
     {
-      "id": 688,
-      "title": "Farever",
-      "categories": [
-        "action"
-      ],
-      "genres": [],
-      "coopMode": [
-        "online"
-      ],
-      "maxPlayers": 4,
-      "crossplay": false,
-      "players": "2-4",
-      "releaseYear": 2026,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3672400/ff981ed8998cc1ecbb10bd0badcf3a5e2b1c2193/header_alt_assets_1.jpg?t=1778079388",
-      "description": "Forge your legend in a forgotten realm! Farever is an online multiplayer action RPG set in a vast fantasy open world. Alone or with friends, embark on an epic journey together! Explore wild lands and dangerous dungeons, craft powerful gear, and carve your path through dynamic combat and platforming.",
-      "description_en": "Forge your legend in a forgotten realm! Farever is an online multiplayer action RPG set in a vast fantasy open world. Alone or with friends, embark on an epic journey together! Explore wild lands and dangerous dungeons, craft powerful gear, and carve your path through dynamic combat and platforming.",
-      "personalNote": "",
-      "played": false,
-      "steamUrl": "https://store.steampowered.com/app/3672400/",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 0,
-      "trending": false,
-      "rating": 71,
-      "igUrl": "",
-      "igDiscount": 0,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "",
-      "gsDiscount": 0,
-      "kgUrl": "",
-      "kgDiscount": 0,
-      "gmvUrl": "",
-      "gmvDiscount": 0,
-      "gmgUrl": "",
-      "gmgDiscount": 0,
-      "coopScore": null,
-      "totalReviews": 1381,
-      "mini_review_it": "",
-      "mini_review_en": "",
-      "slug": "farever",
-      "isFeaturedIndie": false,
-      "descriptions": {
-        "it": "Forge your legend in a forgotten realm! Farever is an online multiplayer action RPG set in a vast fantasy open world. Alone or with friends, embark on an epic journey together! Explore wild lands and dangerous dungeons, craft powerful gear, and carve your path through dynamic combat and platforming.",
-        "en": "Forge your legend in a forgotten realm! Farever is an online multiplayer action RPG set in a vast fantasy open world. Alone or with friends, embark on an epic journey together! Explore wild lands and dangerous dungeons, craft powerful gear, and carve your path through dynamic combat and platforming."
-      },
-      "taxonomy": {
-        "categories": [
-          "action"
-        ],
-        "genres": []
-      },
-      "capabilities": {
-        "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
-        "crossplay": false,
-        "playersLabel": "2-4",
-        "maxPlayers": 4
-      },
-      "storefronts": [
-        {
-          "store": "steam",
-          "url": "https://store.steampowered.com/app/3672400/",
-          "externalId": "3672400"
-        }
-      ],
-      "externalIds": {
-        "steamAppId": "3672400"
-      },
-      "signals": {
-        "ccu": 0,
-        "trending": false,
-        "rating": 71,
-        "igdb": false,
-        "gog": false,
-        "rawg": false
-      },
-      "editorial": {
-        "played": false,
-        "personalNote": ""
-      },
-      "sourceMeta": {
-        "ingestSource": "games.js",
-        "schemaVersion": 1
-      }
-    },
-    {
       "id": 689,
       "title": "Outworld Station",
       "categories": [
@@ -33159,6 +33070,95 @@
         "ccu": 68,
         "trending": false,
         "rating": 90,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 691,
+      "title": "Eden Crafters",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2570210/9887c3a4f9b82d9e32c14b07bfe122c63326b707/header.jpg?t=1778176464",
+      "description": "Eden Crafters is a solo or co-op open-world survival, crafting, and factory-building game where you transform a hostile planet into a habitable haven for humanity. Build, automate, and terraform. Control the climate, create a breathable atmosphere, and turn toxic lakes into water: shape a new world!",
+      "description_en": "Eden Crafters is a solo or co-op open-world survival, crafting, and factory-building game where you transform a hostile planet into a habitable haven for humanity. Build, automate, and terraform. Control the climate, create a breathable atmosphere, and turn toxic lakes into water: shape a new world!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2570210/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 125,
+      "trending": false,
+      "rating": 87,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 1417,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "eden-crafters",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Eden Crafters is a solo or co-op open-world survival, crafting, and factory-building game where you transform a hostile planet into a habitable haven for humanity. Build, automate, and terraform. Control the climate, create a breathable atmosphere, and turn toxic lakes into water: shape a new world!",
+        "en": "Eden Crafters is a solo or co-op open-world survival, crafting, and factory-building game where you transform a hostile planet into a habitable haven for humanity. Build, automate, and terraform. Control the climate, create a breathable atmosphere, and turn toxic lakes into water: shape a new world!"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2570210/",
+          "externalId": "2570210"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2570210"
+      },
+      "signals": {
+        "ccu": 125,
+        "trending": false,
+        "rating": 87,
         "igdb": false,
         "gog": false,
         "rawg": false
