@@ -8,6 +8,13 @@ const freeGames = [
     "freeUntil": "2026-05-12T17:00:00Z"
   },
   {
+    "title": "Just Move Fall Dungeon Endless Abyss",
+    "store": "steam",
+    "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3856040/778e45bf1e3b83f356b7d305f40dae3fecfa98a9/header.jpg?t=1778365883",
+    "storeUrl": "https://store.steampowered.com/app/3856040/",
+    "freeUntil": "2026-05-13T17:00:00Z"
+  },
+  {
     "title": "Arranger: A Role-Puzzling Adventure",
     "store": "epic",
     "imageUrl": "https://cdn1.epicgames.com/spt-assets/fee7dc25f12c4400a5182c864fd89c66/arranger-a-rolepuzzling-adventure-17mu3.jpg",
