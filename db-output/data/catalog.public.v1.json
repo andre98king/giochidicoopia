@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-11T10:00:01.613570Z",
+  "generatedAt": "2026-05-12T08:58:43.270458Z",
   "games": [
     {
       "id": 1,
@@ -33159,6 +33159,95 @@
         "ccu": 125,
         "trending": false,
         "rating": 87,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 695,
+      "title": "Outlive 25",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2948680/c1c17fd45930a88178cd3c689a552787d9804c42/header.jpg?t=1778013202",
+      "description": "Build your base, prepare your troops, and face your most epic battle yet in this old-school real-time strategy game. Choose between two factions, test your skills in three epic campaigns and engage in online battles with up to 16 players simultaneously.",
+      "description_en": "Build your base, prepare your troops, and face your most epic battle yet in this old-school real-time strategy game. Choose between two factions, test your skills in three epic campaigns and engage in online battles with up to 16 players simultaneously.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2948680/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 96,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 108,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "outlive-25",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Build your base, prepare your troops, and face your most epic battle yet in this old-school real-time strategy game. Choose between two factions, test your skills in three epic campaigns and engage in online battles with up to 16 players simultaneously.",
+        "en": "Build your base, prepare your troops, and face your most epic battle yet in this old-school real-time strategy game. Choose between two factions, test your skills in three epic campaigns and engage in online battles with up to 16 players simultaneously."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2948680/",
+          "externalId": "2948680"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2948680"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 96,
         "igdb": false,
         "gog": false,
         "rawg": false
