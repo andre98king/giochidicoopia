@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-12T08:58:43.270458Z",
+  "generatedAt": "2026-05-13T09:02:42.930302Z",
   "games": [
     {
       "id": 1,
@@ -33173,8 +33173,8 @@
       }
     },
     {
-      "id": 695,
-      "title": "Outlive 25",
+      "id": 696,
+      "title": "Outbound",
       "categories": [
         "action"
       ],
@@ -33186,17 +33186,17 @@
       "crossplay": false,
       "players": "2-4",
       "releaseYear": 2026,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2948680/c1c17fd45930a88178cd3c689a552787d9804c42/header.jpg?t=1778013202",
-      "description": "Build your base, prepare your troops, and face your most epic battle yet in this old-school real-time strategy game. Choose between two factions, test your skills in three epic campaigns and engage in online battles with up to 16 players simultaneously.",
-      "description_en": "Build your base, prepare your troops, and face your most epic battle yet in this old-school real-time strategy game. Choose between two factions, test your skills in three epic campaigns and engage in online battles with up to 16 players simultaneously.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2681030/header.jpg?t=1778519137",
+      "description": "Explore a colorful world and build your own cozy home on wheels. Craft workstations, and source energy from the sun, wind, or water. Upgrade and customize your vehicle, grow crops, and live sustainably off-grid with up to 4 players.",
+      "description_en": "Explore a colorful world and build your own cozy home on wheels. Craft workstations, and source energy from the sun, wind, or water. Upgrade and customize your vehicle, grow crops, and live sustainably off-grid with up to 4 players.",
       "personalNote": "",
       "played": false,
-      "steamUrl": "https://store.steampowered.com/app/2948680/",
+      "steamUrl": "https://store.steampowered.com/app/2681030/",
       "epicUrl": "",
       "itchUrl": "",
       "ccu": 0,
       "trending": false,
-      "rating": 96,
+      "rating": 70,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
@@ -33210,14 +33210,14 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 108,
+      "totalReviews": 487,
       "mini_review_it": "",
       "mini_review_en": "",
-      "slug": "outlive-25",
+      "slug": "outbound",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Build your base, prepare your troops, and face your most epic battle yet in this old-school real-time strategy game. Choose between two factions, test your skills in three epic campaigns and engage in online battles with up to 16 players simultaneously.",
-        "en": "Build your base, prepare your troops, and face your most epic battle yet in this old-school real-time strategy game. Choose between two factions, test your skills in three epic campaigns and engage in online battles with up to 16 players simultaneously."
+        "it": "Explore a colorful world and build your own cozy home on wheels. Craft workstations, and source energy from the sun, wind, or water. Upgrade and customize your vehicle, grow crops, and live sustainably off-grid with up to 4 players.",
+        "en": "Explore a colorful world and build your own cozy home on wheels. Craft workstations, and source energy from the sun, wind, or water. Upgrade and customize your vehicle, grow crops, and live sustainably off-grid with up to 4 players."
       },
       "taxonomy": {
         "categories": [
@@ -33237,17 +33237,17 @@
       "storefronts": [
         {
           "store": "steam",
-          "url": "https://store.steampowered.com/app/2948680/",
-          "externalId": "2948680"
+          "url": "https://store.steampowered.com/app/2681030/",
+          "externalId": "2681030"
         }
       ],
       "externalIds": {
-        "steamAppId": "2948680"
+        "steamAppId": "2681030"
       },
       "signals": {
         "ccu": 0,
         "trending": false,
-        "rating": 96,
+        "rating": 70,
         "igdb": false,
         "gog": false,
         "rawg": false
