@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-13T09:02:42.930302Z",
+  "generatedAt": "2026-05-14T08:55:21.028058Z",
   "games": [
     {
       "id": 1,
@@ -33173,8 +33173,8 @@
       }
     },
     {
-      "id": 696,
-      "title": "Outbound",
+      "id": 698,
+      "title": "Don't Panic! It is Just Turbulence",
       "categories": [
         "action"
       ],
@@ -33186,17 +33186,17 @@
       "crossplay": false,
       "players": "2-4",
       "releaseYear": 2026,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2681030/header.jpg?t=1778519137",
-      "description": "Explore a colorful world and build your own cozy home on wheels. Craft workstations, and source energy from the sun, wind, or water. Upgrade and customize your vehicle, grow crops, and live sustainably off-grid with up to 4 players.",
-      "description_en": "Explore a colorful world and build your own cozy home on wheels. Craft workstations, and source energy from the sun, wind, or water. Upgrade and customize your vehicle, grow crops, and live sustainably off-grid with up to 4 players.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4187140/c4a129e4e5c32ab8933eec6045b92d550754da40/header.jpg?t=1778568341",
+      "description": "A frantic co-op puzzle game where a Pilot and an Air Traffic Controller must communicate, decrypt, and improvise to save a failing aircraft. Talk fast, solve faster, and try not to crash.",
+      "description_en": "A frantic co-op puzzle game where a Pilot and an Air Traffic Controller must communicate, decrypt, and improvise to save a failing aircraft. Talk fast, solve faster, and try not to crash.",
       "personalNote": "",
       "played": false,
-      "steamUrl": "https://store.steampowered.com/app/2681030/",
+      "steamUrl": "https://store.steampowered.com/app/4187140/",
       "epicUrl": "",
       "itchUrl": "",
       "ccu": 0,
       "trending": false,
-      "rating": 70,
+      "rating": 71,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
@@ -33210,14 +33210,14 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 487,
+      "totalReviews": 132,
       "mini_review_it": "",
       "mini_review_en": "",
-      "slug": "outbound",
+      "slug": "dont-panic-it-is-just-turbulence",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Explore a colorful world and build your own cozy home on wheels. Craft workstations, and source energy from the sun, wind, or water. Upgrade and customize your vehicle, grow crops, and live sustainably off-grid with up to 4 players.",
-        "en": "Explore a colorful world and build your own cozy home on wheels. Craft workstations, and source energy from the sun, wind, or water. Upgrade and customize your vehicle, grow crops, and live sustainably off-grid with up to 4 players."
+        "it": "A frantic co-op puzzle game where a Pilot and an Air Traffic Controller must communicate, decrypt, and improvise to save a failing aircraft. Talk fast, solve faster, and try not to crash.",
+        "en": "A frantic co-op puzzle game where a Pilot and an Air Traffic Controller must communicate, decrypt, and improvise to save a failing aircraft. Talk fast, solve faster, and try not to crash."
       },
       "taxonomy": {
         "categories": [
@@ -33237,17 +33237,17 @@
       "storefronts": [
         {
           "store": "steam",
-          "url": "https://store.steampowered.com/app/2681030/",
-          "externalId": "2681030"
+          "url": "https://store.steampowered.com/app/4187140/",
+          "externalId": "4187140"
         }
       ],
       "externalIds": {
-        "steamAppId": "2681030"
+        "steamAppId": "4187140"
       },
       "signals": {
         "ccu": 0,
         "trending": false,
-        "rating": 70,
+        "rating": 71,
         "igdb": false,
         "gog": false,
         "rawg": false
