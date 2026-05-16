@@ -20,5 +20,12 @@ const freeGames = [
     "imageUrl": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/TheTelltaleBatmanShadowsEdition-2560x1440-1ababb36a948b5c732ab85a330787e85_2560x1440-8542c9faaf034219973add17b0749b9a",
     "storeUrl": "https://store.epicgames.com/en-US/p/the-telltale-batman",
     "freeUntil": "2026-05-21T15:00:00Z"
+  },
+  {
+    "title": "Dino running from a FURRY: GAMESFORFARM",
+    "store": "steam",
+    "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3343840/77c677158da20f9addb4fd615804cca7641cb6b6/header.jpg?t=1778921416",
+    "storeUrl": "https://store.steampowered.com/app/3343840/",
+    "freeUntil": "2026-05-30T17:00:00Z"
   }
 ];
