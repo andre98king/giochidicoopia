@@ -14415,7 +14415,7 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     coopScore: 2,
-    totalReviews: 18297,
+    totalReviews: 0,
     mini_review_it: "",
     mini_review_en: ""
   },

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-15T09:19:01+00:00",
+  "generatedAt": "2026-05-16T08:33:11+00:00",
   "featuredIndieId": null,
   "games": [
     {
@@ -14381,46 +14381,6 @@
       "gbDiscount": 0,
       "gsUrl": "https://www.jdoqocy.com/click-101708519-17244832?url=https%3A%2F%2Fgameseal.com%2Fro%2Fbokura-pc-steam-gift-global&cjsku=SW25896",
       "gsDiscount": 15,
-      "kgUrl": "",
-      "kgDiscount": 0,
-      "gmvUrl": "",
-      "gmvDiscount": 0,
-      "gmgUrl": "",
-      "gmgDiscount": 0,
-      "coopScore": 2
-    },
-    {
-      "id": 627,
-      "slug": "subnautica-2",
-      "title": "Subnautica 2",
-      "categories": [
-        "action"
-      ],
-      "genres": [],
-      "coopMode": [
-        "online"
-      ],
-      "maxPlayers": 4,
-      "crossplay": true,
-      "players": "1-4",
-      "releaseYear": 2025,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/header.jpg?t=1774322866",
-      "description": "Immergiti in una nuova avventura con Subnautica 2, un gioco di sopravvivenza open-water dai creatori della serie. Gioca da solo o con amici mentre esplori biomi affascinanti e scopri creature straordinarie. Costruisci veicoli, strumenti e basi per sopravvivere in questo misterioso mondo alieno.",
-      "description_en": "Immerse yourself in a new adventure with Subnautica 2, an open-water survival game from the creators of the Subnautica series. Play alone or with friends as you explore alluring biomes and discover fascinating creatures. Craft vehicles, tools, and bases to survive this mysterious alien world.",
-      "personalNote": "Added from Steam (app_id: 1962700) - needs review",
-      "played": false,
-      "steamUrl": "https://store.steampowered.com/app/1962700",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 0,
-      "trending": false,
-      "rating": 92,
-      "igUrl": "",
-      "igDiscount": 0,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "",
-      "gsDiscount": 0,
       "kgUrl": "",
       "kgDiscount": 0,
       "gmvUrl": "",
