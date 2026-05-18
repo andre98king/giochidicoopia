@@ -15966,7 +15966,7 @@ const games = [
     coopMode: ["online"],
     maxPlayers: 4,
     crossplay: false,
-    players: "2-4",
+    players: "1-4",
     releaseYear: 2026,
     image: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2570210/9887c3a4f9b82d9e32c14b07bfe122c63326b707/header.jpg?t=1778176464",
     description: "Eden Crafters is a solo or co-op open-world survival, crafting, and factory-building game where you transform a hostile planet into a habitable haven for humanity. Build, automate, and terraform. Control the climate, create a breathable atmosphere, and turn toxic lakes into water: shape a new world!",
