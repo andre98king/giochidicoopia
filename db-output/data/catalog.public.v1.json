@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-20T09:54:51.185225Z",
+  "generatedAt": "2026-05-21T10:03:10.208641Z",
   "games": [
     {
       "id": 1,
@@ -1355,13 +1355,11 @@
       ],
       "genres": [],
       "coopMode": [
-        "online",
-        "local",
-        "sofa"
+        "online"
       ],
-      "maxPlayers": 4,
+      "maxPlayers": 127,
       "crossplay": false,
-      "players": "1-4",
+      "players": "1-127",
       "releaseYear": 2017,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/346110/header.jpg",
       "description": "Sei naufragato nudo, affamato e congelato su un'isola misteriosa, dovrai cacciare, raccogliere, creare oggetti, coltivare e costruire ripari per sopravvivere. Usa abilità e ingegno per uccidere, addomesticare e cavalcare Dinosauri e creature primitive che vivono su ARK. Alleati con centinaia di giocatori oppure gioca l",
@@ -1407,12 +1405,12 @@
       },
       "capabilities": {
         "onlineCoop": true,
-        "localCoop": true,
-        "splitScreen": true,
-        "sharedScreen": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
         "crossplay": false,
-        "playersLabel": "1-4",
-        "maxPlayers": 4
+        "playersLabel": "1-127",
+        "maxPlayers": 127
       },
       "storefronts": [
         {
@@ -33159,184 +33157,6 @@
         "ccu": 125,
         "trending": false,
         "rating": 87,
-        "igdb": false,
-        "gog": false,
-        "rawg": false
-      },
-      "editorial": {
-        "played": false,
-        "personalNote": ""
-      },
-      "sourceMeta": {
-        "ingestSource": "games.js",
-        "schemaVersion": 1
-      }
-    },
-    {
-      "id": 699,
-      "title": "Forza Horizon 6",
-      "categories": [
-        "action"
-      ],
-      "genres": [],
-      "coopMode": [
-        "online"
-      ],
-      "maxPlayers": 12,
-      "crossplay": false,
-      "players": "1-12",
-      "releaseYear": 2026,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/27abb1584a118d50d0e3950fd48d557c51981db7/header.jpg?t=1779166400",
-      "description": "Discover the breathtaking landscapes of Japan in over 550 real-world cars and become a racing Legend in Forza Horizon's biggest open world driving adventure yet.",
-      "description_en": "Discover the breathtaking landscapes of Japan in over 550 real-world cars and become a racing Legend in Forza Horizon's biggest open world driving adventure yet.",
-      "personalNote": "",
-      "played": false,
-      "steamUrl": "https://store.steampowered.com/app/2483190/",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 0,
-      "trending": false,
-      "rating": 82,
-      "igUrl": "",
-      "igDiscount": 0,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "",
-      "gsDiscount": 0,
-      "kgUrl": "",
-      "kgDiscount": 0,
-      "gmvUrl": "",
-      "gmvDiscount": 0,
-      "gmgUrl": "",
-      "gmgDiscount": 0,
-      "coopScore": null,
-      "totalReviews": 28990,
-      "mini_review_it": "",
-      "mini_review_en": "",
-      "slug": "forza-horizon-6",
-      "isFeaturedIndie": false,
-      "descriptions": {
-        "it": "Discover the breathtaking landscapes of Japan in over 550 real-world cars and become a racing Legend in Forza Horizon&#x27;s biggest open world driving adventure yet.",
-        "en": "Discover the breathtaking landscapes of Japan in over 550 real-world cars and become a racing Legend in Forza Horizon&#x27;s biggest open world driving adventure yet."
-      },
-      "taxonomy": {
-        "categories": [
-          "action"
-        ],
-        "genres": []
-      },
-      "capabilities": {
-        "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
-        "crossplay": false,
-        "playersLabel": "1-12",
-        "maxPlayers": 12
-      },
-      "storefronts": [
-        {
-          "store": "steam",
-          "url": "https://store.steampowered.com/app/2483190/",
-          "externalId": "2483190"
-        }
-      ],
-      "externalIds": {
-        "steamAppId": "2483190"
-      },
-      "signals": {
-        "ccu": 0,
-        "trending": false,
-        "rating": 82,
-        "igdb": false,
-        "gog": false,
-        "rawg": false
-      },
-      "editorial": {
-        "played": false,
-        "personalNote": ""
-      },
-      "sourceMeta": {
-        "ingestSource": "games.js",
-        "schemaVersion": 1
-      }
-    },
-    {
-      "id": 700,
-      "title": "NAMAKORIUM (ナマコリウム)",
-      "categories": [
-        "action"
-      ],
-      "genres": [],
-      "coopMode": [
-        "online"
-      ],
-      "maxPlayers": 4,
-      "crossplay": false,
-      "players": "2-4",
-      "releaseYear": 2026,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3866920/21ea604d38cb9d0577399f21637f6be1b653212d/header.jpg?t=1779116430",
-      "description": "Namako (Sea cucumbers) will save the Earth—NAMAKORIUM is a chaotic, cooperative multiplayer RTS game for up to four players. Command the “cleaners of the sea” —Namako left behind by humanity and work together to clean up the polluted oceans!",
-      "description_en": "Namako (Sea cucumbers) will save the Earth—NAMAKORIUM is a chaotic, cooperative multiplayer RTS game for up to four players. Command the “cleaners of the sea” —Namako left behind by humanity and work together to clean up the polluted oceans!",
-      "personalNote": "",
-      "played": false,
-      "steamUrl": "https://store.steampowered.com/app/3866920/",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 0,
-      "trending": false,
-      "rating": 95,
-      "igUrl": "",
-      "igDiscount": 0,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "",
-      "gsDiscount": 0,
-      "kgUrl": "",
-      "kgDiscount": 0,
-      "gmvUrl": "",
-      "gmvDiscount": 0,
-      "gmgUrl": "",
-      "gmgDiscount": 0,
-      "coopScore": null,
-      "totalReviews": 115,
-      "mini_review_it": "",
-      "mini_review_en": "",
-      "slug": "namakorium",
-      "isFeaturedIndie": false,
-      "descriptions": {
-        "it": "Namako (Sea cucumbers) will save the Earth—NAMAKORIUM is a chaotic, cooperative multiplayer RTS game for up to four players. Command the “cleaners of the sea” —Namako left behind by humanity and work together to clean up the polluted oceans!",
-        "en": "Namako (Sea cucumbers) will save the Earth—NAMAKORIUM is a chaotic, cooperative multiplayer RTS game for up to four players. Command the “cleaners of the sea” —Namako left behind by humanity and work together to clean up the polluted oceans!"
-      },
-      "taxonomy": {
-        "categories": [
-          "action"
-        ],
-        "genres": []
-      },
-      "capabilities": {
-        "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
-        "crossplay": false,
-        "playersLabel": "2-4",
-        "maxPlayers": 4
-      },
-      "storefronts": [
-        {
-          "store": "steam",
-          "url": "https://store.steampowered.com/app/3866920/",
-          "externalId": "3866920"
-        }
-      ],
-      "externalIds": {
-        "steamAppId": "3866920"
-      },
-      "signals": {
-        "ccu": 0,
-        "trending": false,
-        "rating": 95,
         "igdb": false,
         "gog": false,
         "rawg": false
