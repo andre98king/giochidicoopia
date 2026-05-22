@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-21T10:03:10.208641Z",
+  "generatedAt": "2026-05-22T09:47:51.013650Z",
   "games": [
     {
       "id": 1,
@@ -33157,6 +33157,95 @@
         "ccu": 125,
         "trending": false,
         "rating": 87,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 702,
+      "title": "Thick As Thieves",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3341000/b1511ac1c69a569769e5cbcec44d0c9c9d165d8b/header.jpg?t=1779288710",
+      "description": "Thick as Thieves is a stealth-action heist game, playable solo or with a partner in crime in co-op multiplayer. Master the art of thievery through cunning gameplay across a 4-hour campaign in this dynamic new take on stealth.",
+      "description_en": "Thick as Thieves is a stealth-action heist game, playable solo or with a partner in crime in co-op multiplayer. Master the art of thievery through cunning gameplay across a 4-hour campaign in this dynamic new take on stealth.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3341000/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 71,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 395,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "thick-as-thieves",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Thick as Thieves is a stealth-action heist game, playable solo or with a partner in crime in co-op multiplayer. Master the art of thievery through cunning gameplay across a 4-hour campaign in this dynamic new take on stealth.",
+        "en": "Thick as Thieves is a stealth-action heist game, playable solo or with a partner in crime in co-op multiplayer. Master the art of thievery through cunning gameplay across a 4-hour campaign in this dynamic new take on stealth."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3341000/",
+          "externalId": "3341000"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3341000"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 71,
         "igdb": false,
         "gog": false,
         "rawg": false
