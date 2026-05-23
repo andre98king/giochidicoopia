@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-22T09:58:50+00:00",
+  "generatedAt": "2026-05-23T08:51:22+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
@@ -33200,8 +33200,8 @@
       }
     },
     {
-      "id": 702,
-      "title": "Thick As Thieves",
+      "id": 703,
+      "title": "Tropical Resort Simulator (Paradise Beach Simulator)",
       "categories": [
         "action"
       ],
@@ -33213,17 +33213,17 @@
       "crossplay": false,
       "players": "2-4",
       "releaseYear": 2026,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3341000/b1511ac1c69a569769e5cbcec44d0c9c9d165d8b/header.jpg?t=1779288710",
-      "description": "Thick as Thieves is a stealth-action heist game, playable solo or with a partner in crime in co-op multiplayer. Master the art of thievery through cunning gameplay across a 4-hour campaign in this dynamic new take on stealth.",
-      "description_en": "Thick as Thieves is a stealth-action heist game, playable solo or with a partner in crime in co-op multiplayer. Master the art of thievery through cunning gameplay across a 4-hour campaign in this dynamic new take on stealth.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2936190/7933f92287e264c84ceee21cb0a3725e19c1a2b8/header.jpg?t=1779373439",
+      "description": "Transform an abandoned island into a thriving business. Install fun activities, open your restaurant, maintain your equipment, manage your staff. It's time to open the beach, you're ready to welcome your first customers!",
+      "description_en": "Transform an abandoned island into a thriving business. Install fun activities, open your restaurant, maintain your equipment, manage your staff. It's time to open the beach, you're ready to welcome your first customers!",
       "personalNote": "",
       "played": false,
-      "steamUrl": "https://store.steampowered.com/app/3341000/",
+      "steamUrl": "https://store.steampowered.com/app/2936190/",
       "epicUrl": "",
       "itchUrl": "",
       "ccu": 0,
       "trending": false,
-      "rating": 71,
+      "rating": 81,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
@@ -33237,14 +33237,14 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 395,
+      "totalReviews": 111,
       "mini_review_it": "",
       "mini_review_en": "",
-      "slug": "thick-as-thieves",
+      "slug": "tropical-resort-simulator-paradise-beach-simulator",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Thick as Thieves is a stealth-action heist game, playable solo or with a partner in crime in co-op multiplayer. Master the art of thievery through cunning gameplay across a 4-hour campaign in this dynamic new take on stealth.",
-        "en": "Thick as Thieves is a stealth-action heist game, playable solo or with a partner in crime in co-op multiplayer. Master the art of thievery through cunning gameplay across a 4-hour campaign in this dynamic new take on stealth."
+        "it": "Transform an abandoned island into a thriving business. Install fun activities, open your restaurant, maintain your equipment, manage your staff. It&#x27;s time to open the beach, you&#x27;re ready to welcome your first customers!",
+        "en": "Transform an abandoned island into a thriving business. Install fun activities, open your restaurant, maintain your equipment, manage your staff. It&#x27;s time to open the beach, you&#x27;re ready to welcome your first customers!"
       },
       "taxonomy": {
         "categories": [
@@ -33264,17 +33264,17 @@
       "storefronts": [
         {
           "store": "steam",
-          "url": "https://store.steampowered.com/app/3341000/",
-          "externalId": "3341000"
+          "url": "https://store.steampowered.com/app/2936190/",
+          "externalId": "2936190"
         }
       ],
       "externalIds": {
-        "steamAppId": "3341000"
+        "steamAppId": "2936190"
       },
       "signals": {
         "ccu": 0,
         "trending": false,
-        "rating": 71,
+        "rating": 81,
         "igdb": false,
         "gog": false,
         "rawg": false
