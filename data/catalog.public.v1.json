@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-23T08:51:22+00:00",
+  "generatedAt": "2026-05-24T08:59:03+00:00",
   "featuredIndieId": null,
   "games": [
     {
@@ -14925,9 +14925,9 @@
       "coopScore": null
     },
     {
-      "id": 703,
-      "slug": "tropical-resort-simulator-paradise-beach-simulator",
-      "title": "Tropical Resort Simulator (Paradise Beach Simulator)",
+      "id": 704,
+      "slug": "lego-batmantm-legacy-of-the-dark-knight",
+      "title": "LEGO® Batman™: Legacy of the Dark Knight",
       "categories": [
         "action"
       ],
@@ -14939,17 +14939,57 @@
       "crossplay": false,
       "players": "2-4",
       "releaseYear": 2026,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2936190/7933f92287e264c84ceee21cb0a3725e19c1a2b8/header.jpg?t=1779373439",
-      "description": "Transform an abandoned island into a thriving business. Install fun activities, open your restaurant, maintain your equipment, manage your staff. It's time to open the beach, you're ready to welcome your first customers!",
-      "description_en": "Transform an abandoned island into a thriving business. Install fun activities, open your restaurant, maintain your equipment, manage your staff. It's time to open the beach, you're ready to welcome your first customers!",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/a07a9a6c0c9c1225f5b260b4f29fe40e6f099f6b/header.jpg?t=1779499107",
+      "description": "Rise as the Dark Knight and experience the essential Batman story in a bold, action-packed adventure with hard-hitting combat, an open-world Gotham City, and the signature LEGO charm that fans know and love.",
+      "description_en": "Rise as the Dark Knight and experience the essential Batman story in a bold, action-packed adventure with hard-hitting combat, an open-world Gotham City, and the signature LEGO charm that fans know and love.",
       "personalNote": "",
       "played": false,
-      "steamUrl": "https://store.steampowered.com/app/2936190/",
+      "steamUrl": "https://store.steampowered.com/app/2215200/",
       "epicUrl": "",
       "itchUrl": "",
       "ccu": 0,
       "trending": false,
-      "rating": 81,
+      "rating": 96,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 705,
+      "slug": "the-house-always-wins",
+      "title": "The House Always Wins",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3412160/36e5adc5ede43f36aaeb934b00eb3f6baf72b812/header.jpg?t=1779433559",
+      "description": "Build a top-tier business solo or in co-op (1–4 players). Start from scratch, keep the slot machines spinning and deal with chaotic events like vandals and alien invasions. Grow your fortune and show everyone why the house always wins.",
+      "description_en": "Build a top-tier business solo or in co-op (1–4 players). Start from scratch, keep the slot machines spinning and deal with chaotic events like vandals and alien invasions. Grow your fortune and show everyone why the house always wins.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3412160/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 82,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
