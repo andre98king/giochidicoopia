@@ -10,7 +10,7 @@ const freeGames = [
   {
     "title": "Car Mechanic Simulator 2018",
     "store": "steam",
-    "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/645630/header.jpg?t=1779524772",
+    "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/645630/header.jpg?t=1779535716",
     "storeUrl": "https://store.steampowered.com/app/645630/",
     "freeUntil": "2026-05-27T17:00:00Z"
   },
@@ -45,7 +45,7 @@ const freeGames = [
   {
     "title": "Dino running from a FURRY: GAMESFORFARM",
     "store": "steam",
-    "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3343840/77c677158da20f9addb4fd615804cca7641cb6b6/header.jpg?t=1778921416",
+    "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3343840/77c677158da20f9addb4fd615804cca7641cb6b6/header.jpg?t=1779533610",
     "storeUrl": "https://store.steampowered.com/app/3343840/",
     "freeUntil": "2026-05-30T17:00:00Z"
   }
