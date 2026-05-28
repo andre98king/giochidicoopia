@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-27T10:13:09.868714Z",
+  "generatedAt": "2026-05-28T10:23:19.415834Z",
   "games": [
     {
       "id": 1,
@@ -16412,8 +16412,7 @@
       ],
       "genres": [],
       "coopMode": [
-        "online",
-        "local"
+        "online"
       ],
       "maxPlayers": 2,
       "crossplay": false,
@@ -16461,7 +16460,7 @@
       },
       "capabilities": {
         "onlineCoop": true,
-        "localCoop": true,
+        "localCoop": false,
         "splitScreen": false,
         "sharedScreen": false,
         "crossplay": false,
@@ -33246,6 +33245,95 @@
         "ccu": 11,
         "trending": false,
         "rating": 84,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 711,
+      "title": "Romestead",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805320/7ba6783ca5acd8068abd3bd924801ce173fc39e8/header.jpg?t=1779796425",
+      "description": "Rome has fallen! Rebuild civilization in this action-adventure survival game for 1-8 players. Fight hordes of the walking dead, build settlements, restore the Roman gods... or kick back and farm with friends.",
+      "description_en": "Rome has fallen! Rebuild civilization in this action-adventure survival game for 1-8 players. Fight hordes of the walking dead, build settlements, restore the Roman gods... or kick back and farm with friends.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1805320/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 77,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 597,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "romestead",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Rome has fallen! Rebuild civilization in this action-adventure survival game for 1-8 players. Fight hordes of the walking dead, build settlements, restore the Roman gods... or kick back and farm with friends.",
+        "en": "Rome has fallen! Rebuild civilization in this action-adventure survival game for 1-8 players. Fight hordes of the walking dead, build settlements, restore the Roman gods... or kick back and farm with friends."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1805320/",
+          "externalId": "1805320"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "1805320"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 77,
         "igdb": false,
         "gog": false,
         "rawg": false

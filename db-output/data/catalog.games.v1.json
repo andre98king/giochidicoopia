@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-26T10:28:38+00:00",
+  "generatedAt": "2026-05-27T10:24:55+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": null,
   "stats": {
-    "games": 357,
+    "games": 356,
     "played": 12,
     "trending": 45,
-    "withEnglishDescription": 357,
+    "withEnglishDescription": 356,
     "categoryCounts": {
-      "action": 256,
+      "action": 255,
       "factory": 55,
       "free": 34,
       "horror": 44,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 357
+      "steam": 356
     }
   },
   "games": [
@@ -33200,8 +33200,8 @@
       }
     },
     {
-      "id": 707,
-      "title": "Schrodinger's Cat Burglar",
+      "id": 709,
+      "title": "JUMP KING QUEST",
       "categories": [
         "action"
       ],
@@ -33213,17 +33213,17 @@
       "crossplay": false,
       "players": "2-4",
       "releaseYear": 2026,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2111550/fce719144a3abd16ce110c0277af94e3e86d25a5/header.jpg?t=1779368037",
-      "description": "Portal with cats - Become entangled in a quantum puzzle adventure! Mittens gains the incredible power to be in two places at once. Explore twisted test chambers, make mischief and evade capture by a whisker! 🐈🐈‍⬛",
-      "description_en": "Portal with cats - Become entangled in a quantum puzzle adventure! Mittens gains the incredible power to be in two places at once. Explore twisted test chambers, make mischief and evade capture by a whisker! 🐈🐈‍⬛",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2317640/aed715dc2f7d1df4bc9493b14e294a3d46b9e6c1/header.jpg?t=1779729416",
+      "description": "Plunge into high-stakes punishment platforming in JUMP KING QUEST! Explore alone or fall together in dynamic online climbing action as you fight your way upwards on an unhinged quest to The Smoking Hot Babe at The Top. In this world, every ledge is a battlefield…",
+      "description_en": "Plunge into high-stakes punishment platforming in JUMP KING QUEST! Explore alone or fall together in dynamic online climbing action as you fight your way upwards on an unhinged quest to The Smoking Hot Babe at The Top. In this world, every ledge is a battlefield…",
       "personalNote": "",
       "played": false,
-      "steamUrl": "https://store.steampowered.com/app/2111550/",
+      "steamUrl": "https://store.steampowered.com/app/2317640/",
       "epicUrl": "",
       "itchUrl": "",
-      "ccu": 0,
+      "ccu": 11,
       "trending": false,
-      "rating": 98,
+      "rating": 84,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
@@ -33237,14 +33237,14 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 244,
+      "totalReviews": 490,
       "mini_review_it": "",
       "mini_review_en": "",
-      "slug": "schrodingers-cat-burglar",
+      "slug": "jump-king-quest",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Portal with cats - Become entangled in a quantum puzzle adventure! Mittens gains the incredible power to be in two places at once. Explore twisted test chambers, make mischief and evade capture by a whisker! 🐈🐈‍⬛",
-        "en": "Portal with cats - Become entangled in a quantum puzzle adventure! Mittens gains the incredible power to be in two places at once. Explore twisted test chambers, make mischief and evade capture by a whisker! 🐈🐈‍⬛"
+        "it": "Plunge into high-stakes punishment platforming in JUMP KING QUEST! Explore alone or fall together in dynamic online climbing action as you fight your way upwards on an unhinged quest to The Smoking Hot Babe at The Top. In this world, every ledge is a battlefield…",
+        "en": "Plunge into high-stakes punishment platforming in JUMP KING QUEST! Explore alone or fall together in dynamic online climbing action as you fight your way upwards on an unhinged quest to The Smoking Hot Babe at The Top. In this world, every ledge is a battlefield…"
       },
       "taxonomy": {
         "categories": [
@@ -33264,106 +33264,17 @@
       "storefronts": [
         {
           "store": "steam",
-          "url": "https://store.steampowered.com/app/2111550/",
-          "externalId": "2111550"
+          "url": "https://store.steampowered.com/app/2317640/",
+          "externalId": "2317640"
         }
       ],
       "externalIds": {
-        "steamAppId": "2111550"
+        "steamAppId": "2317640"
       },
       "signals": {
-        "ccu": 0,
+        "ccu": 11,
         "trending": false,
-        "rating": 98,
-        "igdb": false,
-        "gog": false,
-        "rawg": false
-      },
-      "editorial": {
-        "played": false,
-        "personalNote": ""
-      },
-      "sourceMeta": {
-        "ingestSource": "games.js",
-        "schemaVersion": 1
-      }
-    },
-    {
-      "id": 708,
-      "title": "MAZEBOUND: Hunt, Gather, Run!",
-      "categories": [
-        "action"
-      ],
-      "genres": [],
-      "coopMode": [
-        "online"
-      ],
-      "maxPlayers": 4,
-      "crossplay": false,
-      "players": "2-4",
-      "releaseYear": 2026,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3616260/e70ba4bd9949a9f3a666098e36f8e77319b3ad1d/header.jpg?t=1778871543",
-      "description": "In this survival horror, you're surrounded by sea and a towering gate ahead. Walk into the maze, hunt, gather, and run to survive, alone or with friends. Remember: You're not the only one starving...",
-      "description_en": "In this survival horror, you're surrounded by sea and a towering gate ahead. Walk into the maze, hunt, gather, and run to survive, alone or with friends. Remember: You're not the only one starving...",
-      "personalNote": "",
-      "played": false,
-      "steamUrl": "https://store.steampowered.com/app/3616260/",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 0,
-      "trending": false,
-      "rating": 82,
-      "igUrl": "",
-      "igDiscount": 0,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "",
-      "gsDiscount": 0,
-      "kgUrl": "",
-      "kgDiscount": 0,
-      "gmvUrl": "",
-      "gmvDiscount": 0,
-      "gmgUrl": "",
-      "gmgDiscount": 0,
-      "coopScore": null,
-      "totalReviews": 120,
-      "mini_review_it": "",
-      "mini_review_en": "",
-      "slug": "mazebound-hunt-gather-run",
-      "isFeaturedIndie": false,
-      "descriptions": {
-        "it": "In this survival horror, you&#x27;re surrounded by sea and a towering gate ahead. Walk into the maze, hunt, gather, and run to survive, alone or with friends. Remember: You&#x27;re not the only one starving...",
-        "en": "In this survival horror, you&#x27;re surrounded by sea and a towering gate ahead. Walk into the maze, hunt, gather, and run to survive, alone or with friends. Remember: You&#x27;re not the only one starving..."
-      },
-      "taxonomy": {
-        "categories": [
-          "action"
-        ],
-        "genres": []
-      },
-      "capabilities": {
-        "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
-        "crossplay": false,
-        "playersLabel": "2-4",
-        "maxPlayers": 4
-      },
-      "storefronts": [
-        {
-          "store": "steam",
-          "url": "https://store.steampowered.com/app/3616260/",
-          "externalId": "3616260"
-        }
-      ],
-      "externalIds": {
-        "steamAppId": "3616260"
-      },
-      "signals": {
-        "ccu": 0,
-        "trending": false,
-        "rating": 82,
+        "rating": 84,
         "igdb": false,
         "gog": false,
         "rawg": false
