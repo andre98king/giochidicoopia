@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-28T10:36:58+00:00",
+  "generatedAt": "2026-05-29T10:26:53+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
@@ -33288,8 +33288,8 @@
       }
     },
     {
-      "id": 711,
-      "title": "Romestead",
+      "id": 712,
+      "title": "Birdwatching Notebook",
       "categories": [
         "action"
       ],
@@ -33301,17 +33301,17 @@
       "crossplay": false,
       "players": "2-4",
       "releaseYear": 2026,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805320/7ba6783ca5acd8068abd3bd924801ce173fc39e8/header.jpg?t=1779796425",
-      "description": "Rome has fallen! Rebuild civilization in this action-adventure survival game for 1-8 players. Fight hordes of the walking dead, build settlements, restore the Roman gods... or kick back and farm with friends.",
-      "description_en": "Rome has fallen! Rebuild civilization in this action-adventure survival game for 1-8 players. Fight hordes of the walking dead, build settlements, restore the Roman gods... or kick back and farm with friends.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4111370/8d63617f6ba762697b5658a20453e5342cc58a03/header.jpg?t=1779839297",
+      "description": "Turn your balcony into your very own birdwatching spot, and await the arrival of new avian friends! Enjoy a cozy idle game — place a tiny postcard on the corner of your screen, keeping you company with pleasant scenes and visiting birds. Oh, and don't forget your camera!",
+      "description_en": "Turn your balcony into your very own birdwatching spot, and await the arrival of new avian friends! Enjoy a cozy idle game — place a tiny postcard on the corner of your screen, keeping you company with pleasant scenes and visiting birds. Oh, and don't forget your camera!",
       "personalNote": "",
       "played": false,
-      "steamUrl": "https://store.steampowered.com/app/1805320/",
+      "steamUrl": "https://store.steampowered.com/app/4111370/",
       "epicUrl": "",
       "itchUrl": "",
       "ccu": 0,
       "trending": false,
-      "rating": 77,
+      "rating": 96,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
@@ -33325,14 +33325,14 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 597,
+      "totalReviews": 377,
       "mini_review_it": "",
       "mini_review_en": "",
-      "slug": "romestead",
+      "slug": "birdwatching-notebook",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Rome has fallen! Rebuild civilization in this action-adventure survival game for 1-8 players. Fight hordes of the walking dead, build settlements, restore the Roman gods... or kick back and farm with friends.",
-        "en": "Rome has fallen! Rebuild civilization in this action-adventure survival game for 1-8 players. Fight hordes of the walking dead, build settlements, restore the Roman gods... or kick back and farm with friends."
+        "it": "Turn your balcony into your very own birdwatching spot, and await the arrival of new avian friends! Enjoy a cozy idle game — place a tiny postcard on the corner of your screen, keeping you company with pleasant scenes and visiting birds. Oh, and don&#x27;t forget your camera!",
+        "en": "Turn your balcony into your very own birdwatching spot, and await the arrival of new avian friends! Enjoy a cozy idle game — place a tiny postcard on the corner of your screen, keeping you company with pleasant scenes and visiting birds. Oh, and don&#x27;t forget your camera!"
       },
       "taxonomy": {
         "categories": [
@@ -33352,17 +33352,17 @@
       "storefronts": [
         {
           "store": "steam",
-          "url": "https://store.steampowered.com/app/1805320/",
-          "externalId": "1805320"
+          "url": "https://store.steampowered.com/app/4111370/",
+          "externalId": "4111370"
         }
       ],
       "externalIds": {
-        "steamAppId": "1805320"
+        "steamAppId": "4111370"
       },
       "signals": {
         "ccu": 0,
         "trending": false,
-        "rating": 77,
+        "rating": 96,
         "igdb": false,
         "gog": false,
         "rawg": false

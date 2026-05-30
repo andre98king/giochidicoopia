@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-29T10:14:06.440585Z",
+  "generatedAt": "2026-05-30T08:45:51.803221Z",
   "games": [
     {
       "id": 1,
@@ -33259,8 +33259,8 @@
       }
     },
     {
-      "id": 712,
-      "title": "Birdwatching Notebook",
+      "id": 713,
+      "title": "Crashout Crew",
       "categories": [
         "action"
       ],
@@ -33272,17 +33272,17 @@
       "crossplay": false,
       "players": "2-4",
       "releaseYear": 2026,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4111370/8d63617f6ba762697b5658a20453e5342cc58a03/header.jpg?t=1779839297",
-      "description": "Turn your balcony into your very own birdwatching spot, and await the arrival of new avian friends! Enjoy a cozy idle game — place a tiny postcard on the corner of your screen, keeping you company with pleasant scenes and visiting birds. Oh, and don't forget your camera!",
-      "description_en": "Turn your balcony into your very own birdwatching spot, and await the arrival of new avian friends! Enjoy a cozy idle game — place a tiny postcard on the corner of your screen, keeping you company with pleasant scenes and visiting birds. Oh, and don't forget your camera!",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3583210/9eb7862ff717a04dcc02123ce1e773a3e1c226af/header.jpg?t=1779978529",
+      "description": "Time to clock in at DE NILE SHIPPING, the world’s “most efficient” warehouse! Work together in online co-op with up to 4 players to fulfill orders of increasingly chaotic, physics-based boxes. Time is money, and safety is no concern… just try not to crash out!",
+      "description_en": "Time to clock in at DE NILE SHIPPING, the world’s “most efficient” warehouse! Work together in online co-op with up to 4 players to fulfill orders of increasingly chaotic, physics-based boxes. Time is money, and safety is no concern… just try not to crash out!",
       "personalNote": "",
       "played": false,
-      "steamUrl": "https://store.steampowered.com/app/4111370/",
+      "steamUrl": "https://store.steampowered.com/app/3583210/",
       "epicUrl": "",
       "itchUrl": "",
       "ccu": 0,
       "trending": false,
-      "rating": 96,
+      "rating": 92,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
@@ -33296,14 +33296,14 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 377,
+      "totalReviews": 220,
       "mini_review_it": "",
       "mini_review_en": "",
-      "slug": "birdwatching-notebook",
+      "slug": "crashout-crew",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Turn your balcony into your very own birdwatching spot, and await the arrival of new avian friends! Enjoy a cozy idle game — place a tiny postcard on the corner of your screen, keeping you company with pleasant scenes and visiting birds. Oh, and don&#x27;t forget your camera!",
-        "en": "Turn your balcony into your very own birdwatching spot, and await the arrival of new avian friends! Enjoy a cozy idle game — place a tiny postcard on the corner of your screen, keeping you company with pleasant scenes and visiting birds. Oh, and don&#x27;t forget your camera!"
+        "it": "Time to clock in at DE NILE SHIPPING, the world’s “most efficient” warehouse! Work together in online co-op with up to 4 players to fulfill orders of increasingly chaotic, physics-based boxes. Time is money, and safety is no concern… just try not to crash out!",
+        "en": "Time to clock in at DE NILE SHIPPING, the world’s “most efficient” warehouse! Work together in online co-op with up to 4 players to fulfill orders of increasingly chaotic, physics-based boxes. Time is money, and safety is no concern… just try not to crash out!"
       },
       "taxonomy": {
         "categories": [
@@ -33323,17 +33323,106 @@
       "storefronts": [
         {
           "store": "steam",
-          "url": "https://store.steampowered.com/app/4111370/",
-          "externalId": "4111370"
+          "url": "https://store.steampowered.com/app/3583210/",
+          "externalId": "3583210"
         }
       ],
       "externalIds": {
-        "steamAppId": "4111370"
+        "steamAppId": "3583210"
       },
       "signals": {
         "ccu": 0,
         "trending": false,
-        "rating": 96,
+        "rating": 92,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 714,
+      "title": "Wild Assault",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 40,
+      "crossplay": false,
+      "players": "1-40",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2827230/75ca31267e33fcb8f01fbbebc0ad03fbe41ff060/header.jpg?t=1779969881",
+      "description": "Wild Assault is an anthro-themed tactical shooter built with Unreal Engine 5, featuring large-scale battlefield gameplay centered around Valiant abilities. Work closely with your team, harness your instincts, and charge into battle to secure victory.",
+      "description_en": "Wild Assault is an anthro-themed tactical shooter built with Unreal Engine 5, featuring large-scale battlefield gameplay centered around Valiant abilities. Work closely with your team, harness your instincts, and charge into battle to secure victory.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2827230/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 167,
+      "trending": false,
+      "rating": 75,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 2340,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "wild-assault",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Wild Assault is an anthro-themed tactical shooter built with Unreal Engine 5, featuring large-scale battlefield gameplay centered around Valiant abilities. Work closely with your team, harness your instincts, and charge into battle to secure victory.",
+        "en": "Wild Assault is an anthro-themed tactical shooter built with Unreal Engine 5, featuring large-scale battlefield gameplay centered around Valiant abilities. Work closely with your team, harness your instincts, and charge into battle to secure victory."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-40",
+        "maxPlayers": 40
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2827230/",
+          "externalId": "2827230"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2827230"
+      },
+      "signals": {
+        "ccu": 167,
+        "trending": false,
+        "rating": 75,
         "igdb": false,
         "gog": false,
         "rawg": false
