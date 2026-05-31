@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-30T08:57:27+00:00",
+  "generatedAt": "2026-05-31T09:17:30+00:00",
   "featuredIndieId": null,
   "games": [
     {
@@ -14964,46 +14964,6 @@
       "coopScore": null
     },
     {
-      "id": 713,
-      "slug": "crashout-crew",
-      "title": "Crashout Crew",
-      "categories": [
-        "action"
-      ],
-      "genres": [],
-      "coopMode": [
-        "online"
-      ],
-      "maxPlayers": 4,
-      "crossplay": false,
-      "players": "2-4",
-      "releaseYear": 2026,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3583210/9eb7862ff717a04dcc02123ce1e773a3e1c226af/header.jpg?t=1779978529",
-      "description": "Time to clock in at DE NILE SHIPPING, the world’s “most efficient” warehouse! Work together in online co-op with up to 4 players to fulfill orders of increasingly chaotic, physics-based boxes. Time is money, and safety is no concern… just try not to crash out!",
-      "description_en": "Time to clock in at DE NILE SHIPPING, the world’s “most efficient” warehouse! Work together in online co-op with up to 4 players to fulfill orders of increasingly chaotic, physics-based boxes. Time is money, and safety is no concern… just try not to crash out!",
-      "personalNote": "",
-      "played": false,
-      "steamUrl": "https://store.steampowered.com/app/3583210/",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 0,
-      "trending": false,
-      "rating": 92,
-      "igUrl": "",
-      "igDiscount": 0,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "",
-      "gsDiscount": 0,
-      "kgUrl": "",
-      "kgDiscount": 0,
-      "gmvUrl": "",
-      "gmvDiscount": 0,
-      "gmgUrl": "",
-      "gmgDiscount": 0,
-      "coopScore": null
-    },
-    {
       "id": 714,
       "slug": "wild-assault",
       "title": "Wild Assault",
@@ -15027,6 +14987,46 @@
       "epicUrl": "",
       "itchUrl": "",
       "ccu": 167,
+      "trending": false,
+      "rating": 75,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 715,
+      "slug": "shamania",
+      "title": "Shamania",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868100/4d7ca9fe47b488329b8cc197db6ad3d546c8a1d5/header.jpg?t=1780056234",
+      "description": "Shamania is an open world survival game where you can CRAFT, FIGHT, and EXPLORE a vibrant sandbox world with friends in CO-OP. Expand your base as a hub for survival, gather resources, and master professions to unlock new tools and opportunities!",
+      "description_en": "Shamania is an open world survival game where you can CRAFT, FIGHT, and EXPLORE a vibrant sandbox world with friends in CO-OP. Expand your base as a hub for survival, gather resources, and master professions to unlock new tools and opportunities!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2868100/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
       "trending": false,
       "rating": 75,
       "igUrl": "",
