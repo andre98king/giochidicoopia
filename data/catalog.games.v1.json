@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-31T09:17:30+00:00",
+  "generatedAt": "2026-06-01T12:09:47+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
@@ -33377,8 +33377,8 @@
       }
     },
     {
-      "id": 715,
-      "title": "Shamania",
+      "id": 716,
+      "title": "Serpent's Gaze",
       "categories": [
         "action"
       ],
@@ -33388,19 +33388,19 @@
       ],
       "maxPlayers": 4,
       "crossplay": false,
-      "players": "2-4",
+      "players": "1-4",
       "releaseYear": 2026,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868100/4d7ca9fe47b488329b8cc197db6ad3d546c8a1d5/header.jpg?t=1780056234",
-      "description": "Shamania is an open world survival game where you can CRAFT, FIGHT, and EXPLORE a vibrant sandbox world with friends in CO-OP. Expand your base as a hub for survival, gather resources, and master professions to unlock new tools and opportunities!",
-      "description_en": "Shamania is an open world survival game where you can CRAFT, FIGHT, and EXPLORE a vibrant sandbox world with friends in CO-OP. Expand your base as a hub for survival, gather resources, and master professions to unlock new tools and opportunities!",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3069050/57fe4581ccce5233e2f8cef495bbf2d686287bc0/header.jpg?t=1779874538",
+      "description": "Serpent’s Gaze is a punishing 1-4 player co-op third-person action game where you fight tough enemies and relentless bosses, all while uncovering the secrets of an ancient desert.",
+      "description_en": "Serpent’s Gaze is a punishing 1-4 player co-op third-person action game where you fight tough enemies and relentless bosses, all while uncovering the secrets of an ancient desert.",
       "personalNote": "",
       "played": false,
-      "steamUrl": "https://store.steampowered.com/app/2868100/",
+      "steamUrl": "https://store.steampowered.com/app/3069050/",
       "epicUrl": "",
       "itchUrl": "",
       "ccu": 0,
       "trending": false,
-      "rating": 75,
+      "rating": 88,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
@@ -33414,14 +33414,14 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 137,
+      "totalReviews": 132,
       "mini_review_it": "",
       "mini_review_en": "",
-      "slug": "shamania",
+      "slug": "serpents-gaze",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Shamania is an open world survival game where you can CRAFT, FIGHT, and EXPLORE a vibrant sandbox world with friends in CO-OP. Expand your base as a hub for survival, gather resources, and master professions to unlock new tools and opportunities!",
-        "en": "Shamania is an open world survival game where you can CRAFT, FIGHT, and EXPLORE a vibrant sandbox world with friends in CO-OP. Expand your base as a hub for survival, gather resources, and master professions to unlock new tools and opportunities!"
+        "it": "Serpent’s Gaze is a punishing 1-4 player co-op third-person action game where you fight tough enemies and relentless bosses, all while uncovering the secrets of an ancient desert.",
+        "en": "Serpent’s Gaze is a punishing 1-4 player co-op third-person action game where you fight tough enemies and relentless bosses, all while uncovering the secrets of an ancient desert."
       },
       "taxonomy": {
         "categories": [
@@ -33435,23 +33435,23 @@
         "splitScreen": false,
         "sharedScreen": false,
         "crossplay": false,
-        "playersLabel": "2-4",
+        "playersLabel": "1-4",
         "maxPlayers": 4
       },
       "storefronts": [
         {
           "store": "steam",
-          "url": "https://store.steampowered.com/app/2868100/",
-          "externalId": "2868100"
+          "url": "https://store.steampowered.com/app/3069050/",
+          "externalId": "3069050"
         }
       ],
       "externalIds": {
-        "steamAppId": "2868100"
+        "steamAppId": "3069050"
       },
       "signals": {
         "ccu": 0,
         "trending": false,
-        "rating": 75,
+        "rating": 88,
         "igdb": false,
         "gog": false,
         "rawg": false
