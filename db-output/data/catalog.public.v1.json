@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-01T11:56:00.646389Z",
+  "generatedAt": "2026-06-02T10:56:54.742980Z",
   "games": [
     {
       "id": 1,
@@ -33334,95 +33334,6 @@
         "ccu": 167,
         "trending": false,
         "rating": 75,
-        "igdb": false,
-        "gog": false,
-        "rawg": false
-      },
-      "editorial": {
-        "played": false,
-        "personalNote": ""
-      },
-      "sourceMeta": {
-        "ingestSource": "games.js",
-        "schemaVersion": 1
-      }
-    },
-    {
-      "id": 716,
-      "title": "Serpent's Gaze",
-      "categories": [
-        "action"
-      ],
-      "genres": [],
-      "coopMode": [
-        "online"
-      ],
-      "maxPlayers": 4,
-      "crossplay": false,
-      "players": "1-4",
-      "releaseYear": 2026,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3069050/57fe4581ccce5233e2f8cef495bbf2d686287bc0/header.jpg?t=1779874538",
-      "description": "Serpent’s Gaze is a punishing 1-4 player co-op third-person action game where you fight tough enemies and relentless bosses, all while uncovering the secrets of an ancient desert.",
-      "description_en": "Serpent’s Gaze is a punishing 1-4 player co-op third-person action game where you fight tough enemies and relentless bosses, all while uncovering the secrets of an ancient desert.",
-      "personalNote": "",
-      "played": false,
-      "steamUrl": "https://store.steampowered.com/app/3069050/",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 0,
-      "trending": false,
-      "rating": 88,
-      "igUrl": "",
-      "igDiscount": 0,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "",
-      "gsDiscount": 0,
-      "kgUrl": "",
-      "kgDiscount": 0,
-      "gmvUrl": "",
-      "gmvDiscount": 0,
-      "gmgUrl": "",
-      "gmgDiscount": 0,
-      "coopScore": null,
-      "totalReviews": 132,
-      "mini_review_it": "",
-      "mini_review_en": "",
-      "slug": "serpents-gaze",
-      "isFeaturedIndie": false,
-      "descriptions": {
-        "it": "Serpent’s Gaze is a punishing 1-4 player co-op third-person action game where you fight tough enemies and relentless bosses, all while uncovering the secrets of an ancient desert.",
-        "en": "Serpent’s Gaze is a punishing 1-4 player co-op third-person action game where you fight tough enemies and relentless bosses, all while uncovering the secrets of an ancient desert."
-      },
-      "taxonomy": {
-        "categories": [
-          "action"
-        ],
-        "genres": []
-      },
-      "capabilities": {
-        "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
-        "crossplay": false,
-        "playersLabel": "1-4",
-        "maxPlayers": 4
-      },
-      "storefronts": [
-        {
-          "store": "steam",
-          "url": "https://store.steampowered.com/app/3069050/",
-          "externalId": "3069050"
-        }
-      ],
-      "externalIds": {
-        "steamAppId": "3069050"
-      },
-      "signals": {
-        "ccu": 0,
-        "trending": false,
-        "rating": 88,
         "igdb": false,
         "gog": false,
         "rawg": false
