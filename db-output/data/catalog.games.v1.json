@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-03T11:33:00+00:00",
+  "generatedAt": "2026-06-04T10:25:28+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": null,
   "stats": {
-    "games": 357,
+    "games": 358,
     "played": 12,
     "trending": 45,
-    "withEnglishDescription": 357,
+    "withEnglishDescription": 358,
     "categoryCounts": {
-      "action": 256,
+      "action": 257,
       "factory": 55,
       "free": 34,
       "horror": 44,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 357
+      "steam": 358
     }
   },
   "games": [
@@ -33363,6 +33363,95 @@
         "ccu": 167,
         "trending": false,
         "rating": 75,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 717,
+      "title": "Astro Colony",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1614550/2444c2c90769a6e052700c9cf7efbc3603276a7c/header.jpg?t=1780423298",
+      "description": "Explore endless Universe and create the most efficient constellation of colonies. Build conveyor systems to automate production. Take care of Astronauts and their needs! Establish new colonies as part of intergalactic simulation.",
+      "description_en": "Explore endless Universe and create the most efficient constellation of colonies. Build conveyor systems to automate production. Take care of Astronauts and their needs! Establish new colonies as part of intergalactic simulation.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1614550/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 88,
+      "trending": false,
+      "rating": 82,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 2256,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "astro-colony",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Explore endless Universe and create the most efficient constellation of colonies. Build conveyor systems to automate production. Take care of Astronauts and their needs! Establish new colonies as part of intergalactic simulation.",
+        "en": "Explore endless Universe and create the most efficient constellation of colonies. Build conveyor systems to automate production. Take care of Astronauts and their needs! Establish new colonies as part of intergalactic simulation."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1614550/",
+          "externalId": "1614550"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "1614550"
+      },
+      "signals": {
+        "ccu": 88,
+        "trending": false,
+        "rating": 82,
         "igdb": false,
         "gog": false,
         "rawg": false
