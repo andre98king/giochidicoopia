@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-06T08:51:45.069045Z",
+  "generatedAt": "2026-06-07T09:32:55.388351Z",
   "games": [
     {
       "id": 1,
@@ -33423,6 +33423,95 @@
         "ccu": 88,
         "trending": false,
         "rating": 82,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 719,
+      "title": "Witch's Apocalyptic Journey",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3709430/2f476401eae01a8b9b514dbef16d38c06d3dd1ea/header.jpg?t=1780650467",
+      "description": "Abyss decayed, witches awaken. As their guide, you will weave their destinies. Craft unique cards, schedule their days, shape endless possibilities through deckbuilding. Each choice will lead to different Ending...",
+      "description_en": "Abyss decayed, witches awaken. As their guide, you will weave their destinies. Craft unique cards, schedule their days, shape endless possibilities through deckbuilding. Each choice will lead to different Ending...",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3709430/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 80,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 386,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "witchs-apocalyptic-journey",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Abyss decayed, witches awaken. As their guide, you will weave their destinies. Craft unique cards, schedule their days, shape endless possibilities through deckbuilding. Each choice will lead to different Ending...",
+        "en": "Abyss decayed, witches awaken. As their guide, you will weave their destinies. Craft unique cards, schedule their days, shape endless possibilities through deckbuilding. Each choice will lead to different Ending..."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3709430/",
+          "externalId": "3709430"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3709430"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 80,
         "igdb": false,
         "gog": false,
         "rawg": false
