@@ -16970,7 +16970,7 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     coopScore: null,
-    totalReviews: 386,
+    totalReviews: 0,
     mini_review_it: "",
     mini_review_en: ""
   },
