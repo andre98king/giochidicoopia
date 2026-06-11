@@ -20,5 +20,12 @@ const freeGames = [
     "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/858710/68ea7cdbcc45c99f3a15b20680c81af6d608501d/header_alt_assets_0.jpg?t=1780932500",
     "storeUrl": "https://store.steampowered.com/app/858710/",
     "freeUntil": "2026-06-14T17:00:00Z"
+  },
+  {
+    "title": "Tell Me Why",
+    "store": "steam",
+    "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1180660/header.jpg?t=1780349055",
+    "storeUrl": "https://store.steampowered.com/app/1180660/",
+    "freeUntil": "2026-07-01T17:00:00Z"
   }
 ];
