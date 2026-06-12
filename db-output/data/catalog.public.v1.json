@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-11T10:56:24.625199Z",
+  "generatedAt": "2026-06-12T10:34:08.625451Z",
   "games": [
     {
       "id": 1,
@@ -33437,30 +33437,31 @@
       }
     },
     {
-      "id": 720,
-      "title": "Solarpunk™",
+      "id": 722,
+      "title": "D.O.T. Defence",
       "categories": [
         "action"
       ],
       "genres": [],
       "coopMode": [
-        "online"
+        "local",
+        "sofa"
       ],
       "maxPlayers": 4,
       "crossplay": false,
       "players": "2-4",
       "releaseYear": 2026,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805110/9512e707770080499c95c50976ff1b6f712a95ba/header.jpg?t=1780935129",
-      "description": "Solarpunk is a survival game in a technically advanced world of floating islands. Alone or together with your friends, you can construct buildings, grow food, craft gadgets and hop on your airship to explore distant islands in the sky.",
-      "description_en": "Solarpunk is a survival game in a technically advanced world of floating islands. Alone or together with your friends, you can construct buildings, grow food, craft gadgets and hop on your airship to explore distant islands in the sky.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124850/1db052b099ea341228310ccb73d104bc560e0805/header_alt_assets_0.jpg?t=1781169415",
+      "description": "Welcome to the frontlines! Build towers, muster armies, and conquer the map. Challenge yourself in the single-player campaign following the Chroma Wars, survive relentless waves in solo defense, or battle it out in local matches against friends and AI bots. Victory comes with the last HQ standing!",
+      "description_en": "Welcome to the frontlines! Build towers, muster armies, and conquer the map. Challenge yourself in the single-player campaign following the Chroma Wars, survive relentless waves in solo defense, or battle it out in local matches against friends and AI bots. Victory comes with the last HQ standing!",
       "personalNote": "",
       "played": false,
-      "steamUrl": "https://store.steampowered.com/app/1805110/",
+      "steamUrl": "https://store.steampowered.com/app/3124850/",
       "epicUrl": "",
       "itchUrl": "",
-      "ccu": 0,
+      "ccu": 8,
       "trending": false,
-      "rating": 73,
+      "rating": 82,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
@@ -33474,14 +33475,14 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 767,
+      "totalReviews": 91,
       "mini_review_it": "",
       "mini_review_en": "",
-      "slug": "solarpunktm",
+      "slug": "d-o-t-defence",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Solarpunk is a survival game in a technically advanced world of floating islands. Alone or together with your friends, you can construct buildings, grow food, craft gadgets and hop on your airship to explore distant islands in the sky.",
-        "en": "Solarpunk is a survival game in a technically advanced world of floating islands. Alone or together with your friends, you can construct buildings, grow food, craft gadgets and hop on your airship to explore distant islands in the sky."
+        "it": "Welcome to the frontlines! Build towers, muster armies, and conquer the map. Challenge yourself in the single-player campaign following the Chroma Wars, survive relentless waves in solo defense, or battle it out in local matches against friends and AI bots. Victory comes with the last HQ standing!",
+        "en": "Welcome to the frontlines! Build towers, muster armies, and conquer the map. Challenge yourself in the single-player campaign following the Chroma Wars, survive relentless waves in solo defense, or battle it out in local matches against friends and AI bots. Victory comes with the last HQ standing!"
       },
       "taxonomy": {
         "categories": [
@@ -33490,10 +33491,10 @@
         "genres": []
       },
       "capabilities": {
-        "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "onlineCoop": false,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "2-4",
         "maxPlayers": 4
@@ -33501,17 +33502,17 @@
       "storefronts": [
         {
           "store": "steam",
-          "url": "https://store.steampowered.com/app/1805110/",
-          "externalId": "1805110"
+          "url": "https://store.steampowered.com/app/3124850/",
+          "externalId": "3124850"
         }
       ],
       "externalIds": {
-        "steamAppId": "1805110"
+        "steamAppId": "3124850"
       },
       "signals": {
-        "ccu": 0,
+        "ccu": 8,
         "trending": false,
-        "rating": 73,
+        "rating": 82,
         "igdb": false,
         "gog": false,
         "rawg": false
@@ -33526,8 +33527,8 @@
       }
     },
     {
-      "id": 721,
-      "title": "Airport Security Sucks!",
+      "id": 723,
+      "title": "Apocalypse Express",
       "categories": [
         "action"
       ],
@@ -33539,12 +33540,12 @@
       "crossplay": false,
       "players": "2-4",
       "releaseYear": 2026,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4285690/83c3f74745f699f49074f3e37b3795ded1ecc841/header.jpg?t=1780708975",
-      "description": "Embody your inner power-tripping TSA agent and hunt down other players attempting to blend in and smuggle contraband past you. Control the crowd and your problematic K9 with authoritative voice commands, and use \"compliance devices\" to apprehend smugglers making mischief or hiding in plain sight.",
-      "description_en": "Embody your inner power-tripping TSA agent and hunt down other players attempting to blend in and smuggle contraband past you. Control the crowd and your problematic K9 with authoritative voice commands, and use \"compliance devices\" to apprehend smugglers making mischief or hiding in plain sight.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3223160/e33ac537b88624c3ac251fc06c04cdbcb746af65/header.jpg?t=1781110794",
+      "description": "Conduct, upgrade and repair your train through endless waves of enemies in a post-apocalyptic setting. In this action management roguelike, the player decides to embark on a journey through the wasteland looking to fulfill the dream of seeing the remains of the outside world.",
+      "description_en": "Conduct, upgrade and repair your train through endless waves of enemies in a post-apocalyptic setting. In this action management roguelike, the player decides to embark on a journey through the wasteland looking to fulfill the dream of seeing the remains of the outside world.",
       "personalNote": "",
       "played": false,
-      "steamUrl": "https://store.steampowered.com/app/4285690/",
+      "steamUrl": "https://store.steampowered.com/app/3223160/",
       "epicUrl": "",
       "itchUrl": "",
       "ccu": 0,
@@ -33563,14 +33564,14 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 166,
+      "totalReviews": 169,
       "mini_review_it": "",
       "mini_review_en": "",
-      "slug": "airport-security-sucks",
+      "slug": "apocalypse-express",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Embody your inner power-tripping TSA agent and hunt down other players attempting to blend in and smuggle contraband past you. Control the crowd and your problematic K9 with authoritative voice commands, and use &quot;compliance devices&quot; to apprehend smugglers making mischief or hiding in plain sight.",
-        "en": "Embody your inner power-tripping TSA agent and hunt down other players attempting to blend in and smuggle contraband past you. Control the crowd and your problematic K9 with authoritative voice commands, and use &quot;compliance devices&quot; to apprehend smugglers making mischief or hiding in plain sight."
+        "it": "Conduct, upgrade and repair your train through endless waves of enemies in a post-apocalyptic setting. In this action management roguelike, the player decides to embark on a journey through the wasteland looking to fulfill the dream of seeing the remains of the outside world.",
+        "en": "Conduct, upgrade and repair your train through endless waves of enemies in a post-apocalyptic setting. In this action management roguelike, the player decides to embark on a journey through the wasteland looking to fulfill the dream of seeing the remains of the outside world."
       },
       "taxonomy": {
         "categories": [
@@ -33590,17 +33591,462 @@
       "storefronts": [
         {
           "store": "steam",
-          "url": "https://store.steampowered.com/app/4285690/",
-          "externalId": "4285690"
+          "url": "https://store.steampowered.com/app/3223160/",
+          "externalId": "3223160"
         }
       ],
       "externalIds": {
-        "steamAppId": "4285690"
+        "steamAppId": "3223160"
       },
       "signals": {
         "ccu": 0,
         "trending": false,
         "rating": 84,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 724,
+      "title": "Fears to Fathom® - Scratch Creek",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4121170/803663dce78da494e9d061cf6652ade566b96331/header.jpg?t=1781141362",
+      "description": "After noticing bone-chilling similarities to an episode of Fears to Fathom, Tessa and Marcus decide to share their own experience. Scratch Creek is an exclusively online co-op experience.",
+      "description_en": "After noticing bone-chilling similarities to an episode of Fears to Fathom, Tessa and Marcus decide to share their own experience. Scratch Creek is an exclusively online co-op experience.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4121170/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 71,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 1212,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "fears-to-fathom-scratch-creek",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "After noticing bone-chilling similarities to an episode of Fears to Fathom, Tessa and Marcus decide to share their own experience. Scratch Creek is an exclusively online co-op experience.",
+        "en": "After noticing bone-chilling similarities to an episode of Fears to Fathom, Tessa and Marcus decide to share their own experience. Scratch Creek is an exclusively online co-op experience."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4121170/",
+          "externalId": "4121170"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4121170"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 71,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 725,
+      "title": "33 Immortals",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/958520/e39894b763c81766e78374545e78dcff03bcdd4e/header.jpg?t=1781105822",
+      "description": "33 Immortals is a co-op action-roguelike for 33 players. Jump straight into runs, solo or with friends. Battle hordes of monsters, defeat massive bosses, and grow stronger each run. Use in-game emotes to coordinate and combine powers with your fellow rebels, and face the Wrath of God, together.",
+      "description_en": "33 Immortals is a co-op action-roguelike for 33 players. Jump straight into runs, solo or with friends. Battle hordes of monsters, defeat massive bosses, and grow stronger each run. Use in-game emotes to coordinate and combine powers with your fellow rebels, and face the Wrath of God, together.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/958520/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 81,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 523,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "33-immortals",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "33 Immortals is a co-op action-roguelike for 33 players. Jump straight into runs, solo or with friends. Battle hordes of monsters, defeat massive bosses, and grow stronger each run. Use in-game emotes to coordinate and combine powers with your fellow rebels, and face the Wrath of God, together.",
+        "en": "33 Immortals is a co-op action-roguelike for 33 players. Jump straight into runs, solo or with friends. Battle hordes of monsters, defeat massive bosses, and grow stronger each run. Use in-game emotes to coordinate and combine powers with your fellow rebels, and face the Wrath of God, together."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/958520/",
+          "externalId": "958520"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "958520"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 81,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 726,
+      "title": "Witchspire",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2679100/2c7e6498da06cb35b986d345c066b53b88636837/header_alt_assets_1.jpg?t=1781118464",
+      "description": "Step into the ultimate open-world witch adventure. Befriend and battle creatures, and conjure up a sanctuary alongside other witches in co-op or single-player.",
+      "description_en": "Step into the ultimate open-world witch adventure. Befriend and battle creatures, and conjure up a sanctuary alongside other witches in co-op or single-player.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2679100/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 83,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 405,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "witchspire",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Step into the ultimate open-world witch adventure. Befriend and battle creatures, and conjure up a sanctuary alongside other witches in co-op or single-player.",
+        "en": "Step into the ultimate open-world witch adventure. Befriend and battle creatures, and conjure up a sanctuary alongside other witches in co-op or single-player."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2679100/",
+          "externalId": "2679100"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2679100"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 83,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 727,
+      "title": "Burglin' Gnomes",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3844970/d6127e4eabda23e1d1c727a1875e6b6cb0e634ae/header.jpg?t=1781100001",
+      "description": "An online Co-op game about breaking into houses and causing havoc as a tiny gnome. Avoid danger, repurpose stolen household items, and complete tasks to meet the High-Gnome’s demands. Craft equipment and upgrade your home to make your missions easier and more successful.",
+      "description_en": "An online Co-op game about breaking into houses and causing havoc as a tiny gnome. Avoid danger, repurpose stolen household items, and complete tasks to meet the High-Gnome’s demands. Craft equipment and upgrade your home to make your missions easier and more successful.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3844970/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 86,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 803,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "burglin-gnomes",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "An online Co-op game about breaking into houses and causing havoc as a tiny gnome. Avoid danger, repurpose stolen household items, and complete tasks to meet the High-Gnome’s demands. Craft equipment and upgrade your home to make your missions easier and more successful.",
+        "en": "An online Co-op game about breaking into houses and causing havoc as a tiny gnome. Avoid danger, repurpose stolen household items, and complete tasks to meet the High-Gnome’s demands. Craft equipment and upgrade your home to make your missions easier and more successful."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3844970/",
+          "externalId": "3844970"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3844970"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 86,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 728,
+      "title": "Bounty Brawl: Most Wanted",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3097510/4c22e20a83670bb154e00ab0594e707098d8d105/header.jpg?t=1780661372",
+      "description": "Welcome to Hunter Haven! Bounty Brawl is a fast-paced Action Roguelite for 1-4 players. Master your unique Lasso to zip through combat and hunt down criminals with friends. But remember: once the boss falls, the alliance ends. Who will claim the ultimate bounty?",
+      "description_en": "Welcome to Hunter Haven! Bounty Brawl is a fast-paced Action Roguelite for 1-4 players. Master your unique Lasso to zip through combat and hunt down criminals with friends. But remember: once the boss falls, the alliance ends. Who will claim the ultimate bounty?",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3097510/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 86,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 102,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "bounty-brawl-most-wanted",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Welcome to Hunter Haven! Bounty Brawl is a fast-paced Action Roguelite for 1-4 players. Master your unique Lasso to zip through combat and hunt down criminals with friends. But remember: once the boss falls, the alliance ends. Who will claim the ultimate bounty?",
+        "en": "Welcome to Hunter Haven! Bounty Brawl is a fast-paced Action Roguelite for 1-4 players. Master your unique Lasso to zip through combat and hunt down criminals with friends. But remember: once the boss falls, the alliance ends. Who will claim the ultimate bounty?"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3097510/",
+          "externalId": "3097510"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3097510"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 86,
         "igdb": false,
         "gog": false,
         "rawg": false
