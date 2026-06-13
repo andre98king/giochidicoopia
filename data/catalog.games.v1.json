@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-12T10:46:21+00:00",
+  "generatedAt": "2026-06-13T09:48:20+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": null,
   "stats": {
-    "games": 365,
+    "games": 362,
     "played": 12,
     "trending": 45,
-    "withEnglishDescription": 365,
+    "withEnglishDescription": 362,
     "categoryCounts": {
-      "action": 264,
+      "action": 261,
       "factory": 55,
       "free": 34,
       "horror": 44,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 365
+      "steam": 362
     }
   },
   "games": [
@@ -33556,275 +33556,8 @@
       }
     },
     {
-      "id": 723,
-      "title": "Apocalypse Express",
-      "categories": [
-        "action"
-      ],
-      "genres": [],
-      "coopMode": [
-        "online"
-      ],
-      "maxPlayers": 4,
-      "crossplay": false,
-      "players": "2-4",
-      "releaseYear": 2026,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3223160/e33ac537b88624c3ac251fc06c04cdbcb746af65/header.jpg?t=1781110794",
-      "description": "Conduct, upgrade and repair your train through endless waves of enemies in a post-apocalyptic setting. In this action management roguelike, the player decides to embark on a journey through the wasteland looking to fulfill the dream of seeing the remains of the outside world.",
-      "description_en": "Conduct, upgrade and repair your train through endless waves of enemies in a post-apocalyptic setting. In this action management roguelike, the player decides to embark on a journey through the wasteland looking to fulfill the dream of seeing the remains of the outside world.",
-      "personalNote": "",
-      "played": false,
-      "steamUrl": "https://store.steampowered.com/app/3223160/",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 0,
-      "trending": false,
-      "rating": 84,
-      "igUrl": "",
-      "igDiscount": 0,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "",
-      "gsDiscount": 0,
-      "kgUrl": "",
-      "kgDiscount": 0,
-      "gmvUrl": "",
-      "gmvDiscount": 0,
-      "gmgUrl": "",
-      "gmgDiscount": 0,
-      "coopScore": null,
-      "totalReviews": 169,
-      "mini_review_it": "",
-      "mini_review_en": "",
-      "slug": "apocalypse-express",
-      "isFeaturedIndie": false,
-      "descriptions": {
-        "it": "Conduct, upgrade and repair your train through endless waves of enemies in a post-apocalyptic setting. In this action management roguelike, the player decides to embark on a journey through the wasteland looking to fulfill the dream of seeing the remains of the outside world.",
-        "en": "Conduct, upgrade and repair your train through endless waves of enemies in a post-apocalyptic setting. In this action management roguelike, the player decides to embark on a journey through the wasteland looking to fulfill the dream of seeing the remains of the outside world."
-      },
-      "taxonomy": {
-        "categories": [
-          "action"
-        ],
-        "genres": []
-      },
-      "capabilities": {
-        "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
-        "crossplay": false,
-        "playersLabel": "2-4",
-        "maxPlayers": 4
-      },
-      "storefronts": [
-        {
-          "store": "steam",
-          "url": "https://store.steampowered.com/app/3223160/",
-          "externalId": "3223160"
-        }
-      ],
-      "externalIds": {
-        "steamAppId": "3223160"
-      },
-      "signals": {
-        "ccu": 0,
-        "trending": false,
-        "rating": 84,
-        "igdb": false,
-        "gog": false,
-        "rawg": false
-      },
-      "editorial": {
-        "played": false,
-        "personalNote": ""
-      },
-      "sourceMeta": {
-        "ingestSource": "games.js",
-        "schemaVersion": 1
-      }
-    },
-    {
-      "id": 724,
-      "title": "Fears to Fathom® - Scratch Creek",
-      "categories": [
-        "action"
-      ],
-      "genres": [],
-      "coopMode": [
-        "online"
-      ],
-      "maxPlayers": 4,
-      "crossplay": false,
-      "players": "2-4",
-      "releaseYear": 2026,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4121170/803663dce78da494e9d061cf6652ade566b96331/header.jpg?t=1781141362",
-      "description": "After noticing bone-chilling similarities to an episode of Fears to Fathom, Tessa and Marcus decide to share their own experience. Scratch Creek is an exclusively online co-op experience.",
-      "description_en": "After noticing bone-chilling similarities to an episode of Fears to Fathom, Tessa and Marcus decide to share their own experience. Scratch Creek is an exclusively online co-op experience.",
-      "personalNote": "",
-      "played": false,
-      "steamUrl": "https://store.steampowered.com/app/4121170/",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 0,
-      "trending": false,
-      "rating": 71,
-      "igUrl": "",
-      "igDiscount": 0,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "",
-      "gsDiscount": 0,
-      "kgUrl": "",
-      "kgDiscount": 0,
-      "gmvUrl": "",
-      "gmvDiscount": 0,
-      "gmgUrl": "",
-      "gmgDiscount": 0,
-      "coopScore": null,
-      "totalReviews": 1212,
-      "mini_review_it": "",
-      "mini_review_en": "",
-      "slug": "fears-to-fathom-scratch-creek",
-      "isFeaturedIndie": false,
-      "descriptions": {
-        "it": "After noticing bone-chilling similarities to an episode of Fears to Fathom, Tessa and Marcus decide to share their own experience. Scratch Creek is an exclusively online co-op experience.",
-        "en": "After noticing bone-chilling similarities to an episode of Fears to Fathom, Tessa and Marcus decide to share their own experience. Scratch Creek is an exclusively online co-op experience."
-      },
-      "taxonomy": {
-        "categories": [
-          "action"
-        ],
-        "genres": []
-      },
-      "capabilities": {
-        "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
-        "crossplay": false,
-        "playersLabel": "2-4",
-        "maxPlayers": 4
-      },
-      "storefronts": [
-        {
-          "store": "steam",
-          "url": "https://store.steampowered.com/app/4121170/",
-          "externalId": "4121170"
-        }
-      ],
-      "externalIds": {
-        "steamAppId": "4121170"
-      },
-      "signals": {
-        "ccu": 0,
-        "trending": false,
-        "rating": 71,
-        "igdb": false,
-        "gog": false,
-        "rawg": false
-      },
-      "editorial": {
-        "played": false,
-        "personalNote": ""
-      },
-      "sourceMeta": {
-        "ingestSource": "games.js",
-        "schemaVersion": 1
-      }
-    },
-    {
-      "id": 725,
-      "title": "33 Immortals",
-      "categories": [
-        "action"
-      ],
-      "genres": [],
-      "coopMode": [
-        "online"
-      ],
-      "maxPlayers": 4,
-      "crossplay": false,
-      "players": "2-4",
-      "releaseYear": 2026,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/958520/e39894b763c81766e78374545e78dcff03bcdd4e/header.jpg?t=1781105822",
-      "description": "33 Immortals is a co-op action-roguelike for 33 players. Jump straight into runs, solo or with friends. Battle hordes of monsters, defeat massive bosses, and grow stronger each run. Use in-game emotes to coordinate and combine powers with your fellow rebels, and face the Wrath of God, together.",
-      "description_en": "33 Immortals is a co-op action-roguelike for 33 players. Jump straight into runs, solo or with friends. Battle hordes of monsters, defeat massive bosses, and grow stronger each run. Use in-game emotes to coordinate and combine powers with your fellow rebels, and face the Wrath of God, together.",
-      "personalNote": "",
-      "played": false,
-      "steamUrl": "https://store.steampowered.com/app/958520/",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 0,
-      "trending": false,
-      "rating": 81,
-      "igUrl": "",
-      "igDiscount": 0,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "",
-      "gsDiscount": 0,
-      "kgUrl": "",
-      "kgDiscount": 0,
-      "gmvUrl": "",
-      "gmvDiscount": 0,
-      "gmgUrl": "",
-      "gmgDiscount": 0,
-      "coopScore": null,
-      "totalReviews": 523,
-      "mini_review_it": "",
-      "mini_review_en": "",
-      "slug": "33-immortals",
-      "isFeaturedIndie": false,
-      "descriptions": {
-        "it": "33 Immortals is a co-op action-roguelike for 33 players. Jump straight into runs, solo or with friends. Battle hordes of monsters, defeat massive bosses, and grow stronger each run. Use in-game emotes to coordinate and combine powers with your fellow rebels, and face the Wrath of God, together.",
-        "en": "33 Immortals is a co-op action-roguelike for 33 players. Jump straight into runs, solo or with friends. Battle hordes of monsters, defeat massive bosses, and grow stronger each run. Use in-game emotes to coordinate and combine powers with your fellow rebels, and face the Wrath of God, together."
-      },
-      "taxonomy": {
-        "categories": [
-          "action"
-        ],
-        "genres": []
-      },
-      "capabilities": {
-        "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
-        "crossplay": false,
-        "playersLabel": "2-4",
-        "maxPlayers": 4
-      },
-      "storefronts": [
-        {
-          "store": "steam",
-          "url": "https://store.steampowered.com/app/958520/",
-          "externalId": "958520"
-        }
-      ],
-      "externalIds": {
-        "steamAppId": "958520"
-      },
-      "signals": {
-        "ccu": 0,
-        "trending": false,
-        "rating": 81,
-        "igdb": false,
-        "gog": false,
-        "rawg": false
-      },
-      "editorial": {
-        "played": false,
-        "personalNote": ""
-      },
-      "sourceMeta": {
-        "ingestSource": "games.js",
-        "schemaVersion": 1
-      }
-    },
-    {
-      "id": 726,
-      "title": "Witchspire",
+      "id": 729,
+      "title": "Kebab Chefs! - Restaurant Simulator",
       "categories": [
         "action"
       ],
@@ -33836,17 +33569,17 @@
       "crossplay": false,
       "players": "1-4",
       "releaseYear": 2026,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2679100/2c7e6498da06cb35b986d345c066b53b88636837/header_alt_assets_1.jpg?t=1781118464",
-      "description": "Step into the ultimate open-world witch adventure. Befriend and battle creatures, and conjure up a sanctuary alongside other witches in co-op or single-player.",
-      "description_en": "Step into the ultimate open-world witch adventure. Befriend and battle creatures, and conjure up a sanctuary alongside other witches in co-op or single-player.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1001270/3d8e0e5bf2397090502df0ba3601d8009b386cb4/header_alt_assets_4.jpg?t=1781214098",
+      "description": "Kebab Chefs! is a Co-Op, cooking and restaurant management game that can be played up to 4 players. Design your own restaurant. Cook delicious foods, fill your menu with various recipes, feed customers and become the biggest kebab restaurant in town!",
+      "description_en": "Kebab Chefs! is a Co-Op, cooking and restaurant management game that can be played up to 4 players. Design your own restaurant. Cook delicious foods, fill your menu with various recipes, feed customers and become the biggest kebab restaurant in town!",
       "personalNote": "",
       "played": false,
-      "steamUrl": "https://store.steampowered.com/app/2679100/",
+      "steamUrl": "https://store.steampowered.com/app/1001270/",
       "epicUrl": "",
       "itchUrl": "",
-      "ccu": 0,
+      "ccu": 80,
       "trending": false,
-      "rating": 83,
+      "rating": 86,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
@@ -33860,14 +33593,14 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 405,
+      "totalReviews": 6576,
       "mini_review_it": "",
       "mini_review_en": "",
-      "slug": "witchspire",
+      "slug": "kebab-chefs-restaurant-simulator",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Step into the ultimate open-world witch adventure. Befriend and battle creatures, and conjure up a sanctuary alongside other witches in co-op or single-player.",
-        "en": "Step into the ultimate open-world witch adventure. Befriend and battle creatures, and conjure up a sanctuary alongside other witches in co-op or single-player."
+        "it": "Kebab Chefs! is a Co-Op, cooking and restaurant management game that can be played up to 4 players. Design your own restaurant. Cook delicious foods, fill your menu with various recipes, feed customers and become the biggest kebab restaurant in town!",
+        "en": "Kebab Chefs! is a Co-Op, cooking and restaurant management game that can be played up to 4 players. Design your own restaurant. Cook delicious foods, fill your menu with various recipes, feed customers and become the biggest kebab restaurant in town!"
       },
       "taxonomy": {
         "categories": [
@@ -33887,17 +33620,17 @@
       "storefronts": [
         {
           "store": "steam",
-          "url": "https://store.steampowered.com/app/2679100/",
-          "externalId": "2679100"
+          "url": "https://store.steampowered.com/app/1001270/",
+          "externalId": "1001270"
         }
       ],
       "externalIds": {
-        "steamAppId": "2679100"
+        "steamAppId": "1001270"
       },
       "signals": {
-        "ccu": 0,
+        "ccu": 80,
         "trending": false,
-        "rating": 83,
+        "rating": 86,
         "igdb": false,
         "gog": false,
         "rawg": false
@@ -33912,8 +33645,8 @@
       }
     },
     {
-      "id": 727,
-      "title": "Burglin' Gnomes",
+      "id": 731,
+      "title": "SpaceCraft",
       "categories": [
         "action"
       ],
@@ -33925,17 +33658,17 @@
       "crossplay": false,
       "players": "2-4",
       "releaseYear": 2026,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3844970/d6127e4eabda23e1d1c727a1875e6b6cb0e634ae/header.jpg?t=1781100001",
-      "description": "An online Co-op game about breaking into houses and causing havoc as a tiny gnome. Avoid danger, repurpose stolen household items, and complete tasks to meet the High-Gnome’s demands. Craft equipment and upgrade your home to make your missions easier and more successful.",
-      "description_en": "An online Co-op game about breaking into houses and causing havoc as a tiny gnome. Avoid danger, repurpose stolen household items, and complete tasks to meet the High-Gnome’s demands. Craft equipment and upgrade your home to make your missions easier and more successful.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3276050/70f801e9eddf731f85a13cffebb98c9610aaf305/header_alt_assets_1.jpg?t=1781191112",
+      "description": "The Universe is yours. SpaceCraft is an online space exploration and building game. Explore a vast galaxy of solar systems and planets, mine and craft resources, design and build ships, automate planetary bases and interplanetary logistics, trade and cooperate.",
+      "description_en": "The Universe is yours. SpaceCraft is an online space exploration and building game. Explore a vast galaxy of solar systems and planets, mine and craft resources, design and build ships, automate planetary bases and interplanetary logistics, trade and cooperate.",
       "personalNote": "",
       "played": false,
-      "steamUrl": "https://store.steampowered.com/app/3844970/",
+      "steamUrl": "https://store.steampowered.com/app/3276050/",
       "epicUrl": "",
       "itchUrl": "",
       "ccu": 0,
       "trending": false,
-      "rating": 86,
+      "rating": 71,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
@@ -33949,14 +33682,14 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 803,
+      "totalReviews": 615,
       "mini_review_it": "",
       "mini_review_en": "",
-      "slug": "burglin-gnomes",
+      "slug": "spacecraft",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "An online Co-op game about breaking into houses and causing havoc as a tiny gnome. Avoid danger, repurpose stolen household items, and complete tasks to meet the High-Gnome’s demands. Craft equipment and upgrade your home to make your missions easier and more successful.",
-        "en": "An online Co-op game about breaking into houses and causing havoc as a tiny gnome. Avoid danger, repurpose stolen household items, and complete tasks to meet the High-Gnome’s demands. Craft equipment and upgrade your home to make your missions easier and more successful."
+        "it": "The Universe is yours. SpaceCraft is an online space exploration and building game. Explore a vast galaxy of solar systems and planets, mine and craft resources, design and build ships, automate planetary bases and interplanetary logistics, trade and cooperate.",
+        "en": "The Universe is yours. SpaceCraft is an online space exploration and building game. Explore a vast galaxy of solar systems and planets, mine and craft resources, design and build ships, automate planetary bases and interplanetary logistics, trade and cooperate."
       },
       "taxonomy": {
         "categories": [
@@ -33976,17 +33709,17 @@
       "storefronts": [
         {
           "store": "steam",
-          "url": "https://store.steampowered.com/app/3844970/",
-          "externalId": "3844970"
+          "url": "https://store.steampowered.com/app/3276050/",
+          "externalId": "3276050"
         }
       ],
       "externalIds": {
-        "steamAppId": "3844970"
+        "steamAppId": "3276050"
       },
       "signals": {
         "ccu": 0,
         "trending": false,
-        "rating": 86,
+        "rating": 71,
         "igdb": false,
         "gog": false,
         "rawg": false
@@ -34001,8 +33734,8 @@
       }
     },
     {
-      "id": 728,
-      "title": "Bounty Brawl: Most Wanted",
+      "id": 732,
+      "title": "Terrinoth®: Heroes of Descent",
       "categories": [
         "action"
       ],
@@ -34014,17 +33747,17 @@
       "crossplay": false,
       "players": "2-4",
       "releaseYear": 2026,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3097510/4c22e20a83670bb154e00ab0594e707098d8d105/header.jpg?t=1780661372",
-      "description": "Welcome to Hunter Haven! Bounty Brawl is a fast-paced Action Roguelite for 1-4 players. Master your unique Lasso to zip through combat and hunt down criminals with friends. But remember: once the boss falls, the alliance ends. Who will claim the ultimate bounty?",
-      "description_en": "Welcome to Hunter Haven! Bounty Brawl is a fast-paced Action Roguelite for 1-4 players. Master your unique Lasso to zip through combat and hunt down criminals with friends. But remember: once the boss falls, the alliance ends. Who will claim the ultimate bounty?",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3929630/3791ee560bb2b4702ece93f8ee2dec1b76c69ee5/header.jpg?t=1780864600",
+      "description": "Step into the epic world of Descent with the first fantasy co-op tactical RPG forged from the legendary dungeon crawling board game. Lead a company of fearless heroes across Terrinoth®, survive against epic boss battles in turn-based combat, and settle the fate of a world facing unending darkness.",
+      "description_en": "Step into the epic world of Descent with the first fantasy co-op tactical RPG forged from the legendary dungeon crawling board game. Lead a company of fearless heroes across Terrinoth®, survive against epic boss battles in turn-based combat, and settle the fate of a world facing unending darkness.",
       "personalNote": "",
       "played": false,
-      "steamUrl": "https://store.steampowered.com/app/3097510/",
+      "steamUrl": "https://store.steampowered.com/app/3929630/",
       "epicUrl": "",
       "itchUrl": "",
       "ccu": 0,
       "trending": false,
-      "rating": 86,
+      "rating": 71,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
@@ -34038,14 +33771,14 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 102,
+      "totalReviews": 120,
       "mini_review_it": "",
       "mini_review_en": "",
-      "slug": "bounty-brawl-most-wanted",
+      "slug": "terrinoth-heroes-of-descent",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Welcome to Hunter Haven! Bounty Brawl is a fast-paced Action Roguelite for 1-4 players. Master your unique Lasso to zip through combat and hunt down criminals with friends. But remember: once the boss falls, the alliance ends. Who will claim the ultimate bounty?",
-        "en": "Welcome to Hunter Haven! Bounty Brawl is a fast-paced Action Roguelite for 1-4 players. Master your unique Lasso to zip through combat and hunt down criminals with friends. But remember: once the boss falls, the alliance ends. Who will claim the ultimate bounty?"
+        "it": "Step into the epic world of Descent with the first fantasy co-op tactical RPG forged from the legendary dungeon crawling board game. Lead a company of fearless heroes across Terrinoth®, survive against epic boss battles in turn-based combat, and settle the fate of a world facing unending darkness.",
+        "en": "Step into the epic world of Descent with the first fantasy co-op tactical RPG forged from the legendary dungeon crawling board game. Lead a company of fearless heroes across Terrinoth®, survive against epic boss battles in turn-based combat, and settle the fate of a world facing unending darkness."
       },
       "taxonomy": {
         "categories": [
@@ -34065,17 +33798,17 @@
       "storefronts": [
         {
           "store": "steam",
-          "url": "https://store.steampowered.com/app/3097510/",
-          "externalId": "3097510"
+          "url": "https://store.steampowered.com/app/3929630/",
+          "externalId": "3929630"
         }
       ],
       "externalIds": {
-        "steamAppId": "3097510"
+        "steamAppId": "3929630"
       },
       "signals": {
         "ccu": 0,
         "trending": false,
-        "rating": 86,
+        "rating": 71,
         "igdb": false,
         "gog": false,
         "rawg": false
