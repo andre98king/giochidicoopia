@@ -17,7 +17,7 @@ const freeGames = [
   {
     "title": "Eets",
     "store": "steam",
-    "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6100/b97e6e9de18d08941c872fc73abae7c2dc91ccfe/header.jpg?t=1781207036",
+    "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6100/b97e6e9de18d08941c872fc73abae7c2dc91ccfe/header.jpg?t=1781284010",
     "storeUrl": "https://store.steampowered.com/app/6100/",
     "freeUntil": "2026-06-15T17:00:00Z"
   },
