@@ -10,7 +10,7 @@ const freeGames = [
   {
     "title": "Happy's Humble Burger Farm",
     "store": "steam",
-    "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1433340/bffacca0828f9dd790c7104c85040aa558eab420/header_alt_assets_0.jpg?t=1781202018",
+    "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1433340/bffacca0828f9dd790c7104c85040aa558eab420/header_alt_assets_0.jpg?t=1781355115",
     "storeUrl": "https://store.steampowered.com/app/1433340/",
     "freeUntil": "2026-06-15T13:00:00Z"
   },
