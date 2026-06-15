@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-14T10:06:50+00:00",
+  "generatedAt": "2026-06-15T12:50:06+00:00",
   "featuredIndieId": null,
   "games": [
     {
@@ -15150,6 +15150,46 @@
       "ccu": 37,
       "trending": false,
       "rating": 76,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 734,
+      "slug": "frog-sqwad",
+      "title": "Frog Sqwad 🐸",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3989960/7cf40cfaff04f6a192df76a81d9f38463b73c50e/header.jpg?t=1781193760",
+      "description": "🐸Up to 8 player co-op extraction puzzle-platformer where you swing, jump, catapult your friends, and eat eat EAT until you grow into a humongous Megafrog. Squad up with your frog friends and storm the Sewers for the glory of the Swamp King!🐸",
+      "description_en": "🐸Up to 8 player co-op extraction puzzle-platformer where you swing, jump, catapult your friends, and eat eat EAT until you grow into a humongous Megafrog. Squad up with your frog friends and storm the Sewers for the glory of the Swamp King!🐸",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3989960/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 73,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
