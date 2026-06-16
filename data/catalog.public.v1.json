@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-15T12:50:06+00:00",
+  "generatedAt": "2026-06-16T11:47:58+00:00",
   "featuredIndieId": null,
   "games": [
     {
@@ -15165,9 +15165,9 @@
       "coopScore": null
     },
     {
-      "id": 734,
-      "slug": "frog-sqwad",
-      "title": "Frog Sqwad 🐸",
+      "id": 735,
+      "slug": "goblin-company",
+      "title": "Goblin Company",
       "categories": [
         "action"
       ],
@@ -15177,19 +15177,19 @@
       ],
       "maxPlayers": 4,
       "crossplay": false,
-      "players": "2-4",
+      "players": "1-4",
       "releaseYear": 2026,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3989960/7cf40cfaff04f6a192df76a81d9f38463b73c50e/header.jpg?t=1781193760",
-      "description": "🐸Up to 8 player co-op extraction puzzle-platformer where you swing, jump, catapult your friends, and eat eat EAT until you grow into a humongous Megafrog. Squad up with your frog friends and storm the Sewers for the glory of the Swamp King!🐸",
-      "description_en": "🐸Up to 8 player co-op extraction puzzle-platformer where you swing, jump, catapult your friends, and eat eat EAT until you grow into a humongous Megafrog. Squad up with your frog friends and storm the Sewers for the glory of the Swamp King!🐸",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3864450/070bb3c075bf777d70607023befa9ff1fc375e96/header.jpg?t=1781276320",
+      "description": "Dig, build rails, and survive underground as a Goblin miner for WHAAG MINING INC. Light your path or the darkness will drain your life. Explore fully destructible biomes, fight hostile creatures, and hunt the legendary Giant Crystal, solo or online co-op",
+      "description_en": "Dig, build rails, and survive underground as a Goblin miner for WHAAG MINING INC. Light your path or the darkness will drain your life. Explore fully destructible biomes, fight hostile creatures, and hunt the legendary Giant Crystal, solo or online co-op",
       "personalNote": "",
       "played": false,
-      "steamUrl": "https://store.steampowered.com/app/3989960/",
+      "steamUrl": "https://store.steampowered.com/app/3864450/",
       "epicUrl": "",
       "itchUrl": "",
       "ccu": 0,
       "trending": false,
-      "rating": 73,
+      "rating": 78,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
