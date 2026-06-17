@@ -8972,7 +8972,7 @@ const games = [
     genres: [],
     coopMode: ["online", "local", "sofa"],
     maxPlayers: 4,
-    crossplay: false,
+    crossplay: true,
     players: "1-4",
     releaseYear: 2024,
     image: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2211170/header.jpg",
@@ -18032,7 +18032,7 @@ const games = [
     kgDiscount: 0,
     gmvUrl: "",
     gmvDiscount: 0,
-    totalReviews: 133,
+    totalReviews: 0,
     coopScore: null,
     mini_review_it: "",
     mini_review_en: ""

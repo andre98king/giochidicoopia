@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-16T11:47:58+00:00",
+  "generatedAt": "2026-06-17T11:30:11+00:00",
   "featuredIndieId": null,
   "games": [
     {
@@ -9227,7 +9227,7 @@
         "sofa"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-4",
       "releaseYear": 2024,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2211170/header.jpg",
@@ -15150,46 +15150,6 @@
       "ccu": 37,
       "trending": false,
       "rating": 76,
-      "igUrl": "",
-      "igDiscount": 0,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "",
-      "gsDiscount": 0,
-      "kgUrl": "",
-      "kgDiscount": 0,
-      "gmvUrl": "",
-      "gmvDiscount": 0,
-      "gmgUrl": "",
-      "gmgDiscount": 0,
-      "coopScore": null
-    },
-    {
-      "id": 735,
-      "slug": "goblin-company",
-      "title": "Goblin Company",
-      "categories": [
-        "action"
-      ],
-      "genres": [],
-      "coopMode": [
-        "online"
-      ],
-      "maxPlayers": 4,
-      "crossplay": false,
-      "players": "1-4",
-      "releaseYear": 2026,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3864450/070bb3c075bf777d70607023befa9ff1fc375e96/header.jpg?t=1781276320",
-      "description": "Dig, build rails, and survive underground as a Goblin miner for WHAAG MINING INC. Light your path or the darkness will drain your life. Explore fully destructible biomes, fight hostile creatures, and hunt the legendary Giant Crystal, solo or online co-op",
-      "description_en": "Dig, build rails, and survive underground as a Goblin miner for WHAAG MINING INC. Light your path or the darkness will drain your life. Explore fully destructible biomes, fight hostile creatures, and hunt the legendary Giant Crystal, solo or online co-op",
-      "personalNote": "",
-      "played": false,
-      "steamUrl": "https://store.steampowered.com/app/3864450/",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 0,
-      "trending": false,
-      "rating": 78,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
