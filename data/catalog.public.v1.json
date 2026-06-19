@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-18T10:51:40+00:00",
+  "generatedAt": "2026-06-19T11:10:26+00:00",
   "featuredIndieId": null,
   "games": [
     {
@@ -9680,8 +9680,7 @@
       "slug": "rec-room",
       "title": "Rec Room",
       "categories": [
-        "action",
-        "free"
+        "action"
       ],
       "genres": [],
       "coopMode": [
@@ -15150,6 +15149,46 @@
       "ccu": 37,
       "trending": false,
       "rating": 76,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 737,
+      "slug": "swapmeat",
+      "title": "SWAPMEAT",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2790700/99508a3c5d7bd26ab1a2a9333c1f510bfd4d4881/header.jpg?t=1781716500",
+      "description": "Rip through hostile alien worlds, harvest mutant body parts mid-combat, and adapt faster than your enemies. Every alien you harvest gives you new body parts with unique powers, like triple-jump legs, turret-dropping torsos, grenade-launching turkey heads. Steal, swap, survive.",
+      "description_en": "Rip through hostile alien worlds, harvest mutant body parts mid-combat, and adapt faster than your enemies. Every alien you harvest gives you new body parts with unique powers, like triple-jump legs, turret-dropping torsos, grenade-launching turkey heads. Steal, swap, survive.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2790700/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 87,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
