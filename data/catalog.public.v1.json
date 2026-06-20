@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-19T11:10:26+00:00",
+  "generatedAt": "2026-06-20T09:49:36+00:00",
   "featuredIndieId": null,
   "games": [
     {
@@ -15164,9 +15164,9 @@
       "coopScore": null
     },
     {
-      "id": 737,
-      "slug": "swapmeat",
-      "title": "SWAPMEAT",
+      "id": 738,
+      "slug": "backrooms-lost-runners",
+      "title": "Backrooms Lost Runners",
       "categories": [
         "action"
       ],
@@ -15176,19 +15176,19 @@
       ],
       "maxPlayers": 4,
       "crossplay": false,
-      "players": "1-4",
+      "players": "2-4",
       "releaseYear": 2026,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2790700/99508a3c5d7bd26ab1a2a9333c1f510bfd4d4881/header.jpg?t=1781716500",
-      "description": "Rip through hostile alien worlds, harvest mutant body parts mid-combat, and adapt faster than your enemies. Every alien you harvest gives you new body parts with unique powers, like triple-jump legs, turret-dropping torsos, grenade-launching turkey heads. Steal, swap, survive.",
-      "description_en": "Rip through hostile alien worlds, harvest mutant body parts mid-combat, and adapt faster than your enemies. Every alien you harvest gives you new body parts with unique powers, like triple-jump legs, turret-dropping torsos, grenade-launching turkey heads. Steal, swap, survive.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3072120/dad7d34f3239a360eee16c3763d82d80501937b7/header.jpg?t=1781718736",
+      "description": "Backrooms Lost Runners is a co-op survival horror with team play, voice-reactive AI, and immersive puzzles. This isn’t a “walking simulator”: explore liminal spaces, outsmart entities, and remember—even a whisper can give you away.",
+      "description_en": "Backrooms Lost Runners is a co-op survival horror with team play, voice-reactive AI, and immersive puzzles. This isn’t a “walking simulator”: explore liminal spaces, outsmart entities, and remember—even a whisper can give you away.",
       "personalNote": "",
       "played": false,
-      "steamUrl": "https://store.steampowered.com/app/2790700/",
+      "steamUrl": "https://store.steampowered.com/app/3072120/",
       "epicUrl": "",
       "itchUrl": "",
       "ccu": 0,
       "trending": false,
-      "rating": 87,
+      "rating": 78,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
