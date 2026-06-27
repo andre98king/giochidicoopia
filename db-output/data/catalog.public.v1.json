@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-25T09:45:25.017716Z",
+  "generatedAt": "2026-06-27T08:54:42.750323Z",
   "games": [
     {
       "id": 1,
@@ -2594,9 +2594,9 @@
       "coopMode": [
         "online"
       ],
-      "maxPlayers": 4,
+      "maxPlayers": 10,
       "crossplay": false,
-      "players": "1-4",
+      "players": "1-10",
       "releaseYear": 2024,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1604030/header.jpg",
       "description": "Risvegliati come un Vampiro. Caccia il sangue nei villaggi vicini per recuperare le forze ed evita il sole cocente per sopravvivere. Costruisci il tuo castello e prospera in un mondo aperto in continua evoluzione. Trova alleati online e conquista la terra dei vivi.",
@@ -2644,8 +2644,8 @@
         "splitScreen": false,
         "sharedScreen": false,
         "crossplay": false,
-        "playersLabel": "1-4",
-        "maxPlayers": 4
+        "playersLabel": "1-10",
+        "maxPlayers": 10
       },
       "storefronts": [
         {
