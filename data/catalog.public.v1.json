@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-02T09:45:10+00:00",
+  "generatedAt": "2026-07-03T09:52:15+00:00",
   "featuredIndieId": null,
   "games": [
     {
@@ -15151,46 +15151,6 @@
       "ccu": 37,
       "trending": false,
       "rating": 76,
-      "igUrl": "",
-      "igDiscount": 0,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "",
-      "gsDiscount": 0,
-      "kgUrl": "",
-      "kgDiscount": 0,
-      "gmvUrl": "",
-      "gmvDiscount": 0,
-      "gmgUrl": "",
-      "gmgDiscount": 0,
-      "coopScore": null
-    },
-    {
-      "id": 742,
-      "slug": "nuclear-epoch",
-      "title": "Nuclear Epoch",
-      "categories": [
-        "action"
-      ],
-      "genres": [],
-      "coopMode": [
-        "online"
-      ],
-      "maxPlayers": 4,
-      "crossplay": false,
-      "players": "2-4",
-      "releaseYear": 2026,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4049910/f959f0236c9c4e2af316c9464ac418aea9ed8ff0/header.jpg?t=1782800794",
-      "description": "Nuclear Epoch: Open-world survival mixing base building & extraction shooting. Explore with friends, raid dangerous instances for loot, but death means losing everything. Craft weapons with fully customizable stats in this post-apocalyptic wasteland.",
-      "description_en": "Nuclear Epoch: Open-world survival mixing base building & extraction shooting. Explore with friends, raid dangerous instances for loot, but death means losing everything. Craft weapons with fully customizable stats in this post-apocalyptic wasteland.",
-      "personalNote": "",
-      "played": false,
-      "steamUrl": "https://store.steampowered.com/app/4049910/",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 0,
-      "trending": false,
-      "rating": 73,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
