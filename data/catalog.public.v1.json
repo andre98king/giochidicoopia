@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-12T08:49:00+00:00",
+  "generatedAt": "2026-07-13T10:01:34+00:00",
   "featuredIndieId": null,
   "games": [
     {
@@ -15166,9 +15166,9 @@
       "coopScore": null
     },
     {
-      "id": 746,
-      "slug": "geronimo",
-      "title": "GERONIMO",
+      "id": 747,
+      "slug": "angels-fall-first",
+      "title": "Angels Fall First",
       "categories": [
         "action"
       ],
@@ -15180,17 +15180,57 @@
       "crossplay": false,
       "players": "2-4",
       "releaseYear": 2026,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2019620/c18168bcea25a3fa7d835319ddc4aadb2281e997/header.jpg?t=1783702823",
-      "description": "GERONIMO is an immersive, tactical CQB shooter built for Virtual Reality that depicts a modern-day world in which Tier 1 operators are called to implement unconventional operations as members of elite teams. Breaching, in-depth character and weapon customization and more! \"Who Dares, Wins\"",
-      "description_en": "GERONIMO is an immersive, tactical CQB shooter built for Virtual Reality that depicts a modern-day world in which Tier 1 operators are called to implement unconventional operations as members of elite teams. Breaching, in-depth character and weapon customization and more! \"Who Dares, Wins\"",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367270/fa7defd4ca90f5f306de47576a3424d8006d12f5/header.jpg?t=1783807186",
+      "description": "From commanding the battle standing on the bridge of your flagship all the way down to tactical infantry firefights - AFF brings together all the combat you ever loved in a rich science fiction setting. Boarding, pilotable capital ships, deep weapon customization and full Bot support included!",
+      "description_en": "From commanding the battle standing on the bridge of your flagship all the way down to tactical infantry firefights - AFF brings together all the combat you ever loved in a rich science fiction setting. Boarding, pilotable capital ships, deep weapon customization and full Bot support included!",
       "personalNote": "",
       "played": false,
-      "steamUrl": "https://store.steampowered.com/app/2019620/",
+      "steamUrl": "https://store.steampowered.com/app/367270/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 3,
+      "trending": false,
+      "rating": 82,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null
+    },
+    {
+      "id": 748,
+      "slug": "forest-escape-last-train",
+      "title": "Forest Escape: Last Train",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4090360/5a5b369294e9cb25caa6e0b6eb0f579ba2f2b4f0/header_alt_assets_2.jpg?t=1783703628",
+      "description": "Forest Escape: Last Train is a co-op surreal horror game for 1–4 players. Explore bizarre nightmare locations, gather resources, solve the insane Warden's twisted puzzles, and keep your locomotive running as you fight to escape his unhinged world.",
+      "description_en": "Forest Escape: Last Train is a co-op surreal horror game for 1–4 players. Explore bizarre nightmare locations, gather resources, solve the insane Warden's twisted puzzles, and keep your locomotive running as you fight to escape his unhinged world.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4090360/",
       "epicUrl": "",
       "itchUrl": "",
       "ccu": 0,
       "trending": false,
-      "rating": 84,
+      "rating": 83,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",

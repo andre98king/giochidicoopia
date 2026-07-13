@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-11T08:28:34+00:00",
+  "generatedAt": "2026-07-12T08:49:00+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": null,
   "stats": {
-    "games": 363,
+    "games": 362,
     "played": 12,
     "trending": 45,
-    "withEnglishDescription": 363,
+    "withEnglishDescription": 362,
     "categoryCounts": {
-      "action": 262,
+      "action": 261,
       "factory": 55,
       "free": 33,
       "horror": 44,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 363
+      "steam": 362
     }
   },
   "games": [
@@ -33734,97 +33734,8 @@
       }
     },
     {
-      "id": 744,
-      "title": "Cursed Companions",
-      "categories": [
-        "action"
-      ],
-      "genres": [],
-      "coopMode": [
-        "online"
-      ],
-      "maxPlayers": 16,
-      "crossplay": false,
-      "players": "1-16",
-      "releaseYear": 2026,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3265230/2f3e4be565e731c8de549858ccfe600aec794507/header.jpg?t=1783616870",
-      "description": "If we say the wrong words... WE DIE! This game kills you with your own voices! Online co-op where everyone gets a forbidden word, say it and you kill your friends. Explore spooky dungeons, cast spells and defeat monsters with your voices. 8-player Co-op Mode. 16-player Traitor Mode",
-      "description_en": "If we say the wrong words... WE DIE! This game kills you with your own voices! Online co-op where everyone gets a forbidden word, say it and you kill your friends. Explore spooky dungeons, cast spells and defeat monsters with your voices. 8-player Co-op Mode. 16-player Traitor Mode",
-      "personalNote": "",
-      "played": false,
-      "steamUrl": "https://store.steampowered.com/app/3265230/",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 0,
-      "trending": false,
-      "rating": 80,
-      "igUrl": "",
-      "igDiscount": 0,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "",
-      "gsDiscount": 0,
-      "kgUrl": "",
-      "kgDiscount": 0,
-      "gmvUrl": "",
-      "gmvDiscount": 0,
-      "gmgUrl": "",
-      "gmgDiscount": 0,
-      "coopScore": null,
-      "totalReviews": 306,
-      "mini_review_it": "",
-      "mini_review_en": "",
-      "slug": "cursed-companions",
-      "isFeaturedIndie": false,
-      "descriptions": {
-        "it": "If we say the wrong words... WE DIE! This game kills you with your own voices! Online co-op where everyone gets a forbidden word, say it and you kill your friends. Explore spooky dungeons, cast spells and defeat monsters with your voices. 8-player Co-op Mode. 16-player Traitor Mode",
-        "en": "If we say the wrong words... WE DIE! This game kills you with your own voices! Online co-op where everyone gets a forbidden word, say it and you kill your friends. Explore spooky dungeons, cast spells and defeat monsters with your voices. 8-player Co-op Mode. 16-player Traitor Mode"
-      },
-      "taxonomy": {
-        "categories": [
-          "action"
-        ],
-        "genres": []
-      },
-      "capabilities": {
-        "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
-        "crossplay": false,
-        "playersLabel": "1-16",
-        "maxPlayers": 16
-      },
-      "storefronts": [
-        {
-          "store": "steam",
-          "url": "https://store.steampowered.com/app/3265230/",
-          "externalId": "3265230"
-        }
-      ],
-      "externalIds": {
-        "steamAppId": "3265230"
-      },
-      "signals": {
-        "ccu": 0,
-        "trending": false,
-        "rating": 80,
-        "igdb": false,
-        "gog": false,
-        "rawg": false
-      },
-      "editorial": {
-        "played": false,
-        "personalNote": ""
-      },
-      "sourceMeta": {
-        "ingestSource": "games.js",
-        "schemaVersion": 1
-      }
-    },
-    {
-      "id": 745,
-      "title": "Cat Mail Co.",
+      "id": 746,
+      "title": "GERONIMO",
       "categories": [
         "action"
       ],
@@ -33836,17 +33747,17 @@
       "crossplay": false,
       "players": "2-4",
       "releaseYear": 2026,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4380490/9c206d8a7c8a6133230628b6326f4f08a683b40e/header.jpg?t=1783610189",
-      "description": "Run a cozy cat post office. Sort and deliver parcels from the daily boat, organizing everything your way. At night, the moon reveals hidden truths about packages. Clear a strange backlog, help locals, and unlock new abilities and destinations.",
-      "description_en": "Run a cozy cat post office. Sort and deliver parcels from the daily boat, organizing everything your way. At night, the moon reveals hidden truths about packages. Clear a strange backlog, help locals, and unlock new abilities and destinations.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2019620/c18168bcea25a3fa7d835319ddc4aadb2281e997/header.jpg?t=1783702823",
+      "description": "GERONIMO is an immersive, tactical CQB shooter built for Virtual Reality that depicts a modern-day world in which Tier 1 operators are called to implement unconventional operations as members of elite teams. Breaching, in-depth character and weapon customization and more! \"Who Dares, Wins\"",
+      "description_en": "GERONIMO is an immersive, tactical CQB shooter built for Virtual Reality that depicts a modern-day world in which Tier 1 operators are called to implement unconventional operations as members of elite teams. Breaching, in-depth character and weapon customization and more! \"Who Dares, Wins\"",
       "personalNote": "",
       "played": false,
-      "steamUrl": "https://store.steampowered.com/app/4380490/",
+      "steamUrl": "https://store.steampowered.com/app/2019620/",
       "epicUrl": "",
       "itchUrl": "",
       "ccu": 0,
       "trending": false,
-      "rating": 90,
+      "rating": 84,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
@@ -33860,14 +33771,14 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 702,
+      "totalReviews": 433,
       "mini_review_it": "",
       "mini_review_en": "",
-      "slug": "cat-mail-co",
+      "slug": "geronimo",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "Run a cozy cat post office. Sort and deliver parcels from the daily boat, organizing everything your way. At night, the moon reveals hidden truths about packages. Clear a strange backlog, help locals, and unlock new abilities and destinations.",
-        "en": "Run a cozy cat post office. Sort and deliver parcels from the daily boat, organizing everything your way. At night, the moon reveals hidden truths about packages. Clear a strange backlog, help locals, and unlock new abilities and destinations."
+        "it": "GERONIMO is an immersive, tactical CQB shooter built for Virtual Reality that depicts a modern-day world in which Tier 1 operators are called to implement unconventional operations as members of elite teams. Breaching, in-depth character and weapon customization and more! &quot;Who Dares, Wins&quot;",
+        "en": "GERONIMO is an immersive, tactical CQB shooter built for Virtual Reality that depicts a modern-day world in which Tier 1 operators are called to implement unconventional operations as members of elite teams. Breaching, in-depth character and weapon customization and more! &quot;Who Dares, Wins&quot;"
       },
       "taxonomy": {
         "categories": [
@@ -33887,17 +33798,17 @@
       "storefronts": [
         {
           "store": "steam",
-          "url": "https://store.steampowered.com/app/4380490/",
-          "externalId": "4380490"
+          "url": "https://store.steampowered.com/app/2019620/",
+          "externalId": "2019620"
         }
       ],
       "externalIds": {
-        "steamAppId": "4380490"
+        "steamAppId": "2019620"
       },
       "signals": {
         "ccu": 0,
         "trending": false,
-        "rating": 90,
+        "rating": 84,
         "igdb": false,
         "gog": false,
         "rawg": false
