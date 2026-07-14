@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-12T08:49:00+00:00",
+  "generatedAt": "2026-07-13T10:01:34+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": null,
   "stats": {
-    "games": 362,
+    "games": 363,
     "played": 12,
     "trending": 45,
-    "withEnglishDescription": 362,
+    "withEnglishDescription": 363,
     "categoryCounts": {
-      "action": 261,
+      "action": 262,
       "factory": 55,
       "free": 33,
       "horror": 44,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 362
+      "steam": 363
     }
   },
   "games": [
@@ -33734,8 +33734,8 @@
       }
     },
     {
-      "id": 746,
-      "title": "GERONIMO",
+      "id": 747,
+      "title": "Angels Fall First",
       "categories": [
         "action"
       ],
@@ -33747,17 +33747,17 @@
       "crossplay": false,
       "players": "2-4",
       "releaseYear": 2026,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2019620/c18168bcea25a3fa7d835319ddc4aadb2281e997/header.jpg?t=1783702823",
-      "description": "GERONIMO is an immersive, tactical CQB shooter built for Virtual Reality that depicts a modern-day world in which Tier 1 operators are called to implement unconventional operations as members of elite teams. Breaching, in-depth character and weapon customization and more! \"Who Dares, Wins\"",
-      "description_en": "GERONIMO is an immersive, tactical CQB shooter built for Virtual Reality that depicts a modern-day world in which Tier 1 operators are called to implement unconventional operations as members of elite teams. Breaching, in-depth character and weapon customization and more! \"Who Dares, Wins\"",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367270/fa7defd4ca90f5f306de47576a3424d8006d12f5/header.jpg?t=1783807186",
+      "description": "From commanding the battle standing on the bridge of your flagship all the way down to tactical infantry firefights - AFF brings together all the combat you ever loved in a rich science fiction setting. Boarding, pilotable capital ships, deep weapon customization and full Bot support included!",
+      "description_en": "From commanding the battle standing on the bridge of your flagship all the way down to tactical infantry firefights - AFF brings together all the combat you ever loved in a rich science fiction setting. Boarding, pilotable capital ships, deep weapon customization and full Bot support included!",
       "personalNote": "",
       "played": false,
-      "steamUrl": "https://store.steampowered.com/app/2019620/",
+      "steamUrl": "https://store.steampowered.com/app/367270/",
       "epicUrl": "",
       "itchUrl": "",
-      "ccu": 0,
+      "ccu": 3,
       "trending": false,
-      "rating": 84,
+      "rating": 82,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
@@ -33771,14 +33771,14 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 433,
+      "totalReviews": 2714,
       "mini_review_it": "",
       "mini_review_en": "",
-      "slug": "geronimo",
+      "slug": "angels-fall-first",
       "isFeaturedIndie": false,
       "descriptions": {
-        "it": "GERONIMO is an immersive, tactical CQB shooter built for Virtual Reality that depicts a modern-day world in which Tier 1 operators are called to implement unconventional operations as members of elite teams. Breaching, in-depth character and weapon customization and more! &quot;Who Dares, Wins&quot;",
-        "en": "GERONIMO is an immersive, tactical CQB shooter built for Virtual Reality that depicts a modern-day world in which Tier 1 operators are called to implement unconventional operations as members of elite teams. Breaching, in-depth character and weapon customization and more! &quot;Who Dares, Wins&quot;"
+        "it": "From commanding the battle standing on the bridge of your flagship all the way down to tactical infantry firefights - AFF brings together all the combat you ever loved in a rich science fiction setting. Boarding, pilotable capital ships, deep weapon customization and full Bot support included!",
+        "en": "From commanding the battle standing on the bridge of your flagship all the way down to tactical infantry firefights - AFF brings together all the combat you ever loved in a rich science fiction setting. Boarding, pilotable capital ships, deep weapon customization and full Bot support included!"
       },
       "taxonomy": {
         "categories": [
@@ -33798,17 +33798,106 @@
       "storefronts": [
         {
           "store": "steam",
-          "url": "https://store.steampowered.com/app/2019620/",
-          "externalId": "2019620"
+          "url": "https://store.steampowered.com/app/367270/",
+          "externalId": "367270"
         }
       ],
       "externalIds": {
-        "steamAppId": "2019620"
+        "steamAppId": "367270"
+      },
+      "signals": {
+        "ccu": 3,
+        "trending": false,
+        "rating": 82,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 748,
+      "title": "Forest Escape: Last Train",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4090360/5a5b369294e9cb25caa6e0b6eb0f579ba2f2b4f0/header_alt_assets_2.jpg?t=1783703628",
+      "description": "Forest Escape: Last Train is a co-op surreal horror game for 1–4 players. Explore bizarre nightmare locations, gather resources, solve the insane Warden's twisted puzzles, and keep your locomotive running as you fight to escape his unhinged world.",
+      "description_en": "Forest Escape: Last Train is a co-op surreal horror game for 1–4 players. Explore bizarre nightmare locations, gather resources, solve the insane Warden's twisted puzzles, and keep your locomotive running as you fight to escape his unhinged world.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4090360/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 83,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 171,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "forest-escape-last-train",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Forest Escape: Last Train is a co-op surreal horror game for 1–4 players. Explore bizarre nightmare locations, gather resources, solve the insane Warden&#x27;s twisted puzzles, and keep your locomotive running as you fight to escape his unhinged world.",
+        "en": "Forest Escape: Last Train is a co-op surreal horror game for 1–4 players. Explore bizarre nightmare locations, gather resources, solve the insane Warden&#x27;s twisted puzzles, and keep your locomotive running as you fight to escape his unhinged world."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4090360/",
+          "externalId": "4090360"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4090360"
       },
       "signals": {
         "ccu": 0,
         "trending": false,
-        "rating": 84,
+        "rating": 83,
         "igdb": false,
         "gog": false,
         "rawg": false

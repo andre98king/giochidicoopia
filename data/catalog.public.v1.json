@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-13T10:01:34+00:00",
+  "generatedAt": "2026-07-14T08:39:27+00:00",
   "featuredIndieId": null,
   "games": [
     {
@@ -15191,46 +15191,6 @@
       "ccu": 3,
       "trending": false,
       "rating": 82,
-      "igUrl": "",
-      "igDiscount": 0,
-      "gbUrl": "",
-      "gbDiscount": 0,
-      "gsUrl": "",
-      "gsDiscount": 0,
-      "kgUrl": "",
-      "kgDiscount": 0,
-      "gmvUrl": "",
-      "gmvDiscount": 0,
-      "gmgUrl": "",
-      "gmgDiscount": 0,
-      "coopScore": null
-    },
-    {
-      "id": 748,
-      "slug": "forest-escape-last-train",
-      "title": "Forest Escape: Last Train",
-      "categories": [
-        "action"
-      ],
-      "genres": [],
-      "coopMode": [
-        "online"
-      ],
-      "maxPlayers": 4,
-      "crossplay": false,
-      "players": "1-4",
-      "releaseYear": 2026,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4090360/5a5b369294e9cb25caa6e0b6eb0f579ba2f2b4f0/header_alt_assets_2.jpg?t=1783703628",
-      "description": "Forest Escape: Last Train is a co-op surreal horror game for 1–4 players. Explore bizarre nightmare locations, gather resources, solve the insane Warden's twisted puzzles, and keep your locomotive running as you fight to escape his unhinged world.",
-      "description_en": "Forest Escape: Last Train is a co-op surreal horror game for 1–4 players. Explore bizarre nightmare locations, gather resources, solve the insane Warden's twisted puzzles, and keep your locomotive running as you fight to escape his unhinged world.",
-      "personalNote": "",
-      "played": false,
-      "steamUrl": "https://store.steampowered.com/app/4090360/",
-      "epicUrl": "",
-      "itchUrl": "",
-      "ccu": 0,
-      "trending": false,
-      "rating": 83,
       "igUrl": "",
       "igDiscount": 0,
       "gbUrl": "",
