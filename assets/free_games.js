@@ -13,5 +13,12 @@ const freeGames = [
     "imageUrl": "https://cdn1.epicgames.com/spt-assets/0b68dfc82a014fe2ac9971f13e0e3ce5/tattoo-tycoon-11qwx.jpg",
     "storeUrl": "https://store.epicgames.com/en-US/p/tattoo-tycoon-b4352c",
     "freeUntil": "2026-07-16T15:00:00Z"
+  },
+  {
+    "title": "Catch Me!",
+    "store": "steam",
+    "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1741160/c6cabfebbeecf6adaca30a320b5693a5af8f0313/header.jpg?t=1784133968",
+    "storeUrl": "https://store.steampowered.com/app/1741160/",
+    "freeUntil": "2026-07-17T17:00:00Z"
   }
 ];
