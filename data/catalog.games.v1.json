@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-16T08:45:32+00:00",
+  "generatedAt": "2026-07-17T08:43:25+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": null,
   "stats": {
-    "games": 362,
+    "games": 364,
     "played": 12,
     "trending": 45,
-    "withEnglishDescription": 362,
+    "withEnglishDescription": 364,
     "categoryCounts": {
-      "action": 261,
+      "action": 263,
       "factory": 55,
       "free": 33,
       "horror": 44,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 362
+      "steam": 364
     }
   },
   "games": [
@@ -33809,6 +33809,184 @@
         "ccu": 3,
         "trending": false,
         "rating": 82,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 749,
+      "title": "Sketchy's Contract",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2823080/237f2443665c1e1c5722f7f68b65113b86fb2890/header.jpg?t=1784130518",
+      "description": "A 1-8 player co-op sci-fi looter horror game that takes place on a mysterious asteroid belt where players must complete contracts by traveling to exotic planets to kill creatures, find loot, and/or farm planetary materials that they must return to an ominous figure named Sketchy.",
+      "description_en": "A 1-8 player co-op sci-fi looter horror game that takes place on a mysterious asteroid belt where players must complete contracts by traveling to exotic planets to kill creatures, find loot, and/or farm planetary materials that they must return to an ominous figure named Sketchy.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2823080/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 21,
+      "trending": false,
+      "rating": 85,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 1187,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "sketchys-contract",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "A 1-8 player co-op sci-fi looter horror game that takes place on a mysterious asteroid belt where players must complete contracts by traveling to exotic planets to kill creatures, find loot, and/or farm planetary materials that they must return to an ominous figure named Sketchy.",
+        "en": "A 1-8 player co-op sci-fi looter horror game that takes place on a mysterious asteroid belt where players must complete contracts by traveling to exotic planets to kill creatures, find loot, and/or farm planetary materials that they must return to an ominous figure named Sketchy."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2823080/",
+          "externalId": "2823080"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2823080"
+      },
+      "signals": {
+        "ccu": 21,
+        "trending": false,
+        "rating": 85,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 750,
+      "title": "A Game About Chopping Trees",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4512570/3bb6001526b9f15a81b0c59d006012b8702d2059/header.jpg?t=1784122534",
+      "description": "Grab your axe, hop on the handcar, and lose yourself in the forest. Chop trees, upgrade your gear, and enjoy the ride - alone or with a friend",
+      "description_en": "Grab your axe, hop on the handcar, and lose yourself in the forest. Chop trees, upgrade your gear, and enjoy the ride - alone or with a friend",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4512570/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 86,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 215,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "a-game-about-chopping-trees",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Grab your axe, hop on the handcar, and lose yourself in the forest. Chop trees, upgrade your gear, and enjoy the ride - alone or with a friend",
+        "en": "Grab your axe, hop on the handcar, and lose yourself in the forest. Chop trees, upgrade your gear, and enjoy the ride - alone or with a friend"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4512570/",
+          "externalId": "4512570"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4512570"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 86,
         "igdb": false,
         "gog": false,
         "rawg": false
