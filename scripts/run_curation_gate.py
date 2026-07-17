@@ -79,10 +79,12 @@ def classify_game(game: dict) -> str:
         # Gioco nuovo ( < 90 giorni) con reviews=0 → PROBATION, non REJECTED
         # SteamSpy impiega tempo a popolare i dati per giochi appena usciti
         if total_reviews == 0:
+            if rating > 0:
+                return "PROBATION"  # ha rating valido → probabile dato mancante, non scartare
             if days_old < 90:
                 return "PROBATION"
             else:
-                return "REJECTED"  # gioco vecchio senza recensioni = sospetto
+                return "REJECTED"  # gioco vecchio senza recensioni e senza rating = sospetto
 
         if total_reviews < 3:
             return "REJECTED"
