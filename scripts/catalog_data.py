@@ -432,6 +432,7 @@ def build_public_catalog_export(games: list[dict[str, Any]]) -> dict[str, Any]:
                 "gmgUrl": game.get("gmgUrl", ""),
                 "gmgDiscount": game.get("gmgDiscount") or 0,
                 "coopScore": game.get("coopScore"),
+                "totalReviews": game.get("totalReviews") or 0,
             }
         )
 

@@ -209,6 +209,14 @@ def main():
     with open(catalog_path, "w", encoding="utf-8") as f:
         json.dump(output_data, f, indent=2, ensure_ascii=False)
 
+    import catalog_data
+    from catalog_data import build_catalog_artifact
+
+    canonical_path = catalog_data.CATALOG_JSON
+    canonical_data = build_catalog_artifact(approved_games)
+    with open(canonical_path, "w", encoding="utf-8") as f:
+        json.dump(canonical_data, f, indent=2, ensure_ascii=False)
+
     print(
         f"✅ Curation → Approved: {approved_count} | ⏳ Probation: {probation_count} | 🚫 Rejected: {rejected_count}"
     )
