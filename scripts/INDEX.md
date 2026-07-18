@@ -28,7 +28,8 @@ auto_update.py
   → fetch_gamivo_prices.py      (continue-on-error)
   → fetch_k4g_prices.py         (continue-on-error)
   → fetch_gmg_prices.py         (continue-on-error)
-  → build_static_pages.py
+  → run_curation_gate.py        ← scrive catalog.public.v1.json + catalog.games.v1.json
+  → build_static_pages.py       ← genera pagine HTML + sitemap (NON scrive catalog JSON)
   → build_hub_pages.py
   → validate_catalog.py
 ```
@@ -36,7 +37,8 @@ auto_update.py
 | Script | Ruolo | Input | Output |
 |--------|-------|-------|--------|
 | `auto_update.py` | Pipeline principale: aggiorna CCU/rating, scopre nuovi giochi, arricchisce, scrive games.js | `assets/games.js`, API Steam/IGDB/GOG/RAWG | `assets/games.js`, `data/catalog.*.json` |
-| `build_static_pages.py` | Genera `games/<id>.html` + `sitemap*.xml` per SEO | `assets/games.js`, `data/seo_overrides.json` | `games/*.html`, `sitemap*.xml` |
+| `run_curation_gate.py` | Curation gate: classifica APPROVED/PROBATION/REJECTED, scrive catalog JSON | `catalog_data.load_games()` | `data/catalog.public.v1.json`, `data/catalog.games.v1.json` |
+| `build_static_pages.py` | Genera `games/<id>.html` + `sitemap*.xml` per SEO (NON scrive catalog JSON) | `data/catalog.public.v1.json`, `data/seo_overrides.json` | `games/*.html`, `sitemap*.xml` |
 | `build_hub_pages.py` | Genera hub pages IT (`giochi-coop-*.html`) | `assets/games.js`, `data/hub_editorial.json` | `giochi-coop-*.html` |
 | `validate_catalog.py` | Controlla integrità post-build: ID duplicati, campi mancanti, sitemap | `assets/games.js`, `games/*.html`, `sitemap*.xml` | stdout (errori fatali fanno fallire CI) |
 

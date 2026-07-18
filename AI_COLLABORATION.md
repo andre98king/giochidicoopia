@@ -4,6 +4,32 @@ Registro delle modifiche non banali apportate da agenti AI al progetto.
 
 ---
 
+## 2026-07-17
+
+### Fix pipeline dati: totalReviews + curation gate + canonical artifact
+
+**Problema**: Il catalogo `catalog.public.v1.json` aveva `totalReviews: 0` per tutti i giochi — il campo mancava dall'export. Inoltre, giochi validi con `rating>0` ma `totalReviews=0` (dati Steam mancanti) venivano classificati REJECTED invece di PROBATION.
+
+**File modificati**:
+
+| File | Modifica |
+|------|----------|
+| `scripts/catalog_data.py:434` | Aggiunto campo `totalReviews` a `build_public_catalog_export()` — era assente |
+| `scripts/build_static_pages.py:1179` | Rimosso `write_catalog_artifact()` e `write_public_catalog_export()` — la curation gate gestisce i catalog JSON |
+| `scripts/run_curation_gate.py:199-207` | Aggiunto scrittura `catalog.games.v1.json` tramite `build_catalog_artifact()` — prima scriveva solo `catalog.public.v1.json` |
+
+**Fix curation gate** (`scripts/run_curation_gate.py`):
+- Giochi con `rating>0` ma `totalReviews=0` → PROBATION (non REJECTED)
+- Canonical artifact `catalog.games.v1.json` ora scritto dalla curation gate
+- `build_static_pages.py` non sovrascrive più i catalog JSON
+
+**Risultato**:
+- 482 giochi nel catalogo (371 approved + 111 probation)
+- Top gioco: GTA V con 1,990,556 recensioni (prima mostrava 11)
+- `validate_catalog.py` passa clean (0 errori)
+
+---
+
 ## 2026-04-02
 
 ### Co-op Classifier AI - Training & Development (Claude Code + Ollama)

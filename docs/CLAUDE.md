@@ -22,12 +22,21 @@ Contiene vincoli architetturali, convenzioni SEO e regole di sicurezza. **L'AI D
 ## 🏗️ Architettura Pipeline & Dati
 
 - **Generator**: `scripts/build_static_pages.py` + `scripts/html_fragments.py` + `scripts/seo_content_generator.py`
-- **Dati**: `data/catalog.games.v1.json` → campi reali: `title`, `description`, `description_en`, `coopMode` (array), `players` (stringa, es. `"2-4"`), `image`, `categories`, `steamUrl`
+- **Dati**: `data/catalog.games.v1.json` → campi reali: `title`, `description`, `description_en`, `coopMode` (array), `players` (stringa, es. `"2-4"`), `image`, `categories`, `steamUrl`, `totalReviews`, `rating`
 - **URL Routing**: `games/{game['id']}.html` (IT) | `games/en/{game['id']}.html` (EN)
 - **Templating**: `safe_template()` con regex `\{([a-zA-Z_][a-zA-Z0-9_]*)\}`. Placeholder HEAD: `{title}, {description}, {it_url}, {en_url}, {image}, {asset_version}, {jsonld}`
 - **Hreflang/Canonical**: Bidirezionale IT↔EN + `<link rel="canonical">` → OBBLIGATORIO per evitare duplicate content.
 - **Schema JSON-LD**: `VideoGame` via `generate_json_ld()` in `seo_content_generator.py`. Sempre `json.dumps(..., ensure_ascii=False)`.
 - **Thin Content**: `generate_game_description()` in `seo_content_generator.py` — blocco HTML deterministico 130-170 parole, seed `hashlib.md5(game_id)`.
+
+### Pipeline dati (aggiornamento luglio 2026)
+
+La pipeline ha 3 fasi principali:
+1. **Curation gate** (`run_curation_gate.py`): Classifica giochi APPROVED/PROBATION/REJECTED, scrive `catalog.public.v1.json` E `catalog.games.v1.json`
+2. **Build** (`build_static_pages.py`): Legge `catalog.public.v1.json`, genera pagine statiche + sitemap (NON scrive catalog JSON)
+3. **Validate** (`validate_catalog.py`): Verifica coerenza tra artifact e pagine generate
+
+**Regola critica**: Solo `run_curation_gate.py` può scrivere i catalog JSON. `build_static_pages.py` li legge ma non li modifica.
 
 <details>
 <summary>🗂️ Struttura cartelle chiave</summary>
@@ -70,6 +79,9 @@ Contiene vincoli architetturali, convenzioni SEO e regole di sicurezza. **L'AI D
 
 ## 📅 DECISION LOG
 
+- `2026-07-17` — fix(data): `totalReviews` mancante da `catalog.public.v1.json` → `catalog_data.py:434` (+campo)
+- `2026-07-17` — fix(pipeline): `build_static_pages.py` non scrive più catalog JSON → curation gate gestisce
+- `2026-07-17` — feat(curation): canonical artifact `catalog.games.v1.json` scritto da `run_curation_gate.py`
 - `2026-04-03` — fix(qgate): `low_reviews:0` falso positivo (+198 giochi) → `53305fa7`
 - `2026-04-03` — feat(CI): bypass `blocked_keyword` + audit export → `b8e54ef6`
 - `2026-04-03` — docs: context sync CLAUDE.md → `c36163c0`
@@ -84,7 +96,7 @@ Contiene vincoli architetturali, convenzioni SEO e regole di sicurezza. **L'AI D
 | `<title>` | `max 60 char` | `f"{game['title']} ({coop_str} · {game.get('players', '?')}P) | GiochiDiCoop"` + troncamento su `…` |
 | `<meta description>` | `max 155 char` | Prima frase di `description` + `" Scopri modalità {coop_str} e alternative simili."` + troncamento su spazio |
 | Thin content | 130-170 parole/pagina | `generate_game_description(game, lang)` — deterministico, seed md5 |
-| `sitemap.xml` | Valida | 1162 URL totali (main + hubs + games-1/2). 100% HTTP 200. |
+| `sitemap.xml` | Valida | ~1,226 URL totali (main + hubs + games-1/2). 100% HTTP 200. |
 | `robots.txt` | Selettivo | Blocca AI training crawler (GPTBot, ClaudeBot, etc.), consente Googlebot/Bingbot. |
 | Headings | Strutturati | Un solo `h1` per pagina. Gerarchia `h2`/`h3` rispettata. |
 

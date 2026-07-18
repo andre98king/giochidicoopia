@@ -11,6 +11,8 @@ Sei nella cartella degli script Python della pipeline dati di coophubs.net.
 - Gli script usano **bare imports** (`import catalog_data`, `from quality_gate import ...`).
   Non spostare mai file in sottocartelle — romperebbe tutti gli import.
 - `assets/games.js` (~94K token) è il database principale. Usa `catalog_data.py` per leggerlo/scriverlo programmaticamente.
+- **Solo `run_curation_gate.py` può scrivere i catalog JSON** (`catalog.public.v1.json`, `catalog.games.v1.json`).
+  `build_static_pages.py` li legge ma non li modifica.
 - Ogni modifica alla pipeline va testata con:
   ```bash
   python3 scripts/validate_catalog.py

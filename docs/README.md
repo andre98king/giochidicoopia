@@ -6,7 +6,7 @@ A static website cataloguing the best PC co-op games, with automatic weekly upda
 
 ## Features
 
-- **325+ co-op games** organized by category (Horror, Action, Puzzle, Splitscreen, RPG, Survival, Factory, Roguelike, Sport, Strategy)
+- **480+ co-op games** organized by category (Horror, Action, Puzzle, Splitscreen, RPG, Survival, Factory, Roguelike, Sport, Strategy)
 - **Bilingual UI** — switch between Italian and English
 - **Steam ratings** — color-coded review scores (Overwhelmingly Positive → Negative)
 - **Live player counts** — trending badge for games with active communities
@@ -44,5 +44,6 @@ python3 -m http.server 8080
 
 ```bash
 python3 auto_update.py
+python3 scripts/run_curation_gate.py
 python3 build_static_pages.py
 ```

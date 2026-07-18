@@ -11,11 +11,13 @@ temporaneo, e cosa non va toccato durante la CI.
 
 | File | Scritto da | Letto da | Commit in git? |
 |------|-----------|---------|---------------|
-| `catalog.games.v1.json` | `catalog_data.py` | `catalog_data.py` | ✅ Sì (CI) |
-| `catalog.public.v1.json` | `catalog_data.py` | `catalog_data.py` | ✅ Sì (CI) |
+| `catalog.games.v1.json` | `run_curation_gate.py` | `validate_catalog.py` | ✅ Sì (CI) |
+| `catalog.public.v1.json` | `run_curation_gate.py` | `app.js`, `build_static_pages.py` | ✅ Sì (CI) |
 
-> `catalog.games.v1.json` = catalogo completo (con campi privati)
-> `catalog.public.v1.json` = versione ridotta per uso pubblico
+> `catalog.games.v1.json` = catalogo completo con campi derivati + stats (canonical artifact)
+> `catalog.public.v1.json` = versione ridotta per uso pubblico (frontend + build)
+>
+> ⚠️ **Solo `run_curation_gate.py` può scrivere questi file.** `build_static_pages.py` li legge ma non li modifica.
 
 ---
 
