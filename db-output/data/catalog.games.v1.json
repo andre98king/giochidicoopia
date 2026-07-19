@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-17T14:49:19+00:00",
+  "generatedAt": "2026-07-19T08:37:58+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
-  "featuredIndieId": null,
+  "featuredIndieId": 180,
   "stats": {
-    "games": 474,
+    "games": 483,
     "played": 12,
     "trending": 46,
-    "withEnglishDescription": 474,
+    "withEnglishDescription": 483,
     "categoryCounts": {
-      "action": 369,
+      "action": 378,
       "factory": 61,
       "free": 36,
       "horror": 45,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 474
+      "steam": 483
     }
   },
   "games": [
@@ -11344,7 +11344,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 150,
@@ -13522,7 +13523,7 @@
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "fantasy-life-i-the-girl-who-steals-time",
-      "isFeaturedIndie": false,
+      "isFeaturedIndie": true,
       "descriptions": {
         "it": "Tuffati in questo nuovo rilassante GDR in cui potrai scegliere tra 14 professioni uniche, i cosiddetti &quot;Mestieri,&quot; e goditi una vita spensierata in questo mondo fantastico. Pesca, cucina, personalizza l&#x27;isola o fai squadra con gli amici per affrontare i mostri che popolano questo vasto mondo.",
         "en": "Step into this Slow-Life RPG where you can freely switch between 14 unique jobs, so called &quot;Lives,&quot; and enjoy a carefree life in a fantasy world. Fish, cook, shape the island to your liking, or team up with friends to battle monsters across the vast world."
@@ -19679,7 +19680,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 258,
@@ -19770,7 +19772,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 259,
@@ -20043,7 +20046,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 263,
@@ -20227,7 +20231,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 265,
@@ -20323,7 +20328,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 266,
@@ -20414,7 +20420,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 268,
@@ -20600,7 +20607,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 270,
@@ -20784,7 +20792,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 272,
@@ -21155,7 +21164,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 277,
@@ -21248,7 +21258,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 278,
@@ -21901,7 +21912,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 285,
@@ -30350,7 +30362,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 430,
@@ -30443,7 +30456,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 431,
@@ -30537,7 +30551,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 433,
@@ -31099,7 +31114,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 522,
@@ -31192,7 +31208,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 523,
@@ -31285,7 +31302,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 524,
@@ -31374,7 +31392,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 525,
@@ -31463,7 +31482,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 526,
@@ -31556,7 +31576,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 527,
@@ -31649,7 +31670,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 528,
@@ -31742,7 +31764,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 529,
@@ -31835,7 +31858,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 530,
@@ -32024,7 +32048,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 532,
@@ -32117,7 +32142,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 533,
@@ -32303,7 +32329,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 541,
@@ -32860,7 +32887,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 581,
@@ -33130,7 +33158,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 586,
@@ -34785,7 +34814,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 611,
@@ -34874,7 +34904,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 615,
@@ -34963,7 +34994,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 627,
@@ -35052,7 +35084,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 629,
@@ -35972,7 +36005,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 639,
@@ -36061,7 +36095,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 640,
@@ -36150,7 +36185,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 641,
@@ -36239,7 +36275,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 642,
@@ -36328,7 +36365,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 662,
@@ -36417,7 +36455,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 663,
@@ -36506,7 +36545,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 664,
@@ -36595,7 +36635,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 665,
@@ -36684,7 +36725,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 666,
@@ -36773,7 +36815,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 667,
@@ -36862,7 +36905,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 668,
@@ -36951,7 +36995,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 669,
@@ -37041,7 +37086,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 670,
@@ -37130,7 +37176,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 671,
@@ -37219,7 +37266,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 672,
@@ -37397,7 +37445,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 674,
@@ -37486,7 +37535,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 675,
@@ -37577,7 +37627,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 676,
@@ -37666,7 +37717,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 677,
@@ -37755,7 +37807,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 678,
@@ -37844,7 +37897,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 679,
@@ -37933,7 +37987,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 680,
@@ -38026,7 +38081,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 681,
@@ -38115,7 +38171,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 682,
@@ -38294,7 +38351,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 684,
@@ -38384,7 +38442,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 685,
@@ -38473,7 +38532,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 686,
@@ -38562,7 +38622,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 687,
@@ -38651,7 +38712,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 688,
@@ -38740,7 +38802,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 689,
@@ -38918,7 +38981,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 691,
@@ -39096,7 +39160,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 693,
@@ -39186,7 +39251,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 694,
@@ -39276,7 +39342,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 695,
@@ -39365,7 +39432,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 696,
@@ -39454,7 +39522,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 698,
@@ -39543,7 +39612,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 699,
@@ -39632,7 +39702,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 700,
@@ -39721,7 +39792,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 701,
@@ -39810,7 +39882,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 702,
@@ -39899,7 +39972,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 703,
@@ -39988,7 +40062,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 704,
@@ -40078,7 +40153,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 705,
@@ -40167,7 +40243,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 706,
@@ -40256,7 +40333,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 707,
@@ -40346,7 +40424,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 708,
@@ -40435,7 +40514,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 709,
@@ -40613,7 +40693,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 711,
@@ -40702,7 +40783,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 712,
@@ -40791,7 +40873,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 713,
@@ -40880,7 +40963,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 714,
@@ -41058,7 +41142,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 716,
@@ -41147,7 +41232,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 717,
@@ -41325,7 +41411,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 720,
@@ -41414,7 +41501,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 721,
@@ -41503,7 +41591,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 722,
@@ -41683,7 +41772,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 724,
@@ -41772,7 +41862,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 725,
@@ -41861,7 +41952,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 726,
@@ -41950,7 +42042,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 727,
@@ -42039,7 +42132,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 728,
@@ -42130,7 +42224,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 729,
@@ -42308,7 +42403,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 731,
@@ -42397,7 +42493,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 732,
@@ -42486,7 +42583,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 733,
@@ -42664,7 +42762,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 735,
@@ -42753,7 +42852,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 737,
@@ -42842,7 +42942,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 738,
@@ -42931,7 +43032,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 739,
@@ -43020,7 +43122,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 741,
@@ -43111,7 +43214,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 742,
@@ -43200,7 +43304,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 743,
@@ -43291,7 +43396,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 744,
@@ -43380,7 +43486,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 745,
@@ -43469,7 +43576,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 746,
@@ -43558,7 +43666,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 747,
@@ -43736,7 +43845,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 749,
@@ -43865,7 +43975,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 215,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "a-game-about-chopping-trees",
@@ -43903,6 +44013,815 @@
         "ccu": 0,
         "trending": false,
         "rating": 86,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 752,
+      "title": "Go-Go Town!",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2195120/f6246e7ab8ceb5ec049b6d379ad42c4d0b28d11b/header_alt_assets_5.jpg?t=1784246414",
+      "description": "Step into the role of a hands-on mayor and build your town from the ground up. Plan neighborhoods, automate logistics, and grow your community—all while juggling workers, infrastructure, and day-to-day chaos to create your dream town. Play solo for total control, or bring friends for co-op mayhem.",
+      "description_en": "Step into the role of a hands-on mayor and build your town from the ground up. Plan neighborhoods, automate logistics, and grow your community—all while juggling workers, infrastructure, and day-to-day chaos to create your dream town. Play solo for total control, or bring friends for co-op mayhem.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2195120/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 43,
+      "trending": false,
+      "rating": 94,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 1828,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "go-go-town",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Step into the role of a hands-on mayor and build your town from the ground up. Plan neighborhoods, automate logistics, and grow your community—all while juggling workers, infrastructure, and day-to-day chaos to create your dream town. Play solo for total control, or bring friends for co-op mayhem.",
+        "en": "Step into the role of a hands-on mayor and build your town from the ground up. Plan neighborhoods, automate logistics, and grow your community—all while juggling workers, infrastructure, and day-to-day chaos to create your dream town. Play solo for total control, or bring friends for co-op mayhem."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2195120/",
+          "externalId": "2195120"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2195120"
+      },
+      "signals": {
+        "ccu": 43,
+        "trending": false,
+        "rating": 94,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 754,
+      "title": "GROUND BRANCH",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/16900/500dee13d8a31afb0e818a8666ed1a646f6c2fb2/header.jpg?t=1784224013",
+      "description": "From one of the developers behind the original Rainbow Six® and Ghost Recon® games, comes a thinking-man's first-person shooter featuring in-depth character and weapon customization. Take your time. Think ahead. Get the job done.",
+      "description_en": "From one of the developers behind the original Rainbow Six® and Ghost Recon® games, comes a thinking-man's first-person shooter featuring in-depth character and weapon customization. Take your time. Think ahead. Get the job done.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/16900/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 349,
+      "trending": false,
+      "rating": 89,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 21676,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "ground-branch",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "From one of the developers behind the original Rainbow Six® and Ghost Recon® games, comes a thinking-man&#x27;s first-person shooter featuring in-depth character and weapon customization. Take your time. Think ahead. Get the job done.",
+        "en": "From one of the developers behind the original Rainbow Six® and Ghost Recon® games, comes a thinking-man&#x27;s first-person shooter featuring in-depth character and weapon customization. Take your time. Think ahead. Get the job done."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/16900/",
+          "externalId": "16900"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "16900"
+      },
+      "signals": {
+        "ccu": 349,
+        "trending": false,
+        "rating": 89,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 755,
+      "title": "Funnel Runners",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 8,
+      "crossplay": false,
+      "players": "1-8",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/5e03554f7fd68edf54813a8d5a576a8791672227/header.jpg?t=1784232579",
+      "description": "Trapped in a doomed city, you and up to 7 friends must scavenge parts, fix your van, and escape the brutal tornado that approaches. A first-person co-op survival game with escalating disasters and total environmental destruction.",
+      "description_en": "Trapped in a doomed city, you and up to 7 friends must scavenge parts, fix your van, and escape the brutal tornado that approaches. A first-person co-op survival game with escalating disasters and total environmental destruction.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3712080/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 85,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "funnel-runners",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Trapped in a doomed city, you and up to 7 friends must scavenge parts, fix your van, and escape the brutal tornado that approaches. A first-person co-op survival game with escalating disasters and total environmental destruction.",
+        "en": "Trapped in a doomed city, you and up to 7 friends must scavenge parts, fix your van, and escape the brutal tornado that approaches. A first-person co-op survival game with escalating disasters and total environmental destruction."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-8",
+        "maxPlayers": 8
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3712080/",
+          "externalId": "3712080"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3712080"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 85,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 756,
+      "title": "Storebound",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3417410/e08adeec74ffc78abd2578507f2ae0871bd69277/header_alt_assets_1.jpg?t=1784213910",
+      "description": "A 1-3 player co-op puzzle horror game set in an accursed megastore. Work together to decode the store's twisted logic, and find a way out before the lurking horrors doom you to shop forever.",
+      "description_en": "A 1-3 player co-op puzzle horror game set in an accursed megastore. Work together to decode the store's twisted logic, and find a way out before the lurking horrors doom you to shop forever.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3417410/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 76,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "storebound",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "A 1-3 player co-op puzzle horror game set in an accursed megastore. Work together to decode the store&#x27;s twisted logic, and find a way out before the lurking horrors doom you to shop forever.",
+        "en": "A 1-3 player co-op puzzle horror game set in an accursed megastore. Work together to decode the store&#x27;s twisted logic, and find a way out before the lurking horrors doom you to shop forever."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3417410/",
+          "externalId": "3417410"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3417410"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 76,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 757,
+      "title": "Happy's Humble Burger Cult",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3453910/9cc27ec2c690ca34d4440b9ca8eb03e15b963fb1/header.jpg?t=1784218708",
+      "description": "The original cooking horror returns in an unhinged co-op experience for 1-4 players. Grill burgers, serve customers, and hit your quota before the kitchen turns into a nightmare. When Asset Joy begins her hunt, try to escape alive and extract your hard-earned cash to survive another shift.",
+      "description_en": "The original cooking horror returns in an unhinged co-op experience for 1-4 players. Grill burgers, serve customers, and hit your quota before the kitchen turns into a nightmare. When Asset Joy begins her hunt, try to escape alive and extract your hard-earned cash to survive another shift.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3453910/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 79,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "happys-humble-burger-cult",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "The original cooking horror returns in an unhinged co-op experience for 1-4 players. Grill burgers, serve customers, and hit your quota before the kitchen turns into a nightmare. When Asset Joy begins her hunt, try to escape alive and extract your hard-earned cash to survive another shift.",
+        "en": "The original cooking horror returns in an unhinged co-op experience for 1-4 players. Grill burgers, serve customers, and hit your quota before the kitchen turns into a nightmare. When Asset Joy begins her hunt, try to escape alive and extract your hard-earned cash to survive another shift."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3453910/",
+          "externalId": "3453910"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3453910"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 79,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 758,
+      "title": "Ore Factory Squad ⛏️",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210580/b305646840dc9db685bc40596da7bdaea388c694/header.jpg?t=1784206688",
+      "description": "Ore Factory Squad is a co-op mining and factory-building game with procedural mining and fun at its core! Play alone or with friends, buy properties, dig deep for valuable resources, complete contracts, upgrade and automate production lines and grow your factory from zero to industry!",
+      "description_en": "Ore Factory Squad is a co-op mining and factory-building game with procedural mining and fun at its core! Play alone or with friends, buy properties, dig deep for valuable resources, complete contracts, upgrade and automate production lines and grow your factory from zero to industry!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4210580/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 90,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "ore-factory-squad",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Ore Factory Squad is a co-op mining and factory-building game with procedural mining and fun at its core! Play alone or with friends, buy properties, dig deep for valuable resources, complete contracts, upgrade and automate production lines and grow your factory from zero to industry!",
+        "en": "Ore Factory Squad is a co-op mining and factory-building game with procedural mining and fun at its core! Play alone or with friends, buy properties, dig deep for valuable resources, complete contracts, upgrade and automate production lines and grow your factory from zero to industry!"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4210580/",
+          "externalId": "4210580"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4210580"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 90,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 759,
+      "title": "Pathogenic",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3808690/61607b65d95681ef02bae9bf79099bc6fe511b56/header.jpg?t=1784222200",
+      "description": "You are a disease. Infect the human body as a lone pathogen in this cellular roguelike shooter. Collect organelles to evolve your parasite in a microscopic arms race against your host's immune system. Conquer a beautiful, procedurally generated world of tiny proportions.",
+      "description_en": "You are a disease. Infect the human body as a lone pathogen in this cellular roguelike shooter. Collect organelles to evolve your parasite in a microscopic arms race against your host's immune system. Conquer a beautiful, procedurally generated world of tiny proportions.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3808690/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 96,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "pathogenic",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "You are a disease. Infect the human body as a lone pathogen in this cellular roguelike shooter. Collect organelles to evolve your parasite in a microscopic arms race against your host&#x27;s immune system. Conquer a beautiful, procedurally generated world of tiny proportions.",
+        "en": "You are a disease. Infect the human body as a lone pathogen in this cellular roguelike shooter. Collect organelles to evolve your parasite in a microscopic arms race against your host&#x27;s immune system. Conquer a beautiful, procedurally generated world of tiny proportions."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3808690/",
+          "externalId": "3808690"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3808690"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 96,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 760,
+      "title": "MAVRIX by Matt Jones",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2926900/ec3b14d945a8fa37364c55b90eecd7eb4d0ef721/header.jpg?t=1784194487",
+      "description": "The ultimate multiplayer open world designed by Pro riders. Discover mountains and trails with limitless control and build your own career. Pull huge tricks or race through the global rankings! Nail challenges to secure sponsorship deals with real world brands. Are you ready?!",
+      "description_en": "The ultimate multiplayer open world designed by Pro riders. Discover mountains and trails with limitless control and build your own career. Pull huge tricks or race through the global rankings! Nail challenges to secure sponsorship deals with real world brands. Are you ready?!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2926900/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 80,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "mavrix-by-matt-jones",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "The ultimate multiplayer open world designed by Pro riders. Discover mountains and trails with limitless control and build your own career. Pull huge tricks or race through the global rankings! Nail challenges to secure sponsorship deals with real world brands. Are you ready?!",
+        "en": "The ultimate multiplayer open world designed by Pro riders. Discover mountains and trails with limitless control and build your own career. Pull huge tricks or race through the global rankings! Nail challenges to secure sponsorship deals with real world brands. Are you ready?!"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2926900/",
+          "externalId": "2926900"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2926900"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 80,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 761,
+      "title": "Active Soccer 3",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2187300/11b0415b5b100242fdf6d3123fe523a70eb7a787/header.jpg?t=1784035819",
+      "description": "Explosive retro arcade action is back! Active Soccer 3 is an exciting retro arcade football game providing a fast-paced arcade experience, implementing amazing playability and responsive easy-to-learn/hard-to-master controls.",
+      "description_en": "Explosive retro arcade action is back! Active Soccer 3 is an exciting retro arcade football game providing a fast-paced arcade experience, implementing amazing playability and responsive easy-to-learn/hard-to-master controls.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2187300/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 75,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 69,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "active-soccer-3",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Explosive retro arcade action is back! Active Soccer 3 is an exciting retro arcade football game providing a fast-paced arcade experience, implementing amazing playability and responsive easy-to-learn/hard-to-master controls.",
+        "en": "Explosive retro arcade action is back! Active Soccer 3 is an exciting retro arcade football game providing a fast-paced arcade experience, implementing amazing playability and responsive easy-to-learn/hard-to-master controls."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2187300/",
+          "externalId": "2187300"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2187300"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 75,
         "igdb": false,
         "gog": false,
         "rawg": false

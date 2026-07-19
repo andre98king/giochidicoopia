@@ -18230,7 +18230,7 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     coopScore: null,
-    totalReviews: 550,
+    totalReviews: 0,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -18265,7 +18265,7 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     coopScore: null,
-    totalReviews: 748,
+    totalReviews: 0,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -18300,7 +18300,7 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     coopScore: null,
-    totalReviews: 162,
+    totalReviews: 0,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -18335,7 +18335,7 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     coopScore: null,
-    totalReviews: 241,
+    totalReviews: 0,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -18370,7 +18370,7 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     coopScore: null,
-    totalReviews: 515,
+    totalReviews: 0,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -18405,7 +18405,7 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     coopScore: null,
-    totalReviews: 869,
+    totalReviews: 0,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -18417,7 +18417,7 @@ const games = [
     maxPlayers: 4,
     crossplay: false,
     players: "2-4",
-    releaseYear: 0,
+    releaseYear: 2026,
     image: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2187300/11b0415b5b100242fdf6d3123fe523a70eb7a787/header.jpg?t=1784035819",
     description: "Explosive retro arcade action is back! Active Soccer 3 is an exciting retro arcade football game providing a fast-paced arcade experience, implementing amazing playability and responsive easy-to-learn/hard-to-master controls.",
     description_en: "Explosive retro arcade action is back! Active Soccer 3 is an exciting retro arcade football game providing a fast-paced arcade experience, implementing amazing playability and responsive easy-to-learn/hard-to-master controls.",
@@ -18428,7 +18428,7 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0,
+    rating: 75,
     igUrl: "",
     igDiscount: 0,
     gbUrl: "",
@@ -18440,7 +18440,7 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     coopScore: null,
-    totalReviews: 101,
+    totalReviews: 69,
     mini_review_it: "",
     mini_review_en: ""
   },
