@@ -17,7 +17,7 @@ const freeGames = [
   {
     "title": "The Life and Suffering of Sir Brante",
     "store": "steam",
-    "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1272160/header.jpg?t=1780003239",
+    "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1272160/header.jpg?t=1784565992",
     "storeUrl": "https://store.steampowered.com/app/1272160/",
     "freeUntil": "2026-07-23T17:00:00Z"
   }
