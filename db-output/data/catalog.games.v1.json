@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-21T08:49:04+00:00",
+  "generatedAt": "2026-07-22T08:48:27+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 483,
+    "games": 485,
     "played": 12,
     "trending": 46,
-    "withEnglishDescription": 483,
+    "withEnglishDescription": 485,
     "categoryCounts": {
-      "action": 378,
+      "action": 380,
       "factory": 61,
       "free": 36,
       "horror": 45,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 483
+      "steam": 485
     }
   },
   "games": [
@@ -44822,6 +44822,185 @@
         "ccu": 0,
         "trending": false,
         "rating": 75,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 762,
+      "title": "Bookshop Simulator",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3467040/2d2a4d580acb178c1478cdd23d3630a1a4245ebc/header_alt_assets_1.jpg?t=1784578538",
+      "description": "Open your own bookshop! Order books, stock your shelves, and earn revenue. Use your profits to decorate, expand, and hire staff. Collect rare books that give powerful abilities. Adopt a cat to keep you and your customers company along the way!",
+      "description_en": "Open your own bookshop! Order books, stock your shelves, and earn revenue. Use your profits to decorate, expand, and hire staff. Collect rare books that give powerful abilities. Adopt a cat to keep you and your customers company along the way!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3467040/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 94,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 1259,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "bookshop-simulator",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Open your own bookshop! Order books, stock your shelves, and earn revenue. Use your profits to decorate, expand, and hire staff. Collect rare books that give powerful abilities. Adopt a cat to keep you and your customers company along the way!",
+        "en": "Open your own bookshop! Order books, stock your shelves, and earn revenue. Use your profits to decorate, expand, and hire staff. Collect rare books that give powerful abilities. Adopt a cat to keep you and your customers company along the way!"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3467040/",
+          "externalId": "3467040"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3467040"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 94,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 763,
+      "title": "ZeroSpace",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 6,
+      "crossplay": false,
+      "players": "1-6",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1605850/88b4d42b10bd4f8a4fa30012def3957ecaef95b3/header.jpg?t=1784567471",
+      "description": "ZeroSpace is a hybrid sci-fi RTS / RPG game that allows you to play as the commander of The Protectorate, a galactic force dedicated to securing humanity’s place in the galaxy. The Orion sector is locked in a vicious power struggle between many alien factions, ready to fight to the death.",
+      "description_en": "ZeroSpace is a hybrid sci-fi RTS / RPG game that allows you to play as the commander of The Protectorate, a galactic force dedicated to securing humanity’s place in the galaxy. The Orion sector is locked in a vicious power struggle between many alien factions, ready to fight to the death.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1605850/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 73,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 347,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "zerospace",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "ZeroSpace is a hybrid sci-fi RTS / RPG game that allows you to play as the commander of The Protectorate, a galactic force dedicated to securing humanity’s place in the galaxy. The Orion sector is locked in a vicious power struggle between many alien factions, ready to fight to the death.",
+        "en": "ZeroSpace is a hybrid sci-fi RTS / RPG game that allows you to play as the commander of The Protectorate, a galactic force dedicated to securing humanity’s place in the galaxy. The Orion sector is locked in a vicious power struggle between many alien factions, ready to fight to the death."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-6",
+        "maxPlayers": 6
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1605850/",
+          "externalId": "1605850"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "1605850"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 73,
         "igdb": false,
         "gog": false,
         "rawg": false
