@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-23T08:49:48+00:00",
+  "generatedAt": "2026-07-24T08:46:40+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 487,
+    "games": 492,
     "played": 12,
     "trending": 46,
-    "withEnglishDescription": 487,
+    "withEnglishDescription": 492,
     "categoryCounts": {
-      "action": 382,
+      "action": 387,
       "factory": 61,
       "free": 36,
       "horror": 45,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 487
+      "steam": 492
     }
   },
   "games": [
@@ -45017,6 +45017,96 @@
       "curatedStatus": "probation"
     },
     {
+      "id": 764,
+      "title": "Soulbound: Online",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 3,
+      "crossplay": false,
+      "players": "1-3",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4369490/832b93764dd41bbf9886677ca0fb157c7785ac01/header_alt_assets_1.jpg?t=1784639494",
+      "description": "Soulbound is a pixel-art action roguelite with an MMORPG overworld. Run fast-paced bullet-heaven dungeons solo or in 3-player co-op, raid bosses, craft gear from your loot, and build out your personal base. Join thousands of players in the quest to explore, trade, and build a new world.",
+      "description_en": "Soulbound is a pixel-art action roguelite with an MMORPG overworld. Run fast-paced bullet-heaven dungeons solo or in 3-player co-op, raid bosses, craft gear from your loot, and build out your personal base. Join thousands of players in the quest to explore, trade, and build a new world.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4369490/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 52,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "soulbound-online",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Soulbound is a pixel-art action roguelite with an MMORPG overworld. Run fast-paced bullet-heaven dungeons solo or in 3-player co-op, raid bosses, craft gear from your loot, and build out your personal base. Join thousands of players in the quest to explore, trade, and build a new world.",
+        "en": "Soulbound is a pixel-art action roguelite with an MMORPG overworld. Run fast-paced bullet-heaven dungeons solo or in 3-player co-op, raid bosses, craft gear from your loot, and build out your personal base. Join thousands of players in the quest to explore, trade, and build a new world."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-3",
+        "maxPlayers": 3
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4369490/",
+          "externalId": "4369490"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4369490"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 52,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
       "id": 765,
       "title": "Meowgic",
       "categories": [
@@ -45054,7 +45144,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 161,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "meowgic",
@@ -45103,7 +45193,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 766,
@@ -45143,7 +45234,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 128,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "everrail",
@@ -45181,6 +45272,363 @@
         "ccu": 0,
         "trending": false,
         "rating": 76,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 767,
+      "title": "DragonSword : Awakening",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4570720/96a897e98f4472e656fbe6681191b3066cab6056/header.jpg?t=1784795371",
+      "description": "Explore the anime-style open world of the Continent of Orbis, brought to life with Unreal Engine 5! Recruit unique companions, unleash spectacular Status Ailment tag-team action, and embark on an epic journey to save the world from the threat of a Dragon reawakened after 60 years.",
+      "description_en": "Explore the anime-style open world of the Continent of Orbis, brought to life with Unreal Engine 5! Recruit unique companions, unleash spectacular Status Ailment tag-team action, and embark on an epic journey to save the world from the threat of a Dragon reawakened after 60 years.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4570720/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 89,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 1490,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "dragonsword-awakening",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Explore the anime-style open world of the Continent of Orbis, brought to life with Unreal Engine 5! Recruit unique companions, unleash spectacular Status Ailment tag-team action, and embark on an epic journey to save the world from the threat of a Dragon reawakened after 60 years.",
+        "en": "Explore the anime-style open world of the Continent of Orbis, brought to life with Unreal Engine 5! Recruit unique companions, unleash spectacular Status Ailment tag-team action, and embark on an epic journey to save the world from the threat of a Dragon reawakened after 60 years."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4570720/",
+          "externalId": "4570720"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4570720"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 89,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 768,
+      "title": "Shift At Midnight",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 3,
+      "crossplay": false,
+      "players": "1-3",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/759ecea2ffe1ad3819aefdda79e265b8b332bf8f/header.jpg?t=1784732222",
+      "description": "An online co-op detective horror for up to 3 players. Work together across randomly generated shifts to investigate your customers, as some are only pretending to be human. Make one mistake, and you’ll be forced to board up, set traps, and hide.",
+      "description_en": "An online co-op detective horror for up to 3 players. Work together across randomly generated shifts to investigate your customers, as some are only pretending to be human. Make one mistake, and you’ll be forced to board up, set traps, and hide.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3722330/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 90,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 1240,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "shift-at-midnight",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "An online co-op detective horror for up to 3 players. Work together across randomly generated shifts to investigate your customers, as some are only pretending to be human. Make one mistake, and you’ll be forced to board up, set traps, and hide.",
+        "en": "An online co-op detective horror for up to 3 players. Work together across randomly generated shifts to investigate your customers, as some are only pretending to be human. Make one mistake, and you’ll be forced to board up, set traps, and hide."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-3",
+        "maxPlayers": 3
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3722330/",
+          "externalId": "3722330"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3722330"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 90,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 769,
+      "title": "Tears of Metal",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/9c62adaca165c8bc1a78990419e2cb35dd940b6b/header.jpg?t=1784731614",
+      "description": "Fight solo or up to 4-player co-op to reclaim your island alongside your Scottish battalion. On each campaign, gain new powerful upgrades, rally your forces, and stop the invader as they carve into the Mother Stone to harvest its power.",
+      "description_en": "Fight solo or up to 4-player co-op to reclaim your island alongside your Scottish battalion. On each campaign, gain new powerful upgrades, rally your forces, and stop the invader as they carve into the Mother Stone to harvest its power.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1913120/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 88,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 590,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "tears-of-metal",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Fight solo or up to 4-player co-op to reclaim your island alongside your Scottish battalion. On each campaign, gain new powerful upgrades, rally your forces, and stop the invader as they carve into the Mother Stone to harvest its power.",
+        "en": "Fight solo or up to 4-player co-op to reclaim your island alongside your Scottish battalion. On each campaign, gain new powerful upgrades, rally your forces, and stop the invader as they carve into the Mother Stone to harvest its power."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1913120/",
+          "externalId": "1913120"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "1913120"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 88,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 770,
+      "title": "Dirty Business",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4324480/0bf41369aa9d8f70fd5b1dfcf9b71b0a5b1074f3/header.jpg?t=1784733062",
+      "description": "Build a criminal empire from a hidden underground hangar. Produce drugs, craft weapons, print fake money, operate cartel airstrip and more. Hire workers, expand your gang, upgrade your base and take control of city distribution solo or in co-op.",
+      "description_en": "Build a criminal empire from a hidden underground hangar. Produce drugs, craft weapons, print fake money, operate cartel airstrip and more. Hire workers, expand your gang, upgrade your base and take control of city distribution solo or in co-op.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4324480/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 75,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 224,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "dirty-business",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Build a criminal empire from a hidden underground hangar. Produce drugs, craft weapons, print fake money, operate cartel airstrip and more. Hire workers, expand your gang, upgrade your base and take control of city distribution solo or in co-op.",
+        "en": "Build a criminal empire from a hidden underground hangar. Produce drugs, craft weapons, print fake money, operate cartel airstrip and more. Hire workers, expand your gang, upgrade your base and take control of city distribution solo or in co-op."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4324480/",
+          "externalId": "4324480"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4324480"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 75,
         "igdb": false,
         "gog": false,
         "rawg": false
