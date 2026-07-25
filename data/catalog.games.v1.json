@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-24T08:46:40+00:00",
+  "generatedAt": "2026-07-25T08:25:44+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 492,
+    "games": 493,
     "played": 12,
     "trending": 46,
-    "withEnglishDescription": 492,
+    "withEnglishDescription": 493,
     "categoryCounts": {
-      "action": 387,
+      "action": 388,
       "factory": 61,
       "free": 36,
       "horror": 45,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 492
+      "steam": 493
     }
   },
   "games": [
@@ -45324,7 +45324,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 1490,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "dragonsword-awakening",
@@ -45373,7 +45373,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 768,
@@ -45413,7 +45414,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 1240,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "shift-at-midnight",
@@ -45462,7 +45463,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 769,
@@ -45502,7 +45504,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 590,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "tears-of-metal",
@@ -45551,7 +45553,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 770,
@@ -45591,7 +45594,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 224,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "dirty-business",
@@ -45629,6 +45632,96 @@
         "ccu": 0,
         "trending": false,
         "rating": 75,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 772,
+      "title": "Pass the Fear",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3561220/75f77fc88eaf0226ebae317a94f05000164c5cc0/header.jpg?t=1784799208",
+      "description": "PASS THE FEAR is a roguelite bullet-hell shooter. A catastrophic Witch’s Disaster strikes without warning, and chaotic magic forms the ancient Wall of Storms. Its corruption spreads relentlessly across the island. As a demon hunter trapped within, you must find a way to escape before dawn breaks.",
+      "description_en": "PASS THE FEAR is a roguelite bullet-hell shooter. A catastrophic Witch’s Disaster strikes without warning, and chaotic magic forms the ancient Wall of Storms. Its corruption spreads relentlessly across the island. As a demon hunter trapped within, you must find a way to escape before dawn breaks.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3561220/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 85,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 588,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "pass-the-fear",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "PASS THE FEAR is a roguelite bullet-hell shooter. A catastrophic Witch’s Disaster strikes without warning, and chaotic magic forms the ancient Wall of Storms. Its corruption spreads relentlessly across the island. As a demon hunter trapped within, you must find a way to escape before dawn breaks.",
+        "en": "PASS THE FEAR is a roguelite bullet-hell shooter. A catastrophic Witch’s Disaster strikes without warning, and chaotic magic forms the ancient Wall of Storms. Its corruption spreads relentlessly across the island. As a demon hunter trapped within, you must find a way to escape before dawn breaks."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3561220/",
+          "externalId": "3561220"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3561220"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 85,
         "igdb": false,
         "gog": false,
         "rawg": false
