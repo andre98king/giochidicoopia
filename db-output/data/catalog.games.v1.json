@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-25T08:25:44+00:00",
+  "generatedAt": "2026-07-27T10:11:56+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 493,
+    "games": 495,
     "played": 12,
     "trending": 46,
-    "withEnglishDescription": 493,
+    "withEnglishDescription": 495,
     "categoryCounts": {
-      "action": 388,
+      "action": 390,
       "factory": 61,
       "free": 36,
       "horror": 45,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 493
+      "steam": 495
     }
   },
   "games": [
@@ -45647,6 +45647,96 @@
       "curatedStatus": "probation"
     },
     {
+      "id": 771,
+      "title": "Carnival Hunt",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1181550/header.jpg?t=1784823412",
+      "description": "Carnival Hunt is a 5v1 first-person asymmetrical horror game. Five wind-up Bunnies must work together, manage their noisy keys, and find a way to escape an ever-changing carnival world while one player hunts them as the Carnival Monster.",
+      "description_en": "Carnival Hunt is a 5v1 first-person asymmetrical horror game. Five wind-up Bunnies must work together, manage their noisy keys, and find a way to escape an ever-changing carnival world while one player hunts them as the Carnival Monster.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1181550/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 63,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "carnival-hunt",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Carnival Hunt is a 5v1 first-person asymmetrical horror game. Five wind-up Bunnies must work together, manage their noisy keys, and find a way to escape an ever-changing carnival world while one player hunts them as the Carnival Monster.",
+        "en": "Carnival Hunt is a 5v1 first-person asymmetrical horror game. Five wind-up Bunnies must work together, manage their noisy keys, and find a way to escape an ever-changing carnival world while one player hunts them as the Carnival Monster."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1181550/",
+          "externalId": "1181550"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "1181550"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 63,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
       "id": 772,
       "title": "Pass the Fear",
       "categories": [
@@ -45684,7 +45774,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 588,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "pass-the-fear",
@@ -45722,6 +45812,96 @@
         "ccu": 0,
         "trending": false,
         "rating": 85,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 773,
+      "title": "Boba Cafe Simulator",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3683770/b21fdafae2937a996d164151925e426571340447/header.jpg?t=1784893308",
+      "description": "You’re reborn—back at the beginning of your startup journey. In your last life, poor management led to your shop being crushed by competitors. This time, the sweet scent of condensed milk runs through your veins, and you’re set on one goal: turn “Sugarville” into the top name in the industry.",
+      "description_en": "You’re reborn—back at the beginning of your startup journey. In your last life, poor management led to your shop being crushed by competitors. This time, the sweet scent of condensed milk runs through your veins, and you’re set on one goal: turn “Sugarville” into the top name in the industry.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3683770/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 95,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 767,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "boba-cafe-simulator",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "You’re reborn—back at the beginning of your startup journey. In your last life, poor management led to your shop being crushed by competitors. This time, the sweet scent of condensed milk runs through your veins, and you’re set on one goal: turn “Sugarville” into the top name in the industry.",
+        "en": "You’re reborn—back at the beginning of your startup journey. In your last life, poor management led to your shop being crushed by competitors. This time, the sweet scent of condensed milk runs through your veins, and you’re set on one goal: turn “Sugarville” into the top name in the industry."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3683770/",
+          "externalId": "3683770"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3683770"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 95,
         "igdb": false,
         "gog": false,
         "rawg": false
