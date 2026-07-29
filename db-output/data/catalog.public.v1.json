@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-28T08:54:08.869545Z",
+  "generatedAt": "2026-07-29T09:00:23.693875Z",
   "games": [
     {
       "id": 1,
@@ -45925,7 +45925,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 153,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "mall-together",
@@ -45974,7 +45974,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 775,
@@ -46014,7 +46015,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 131,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "aquapark-tycoon",
@@ -46052,6 +46053,185 @@
         "ccu": 0,
         "trending": false,
         "rating": 95,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 776,
+      "title": "Fire On Fight : Online Multiplayer Shooter",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1092050/35eccf621ac3ad502220fe343ed57f261ebd7a9d/header.jpg?t=1785160106",
+      "description": "A fast-paced classic military FPS inspired by old-school online shooters. Battle in online PvP or PvE against intelligent AI bots. Unlock soldiers, weapons, perks, and attachments, earn XP, customize your loadouts, and enjoy full matches with no empty servers.",
+      "description_en": "A fast-paced classic military FPS inspired by old-school online shooters. Battle in online PvP or PvE against intelligent AI bots. Unlock soldiers, weapons, perks, and attachments, earn XP, customize your loadouts, and enjoy full matches with no empty servers.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1092050/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 74,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 77,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "fire-on-fight-online-multiplayer-shooter",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "A fast-paced classic military FPS inspired by old-school online shooters. Battle in online PvP or PvE against intelligent AI bots. Unlock soldiers, weapons, perks, and attachments, earn XP, customize your loadouts, and enjoy full matches with no empty servers.",
+        "en": "A fast-paced classic military FPS inspired by old-school online shooters. Battle in online PvP or PvE against intelligent AI bots. Unlock soldiers, weapons, perks, and attachments, earn XP, customize your loadouts, and enjoy full matches with no empty servers."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1092050/",
+          "externalId": "1092050"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "1092050"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 74,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 777,
+      "title": "Wonderia",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2593340/28c5418e6db35aa2dd4c35de14bae164b28eb58b/header.jpg?t=1784802717",
+      "description": "Wonderia's an open-world, manga-art adventure just waiting to be explored. It's got sci-fi sim elements, deep dungeons, and you can even morph into alien form! Grab up to 7 friends to mine, craft, battle, and level—or farm and fish the day away, if that's more your tempo. There's so much to do!",
+      "description_en": "Wonderia's an open-world, manga-art adventure just waiting to be explored. It's got sci-fi sim elements, deep dungeons, and you can even morph into alien form! Grab up to 7 friends to mine, craft, battle, and level—or farm and fish the day away, if that's more your tempo. There's so much to do!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2593340/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 85,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 128,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "wonderia",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Wonderia&#x27;s an open-world, manga-art adventure just waiting to be explored. It&#x27;s got sci-fi sim elements, deep dungeons, and you can even morph into alien form! Grab up to 7 friends to mine, craft, battle, and level—or farm and fish the day away, if that&#x27;s more your tempo. There&#x27;s so much to do!",
+        "en": "Wonderia&#x27;s an open-world, manga-art adventure just waiting to be explored. It&#x27;s got sci-fi sim elements, deep dungeons, and you can even morph into alien form! Grab up to 7 friends to mine, craft, battle, and level—or farm and fish the day away, if that&#x27;s more your tempo. There&#x27;s so much to do!"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2593340/",
+          "externalId": "2593340"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2593340"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 85,
         "igdb": false,
         "gog": false,
         "rawg": false
