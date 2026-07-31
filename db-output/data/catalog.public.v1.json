@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T08:46:25.059663Z",
+  "generatedAt": "2026-07-31T09:08:57.067139Z",
   "games": [
     {
       "id": 1,
@@ -46322,6 +46322,186 @@
         "ccu": 94,
         "trending": false,
         "rating": 84,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 779,
+      "title": "Halo: Campaign Evolved",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/30d8542d35d7919b34e5f5dbe955d04c3f99e6da/header.jpg?t=1785260966",
+      "description": "Halo: Campaign Evolved is a faithful yet modernized remake of Halo: Combat Evolved’s campaign, rebuilt from the ground up.",
+      "description_en": "Halo: Campaign Evolved is a faithful yet modernized remake of Halo: Combat Evolved’s campaign, rebuilt from the ground up.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2806050/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 66,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "halo-campaign-evolved",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Halo: Campaign Evolved is a faithful yet modernized remake of Halo: Combat Evolved’s campaign, rebuilt from the ground up.",
+        "en": "Halo: Campaign Evolved is a faithful yet modernized remake of Halo: Combat Evolved’s campaign, rebuilt from the ground up."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2806050/",
+          "externalId": "2806050"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2806050"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 66,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 780,
+      "title": "Mistfall Hunter",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3282300/a6c1a497ffe794e3dbace7772a286500be1b4979/header_alt_assets_8.jpg?t=1785374850",
+      "description": "Mistfall Hunter is a dark fantasy extraction ARPG. Combine skills, talents, and gear for each class in thrilling combat! Whether you team up or go solo, one thing remains certain—only by fighting your way through can you return with a full haul. Good luck, Gyldhunter.",
+      "description_en": "Mistfall Hunter is a dark fantasy extraction ARPG. Combine skills, talents, and gear for each class in thrilling combat! Whether you team up or go solo, one thing remains certain—only by fighting your way through can you return with a full haul. Good luck, Gyldhunter.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3282300/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 70,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 2343,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "mistfall-hunter",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Mistfall Hunter is a dark fantasy extraction ARPG. Combine skills, talents, and gear for each class in thrilling combat! Whether you team up or go solo, one thing remains certain—only by fighting your way through can you return with a full haul. Good luck, Gyldhunter.",
+        "en": "Mistfall Hunter is a dark fantasy extraction ARPG. Combine skills, talents, and gear for each class in thrilling combat! Whether you team up or go solo, one thing remains certain—only by fighting your way through can you return with a full haul. Good luck, Gyldhunter."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3282300/",
+          "externalId": "3282300"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3282300"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 70,
         "igdb": false,
         "gog": false,
         "rawg": false
