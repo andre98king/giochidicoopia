@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T09:08:56+00:00",
+  "generatedAt": "2026-08-01T08:40:41+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 502,
+    "games": 506,
     "played": 12,
     "trending": 46,
-    "withEnglishDescription": 502,
+    "withEnglishDescription": 506,
     "categoryCounts": {
-      "action": 397,
+      "action": 401,
       "factory": 61,
       "free": 36,
       "horror": 45,
@@ -20,14 +20,14 @@
       "puzzle": 40,
       "roguelike": 28,
       "rpg": 84,
-      "splitscreen": 95,
+      "splitscreen": 96,
       "sport": 7,
       "strategy": 91,
       "survival": 96
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 502
+      "steam": 506
     }
   },
   "games": [
@@ -34998,6 +34998,99 @@
       "curatedStatus": "probation"
     },
     {
+      "id": 616,
+      "title": "Truxton Extreme",
+      "categories": [
+        "action",
+        "splitscreen"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local",
+        "sofa"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://images.gog-statics.com/09ada97b578b12f217676eb9ac607c8a6bb3c73864709c319927e06ae8ea6cd9.png",
+      "description": "IT'S ON LIKE TRUXTON!   Truxton Extreme delivers white-hot shooter thrills for masters and novices alike. Take down hordes of alien invaders with your Power Shot, Truxton Beam, Thunder Laser, Homing Shot, Star‑mine Shot, and more! Don't forget to breathe as you face off against gigantic bosses in the ultimate battle for humanity’s survival     RETRO FURY, MODERN FIREPOWER   ...",
+      "description_en": "IT'S ON LIKE TRUXTON!   Truxton Extreme delivers white-hot shooter thrills for masters and novices alike. Take down hordes of alien invaders with your Power Shot, Truxton Beam, Thunder Laser, Homing Shot, Star‑mine Shot, and more! Don't forget to breathe as you face off against gigantic bosses in the ultimate battle for humanity’s survival     RETRO FURY, MODERN FIREPOWER   ...",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3323490",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 100,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "truxton-extreme",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "IT&#x27;S ON LIKE TRUXTON!   Truxton Extreme delivers white-hot shooter thrills for masters and novices alike. Take down hordes of alien invaders with your Power Shot, Truxton Beam, Thunder Laser, Homing Shot, Star‑mine Shot, and more! Don&#x27;t forget to breathe as you face off against gigantic bosses in the ultimate battle for humanity’s survival     RETRO FURY, MODERN FIREPOWER   ...",
+        "en": "IT&#x27;S ON LIKE TRUXTON!   Truxton Extreme delivers white-hot shooter thrills for masters and novices alike. Take down hordes of alien invaders with your Power Shot, Truxton Beam, Thunder Laser, Homing Shot, Star‑mine Shot, and more! Don&#x27;t forget to breathe as you face off against gigantic bosses in the ultimate battle for humanity’s survival     RETRO FURY, MODERN FIREPOWER   ..."
+      },
+      "taxonomy": {
+        "categories": [
+          "action",
+          "splitscreen"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": false,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3323490",
+          "externalId": "3323490"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3323490"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 100,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
       "id": 627,
       "title": "Subnautica 2",
       "categories": [
@@ -46493,7 +46586,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 2343,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "mistfall-hunter",
@@ -46531,6 +46624,275 @@
         "ccu": 0,
         "trending": false,
         "rating": 70,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 781,
+      "title": "Company of Heroes 3: Final Stand",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4836540/6947d6be8800b8ed737f04c110ad929ae3c86123/header.jpg?t=1785352046",
+      "description": "Company of Heroes 3: Final Stand delivers a standalone roguelite wave-defense experience for solo and cooperative play. Command and survive against fast-paced escalating enemy waves, intimidating bosses, and dynamic battlefield events. Are you ready to make your final stand?",
+      "description_en": "Company of Heroes 3: Final Stand delivers a standalone roguelite wave-defense experience for solo and cooperative play. Command and survive against fast-paced escalating enemy waves, intimidating bosses, and dynamic battlefield events. Are you ready to make your final stand?",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4836540/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 46,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "company-of-heroes-3-final-stand",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Company of Heroes 3: Final Stand delivers a standalone roguelite wave-defense experience for solo and cooperative play. Command and survive against fast-paced escalating enemy waves, intimidating bosses, and dynamic battlefield events. Are you ready to make your final stand?",
+        "en": "Company of Heroes 3: Final Stand delivers a standalone roguelite wave-defense experience for solo and cooperative play. Command and survive against fast-paced escalating enemy waves, intimidating bosses, and dynamic battlefield events. Are you ready to make your final stand?"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4836540/",
+          "externalId": "4836540"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4836540"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 46,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 782,
+      "title": "Sephiria",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2436940/21b1476794fd8a2e0a3076448d28929e8139aad0/header_alt_assets_0.jpg?t=1785481238",
+      "description": "Save Bunnyville from a doomed fate: a top-down action/RPG roguelite from the makers of Dungreed. Explore the depths of the tower, collect and upgrade artifacts, and defeat hordes of demons to keep your village safe.",
+      "description_en": "Save Bunnyville from a doomed fate: a top-down action/RPG roguelite from the makers of Dungreed. Explore the depths of the tower, collect and upgrade artifacts, and defeat hordes of demons to keep your village safe.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2436940/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 2268,
+      "trending": false,
+      "rating": 92,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 2180,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "sephiria",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Save Bunnyville from a doomed fate: a top-down action/RPG roguelite from the makers of Dungreed. Explore the depths of the tower, collect and upgrade artifacts, and defeat hordes of demons to keep your village safe.",
+        "en": "Save Bunnyville from a doomed fate: a top-down action/RPG roguelite from the makers of Dungreed. Explore the depths of the tower, collect and upgrade artifacts, and defeat hordes of demons to keep your village safe."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2436940/",
+          "externalId": "2436940"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2436940"
+      },
+      "signals": {
+        "ccu": 2268,
+        "trending": false,
+        "rating": 92,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 784,
+      "title": "Machine Party",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/00ae7d0e0fd0ad72635bddb1dd80ee68cc94eed5/header.jpg?t=1785485527",
+      "description": "Machine Party is a collection of violent party games where failure is lethal. Gather your friends and endure high stakes situations to prove your life is worth more than theirs. Survival is unlikely.",
+      "description_en": "Machine Party is a collection of violent party games where failure is lethal. Gather your friends and endure high stakes situations to prove your life is worth more than theirs. Survival is unlikely.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4108000/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 90,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 739,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "machine-party",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Machine Party is a collection of violent party games where failure is lethal. Gather your friends and endure high stakes situations to prove your life is worth more than theirs. Survival is unlikely.",
+        "en": "Machine Party is a collection of violent party games where failure is lethal. Gather your friends and endure high stakes situations to prove your life is worth more than theirs. Survival is unlikely."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4108000/",
+          "externalId": "4108000"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4108000"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 90,
         "igdb": false,
         "gog": false,
         "rawg": false
