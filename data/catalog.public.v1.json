@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-01T08:40:41.938839Z",
+  "generatedAt": "2026-08-02T08:44:03.893676Z",
   "games": [
     {
       "id": 1,
@@ -46171,7 +46171,7 @@
         "online"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "2-4",
       "releaseYear": 2026,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1092050/35eccf621ac3ad502220fe343ed57f261ebd7a9d/header.jpg?t=1785160106",
@@ -46218,7 +46218,7 @@
         "localCoop": false,
         "splitScreen": false,
         "sharedScreen": false,
-        "crossplay": false,
+        "crossplay": true,
         "playersLabel": "2-4",
         "maxPlayers": 4
       },
@@ -46350,7 +46350,7 @@
         "online"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-4",
       "releaseYear": 2026,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1492070/8e288958e8c203003f00852e73dba95558b94992/header.jpg?t=1785260623",
@@ -46397,7 +46397,7 @@
         "localCoop": false,
         "splitScreen": false,
         "sharedScreen": false,
-        "crossplay": false,
+        "crossplay": true,
         "playersLabel": "1-4",
         "maxPlayers": 4
       },
@@ -46789,6 +46789,97 @@
       }
     },
     {
+      "id": 783,
+      "title": "The Ranchers",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": true,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1501310/b8258752d3b30de139ef8d46fab2ca8843cc996a/header.jpg?t=1785430809",
+      "description": "The Ranchers is an open world country-life sim for 1-4 players. Raise animals, grow tasty crops, craft helpful tools and build your dream house. Explore the open world and earn the villagers' respect and esteem.",
+      "description_en": "The Ranchers is an open world country-life sim for 1-4 players. Raise animals, grow tasty crops, craft helpful tools and build your dream house. Explore the open world and earn the villagers' respect and esteem.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1501310/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 62,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "the-ranchers",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "The Ranchers is an open world country-life sim for 1-4 players. Raise animals, grow tasty crops, craft helpful tools and build your dream house. Explore the open world and earn the villagers&#x27; respect and esteem.",
+        "en": "The Ranchers is an open world country-life sim for 1-4 players. Raise animals, grow tasty crops, craft helpful tools and build your dream house. Explore the open world and earn the villagers&#x27; respect and esteem."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": true,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1501310/",
+          "externalId": "1501310"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "1501310"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 62,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
       "id": 784,
       "title": "Machine Party",
       "categories": [
@@ -46826,7 +46917,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 739,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "machine-party",
@@ -46864,6 +46955,185 @@
         "ccu": 0,
         "trending": false,
         "rating": 90,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 785,
+      "title": "AfterWar",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": true,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2497570/1eb9c5b6e7db39aeb78ec6ea0bc1f77723bff607/header.jpg?t=1785529012",
+      "description": "AfterWar is a simple yet feature-rich strategy game for everyone.",
+      "description_en": "AfterWar is a simple yet feature-rich strategy game for everyone.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2497570/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 74,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 124,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "afterwar",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "AfterWar is a simple yet feature-rich strategy game for everyone.",
+        "en": "AfterWar is a simple yet feature-rich strategy game for everyone."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": true,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2497570/",
+          "externalId": "2497570"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2497570"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 74,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 786,
+      "title": "Waterpark Simulator",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3293260/d777414ab68027db0399200587fd78d409cc9602/header_alt_assets_5.jpg?t=1785510020",
+      "description": "Build and run your own waterpark solo or with friends. Design slides, send guests flying with ragdoll physics, manage staff, and fully customize your park. Turn total madness into a diamond five-star empire in this first-person management simulator!",
+      "description_en": "Build and run your own waterpark solo or with friends. Design slides, send guests flying with ragdoll physics, manage staff, and fully customize your park. Turn total madness into a diamond five-star empire in this first-person management simulator!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3293260/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 95,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 10680,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "waterpark-simulator",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Build and run your own waterpark solo or with friends. Design slides, send guests flying with ragdoll physics, manage staff, and fully customize your park. Turn total madness into a diamond five-star empire in this first-person management simulator!",
+        "en": "Build and run your own waterpark solo or with friends. Design slides, send guests flying with ragdoll physics, manage staff, and fully customize your park. Turn total madness into a diamond five-star empire in this first-person management simulator!"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3293260/",
+          "externalId": "3293260"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3293260"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 95,
         "igdb": false,
         "gog": false,
         "rawg": false
