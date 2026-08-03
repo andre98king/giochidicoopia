@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T08:44:03.893676Z",
+  "generatedAt": "2026-08-03T10:04:04.168638Z",
   "games": [
     {
       "id": 1,
@@ -47096,7 +47096,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 10680,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "waterpark-simulator",
@@ -47145,7 +47145,98 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 787,
+      "title": "Island Beekeeper",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3968160/21139e70c7c86072c1541bfb50a943f7b432820c/header.jpg?t=1785267972",
+      "description": "Build your apiary on islands above the clouds, travel on your medocycle, crossbreed bees with unique traits and create a cozy home in the sky. Grow plants, explore islands and send healing honey down to Earth, where people still hope for your help.",
+      "description_en": "Build your apiary on islands above the clouds, travel on your medocycle, crossbreed bees with unique traits and create a cozy home in the sky. Grow plants, explore islands and send healing honey down to Earth, where people still hope for your help.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3968160/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 65,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "island-beekeeper",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Build your apiary on islands above the clouds, travel on your medocycle, crossbreed bees with unique traits and create a cozy home in the sky. Grow plants, explore islands and send healing honey down to Earth, where people still hope for your help.",
+        "en": "Build your apiary on islands above the clouds, travel on your medocycle, crossbreed bees with unique traits and create a cozy home in the sky. Grow plants, explore islands and send healing honey down to Earth, where people still hope for your help."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3968160/",
+          "externalId": "3968160"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3968160"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 65,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
     }
   ]
 }
