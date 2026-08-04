@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T10:04:03+00:00",
+  "generatedAt": "2026-08-04T08:53:51+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 510,
+    "games": 512,
     "played": 12,
     "trending": 46,
-    "withEnglishDescription": 510,
+    "withEnglishDescription": 512,
     "categoryCounts": {
-      "action": 405,
+      "action": 407,
       "factory": 61,
       "free": 36,
       "horror": 45,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 510
+      "steam": 512
     }
   },
   "games": [
@@ -10989,7 +10989,7 @@
         "online"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-4",
       "releaseYear": 2024,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2881650/header.jpg",
@@ -11037,7 +11037,7 @@
         "localCoop": false,
         "splitScreen": false,
         "sharedScreen": false,
-        "crossplay": false,
+        "crossplay": true,
         "playersLabel": "1-4",
         "maxPlayers": 4
       },
@@ -47266,6 +47266,186 @@
         "schemaVersion": 1
       },
       "curatedStatus": "probation"
+    },
+    {
+      "id": 788,
+      "title": "The Left Behind",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2433630/91f8b65fe52c4ef3b6eab62ece9a72b9d9953ba8/header.jpg?t=1785146377",
+      "description": "The Left Behind is a solo and co-op post-apocalyptic survival game. Explore a typical Dutch open-world landscape at daytime and beware of hordes of enemies coming in at night. Loot and hunt to survive. Each night, the game becomes increasingly challenging. How long will you survive?",
+      "description_en": "The Left Behind is a solo and co-op post-apocalyptic survival game. Explore a typical Dutch open-world landscape at daytime and beware of hordes of enemies coming in at night. Loot and hunt to survive. Each night, the game becomes increasingly challenging. How long will you survive?",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2433630/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 22,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "the-left-behind",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "The Left Behind is a solo and co-op post-apocalyptic survival game. Explore a typical Dutch open-world landscape at daytime and beware of hordes of enemies coming in at night. Loot and hunt to survive. Each night, the game becomes increasingly challenging. How long will you survive?",
+        "en": "The Left Behind is a solo and co-op post-apocalyptic survival game. Explore a typical Dutch open-world landscape at daytime and beware of hordes of enemies coming in at night. Loot and hunt to survive. Each night, the game becomes increasingly challenging. How long will you survive?"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2433630/",
+          "externalId": "2433630"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2433630"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 22,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 789,
+      "title": "An Eggstremely Hard Game",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 2,
+      "crossplay": false,
+      "players": "1-2",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4112070/af1b508f0fea8862f209b5636d34902b049e6252/header.jpg?t=1784891682",
+      "description": "As highly qualified goose parents, work together to bring your little egg home safely. Every crack makes it harder to control, every mistake more hilarious. A co-op physics game for 2 or 4 players about teamwork, clumsiness and honking. HONK!",
+      "description_en": "As highly qualified goose parents, work together to bring your little egg home safely. Every crack makes it harder to control, every mistake more hilarious. A co-op physics game for 2 or 4 players about teamwork, clumsiness and honking. HONK!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4112070/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 89,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 105,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "an-eggstremely-hard-game",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "As highly qualified goose parents, work together to bring your little egg home safely. Every crack makes it harder to control, every mistake more hilarious. A co-op physics game for 2 or 4 players about teamwork, clumsiness and honking. HONK!",
+        "en": "As highly qualified goose parents, work together to bring your little egg home safely. Every crack makes it harder to control, every mistake more hilarious. A co-op physics game for 2 or 4 players about teamwork, clumsiness and honking. HONK!"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-2",
+        "maxPlayers": 2
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4112070/",
+          "externalId": "4112070"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4112070"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 89,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
     }
   ]
 }
