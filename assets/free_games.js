@@ -13,5 +13,12 @@ const freeGames = [
     "imageUrl": "https://cdn1.epicgames.com/spt-assets/30d70e74bab1498686aba69969a6c19e/sol-cesto-1ara2.png",
     "storeUrl": "https://store.epicgames.com/en-US/p/sol-cesto-e9b803",
     "freeUntil": "2026-08-06T15:00:00Z"
+  },
+  {
+    "title": "Moonlighter",
+    "store": "steam",
+    "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/606150/8928bd4aa73d49a92099b07a85c21ad2d0141d58/header_alt_assets_8.jpg?t=1785952913",
+    "storeUrl": "https://store.steampowered.com/app/606150/",
+    "freeUntil": "2026-08-09T17:00:00Z"
   }
 ];
