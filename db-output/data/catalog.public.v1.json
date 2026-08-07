@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-06T08:54:10.566915Z",
+  "generatedAt": "2026-08-07T07:34:36.991709Z",
   "games": [
     {
       "id": 1,
@@ -47420,6 +47420,96 @@
       "curatedStatus": "probation"
     },
     {
+      "id": 790,
+      "title": "Rogue Point",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1843840/f7813cb09da234430a30c090906b9796f659ebea/header.jpg?t=1785859752",
+      "description": "From the creators of Black Mesa: Welcome to Rogue Point! A 4-player co-op shooter where teamwork is everything. Join forces on intense missions with evolving objectives and powerful upgrades. Plan, Adapt, and Overcome. Your squad’s survival depends on it.",
+      "description_en": "From the creators of Black Mesa: Welcome to Rogue Point! A 4-player co-op shooter where teamwork is everything. Join forces on intense missions with evolving objectives and powerful upgrades. Plan, Adapt, and Overcome. Your squad’s survival depends on it.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1843840/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 66,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "rogue-point",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "From the creators of Black Mesa: Welcome to Rogue Point! A 4-player co-op shooter where teamwork is everything. Join forces on intense missions with evolving objectives and powerful upgrades. Plan, Adapt, and Overcome. Your squad’s survival depends on it.",
+        "en": "From the creators of Black Mesa: Welcome to Rogue Point! A 4-player co-op shooter where teamwork is everything. Join forces on intense missions with evolving objectives and powerful upgrades. Plan, Adapt, and Overcome. Your squad’s survival depends on it."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1843840/",
+          "externalId": "1843840"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "1843840"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 66,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
       "id": 791,
       "title": "Korea. IL-2 Series",
       "categories": [
@@ -47457,7 +47547,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 172,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "korea-il-2-series",
@@ -47506,7 +47596,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 792,
@@ -47546,7 +47637,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 3223,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "big-walk",
@@ -47584,6 +47675,96 @@
         "ccu": 0,
         "trending": false,
         "rating": 88,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 793,
+      "title": "Jelly Bubble",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3659090/12ba6d4f3bfa7ef680359d17b84ba0976401fad7/header.jpg?t=1785998418",
+      "description": "Stick with the same color, bounce off the rest! Snatch the soap, sabotage your friends! Adorable jelly critters are here for chaotic, hilarious showdowns! Supports 4-player local and up to 6-player online battles, plus a map editor so you can jump into laugh-out-loud matches anytime!",
+      "description_en": "Stick with the same color, bounce off the rest! Snatch the soap, sabotage your friends! Adorable jelly critters are here for chaotic, hilarious showdowns! Supports 4-player local and up to 6-player online battles, plus a map editor so you can jump into laugh-out-loud matches anytime!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3659090/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 100,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 133,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "jelly-bubble",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Stick with the same color, bounce off the rest! Snatch the soap, sabotage your friends! Adorable jelly critters are here for chaotic, hilarious showdowns! Supports 4-player local and up to 6-player online battles, plus a map editor so you can jump into laugh-out-loud matches anytime!",
+        "en": "Stick with the same color, bounce off the rest! Snatch the soap, sabotage your friends! Adorable jelly critters are here for chaotic, hilarious showdowns! Supports 4-player local and up to 6-player online battles, plus a map editor so you can jump into laugh-out-loud matches anytime!"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3659090/",
+          "externalId": "3659090"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3659090"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 100,
         "igdb": false,
         "gog": false,
         "rawg": false
