@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-07T07:34:36+00:00",
+  "generatedAt": "2026-08-08T07:11:15+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 516,
+    "games": 518,
     "played": 12,
     "trending": 46,
-    "withEnglishDescription": 516,
+    "withEnglishDescription": 518,
     "categoryCounts": {
-      "action": 411,
+      "action": 413,
       "factory": 61,
       "free": 36,
       "horror": 45,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 516
+      "steam": 518
     }
   },
   "games": [
@@ -47639,7 +47639,7 @@
         "online"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "2-4",
       "releaseYear": 2026,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/62eeee1507dbac905e128a62f2ce690550238db0/header.jpg?t=1785911674",
@@ -47686,7 +47686,7 @@
         "localCoop": false,
         "splitScreen": false,
         "sharedScreen": false,
-        "crossplay": false,
+        "crossplay": true,
         "playersLabel": "2-4",
         "maxPlayers": 4
       },
@@ -47726,7 +47726,9 @@
       ],
       "genres": [],
       "coopMode": [
-        "online"
+        "online",
+        "local",
+        "sofa"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -47756,7 +47758,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 133,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "jelly-bubble",
@@ -47764,6 +47766,96 @@
       "descriptions": {
         "it": "Stick with the same color, bounce off the rest! Snatch the soap, sabotage your friends! Adorable jelly critters are here for chaotic, hilarious showdowns! Supports 4-player local and up to 6-player online battles, plus a map editor so you can jump into laugh-out-loud matches anytime!",
         "en": "Stick with the same color, bounce off the rest! Snatch the soap, sabotage your friends! Adorable jelly critters are here for chaotic, hilarious showdowns! Supports 4-player local and up to 6-player online battles, plus a map editor so you can jump into laugh-out-loud matches anytime!"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3659090/",
+          "externalId": "3659090"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3659090"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 100,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 794,
+      "title": "Approximately Up",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3904850/d91f2e97c92cb98f97b3c773ff1e2d84bf6bc127/header.jpg?t=1786035600",
+      "description": "Build, crash, rebuild! Explore new planets in co-op multiplayer with your fully modular spaceship made from whatever bolts together long enough to fly. Mount giant thrusters, annoying cables, and everything in between. Complete wild missions, face the dangers of space and argue with your crew!",
+      "description_en": "Build, crash, rebuild! Explore new planets in co-op multiplayer with your fully modular spaceship made from whatever bolts together long enough to fly. Mount giant thrusters, annoying cables, and everything in between. Complete wild missions, face the dangers of space and argue with your crew!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3904850/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 95,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 264,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "approximately-up",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Build, crash, rebuild! Explore new planets in co-op multiplayer with your fully modular spaceship made from whatever bolts together long enough to fly. Mount giant thrusters, annoying cables, and everything in between. Complete wild missions, face the dangers of space and argue with your crew!",
+        "en": "Build, crash, rebuild! Explore new planets in co-op multiplayer with your fully modular spaceship made from whatever bolts together long enough to fly. Mount giant thrusters, annoying cables, and everything in between. Complete wild missions, face the dangers of space and argue with your crew!"
       },
       "taxonomy": {
         "categories": [
@@ -47783,17 +47875,106 @@
       "storefronts": [
         {
           "store": "steam",
-          "url": "https://store.steampowered.com/app/3659090/",
-          "externalId": "3659090"
+          "url": "https://store.steampowered.com/app/3904850/",
+          "externalId": "3904850"
         }
       ],
       "externalIds": {
-        "steamAppId": "3659090"
+        "steamAppId": "3904850"
       },
       "signals": {
         "ccu": 0,
         "trending": false,
-        "rating": 100,
+        "rating": 95,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 795,
+      "title": "Dig, Dig, Die",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 6,
+      "crossplay": false,
+      "players": "1-6",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4074010/f948644c9f688a116922b2caea200a03bc1c804a/header.jpg?t=1786016977",
+      "description": "Online co-op horror for 1–6 players. Board a cursed flying ship, raid haunted graveyards for loot, and survive monsters that hear every sound. Beware of UFO abductions, grab boosters from vending machines, gamble in the onboard casino, and embrace pure chaos with friends in voice chat.",
+      "description_en": "Online co-op horror for 1–6 players. Board a cursed flying ship, raid haunted graveyards for loot, and survive monsters that hear every sound. Beware of UFO abductions, grab boosters from vending machines, gamble in the onboard casino, and embrace pure chaos with friends in voice chat.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4074010/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 71,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 201,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "dig-dig-die",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Online co-op horror for 1–6 players. Board a cursed flying ship, raid haunted graveyards for loot, and survive monsters that hear every sound. Beware of UFO abductions, grab boosters from vending machines, gamble in the onboard casino, and embrace pure chaos with friends in voice chat.",
+        "en": "Online co-op horror for 1–6 players. Board a cursed flying ship, raid haunted graveyards for loot, and survive monsters that hear every sound. Beware of UFO abductions, grab boosters from vending machines, gamble in the onboard casino, and embrace pure chaos with friends in voice chat."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-6",
+        "maxPlayers": 6
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4074010/",
+          "externalId": "4074010"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4074010"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 71,
         "igdb": false,
         "gog": false,
         "rawg": false
