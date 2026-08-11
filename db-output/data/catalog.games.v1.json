@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-10T07:59:10+00:00",
+  "generatedAt": "2026-08-11T07:25:10+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 520,
+    "games": 521,
     "played": 12,
     "trending": 46,
-    "withEnglishDescription": 520,
+    "withEnglishDescription": 521,
     "categoryCounts": {
-      "action": 415,
+      "action": 416,
       "factory": 61,
       "free": 36,
       "horror": 45,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 520
+      "steam": 521
     }
   },
   "games": [
@@ -48156,6 +48156,96 @@
         "ccu": 0,
         "trending": false,
         "rating": 87,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 798,
+      "title": "Expeditions: Samurai",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2212910/29cb808b9180f69adf09cf86fe5ffd25b74e04b6/header_alt_assets_0.jpg?t=1786110990",
+      "description": "The sun rises on another civil war, as you land in Japan aboard a battered Dutch ship. Thrust into command of its motley crew, you must navigate the politics of Sengoku-era Japan using stealth, diplomacy, or violence in this party-based RPG where every choice matters.",
+      "description_en": "The sun rises on another civil war, as you land in Japan aboard a battered Dutch ship. Thrust into command of its motley crew, you must navigate the politics of Sengoku-era Japan using stealth, diplomacy, or violence in this party-based RPG where every choice matters.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2212910/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 57,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "expeditions-samurai",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "The sun rises on another civil war, as you land in Japan aboard a battered Dutch ship. Thrust into command of its motley crew, you must navigate the politics of Sengoku-era Japan using stealth, diplomacy, or violence in this party-based RPG where every choice matters.",
+        "en": "The sun rises on another civil war, as you land in Japan aboard a battered Dutch ship. Thrust into command of its motley crew, you must navigate the politics of Sengoku-era Japan using stealth, diplomacy, or violence in this party-based RPG where every choice matters."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2212910/",
+          "externalId": "2212910"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2212910"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 57,
         "igdb": false,
         "gog": false,
         "rawg": false
