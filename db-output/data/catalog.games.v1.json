@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-12T07:50:00+00:00",
+  "generatedAt": "2026-08-13T07:51:45+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 521,
+    "games": 527,
     "played": 12,
     "trending": 46,
-    "withEnglishDescription": 521,
+    "withEnglishDescription": 527,
     "categoryCounts": {
-      "action": 416,
+      "action": 422,
       "factory": 61,
       "free": 36,
       "horror": 45,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 521
+      "steam": 527
     }
   },
   "games": [
@@ -46916,7 +46916,9 @@
       ],
       "genres": [],
       "coopMode": [
-        "online"
+        "online",
+        "local",
+        "sofa"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -46963,9 +46965,9 @@
       },
       "capabilities": {
         "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "2-4",
         "maxPlayers": 4
@@ -48259,6 +48261,544 @@
         "schemaVersion": 1
       },
       "curatedStatus": "probation"
+    },
+    {
+      "id": 799,
+      "title": "The Lord of the Rings: War in the North™ - Legacy Edition",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/ce49411b23ef7bfe8dd88c1c58f29a4584cf961e/header.jpg?t=1786466870",
+      "description": "Step into a darker, grittier Middle-earth. The Lord of the Rings: War in the North™ - Legacy Edition expands Tolkien’s epic legendarium, delving into the brutal, untold story of Agandaûr, a Black Númenórean and servant of Sauron who has rallied an immense force in the ruins of Fornost.",
+      "description_en": "Step into a darker, grittier Middle-earth. The Lord of the Rings: War in the North™ - Legacy Edition expands Tolkien’s epic legendarium, delving into the brutal, untold story of Agandaûr, a Black Númenórean and servant of Sauron who has rallied an immense force in the ruins of Fornost.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2523770/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 91,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 445,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "the-lord-of-the-rings-war-in-the-northtm-legacy-edition",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Step into a darker, grittier Middle-earth. The Lord of the Rings: War in the North™ - Legacy Edition expands Tolkien’s epic legendarium, delving into the brutal, untold story of Agandaûr, a Black Númenórean and servant of Sauron who has rallied an immense force in the ruins of Fornost.",
+        "en": "Step into a darker, grittier Middle-earth. The Lord of the Rings: War in the North™ - Legacy Edition expands Tolkien’s epic legendarium, delving into the brutal, untold story of Agandaûr, a Black Númenórean and servant of Sauron who has rallied an immense force in the ruins of Fornost."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2523770/",
+          "externalId": "2523770"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2523770"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 91,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 800,
+      "title": "RIFTSTORM",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 3,
+      "crossplay": false,
+      "players": "1-3",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2282790/ebde5de86aecf509314bfb8131b58cba3abc0f7f/header.jpg?t=1786519922",
+      "description": "RIFTSTORM is a co-op PvE looter-shooter where squads of Weavers deploy to take on missions, fight escalating hordes, collect powerful weapons and resources, and extract.",
+      "description_en": "RIFTSTORM is a co-op PvE looter-shooter where squads of Weavers deploy to take on missions, fight escalating hordes, collect powerful weapons and resources, and extract.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2282790/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 73,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 247,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "riftstorm",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "RIFTSTORM is a co-op PvE looter-shooter where squads of Weavers deploy to take on missions, fight escalating hordes, collect powerful weapons and resources, and extract.",
+        "en": "RIFTSTORM is a co-op PvE looter-shooter where squads of Weavers deploy to take on missions, fight escalating hordes, collect powerful weapons and resources, and extract."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-3",
+        "maxPlayers": 3
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2282790/",
+          "externalId": "2282790"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2282790"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 73,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 801,
+      "title": "Agent 64: Spies Never Die",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1574480/f281ff155778294664365fbcedc884319ed172fd/header.jpg?t=1786459687",
+      "description": "A retro spy FPS inspired by the N64 era. Go guns-blazing in action-packed shootouts, steal secret plans, and accomplish objectives while foiling evildoers’ schemes as a secret agent in a solo or co-op campaign. Fight friends in both local split-screen multiplayer and online with up to 8 opponents.",
+      "description_en": "A retro spy FPS inspired by the N64 era. Go guns-blazing in action-packed shootouts, steal secret plans, and accomplish objectives while foiling evildoers’ schemes as a secret agent in a solo or co-op campaign. Fight friends in both local split-screen multiplayer and online with up to 8 opponents.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1574480/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 87,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 329,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "agent-64-spies-never-die",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "A retro spy FPS inspired by the N64 era. Go guns-blazing in action-packed shootouts, steal secret plans, and accomplish objectives while foiling evildoers’ schemes as a secret agent in a solo or co-op campaign. Fight friends in both local split-screen multiplayer and online with up to 8 opponents.",
+        "en": "A retro spy FPS inspired by the N64 era. Go guns-blazing in action-packed shootouts, steal secret plans, and accomplish objectives while foiling evildoers’ schemes as a secret agent in a solo or co-op campaign. Fight friends in both local split-screen multiplayer and online with up to 8 opponents."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1574480/",
+          "externalId": "1574480"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "1574480"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 87,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 802,
+      "title": "Luminary",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1648360/7b3f04d72957e208a495ab1f34f06afbf540d972/header.jpg?t=1786482512",
+      "description": "Luminary is a solo or co-op OpenZone Action RPG that creates a balanced experience for everyone. Using a unique world and character progression system, explore vast hand-crafted lands together, uncover hidden treasures, level up your town, and push back the darkness with light.",
+      "description_en": "Luminary is a solo or co-op OpenZone Action RPG that creates a balanced experience for everyone. Using a unique world and character progression system, explore vast hand-crafted lands together, uncover hidden treasures, level up your town, and push back the darkness with light.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1648360/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 70,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 182,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "luminary",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Luminary is a solo or co-op OpenZone Action RPG that creates a balanced experience for everyone. Using a unique world and character progression system, explore vast hand-crafted lands together, uncover hidden treasures, level up your town, and push back the darkness with light.",
+        "en": "Luminary is a solo or co-op OpenZone Action RPG that creates a balanced experience for everyone. Using a unique world and character progression system, explore vast hand-crafted lands together, uncover hidden treasures, level up your town, and push back the darkness with light."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1648360/",
+          "externalId": "1648360"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "1648360"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 70,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 804,
+      "title": "We, Junk Artists",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3470550/f19b8eb2ac462f0a7008d3401cae7074a232e9fa/header.jpg?t=1786454701",
+      "description": "A \"collage-and-guess\" multiplayer game for up to 6 players. Enjoy collaging ordinary items into outside-the-box \"masterpieces,\" guess each other's creations, and unleash your wild imagination around the campfire. Here, everyone is an artist!",
+      "description_en": "A \"collage-and-guess\" multiplayer game for up to 6 players. Enjoy collaging ordinary items into outside-the-box \"masterpieces,\" guess each other's creations, and unleash your wild imagination around the campfire. Here, everyone is an artist!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3470550/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 95,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 123,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "we-junk-artists",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "A &quot;collage-and-guess&quot; multiplayer game for up to 6 players. Enjoy collaging ordinary items into outside-the-box &quot;masterpieces,&quot; guess each other&#x27;s creations, and unleash your wild imagination around the campfire. Here, everyone is an artist!",
+        "en": "A &quot;collage-and-guess&quot; multiplayer game for up to 6 players. Enjoy collaging ordinary items into outside-the-box &quot;masterpieces,&quot; guess each other&#x27;s creations, and unleash your wild imagination around the campfire. Here, everyone is an artist!"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3470550/",
+          "externalId": "3470550"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3470550"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 95,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 805,
+      "title": "Deadly Trick",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3088400/30924ba350c2d89ab743408e7f7f0bf1ca8b7d99/header.jpg?t=1785488389",
+      "description": "Deadly Trick is a social deduction game playable with up to 8 players. Survive the death game unfolding at school under the name \"Special Class.\" Depending on the situation or your own choices, you could become the White or the Shadow! Cooperate… or betray.",
+      "description_en": "Deadly Trick is a social deduction game playable with up to 8 players. Survive the death game unfolding at school under the name \"Special Class.\" Depending on the situation or your own choices, you could become the White or the Shadow! Cooperate… or betray.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3088400/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 94,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 105,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "deadly-trick",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Deadly Trick is a social deduction game playable with up to 8 players. Survive the death game unfolding at school under the name &quot;Special Class.&quot; Depending on the situation or your own choices, you could become the White or the Shadow! Cooperate… or betray.",
+        "en": "Deadly Trick is a social deduction game playable with up to 8 players. Survive the death game unfolding at school under the name &quot;Special Class.&quot; Depending on the situation or your own choices, you could become the White or the Shadow! Cooperate… or betray."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3088400/",
+          "externalId": "3088400"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3088400"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 94,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
     }
   ]
 }
