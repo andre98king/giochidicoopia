@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T07:51:45+00:00",
+  "generatedAt": "2026-08-14T07:49:59+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 527,
+    "games": 529,
     "played": 12,
     "trending": 46,
-    "withEnglishDescription": 527,
+    "withEnglishDescription": 529,
     "categoryCounts": {
-      "action": 422,
+      "action": 424,
       "factory": 61,
       "free": 36,
       "horror": 45,
-      "indie": 145,
+      "indie": 144,
       "puzzle": 40,
       "roguelike": 28,
       "rpg": 84,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 527
+      "steam": 529
     }
   },
   "games": [
@@ -25806,7 +25806,6 @@
       "id": 334,
       "title": "Oddsparks: An Automation Adventure",
       "categories": [
-        "indie",
         "factory",
         "puzzle"
       ],
@@ -25853,7 +25852,6 @@
       },
       "taxonomy": {
         "categories": [
-          "indie",
           "factory",
           "puzzle"
         ],
@@ -28883,9 +28881,7 @@
       ],
       "genres": [],
       "coopMode": [
-        "online",
-        "local",
-        "sofa"
+        "online"
       ],
       "maxPlayers": 4,
       "crossplay": true,
@@ -28935,9 +28931,9 @@
       },
       "capabilities": {
         "onlineCoop": true,
-        "localCoop": true,
-        "splitScreen": true,
-        "sharedScreen": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
         "crossplay": true,
         "playersLabel": "1-4",
         "maxPlayers": 4
@@ -48302,7 +48298,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 445,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "the-lord-of-the-rings-war-in-the-northtm-legacy-edition",
@@ -48351,7 +48347,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 800,
@@ -48391,7 +48388,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 247,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "riftstorm",
@@ -48440,7 +48437,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 801,
@@ -48482,7 +48480,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 329,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "agent-64-spies-never-die",
@@ -48531,7 +48529,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 802,
@@ -48571,7 +48570,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 182,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "luminary",
@@ -48620,7 +48619,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 804,
@@ -48660,7 +48660,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 123,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "we-junk-artists",
@@ -48709,7 +48709,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 805,
@@ -48749,7 +48750,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 105,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "deadly-trick",
@@ -48787,6 +48788,185 @@
         "ccu": 0,
         "trending": false,
         "rating": 94,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 806,
+      "title": "Dinotica",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3336520/3364bb97392eaaf1db91a0997a03361a6d3c307f/header.jpg?t=1786589593",
+      "description": "Welcome to Dinotica! Stomp into a mysterious and dangerous world filled with action, adventure, and companionship! Together, you'll fight, build, farm, and more as you work toward creating a unique home that is truly your own.",
+      "description_en": "Welcome to Dinotica! Stomp into a mysterious and dangerous world filled with action, adventure, and companionship! Together, you'll fight, build, farm, and more as you work toward creating a unique home that is truly your own.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3336520/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 87,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 724,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "dinotica",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Welcome to Dinotica! Stomp into a mysterious and dangerous world filled with action, adventure, and companionship! Together, you&#x27;ll fight, build, farm, and more as you work toward creating a unique home that is truly your own.",
+        "en": "Welcome to Dinotica! Stomp into a mysterious and dangerous world filled with action, adventure, and companionship! Together, you&#x27;ll fight, build, farm, and more as you work toward creating a unique home that is truly your own."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3336520/",
+          "externalId": "3336520"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3336520"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 87,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 807,
+      "title": "Stonewards",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4502710/c57ab526296dfdab54cbc5aa2b93bc1fb46f5acd/header.jpg?t=1786461683",
+      "description": "DWARF COMBAT! Stonewards is a 1-4 player co-op first-person roguelite defense game. Lead a crew of stubborn dwarves from your base camp to aid nearby kingdoms, mine deep for resources, forge powerful upgrades, and hold the line against relentless monster attacks.",
+      "description_en": "DWARF COMBAT! Stonewards is a 1-4 player co-op first-person roguelite defense game. Lead a crew of stubborn dwarves from your base camp to aid nearby kingdoms, mine deep for resources, forge powerful upgrades, and hold the line against relentless monster attacks.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4502710/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 95,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 212,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "stonewards",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "DWARF COMBAT! Stonewards is a 1-4 player co-op first-person roguelite defense game. Lead a crew of stubborn dwarves from your base camp to aid nearby kingdoms, mine deep for resources, forge powerful upgrades, and hold the line against relentless monster attacks.",
+        "en": "DWARF COMBAT! Stonewards is a 1-4 player co-op first-person roguelite defense game. Lead a crew of stubborn dwarves from your base camp to aid nearby kingdoms, mine deep for resources, forge powerful upgrades, and hold the line against relentless monster attacks."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4502710/",
+          "externalId": "4502710"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4502710"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 95,
         "igdb": false,
         "gog": false,
         "rawg": false
