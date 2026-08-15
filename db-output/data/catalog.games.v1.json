@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-14T07:49:59+00:00",
+  "generatedAt": "2026-08-15T06:55:18+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 529,
+    "games": 530,
     "played": 12,
     "trending": 46,
-    "withEnglishDescription": 529,
+    "withEnglishDescription": 530,
     "categoryCounts": {
-      "action": 424,
+      "action": 425,
       "factory": 61,
       "free": 36,
       "horror": 45,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 529
+      "steam": 530
     }
   },
   "games": [
@@ -48840,7 +48840,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 724,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "dinotica",
@@ -48889,7 +48889,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 807,
@@ -48929,7 +48930,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 212,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "stonewards",
@@ -48967,6 +48968,96 @@
         "ccu": 0,
         "trending": false,
         "rating": 95,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 810,
+      "title": "Dagger Directive",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2437670/15f6f3213620a0e313e7d7ef0a22850026dd89f9/header_alt_assets_0.jpg?t=1786625907",
+      "description": "Dagger Directive is a tactical FPS that allows you to approach each mission in your own way. Select equipment, decide the time of day, then move methodically to complete your mission. Enjoy the modern mechanics and old school graphics as you fight across a variety of missions and environments.",
+      "description_en": "Dagger Directive is a tactical FPS that allows you to approach each mission in your own way. Select equipment, decide the time of day, then move methodically to complete your mission. Enjoy the modern mechanics and old school graphics as you fight across a variety of missions and environments.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2437670/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 50,
+      "trending": false,
+      "rating": 83,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 649,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "dagger-directive",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Dagger Directive is a tactical FPS that allows you to approach each mission in your own way. Select equipment, decide the time of day, then move methodically to complete your mission. Enjoy the modern mechanics and old school graphics as you fight across a variety of missions and environments.",
+        "en": "Dagger Directive is a tactical FPS that allows you to approach each mission in your own way. Select equipment, decide the time of day, then move methodically to complete your mission. Enjoy the modern mechanics and old school graphics as you fight across a variety of missions and environments."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2437670/",
+          "externalId": "2437670"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2437670"
+      },
+      "signals": {
+        "ccu": 50,
+        "trending": false,
+        "rating": 83,
         "igdb": false,
         "gog": false,
         "rawg": false
