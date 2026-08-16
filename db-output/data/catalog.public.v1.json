@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T06:55:18.616112Z",
+  "generatedAt": "2026-08-16T06:56:57.698067Z",
   "games": [
     {
       "id": 1,
@@ -48954,6 +48954,186 @@
       "curatedStatus": "probation"
     },
     {
+      "id": 808,
+      "title": "Clawed",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3394840/header.jpg?t=1786644044",
+      "description": "Embark on a covert mission to the dinosaur theme park Prehistoria, where you must explore the park's grounds to scavenge resources, solve puzzles, and fight your way through diverse biomes, underground tunnels and deadly enclosures. But beware, you are not the apex predator here.",
+      "description_en": "Embark on a covert mission to the dinosaur theme park Prehistoria, where you must explore the park's grounds to scavenge resources, solve puzzles, and fight your way through diverse biomes, underground tunnels and deadly enclosures. But beware, you are not the apex predator here.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3394840/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 50,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "clawed",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Embark on a covert mission to the dinosaur theme park Prehistoria, where you must explore the park&#x27;s grounds to scavenge resources, solve puzzles, and fight your way through diverse biomes, underground tunnels and deadly enclosures. But beware, you are not the apex predator here.",
+        "en": "Embark on a covert mission to the dinosaur theme park Prehistoria, where you must explore the park&#x27;s grounds to scavenge resources, solve puzzles, and fight your way through diverse biomes, underground tunnels and deadly enclosures. But beware, you are not the apex predator here."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3394840/",
+          "externalId": "3394840"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3394840"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 50,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 809,
+      "title": "EA SPORTS™ Madden NFL 27",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3940610/7ed2213f0170c1b55410b82ed89a8bab3911c6ea/header.jpg?t=1786658331",
+      "description": "Run the league one decision at a time. EA SPORTS™ Madden NFL 27, powered by the all-new Persona Engine.",
+      "description_en": "Run the league one decision at a time. EA SPORTS™ Madden NFL 27, powered by the all-new Persona Engine.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3940610/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 40,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "ea-sportstm-madden-nfl-27",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Run the league one decision at a time. EA SPORTS™ Madden NFL 27, powered by the all-new Persona Engine.",
+        "en": "Run the league one decision at a time. EA SPORTS™ Madden NFL 27, powered by the all-new Persona Engine."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3940610/",
+          "externalId": "3940610"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3940610"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 40,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
       "id": 810,
       "title": "Dagger Directive",
       "categories": [
@@ -48991,7 +49171,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 649,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "dagger-directive",
@@ -49040,7 +49220,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     }
   ]
 }
