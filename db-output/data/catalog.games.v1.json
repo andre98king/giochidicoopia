@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-16T06:56:57+00:00",
+  "generatedAt": "2026-08-17T07:13:43+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 532,
+    "games": 533,
     "played": 12,
     "trending": 46,
-    "withEnglishDescription": 532,
+    "withEnglishDescription": 533,
     "categoryCounts": {
-      "action": 427,
+      "action": 428,
       "factory": 61,
       "free": 36,
       "horror": 45,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 532
+      "steam": 533
     }
   },
   "games": [
@@ -49251,6 +49251,95 @@
         "schemaVersion": 1
       },
       "curatedStatus": "probation"
+    },
+    {
+      "id": 811,
+      "title": "TV Archive: Tidy Up Together",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4934370/b1ab86279d02d7d386727a189dc939d9240c4e63/header.jpg?t=1786775628",
+      "description": "Shelve the videotapes, unlock new skills, and use your unique methods to tidy up the TV archive. Enjoy the online co-op and online PvP with your friends, or go solo! Fill up the shelves and experience a sense of relief and satisfaction.",
+      "description_en": "Shelve the videotapes, unlock new skills, and use your unique methods to tidy up the TV archive. Enjoy the online co-op and online PvP with your friends, or go solo! Fill up the shelves and experience a sense of relief and satisfaction.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4934370/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 77,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 193,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "tv-archive-tidy-up-together",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Shelve the videotapes, unlock new skills, and use your unique methods to tidy up the TV archive. Enjoy the online co-op and online PvP with your friends, or go solo! Fill up the shelves and experience a sense of relief and satisfaction.",
+        "en": "Shelve the videotapes, unlock new skills, and use your unique methods to tidy up the TV archive. Enjoy the online co-op and online PvP with your friends, or go solo! Fill up the shelves and experience a sense of relief and satisfaction."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4934370/",
+          "externalId": "4934370"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4934370"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 77,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
     }
   ]
 }
