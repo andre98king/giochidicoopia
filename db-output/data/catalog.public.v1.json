@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-17T07:13:43.881377Z",
+  "generatedAt": "2026-08-18T07:04:13.192828Z",
   "games": [
     {
       "id": 1,
@@ -49261,7 +49261,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 193,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "tv-archive-tidy-up-together",
@@ -49310,7 +49310,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     }
   ]
 }
