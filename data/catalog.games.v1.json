@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T07:05:06+00:00",
+  "generatedAt": "2026-08-20T07:07:12+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 536,
+    "games": 537,
     "played": 12,
     "trending": 46,
-    "withEnglishDescription": 536,
+    "withEnglishDescription": 537,
     "categoryCounts": {
-      "action": 431,
+      "action": 432,
       "factory": 61,
-      "free": 36,
+      "free": 35,
       "horror": 45,
       "indie": 144,
       "puzzle": 40,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 536
+      "steam": 537
     }
   },
   "games": [
@@ -35642,8 +35642,7 @@
       "title": "Age of Empires III: Definitive Edition",
       "categories": [
         "strategy",
-        "factory",
-        "free"
+        "factory"
       ],
       "genres": [],
       "coopMode": [
@@ -35690,8 +35689,7 @@
       "taxonomy": {
         "categories": [
           "strategy",
-          "factory",
-          "free"
+          "factory"
         ],
         "genres": []
       },
@@ -49475,7 +49473,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 438,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "the-lantern-of-the-laughless-saint",
@@ -49524,7 +49522,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 814,
@@ -49564,7 +49563,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 129,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "the-canon-of-balls",
@@ -49602,6 +49601,96 @@
         "ccu": 0,
         "trending": false,
         "rating": 100,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 815,
+      "title": "WE ARE SO DEAD",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4796830/d0f51a2e0497ac208b2604562779b648015eb7f3/header.jpg?t=1787075812",
+      "description": "A co-op seance horror game where one of you died first, and only you can see what's killing the others. Your only voice is a Ouija board your friends keep misreading. Guide them down 9 floors of a haunted house and banish the demon before sunrise. 2-6 players.",
+      "description_en": "A co-op seance horror game where one of you died first, and only you can see what's killing the others. Your only voice is a Ouija board your friends keep misreading. Guide them down 9 floors of a haunted house and banish the demon before sunrise. 2-6 players.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4796830/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 70,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 222,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "we-are-so-dead",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "A co-op seance horror game where one of you died first, and only you can see what&#x27;s killing the others. Your only voice is a Ouija board your friends keep misreading. Guide them down 9 floors of a haunted house and banish the demon before sunrise. 2-6 players.",
+        "en": "A co-op seance horror game where one of you died first, and only you can see what&#x27;s killing the others. Your only voice is a Ouija board your friends keep misreading. Guide them down 9 floors of a haunted house and banish the demon before sunrise. 2-6 players."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4796830/",
+          "externalId": "4796830"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4796830"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 70,
         "igdb": false,
         "gog": false,
         "rawg": false
