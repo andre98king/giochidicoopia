@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-26T07:09:56+00:00",
+  "generatedAt": "2026-08-27T17:43:44+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 547,
+    "games": 549,
     "played": 12,
     "trending": 46,
-    "withEnglishDescription": 547,
+    "withEnglishDescription": 549,
     "categoryCounts": {
-      "action": 442,
+      "action": 444,
       "factory": 61,
       "free": 35,
       "horror": 45,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 547
+      "steam": 549
     }
   },
   "games": [
@@ -44661,7 +44661,8 @@
       ],
       "genres": [],
       "coopMode": [
-        "online"
+        "local",
+        "sofa"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -44707,10 +44708,10 @@
         "genres": []
       },
       "capabilities": {
-        "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "onlineCoop": false,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "2-4",
         "maxPlayers": 4
@@ -50604,6 +50605,185 @@
         "schemaVersion": 1
       },
       "curatedStatus": "probation"
+    },
+    {
+      "id": 826,
+      "title": "Polylithic",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1839060/4e4776aa3bdbd477f1c54709b63b715adc32e2a2/header_alt_assets_0.jpg?t=1787681137",
+      "description": "Polylithic is a survival game unlike any other, set in the most pivotal moment in mankind's history. Experience life as a Paleolithic hunter-gatherer, settle down as a Neolithic farmer, form tribes in co-op multiplayer, or go it alone in a world where the apex predator is still a distant aspiration.",
+      "description_en": "Polylithic is a survival game unlike any other, set in the most pivotal moment in mankind's history. Experience life as a Paleolithic hunter-gatherer, settle down as a Neolithic farmer, form tribes in co-op multiplayer, or go it alone in a world where the apex predator is still a distant aspiration.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1839060/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 1,
+      "trending": false,
+      "rating": 71,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 105,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "polylithic",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Polylithic is a survival game unlike any other, set in the most pivotal moment in mankind&#x27;s history. Experience life as a Paleolithic hunter-gatherer, settle down as a Neolithic farmer, form tribes in co-op multiplayer, or go it alone in a world where the apex predator is still a distant aspiration.",
+        "en": "Polylithic is a survival game unlike any other, set in the most pivotal moment in mankind&#x27;s history. Experience life as a Paleolithic hunter-gatherer, settle down as a Neolithic farmer, form tribes in co-op multiplayer, or go it alone in a world where the apex predator is still a distant aspiration."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1839060/",
+          "externalId": "1839060"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "1839060"
+      },
+      "signals": {
+        "ccu": 1,
+        "trending": false,
+        "rating": 71,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 828,
+      "title": "Eslabong",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/2f57705341159c9893b7626b1b9c55fa0562d4ed/header.jpg?t=1787711770",
+      "description": "Arena combat meets mercenary club management. Recruit from a dynamic market, build your squad, and compete season after season in leagues and cups.",
+      "description_en": "Arena combat meets mercenary club management. Recruit from a dynamic market, build your squad, and compete season after season in leagues and cups.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4560660/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 93,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 293,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "eslabong",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Arena combat meets mercenary club management. Recruit from a dynamic market, build your squad, and compete season after season in leagues and cups.",
+        "en": "Arena combat meets mercenary club management. Recruit from a dynamic market, build your squad, and compete season after season in leagues and cups."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4560660/",
+          "externalId": "4560660"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4560660"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 93,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
     }
   ]
 }
