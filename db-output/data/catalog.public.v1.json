@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-27T17:43:44.966966Z",
+  "generatedAt": "2026-08-28T18:38:45.413814Z",
   "games": [
     {
       "id": 1,
@@ -32219,7 +32219,7 @@
         "sofa"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "2-4",
       "releaseYear": 2026,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2640950/23b9b9b7ccda6e3afa373ad8df8d61433372738f/header.jpg?t=1772514221",
@@ -32267,7 +32267,7 @@
         "localCoop": true,
         "splitScreen": true,
         "sharedScreen": true,
-        "crossplay": false,
+        "crossplay": true,
         "playersLabel": "2-4",
         "maxPlayers": 4
       },
@@ -50705,7 +50705,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 293,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "eslabong",
@@ -50743,6 +50743,276 @@
         "ccu": 0,
         "trending": false,
         "rating": 93,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 829,
+      "title": "Moo Who?",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4948000/362297ea18447bdf634052b56e7c1bc3d9ed2e72/header.jpg?t=1787331470",
+      "description": "Can you sound like an animal well enough to survive? Moo Who is a multiplayer voice-mimicry party game where animal players hide among NPCs, and make animal sounds into their mic before hunters figure out who is fake.",
+      "description_en": "Can you sound like an animal well enough to survive? Moo Who is a multiplayer voice-mimicry party game where animal players hide among NPCs, and make animal sounds into their mic before hunters figure out who is fake.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4948000/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 66,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "moo-who",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Can you sound like an animal well enough to survive? Moo Who is a multiplayer voice-mimicry party game where animal players hide among NPCs, and make animal sounds into their mic before hunters figure out who is fake.",
+        "en": "Can you sound like an animal well enough to survive? Moo Who is a multiplayer voice-mimicry party game where animal players hide among NPCs, and make animal sounds into their mic before hunters figure out who is fake."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4948000/",
+          "externalId": "4948000"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4948000"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 66,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 830,
+      "title": "Ironsand",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2454600/e364fa3c63c0b8341d34784cf87c3fbb59d9426b/header.jpg?t=1787239828",
+      "description": "Ironsand is a co-op titan-slaying FPS roguelite set on a desert planet where powerful builds and team synergy are everything",
+      "description_en": "Ironsand is a co-op titan-slaying FPS roguelite set on a desert planet where powerful builds and team synergy are everything",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2454600/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 68,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "ironsand",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Ironsand is a co-op titan-slaying FPS roguelite set on a desert planet where powerful builds and team synergy are everything",
+        "en": "Ironsand is a co-op titan-slaying FPS roguelite set on a desert planet where powerful builds and team synergy are everything"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2454600/",
+          "externalId": "2454600"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2454600"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 68,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 834,
+      "title": "Deep Blue Sushi",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 5,
+      "crossplay": false,
+      "players": "1-5",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4005220/98d32d9ab357f11b3313cb090823309089e25997/header.jpg?t=1787230854",
+      "description": "Deep Blue Sushi is a casual 1–5 player co-op adventure where you explore the ocean, catch fresh fish, prepare sushi, serve customers, and grow your restaurant while uncovering the secrets of the mysterious Deep Blue.",
+      "description_en": "Deep Blue Sushi is a casual 1–5 player co-op adventure where you explore the ocean, catch fresh fish, prepare sushi, serve customers, and grow your restaurant while uncovering the secrets of the mysterious Deep Blue.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4005220/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 77,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 123,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "deep-blue-sushi",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Deep Blue Sushi is a casual 1–5 player co-op adventure where you explore the ocean, catch fresh fish, prepare sushi, serve customers, and grow your restaurant while uncovering the secrets of the mysterious Deep Blue.",
+        "en": "Deep Blue Sushi is a casual 1–5 player co-op adventure where you explore the ocean, catch fresh fish, prepare sushi, serve customers, and grow your restaurant while uncovering the secrets of the mysterious Deep Blue."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-5",
+        "maxPlayers": 5
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4005220/",
+          "externalId": "4005220"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4005220"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 77,
         "igdb": false,
         "gog": false,
         "rawg": false
