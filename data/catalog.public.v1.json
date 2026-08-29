@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-28T18:38:45.413814Z",
+  "generatedAt": "2026-08-29T12:45:19.534863Z",
   "games": [
     {
       "id": 1,
@@ -50938,6 +50938,186 @@
       "curatedStatus": "probation"
     },
     {
+      "id": 832,
+      "title": "Water You Doing?",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4429930/b96746dd012d8dfa1df0ce52afd9dc1187b24a51/header.jpg?t=1787756644",
+      "description": "Your ride is dead, and rough waters lie ahead! Survive aboard a musty boat in a totally chaotic co-op. Collect scrap, patch up leaks, swap your catch for cold brews, and use harpoons to break the laws of physics!",
+      "description_en": "Your ride is dead, and rough waters lie ahead! Survive aboard a musty boat in a totally chaotic co-op. Collect scrap, patch up leaks, swap your catch for cold brews, and use harpoons to break the laws of physics!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4429930/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 44,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "water-you-doing",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Your ride is dead, and rough waters lie ahead! Survive aboard a musty boat in a totally chaotic co-op. Collect scrap, patch up leaks, swap your catch for cold brews, and use harpoons to break the laws of physics!",
+        "en": "Your ride is dead, and rough waters lie ahead! Survive aboard a musty boat in a totally chaotic co-op. Collect scrap, patch up leaks, swap your catch for cold brews, and use harpoons to break the laws of physics!"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4429930/",
+          "externalId": "4429930"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4429930"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 44,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 833,
+      "title": "Twisted Party",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4332910/c0209230255b18cbd332109edf3b13bb16b4ebb8/header.jpg?t=1787670033",
+      "description": "Survive. Sabotage. Style on your friends. Twisted Party is a retro horror party game for 2-8 players with open and private lobbies, stuffed with deadly mini-games and buckets of blood. Betray your way to victory and unlock crazy skins by conquering brutal challenges. Last one standing wins.",
+      "description_en": "Survive. Sabotage. Style on your friends. Twisted Party is a retro horror party game for 2-8 players with open and private lobbies, stuffed with deadly mini-games and buckets of blood. Betray your way to victory and unlock crazy skins by conquering brutal challenges. Last one standing wins.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4332910/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 68,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "twisted-party",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Survive. Sabotage. Style on your friends. Twisted Party is a retro horror party game for 2-8 players with open and private lobbies, stuffed with deadly mini-games and buckets of blood. Betray your way to victory and unlock crazy skins by conquering brutal challenges. Last one standing wins.",
+        "en": "Survive. Sabotage. Style on your friends. Twisted Party is a retro horror party game for 2-8 players with open and private lobbies, stuffed with deadly mini-games and buckets of blood. Betray your way to victory and unlock crazy skins by conquering brutal challenges. Last one standing wins."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4332910/",
+          "externalId": "4332910"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4332910"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 68,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
       "id": 834,
       "title": "Deep Blue Sushi",
       "categories": [
@@ -50975,7 +51155,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 123,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "deep-blue-sushi",
@@ -51013,6 +51193,96 @@
         "ccu": 0,
         "trending": false,
         "rating": 77,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 835,
+      "title": "Mall Rivals",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4090330/e6082e2c1e11e8f4896f5b33f34088c88b2b3ecf/header.jpg?t=1787881949",
+      "description": "Competitive mall simulation. 1-8 players open stores in the same mall, fight for customers, crush rivals. Team up or go solo. Fair play or dirty tricks? Your call. Procedural maps, employee system,mall cops, smugglers and physical mechanics.",
+      "description_en": "Competitive mall simulation. 1-8 players open stores in the same mall, fight for customers, crush rivals. Team up or go solo. Fair play or dirty tricks? Your call. Procedural maps, employee system,mall cops, smugglers and physical mechanics.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4090330/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 75,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 158,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "mall-rivals",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Competitive mall simulation. 1-8 players open stores in the same mall, fight for customers, crush rivals. Team up or go solo. Fair play or dirty tricks? Your call. Procedural maps, employee system,mall cops, smugglers and physical mechanics.",
+        "en": "Competitive mall simulation. 1-8 players open stores in the same mall, fight for customers, crush rivals. Team up or go solo. Fair play or dirty tricks? Your call. Procedural maps, employee system,mall cops, smugglers and physical mechanics."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4090330/",
+          "externalId": "4090330"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4090330"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 75,
         "igdb": false,
         "gog": false,
         "rawg": false
