@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-29T12:45:19+00:00",
+  "generatedAt": "2026-08-30T11:48:12+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 555,
+    "games": 557,
     "played": 12,
     "trending": 46,
-    "withEnglishDescription": 555,
+    "withEnglishDescription": 557,
     "categoryCounts": {
-      "action": 450,
+      "action": 452,
       "factory": 61,
       "free": 35,
       "horror": 45,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 555
+      "steam": 557
     }
   },
   "games": [
@@ -51274,7 +51274,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 158,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "mall-rivals",
@@ -51312,6 +51312,185 @@
         "ccu": 0,
         "trending": false,
         "rating": 75,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 836,
+      "title": "Allumeria",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3516590/782117f03e0d00fdfb99ac519293e0bfb3d6f2b3/header.jpg?t=1787932752",
+      "description": "A classic voxel sandbox combined with in-depth progression through exploration, dungeon crawling and boss battles. Spend every minute discovering new weapons, abilities, resources, enemies, structures, mechanics and tools. With a strong focus on discovery, variety and creativity, the world is yours.",
+      "description_en": "A classic voxel sandbox combined with in-depth progression through exploration, dungeon crawling and boss battles. Spend every minute discovering new weapons, abilities, resources, enemies, structures, mechanics and tools. With a strong focus on discovery, variety and creativity, the world is yours.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3516590/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 94,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 187,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "allumeria",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "A classic voxel sandbox combined with in-depth progression through exploration, dungeon crawling and boss battles. Spend every minute discovering new weapons, abilities, resources, enemies, structures, mechanics and tools. With a strong focus on discovery, variety and creativity, the world is yours.",
+        "en": "A classic voxel sandbox combined with in-depth progression through exploration, dungeon crawling and boss battles. Spend every minute discovering new weapons, abilities, resources, enemies, structures, mechanics and tools. With a strong focus on discovery, variety and creativity, the world is yours."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3516590/",
+          "externalId": "3516590"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3516590"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 94,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 838,
+      "title": "Bar After Bar",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 5,
+      "crossplay": false,
+      "players": "1-5",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4596010/44ba5def815460c9e8dc67dc3ec7f799a7e52018/header.jpg?t=1787735298",
+      "description": "Bar After Bar is a multiplayer game where 5 friends drive to the top of a mountain. You will be mixing drinks and throwing them at each other the whole way up. The drunker you get, the harder it is to drive. How far can you make it?",
+      "description_en": "Bar After Bar is a multiplayer game where 5 friends drive to the top of a mountain. You will be mixing drinks and throwing them at each other the whole way up. The drunker you get, the harder it is to drive. How far can you make it?",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4596010/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 84,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 172,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "bar-after-bar",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Bar After Bar is a multiplayer game where 5 friends drive to the top of a mountain. You will be mixing drinks and throwing them at each other the whole way up. The drunker you get, the harder it is to drive. How far can you make it?",
+        "en": "Bar After Bar is a multiplayer game where 5 friends drive to the top of a mountain. You will be mixing drinks and throwing them at each other the whole way up. The drunker you get, the harder it is to drive. How far can you make it?"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-5",
+        "maxPlayers": 5
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4596010/",
+          "externalId": "4596010"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4596010"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 84,
         "igdb": false,
         "gog": false,
         "rawg": false
