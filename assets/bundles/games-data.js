@@ -21668,7 +21668,7 @@ const games = [
     kgDiscount: 0,
     gmvUrl: "",
     gmvDiscount: 0,
-    totalReviews: 187,
+    totalReviews: 0,
     coopScore: null,
     mini_review_it: "",
     mini_review_en: ""
@@ -21704,7 +21704,7 @@ const games = [
     kgDiscount: 0,
     gmvUrl: "",
     gmvDiscount: 0,
-    totalReviews: 110,
+    totalReviews: 0,
     coopScore: null,
     mini_review_it: "",
     mini_review_en: ""
@@ -21740,7 +21740,7 @@ const games = [
     kgDiscount: 0,
     gmvUrl: "",
     gmvDiscount: 0,
-    totalReviews: 172,
+    totalReviews: 0,
     coopScore: null,
     mini_review_it: "",
     mini_review_en: ""
@@ -21754,7 +21754,7 @@ const games = [
     maxPlayers: 4,
     crossplay: false,
     players: "2-4",
-    releaseYear: 0,
+    releaseYear: 2026,
     image: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4406280/d3cad021841c8731a0da86e0a0b1321df341cfd0/header.jpg?t=1787842454",
     description: "the cabin game is a 1-4 player, chaotic horror game where you are trapped inside a cabin and the only way out is through a game of cards. Just beware, as the cards you play have a surprising twist on this humble abode...",
     description_en: "the cabin game is a 1-4 player, chaotic horror game where you are trapped inside a cabin and the only way out is through a game of cards. Just beware, as the cards you play have a surprising twist on this humble abode...",
@@ -21765,7 +21765,7 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0,
+    rating: 83,
     igUrl: "",
     igDiscount: 0,
     gbUrl: "",
@@ -21776,7 +21776,7 @@ const games = [
     kgDiscount: 0,
     gmvUrl: "",
     gmvDiscount: 0,
-    totalReviews: 109,
+    totalReviews: 142,
     coopScore: null,
     mini_review_it: "",
     mini_review_en: ""
