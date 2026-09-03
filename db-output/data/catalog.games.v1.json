@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T11:11:22+00:00",
+  "generatedAt": "2026-09-03T11:11:09+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 559,
+    "games": 560,
     "played": 12,
     "trending": 46,
-    "withEnglishDescription": 559,
+    "withEnglishDescription": 560,
     "categoryCounts": {
-      "action": 454,
+      "action": 455,
       "factory": 61,
       "free": 35,
       "horror": 45,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 559
+      "steam": 560
     }
   },
   "games": [
@@ -51672,6 +51672,96 @@
         "ccu": 0,
         "trending": false,
         "rating": 83,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 840,
+      "title": "Serious Sam: Shatterverse",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2067210/3171c0ddcebcb0888ed8ff80469792ded64a7aa4/header.jpg?t=1788191119",
+      "description": "Serious Sam: Shatterverse is a co-op roguelite FPS for 1 - 5 players. Blast through shifting universes, stack wild boons, bend the rules with run modifiers, and hunt Mental's deadliest forces. Fall fast. Come back louder.",
+      "description_en": "Serious Sam: Shatterverse is a co-op roguelite FPS for 1 - 5 players. Blast through shifting universes, stack wild boons, bend the rules with run modifiers, and hunt Mental's deadliest forces. Fall fast. Come back louder.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2067210/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 47,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "serious-sam-shatterverse",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Serious Sam: Shatterverse is a co-op roguelite FPS for 1 - 5 players. Blast through shifting universes, stack wild boons, bend the rules with run modifiers, and hunt Mental&#x27;s deadliest forces. Fall fast. Come back louder.",
+        "en": "Serious Sam: Shatterverse is a co-op roguelite FPS for 1 - 5 players. Blast through shifting universes, stack wild boons, bend the rules with run modifiers, and hunt Mental&#x27;s deadliest forces. Fall fast. Come back louder."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2067210/",
+          "externalId": "2067210"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2067210"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 47,
         "igdb": false,
         "gog": false,
         "rawg": false
