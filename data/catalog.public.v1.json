@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-03T11:11:09.713939Z",
+  "generatedAt": "2026-09-04T11:10:26.647761Z",
   "games": [
     {
       "id": 1,
@@ -51746,6 +51746,276 @@
         "schemaVersion": 1
       },
       "curatedStatus": "probation"
+    },
+    {
+      "id": 841,
+      "title": "Crimson Moon",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4317690/43f965890a8f4e64917f20befc50a077036cc015/header.jpg?t=1788309232",
+      "description": "You are Nephilim: a human-angel hybrid forged to defend humanity with supernatural powers. Fight solo or with a friend to annihilate demons and challenge brutal bosses in relentless melée combat. Rise, violent one. The prophecy is yours to fulfill.",
+      "description_en": "You are Nephilim: a human-angel hybrid forged to defend humanity with supernatural powers. Fight solo or with a friend to annihilate demons and challenge brutal bosses in relentless melée combat. Rise, violent one. The prophecy is yours to fulfill.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4317690/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 59,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "crimson-moon",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "You are Nephilim: a human-angel hybrid forged to defend humanity with supernatural powers. Fight solo or with a friend to annihilate demons and challenge brutal bosses in relentless melée combat. Rise, violent one. The prophecy is yours to fulfill.",
+        "en": "You are Nephilim: a human-angel hybrid forged to defend humanity with supernatural powers. Fight solo or with a friend to annihilate demons and challenge brutal bosses in relentless melée combat. Rise, violent one. The prophecy is yours to fulfill."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4317690/",
+          "externalId": "4317690"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4317690"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 59,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 842,
+      "title": "BOMBANANA!",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1788351950",
+      "description": "Chaotic bomb disposal fun with friends & monkeys! Work together as a 3-player co-op team of blind, deaf, and mute monkeys. Each player has only part of the needed information. Communicate, solve puzzles, and race against the clock. Can you defuse the bombs before they explode?",
+      "description_en": "Chaotic bomb disposal fun with friends & monkeys! Work together as a 3-player co-op team of blind, deaf, and mute monkeys. Each player has only part of the needed information. Communicate, solve puzzles, and race against the clock. Can you defuse the bombs before they explode?",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4656000/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 97,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 496,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "bombanana",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Chaotic bomb disposal fun with friends &amp; monkeys! Work together as a 3-player co-op team of blind, deaf, and mute monkeys. Each player has only part of the needed information. Communicate, solve puzzles, and race against the clock. Can you defuse the bombs before they explode?",
+        "en": "Chaotic bomb disposal fun with friends &amp; monkeys! Work together as a 3-player co-op team of blind, deaf, and mute monkeys. Each player has only part of the needed information. Communicate, solve puzzles, and race against the clock. Can you defuse the bombs before they explode?"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4656000/",
+          "externalId": "4656000"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4656000"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 97,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 844,
+      "title": "WheelMates",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "maxPlayers": 2,
+      "crossplay": false,
+      "players": "1-2",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3905450/77c8adc4c5c11a80f0ae22633789396a0f313433/header.jpg?t=1788429316",
+      "description": "Dive into a 2-player co-op driving adventure with RC cars. Explore the professor’s home laboratory, solve puzzles, find hidden paths, and uncover what happened inside. With Friend’s Pass, your friend joins for free.",
+      "description_en": "Dive into a 2-player co-op driving adventure with RC cars. Explore the professor’s home laboratory, solve puzzles, find hidden paths, and uncover what happened inside. With Friend’s Pass, your friend joins for free.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3905450/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 77,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 174,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "wheelmates",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Dive into a 2-player co-op driving adventure with RC cars. Explore the professor’s home laboratory, solve puzzles, find hidden paths, and uncover what happened inside. With Friend’s Pass, your friend joins for free.",
+        "en": "Dive into a 2-player co-op driving adventure with RC cars. Explore the professor’s home laboratory, solve puzzles, find hidden paths, and uncover what happened inside. With Friend’s Pass, your friend joins for free."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
+        "crossplay": false,
+        "playersLabel": "1-2",
+        "maxPlayers": 2
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3905450/",
+          "externalId": "3905450"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3905450"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 77,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
     }
   ]
 }
