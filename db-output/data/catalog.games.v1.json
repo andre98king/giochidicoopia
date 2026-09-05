@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-04T11:10:26+00:00",
+  "generatedAt": "2026-09-05T10:29:58+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 563,
+    "games": 567,
     "played": 12,
     "trending": 46,
-    "withEnglishDescription": 563,
+    "withEnglishDescription": 567,
     "categoryCounts": {
-      "action": 458,
+      "action": 462,
       "factory": 61,
       "free": 35,
       "horror": 45,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 563
+      "steam": 567
     }
   },
   "games": [
@@ -51904,7 +51904,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 496,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "bombanana",
@@ -51953,7 +51953,98 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 843,
+      "title": "Not Quite Dead: Open World Survival",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4609770/00bb3f44fa4471487fd2404ab8b75c215378dd66/header.jpg?t=1788282382",
+      "description": "Open world zombie survival Coop game with base building, looting, crafting, vehicles, and exploration.",
+      "description_en": "Open world zombie survival Coop game with base building, looting, crafting, vehicles, and exploration.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4609770/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 55,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "not-quite-dead-open-world-survival",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Open world zombie survival Coop game with base building, looting, crafting, vehicles, and exploration.",
+        "en": "Open world zombie survival Coop game with base building, looting, crafting, vehicles, and exploration."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4609770/",
+          "externalId": "4609770"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4609770"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 55,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 844,
@@ -51995,7 +52086,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 174,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "wheelmates",
@@ -52033,6 +52124,275 @@
         "ccu": 0,
         "trending": false,
         "rating": 77,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 846,
+      "title": "Beetleball",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 6,
+      "crossplay": false,
+      "players": "1-6",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2776270/f9937d880e8d9b09e58fdfbedd74313ad8118af3/header.jpg?t=1788454817",
+      "description": "Score goals with dungballs in Beetleball, the Greatest Online Multiplayer Class-based Dung Beetle Soccer Game TO EVER EXIST",
+      "description_en": "Score goals with dungballs in Beetleball, the Greatest Online Multiplayer Class-based Dung Beetle Soccer Game TO EVER EXIST",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2776270/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 95,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 158,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "beetleball",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Score goals with dungballs in Beetleball, the Greatest Online Multiplayer Class-based Dung Beetle Soccer Game TO EVER EXIST",
+        "en": "Score goals with dungballs in Beetleball, the Greatest Online Multiplayer Class-based Dung Beetle Soccer Game TO EVER EXIST"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-6",
+        "maxPlayers": 6
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2776270/",
+          "externalId": "2776270"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2776270"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 95,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 847,
+      "title": "Island Market Simulator",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3391510/dc8f14967a43e86c51d84d9a878c0e87c77b633a/header_alt_assets_2.jpg?t=1788437378",
+      "description": "Team up with your friends and build a thriving trade empire in this CO-OP strategy and economy simulation set on a lively island. Begin with a small market, share tasks, manage production chains, raise livestock, and dominate the economy together through changing seasons and dynamic festivals!",
+      "description_en": "Team up with your friends and build a thriving trade empire in this CO-OP strategy and economy simulation set on a lively island. Begin with a small market, share tasks, manage production chains, raise livestock, and dominate the economy together through changing seasons and dynamic festivals!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3391510/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 80,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 143,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "island-market-simulator",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Team up with your friends and build a thriving trade empire in this CO-OP strategy and economy simulation set on a lively island. Begin with a small market, share tasks, manage production chains, raise livestock, and dominate the economy together through changing seasons and dynamic festivals!",
+        "en": "Team up with your friends and build a thriving trade empire in this CO-OP strategy and economy simulation set on a lively island. Begin with a small market, share tasks, manage production chains, raise livestock, and dominate the economy together through changing seasons and dynamic festivals!"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3391510/",
+          "externalId": "3391510"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3391510"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 80,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 848,
+      "title": "Inferno Protocol",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 6,
+      "crossplay": false,
+      "players": "1-6",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3908940/45fdacf873c8ca3ba7cca576fcf03ac24a413462/header.jpg?t=1787929615",
+      "description": "A survival horror set in a massive maze. Play solo or 6-player co-op. Scavenge resources to craft gear and survive against terrifying enemies. Unlock unique abilities and find the exit.",
+      "description_en": "A survival horror set in a massive maze. Play solo or 6-player co-op. Scavenge resources to craft gear and survive against terrifying enemies. Unlock unique abilities and find the exit.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3908940/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 78,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 111,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "inferno-protocol",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "A survival horror set in a massive maze. Play solo or 6-player co-op. Scavenge resources to craft gear and survive against terrifying enemies. Unlock unique abilities and find the exit.",
+        "en": "A survival horror set in a massive maze. Play solo or 6-player co-op. Scavenge resources to craft gear and survive against terrifying enemies. Unlock unique abilities and find the exit."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-6",
+        "maxPlayers": 6
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3908940/",
+          "externalId": "3908940"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3908940"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 78,
         "igdb": false,
         "gog": false,
         "rawg": false
