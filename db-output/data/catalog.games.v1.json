@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-06T10:49:58+00:00",
+  "generatedAt": "2026-09-07T12:15:54+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 569,
+    "games": 570,
     "played": 12,
     "trending": 46,
-    "withEnglishDescription": 569,
+    "withEnglishDescription": 570,
     "categoryCounts": {
-      "action": 464,
+      "action": 465,
       "factory": 61,
       "free": 35,
       "horror": 45,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 569
+      "steam": 570
     }
   },
   "games": [
@@ -52539,7 +52539,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 129,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "megastore-tidy-up-together",
@@ -52577,6 +52577,96 @@
         "ccu": 0,
         "trending": false,
         "rating": 88,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 851,
+      "title": "Unnamed Pogo Game",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4925300/301153743cd06d8b5c3cdc20d78d334a0da2b7d1/header.jpg?t=1788281852",
+      "description": "Trapped with friends in a surreal world, your only way out is to bounce your way to the top. Master brutal physics, survive impossible obstacles, and face the climb together in this unforgiving pogo-stick challenge. One bad landing is all it takes to lose it all. Can you reach the peak?",
+      "description_en": "Trapped with friends in a surreal world, your only way out is to bounce your way to the top. Master brutal physics, survive impossible obstacles, and face the climb together in this unforgiving pogo-stick challenge. One bad landing is all it takes to lose it all. Can you reach the peak?",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4925300/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 86,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 112,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "unnamed-pogo-game",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Trapped with friends in a surreal world, your only way out is to bounce your way to the top. Master brutal physics, survive impossible obstacles, and face the climb together in this unforgiving pogo-stick challenge. One bad landing is all it takes to lose it all. Can you reach the peak?",
+        "en": "Trapped with friends in a surreal world, your only way out is to bounce your way to the top. Master brutal physics, survive impossible obstacles, and face the climb together in this unforgiving pogo-stick challenge. One bad landing is all it takes to lose it all. Can you reach the peak?"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4925300/",
+          "externalId": "4925300"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4925300"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 86,
         "igdb": false,
         "gog": false,
         "rawg": false
