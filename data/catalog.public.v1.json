@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-08T11:10:19.330078Z",
+  "generatedAt": "2026-09-09T11:14:53.411712Z",
   "games": [
     {
       "id": 1,
@@ -51397,7 +51397,8 @@
       ],
       "genres": [],
       "coopMode": [
-        "online"
+        "local",
+        "sofa"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -51443,10 +51444,10 @@
         "genres": []
       },
       "capabilities": {
-        "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "onlineCoop": false,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "2-4",
         "maxPlayers": 4
@@ -51670,7 +51671,7 @@
         "online"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "2-4",
       "releaseYear": 2026,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2067210/3171c0ddcebcb0888ed8ff80469792ded64a7aa4/header.jpg?t=1788191119",
@@ -51717,7 +51718,7 @@
         "localCoop": false,
         "splitScreen": false,
         "sharedScreen": false,
-        "crossplay": false,
+        "crossplay": true,
         "playersLabel": "2-4",
         "maxPlayers": 4
       },
@@ -52119,7 +52120,9 @@
       ],
       "genres": [],
       "coopMode": [
-        "online"
+        "online",
+        "local",
+        "sofa"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -52166,9 +52169,9 @@
       },
       "capabilities": {
         "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "2-4",
         "maxPlayers": 4
@@ -52741,6 +52744,185 @@
         "schemaVersion": 1
       },
       "curatedStatus": "probation"
+    },
+    {
+      "id": 852,
+      "title": "Deliria",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3725650/480cc6c47b973c247ab621eaa39a4b0aa730c8e9/header.jpg?t=1788403418",
+      "description": "Fight what should never wake. Deliria is an infinite multiplayer sandbox with no cubes and no grid: carve the world smooth, build a town people actually move into, and hold it against blood moons, invasions and nine Lovecraftian gods.",
+      "description_en": "Fight what should never wake. Deliria is an infinite multiplayer sandbox with no cubes and no grid: carve the world smooth, build a town people actually move into, and hold it against blood moons, invasions and nine Lovecraftian gods.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3725650/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 58,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "deliria",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Fight what should never wake. Deliria is an infinite multiplayer sandbox with no cubes and no grid: carve the world smooth, build a town people actually move into, and hold it against blood moons, invasions and nine Lovecraftian gods.",
+        "en": "Fight what should never wake. Deliria is an infinite multiplayer sandbox with no cubes and no grid: carve the world smooth, build a town people actually move into, and hold it against blood moons, invasions and nine Lovecraftian gods."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3725650/",
+          "externalId": "3725650"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3725650"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 58,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 853,
+      "title": "Alchemy Factory",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3669570/6972705aba17c765ed16a98d81312a6970a9d362/header_alt_assets_0.jpg?t=1788863012",
+      "description": "Start small, team up with friends, and automate production with conveyor belts, pipes, and magical devices. Stock your shop with potions, jewelry, and relics, complete commissions, and build an alchemy empire! Alchemy Factory 1.0 is out now with the Wagon Logistics System and revamped shopkeeping.",
+      "description_en": "Start small, team up with friends, and automate production with conveyor belts, pipes, and magical devices. Stock your shop with potions, jewelry, and relics, complete commissions, and build an alchemy empire! Alchemy Factory 1.0 is out now with the Wagon Logistics System and revamped shopkeeping.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3669570/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 90,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 1252,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "alchemy-factory",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Start small, team up with friends, and automate production with conveyor belts, pipes, and magical devices. Stock your shop with potions, jewelry, and relics, complete commissions, and build an alchemy empire! Alchemy Factory 1.0 is out now with the Wagon Logistics System and revamped shopkeeping.",
+        "en": "Start small, team up with friends, and automate production with conveyor belts, pipes, and magical devices. Stock your shop with potions, jewelry, and relics, complete commissions, and build an alchemy empire! Alchemy Factory 1.0 is out now with the Wagon Logistics System and revamped shopkeeping."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3669570/",
+          "externalId": "3669570"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3669570"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 90,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
     }
   ]
 }
