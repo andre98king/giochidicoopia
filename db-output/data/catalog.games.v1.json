@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-11T11:09:00+00:00",
+  "generatedAt": "2026-09-12T10:36:53+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 576,
+    "games": 577,
     "played": 12,
     "trending": 46,
-    "withEnglishDescription": 576,
+    "withEnglishDescription": 577,
     "categoryCounts": {
-      "action": 471,
+      "action": 472,
       "factory": 61,
       "free": 35,
       "horror": 45,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 576
+      "steam": 577
     }
   },
   "games": [
@@ -53172,7 +53172,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 104,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "monk-took-book",
@@ -53210,6 +53210,96 @@
         "ccu": 0,
         "trending": false,
         "rating": 99,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 858,
+      "title": "Escape Toon Kingdom",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3198360/f7d1a49b3aa5c291071ac286b16b289eef7cccb5/header.jpg?t=1789058835",
+      "description": "Escape From Toon Kingdom is a 1–4 player co-op horror game. Play as mascots trapped in a dying theme park. Explore. Solve. Suffer. Every attraction holds a secret—and a piece of your escape.",
+      "description_en": "Escape From Toon Kingdom is a 1–4 player co-op horror game. Play as mascots trapped in a dying theme park. Explore. Solve. Suffer. Every attraction holds a secret—and a piece of your escape.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3198360/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 1,
+      "trending": false,
+      "rating": 83,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 70,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "escape-toon-kingdom",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Escape From Toon Kingdom is a 1–4 player co-op horror game. Play as mascots trapped in a dying theme park. Explore. Solve. Suffer. Every attraction holds a secret—and a piece of your escape.",
+        "en": "Escape From Toon Kingdom is a 1–4 player co-op horror game. Play as mascots trapped in a dying theme park. Explore. Solve. Suffer. Every attraction holds a secret—and a piece of your escape."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3198360/",
+          "externalId": "3198360"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3198360"
+      },
+      "signals": {
+        "ccu": 1,
+        "trending": false,
+        "rating": 83,
         "igdb": false,
         "gog": false,
         "rawg": false
