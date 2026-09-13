@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-12T10:36:53+00:00",
+  "generatedAt": "2026-09-13T11:38:19+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 577,
+    "games": 579,
     "played": 12,
     "trending": 46,
-    "withEnglishDescription": 577,
+    "withEnglishDescription": 579,
     "categoryCounts": {
-      "action": 472,
+      "action": 474,
       "factory": 61,
       "free": 35,
       "horror": 45,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 577
+      "steam": 579
     }
   },
   "games": [
@@ -53300,6 +53300,184 @@
         "ccu": 1,
         "trending": false,
         "rating": 83,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 859,
+      "title": "Anomaly Company",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3099190/2acbd195c17db48662a46221e3677977bf45c4c6/header.jpg?t=1789150555",
+      "description": "You and your crew are sent in to assess reality in this 4-player co-op horror game. Memorize the environment. Spot disturbing anomalies. Decide if the timeline is safe. One bad call—and you’re forced to start over.",
+      "description_en": "You and your crew are sent in to assess reality in this 4-player co-op horror game. Memorize the environment. Spot disturbing anomalies. Decide if the timeline is safe. One bad call—and you’re forced to start over.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3099190/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 78,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 161,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "anomaly-company",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "You and your crew are sent in to assess reality in this 4-player co-op horror game. Memorize the environment. Spot disturbing anomalies. Decide if the timeline is safe. One bad call—and you’re forced to start over.",
+        "en": "You and your crew are sent in to assess reality in this 4-player co-op horror game. Memorize the environment. Spot disturbing anomalies. Decide if the timeline is safe. One bad call—and you’re forced to start over."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3099190/",
+          "externalId": "3099190"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3099190"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 78,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 860,
+      "title": "Anime Shop Simulator ✨",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3393280/addf6327ac73b1cd42cfc66b9c79f329a742a395/header.jpg?t=1789166827",
+      "description": "Manage your own anime shop 🎌. Play solo or team up with friends 🤝 in 4-player co-op mode to grow your business 📈 Stock shelves with manga, figures, and collectible cards in this immersive first-person game 🕹️.",
+      "description_en": "Manage your own anime shop 🎌. Play solo or team up with friends 🤝 in 4-player co-op mode to grow your business 📈 Stock shelves with manga, figures, and collectible cards in this immersive first-person game 🕹️.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3393280/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 73,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 342,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "anime-shop-simulator",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Manage your own anime shop 🎌. Play solo or team up with friends 🤝 in 4-player co-op mode to grow your business 📈 Stock shelves with manga, figures, and collectible cards in this immersive first-person game 🕹️.",
+        "en": "Manage your own anime shop 🎌. Play solo or team up with friends 🤝 in 4-player co-op mode to grow your business 📈 Stock shelves with manga, figures, and collectible cards in this immersive first-person game 🕹️."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3393280/",
+          "externalId": "3393280"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3393280"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 73,
         "igdb": false,
         "gog": false,
         "rawg": false
