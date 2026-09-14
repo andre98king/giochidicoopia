@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-13T11:38:19.998651Z",
+  "generatedAt": "2026-09-14T12:29:17.747342Z",
   "games": [
     {
       "id": 1,
@@ -53322,7 +53322,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 161,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "anomaly-company",
@@ -53371,7 +53371,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 860,
@@ -53411,7 +53412,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 342,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "anime-shop-simulator",
@@ -53460,7 +53461,98 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 861,
+      "title": "Soul Chained",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3544130/c3b1f93dbe24f30c7ffc596cea30b922f02edeab/header.jpg?t=1788987658",
+      "description": "Bound by the Soul Chain, fight through purgatory as chained rival warlords using chain magic, teamwork, and terrible decision-making. Trip enemies, accidentally drag your partner to their death, and survive brutal bosses armed with suspicious amounts of jiggle physics.",
+      "description_en": "Bound by the Soul Chain, fight through purgatory as chained rival warlords using chain magic, teamwork, and terrible decision-making. Trip enemies, accidentally drag your partner to their death, and survive brutal bosses armed with suspicious amounts of jiggle physics.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3544130/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 69,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "soul-chained",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Bound by the Soul Chain, fight through purgatory as chained rival warlords using chain magic, teamwork, and terrible decision-making. Trip enemies, accidentally drag your partner to their death, and survive brutal bosses armed with suspicious amounts of jiggle physics.",
+        "en": "Bound by the Soul Chain, fight through purgatory as chained rival warlords using chain magic, teamwork, and terrible decision-making. Trip enemies, accidentally drag your partner to their death, and survive brutal bosses armed with suspicious amounts of jiggle physics."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3544130/",
+          "externalId": "3544130"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3544130"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 69,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
     }
   ]
 }
