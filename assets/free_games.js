@@ -13,5 +13,12 @@ const freeGames = [
     "imageUrl": "https://cdn1.epicgames.com/spt-assets/85ddeeec9d4243b3a2d78aab87bfae7f/luftrausers-1mxb1.png",
     "storeUrl": "https://store.epicgames.com/en-US/p/luftrausers-51e5e9",
     "freeUntil": "2026-09-17T15:00:00Z"
+  },
+  {
+    "title": "Crystal Crisis",
+    "store": "steam",
+    "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/447700/header.jpg?t=1789325105",
+    "storeUrl": "https://store.steampowered.com/app/447700/",
+    "freeUntil": "2026-09-22T06:59:00Z"
   }
 ];
