@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T12:29:17.747342Z",
+  "generatedAt": "2026-09-15T11:39:18.719498Z",
   "games": [
     {
       "id": 1,
@@ -52215,7 +52215,7 @@
         "online"
       ],
       "maxPlayers": 6,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-6",
       "releaseYear": 2026,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2776270/f9937d880e8d9b09e58fdfbedd74313ad8118af3/header.jpg?t=1788454817",
@@ -52262,7 +52262,7 @@
         "localCoop": false,
         "splitScreen": false,
         "sharedScreen": false,
-        "crossplay": false,
+        "crossplay": true,
         "playersLabel": "1-6",
         "maxPlayers": 6
       },
@@ -53553,6 +53553,184 @@
         "schemaVersion": 1
       },
       "curatedStatus": "probation"
+    },
+    {
+      "id": 862,
+      "title": "Forsworn",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 3,
+      "crossplay": false,
+      "players": "1-3",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3560360/95afd9e30101e40d544899eb9968d9d02236ae59/header_alt_assets_0.jpg?t=1789055128",
+      "description": "Stack game-breaking synergies until your party can slay gods. Command a party of heroes, forge powerful synergies, and level them up across runs in this turn-based tactics roguelite. Battle the gods solo or in co-op, where defeat is just another beginning.",
+      "description_en": "Stack game-breaking synergies until your party can slay gods. Command a party of heroes, forge powerful synergies, and level them up across runs in this turn-based tactics roguelite. Battle the gods solo or in co-op, where defeat is just another beginning.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3560360/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 93,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 143,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "forsworn",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Stack game-breaking synergies until your party can slay gods. Command a party of heroes, forge powerful synergies, and level them up across runs in this turn-based tactics roguelite. Battle the gods solo or in co-op, where defeat is just another beginning.",
+        "en": "Stack game-breaking synergies until your party can slay gods. Command a party of heroes, forge powerful synergies, and level them up across runs in this turn-based tactics roguelite. Battle the gods solo or in co-op, where defeat is just another beginning."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-3",
+        "maxPlayers": 3
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3560360/",
+          "externalId": "3560360"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3560360"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 93,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 863,
+      "title": "Dumb Ways to Build",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4412320/7182e312b98a494c3e498667b132693e9e4f6a0f/header.jpg?t=1789053992",
+      "description": "Dumb Ways to Build is a chaotic, physics-based co-op game. Team up with friends to assemble your crew and take-on dangerous construction jobs. With all the gear and no idea, work together to build your path forward, or die trying!",
+      "description_en": "Dumb Ways to Build is a chaotic, physics-based co-op game. Team up with friends to assemble your crew and take-on dangerous construction jobs. With all the gear and no idea, work together to build your path forward, or die trying!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4412320/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 86,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 135,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "dumb-ways-to-build",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Dumb Ways to Build is a chaotic, physics-based co-op game. Team up with friends to assemble your crew and take-on dangerous construction jobs. With all the gear and no idea, work together to build your path forward, or die trying!",
+        "en": "Dumb Ways to Build is a chaotic, physics-based co-op game. Team up with friends to assemble your crew and take-on dangerous construction jobs. With all the gear and no idea, work together to build your path forward, or die trying!"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4412320/",
+          "externalId": "4412320"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4412320"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 86,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
     }
   ]
 }
