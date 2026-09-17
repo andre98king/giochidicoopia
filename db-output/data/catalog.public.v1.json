@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-16T11:23:57.328863Z",
+  "generatedAt": "2026-09-17T11:33:48.104267Z",
   "games": [
     {
       "id": 1,
@@ -53772,7 +53772,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 107,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "shady-job",
@@ -53810,6 +53810,185 @@
         "ccu": 0,
         "trending": false,
         "rating": 71,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 865,
+      "title": "Dimraeth",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2402680/8fe3923c10dfda28e5a41c5a501aedc4909966a7/header.jpg?t=1789492776",
+      "description": "A 1-8 player fantasy RPG set in a handcrafted pixel world. Build your hero across 8 races and 6 classes. Explore ancient lands, master elemental combat, forge relationships, and shape a stronghold to call home. Fight for the fate of Dimraeth either together or alone.",
+      "description_en": "A 1-8 player fantasy RPG set in a handcrafted pixel world. Build your hero across 8 races and 6 classes. Explore ancient lands, master elemental combat, forge relationships, and shape a stronghold to call home. Fight for the fate of Dimraeth either together or alone.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2402680/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 81,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 820,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "dimraeth",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "A 1-8 player fantasy RPG set in a handcrafted pixel world. Build your hero across 8 races and 6 classes. Explore ancient lands, master elemental combat, forge relationships, and shape a stronghold to call home. Fight for the fate of Dimraeth either together or alone.",
+        "en": "A 1-8 player fantasy RPG set in a handcrafted pixel world. Build your hero across 8 races and 6 classes. Explore ancient lands, master elemental combat, forge relationships, and shape a stronghold to call home. Fight for the fate of Dimraeth either together or alone."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2402680/",
+          "externalId": "2402680"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2402680"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 81,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 866,
+      "title": "Active Matter",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2887580/191801a8de4db48075ef195473a922391cb4c6de/header.jpg?t=1789479391",
+      "description": "Join dangerous raids for loot or intense PvP battles in this new realistic military shooter set in a fractured multiverse. Fight in the quantum unstable zones over control of the active matter – the substance that bends time and space.",
+      "description_en": "Join dangerous raids for loot or intense PvP battles in this new realistic military shooter set in a fractured multiverse. Fight in the quantum unstable zones over control of the active matter – the substance that bends time and space.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2887580/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 75,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 506,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "active-matter",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Join dangerous raids for loot or intense PvP battles in this new realistic military shooter set in a fractured multiverse. Fight in the quantum unstable zones over control of the active matter – the substance that bends time and space.",
+        "en": "Join dangerous raids for loot or intense PvP battles in this new realistic military shooter set in a fractured multiverse. Fight in the quantum unstable zones over control of the active matter – the substance that bends time and space."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2887580/",
+          "externalId": "2887580"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2887580"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 75,
         "igdb": false,
         "gog": false,
         "rawg": false
