@@ -20,5 +20,12 @@ const freeGames = [
     "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/447700/header.jpg?t=1789325105",
     "storeUrl": "https://store.steampowered.com/app/447700/",
     "freeUntil": "2026-09-22T06:59:00Z"
+  },
+  {
+    "title": "Space Menace",
+    "store": "steam",
+    "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000040/header.jpg?t=1789577223",
+    "storeUrl": "https://store.steampowered.com/app/2000040/",
+    "freeUntil": "2026-09-23T17:00:00Z"
   }
 ];
