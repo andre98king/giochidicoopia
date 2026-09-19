@@ -8,6 +8,13 @@ const freeGames = [
     "freeUntil": "2026-09-22T06:59:00Z"
   },
   {
+    "title": "Deadshot",
+    "store": "steam",
+    "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2484180/header.jpg?t=1789750382",
+    "storeUrl": "https://store.steampowered.com/app/2484180/",
+    "freeUntil": "2026-09-23T17:00:00Z"
+  },
+  {
     "title": "Space Menace",
     "store": "steam",
     "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000040/header.jpg?t=1789577223",
