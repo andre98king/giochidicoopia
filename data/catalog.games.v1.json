@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-19T10:49:47+00:00",
+  "generatedAt": "2026-09-20T11:13:01+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 586,
+    "games": 588,
     "played": 12,
     "trending": 46,
-    "withEnglishDescription": 586,
+    "withEnglishDescription": 588,
     "categoryCounts": {
-      "action": 481,
+      "action": 483,
       "factory": 61,
       "free": 35,
       "horror": 45,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 586
+      "steam": 588
     }
   },
   "games": [
@@ -53501,7 +53501,9 @@
       ],
       "genres": [],
       "coopMode": [
-        "online"
+        "online",
+        "local",
+        "sofa"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -53548,9 +53550,9 @@
       },
       "capabilities": {
         "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "2-4",
         "maxPlayers": 4
@@ -53684,7 +53686,7 @@
         "online"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "2-4",
       "releaseYear": 2026,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4412320/7182e312b98a494c3e498667b132693e9e4f6a0f/header.jpg?t=1789053992",
@@ -53731,7 +53733,7 @@
         "localCoop": false,
         "splitScreen": false,
         "sharedScreen": false,
-        "crossplay": false,
+        "crossplay": true,
         "playersLabel": "2-4",
         "maxPlayers": 4
       },
@@ -54044,7 +54046,7 @@
         "online"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "2-4",
       "releaseYear": 2026,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3560670/b33eddb983569a4b0b4ac6ba5a23554b3dc3755f/header.jpg?t=1789647376",
@@ -54071,7 +54073,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 386,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "openfront",
@@ -54091,7 +54093,7 @@
         "localCoop": false,
         "splitScreen": false,
         "sharedScreen": false,
-        "crossplay": false,
+        "crossplay": true,
         "playersLabel": "2-4",
         "maxPlayers": 4
       },
@@ -54109,6 +54111,185 @@
         "ccu": 0,
         "trending": false,
         "rating": 89,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 868,
+      "title": "Parisian Bistro Simulator",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3058360/feeb159213c2d07de5d8de775fabf967c4d338fa/header.jpg?t=1789789962",
+      "description": "Run your Parisian bistro in the heart of Paris, solo or in co-op with up to 8 players! Curate your menu, manage supplies, serve customers, and expand with new floors, a terrace, and a rooftop to become a true Parisian institution.",
+      "description_en": "Run your Parisian bistro in the heart of Paris, solo or in co-op with up to 8 players! Curate your menu, manage supplies, serve customers, and expand with new floors, a terrace, and a rooftop to become a true Parisian institution.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3058360/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 93,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 460,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "parisian-bistro-simulator",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Run your Parisian bistro in the heart of Paris, solo or in co-op with up to 8 players! Curate your menu, manage supplies, serve customers, and expand with new floors, a terrace, and a rooftop to become a true Parisian institution.",
+        "en": "Run your Parisian bistro in the heart of Paris, solo or in co-op with up to 8 players! Curate your menu, manage supplies, serve customers, and expand with new floors, a terrace, and a rooftop to become a true Parisian institution."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3058360/",
+          "externalId": "3058360"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3058360"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 93,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 870,
+      "title": "Dawson Oaks Trailer Park",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 12,
+      "crossplay": false,
+      "players": "1-12",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3640200/cfc3aa438d35284aea9e5081add3d968061e9653/header.jpg?t=1789664433",
+      "description": "A proximity voice chat social deduction game where criminals must commit secret crimes while a Supervisor hunts them, and a hidden Snitch betrays them from within.",
+      "description_en": "A proximity voice chat social deduction game where criminals must commit secret crimes while a Supervisor hunts them, and a hidden Snitch betrays them from within.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3640200/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 91,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 167,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "dawson-oaks-trailer-park",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "A proximity voice chat social deduction game where criminals must commit secret crimes while a Supervisor hunts them, and a hidden Snitch betrays them from within.",
+        "en": "A proximity voice chat social deduction game where criminals must commit secret crimes while a Supervisor hunts them, and a hidden Snitch betrays them from within."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-12",
+        "maxPlayers": 12
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3640200/",
+          "externalId": "3640200"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3640200"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 91,
         "igdb": false,
         "gog": false,
         "rawg": false
