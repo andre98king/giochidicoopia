@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T11:13:01+00:00",
+  "generatedAt": "2026-09-21T12:39:06+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 588,
+    "games": 592,
     "played": 12,
     "trending": 46,
-    "withEnglishDescription": 588,
+    "withEnglishDescription": 592,
     "categoryCounts": {
-      "action": 483,
+      "action": 487,
       "factory": 61,
       "free": 35,
       "horror": 45,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 588
+      "steam": 592
     }
   },
   "games": [
@@ -54163,7 +54163,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 460,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "parisian-bistro-simulator",
@@ -54212,7 +54212,98 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 869,
+      "title": "Anymaker",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435340/d9734b7b1afe0e4420f30f37ba6acbcab7a4cc5d/header.jpg?t=1789747124",
+      "description": "Embark on your creative journey of vehicle design, as you create and operate vehicles to survive this dangerous open world. Anymaker is a detailed and technical vehicle builder and survival game. Design your chassis, build your engine, connect components, and travel into the unknown.",
+      "description_en": "Embark on your creative journey of vehicle design, as you create and operate vehicles to survive this dangerous open world. Anymaker is a detailed and technical vehicle builder and survival game. Design your chassis, build your engine, connect components, and travel into the unknown.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4435340/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 46,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "anymaker",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Embark on your creative journey of vehicle design, as you create and operate vehicles to survive this dangerous open world. Anymaker is a detailed and technical vehicle builder and survival game. Design your chassis, build your engine, connect components, and travel into the unknown.",
+        "en": "Embark on your creative journey of vehicle design, as you create and operate vehicles to survive this dangerous open world. Anymaker is a detailed and technical vehicle builder and survival game. Design your chassis, build your engine, connect components, and travel into the unknown."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4435340/",
+          "externalId": "4435340"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4435340"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 46,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 870,
@@ -54252,7 +54343,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 167,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "dawson-oaks-trailer-park",
@@ -54290,6 +54381,274 @@
         "ccu": 0,
         "trending": false,
         "rating": 91,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 871,
+      "title": "Paver: Tidy Up Together",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5120650/537d4a67acc6baf4c02f205f272705d54f41ddb9/header.jpg?t=1789743649",
+      "description": "Transform a chaotic area into a satisfying work of art. Follow the paver layout plan and place 4,064 pavers in their correct locations. Work alone or together with friends, develop useful skills, and restore the plaza piece by piece.",
+      "description_en": "Transform a chaotic area into a satisfying work of art. Follow the paver layout plan and place 4,064 pavers in their correct locations. Work alone or together with friends, develop useful skills, and restore the plaza piece by piece.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/5120650/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 89,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 188,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "paver-tidy-up-together",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Transform a chaotic area into a satisfying work of art. Follow the paver layout plan and place 4,064 pavers in their correct locations. Work alone or together with friends, develop useful skills, and restore the plaza piece by piece.",
+        "en": "Transform a chaotic area into a satisfying work of art. Follow the paver layout plan and place 4,064 pavers in their correct locations. Work alone or together with friends, develop useful skills, and restore the plaza piece by piece."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/5120650/",
+          "externalId": "5120650"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "5120650"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 89,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 872,
+      "title": "Driving Rogue",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3088700/3b96f8a65eb87f737b8cb891ebb4eb26ff417ce3/header.jpg?t=1789667925",
+      "description": "Drift, slipstream, and chain risky near-misses at insane speeds to build huge combos. Adapt to procedurally generated streets and challenges, upgrade your ride, unlock abilities, and stack powerful cards to break records. Climb the Redline rankings and fight your way to the top of the leaderboards.",
+      "description_en": "Drift, slipstream, and chain risky near-misses at insane speeds to build huge combos. Adapt to procedurally generated streets and challenges, upgrade your ride, unlock abilities, and stack powerful cards to break records. Climb the Redline rankings and fight your way to the top of the leaderboards.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3088700/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 96,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 165,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "driving-rogue",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Drift, slipstream, and chain risky near-misses at insane speeds to build huge combos. Adapt to procedurally generated streets and challenges, upgrade your ride, unlock abilities, and stack powerful cards to break records. Climb the Redline rankings and fight your way to the top of the leaderboards.",
+        "en": "Drift, slipstream, and chain risky near-misses at insane speeds to build huge combos. Adapt to procedurally generated streets and challenges, upgrade your ride, unlock abilities, and stack powerful cards to break records. Climb the Redline rankings and fight your way to the top of the leaderboards."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3088700/",
+          "externalId": "3088700"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3088700"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 96,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 873,
+      "title": "Kernel Hearts",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2902170/09df5ddeda45059fede495764d25af1f82db5595/header.jpg?t=1789832327",
+      "description": "Gather your allies. Eliminate Angels. Transform into a Magical Girl. Slay god. Kernel Hearts is a Multiplayer Co-Op Roguelike Action RPG about four magical girls and their attempt to save a world that's drowning in ashes",
+      "description_en": "Gather your allies. Eliminate Angels. Transform into a Magical Girl. Slay god. Kernel Hearts is a Multiplayer Co-Op Roguelike Action RPG about four magical girls and their attempt to save a world that's drowning in ashes",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2902170/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 74,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 158,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "kernel-hearts",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Gather your allies. Eliminate Angels. Transform into a Magical Girl. Slay god. Kernel Hearts is a Multiplayer Co-Op Roguelike Action RPG about four magical girls and their attempt to save a world that&#x27;s drowning in ashes",
+        "en": "Gather your allies. Eliminate Angels. Transform into a Magical Girl. Slay god. Kernel Hearts is a Multiplayer Co-Op Roguelike Action RPG about four magical girls and their attempt to save a world that&#x27;s drowning in ashes"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2902170/",
+          "externalId": "2902170"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2902170"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 74,
         "igdb": false,
         "gog": false,
         "rawg": false
