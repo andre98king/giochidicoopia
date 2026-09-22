@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T12:39:06.371042Z",
+  "generatedAt": "2026-09-22T11:30:13.305484Z",
   "games": [
     {
       "id": 1,
@@ -54404,7 +54404,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 188,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "paver-tidy-up-together",
@@ -54453,7 +54453,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 872,
@@ -54493,7 +54494,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 165,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "driving-rogue",
@@ -54542,7 +54543,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 873,
@@ -54582,7 +54584,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 158,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "kernel-hearts",
@@ -54631,7 +54633,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     }
   ]
 }

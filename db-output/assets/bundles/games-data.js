@@ -22290,7 +22290,7 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     coopScore: null,
-    totalReviews: 188,
+    totalReviews: 0,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -22325,7 +22325,7 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     coopScore: null,
-    totalReviews: 165,
+    totalReviews: 0,
     mini_review_it: "",
     mini_review_en: ""
   },
@@ -22360,7 +22360,7 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     coopScore: null,
-    totalReviews: 158,
+    totalReviews: 0,
     mini_review_it: "",
     mini_review_en: ""
   },
