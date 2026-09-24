@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T11:21:03+00:00",
+  "generatedAt": "2026-09-24T11:39:17+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 592,
+    "games": 594,
     "played": 12,
     "trending": 46,
-    "withEnglishDescription": 592,
+    "withEnglishDescription": 594,
     "categoryCounts": {
-      "action": 487,
+      "action": 489,
       "factory": 61,
       "free": 35,
       "horror": 45,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 592
+      "steam": 594
     }
   },
   "games": [
@@ -54586,7 +54586,7 @@
         "online"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "2-4",
       "releaseYear": 2026,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2902170/09df5ddeda45059fede495764d25af1f82db5595/header.jpg?t=1789832327",
@@ -54633,7 +54633,7 @@
         "localCoop": false,
         "splitScreen": false,
         "sharedScreen": false,
-        "crossplay": false,
+        "crossplay": true,
         "playersLabel": "2-4",
         "maxPlayers": 4
       },
@@ -54664,6 +54664,185 @@
         "schemaVersion": 1
       },
       "curatedStatus": "probation"
+    },
+    {
+      "id": 874,
+      "title": "DR Dominoes",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4404610/bf38c8d65a9d9288f24d6cd3da7f7c250b50f9a9/header.jpg?t=1789784601",
+      "description": "Dominican partner dominoes in 3D, with proximity voice chat: you hear every player from where they're sitting. Private rooms, a room browser, offline AI, and games to 100, 120, 150 or 200 points.",
+      "description_en": "Dominican partner dominoes in 3D, with proximity voice chat: you hear every player from where they're sitting. Private rooms, a room browser, offline AI, and games to 100, 120, 150 or 200 points.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4404610/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 100,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 106,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "dr-dominoes",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Dominican partner dominoes in 3D, with proximity voice chat: you hear every player from where they&#x27;re sitting. Private rooms, a room browser, offline AI, and games to 100, 120, 150 or 200 points.",
+        "en": "Dominican partner dominoes in 3D, with proximity voice chat: you hear every player from where they&#x27;re sitting. Private rooms, a room browser, offline AI, and games to 100, 120, 150 or 200 points."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4404610/",
+          "externalId": "4404610"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4404610"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 100,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 875,
+      "title": "Knuckle Jet",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "local",
+        "sofa"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3199470/40c7ad4a5734b5a1515140893c8c4d8aa8e0ab21/header.jpg?t=1790066297",
+      "description": "What's this? An off-the-wall, riveting jetpunk nose-breaking ricochet action platformer, lovingly crafted by the oddballs behind the Teslagrad series!",
+      "description_en": "What's this? An off-the-wall, riveting jetpunk nose-breaking ricochet action platformer, lovingly crafted by the oddballs behind the Teslagrad series!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3199470/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 98,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 114,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "knuckle-jet",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "What&#x27;s this? An off-the-wall, riveting jetpunk nose-breaking ricochet action platformer, lovingly crafted by the oddballs behind the Teslagrad series!",
+        "en": "What&#x27;s this? An off-the-wall, riveting jetpunk nose-breaking ricochet action platformer, lovingly crafted by the oddballs behind the Teslagrad series!"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": false,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3199470/",
+          "externalId": "3199470"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3199470"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 98,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
     }
   ]
 }
