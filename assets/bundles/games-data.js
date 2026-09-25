@@ -23036,7 +23036,7 @@ const games = [
     kgDiscount: 0,
     gmvUrl: "",
     gmvDiscount: 0,
-    totalReviews: 106,
+    totalReviews: 0,
     coopScore: null,
     mini_review_it: "",
     mini_review_en: ""
@@ -23072,7 +23072,7 @@ const games = [
     kgDiscount: 0,
     gmvUrl: "",
     gmvDiscount: 0,
-    totalReviews: 114,
+    totalReviews: 0,
     coopScore: null,
     mini_review_it: "",
     mini_review_en: ""
@@ -23097,7 +23097,7 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0,
+    rating: 96,
     igUrl: "",
     igDiscount: 0,
     gbUrl: "",
@@ -23108,7 +23108,7 @@ const games = [
     kgDiscount: 0,
     gmvUrl: "",
     gmvDiscount: 0,
-    totalReviews: 8046,
+    totalReviews: 4866,
     coopScore: null,
     mini_review_it: "",
     mini_review_en: ""
@@ -23133,7 +23133,7 @@ const games = [
     itchUrl: "",
     ccu: 0,
     trending: false,
-    rating: 0,
+    rating: 61,
     igUrl: "",
     igDiscount: 0,
     gbUrl: "",
@@ -23144,7 +23144,7 @@ const games = [
     kgDiscount: 0,
     gmvUrl: "",
     gmvDiscount: 0,
-    totalReviews: 107,
+    totalReviews: 118,
     coopScore: null,
     mini_review_it: "",
     mini_review_en: ""
