@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T11:20:20+00:00",
+  "generatedAt": "2026-09-27T11:59:16+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 596,
+    "games": 597,
     "played": 12,
     "trending": 46,
-    "withEnglishDescription": 596,
+    "withEnglishDescription": 597,
     "categoryCounts": {
-      "action": 491,
+      "action": 492,
       "factory": 61,
       "free": 35,
       "horror": 45,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 596
+      "steam": 597
     }
   },
   "games": [
@@ -55025,6 +55025,97 @@
         "schemaVersion": 1
       },
       "curatedStatus": "probation"
+    },
+    {
+      "id": 878,
+      "title": "Delverium",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2710040/aeccfece5a14d9b7ebdef2d3b28c87ee000bfca6/header.jpg?t=1790022667",
+      "description": "Explore, Build, Farm, Craft and Fight in this survival sandbox adventure for 1-8 players. Delve deep to uncover the secret of the invading 'Faults' and restore stability to the land.",
+      "description_en": "Explore, Build, Farm, Craft and Fight in this survival sandbox adventure for 1-8 players. Delve deep to uncover the secret of the invading 'Faults' and restore stability to the land.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2710040/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 84,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 125,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "delverium",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Explore, Build, Farm, Craft and Fight in this survival sandbox adventure for 1-8 players. Delve deep to uncover the secret of the invading &#x27;Faults&#x27; and restore stability to the land.",
+        "en": "Explore, Build, Farm, Craft and Fight in this survival sandbox adventure for 1-8 players. Delve deep to uncover the secret of the invading &#x27;Faults&#x27; and restore stability to the land."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2710040/",
+          "externalId": "2710040"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2710040"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 84,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
     }
   ]
 }
