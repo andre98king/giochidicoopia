@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T11:59:16+00:00",
+  "generatedAt": "2026-09-28T13:36:25+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 597,
+    "games": 598,
     "played": 12,
     "trending": 46,
-    "withEnglishDescription": 597,
+    "withEnglishDescription": 598,
     "categoryCounts": {
-      "action": 492,
+      "action": 493,
       "factory": 61,
       "free": 35,
       "horror": 45,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 597
+      "steam": 598
     }
   },
   "games": [
@@ -54859,7 +54859,7 @@
       "maxPlayers": 4,
       "crossplay": false,
       "players": "2-4",
-      "releaseYear": 0,
+      "releaseYear": 2026,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2085540/bdd8ea4758441c2b3c00475e7c3647d0dc52baec/header.jpg?t=1790179341",
       "description": "Stick it to the Stickman is a rogue-lite physics brawler where you brutally displace your way up the corporate ladder. Assemble devastating combat portfolios, unlocking new workers and game modes as you increase shareholder value.",
       "description_en": "Stick it to the Stickman is a rogue-lite physics brawler where you brutally displace your way up the corporate ladder. Assemble devastating combat portfolios, unlocking new workers and game modes as you increase shareholder value.",
@@ -54949,7 +54949,7 @@
       "maxPlayers": 4,
       "crossplay": false,
       "players": "2-4",
-      "releaseYear": 0,
+      "releaseYear": 2026,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4513060/fb0720988f11f3011c8dd5084141c6bc276a60d5/header.jpg?t=1789973956",
       "description": "An online co-op horror game for up to 4 players. Play solo or with your friends to collect Platonic Pumpkins and save your precious friend infected by the terrifying Yandere Virus.",
       "description_en": "An online co-op horror game for up to 4 players. Play solo or with your friends to collect Platonic Pumpkins and save your precious friend infected by the terrifying Yandere Virus.",
@@ -55066,7 +55066,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 125,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "delverium",
@@ -55104,6 +55104,96 @@
         "ccu": 0,
         "trending": false,
         "rating": 84,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 879,
+      "title": "Wand & Order: Tidy up the magic shop!",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4981570/220cdaf5171fb86917cd0f288c4fd551d89f24f9/header.jpg?t=1790501148",
+      "description": "Cozy first person co-op organizing and cleaning simulator! Sort wands, tarot decks and potions. Tidy up the shop to earn points and unlock powerful spells that help you restore order before the Alchemist returns!",
+      "description_en": "Cozy first person co-op organizing and cleaning simulator! Sort wands, tarot decks and potions. Tidy up the shop to earn points and unlock powerful spells that help you restore order before the Alchemist returns!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4981570/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 90,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 185,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "wand-and-order-tidy-up-the-magic-shop",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Cozy first person co-op organizing and cleaning simulator! Sort wands, tarot decks and potions. Tidy up the shop to earn points and unlock powerful spells that help you restore order before the Alchemist returns!",
+        "en": "Cozy first person co-op organizing and cleaning simulator! Sort wands, tarot decks and potions. Tidy up the shop to earn points and unlock powerful spells that help you restore order before the Alchemist returns!"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4981570/",
+          "externalId": "4981570"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4981570"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 90,
         "igdb": false,
         "gog": false,
         "rawg": false
