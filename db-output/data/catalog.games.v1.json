@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T13:36:25+00:00",
+  "generatedAt": "2026-09-29T12:42:37+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 598,
+    "games": 600,
     "played": 12,
     "trending": 46,
-    "withEnglishDescription": 598,
+    "withEnglishDescription": 600,
     "categoryCounts": {
-      "action": 493,
+      "action": 495,
       "factory": 61,
       "free": 35,
       "horror": 45,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 598
+      "steam": 600
     }
   },
   "games": [
@@ -55156,7 +55156,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 185,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "wand-and-order-tidy-up-the-magic-shop",
@@ -55194,6 +55194,185 @@
         "ccu": 0,
         "trending": false,
         "rating": 90,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 880,
+      "title": "Lucid Cats",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4778540/a7eca735be2b883b76eb788d1e84dd5ff8de96df/header.jpg?t=1790360738",
+      "description": "An online co-op horror extraction game. Fall asleep, loot a shared nightmare, and find the escape to keep your valuables.",
+      "description_en": "An online co-op horror extraction game. Fall asleep, loot a shared nightmare, and find the escape to keep your valuables.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4778540/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 71,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 244,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "lucid-cats",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "An online co-op horror extraction game. Fall asleep, loot a shared nightmare, and find the escape to keep your valuables.",
+        "en": "An online co-op horror extraction game. Fall asleep, loot a shared nightmare, and find the escape to keep your valuables."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4778540/",
+          "externalId": "4778540"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4778540"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 71,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 881,
+      "title": "Scapewatch: Idle MMO",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4671380/c3195a5ab8b2d8d36b9bf166f6db8c5bd26d0439/header.jpg?t=1790357247",
+      "description": "30 skills. Three combat styles. Clans, raids, hiscores, pets, capes. Set up your queue, close the tab, come back richer. Scapewatch is the idle MMO for people who actually like the grind.",
+      "description_en": "30 skills. Three combat styles. Clans, raids, hiscores, pets, capes. Set up your queue, close the tab, come back richer. Scapewatch is the idle MMO for people who actually like the grind.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4671380/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 86,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 280,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "scapewatch-idle-mmo",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "30 skills. Three combat styles. Clans, raids, hiscores, pets, capes. Set up your queue, close the tab, come back richer. Scapewatch is the idle MMO for people who actually like the grind.",
+        "en": "30 skills. Three combat styles. Clans, raids, hiscores, pets, capes. Set up your queue, close the tab, come back richer. Scapewatch is the idle MMO for people who actually like the grind."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4671380/",
+          "externalId": "4671380"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4671380"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 86,
         "igdb": false,
         "gog": false,
         "rawg": false
