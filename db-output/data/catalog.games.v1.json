@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T12:42:37+00:00",
+  "generatedAt": "2026-09-30T12:27:51+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 600,
+    "games": 602,
     "played": 12,
     "trending": 46,
-    "withEnglishDescription": 600,
+    "withEnglishDescription": 602,
     "categoryCounts": {
-      "action": 495,
+      "action": 497,
       "factory": 61,
       "free": 35,
       "horror": 45,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 600
+      "steam": 602
     }
   },
   "games": [
@@ -55246,7 +55246,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 244,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "lucid-cats",
@@ -55295,7 +55295,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 881,
@@ -55335,7 +55336,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 280,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "scapewatch-idle-mmo",
@@ -55384,7 +55385,190 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 882,
+      "title": "Backrooms: Code Yellow",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4694270/89a94e014b54f925af55d29121a6197fb76e7286/header.jpg?t=1790352033",
+      "description": "An online 1-6 player co-op game about investigating and collecting data in the infinitely massive Backrooms with your fellow employees. Explore. Do your job. Return alive.",
+      "description_en": "An online 1-6 player co-op game about investigating and collecting data in the infinitely massive Backrooms with your fellow employees. Explore. Do your job. Return alive.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4694270/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 50,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "backrooms-code-yellow",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "An online 1-6 player co-op game about investigating and collecting data in the infinitely massive Backrooms with your fellow employees. Explore. Do your job. Return alive.",
+        "en": "An online 1-6 player co-op game about investigating and collecting data in the infinitely massive Backrooms with your fellow employees. Explore. Do your job. Return alive."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4694270/",
+          "externalId": "4694270"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4694270"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 50,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 883,
+      "title": "EA SPORTS FC™ 27",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "maxPlayers": 4,
+      "crossplay": true,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4080220/ff6a3779f1ca83aae8ad3878454f6c11008ea24d/header.jpg?t=1790357926",
+      "description": "Welcome to The World’s Game in EA SPORTS FC™ 27. Step into The Grounds to experience a football playground where the streets meet the stadium, and feel greater control in every mode as community-driven innovations deliver more true-to-football gameplay.",
+      "description_en": "Welcome to The World’s Game in EA SPORTS FC™ 27. Step into The Grounds to experience a football playground where the streets meet the stadium, and feel greater control in every mode as community-driven innovations deliver more true-to-football gameplay.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4080220/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 55,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "ea-sports-fctm-27",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Welcome to The World’s Game in EA SPORTS FC™ 27. Step into The Grounds to experience a football playground where the streets meet the stadium, and feel greater control in every mode as community-driven innovations deliver more true-to-football gameplay.",
+        "en": "Welcome to The World’s Game in EA SPORTS FC™ 27. Step into The Grounds to experience a football playground where the streets meet the stadium, and feel greater control in every mode as community-driven innovations deliver more true-to-football gameplay."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
+        "crossplay": true,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4080220/",
+          "externalId": "4080220"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4080220"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 55,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
     }
   ]
 }
