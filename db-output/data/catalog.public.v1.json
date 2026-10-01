@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T12:27:51.678603Z",
+  "generatedAt": "2026-10-01T13:02:23.241122Z",
   "games": [
     {
       "id": 1,
@@ -46977,7 +46977,8 @@
       ],
       "genres": [],
       "coopMode": [
-        "online"
+        "online",
+        "local"
       ],
       "maxPlayers": 4,
       "crossplay": true,
@@ -47024,7 +47025,7 @@
       },
       "capabilities": {
         "onlineCoop": true,
-        "localCoop": false,
+        "localCoop": true,
         "splitScreen": false,
         "sharedScreen": false,
         "crossplay": true,
@@ -55540,6 +55541,276 @@
         "schemaVersion": 1
       },
       "curatedStatus": "probation"
+    },
+    {
+      "id": 884,
+      "title": "Minecraft Dungeons II",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local",
+        "sofa"
+      ],
+      "maxPlayers": 4,
+      "crossplay": true,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1912410/86cbba83c1aaffa0b0efa4197ce29c2264ea9dc2/header.jpg?t=1790668865",
+      "description": "A new threat descends upon the Overworld...",
+      "description_en": "A new threat descends upon the Overworld...",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1912410/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 58,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "minecraft-dungeons-ii",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "A new threat descends upon the Overworld...",
+        "en": "A new threat descends upon the Overworld..."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
+        "crossplay": true,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1912410/",
+          "externalId": "1912410"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "1912410"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 58,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 885,
+      "title": "Way of the Hunter 2",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2543830/89b81de5ed439dcdcfca24611a416c5ddb033c63/header.jpg?t=1790692945",
+      "description": "Experience the most advanced, realistic, and visually stunning hunting adventure across vast wilderness in North America and Africa. Encounter lifelike animal behavior, dynamic ecosystems, and dangerous wildlife while building a collection of trophies in your lodge.",
+      "description_en": "Experience the most advanced, realistic, and visually stunning hunting adventure across vast wilderness in North America and Africa. Encounter lifelike animal behavior, dynamic ecosystems, and dangerous wildlife while building a collection of trophies in your lodge.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2543830/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 73,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 1688,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "way-of-the-hunter-2",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Experience the most advanced, realistic, and visually stunning hunting adventure across vast wilderness in North America and Africa. Encounter lifelike animal behavior, dynamic ecosystems, and dangerous wildlife while building a collection of trophies in your lodge.",
+        "en": "Experience the most advanced, realistic, and visually stunning hunting adventure across vast wilderness in North America and Africa. Encounter lifelike animal behavior, dynamic ecosystems, and dangerous wildlife while building a collection of trophies in your lodge."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2543830/",
+          "externalId": "2543830"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2543830"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 73,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 886,
+      "title": "Frutiger Home",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935530/361e40f3ffb8bae7f06b95af6fe172243acdf0bb/header.jpg?t=1790725359",
+      "description": "Decorate your dream frutiger home in this cozy co-op frutiger aero house decorating game. Pick a home layout, add from a wide range of frutiger-themed decor and hang out with your friends!",
+      "description_en": "Decorate your dream frutiger home in this cozy co-op frutiger aero house decorating game. Pick a home layout, add from a wide range of frutiger-themed decor and hang out with your friends!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3935530/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 94,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 133,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "frutiger-home",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Decorate your dream frutiger home in this cozy co-op frutiger aero house decorating game. Pick a home layout, add from a wide range of frutiger-themed decor and hang out with your friends!",
+        "en": "Decorate your dream frutiger home in this cozy co-op frutiger aero house decorating game. Pick a home layout, add from a wide range of frutiger-themed decor and hang out with your friends!"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3935530/",
+          "externalId": "3935530"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3935530"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 94,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
     }
   ]
 }
