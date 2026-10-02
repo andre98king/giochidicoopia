@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T13:02:23+00:00",
+  "generatedAt": "2026-10-02T12:27:31+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 605,
+    "games": 606,
     "played": 12,
     "trending": 46,
-    "withEnglishDescription": 605,
+    "withEnglishDescription": 606,
     "categoryCounts": {
-      "action": 500,
+      "action": 501,
       "factory": 61,
       "free": 35,
       "horror": 45,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 605
+      "steam": 606
     }
   },
   "games": [
@@ -55701,7 +55701,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 1688,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "way-of-the-hunter-2",
@@ -55750,7 +55750,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 886,
@@ -55790,7 +55791,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 133,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "frutiger-home",
@@ -55828,6 +55829,96 @@
         "ccu": 0,
         "trending": false,
         "rating": 94,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 887,
+      "title": "DYNASTY WARRIORS 3: Complete Edition Remastered",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3841510/3e4981c87cb8674a9668424e3560d1144d736ed5/header.jpg?t=1790817204",
+      "description": "A warrior worth a thousand reforged. A remake of DYNASTY WARRIORS 3 and DYNASTY WARRIORS 3: Xtreme Legends with modern graphics and even more thrilling action.",
+      "description_en": "A warrior worth a thousand reforged. A remake of DYNASTY WARRIORS 3 and DYNASTY WARRIORS 3: Xtreme Legends with modern graphics and even more thrilling action.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3841510/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 85,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 712,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "dynasty-warriors-3-complete-edition-remastered",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "A warrior worth a thousand reforged. A remake of DYNASTY WARRIORS 3 and DYNASTY WARRIORS 3: Xtreme Legends with modern graphics and even more thrilling action.",
+        "en": "A warrior worth a thousand reforged. A remake of DYNASTY WARRIORS 3 and DYNASTY WARRIORS 3: Xtreme Legends with modern graphics and even more thrilling action."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3841510/",
+          "externalId": "3841510"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3841510"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 85,
         "igdb": false,
         "gog": false,
         "rawg": false
