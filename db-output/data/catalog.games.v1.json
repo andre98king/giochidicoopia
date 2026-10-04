@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T11:37:18+00:00",
+  "generatedAt": "2026-10-04T12:16:51+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
@@ -55971,7 +55971,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 4093,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "ace-combat-8-wings-of-theve",
@@ -56020,7 +56020,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     }
   ]
 }

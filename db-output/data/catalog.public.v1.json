@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T11:37:18.943484Z",
+  "generatedAt": "2026-10-04T12:16:52.056545Z",
   "games": [
     {
       "id": 1,
@@ -55942,7 +55942,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 4093,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "ace-combat-8-wings-of-theve",
@@ -55991,7 +55991,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     }
   ]
 }
