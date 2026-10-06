@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-05T14:19:48+00:00",
+  "generatedAt": "2026-10-06T13:18:55+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 607,
+    "games": 608,
     "played": 12,
     "trending": 46,
-    "withEnglishDescription": 607,
+    "withEnglishDescription": 608,
     "categoryCounts": {
-      "action": 502,
+      "action": 503,
       "factory": 61,
       "free": 35,
       "horror": 45,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 607
+      "steam": 608
     }
   },
   "games": [
@@ -54046,9 +54046,9 @@
       "coopMode": [
         "online"
       ],
-      "maxPlayers": 4,
+      "maxPlayers": 200,
       "crossplay": true,
-      "players": "2-4",
+      "players": "1-200",
       "releaseYear": 2026,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3560670/b33eddb983569a4b0b4ac6ba5a23554b3dc3755f/header.jpg?t=1789647376",
       "description": "A massively multiplayer real-time strategy game pitting hundreds of players against one another. Over one million nuke each other every month.",
@@ -54095,8 +54095,8 @@
         "splitScreen": false,
         "sharedScreen": false,
         "crossplay": true,
-        "playersLabel": "2-4",
-        "maxPlayers": 4
+        "playersLabel": "1-200",
+        "maxPlayers": 200
       },
       "storefronts": [
         {
@@ -55310,7 +55310,7 @@
         "online"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "2-4",
       "releaseYear": 2026,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4671380/c3195a5ab8b2d8d36b9bf166f6db8c5bd26d0439/header.jpg?t=1790357247",
@@ -55357,7 +55357,7 @@
         "localCoop": false,
         "splitScreen": false,
         "sharedScreen": false,
-        "crossplay": false,
+        "crossplay": true,
         "playersLabel": "2-4",
         "maxPlayers": 4
       },
@@ -55851,7 +55851,8 @@
       ],
       "genres": [],
       "coopMode": [
-        "online"
+        "local",
+        "sofa"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -55897,10 +55898,10 @@
         "genres": []
       },
       "capabilities": {
-        "onlineCoop": true,
-        "localCoop": false,
-        "splitScreen": false,
-        "sharedScreen": false,
+        "onlineCoop": false,
+        "localCoop": true,
+        "splitScreen": true,
+        "sharedScreen": true,
         "crossplay": false,
         "playersLabel": "2-4",
         "maxPlayers": 4
@@ -55944,7 +55945,7 @@
         "online"
       ],
       "maxPlayers": 8,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-8",
       "releaseYear": 2026,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288340/13dea8084135fd130605b78189c82e39bf944c35/header.jpg?t=1790908088",
@@ -55991,7 +55992,7 @@
         "localCoop": false,
         "splitScreen": false,
         "sharedScreen": false,
-        "crossplay": false,
+        "crossplay": true,
         "playersLabel": "1-8",
         "maxPlayers": 8
       },
@@ -56009,6 +56010,96 @@
         "ccu": 0,
         "trending": false,
         "rating": 78,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 889,
+      "title": "DUAL PROTOCOL: The Case of Eva & Miles",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4660280/706812c0feb71db9f9a24692a907a01f0ccd7be9/header.jpg?t=1790965168",
+      "description": "Play as Agent Eva to follow the trail, or as Analyst Miles to manage the operation. Dual Protocol is an asymmetric noir puzzle game where two players progress only through conversation. Without seeing each other’s screens, combine the data you have and uncover the truth behind the Castellari murder.",
+      "description_en": "Play as Agent Eva to follow the trail, or as Analyst Miles to manage the operation. Dual Protocol is an asymmetric noir puzzle game where two players progress only through conversation. Without seeing each other’s screens, combine the data you have and uncover the truth behind the Castellari murder.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4660280/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 56,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "dual-protocol-the-case-of-eva-and-miles",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Play as Agent Eva to follow the trail, or as Analyst Miles to manage the operation. Dual Protocol is an asymmetric noir puzzle game where two players progress only through conversation. Without seeing each other’s screens, combine the data you have and uncover the truth behind the Castellari murder.",
+        "en": "Play as Agent Eva to follow the trail, or as Analyst Miles to manage the operation. Dual Protocol is an asymmetric noir puzzle game where two players progress only through conversation. Without seeing each other’s screens, combine the data you have and uncover the truth behind the Castellari murder."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4660280/",
+          "externalId": "4660280"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4660280"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 56,
         "igdb": false,
         "gog": false,
         "rawg": false
