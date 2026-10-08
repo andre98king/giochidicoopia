@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-07T13:13:47.750716Z",
+  "generatedAt": "2026-10-08T13:21:49.223301Z",
   "games": [
     {
       "id": 1,
@@ -17156,7 +17156,7 @@
         "online"
       ],
       "maxPlayers": 2,
-      "crossplay": false,
+      "crossplay": true,
       "players": "1-2",
       "releaseYear": 2024,
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/669330/header.jpg",
@@ -17205,7 +17205,7 @@
         "localCoop": false,
         "splitScreen": false,
         "sharedScreen": false,
-        "crossplay": false,
+        "crossplay": true,
         "playersLabel": "1-2",
         "maxPlayers": 2
       },
