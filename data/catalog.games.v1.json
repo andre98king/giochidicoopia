@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-11T12:39:17+00:00",
+  "generatedAt": "2026-10-12T15:07:23+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 615,
+    "games": 616,
     "played": 12,
     "trending": 46,
-    "withEnglishDescription": 615,
+    "withEnglishDescription": 616,
     "categoryCounts": {
-      "action": 510,
+      "action": 511,
       "factory": 61,
       "free": 35,
       "horror": 45,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 615
+      "steam": 616
     }
   },
   "games": [
@@ -56216,7 +56216,7 @@
       ],
       "maxPlayers": 4,
       "crossplay": false,
-      "players": "2-4",
+      "players": "1-4",
       "releaseYear": 2026,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2235200/4e69a837d1d47cc03ccf92e961255ac67d5d51fa/header_alt_assets_0.jpg?t=1791431953",
       "description": "Dive into the cybermyth roguelike chaos of Neon Abyss 2! Now featuring up to 4-player online co-op, more combat styles, and unlimited item synergies, every run delivers a dramatic, action-packed experience you won't forget.",
@@ -56263,7 +56263,7 @@
         "splitScreen": false,
         "sharedScreen": false,
         "crossplay": false,
-        "playersLabel": "2-4",
+        "playersLabel": "1-4",
         "maxPlayers": 4
       },
       "storefronts": [
@@ -56690,7 +56690,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 179,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "japanese-ramen-simulator",
@@ -56728,6 +56728,96 @@
         "ccu": 0,
         "trending": false,
         "rating": 92,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 899,
+      "title": "Permafrost",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2254990/693eff202c061aaecba330b44d76485a672bea97/header.jpg?t=1791608052",
+      "description": "Permafrost is a story-driven survival sandbox set in a frozen, post-apocalyptic world. Discover a vast lore-rich open world, alone or in co-op with up to 4 players. Explore, scavenge, craft, and build a network of shelters to outlast the cold.",
+      "description_en": "Permafrost is a story-driven survival sandbox set in a frozen, post-apocalyptic world. Discover a vast lore-rich open world, alone or in co-op with up to 4 players. Explore, scavenge, craft, and build a network of shelters to outlast the cold.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2254990/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 71,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 906,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "permafrost",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Permafrost is a story-driven survival sandbox set in a frozen, post-apocalyptic world. Discover a vast lore-rich open world, alone or in co-op with up to 4 players. Explore, scavenge, craft, and build a network of shelters to outlast the cold.",
+        "en": "Permafrost is a story-driven survival sandbox set in a frozen, post-apocalyptic world. Discover a vast lore-rich open world, alone or in co-op with up to 4 players. Explore, scavenge, craft, and build a network of shelters to outlast the cold."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2254990/",
+          "externalId": "2254990"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2254990"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 71,
         "igdb": false,
         "gog": false,
         "rawg": false
