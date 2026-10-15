@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-14T11:45:13.593992Z",
+  "generatedAt": "2026-10-15T11:21:56.293154Z",
   "games": [
     {
       "id": 1,
@@ -56892,6 +56892,363 @@
         "schemaVersion": 1
       },
       "curatedStatus": "probation"
+    },
+    {
+      "id": 901,
+      "title": "Remote Reaper: FPV Combat Drone Simulator",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3295810/9e335e31c571838dd92286b766a7218980630829/header_alt_assets_1.jpg?t=1791963430",
+      "description": "Realistic Ukrainian FPV combat drone simulator built with frontline pilots. Train like a real pilot: fight through enemy jamming, watch your battery, find armor weak spots, and finish the strike before the signal dies. Supports RadioMaster, DJI FPV, TBS and gamepads. Online co-op, mission editor.",
+      "description_en": "Realistic Ukrainian FPV combat drone simulator built with frontline pilots. Train like a real pilot: fight through enemy jamming, watch your battery, find armor weak spots, and finish the strike before the signal dies. Supports RadioMaster, DJI FPV, TBS and gamepads. Online co-op, mission editor.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3295810/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 3,
+      "trending": false,
+      "rating": 97,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 62,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "remote-reaper-fpv-combat-drone-simulator",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Realistic Ukrainian FPV combat drone simulator built with frontline pilots. Train like a real pilot: fight through enemy jamming, watch your battery, find armor weak spots, and finish the strike before the signal dies. Supports RadioMaster, DJI FPV, TBS and gamepads. Online co-op, mission editor.",
+        "en": "Realistic Ukrainian FPV combat drone simulator built with frontline pilots. Train like a real pilot: fight through enemy jamming, watch your battery, find armor weak spots, and finish the strike before the signal dies. Supports RadioMaster, DJI FPV, TBS and gamepads. Online co-op, mission editor."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3295810/",
+          "externalId": "3295810"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3295810"
+      },
+      "signals": {
+        "ccu": 3,
+        "trending": false,
+        "rating": 97,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 903,
+      "title": "Deep Dish Dungeon",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2871520/a941857720d5b6a62a2e0a7646f2ca46b00039b6/header_alt_assets_1.jpg?t=1791960486",
+      "description": "A survival exploration game where you navigate through a puzzly hand-crafted dungeon, with metroidvania and crafting elements. Unravel the enigmas of the dungeon’s depths solo or online co-op multiplayer.",
+      "description_en": "A survival exploration game where you navigate through a puzzly hand-crafted dungeon, with metroidvania and crafting elements. Unravel the enigmas of the dungeon’s depths solo or online co-op multiplayer.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2871520/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 74,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 203,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "deep-dish-dungeon",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "A survival exploration game where you navigate through a puzzly hand-crafted dungeon, with metroidvania and crafting elements. Unravel the enigmas of the dungeon’s depths solo or online co-op multiplayer.",
+        "en": "A survival exploration game where you navigate through a puzzly hand-crafted dungeon, with metroidvania and crafting elements. Unravel the enigmas of the dungeon’s depths solo or online co-op multiplayer."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2871520/",
+          "externalId": "2871520"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2871520"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 74,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 904,
+      "title": "Barfender: CO-OP Bar Simulator",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4159680/280a499be305b957c74d9d95ad72eece968296b1/header_alt_assets_6.jpg?t=1791811201",
+      "description": "Barfender is a chaotic 1–4 player co-op bar sim where you pour drinks, clean disasters, stop fights, and try to keep the bar alive while everything falls apart. Build the place, serve the crowd, survive the night.",
+      "description_en": "Barfender is a chaotic 1–4 player co-op bar sim where you pour drinks, clean disasters, stop fights, and try to keep the bar alive while everything falls apart. Build the place, serve the crowd, survive the night.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4159680/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 95,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 145,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "barfender-co-op-bar-simulator",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Barfender is a chaotic 1–4 player co-op bar sim where you pour drinks, clean disasters, stop fights, and try to keep the bar alive while everything falls apart. Build the place, serve the crowd, survive the night.",
+        "en": "Barfender is a chaotic 1–4 player co-op bar sim where you pour drinks, clean disasters, stop fights, and try to keep the bar alive while everything falls apart. Build the place, serve the crowd, survive the night."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4159680/",
+          "externalId": "4159680"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4159680"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 95,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 905,
+      "title": "Sort The Capybaras",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5130480/13edff66f11240d5fcb217805745d0473a174a7f/header.jpg?t=1791976294",
+      "description": "Sort The Capybaras is a cozy organizing simulator for 1–4 players. Sort more than 4,800 capybara toys with 240 unique designs and place them on their proper shelves. Enjoy the satisfying rush of using powerful skills to turn a messy capybara shop into a perfectly organized collection.",
+      "description_en": "Sort The Capybaras is a cozy organizing simulator for 1–4 players. Sort more than 4,800 capybara toys with 240 unique designs and place them on their proper shelves. Enjoy the satisfying rush of using powerful skills to turn a messy capybara shop into a perfectly organized collection.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/5130480/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 94,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 118,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "sort-the-capybaras",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Sort The Capybaras is a cozy organizing simulator for 1–4 players. Sort more than 4,800 capybara toys with 240 unique designs and place them on their proper shelves. Enjoy the satisfying rush of using powerful skills to turn a messy capybara shop into a perfectly organized collection.",
+        "en": "Sort The Capybaras is a cozy organizing simulator for 1–4 players. Sort more than 4,800 capybara toys with 240 unique designs and place them on their proper shelves. Enjoy the satisfying rush of using powerful skills to turn a messy capybara shop into a perfectly organized collection."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/5130480/",
+          "externalId": "5130480"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "5130480"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 94,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
     }
   ]
 }
