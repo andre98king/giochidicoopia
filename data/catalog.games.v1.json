@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-15T11:21:56+00:00",
+  "generatedAt": "2026-10-16T11:18:33+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 621,
+    "games": 624,
     "played": 12,
     "trending": 46,
-    "withEnglishDescription": 621,
+    "withEnglishDescription": 624,
     "categoryCounts": {
-      "action": 516,
+      "action": 519,
       "factory": 61,
       "free": 35,
       "horror": 45,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 621
+      "steam": 624
     }
   },
   "games": [
@@ -57022,7 +57022,7 @@
         "online"
       ],
       "maxPlayers": 4,
-      "crossplay": false,
+      "crossplay": true,
       "players": "2-4",
       "releaseYear": 2026,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2871520/a941857720d5b6a62a2e0a7646f2ca46b00039b6/header_alt_assets_1.jpg?t=1791960486",
@@ -57049,7 +57049,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 203,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "deep-dish-dungeon",
@@ -57069,7 +57069,7 @@
         "localCoop": false,
         "splitScreen": false,
         "sharedScreen": false,
-        "crossplay": false,
+        "crossplay": true,
         "playersLabel": "2-4",
         "maxPlayers": 4
       },
@@ -57098,7 +57098,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 904,
@@ -57139,7 +57140,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 145,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "barfender-co-op-bar-simulator",
@@ -57188,7 +57189,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 905,
@@ -57228,7 +57230,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 118,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "sort-the-capybaras",
@@ -57266,6 +57268,274 @@
         "ccu": 0,
         "trending": false,
         "rating": 94,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 906,
+      "title": "over the hill",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/header.jpg?t=1792002879",
+      "description": "Explore the world in the golden age of offroading. Drive iconic 4x4 vehicles from the 60s to 80s by yourself or with friends through challenging trails and beautiful scenery.",
+      "description_en": "Explore the world in the golden age of offroading. Drive iconic 4x4 vehicles from the 60s to 80s by yourself or with friends through challenging trails and beautiful scenery.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2929250/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 92,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 1181,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "over-the-hill",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Explore the world in the golden age of offroading. Drive iconic 4x4 vehicles from the 60s to 80s by yourself or with friends through challenging trails and beautiful scenery.",
+        "en": "Explore the world in the golden age of offroading. Drive iconic 4x4 vehicles from the 60s to 80s by yourself or with friends through challenging trails and beautiful scenery."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2929250/",
+          "externalId": "2929250"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2929250"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 92,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 907,
+      "title": "Ratatan",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2949320/274bc23d79c61dd41445a1c9e7438a9529b08395/header_alt_assets_0.jpg?t=1791991254",
+      "description": "Ratatan is a rhythm roguelike action game that combines rhythm games and side-scrolling action, with online co-op gameplay supporting up to 4 players. An intense battle unfolds with over 100 characters fighting in a massive melee. Let's defeat the enemies together!",
+      "description_en": "Ratatan is a rhythm roguelike action game that combines rhythm games and side-scrolling action, with online co-op gameplay supporting up to 4 players. An intense battle unfolds with over 100 characters fighting in a massive melee. Let's defeat the enemies together!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2949320/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 88,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 957,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "ratatan",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Ratatan is a rhythm roguelike action game that combines rhythm games and side-scrolling action, with online co-op gameplay supporting up to 4 players. An intense battle unfolds with over 100 characters fighting in a massive melee. Let&#x27;s defeat the enemies together!",
+        "en": "Ratatan is a rhythm roguelike action game that combines rhythm games and side-scrolling action, with online co-op gameplay supporting up to 4 players. An intense battle unfolds with over 100 characters fighting in a massive melee. Let&#x27;s defeat the enemies together!"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2949320/",
+          "externalId": "2949320"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2949320"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 88,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 909,
+      "title": "Trash Day",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314580/6d7cb32debcbdba122624fae234c659cdff2b4bf/header.jpg?t=1791911043",
+      "description": "Team up with your raccoon squad in this physics-based co-op adventure for up to 6 players. Scavenge trash, fill your stolen wagon, and haul it to Raccoon Paradise. Live your best raccoon life.",
+      "description_en": "Team up with your raccoon squad in this physics-based co-op adventure for up to 6 players. Scavenge trash, fill your stolen wagon, and haul it to Raccoon Paradise. Live your best raccoon life.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3314580/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 96,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 232,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "trash-day",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Team up with your raccoon squad in this physics-based co-op adventure for up to 6 players. Scavenge trash, fill your stolen wagon, and haul it to Raccoon Paradise. Live your best raccoon life.",
+        "en": "Team up with your raccoon squad in this physics-based co-op adventure for up to 6 players. Scavenge trash, fill your stolen wagon, and haul it to Raccoon Paradise. Live your best raccoon life."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3314580/",
+          "externalId": "3314580"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3314580"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 96,
         "igdb": false,
         "gog": false,
         "rawg": false
