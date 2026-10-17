@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-16T11:18:33.631922Z",
+  "generatedAt": "2026-10-17T10:40:46.253258Z",
   "games": [
     {
       "id": 1,
@@ -57291,7 +57291,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 1181,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "over-the-hill",
@@ -57340,7 +57340,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 907,
@@ -57380,7 +57381,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 957,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "ratatan",
@@ -57429,7 +57430,98 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 908,
+      "title": "No Such Place",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3299050/1ca62da11a7fd1742b3741fcc0d492a47989432c/header.jpg?t=1791980785",
+      "description": "Welcome to the Unknown Research Consortium (U.R.C.), where you’re tasked with conducting reconnaissance missions, terminating unknown threats, gathering crucial information, and reaching the evacuation point in this treacherous top-down extraction shooter.",
+      "description_en": "Welcome to the Unknown Research Consortium (U.R.C.), where you’re tasked with conducting reconnaissance missions, terminating unknown threats, gathering crucial information, and reaching the evacuation point in this treacherous top-down extraction shooter.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3299050/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 61,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "no-such-place",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Welcome to the Unknown Research Consortium (U.R.C.), where you’re tasked with conducting reconnaissance missions, terminating unknown threats, gathering crucial information, and reaching the evacuation point in this treacherous top-down extraction shooter.",
+        "en": "Welcome to the Unknown Research Consortium (U.R.C.), where you’re tasked with conducting reconnaissance missions, terminating unknown threats, gathering crucial information, and reaching the evacuation point in this treacherous top-down extraction shooter."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3299050/",
+          "externalId": "3299050"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3299050"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 61,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 909,
@@ -57469,7 +57561,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 232,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "trash-day",
@@ -57507,6 +57599,631 @@
         "ccu": 0,
         "trending": false,
         "rating": 96,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 911,
+      "title": "Scam With Your Friends",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4954910/128effac3212fc1b92b4f6cd8891995df0d4b199/header.jpg?t=1792088818",
+      "description": "Run a scam call center with your friends. Use increasingly ridiculous schemes to trick AI callers out of their life savings. Hit your daily quota, cause chaos around the office, and survive a brutal performance review from your rageaholic boss.",
+      "description_en": "Run a scam call center with your friends. Use increasingly ridiculous schemes to trick AI callers out of their life savings. Hit your daily quota, cause chaos around the office, and survive a brutal performance review from your rageaholic boss.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4954910/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 77,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 1417,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "scam-with-your-friends",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Run a scam call center with your friends. Use increasingly ridiculous schemes to trick AI callers out of their life savings. Hit your daily quota, cause chaos around the office, and survive a brutal performance review from your rageaholic boss.",
+        "en": "Run a scam call center with your friends. Use increasingly ridiculous schemes to trick AI callers out of their life savings. Hit your daily quota, cause chaos around the office, and survive a brutal performance review from your rageaholic boss."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4954910/",
+          "externalId": "4954910"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4954910"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 77,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 912,
+      "title": "Chained Beasts",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online",
+        "local"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3569420/be237edbd1bdbcf361d7b315d70e89fea3b5262a/header.jpg?t=1792082632",
+      "description": "Chained Beasts is a 1-4 player co-op gladiator roguelike. Fight chaotic battles chained to your friends. Use your chains or the arena to beat up foes in creative ways and win over the bloodthirsty crowd. Endure physical and mental injuries to defeat fearsome bosses and survive the day.",
+      "description_en": "Chained Beasts is a 1-4 player co-op gladiator roguelike. Fight chaotic battles chained to your friends. Use your chains or the arena to beat up foes in creative ways and win over the bloodthirsty crowd. Endure physical and mental injuries to defeat fearsome bosses and survive the day.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3569420/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 86,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 270,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "chained-beasts",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Chained Beasts is a 1-4 player co-op gladiator roguelike. Fight chaotic battles chained to your friends. Use your chains or the arena to beat up foes in creative ways and win over the bloodthirsty crowd. Endure physical and mental injuries to defeat fearsome bosses and survive the day.",
+        "en": "Chained Beasts is a 1-4 player co-op gladiator roguelike. Fight chaotic battles chained to your friends. Use your chains or the arena to beat up foes in creative ways and win over the bloodthirsty crowd. Endure physical and mental injuries to defeat fearsome bosses and survive the day."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": true,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3569420/",
+          "externalId": "3569420"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3569420"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 86,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 913,
+      "title": "Disney/Pixar Toy Story 3 Complete Edition",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4049180/8d4e4c2c303b6bca383f7d3473400236096fbca2/header.jpg?t=1792084145",
+      "description": "Reopen the toy chest and saddle up as Woody, Buzz Lightyear, and Jessie in Toy Story 3 Complete Edition, a 3D adventure based on the hit 2010 animated film, Toy Story 3. Play through authentic movie moments in Story Mode, or drop into the wild west sandbox of Woody’s Roundup in Toy Box Mode.",
+      "description_en": "Reopen the toy chest and saddle up as Woody, Buzz Lightyear, and Jessie in Toy Story 3 Complete Edition, a 3D adventure based on the hit 2010 animated film, Toy Story 3. Play through authentic movie moments in Story Mode, or drop into the wild west sandbox of Woody’s Roundup in Toy Box Mode.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4049180/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 85,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 251,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "disney-pixar-toy-story-3-complete-edition",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Reopen the toy chest and saddle up as Woody, Buzz Lightyear, and Jessie in Toy Story 3 Complete Edition, a 3D adventure based on the hit 2010 animated film, Toy Story 3. Play through authentic movie moments in Story Mode, or drop into the wild west sandbox of Woody’s Roundup in Toy Box Mode.",
+        "en": "Reopen the toy chest and saddle up as Woody, Buzz Lightyear, and Jessie in Toy Story 3 Complete Edition, a 3D adventure based on the hit 2010 animated film, Toy Story 3. Play through authentic movie moments in Story Mode, or drop into the wild west sandbox of Woody’s Roundup in Toy Box Mode."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4049180/",
+          "externalId": "4049180"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4049180"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 85,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 914,
+      "title": "Frosthaven",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2347080/c6c09a8eb1a0fac5ac8e0d2ea0a228c8303d8967/header.jpg?t=1792089974",
+      "description": "From the creative mind of Isaac Childres, the highly acclaimed board game moves to the digital realm in the video game adaptation of FROSTHAVEN! The dark fantasy tactical RPG features deep mechanics and challenging yet satisfying gameplay both in Single Player and Co-Op Online Multiplayer.",
+      "description_en": "From the creative mind of Isaac Childres, the highly acclaimed board game moves to the digital realm in the video game adaptation of FROSTHAVEN! The dark fantasy tactical RPG features deep mechanics and challenging yet satisfying gameplay both in Single Player and Co-Op Online Multiplayer.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2347080/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 72,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 877,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "frosthaven",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "From the creative mind of Isaac Childres, the highly acclaimed board game moves to the digital realm in the video game adaptation of FROSTHAVEN! The dark fantasy tactical RPG features deep mechanics and challenging yet satisfying gameplay both in Single Player and Co-Op Online Multiplayer.",
+        "en": "From the creative mind of Isaac Childres, the highly acclaimed board game moves to the digital realm in the video game adaptation of FROSTHAVEN! The dark fantasy tactical RPG features deep mechanics and challenging yet satisfying gameplay both in Single Player and Co-Op Online Multiplayer."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2347080/",
+          "externalId": "2347080"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2347080"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 72,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 915,
+      "title": "Realm of Taiwu",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3452720/f38ab78ff2820ab8c508254481ec6027ed0eddb4/header.jpg?t=1792086426",
+      "description": "Realm of Taiwu is a The Scroll of Taiwu spin-off. The story unfolds across an alternate branching timeline of the original universe: the Taiwu Hero never arrives, the Fuyu Sword falls to Xiangshu, and the world sinks into endless darkness.",
+      "description_en": "Realm of Taiwu is a The Scroll of Taiwu spin-off. The story unfolds across an alternate branching timeline of the original universe: the Taiwu Hero never arrives, the Fuyu Sword falls to Xiangshu, and the world sinks into endless darkness.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3452720/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 75,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 310,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "realm-of-taiwu",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Realm of Taiwu is a The Scroll of Taiwu spin-off. The story unfolds across an alternate branching timeline of the original universe: the Taiwu Hero never arrives, the Fuyu Sword falls to Xiangshu, and the world sinks into endless darkness.",
+        "en": "Realm of Taiwu is a The Scroll of Taiwu spin-off. The story unfolds across an alternate branching timeline of the original universe: the Taiwu Hero never arrives, the Fuyu Sword falls to Xiangshu, and the world sinks into endless darkness."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3452720/",
+          "externalId": "3452720"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3452720"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 75,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 916,
+      "title": "Roguefort",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4274730/bf027fc733cf38827296b88bf815d1393757e00f/header.jpg?t=1791896433",
+      "description": "An open-world roguelike RPG where magic comes from cheesemaking. Explore a living continent, join Guilds, crawl dungeons, build a homestead and sail with friends. Or start a settlement in Fortress mode and manage its people, farms and workshops.",
+      "description_en": "An open-world roguelike RPG where magic comes from cheesemaking. Explore a living continent, join Guilds, crawl dungeons, build a homestead and sail with friends. Or start a settlement in Fortress mode and manage its people, farms and workshops.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4274730/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 84,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 126,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "roguefort",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "An open-world roguelike RPG where magic comes from cheesemaking. Explore a living continent, join Guilds, crawl dungeons, build a homestead and sail with friends. Or start a settlement in Fortress mode and manage its people, farms and workshops.",
+        "en": "An open-world roguelike RPG where magic comes from cheesemaking. Explore a living continent, join Guilds, crawl dungeons, build a homestead and sail with friends. Or start a settlement in Fortress mode and manage its people, farms and workshops."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4274730/",
+          "externalId": "4274730"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4274730"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 84,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 917,
+      "title": "Ghost hunter",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2490960/5859115b403e9fbffc26341c593033f4cdbab239/header.jpg?t=1792133757",
+      "description": "《Ghost Hunter》 is an online collaborative psychological horror game that can be played by at least one and up to five players together. Unlike other ghost hunting games, it incorporates rich Taoist elements and experiences traditional Chinese supernatural culture.",
+      "description_en": "《Ghost Hunter》 is an online collaborative psychological horror game that can be played by at least one and up to five players together. Unlike other ghost hunting games, it incorporates rich Taoist elements and experiences traditional Chinese supernatural culture.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2490960/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 74,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 144,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "ghost-hunter",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "《Ghost Hunter》 is an online collaborative psychological horror game that can be played by at least one and up to five players together. Unlike other ghost hunting games, it incorporates rich Taoist elements and experiences traditional Chinese supernatural culture.",
+        "en": "《Ghost Hunter》 is an online collaborative psychological horror game that can be played by at least one and up to five players together. Unlike other ghost hunting games, it incorporates rich Taoist elements and experiences traditional Chinese supernatural culture."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2490960/",
+          "externalId": "2490960"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2490960"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 74,
         "igdb": false,
         "gog": false,
         "rawg": false
