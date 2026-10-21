@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-20T11:26:38.499478Z",
+  "generatedAt": "2026-10-21T11:43:29.235976Z",
   "games": [
     {
       "id": 1,
@@ -58410,6 +58410,184 @@
         "ccu": 2,
         "trending": false,
         "rating": 90,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 921,
+      "title": "GONE Fishing",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3645890/ccf41cdf893f47a5a692f05e2344df5e2fdeb3d9/header_alt_assets_0.jpg?t=1792492815",
+      "description": "GONE Fishing is a 1-8 player survival horror game where you and your friends must work together to stay alive, by fishing. The only way to survive is to keep feeding the lake’s insatiable hunger before it feeds on you. Can you satisfy the hunger... or will you become the next offering?",
+      "description_en": "GONE Fishing is a 1-8 player survival horror game where you and your friends must work together to stay alive, by fishing. The only way to survive is to keep feeding the lake’s insatiable hunger before it feeds on you. Can you satisfy the hunger... or will you become the next offering?",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3645890/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 93,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 2161,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "gone-fishing",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "GONE Fishing is a 1-8 player survival horror game where you and your friends must work together to stay alive, by fishing. The only way to survive is to keep feeding the lake’s insatiable hunger before it feeds on you. Can you satisfy the hunger... or will you become the next offering?",
+        "en": "GONE Fishing is a 1-8 player survival horror game where you and your friends must work together to stay alive, by fishing. The only way to survive is to keep feeding the lake’s insatiable hunger before it feeds on you. Can you satisfy the hunger... or will you become the next offering?"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3645890/",
+          "externalId": "3645890"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3645890"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 93,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 922,
+      "title": "Folded Fables: Tidy Up The Dragon Hoard",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4995030/8759272466890195b12794304f1f8286d2eb4789/header.jpg?t=1792107469",
+      "description": "Unwind in a relaxing first-person Tidy Up game where you'll sort and arrange 5,648 treasures in a papercraft world. Level up, unlock new skills, and tally every coin. Play solo or tidy up together with friends. Supports up to 16 players in online co-op.",
+      "description_en": "Unwind in a relaxing first-person Tidy Up game where you'll sort and arrange 5,648 treasures in a papercraft world. Level up, unlock new skills, and tally every coin. Play solo or tidy up together with friends. Supports up to 16 players in online co-op.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4995030/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 97,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 134,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "folded-fables-tidy-up-the-dragon-hoard",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Unwind in a relaxing first-person Tidy Up game where you&#x27;ll sort and arrange 5,648 treasures in a papercraft world. Level up, unlock new skills, and tally every coin. Play solo or tidy up together with friends. Supports up to 16 players in online co-op.",
+        "en": "Unwind in a relaxing first-person Tidy Up game where you&#x27;ll sort and arrange 5,648 treasures in a papercraft world. Level up, unlock new skills, and tally every coin. Play solo or tidy up together with friends. Supports up to 16 players in online co-op."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4995030/",
+          "externalId": "4995030"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4995030"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 97,
         "igdb": false,
         "gog": false,
         "rawg": false
