@@ -704,7 +704,7 @@ const games = [
     title: "Factorio",
     categories: ["factory", "strategy", "survival", "indie"],
     coopMode: ["online", "local"],
-    maxPlayers: None,
+    maxPlayers: 10000,
     crossplay: true,
     players: "1-65535",
     releaseYear: 2020,
@@ -24530,7 +24530,7 @@ const games = [
     gmvUrl: "",
     gmvDiscount: 0,
     coopScore: null,
-    totalReviews: 594,
+    totalReviews: 0,
     mini_review_it: "",
     mini_review_en: ""
   },

@@ -727,7 +727,7 @@ const games = [
     categories: ["factory", "strategy", "survival", "indie"],
     genres: [],
     coopMode: ["online", "local"],
-    maxPlayers: 65535,
+    maxPlayers: 10000,
     crossplay: true,
     players: "1-65535",
     releaseYear: 2020,
@@ -25232,7 +25232,7 @@ const games = [
     kgDiscount: 0,
     gmvUrl: "",
     gmvDiscount: 0,
-    totalReviews: 594,
+    totalReviews: 0,
     coopScore: null,
     mini_review_it: "",
     mini_review_en: ""

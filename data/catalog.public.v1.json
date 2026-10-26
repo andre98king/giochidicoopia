@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-25T11:17:58.884436Z",
+  "generatedAt": "2026-10-26T12:49:59.678360Z",
   "games": [
     {
       "id": 1,
@@ -1828,7 +1828,7 @@
         "online",
         "local"
       ],
-      "maxPlayers": null,
+      "maxPlayers": 10000,
       "crossplay": true,
       "players": "1-65535",
       "releaseYear": 2020,
@@ -1881,7 +1881,7 @@
         "sharedScreen": false,
         "crossplay": true,
         "playersLabel": "1-65535",
-        "maxPlayers": 0
+        "maxPlayers": 10000
       },
       "storefronts": [
         {
@@ -59631,7 +59631,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 594,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "moon-sweepers",
@@ -59680,7 +59680,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     }
   ]
 }
