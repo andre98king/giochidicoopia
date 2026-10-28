@@ -10,7 +10,7 @@ const freeGames = [
   {
     "title": "Sker Ritual",
     "store": "epic",
-    "imageUrl": "https://cdn1.epicgames.com/spt-assets/43d96f4437e34c87b7eff08831d1b1de/sker-ritual-1tuka.png",
+    "imageUrl": "https://cdn1.epicgames.com/spt-assets/43d96f4437e34c87b7eff08831d1b1de/sker-ritual-14x61.jpg",
     "storeUrl": "https://store.epicgames.com/en-US/p/sker-ritual-aac702",
     "freeUntil": "2026-10-29T15:00:00Z"
   }
