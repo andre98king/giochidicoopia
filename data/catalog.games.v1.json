@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T12:08:14+00:00",
+  "generatedAt": "2026-10-28T12:43:55+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 648,
+    "games": 650,
     "played": 12,
     "trending": 46,
-    "withEnglishDescription": 648,
+    "withEnglishDescription": 650,
     "categoryCounts": {
-      "action": 543,
+      "action": 545,
       "factory": 61,
       "free": 35,
       "horror": 45,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 648
+      "steam": 650
     }
   },
   "games": [
@@ -59711,6 +59711,184 @@
         "schemaVersion": 1
       },
       "curatedStatus": "probation"
+    },
+    {
+      "id": 936,
+      "title": "SEVERANCE",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 5,
+      "crossplay": false,
+      "players": "1-5",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3815750/06e6f359bcde19d12a965368a12597c2d5572be4/header.jpg?t=1793035138",
+      "description": "Severance is a 1-5 player paranormal investigation game… with a twist. Use tools and equipment to identify the correct ghost type while a dangerous, violent entity hunts you down. The twist? YOU can become the ghost. Choose Ghost AI, or an asymmetrical mode where a player takes the Ghost role.",
+      "description_en": "Severance is a 1-5 player paranormal investigation game… with a twist. Use tools and equipment to identify the correct ghost type while a dangerous, violent entity hunts you down. The twist? YOU can become the ghost. Choose Ghost AI, or an asymmetrical mode where a player takes the Ghost role.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3815750/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 70,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 463,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "severance",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Severance is a 1-5 player paranormal investigation game… with a twist. Use tools and equipment to identify the correct ghost type while a dangerous, violent entity hunts you down. The twist? YOU can become the ghost. Choose Ghost AI, or an asymmetrical mode where a player takes the Ghost role.",
+        "en": "Severance is a 1-5 player paranormal investigation game… with a twist. Use tools and equipment to identify the correct ghost type while a dangerous, violent entity hunts you down. The twist? YOU can become the ghost. Choose Ghost AI, or an asymmetrical mode where a player takes the Ghost role."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-5",
+        "maxPlayers": 5
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3815750/",
+          "externalId": "3815750"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3815750"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 70,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 937,
+      "title": "CRACK",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4312190/9dfa7d4efdcc88aa5663a31f02633391eb5ef843/header.jpg?t=1793035699",
+      "description": "Why is there a giant egg in this lab? Your job is simple: crack it open. Don't ask questions. CRACK is a 1-4 player co-op incremental adventure about uncovering what's inside a mysterious giant egg.",
+      "description_en": "Why is there a giant egg in this lab? Your job is simple: crack it open. Don't ask questions. CRACK is a 1-4 player co-op incremental adventure about uncovering what's inside a mysterious giant egg.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4312190/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 85,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 322,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "crack",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Why is there a giant egg in this lab? Your job is simple: crack it open. Don&#x27;t ask questions. CRACK is a 1-4 player co-op incremental adventure about uncovering what&#x27;s inside a mysterious giant egg.",
+        "en": "Why is there a giant egg in this lab? Your job is simple: crack it open. Don&#x27;t ask questions. CRACK is a 1-4 player co-op incremental adventure about uncovering what&#x27;s inside a mysterious giant egg."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4312190/",
+          "externalId": "4312190"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4312190"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 85,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
     }
   ]
 }
