@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T12:51:26+00:00",
+  "generatedAt": "2026-10-30T12:43:20+00:00",
   "source": {
     "type": "legacy-runtime-import",
     "path": "games.js"
   },
   "featuredIndieId": 180,
   "stats": {
-    "games": 651,
+    "games": 653,
     "played": 12,
     "trending": 46,
-    "withEnglishDescription": 651,
+    "withEnglishDescription": 653,
     "categoryCounts": {
-      "action": 546,
+      "action": 548,
       "factory": 61,
       "free": 35,
       "horror": 45,
@@ -27,7 +27,7 @@
     },
     "storeCounts": {
       "epic": 46,
-      "steam": 651
+      "steam": 653
     }
   },
   "games": [
@@ -59931,7 +59931,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 208,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "pao-pao",
@@ -59969,6 +59969,185 @@
         "ccu": 0,
         "trending": false,
         "rating": 91,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 940,
+      "title": "Nomad Drive",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223980/433d5727162af686f0e7d56de539f8476fb0cf0e/header.jpg?t=1793144594",
+      "description": "Repair your rundown RV and hit the road solo or in 1–4 player co-op through a procedurally generated post-apocalyptic world. Gather resources, customize your RV, and survive as long as you can.",
+      "description_en": "Repair your rundown RV and hit the road solo or in 1–4 player co-op through a procedurally generated post-apocalyptic world. Gather resources, customize your RV, and survive as long as you can.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2223980/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 83,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 256,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "nomad-drive",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Repair your rundown RV and hit the road solo or in 1–4 player co-op through a procedurally generated post-apocalyptic world. Gather resources, customize your RV, and survive as long as you can.",
+        "en": "Repair your rundown RV and hit the road solo or in 1–4 player co-op through a procedurally generated post-apocalyptic world. Gather resources, customize your RV, and survive as long as you can."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2223980/",
+          "externalId": "2223980"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2223980"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 83,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 941,
+      "title": "Screen Stocks",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4356780/11a372aceb4c330437ed9d8813555cc285f03a34/header.jpg?t=1793095492",
+      "description": "Screen Stocks is an online multiplayer trading game featuring a real-time simulated market. Buy, short, and sell stocks to gain unprecedented levels of wealth. Team up with other traders or outsmart them all. It's time to make some money!",
+      "description_en": "Screen Stocks is an online multiplayer trading game featuring a real-time simulated market. Buy, short, and sell stocks to gain unprecedented levels of wealth. Team up with other traders or outsmart them all. It's time to make some money!",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4356780/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 92,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 150,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "screen-stocks",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Screen Stocks is an online multiplayer trading game featuring a real-time simulated market. Buy, short, and sell stocks to gain unprecedented levels of wealth. Team up with other traders or outsmart them all. It&#x27;s time to make some money!",
+        "en": "Screen Stocks is an online multiplayer trading game featuring a real-time simulated market. Buy, short, and sell stocks to gain unprecedented levels of wealth. Team up with other traders or outsmart them all. It&#x27;s time to make some money!"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4356780/",
+          "externalId": "4356780"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4356780"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 92,
         "igdb": false,
         "gog": false,
         "rawg": false
