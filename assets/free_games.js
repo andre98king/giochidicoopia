@@ -13,5 +13,12 @@ const freeGames = [
     "imageUrl": "https://cdn1.epicgames.com/spt-assets/9ab7eaaeb2f041969b350955b789f0f7/sorry-were-closed-1orqh.png",
     "storeUrl": "https://store.epicgames.com/en-US/p/sorry-were-closed-724c86",
     "freeUntil": "2026-11-02T16:00:00Z"
+  },
+  {
+    "title": "Asleep: Act 1",
+    "store": "steam",
+    "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1583850/b0106b8af875bcac09ab575d8e704d4d50ebafb3/header_alt_assets_1.jpg?t=1793381725",
+    "storeUrl": "https://store.steampowered.com/app/1583850/",
+    "freeUntil": "2026-11-02T18:00:00Z"
   }
 ];
