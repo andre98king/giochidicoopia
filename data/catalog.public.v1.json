@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-31T12:13:53.746354Z",
+  "generatedAt": "2026-11-01T13:12:25.828855Z",
   "games": [
     {
       "id": 1,
@@ -19293,7 +19293,8 @@
       ],
       "genres": [],
       "coopMode": [
-        "online"
+        "online",
+        "local"
       ],
       "maxPlayers": 4,
       "crossplay": false,
@@ -19341,7 +19342,7 @@
       },
       "capabilities": {
         "onlineCoop": true,
-        "localCoop": false,
+        "localCoop": true,
         "splitScreen": false,
         "sharedScreen": false,
         "crossplay": false,
@@ -44548,7 +44549,7 @@
       ],
       "maxPlayers": 4,
       "crossplay": false,
-      "players": "2-4",
+      "players": "1-4",
       "releaseYear": 2026,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210580/b305646840dc9db685bc40596da7bdaea388c694/header.jpg?t=1784206688",
       "description": "Ore Factory Squad is a co-op mining and factory-building game with procedural mining and fun at its core! Play alone or with friends, buy properties, dig deep for valuable resources, complete contracts, upgrade and automate production lines and grow your factory from zero to industry!",
@@ -44595,7 +44596,7 @@
         "splitScreen": false,
         "sharedScreen": false,
         "crossplay": false,
-        "playersLabel": "2-4",
+        "playersLabel": "1-4",
         "maxPlayers": 4
       },
       "storefronts": [
@@ -60223,6 +60224,274 @@
         "schemaVersion": 1
       },
       "curatedStatus": "probation"
+    },
+    {
+      "id": 942,
+      "title": "ATMOSFAR",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1798230/96e6f00d5ecb7c37ba07577ac02ac75fad16055a/header.jpg?t=1793341656",
+      "description": "Uncover the fate of humanity's final outpost as you survive and explore a thrilling world of floating islands. Brave the skies on your own or assemble a squadron of friends, and scavenge scrap to engineer and upgrade flying vessels, bringing your airship along for the journey.",
+      "description_en": "Uncover the fate of humanity's final outpost as you survive and explore a thrilling world of floating islands. Brave the skies on your own or assemble a squadron of friends, and scavenge scrap to engineer and upgrade flying vessels, bringing your airship along for the journey.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1798230/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 67,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "atmosfar",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Uncover the fate of humanity&#x27;s final outpost as you survive and explore a thrilling world of floating islands. Brave the skies on your own or assemble a squadron of friends, and scavenge scrap to engineer and upgrade flying vessels, bringing your airship along for the journey.",
+        "en": "Uncover the fate of humanity&#x27;s final outpost as you survive and explore a thrilling world of floating islands. Brave the skies on your own or assemble a squadron of friends, and scavenge scrap to engineer and upgrade flying vessels, bringing your airship along for the journey."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1798230/",
+          "externalId": "1798230"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "1798230"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 67,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 943,
+      "title": "Milo",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2665020/adeede75839fae152e3e0fb43145182bd427c367/header.jpg?t=1793286953",
+      "description": "Fight alone or beside others trapped in the same nightmare. Survive waves of deranged cultists and grow your mischief of rats. The longer you stay, the more you can save, and the more you risk losing before reaching Traang, Milo’s Arcade.",
+      "description_en": "Fight alone or beside others trapped in the same nightmare. Survive waves of deranged cultists and grow your mischief of rats. The longer you stay, the more you can save, and the more you risk losing before reaching Traang, Milo’s Arcade.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/2665020/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 75,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 127,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "milo",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Fight alone or beside others trapped in the same nightmare. Survive waves of deranged cultists and grow your mischief of rats. The longer you stay, the more you can save, and the more you risk losing before reaching Traang, Milo’s Arcade.",
+        "en": "Fight alone or beside others trapped in the same nightmare. Survive waves of deranged cultists and grow your mischief of rats. The longer you stay, the more you can save, and the more you risk losing before reaching Traang, Milo’s Arcade."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/2665020/",
+          "externalId": "2665020"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "2665020"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 75,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 944,
+      "title": "S.O.N.A.R. - Submarine Operators Not Actually Ready",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "1-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4096830/79e55d368aefa2c2d829264b348c7f0e8eb3d06a/header.jpg?t=1793347410",
+      "description": "S.O.N.A.R. (Submarine Operators Not Actually Ready) is a 1–6 player co-op submarine sim where teamwork is essential, panic is inevitable, and sinking is always one wrong button away. Use sonar, pilot, fight, repair, and pray your friends know what to do.",
+      "description_en": "S.O.N.A.R. (Submarine Operators Not Actually Ready) is a 1–6 player co-op submarine sim where teamwork is essential, panic is inevitable, and sinking is always one wrong button away. Use sonar, pilot, fight, repair, and pray your friends know what to do.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/4096830/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 94,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 177,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "s-o-n-a-r-submarine-operators-not-actually-ready",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "S.O.N.A.R. (Submarine Operators Not Actually Ready) is a 1–6 player co-op submarine sim where teamwork is essential, panic is inevitable, and sinking is always one wrong button away. Use sonar, pilot, fight, repair, and pray your friends know what to do.",
+        "en": "S.O.N.A.R. (Submarine Operators Not Actually Ready) is a 1–6 player co-op submarine sim where teamwork is essential, panic is inevitable, and sinking is always one wrong button away. Use sonar, pilot, fight, repair, and pray your friends know what to do."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "1-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/4096830/",
+          "externalId": "4096830"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "4096830"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 94,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
     }
   ]
 }
