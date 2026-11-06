@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-05T14:34:39.537795Z",
+  "generatedAt": "2026-11-06T14:13:48.396893Z",
   "games": [
     {
       "id": 1,
@@ -60777,9 +60777,9 @@
       "coopMode": [
         "online"
       ],
-      "maxPlayers": 4,
+      "maxPlayers": 6,
       "crossplay": false,
-      "players": "1-4",
+      "players": "1-6",
       "releaseYear": 2026,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3253530/7ed466827327d7e7bc6d90d5d1e2605e67f3bd0f/header_alt_assets_1.jpg?t=1793714489",
       "description": "In this online horror co-op, you play as a scrappy goblin, scavenging dungeons, dodging traps, and fleeing monsters to feed the Goblin King-Queen. Team up with goblin pals, or go rogue, as you dive deep and cause chaos! Fail to feed them, and you might be the next meal!",
@@ -60826,8 +60826,8 @@
         "splitScreen": false,
         "sharedScreen": false,
         "crossplay": false,
-        "playersLabel": "1-4",
-        "maxPlayers": 4
+        "playersLabel": "1-6",
+        "maxPlayers": 6
       },
       "storefronts": [
         {
@@ -61037,6 +61037,96 @@
       "curatedStatus": "probation"
     },
     {
+      "id": 949,
+      "title": "ArcheAge Chronicles",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218230/header.jpg?t=1793752512",
+      "description": "Explore Auroria, a vast and vibrant world brimming with rich lore and thrilling action. ArcheAge Chronicles delivers an immersive experience that will capture players' hearts, whether they are newcomers to the setting or seasoned adventurers.",
+      "description_en": "Explore Auroria, a vast and vibrant world brimming with rich lore and thrilling action. ArcheAge Chronicles delivers an immersive experience that will capture players' hearts, whether they are newcomers to the setting or seasoned adventurers.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3218230/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 67,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 0,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "archeage-chronicles",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Explore Auroria, a vast and vibrant world brimming with rich lore and thrilling action. ArcheAge Chronicles delivers an immersive experience that will capture players&#x27; hearts, whether they are newcomers to the setting or seasoned adventurers.",
+        "en": "Explore Auroria, a vast and vibrant world brimming with rich lore and thrilling action. ArcheAge Chronicles delivers an immersive experience that will capture players&#x27; hearts, whether they are newcomers to the setting or seasoned adventurers."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3218230/",
+          "externalId": "3218230"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3218230"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 67,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
       "id": 950,
       "title": "Dungeon Rampage Remastered",
       "categories": [
@@ -61074,7 +61164,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 862,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "dungeon-rampage-remastered",
@@ -61123,7 +61213,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 951,
@@ -61163,7 +61254,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 1163,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "scam-line",
@@ -61212,7 +61303,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 952,
@@ -61252,7 +61344,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 440,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "loftia",
@@ -61301,7 +61393,8 @@
       "sourceMeta": {
         "ingestSource": "games.js",
         "schemaVersion": 1
-      }
+      },
+      "curatedStatus": "probation"
     },
     {
       "id": 953,
@@ -61379,6 +61472,95 @@
         "ccu": 15,
         "trending": false,
         "rating": 77,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 954,
+      "title": "BOOST VECTOR EX",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3832030/230939528d9de1b9fe7c3e5c8ac34357aeb179c3/header.jpg?t=1793648561",
+      "description": "RUN FAST. Faster than any other. Take control of a Vector Master and sprint in uncompromising pure parkour racing. Hone your style with responsive, flowing controls and break limits in the Premier Vector World Cup. The race, your friends, and victory beckon your arrival... Did I mention it was fast?",
+      "description_en": "RUN FAST. Faster than any other. Take control of a Vector Master and sprint in uncompromising pure parkour racing. Hone your style with responsive, flowing controls and break limits in the Premier Vector World Cup. The race, your friends, and victory beckon your arrival... Did I mention it was fast?",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3832030/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 0,
+      "trending": false,
+      "rating": 94,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 121,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "boost-vector-ex",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "RUN FAST. Faster than any other. Take control of a Vector Master and sprint in uncompromising pure parkour racing. Hone your style with responsive, flowing controls and break limits in the Premier Vector World Cup. The race, your friends, and victory beckon your arrival... Did I mention it was fast?",
+        "en": "RUN FAST. Faster than any other. Take control of a Vector Master and sprint in uncompromising pure parkour racing. Hone your style with responsive, flowing controls and break limits in the Premier Vector World Cup. The race, your friends, and victory beckon your arrival... Did I mention it was fast?"
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3832030/",
+          "externalId": "3832030"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3832030"
+      },
+      "signals": {
+        "ccu": 0,
+        "trending": false,
+        "rating": 94,
         "igdb": false,
         "gog": false,
         "rawg": false
