@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-06T14:13:48.396893Z",
+  "generatedAt": "2026-11-07T12:57:30.711527Z",
   "games": [
     {
       "id": 1,
@@ -61523,7 +61523,7 @@
       "gmgUrl": "",
       "gmgDiscount": 0,
       "coopScore": null,
-      "totalReviews": 121,
+      "totalReviews": 0,
       "mini_review_it": "",
       "mini_review_en": "",
       "slug": "boost-vector-ex",
@@ -61561,6 +61561,185 @@
         "ccu": 0,
         "trending": false,
         "rating": 94,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      },
+      "curatedStatus": "probation"
+    },
+    {
+      "id": 955,
+      "title": "Piano Glow",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3499520/header.jpg?t=1793961997",
+      "description": "Piano in online multiplayer lobbies, with leaderboards, gamified training modes (ear, sheet, rhythm, 4K/7K and falling notes). Play any song using either a QWERTY computer/laptop keyboard or a piano. Convert any piano video or sheet music into falling notes tutorial/MIDI.",
+      "description_en": "Piano in online multiplayer lobbies, with leaderboards, gamified training modes (ear, sheet, rhythm, 4K/7K and falling notes). Play any song using either a QWERTY computer/laptop keyboard or a piano. Convert any piano video or sheet music into falling notes tutorial/MIDI.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/3499520/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 3,
+      "trending": false,
+      "rating": 100,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 27,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "piano-glow",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "Piano in online multiplayer lobbies, with leaderboards, gamified training modes (ear, sheet, rhythm, 4K/7K and falling notes). Play any song using either a QWERTY computer/laptop keyboard or a piano. Convert any piano video or sheet music into falling notes tutorial/MIDI.",
+        "en": "Piano in online multiplayer lobbies, with leaderboards, gamified training modes (ear, sheet, rhythm, 4K/7K and falling notes). Play any song using either a QWERTY computer/laptop keyboard or a piano. Convert any piano video or sheet music into falling notes tutorial/MIDI."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/3499520/",
+          "externalId": "3499520"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "3499520"
+      },
+      "signals": {
+        "ccu": 3,
+        "trending": false,
+        "rating": 100,
+        "igdb": false,
+        "gog": false,
+        "rawg": false
+      },
+      "editorial": {
+        "played": false,
+        "personalNote": ""
+      },
+      "sourceMeta": {
+        "ingestSource": "games.js",
+        "schemaVersion": 1
+      }
+    },
+    {
+      "id": 956,
+      "title": "ZED ZONE",
+      "categories": [
+        "action"
+      ],
+      "genres": [],
+      "coopMode": [
+        "online"
+      ],
+      "maxPlayers": 4,
+      "crossplay": false,
+      "players": "2-4",
+      "releaseYear": 2026,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1211600/aac7446006d1fb3898eccf697406d0c357cf20a3/header_alt_assets_2.jpg?t=1793949713",
+      "description": "A great catastrophe has struck. While on a mission, your aircraft crashes and you are trapped in the Zed Zone. Zombies and monsters are everywhere. To escape, gather materials, upgrade your skills, build shelters, and defeat zombie hordes and mysterious mechs as you chase a glimmer of hope.",
+      "description_en": "A great catastrophe has struck. While on a mission, your aircraft crashes and you are trapped in the Zed Zone. Zombies and monsters are everywhere. To escape, gather materials, upgrade your skills, build shelters, and defeat zombie hordes and mysterious mechs as you chase a glimmer of hope.",
+      "personalNote": "",
+      "played": false,
+      "steamUrl": "https://store.steampowered.com/app/1211600/",
+      "epicUrl": "",
+      "itchUrl": "",
+      "ccu": 18,
+      "trending": false,
+      "rating": 81,
+      "igUrl": "",
+      "igDiscount": 0,
+      "gbUrl": "",
+      "gbDiscount": 0,
+      "gsUrl": "",
+      "gsDiscount": 0,
+      "kgUrl": "",
+      "kgDiscount": 0,
+      "gmvUrl": "",
+      "gmvDiscount": 0,
+      "gmgUrl": "",
+      "gmgDiscount": 0,
+      "coopScore": null,
+      "totalReviews": 3315,
+      "mini_review_it": "",
+      "mini_review_en": "",
+      "slug": "zed-zone",
+      "isFeaturedIndie": false,
+      "descriptions": {
+        "it": "A great catastrophe has struck. While on a mission, your aircraft crashes and you are trapped in the Zed Zone. Zombies and monsters are everywhere. To escape, gather materials, upgrade your skills, build shelters, and defeat zombie hordes and mysterious mechs as you chase a glimmer of hope.",
+        "en": "A great catastrophe has struck. While on a mission, your aircraft crashes and you are trapped in the Zed Zone. Zombies and monsters are everywhere. To escape, gather materials, upgrade your skills, build shelters, and defeat zombie hordes and mysterious mechs as you chase a glimmer of hope."
+      },
+      "taxonomy": {
+        "categories": [
+          "action"
+        ],
+        "genres": []
+      },
+      "capabilities": {
+        "onlineCoop": true,
+        "localCoop": false,
+        "splitScreen": false,
+        "sharedScreen": false,
+        "crossplay": false,
+        "playersLabel": "2-4",
+        "maxPlayers": 4
+      },
+      "storefronts": [
+        {
+          "store": "steam",
+          "url": "https://store.steampowered.com/app/1211600/",
+          "externalId": "1211600"
+        }
+      ],
+      "externalIds": {
+        "steamAppId": "1211600"
+      },
+      "signals": {
+        "ccu": 18,
+        "trending": false,
+        "rating": 81,
         "igdb": false,
         "gog": false,
         "rawg": false
